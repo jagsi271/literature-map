@@ -428,3 +428,30 @@ W4417076036,A7,include,"Claude (manual review, Stage 2)",service delivery in Dha
 W4206267073,A7,include,"Claude (manual review, Stage 2)",Splintering Urbanism at 20 and the infrastructural turn
 W4414880026,A7,exclude,"Claude (manual review, Stage 2)",smart governance special issue (C1)
 W4407163765,A7,include,"Claude (manual review, Stage 2)",energy poverty in an informal settlement
+W7162869078,A8,include,"Claude (manual review, Stage 2)","politics of sustainable urban mobility, Lahore and Karachi"
+W4404731590,A8,include,"Claude (manual review, Stage 2)","women's safety and access to public transport, Dhaka (flag false positive)"
+W2901362936,A8,exclude,"Claude (manual review, Stage 2)","news item, not research"
+W2791551619,A8,exclude,"Claude (manual review, Stage 2)",tobacco use survey
+W2623164717,A8,exclude,"Claude (manual review, Stage 2)",low back pain survey
+W3027316741,A8,exclude,"Claude (manual review, Stage 2)",respiratory health study
+W4214928630,A8,exclude,"Claude (manual review, Stage 2)",transport simulation software
+W2555509407,A8,include,"Claude (manual review, Stage 2)",distributive justice and transport equity
+W2967384502,A8,exclude,"Claude (manual review, Stage 2)",book review (Mobility Justice)
+W3095291149,A8,exclude,"Claude (manual review, Stage 2)",COVID travel-behaviour survey
+W2607480509,A8,exclude,"Claude (manual review, Stage 2)",cardiovascular cohort study
+W2552953724,A8,exclude,"Claude (manual review, Stage 2)",book review (Transport Justice)
+W2276056662,A8,exclude,"Claude (manual review, Stage 2)",transport simulation software
+W1970192388,A8,exclude,"Claude (manual review, Stage 2)",gender and cities (A12); mobility in passing
+W2588607978,A8,include,"Claude (manual review, Stage 2)",transport equity analysis (special-issue introduction)
+W2096304082,A8,exclude,"Claude (manual review, Stage 2)",electric two-wheeler review
+W2035952931,A8,include,"Claude (manual review, Stage 2)",mobile publics and urban mobilities
+W3046910880,A8,exclude,"Claude (manual review, Stage 2)",mask compliance in paratransit
+W2949545642,A8,exclude,"Claude (manual review, Stage 2)",MaaS implementation (C9)
+W2209775912,A8,exclude,"Claude (manual review, Stage 2)",MaaS field trial (C9)
+W7128377137,A8,exclude,"Claude (manual review, Stage 2)",project record without content
+W4413640574,A8,include,"Claude (manual review, Stage 2)",transport equity (reference entry)
+W4387971836,A8,include,"Claude (manual review, Stage 2)",mobility justice special issue introduction
+W4388941086,A8,exclude,"Claude (manual review, Stage 2)",multispecies mobility justice (butterflies)
+W4409214185,A8,exclude,"Claude (manual review, Stage 2)",book review (City of Men)
+W7204797254,A8,exclude,"Claude (manual review, Stage 2)",book review (City of Men)
+W7214017573,A8,exclude,"Claude (manual review, Stage 2)",crystallography software named Auto-Rickshaw

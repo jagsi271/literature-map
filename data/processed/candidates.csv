@@ -1886,7 +1886,7 @@ W7117486730,A8,india,A8_india_q1,8,"Integrating Socio-Cultural and Environmental
 W4407788551,A8,india,A8_india_q1,9,"Multimodal integration in India: Opportunities, challenges, and strategies for sustainable urban mobility",2025,article,32,True,include,6,rules,include
 W7159949852,A8,india,A8_india_q1,10,Transit Migration in Delhi : A case study of temporary urban mobility,2026,article,0,True,include,4,rules,include
 W7202343205,A8,india,A8_india_q1,11,Equity in Urban Mobility: A Case Study of Bangalore’s Transportation System,2026,article,0,False,include,3,no abstract; core (and context) in title,include
-W7162869078,A8,india,A8_india_q1,12,"The Political Economy of Sustainable Mobility: A Comparative Analysis of State Capacity and SDG 11 in Lahore and Karachi, Pakistan",2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7162869078,A8,india,A8_india_q1,12,"The Political Economy of Sustainable Mobility: A Comparative Analysis of State Capacity and SDG 11 in Lahore and Karachi, Pakistan",2026,article,0,True,borderline,1,"core concept mentioned once | manual: politics of sustainable urban mobility, Lahore and Karachi",include
 W7149567436,A8,india,A8_india_q1,13,Metro Infrastructure for Sustainable Urban Mobility in the Pune Metropolitan Region: A Geographic Assessment,2026,article,0,True,include,6,rules,include
 W4416056617,A8,india,A8_india_q1,14,Analysis of urban mobility and quality of life: North–South transit-oriented development (TOD) in Bengaluru,2025,article,0,True,include,6,rules,include
 W7148584306,A8,india,A8_india_q1,15,Metro Infrastructure for Sustainable Urban Mobility in the Mumbai Metropolitan Region: A Geographic Assessment,2026,article,0,True,include,4,rules,include
@@ -1912,7 +1912,7 @@ W4394935118,A8,india,A8_india_q3,4,"Challenges and barriers for gender-inclusive
 W4405377471,A8,india,A8_india_q3,5,A Small-scale Study on Gender-based Violence in Public Transport in Sri Lanka,2024,article,1,True,include,6,rules,include
 W4385819400,A8,india,A8_india_q3,6,Women Safety in Public Transport—A Case of Ahmedabad,2023,conference-paper,2,False,include,3,no abstract; core in title; context terms missing,include
 W4396665508,A8,india,A8_india_q3,7,The everyday struggles of accessing public transport for women in the first- and last-mile stretches in Kolkata,2024,article,20,True,include,6,core in title; context terms missing,include
-W4404731590,A8,india,A8_india_q3,8,"Between resilience and risk: Women negotiating safety and access to public transport infrastructures in Dhaka, Bangladesh",2024,dissertation,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4404731590,A8,india,A8_india_q3,8,"Between resilience and risk: Women negotiating safety and access to public transport infrastructures in Dhaka, Bangladesh",2024,dissertation,0,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: women's safety and access to public transport, Dhaka (flag false positive)",include
 W2295666781,A8,india,A8_india_q3,9,Informal public transport modes in India: A case study of five city regions,2016,article,116,True,include,6,rules,include
 W3216111795,A8,india,A8_india_q3,10,Smashing Spatial Patriarchy: Shifting gender norms driving sexual and gender-based violence on public transport in Sri Lanka,2019,article,3,True,include,6,rules,include
 W4401784930,A8,india,A8_india_q3,11,The affects and emotions of everyday commutes in Kolkata: shaping women’s public transport mobility,2024,article,20,True,include,6,core in title; context terms missing,include
@@ -1922,18 +1922,18 @@ W2900200077,A8,india,A8_india_q3,14,WOMEN VICTIMS OF SEXUAL HARASSMENT IN PUBLIC
 W2323066427,A8,india,A8_india_q3,15,APPRAISING THE STRONGLY ASSOCIATED IMPACTS TO CHOOSE THE MODE OF PUBLIC TRANSPORT: A CASE STUDY OF COLOMBO METROPOLITAN AREA IN SRI LANKA,2016,article,3,True,include,6,rules,include
 W416035785,A8,india,A8_india_q4,1,Auto-Rickshaw Drivers in Delhi,2003,article,0,True,include,4,core in title; context terms missing,include
 W2612535246,A8,india,A8_india_q4,2,"Tobacco consumption pattern among auto rickshaw drivers in Chennai city, Tamil Nadu, India",2017,article,2,False,include,3,no abstract; core (and context) in title,include
-W2901362936,A8,india,A8_india_q4,3,India: Delhi's auto-rickshaw drivers are caught in a hard grind – South Asia Citizens Web,2020,article,0,True,borderline,5,stub abstract (possible book review),pending
+W2901362936,A8,india,A8_india_q4,3,India: Delhi's auto-rickshaw drivers are caught in a hard grind – South Asia Citizens Web,2020,article,0,True,borderline,5,"stub abstract (possible book review) | manual: news item, not research",exclude
 W4386955785,A8,india,A8_india_q4,4,"Spatio-temporal exposure assessment of particulate matter pollution in auto-rickshaw drivers in Chennai, India",2023,article,4,False,include,3,no abstract; core in title; context terms missing,include
 W7128440349,A8,india,A8_india_q4,5,A Socio-economic Study of Auto Rickshaw Drivers in Kolkata,2026,conference-paper,0,False,include,3,no abstract; core in title; context terms missing,include
 W2744310726,A8,india,A8_india_q4,6,Auto rickshaw transport service A study in Bangalore city,2005,dissertation,0,False,include,3,no abstract; core (and context) in title,include
-W2791551619,A8,india,A8_india_q4,7,"Prevalence of tobacco consumption among Auto Rickshaw Drivers in Chennai City, Tamil Nadu, India",2018,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2791551619,A8,india,A8_india_q4,7,"Prevalence of tobacco consumption among Auto Rickshaw Drivers in Chennai City, Tamil Nadu, India",2018,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: tobacco use survey,exclude
 W2252921214,A8,india,A8_india_q4,8,The Political Economy of Auto-Rickshaw Fare-Setting in Mumbai,2012,preprint,4,False,include,3,no abstract; core in title; context terms missing,include
 W2794588650,A8,india,A8_india_q4,9,"Cross-sectional Study of Health Status of Auto Rickshaw Drivers in Vashi, Navi Mumbai, India",2017,article,7,False,include,3,no abstract; core in title; context terms missing,include
 W7124278711,A8,india,A8_india_q4,10,"EP01.02: Tobacco Consumption Pattern Among Auto Rickshaw Drivers in Chennai City, Tamil Nadu, India",2026,conference-abstract,0,False,include,3,no abstract; core (and context) in title,include
 W4287812632,A8,india,A8_india_q4,11,STUDY OF RESPIRATORY HEALTH IN AUTO RICKSHAW DRIVERS IN MUMBAI,2020,article,0,True,include,6,core in title; context terms missing,include
-W2623164717,A8,india,A8_india_q4,12,"Prevalence and Risk Factors of Low Back Pain among Auto-Rickshaw Drivers in Urban Kolkata, India",2017,article,3,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2623164717,A8,india,A8_india_q4,12,"Prevalence and Risk Factors of Low Back Pain among Auto-Rickshaw Drivers in Urban Kolkata, India",2017,article,3,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: low back pain survey,exclude
 W3089089747,A8,india,A8_india_q4,13,Socio economic study of auto rickshaw drivers in Bangalore city,1995,article,0,False,include,3,no abstract; core (and context) in title,include
-W3027316741,A8,india,A8_india_q4,14,STUDY OF RESPIRATORY HEALTH IN AUTO RICKSHAW DRIVERS IN MUMBAI,2020,article,2,True,borderline,3,stub abstract (possible book review),pending
+W3027316741,A8,india,A8_india_q4,14,STUDY OF RESPIRATORY HEALTH IN AUTO RICKSHAW DRIVERS IN MUMBAI,2020,article,2,True,borderline,3,stub abstract (possible book review) | manual: respiratory health study,exclude
 W3085927777,A8,india,A8_india_q4,15,Numerical simulation of an Indian auto-rickshaw model,2020,conference-paper,4,True,include,4,rules,include
 W2981384515,A8,india,A8_india_q5,1,The social life of transport infrastructures: Masculinities and everyday mobilities in Kolkata,2019,article,47,True,include,6,rules,include
 W4401101618,A8,india,A8_india_q5,2,Urban mobilities in Mumbai: Towards worker-centric platformisation beyond ‘urban solutionism’,2024,article,8,True,include,3,rules,include
@@ -1954,24 +1954,24 @@ W1977334572,A8,landmarks,A8_landmarks,1,Transport and social exclusion: Where ar
 W1500182994,A8,landmarks,A8_landmarks,2,"Splintering Urbanism: Networked Infrastructures, Technological Mobilities and the Urban Condition",2001,book,1775,True,include,3,rules,include
 W2061699609,A8,landmarks,A8_landmarks,3,"The dimensions of global urban expansion: Estimates and projections for all countries, 2000–2050",2011,article,1357,False,exclude,0,core concept missing,exclude
 W2159401107,A8,landmarks,A8_landmarks,4,"The Rise of Supermarkets in Africa, Asia, and Latin America",2003,article,1352,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W4214928630,A8,landmarks,A8_landmarks,5,The Multi-Agent Transport Simulation MATSim,2016,book,1069,True,borderline,2,context terms missing,pending
-W2555509407,A8,landmarks,A8_landmarks,6,Distributive justice and equity in transportation,2016,article,1055,True,borderline,3,context terms missing,pending
+W4214928630,A8,landmarks,A8_landmarks,5,The Multi-Agent Transport Simulation MATSim,2016,book,1069,True,borderline,2,context terms missing | manual: transport simulation software,exclude
+W2555509407,A8,landmarks,A8_landmarks,6,Distributive justice and equity in transportation,2016,article,1055,True,borderline,3,context terms missing | manual: distributive justice and transport equity,include
 W2031201771,A8,landmarks,A8_landmarks,7,Urban Policy Mobilities and Global Circuits of Knowledge: Toward a Research Agenda,2010,article,900,True,include,5,rules,include
 W2062147841,A8,landmarks,A8_landmarks,8,Bikeshare: A Review of Recent Literature,2015,article,887,True,exclude,3,"flag, core not in title: \b(traffic flow|vehicle routing|optimi[s",exclude
-W2967384502,A8,landmarks,A8_landmarks,9,Mobility justice: the politics of movement in an age of extremes,2019,article,856,True,borderline,4,stub abstract (possible book review),pending
+W2967384502,A8,landmarks,A8_landmarks,9,Mobility justice: the politics of movement in an age of extremes,2019,article,856,True,borderline,4,stub abstract (possible book review) | manual: book review (Mobility Justice),exclude
 W2098247491,A8,landmarks,A8_landmarks,10,The City and the Car,2000,article,851,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4236301267,A8,landmarks,A8_landmarks,11,Informality,2007,book,849,True,exclude,0,core concept missing,exclude
-W3095291149,A8,landmarks,A8_landmarks,12,Exploring the impacts of COVID-19 on travel behavior and mode preferences,2020,article,692,True,borderline,2,context terms missing,pending
+W3095291149,A8,landmarks,A8_landmarks,12,Exploring the impacts of COVID-19 on travel behavior and mode preferences,2020,article,692,True,borderline,2,context terms missing | manual: COVID travel-behaviour survey,exclude
 W2135031052,A8,landmarks,A8_landmarks,13,Urban mobility and urban form: the social and environmental costs of different patterns of urban expansion,2002,article,682,False,include,3,no abstract; core (and context) in title,include
 W2013598124,A8,landmarks,A8_landmarks,14,A Tale of Many Cities: Universal Patterns in Human Urban Mobility,2012,article,640,True,include,4,rules,include
 W2107843027,A8,landmarks,A8_landmarks,15,Passenger Mobilities: Affective Atmospheres and the Sociality of Public Transport,2010,article,591,True,include,4,core in title; context terms missing,include
-W2607480509,A8,landmarks,A8_landmarks,16,"Association between active commuting and incident cardiovascular disease, cancer, and mortality: prospective cohort study",2017,article,531,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2607480509,A8,landmarks,A8_landmarks,16,"Association between active commuting and incident cardiovascular disease, cancer, and mortality: prospective cohort study",2017,article,531,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: cardiovascular cohort study,exclude
 W1991571474,A8,landmarks,A8_landmarks,17,Informal transport: A global perspective,2007,article,511,False,include,3,no abstract; core in title; context terms missing,include
 W650084940,A8,landmarks,A8_landmarks,18,Using Lorenz curves to assess public transport equity,2011,article,507,False,include,3,no abstract; core in title; context terms missing,include
 W1485017848,A8,landmarks,A8_landmarks,19,Urban Transit Systems and Technology,2007,book,488,True,include,3,rules,include
 W2272574770,A8,landmarks,A8_landmarks,20,Transport poverty and its adverse social consequences,2016,article,475,True,include,6,rules,include
 W1993676537,A8,landmarks,A8_landmarks,21,Bike sharing: A review of evidence on impacts and processes of implementation and operation,2015,article,471,False,exclude,0,core concept missing,exclude
-W2552953724,A8,landmarks,A8_landmarks,22,Transport justice: designing fair transportation systems,2016,article,434,True,borderline,4,stub abstract (possible book review),pending
+W2552953724,A8,landmarks,A8_landmarks,22,Transport justice: designing fair transportation systems,2016,article,434,True,borderline,4,stub abstract (possible book review) | manual: book review (Transport Justice),exclude
 W2332196696,A8,landmarks,A8_landmarks,23,Mobilizing the new mobilities paradigm,2016,article,426,True,include,5,rules,include
 W2065532029,A8,landmarks,A8_landmarks,24,Part II: Policy instruments for sustainable road transport,2010,article,426,False,exclude,0,core concept missing,exclude
 W2813703984,A8,landmarks,A8_landmarks,25,Urban mobility and neighborhood isolation in America’s 50 largest cities,2018,article,424,True,include,3,rules,include
@@ -1983,7 +1983,7 @@ W2082406903,A8,landmarks,A8_landmarks,30,Health effects of the London bicycle sh
 W2036174240,A8,landmarks,A8_landmarks,31,Energy and transport,2007,article,386,False,exclude,0,core concept missing,exclude
 W2053159337,A8,landmarks,A8_landmarks,32,"Flows of Meaning, Cultures of Movements – Urban Mobility as Meaningful Everyday Life Practice",2009,article,366,True,include,4,rules,include
 W2138872399,A8,landmarks,A8_landmarks,33,Tourism: Rethinking the Social Science of Mobility,2005,book,355,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2276056662,A8,landmarks,A8_landmarks,34,The Multi-Agent Transport Simulation MATSim,2016,article,354,True,borderline,2,context terms missing,pending
+W2276056662,A8,landmarks,A8_landmarks,34,The Multi-Agent Transport Simulation MATSim,2016,article,354,True,borderline,2,context terms missing | manual: transport simulation software,exclude
 W2067352462,A8,landmarks,A8_landmarks,35,Transport poverty meets the digital divide: accessibility and connectivity in rural communities,2012,article,354,True,include,4,rules,include
 W2057745183,A8,landmarks,A8_landmarks,36,"Expertise, Truth, and Urban Policy Mobilities: Global Circuits of Knowledge in the Development of Vancouver, Canada's ‘four Pillar’ Drug Strategy",2007,article,354,True,include,6,rules,include
 W2509860226,A8,landmarks,A8_landmarks,37,Economic analysis of ride-sourcing markets,2016,article,353,False,exclude,0,core concept missing,exclude
@@ -2012,11 +2012,11 @@ W3022538399,A8,landmarks,A8_landmarks,59,From “streets for traffic” to “st
 W2995110868,A8,landmarks,A8_landmarks,60,Urban health: an example of a “health in all policies” approach in the context of SDGs implementation,2019,article,271,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2148675284,A8,landmarks,A8_landmarks,61,Cities on the move: a World Bank urban transport strategy review,2003,book-review,271,True,exclude,0,type book-review,exclude
 W3162137970,A8,landmarks,A8_landmarks,62,Impact of COVID-19: A radical modal shift from public to private transport mode,2021,article,270,False,exclude,0,core concept missing,exclude
-W1970192388,A8,landmarks,A8_landmarks,63,Cities through a “gender lens”: a golden “urban age” for women in the global South?,2013,article,270,True,borderline,1,core concept mentioned once,pending
+W1970192388,A8,landmarks,A8_landmarks,63,Cities through a “gender lens”: a golden “urban age” for women in the global South?,2013,article,270,True,borderline,1,core concept mentioned once | manual: gender and cities (A12); mobility in passing,exclude
 W3113856539,A8,landmarks,A8_landmarks,64,The Universal Right to Breathe,2020,article,269,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2082934694,A8,landmarks,A8_landmarks,65,Tailored group exercise (Falls Management Exercise — FaME) reduces falls in community-dwelling older frequent fallers (an RCT),2005,article,265,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2147342971,A8,landmarks,A8_landmarks,66,Understanding repetitive travel mode choices in a stable context: A panel study approach,2006,article,262,False,exclude,0,core concept missing,exclude
-W2588607978,A8,landmarks,A8_landmarks,67,Transport equity analysis,2017,article,261,True,borderline,4,stub abstract (possible book review),pending
+W2588607978,A8,landmarks,A8_landmarks,67,Transport equity analysis,2017,article,261,True,borderline,4,stub abstract (possible book review) | manual: transport equity analysis (special-issue introduction),include
 W3091903741,A8,landmarks,A8_landmarks,68,"Air taxi service for urban mobility: A critical review of recent developments, future challenges, and opportunities",2020,article,259,False,include,3,no abstract; core (and context) in title,include
 W12168257,A8,landmarks,A8_landmarks,69,"Media, Place and Mobility",2012,book,259,True,include,2,rules,include
 W2047296802,A8,landmarks,A8_landmarks,70,In the driving seat: psychosocial benefits from private motor vehicle transport compared to public transport,2003,article,258,False,include,3,no abstract; core in title; context terms missing,include
@@ -2026,7 +2026,7 @@ W2123880589,A8,landmarks,A8_landmarks,73,Are Bikeshare Users Different from Regu
 W2801289936,A8,landmarks,A8_landmarks,74,Mobility as a Service: Development scenarios and implications for public transport,2018,article,250,False,include,3,no abstract; core in title; context terms missing,include
 W1969966844,A8,landmarks,A8_landmarks,75,Participative backcasting: A tool for involving stakeholders in local sustainability planning,2007,article,247,False,exclude,0,core concept missing,exclude
 W2071792608,A8,landmarks,A8_landmarks,76,"The Veil and Urban Space in Istanbul: Women's dress, mobility and Islamic knowledge",2002,article,246,True,include,3,rules,include
-W2096304082,A8,landmarks,A8_landmarks,77,"On the electrification of road transportation – A review of the environmental, economic, and social performance of electric two-wheelers",2015,article,244,True,borderline,1,core concept mentioned once,pending
+W2096304082,A8,landmarks,A8_landmarks,77,"On the electrification of road transportation – A review of the environmental, economic, and social performance of electric two-wheelers",2015,article,244,True,borderline,1,core concept mentioned once | manual: electric two-wheeler review,exclude
 W2101559073,A8,landmarks,A8_landmarks,78,Relationship between commuting and health outcomes in a cross-sectional population survey in southern Sweden,2011,article,244,True,include,6,rules,include
 W576945912,A8,landmarks,A8_landmarks,79,Reinventing the automobile: personal urban mobility for the 21st century,2010,book-review,244,True,exclude,0,type book-review,exclude
 W2041498311,A8,landmarks,A8_landmarks,80,Making urban road pricing acceptable and effective: searching for quality and equity in urban mobility,2001,article,243,False,include,3,no abstract; core (and context) in title,include
@@ -2038,20 +2038,20 @@ W2538334487,A8,landmarks,A8_landmarks,85,A Meta-Analysis of the Association betw
 W2006538209,A8,landmarks,A8_landmarks,86,A new regret insertion heuristic for solving large-scale dial-a-ride problems with time windows,2003,article,234,False,exclude,0,core concept missing,exclude
 W1973279209,A8,landmarks,A8_landmarks,87,Transport for suburbia: beyond the automobile age,2010,book-review,233,True,exclude,0,type book-review,exclude
 W3042715789,A8,landmarks,A8_landmarks,88,"Reconstructing tourism in the Caribbean: connecting pandemic recovery, climate resilience and sustainable tourism through mobility justice",2020,article,232,True,include,6,core in title; context terms missing,include
-W2035952931,A8,landmarks,A8_landmarks,89,Mobile Publics: Beyond the Network Perspective,2004,article,232,True,borderline,1,core concept mentioned once,pending
+W2035952931,A8,landmarks,A8_landmarks,89,Mobile Publics: Beyond the Network Perspective,2004,article,232,True,borderline,1,core concept mentioned once | manual: mobile publics and urban mobilities,include
 W3045845471,A8,landmarks,A8_landmarks,90,The role of shared autonomous vehicle systems in delivering smart urban mobility: A systematic review of the literature,2020,review,230,True,include,6,rules,include
 W2031724056,A8,landmarks,A8_landmarks,91,"Concentrations of fine, ultrafine, and black carbon particles in auto-rickshaws in New Delhi, India",2011,article,229,False,include,3,no abstract; core in title; context terms missing,include
 W2006913384,A8,landmarks,A8_landmarks,92,"Inverse associations between cycling to work, public transport, and overweight and obesity: Findings from a population based study in Australia",2007,article,229,False,include,3,no abstract; core in title; context terms missing,include
-W3046910880,A8,landmarks,A8_landmarks,93,Adherence to social distancing and wearing of masks within public transportation during the COVID 19 pandemic,2020,article,228,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3046910880,A8,landmarks,A8_landmarks,93,Adherence to social distancing and wearing of masks within public transportation during the COVID 19 pandemic,2020,article,228,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: mask compliance in paratransit,exclude
 W2809433071,A8,landmarks,A8_landmarks,94,Challenges of collaborative governance in the sharing economy: The case of free-floating bike sharing in Shanghai,2018,article,226,False,exclude,0,core concept missing,exclude
 W2564999936,A8,landmarks,A8_landmarks,95,Impacts of weather on public transport ridership: Results from mining data from different sources,2016,article,224,False,include,3,no abstract; core in title; context terms missing,include
 W3093843157,A8,landmarks,A8_landmarks,96,The Impact of COVID-19 Pandemic on the Resilience of Sustainable Mobility in Sicily,2020,article,223,True,include,3,rules,include
 W2975321582,A8,landmarks,A8_landmarks,97,Public preferences for mobility as a service: Insights from stated preference surveys,2019,article,220,False,exclude,0,core concept missing,exclude
-W2949545642,A8,landmarks,A8_landmarks,98,Development and implementation of Mobility-as-a-Service – A qualitative study of barriers and enabling factors,2019,article,214,True,borderline,1,core concept mentioned once,pending
+W2949545642,A8,landmarks,A8_landmarks,98,Development and implementation of Mobility-as-a-Service – A qualitative study of barriers and enabling factors,2019,article,214,True,borderline,1,core concept mentioned once | manual: MaaS implementation (C9),exclude
 W2597119805,A8,landmarks,A8_landmarks,99,Transport Justice: Designing fair transportation systems,2016,book,214,True,include,6,core in title; context terms missing,include
-W2209775912,A8,landmarks,A8_landmarks,100,Trying Out Mobility as a Service: Experiences from a Field Trial and Implications for Understanding Demand,2016,article,214,True,borderline,1,core concept mentioned once,pending
+W2209775912,A8,landmarks,A8_landmarks,100,Trying Out Mobility as a Service: Experiences from a Field Trial and Implications for Understanding Demand,2016,article,214,True,borderline,1,core concept mentioned once | manual: MaaS field trial (C9),exclude
 W4410222370,A8,recent,A8_recent_q1,1,"Transport Justice for Istanbul’s Urban Mobility: Equity, Accessibility, and Policy Challenges",2025,article,7,True,include,6,rules,include
-W7128377137,A8,recent,A8_recent_q1,2,sEAmless SustaInable EveRyday urban mobility (EASIER),2024,report,0,True,borderline,3,stub abstract (possible book review),pending
+W7128377137,A8,recent,A8_recent_q1,2,sEAmless SustaInable EveRyday urban mobility (EASIER),2024,report,0,True,borderline,3,stub abstract (possible book review) | manual: project record without content,exclude
 W4410899828,A8,recent,A8_recent_q1,3,Equity and Accessibility in Urban Mobility,2025,book-chapter,0,True,include,4,rules,include
 W7153305377,A8,recent,A8_recent_q1,4,"Urban Mobility and the Production of Space: Everyday Politics and Infrastructural Power in Makassar, Indonesia",2025,conference-paper,0,True,include,6,rules,include
 W4414036410,A8,recent,A8_recent_q1,5,"Urban Mobility and Social Justice: public transport in the Guadalajara metropolitan area, Mexico",2023,article,0,True,include,5,rules,include
@@ -2071,15 +2071,15 @@ W4401605594,A8,recent,A8_recent_q2,3,"Conclusions, acknowledgments, and calls to
 W7163022325,A8,recent,A8_recent_q2,4,Mobility justice,2026,reference-entry,0,True,include,6,rules,include
 W7169556154,A8,recent,A8_recent_q2,5,Mobility Justice,2026,book-chapter,0,True,include,5,rules,include
 W4414587821,A8,recent,A8_recent_q2,6,Mobility Justice,2025,reference-entry,0,True,include,6,core in title; context terms missing,include
-W4413640574,A8,recent,A8_recent_q2,7,Transport equity,2025,reference-entry,0,True,borderline,3,stub abstract (possible book review),pending
+W4413640574,A8,recent,A8_recent_q2,7,Transport equity,2025,reference-entry,0,True,borderline,3,stub abstract (possible book review) | manual: transport equity (reference entry),include
 W4416020890,A8,recent,A8_recent_q2,8,Climate Mobility Justice,2025,book,5,False,include,3,no abstract; core in title; context terms missing,include
 W7163036914,A8,recent,A8_recent_q2,9,Climate mobility justice,2026,reference-entry,0,False,include,3,no abstract; core in title; context terms missing,include
 W4406713822,A8,recent,A8_recent_q2,10,When digital disadvantage meets transport disadvantage: The association between smartphone-based mobility services and perceived transport disadvantage among the elderly,2025,article,11,False,include,3,no abstract; core in title; context terms missing,include
-W4387971836,A8,recent,A8_recent_q2,11,Mobility Justice and Sustainable Futures,2023,article,22,True,borderline,5,stub abstract (possible book review),pending
+W4387971836,A8,recent,A8_recent_q2,11,Mobility Justice and Sustainable Futures,2023,article,22,True,borderline,5,stub abstract (possible book review) | manual: mobility justice special issue introduction,include
 W7171740636,A8,recent,A8_recent_q2,12,Solving Transport Disadvantage Through Place-Based Collaboration,2026,other,0,False,include,3,no abstract; core in title; context terms missing,include
 W4385997913,A8,recent,A8_recent_q2,13,Imagining multispecies mobility justice,2023,article,4,True,include,6,core in title; context terms missing,include
 W4388940975,A8,recent,A8_recent_q2,14,Bioinfrastructures for Mobility Justice,2023,article,0,False,include,3,no abstract; core in title; context terms missing,include
-W4388941086,A8,recent,A8_recent_q2,15,Bioinfrastructures for Mobility Justice,2023,article,0,True,borderline,4,stub abstract (possible book review),pending
+W4388941086,A8,recent,A8_recent_q2,15,Bioinfrastructures for Mobility Justice,2023,article,0,True,borderline,4,stub abstract (possible book review) | manual: multispecies mobility justice (butterflies),exclude
 W4214929795,A8,recent,A8_recent_q3,1,Women entrepreneurs creating value in informal public transport enterprises in Kenya,2022,book-chapter,2,True,include,6,core in title; context terms missing,include
 W4399459199,A8,recent,A8_recent_q3,2,Efficient self-organization of informal public transport networks,2024,article,35,True,include,6,rules,include
 W7133610183,A8,recent,A8_recent_q3,3,Boda-Boda Pakalast: mobility and the politics of informal public transport in Uganda,2026,article,0,True,include,6,rules,include
@@ -2092,8 +2092,8 @@ W4396665508,A8,recent,A8_recent_q3,9,The everyday struggles of accessing public 
 W7140296200,A8,recent,A8_recent_q3,10,Operationalizing Symbolic Violence to Advance Gender Equality: Women’s Mobility and Everyday Injustices in Public Transport in Mexico,2026,article,0,True,include,5,rules,include
 W4205146243,A8,recent,A8_recent_q3,11,Safety and security of women and girls in public transport,2022,article,62,True,include,6,rules,include
 W7164851838,A8,recent,A8_recent_q3,12,City of Men: Masculinities and Everyday Morality on Public Transport,2026,book-review,0,True,exclude,0,type book-review,exclude
-W4409214185,A8,recent,A8_recent_q3,13,City of Men: Masculinities and Everyday Morality on Public Transport,2025,article,0,True,borderline,3,stub abstract (possible book review),pending
-W7204797254,A8,recent,A8_recent_q3,14,City of men: masculinities and everyday morality on public transport,2026,article,0,True,borderline,4,stub abstract (possible book review),pending
+W4409214185,A8,recent,A8_recent_q3,13,City of Men: Masculinities and Everyday Morality on Public Transport,2025,article,0,True,borderline,3,stub abstract (possible book review) | manual: book review (City of Men),exclude
+W7204797254,A8,recent,A8_recent_q3,14,City of men: masculinities and everyday morality on public transport,2026,article,0,True,borderline,4,stub abstract (possible book review) | manual: book review (City of Men),exclude
 W4405525508,A8,recent,A8_recent_q3,15,Fare-free public transport: a gender-neutral or gender-focused policy?,2024,book-chapter,3,True,include,6,rules,include
 W4283587358,A8,recent,A8_recent_q4,1,Paratransit minibus taxi transport services in Addis Ababa,2022,article,2,True,include,6,rules,include
 W4398178606,A8,recent,A8_recent_q4,2,The Minibus-Taxi Industry in South Africa,2024,reference-entry,5,True,include,6,rules,include
@@ -2102,7 +2102,7 @@ W4302292917,A8,recent,A8_recent_q4,4,Braking Dynamics of Auto-Rickshaw,2022,conf
 W7166847442,A8,recent,A8_recent_q4,5,"Bibliometric dataset on paratransit, informal transport, and popular mobility research, 1970–2023",2026,dataset,0,True,exclude,0,type dataset,exclude
 W4388440517,A8,recent,A8_recent_q4,6,Customers' satisfaction towards Addis Ababa City's minibus taxi service,2023,article,3,True,include,6,rules,include
 W7166863372,A8,recent,A8_recent_q4,7,"Bibliometric dataset on paratransit, informal transport, and popular mobility research, 1970–2023",2026,dataset,0,True,exclude,0,type dataset,exclude
-W7214017573,A8,recent,A8_recent_q4,8,A short history of Auto-Rickshaw,2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7214017573,A8,recent,A8_recent_q4,8,A short history of Auto-Rickshaw,2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: crystallography software named Auto-Rickshaw,exclude
 W4292543025,A8,recent,A8_recent_q4,9,Driving Sustainability of Minibus Taxi Industry in South Africa,2022,article,0,True,include,6,core in title; context terms missing,include
 W4407082367,A8,recent,A8_recent_q4,10,Qualitative and Quantitative Assessment of Public Minibus Taxi Driving,2025,article,1,False,include,3,no abstract; core in title; context terms missing,include
 W4293796167,A8,recent,A8_recent_q4,11,Customers’ Satisfaction Towards Addis Ababa City's Minibus Taxi Service,2022,preprint,1,False,include,3,no abstract; core (and context) in title,include

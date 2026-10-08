@@ -43,12 +43,12 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 12 / 16 | 147 | 146 |
 | A6 | Small towns, census towns & secondary cities | 336 | 138 | 28 (8%) | 11 / 17 | 142 | 142 |
 | A7 | Urban infrastructure (water, sanitation, ener | 242 | 160 | 23 (10%) | 9 / 14 | 162 | 155 |
-| A8 | Mobility & transport (social science) | 246 | 174 | 27 (11%) | 0 / 0 (+27 pending) | 167 | 165 |
+| A8 | Mobility & transport (social science) | 246 | 174 | 27 (11%) | 7 / 20 | 174 | 172 |
 | A9 | Public space, publicness & the street | 196 | 114 | 28 (14%) | 17 / 11 | 130 | 129 |
 | B5 | Digital identity & digital public infrastruct | 177 | 114 | 28 (16%) | 7 / 21 | 117 | 117 |
 | C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 126 |
 
-Total deduplicated records: 1651.
+Total deduplicated records: 1658.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)

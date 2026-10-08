@@ -38991,6 +38991,41 @@
  },
  {
   "ID": "LM01115",
+  "Title": "Distributive justice and equity in transportation",
+  "Year": 2016,
+  "Authors": "Rafael H. M. Pereira; Tim Schwanen; David Banister",
+  "Venue": "Transport Reviews",
+  "Document type": "article",
+  "DOI": "10.1080/01441647.2016.1257660",
+  "OpenAlex ID": "W2555509407",
+  "Link": "https://doi.org/10.1080/01441647.2016.1257660",
+  "Open-access link": "",
+  "Cited-by count": 1055,
+  "Domain": "A",
+  "Primary theme": "A8",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: This paper reviews key theories of justice (utilitarianism, libertarianism, intuitionism, Rawls’ egalitarianism, and Capability Approaches (CAs)) and critically evaluates the insights they generate when applied to transport.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "A8:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 159.8292
+ },
+ {
+  "ID": "LM01116",
   "Title": "Urban Policy Mobilities and Global Circuits of Knowledge: Toward a Research Agenda",
   "Year": 2010,
   "Authors": "Eugene McCann",
@@ -39025,7 +39060,7 @@
   "FWCI": 223.4399
  },
  {
-  "ID": "LM01116",
+  "ID": "LM01117",
   "Title": "Urban mobility and urban form: the social and environmental costs of different patterns of urban expansion",
   "Year": 2002,
   "Authors": "Roberto P. Camagni; María Cristina Gibelli; Paolo Rigamonti",
@@ -39060,7 +39095,7 @@
   "FWCI": 29.9535
  },
  {
-  "ID": "LM01117",
+  "ID": "LM01118",
   "Title": "A Tale of Many Cities: Universal Patterns in Human Urban Mobility",
   "Year": 2012,
   "Authors": "Anastasios Noulas; Salvatore Scellato; Renaud Lambiotte; Massimiliano Pontil; Cecilia Mascolo",
@@ -39095,7 +39130,7 @@
   "FWCI": 149.1609
  },
  {
-  "ID": "LM01118",
+  "ID": "LM01119",
   "Title": "Passenger Mobilities: Affective Atmospheres and the Sociality of Public Transport",
   "Year": 2010,
   "Authors": "David Bissell",
@@ -39130,7 +39165,7 @@
   "FWCI": 113.9581
  },
  {
-  "ID": "LM01119",
+  "ID": "LM01120",
   "Title": "Informal transport: A global perspective",
   "Year": 2007,
   "Authors": "Robert Cervero; Aaron Golub",
@@ -39165,7 +39200,7 @@
   "FWCI": 10.0431
  },
  {
-  "ID": "LM01120",
+  "ID": "LM01121",
   "Title": "Using Lorenz curves to assess public transport equity",
   "Year": 2011,
   "Authors": "Alexa Delbosc; Graham Currie",
@@ -39200,7 +39235,7 @@
   "FWCI": 18.9019
  },
  {
-  "ID": "LM01121",
+  "ID": "LM01122",
   "Title": "Urban Transit Systems and Technology",
   "Year": 2007,
   "Authors": "Vukan R Vuchic",
@@ -39235,7 +39270,7 @@
   "FWCI": 25.922
  },
  {
-  "ID": "LM01122",
+  "ID": "LM01123",
   "Title": "Transport poverty and its adverse social consequences",
   "Year": 2016,
   "Authors": "Karen Lucas; Giulio Mattioli; Ersilia Verlinghieri; Alvaro Guzman",
@@ -39270,7 +39305,7 @@
   "FWCI": 27.8986
  },
  {
-  "ID": "LM01123",
+  "ID": "LM01124",
   "Title": "Mobilizing the new mobilities paradigm",
   "Year": 2016,
   "Authors": "Mimí Sheller; John Urry",
@@ -39305,7 +39340,7 @@
   "FWCI": 59.5529
  },
  {
-  "ID": "LM01124",
+  "ID": "LM01125",
   "Title": "Urban mobility and neighborhood isolation in America’s 50 largest cities",
   "Year": 2018,
   "Authors": "Qi Wang; Nolan Edward Phillips; Mario Luis Small; Robert J. Sampson",
@@ -39340,7 +39375,7 @@
   "FWCI": 88.5234
  },
  {
-  "ID": "LM01125",
+  "ID": "LM01126",
   "Title": "Auto-Rickshaw: an automated crystal structure determination platform as an efficient tool for the validation of an X-ray diffraction experiment",
   "Year": 2005,
   "Authors": "Santosh Panjikar; Venkataraman Parthasarathy; Victor S. Lamzin; Manfred S. Weiss; Paul A. Tucker",
@@ -39375,7 +39410,7 @@
   "FWCI": 7.6781
  },
  {
-  "ID": "LM01126",
+  "ID": "LM01127",
   "Title": "Explaining walking distance to public transport: The dominance of public transport supply",
   "Year": 2013,
   "Authors": "Rhonda Daniels; Corinne Ann Mulley",
@@ -39410,7 +39445,7 @@
   "FWCI": 32.2244
  },
  {
-  "ID": "LM01127",
+  "ID": "LM01128",
   "Title": "Flows of Meaning, Cultures of Movements – Urban Mobility as Meaningful Everyday Life Practice",
   "Year": 2009,
   "Authors": "Ole B. Jensen",
@@ -39445,7 +39480,7 @@
   "FWCI": 53.7944
  },
  {
-  "ID": "LM01128",
+  "ID": "LM01129",
   "Title": "Expertise, Truth, and Urban Policy Mobilities: Global Circuits of Knowledge in the Development of Vancouver, Canada's ‘four Pillar’ Drug Strategy",
   "Year": 2007,
   "Authors": "Eugene McCann",
@@ -39480,7 +39515,7 @@
   "FWCI": 56.2217
  },
  {
-  "ID": "LM01129",
+  "ID": "LM01130",
   "Title": "Transport poverty meets the digital divide: accessibility and connectivity in rural communities",
   "Year": 2012,
   "Authors": "Nagendra R. Velaga; Mark Beecroft; John D. Nelson; David Corsar; Peter J. Edwards",
@@ -39515,7 +39550,7 @@
   "FWCI": 38.9588
  },
  {
-  "ID": "LM01130",
+  "ID": "LM01131",
   "Title": "The new mobilities paradigm for a live sociology",
   "Year": 2014,
   "Authors": "Mimí Sheller",
@@ -39550,7 +39585,7 @@
   "FWCI": 54.1866
  },
  {
-  "ID": "LM01131",
+  "ID": "LM01132",
   "Title": "Mobility Justice: The Politics of Movement in an Age of Extremes",
   "Year": 2018,
   "Authors": "Mimí Sheller",
@@ -39585,7 +39620,7 @@
   "FWCI": 80.0115
  },
  {
-  "ID": "LM01132",
+  "ID": "LM01133",
   "Title": "Public Transportation: An Investigation of Barriers for People With Disabilities",
   "Year": 2017,
   "Authors": "Jill Bezyak; Scott A. Sabella; R. Gattis",
@@ -39620,7 +39655,7 @@
   "FWCI": 24.9094
  },
  {
-  "ID": "LM01133",
+  "ID": "LM01134",
   "Title": "Transport and mobility justice: Evolving discussions",
   "Year": 2020,
   "Authors": "Ersilia Verlinghieri; Tim Schwanen",
@@ -39655,7 +39690,7 @@
   "FWCI": 25.3729
  },
  {
-  "ID": "LM01134",
+  "ID": "LM01135",
   "Title": "Shared Mobility and the Transformation of Public Transit",
   "Year": 2016,
   "Authors": "Sharon Feigon and Colin Murphy; University of Washington",
@@ -39690,7 +39725,7 @@
   "FWCI": 18.6828
  },
  {
-  "ID": "LM01135",
+  "ID": "LM01136",
   "Title": "Transport mode use during the COVID-19 lockdown period in Germany: The car became more important, public transport lost ground",
   "Year": 2021,
   "Authors": "Christine Eisenmann; Claudia Nobis; Viktoriya Kolarova; Barbara Lenz; Christian G. Winkler",
@@ -39725,7 +39760,7 @@
   "FWCI": 50.8927
  },
  {
-  "ID": "LM01136",
+  "ID": "LM01137",
   "Title": "The spatial context of transport disadvantage, social exclusion and well-being",
   "Year": 2011,
   "Authors": "Alexa Delbosc; Graham Currie",
@@ -39760,7 +39795,7 @@
   "FWCI": 17.1017
  },
  {
-  "ID": "LM01137",
+  "ID": "LM01138",
   "Title": "Rural mobilities: Connecting movement and fixity in rural places",
   "Year": 2014,
   "Authors": "Paul Milbourne; Lawrence Kitchen",
@@ -39795,7 +39830,7 @@
   "FWCI": 41.8474
  },
  {
-  "ID": "LM01138",
+  "ID": "LM01139",
   "Title": "Survey of E-scooter users in Vienna: Who they are and how they ride",
   "Year": 2020,
   "Authors": "Barbara Laa; Ulrich Leth",
@@ -39830,7 +39865,7 @@
   "FWCI": 11.4245
  },
  {
-  "ID": "LM01139",
+  "ID": "LM01140",
   "Title": "Getting smart about urban mobility – Aligning the paradigms of smart and sustainable",
   "Year": 2016,
   "Authors": "Glenn D. Lyons",
@@ -39865,7 +39900,7 @@
   "FWCI": 19.872
  },
  {
-  "ID": "LM01140",
+  "ID": "LM01141",
   "Title": "Rethinking the links between social exclusion and transport disadvantage through the lens of social capital",
   "Year": 2015,
   "Authors": "Tim Schwanen; Karen Lucas; Nihan Akyelken; Diego Cisternas Solsona; Juan Antonio Carrasco; Tijs Neutens",
@@ -39900,7 +39935,7 @@
   "FWCI": 32.83
  },
  {
-  "ID": "LM01141",
+  "ID": "LM01142",
   "Title": "Transport Justice",
   "Year": 2016,
   "Authors": "Karel Martens",
@@ -39935,7 +39970,7 @@
   "FWCI": 8.9946
  },
  {
-  "ID": "LM01142",
+  "ID": "LM01143",
   "Title": "From “streets for traffic” to “streets for people”: can street experiments transform urban mobility?",
   "Year": 2020,
   "Authors": "Luca Bertolini",
@@ -39970,7 +40005,42 @@
   "FWCI": 24.711
  },
  {
-  "ID": "LM01143",
+  "ID": "LM01144",
+  "Title": "Transport equity analysis",
+  "Year": 2017,
+  "Authors": "Floridea Di Ciommo; Yoram Shiftan",
+  "Venue": "Transport Reviews",
+  "Document type": "article",
+  "DOI": "10.1080/01441647.2017.1278647",
+  "OpenAlex ID": "W2588607978",
+  "Link": "https://doi.org/10.1080/01441647.2017.1278647",
+  "Open-access link": "https://www.tandfonline.com/doi/pdf/10.1080/01441647.2017.1278647?needAccess=true&role=button",
+  "Cited-by count": 261,
+  "Domain": "A",
+  "Primary theme": "A8",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "unclear",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: This special issue on Equity and Transport argues that, while transport evaluation remains significant, equity assessment in transport planning is not sufficient and needs to be better understood a...",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "A8:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 23.276
+ },
+ {
+  "ID": "LM01145",
   "Title": "Media, Place and Mobility",
   "Year": 2012,
   "Authors": "Shaun Moores",
@@ -40005,7 +40075,7 @@
   "FWCI": 21.377
  },
  {
-  "ID": "LM01144",
+  "ID": "LM01146",
   "Title": "Air taxi service for urban mobility: A critical review of recent developments, future challenges, and opportunities",
   "Year": 2020,
   "Authors": "Suchithra Rajendran; Sharan Srinivas",
@@ -40040,7 +40110,7 @@
   "FWCI": 14.4459
  },
  {
-  "ID": "LM01145",
+  "ID": "LM01147",
   "Title": "In the driving seat: psychosocial benefits from private motor vehicle transport compared to public transport",
   "Year": 2003,
   "Authors": "Anne Ellaway; Sally MacIntyre; Rosemary Hiscock; Ade Kearns",
@@ -40075,7 +40145,7 @@
   "FWCI": 15.4859
  },
  {
-  "ID": "LM01146",
+  "ID": "LM01148",
   "Title": "Investigating links between transport disadvantage, social exclusion and well-being in Melbourne—Preliminary results",
   "Year": 2009,
   "Authors": "Graham Currie; Tony Richardson; Paul Smyth; Dianne Vella‐Brodrick; Julian Hine; Karen Lucas; Janet Stanley; Jenny Morris; Ray Kinnear; John K. Stanley",
@@ -40110,7 +40180,7 @@
   "FWCI": 38.0566
  },
  {
-  "ID": "LM01147",
+  "ID": "LM01149",
   "Title": "Are Bikeshare Users Different from Regular Cyclists?",
   "Year": 2013,
   "Authors": "Darren Buck; Ralph Buehler; Patricia Happ; Bradley Rawls; Payton Chung; Natalie Borecki",
@@ -40145,7 +40215,7 @@
   "FWCI": 13.4061
  },
  {
-  "ID": "LM01148",
+  "ID": "LM01150",
   "Title": "Mobility as a Service: Development scenarios and implications for public transport",
   "Year": 2018,
   "Authors": "Göran Smith; Jana Sochor; MariAnne Karlsson",
@@ -40180,7 +40250,7 @@
   "FWCI": 16.1119
  },
  {
-  "ID": "LM01149",
+  "ID": "LM01151",
   "Title": "The Veil and Urban Space in Istanbul: Women's dress, mobility and Islamic knowledge",
   "Year": 2002,
   "Authors": "Anna J. Secor",
@@ -40215,7 +40285,7 @@
   "FWCI": 40.1468
  },
  {
-  "ID": "LM01150",
+  "ID": "LM01152",
   "Title": "Relationship between commuting and health outcomes in a cross-sectional population survey in southern Sweden",
   "Year": 2011,
   "Authors": "Erik Hansson; Kristoffer Mattisson; Jonas Björk; Per‐Olof Östergren; Kristina Jakobsson",
@@ -40250,7 +40320,7 @@
   "FWCI": 12.7735
  },
  {
-  "ID": "LM01151",
+  "ID": "LM01153",
   "Title": "Making urban road pricing acceptable and effective: searching for quality and equity in urban mobility",
   "Year": 2001,
   "Authors": "José Manuel Viegas",
@@ -40285,7 +40355,7 @@
   "FWCI": 17.4783
  },
  {
-  "ID": "LM01152",
+  "ID": "LM01154",
   "Title": "Making the connections between transport disadvantage and the social exclusion of low income populations in the Tshwane Region of South Africa",
   "Year": 2011,
   "Authors": "Karen Lucas",
@@ -40320,7 +40390,7 @@
   "FWCI": 22.4894
  },
  {
-  "ID": "LM01153",
+  "ID": "LM01155",
   "Title": "Transportation for Livable Cities",
   "Year": 2017,
   "Authors": "Vukan R Vuchic",
@@ -40355,7 +40425,7 @@
   "FWCI": 23.1783
  },
  {
-  "ID": "LM01154",
+  "ID": "LM01156",
   "Title": "Smart mobility and public transport: Opportunities and challenges in rural and urban areas",
   "Year": 2019,
   "Authors": "Simone Porru; Francesco Edoardo Misso; Filippo Eros Pani; Cino Repetto",
@@ -40390,7 +40460,42 @@
   "FWCI": 23.5633
  },
  {
-  "ID": "LM01155",
+  "ID": "LM01157",
+  "Title": "Mobile Publics: Beyond the Network Perspective",
+  "Year": 2004,
+  "Authors": "Mimí Sheller",
+  "Venue": "Environment and Planning D Society and Space",
+  "Document type": "article",
+  "DOI": "10.1068/d324t",
+  "OpenAlex ID": "W2035952931",
+  "Link": "https://doi.org/10.1068/d324t",
+  "Open-access link": "",
+  "Cited-by count": 232,
+  "Domain": "A",
+  "Primary theme": "A8",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: In this paper I argue that models of ‘publicity’ have paid insufficient attention to the ways in which publics are deeply embedded in social and machinic complexes involving the mobilities of people, objects, and information.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "A8:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 46.9515
+ },
+ {
+  "ID": "LM01158",
   "Title": "Reconstructing tourism in the Caribbean: connecting pandemic recovery, climate resilience and sustainable tourism through mobility justice",
   "Year": 2020,
   "Authors": "Mimí Sheller",
@@ -40425,7 +40530,7 @@
   "FWCI": 49.4171
  },
  {
-  "ID": "LM01156",
+  "ID": "LM01159",
   "Title": "The role of shared autonomous vehicle systems in delivering smart urban mobility: A systematic review of the literature",
   "Year": 2020,
   "Authors": "Fahimeh Golbabaei; Tan Yiğitcanlar; Jonathan M. Bunker",
@@ -40460,7 +40565,7 @@
   "FWCI": 2.8429
  },
  {
-  "ID": "LM01157",
+  "ID": "LM01160",
   "Title": "Inverse associations between cycling to work, public transport, and overweight and obesity: Findings from a population based study in Australia",
   "Year": 2007,
   "Authors": "Li Ming Wen; Chris E. Rissel",
@@ -40495,7 +40600,7 @@
   "FWCI": 27.541
  },
  {
-  "ID": "LM01158",
+  "ID": "LM01161",
   "Title": "Concentrations of fine, ultrafine, and black carbon particles in auto-rickshaws in New Delhi, India",
   "Year": 2011,
   "Authors": "Joshua Schulz Apte; Thomas W. Kirchstetter; Alexander H. Reich; Shyam J. Deshpande; Geetanjali Kaushik; Arvind Laxmikant Chel; Julian  D. Marshall; William W. Nazaroff",
@@ -40530,7 +40635,7 @@
   "FWCI": 6.8733
  },
  {
-  "ID": "LM01159",
+  "ID": "LM01162",
   "Title": "Impacts of weather on public transport ridership: Results from mining data from different sources",
   "Year": 2016,
   "Authors": "Meng Zhou; Donggen Wang; Qingquan Li; Yang Yue; Wei Tu; Rui Cao",
@@ -40565,7 +40670,7 @@
   "FWCI": 18.2414
  },
  {
-  "ID": "LM01160",
+  "ID": "LM01163",
   "Title": "The Impact of COVID-19 Pandemic on the Resilience of Sustainable Mobility in Sicily",
   "Year": 2020,
   "Authors": "Tiziana Campisi; Socrates Basbas; Αnastasios Skoufas; Nurten Akgün; Dario Ticali; Giovanni Tesoriere",
@@ -40600,7 +40705,7 @@
   "FWCI": 42.6971
  },
  {
-  "ID": "LM01161",
+  "ID": "LM01164",
   "Title": "Transport Justice: Designing fair transportation systems",
   "Year": 2016,
   "Authors": "Karel Martens",
@@ -40635,7 +40740,7 @@
   "FWCI": 27.3171
  },
  {
-  "ID": "LM01162",
+  "ID": "LM01165",
   "Title": "Informal public transport modes in India: A case study of five city regions",
   "Year": 2016,
   "Authors": "Megha Kumar; Seema Singh; Akshima Tejas Ghate; Sarbojit Pal; Sangeetha Ann Wilson",
@@ -40670,7 +40775,7 @@
   "FWCI": 15.0223
  },
  {
-  "ID": "LM01163",
+  "ID": "LM01166",
   "Title": "Mobility Justice in the Context of Disaster",
   "Year": 2015,
   "Authors": "Nancy Cook; David Butz",
@@ -40705,7 +40810,7 @@
   "FWCI": 15.4954
  },
  {
-  "ID": "LM01164",
+  "ID": "LM01167",
   "Title": "Being Single in India: Gendered Identities, Class Mobilities, and Personhoods in Flux",
   "Year": 2018,
   "Authors": "Sarah Lamb",
@@ -40740,7 +40845,7 @@
   "FWCI": 4.1817
  },
  {
-  "ID": "LM01165",
+  "ID": "LM01168",
   "Title": "Safety and security of women and girls in public transport",
   "Year": 2022,
   "Authors": "Deribe Kaske; Emebet Teshome; Tesfaye Woltamo",
@@ -40775,7 +40880,7 @@
   "FWCI": 16.9793
  },
  {
-  "ID": "LM01166",
+  "ID": "LM01169",
   "Title": "“The effects of gender transport poverty in Karachi”",
   "Year": 2020,
   "Authors": "Sana Iqbal; Andrée Woodcock; Jane Osmond",
@@ -40810,7 +40915,7 @@
   "FWCI": 5.7365
  },
  {
-  "ID": "LM01167",
+  "ID": "LM01170",
   "Title": "Transport equity in Sri Lanka: Experiences linked to disability and older age",
   "Year": 2020,
   "Authors": "Varuni Tennakoon; Janine L. Wiles; Roshini Janet Peiris-John; Rajitha Wickremasinghe; Bridget Kool; Shanthi N. Ameratunga",
@@ -40845,7 +40950,7 @@
   "FWCI": 3.9714
  },
  {
-  "ID": "LM01168",
+  "ID": "LM01171",
   "Title": "The social life of transport infrastructures: Masculinities and everyday mobilities in Kolkata",
   "Year": 2019,
   "Authors": "Romit Chowdhury",
@@ -40880,7 +40985,7 @@
   "FWCI": 4.3375
  },
  {
-  "ID": "LM01169",
+  "ID": "LM01172",
   "Title": "‘We are at the mercy of the floods!’ : Extreme weather events, disrupted mobilities, and everyday navigation in urban Ghana",
   "Year": 2023,
   "Authors": "Ebenezer Forkuo Amankwaa; Katherine V. Gough",
@@ -40915,7 +41020,7 @@
   "FWCI": 15.7709
  },
  {
-  "ID": "LM01170",
+  "ID": "LM01173",
   "Title": "Efficient self-organization of informal public transport networks",
   "Year": 2024,
   "Authors": "Kush Mohan Mittal; Marc Timme; Malte Schröder",
@@ -40950,7 +41055,7 @@
   "FWCI": 11.6624
  },
  {
-  "ID": "LM01171",
+  "ID": "LM01174",
   "Title": "“You’re just constantly on alert”: Women and Gender-Diverse People’s Experiences of Sexual Violence on Public Transport",
   "Year": 2023,
   "Authors": "Jessica Ison; Kirsty Forsdike; Nicola Henry; Leesa Hooker; Angela Taft",
@@ -40985,7 +41090,7 @@
   "FWCI": 14.0929
  },
  {
-  "ID": "LM01172",
+  "ID": "LM01175",
   "Title": "Multimodal integration in India: Opportunities, challenges, and strategies for sustainable urban mobility",
   "Year": 2025,
   "Authors": "Rahul Tanwar; Pradeep Kumar Agarwal",
@@ -41020,7 +41125,7 @@
   "FWCI": 26.9874
  },
  {
-  "ID": "LM01173",
+  "ID": "LM01176",
   "Title": "New Disability Mobilities and Accessibilities in Urban I ndia",
   "Year": 2015,
   "Authors": "Michele Ilana Friedner; Jamie C. Osborne",
@@ -41055,7 +41160,7 @@
   "FWCI": 3.7877
  },
  {
-  "ID": "LM01174",
+  "ID": "LM01177",
   "Title": "Urban greening and mobility justice in Dhaka’s informal settlements",
   "Year": 2020,
   "Authors": "Sultana Razia; Thomas Birtchnell; Nicholas Gill",
@@ -41090,7 +41195,42 @@
   "FWCI": 2.965
  },
  {
-  "ID": "LM01175",
+  "ID": "LM01178",
+  "Title": "Mobility Justice and Sustainable Futures",
+  "Year": 2023,
+  "Authors": "Theresa Harada",
+  "Venue": "Australian Geographer",
+  "Document type": "article",
+  "DOI": "10.1080/00049182.2023.2271615",
+  "OpenAlex ID": "W4387971836",
+  "Link": "https://doi.org/10.1080/00049182.2023.2271615",
+  "Open-access link": "https://www.tandfonline.com/doi/pdf/10.1080/00049182.2023.2271615?download=true",
+  "Cited-by count": 22,
+  "Domain": "A",
+  "Primary theme": "A8",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: The theme of this special issue is mobility justice.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "A8:recent",
+  "Duplicates merged": "",
+  "FWCI": 13.3697
+ },
+ {
+  "ID": "LM01179",
   "Title": "The everyday struggles of accessing public transport for women in the first- and last-mile stretches in Kolkata",
   "Year": 2024,
   "Authors": "Sanghamitra Roy; Ajay Bailey; Femke van Noorloos",
@@ -41125,7 +41265,7 @@
   "FWCI": 6.5892
  },
  {
-  "ID": "LM01176",
+  "ID": "LM01180",
   "Title": "The affects and emotions of everyday commutes in Kolkata: shaping women’s public transport mobility",
   "Year": 2024,
   "Authors": "Sanghamitra Roy; Ajay Bailey; Femke van Noorloos",
@@ -41160,7 +41300,7 @@
   "FWCI": 6.5892
  },
  {
-  "ID": "LM01177",
+  "ID": "LM01181",
   "Title": "The politics of urban tourism (im)mobilities: Critical perspectives on inequalities and social justice",
   "Year": 2024,
   "Authors": "Claudio Milano; Ko Koens; Antonio Paolo Russo",
@@ -41195,7 +41335,7 @@
   "FWCI": 19.6159
  },
  {
-  "ID": "LM01178",
+  "ID": "LM01182",
   "Title": "Intersections of gender, mobility, and violence in urban Pakistan",
   "Year": 2018,
   "Authors": "Nausheen H. Anwar; Sarwat Viqar; Daanish Mustafa",
@@ -41230,7 +41370,7 @@
   "FWCI": 3.7173
  },
  {
-  "ID": "LM01179",
+  "ID": "LM01183",
   "Title": "Comparative analysis of public transport modes available in Karachi, Pakistan",
   "Year": 2020,
   "Authors": "Syed Muhammad Noman; Afzal Ahmed; Mir Shabbar Ali",
@@ -41265,7 +41405,7 @@
   "FWCI": 1.3238
  },
  {
-  "ID": "LM01180",
+  "ID": "LM01184",
   "Title": "Urban mobility experiments in India and Thailand",
   "Year": 2016,
   "Authors": "Duke Ghosh; Frans Sengers; Anna J. Wieczorek; Bipashyee Ghosh; Joyashree Roy; Rob P. J. M. Raven",
@@ -41300,7 +41440,7 @@
   "FWCI": 6.2467
  },
  {
-  "ID": "LM01181",
+  "ID": "LM01185",
   "Title": "Smarter city, less just destination? Mobilities and social gaps in Barcelona",
   "Year": 2023,
   "Authors": "Fiammetta Brandajs; Antonio Paolo Russo",
@@ -41335,7 +41475,7 @@
   "FWCI": 1.4974
  },
  {
-  "ID": "LM01182",
+  "ID": "LM01186",
   "Title": "Social media, youth (im)mobilities, and the risks of connectivity in urban Somaliland",
   "Year": 2023,
   "Authors": "Peter Chonka",
@@ -41370,7 +41510,7 @@
   "FWCI": 6.3633
  },
  {
-  "ID": "LM01183",
+  "ID": "LM01187",
   "Title": "When digital disadvantage meets transport disadvantage: The association between smartphone-based mobility services and perceived transport disadvantage among the elderly",
   "Year": 2025,
   "Authors": "Enyu Chang; Zhang Min; Zhixuan Li; Yuchen Hu",
@@ -41405,7 +41545,7 @@
   "FWCI": 25.6209
  },
  {
-  "ID": "LM01184",
+  "ID": "LM01188",
   "Title": "Youth Mobilities and Rural–Urban Tensions in Darjeeling, India",
   "Year": 2015,
   "Authors": "Trent Brown",
@@ -41440,7 +41580,7 @@
   "FWCI": 0.8573
  },
  {
-  "ID": "LM01185",
+  "ID": "LM01189",
   "Title": "Challenges and barriers for gender-inclusive public transport policies and practice in Delhi, India",
   "Year": 2024,
   "Authors": "Ankita Sil; Subeh Chowdhury; Roselle Thoreau",
@@ -41475,7 +41615,7 @@
   "FWCI": 3.2946
  },
  {
-  "ID": "LM01186",
+  "ID": "LM01190",
   "Title": "Social Aspects of Smart Urban Mobility",
   "Year": 2024,
   "Authors": "Łukasz Brzeziński",
@@ -41510,7 +41650,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01187",
+  "ID": "LM01191",
   "Title": "A multidimensional urban transport equity assessment framework: A case of Mumbai",
   "Year": 2025,
   "Authors": "K.T. Sarath; Trupti Mishra; Rangan Banerjee",
@@ -41545,7 +41685,7 @@
   "FWCI": 6.7468
  },
  {
-  "ID": "LM01188",
+  "ID": "LM01192",
   "Title": "Cross-sectional Study of Health Status of Auto Rickshaw Drivers in Vashi, Navi Mumbai, India",
   "Year": 2017,
   "Authors": "Seema Anjenaya; Prasad Waingankar; Sunila Sanjeev; Virendra Mahadik; Kiran S. Mali",
@@ -41580,7 +41720,7 @@
   "FWCI": 1.4747
  },
  {
-  "ID": "LM01189",
+  "ID": "LM01193",
   "Title": "Public transport accessibility: simulation of the usability of public transport in everyday situations",
   "Year": 2022,
   "Authors": "Josef Bernard",
@@ -41615,7 +41755,7 @@
   "FWCI": 0.8827
  },
  {
-  "ID": "LM01190",
+  "ID": "LM01194",
   "Title": "Transport Justice for Istanbul’s Urban Mobility: Equity, Accessibility, and Policy Challenges",
   "Year": 2025,
   "Authors": "Fatih Canıtez",
@@ -41650,7 +41790,7 @@
   "FWCI": 5.8204
  },
  {
-  "ID": "LM01191",
+  "ID": "LM01195",
   "Title": "Mobility Justice, Phenomenology and Gender",
   "Year": 2019,
   "Authors": "Sana Iqbal",
@@ -41685,7 +41825,7 @@
   "FWCI": 0.561
  },
  {
-  "ID": "LM01192",
+  "ID": "LM01196",
   "Title": "Exploring the tactical mobilities and everyday activity of immigrant adolescents in a Canadian suburban city",
   "Year": 2023,
   "Authors": "Haifa AlArasi; Ron N. Buliung",
@@ -41720,7 +41860,7 @@
   "FWCI": 3.0386
  },
  {
-  "ID": "LM01193",
+  "ID": "LM01197",
   "Title": "The Minibus-Taxi Industry in South Africa",
   "Year": 2024,
   "Authors": "Timothy Gibbs; Ofentse Mokwena",
@@ -41755,7 +41895,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01194",
+  "ID": "LM01198",
   "Title": "A Research Agenda for Transport Equity and Mobility Justice",
   "Year": 2024,
   "Authors": "Julie Cidell",
@@ -41790,7 +41930,7 @@
   "FWCI": 3.4158
  },
  {
-  "ID": "LM01195",
+  "ID": "LM01199",
   "Title": "Between gendered selfhood and patriarchal family: young women’s non-metropolitan education mobilities in urban north India",
   "Year": 2025,
   "Authors": "Renu Singh",
@@ -41825,7 +41965,7 @@
   "FWCI": 9.977
  },
  {
-  "ID": "LM01196",
+  "ID": "LM01200",
   "Title": "Climate Mobility Justice",
   "Year": 2025,
   "Authors": "Elena Giacomelli; Pierluigi Musarò",
@@ -41860,7 +42000,7 @@
   "FWCI": 10.4499
  },
  {
-  "ID": "LM01197",
+  "ID": "LM01201",
   "Title": "Numerical simulation of an Indian auto-rickshaw model",
   "Year": 2020,
   "Authors": "Neha Singh; Saransh Abbey; Pratyush Singh; Budda Thiagarajan Kannan",
@@ -41895,7 +42035,7 @@
   "FWCI": 0.748
  },
  {
-  "ID": "LM01198",
+  "ID": "LM01202",
   "Title": "Imagining multispecies mobility justice",
   "Year": 2023,
   "Authors": "Kaya Barry; Samid Suliman",
@@ -41930,7 +42070,7 @@
   "FWCI": 4.2124
  },
  {
-  "ID": "LM01199",
+  "ID": "LM01203",
   "Title": "Spatio-temporal exposure assessment of particulate matter pollution in auto-rickshaw drivers in Chennai, India",
   "Year": 2023,
   "Authors": "Aswin Giri J; S. M. Shiva Nagendra",
@@ -41965,7 +42105,7 @@
   "FWCI": 0.4257
  },
  {
-  "ID": "LM01200",
+  "ID": "LM01204",
   "Title": "The Political Economy of Auto-Rickshaw Fare-Setting in Mumbai",
   "Year": 2012,
   "Authors": "Aparna Bhat",
@@ -42000,7 +42140,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01201",
+  "ID": "LM01205",
   "Title": "APPRAISING THE STRONGLY ASSOCIATED IMPACTS TO CHOOSE THE MODE OF PUBLIC TRANSPORT: A CASE STUDY OF COLOMBO METROPOLITAN AREA IN SRI LANKA",
   "Year": 2016,
   "Authors": "Manjula Madhuwanthi; Ashuboda Chandrajith MARASINGHE; Shusaku Nomura",
@@ -42035,7 +42175,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01202",
+  "ID": "LM01206",
   "Title": "Smashing Spatial Patriarchy: Shifting gender norms driving sexual and gender-based violence on public transport in Sri Lanka",
   "Year": 2019,
   "Authors": "Anam Parvez Butt; Sharanya Sekaram",
@@ -42070,7 +42210,7 @@
   "FWCI": 0.8675
  },
  {
-  "ID": "LM01203",
+  "ID": "LM01207",
   "Title": "Fast Futures and Everyday Endurance: Mobility, Temporality, and Cycle‐Rickshaws in Dhaka",
   "Year": 2023,
   "Authors": "Annemiek Prins",
@@ -42105,7 +42245,7 @@
   "FWCI": 1.8231
  },
  {
-  "ID": "LM01204",
+  "ID": "LM01208",
   "Title": "Risk and the everyday: potentialities, gendered mobilities and women’s worlds in Banaras",
   "Year": 2023,
   "Authors": "Shivani Gupta",
@@ -42140,7 +42280,7 @@
   "FWCI": 1.3518
  },
  {
-  "ID": "LM01205",
+  "ID": "LM01209",
   "Title": "Customers' satisfaction towards Addis Ababa City's minibus taxi service",
   "Year": 2023,
   "Authors": "Gebeyew T. Deyas; Mintesnot Gebeyehu Woldeamanuel; Sitotaw Haile Erena",
@@ -42175,7 +42315,7 @@
   "FWCI": 0.6401
  },
  {
-  "ID": "LM01206",
+  "ID": "LM01210",
   "Title": "From transport equity to mobility justice: an introduction",
   "Year": 2024,
   "Authors": "Ersilia Verlinghieri",
@@ -42210,7 +42350,7 @@
   "FWCI": 8.2465
  },
  {
-  "ID": "LM01207",
+  "ID": "LM01211",
   "Title": "Fare-free public transport: a gender-neutral or gender-focused policy?",
   "Year": 2024,
   "Authors": "Monika Maciejewska",
@@ -42245,7 +42385,7 @@
   "FWCI": 8.2465
  },
  {
-  "ID": "LM01208",
+  "ID": "LM01212",
   "Title": "Viability and impact of existing urban minibus taxi mobility with electric vehicles",
   "Year": 2025,
   "Authors": "Brendan Pretorius; Johannes M. Strauss; Marthinus Johannes Booysen",
@@ -42280,7 +42420,7 @@
   "FWCI": 0.7168
  },
  {
-  "ID": "LM01209",
+  "ID": "LM01213",
   "Title": "Urban Mobility",
   "Year": 2025,
   "Authors": "Laura Alessandretti; Michael Szell",
@@ -42315,7 +42455,7 @@
   "FWCI": 18.8132
  },
  {
-  "ID": "LM01210",
+  "ID": "LM01214",
   "Title": "Tobacco consumption pattern among auto rickshaw drivers in Chennai city, Tamil Nadu, India",
   "Year": 2017,
   "Authors": "Delfin Lovelina Francis",
@@ -42350,7 +42490,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01211",
+  "ID": "LM01215",
   "Title": "Women entrepreneurs creating value in informal public transport enterprises in Kenya",
   "Year": 2022,
   "Authors": "Anne Kamau; Winnie Mitullah",
@@ -42385,7 +42525,7 @@
   "FWCI": 3.75
  },
  {
-  "ID": "LM01212",
+  "ID": "LM01216",
   "Title": "Paratransit minibus taxi transport services in Addis Ababa",
   "Year": 2022,
   "Authors": "Mebeaselassie Tekest; Tebarek Lika; Mulugeta Girma",
@@ -42420,7 +42560,7 @@
   "FWCI": 0.3531
  },
  {
-  "ID": "LM01213",
+  "ID": "LM01217",
   "Title": "Braking Dynamics of Auto-Rickshaw",
   "Year": 2022,
   "Authors": "M H Akshith; Srijan Anand; Raghav Chakravarthy; Nuthalapati Hemanth; Sharanbasappa Patil",
@@ -42455,7 +42595,7 @@
   "FWCI": 0.5429
  },
  {
-  "ID": "LM01214",
+  "ID": "LM01218",
   "Title": "Going on a ride with Lefebvre: everyday contestation of platform mobilities in Mumbai",
   "Year": 2022,
   "Authors": "Tobias Kuttler",
@@ -42490,7 +42630,7 @@
   "FWCI": 0.7252
  },
  {
-  "ID": "LM01215",
+  "ID": "LM01219",
   "Title": "Women Safety in Public Transport—A Case of Ahmedabad",
   "Year": 2023,
   "Authors": "R. Lakshmi; Nitika Bhakuni",
@@ -42525,7 +42665,7 @@
   "FWCI": 1.9313
  },
  {
-  "ID": "LM01216",
+  "ID": "LM01220",
   "Title": "Analysis of in-vehicle air quality and load factor as environmental and social dimensions of sustainable urban mobility: A case study from Kathmandu valley, Nepal",
   "Year": 2024,
   "Authors": "Pooja Bhusal; Suman Man Shrestha; Narayan Babu Dhital; Gauri Shankar Bhandari; Bhupendra Das; Rishav Pandit",
@@ -42560,7 +42700,7 @@
   "FWCI": 0.3358
  },
  {
-  "ID": "LM01217",
+  "ID": "LM01221",
   "Title": "Gender and Public Transport : Kathmandu, Nepal",
   "Year": 2013,
   "Authors": "World Bank",
@@ -42595,7 +42735,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01218",
+  "ID": "LM01222",
   "Title": "How Can Transport Disadvantage Become Transport-based Social Exclusion in the Context of a Developing Country? A Case Study in Bangladesh",
   "Year": 2017,
   "Authors": "David Pérez-Barbosa; Junyi Zhang",
@@ -42630,7 +42770,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01219",
+  "ID": "LM01223",
   "Title": "Unbounded Ergonomics: Addressing the Wicked Problem of Gender Transport Poverty in Karachi Through the Application of the Hexagon-Spindle Model",
   "Year": 2021,
   "Authors": "Andrée Woodcock; S. Iqbal; Jane Osmond",
@@ -42665,7 +42805,7 @@
   "FWCI": 1.1333
  },
  {
-  "ID": "LM01220",
+  "ID": "LM01224",
   "Title": "Urban mobilities and power: Social exclusion by design in the city",
   "Year": 2022,
   "Authors": "Ole B. Jensen",
@@ -42700,7 +42840,7 @@
   "FWCI": 0.4951
  },
  {
-  "ID": "LM01221",
+  "ID": "LM01225",
   "Title": "Watch Your Step: Everyday Urban Mobility in the Arctic",
   "Year": 2023,
   "Authors": "Monica Tennberg",
@@ -42735,7 +42875,7 @@
   "FWCI": 1.9111
  },
  {
-  "ID": "LM01222",
+  "ID": "LM01226",
   "Title": "Urban Mobility Development in Northeast India",
   "Year": 2024,
   "Authors": "Tumbenthung Y. Humtsoe",
@@ -42770,7 +42910,7 @@
   "FWCI": 0.6832
  },
  {
-  "ID": "LM01223",
+  "ID": "LM01227",
   "Title": "Perspektif Gender: Integrasi Walkability – Public Transport",
   "Year": 2024,
   "Authors": "Juanita Juanita; Hendar Ivan Syah; Tito Pinandita",
@@ -42805,7 +42945,7 @@
   "FWCI": 0.3295
  },
  {
-  "ID": "LM01224",
+  "ID": "LM01228",
   "Title": "Machine Learning Analysis of Informal Minibus Taxi Driving",
   "Year": 2024,
   "Authors": "Nomfundo Cele; Alain Y. Kibangou; Walter Musakwa",
@@ -42840,7 +42980,7 @@
   "FWCI": 1.1842
  },
  {
-  "ID": "LM01225",
+  "ID": "LM01229",
   "Title": "A Small-scale Study on Gender-based Violence in Public Transport in Sri Lanka",
   "Year": 2024,
   "Authors": "I. A. Mallawaarachchi",
@@ -42875,7 +43015,7 @@
   "FWCI": 0.7889
  },
  {
-  "ID": "LM01226",
+  "ID": "LM01230",
   "Title": "Sustainable Urban Mobility: Corridor Optimization to Promote Modal Choice, Reduce Congestion, and Enhance Livability in Hyderabad, Pakistan",
   "Year": 2025,
   "Authors": "Mehnaz Soomro; Irfan Ahmed Memon; Imtiaz Ahmed Chandio; Saima Kalwar; Hina Marvi; Aneel Kumar; Afraz Ahmed Memon",
@@ -42910,7 +43050,7 @@
   "FWCI": 0.8434
  },
  {
-  "ID": "LM01227",
+  "ID": "LM01231",
   "Title": "Qualitative and Quantitative Assessment of Public Minibus Taxi Driving",
   "Year": 2025,
   "Authors": "Nomfundo Cele; Alain Y. Kibangou; Walter Musakwa",
@@ -42945,7 +43085,7 @@
   "FWCI": 0.6207
  },
  {
-  "ID": "LM01228",
+  "ID": "LM01232",
   "Title": "Quantifying informal public transport using GPS data",
   "Year": 2025,
   "Authors": "L. De Beer; Christoffel J. Venter; Lourens Snyman",
@@ -42980,7 +43120,7 @@
   "FWCI": 0.8434
  },
  {
-  "ID": "LM01229",
+  "ID": "LM01233",
   "Title": "Disability-specific transport disadvantage in Indian cities: Barriers and enablers beyond universal design",
   "Year": 2026,
   "Authors": "G.M. Hridya; Agnivesh Pani; Varun Varghese; Avinash Unnikrishnan",
@@ -43015,7 +43155,7 @@
   "FWCI": 7.0451
  },
  {
-  "ID": "LM01230",
+  "ID": "LM01234",
   "Title": "WOMEN VICTIMS OF SEXUAL HARASSMENT IN PUBLIC TRANSPORT SYSTEM IN BANGLADESH: A SOCIOLOGICAL SURVEY AT DHAKA CITY",
   "Year": 2018,
   "Authors": "Josinta Zinia",
@@ -43050,7 +43190,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01231",
+  "ID": "LM01235",
   "Title": "Addressing Informal Public Transport Vehicle Problem in Kolkata",
   "Year": 2020,
   "Authors": "Ankita Baksi; Jayita Guha Niyogi; Arup Guha Niyogi",
@@ -43085,7 +43225,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01232",
+  "ID": "LM01236",
   "Title": "Driving Sustainability of Minibus Taxi Industry in South Africa",
   "Year": 2022,
   "Authors": "Kenneth Mathu",
@@ -43120,7 +43260,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01233",
+  "ID": "LM01237",
   "Title": "Urban mobilities",
   "Year": 2022,
   "Authors": "Rivke Jaffe; Anouk de Koning",
@@ -43155,7 +43295,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01234",
+  "ID": "LM01238",
   "Title": "Sustainable Urban Mobilities",
   "Year": 2023,
   "Authors": "Hamman, Philippe",
@@ -43190,7 +43330,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01235",
+  "ID": "LM01239",
   "Title": "Bioinfrastructures for Mobility Justice",
   "Year": 2023,
   "Authors": "Columba González-Duarte",
@@ -43225,7 +43365,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01236",
+  "ID": "LM01240",
   "Title": "Conclusions, acknowledgments, and calls to action for transport equity and mobility justice",
   "Year": 2024,
   "Authors": "Julie L. Cidell",
@@ -43260,7 +43400,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01237",
+  "ID": "LM01241",
   "Title": "Transport Justice on the Streets of Kathmandu",
   "Year": 2024,
   "Authors": "Bhushan Tuladhar",
@@ -43295,7 +43435,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01238",
+  "ID": "LM01242",
   "Title": "CONTRADICTIONS AROUND THE FORMALISATION OF SOUTH AFRICA’S MINIBUS TAXI INDUSTRY",
   "Year": 2024,
   "Authors": "Siyabulela Christopher Fobosi",
@@ -43330,7 +43470,42 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01239",
+  "ID": "LM01243",
+  "Title": "Between resilience and risk: Women negotiating safety and access to public transport infrastructures in Dhaka, Bangladesh",
+  "Year": 2024,
+  "Authors": "Syeda Seama Mowri",
+  "Venue": "",
+  "Document type": "dissertation",
+  "DOI": "10.33540/2646",
+  "OpenAlex ID": "W4404731590",
+  "Link": "https://doi.org/10.33540/2646",
+  "Open-access link": "https://dspace.library.uu.nl/handle/1874/462595",
+  "Cited-by count": 0,
+  "Domain": "A",
+  "Primary theme": "A8",
+  "Secondary theme": "",
+  "Places studied": "Bangladesh; Dhaka; South Asia; South Asian",
+  "Region": "South Asia",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "review",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: This research seeks to answer these questions by examining female commuters' relationship to public space through a holistic approach, analyzing interventions, institutions, discourses, and lived experiences.",
+  "Stated gaps": "auto: This multifaceted approach to understanding the myriad ways in which transport systems interact with societal structures and are experienced by individuals is rather underexplored in the transport literature emanating from low and middle-income countries of Global South, and particularly with respect to Bangladesh.",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "A8:india",
+  "Duplicates merged": "",
+  "FWCI": null
+ },
+ {
+  "ID": "LM01244",
   "Title": "Equity and Accessibility in Urban Mobility",
   "Year": 2025,
   "Authors": "Bert van Wee",
@@ -43365,7 +43540,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01240",
+  "ID": "LM01245",
   "Title": "Sensory Urban Mobilities",
   "Year": 2025,
   "Authors": "Damien Masson",
@@ -43400,7 +43575,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01241",
+  "ID": "LM01246",
   "Title": "Modelling the accessibility to on-demand taxi services in Colombo, Sri Lanka",
   "Year": 2025,
   "Authors": "H. Deivendra; Shashikala Balasooriya",
@@ -43435,7 +43610,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01242",
+  "ID": "LM01247",
   "Title": "Ethical and Social Implications of Urban Mobility",
   "Year": 2025,
   "Authors": "Maxim Kirillovich Izmaylov; Galina Silkina; Maria Livintsova; Viliyan Krastev",
@@ -43470,7 +43645,42 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01243",
+  "ID": "LM01248",
+  "Title": "Transport equity",
+  "Year": 2025,
+  "Authors": "Isabel Cunha; Louafi Bouzouina",
+  "Venue": "Edward Elgar Publishing eBooks",
+  "Document type": "reference-entry",
+  "DOI": "10.4337/9781800379282.00199",
+  "OpenAlex ID": "W4413640574",
+  "Link": "https://doi.org/10.4337/9781800379282.00199",
+  "Open-access link": "",
+  "Cited-by count": 0,
+  "Domain": "A",
+  "Primary theme": "A8",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "unclear",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: International audience",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "A8:recent",
+  "Duplicates merged": "",
+  "FWCI": null
+ },
+ {
+  "ID": "LM01249",
   "Title": "Urban Mobility and Social Justice: public transport in the Guadalajara metropolitan area, Mexico",
   "Year": 2023,
   "Authors": "Roberto Ulises Estrada Meza",
@@ -43505,7 +43715,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01244",
+  "ID": "LM01250",
   "Title": "Mobility Justice",
   "Year": 2025,
   "Authors": "Tim Schwanen",
@@ -43540,7 +43750,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01245",
+  "ID": "LM01251",
   "Title": "Incidental, everyday social and spatial experiences in urban mobility as a driver of local social cohesion: towards social streets",
   "Year": 2025,
   "Authors": "Harald Schuster; Gesa Solveig Duden; Jolanda van der Noll; Anette Rohmann",
@@ -43575,7 +43785,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01246",
+  "ID": "LM01252",
   "Title": "“The Automobile, the City, and the New Urban Mobilities” (2014/rev ed 2024)",
   "Year": 2025,
   "Authors": "Frederic Stout",
@@ -43610,7 +43820,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01247",
+  "ID": "LM01253",
   "Title": "Mobilities at Work: Stories of Migration and Labour from the Industrial Belts of Dhaka",
   "Year": 2025,
   "Authors": "M. Chakraborty; Aparna Rayaprol",
@@ -43645,7 +43855,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01248",
+  "ID": "LM01254",
   "Title": "Macho Vulnerability: race, class and caste inequalities in men’s urban mobilities in India and South Africa",
   "Year": 2025,
   "Authors": "Shannon Philip",
@@ -43680,7 +43890,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01249",
+  "ID": "LM01255",
   "Title": "Analysis of urban mobility and quality of life: North–South transit-oriented development (TOD) in Bengaluru",
   "Year": 2025,
   "Authors": "Vishwa Udachan; Shantharam Patil",
@@ -43715,7 +43925,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01250",
+  "ID": "LM01256",
   "Title": "Integrating Socio-Cultural and Environmental Dimensions into Urban Mobility Planning: A Case Study of Kiribathgoda Town, Sri Lanka",
   "Year": 2025,
   "Authors": "J.A.C.D. Jayalath; U. Kulatunga",
@@ -43750,7 +43960,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01251",
+  "ID": "LM01257",
   "Title": "Transport poverty and gendered inequalities: Evidence from expert interviews in Karachi",
   "Year": 2026,
   "Authors": "Sana Iqbal",
@@ -43785,7 +43995,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01252",
+  "ID": "LM01258",
   "Title": "EP01.02: Tobacco Consumption Pattern Among Auto Rickshaw Drivers in Chennai City, Tamil Nadu, India",
   "Year": 2026,
   "Authors": "Delfin Lovelina Francis; Saravanan Sampoornam Pape Reddy",
@@ -43820,7 +44030,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01253",
+  "ID": "LM01259",
   "Title": "A Socio-economic Study of Auto Rickshaw Drivers in Kolkata",
   "Year": 2026,
   "Authors": "Sudipta Halder; Anirban Sarkar",
@@ -43855,7 +44065,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01254",
+  "ID": "LM01260",
   "Title": "Boda-Boda Pakalast: mobility and the politics of informal public transport in Uganda",
   "Year": 2026,
   "Authors": "Carsten Müller",
@@ -43890,7 +44100,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01255",
+  "ID": "LM01261",
   "Title": "Who decides how women travel? Gender, authority and transportation in Hyderabad, India",
   "Year": 2026,
   "Authors": "Aila Bandagi Kandlakunta; Jessie Hanna Clark",
@@ -43925,7 +44135,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01256",
+  "ID": "LM01262",
   "Title": "Operationalizing Symbolic Violence to Advance Gender Equality: Women’s Mobility and Everyday Injustices in Public Transport in Mexico",
   "Year": 2026,
   "Authors": "Lorena Suárez Alvarez; José Manuel Álvarez-Alvarado; Avatar Flores Gutiérrez; Juvenal Rodríguez-Reséndiz",
@@ -43960,7 +44170,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01257",
+  "ID": "LM01263",
   "Title": "Urban Mobility and the Production of Space: Everyday Politics and Infrastructural Power in Makassar, Indonesia",
   "Year": 2025,
   "Authors": "Djufri Djufri; Ansar Arifin; Muhammad Basir",
@@ -43995,7 +44205,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01258",
+  "ID": "LM01264",
   "Title": "Walking, waiting, relying: The everyday mobilities of older people in an Indonesian City",
   "Year": 2026,
   "Authors": "Dadang Meru Utomo; Imma Widyawati Agustin; Christia Meidiana; Budi Sugiarto Waloejo; Ismu Rini Dwi Ari; Septiana Hariyani; Ghina Fadhilah",
@@ -44030,7 +44240,42 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01259",
+  "ID": "LM01265",
+  "Title": "The Political Economy of Sustainable Mobility: A Comparative Analysis of State Capacity and SDG 11 in Lahore and Karachi, Pakistan",
+  "Year": 2026,
+  "Authors": "Furqan Khalid; Asia Saif Alvi; Haroon Khalid; Muhammad Mohsin",
+  "Venue": "The critical review of social sciences studies",
+  "Document type": "article",
+  "DOI": "10.59075/vn980p73",
+  "OpenAlex ID": "W7162869078",
+  "Link": "https://doi.org/10.59075/vn980p73",
+  "Open-access link": "https://thecrsss.com/index.php/Journal/article/download/1595/1548",
+  "Cited-by count": 0,
+  "Domain": "A",
+  "Primary theme": "A8",
+  "Secondary theme": "",
+  "Places studied": "Karachi; Lahore; Pakistan",
+  "Region": "South Asia",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "mixed",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: This paper addressed the politics of sustainable urban mobility by taking two cities, Lahore and Karachi, and discussed how differences in state capacity influence the implementation of Sustainable Development Goal (11) in Pakistan.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "A8:india",
+  "Duplicates merged": "",
+  "FWCI": 0.0
+ },
+ {
+  "ID": "LM01266",
   "Title": "AI, Smart Mobility and Transport Equity: Comparative Insights from Global Cities for India",
   "Year": 2026,
   "Authors": "Anubha; Saima Raza; Nazish Abid; Mazharul Haque; Somi Sareen",
@@ -44065,7 +44310,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01260",
+  "ID": "LM01267",
   "Title": "Urban Capital and Young People’s Mobilities in Urban Space",
   "Year": 2026,
   "Authors": "Tarja Tolonen; Sinikka Aapola-Kari; Matilda Wrede-Jäntti",
@@ -44100,7 +44345,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01261",
+  "ID": "LM01268",
   "Title": "Solving Transport Disadvantage Through Place-Based Collaboration",
   "Year": 2026,
   "Authors": "Laurel Johnson",
@@ -44135,7 +44380,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01262",
+  "ID": "LM01269",
   "Title": "Equity in Urban Mobility: A Case Study of Bangalore’s Transportation System",
   "Year": 2026,
   "Authors": "B. Maneesha; Rohit Singh Nitwal; B V Santhosh Kumar; Ashish Verma",
@@ -44170,7 +44415,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01263",
+  "ID": "LM01270",
   "Title": "Auto-Rickshaw Drivers in Delhi",
   "Year": 2003,
   "Authors": "Anvita Anand; Rajendra Ravi",
@@ -44205,7 +44450,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01264",
+  "ID": "LM01271",
   "Title": "Auto rickshaw transport service A study in Bangalore city",
   "Year": 2005,
   "Authors": "E. A. Parameswara Gupta",
@@ -44240,7 +44485,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01265",
+  "ID": "LM01272",
   "Title": "Socio economic study of auto rickshaw drivers in Bangalore city",
   "Year": 1995,
   "Authors": "E. A. Parameswara Gupta",
@@ -44275,7 +44520,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01266",
+  "ID": "LM01273",
   "Title": "STUDY OF RESPIRATORY HEALTH IN AUTO RICKSHAW DRIVERS IN MUMBAI",
   "Year": 2020,
   "Authors": "Gupta, Deepali; Shradha Pawar",
@@ -44310,7 +44555,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01267",
+  "ID": "LM01274",
   "Title": "Place of Informal Transportation in Public Transport",
   "Year": 2022,
   "Authors": "Büşra Buran",
@@ -44345,7 +44590,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01268",
+  "ID": "LM01275",
   "Title": "Taking social equity account in urban mobility policies : a comparison of European small or medium-sized towns",
   "Year": 2022,
   "Authors": "Cédric Fandio",
@@ -44380,7 +44625,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01269",
+  "ID": "LM01276",
   "Title": "Youth Entrepreneurship in South Asia: Opportunities and Challenges in Pakistan and Sri Lanka",
   "Year": 2024,
   "Authors": "Shunsuke Sato",
@@ -44415,7 +44660,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01270",
+  "ID": "LM01277",
   "Title": "Youth Entrepreneurship in South Asia: Structural Constraints and Strategic Pathways in Pakistan and Sri Lanka",
   "Year": 2025,
   "Authors": "Shunsuke Sato",
@@ -44450,7 +44695,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01271",
+  "ID": "LM01278",
   "Title": "Reconfiguring Everyday Mobilities: Digital Geographies of Care and Precarity in Post-Pandemic Urban Life",
   "Year": 2025,
   "Authors": "Revista, Zen; GEOGRAPHY, 10",
@@ -44485,7 +44730,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01272",
+  "ID": "LM01279",
   "Title": "Urban mobility network centrality predicts social resilience",
   "Year": 2026,
   "Authors": "Lin Chen; Fengli Xu; Esteban Moro; Pan Hui; Yong Li; James Evans",
@@ -44520,7 +44765,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01273",
+  "ID": "LM01280",
   "Title": "Metro Infrastructure for Sustainable Urban Mobility in the Mumbai Metropolitan Region: A Geographic Assessment",
   "Year": 2026,
   "Authors": "Mr. Shubham Tanaji Patil; Dr. K. R. Jadhav",
@@ -44555,7 +44800,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01274",
+  "ID": "LM01281",
   "Title": "Metro Infrastructure for Sustainable Urban Mobility in the Pune Metropolitan Region: A Geographic Assessment",
   "Year": 2026,
   "Authors": "Shri. Nilesh B. Sasane; Mr. Yogesh D. Mardane",
@@ -44590,7 +44835,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01275",
+  "ID": "LM01282",
   "Title": "Transit Migration in Delhi : A case study of temporary urban mobility",
   "Year": 2026,
   "Authors": "Sanjana P Kumar",
@@ -44625,7 +44870,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01276",
+  "ID": "LM01283",
   "Title": "Empirical Performance Assessment of South Africa's First Commercial Electric Minibus Taxi",
   "Year": 2026,
   "Authors": "Joshua T. Sello; Chris Joseph Abraham; Stephan Lacock; Marthinus Johannes Booysen",
@@ -44660,7 +44905,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01277",
+  "ID": "LM01284",
   "Title": "Equity-Driven Indicators for Evaluating Urban Mobility Systems",
   "Year": 2026,
   "Authors": "Fatemeh Noorizadehsalout",
@@ -44695,7 +44940,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01278",
+  "ID": "LM01285",
   "Title": "Taking social equity into account in urban mobility policies : a comparison of European small or medium-sized towns",
   "Year": 2022,
   "Authors": "Cédric Fandio",
@@ -44730,7 +44975,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01279",
+  "ID": "LM01286",
   "Title": "Gender, Mobility Justice, and Electric-Bike Adoption: Modeling Transport Choices Under Mobility Constraints in Rawalpindi, Pakistan",
   "Year": 2026,
   "Authors": "Zohaib Khalid; Mohsin Saeed",
@@ -44765,7 +45010,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01280",
+  "ID": "LM01287",
   "Title": "Notes Toward a Performative Theory of Assembly",
   "Year": 2015,
   "Authors": "Judith Butler",
@@ -44800,7 +45045,7 @@
   "FWCI": 267.4199
  },
  {
-  "ID": "LM01281",
+  "ID": "LM01288",
   "Title": "Systematic Social Observation of Public Spaces: A New Look at Disorder in Urban Neighborhoods",
   "Year": 1999,
   "Authors": "Robert J. Sampson; Stephen W. Raudenbush",
@@ -44835,7 +45080,7 @@
   "FWCI": 84.3608
  },
  {
-  "ID": "LM01282",
+  "ID": "LM01289",
   "Title": "Sex in Public",
   "Year": 1998,
   "Authors": "Lauren Berlant; Michael Warner",
@@ -44870,7 +45115,7 @@
   "FWCI": 22.8851
  },
  {
-  "ID": "LM01283",
+  "ID": "LM01290",
   "Title": "The social life of small urban spaces",
   "Year": 1980,
   "Authors": "William H. Whyte",
@@ -44905,7 +45150,7 @@
   "FWCI": 24.881
  },
  {
-  "ID": "LM01284",
+  "ID": "LM01291",
   "Title": "Making a city: Urbanity, vitality and urban design",
   "Year": 1998,
   "Authors": "John Montgomery",
@@ -44940,7 +45185,7 @@
   "FWCI": 4.4398
  },
  {
-  "ID": "LM01285",
+  "ID": "LM01292",
   "Title": "Life between buildings: Using public space",
   "Year": 1980,
   "Authors": "Jan Gehl",
@@ -44975,7 +45220,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01286",
+  "ID": "LM01293",
   "Title": "Variations on a Theme Park: The New American City and the End of Public Space",
   "Year": 1994,
   "Authors": "Teresa P. R. Caldeira; Michael Sorkin",
@@ -45010,7 +45255,7 @@
   "FWCI": 550.9141
  },
  {
-  "ID": "LM01287",
+  "ID": "LM01294",
   "Title": "Semiotic Landscapes: Language, Image, Space",
   "Year": 2010,
   "Authors": "Adam Jaworski; Crispin Thurlow",
@@ -45045,7 +45290,7 @@
   "FWCI": 87.6334
  },
  {
-  "ID": "LM01288",
+  "ID": "LM01295",
   "Title": "Urban planning and quality of life: A review of pathways linking the built environment to subjective well-being",
   "Year": 2021,
   "Authors": "Kostas Mouratidis",
@@ -45080,7 +45325,7 @@
   "FWCI": 78.4567
  },
  {
-  "ID": "LM01289",
+  "ID": "LM01296",
   "Title": "Linguistic Landscape as Symbolic Construction of the Public Space: The Case of Israel",
   "Year": 2006,
   "Authors": "Eliezer Ben‐Rafael; Elana Shohamy; Muhammad Hasan Amara; Nira Trumper-Hecht",
@@ -45115,7 +45360,7 @@
   "FWCI": 38.7205
  },
  {
-  "ID": "LM01290",
+  "ID": "LM01297",
   "Title": "City of Walls: Crime, Segregation, and Citizenship in São Paulo",
   "Year": 2000,
   "Authors": "Teresa Pires do Rio Caldeira",
@@ -45150,7 +45395,7 @@
   "FWCI": 17.1705
  },
  {
-  "ID": "LM01291",
+  "ID": "LM01298",
   "Title": "The Annihilation of Space by Law: The Roots and Implications of Anti‐Homeless Laws in the United States",
   "Year": 1997,
   "Authors": "Don Mitchell",
@@ -45185,7 +45430,7 @@
   "FWCI": 15.8111
  },
  {
-  "ID": "LM01292",
+  "ID": "LM01299",
   "Title": "Urban open space in the 21st century",
   "Year": 2002,
   "Authors": "Catharine Ward Thompson",
@@ -45220,7 +45465,7 @@
   "FWCI": 5.2301
  },
  {
-  "ID": "LM01293",
+  "ID": "LM01300",
   "Title": "Collective culture and urban public space",
   "Year": 2008,
   "Authors": "Ash Amin",
@@ -45255,7 +45500,7 @@
   "FWCI": 38.1817
  },
  {
-  "ID": "LM01294",
+  "ID": "LM01301",
   "Title": "How To Study Public Life",
   "Year": 2013,
   "Authors": "Jan Gehl; Birgitte Svarre",
@@ -45290,7 +45535,7 @@
   "FWCI": 27.036
  },
  {
-  "ID": "LM01295",
+  "ID": "LM01302",
   "Title": "The impact of COVID-19 on public space: an early review of the emerging questions – design, perceptions and inequities",
   "Year": 2020,
   "Authors": "Jordi Honey‐Rosés; Isabelle Anguelovski; Vincent Chireh; Carolyn Daher; Cecil Cornelius Konijnendijk; Jill Litt; Vrushti Mawani; Michael Keith McCall; Arturo Orellana; Emilia Oscilowicz et al.",
@@ -45325,7 +45570,7 @@
   "FWCI": 41.6434
  },
  {
-  "ID": "LM01296",
+  "ID": "LM01303",
   "Title": "Vulnerability in Resistance",
   "Year": 2016,
   "Authors": "Butler-Rees, Angharad",
@@ -45360,7 +45605,7 @@
   "FWCI": 47.8499
  },
  {
-  "ID": "LM01297",
+  "ID": "LM01304",
   "Title": "It all used to be better? Different generations on continuity and change in urban children's daily use of space",
   "Year": 2005,
   "Authors": "Lia Karsten",
@@ -45395,7 +45640,7 @@
   "FWCI": 18.1271
  },
  {
-  "ID": "LM01298",
+  "ID": "LM01305",
   "Title": "Social infrastructure and the public life of cities: Studying urban sociality and public spaces",
   "Year": 2019,
   "Authors": "Alan Latham; Jack Layton",
@@ -45430,7 +45675,7 @@
   "FWCI": 83.777
  },
  {
-  "ID": "LM01299",
+  "ID": "LM01306",
   "Title": "Accessibility and usability: Green space preferences, perceptions, and barriers in a rapidly urbanizing city in Latin America",
   "Year": 2012,
   "Authors": "Heather E. Wright Wendel; Rebecca K. Zarger; James R. Mihelcic",
@@ -45465,7 +45710,7 @@
   "FWCI": 5.1694
  },
  {
-  "ID": "LM01300",
+  "ID": "LM01307",
   "Title": "Cities within the City: Do‐It‐Yourself Urbanism and the Right to the City",
   "Year": 2013,
   "Authors": "Kurt Iveson",
@@ -45500,7 +45745,7 @@
   "FWCI": 102.4976
  },
  {
-  "ID": "LM01301",
+  "ID": "LM01308",
   "Title": "It's Mine, Don't Touch!",
   "Year": 2008,
   "Authors": "Peter Peltonen; Esko Kurvinen; Antti Salovaara; Giulio Jacucci; Tommi Ilmonen; John Evans; Antti Oulasvirta; Petri Saarikko",
@@ -45535,7 +45780,7 @@
   "FWCI": 31.9484
  },
  {
-  "ID": "LM01302",
+  "ID": "LM01309",
   "Title": "The Public Realm",
   "Year": 2017,
   "Authors": "Lyn H. Lofland",
@@ -45570,7 +45815,7 @@
   "FWCI": 26.5507
  },
  {
-  "ID": "LM01303",
+  "ID": "LM01310",
   "Title": "The Future of Public Space:Beyond Invented Streets and Reinvented Places",
   "Year": 2001,
   "Authors": "Tridib Banerjee",
@@ -45605,7 +45850,7 @@
   "FWCI": 18.0089
  },
  {
-  "ID": "LM01304",
+  "ID": "LM01311",
   "Title": "Children's Independent Spatial Mobility in the Urban Public Realm",
   "Year": 2000,
   "Authors": "Margaret O’Brien; DEBORAH JONES; DAVID SLOAN; Michael Rustin",
@@ -45640,7 +45885,7 @@
   "FWCI": 12.3923
  },
  {
-  "ID": "LM01305",
+  "ID": "LM01312",
   "Title": "Loose Space : Possibility and Diversity in Urban Life",
   "Year": 2006,
   "Authors": "Karen A. Franck; Quentin Stevens",
@@ -45675,7 +45920,7 @@
   "FWCI": 23.1242
  },
  {
-  "ID": "LM01306",
+  "ID": "LM01313",
   "Title": "Walkable City: How Downtown Can Save America, One Step at a Time",
   "Year": 2012,
   "Authors": "Jeff Speck",
@@ -45710,7 +45955,7 @@
   "FWCI": 48.7625
  },
  {
-  "ID": "LM01307",
+  "ID": "LM01314",
   "Title": "Principles for public space design, planning to do better",
   "Year": 2018,
   "Authors": "Matthew Carmona",
@@ -45745,7 +45990,7 @@
   "FWCI": 59.6499
  },
  {
-  "ID": "LM01308",
+  "ID": "LM01315",
   "Title": "Insurgent Public Space",
   "Year": 2010,
   "Authors": "Jeffrey Hou",
@@ -45780,7 +46025,7 @@
   "FWCI": 15.9028
  },
  {
-  "ID": "LM01309",
+  "ID": "LM01316",
   "Title": "Cast in Stone: Monuments, Geography, and Nationalism",
   "Year": 1995,
   "Authors": "Nuala Johnson",
@@ -45815,7 +46060,7 @@
   "FWCI": 24.3967
  },
  {
-  "ID": "LM01310",
+  "ID": "LM01317",
   "Title": "Requirements and design space for interactive public displays",
   "Year": 2010,
   "Authors": "Jörg Müller; Florian Alt; Daniel Michelis; Albrecht Schmidt",
@@ -45850,7 +46095,7 @@
   "FWCI": 16.1361
  },
  {
-  "ID": "LM01311",
+  "ID": "LM01318",
   "Title": "Domestication by Cappuccino or a Revenge on Urban Space? Control and Empowerment in the Management of Public Spaces",
   "Year": 2003,
   "Authors": "Rowland Atkinson",
@@ -45885,7 +46130,7 @@
   "FWCI": 25.9133
  },
  {
-  "ID": "LM01312",
+  "ID": "LM01319",
   "Title": "CHILDREN SHOULD BE SEEN AND NOT HEARD: THE PRODUCTION AND TRANSGRESSION OF ADULTS' PUBLIC SPACE",
   "Year": 1996,
   "Authors": "Gill Valentine",
@@ -45920,7 +46165,7 @@
   "FWCI": 52.6525
  },
  {
-  "ID": "LM01313",
+  "ID": "LM01320",
   "Title": "Democracy and the Public Space in Latin America",
   "Year": 2009,
   "Authors": "Leonardo Avritzer",
@@ -45955,7 +46200,7 @@
   "FWCI": 74.1002
  },
  {
-  "ID": "LM01314",
+  "ID": "LM01321",
   "Title": "'Bold Walk and Breakings': Women's spatial confidence versus fear of violence",
   "Year": 1997,
   "Authors": "Hille Koskela",
@@ -45990,7 +46235,7 @@
   "FWCI": 13.5611
  },
  {
-  "ID": "LM01315",
+  "ID": "LM01322",
   "Title": "Situating Legal Consciousness: Experiences and Attitudes of Ordinary Citizens about Law and Street Harassment",
   "Year": 2000,
   "Authors": "Laura Beth Nielsen",
@@ -46025,7 +46270,7 @@
   "FWCI": 8.2516
  },
  {
-  "ID": "LM01316",
+  "ID": "LM01323",
   "Title": "Space, Difference, Everyday Life",
   "Year": 2008,
   "Authors": "",
@@ -46060,7 +46305,7 @@
   "FWCI": 14.115
  },
  {
-  "ID": "LM01317",
+  "ID": "LM01324",
   "Title": "Publics and the City",
   "Year": 2007,
   "Authors": "Kurt Iveson",
@@ -46095,7 +46340,7 @@
   "FWCI": 28.0854
  },
  {
-  "ID": "LM01318",
+  "ID": "LM01325",
   "Title": "On the Plaza",
   "Year": 2000,
   "Authors": "Setha Low",
@@ -46130,7 +46375,7 @@
   "FWCI": 2.9435
  },
  {
-  "ID": "LM01319",
+  "ID": "LM01326",
   "Title": "The Place-shaping Continuum: A Theory of Urban Design Process",
   "Year": 2013,
   "Authors": "Matthew Carmona",
@@ -46165,7 +46410,7 @@
   "FWCI": 56.9431
  },
  {
-  "ID": "LM01320",
+  "ID": "LM01327",
   "Title": "Lively Streets",
   "Year": 2007,
   "Authors": "Vikas Mehta",
@@ -46200,7 +46445,7 @@
   "FWCI": 6.5524
  },
  {
-  "ID": "LM01321",
+  "ID": "LM01328",
   "Title": "Guardians of the Bourgeois City: Citizenship, Public Space, and Middle–Class Activism in Mumbai",
   "Year": 2009,
   "Authors": "Jonathan Shapiro Anjaria",
@@ -46235,7 +46480,7 @@
   "FWCI": 18.9008
  },
  {
-  "ID": "LM01322",
+  "ID": "LM01329",
   "Title": "Defining the ideal public space: A perspective from the publicness",
   "Year": 2022,
   "Authors": "Juan Li; Anrong Dang; Yan Song",
@@ -46270,7 +46515,7 @@
   "FWCI": 28.4475
  },
  {
-  "ID": "LM01323",
+  "ID": "LM01330",
   "Title": "The Slow Boil: Street Food, Rights and Public Space in Mumbai",
   "Year": 2016,
   "Authors": "Jonathan Shapiro Anjaria",
@@ -46305,7 +46550,7 @@
   "FWCI": 18.4059
  },
  {
-  "ID": "LM01324",
+  "ID": "LM01331",
   "Title": "Women’s Safety and Public Spaces: Lessons from the Sabarmati Riverfront, India",
   "Year": 2019,
   "Authors": "Darshini Mahadevia; Saumya Lathia",
@@ -46340,7 +46585,7 @@
   "FWCI": 8.6749
  },
  {
-  "ID": "LM01325",
+  "ID": "LM01332",
   "Title": "Safe in the City? Negotiating safety, public space and the male gaze in Kolkata, India",
   "Year": 2021,
   "Authors": "Sanghamitra Roy; Ajay Bailey",
@@ -46375,7 +46620,7 @@
   "FWCI": 9.467
  },
  {
-  "ID": "LM01326",
+  "ID": "LM01333",
   "Title": "Streets as Public Spaces: Lessons from Street Vending in Ahmedabad, India",
   "Year": 2019,
   "Authors": "Prithvi Deore; Saumya Lathia",
@@ -46410,7 +46655,7 @@
   "FWCI": 7.6495
  },
  {
-  "ID": "LM01327",
+  "ID": "LM01334",
   "Title": "Defending Frivolous Fun: Feminist Acts of Claiming Public Spaces in South Asia",
   "Year": 2020,
   "Authors": "Shilpa Phadke",
@@ -46445,7 +46690,7 @@
   "FWCI": 7.5285
  },
  {
-  "ID": "LM01328",
+  "ID": "LM01335",
   "Title": "To Whom Does the City Belong? Obstacles to Right to the City for the Urban Poor in Bangladesh",
   "Year": 2020,
   "Authors": "Lutfun Nahar Lata",
@@ -46480,7 +46725,7 @@
   "FWCI": 9.7197
  },
  {
-  "ID": "LM01329",
+  "ID": "LM01336",
   "Title": "Informal laneway encroachment: Reassessing public/private interface transformation in urban villages",
   "Year": 2020,
   "Authors": "Matthijs van Oostrum",
@@ -46515,7 +46760,7 @@
   "FWCI": 7.0198
  },
  {
-  "ID": "LM01330",
+  "ID": "LM01337",
   "Title": "Public space and its publicness in people-oriented urban regeneration: A case study of Shanghai",
   "Year": 2023,
   "Authors": "Jingyi Zhu",
@@ -46550,7 +46795,7 @@
   "FWCI": 12.762
  },
  {
-  "ID": "LM01331",
+  "ID": "LM01338",
   "Title": "Urban mobility infrastructures as public spaces: The uses of Sé subway station in downtown São Paulo",
   "Year": 2023,
   "Authors": "Cristiana Martin",
@@ -46585,7 +46830,7 @@
   "FWCI": 12.1543
  },
  {
-  "ID": "LM01332",
+  "ID": "LM01339",
   "Title": "The Street Vendors Act and the right to public space in Mumbai",
   "Year": 2018,
   "Authors": "Lola Salès",
@@ -46620,7 +46865,7 @@
   "FWCI": 4.9708
  },
  {
-  "ID": "LM01333",
+  "ID": "LM01340",
   "Title": "Understanding vitality of public space: A review with an example of capital city Kathmandu in Nepal",
   "Year": 2023,
   "Authors": "Uttam Paudel; Krishna Prasad Pant",
@@ -46655,7 +46900,7 @@
   "FWCI": 1.4899
  },
  {
-  "ID": "LM01334",
+  "ID": "LM01341",
   "Title": "Ruptured space and spatial estrangement: (Un)making of public space in Kathmandu",
   "Year": 2017,
   "Authors": "Urmi Sengupta",
@@ -46690,7 +46935,7 @@
   "FWCI": 1.9229
  },
  {
-  "ID": "LM01335",
+  "ID": "LM01342",
   "Title": "Do welfare states need privately owned public spaces? The relevance of and need for such spaces in German cities",
   "Year": 2022,
   "Authors": "Dahae Lee; Nele Scholten",
@@ -46725,7 +46970,7 @@
   "FWCI": 4.9507
  },
  {
-  "ID": "LM01336",
+  "ID": "LM01343",
   "Title": "How public are hybrid public spaces? Assessing publicness of privately owned public spaces in Hamburg",
   "Year": 2023,
   "Authors": "Alistair Dunlop; Ole Hübert; Lubna Aqel; Reda Abdelilah; Dahae Lee",
@@ -46760,7 +47005,7 @@
   "FWCI": 6.7564
  },
  {
-  "ID": "LM01337",
+  "ID": "LM01344",
   "Title": "The Politics of Illegality: Mumbai Hawkers, Public Space and the Everyday Life of the Law",
   "Year": 2012,
   "Authors": "Luciana Fukimoto Itikawa",
@@ -46795,7 +47040,7 @@
   "FWCI": 5.889
  },
  {
-  "ID": "LM01338",
+  "ID": "LM01345",
   "Title": "Simulating the “city of joy”: state choreography and the re-appropriation of public spaces in Kolkata",
   "Year": 2022,
   "Authors": "Sukanya Chakrabarti",
@@ -46830,7 +47075,7 @@
   "FWCI": 3.4655
  },
  {
-  "ID": "LM01339",
+  "ID": "LM01346",
   "Title": "Dhaka and the contestation over the public space",
   "Year": 2009,
   "Authors": "Habibul Haque Khondker",
@@ -46865,7 +47110,7 @@
   "FWCI": 4.2358
  },
  {
-  "ID": "LM01340",
+  "ID": "LM01347",
   "Title": "Regulating Access and Mobility of Single Women in a “World Class”-city: Gender and Inequality in Delhi, India",
   "Year": 2016,
   "Authors": "Christiane Brosius",
@@ -46900,7 +47145,7 @@
   "FWCI": 5.1402
  },
  {
-  "ID": "LM01341",
+  "ID": "LM01348",
   "Title": "Exploring the Impact of the Publicness of Public Space in Hong Kong: A Structural Equation Modelling Approach",
   "Year": 2025,
   "Authors": "H. Zeng; Louie Sieh; Dong Zhang; Hao Huang; Yu-Zun Zhang; Jin Yeu Tsou",
@@ -46935,7 +47180,7 @@
   "FWCI": 14.8182
  },
  {
-  "ID": "LM01342",
+  "ID": "LM01349",
   "Title": "Evaluating the Publicness Dimension of Public Space with Bibliometric Analysis",
   "Year": 2023,
   "Authors": "Elif Kutay Karaçor; Hüseyin Ögçe",
@@ -46970,7 +47215,7 @@
   "FWCI": 3.6463
  },
  {
-  "ID": "LM01343",
+  "ID": "LM01350",
   "Title": "On Design and Politics of Co-producing Public Space: The Long Marches and the Reincarnation of the ‘Forecourt’ of the Pakistani Nation",
   "Year": 2013,
   "Authors": "Ahmed Zaib Khan",
@@ -47005,7 +47250,7 @@
   "FWCI": 4.2707
  },
  {
-  "ID": "LM01344",
+  "ID": "LM01351",
   "Title": "Use or Misuse of Urban Streets? Exploration of Everyday Urbanism in Traditional City Centres",
   "Year": 2023,
   "Authors": "Temitope Muyiwa Adebara; Oyinloluwa Beatrice Adebara; Amos Oluwole Taiwo",
@@ -47040,7 +47285,7 @@
   "FWCI": 3.0386
  },
  {
-  "ID": "LM01345",
+  "ID": "LM01352",
   "Title": "Public Space and Life in an Indian City: The Politics of Space in Bangalore.",
   "Year": 2014,
   "Authors": "Salila Vanka",
@@ -47075,7 +47320,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01346",
+  "ID": "LM01353",
   "Title": "Global Flows or Rural–Urban Connections? Temporality, Public Spaces and Heterotopias in Globalising Mumbai",
   "Year": 2017,
   "Authors": "Devanathan Parthasarathy",
@@ -47110,7 +47355,7 @@
   "FWCI": 1.9641
  },
  {
-  "ID": "LM01347",
+  "ID": "LM01354",
   "Title": "Public space and citizenship in Mumbai",
   "Year": 2019,
   "Authors": "Tanu Sankalia",
@@ -47145,7 +47390,7 @@
   "FWCI": 0.6924
  },
  {
-  "ID": "LM01348",
+  "ID": "LM01355",
   "Title": "Evolution of city squares and transformation of publicness",
   "Year": 2022,
   "Authors": "Meriç Demir Kahraman; Handan Türkoğlu",
@@ -47180,7 +47425,7 @@
   "FWCI": 1.9694
  },
  {
-  "ID": "LM01349",
+  "ID": "LM01356",
   "Title": "Citizen Oversight of Public Spaces: Evaluating Public Participation in Managing Privately Owned Public Spaces",
   "Year": 2024,
   "Authors": "Sungju Jung; Jae Seung Lee; Saehoon Kim",
@@ -47215,7 +47460,7 @@
   "FWCI": 4.3591
  },
  {
-  "ID": "LM01350",
+  "ID": "LM01357",
   "Title": "Urban park commercialization and the transformation of public space in Cairo",
   "Year": 2025,
   "Authors": "Abdelbaseer A. Mohamed",
@@ -47250,7 +47495,7 @@
   "FWCI": 8.4675
  },
  {
-  "ID": "LM01351",
+  "ID": "LM01358",
   "Title": "Managing and navigating Manchester's Privately Owned Public Spaces: Understanding publicness",
   "Year": 2025,
   "Authors": "Evgenia Kanellopoulou; Nikos Ntounis; Steve Millington",
@@ -47285,7 +47530,7 @@
   "FWCI": 6.3506
  },
  {
-  "ID": "LM01352",
+  "ID": "LM01359",
   "Title": "PUBLIC VS PRIVATE SECTOR OWNED URBAN PUBLIC SPACE PERFORMANCE IN TERMS OF USER PERCEPTION IN CITY OF COLOMBO",
   "Year": 2021,
   "Authors": "A.M. Fayas; Mutu Tantrige Osada Vishvajith Peiris; K.G.P. Kalugalla",
@@ -47320,7 +47565,7 @@
   "FWCI": 4.4603
  },
  {
-  "ID": "LM01353",
+  "ID": "LM01360",
   "Title": "Park Politics in a Postcolonial Indian City: Planning (and) Public Space in Bangalore",
   "Year": 2022,
   "Authors": "Salila Vanka",
@@ -47355,7 +47600,7 @@
   "FWCI": 0.9901
  },
  {
-  "ID": "LM01354",
+  "ID": "LM01361",
   "Title": "'Delhi is a hopeful place for me!': young middle-class women reclaiming the Indian city",
   "Year": 2022,
   "Authors": "Syeda Jenifa Zahan",
@@ -47390,7 +47635,7 @@
   "FWCI": 0.7006
  },
  {
-  "ID": "LM01355",
+  "ID": "LM01362",
   "Title": "Unpacking Urban Environmental Visions and Contestations of Street Vendors in Kolkata, West Bengal",
   "Year": 2023,
   "Authors": "Madhubarna Dhar; Amrita Sen; Archana Patnaik",
@@ -47425,7 +47670,7 @@
   "FWCI": 1.2154
  },
  {
-  "ID": "LM01356",
+  "ID": "LM01363",
   "Title": "Assessing the publicness of three streets in ethnically-diverse neighbourhoods",
   "Year": 2024,
   "Authors": "Maryam Lesan",
@@ -47460,7 +47705,7 @@
   "FWCI": 2.1529
  },
  {
-  "ID": "LM01357",
+  "ID": "LM01364",
   "Title": "Insights about the publicness of public space from the Kamppi area of Helsinki",
   "Year": 2024,
   "Authors": "Žieda Tamašauskaitė",
@@ -47495,7 +47740,7 @@
   "FWCI": 2.1529
  },
  {
-  "ID": "LM01358",
+  "ID": "LM01365",
   "Title": "Evaluating publicness of public space and its transforming pattern: A case of the inner courtyard at Khulna new market",
   "Year": 2024,
   "Authors": "A. Morshed; M. G. Sami; N. Islam; M. Y. Dola",
@@ -47530,7 +47775,7 @@
   "FWCI": 2.1795
  },
  {
-  "ID": "LM01359",
+  "ID": "LM01366",
   "Title": "Designing for sociability and the erosion of publicness: how COVID-19 changed public space",
   "Year": 2025,
   "Authors": "Vikas Mehta; Szymon Piotr Nogalski",
@@ -47565,7 +47810,7 @@
   "FWCI": 4.2338
  },
  {
-  "ID": "LM01360",
+  "ID": "LM01367",
   "Title": "A ‘space-order’ publicness model: interpreting public space development in Shanghai’s people-oriented urban regeneration",
   "Year": 2025,
   "Authors": "Jingyi Zhu",
@@ -47600,7 +47845,7 @@
   "FWCI": 4.1493
  },
  {
-  "ID": "LM01361",
+  "ID": "LM01368",
   "Title": "A Critical Review of the Literature on Privately Owned Public Spaces: From Intrinsic Critiques to Systematic Assessment",
   "Year": 2025,
   "Authors": "Mohammad Mohammadi; Quentin Stevens",
@@ -47635,7 +47880,7 @@
   "FWCI": 4.2338
  },
  {
-  "ID": "LM01362",
+  "ID": "LM01369",
   "Title": "Privatization of public space: stakeholder analysis in shifting the function of public space case study in Kediri city, Indonesia",
   "Year": 2022,
   "Authors": "Trimurti Ningtyas; Siti Amanah",
@@ -47670,7 +47915,7 @@
   "FWCI": 0.4924
  },
  {
-  "ID": "LM01363",
+  "ID": "LM01370",
   "Title": "PUBLICNESS OF PUBLIC SPACES IN METROPOLITAN CITY OF A DEVELOPING COUNTRY: THE CASE OF LAHORE, PAKISTAN",
   "Year": 2022,
   "Authors": "Aqsa Qalb; Hamza Yasin; Obaidullah Nadeem; Marium Nawaz; Fariha Tariq",
@@ -47705,7 +47950,7 @@
   "FWCI": 0.4951
  },
  {
-  "ID": "LM01364",
+  "ID": "LM01371",
   "Title": "Informality and the Production of Publicness in India",
   "Year": 2022,
   "Authors": "Vikas Mehta",
@@ -47740,7 +47985,7 @@
   "FWCI": 2.3803
  },
  {
-  "ID": "LM01365",
+  "ID": "LM01372",
   "Title": "Urban Planning Criteria for Defining Privately Owned Public Spaces (POPS)",
   "Year": 2023,
   "Authors": "Zejnulla Rexhepi; Sanja Gašparović; Tihomir Jukić",
@@ -47775,7 +48020,7 @@
   "FWCI": 0.2782
  },
  {
-  "ID": "LM01366",
+  "ID": "LM01373",
   "Title": "Post-Public: Contextualizing the Privatization of Public Space",
   "Year": 2022,
   "Authors": "Max Frank; Brian M. Holland",
@@ -47810,7 +48055,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01367",
+  "ID": "LM01374",
   "Title": "Assessing the Degree of Publicness in Streets",
   "Year": 2024,
   "Authors": "Sandeep Paul",
@@ -47845,7 +48090,7 @@
   "FWCI": 5.7344
  },
  {
-  "ID": "LM01368",
+  "ID": "LM01375",
   "Title": "The end of publicness in Yorubaland? Exploring the privatisation of public space in Ile-Ife, Nigeria",
   "Year": 2025,
   "Authors": "Temitope Muyiwa Adebara; Adewumi Israel Badiora; Adedotun Ayodele Dipeolu; Lateef Adeleke Adeniyi",
@@ -47880,7 +48125,7 @@
   "FWCI": 2.1169
  },
  {
-  "ID": "LM01369",
+  "ID": "LM01376",
   "Title": "‘No Place for us on Footpaths’: Exploring Walkability Challenges of Older Men in India and Bangladesh",
   "Year": 2025,
   "Authors": "Ajay Bailey; Selim Jahangir; Prajwal Nagesh",
@@ -47915,7 +48160,7 @@
   "FWCI": 0.8434
  },
  {
-  "ID": "LM01370",
+  "ID": "LM01377",
   "Title": "Street vending as urban inhabitation: materialities, epistemes, and city-making in Karachi and Mumbai",
   "Year": 2026,
   "Authors": "Aseela Haque; Saanchi Saxena",
@@ -47950,7 +48195,7 @@
   "FWCI": 13.804
  },
  {
-  "ID": "LM01371",
+  "ID": "LM01378",
   "Title": "Public Space Privatization: A Catalyst for Urban Spaces Gentrification",
   "Year": 2026,
   "Authors": "Mariem Ali Abdeldayem; Ayman Mohamed Assem; Karim Bayoumi Ibrahim",
@@ -47985,7 +48230,7 @@
   "FWCI": 13.804
  },
  {
-  "ID": "LM01372",
+  "ID": "LM01379",
   "Title": "The digital city and the struggle for urban public spaces: A pragmatic rethinking of public space and digital rights in a postliberal urban future",
   "Year": 2026,
   "Authors": "Ehsan Dorostkar; Mahsa Najarsadeghi",
@@ -48020,7 +48265,7 @@
   "FWCI": 3.8105
  },
  {
-  "ID": "LM01373",
+  "ID": "LM01380",
   "Title": "Publicness of Newly Redeveloped Public Spaces of Dhaka South City Corporation Area",
   "Year": 2022,
   "Authors": "Sabrina Sultana; Adil Mohammed Khan; Md. Ashiqur Rahman",
@@ -48055,7 +48300,7 @@
   "FWCI": 0.4924
  },
  {
-  "ID": "LM01374",
+  "ID": "LM01381",
   "Title": "Public space and livelihood security in the urban economy: the case of street vendors in Mumbai",
   "Year": 2014,
   "Authors": "Debdulal Saha",
@@ -48090,7 +48335,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01375",
+  "ID": "LM01382",
   "Title": "The Mundane and (Extra)Ordinary Public Spaces in India: Examining the Impact of the COVID-19 Pandemic Through an Everyday Lens in Chennai City",
   "Year": 2021,
   "Authors": "Lakshmi Priya Rajendran; Aamstrong Anjumuthu",
@@ -48125,7 +48370,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01376",
+  "ID": "LM01383",
   "Title": "Compendium of Dimensions for Evaluating Publicness of Public Spaces",
   "Year": 2022,
   "Authors": "Simranpreet Kaur; Pankaj Chhabra",
@@ -48160,7 +48405,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01377",
+  "ID": "LM01384",
   "Title": "Space, the right to the city and informality",
   "Year": 2023,
   "Authors": "Lutfun Nahar Lata",
@@ -48195,7 +48440,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01378",
+  "ID": "LM01385",
   "Title": "Access to Public Spaces in Indian Cities: An Opportunistic Model",
   "Year": 2023,
   "Authors": "Archana Gaikwad; Utpal Sharma",
@@ -48230,7 +48475,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01379",
+  "ID": "LM01386",
   "Title": "Commoning and Territoriality in the Public Space “Plasma” of Historical Cities: Investigating Emplaced Network Dynamics in Bhaktapur, Kathmandu Valley, Nepal",
   "Year": 2023,
   "Authors": "Shyam Sunder Kawan; Manfredo Manfredini; Haisong Wang",
@@ -48265,7 +48510,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01380",
+  "ID": "LM01387",
   "Title": "Segregated Public Space and the Right to the City",
   "Year": 2023,
   "Authors": "",
@@ -48300,7 +48545,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01381",
+  "ID": "LM01388",
   "Title": "Elton Chan. The Last Urban Frontier. Commodification of Public Space and the Right to the City in Insurgent Hong Kong. Lund University, 2023. PhD Thesis.",
   "Year": 2023,
   "Authors": "Miguel A. Martínez",
@@ -48335,7 +48580,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01382",
+  "ID": "LM01389",
   "Title": "Chapter 5. Segregated Public Space and the Right to the City",
   "Year": 2023,
   "Authors": "Anne Christine Trémon",
@@ -48370,7 +48615,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01383",
+  "ID": "LM01390",
   "Title": "PRIVATISATION OF PUBLIC SPACE – CASE STUDY ZAGREB, CROATIA",
   "Year": 2023,
   "Authors": "Antonio Nevescanin; Bartosz Marek Walczak",
@@ -48405,7 +48650,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01384",
+  "ID": "LM01391",
   "Title": "Reclaiming Public Spaces in Post-pandemic India (Kolkata): Activist Theatre, Gender and a Resurgence of the Marginal",
   "Year": 2024,
   "Authors": "AHVANA PAUL; Tamalika Roy; Sumit Mondal; S. C. Biswas",
@@ -48440,7 +48685,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01385",
+  "ID": "LM01392",
   "Title": "CRAFTING INDIAN MARKETS: THE ART OF BLURRING THE BOUNDARIES OF PUBLICNESS CASE OF DELHI",
   "Year": 2024,
   "Authors": "Pankaj Chhabra; Simranpreet Kaur",
@@ -48475,7 +48720,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01386",
+  "ID": "LM01393",
   "Title": "Beyond the public space tableau: Insurgent heritage and the right to the city in Bogotá",
   "Year": 2023,
   "Authors": "Erich Frank Hellmer",
@@ -48510,7 +48755,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01387",
+  "ID": "LM01394",
   "Title": "Grassroots Collectives Recover Public Space",
   "Year": 2024,
   "Authors": "Megan Saltzman",
@@ -48545,7 +48790,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01388",
+  "ID": "LM01395",
   "Title": "Rethinking ‘Aesthetic Environments’ in Cities: Politics, Resistance, and Informal Street Vending in Kolkata, West Bengal",
   "Year": 2025,
   "Authors": "Madhubarna Dhar; Amrita Sen; Archana Patnaik",
@@ -48580,7 +48825,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01389",
+  "ID": "LM01396",
   "Title": "Mending Privately Owned Public Spaces",
   "Year": 2025,
   "Authors": "Adriana Cobo Corey",
@@ -48615,7 +48860,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01390",
+  "ID": "LM01397",
   "Title": "Private developments, public edges: intermediary spaces and privately-owned public spaces in urban megaprojects in Bangkok",
   "Year": 2026,
   "Authors": "Federico Puggioni; Nij Tontisirin",
@@ -48650,7 +48895,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01391",
+  "ID": "LM01398",
   "Title": "Publicness and the City",
   "Year": 2026,
   "Authors": "Roberto Rocco",
@@ -48685,7 +48930,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01392",
+  "ID": "LM01399",
   "Title": "Street Vending and the Right to the City",
   "Year": 2026,
   "Authors": "Amy Schoenecker",
@@ -48720,7 +48965,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01393",
+  "ID": "LM01400",
   "Title": "How public are they? Privately owned public spaces in Shanghai, China",
   "Year": 2026,
   "Authors": "Yiming Wang; Jie Chen",
@@ -48755,7 +49000,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01394",
+  "ID": "LM01401",
   "Title": "Hawkers, Footpaths and the City: Informality, Urban Space, and Life in Kolkata",
   "Year": 2026,
   "Authors": "Madhumita Roy",
@@ -48790,7 +49035,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01395",
+  "ID": "LM01402",
   "Title": "Public spaces in an industrial town: what the Covid-19 lockdowns tell us about publicness and everyday urbanism in Vietnam",
   "Year": 2026,
   "Authors": "Thi‐Thanh‐Hiên Pham; Sarah Turner; Khac Minh Trân",
@@ -48825,7 +49070,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01396",
+  "ID": "LM01403",
   "Title": "Decoding the role of graffiti and street art as a safety tool in public spaces of Bengaluru, India",
   "Year": 2026,
   "Authors": "Cecon Swain",
@@ -48860,7 +49105,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01397",
+  "ID": "LM01404",
   "Title": "Designing Publicness",
   "Year": 2026,
   "Authors": "Rui Leão; T W H Chung; Luisa Bravo",
@@ -48895,7 +49140,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01398",
+  "ID": "LM01405",
   "Title": "Interpreting public space through a publicness–typology approach: An exploratory study of public spaces in Shanghai, China",
   "Year": 2026,
   "Authors": "Jingyi Zhu",
@@ -48930,7 +49175,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01399",
+  "ID": "LM01406",
   "Title": "Designing Indian streets as social public spaces : contextual design and planning in Bangalore",
   "Year": 2014,
   "Authors": "Sneha Mandhan",
@@ -48965,7 +49210,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01400",
+  "ID": "LM01407",
   "Title": "Spaces for engagement in the city of Mumbai : rethinking parks and public spaces in congested cities",
   "Year": 2015,
   "Authors": "Kairav Shroff",
@@ -49000,7 +49245,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01401",
+  "ID": "LM01408",
   "Title": "Everyday Urbanism, An Alternate Approach to Urban Public Space : Promoting Sustainable Lifestyles in Chennai, India",
   "Year": 2012,
   "Authors": "Arvind Ramachandran",
@@ -49035,7 +49280,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01402",
+  "ID": "LM01409",
   "Title": "Digital Perceptions: Comparing the Perceptional Difference between Public Spaces and POPS (Privately Owned Public Spaces) Through Online Reviews",
   "Year": 2023,
   "Authors": "Yucheng Zhang",
@@ -49070,7 +49315,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01403",
+  "ID": "LM01410",
   "Title": "Reimagining Privately Owned Public Spaces in NYC vs Auckland",
   "Year": 2024,
   "Authors": "Katie Zheng",
@@ -49105,7 +49350,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01404",
+  "ID": "LM01411",
   "Title": "Morphological Influence On Publicness In Bandung’s Public Spaces: A Case Study Of Alun-Alun And Cihampelas Walk Mall",
   "Year": 2025,
   "Authors": "Asharsinyo Doddy Friestya",
@@ -49140,7 +49385,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01405",
+  "ID": "LM01412",
   "Title": "Privately Owned Public Places - the Good, the Bad, & the Ugly!",
   "Year": 2026,
   "Authors": "David Chapman",
@@ -49175,7 +49420,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01406",
+  "ID": "LM01413",
   "Title": "Public Spaces and Street Vendors in Mumbai A Theoretical Understanding of Urban Reciprocity",
   "Year": 2024,
   "Authors": "Urvashi Purohit; Mayuresh Gorey",
@@ -49210,7 +49455,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01407",
+  "ID": "LM01414",
   "Title": "Public Space for Public Good: Making Privately Owned Public Spaces in Vancouver More Inclusive and Supportive",
   "Year": 2023,
   "Authors": "Fraser, Madison",
@@ -49245,7 +49490,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01408",
+  "ID": "LM01415",
   "Title": "The City Through Her Eyes: Gender-Based Harassment in Public Spaces in Urban India",
   "Year": 2026,
   "Authors": "Lori A. Beaman; Seema Jayachandran; Anisha Sharma",
@@ -49280,7 +49525,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01409",
+  "ID": "LM01416",
   "Title": "Surveillance as social sorting : privacy, risk, and digital discrimination",
   "Year": 2003,
   "Authors": "David Lyon",
@@ -49315,7 +49560,7 @@
   "FWCI": 52.5136
  },
  {
-  "ID": "LM01410",
+  "ID": "LM01417",
   "Title": "Documenting individual identity : the development of state practices in the modern world",
   "Year": 2001,
   "Authors": "Jane Caplan; John C. Torpey",
@@ -49350,7 +49595,7 @@
   "FWCI": 193.349
  },
  {
-  "ID": "LM01411",
+  "ID": "LM01418",
   "Title": "Beyond Fear: Thinking Sensibly About Security in an Uncertain World",
   "Year": 2003,
   "Authors": "Bruce Schneier",
@@ -49385,7 +49630,7 @@
   "FWCI": 37.2311
  },
  {
-  "ID": "LM01412",
+  "ID": "LM01419",
   "Title": "Cartographic Anxiety: Mapping the Body Politic in India",
   "Year": 1994,
   "Authors": "Sankaran Krishna",
@@ -49420,7 +49665,7 @@
   "FWCI": 11.1013
  },
  {
-  "ID": "LM01413",
+  "ID": "LM01420",
   "Title": "Security and Privacy Issues in E-passports",
   "Year": 2006,
   "Authors": "Ari Juels; D. Molnar; David A. Wagner",
@@ -49455,7 +49700,7 @@
   "FWCI": 43.6959
  },
  {
-  "ID": "LM01414",
+  "ID": "LM01421",
   "Title": "E-residency and blockchain",
   "Year": 2017,
   "Authors": "Clare Sullivan; Eric Burger",
@@ -49490,7 +49735,7 @@
   "FWCI": 52.4896
  },
  {
-  "ID": "LM01415",
+  "ID": "LM01422",
   "Title": "Digital Epidermalization: Race, Identity and Biometrics",
   "Year": 2010,
   "Authors": "Simone Browne",
@@ -49525,7 +49770,7 @@
   "FWCI": 30.1
  },
  {
-  "ID": "LM01416",
+  "ID": "LM01423",
   "Title": "‘The body does not lie’: Identity, risk and trust in technoculture",
   "Year": 2006,
   "Authors": "Katja Franko",
@@ -49560,7 +49805,7 @@
   "FWCI": 11.5151
  },
  {
-  "ID": "LM01417",
+  "ID": "LM01424",
   "Title": "(Dis)qualified bodies: securitization, citizenship and ‘identity management’",
   "Year": 2004,
   "Authors": "Benjamin Müller",
@@ -49595,7 +49840,7 @@
   "FWCI": 18.9498
  },
  {
-  "ID": "LM01418",
+  "ID": "LM01425",
   "Title": "When Biometrics Fail: Gender, Race, and the Technology of Identity",
   "Year": 2011,
   "Authors": "Shoshana Amielle Magnet",
@@ -49630,7 +49875,7 @@
   "FWCI": 10.7348
  },
  {
-  "ID": "LM01419",
+  "ID": "LM01426",
   "Title": "The humanitarian intervention debate",
   "Year": 2003,
   "Authors": "J. L. Holzgrefe",
@@ -49665,7 +49910,7 @@
   "FWCI": 66.6778
  },
  {
-  "ID": "LM01420",
+  "ID": "LM01427",
   "Title": "Global surveillance and policing : borders, security, identity",
   "Year": 2005,
   "Authors": "Elia T. Zureik; Mark B. Salter",
@@ -49700,7 +49945,7 @@
   "FWCI": 43.3586
  },
  {
-  "ID": "LM01421",
+  "ID": "LM01428",
   "Title": "Identification for Development: The Biometrics Revolution",
   "Year": 2013,
   "Authors": "Alan H. Gelb; Julia Clark",
@@ -49735,7 +49980,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01422",
+  "ID": "LM01429",
   "Title": "Tangible Information and Citizen Empowerment: Identification Cards and Food Subsidy Programs in Indonesia",
   "Year": 2017,
   "Authors": "Abhijit Banerjee; Rema Hanna; Jordan Kyle; Benjamin Olken; Sudarno Sumarto",
@@ -49770,7 +50015,7 @@
   "FWCI": 25.3341
  },
  {
-  "ID": "LM01423",
+  "ID": "LM01430",
   "Title": "Aadhaar: Governing with Biometrics",
   "Year": 2019,
   "Authors": "Ursula Rao; Vijayanka Nair",
@@ -49805,7 +50050,7 @@
   "FWCI": 9.0781
  },
  {
-  "ID": "LM01424",
+  "ID": "LM01431",
   "Title": "Self-Sovereign Identity in a Globalized World: Credentials-Based Identity Systems as a Driver for Economic Inclusion",
   "Year": 2020,
   "Authors": "Fennie Wang; Primavera De Filippi",
@@ -49840,7 +50085,7 @@
   "FWCI": 21.1129
  },
  {
-  "ID": "LM01425",
+  "ID": "LM01432",
   "Title": "Autonomy of Migration?",
   "Year": 2019,
   "Authors": "Stephan Scheel",
@@ -49875,7 +50120,7 @@
   "FWCI": 15.2392
  },
  {
-  "ID": "LM01426",
+  "ID": "LM01433",
   "Title": "User acceptance of Malaysian government multipurpose smartcard applications",
   "Year": 2009,
   "Authors": "W.H. Loo; Paul H.P. Yeow; Siong Choy Chong",
@@ -49910,7 +50155,7 @@
   "FWCI": 24.5383
  },
  {
-  "ID": "LM01427",
+  "ID": "LM01434",
   "Title": "The Rise of Digital Financialisation: The Case of India",
   "Year": 2020,
   "Authors": "Sudeep Jain; Daniela Gabor",
@@ -49945,7 +50190,7 @@
   "FWCI": 13.21
  },
  {
-  "ID": "LM01428",
+  "ID": "LM01435",
   "Title": "Nationality and Citizenship in Revolutionary France",
   "Year": 2000,
   "Authors": "Michael Rapport",
@@ -49980,7 +50225,7 @@
   "FWCI": 1.9227
  },
  {
-  "ID": "LM01429",
+  "ID": "LM01436",
   "Title": "Fintech for Financial Inclusion: A Framework for Digital Financial Transformation",
   "Year": 2018,
   "Authors": "Douglas W. Arner; Ross P. Buckley; Dirk Andreas Zetzsche",
@@ -50015,7 +50260,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01430",
+  "ID": "LM01437",
   "Title": "Identifying Citizens: ID Cards as Surveillance",
   "Year": 2009,
   "Authors": "David Lyon",
@@ -50050,7 +50295,7 @@
   "FWCI": 36.8201
  },
  {
-  "ID": "LM01431",
+  "ID": "LM01438",
   "Title": "Datafying anti-poverty programmes: implications for data justice",
   "Year": 2019,
   "Authors": "Silvia Masiero; Soumyo Das",
@@ -50085,7 +50330,7 @@
   "FWCI": 27.653
  },
  {
-  "ID": "LM01432",
+  "ID": "LM01439",
   "Title": "Municipal ID Cards for Undocumented Immigrants",
   "Year": 2014,
   "Authors": "Els de Graauw",
@@ -50120,7 +50365,7 @@
   "FWCI": 15.1722
  },
  {
-  "ID": "LM01433",
+  "ID": "LM01440",
   "Title": "The Privacy Advocates",
   "Year": 2008,
   "Authors": "Colin J. Bennett",
@@ -50155,7 +50400,7 @@
   "FWCI": 9.572
  },
  {
-  "ID": "LM01434",
+  "ID": "LM01441",
   "Title": "The birth of biometric security",
   "Year": 2009,
   "Authors": "Mark Maguire",
@@ -50190,7 +50435,7 @@
   "FWCI": 2.6819
  },
  {
-  "ID": "LM01435",
+  "ID": "LM01442",
   "Title": "Security, Risk and the Biometric State",
   "Year": 2010,
   "Authors": "Benjamin Müller",
@@ -50225,7 +50470,7 @@
   "FWCI": 0.84
  },
  {
-  "ID": "LM01436",
+  "ID": "LM01443",
   "Title": "Give Me a Database and I Will Raise the Nation-State",
   "Year": 2019,
   "Authors": "Ranjit Singh",
@@ -50260,7 +50505,7 @@
   "FWCI": 39.7502
  },
  {
-  "ID": "LM01437",
+  "ID": "LM01444",
   "Title": "Realizing digital identity in government: Prioritizing design and implementation objectives for Aadhaar in India",
   "Year": 2019,
   "Authors": "Umar Bashir Mir; Arpan Kumar Kar; Yogesh Kumar Dwivedi; M.P. Gupta; R.S. Sharma",
@@ -50295,7 +50540,7 @@
   "FWCI": 60.6714
  },
  {
-  "ID": "LM01438",
+  "ID": "LM01445",
   "Title": "The Identity Challenge in Finance: From Analogue Identity to Digitized Identification to Digital KYC Utilities",
   "Year": 2019,
   "Authors": "Douglas W. Arner; Dirk Andreas Zetzsche; Ross P. Buckley; Janos Nathan Barberis",
@@ -50330,7 +50575,7 @@
   "FWCI": 16.6553
  },
  {
-  "ID": "LM01439",
+  "ID": "LM01446",
   "Title": "The Ayushman Bharat Digital Mission (ABDM): making of India’s Digital Health Story",
   "Year": 2023,
   "Authors": "R. S. Sharma; Aishwarya Rohatgi; Sandeep K Jain; Dilip Singh",
@@ -50365,7 +50610,7 @@
   "FWCI": 29.9159
  },
  {
-  "ID": "LM01440",
+  "ID": "LM01447",
   "Title": "Data protection regulation",
   "Year": 2021,
   "Authors": "Malavika Raghavan",
@@ -50400,7 +50645,7 @@
   "FWCI": 126.8739
  },
  {
-  "ID": "LM01441",
+  "ID": "LM01448",
   "Title": "India’s Aadhaar scheme and the promise of inclusive social protection",
   "Year": 2017,
   "Authors": "Amiya Bhatia; Jacqueline Bhabha",
@@ -50435,7 +50680,7 @@
   "FWCI": 16.8894
  },
  {
-  "ID": "LM01442",
+  "ID": "LM01449",
   "Title": "The ‘Social’ De-Duplicated: On the Aadhaar Platform and the Engineering of Service",
   "Year": 2019,
   "Authors": "Lawrence Cohen",
@@ -50470,7 +50715,7 @@
   "FWCI": 37.6581
  },
  {
-  "ID": "LM01443",
+  "ID": "LM01450",
   "Title": "Privacy features of European eID card specifications",
   "Year": 2008,
   "Authors": "Ingo Naumann; Giles Hogben",
@@ -50505,7 +50750,7 @@
   "FWCI": 9.3004
  },
  {
-  "ID": "LM01444",
+  "ID": "LM01451",
   "Title": "BIOMETRICS, IDENTIFICATION AND SURVEILLANCE",
   "Year": 2008,
   "Authors": "David Lyon",
@@ -50540,7 +50785,7 @@
   "FWCI": 5.5232
  },
  {
-  "ID": "LM01445",
+  "ID": "LM01452",
   "Title": "Online voting system for India based on AADHAAR ID",
   "Year": 2013,
   "Authors": "Himanshu Agarwal; G. N. Pandey",
@@ -50575,7 +50820,7 @@
   "FWCI": 0.8619
  },
  {
-  "ID": "LM01446",
+  "ID": "LM01453",
   "Title": "Electronic identity management in Estonia between market and state governance",
   "Year": 2010,
   "Authors": "Tarvi Martens",
@@ -50610,7 +50855,7 @@
   "FWCI": 14.6176
  },
  {
-  "ID": "LM01447",
+  "ID": "LM01454",
   "Title": "Hacking the Cis-tem",
   "Year": 2019,
   "Authors": "Mar Hicks",
@@ -50645,7 +50890,7 @@
   "FWCI": 12.9885
  },
  {
-  "ID": "LM01448",
+  "ID": "LM01455",
   "Title": "Advancing E-governance for development: Digital identification and its link to socioeconomic inclusion",
   "Year": 2021,
   "Authors": "Atta Addo; Prince Kwame Senyo",
@@ -50680,7 +50925,7 @@
   "FWCI": 36.0794
  },
  {
-  "ID": "LM01449",
+  "ID": "LM01456",
   "Title": "Automated Muzzle Detection and Biometric Identification via Few-Shot Deep Transfer Learning of Mixed Breed Cattle",
   "Year": 2021,
   "Authors": "Ali Shojaeipour; Greg Falzon; Paul Kwan; Nooshin Hadavi; Frances C. Cowley; David Paúl",
@@ -50715,7 +50960,7 @@
   "FWCI": 5.8272
  },
  {
-  "ID": "LM01450",
+  "ID": "LM01457",
   "Title": "Security, Risk and the Biometric State: Governing Borders and Bodies",
   "Year": 2010,
   "Authors": "Benjamin Müller",
@@ -50750,7 +50995,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01451",
+  "ID": "LM01458",
   "Title": "“Money Is Your Government”: Refugees, Mobility, and Unstable Documents in Kenya’s Operation Usalama Watch",
   "Year": 2016,
   "Authors": "Sophia Balakian",
@@ -50785,7 +51030,7 @@
   "FWCI": 8.5761
  },
  {
-  "ID": "LM01452",
+  "ID": "LM01459",
   "Title": "Fixing State Vision: Interoperability, Biometrics, and Identity Management in the EU",
   "Year": 2020,
   "Authors": "Matthias Leese",
@@ -50820,7 +51065,7 @@
   "FWCI": 25.2496
  },
  {
-  "ID": "LM01453",
+  "ID": "LM01460",
   "Title": "Uneven Borders, Coloured (Im)mobilities: ID Cards in Palestine/Israel",
   "Year": 2012,
   "Authors": "Helga Tawil‐Souri",
@@ -50855,7 +51100,7 @@
   "FWCI": 3.1466
  },
  {
-  "ID": "LM01454",
+  "ID": "LM01461",
   "Title": "Aiding Surveillance: An Exploration of How Development and Humanitarian Aid Initiatives are Enabling Surveillance in Developing Countries",
   "Year": 2013,
   "Authors": "Gus Hosein; Carly Nyst",
@@ -50890,7 +51135,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01455",
+  "ID": "LM01462",
   "Title": "Impact of Aadhaar in Welfare Programmes",
   "Year": 2017,
   "Authors": "Reetika Khera",
@@ -50925,7 +51170,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01456",
+  "ID": "LM01463",
   "Title": "Seeing Like an Infrastructure: Low-resolution Citizens and the Aadhaar Identification Project",
   "Year": 2021,
   "Authors": "Ranjit Singh; Steven J. Jackson",
@@ -50960,7 +51205,7 @@
   "FWCI": 21.8155
  },
  {
-  "ID": "LM01457",
+  "ID": "LM01464",
   "Title": "The Unique Identity (UID) Project, Biometrics and Re-Imagining Governance in India",
   "Year": 2014,
   "Authors": "Swagato Sarkar",
@@ -50995,7 +51240,7 @@
   "FWCI": 13.068
  },
  {
-  "ID": "LM01458",
+  "ID": "LM01465",
   "Title": "Stacking up the Benefits: Lessons from India’s Digital Journey",
   "Year": 2023,
   "Authors": "Cristian Alonso; Tanuj Bhojwani; Emine Hanedar; Dinar Prihardini; Gerardo Uña; Kateryna Zhabska",
@@ -51030,7 +51275,7 @@
   "FWCI": 54.0378
  },
  {
-  "ID": "LM01459",
+  "ID": "LM01466",
   "Title": "Aadhaar and data privacy: biometric identification and anxieties of recognition in India",
   "Year": 2019,
   "Authors": "Pawan Singh",
@@ -51065,7 +51310,7 @@
   "FWCI": 6.0372
  },
  {
-  "ID": "LM01460",
+  "ID": "LM01467",
   "Title": "India stack---digital infrastructure as public good",
   "Year": 2019,
   "Authors": "Vivek Raghavan; Sanjay Jain; P. Satya Shekar Varma",
@@ -51100,7 +51345,7 @@
   "FWCI": 2.2018
  },
  {
-  "ID": "LM01461",
+  "ID": "LM01468",
   "Title": "“Governtrepreneurism” for good governance: The case of Aadhaar and the India Stack",
   "Year": 2019,
   "Authors": "Kavita Dattani",
@@ -51135,7 +51380,7 @@
   "FWCI": 17.783
  },
  {
-  "ID": "LM01462",
+  "ID": "LM01469",
   "Title": "Digital identity, datafication and social justice: understanding Aadhaar use among informal workers in south India",
   "Year": 2020,
   "Authors": "Shyam Krishna",
@@ -51170,7 +51415,7 @@
   "FWCI": 5.5861
  },
  {
-  "ID": "LM01463",
+  "ID": "LM01470",
   "Title": "Wallet wars or digital public infrastructure? Orchestrating a digital identity data ecosystem from a government perspective",
   "Year": 2024,
   "Authors": "Konrad Degen; Timm Teubner",
@@ -51205,7 +51450,7 @@
   "FWCI": 10.0911
  },
  {
-  "ID": "LM01464",
+  "ID": "LM01471",
   "Title": "Population Meets Database: Aligning Personal, Documentary and Digital Identity in Aadhaar-Enabled India",
   "Year": 2019,
   "Authors": "Ursula Rao",
@@ -51240,7 +51485,7 @@
   "FWCI": 17.783
  },
  {
-  "ID": "LM01465",
+  "ID": "LM01472",
   "Title": "Biometric Infrastructures and the Indian Public Distribution System",
   "Year": 2020,
   "Authors": "Silvia Masiero",
@@ -51275,7 +51520,7 @@
   "FWCI": 19.1549
  },
  {
-  "ID": "LM01466",
+  "ID": "LM01473",
   "Title": "Aadhaar in a Box? Legitimizing Digital Identity in Times of Crisis",
   "Year": 2021,
   "Authors": "Aaron Martin",
@@ -51310,7 +51555,7 @@
   "FWCI": 5.5549
  },
  {
-  "ID": "LM01467",
+  "ID": "LM01474",
   "Title": "Technologies of Disintermediation in a Mediated State: Civil Society Organisations and India’s Aadhaar Project",
   "Year": 2019,
   "Authors": "Parul Baxi",
@@ -51345,7 +51590,7 @@
   "FWCI": 9.4145
  },
  {
-  "ID": "LM01468",
+  "ID": "LM01475",
   "Title": "Grappling with Aadhaar: Biometrics, Social Identity and the Indian State",
   "Year": 2020,
   "Authors": "Silvia Masiero; S. Shakthi",
@@ -51380,7 +51625,7 @@
   "FWCI": 1.2793
  },
  {
-  "ID": "LM01469",
+  "ID": "LM01476",
   "Title": "‘Without an Aadhaar card nothing could be done’: a mixed methods study of biometric identification and birth registration for children in Varanasi, India",
   "Year": 2020,
   "Authors": "Amiya Bhatia; Elizabeth Donger; Jacqueline Bhabha",
@@ -51415,7 +51660,7 @@
   "FWCI": 7.8361
  },
  {
-  "ID": "LM01470",
+  "ID": "LM01477",
   "Title": "Explaining trust in large biometric infrastructures: A critical realist case study of India's Aadhaar project",
   "Year": 2018,
   "Authors": "Silvia Masiero",
@@ -51450,7 +51695,7 @@
   "FWCI": 9.8515
  },
  {
-  "ID": "LM01471",
+  "ID": "LM01478",
   "Title": "Digital Identity and Exclusion in Welfare",
   "Year": 2020,
   "Authors": "Hartej Singh Hundal; Bidisha Chaudhuri",
@@ -51485,7 +51730,7 @@
   "FWCI": 6.0012
  },
  {
-  "ID": "LM01472",
+  "ID": "LM01479",
   "Title": "Digital Public Services: The Development of Biometric Authentication in India",
   "Year": 2022,
   "Authors": "Ashwin Nair; Burak Eskici",
@@ -51520,7 +51765,7 @@
   "FWCI": 2.6653
  },
  {
-  "ID": "LM01473",
+  "ID": "LM01480",
   "Title": "Decoding the Indian data governance model: Relooking at Aadhaar",
   "Year": 2025,
   "Authors": "Anjana Sasi",
@@ -51555,7 +51800,7 @@
   "FWCI": 41.5834
  },
  {
-  "ID": "LM01474",
+  "ID": "LM01481",
   "Title": "Digital Identity in India",
   "Year": 2021,
   "Authors": "Bhagwan Chowdhry; Amit Goyal; Syed Anas Ahmed",
@@ -51590,7 +51835,7 @@
   "FWCI": 7.2718
  },
  {
-  "ID": "LM01475",
+  "ID": "LM01482",
   "Title": "Digital public infrastructure as a driver of financial inclusion in India",
   "Year": 2025,
   "Authors": "Komal Chopra; Neeru Sidana; Rochna Arora",
@@ -51625,7 +51870,7 @@
   "FWCI": 5.2352
  },
  {
-  "ID": "LM01476",
+  "ID": "LM01483",
   "Title": "Indirect Discrimination: Huduma Namba (Digital Identification) and the Plight of the Nubian Community in Kenya",
   "Year": 2022,
   "Authors": "Natalie Kiilu",
@@ -51660,7 +51905,7 @@
   "FWCI": 1.5485
  },
  {
-  "ID": "LM01477",
+  "ID": "LM01484",
   "Title": "The digital delivery of welfare services in India: Achievements, anomalies and lessons learnt",
   "Year": 2023,
   "Authors": "Aishwarya Sivaramakrishnan; Sony Pellissery",
@@ -51695,7 +51940,7 @@
   "FWCI": 2.5287
  },
  {
-  "ID": "LM01478",
+  "ID": "LM01485",
   "Title": "Citizenship in India: Parsing the Complexity of Digital Identity Systems",
   "Year": 2024,
   "Authors": "Vidya K. Subramanian",
@@ -51730,7 +51975,7 @@
   "FWCI": 3.4438
  },
  {
-  "ID": "LM01479",
+  "ID": "LM01486",
   "Title": "Scalable Digital Solutions from India’s Aadhaar and UPI Frameworks",
   "Year": 2025,
   "Authors": "Murali Krishna Pasupuleti",
@@ -51765,7 +52010,7 @@
   "FWCI": 8.4268
  },
  {
-  "ID": "LM01480",
+  "ID": "LM01487",
   "Title": "Biometric IDs and the remaking of the Indian (welfare) state",
   "Year": 2019,
   "Authors": "Ursula Rao",
@@ -51800,7 +52045,7 @@
   "FWCI": 2.0921
  },
  {
-  "ID": "LM01481",
+  "ID": "LM01488",
   "Title": "Marginalized Aadhaar: How the World’s Largest Digital Identification Programme Led to the Exclusion of Marginalized Communities",
   "Year": 2022,
   "Authors": "Subhashish Panigrahi",
@@ -51835,7 +52080,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01482",
+  "ID": "LM01489",
   "Title": "HyperVerge, Aadhaar, and Surveillance Capitalism in India",
   "Year": 2025,
   "Authors": "Haakon Huynh",
@@ -51870,7 +52115,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01483",
+  "ID": "LM01490",
   "Title": "India: Unique Identification Authority",
   "Year": 2016,
   "Authors": "Sonalika Chaturvedi; Hariharan Sriram",
@@ -51905,7 +52150,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01484",
+  "ID": "LM01491",
   "Title": "Sinking Under Its Own Weight: Case of Aadhaar Mediated Entitlements in India",
   "Year": 2019,
   "Authors": "Arunima Sehgal Mukherjee; Sundeep Sahay",
@@ -51940,7 +52185,7 @@
   "FWCI": 1.7495
  },
  {
-  "ID": "LM01485",
+  "ID": "LM01492",
   "Title": "Biometric Turn and the Quest of Public Interest. Assessing the National Identification Policy in Cameroon",
   "Year": 2023,
   "Authors": "Alphonse Bernard Amougou Mbarga; Raoul Tamekou Tsowa",
@@ -51975,7 +52220,7 @@
   "FWCI": 0.8436
  },
  {
-  "ID": "LM01486",
+  "ID": "LM01493",
   "Title": "Debunking the Idea of a Single (Digital) Identifier: The Case of Identification Documents for Transgender Persons in India",
   "Year": 2024,
   "Authors": "K. Brindaalakshmi",
@@ -52010,7 +52255,7 @@
   "FWCI": 0.496
  },
  {
-  "ID": "LM01487",
+  "ID": "LM01494",
   "Title": "Digital ID as a governance game-changer in African democracies: A comparative analysis of Ghana, Nigeria, and India",
   "Year": 2025,
   "Authors": "Simon Suwanzy Dzreke; Semefa Elikplim Dzreke; Evans Dzreke; Franklin Manasey Dzreke",
@@ -52045,7 +52290,7 @@
   "FWCI": 4.2134
  },
  {
-  "ID": "LM01488",
+  "ID": "LM01495",
   "Title": "Power, panopticism and surveillance: A panoptic perspective on aadhaar",
   "Year": 2014,
   "Authors": "Basil B. Mathew",
@@ -52080,7 +52325,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01489",
+  "ID": "LM01496",
   "Title": "Digital Public Infrastructure and Digital Financial Services: Convergence, Landscape and Regulatory Considerations",
   "Year": 2026,
   "Authors": "Pavle Avramovic; Sanya Juneja; Krishnamurthy Suresh; Bryan Zheng Zhang",
@@ -52115,7 +52360,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01490",
+  "ID": "LM01497",
   "Title": "Identification for Development (ID4D): Diagnostic of ID Systems in Cameroon",
   "Year": 2024,
   "Authors": "World Bank",
@@ -52150,7 +52395,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01491",
+  "ID": "LM01498",
   "Title": "Infrastructures of excess: Politics of biometric and data-based citizenship in Pakistan’s cash transfers program",
   "Year": 2025,
   "Authors": "Ali Mohsin",
@@ -52185,7 +52430,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01492",
+  "ID": "LM01499",
   "Title": "India’s digital public infrastructure: Analyzing UPI and Aadhaar in GDP growth and cost optimization",
   "Year": 2025,
   "Authors": "Aniket Thukral; Lakshit Dagar",
@@ -52220,7 +52465,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01493",
+  "ID": "LM01500",
   "Title": "Digital Public Infrastructure as a Driver of Innovation: Global Lessons from the India Stack Experience",
   "Year": 2026,
   "Authors": "Aswathi Mary Varghese; K. Jisha",
@@ -52255,7 +52500,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01494",
+  "ID": "LM01501",
   "Title": "The Architecture of Influence: India’s Digital Public Infrastructure and Its Significance",
   "Year": 2026,
   "Authors": "Abhay Singh",
@@ -52290,7 +52535,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01495",
+  "ID": "LM01502",
   "Title": "Digital innovation in welfare delivery: a qualitative case study-based assessment of Aadhaar-based automation and rural exclusion in India",
   "Year": 2026,
   "Authors": "Gargee Sarkar",
@@ -52325,7 +52570,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01496",
+  "ID": "LM01503",
   "Title": "TRUST: DUAL-FALLBACK BIOMETRIC AUTHENTICATION FOR INCLUSIVE WELFARE DELIVERY IN INDIA'S PUBLIC DISTRIBUTION SYSTEM",
   "Year": 2026,
   "Authors": "Balakiruba J; Vimal P B N; Santhiya A; Shiba Sri R; Mohamed Saheem Sees Cheloor Panichiyal",
@@ -52360,7 +52605,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01497",
+  "ID": "LM01504",
   "Title": "Digital identity, algorithmic-administrative governance and the transformation of social policy provisioning in Ghana: a political economy analysis of digitally mediated welfare systems",
   "Year": 2026,
   "Authors": "Michael Kpessa-Whyte",
@@ -52395,7 +52640,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01498",
+  "ID": "LM01505",
   "Title": "ID4D Global Dataset 2025: Trends in Identification for Development",
   "Year": 2026,
   "Authors": "S. Ansar; J.M. Clark; J.M. Wolff",
@@ -52430,7 +52675,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01499",
+  "ID": "LM01506",
   "Title": "Brokers of citizenship. Justices of the peace as intermediaries in Sierra Leone’s digital identification project",
   "Year": 2026,
   "Authors": "Laura Lambert",
@@ -52465,7 +52710,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01500",
+  "ID": "LM01507",
   "Title": "Dreams of a Digital India: Imaginaries of the India Stack project",
   "Year": 2024,
   "Authors": "Manasa Jagadeesh",
@@ -52500,7 +52745,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01501",
+  "ID": "LM01508",
   "Title": "Digital Public Infrastructure and Economic Growth: A Case Study of UPI and DBT in India",
   "Year": 2026,
   "Authors": "Udayakumara M",
@@ -52535,7 +52780,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01502",
+  "ID": "LM01509",
   "Title": "India's Digital Public Infrastructure (DPI) and Digital Sovereignty in the Global Political Economy",
   "Year": 2025,
   "Authors": "Ajeet Kumar Sahoo; Ankit Anand",
@@ -52570,7 +52815,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01503",
+  "ID": "LM01510",
   "Title": "Digital Public Infrastructure and Inclusive Digital Transformation in Indonesia: Insights from India Stack",
   "Year": 2026,
   "Authors": "Ryan Achmad Arianto Ekasaputra",
@@ -52605,7 +52850,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01504",
+  "ID": "LM01511",
   "Title": "Technochange and the historical bloc: Aadhaar and the computerisation of the Indian public distribution system",
   "Year": 2015,
   "Authors": "Silvia Masiero",
@@ -52640,7 +52885,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01505",
+  "ID": "LM01512",
   "Title": "India: Aadhaar Unmasked - The UID Number and Threat of exclusion, and of surveillance – South Asia Citizens Web",
   "Year": 2020,
   "Authors": "Usha Ramanathan",
@@ -52675,7 +52920,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01506",
+  "ID": "LM01513",
   "Title": "Biometric Identification Systems for Welfare Distributions: A Case Study of Aadhaar",
   "Year": 2020,
   "Authors": "Caroline Schauder",
@@ -52710,7 +52955,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01507",
+  "ID": "LM01514",
   "Title": "Institutional and Technology Architecture Interplay in the National Identity System of India (Aadhaar) and Implications for an Effective Privacy Regime",
   "Year": 2018,
   "Authors": "Rekha Jain",
@@ -52745,7 +52990,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01508",
+  "ID": "LM01515",
   "Title": "Integrating Biometric Authentication in India's Welfare Programs: Lessons from a Decade of Reforms",
   "Year": null,
   "Authors": "Sandip Sukhtankar; Paul Niehaus; Karthik Muralidharan",
@@ -52780,7 +53025,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01509",
+  "ID": "LM01516",
   "Title": "What India's Digital Public Infrastructure does Not Yet do: A Comparative Policy Review of Missing Governance Layers",
   "Year": 2026,
   "Authors": "Tanika Singh",
@@ -52815,7 +53060,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01510",
+  "ID": "LM01517",
   "Title": "Biopolitical Technologies of Control: Aadhaar, NRC, and the Redefinition of Citizenship and State Power in Contemporary India",
   "Year": 2026,
   "Authors": "Sahil Mahmud",
@@ -52850,7 +53095,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01511",
+  "ID": "LM01518",
   "Title": "Administrative Reach and State Capacity: Interoperability Failures in Nigeria's Digital Identification Infrastructure",
   "Year": 2026,
   "Authors": "Daramola Joseph Omoyele",
@@ -52885,7 +53130,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01512",
+  "ID": "LM01519",
   "Title": "Legal Identity or Digital Control? National Digital ID Systems, Exclusion, and Digital Authoritarian Practices in Uganda",
   "Year": 2026,
   "Authors": "Olila Steven",
@@ -52920,7 +53165,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01513",
+  "ID": "LM01520",
   "Title": "Biometrics and Surveillance as a Tool of Tracing Citizenship",
   "Year": 2026,
   "Authors": "Himanshu Sikarwar",
@@ -52955,7 +53200,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01514",
+  "ID": "LM01521",
   "Title": "Digital Identity, Conditional Access, and Human Dignity: A Christian Policy Analysis of Biometric Governance, Surveillance Infrastructure, and Data Justice",
   "Year": 2026,
   "Authors": "Sixbert Sangwa",
@@ -52990,7 +53235,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01515",
+  "ID": "LM01522",
   "Title": "Digital Public Infrastructure and Economic Stability in India: Evidence from UPI, Aadhaar and Direct Benefit Transfers",
   "Year": 2026,
   "Authors": "Dr. Sejal B Patel",
@@ -53025,7 +53270,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01516",
+  "ID": "LM01523",
   "Title": "The Legal Status of Digital Identity in India: Aadhaar, Digital Citizenship, and the Future of Governance",
   "Year": 2026,
   "Authors": "Mr. Subham Chatterjee",
@@ -53060,7 +53305,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01517",
+  "ID": "LM01524",
   "Title": "From Identification to Infrastructure: Digital Identity, Sector Transgressions, and the Governance of Access to Services in Uganda",
   "Year": 2026,
   "Authors": "Olila Steven",
@@ -53095,7 +53340,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01518",
+  "ID": "LM01525",
   "Title": "India Stack as Digital Public Infrastructure: A Strategic and Empirical Analysis of Financial Inclusion",
   "Year": 2026,
   "Authors": "Mallikarjun Dalal",
@@ -53130,7 +53375,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01519",
+  "ID": "LM01526",
   "Title": "Closing the Last Mile: Building Accountability into AI Driven Public Service Delivery What India's Digital Public Infrastructure Can Teach the Global South",
   "Year": 2026,
   "Authors": "Sach Mehan",
@@ -53165,7 +53410,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01520",
+  "ID": "LM01527",
   "Title": "Digital Public Infrastructure and Evidence-Based Governance: Aadhaar and Direct Benefit Transfer (DBT) in Contemporary India",
   "Year": 2026,
   "Authors": "Saket Bihari",
@@ -53200,7 +53445,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01521",
+  "ID": "LM01528",
   "Title": "Privacy vs protection : mapping crucial challenges in implementing the ICT4D agenda in Global South - Case analysis of India's Aadhaar program",
   "Year": 2021,
   "Authors": "Aslesha Tummalapalli",
@@ -53235,7 +53480,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01522",
+  "ID": "LM01529",
   "Title": "Artificial Intelligence in India's Digital Public Infrastructure: An Economic Analysis of Aadhaar and UPI-Based Financial Inclusion",
   "Year": 2026,
   "Authors": "Sowmya S Murthy",
@@ -53270,7 +53515,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01523",
+  "ID": "LM01530",
   "Title": "Digital Public Infrastructure as a Convergence Accelerator for Emerging Economies: Identity, payments, and data rails compressing decades of institutional development",
   "Year": 2026,
   "Authors": "Hunter Hughes",
@@ -53305,7 +53550,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01524",
+  "ID": "LM01531",
   "Title": "Legal And Ethical Considerations of Managing Identities, Ranging from Aadhaar to Global Digital Ids",
   "Year": 2023,
   "Authors": "Petikam Sailaja",
@@ -53340,7 +53585,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01525",
+  "ID": "LM01532",
   "Title": "Evaluating the Role of India Stack in Enhancing Financial Inclusion: A Case Study of UPI and Aadhaar-enabled Services in Delhi, India",
   "Year": 2026,
   "Authors": "Ramya Kathal",
@@ -53375,7 +53620,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01526",
+  "ID": "LM01533",
   "Title": "The Platform Society",
   "Year": 2018,
   "Authors": "José van Dijck; Thomas Poell; Martijn de Waal",
@@ -53410,7 +53655,7 @@
   "FWCI": 150.3684
  },
  {
-  "ID": "LM01527",
+  "ID": "LM01534",
   "Title": "The Metaverse as a Virtual Form of Smart Cities: Opportunities and Challenges for Environmental, Economic, and Social Sustainability in Urban Futures",
   "Year": 2022,
   "Authors": "Zaheer Allam; Ayyoob Sharifi; Simon Elias Bibri; David Sydney Jones; John Krogstie",
@@ -53445,7 +53690,7 @@
   "FWCI": 60.5748
  },
  {
-  "ID": "LM01528",
+  "ID": "LM01535",
   "Title": "Glitchy vignettes of platform urbanism",
   "Year": 2019,
   "Authors": "Agnieszka Leszczynski",
@@ -53480,7 +53725,7 @@
   "FWCI": 21.8483
  },
  {
-  "ID": "LM01529",
+  "ID": "LM01536",
   "Title": "Questioning mobility as a service: Unanticipated implications for society and governance",
   "Year": 2019,
   "Authors": "Kate Pangbourne; Miloš N. Mladenović; Dominic Stead; Dimitris Milakis",
@@ -53515,7 +53760,7 @@
   "FWCI": 16.6636
  },
  {
-  "ID": "LM01530",
+  "ID": "LM01537",
   "Title": "Platform Urbanism",
   "Year": 2019,
   "Authors": "Sarah Barns",
@@ -53550,7 +53795,7 @@
   "FWCI": 20.9781
  },
  {
-  "ID": "LM01531",
+  "ID": "LM01538",
   "Title": "Regulate, replicate, and resist – the conjunctural geographies of platform urbanism",
   "Year": 2020,
   "Authors": "Mark J Graham",
@@ -53585,7 +53830,7 @@
   "FWCI": 66.3866
  },
  {
-  "ID": "LM01532",
+  "ID": "LM01539",
   "Title": "The rise of on-demand ‘Instant Deliveries’ in European cities",
   "Year": 2017,
   "Authors": "Lætitia Dablanc; Eléonora Morganti; Niklas Arvidsson; Johan Woxenius; Michael J. Browne; Neïla Saidi",
@@ -53620,7 +53865,7 @@
   "FWCI": 14.4844
  },
  {
-  "ID": "LM01533",
+  "ID": "LM01540",
   "Title": "Platformization of the Unlikely Creative Class: Kuaishou and Chinese Digital Cultural Production",
   "Year": 2019,
   "Authors": "Jian Lin; Jeroen de Kloet",
@@ -53655,7 +53900,7 @@
   "FWCI": 46.6909
  },
  {
-  "ID": "LM01534",
+  "ID": "LM01541",
   "Title": "Infrastructuralization of Tik Tok: transformation, power relationships, and platformization of video entertainment in China",
   "Year": 2020,
   "Authors": "Zongyi Zhang",
@@ -53690,7 +53935,7 @@
   "FWCI": 15.6481
  },
  {
-  "ID": "LM01535",
+  "ID": "LM01542",
   "Title": "City-as-a-Platform: The Rise of Participatory Innovation Platforms in Finnish Cities",
   "Year": 2016,
   "Authors": "Ari‐Veikko Anttiroiko",
@@ -53725,7 +53970,7 @@
   "FWCI": 17.3429
  },
  {
-  "ID": "LM01536",
+  "ID": "LM01543",
   "Title": "Negotiating the platform pivot: From participatory digital ecosystems to infrastructures of everyday life",
   "Year": 2019,
   "Authors": "Sarah Barns",
@@ -53760,7 +54005,7 @@
   "FWCI": 38.2358
  },
  {
-  "ID": "LM01537",
+  "ID": "LM01544",
   "Title": "Gig work as migrant work: The platformization of migration infrastructure",
   "Year": 2021,
   "Authors": "Niels van Doorn; Darsana Vijay",
@@ -53795,7 +54040,7 @@
   "FWCI": 31.5938
  },
  {
-  "ID": "LM01538",
+  "ID": "LM01545",
   "Title": "Cyberspace and cityscapes: on the emergence of platform urbanism",
   "Year": 2020,
   "Authors": "Jathan Sadowski",
@@ -53830,7 +54075,7 @@
   "FWCI": 11.9432
  },
  {
-  "ID": "LM01539",
+  "ID": "LM01546",
   "Title": "Mobile workers, contingent labour: Migration, the gig economy and the multiplication of labour",
   "Year": 2021,
   "Authors": "Moritz Altenried",
@@ -53865,7 +54110,7 @@
   "FWCI": 31.5355
  },
  {
-  "ID": "LM01540",
+  "ID": "LM01547",
   "Title": "Platform Urbanism: Negotiating Platform Ecosystems in Connected Cities",
   "Year": 2019,
   "Authors": "Sarah Barns",
@@ -53900,7 +54145,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01541",
+  "ID": "LM01548",
   "Title": "Does Sharing Mean Caring? Regulating Innovation in the Sharing Economy",
   "Year": 2015,
   "Authors": "Sofia Ranchordás",
@@ -53935,7 +54180,7 @@
   "FWCI": 45.7863
  },
  {
-  "ID": "LM01542",
+  "ID": "LM01549",
   "Title": "A new institution on the block: On platform urbanism and Airbnb citizenship",
   "Year": 2019,
   "Authors": "Niels van Doorn",
@@ -53970,7 +54215,7 @@
   "FWCI": 25.7695
  },
  {
-  "ID": "LM01543",
+  "ID": "LM01550",
   "Title": "Platform mobilities and the production of urban space: Toward a typology of platformization trajectories",
   "Year": 2020,
   "Authors": "John G. Stehlin; Michael Hodson; Andrew McMeekin",
@@ -54005,7 +54250,7 @@
   "FWCI": 26.6852
  },
  {
-  "ID": "LM01544",
+  "ID": "LM01551",
   "Title": "Temporal arbitrage, fragmented rush, and opportunistic behaviors: The labor politics of time in the platform economy",
   "Year": 2020,
   "Authors": "Yu-Jie Chen; Ping Sun",
@@ -54040,7 +54285,7 @@
   "FWCI": 18.4491
  },
  {
-  "ID": "LM01545",
+  "ID": "LM01552",
   "Title": "The Metaverse as a virtual form of data-driven smart cities: the ethics of the hyper-connectivity, datafication, algorithmization, and platformization of urban society",
   "Year": 2022,
   "Authors": "Simon Elias Bibri; Zaheer Allam",
@@ -54075,7 +54320,7 @@
   "FWCI": 13.6235
  },
  {
-  "ID": "LM01546",
+  "ID": "LM01553",
   "Title": "Platform urbanism in a pandemic: Dark stores, ghost kitchens, and the logistical-urban frontier",
   "Year": 2022,
   "Authors": "Aaron Shapiro",
@@ -54110,7 +54355,7 @@
   "FWCI": 12.2698
  },
  {
-  "ID": "LM01547",
+  "ID": "LM01554",
   "Title": "The Metaverse as a virtual form of data-driven smart urbanism: platformization and its underlying processes, institutional dimensions, and disruptive impacts",
   "Year": 2022,
   "Authors": "Simon Elias Bibri; Zaheer Allam; John Krogstie",
@@ -54145,7 +54390,7 @@
   "FWCI": 11.7342
  },
  {
-  "ID": "LM01548",
+  "ID": "LM01555",
   "Title": "Digital utility: Datafication, regulation, labor, and DiDi’s platformization of urban transport in China",
   "Year": 2019,
   "Authors": "Yu-Jie Chen; Jack Linchuan Qiu",
@@ -54180,7 +54425,7 @@
   "FWCI": 29.683
  },
  {
-  "ID": "LM01549",
+  "ID": "LM01556",
   "Title": "Platform urbanism and the Chinese smart city: the co-production and territorialisation of Hangzhou City Brain",
   "Year": 2020,
   "Authors": "Federico Caprotti; Dong Liu",
@@ -54215,7 +54460,7 @@
   "FWCI": 6.4909
  },
  {
-  "ID": "LM01550",
+  "ID": "LM01557",
   "Title": "Beyond the smart city: a typology of platform urbanism",
   "Year": 2022,
   "Authors": "Federico Caprotti; I-Chun Catherine Chang; Simon Joss",
@@ -54250,7 +54495,7 @@
   "FWCI": 8.6386
  },
  {
-  "ID": "LM01551",
+  "ID": "LM01558",
   "Title": "Platform methods: studying platform urbanism outside the black box",
   "Year": 2020,
   "Authors": "Desiree Fields; David Bissell; Rachel Macrorie",
@@ -54285,7 +54530,7 @@
   "FWCI": 8.8276
  },
  {
-  "ID": "LM01552",
+  "ID": "LM01559",
   "Title": "Who owns the future city? Phases of technological urbanism and shifts in sovereignty",
   "Year": 2020,
   "Authors": "Jathan Sadowski",
@@ -54320,7 +54565,7 @@
   "FWCI": 7.5294
  },
  {
-  "ID": "LM01553",
+  "ID": "LM01560",
   "Title": "Artificial intelligence of things for synergizing smarter eco-city brain, metabolism, and platform: Pioneering data-driven environmental governance",
   "Year": 2024,
   "Authors": "Simon Elias Bibri; Jeffrey R. Huang; John Krogstie",
@@ -54355,7 +54600,7 @@
   "FWCI": 19.1106
  },
  {
-  "ID": "LM01554",
+  "ID": "LM01561",
   "Title": "Affective platform urbanism: Changing habits of digital on-demand consumption",
   "Year": 2020,
   "Authors": "David Bissell",
@@ -54390,7 +54635,7 @@
   "FWCI": 14.8251
  },
  {
-  "ID": "LM01555",
+  "ID": "LM01562",
   "Title": "Urban Operating Systems",
   "Year": 2020,
   "Authors": "Andrés Luque‐Ayala; Simon Marvin",
@@ -54425,7 +54670,7 @@
   "FWCI": 11.3226
  },
  {
-  "ID": "LM01556",
+  "ID": "LM01563",
   "Title": "The Evolution of City-as-a-Platform: Smart Urban Development Governance with Collective Knowledge-Based Platform Urbanism",
   "Year": 2021,
   "Authors": "Palmyra Farinazzo Reis Repette; Jamile Sabatini‐Marques; Tan Yiğitcanlar; Denílson Sell; Eduardo Costa",
@@ -54460,7 +54705,7 @@
   "FWCI": 7.0945
  },
  {
-  "ID": "LM01557",
+  "ID": "LM01564",
   "Title": "Navigating platform urbanism",
   "Year": 2018,
   "Authors": "Shenja van der Graaf; Pieter Ballon",
@@ -54495,7 +54740,7 @@
   "FWCI": 7.2931
  },
  {
-  "ID": "LM01558",
+  "ID": "LM01565",
   "Title": "Platform governance and the rural–urban divide: Sellers' responses to design change",
   "Year": 2020,
   "Authors": "Wesley Wu-Yi Koo; Charles Eric Eesley",
@@ -54530,7 +54775,7 @@
   "FWCI": 8.8122
  },
  {
-  "ID": "LM01559",
+  "ID": "LM01566",
   "Title": "Urbanism Under Google: Lessons from Sidewalk Toronto",
   "Year": 2019,
   "Authors": "Ellen Goodman; Julia Powles",
@@ -54565,7 +54810,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01560",
+  "ID": "LM01567",
   "Title": "Understanding Sensor Cities: Insights from Technology Giant Company Driven Smart Urbanism Practices",
   "Year": 2020,
   "Authors": "Gaspare D’Amico; Pasqua L’Abbate; Wenjie Liao; Tan Yiğitcanlar; Giuseppe Ioppolo",
@@ -54600,7 +54845,7 @@
   "FWCI": 6.3611
  },
  {
-  "ID": "LM01561",
+  "ID": "LM01568",
   "Title": "Platform urbanism, smartphone applications and valuing data in a smart city",
   "Year": 2020,
   "Authors": "Gillian Rose; Parvati Raghuram; Sophie Watson; Edward Wigley",
@@ -54635,7 +54880,7 @@
   "FWCI": 6.4909
  },
  {
-  "ID": "LM01562",
+  "ID": "LM01569",
   "Title": "Biopolitical platforms: the perverse virtues of digital labour",
   "Year": 2021,
   "Authors": "Karen Gregory; Jathan Sadowski",
@@ -54670,7 +54915,7 @@
   "FWCI": 18.7134
  },
  {
-  "ID": "LM01563",
+  "ID": "LM01570",
   "Title": "# BlockSidewalk to Barcelona: Technological sovereignty and the social license to operate smart cities",
   "Year": 2020,
   "Authors": "Monique Mann; Peta Mitchell; Marcus Foth; Irina Anastasiu",
@@ -54705,7 +54950,7 @@
   "FWCI": 7.2247
  },
  {
-  "ID": "LM01564",
+  "ID": "LM01571",
   "Title": "Platform-mediated short-term rentals and gentrification in Madrid",
   "Year": 2020,
   "Authors": "Álvaro Ardura Urquiaga; Iñigo Lorente Riverola; Javier Ruiz Sánchez",
@@ -54740,7 +54985,7 @@
   "FWCI": 10.2582
  },
  {
-  "ID": "LM01565",
+  "ID": "LM01572",
   "Title": "Short-term rentals as digitally-mediated tourism gentrification: impacts on housing in New Orleans",
   "Year": 2020,
   "Authors": "Dustin Robertson; Christopher Oliver; Eric Nost",
@@ -54775,7 +55020,7 @@
   "FWCI": 10.3435
  },
  {
-  "ID": "LM01566",
+  "ID": "LM01573",
   "Title": "Mapping Platform Urbanism: Charting the Nuance of the Platform Pivot",
   "Year": 2020,
   "Authors": "Ashlin Lee; Adrian Mackenzie; Gavin J. D. Smith; Paul J. Box",
@@ -54810,7 +55055,7 @@
   "FWCI": 6.3611
  },
  {
-  "ID": "LM01567",
+  "ID": "LM01574",
   "Title": "Emerging platform urbanism in China: Reconfigurations of data, citizenship and materialities",
   "Year": 2019,
   "Authors": "Federico Caprotti; Dong Liu",
@@ -54845,7 +55090,7 @@
   "FWCI": 5.2504
  },
  {
-  "ID": "LM01568",
+  "ID": "LM01575",
   "Title": "From brick-and-mortar to location-less restaurant: The spatial fixing of on-demand food delivery platformization",
   "Year": 2022,
   "Authors": "Gianni Talamini; Weike Li; Xin Li",
@@ -54880,7 +55125,7 @@
   "FWCI": 17.4051
  },
  {
-  "ID": "LM01569",
+  "ID": "LM01576",
   "Title": "The Metaverse as a Virtual Model of Platform Urbanism: Its Converging AIoT, XReality, Neurotech, and Nanobiotech and Their Applications, Challenges, and Risks",
   "Year": 2023,
   "Authors": "Simon Elias Bibri",
@@ -54915,7 +55160,7 @@
   "FWCI": 6.3474
  },
  {
-  "ID": "LM01570",
+  "ID": "LM01577",
   "Title": "Silicon Savannahs and motorcycle taxis: A Southern perspective on the frontiers of platform urbanism",
   "Year": 2023,
   "Authors": "Liza Rose Cirolia; Rike Sitas; Andrea Pollio; Alexis Gatoni Sebarenzi; Prince K. Guma",
@@ -54950,7 +55195,7 @@
   "FWCI": 20.4816
  },
  {
-  "ID": "LM01571",
+  "ID": "LM01578",
   "Title": "Towards alternative platform futures in post-pandemic cities? A case study on platformization and changing socio-spatial relations in on-demand food delivery",
   "Year": 2022,
   "Authors": "Yannick Ecker; Anke Strüver",
@@ -54985,7 +55230,7 @@
   "FWCI": 13.4164
  },
  {
-  "ID": "LM01572",
+  "ID": "LM01579",
   "Title": "Sustaining urban labour markets: Situating migration and domestic work in India's ‘gig’ economy",
   "Year": 2022,
   "Authors": "Ambika Tandon; Aayush Rathi",
@@ -55020,7 +55265,7 @@
   "FWCI": 9.0652
  },
  {
-  "ID": "LM01573",
+  "ID": "LM01580",
   "Title": "Creative digipreneurs: Artistic entrepreneurial practices in platform-mediated space",
   "Year": 2023,
   "Authors": "Alica Repenning; Anna Oechslen",
@@ -55055,7 +55300,7 @@
   "FWCI": 15.1929
  },
  {
-  "ID": "LM01574",
+  "ID": "LM01581",
   "Title": "The Platformization of Student Housing and the Rise of Mid‐Term Rentals. The Case of Uniplaces in Lisbon",
   "Year": 2023,
   "Authors": "Agustín Cócola-Gant; Daniel Malet Calvo",
@@ -55090,7 +55335,7 @@
   "FWCI": 4.9279
  },
  {
-  "ID": "LM01575",
+  "ID": "LM01582",
   "Title": "Urban infrastructure reconfiguration and digital platforms: Who is in control?",
   "Year": 2024,
   "Authors": "Mike Hodson; Andrew McMeekin; Andy Lockhart",
@@ -55125,7 +55370,7 @@
   "FWCI": 4.042
  },
  {
-  "ID": "LM01576",
+  "ID": "LM01583",
   "Title": "Protest, pandemic, & platformisation in Hong Kong: Towards cities of alternatives",
   "Year": 2022,
   "Authors": "Yung Au",
@@ -55160,7 +55405,7 @@
   "FWCI": 1.4504
  },
  {
-  "ID": "LM01577",
+  "ID": "LM01584",
   "Title": "Splintering by Proxy: A Reflection on the Spatial Impacts and Distributed Agency of Platform Urbanism",
   "Year": 2022,
   "Authors": "Nancy Odendaal",
@@ -55195,7 +55440,7 @@
   "FWCI": 7.426
  },
  {
-  "ID": "LM01578",
+  "ID": "LM01585",
   "Title": "The Platformization of Public Participation: Considerations for Urban Planners Navigating New Engagement Tools",
   "Year": 2023,
   "Authors": "Pamela J. Robinson; Peter A. Johnson",
@@ -55230,7 +55475,7 @@
   "FWCI": 6.3651
  },
  {
-  "ID": "LM01579",
+  "ID": "LM01586",
   "Title": "Dispossession by platformization: The rise of on-demand recycling in urban India",
   "Year": 2023,
   "Authors": "Aman Luthra; Jake Lowe; Karina Ochoa Berkley",
@@ -55265,7 +55510,7 @@
   "FWCI": 6.3084
  },
  {
-  "ID": "LM01580",
+  "ID": "LM01587",
   "Title": "The spatial politics of platformization: Negotiating platform power in everyday taxi driving in Mumbai",
   "Year": 2023,
   "Authors": "Tobias Kuttler",
@@ -55300,7 +55545,7 @@
   "FWCI": 5.8578
  },
  {
-  "ID": "LM01581",
+  "ID": "LM01588",
   "Title": "Is the COVID‐19 pandemic accelerating the platformisation of the urban economy?",
   "Year": 2022,
   "Authors": "Daniela Ferreira; Renato Miguel do Carmo; Mário Vale",
@@ -55335,7 +55580,7 @@
   "FWCI": 3.6261
  },
  {
-  "ID": "LM01582",
+  "ID": "LM01589",
   "Title": "Spatiotemporal (In)justice in Digital Platforms: An Analysis of Food-Delivery Platforms in South India",
   "Year": 2020,
   "Authors": "Shyam Krishna",
@@ -55370,7 +55615,7 @@
   "FWCI": 1.6361
  },
  {
-  "ID": "LM01583",
+  "ID": "LM01590",
   "Title": "Platforms in the city and cities at the service of platforms: An urban perspective on the platform economy and workers’ responses",
   "Year": 2023,
   "Authors": "Maël Dif‐Pradalier; Thomas Jammet; Julie Tiberghien; Filippo Bignami; Niccolò Cuppini",
@@ -55405,7 +55650,7 @@
   "FWCI": 4.506
  },
  {
-  "ID": "LM01584",
+  "ID": "LM01591",
   "Title": "Platformization of Urban Life",
   "Year": 2022,
   "Authors": "",
@@ -55440,7 +55685,7 @@
   "FWCI": 2.5818
  },
  {
-  "ID": "LM01585",
+  "ID": "LM01592",
   "Title": "Digital platforms and the spatial transformation of urban villages in southern China: a case for platform-urban villagism?",
   "Year": 2024,
   "Authors": "Aiping Kuang; Godfrey Kwok-yung Yeung; Mingfeng Wang; Zhang Xiao",
@@ -55475,7 +55720,7 @@
   "FWCI": 9.808
  },
  {
-  "ID": "LM01586",
+  "ID": "LM01593",
   "Title": "Urban mobilities in Mumbai: Towards worker-centric platformisation beyond ‘urban solutionism’",
   "Year": 2024,
   "Authors": "Tobias Kuttler",
@@ -55510,7 +55755,7 @@
   "FWCI": 6.1296
  },
  {
-  "ID": "LM01587",
+  "ID": "LM01594",
   "Title": "Smart City Governance and the challenge of digital platforms within the public sector",
   "Year": 2022,
   "Authors": "Viviana Vaira",
@@ -55545,7 +55790,7 @@
   "FWCI": 2.4884
  },
  {
-  "ID": "LM01588",
+  "ID": "LM01595",
   "Title": "From platform capitalism to strategic place-based platformisation?",
   "Year": 2025,
   "Authors": "Mike Hodson; Andrew McMeekin; Andy Lockhart",
@@ -55580,7 +55825,7 @@
   "FWCI": 11.5987
  },
  {
-  "ID": "LM01589",
+  "ID": "LM01596",
   "Title": "Localized processes of platformization: The example of Surabaya",
   "Year": 2025,
   "Authors": "Alessandra Renzi; Janna Frenzel",
@@ -55615,7 +55860,7 @@
   "FWCI": 2.3317
  },
  {
-  "ID": "LM01590",
+  "ID": "LM01597",
   "Title": "Between algorithms and the streets",
   "Year": 2020,
   "Authors": "Anurag Mazumdar",
@@ -55650,7 +55895,7 @@
   "FWCI": 1.7449
  },
  {
-  "ID": "LM01591",
+  "ID": "LM01598",
   "Title": "Platformized Cities and Urban Life",
   "Year": 2022,
   "Authors": "Sybille Bauriedl; Anke Strüver",
@@ -55685,7 +55930,7 @@
   "FWCI": 0.7493
  },
  {
-  "ID": "LM01592",
+  "ID": "LM01599",
   "Title": "Parasitic platform urbanism in Dhaka and Melbourne",
   "Year": 2025,
   "Authors": "Lutfun Nahar Lata; Andrew Copolov",
@@ -55720,7 +55965,7 @@
   "FWCI": 5.7994
  },
  {
-  "ID": "LM01593",
+  "ID": "LM01600",
   "Title": "Conceptualising urban informality in the platform economy: regulation, legitimisation, value extraction and collective agency",
   "Year": 2025,
   "Authors": "Mindy Park; Christopher Foster; Richard Heeks",
@@ -55755,7 +56000,7 @@
   "FWCI": 6.3506
  },
  {
-  "ID": "LM01594",
+  "ID": "LM01601",
   "Title": "Handbook of Platform Urbanism",
   "Year": 2025,
   "Authors": "Annelien Smets; Pieter Ballon",
@@ -55790,7 +56035,7 @@
   "FWCI": 6.0504
  },
  {
-  "ID": "LM01595",
+  "ID": "LM01602",
   "Title": "Opportunities or challenges? Upgrading of periphery space with the rise of platform urbanism: Live streaming commerce in Yangtze River Delta, China",
   "Year": 2026,
   "Authors": "Lin Zou; Yiwen Zhu; Simin Yan",
@@ -55825,7 +56070,7 @@
   "FWCI": 26.1924
  },
  {
-  "ID": "LM01596",
+  "ID": "LM01603",
   "Title": "Counter-mapping platformization. Rethinking the spatial differentiation of platform control, labor relations and restaurant virtualization in proprietary markets for food-delivery",
   "Year": 2024,
   "Authors": "Yannick Ecker; Maximilian Lukowsky; Marius Wecker",
@@ -55860,7 +56105,7 @@
   "FWCI": 1.5324
  },
  {
-  "ID": "LM01597",
+  "ID": "LM01604",
   "Title": "Informal service labour and digital platforms in India’s marriage economy",
   "Year": 2026,
   "Authors": "Debalina Roy",
@@ -55895,7 +56140,7 @@
   "FWCI": 28.1578
  },
  {
-  "ID": "LM01598",
+  "ID": "LM01605",
   "Title": "Digital Tools for Low-Income Housing in Indian Cities",
   "Year": 2017,
   "Authors": "Rakhi Mehra; Maria Angela Ferrario; Swati Janu",
@@ -55930,7 +56175,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01599",
+  "ID": "LM01606",
   "Title": "PLATFORMISATION OF RIDE HAILING, FOOD DELIVERY AND DOMESTIC WORK SERVICES IN URBAN INDIA",
   "Year": 2021,
   "Authors": "Simiran Lalvani; Sarah Zia; Anushree Gupta; Aayush Rathi",
@@ -55965,7 +56210,7 @@
   "FWCI": 0.3472
  },
  {
-  "ID": "LM01600",
+  "ID": "LM01607",
   "Title": "Ciudades, comunicación digital y pospandemia: de las smart cities al urbanismo de plataformas",
   "Year": 2022,
   "Authors": "Luis Sebastián Ramón Rossi",
@@ -56000,7 +56245,7 @@
   "FWCI": 0.0994
  },
  {
-  "ID": "LM01601",
+  "ID": "LM01608",
   "Title": "Platform Urbanism and “Splintering Amenitization”: An Analysis of Canadian Cities",
   "Year": 2024,
   "Authors": "Anirudh Govind; Agnieszka Leszczynski; Ate Poorthuis",
@@ -56035,7 +56280,7 @@
   "FWCI": 1.0898
  },
  {
-  "ID": "LM01602",
+  "ID": "LM01609",
   "Title": "Unequal taxi geographies: Antagonisms in platform-driven urban restructuring in Delhi, India",
   "Year": 2025,
   "Authors": "Anurag Mazumdar",
@@ -56070,7 +56315,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM01603",
+  "ID": "LM01610",
   "Title": "Platformization in the southern city: Entrepreneurial volunteering and the suturing of collective life in Hyderabad",
   "Year": 2025,
   "Authors": "Anushree Gupta; Aalok Khandekar",
@@ -56105,7 +56350,7 @@
   "FWCI": 0.4663
  },
  {
-  "ID": "LM01604",
+  "ID": "LM01611",
   "Title": "Labor Productivity and Wage Inequality in the Gig Economy: Evidence from Bangladesh and Canada",
   "Year": 2025,
   "Authors": "",
@@ -56140,7 +56385,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM01605",
+  "ID": "LM01612",
   "Title": "Household platforms as transactional infrastructures: the case of Urban Company",
   "Year": 2026,
   "Authors": "Adrian Mabbott Athique; Akshaya Kumar",
@@ -56175,7 +56420,7 @@
   "FWCI": 14.0789
  },
  {
-  "ID": "LM01606",
+  "ID": "LM01613",
   "Title": "Platform Urbanization: How Digital Platforms (Avito, Yandex, Wildberries) Restructure the Space of Urban Agglomerations",
   "Year": 2026,
   "Authors": "D. D. Khamitov",
@@ -56210,7 +56455,7 @@
   "FWCI": 14.0789
  },
  {
-  "ID": "LM01607",
+  "ID": "LM01614",
   "Title": "Platform Politics and Silicon Savannahs: The rise of on-demand logistics and mobility in Nairobi and Kigali",
   "Year": 2022,
   "Authors": "Rike Sitas; Liza Rose Cirolia; Andrea Pollio; Alexis Gatoni Sebarenzi; Price Guma; Anirudh Rajashekar",
@@ -56245,7 +56490,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01608",
+  "ID": "LM01615",
   "Title": "Conclusion: On Understanding Situated Platform Urbanism",
   "Year": 2023,
   "Authors": "Nancy Odendaal",
@@ -56280,7 +56525,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01609",
+  "ID": "LM01616",
   "Title": "UBER IN EXURBIA : Peripheral Platformization, Post‐Suburbanization and the Public–Private Ridehail Partnership in the Toronto City Region",
   "Year": 2024,
   "Authors": "Fabian Namberger",
@@ -56315,7 +56560,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01610",
+  "ID": "LM01617",
   "Title": "Cities and Digital Platforms",
   "Year": 2025,
   "Authors": "Elham Bahmanteymouri",
@@ -56350,7 +56595,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01611",
+  "ID": "LM01618",
   "Title": "Platform co-operatives in the age of gig economy: A case study of SEWA cooperative federation",
   "Year": 2025,
   "Authors": "Sreeda TP",
@@ -56385,7 +56630,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01612",
+  "ID": "LM01619",
   "Title": "The Gig Economy in India: Economic Empowerment or Precarious Employment?",
   "Year": 2025,
   "Authors": "Heena Gandhi",
@@ -56420,7 +56665,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01613",
+  "ID": "LM01620",
   "Title": "Design in the ‘hybrid city’: DIY meets platform urbanism in Dhaka’s informal settlements",
   "Year": 2016,
   "Authors": "Teresa Swist; Liam Magee; David Sweeting",
@@ -56455,7 +56700,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01614",
+  "ID": "LM01621",
   "Title": "Gig Workers in India- a Legal Perspective",
   "Year": 2025,
   "Authors": "BHASWATI TALUKDAR; Bimal Kumar Baishya",
@@ -56490,7 +56735,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01615",
+  "ID": "LM01622",
   "Title": "The Virtual City in the Twenty-First Century: Exploring the Role of Digital Platforms in Urban Evolution",
   "Year": 2025,
   "Authors": "Patricio Julián Feldman; Susana Finquelievich",
@@ -56525,7 +56770,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01616",
+  "ID": "LM01623",
   "Title": "Platform Urbanism and Land-Use Transformation in Shanghai: Dual Neighborhood Impacts of E-Commerce Logistics in Relation to the 2017–2035 Master Plan",
   "Year": 2025,
   "Authors": "Jane Zheng; Yuanyi Zhao",
@@ -56560,7 +56805,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01617",
+  "ID": "LM01624",
   "Title": "Platform Urbanism and Culinary Logistics: Mobility, Infrastructure, and Micro-Entrepreneurship in Post-Digital Kolkata",
   "Year": 2026,
   "Authors": "Sayon Pramanik; Sampurna Biswas",
@@ -56595,7 +56840,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01618",
+  "ID": "LM01625",
   "Title": "Platformisation, technical citizenship and making space for rights in the city",
   "Year": 2025,
   "Authors": "Aphra Kerr; Jos Pierson",
@@ -56630,7 +56875,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01619",
+  "ID": "LM01626",
   "Title": "Participatory Governance through AI-Powered Digital Platforms: A Comparative Study of Indian States",
   "Year": 2026,
   "Authors": "Dr. J Narsimuloo",
@@ -56665,7 +56910,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01620",
+  "ID": "LM01627",
   "Title": "GIG ECONOMY IN INDIA: OPPORTUNITIES AND CHALLENGES",
   "Year": 2026,
   "Authors": "Tushar Kumar Goyal",
@@ -56700,7 +56945,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01621",
+  "ID": "LM01628",
   "Title": "ANALYSIS OF GIG WORKERS IN THE INDIAN LABOUR MARKET WITH SPECIAL REFERENCE TO BENGALURU URBAN",
   "Year": 2025,
   "Authors": "ANU THOMAS; DR. CJ LAKSHMI",
@@ -56735,7 +56980,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01622",
+  "ID": "LM01629",
   "Title": "Youth Participation and Work Experience in India’s Gig Economy: Evidence from Bengaluru",
   "Year": 2026,
   "Authors": "Ananya Sahoo; Jennifer Fernandes",
@@ -56770,7 +57015,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01623",
+  "ID": "LM01630",
   "Title": "The digitalization of urban governance in India : platforms, processes and people in Bhubaneswar",
   "Year": 2025,
   "Authors": "Khaliq Parkar",
@@ -56805,7 +57050,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01624",
+  "ID": "LM01631",
   "Title": "Delivering food, navigating stigma: the social experience of gig workers in urban India",
   "Year": 2026,
   "Authors": "Mohammad Sajjad Hussain",
@@ -56840,7 +57085,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01625",
+  "ID": "LM01632",
   "Title": "India's Shift to the Instant Service Economy: Platform Growth, Urban Consumption, and Socioeconomic Impact",
   "Year": 2026,
   "Authors": "Myra Abhishek Chamaria",
@@ -56875,7 +57120,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01626",
+  "ID": "LM01633",
   "Title": "Spaces of Urban Platformisation",
   "Year": 2026,
   "Authors": "Rabea Berfelde",
@@ -56910,7 +57155,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01627",
+  "ID": "LM01634",
   "Title": "Decent Work, Inclusion, and Growth in Gig Workers of India: The Viksit Bharat Vision",
   "Year": 2026,
   "Authors": "Naynith Nitesh Rathod; Yuvraj Singh Kimtee; Dikshit Jain; Kishan T Patel",
@@ -56945,7 +57190,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01628",
+  "ID": "LM01635",
   "Title": "Digital platforms for micro and small enterprises in India: performance, future of work and sustainability implications",
   "Year": 2026,
   "Authors": "Sumesh P. Soman; Bino Paul G. D.; Unmesh Patnaik; Kamal Kumar Murari",
@@ -56980,7 +57225,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01629",
+  "ID": "LM01636",
   "Title": "The Platformisation of Performance Traditions: Archiving Nachni Performances on Digital Platforms and the Parallel Economy of YouTubers in Purulia, West Bengal",
   "Year": 2026,
   "Authors": "Sudatta Ghosh",
@@ -57015,7 +57260,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01630",
+  "ID": "LM01637",
   "Title": "From unpaid care work to gig labour: Women and the platform economy in India",
   "Year": 2026,
   "Authors": "Sushmitha BC; Sunitha V Ganiger",
@@ -57050,7 +57295,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01631",
+  "ID": "LM01638",
   "Title": "Rethinking Platform Urbanization from the Perspective of Latin American Cities: Theoretical Insights and Empirical Contributions of Regional Research on Airbnb",
   "Year": 2026,
   "Authors": "Pedro Henrique Cícero Ferreira; João Bosco Moura Tonucci Filho",
@@ -57085,7 +57330,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01632",
+  "ID": "LM01639",
   "Title": "Converging Platforms: Media, Precarity and Everyday Resistance among Urban Gig Workers – A Case Study of Delhi",
   "Year": 2026,
   "Authors": "Jagriti Lamba; Anjan Sen",
@@ -57120,7 +57365,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01633",
+  "ID": "LM01640",
   "Title": "Algorithmic Governance, Local Government Regulation, And Sustainable Labour Policy: A Structural Equation Modelling Approach To Gig Delivery Workers In South India",
   "Year": 2026,
   "Authors": "R. Swathi Lakshmi, S. Manimaran, P.S.Venkateswaran",
@@ -57155,7 +57400,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01634",
+  "ID": "LM01641",
   "Title": "From crisis to governmental fix: platformisation-as-negotiation in authoritarian Vietnam",
   "Year": 2026,
   "Authors": "Marie Gibert‐Flutre",
@@ -57190,7 +57435,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01635",
+  "ID": "LM01642",
   "Title": "Learning from the Margin in Platform Urbanism",
   "Year": 2026,
   "Authors": "Tooran Alizadeh; Deepti Prasad",
@@ -57225,7 +57470,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01636",
+  "ID": "LM01643",
   "Title": "Planning for platform urbanism",
   "Year": 2026,
   "Authors": "Subina Shrestha",
@@ -57260,7 +57505,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01637",
+  "ID": "LM01644",
   "Title": "Accumulation by platformization: Digital platforms in urban space as a form of governance and enclosure",
   "Year": 2026,
   "Authors": "Francisco Fernández-Trujillo Moares; Ana Santamarina; Jorge Sequera",
@@ -57295,7 +57540,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01638",
+  "ID": "LM01645",
   "Title": "From Informal Labour to Digital Platforms: The Sustainability of Assam's Emerging Gig Economy",
   "Year": 2026,
   "Authors": "Arabinda Medhi",
@@ -57330,7 +57575,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01639",
+  "ID": "LM01646",
   "Title": "The Mental Health Toll of Gig Work in Pakistan: A Structural Equation Modeling Analysis of Work Intensity, Financial Uncertainty, And Algorithmic Control",
   "Year": 2026,
   "Authors": "Muhammad Hamza; Dr. Zahida Llyas; Majid Ali; Dr. Nasir Mahmood; Temoor Anjum",
@@ -57365,7 +57610,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01640",
+  "ID": "LM01647",
   "Title": "The Rise of Digital Labor Platforms in India: Gig Economy, Labor Rights, and Economic Inequality",
   "Year": 2024,
   "Authors": "Shunsuke Sato",
@@ -57400,7 +57645,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01641",
+  "ID": "LM01648",
   "Title": "Social Media and Youth Activism in South Asia: Examining the Role of Digital Platforms in Social Movements in Bangladesh and India",
   "Year": 2024,
   "Authors": "Shunsuke Sato",
@@ -57435,7 +57680,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01642",
+  "ID": "LM01649",
   "Title": "Platform Urbanism and the Fractal City: Deconstructing Gentrification, Megacity Hypertrophy, and the Algorithmic Periphery",
   "Year": 2025,
   "Authors": "Revista, Zen; GEOGRAPHY, 10",
@@ -57470,7 +57715,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01643",
+  "ID": "LM01650",
   "Title": "Fairwork India Ratings 2020:Labour Standards in the Gig Economy",
   "Year": 2020,
   "Authors": "Parthasarathy, Balaji; Srinivasan, Janaki; Neerukonda, Mounika; Taduri, Pradyumna; Ustek-Spilda, Funda; Vadekkethil, Aradhana Cherupara; Graham, Mark; Heeks, Richard; id_orcid 0000-0002-4551-2208",
@@ -57505,7 +57750,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01644",
+  "ID": "LM01651",
   "Title": "Exploring the Socio - Economic Conditions of Gig Workers in Hyderabad",
   "Year": 2026,
   "Authors": "Dr. J. Ratna Prabhakar; Mrs. Chaviti Sai Vani",
@@ -57540,7 +57785,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01645",
+  "ID": "LM01652",
   "Title": "GIG ECONOMY WORKERS AND LABOUR PROTECTION IN INDIA: REIMAGINING EMPLOYMENT RIGHTS IN THE DIGITAL AGE",
   "Year": 2026,
   "Authors": "Taranbir Singh",
@@ -57575,7 +57820,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01646",
+  "ID": "LM01653",
   "Title": "Socio-Economic and Career Dynamics of Gig Economy Workers in Karnataka: A Conceptual Review of Platform-Based Employment",
   "Year": 2026,
   "Authors": "Shetty, Praveena; Dr Ishwara P",
@@ -57610,7 +57855,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01647",
+  "ID": "LM01654",
   "Title": "From subordination to freedom? An ethnography of Bangalore’s auto- rickshaw drivers and ride-hailing economy",
   "Year": 2026,
   "Authors": "Shivani Daxini",
@@ -57645,7 +57890,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM01648",
+  "ID": "LM01655",
   "Title": "AN ANALYTICAL STUDY OF THE PROBLEMS AND CHALLENGES FACED BY GIG ECONOMY WORKERS AND THEIR IMPACT ON JOB SATISFACTION IN BANGALORE CITY",
   "Year": 2026,
   "Authors": "Dr. Radhika.B",
@@ -57680,7 +57925,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01649",
+  "ID": "LM01656",
   "Title": "Platformisation in Smaller Indian Cities: Informal Institutions, Labour and Technology Adoption in Urban Mobility",
   "Year": 2026,
   "Authors": "Manan Singla",
@@ -57715,7 +57960,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01650",
+  "ID": "LM01657",
   "Title": "La plataformización como problema urbano: limitaciones y desafíos en la gobernanza de plataformas",
   "Year": 2024,
   "Authors": "Patricio Feldman",
@@ -57750,7 +57995,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM01651",
+  "ID": "LM01658",
   "Title": "The Penetration of the Gig Economy in Post-Pandemic India: Transforming the Traditional Economic Landscape",
   "Year": 2025,
   "Authors": "Aahana Jain",
