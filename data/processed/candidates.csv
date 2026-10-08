@@ -543,24 +543,24 @@ W7118259256,A2,recent,A2_recent_q4,15,Planning permission and building regulatio
 W7199555196,A2,recent,A2_recent_q4,16,Building Regulations: Quality or Compliance?,2024,conference-paper,0,True,include,6,core in title; context terms missing,include
 W4417435445,A2,recent,A2_recent_q4,17,Planning law,2025,book-chapter,0,True,include,4,rules,include
 W4407610598,A2,recent,A2_recent_q4,18,Building Regulations in England and Wales,2025,book-chapter,3,True,include,3,rules,include
-W2464646353,A3,india,A3_india_q1,1,Informal Settlements in India | Slums of Chennai (Tamil Nadu) and Mumbai (Maharashtra),2016,article,0,True,borderline,5,stub abstract (possible book review),pending
+W2464646353,A3,india,A3_india_q1,1,Informal Settlements in India | Slums of Chennai (Tamil Nadu) and Mumbai (Maharashtra),2016,article,0,True,borderline,5,stub abstract (possible book review) | manual: informal settlements and slums in Chennai and Mumbai (talk record),include
 W2031759645,A3,india,A3_india_q1,2,"Land tenure and upgrading informal settlements in Colombo, Sri Lanka",2012,article,4,True,include,6,rules,include
-W4318323145,A3,india,A3_india_q1,3,"Schooling in the Slums - India, Bangladesh and Sri Lanka",2017,report,0,True,borderline,3,stub abstract (possible book review),pending
+W4318323145,A3,india,A3_india_q1,3,"Schooling in the Slums - India, Bangladesh and Sri Lanka",2017,report,0,True,borderline,3,stub abstract (possible book review) | manual: schooling drop-out; slum only as setting,exclude
 W2155675895,A3,india,A3_india_q1,4,Measuring slum severity in Mumbai and Kolkata: A household-based approach,2013,article,108,False,include,3,no abstract; core (and context) in title,include
 W2106931646,A3,india,A3_india_q1,5,"Sanitation in Mumbai's Informal Settlements: State, ‘Slum’, and Infrastructure",2007,article,211,True,include,6,rules,include
 W2995131368,A3,india,A3_india_q1,6,Pockets of Informal settlements: Hyderabad India,2019,article,0,True,include,4,rules,include
 W3107277123,A3,india,A3_india_q1,7,"A commons perspective on urban informal settlements : a study of Kallyanpur slum in Dhaka, Bangladesh.",2020,dissertation,0,True,include,6,rules,include
-W4403718677,A3,india,A3_india_q1,8,"Health Disparities in Urban Slums of South Asia: Public Health Challenges in India, Pakistan, and Bangladesh",2024,preprint,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4403718677,A3,india,A3_india_q1,8,"Health Disparities in Urban Slums of South Asia: Public Health Challenges in India, Pakistan, and Bangladesh",2024,preprint,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: public-health review,exclude
 W2976829130,A3,india,A3_india_q1,9,"Slum-free city planning versus durable slums. Insights from Delhi, India",2019,article,31,True,include,6,rules,include
 W3031017101,A3,india,A3_india_q1,10,"The changing nature of informal settlements in the megapolis in South Asia: the case of Karachi, Pakistan",2020,book-chapter,2,True,include,6,rules,include
-W3102376298,A3,india,A3_india_q1,11,"Seroprevalence of SARS-CoV-2 in slums versus non-slums in Mumbai, India",2020,article,145,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3102376298,A3,india,A3_india_q1,11,"Seroprevalence of SARS-CoV-2 in slums versus non-slums in Mumbai, India",2020,article,145,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: seroprevalence study,exclude
 W2154850139,A3,india,A3_india_q1,12,"Typology of Informal Settlements and Distribution of Slums in the NCT, Delhi",2011,article,13,True,include,6,rules,include
 W2412497702,A3,india,A3_india_q1,13,"Building Resilience of Urban Slums in Dhaka, Bangladesh",2016,conference-paper,57,True,include,6,rules,include
 W7203831272,A3,india,A3_india_q1,14,Learning from Informal Settlements through a Multidimensional Analysis of Delhi Slums,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
-W1626483305,A3,india,A3_india_q1,15,"Adult mortality in slums of Karachi, Pakistan.",2000,article,36,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W1626483305,A3,india,A3_india_q1,15,"Adult mortality in slums of Karachi, Pakistan.",2000,article,36,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: mortality study,exclude
 W7128806552,A3,india,A3_india_q1,16,"Invisible Labor and Climate Shocks: Gendered Time Poverty in Heatwave-Affected Urban Informal Settlements in Karachi, Pakistan and Delhi, India",2026,article,0,True,include,4,rules,include
 W3159262631,A3,india,A3_india_q1,17,Informal Settlements: A Study of Displaced Living in a Kolkata Slum,2019,article,0,False,include,3,no abstract; core (and context) in title,include
-W7128675083,A3,india,A3_india_q1,18,"Determination of Lung Health Amongst Children Living in Slums of Gurugram, Haryana, India",2025,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7128675083,A3,india,A3_india_q1,18,"Determination of Lung Health Amongst Children Living in Slums of Gurugram, Haryana, India",2025,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: child lung health (Gurugram) - biomedical,exclude
 W2016608886,A3,india,A3_india_q2,1,"Urban Informality: Transnational Perspectives from the Middle East, Latin America, and South Asia",2005,article,670,True,include,5,rules,include
 W570733300,A3,india,A3_india_q2,2,"Urban informality : transnational perspectives from the Middle East, Latin America, and South Asia",2003,article,379,True,include,5,rules,include
 W3092010722,A3,india,A3_india_q2,3,"Food networks and urban informality in Mumbai, India",2020,article,3,True,include,6,rules,include
@@ -588,7 +588,7 @@ W2882111539,A3,india,A3_india_q3,6,Investigation of Sustainable and Affordable H
 W2938642702,A3,india,A3_india_q3,7,Affordable Housing in Kathmandu,2018,article,0,False,include,3,no abstract; core (and context) in title,include
 W2532087016,A3,india,A3_india_q3,8,Principles Of Sustainable And Affordable Housing Policy For Afghan Refugees Returning To Afghanistan,2015,article,0,True,include,6,rules,include
 W2044789242,A3,india,A3_india_q3,9,"The Contradictions in Enabling Private Developers of Affordable Housing: A Cautionary Case from Ahmedabad, India",2004,article,85,True,include,4,rules,include
-W2762405724,A3,india,A3_india_q3,10,"Transforming Urban Dichotomies and Challenges of South Asian Megacities: Rethinking Sustainable Growth of Dhaka, Bangladesh",2017,article,138,True,borderline,1,core concept mentioned once,pending
+W2762405724,A3,india,A3_india_q3,10,"Transforming Urban Dichotomies and Challenges of South Asian Megacities: Rethinking Sustainable Growth of Dhaka, Bangladesh",2017,article,138,True,borderline,1,core concept mentioned once | manual: megacity sustainability overview,exclude
 W2791725666,A3,india,A3_india_q3,11,"Private Sector in Affordable Housing? Case of Slum Rehabilitation Scheme in Ahmedabad, India",2018,article,32,True,include,6,rules,include
 W7134189768,A3,india,A3_india_q3,12,Adoption of Sustainability For Affordable Housing Projects in Sri Lanka,2021,conference-paper,0,True,include,6,rules,include
 W7134201055,A3,india,A3_india_q3,13,Adoption of Sustainability For Affordable Housing Projects in Sri Lanka,2021,article,0,False,include,3,no abstract; core (and context) in title,include
@@ -615,17 +615,17 @@ W2169605071,A3,india,A3_india_q4,15,The Slum Upgrading Myth,1999,article,178,Tru
 W3091820998,A3,india,A3_india_q4,16,"Slum Redevelopment as a ‘Real-Estate Frontier’: Insights from Delhi, India",2020,article,1,True,include,4,rules,include
 W2558450253,A3,india,A3_india_q4,17,Fragile Entrepreneurialism: The Mumbai Airport Slum Redevelopment Project,2016,book-chapter,4,False,include,3,no abstract; core (and context) in title,include
 W4248570056,A3,india,A3_india_q4,18,Shifts in Slum Upgrading Policy in India with Special Reference to Calcutta,2018,book-chapter,0,True,include,6,rules,include
-W2147920244,A3,landmarks,A3_landmarks,1,Experimental Analysis of Neighborhood Effects,2007,article,2722,True,borderline,1,core concept mentioned once,pending
-W2003845384,A3,landmarks,A3_landmarks,2,Creating public value : strategic management in government,1995,article,2356,True,borderline,1,core concept mentioned once,pending
+W2147920244,A3,landmarks,A3_landmarks,1,Experimental Analysis of Neighborhood Effects,2007,article,2722,True,borderline,1,core concept mentioned once | manual: Moving to Opportunity: public housing and vouchers,include
+W2003845384,A3,landmarks,A3_landmarks,2,Creating public value : strategic management in government,1995,article,2356,True,borderline,1,core concept mentioned once | manual: public management book,exclude
 W2131380459,A3,landmarks,A3_landmarks,3,Urban Informality: Toward an Epistemology of Planning,2005,article,2296,True,include,5,rules,include
 W4235730692,A3,landmarks,A3_landmarks,4,Planet of Slums,2006,article,2102,False,include,3,no abstract; core (and context) in title,include
 W1948094720,A3,landmarks,A3_landmarks,5,Global Morbidity and Mortality of Leptospirosis: A Systematic Review,2015,review,2047,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2120835749,A3,landmarks,A3_landmarks,6,Street Corner Society: The Social Structure of an Italian Slum,1946,article,1852,True,include,4,rules,include
 W2165174317,A3,landmarks,A3_landmarks,7,Crabgrass Frontier: The Suburbanization of the United States,1987,article,1822,True,include,3,rules,include
-W2162166102,A3,landmarks,A3_landmarks,8,Housing and Health: Time Again for Public Health Action,2002,article,1569,True,borderline,1,core concept mentioned once,pending
+W2162166102,A3,landmarks,A3_landmarks,8,Housing and Health: Time Again for Public Health Action,2002,article,1569,True,borderline,1,core concept mentioned once | manual: housing and health (public health),exclude
 W1494709343,A3,landmarks,A3_landmarks,9,The Challenge of Slums: Global Report on Human Settlements 2003,2004,article,1470,True,include,6,rules,include
 W2107899547,A3,landmarks,A3_landmarks,10,"Why India Cannot Plan Its Cities: Informality, Insurgence and the Idiom of Urbanization",2009,article,1451,True,include,2,rules,include
-W2110043944,A3,landmarks,A3_landmarks,11,The Future as Cultural Fact: Essays on the Global Condition,2013,article,1429,True,borderline,1,core concept mentioned once,pending
+W2110043944,A3,landmarks,A3_landmarks,11,The Future as Cultural Fact: Essays on the Global Condition,2013,article,1429,True,borderline,1,core concept mentioned once | manual: Appadurai on slum-dweller mobilisation in Mumbai,include
 W2116488332,A3,landmarks,A3_landmarks,12,Slumdog Cities: Rethinking Subaltern Urbanism,2011,article,1369,True,include,3,rules,include
 W2151241623,A3,landmarks,A3_landmarks,13,Persistent gut microbiota immaturity in malnourished Bangladeshi children,2014,article,1363,False,exclude,0,core concept missing,exclude
 W2098501785,A3,landmarks,A3_landmarks,14,Why Does Ethnic Diversity Undermine Public Goods Provision?,2007,article,1345,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -640,78 +640,78 @@ W1546375055,A3,landmarks,A3_landmarks,22,Portfolios of the poor: how the world's
 W1487947078,A3,landmarks,A3_landmarks,23,Infections and inequalities: the modern plagues,2001,book-review,959,True,exclude,0,type book-review,exclude
 W2799269292,A3,landmarks,A3_landmarks,24,MENTAL DISORDERS IN URBAN AREAS,1939,article,951,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2148197077,A3,landmarks,A3_landmarks,25,The Miracle of Microfinance? Evidence from a Randomized Evaluation,2013,preprint,940,False,exclude,0,core concept missing,exclude
-W2054097442,A3,landmarks,A3_landmarks,26,The Burden of Representation: Essays on Photographies and Histories.,1989,article,940,True,borderline,1,core concept mentioned once,pending
+W2054097442,A3,landmarks,A3_landmarks,26,The Burden of Representation: Essays on Photographies and Histories.,1989,article,940,True,borderline,1,core concept mentioned once | manual: photography history,exclude
 W646871639,A3,landmarks,A3_landmarks,27,Can Anyone Hear Us?,2000,book,936,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2134915282,A3,landmarks,A3_landmarks,28,The Compact City: Just or Just Compact? A Preliminary Analysis,2000,article,871,True,borderline,1,core concept mentioned once,pending
+W2134915282,A3,landmarks,A3_landmarks,28,The Compact City: Just or Just Compact? A Preliminary Analysis,2000,article,871,True,borderline,1,core concept mentioned once | manual: compact city and equity,exclude
 W2007892532,A3,landmarks,A3_landmarks,29,Aggression and Violence in the Inner City,2001,article,855,True,include,2,rules,include
 W4236301267,A3,landmarks,A3_landmarks,30,Informality,2007,book,849,True,exclude,0,core concept missing,exclude
-W4234153941,A3,landmarks,A3_landmarks,31,Race for Profit,2019,book,842,True,borderline,1,core concept mentioned once,pending
+W4234153941,A3,landmarks,A3_landmarks,31,Race for Profit,2019,book,842,True,borderline,1,"core concept mentioned once | manual: housing policy, race and predatory inclusion",include
 W1539493583,A3,landmarks,A3_landmarks,32,Cities of tomorrow: an intellectual history of urban planning and design in the twentieth century,1989,book-review,840,True,exclude,0,type book-review,exclude
 W2023660471,A3,landmarks,A3_landmarks,33,"The Right to Stay Put, Revisited: Gentrification and Resistance to Displacement in New York City",2006,article,839,True,include,2,rules,include
 W2536599516,A3,landmarks,A3_landmarks,34,"The history, geography, and sociology of slums and the health problems of people who live in slums",2016,article,810,False,include,3,no abstract; core (and context) in title,include
 W2102397439,A3,landmarks,A3_landmarks,35,Moving to Opportunity: an Experimental Study of Neighborhood Effects on Mental Health,2003,article,783,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2889490278,A3,landmarks,A3_landmarks,36,The Color of Law: A Forgotten History of How Our Government Segregated America,2017,article,770,True,borderline,1,core concept mentioned once,pending
+W2889490278,A3,landmarks,A3_landmarks,36,The Color of Law: A Forgotten History of How Our Government Segregated America,2017,article,770,True,borderline,1,core concept mentioned once | manual: state-imposed residential segregation via housing policy,include
 W2043231452,A3,landmarks,A3_landmarks,37,Connectance of Large Dynamic (Cybernetic) Systems: Critical Values for Stability,1970,article,770,False,exclude,0,core concept missing,exclude
 W3194357325,A3,landmarks,A3_landmarks,38,Reducing the health effects of hot weather and heat extremes: from personal cooling strategies to green cities,2021,article,757,False,exclude,0,core concept missing,exclude
-W2160086877,A3,landmarks,A3_landmarks,39,The City as Assemblage: Dwelling and Urban Space,2011,article,746,True,borderline,1,core concept mentioned once,pending
+W2160086877,A3,landmarks,A3_landmarks,39,The City as Assemblage: Dwelling and Urban Space,2011,article,746,True,borderline,1,core concept mentioned once | manual: city as assemblage; dwelling and slum housing in Mumbai/Sao Paulo,include
 W2007029142,A3,landmarks,A3_landmarks,40,Comparison of the Saint Louis University Mental Status Examination and the Mini-Mental State Examination for Detecting Dementia and Mild Neurocognitive Disorder—A Pilot Study,2006,article,729,False,exclude,0,core concept missing,exclude
-W2895844696,A3,landmarks,A3_landmarks,41,Building long-term empathy: A large-scale comparison of traditional and virtual reality perspective-taking,2018,article,725,True,borderline,1,core concept mentioned once,pending
+W2895844696,A3,landmarks,A3_landmarks,41,Building long-term empathy: A large-scale comparison of traditional and virtual reality perspective-taking,2018,article,725,True,borderline,1,core concept mentioned once | manual: VR empathy experiment,exclude
 W2077218648,A3,landmarks,A3_landmarks,42,Social and environmental risk factors in the emergence of infectious diseases,2004,article,724,False,exclude,0,core concept missing,exclude
 W1998667196,A3,landmarks,A3_landmarks,43,The spatial mismatch hypothesis: A review of recent studies and their implications for welfare reform,1998,article,720,True,include,2,rules,include
-W1593374631,A3,landmarks,A3_landmarks,44,Family and Kinship in East London,2013,book,711,True,borderline,1,core concept mentioned once,pending
+W1593374631,A3,landmarks,A3_landmarks,44,Family and Kinship in East London,2013,book,711,True,borderline,1,core concept mentioned once | manual: family and kinship study,exclude
 W2075808979,A3,landmarks,A3_landmarks,45,Efficacy of Rehabilitative Experience Declines with Time after Focal Ischemic Brain Injury,2004,article,705,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W3027726878,A3,landmarks,A3_landmarks,46,"Levels of heavy metals in wastewater and soil samples from open drainage channels in Nairobi, Kenya: community health implication",2020,article,704,True,borderline,1,core concept mentioned once,pending
+W3027726878,A3,landmarks,A3_landmarks,46,"Levels of heavy metals in wastewater and soil samples from open drainage channels in Nairobi, Kenya: community health implication",2020,article,704,True,borderline,1,core concept mentioned once | manual: heavy metals,exclude
 W2725380022,A3,landmarks,A3_landmarks,47,"The Challenge of slums: global report on human settlements, 2003",2004,book-review,695,True,exclude,0,type book-review,exclude
-W93116725,A3,landmarks,A3_landmarks,48,Fertile Ground for Community: Inner‐City Neighborhood Common Spaces,1998,article,684,True,borderline,1,core concept mentioned once,pending
+W93116725,A3,landmarks,A3_landmarks,48,Fertile Ground for Community: Inner‐City Neighborhood Common Spaces,1998,article,684,True,borderline,1,core concept mentioned once | manual: public housing common spaces and social ties (A9 more than A3),exclude
 W2134366865,A3,landmarks,A3_landmarks,49,Social dominance in monkeys: dopamine D2 receptors and cocaine self-administration,2002,article,680,False,exclude,0,core concept missing,exclude
 W2016608886,A3,landmarks,A3_landmarks,50,"Urban Informality: Transnational Perspectives from the Middle East, Latin America, and South Asia",2005,article,670,True,include,5,rules,include
 W2168848618,A3,landmarks,A3_landmarks,51,The Materiality of Everyday Sex: Thinking beyond 'prostitution',2002,article,662,True,include,3,rules,include
 W1230600452,A3,landmarks,A3_landmarks,52,Rethinking Decentralization in Developing Countries,1998,book,634,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2131148121,A3,landmarks,A3_landmarks,53,Neighborhood Effects on Crime for Female and Male Youth: Evidence from a Randomized Housing Voucher Experiment,2005,article,633,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W1576177147,A3,landmarks,A3_landmarks,54,Late Neoliberalism: The Financialization of Homeownership and Housing Rights,2013,article,632,True,include,6,rules,include
-W2164200301,A3,landmarks,A3_landmarks,55,The Economics of Roscas and Intrahousehold Resource Allocation,2002,article,632,True,borderline,1,core concept mentioned once,pending
-W4238054955,A3,landmarks,A3_landmarks,56,Lively Infrastructure,2014,article,624,True,borderline,1,core concept mentioned once,pending
+W2164200301,A3,landmarks,A3_landmarks,55,The Economics of Roscas and Intrahousehold Resource Allocation,2002,article,632,True,borderline,1,core concept mentioned once | manual: roscas economics,exclude
+W4238054955,A3,landmarks,A3_landmarks,56,Lively Infrastructure,2014,article,624,True,borderline,1,core concept mentioned once | manual: informal settlements and lively infrastructure (Belo Horizonte),include
 W2061761612,A3,landmarks,A3_landmarks,57,Dealing in Virtue: International Commercial Arbitration and the Construction of a Transnational Legal Order,1998,article,620,True,exclude,0,core concept missing,exclude
 W2998324661,A3,landmarks,A3_landmarks,58,"Correlates, facilitators and barriers of physical activity among primary care patients with prediabetes in Singapore – a mixed methods approach",2020,article,612,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2957412640,A3,landmarks,A3_landmarks,59,A review of the current progress and application of 3D printed concrete,2019,article,610,False,exclude,0,core concept missing,exclude
-W1499218775,A3,landmarks,A3_landmarks,60,"New Managerialism, New Welfare?",2000,other,606,True,borderline,1,core concept mentioned once,pending
-W3020814017,A3,landmarks,A3_landmarks,61,Slum Health: Arresting COVID-19 and Improving Well-Being in Urban Informal Settlements,2020,article,599,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W1499218775,A3,landmarks,A3_landmarks,60,"New Managerialism, New Welfare?",2000,other,606,True,borderline,1,core concept mentioned once | manual: welfare managerialism,exclude
+W3020814017,A3,landmarks,A3_landmarks,61,Slum Health: Arresting COVID-19 and Improving Well-Being in Urban Informal Settlements,2020,article,599,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: COVID health in slums (public-health commentary),exclude
 W4256168637,A3,landmarks,A3_landmarks,62,Rule By Aesthetics,2015,book,593,True,include,3,rules,include
-W2111170412,A3,landmarks,A3_landmarks,63,Exclusive Breastfeeding Reduces Acute Respiratory Infection and Diarrhea Deaths Among Infants in Dhaka Slums,2001,article,585,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2111170412,A3,landmarks,A3_landmarks,63,Exclusive Breastfeeding Reduces Acute Respiratory Infection and Diarrhea Deaths Among Infants in Dhaka Slums,2001,article,585,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: breastfeeding study,exclude
 W1549193660,A3,landmarks,A3_landmarks,64,Global Political Ecology,2010,book,584,True,include,2,rules,include
-W2128653300,A3,landmarks,A3_landmarks,65,Extracting Value from the City: Neoliberalism and Urban Redevelopment,2002,article,583,True,borderline,1,core concept mentioned once,pending
+W2128653300,A3,landmarks,A3_landmarks,65,Extracting Value from the City: Neoliberalism and Urban Redevelopment,2002,article,583,True,borderline,1,core concept mentioned once | manual: urban redevelopment and neoliberalism (A13),exclude
 W1576855161,A3,landmarks,A3_landmarks,66,From public housing to the social market,1995,book,574,True,include,4,rules,include
 W576050068,A3,landmarks,A3_landmarks,67,Public-Private Partnerships: Principles of Policy and Finance,2007,article,568,False,exclude,0,core concept missing,exclude
 W4240970735,A3,landmarks,A3_landmarks,68,Cities and Climate Change,2011,book,567,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2896936987,A3,landmarks,A3_landmarks,69,The Opportunity Atlas: Mapping the Childhood Roots of Social Mobility,2018,report,557,True,borderline,1,core concept mentioned once,pending
+W2896936987,A3,landmarks,A3_landmarks,69,The Opportunity Atlas: Mapping the Childhood Roots of Social Mobility,2018,report,557,True,borderline,1,core concept mentioned once | manual: social mobility atlas,exclude
 W2117524310,A3,landmarks,A3_landmarks,70,An urbanization bomb? Population growth and social disorder in cities,2012,article,554,False,exclude,0,core concept missing,exclude
 W2056789685,A3,landmarks,A3_landmarks,71,The primary generator and the design process,1979,article,548,False,exclude,0,core concept missing,exclude
-W2071185162,A3,landmarks,A3_landmarks,72,Situational Crime Prevention: Its Theoretical Basis and Practical Scope,1983,article,547,True,borderline,1,core concept mentioned once,pending
+W2071185162,A3,landmarks,A3_landmarks,72,Situational Crime Prevention: Its Theoretical Basis and Practical Scope,1983,article,547,True,borderline,1,core concept mentioned once | manual: crime prevention,exclude
 W2166085423,A3,landmarks,A3_landmarks,73,"Translocal assemblages: Space, power and social movements",2009,article,546,False,exclude,0,core concept missing,exclude
 W3008607642,A3,landmarks,A3_landmarks,74,Building Resilience to Climate Change in Informal Settlements,2020,article,539,True,include,6,rules,include
 W2137042736,A3,landmarks,A3_landmarks,75,Where Does Community Grow?,1997,article,530,True,include,3,rules,include
-W2000582510,A3,landmarks,A3_landmarks,76,A Critique of the Use of Path Dependency in Policy Studies,2005,article,525,True,borderline,1,core concept mentioned once,pending
+W2000582510,A3,landmarks,A3_landmarks,76,A Critique of the Use of Path Dependency in Policy Studies,2005,article,525,True,borderline,1,core concept mentioned once | manual: path dependency,exclude
 W4211128005,A3,landmarks,A3_landmarks,77,Leptospirosis,2005,article,524,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2895170101,A3,landmarks,A3_landmarks,78,State of the World's Cities 2010/11,2010,book,518,True,borderline,1,core concept mentioned once,pending
+W2895170101,A3,landmarks,A3_landmarks,78,State of the World's Cities 2010/11,2010,book,518,True,borderline,1,core concept mentioned once | manual: UN-Habitat state of cities (generic),exclude
 W1867335979,A3,landmarks,A3_landmarks,79,The Return of the Slum: Does Language Matter?,2007,article,512,True,include,6,rules,include
 W1846353168,A3,landmarks,A3_landmarks,80,Risks and Reconstruction,2000,book,511,True,include,3,rules,include
 W2159051537,A3,landmarks,A3_landmarks,81,Housing Markets and Structural Policies in OECD Countries,2011,report,505,True,include,6,rules,include
 W17135676,A3,landmarks,A3_landmarks,82,Islands in the street: gangs and American urban society,1991,book-review,501,True,exclude,0,type book-review,exclude
-W1535661197,A3,landmarks,A3_landmarks,83,The Geography of Nowhere: The Rise and Decline of America's Man-made Landscape,2013,book,497,True,borderline,1,core concept mentioned once,pending
+W1535661197,A3,landmarks,A3_landmarks,83,The Geography of Nowhere: The Rise and Decline of America's Man-made Landscape,2013,book,497,True,borderline,1,core concept mentioned once | manual: American landscape polemic,exclude
 W2058496388,A3,landmarks,A3_landmarks,84,The Long-Run Consequences of Living in a Poor Neighborhood,2003,article,492,True,include,2,rules,include
-W2263905439,A3,landmarks,A3_landmarks,85,Dry Bones Rattling,2001,book,492,True,borderline,1,core concept mentioned once,pending
+W2263905439,A3,landmarks,A3_landmarks,85,Dry Bones Rattling,2001,book,492,True,borderline,1,core concept mentioned once | manual: community organising,exclude
 W2003522782,A3,landmarks,A3_landmarks,86,Urban as a Determinant of Health,2007,article,484,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W1567772780,A3,landmarks,A3_landmarks,87,The Road to Wigan Pier (1937),2001,book-chapter,484,True,borderline,1,core concept mentioned once,pending
+W1567772780,A3,landmarks,A3_landmarks,87,The Road to Wigan Pier (1937),2001,book-chapter,484,True,borderline,1,core concept mentioned once | manual: Orwell,exclude
 W2103818838,A3,landmarks,A3_landmarks,88,Effect of mother’s education on child’s nutritional status in the slums of Nairobi,2012,article,477,True,include,6,rules,include
 W2314330970,A3,landmarks,A3_landmarks,89,The financialisation of rental housing: A comparative analysis of New York City and Berlin,2014,article,473,True,include,6,rules,include
 W2188737930,A3,landmarks,A3_landmarks,90,The Logic of Clientelism in Argentina: An Ethnographic Account,2000,article,472,True,include,2,rules,include
 W1845579074,A3,landmarks,A3_landmarks,91,Global Burden of Leptospirosis: Estimated in Terms of Disability Adjusted Life Years,2015,article,470,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2009974606,A3,landmarks,A3_landmarks,92,Impact of Environment and Social Gradient on Leptospira Infection in Urban Slums,2008,article,469,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2009974606,A3,landmarks,A3_landmarks,92,Impact of Environment and Social Gradient on Leptospira Infection in Urban Slums,2008,article,469,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: leptospirosis,exclude
 W2919070233,A3,landmarks,A3_landmarks,93,"Microplastic distribution in surface water and sediment river around slum and industrial area (case study: Ciwalengke River, Majalaya district, Indonesia)",2019,article,466,False,include,3,no abstract; core (and context) in title,include
 W2736263791,A3,landmarks,A3_landmarks,94,The global urban housing affordability crisis,2017,article,464,True,include,6,rules,include
 W1979296194,A3,landmarks,A3_landmarks,95,"Damp housing, mould growth, and symptomatic health state.",1989,article,462,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2093610179,A3,landmarks,A3_landmarks,96,"“This is no longer the city I once knew”. Evictions, the urban poor and the right to the city in millennial Delhi",2009,article,461,True,borderline,1,core concept mentioned once,pending
-W2164821079,A3,landmarks,A3_landmarks,97,The Racialization of Space and the Spatialization of Race: Theorizing the Hidden Architecture of Landscape,2007,article,461,True,borderline,1,core concept mentioned once,pending
+W2093610179,A3,landmarks,A3_landmarks,96,"“This is no longer the city I once knew”. Evictions, the urban poor and the right to the city in millennial Delhi",2009,article,461,True,borderline,1,core concept mentioned once | manual: evictions and slum clearance in Delhi (A4 also),include
+W2164821079,A3,landmarks,A3_landmarks,97,The Racialization of Space and the Spatialization of Race: Theorizing the Hidden Architecture of Landscape,2007,article,461,True,borderline,1,core concept mentioned once | manual: race and landscape,exclude
 W1551732050,A3,landmarks,A3_landmarks,98,Coalition governments in Western Europe,2002,book-review,459,True,exclude,0,type book-review,exclude
 W2116592802,A3,landmarks,A3_landmarks,99,Schizophrenia and Social Class,1963,article,455,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2408669075,A3,landmarks,A3_landmarks,100,Chronic Disease Prevention and Health Promotion,2016,book-chapter,453,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
@@ -719,8 +719,8 @@ W4316088449,A3,recent,A3_recent_q1,1,Slum – Informal Settlement,2022,reference
 W4407508174,A3,recent,A3_recent_q1,2,Urban Informal Settlements and Slums,2025,book-chapter,0,True,include,6,rules,include
 W4316088545,A3,recent,A3_recent_q1,3,"Squatter Settlement – Slum, Informal Settlement",2022,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4297990572,A3,recent,A3_recent_q1,4,"Water journeys: Household water insecurity, health risks, and embodiment in slums and informal settlements",2022,article,61,True,include,5,rules,include
-W7214883152,A3,recent,A3_recent_q1,5,Secure tenure behind slum upgrading and informal settlements,2024,dissertation,0,True,borderline,3,stub abstract (possible book review),pending
-W4308456716,A3,recent,A3_recent_q1,6,"A multilevel, multidimensional scale for measuring housing insecurity in slums and informal settlements",2022,article,40,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7214883152,A3,recent,A3_recent_q1,5,Secure tenure behind slum upgrading and informal settlements,2024,dissertation,0,True,borderline,3,stub abstract (possible book review) | manual: secure tenure and slum upgrading,include
+W4308456716,A3,recent,A3_recent_q1,6,"A multilevel, multidimensional scale for measuring housing insecurity in slums and informal settlements",2022,article,40,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: housing insecurity scale for slums (flag false positive),include
 W7159118425,A3,recent,A3_recent_q1,7,Manual for interviewing women in urban informal settlements and slums,2025,book,0,False,include,3,no abstract; core (and context) in title,include
 W7107971735,A3,recent,A3_recent_q1,8,Networked Collaborative Governance for Slum Upgrading in Urban Informal Settlements,2025,article,0,False,include,3,no abstract; core (and context) in title,include
 W7203831272,A3,recent,A3_recent_q1,9,Learning from Informal Settlements through a Multidimensional Analysis of Delhi Slums,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
@@ -740,13 +740,13 @@ W7140298490,A3,recent,A3_recent_q2,4,Urban informality,2026,reference-entry,0,Fa
 W4378677709,A3,recent,A3_recent_q2,5,Urban Informality,2023,book,1,False,include,3,no abstract; core (and context) in title,include
 W4399843855,A3,recent,A3_recent_q2,6,Understanding Urban Informality,2024,book-chapter,0,True,include,6,rules,include
 W4399934661,A3,recent,A3_recent_q2,7,Understanding Urban Informality,2024,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
-W4416082497,A3,recent,A3_recent_q2,8,Urban Informality: An Introduction,2025,article,0,True,borderline,3,stub abstract (possible book review),pending
+W4416082497,A3,recent,A3_recent_q2,8,Urban Informality: An Introduction,2025,article,0,True,borderline,3,stub abstract (possible book review) | manual: urban informality introduction,include
 W7208142133,A3,recent,A3_recent_q2,9,Urban informality an introduction,2024,article,0,False,include,3,no abstract; core (and context) in title,include
 W7203566943,A3,recent,A3_recent_q2,10,Rapid urbanization and urban informality,2026,article,0,True,include,3,rules,include
-W7125515420,A3,recent,A3_recent_q2,11,Urban Informality and Narrative Form,2026,book,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7125515420,A3,recent,A3_recent_q2,11,Urban Informality and Narrative Form,2026,book,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: urban informality and narrative,include
 W4317103859,A3,recent,A3_recent_q2,12,"Women, space and urban informality",2023,book-chapter,0,True,include,3,rules,include
 W4412109968,A3,recent,A3_recent_q2,13,Urban informality in the making,2025,book-chapter,1,True,include,6,rules,include
-W4292836184,A3,recent,A3_recent_q2,14,Informality through sustainability: urban informality now,2022,article,5,True,borderline,4,stub abstract (possible book review),pending
+W4292836184,A3,recent,A3_recent_q2,14,Informality through sustainability: urban informality now,2022,article,5,True,borderline,4,stub abstract (possible book review) | manual: urban informality anthology (review),include
 W4381337418,A3,recent,A3_recent_q2,15,A Sexualities Turn Towards Urban Informality,2023,article,0,True,include,5,rules,include
 W4391547069,A3,recent,A3_recent_q2,16,Urban Informality: Sponsored or Agentive Materialization?,2024,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W7211959503,A3,recent,A3_recent_q2,17,Framing Climate Extremes and Urban Informality,2026,book-chapter,0,True,include,6,rules,include
@@ -764,7 +764,7 @@ W7138948124,A3,recent,A3_recent_q3,10,Comparative Study of Social Housing Policy
 W4407884376,A3,recent,A3_recent_q3,11,From Public Housing to Social Housing,2025,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W7203911973,A3,recent,A3_recent_q3,12,Affordable Housing Policy as a Component of the European Integration Process,2026,article,0,True,include,6,rules,include
 W4385187994,A3,recent,A3_recent_q3,13,Changing Social Housing Policy in the Context of Neoliberalism,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W4296556839,A3,recent,A3_recent_q3,14,The Restructuring of Affordable Housing Policy in England : Policy Directions and Characteristics,2022,article,0,True,borderline,5,stub abstract (possible book review),pending
+W4296556839,A3,recent,A3_recent_q3,14,The Restructuring of Affordable Housing Policy in England : Policy Directions and Characteristics,2022,article,0,True,borderline,5,stub abstract (possible book review) | manual: affordable housing policy in England,include
 W4390671481,A3,recent,A3_recent_q3,15,Legal politics of public housing savings for citizens’ decent and affordable housing,2024,article,2,True,include,6,rules,include
 W7154130684,A3,recent,A3_recent_q3,16,Affordable housing policy: implications and prospects for low-income communities in Indonesia,2025,article,0,True,include,6,rules,include
 W7168341973,A3,recent,A3_recent_q3,17,Pradhan Mantri Awas Yojana: A Study of Affordable Housing Policy in India,2026,article,0,True,include,6,rules,include
@@ -782,7 +782,7 @@ W7170276920,A3,recent,A3_recent_q4,10,"The financialisation of slum redevelopmen
 W2920888380,A3,recent,A3_recent_q4,11,Slum Upgrading and Long-Run Urban Development: Evidence from Indonesia,2025,article,35,True,include,6,rules,include
 W4307903611,A3,recent,A3_recent_q4,12,"Diversity, justice and slum upgrading: An intersectional approach to urban development",2022,article,50,True,include,6,rules,include
 W4210765331,A3,recent,A3_recent_q4,13,"Dispossession without displacement: Producing property through slum redevelopment in Bengaluru, India",2022,article,19,True,include,6,rules,include
-W7214883152,A3,recent,A3_recent_q4,14,Secure tenure behind slum upgrading and informal settlements,2024,dissertation,0,True,borderline,3,stub abstract (possible book review),pending
+W7214883152,A3,recent,A3_recent_q4,14,Secure tenure behind slum upgrading and informal settlements,2024,dissertation,0,True,borderline,3,stub abstract (possible book review) | manual: secure tenure and slum upgrading,include
 W4283212945,A3,recent,A3_recent_q4,15,Adaptive Co-Design for Self-Help Housing in Durban,2022,conference-paper,2,False,include,3,no abstract; core (and context) in title,include
 W4285407513,A3,recent,A3_recent_q4,16,Reconsidering Sites and Services,2022,book,0,True,include,6,rules,include
 W7216113744,A3,recent,A3_recent_q4,17,Urban Slum Upgrading and SDG 1 Challenges and Solutions,2025,article,0,True,include,6,rules,include

@@ -285,3 +285,45 @@ W2159893857,A2,exclude,"Claude (manual review, Stage 2)",waste siting and race; 
 W2121605199,A2,exclude,"Claude (manual review, Stage 2)",flood risk adaptation
 W2055616671,A2,exclude,"Claude (manual review, Stage 2)",urban economics of sprawl
 W4416126708,A2,include,"Claude (manual review, Stage 2)",effectiveness of the Varanasi master plan
+W2464646353,A3,include,"Claude (manual review, Stage 2)",informal settlements and slums in Chennai and Mumbai (talk record)
+W4318323145,A3,exclude,"Claude (manual review, Stage 2)",schooling drop-out; slum only as setting
+W4403718677,A3,exclude,"Claude (manual review, Stage 2)",public-health review
+W3102376298,A3,exclude,"Claude (manual review, Stage 2)",seroprevalence study
+W1626483305,A3,exclude,"Claude (manual review, Stage 2)",mortality study
+W7128675083,A3,exclude,"Claude (manual review, Stage 2)",child lung health (Gurugram) - biomedical
+W2762405724,A3,exclude,"Claude (manual review, Stage 2)",megacity sustainability overview
+W2147920244,A3,include,"Claude (manual review, Stage 2)",Moving to Opportunity: public housing and vouchers
+W2003845384,A3,exclude,"Claude (manual review, Stage 2)",public management book
+W2162166102,A3,exclude,"Claude (manual review, Stage 2)",housing and health (public health)
+W2110043944,A3,include,"Claude (manual review, Stage 2)",Appadurai on slum-dweller mobilisation in Mumbai
+W2054097442,A3,exclude,"Claude (manual review, Stage 2)",photography history
+W2134915282,A3,exclude,"Claude (manual review, Stage 2)",compact city and equity
+W4234153941,A3,include,"Claude (manual review, Stage 2)","housing policy, race and predatory inclusion"
+W2889490278,A3,include,"Claude (manual review, Stage 2)",state-imposed residential segregation via housing policy
+W2160086877,A3,include,"Claude (manual review, Stage 2)",city as assemblage; dwelling and slum housing in Mumbai/Sao Paulo
+W2895844696,A3,exclude,"Claude (manual review, Stage 2)",VR empathy experiment
+W1593374631,A3,exclude,"Claude (manual review, Stage 2)",family and kinship study
+W3027726878,A3,exclude,"Claude (manual review, Stage 2)",heavy metals
+W93116725,A3,exclude,"Claude (manual review, Stage 2)",public housing common spaces and social ties (A9 more than A3)
+W2164200301,A3,exclude,"Claude (manual review, Stage 2)",roscas economics
+W4238054955,A3,include,"Claude (manual review, Stage 2)",informal settlements and lively infrastructure (Belo Horizonte)
+W1499218775,A3,exclude,"Claude (manual review, Stage 2)",welfare managerialism
+W3020814017,A3,exclude,"Claude (manual review, Stage 2)",COVID health in slums (public-health commentary)
+W2111170412,A3,exclude,"Claude (manual review, Stage 2)",breastfeeding study
+W2128653300,A3,exclude,"Claude (manual review, Stage 2)",urban redevelopment and neoliberalism (A13)
+W2896936987,A3,exclude,"Claude (manual review, Stage 2)",social mobility atlas
+W2071185162,A3,exclude,"Claude (manual review, Stage 2)",crime prevention
+W2000582510,A3,exclude,"Claude (manual review, Stage 2)",path dependency
+W2895170101,A3,exclude,"Claude (manual review, Stage 2)",UN-Habitat state of cities (generic)
+W1535661197,A3,exclude,"Claude (manual review, Stage 2)",American landscape polemic
+W2263905439,A3,exclude,"Claude (manual review, Stage 2)",community organising
+W1567772780,A3,exclude,"Claude (manual review, Stage 2)",Orwell
+W2009974606,A3,exclude,"Claude (manual review, Stage 2)",leptospirosis
+W2093610179,A3,include,"Claude (manual review, Stage 2)",evictions and slum clearance in Delhi (A4 also)
+W2164821079,A3,exclude,"Claude (manual review, Stage 2)",race and landscape
+W7214883152,A3,include,"Claude (manual review, Stage 2)",secure tenure and slum upgrading
+W4308456716,A3,include,"Claude (manual review, Stage 2)",housing insecurity scale for slums (flag false positive)
+W4416082497,A3,include,"Claude (manual review, Stage 2)",urban informality introduction
+W7125515420,A3,include,"Claude (manual review, Stage 2)",urban informality and narrative
+W4292836184,A3,include,"Claude (manual review, Stage 2)",urban informality anthology (review)
+W4296556839,A3,include,"Claude (manual review, Stage 2)",affordable housing policy in England
