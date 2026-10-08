@@ -2,7 +2,58 @@
 
 Read BRIEF.md first. This file says what is done, what is next, and what went wrong.
 
-## Current stage: Stage 2b in progress (Stage 2 approved 2026-10-08)
+## Current stage: Stage 3 in progress (Stage 2b done; India page 2 and population counts run after the OpenAlex reset)
+
+### Stage 3 log (2026-10-08, from cached data; no searches — credits at the 800 reserve)
+- **Rule for claims.** Gap, growth and mismatch claims rest only on OpenAlex-wide population
+  counts (Growth-tab filters, precision-adjusted); the map's records are examples only. The
+  brief's "Gap matrix" tab is renamed **Sample coverage** (Read me explains: the sample's region
+  and period mix is set by the India and recent slices).
+- **Population counts** (`scripts/population_counts.py`, place terms in `scripts/region_terms.py`):
+  global and South Asia, all venues, are in (Stage 2 growth counts). Still to fetch (635 calls,
+  ≈6,350 credits): core-venue versions, India (per year), Delhi/NCR, Haryana and six other
+  regions (2010–26, split by core), the Social Sciences baselines for each scope, and a 40-work
+  precision sample of each theme's South Asia hit set. Table: `data/processed/population_counts.csv`;
+  derived metrics `data/processed/theme_metrics.csv`.
+- **Growth / saturation / mismatch** (all venues): 21 fast-growing themes (share ×3 or new), all
+  B or C; saturating (≤ ×1.3, ≥ 2,000 adjusted works): A3, A11, A13; flat and small: C3 (the only
+  theme whose share fell), A15. Fast globally and ≤ 5% South Asia share: B14, C13, B2, C9, B9.
+- **Emerging terms** (`scripts/emerging_terms.py`): ranked by change in share of each period's
+  records (2018–21 vs 2022–26), checked OpenAlex-wide (keyword share of Social Sciences works);
+  confirmed terms first. Emerging flag and FWCI-based examples limited to 2022–24 works (2025–26
+  citations too young).
+- **Methods**: shares among records with a known method, with n (`data/processed/method_shares.csv`);
+  known for 4,567 of 7,220 theme records; only C18 (n = 39) is below 50 → no method claim.
+- **Landmark check**: the 12 most-cited landmark records of each theme read by hand; 38 clearly
+  off-topic works excluded (42 work–theme decisions, reviewer "landmark check, Stage 3", in
+  `data/screening/manual_review.csv`). Records 7,625 → 7,587. Recall re-run from cache:
+  unchanged (found 51, below cut-off 100, query gap 12, screened out 2, not in OpenAlex 10).
+- **Candidate gaps** (`data/analysis/candidate_gaps.yaml` → `data/processed/candidate_gaps.csv`):
+  25 = 7 global, 7 South Asia, 5 India and 3 Delhi/Haryana (provisional until their counts are
+  in), 3 methodological. Every India/Delhi/Haryana gap carries the Coverage-limits caveat and
+  "check EPW and Shodhganga by hand before relying on this".
+- **Report draft**: `outputs/REPORT.md`, rendered by `scripts/stage3_analysis.py` from
+  `scripts/report_template.md` (≈5,100 words outside tables; §9 shortlist leads pending).
+- **Spreadsheet**: tabs Read me · Records · Sample coverage (with known-method shares and n) ·
+  Growth (population counts, all/core, all scopes) · Emerging terms · Candidate gaps · Methods ·
+  Coverage limits · Landmarks by theme · India subset · Shortlist.
+- **Exports**: `outputs/bibliography.bib` and `outputs/bibliography.ris` (`scripts/export_bib.py`;
+  record ID, themes and flags as Zotero tags).
+- **Fetcher**: the credit reserve now holds across processes (reads today's last logged
+  remaining credits); `OPENALEX_OFFLINE=1` forces cache-only rebuilds.
+- Rebuild everything from cache: `sh scripts/stage3_build.sh "message"`.
+
+### Stage 3, after the OpenAlex reset (scheduled check-in, 2026-10-09 00:15 UTC)
+1. India page 2 for 48 themes + S1–S7: `python3 scripts/run_search.py T india_p2` (207 searches,
+   ≈2,070 credits).
+2. Population counts: `python3 scripts/population_counts.py fetch` (≈6,350 credits; resumable;
+   pauses at the 800 reserve — if it pauses, finish at the next reset).
+3. Review new borderline records (each theme < 25%), re-run the recall test, regenerate all
+   record-dependent tables (`sh scripts/stage3_build.sh`), report all-venue and core-only counts.
+4. Revise the provisional India/Delhi/Haryana gaps against their counts; write §9 (shortlist
+   leads S1–S7: India and Haryana works by method and venue type, strongest qualitative works,
+   what is missing); trim the report to ≈5,000 words.
+5. Merge into `literature-map`, push, final summary.
 
 ### Stage 2b log
 - Keep all records (no trimming).
@@ -222,49 +273,49 @@ Found seeds by the map's primary theme: A3 2, A4 1, A5 4, A6 5, A8 5, A9 1, A13 
 | A2 | Planning, master plans & land-use regulation | 239 | 165 | 11 (5%) | 3 / 8 | 161 | 243 |
 | A3 | Housing, informality & slums | 265 | 171 | 43 (16%) | 17 / 26 | 175 | 171 |
 | A4 | Eviction, resettlement & displacement | 219 | 165 | 16 (7%) | 8 / 8 | 165 | 158 |
-| A5 | Land, peri-urban & extended urbanisation | 277 | 162 | 21 (8%) | 10 / 11 | 169 | 166 |
-| A6 | Small towns, census towns & secondary cities | 364 | 150 | 23 (6%) | 11 / 12 | 157 | 205 |
-| A7 | Urban infrastructure (water, sanitation, ener | 242 | 154 | 21 (9%) | 9 / 12 | 160 | 185 |
+| A5 | Land, peri-urban & extended urbanisation | 277 | 162 | 21 (8%) | 10 / 11 | 167 | 164 |
+| A6 | Small towns, census towns & secondary cities | 364 | 150 | 23 (6%) | 11 / 12 | 156 | 204 |
+| A7 | Urban infrastructure (water, sanitation, ener | 242 | 154 | 21 (9%) | 9 / 12 | 158 | 183 |
 | A8 | Mobility & transport (social science) | 274 | 196 | 21 (8%) | 7 / 14 | 199 | 274 |
 | A9 | Public space, publicness & the street | 287 | 188 | 36 (12%) | 21 / 15 | 212 | 211 |
-| A10 | Urban economy, informal work & street vending | 228 | 152 | 24 (10%) | 11 / 13 | 166 | 163 |
+| A10 | Urban economy, informal work & street vending | 228 | 152 | 24 (10%) | 11 / 13 | 165 | 162 |
 | A11 | Migration & the city | 236 | 173 | 19 (8%) | 8 / 11 | 169 | 165 |
-| A12 | Gender, caste, class & the city | 233 | 160 | 21 (9%) | 11 / 10 | 169 | 164 |
+| A12 | Gender, caste, class & the city | 233 | 160 | 21 (9%) | 11 / 10 | 167 | 162 |
 | A13 | Heritage, mega-events & "world-class" city ma | 246 | 176 | 21 (8%) | 11 / 10 | 184 | 182 |
-| A14 | Urban environment, climate & risk | 246 | 193 | 29 (12%) | 10 / 19 | 192 | 190 |
+| A14 | Urban environment, climate & risk | 246 | 193 | 29 (12%) | 10 / 19 | 190 | 188 |
 | A15 | Urban & planning theory, Southern urbanism | 233 | 144 | 39 (17%) | 24 / 15 | 159 | 155 |
-| A16 | Night-time city & urban time | 241 | 121 | 29 (12%) | 17 / 12 | 134 | 211 |
+| A16 | Night-time city & urban time | 241 | 121 | 29 (12%) | 17 / 12 | 131 | 208 |
 | B1 | Platforms & platform capitalism | 239 | 177 | 33 (14%) | 16 / 17 | 186 | 167 |
 | B2 | Datafication, data justice & data colonialism | 240 | 149 | 36 (15%) | 19 / 17 | 162 | 158 |
-| B3 | Surveillance studies | 229 | 152 | 30 (13%) | 11 / 19 | 156 | 147 |
+| B3 | Surveillance studies | 229 | 152 | 30 (13%) | 11 / 19 | 155 | 146 |
 | B4 | Algorithmic governance & AI in the public sec | 240 | 200 | 13 (5%) | 4 / 9 | 184 | 184 |
-| B5 | Digital identity & digital public infrastruct | 298 | 203 | 50 (17%) | 16 / 34 | 203 | 199 |
+| B5 | Digital identity & digital public infrastruct | 298 | 203 | 50 (17%) | 16 / 34 | 201 | 197 |
 | B6 | Digital finance & payments | 217 | 181 | 13 (6%) | 8 / 5 | 187 | 187 |
 | B7 | Digital divides & digital inclusion | 236 | 183 | 26 (11%) | 15 / 11 | 181 | 177 |
 | B8 | Social media, digital publics & political com | 272 | 217 | 22 (8%) | 16 / 6 | 220 | 217 |
 | B9 | Misinformation & extreme speech | 238 | 159 | 44 (18%) | 29 / 15 | 180 | 179 |
-| B10 | Cybercrime, fraud & cybersecurity (social sci | 240 | 172 | 24 (10%) | 10 / 14 | 173 | 173 |
+| B10 | Cybercrime, fraud & cybersecurity (social sci | 240 | 172 | 24 (10%) | 10 / 14 | 170 | 170 |
 | B11 | Digital labour | 238 | 203 | 12 (5%) | 8 / 4 | 204 | 196 |
 | B12 | Infrastructure studies & STS of digital syste | 239 | 138 | 39 (16%) | 16 / 23 | 149 | 146 |
-| B13 | Mobile phones & everyday digital life | 269 | 153 | 28 (10%) | 7 / 21 | 154 | 151 |
+| B13 | Mobile phones & everyday digital life | 269 | 153 | 28 (10%) | 7 / 21 | 153 | 150 |
 | B14 | Generative AI & society | 237 | 146 | 26 (11%) | 9 / 17 | 153 | 153 |
 | C1 | Smart cities & smart urbanism | 219 | 187 | 15 (7%) | 3 / 12 | 199 | 194 |
 | C2 | Platform urbanism | 246 | 191 | 21 (8%) | 12 / 9 | 195 | 181 |
 | C3 | Digital geographies & code/space | 199 | 81 | 22 (11%) | 10 / 12 | 91 | 88 |
-| C4 | Urban informatics & urban computing | 227 | 126 | 20 (9%) | 9 / 11 | 132 | 123 |
-| C5 | Urban data governance & data justice in citie | 230 | 117 | 44 (19%) | 11 / 33 | 125 | 115 |
-| C6 | Urban surveillance, policing & biometrics in  | 240 | 104 | 37 (15%) | 12 / 25 | 115 | 112 |
-| C7 | Algorithmic & automated urban governance, mun | 226 | 123 | 33 (15%) | 6 / 27 | 127 | 120 |
+| C4 | Urban informatics & urban computing | 227 | 126 | 20 (9%) | 9 / 11 | 130 | 121 |
+| C5 | Urban data governance & data justice in citie | 230 | 117 | 44 (19%) | 11 / 33 | 124 | 114 |
+| C6 | Urban surveillance, policing & biometrics in  | 240 | 104 | 37 (15%) | 12 / 25 | 113 | 110 |
+| C7 | Algorithmic & automated urban governance, mun | 226 | 123 | 33 (15%) | 6 / 27 | 125 | 118 |
 | C8 | City-level DPI & urban e-government | 217 | 114 | 31 (14%) | 13 / 18 | 129 | 121 |
-| C9 | Digital mobility (ride-hailing, MaaS, digital | 227 | 126 | 19 (8%) | 6 / 13 | 116 | 151 |
+| C9 | Digital mobility (ride-hailing, MaaS, digital | 227 | 126 | 19 (8%) | 6 / 13 | 115 | 150 |
 | C10 | Proptech, housing platforms & short-term rent | 226 | 144 | 34 (15%) | 7 / 27 | 146 | 144 |
-| C11 | Digital payments in urban economies (QR, UPI, | 218 | 110 | 13 (6%) | 3 / 10 | 108 | 100 |
+| C11 | Digital payments in urban economies (QR, UPI, | 218 | 110 | 13 (6%) | 3 / 10 | 106 | 98 |
 | C12 | Civic tech, e-participation & digital urban p | 239 | 87 | 28 (12%) | 13 / 15 | 98 | 92 |
-| C13 | Digital twins, simulation & visual rendering  | 228 | 151 | 18 (8%) | 7 / 11 | 157 | 153 |
-| C14 | Digital informality (informal settlements, ve | 191 | 113 | 29 (15%) | 9 / 20 | 108 | 97 |
+| C13 | Digital twins, simulation & visual rendering  | 228 | 151 | 18 (8%) | 7 / 11 | 156 | 152 |
+| C14 | Digital informality (informal settlements, ve | 191 | 113 | 29 (15%) | 9 / 20 | 105 | 94 |
 | C15 | Gig work in the city (urban and spatial focus | 222 | 108 | 10 (4%) | 7 / 3 | 107 | 85 |
 | C16 | Digital heritage, mapping & representation of | 213 | 120 | 49 (23%) | 15 / 34 | 128 | 126 |
-| C17 | Urban cybersecurity & cyber-physical infrastr | 228 | 110 | 40 (18%) | 13 / 27 | 123 | 118 |
+| C17 | Urban cybersecurity & cyber-physical infrastr | 228 | 110 | 40 (18%) | 13 / 27 | 119 | 114 |
 | C18 | Neighbourhood platforms & digital public spac | 217 | 56 | 30 (14%) | 6 / 24 | 59 | 58 |
 | S1 | Railway stations | 126 | 75 | 11 (9%) | 4 / 7 | 79 | 0 |
 | S2 | Waiting and waiting rooms | 127 | 30 | 11 (9%) | 5 / 6 | 32 | 0 |
@@ -274,7 +325,7 @@ Found seeds by the map's primary theme: A3 2, A4 1, A5 4, A6 5, A8 5, A9 1, A13 
 | S6 | Elevated rail and infrastructure undersides | 118 | 32 | 3 (2%) | 3 / 0 | 34 | 0 |
 | S7 | Haryana secondary cities (excluding Gurugram  | 109 | 44 | 2 (2%) | 1 / 1 | 50 | 0 |
 
-Total deduplicated records: 7625.
+Total deduplicated records: 7587.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)

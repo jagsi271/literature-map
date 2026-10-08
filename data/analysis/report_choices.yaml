@@ -1,0 +1,37 @@
+# Hand choices for the report's landmark table (outputs/REPORT.md). The table lists each theme's
+# most-cited landmark-slice records; the works below stay in the bibliography (and in the
+# Landmarks tab) but are passed over in the report table, for the reason given.
+landmark_skip:
+  W4395010520: implausible citation count for a 2024 paper in a low-indexed venue
+  W2047328724: IPCC assessment report, not urban-specific
+  W2159401107: supermarket diffusion, not about small towns as such
+  W586102567: forced-migration handbook, not urban-specific
+  W2923879367: waste-management review, not about informal work as such
+  W1495304277: poverty-line methods, not about the city
+  W2120835749: record metadata unreliable (year 1946, author not Whyte)
+  W2147406638: environmental indicator, not planning as such
+  W2097698267: landslide-hazard zoning guidelines, engineering
+  W1977271773: environmental psychology, not peri-urban land as such
+  W1971197688: ecology of exurban development
+  W89782422: cartography and nation, not digital identity
+  W4294351233: AI in general, not municipal
+  W2621121878: air-pollution sensing, not mapping or representation of cities as such
+  W3013120860: construction (building) digital twin
+  W4220831070: generic digital-twin review
+
+# Field map: each urban × digital (C) theme next to its nearest digital-society (B) and urban (A)
+# themes, to show how large the intersection is relative to its parents (population counts).
+parents:
+  C2: [B1, A10]
+  C5: [B2, A1]
+  C6: [B3, A9]
+  C7: [B4, A1]
+  C8: [B5, A1]
+  C9: [B13, A8]
+  C10: [B1, A3]
+  C11: [B6, A10]
+  C12: [B8, A1]
+  C14: [B7, A3]
+  C15: [B11, A10]
+  C17: [B10, A7]
+  C18: [B8, A9]

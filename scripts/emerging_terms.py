@@ -29,7 +29,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from fetcher import Fetcher, load_work  # noqa: E402
+from fetcher import BudgetPaused, Fetcher, load_work  # noqa: E402
 from growth_counts import BASE  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -116,12 +116,17 @@ def main():
         if not r["keyword_id"]:
             continue
         flt = f"{BASE},publication_year:2018-2026,primary_topic.domain.id:2"
-        resp = f.openalex_list({"filter": f"{flt},keywords.id:{r['keyword_id']}",
-                                "group_by": "publication_year"}, f"emerging_kw_{r['keyword_id']}")
-        if pb is None:
-            pb = f.openalex_list({"filter": flt, "group_by": "publication_year"},
-                                 "emerging_kw_baseline")
-            pb = {int(g["key"]): g["count"] for g in pb["group_by"] if str(g["key"]).isdigit()}
+        try:
+            resp = f.openalex_list({"filter": f"{flt},keywords.id:{r['keyword_id']}",
+                                    "group_by": "publication_year"},
+                                   f"emerging_kw_{r['keyword_id']}")
+            if pb is None:
+                pb = f.openalex_list({"filter": flt, "group_by": "publication_year"},
+                                     "emerging_kw_baseline")
+                pb = {int(g["key"]): g["count"] for g in pb["group_by"] if str(g["key"]).isdigit()}
+        except BudgetPaused as e:   # left unchecked until the budget allows (cheap list calls)
+            print(f"  OpenAlex-wide check skipped for {r['term']}: {e}")
+            continue
         by = {int(g["key"]): g["count"] for g in resp["group_by"] if str(g["key"]).isdigit()}
         e = sum(by.get(y, 0) for y in EARLY) / sum(pb.get(y, 0) for y in EARLY)
         l_ = sum(by.get(y, 0) for y in LATE) / sum(pb.get(y, 0) for y in LATE)

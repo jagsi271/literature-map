@@ -1,0 +1,379 @@
+# Candidate gaps (BRIEF §5.5). Each gap is a lead to check, not a proof.
+# Evidence comes from OpenAlex-wide population counts (data/processed/population_counts.csv:
+# journal articles and book chapters, theme query on title + abstract, precision-adjusted as in
+# the Growth tab); 'all' = all venues, 'core' = core venues only (source is_core). Records from
+# the map are examples only. Placeholders are filled by scripts/stage3_analysis.py; 'pending'
+# marks counts fetched after the OpenAlex budget resets. 'status: provisional' marks gaps whose
+# deciding counts are still pending.
+# examples: themes (primary/secondary/supplementary home theme), filter (any|sa|india|delhi|
+# haryana|gn), optional regex on title + summary, method, sort (cites|recent), pin (OpenAlex IDs).
+
+# ------------------------------------------------------------------ global
+- id: G1
+  scope: global
+  themes: [C18]
+  title: Neighbourhood platforms and resident groups as digital public space
+  evidence: >
+    About {{v:C18.global_all_2020-26_adj}} works in 2020–26 worldwide (all venues; raw
+    {{v:C18.global_all_2020-26_raw}} hits × estimated precision {{v:C18.p}}); core venues
+    {{v:C18.global_core_2020-26_adj}}. For comparison, B8 social media and digital publics:
+    {{v:B8.global_all_2020-26_adj}} (core {{v:B8.global_core_2020-26_adj}}).
+  examples: {themes: [C18]}
+  missing: >
+    Neighbourhood WhatsApp/Telegram groups, resident-welfare-association groups and
+    Nextdoor-type platforms as infrastructures of local governance and exclusion, especially
+    outside the US and UK; most existing work is on hyperlocal journalism.
+  caveat: >
+    Precision is very low (4 of 40 sampled hits in scope), so the count is uncertain; such
+    groups also go by names the queries miss.
+- id: G2
+  scope: global
+  themes: [C7]
+  title: AI and generative AI inside city governments
+  evidence: >
+    Municipal/urban AI (C7): {{v:C7.global_all_2020-26_adj}} works in 2020–26 (core
+    {{v:C7.global_core_2020-26_adj}}), against {{v:B4.global_all_2020-26_adj}} for algorithmic
+    governance and public-sector AI in general (B4) and {{v:B14.global_all_2020-26_adj}} for
+    generative AI and society (B14). C7 grew ×{{v:C7.global_all_growth}} in normalised share
+    from 2015–19, but from a very small base.
+  examples: {themes: [C7], regex: "city|cities|urban|municipal|local government"}
+  missing: >
+    Empirical studies of AI and GenAI systems that city governments actually run (procurement,
+    frontline use, effects on residents), rather than frameworks, reviews and visions.
+  caveat: >
+    City deployments are often called 'smart city analytics' or 'decision support' and may sit
+    under C1 or C4.
+- id: G3
+  scope: global
+  themes: [C17]
+  title: Social science of urban cybersecurity and cyber-physical infrastructure
+  evidence: >
+    C17: {{v:C17.global_all_2020-26_adj}} works in 2020–26 (core
+    {{v:C17.global_core_2020-26_adj}}; precision {{v:C17.p}}), against
+    {{v:B10.global_all_2020-26_adj}} for cybercrime and cybersecurity in general (B10).
+  examples: {themes: [C17], regex: "city|cities|urban|municipal"}
+  missing: >
+    Governance and political-economy studies of attacks on city systems (municipal ransomware,
+    control-room and utility security, who bears the costs), rather than engineering designs.
+  caveat: >
+    Engineering dominates the hit set; social-science work may say 'resilience' or 'critical
+    infrastructure' instead of 'cyber'.
+- id: G4
+  scope: global
+  themes: [C5]
+  title: How city governments govern data
+  evidence: >
+    C5 urban data governance and data justice: {{v:C5.global_all_2020-26_adj}} works in 2020–26
+    (core {{v:C5.global_core_2020-26_adj}}), against {{v:B2.global_all_2020-26_adj}} on
+    datafication and data justice in general (B2) and {{v:C1.global_all_2020-26_adj}} on smart
+    cities (C1).
+  examples: {themes: [C5], regex: "govern|justice|privacy|sovereign|trust|steward|rights"}
+  missing: >
+    Municipal data practice (data-sharing agreements, city data officers, data trusts, vendor
+    lock-in) and data-justice claims at city scale, especially outside Europe and North
+    America.
+  caveat: >
+    Overlaps smart-city governance (C1); open-data portal studies dominate the matches.
+- id: G5
+  scope: global
+  themes: [A16]
+  title: The night-time city beyond the night-time economy
+  evidence: >
+    A16: {{v:A16.global_all_2020-26_adj}} works in 2020–26 (core
+    {{v:A16.global_core_2020-26_adj}}), {{v:A16.global_all_2020-26_per10k}} per 10,000 social
+    science works; normalised growth ×{{v:A16.global_all_growth}} from 2015–19,
+    {{rank:A16.global_all_growth:dom}}.
+  examples: {themes: [A16], regex: "night"}
+  missing: >
+    Night as a dimension of urban governance beyond leisure and alcohol: night work, night-time
+    services and mobility, access and safety at night, operating hours.
+  caveat: >
+    The vocabulary of night and urban time is scattered; adjacent work may be missed.
+- id: G6
+  scope: global
+  themes: [A6]
+  title: Small towns and secondary cities outside metropolitan research
+  evidence: >
+    A6: {{v:A6.global_all_2020-26_adj}} works in 2020–26 (core {{v:A6.global_core_2020-26_adj}}),
+    {{v:A6.global_all_2020-26_per10k}} per 10,000 social science works, against
+    {{v:A5.global_all_2020-26_per10k}} for peri-urban and extended urbanisation (A5) and
+    {{v:A3.global_all_2020-26_per10k}} for housing and informality (A3).
+  examples: {themes: [A6]}
+  missing: >
+    Governance, services, economy and digital change in small and secondary cities studied in
+    their own right, not as a backdrop to metropolitan or rural questions.
+  caveat: >
+    Studies of named small cities often avoid the generic terms the queries use, so counts
+    understate the field.
+- id: G7
+  scope: global
+  themes: [C12]
+  title: City-level civic tech after the pilot stage
+  evidence: >
+    C12: {{v:C12.global_all_2020-26_adj}} works in 2020–26 (core {{v:C12.global_core_2020-26_adj}};
+    precision {{v:C12.p}}), against {{v:C1.global_all_2020-26_adj}} on smart cities (C1).
+  examples: {themes: [C12]}
+  missing: >
+    Longitudinal studies of civic-tech and e-participation platforms after launch (uptake, who
+    participates, effects on decisions), and of grievance apps in Global South cities.
+  caveat: >
+    National e-participation studies fall outside this urban theme.
+- id: S1
+  scope: south_asia
+  themes: [B14]
+  title: Generative AI and society in South Asia
+  evidence: >
+    South Asian places are named in {{v:B14.sa_share_all_2020-26}} of B14 works in 2020–26
+    (all venues; {{v:B14.sa_all_2020-26_adj}} works), against {{v:SS.sa_share_all_2020-26}} for
+    all social science works (location quotient {{v:B14.lq_sa_all_2020-26}},
+    {{rank:B14.lq_sa_all_2020-26:dom}}); core venues: {{v:B14.sa_share_core_2020-26}}. Globally B14 is new since 2022
+    ({{v:B14.global_all_2020-26_adj}} works).
+  examples: {themes: [B14], filter: sa}
+  missing: >
+    Social-science studies of GenAI use and governance in South Asian workplaces, public
+    services and languages, beyond adoption surveys in higher education.
+  caveat: >
+    GenAI papers rarely name a place, lowering every region's share; the region counts will
+    show whether South Asia is also low relative to other regions.
+- id: S2
+  scope: south_asia
+  themes: [C13]
+  title: Digital twins and 3D city models in South Asian cities
+  evidence: >
+    {{v:C13.sa_all_2020-26_adj}} South Asia works in 2020–26 ({{v:C13.sa_share_all_2020-26}} of
+    C13; location quotient {{v:C13.lq_sa_all_2020-26}}; core {{v:C13.sa_share_core_2020-26}}),
+    while C13 grew ×{{v:C13.global_all_growth}} worldwide.
+  examples: {themes: [C13], filter: sa}
+  missing: >
+    Digital twins and 3D city models in South Asian smart-city programmes: whose data, which
+    vendors, how models enter planning, who is left out.
+  caveat: >
+    Remote-sensing and GIS work on South Asian cities is large but sits outside C13 unless it
+    uses twin or 3D-model vocabulary.
+- id: S3
+  scope: south_asia
+  themes: [C10]
+  title: Proptech, rental platforms and short-term rentals in South Asia
+  evidence: >
+    {{v:C10.sa_all_2020-26_adj}} South Asia works in 2020–26 ({{v:C10.sa_share_all_2020-26}} of
+    C10, location quotient {{v:C10.lq_sa_all_2020-26}}, {{rank:C10.lq_sa_all_2020-26:all}}; core
+    {{v:C10.sa_share_core_2020-26}}).
+  examples: {themes: [C10], filter: sa}
+  missing: >
+    Rental and housing platforms, broker apps and short-term rentals in South Asian cities and
+    their effects on rents, informal tenancy and regulation.
+  caveat: >
+    C10 is dominated by Airbnb studies; South Asian platforms may be studied as marketing or
+    tourism.
+- id: S4
+  scope: south_asia
+  themes: [C9]
+  title: Digital mobility in South Asian cities
+  evidence: >
+    {{v:C9.sa_all_2020-26_adj}} South Asia works in 2020–26 ({{v:C9.sa_share_all_2020-26}} of C9,
+    location quotient {{v:C9.lq_sa_all_2020-26}}, against {{v:A8.lq_sa_all_2020-26}} for mobility
+    and transport in general, A8; core {{v:C9.sa_share_core_2020-26}}), while C9 grew
+    ×{{v:C9.global_all_growth}} worldwide.
+  examples: {themes: [C9], filter: sa}
+  missing: >
+    Ride-hailing, app-based paratransit, digital ticketing and transit apps in South Asian
+    cities: access, gender, informal operators, fares and data.
+  caveat: >
+    Engineering studies are excluded by design; some social-science work sits in A8 or C15.
+- id: S5
+  scope: south_asia
+  themes: [B2, B5]
+  title: Datafication and data justice beyond identity and payments in South Asia
+  evidence: >
+    B2 datafication and data justice: South Asia share {{v:B2.sa_share_all_2020-26}} in 2020–26
+    (location quotient {{v:B2.lq_sa_all_2020-26}}; {{v:B2.sa_all_2020-26_adj}} works), against
+    {{v:B5.sa_share_all_2020-26}} for digital identity and DPI (B5, quotient
+    {{v:B5.lq_sa_all_2020-26}}) and {{v:B6.sa_share_all_2020-26}} for digital finance (B6).
+  examples: {themes: [B2], filter: sa}
+  missing: >
+    Datafication beyond Aadhaar and UPI: welfare and police databases, municipal, health and
+    land records, and data-justice claims by affected groups.
+  caveat: >
+    Much South Asian datafication work is framed through identity and counted under B5.
+- id: S6
+  scope: south_asia
+  themes: [A9]
+  title: Public space and the street in South Asian cities
+  evidence: >
+    South Asia share of A9 works in 2020–26: {{v:A9.sa_share_all_2020-26}} (location quotient
+    {{v:A9.lq_sa_all_2020-26}}, {{rank:A9.lq_sa_all_2020-26:dom}}; {{v:A9.sa_all_2020-26_adj}}
+    works; core {{v:A9.sa_share_core_2020-26}}), against {{v:A10.sa_share_all_2020-26}} for urban
+    economy and street vending (A10).
+  examples: {themes: [A9], filter: sa, pin: [W2170388076, W3181114874, W2954324003]}
+  missing: >
+    Publicness, access and everyday use of streets, parks and squares in South Asian cities
+    (gender, caste and class in access; regulation; design).
+  caveat: >
+    South Asian street research often sits under vending (A10) or informality (A3), or uses
+    words such as 'footpath', 'bazaar' or 'maidan'.
+- id: S7
+  scope: south_asia
+  themes: [C16]
+  title: Digital mapping and representation of South Asian cities
+  evidence: >
+    {{v:C16.sa_all_2020-26_adj}} South Asia works in 2020–26 ({{v:C16.sa_share_all_2020-26}} of
+    C16, location quotient {{v:C16.lq_sa_all_2020-26}}; core {{v:C16.sa_share_core_2020-26}}).
+  examples: {themes: [C16], filter: sa, pin: [W2801804293, W2883545711, W7154597612]}
+  missing: >
+    How South Asian cities are digitally mapped and represented: map coverage of informal
+    settlements, digital heritage of historic cores, street-view imagery.
+  caveat: >
+    Technical mapping of South Asian cities appears in remote-sensing venues that the screening
+    excludes.
+- id: I1
+  scope: india
+  status: provisional until the India counts are in
+  themes: [C7]
+  title: AI and GenAI in Indian urban local bodies and city police
+  evidence: >
+    India-named C7 works in 2020–26: {{v:C7.india_all_2020-26_adj}} (core
+    {{v:C7.india_core_2020-26_adj}}; India share {{v:C7.india_share_all_2020-26}}); South Asia
+    {{v:C7.sa_all_2020-26_adj}} ({{v:C7.sa_share_all_2020-26}}).
+  examples: {themes: [C7, B4], filter: india, pin: [W4403479195, W4401037965, W4417106816]}
+  missing: >
+    AI and GenAI in Indian municipal corporations, smart-city companies and city police
+    (grievance chatbots, traffic and policing analytics): procurement, use, accountability,
+    effects.
+- id: I2
+  scope: india
+  status: provisional until the India counts are in
+  themes: [C6]
+  title: CCTV, facial recognition and command centres in Indian public space
+  evidence: >
+    India-named C6 works in 2020–26: {{v:C6.india_all_2020-26_adj}} (core
+    {{v:C6.india_core_2020-26_adj}}); South Asia {{v:C6.sa_all_2020-26_adj}}
+    ({{v:C6.sa_share_all_2020-26}} of C6). 'Facial recognition technology' is among the
+    fastest-rising terms in the map's records (see Emerging terms).
+  examples: {themes: [C6, B3], filter: india, pin: [W3002427919, W4281661177, W4412095183]}
+  missing: >
+    CCTV networks, facial recognition and command-and-control centres in Indian cities: how
+    police and municipalities use them, oversight, effects on public space.
+- id: I3
+  scope: india
+  status: provisional until the India counts are in
+  themes: [C5]
+  title: Municipal data governance in Indian cities
+  evidence: >
+    India-named C5 works in 2020–26: {{v:C5.india_all_2020-26_adj}} (core
+    {{v:C5.india_core_2020-26_adj}}); South Asia {{v:C5.sa_all_2020-26_adj}}
+    ({{v:C5.sa_share_all_2020-26}} of C5).
+  examples: {themes: [C5, C1], filter: india, regex: "data"}
+  missing: >
+    How Indian city governments and smart-city companies collect, share and govern data (data
+    policies and officers, command-centre data, vendor contracts), and city-level data-justice
+    claims.
+- id: I4
+  scope: india
+  status: provisional until the India counts are in
+  themes: [C17]
+  title: Cybersecurity of Indian city systems
+  evidence: >
+    India-named C17 works in 2020–26: {{v:C17.india_all_2020-26_adj}} (core
+    {{v:C17.india_core_2020-26_adj}}); South Asia {{v:C17.sa_all_2020-26_adj}}
+    ({{v:C17.sa_share_all_2020-26}} of C17).
+  examples: {themes: [C17, B10], filter: india, regex: "city|cities|urban|smart|infrastructure"}
+  missing: >
+    Cyber incidents affecting Indian urban services (utilities, transit, municipal systems,
+    command centres) and how cities govern that risk.
+- id: I5
+  scope: india
+  status: provisional until the India counts are in
+  themes: [A16]
+  title: The night-time city in India
+  evidence: >
+    India-named A16 works in 2020–26: {{v:A16.india_all_2020-26_adj}} (core
+    {{v:A16.india_core_2020-26_adj}}); South Asia {{v:A16.sa_all_2020-26_adj}}
+    ({{v:A16.sa_share_all_2020-26}} of A16).
+  examples: {themes: [A16], filter: india}
+  missing: >
+    Night-time work, services, mobility and access in Indian cities beyond women's safety:
+    operating hours, night shifts, night markets.
+- id: H1
+  scope: delhi_haryana
+  status: provisional until the Haryana counts are in
+  themes: [A6]
+  title: Haryana's secondary cities beyond Gurugram and Faridabad
+  evidence: >
+    Haryana-named A6 works 2010–26: {{v:A6.haryana_all_2010-26_adj}} (core
+    {{v:A6.haryana_core_2010-26_adj}}), against {{v:A6.delhi_all_2010-26_adj}} naming Delhi/NCR.
+  examples: {themes: [A6, A1, S7], filter: haryana, pin: [W4377028253, W7216046805, W659497186]}
+  missing: >
+    Governance, economy, infrastructure and digital change in Haryana's secondary cities
+    (Rohtak, Hisar, Panipat, Karnal, Sonipat, Ambala, Yamunanagar, Rewari and others); most
+    records found are remote-sensing studies of urban growth.
+- id: H2
+  scope: delhi_haryana
+  status: provisional until the Haryana counts are in
+  themes: [B5, C8]
+  title: Digital identity and e-government in Haryana
+  evidence: >
+    Haryana-named works 2010–26: B5 {{v:B5.haryana_all_2010-26_adj}} (core
+    {{v:B5.haryana_core_2010-26_adj}}), C8 {{v:C8.haryana_all_2010-26_adj}} (core
+    {{v:C8.haryana_core_2010-26_adj}}).
+  examples: {themes: [B5, C8, B4], filter: haryana}
+  missing: >
+    Haryana's state family-ID database and city-level e-government: how eligibility data are
+    produced and corrected, and how residents and officials work with them.
+- id: H3
+  scope: delhi_haryana
+  status: provisional until the Delhi counts are in
+  themes: [C9, A8]
+  title: Digital mobility in Delhi/NCR
+  evidence: >
+    Delhi/NCR-named works 2010–26: C9 {{v:C9.delhi_all_2010-26_adj}} (core
+    {{v:C9.delhi_core_2010-26_adj}}), against A8 mobility and transport
+    {{v:A8.delhi_all_2010-26_adj}} (core {{v:A8.delhi_core_2010-26_adj}}).
+  examples: {themes: [C9, A8, C15, C2], filter: delhi, pin: [W4386073403, W4307269039, W4415064905]}
+  missing: >
+    App-based and digitally ticketed mobility in Delhi/NCR (ride-hailing and app autos, metro
+    and bus digital ticketing) and how fares and apps shape who travels when.
+  caveat: >
+    Overlaps the shortlist leads; listed because of the counts, and to be dropped if the Delhi
+    counts do not support it.
+- id: M1
+  scope: method
+  themes: [C13]
+  title: Few qualitative studies of digital twins and city models in use
+  evidence: >
+    Among the {{v:C13.method_known_n}} C13 records with a known method, {{v:C13.method_qualitative_pct}}
+    are qualitative and {{v:C13.method_computational_pct}} computational (the map's records; the
+    method is inferred from abstracts).
+  examples: {themes: [C13], method: qualitative}
+  missing: >
+    Ethnographic and interview studies of how digital twins and city models are built, bought
+    and used in planning offices.
+  caveat: >
+    Method shares come from the map's records and are inferred from abstracts.
+- id: M2
+  scope: method
+  themes: [C7, B14]
+  title: Few field studies of municipal and generative AI in use
+  evidence: >
+    Qualitative records: C7 {{v:C7.method_qualitative_pct}} of {{v:C7.method_known_n}} with a known
+    method, B14 {{v:B14.method_qualitative_pct}} of {{v:B14.method_known_n}}; reviews make up
+    {{v:C7.method_review_pct}} and {{v:B14.method_review_pct}}.
+  examples: {themes: [C7, B14], method: qualitative}
+  missing: >
+    Field studies (observation, interviews, documents) of AI and GenAI inside public
+    organisations and cities, rather than reviews, frameworks and perception surveys.
+  caveat: >
+    Method shares come from the map's records and are inferred from abstracts; B14 is very
+    young.
+- id: M3
+  scope: method
+  themes: [B6, C11]
+  title: Digital payments studied mostly through adoption surveys
+  evidence: >
+    Qualitative records: B6 {{v:B6.method_qualitative_pct}} of {{v:B6.method_known_n}} with a known
+    method (quantitative {{v:B6.method_quantitative_pct}}); C11 {{v:C11.method_qualitative_pct}}
+    of {{v:C11.method_known_n}} (quantitative and mixed {{v:C11.method_quantitative_pct}} and
+    {{v:C11.method_mixed_pct}}).
+  examples: {themes: [B6, C11, C14], method: qualitative}
+  missing: >
+    Ethnographies of payment practice among urban vendors, workers and households: how QR and
+    UPI payments change credit, record-keeping, tax visibility and bargaining.

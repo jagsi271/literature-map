@@ -36,6 +36,22 @@ CA_BUNDLE = "/root/.ccr/ca-bundle.crt"
 RESERVE_CREDITS = int(os.environ.get("OPENALEX_RESERVE_CREDITS", "800"))
 
 
+def _remaining_today():
+    """Credits remaining as last logged today (UTC), so the reserve holds across processes;
+    None when nothing was logged since the daily reset."""
+    if not LEDGER.exists():
+        return None
+    last = None
+    with LEDGER.open() as f:
+        for row in csv.DictReader(f):
+            if row.get("credits_remaining"):
+                last = row
+    if not last:
+        return None
+    today = dt.datetime.now(dt.timezone.utc).date().isoformat()
+    return int(last["credits_remaining"]) if last["utc"].startswith(today) else None
+
+
 class BudgetPaused(RuntimeError):
     pass
 
@@ -83,7 +99,7 @@ class Fetcher:
         self._last = 0.0
         self.network_calls = 0
         self.cache_hits = 0
-        self.remaining = None
+        self.remaining = _remaining_today()
 
     def _wait(self):
         dt_ = time.monotonic() - self._last
@@ -119,6 +135,8 @@ class Fetcher:
                 params["api_key"] = _key()
             if os.environ.get("OPENALEX_MAILTO"):
                 params["mailto"] = os.environ["OPENALEX_MAILTO"]
+            if os.environ.get("OPENALEX_OFFLINE"):
+                raise BudgetPaused(f"OPENALEX_OFFLINE set; not fetching {cache_path.name}")
             if self.remaining is not None and self.remaining < RESERVE_CREDITS:
                 raise BudgetPaused(f"OpenAlex credits remaining {self.remaining} < reserve "
                                    f"{RESERVE_CREDITS}; pausing")

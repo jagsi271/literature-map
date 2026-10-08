@@ -81,7 +81,7 @@ W4236301267,A10,landmarks,A10_landmarks,4,Informality,2007,book,849,True,include
 W2170050404,A10,landmarks,A10_landmarks,5,Does Informality Imply Segmentation in Urban Labor Markets? Evidence from Sectoral Transitions in Mexico,1999,article,746,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W562115475,A10,landmarks,A10_landmarks,6,Transnationalism From Below,2017,book,658,True,borderline,1,core concept mentioned once | manual: transnationalism,exclude
 W569500510,A10,landmarks,A10_landmarks,7,"Good intentions, bad outcomes: social policy, informality, and economic growth in Mexico",2008,book-review,634,True,exclude,0,type book-review,exclude
-W2110235569,A10,landmarks,A10_landmarks,8,Tools of the trade: the socio-technology of arbitrage in a Wall Street trading room,2004,article,571,True,include,3,rules,include
+W2110235569,A10,landmarks,A10_landmarks,8,Tools of the trade: the socio-technology of arbitrage in a Wall Street trading room,2004,article,571,True,include,3,"rules | manual override: Wall Street arbitrage trading room, off-topic",exclude
 W2058753237,A10,landmarks,A10_landmarks,9,Informal sector or petty commodity production: Dualism or dependence in urban development?,1978,article,551,False,include,3,no abstract; core (and context) in title,include
 W3191104535,A10,landmarks,A10_landmarks,10,Circular economy approach in solid waste management system to achieve UN-SDGs: Solutions for post-COVID recovery,2021,article,519,False,exclude,0,core concept missing,exclude
 W1846353168,A10,landmarks,A10_landmarks,11,Risks and Reconstruction,2000,book,511,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -589,10 +589,10 @@ W68028625,A12,landmarks,A12_landmarks,18,"Economic, social, and environmental su
 W2013369049,A12,landmarks,A12_landmarks,19,"Attitudes on Residential Integration: Perceived Status Differences, Mere In-Group Preference, or Racial Prejudice?",1996,article,505,True,include,3,rules,include
 W2312799581,A12,landmarks,A12_landmarks,20,"The limits of racial domination: plebeian society in colonial Mexico City, 1660-1720",1994,book-review,501,True,exclude,0,type book-review,exclude
 W853620354,A12,landmarks,A12_landmarks,21,"Networks and Misallocation: Insurance, Migration, and the Rural-Urban Wage Gap",2015,article,495,True,include,2,rules,include
-W4388310753,A12,landmarks,A12_landmarks,22,"Liberalism, Fascism, or Social Democracy",1991,book,490,True,include,3,rules,include
+W4388310753,A12,landmarks,A12_landmarks,22,"Liberalism, Fascism, or Social Democracy",1991,book,490,True,include,3,"rules | manual override: comparative interwar regime politics, off-topic",exclude
 W2808869140,A12,landmarks,A12_landmarks,23,Caste and development: Contemporary perspectives on a structure of discrimination and advantage,2018,article,481,True,include,6,rules,include
 W2017163659,A12,landmarks,A12_landmarks,24,The Right to the Gendered City: Different Formations of Belonging in Everyday Life,2005,article,415,True,include,6,rules,include
-W627595766,A12,landmarks,A12_landmarks,25,"Liberalism, Fascism, or Social Democracy: Social Classes and the Political Origins of Regimes in Interwar Europe",1991,article,408,True,include,3,rules,include
+W627595766,A12,landmarks,A12_landmarks,25,"Liberalism, Fascism, or Social Democracy: Social Classes and the Political Origins of Regimes in Interwar Europe",1991,article,408,True,include,3,"rules | manual override: comparative interwar regime politics, off-topic",exclude
 W2106339641,A12,landmarks,A12_landmarks,26,The New `Peculiar Institution':,2000,article,397,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2107183493,A12,landmarks,A12_landmarks,27,Parallel Lives? Challenging Discourses of British Muslim Self-Segregation,2006,article,395,True,include,6,rules,include
 W2160999442,A12,landmarks,A12_landmarks,28,The Social Epidemiology of Human Immunodeficiency Virus/Acquired Immunodeficiency Syndrome,2004,article,393,True,exclude,0,primary topic field Medicine,exclude
@@ -829,7 +829,7 @@ W2083516770,A13,landmarks,A13_landmarks,5,African urban fantasies: dreams or nig
 W4236301267,A13,landmarks,A13_landmarks,6,Informality,2007,book,849,True,exclude,0,core concept missing,exclude
 W1515729775,A13,landmarks,A13_landmarks,7,Mega-events and modernity: Olympics and expos in the growth of global culture,2001,book-review,791,False,exclude,0,type book-review,exclude
 W2165801872,A13,landmarks,A13_landmarks,8,CITY BRANDING: AN EFFECTIVE ASSERTION OF IDENTITY OR A TRANSITORY MARKETING TRICK?,2005,article,761,True,include,6,rules,include
-W2132104902,A13,landmarks,A13_landmarks,9,City clusters in China: air and surface water pollution,2006,article,678,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2132104902,A13,landmarks,A13_landmarks,9,City clusters in China: air and surface water pollution,2006,article,678,True,exclude,1,"core mentioned once, not in keyword tags | manual override: air and water pollution science, natural science",exclude
 W2098475149,A13,landmarks,A13_landmarks,10,Hard‐branding the cultural city – from Prado to Prada,2003,article,671,True,exclude,0,core concept missing,exclude
 W2211205654,A13,landmarks,A13_landmarks,11,Urban underground space: Solving the problems of today’s cities,2015,article,608,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4256168637,A13,landmarks,A13_landmarks,12,Rule By Aesthetics,2015,book,593,True,include,2,rules,include
@@ -1075,11 +1075,11 @@ W7127356382,A14,india,A14_india_q5,13,"Geospatial analysis of urban heat Islands
 W4292609470,A14,india,A14_india_q5,14,Heat Vulnerability Index for Urban Heat wave Risk Adaptation for Indian Cities: A Case Study of Akola,2022,conference-paper,7,True,borderline,6,"flag: \b(remote sensing|land surface temperatu | manual: heat vulnerability index for urban heatwave adaptation, Akola",include
 W7160145615,A14,india,A14_india_q5,15,"Spatiotemporal Dynamics of Urban Heat Vulnerability in Kushtia, Bangladesh (2010–2024) Using Environmental Indices and Population Data",2026,article,1,False,include,3,no abstract; core (and context) in title,include
 W2047328724,A14,landmarks,A14_landmarks,1,"Climate Change 2007: Impacts, Adaptation and Vulnerability. Contribution of Working Group II to the Fourth Assessment Report of the Intergovernmental Panel on Climate Change",2008,article,5633,True,include,6,rules,include
-W4250408207,A14,landmarks,A14_landmarks,2,Polish journal of environmental studies,1993,article,3984,True,include,3,rules,include
+W4250408207,A14,landmarks,A14_landmarks,2,Polish journal of environmental studies,1993,article,3984,True,include,3,"rules | manual override: journal title record, not a work",exclude
 W2220987254,A14,landmarks,A14_landmarks,3,Defining urban resilience: A review,2015,article,3291,False,include,3,no abstract; core (and context) in title,include
 W2170589321,A14,landmarks,A14_landmarks,4,Future flood losses in major coastal cities,2013,article,2595,False,include,3,no abstract; core (and context) in title,include
 W2150828799,A14,landmarks,A14_landmarks,5,Adapting Cities for Climate Change: The Role of the Green Infrastructure,2007,article,2013,True,borderline,6,flag: \b(remote sensing|land surface temperatu | manual: adapting cities for climate change through green infrastructure,include
-W888273526,A14,landmarks,A14_landmarks,6,UNEP – United Nations Environment Programme,2010,reference-entry,1463,True,include,3,rules,include
+W888273526,A14,landmarks,A14_landmarks,6,UNEP – United Nations Environment Programme,2010,reference-entry,1463,True,include,3,"rules | manual override: organisation entry, not a work",exclude
 W2137589576,A14,landmarks,A14_landmarks,7,From fail-safe to safe-to-fail: Sustainability and resilience in the new urban world,2011,article,1404,False,include,3,no abstract; core (and context) in title,include
 W4224213039,A14,landmarks,A14_landmarks,8,Strategies to achieve a carbon neutral society: a review,2022,article,1324,True,include,2,rules,include
 W2002115192,A14,landmarks,A14_landmarks,9,Rethinking Sustainable Cities: Multilevel Governance and the 'Urban' Politics of Climate Change,2004,article,1251,True,include,3,rules,include
@@ -1570,7 +1570,7 @@ W2059507040,A16,landmarks,A16_landmarks,2,The Economic Geography of Talent,2002,
 W1604588429,A16,landmarks,A16_landmarks,3,"Rhythmanalysis : Space, Time and Everyday Life",2004,book,1110,True,include,6,rules,include
 W646871639,A16,landmarks,A16_landmarks,4,Can Anyone Hear Us?,2000,book,936,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2133304451,A16,landmarks,A16_landmarks,5,Cohort profile: The Tromso Study,2011,article,707,True,exclude,0,primary topic field Medicine,exclude
-W1593157154,A16,landmarks,A16_landmarks,6,Case Study Methodology in Business Research,2007,book,649,True,include,2,rules,include
+W1593157154,A16,landmarks,A16_landmarks,6,Case Study Methodology in Business Research,2007,book,649,True,include,2,"rules | manual override: business case-study methodology, off-topic",exclude
 W2002804869,A16,landmarks,A16_landmarks,7,Medical Management of Disasters and Mass Casualties From Terrorist Bombings: How Can We Cope?,2002,article,528,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W1864709180,A16,landmarks,A16_landmarks,8,"Effects of backpacking holidays in Australia on alcohol, tobacco and drug use of UK residents",2007,article,527,True,exclude,0,primary topic field Medicine,exclude
 W3141448427,A16,landmarks,A16_landmarks,9,Obstructive Sleep Apnea,2005,article,452,True,exclude,0,primary topic field Medicine,exclude
@@ -1583,11 +1583,11 @@ W607038506,A16,landmarks,A16_landmarks,15,"Geographies of Rhythm: Nature, Place,
 W2745437966,A16,landmarks,A16_landmarks,16,Proceedings of the SIGCHI Conference on Human Factors in Computing Systems,2012,other,391,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W1974994817,A16,landmarks,A16_landmarks,17,Relational concepts of space and place: Issues for planning theory and practice,1999,article,389,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W585835990,A16,landmarks,A16_landmarks,18,"The scene of Harlem cabaret: race, sexuality, performance",2010,book-review,377,True,exclude,0,type book-review,exclude
-W2089057387,A16,landmarks,A16_landmarks,19,Shift and night work and long working hours – a systematic review of safety implications,2011,review,366,True,include,5,rules,include
+W2089057387,A16,landmarks,A16_landmarks,19,Shift and night work and long working hours – a systematic review of safety implications,2011,review,366,True,include,5,"rules | manual override: occupational safety of shift work, not urban",exclude
 W608453960,A16,landmarks,A16_landmarks,20,"Urban Nightscapes: Youth Cultures, Pleasure Spaces and Corporate Power",2003,article,358,True,include,6,rules,include
 W2171823868,A16,landmarks,A16_landmarks,21,"Acid suppression: Optimizing therapy for gastroduodenal ulcer healing, gastroesophageal reflux disease, and stress-related erosive syndrome",2000,article,358,True,exclude,0,primary topic field Medicine,exclude
 W2742111340,A16,landmarks,A16_landmarks,22,An overview of forensic drug testing methods and their suitability for harm reduction point-of-care services,2017,article,351,True,exclude,0,"primary topic field Pharmacology, Toxicology and Pharmaceutics",exclude
-W1982546989,A16,landmarks,A16_landmarks,23,Detailed source term estimation of the atmospheric release for the Fukushima Daiichi Nuclear Power Station accident by coupling simulations of an atmospheric dispersion model with an improved deposition scheme and oceanic dispersion model,2015,article,347,True,include,2,rules,include
+W1982546989,A16,landmarks,A16_landmarks,23,Detailed source term estimation of the atmospheric release for the Fukushima Daiichi Nuclear Power Station accident by coupling simulations of an atmospheric dispersion model with an improved deposition scheme and oceanic dispersion model,2015,article,347,True,include,2,"rules | manual override: nuclear accident source-term estimation, off-topic",exclude
 W1924304903,A16,landmarks,A16_landmarks,24,Proceedings of the 2010 ACM SIGMOD International Conference on Management of data,2010,paratext,343,True,exclude,0,type paratext,exclude
 W2026214474,A16,landmarks,A16_landmarks,25,Tourist's perceptions of safety and security while visiting Cape Town,2003,article,338,False,exclude,0,core concept missing,exclude
 W2300420884,A16,landmarks,A16_landmarks,26,Bouncers: Violence and Governance in the Night-time Economy,2003,article,329,False,include,3,no abstract; core in title; context terms missing,include
@@ -2914,10 +2914,10 @@ W2809991666,A5,landmarks,A5_landmarks,50,Tropospheric Ozone Assessment Report: P
 W3202634119,A5,landmarks,A5_landmarks,51,Agricultural land systems importance for supporting food security and sustainable development goals: A systematic review,2021,review,592,True,exclude,0,primary topic field Agricultural and Biological Sciences | manual override: agricultural land systems review,exclude
 W1212601590,A5,landmarks,A5_landmarks,52,Predicting land-cover and land-use change in the urban fringe,2001,article,587,True,include,3,rules,include
 W2078560198,A5,landmarks,A5_landmarks,53,"If planning is everything, maybe it's nothing",1973,article,574,False,exclude,0,core concept missing,exclude
-W2769829450,A5,landmarks,A5_landmarks,54,Heavy metal pollution and health risk assessment of agricultural soils in a typical peri-urban area in southeast China,2017,article,573,False,include,3,no abstract; core (and context) in title,include
+W2769829450,A5,landmarks,A5_landmarks,54,Heavy metal pollution and health risk assessment of agricultural soils in a typical peri-urban area in southeast China,2017,article,573,False,include,3,"no abstract; core (and context) in title | manual override: soil heavy-metal pollution, natural science",exclude
 W2266902344,A5,landmarks,A5_landmarks,55,A time series analysis of urbanization induced land use and land cover change and its impact on land surface temperature with Landsat imagery,2016,article,553,False,exclude,0,core concept missing,exclude
 W1500554404,A5,landmarks,A5_landmarks,56,Urbanizing Urban Political Ecology: A Critique of Methodological Cityism,2014,article,548,True,borderline,1,core concept mentioned once | manual: planetary urbanisation and urban political ecology (also A14),include
-W2026589647,A5,landmarks,A5_landmarks,57,Heuristic Methods for Location-Allocation Problems,1964,article,537,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
+W2026589647,A5,landmarks,A5_landmarks,57,Heuristic Methods for Location-Allocation Problems,1964,article,537,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co | manual override: operations research location-allocation heuristics, off-topic",exclude
 W2102356204,A5,landmarks,A5_landmarks,58,"Conserving Biodiversity Efficiently: What to Do, Where, and When",2007,article,534,True,exclude,1,context terms missing,exclude
 W2130282650,A5,landmarks,A5_landmarks,59,Ixodes ricinus and Its Transmitted Pathogens in Urban and Peri-Urban Areas in Europe: New Hazards and Relevance for Public Health,2014,article,525,True,exclude,0,primary topic field Immunology and Microbiology | manual override: ticks,exclude
 W2008482616,A5,landmarks,A5_landmarks,60,A THEORY OF THE URBAN LAND MARKET,1960,article,525,False,include,3,no abstract; core (and context) in title,include
@@ -2925,7 +2925,7 @@ W2750843263,A5,landmarks,A5_landmarks,61,"Planning centrality, market instrument
 W4220943807,A5,landmarks,A5_landmarks,62,Global impacts of future urban expansion on terrestrial vertebrate diversity,2022,article,521,True,include,6,rules,include
 W2032306335,A5,landmarks,A5_landmarks,63,Urban villages under China's rapid urbanization: Unregulated assets and transitional neighbourhoods,2009,article,512,False,include,3,no abstract; core (and context) in title,include
 W1846353168,A5,landmarks,A5_landmarks,64,Risks and Reconstruction,2000,book,511,True,include,3,rules,include
-W2099382815,A5,landmarks,A5_landmarks,65,Assessing the impact of urbanization on storm runoff in a peri-urban catchment using historical change in impervious cover,2014,article,507,True,include,6,rules,include
+W2099382815,A5,landmarks,A5_landmarks,65,Assessing the impact of urbanization on storm runoff in a peri-urban catchment using historical change in impervious cover,2014,article,507,True,include,6,"rules | manual override: catchment hydrology, natural science",exclude
 W2126875192,A5,landmarks,A5_landmarks,66,Landscape Patterns of Exurban Growth in the USA from 1980 to 2020,2005,article,503,True,include,2,rules,include
 W3024411896,A5,landmarks,A5_landmarks,67,Human–wildlife coexistence in a changing world,2020,article,494,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2148456251,A5,landmarks,A5_landmarks,68,Vitamin A supplementation for preventing morbidity and mortality in children from six months to five years of age,2017,article,491,True,exclude,0,primary topic field Nursing,exclude
@@ -3148,7 +3148,7 @@ W2591877092,A6,landmarks,A6_landmarks,7,Urban agglomeration: An evolving concept
 W2151934006,A6,landmarks,A6_landmarks,8,Rural Definitions for Health Policy and Research,2005,article,980,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2018508067,A6,landmarks,A6_landmarks,9,Otitis Media in 2253 Pittsburgh-Area Infants: Prevalence and Risk Factors During the First Two Years of Life,1997,article,781,True,exclude,0,primary topic field Medicine,exclude
 W1521187881,A6,landmarks,A6_landmarks,10,Sub-Saharan Africa: from crisis to sustainable growth,1991,article,735,False,exclude,0,core concept missing,exclude
-W2132104902,A6,landmarks,A6_landmarks,11,City clusters in China: air and surface water pollution,2006,article,678,True,include,3,rules,include
+W2132104902,A6,landmarks,A6_landmarks,11,City clusters in China: air and surface water pollution,2006,article,678,True,include,3,"rules | manual override: air and water pollution science, natural science",exclude
 W2043244602,A6,landmarks,A6_landmarks,12,Impact of urbanization on cultivated land changes in China,2015,article,672,False,exclude,0,core concept missing,exclude
 W1532912978,A6,landmarks,A6_landmarks,13,Sustainable Urban Transport in the Developing World: Beyond Megacities,2015,article,662,True,include,3,rules,include
 W2469509239,A6,landmarks,A6_landmarks,14,Consumption-based emission accounting for Chinese cities,2016,article,644,False,exclude,0,core concept missing,exclude
@@ -3507,12 +3507,12 @@ W3205480029,A7,landmarks,A7_landmarks,4,Infectious disease in an era of global c
 W1500182994,A7,landmarks,A7_landmarks,5,"Splintering Urbanism: Networked Infrastructures, Technological Mobilities and the Urban Condition",2001,book,1775,True,include,6,rules,include
 W2117610596,A7,landmarks,A7_landmarks,6,World Development Report 2004 : making services work for poor people,2003,article,1524,True,include,3,rules,include
 W1624483887,A7,landmarks,A7_landmarks,7,A direct-methane fuel cell with a ceria-based anode,1999,article,1309,False,exclude,0,primary topic field Materials Science,exclude
-W2158012362,A7,landmarks,A7_landmarks,8,Ferroelectricity and Antiferroelectricity of Doped Thin HfO 2 ‐Based Films,2015,article,1192,True,include,6,rules,include
+W2158012362,A7,landmarks,A7_landmarks,8,Ferroelectricity and Antiferroelectricity of Doped Thin HfO 2 ‐Based Films,2015,article,1192,True,include,6,"rules | manual override: materials science (ferroelectric thin films), off-topic",exclude
 W2080578930,A7,landmarks,A7_landmarks,9,Economic growth and the environment: Whose growth? whose environment?,1992,article,1156,False,exclude,0,core concept missing,exclude
 W2944034133,A7,landmarks,A7_landmarks,10,Strategies for enhancing the heterogeneous Fenton catalytic reactivity: A review,2019,article,1151,False,exclude,0,core concept missing,exclude
 W2018247434,A7,landmarks,A7_landmarks,11,Hydrogen the fuel for 21st century,2009,article,1113,False,exclude,0,primary topic field Energy,exclude
 W2037386668,A7,landmarks,A7_landmarks,12,A survey of urban climate change experiments in 100 cities,2012,article,1086,True,borderline,1,core concept mentioned once | manual: urban climate experiments (A14),exclude
-W1158182481,A7,landmarks,A7_landmarks,13,Long-life Li/polysulphide batteries with high sulphur loading enabled by lightweight three-dimensional nitrogen/sulphur-codoped graphene sponge,2015,article,1061,True,include,2,rules,include
+W1158182481,A7,landmarks,A7_landmarks,13,Long-life Li/polysulphide batteries with high sulphur loading enabled by lightweight three-dimensional nitrogen/sulphur-codoped graphene sponge,2015,article,1061,True,include,2,"rules | manual override: battery chemistry, off-topic",exclude
 W4241750556,A7,landmarks,A7_landmarks,14,World Development Report 1993,1993,book,1037,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2973074650,A7,landmarks,A7_landmarks,15,The hydrogen evolution reaction: from material to interfacial descriptors,2019,article,976,True,exclude,0,primary topic field Energy,exclude
 W1494416504,A7,landmarks,A7_landmarks,16,The Political Economy of Democratic Decentralization,1999,book,967,True,include,3,rules,include
@@ -4370,24 +4370,24 @@ W7117408585,B10,india,B10_india_q4,16,CYBERCRIME VICTIMIZATION OF WOMEN: A CRITI
 W7164517860,B10,india,B10_india_q4,17,A STUDY ON AWARENESS ABOUT CYBER VICTIMIZATION AMONG COLLEGE STUDENTS IN RURAL AREAS NEARBY CHENNAI,2026,article,0,True,include,6,rules,include
 W4388411327,B10,india,B10_india_q4,18,Influence of cyber-victimization and other factors on depression and anxiety among university students in Bangladesh,2023,article,19,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: cyber-victimisation and mental health of students, Bangladesh",include
 W2926701059,B10,landmarks,B10_landmarks,1,Deep Learning Approach for Intelligent Intrusion Detection System,2019,article,1941,True,exclude,3,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
-W2125363721,B10,landmarks,B10_landmarks,2,The Nucleolus of a Characteristic Function Game,1969,article,1904,True,exclude,0,core concept missing,exclude
+W2125363721,B10,landmarks,B10_landmarks,2,The Nucleolus of a Characteristic Function Game,1969,article,1904,True,exclude,0,"core concept missing | manual override: game theory, off-topic",exclude
 W3046539507,B10,landmarks,B10_landmarks,3,"Impact of COVID-19 pandemic on information management research and practice: Transforming education, work and life",2020,article,1246,False,exclude,0,core concept missing,exclude
 W3020807179,B10,landmarks,B10_landmarks,4,"Artificial intelligence for sustainability: Challenges, opportunities, and a research agenda",2020,article,1190,False,exclude,0,core concept missing,exclude
 W4225716729,B10,landmarks,B10_landmarks,5,"AI-Based Modeling: Techniques, Applications and Research Issues Towards Automation, Intelligent and Smart Systems",2022,article,1183,True,borderline,1,core concept mentioned once | manual: AI modelling review,exclude
 W3033915435,B10,landmarks,B10_landmarks,6,Impact of digital surge during Covid-19 pandemic: A viewpoint on research and practice,2020,article,1136,False,exclude,0,core concept missing,exclude
-W2157078218,B10,landmarks,B10_landmarks,7,Cyber–Physical Security of a Smart Grid Infrastructure,2011,article,1118,True,include,5,rules,include
+W2157078218,B10,landmarks,B10_landmarks,7,Cyber–Physical Security of a Smart Grid Infrastructure,2011,article,1118,True,include,5,"rules | manual override: smart-grid cyber-physical security engineering, technical",exclude
 W2002356434,B10,landmarks,B10_landmarks,8,From information security to cyber security,2013,article,1071,False,include,3,no abstract; core (and context) in title,include
 W1972757409,B10,landmarks,B10_landmarks,9,Stuxnet and the Future of Cyber War,2011,article,956,True,include,6,rules,include
 W2016527577,B10,landmarks,B10_landmarks,10,"The nature of cyberbullying, and strategies for prevention",2012,article,937,False,include,3,no abstract; core (and context) in title,include
 W4221106857,B10,landmarks,B10_landmarks,11,Legal and Ethical Consideration in Artificial Intelligence in Healthcare: Who Takes Responsibility?,2022,article,934,True,exclude,0,primary topic field Medicine,exclude
 W2969468266,B10,landmarks,B10_landmarks,12,Acceptability of artificial intelligence (AI)-led chatbot services in healthcare: A mixed-methods study,2019,article,841,True,exclude,0,primary topic field Medicine,exclude
 W2758039286,B10,landmarks,B10_landmarks,13,Blockchain's roles in strengthening cybersecurity and protecting privacy,2017,article,820,False,include,3,no abstract; core (and context) in title,include
-W2888505697,B10,landmarks,B10_landmarks,14,Classifying IoT Devices in Smart Environments Using Network Traffic Characteristics,2018,article,815,True,include,2,rules,include
+W2888505697,B10,landmarks,B10_landmarks,14,Classifying IoT Devices in Smart Environments Using Network Traffic Characteristics,2018,article,815,True,include,2,"rules | manual override: IoT network-traffic classification, technical",exclude
 W3009311085,B10,landmarks,B10_landmarks,15,Applications of Artificial Intelligence and Machine learning in smart cities,2020,article,758,False,exclude,0,core concept missing,exclude
 W3036035276,B10,landmarks,B10_landmarks,16,Cyber security in the age of COVID-19: A timeline and analysis of cyber-crime and cyber-attacks during the pandemic,2021,article,678,False,include,3,no abstract; core (and context) in title,include
 W2125408374,B10,landmarks,B10_landmarks,17,"Associations among bullying, cyberbullying, and suicide in high school students",2013,article,671,True,include,5,rules,include
 W2900470550,B10,landmarks,B10_landmarks,18,Multimodal Temporal Graph Neural Networks for Detecting and Disrupting Dark-Web Cybercrime Communities: A Vendor-Disjoint Inductive Evaluation Finding No Measurable Benefit from the Graph,2018,preprint,623,True,borderline,5,flag: \b(deep learning|neural network|convolut | manual: dark-web detection model,exclude
-W2742329683,B10,landmarks,B10_landmarks,19,Blockchain technology innovations,2017,conference-paper,592,True,include,3,rules,include
+W2742329683,B10,landmarks,B10_landmarks,19,Blockchain technology innovations,2017,conference-paper,592,True,include,3,"rules | manual override: blockchain technology overview, technical",exclude
 W2135746613,B10,landmarks,B10_landmarks,20,Perils of Internet fraud: an empirical investigation of deception and trust with experienced Internet consumers,2000,article,582,True,include,6,rules,include
 W1412796528,B10,landmarks,B10_landmarks,21,Measuring the Cost of Cybercrime,2013,book-chapter,559,False,include,3,no abstract; core (and context) in title,include
 W3082636531,B10,landmarks,B10_landmarks,22,Paradoxes of artificial intelligence in consumer markets: Ethical challenges and opportunities,2020,article,555,False,exclude,0,core concept missing,exclude
@@ -5142,7 +5142,7 @@ W2586873575,B13,landmarks,B13_landmarks,20,Understanding factors influencing the
 W178691628,B13,landmarks,B13_landmarks,21,Modeling habitual and addictive smartphone behavior,2015,article,1050,False,include,3,no abstract; core (and context) in title,include
 W2726248338,B13,landmarks,B13_landmarks,22,Large-scale physical activity data reveal worldwide activity inequality,2017,article,1048,False,exclude,0,primary topic field Medicine,exclude
 W2109680381,B13,landmarks,B13_landmarks,23,"The dark side of smartphone usage: Psychological traits, compulsive behavior and technostress",2013,article,1021,False,include,3,no abstract; core (and context) in title,include
-W1857382374,B13,landmarks,B13_landmarks,24,Human Activity Recognition on Smartphones Using a Multiclass Hardware-Friendly Support Vector Machine,2012,conference-paper,977,False,include,3,no abstract; core (and context) in title,include
+W1857382374,B13,landmarks,B13_landmarks,24,Human Activity Recognition on Smartphones Using a Multiclass Hardware-Friendly Support Vector Machine,2012,conference-paper,977,False,include,3,"no abstract; core (and context) in title | manual override: activity-recognition machine learning, technical",exclude
 W2100025715,B13,landmarks,B13_landmarks,25,Understanding continued information technology usage behavior: A comparison of three models in the context of mobile internet,2006,article,961,False,include,3,no abstract; core (and context) in title,include
 W2265482988,B13,landmarks,B13_landmarks,26,The Effect of Information Communication Technology Interventions on Reducing Social Isolation in the Elderly: A Systematic Review,2016,review,929,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W3037505531,B13,landmarks,B13_landmarks,27,Worldwide Effect of COVID-19 on Physical Activity: A Descriptive Study,2020,article,856,True,exclude,0,primary topic field Medicine,exclude
@@ -6134,7 +6134,7 @@ W1558377788,B3,landmarks,B3_landmarks,18,Routledge Handbook of Surveillance Stud
 W1533914248,B3,landmarks,B3_landmarks,19,The Maximum Surveillance Society : The Rise of CCTV,1999,book,575,True,include,6,rules,include
 W215352665,B3,landmarks,B3_landmarks,20,Surveillance Studies: An Overview,2007,book,572,True,include,6,rules,include
 W1539198405,B3,landmarks,B3_landmarks,21,Consent of the networked: the world-wide struggle for Internet freedom,2012,book-review,539,True,exclude,0,type book-review,exclude
-W2790895131,B3,landmarks,B3_landmarks,22,One Tribe to Bind Them All: How Our Social Group Attachments Strengthen Partisanship,2018,article,535,True,include,3,rules,include
+W2790895131,B3,landmarks,B3_landmarks,22,One Tribe to Bind Them All: How Our Social Group Attachments Strengthen Partisanship,2018,article,535,True,include,3,"rules | manual override: partisan group attachment psychology, off-topic",exclude
 W1042953836,B3,landmarks,B3_landmarks,23,Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World,2015,article,525,True,include,3,rules,include
 W282431559,B3,landmarks,B3_landmarks,24,"Increases in hepatitis C virus infection related to injection drug use among persons aged ≤30 years - Kentucky, Tennessee, Virginia, and West Virginia, 2006-2012.",2015,article,517,True,exclude,0,primary topic field Medicine,exclude
 W2583071196,B3,landmarks,B3_landmarks,25,The datafied child: The dataveillance of children and implications for their rights,2017,article,511,True,include,5,rules,include
@@ -6676,7 +6676,7 @@ W1590591717,B5,landmarks,B5_landmarks,4,Documenting individual identity : the de
 W235149501,B5,landmarks,B5_landmarks,5,Fear: Critical Geopolitics and Everyday Life,2016,book,379,True,borderline,1,core concept mentioned once | manual: geopolitics of fear,exclude
 W1487646227,B5,landmarks,B5_landmarks,6,Beyond Fear: Thinking Sensibly About Security in an Uncertain World,2003,article,372,True,include,2,rules,include
 W89782422,B5,landmarks,B5_landmarks,7,Cartographic Anxiety: Mapping the Body Politic in India,1994,article,337,True,include,2,rules,include
-W1485497075,B5,landmarks,B5_landmarks,8,Security and Privacy Issues in E-passports,2006,conference-paper,309,True,include,3,rules,include
+W1485497075,B5,landmarks,B5_landmarks,8,Security and Privacy Issues in E-passports,2006,conference-paper,309,True,include,3,"rules | manual override: e-passport security engineering, technical",exclude
 W2924436737,B5,landmarks,B5_landmarks,9,Cohort Profile: The Henan Rural Cohort: a prospective study of chronic non-communicable diseases,2019,article,283,True,exclude,0,primary topic field Medicine | manual override: epidemiological cohort,exclude
 W2327198637,B5,landmarks,B5_landmarks,10,E-residency and blockchain,2017,article,271,False,exclude,0,core concept missing | manual override: e-residency digital identity (Estonia),include
 W1965629544,B5,landmarks,B5_landmarks,11,"When Seeing should not be Believing: Photographs, Credit Cards and Fraud",1997,article,271,True,borderline,1,core concept mentioned once | manual: psychology of photo-ID verification,exclude
@@ -6688,7 +6688,7 @@ W2482717051,B5,landmarks,B5_landmarks,16,"When Biometrics Fail: Gender, Race, an
 W2158915143,B5,landmarks,B5_landmarks,17,Identifying Citizens: ID Cards as Surveillance,2010,article,197,False,include,3,no abstract; core (and context) in title | manual override: book review (Contemporary Sociology) of Lyon 2009,exclude
 W2073749353,B5,landmarks,B5_landmarks,18,"(Dis)qualified bodies: securitization, citizenship and ‘identity management’",2004,article,197,True,include,3,rules,include
 W642710574,B5,landmarks,B5_landmarks,19,"Global surveillance and policing : borders, security, identity",2005,article,192,True,include,3,rules,include
-W1549851572,B5,landmarks,B5_landmarks,20,The humanitarian intervention debate,2003,book-chapter,192,True,include,2,rules,include
+W1549851572,B5,landmarks,B5_landmarks,20,The humanitarian intervention debate,2003,book-chapter,192,True,include,2,"rules | manual override: humanitarian intervention debate, off-topic",exclude
 W1861271473,B5,landmarks,B5_landmarks,21,The Contested Politics of Mobility,2010,book,179,True,borderline,1,core concept mentioned once | manual: migration politics,exclude
 W3035522863,B5,landmarks,B5_landmarks,22,Visual identification of individual Holstein-Friesian cattle via deep metric learning,2021,article,176,False,exclude,0,primary topic field Agricultural and Biological Sciences | manual override: cattle identification (computer vision),exclude
 W1755767712,B5,landmarks,B5_landmarks,23,Identification for Development: The Biometrics Revolution,2013,preprint,174,False,include,3,"no abstract; core in title; context terms missing | manual override: identification for development, biometrics",include
@@ -8245,7 +8245,7 @@ W2474662152,C11,landmarks,C11_landmarks,26,Multifunctional UCNPs@PDA-ICG nanocom
 W3157082035,C11,landmarks,C11_landmarks,27,Kurikulum Berbasis Teknologi Informasi dan Komunikasi,2008,article,132,True,exclude,1,"stub abstract, core not in title",exclude
 W2943644807,C11,landmarks,C11_landmarks,28,"What explains low adoption of digital payment technologies? Evidence from small-scale merchants in Jaipur, India",2019,article,128,True,include,6,rules,include
 W2001374136,C11,landmarks,C11_landmarks,29,Spatiotemporal heterogeneity of urban planning implementation effectiveness: Evidence from five urban master plans of Beijing,2012,article,127,False,exclude,0,core concept missing,exclude
-W2971583615,C11,landmarks,C11_landmarks,30,Internalisasi Nilai Moderasi Melalui Pendidikan Agama Islam di Perguruan Tinggi Umum,2019,article,126,True,include,3,rules,include
+W2971583615,C11,landmarks,C11_landmarks,30,Internalisasi Nilai Moderasi Melalui Pendidikan Agama Islam di Perguruan Tinggi Umum,2019,article,126,True,include,3,"rules | manual override: religious education, off-topic",exclude
 W2807645154,C11,landmarks,C11_landmarks,31,Financial inclusion and socioeconomic development: gaps and solution,2018,article,119,True,borderline,1,core concept mentioned once | manual: financial inclusion model (B6),exclude
 W1983603043,C11,landmarks,C11_landmarks,32,Particle clouds in homogeneous and stratified environments,2003,article,117,True,exclude,1,context terms missing,exclude
 W2066511025,C11,landmarks,C11_landmarks,33,A Fully Non-Contact Ultrasonic Propagation Imaging System for Closed Surface Crack Evaluation,2011,article,116,False,exclude,0,core concept missing,exclude
@@ -8260,7 +8260,7 @@ W2042655931,C11,landmarks,C11_landmarks,41,The Slavery Hypertension Hypothesis: 
 W4205639903,C11,landmarks,C11_landmarks,42,The Gender-Differential Effect of Financial Inclusion on Household Financial Resilience,2022,article,98,True,borderline,1,core concept mentioned once | manual: gender and financial inclusion (B6),exclude
 W3206923410,C11,landmarks,C11_landmarks,43,Unified Payment Interface (UPI): A Digital Innovation and Its Impact on Financial Inclusion and Economic Development,2021,article,97,True,exclude,6,context terms missing,exclude
 W2082252833,C11,landmarks,C11_landmarks,44,Learning for Autonomous Navigation,2010,article,96,True,exclude,3,context terms missing,exclude
-W4403712981,C11,landmarks,C11_landmarks,45,Synergistic control of urban heat island and urban pollution island effects using green infrastructure,2024,article,93,True,include,3,rules,include
+W4403712981,C11,landmarks,C11_landmarks,45,Synergistic control of urban heat island and urban pollution island effects using green infrastructure,2024,article,93,True,include,3,"rules | manual override: urban heat/pollution island control, off-topic for payments",exclude
 W3039495098,C11,landmarks,C11_landmarks,46,Implementasi Metode Pendekatan Design Thinking dalam Pembuatan Aplikasi Happy Class Di Kampus UPI Cibiru,2020,article,92,True,exclude,6,context terms missing,exclude
 W2765595533,C11,landmarks,C11_landmarks,47,Unified Payment Interface—An Advancement in Payment Systems,2017,article,92,True,include,3,rules,include
 W2088490734,C11,landmarks,C11_landmarks,48,"Magma evolution in the Purico ignimbrite complex, northern Chile: evidence for zoning of a dacitic magma by injection of rhyolitic melts following mafic recharge",2001,article,92,False,exclude,0,core concept missing,exclude
@@ -8697,7 +8697,7 @@ W2982936646,C13,landmarks,C13_landmarks,1,"Digital Twin: Enabling Technologies, 
 W1969085745,C13,landmarks,C13_landmarks,2,Smart cities of the future,2012,article,2287,True,borderline,1,core concept mentioned once | manual: smart cities vision,exclude
 W3013120860,C13,landmarks,C13_landmarks,3,Towards a semantic Construction Digital Twin: Directions for future research,2020,article,1326,True,include,5,rules,include
 W4220831070,C13,landmarks,C13_landmarks,4,Digital Twin Technology Challenges and Applications: A Comprehensive Review,2022,article,884,True,include,4,rules,include
-W3163246710,C13,landmarks,C13_landmarks,5,Digital Twin Networks: A Survey,2021,article,850,True,include,5,rules,include
+W3163246710,C13,landmarks,C13_landmarks,5,Digital Twin Networks: A Survey,2021,article,850,True,include,5,"rules | manual override: digital twin networks (telecoms), not cities",exclude
 W4309484364,C13,landmarks,C13_landmarks,6,Artificial intelligence for the metaverse: A survey,2022,article,687,False,exclude,0,core concept missing,exclude
 W4285004952,C13,landmarks,C13_landmarks,7,"The Metaverse as a Virtual Form of Smart Cities: Opportunities and Challenges for Environmental, Economic, and Social Sustainability in Urban Futures",2022,article,684,True,borderline,1,core concept mentioned once | manual: metaverse and smart cities,exclude
 W2035184119,C13,landmarks,C13_landmarks,8,CityGML – Interoperable semantic 3D city models,2012,article,679,False,include,3,no abstract; core (and context) in title,include
@@ -8928,10 +8928,10 @@ W2140083708,C14,landmarks,C14_landmarks,5,Cohort Profile: Africa Centre Demograp
 W1506884483,C14,landmarks,C14_landmarks,6,A Market-Oriented Strategy for Small and Medium Scale Enterprises,2000,book,367,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3016560194,C14,landmarks,C14_landmarks,7,Sex and Gender Disparities in the COVID-19 Pandemic,2020,article,306,True,exclude,0,primary topic field Medicine,exclude
 W4224940414,C14,landmarks,C14_landmarks,8,Unlocking digital technologies for waste recycling in Industry 4.0 era: A transformation towards a digitalization-based circular economy in Indonesia,2022,article,284,False,exclude,0,core concept missing,exclude
-W2277885973,C14,landmarks,C14_landmarks,9,Health & Demographic Surveillance System Profile: The Nairobi Urban Health and Demographic Surveillance System (NUHDSS),2015,article,202,True,include,2,rules,include
+W2277885973,C14,landmarks,C14_landmarks,9,Health & Demographic Surveillance System Profile: The Nairobi Urban Health and Demographic Surveillance System (NUHDSS),2015,article,202,True,include,2,"rules | manual override: health and demographic surveillance profile, not digital",exclude
 W2016538856,C14,landmarks,C14_landmarks,10,Topographic controls of landslides in Rio de Janeiro: field evidence and modeling,2003,article,201,False,exclude,0,core concept missing,exclude
 W603560121,C14,landmarks,C14_landmarks,11,The human economy : a citizen's guide,2010,book,168,True,borderline,1,core concept mentioned once | manual: human economy guide,exclude
-W1989441503,C14,landmarks,C14_landmarks,12,"Overview of migration, poverty and health dynamics in Nairobi City's slum settlements",2011,article,160,True,include,6,rules,include
+W1989441503,C14,landmarks,C14_landmarks,12,"Overview of migration, poverty and health dynamics in Nairobi City's slum settlements",2011,article,160,True,include,6,"rules | manual override: migration and health in slums, not digital",exclude
 W2137993262,C14,landmarks,C14_landmarks,13,"The 2005 census and mapping of slums in Bangladesh: design, select results and application",2009,article,138,True,borderline,6,flag: \b(satellite imagery|segmentation|deep l | manual: slum census and mapping (not digital systems),exclude
 W3125981973,C14,landmarks,C14_landmarks,14,Everyone a Changemaker: Social Entrepreneurship's Ultimate Goal,2006,article,135,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3033760335,C14,landmarks,C14_landmarks,15,The effect of exposure to long working hours on depression: A systematic review and meta-analysis from the WHO/ILO Joint Estimates of the Work-related Burden of Disease and Injury,2021,review,131,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
@@ -8945,7 +8945,7 @@ W3119535227,C14,landmarks,C14_landmarks,22,COVID-19 pandemic exposes the vulnera
 W2002987263,C14,landmarks,C14_landmarks,23,A probabilistic model for residential growth,1968,article,103,False,exclude,0,core concept missing,exclude
 W1608794736,C14,landmarks,C14_landmarks,24,Occupational health hazards related to informal recycling of E-waste in India: An overview,2015,article,100,True,include,2,rules,include
 W2162834759,C14,landmarks,C14_landmarks,25,Towards a strategy for control of suburban informal buildings through automatic change detection,2008,article,100,False,exclude,0,core concept missing,exclude
-W3021440196,C14,landmarks,C14_landmarks,26,"The Nairobi Urban Health and Demographic Surveillance of slum dwellers, 2002–2019: Value, processes, and challenges",2020,article,97,True,include,6,rules,include
+W3021440196,C14,landmarks,C14_landmarks,26,"The Nairobi Urban Health and Demographic Surveillance of slum dwellers, 2002–2019: Value, processes, and challenges",2020,article,97,True,include,6,"rules | manual override: health and demographic surveillance, not digital",exclude
 W3188429821,C14,landmarks,C14_landmarks,27,Leveraging digital technologies to boost productivity in the informal sector in Sub‐Saharan Africa,2021,article,96,True,include,6,rules,include
 W3117791707,C14,landmarks,C14_landmarks,28,The future of work in Africa: harnessing the potential of digital technologies for all,2020,article,94,True,borderline,1,core concept mentioned once | manual: future of work in Africa report,exclude
 W3093158203,C14,landmarks,C14_landmarks,29,Growing and Eating Food during the COVID-19 Pandemic: Farmers’ Perspectives on Local Food System Resilience to Shocks in Southern Africa and Indonesia,2020,article,89,True,exclude,0,primary topic field Agricultural and Biological Sciences | manual override: food systems in COVID,exclude
@@ -9606,8 +9606,8 @@ W2945207391,C17,india,C17_india_q4,2,A COMPARATIVE STUDY ON PREVENTIVE MEASURES 
 W4412570243,C17,india,C17_india_q4,3,"Digital Crime in Bihar: Trends, Case Studies, and District-Wise Vulnerability Analysis in the Age of Expanding Connectivity",2025,article,0,True,include,3,rules,include
 W4417524327,C17,india,C17_india_q4,4,When the Firewall Fails: A Digital Wake-Up Call for Dermatology,2025,article,0,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W3135028703,C17,landmarks,C17_landmarks,1,"Machine Learning: Algorithms, Real-World Applications and Research Directions",2021,article,5467,False,exclude,0,core concept missing,exclude
-W2125363721,C17,landmarks,C17_landmarks,2,The Nucleolus of a Characteristic Function Game,1969,article,1904,True,exclude,0,core concept missing,exclude
-W2062132646,C17,landmarks,C17_landmarks,3,Secure Estimation and Control for Cyber-Physical Systems Under Adversarial Attacks,2014,article,1312,True,include,3,rules,include
+W2125363721,C17,landmarks,C17_landmarks,2,The Nucleolus of a Characteristic Function Game,1969,article,1904,True,exclude,0,"core concept missing | manual override: game theory, off-topic",exclude
+W2062132646,C17,landmarks,C17_landmarks,3,Secure Estimation and Control for Cyber-Physical Systems Under Adversarial Attacks,2014,article,1312,True,include,3,"rules | manual override: control theory for cyber-physical systems, technical",exclude
 W4225716729,C17,landmarks,C17_landmarks,4,"AI-Based Modeling: Techniques, Applications and Research Issues Towards Automation, Intelligent and Smart Systems",2022,article,1183,True,borderline,1,core concept mentioned once | manual: AI modelling review,exclude
 W2762155482,C17,landmarks,C17_landmarks,5,A survey on security control and attack detection for industrial cyber-physical systems,2017,article,955,False,exclude,3,no abstract; no urban context (C theme),exclude
 W2568808500,C17,landmarks,C17_landmarks,6,"IoT Considerations, Requirements, and Architectures for Smart Buildings—Energy Optimization and Next-Generation Building Management Systems",2017,article,879,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -9637,15 +9637,15 @@ W2307544986,C17,landmarks,C17_landmarks,29,Building Energy Management Systems: T
 W2662852151,C17,landmarks,C17_landmarks,30,An urban ecology critique on the “Smart City” model,2017,article,225,False,exclude,0,core concept missing,exclude
 W3146760956,C17,landmarks,C17_landmarks,31,"Machine Learning: Algorithms, Real-World Applications and Research Directions",2021,preprint,220,True,exclude,2,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W4285058242,C17,landmarks,C17_landmarks,32,“Why Should I Trust Your IDS?”: An Explainable Deep Learning Framework for Intrusion Detection Systems in Internet of Things Networks,2022,article,219,True,exclude,3,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
-W3134447585,C17,landmarks,C17_landmarks,33,Quantum-Inspired Blockchain-Based Cybersecurity: Securing Smart Edge Utilities in IoT-Based Smart Cities,2021,article,209,False,include,3,no abstract; core (and context) in title,include
+W3134447585,C17,landmarks,C17_landmarks,33,Quantum-Inspired Blockchain-Based Cybersecurity: Securing Smart Edge Utilities in IoT-Based Smart Cities,2021,article,209,False,include,3,"no abstract; core (and context) in title | manual override: blockchain cybersecurity engineering, technical",exclude
 W2471979706,C17,landmarks,C17_landmarks,34,Smart Cities as Cyber-Physical Social Systems,2016,article,209,True,include,4,rules,include
 W3027090184,C17,landmarks,C17_landmarks,35,A deep learning-based IoT-oriented infrastructure for secure smart City,2020,article,206,False,exclude,0,core concept missing,exclude
 W2916623023,C17,landmarks,C17_landmarks,36,Cyber threats confronting the digital built environment,2019,article,198,True,include,6,rules,include
 W4366415335,C17,landmarks,C17_landmarks,37,Analysis of IoT Security Challenges and Its Solutions Using Artificial Intelligence,2023,article,197,True,exclude,3,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W4293093536,C17,landmarks,C17_landmarks,38,Towards the Development of a Realistic Multidimensional IoT Profiling Dataset,2022,conference-paper,197,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2062973696,C17,landmarks,C17_landmarks,39,Robust and resilient control design for cyber-physical systems with an application to power systems,2011,conference-paper,195,True,include,4,rules,include
+W2062973696,C17,landmarks,C17_landmarks,39,Robust and resilient control design for cyber-physical systems with an application to power systems,2011,conference-paper,195,True,include,4,"rules | manual override: control design for cyber-physical systems, technical",exclude
 W3094282626,C17,landmarks,C17_landmarks,40,Exploring expert perceptions about the cyber security and privacy of Connected and Autonomous Vehicles: A thematic analysis approach,2020,article,192,True,include,6,rules,include
-W4282939159,C17,landmarks,C17_landmarks,41,Resilience in healthcare systems: Cyber security and digital transformation,2022,article,187,True,include,5,rules,include
+W4282939159,C17,landmarks,C17_landmarks,41,Resilience in healthcare systems: Cyber security and digital transformation,2022,article,187,True,include,5,"rules | manual override: healthcare-system cyber resilience, not urban",exclude
 W3197810240,C17,landmarks,C17_landmarks,42,"Smart city and cyber-security; technologies used, leading challenges and future recommendations",2021,article,187,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: smart city and cyber-security challenges (review; flag false positive),include
 W4402350084,C17,landmarks,C17_landmarks,43,Artificial intelligence for enhancing resilience,2024,article,186,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W3112343206,C17,landmarks,C17_landmarks,44,Cyberattacks Detection in IoT-Based Smart City Applications Using Machine Learning Techniques,2020,article,186,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: ML cyberattack detection,exclude
@@ -10827,7 +10827,7 @@ W2210338402,C4,india,C4_india_q4,3,Breathing smarter: A critical look at represe
 W4210373029,C4,india,C4_india_q4,4,CoSMiC - Common SMart iot Connectiv oneM2M Common Service Platform for Intelligent Transportation System,2021,conference-paper,1,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7166725483,C4,india,C4_india_q4,5,Valuation of Sustainable Practices for Solid Waste ManagementThrough Time-series Forecasting Model using ARIMA,2026,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4387148366,C4,india,C4_india_q4,6,Index,2023,paratext,0,True,exclude,0,type paratext,exclude
-W2031753087,C4,landmarks,C4_landmarks,1,"Fractional Brownian Motions, Fractional Noises and Applications",1968,article,7815,True,include,2,rules,include
+W2031753087,C4,landmarks,C4_landmarks,1,"Fractional Brownian Motions, Fractional Noises and Applications",1968,article,7815,True,include,2,"rules | manual override: mathematics (fractional Brownian motion), off-topic",exclude
 W3125866593,C4,landmarks,C4_landmarks,2,The real-time city? Big data and smart urbanism,2013,article,2611,False,include,3,no abstract; core (and context) in title,include
 W564943520,C4,landmarks,C4_landmarks,3,"Smart cities: big data, civic hackers, and the quest for a new utopia",2014,book-review,1600,True,exclude,0,type book-review,exclude
 W2594141822,C4,landmarks,C4_landmarks,4,Smart sustainable cities of the future: An extensive interdisciplinary literature review,2017,article,1590,False,exclude,0,core concept missing,exclude
@@ -10852,7 +10852,7 @@ W4388936714,C4,landmarks,C4_landmarks,22,Spatio-Temporal Graph Neural Networks f
 W3120064844,C4,landmarks,C4_landmarks,23,A digital twin smart city for citizen feedback,2021,article,544,False,exclude,0,core concept missing,exclude
 W2021651899,C4,landmarks,C4_landmarks,24,Proceedings of the 2014 ACM SIGMOD International Conference on Management of Data,2014,paratext,542,True,exclude,0,type paratext,exclude
 W2001414066,C4,landmarks,C4_landmarks,25,Random Matrices in Physics,1967,article,541,True,exclude,0,primary topic field Mathematics,exclude
-W2026589647,C4,landmarks,C4_landmarks,26,Heuristic Methods for Location-Allocation Problems,1964,article,537,True,include,2,rules,include
+W2026589647,C4,landmarks,C4_landmarks,26,Heuristic Methods for Location-Allocation Problems,1964,article,537,True,include,2,"rules | manual override: operations research location-allocation heuristics, off-topic",exclude
 W2101823987,C4,landmarks,C4_landmarks,27,Urban computing with taxicabs,2011,conference-paper,532,True,include,4,rules,include
 W2534538876,C4,landmarks,C4_landmarks,28,Sensing spatial distribution of urban land use by integrating points-of-interest and Google Word2Vec model,2016,article,490,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2094791001,C4,landmarks,C4_landmarks,29,The International Classification of Diseases: Ninth Revision (ICD-9),1978,article,488,True,include,3,rules,include
@@ -11083,7 +11083,7 @@ W4230888828,C5,landmarks,C5_landmarks,14,Evaluating the impact of development pr
 W2883861872,C5,landmarks,C5_landmarks,15,Smart City Planning from an Evolutionary Perspective,2018,article,191,True,borderline,1,core concept mentioned once | manual: smart city planning evolution,exclude
 W1565939565,C5,landmarks,C5_landmarks,16,"Smart government, citizen participation and open data",2014,article,187,True,include,4,rules,include
 W2730157627,C5,landmarks,C5_landmarks,17,An Open Framework for Participatory PM2.5 Monitoring in Smart Cities,2017,article,184,True,borderline,1,core concept mentioned once | manual: participatory PM2.5 monitoring framework,exclude
-W2996562872,C5,landmarks,C5_landmarks,18,A Balance Interface Design and Instant Image-based Traffic Assistant Agent Based on GPS and Linked Open Data Technology,2019,article,171,True,include,5,rules,include
+W2996562872,C5,landmarks,C5_landmarks,18,A Balance Interface Design and Instant Image-based Traffic Assistant Agent Based on GPS and Linked Open Data Technology,2019,article,171,True,include,5,"rules | manual override: traffic-assistant interface design, technical build",exclude
 W4281385902,C5,landmarks,C5_landmarks,19,Smart city as a social transition towards inclusive development through technology: a tale of four smart cities,2022,article,166,True,borderline,1,core concept mentioned once | manual: data governance principles and inclusive smart cities (Portland etc.),include
 W2134533400,C5,landmarks,C5_landmarks,20,The changing privacy landscape in the era of big data,2012,article,164,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W3011640829,C5,landmarks,C5_landmarks,21,Blockchain-Enabled Information Sharing Within a Supply Chain: A Systematic Literature Review,2020,review,163,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -11313,7 +11313,7 @@ W7168327904,C6,india,C6_india_q4,15,Predictive Policing Meets Procedural Law,202
 W4389431336,C6,india,C6_india_q4,16,Building the case for restricted use of predictive policing tools in India,2022,article,1,True,exclude,6,context terms missing,exclude
 W3211931871,C6,india,C6_india_q4,17,Predictive Policing for Women’s Safety,2021,preprint,2,False,exclude,3,no abstract; no urban context (C theme),exclude
 W7161827765,C6,india,C6_india_q4,18,Machine Learning for Smart Policing,2026,book-chapter,0,True,exclude,6,context terms missing,exclude
-W2096343094,C6,landmarks,C6_landmarks,1,A System for Video Surveillance and Monitoring,2000,article,1243,True,include,5,rules,include
+W2096343094,C6,landmarks,C6_landmarks,1,A System for Video Surveillance and Monitoring,2000,article,1243,True,include,5,"rules | manual override: video-surveillance system engineering, technical build",exclude
 W3162173425,C6,landmarks,C6_landmarks,2,AI Ethics,2020,book,861,True,exclude,1,context terms missing,exclude
 W2753845591,C6,landmarks,C6_landmarks,3,Counterfactual Fairness,2017,preprint,841,True,exclude,1,context terms missing,exclude
 W2510508396,C6,landmarks,C6_landmarks,4,Algorithmic Transparency via Quantitative Input Influence: Theory and Experiments with Learning Systems,2016,conference-paper,722,True,exclude,1,context terms missing,exclude
@@ -11353,7 +11353,7 @@ W2307544986,C6,landmarks,C6_landmarks,37,Building Energy Management Systems: The
 W2026070736,C6,landmarks,C6_landmarks,38,"The Geography of Survival and the Right to the City: Speculations on Surveillance, Legal Innovation, and the Criminalization of Intervention",2009,article,245,True,include,5,rules,include
 W2336632514,C6,landmarks,C6_landmarks,39,"Living under surveillance: Gender, psychological distress, and stop-question-and-frisk policing in New York City",2016,article,243,False,include,3,no abstract; core (and context) in title,include
 W3111401847,C6,landmarks,C6_landmarks,40,Ground Control: Fear and Happiness in the Twenty-First-Century City,2009,book,237,True,borderline,1,"core concept mentioned once | manual: fear, privatised space and security in the 21st-century city",include
-W2806282362,C6,landmarks,C6_landmarks,41,Deep Spatio-Temporal Representation for Detection of Road Accidents Using Stacked Autoencoder,2018,article,227,True,include,3,rules,include
+W2806282362,C6,landmarks,C6_landmarks,41,Deep Spatio-Temporal Representation for Detection of Road Accidents Using Stacked Autoencoder,2018,article,227,True,include,3,"rules | manual override: computer vision for accident detection, technical build",exclude
 W1573130468,C6,landmarks,C6_landmarks,42,The spectrum of control: A social theory of the smart city,2015,article,224,True,include,3,rules,include
 W3094795122,C6,landmarks,C6_landmarks,43,Towards the sustainable development of smart cities through mass video surveillance: A response to the COVID-19 pandemic,2020,article,218,False,include,3,no abstract; core (and context) in title,include
 W2565786726,C6,landmarks,C6_landmarks,44,"Securing with algorithms: Knowledge, decision, sovereignty",2016,article,216,True,borderline,1,core concept mentioned once | manual: algorithmic security and sovereignty (B3/B4),exclude
@@ -11575,14 +11575,14 @@ W1990421122,C7,landmarks,C7_landmarks,15,A navigational guidance system in the h
 W2968617104,C7,landmarks,C7_landmarks,16,Diagnostic Accuracy of Community-Based Diabetic Retinopathy Screening With an Offline Artificial Intelligence System on a Smartphone,2019,article,231,True,exclude,0,primary topic field Medicine | manual override: retinal screening AI,exclude
 W3048427347,C7,landmarks,C7_landmarks,17,Smart Technology and the Emergence of Algorithmic Bureaucracy: Artificial Intelligence in UK Local Authorities,2020,article,208,True,include,6,rules,include
 W4403371192,C7,landmarks,C7_landmarks,18,"Leveraging generative AI for urban digital twins: a scoping review on the autonomous generation of urban data, scenarios, designs, and 3D city models for smart city advancement",2024,article,173,True,borderline,5,flag: \b(deep learning|neural network|convolut | manual: generative AI for urban digital twins (C13),exclude
-W2538901912,C7,landmarks,C7_landmarks,19,Food Insecurity Among American Indians and Alaska Natives: A National Profile Using the Current Population Survey–Food Security Supplement,2016,article,169,True,include,3,rules,include
+W2538901912,C7,landmarks,C7_landmarks,19,Food Insecurity Among American Indians and Alaska Natives: A National Profile Using the Current Population Survey–Food Security Supplement,2016,article,169,True,include,3,"rules | manual override: food insecurity health survey, off-topic",exclude
 W4388670073,C7,landmarks,C7_landmarks,20,The rise of AI urbanism in post-smart cities: A critical commentary on urban artificial intelligence,2023,editorial,165,True,exclude,0,type editorial,exclude
 W4205722992,C7,landmarks,C7_landmarks,21,Use of Artificial Intelligence in Smart Cities for Smart Decision-Making: A Social Innovation Perspective,2022,article,156,True,include,6,rules,include
 W2744676351,C7,landmarks,C7_landmarks,22,Algorithmic Transparency for the Smart City,2017,preprint,156,False,include,3,no abstract; core (and context) in title,include
 W4283018661,C7,landmarks,C7_landmarks,23,Multi-hazard susceptibility mapping based on Convolutional Neural Networks,2022,article,155,True,exclude,3,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W4376135829,C7,landmarks,C7_landmarks,24,Artificial intelligence in local government services: Public perceptions from Australia and Hong Kong,2023,article,144,False,include,3,no abstract; core (and context) in title,include
 W4389687853,C7,landmarks,C7_landmarks,25,3D printing in upcycling plastic and biomass waste to sustainable polymer blends and composites: A review,2023,article,142,True,exclude,2,"flag, core not in title: \b(solid waste|wastewater|leachate|ai/an",exclude
-W4398194538,C7,landmarks,C7_landmarks,26,Can artificial intelligence support creativity in early design processes?,2024,article,135,True,include,6,rules,include
+W4398194538,C7,landmarks,C7_landmarks,26,Can artificial intelligence support creativity in early design processes?,2024,article,135,True,include,6,"rules | manual override: AI in architectural design creativity, not urban governance",exclude
 W2563747155,C7,landmarks,C7_landmarks,27,Algorhythmic governance: Regulating the ‘heartbeat’ of a city using the Internet of Things,2017,article,134,True,include,2,rules,include
 W3093678459,C7,landmarks,C7_landmarks,28,Platform urbanism and the Chinese smart city: the co-production and territorialisation of Hangzhou City Brain,2020,article,128,False,include,3,no abstract; core (and context) in title,include
 W3215043243,C7,landmarks,C7_landmarks,29,"Artificial intelligence in local governments: perceptions of city managers on prospects, constraints and choices",2022,article,127,True,include,6,rules,include
@@ -12019,7 +12019,7 @@ W7118006460,C9,india,C9_india_q5,1,"Platform Urbanism and Culinary Logistics: Mo
 W7166827998,C9,india,C9_india_q5,2,"The accelerating scars of electric micromobility: Review of global injury patterns, electrical hazards and regulatory imperatives",2026,article,0,True,include,6,rules,include
 W7216525282,C9,india,C9_india_q5,3,Emerging Trends In Low-Emission Urban Transport: A Bibliometric Analysis Of Sustainable Mobility Technologies,2025,article,0,True,borderline,1,core concept mentioned once | manual: low-emission transport bibliometrics,exclude
 W4416914743,C9,india,C9_india_q5,4,Guest editorial: Sustainability management from a behavioral perspective in hospitality and tourism,2025,editorial,0,True,exclude,0,type editorial,exclude
-W2125363721,C9,landmarks,C9_landmarks,1,The Nucleolus of a Characteristic Function Game,1969,article,1904,True,include,3,rules,include
+W2125363721,C9,landmarks,C9_landmarks,1,The Nucleolus of a Characteristic Function Game,1969,article,1904,True,include,3,"rules | manual override: game theory, off-topic",exclude
 W3123909522,C9,landmarks,C9_landmarks,2,Graph neural network for traffic forecasting: A survey,2022,article,1328,False,exclude,0,core concept missing,exclude
 W4283077289,C9,landmarks,C9_landmarks,3,Extracting spatial effects from machine learning model using local interpretation method: An example of SHAP and XGBoost,2022,article,1204,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2133731173,C9,landmarks,C9_landmarks,4,"Just a better taxi? A survey-based comparison of taxis, transit, and ridesourcing services in San Francisco",2015,article,1134,False,include,3,no abstract; core (and context) in title,include
