@@ -6103,7 +6103,7 @@ W7165051523,B4,india,B4_india_q1,5,Algorithmic Governance and Constitutional Acc
 W3089327304,B4,india,B4_india_q1,6,Journalistic Practices and Algorithmic Governance,2020,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W7218161026,B4,india,B4_india_q1,7,"COLONIAL LEGACY TO ALGORITHMIC GOVERNANCE: LANGUAGE POLICY, POWER, AND AI IN PAKISTAN (1947–2025)",2025,article,0,True,include,6,rules,include
 W7159965190,B4,india,B4_india_q1,8,Algorithmic governance and surveillance federalism: transforming the digital state in India and ASEAN,2026,article,5,True,include,4,rules,include
-W7125494615,B4,india,B4_india_q1,9,Algorithmic Governance and Facial Recognition,2026,book-chapter,0,True,borderline,4,flag: \b(deep learning|neural network|convolut,pending
+W7125494615,B4,india,B4_india_q1,9,Algorithmic Governance and Facial Recognition,2026,book-chapter,0,True,borderline,4,flag: \b(deep learning|neural network|convolut | manual: facial recognition as algorithmic governance (flag false positive),include
 W7154735674,B4,india,B4_india_q1,10,Algorithmic Governance and the Rule of Law in India: Regulating Artificial Intelligence Beyond Automation,2026,article,1,True,include,6,rules,include
 W7125877520,B4,india,B4_india_q1,11,"Comparative Algorithmic Governance of Public Health Instruments across India, EU, US and LMICs",2026,preprint,0,True,include,6,rules,include
 W7164670412,B4,india,B4_india_q1,12,ALGORITHMIC GOVERNANCE AND CONSTITUTIONAL RIGHTS IN PAKISTAN: LEGAL IMPLICATIONS OF AI-BASED PUBLIC DECISION-MAKING,2026,article,0,False,include,3,no abstract; core (and context) in title,include
@@ -6141,12 +6141,12 @@ W7128539935,B4,india,B4_india_q3,7,Artificial Intelligence Impact on Teachers Pr
 W2963709920,B4,india,B4_india_q3,8,How and where is artificial intelligence in the public sector going? A literature review and research agenda,2019,article,499,False,include,3,no abstract; core (and context) in title,include
 W7117236901,B4,india,B4_india_q3,9,Ethical Considerations of Artificial Intelligence in Public Administration,2025,article,0,True,include,6,rules,include
 W7163924722,B4,india,B4_india_q3,10,Artificial Intelligence Trends and Developments in Indian Public Sector Banks: A Customer-Centric Perspective.,2026,article,0,True,include,6,rules,include
-W7196952108,B4,india,B4_india_q3,11,"Artificial Intelligence in Developing Countries: A Systematic Review of Cross-Sector Applications, Implementation Challenges in South Asian countries.",2026,review,0,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W7196952108,B4,india,B4_india_q3,11,"Artificial Intelligence in Developing Countries: A Systematic Review of Cross-Sector Applications, Implementation Challenges in South Asian countries.",2026,review,0,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: cross-sector AI applications review,exclude
 W7164936974,B4,india,B4_india_q3,12,Artificial Intelligence Enabled Decision Support System for Customer Satisfaction in Digitalised Indian Public Sector Banks,2025,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
 W7202115096,B4,india,B4_india_q3,13,Artificial Intelligence as a Catalyst for Strategic Human Resource Management in Indian Public Sector Enterprises,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
-W7213112498,B4,india,B4_india_q3,14,Artificial Intelligence in Developing Countries: A Systematic Review of Cross-Sector Applications and Implementation Challenges in South Asia,2026,review,0,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W7213112498,B4,india,B4_india_q3,14,Artificial Intelligence in Developing Countries: A Systematic Review of Cross-Sector Applications and Implementation Challenges in South Asia,2026,review,0,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: cross-sector AI applications review (duplicate),exclude
 W7208708130,B4,india,B4_india_q3,15,Artificial Intelligence in Banking: The Case of SBI Hyderabad,2026,article,0,True,include,6,rules,include
-W4407402944,B4,india,B4_india_q3,16,"Future pharmacy practitioners’ insights towards integration of artificial intelligence in healthcare education: Preliminary findings from Karachi, Pakistan",2025,article,11,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4407402944,B4,india,B4_india_q3,16,"Future pharmacy practitioners’ insights towards integration of artificial intelligence in healthcare education: Preliminary findings from Karachi, Pakistan",2025,article,11,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: pharmacy students' attitudes to AI,exclude
 W4414144539,B4,india,B4_india_q3,17,Enhancing Public Sector Efficiency in Pakistan by Integration of Artificial Intelligence (AI): Insights from The Republic of Estonia,2025,article,0,True,include,6,rules,include
 W7214182798,B4,india,B4_india_q3,18,Emotional Intelligence and Citizen Trust in Artificial Intelligence-Enabled Public Administration,2026,book-chapter,0,True,include,6,rules,include
 W4406392142,B4,india,B4_india_q4,1,A Framework for Algorithmic Accountability in India,2025,preprint,0,False,include,3,no abstract; core in title; context terms missing,include
@@ -6157,7 +6157,7 @@ W7169857980,B4,india,B4_india_q4,5,"ALGORITHMIC ACCOUNTABILITY IN PUBLIC ADMINIS
 W7170917243,B4,india,B4_india_q4,6,"ALGORITHMIC ACCOUNTABILITY IN PUBLIC ADMINISTRATION: GOVERNANCE, ADMINISTRATIVE JUSTICE, AND LEGAL CHALLENGES IN PAKISTAN",2025,article,0,False,include,3,no abstract; core (and context) in title,include
 W7220517511,B4,india,B4_india_q4,7,"ALGORITHMIC ACCOUNTABILITY IN PUBLIC ADMINISTRATION: GOVERNANCE, ADMINISTRATIVE JUSTICE, AND LEGAL CHALLENGES IN PAKISTAN",2025,article,0,True,include,6,rules,include
 W7208834690,B4,india,B4_india_q4,8,Algorithmic Accountability: Can AI Strengthen Good Governance in India Without Undermining It?,2024,article,0,True,include,6,rules,include
-W7105877115,B4,india,B4_india_q4,9,The Digital Welfare state in comparative perspective: the cases of Kenya and India,2025,article,0,True,borderline,4,stub abstract (possible book review),pending
+W7105877115,B4,india,B4_india_q4,9,The Digital Welfare state in comparative perspective: the cases of Kenya and India,2025,article,0,True,borderline,4,stub abstract (possible book review) | manual: digital welfare state: Kenya and India,include
 W7128661548,B4,india,B4_india_q4,10,Digital Food Assistance in India:Towards a Digital Welfare State,2025,report,0,True,include,3,rules,include
 W7205009836,B4,india,B4_india_q4,11,From Content Moderation to Algorithmic Accountability: Rethinking Social Media Platform Governance in India,2026,article,0,True,include,4,rules,include
 W7216535783,B4,india,B4_india_q4,12,Constitutional Limits on Automated Governance: An Article 21 Perspective on Algorithmic Accountability in India,2026,book-chapter,0,True,include,6,rules,include
@@ -6170,7 +6170,7 @@ W7219134937,B4,india,B4_india_q4,18,Beyond the Black Box: Algorithmic Accountabi
 W2953522645,B4,landmarks,B4_landmarks,1,The global landscape of AI ethics guidelines,2019,article,6047,False,include,3,no abstract; core in title; context terms missing,include
 W2969625533,B4,landmarks,B4_landmarks,2,"Artificial Intelligence (AI): Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",2019,article,4537,True,include,6,rules,include
 W1510672157,B4,landmarks,B4_landmarks,3,Models of Bounded Rationality,1997,book,4237,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W4386142022,B4,landmarks,B4_landmarks,4,Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence,2023,article,2070,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W4386142022,B4,landmarks,B4_landmarks,4,Interpreting Black-Box Models: A Review on Explainable Artificial Intelligence,2023,article,2070,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: explainable AI methods review,exclude
 W2575439561,B4,landmarks,B4_landmarks,5,Seeing without knowing: Limitations of the transparency ideal and its application to algorithmic accountability,2016,article,1815,True,include,4,rules,include
 W2884686506,B4,landmarks,B4_landmarks,6,Artificial Intelligence and the Public Sector—Applications and Challenges,2018,article,1313,True,include,6,rules,include
 W3124443940,B4,landmarks,B4_landmarks,7,Why a Right to Explanation of Automated Decision-Making Does Not Exist in the General Data Protection Regulation,2017,article,1283,True,include,5,rules,include
@@ -6178,7 +6178,7 @@ W2896833840,B4,landmarks,B4_landmarks,8,"Automating Inequality: How High-Tech To
 W2997468044,B4,landmarks,B4_landmarks,9,In AI we trust? Perceptions about automated decision-making by artificial intelligence,2020,article,1041,False,include,3,no abstract; core in title; context terms missing,include
 W2897312458,B4,landmarks,B4_landmarks,10,Mapping the challenges of Artificial Intelligence in the public sector: Evidence from public healthcare,2018,article,945,False,include,3,no abstract; core (and context) in title,include
 W2619503097,B4,landmarks,B4_landmarks,11,Algorithmic regulation: A critical interrogation,2017,article,811,True,include,6,rules,include
-W2888967035,B4,landmarks,B4_landmarks,12,Artificial intelligence (AI) and global health: how can AI contribute to health in resource-poor settings?,2018,article,807,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2888967035,B4,landmarks,B4_landmarks,12,Artificial intelligence (AI) and global health: how can AI contribute to health in resource-poor settings?,2018,article,807,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: AI and global health,exclude
 W3139363371,B4,landmarks,B4_landmarks,13,Implications of the use of artificial intelligence in public governance: A systematic literature review and a research agenda,2021,review,772,True,include,6,rules,include
 W2332851105,B4,landmarks,B4_landmarks,14,Algorithmic Accountability,2014,article,732,True,include,6,rules,include
 W2003569034,B4,landmarks,B4_landmarks,15,Algorithmic governmentality and prospects of emancipation,2013,article,684,True,include,6,rules,include
@@ -6186,9 +6186,9 @@ W2765204106,B4,landmarks,B4_landmarks,16,Counterfactual Explanations Without Ope
 W3049338919,B4,landmarks,B4_landmarks,17,Accountable Artificial Intelligence: Holding Algorithms to Account,2020,article,633,True,include,6,rules,include
 W3017195291,B4,landmarks,B4_landmarks,18,AI governance in the public sector: Three tales from the frontiers of automated decision-making in democratic settings,2020,article,605,False,include,3,no abstract; core (and context) in title,include
 W2896640274,B4,landmarks,B4_landmarks,19,Transforming the communication between citizens and government through AI-guided chatbots,2018,article,567,False,include,3,no abstract; core (and context) in title,include
-W3018302807,B4,landmarks,B4_landmarks,20,Digital transformation challenges: strategies emerging from a multi-stakeholder approach,2020,article,543,True,borderline,1,core concept mentioned once,pending
+W3018302807,B4,landmarks,B4_landmarks,20,Digital transformation challenges: strategies emerging from a multi-stakeholder approach,2020,article,543,True,borderline,1,core concept mentioned once | manual: digital transformation strategies,exclude
 W2242985385,B4,landmarks,B4_landmarks,21,"The Threat of Algocracy: Reality, Resistance and Accommodation",2016,article,519,False,exclude,0,core concept missing,exclude
-W2768879061,B4,landmarks,B4_landmarks,22,Meaningful information and the right to explanation,2017,article,503,True,borderline,3,context terms missing,pending
+W2768879061,B4,landmarks,B4_landmarks,22,Meaningful information and the right to explanation,2017,article,503,True,borderline,3,context terms missing | manual: right to explanation for automated decision-making (GDPR),include
 W2963709920,B4,landmarks,B4_landmarks,23,How and where is artificial intelligence in the public sector going? A literature review and research agenda,2019,article,499,False,include,3,no abstract; core (and context) in title,include
 W4304694200,B4,landmarks,B4_landmarks,24,AI adoption and diffusion in public administration: A systematic literature review and future research agenda,2022,review,469,True,include,6,rules,include
 W2899579542,B4,landmarks,B4_landmarks,25,A Right to Reasonable Inferences: Re-Thinking Data Protection Law in the Age of Big Data and AI,2018,preprint,463,True,include,6,rules,include
@@ -6210,14 +6210,14 @@ W3086290195,B4,landmarks,B4_landmarks,40,"Improving public services using artifi
 W2885351631,B4,landmarks,B4_landmarks,41,Algorithmic Government: Automating Public Services and Supporting Civil Servants in using Data Science Technologies,2018,article,290,True,include,3,rules,include
 W2358802965,B4,landmarks,B4_landmarks,42,"Speculative futures: Cities, data, and governance beyond smart urbanism",2016,article,286,True,include,3,rules,include
 W2885510848,B4,landmarks,B4_landmarks,43,Artificial intelligence for the public sector: opportunities and challenges of cross-sector collaboration,2018,article,281,True,include,6,rules,include
-W3145891727,B4,landmarks,B4_landmarks,44,Artificial intelligence in healthcare: opportunities and risk for future,2021,article,279,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3145891727,B4,landmarks,B4_landmarks,44,Artificial intelligence in healthcare: opportunities and risk for future,2021,article,279,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: AI in healthcare,exclude
 W2998255389,B4,landmarks,B4_landmarks,45,"Designing, developing, and deploying artificial intelligence systems: Lessons from and for the public sector",2019,article,272,False,include,3,no abstract; core (and context) in title,include
 W2808683479,B4,landmarks,B4_landmarks,46,"Big Data and AI – A transformational shift for government: So, what next for research?",2018,article,272,True,include,4,rules,include
 W3006864169,B4,landmarks,B4_landmarks,47,Governing Artificial Intelligence to benefit the UN Sustainable Development Goals,2020,article,264,True,include,6,rules,include
 W2890576255,B4,landmarks,B4_landmarks,48,Detecting racial bias in algorithms and machine learning,2018,article,263,True,include,6,rules,include
 W2809386502,B4,landmarks,B4_landmarks,49,Transparent to whom? No algorithmic accountability without a critical audience,2018,article,262,True,include,6,core in title; context terms missing,include
 W2907986389,B4,landmarks,B4_landmarks,50,Experiments in algorithmic governance,2017,book-chapter,260,True,include,4,rules,include
-W2269646235,B4,landmarks,B4_landmarks,51,"Who Benefits from the ""Sharing"" Economy of Airbnb?",2016,conference-paper,255,True,borderline,1,core concept mentioned once,pending
+W2269646235,B4,landmarks,B4_landmarks,51,"Who Benefits from the ""Sharing"" Economy of Airbnb?",2016,conference-paper,255,True,borderline,1,core concept mentioned once | manual: Airbnb sharing economy (C10),exclude
 W2811973125,B4,landmarks,B4_landmarks,52,Algorithms that remember: model inversion attacks and data protection law,2018,article,254,True,include,6,rules,include
 W4211248349,B4,landmarks,B4_landmarks,53,Explaining Why the Computer Says No: Algorithmic Transparency Affects the Perceived Trustworthiness of Automated Decision‐Making,2022,article,247,True,include,6,rules,include
 W2982172486,B4,landmarks,B4_landmarks,54,Artificial Discretion as a Tool of Governance: A Framework for Understanding the Impact of Artificial Intelligence on Public Administration,2019,article,247,True,include,6,rules,include
@@ -6235,15 +6235,15 @@ W3048427347,B4,landmarks,B4_landmarks,65,Smart Technology and the Emergence of A
 W3199891316,B4,landmarks,B4_landmarks,66,Data intelligence and analytics: A bibliometric analysis of human–Artificial intelligence in public sector decision-making effectiveness,2021,article,207,False,include,3,no abstract; core (and context) in title,include
 W2942227409,B4,landmarks,B4_landmarks,67,Toward Algorithmic Accountability in Public Services,2019,conference-paper,204,True,include,6,rules,include
 W2887752602,B4,landmarks,B4_landmarks,68,Public Administration Challenges in the World of AI and Bots,2018,article,204,True,include,5,rules,include
-W4407389811,B4,landmarks,B4_landmarks,69,Integrating Artificial Intelligence Agents with the Internet of Things for Enhanced Environmental Monitoring: Applications in Water Quality and Climate Data,2025,article,199,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
-W3201168013,B4,landmarks,B4_landmarks,70,Are emerging technologies helping win the fight against corruption? A review of the state of evidence,2021,article,198,True,borderline,1,core concept mentioned once,pending
+W4407389811,B4,landmarks,B4_landmarks,69,Integrating Artificial Intelligence Agents with the Internet of Things for Enhanced Environmental Monitoring: Applications in Water Quality and Climate Data,2025,article,199,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: AI-IoT environmental monitoring,exclude
+W3201168013,B4,landmarks,B4_landmarks,70,Are emerging technologies helping win the fight against corruption? A review of the state of evidence,2021,article,198,True,borderline,1,core concept mentioned once | manual: emerging technologies (incl. AI) against corruption in government,include
 W2529670628,B4,landmarks,B4_landmarks,71,Disparate Impact in Big Data Policing,2017,preprint,194,False,exclude,0,core concept missing,exclude
 W4226429363,B4,landmarks,B4_landmarks,72,Artificial intelligence in public services: When and why citizens accept its usage,2022,article,193,True,include,6,rules,include
 W4283168787,B4,landmarks,B4_landmarks,73,Who Audits the Auditors? Recommendations from a field scan of the algorithmic auditing ecosystem,2022,conference-paper,191,True,include,3,rules,include
 W4407087968,B4,landmarks,B4_landmarks,74,Governance of Generative AI,2025,article,188,True,include,6,rules,include
 W2940105172,B4,landmarks,B4_landmarks,75,INTERNATIONAL HUMAN RIGHTS LAW AS A FRAMEWORK FOR ALGORITHMIC ACCOUNTABILITY,2019,article,188,True,include,6,core in title; context terms missing,include
 W4221062828,B4,landmarks,B4_landmarks,76,Governance of artificial intelligence: A risk and guideline-based integrative framework,2022,article,187,False,include,3,no abstract; core (and context) in title,include
-W3105362007,B4,landmarks,B4_landmarks,77,Algorithmic governance: A modes of governance approach,2020,article,183,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3105362007,B4,landmarks,B4_landmarks,77,Algorithmic governance: A modes of governance approach,2020,article,183,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: algorithmic governance: modes of governance (flag false positive),include
 W2990856437,B4,landmarks,B4_landmarks,78,What is the State of Artificial Intelligence Governance Globally?,2019,article,183,True,include,6,rules,include
 W4412013201,B4,landmarks,B4_landmarks,79,Exploring automation bias in human–AI collaboration: a review and implications for explainable AI,2025,article,182,True,include,6,rules,include
 W2961264687,B4,landmarks,B4_landmarks,80,Dissecting the Algorithmic Leviathan: On the Socio-Political Anatomy of Algorithmic Governance,2019,article,181,False,include,3,no abstract; core (and context) in title,include
@@ -6261,10 +6261,10 @@ W4392976364,B4,landmarks,B4_landmarks,91,Large Language Models and User Trust: C
 W4383102774,B4,landmarks,B4_landmarks,92,Implementing AI in the public sector,2023,article,158,True,include,6,rules,include
 W2744676351,B4,landmarks,B4_landmarks,93,Algorithmic Transparency for the Smart City,2017,preprint,156,False,exclude,0,core concept missing,exclude
 W4408809998,B4,landmarks,B4_landmarks,94,Digital Transformation and Social Inclusion in Public Services: A Qualitative Analysis of E-Government Adoption for Marginalized Communities in Sustainable Governance,2025,article,155,True,exclude,2,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
-W2906180434,B4,landmarks,B4_landmarks,95,When Ostrom Meets Blockchain: Exploring the Potentials of Blockchain for Commons Governance,2021,article,152,True,borderline,1,core concept mentioned once,pending
+W2906180434,B4,landmarks,B4_landmarks,95,When Ostrom Meets Blockchain: Exploring the Potentials of Blockchain for Commons Governance,2021,article,152,True,borderline,1,core concept mentioned once | manual: blockchain and commons governance,exclude
 W4387025480,B4,landmarks,B4_landmarks,96,"Data science, artificial intelligence and the third wave of digital era governance",2023,article,151,True,include,4,rules,include
 W3001754608,B4,landmarks,B4_landmarks,97,Toward situated interventions for algorithmic equity,2020,conference-paper,151,True,include,2,rules,include
-W1574597499,B4,landmarks,B4_landmarks,98,Public Personnel Management: Contexts and Strategies,1980,article,147,True,borderline,1,core concept mentioned once,pending
+W1574597499,B4,landmarks,B4_landmarks,98,Public Personnel Management: Contexts and Strategies,1980,article,147,True,borderline,1,core concept mentioned once | manual: public personnel management textbook,exclude
 W4234388913,B4,landmarks,B4_landmarks,99,Algorithmic Regulation,2019,book,146,True,include,6,rules,include
 W4388793542,B4,landmarks,B4_landmarks,100,Organizing public sector AI adoption: Navigating between separation and integration,2023,article,143,True,include,6,rules,include
 W4366816974,B4,recent,B4_recent_q1,1,Algorithmic governmentality: questions of method,2023,book-chapter,6,True,include,6,rules,include
@@ -6316,7 +6316,7 @@ W4417295831,B4,recent,B4_recent_q3,10,Digital Era of Public Administration: Usin
 W7213993606,B4,recent,B4_recent_q3,11,Artificial Intelligence in Public Administration,2025,conference-paper,0,True,include,6,rules,include
 W7136332224,B4,recent,B4_recent_q3,12,Artificial Intelligence in Public Administration,2023,article,0,False,include,3,no abstract; core (and context) in title,include
 W4281916887,B4,recent,B4_recent_q3,13,When artificial intelligence meets real public administration,2022,article,20,False,include,3,no abstract; core (and context) in title,include
-W7199175306,B4,recent,B4_recent_q3,14,Features of artificial intelligence implementation in public administration : opportunities and challenges for modernizing public services,2024,dissertation,0,True,borderline,3,stub abstract (possible book review),pending
+W7199175306,B4,recent,B4_recent_q3,14,Features of artificial intelligence implementation in public administration : opportunities and challenges for modernizing public services,2024,dissertation,0,True,borderline,3,stub abstract (possible book review) | manual: AI implementation in public administration (thesis),include
 W4405448422,B4,recent,B4_recent_q3,15,Leveraging Artificial Intelligence for Public Sector Decision-Making: Balancing Accountability and Efficiency in Digital Public Services,2024,article,6,True,include,6,rules,include
 W4381571476,B4,recent,B4_recent_q3,16,The new trends of digital transformation and artificial intelligence in public administration,2023,article,78,True,include,6,rules,include
 W4282001993,B4,recent,B4_recent_q3,17,Artificial intelligence in the public sector,2022,article,6,True,include,6,rules,include
@@ -6331,7 +6331,7 @@ W4389426353,B4,recent,B4_recent_q4,7,System failure in the digital welfare state
 W4207056988,B4,recent,B4_recent_q4,8,Artountability: Art and Algorithmic Accountability,2022,book-chapter,1,False,include,3,no abstract; core in title; context terms missing,include
 W4280596242,B4,recent,B4_recent_q4,9,How Platform-User Power Relations Shape Algorithmic Accountability,2022,conference-paper,47,True,include,6,rules,include
 W4402406543,B4,recent,B4_recent_q4,10,Algorithmic Accountability for Record Linkage,2024,article,0,True,include,6,rules,include
-W7154973823,B4,recent,B4_recent_q4,11,"Bias, Fairness and Algorithmic Accountability",2026,book-chapter,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7154973823,B4,recent,B4_recent_q4,11,"Bias, Fairness and Algorithmic Accountability",2026,book-chapter,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: algorithmic accountability in clinical AI,exclude
 W7171818368,B4,recent,B4_recent_q4,12,Algorithmic Accountability Self-Efficacy (AAS),2026,preprint,0,True,include,6,rules,include
 W4285121880,B4,recent,B4_recent_q4,13,Algorithmic Accountability in the Judiciary,2022,preprint,0,False,include,3,no abstract; core in title; context terms missing,include
 W7166833741,B4,recent,B4_recent_q4,14,Algorithmic Accountability in Greenwashing Detection,2026,book-chapter,0,True,include,4,rules,include
@@ -6394,27 +6394,27 @@ W2971834657,B5,india,B5_india_q1,2,“Governtrepreneurism” for good governance
 W7167943279,B5,india,B5_india_q1,3,India Stack as Digital Public Infrastructure: A Strategic and Empirical Analysis of Financial Inclusion,2026,article,0,True,include,6,rules,include
 W7204933344,B5,india,B5_india_q1,4,Digital Public Infrastructure and Inclusive Digital Transformation in Indonesia: Insights from India Stack,2026,book-chapter,0,False,include,3,"no abstract; core (and context) in title | manual override: DPI, Indonesia",include
 W7117969054,B5,india,B5_india_q1,5,Digital Public Infrastructure as a Driver of Innovation: Global Lessons from the India Stack Experience,2026,conference-paper,0,False,include,3,no abstract; core (and context) in title | manual override: India Stack / DPI,include
-W2069308389,B5,india,B5_india_q1,6,Denture identification using unique identification authority of India barcode,2013,article,21,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2069308389,B5,india,B5_india_q1,6,Denture identification using unique identification authority of India barcode,2013,article,21,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: denture marking with Aadhaar barcode (forensic dentistry),exclude
 W7220260751,B5,india,B5_india_q1,7,"Evaluating the Role of India Stack in Enhancing Financial Inclusion: A Case Study of UPI and Aadhaar-enabled Services in Delhi, India",2026,dissertation,0,True,include,6,rules,include
 W7204199979,B5,india,B5_india_q1,8,Digital Public Infrastructure and Evidence-Based Governance: Aadhaar and Direct Benefit Transfer (DBT) in Contemporary India,2026,article,0,True,include,6,rules,include
 W4410529445,B5,india,B5_india_q1,9,India Stack,2025,book-chapter,0,True,include,6,rules,include
 W7204175336,B5,india,B5_india_q1,10,Digital Public Infrastructure and Evidence-Based Governance: Aadhaar and Direct Benefit Transfer (DBT) in Contemporary India,2026,article,0,True,include,6,rules,include
 W7162573878,B5,india,B5_india_q1,11,"Digital Public Infrastructure and Economic Stability in India: Evidence from UPI, Aadhaar and Direct Benefit Transfers",2026,article,0,True,include,6,rules,include
-W2891802581,B5,india,B5_india_q1,12,"On outrageous lies, collective fears and hopeless dreams of Unique Identification Authority of India (UIDAI) – South Asia Citizens Web",2020,article,1,True,borderline,4,stub abstract (possible book review),pending
+W2891802581,B5,india,B5_india_q1,12,"On outrageous lies, collective fears and hopeless dreams of Unique Identification Authority of India (UIDAI) – South Asia Citizens Web",2020,article,1,True,borderline,4,stub abstract (possible book review) | manual: opinion piece on UIDAI (news aggregator),exclude
 W2981899549,B5,india,B5_india_q1,13,India stack---digital infrastructure as public good,2019,article,48,True,include,4,rules,include
 W3129491426,B5,india,B5_india_q1,14,Aadhaar: Uniquely Indian Dystopia?,2019,article,4,True,include,6,rules,include
 W7203774200,B5,india,B5_india_q1,15,DIGITAL PUBLIC INFRASTRUCTURE AND CREDIT ACCESS FOR MICRO ENTERPRISES IN SOUTH ASIA,2026,article,0,True,include,5,rules,include
 W7155510116,B5,india,B5_india_q1,16,"Digital Public Infrastructure (UPI, Aadhaar) and Entrepreneurship Growth in India: A Case-Based Macroeconomic and Structural Analysis",2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
-W3003790684,B5,india,B5_india_q1,17,"India: NRC, NPR, Aadhaar are part of huge surveillance plan – South Asia Citizens Web",2020,article,0,True,borderline,6,stub abstract (possible book review),pending
+W3003790684,B5,india,B5_india_q1,17,"India: NRC, NPR, Aadhaar are part of huge surveillance plan – South Asia Citizens Web",2020,article,0,True,borderline,6,stub abstract (possible book review) | manual: news item on NRC/NPR/Aadhaar,exclude
 W3089967548,B5,india,B5_india_q1,18,Unique Identification Authority of India BOT: An Intelligent Application Using Artificial Intelligence Approach,2020,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W7212031922,B5,india,B5_india_q1,19,Artificial Intelligence in India's Digital Public Infrastructure: An Economic Analysis of Aadhaar and UPI-Based Financial Inclusion,2026,article,0,True,include,6,rules,include
 W2542232302,B5,india,B5_india_q1,20,Online voting system for India based on AADHAAR ID,2013,conference-paper,78,True,include,3,rules,include
 W7113668216,B5,india,B5_india_q1,21,India-ASEAN Cooperation: Pilot Study on Digital Public Infrastructure Collaboration,,book,0,True,include,6,rules,include
 W7213501486,B5,india,B5_india_q1,22,"Dreamy Stacks: Digital Public Infrastructure, Futurity, and Failure in Startup India",2026,article,0,True,include,6,rules,include
-W7125412706,B5,india,B5_india_q1,23,Securing Digital Public Infrastructure in India Through Decentralized Identity Models,2026,book-chapter,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7125412706,B5,india,B5_india_q1,23,Securing Digital Public Infrastructure in India Through Decentralized Identity Models,2026,book-chapter,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: decentralised identity technical model,exclude
 W2899752787,B5,india,B5_india_q1,24,"India: Aadhaar Unmasked - The UID Number and Threat of exclusion, and of surveillance – South Asia Citizens Web",2020,article,0,False,include,3,no abstract; core (and context) in title | manual override: Aadhaar exclusion and surveillance,include
 W2077111650,B5,india,B5_india_q2,1,"Online privacy, government surveillance and national ID cards",2009,article,20,True,include,5,rules,include
-W2901531498,B5,india,B5_india_q2,2,National ID Cards: In the Interest of Surveillance? – South Asia Citizens Web,2020,article,0,True,borderline,3,stub abstract (possible book review),pending
+W2901531498,B5,india,B5_india_q2,2,National ID Cards: In the Interest of Surveillance? – South Asia Citizens Web,2020,article,0,True,borderline,3,stub abstract (possible book review) | manual: news item on national ID cards,exclude
 W2903825505,B5,india,B5_india_q2,3,Identity cards and identity conflicts: a cross-national analysis of national ID cards and the lessons for Afghanistan,2018,article,5,True,include,6,rules,include
 W2897617551,B5,india,B5_india_q2,4,Performing the Afghanistan–Pakistan Border Through Refugee ID Cards,2018,article,33,True,include,5,rules,include
 W4410529574,B5,india,B5_india_q2,5,Infrastructures for Financial Inclusion in South Asia,2025,book-chapter,0,True,include,3,rules,include
@@ -6432,7 +6432,7 @@ W4298881492,B5,india,B5_india_q2,16,Universal National Identity Card (Unid) And 
 W2998300106,B5,india,B5_india_q2,17,Realizing digital identity in government: Prioritizing design and implementation objectives for Aadhaar in India,2019,article,94,False,include,3,no abstract; core (and context) in title | manual override: digital identity in government,include
 W3088797986,B5,india,B5_india_q2,18,UNIVERSAL NATIONAL IDENTITY CARD (UNID) AND ITS MODERNIZATION ON THE CONTEXT OF DIGITAL BANGLADESH,2018,article,0,True,include,5,rules,include
 W7154692186,B5,india,B5_india_q2,19,GOVBOT INDIA - AI-POWERED GOVERNMENT WELFARE SCHEME ASSISTANT FOR EVERY INDIAN CITIZEN,2026,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2775158321,B5,india,B5_india_q2,20,"Cards and carriers: migration, identification and surveillance in Kerala, South India",2017,article,29,True,borderline,1,core concept mentioned once,pending
+W2775158321,B5,india,B5_india_q2,20,"Cards and carriers: migration, identification and surveillance in Kerala, South India",2017,article,29,True,borderline,1,"core concept mentioned once | manual: identity cards, migration and surveillance in Kerala",include
 W3201984000,B5,india,B5_india_q2,21,Digital Identity in India,2021,book-chapter,5,False,include,3,no abstract; core (and context) in title | manual override: digital identity in India,include
 W3036785804,B5,india,B5_india_q2,22,Digital Identity and Exclusion in Welfare,2020,conference-paper,11,True,include,6,rules,include
 W7202356086,B5,india,B5_india_q2,23,Digital Identity and Women's Welfare Access,2026,book-chapter,0,True,include,6,rules,include
@@ -6443,10 +6443,10 @@ W4295007358,B5,india,B5_india_q3,3,Digital Public Services: The Development of B
 W2979994823,B5,india,B5_india_q3,4,Aadhaar and data privacy: biometric identification and anxieties of recognition in India,2019,article,48,True,include,6,rules,include
 W7110600304,B5,india,B5_india_q3,5,Integrating Biometric Authentication in India's Welfare Programs: Lessons from a Decade of Reforms,,article,0,True,include,6,rules,include
 W3132295091,B5,india,B5_india_q3,6,Biometric Identification Systems for Welfare Distributions: A Case Study of Aadhaar,2020,dissertation,0,True,include,6,rules,include
-W7211875750,B5,india,B5_india_q3,7,UNDERSTANDING BENEFICIARY EXPERIENCE AT FAIR PRICE SHOPS UNDER PUBLIC DISTRIBUTION SYSTEM: EVIDENCE FROM HARYANA,2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7211875750,B5,india,B5_india_q3,7,UNDERSTANDING BENEFICIARY EXPERIENCE AT FAIR PRICE SHOPS UNDER PUBLIC DISTRIBUTION SYSTEM: EVIDENCE FROM HARYANA,2026,article,0,True,borderline,1,"core concept mentioned once | manual: PDS beneficiaries and biometric authentication, Haryana",include
 W7157191895,B5,india,B5_india_q3,8,DIGITAL GOVERNANCE AND POVERTY ALLEVIATION MECHANISMS: LESSONS FROM THE PUBLIC DISTRIBUTION SYSTEM IN KASHMIR AND KERALA,2026,article,3,True,include,2,rules,include
-W4377248967,B5,india,B5_india_q3,9,AN EVALUATION OF TARGETED PUBLIC DISTRIBUTION SYSTEM FOR FOOD SECURITY IN INDIA,2023,article,0,True,borderline,1,core concept mentioned once,pending
-W4405215841,B5,india,B5_india_q3,10,Digitalisation of public distribution system,2024,article,0,True,borderline,1,core concept mentioned once,pending
+W4377248967,B5,india,B5_india_q3,9,AN EVALUATION OF TARGETED PUBLIC DISTRIBUTION SYSTEM FOR FOOD SECURITY IN INDIA,2023,article,0,True,borderline,1,core concept mentioned once | manual: PDS evaluation; biometrics in passing,exclude
+W4405215841,B5,india,B5_india_q3,10,Digitalisation of public distribution system,2024,article,0,True,borderline,1,core concept mentioned once | manual: PDS digitalisation (general),exclude
 W2517601952,B5,india,B5_india_q3,11,Human Iris Recognition for Clean Electoral Process in India by Creating a Fraud Free Voter Registration List,2016,conference-paper,5,True,exclude,1,"flag, core not in title: \b(fingerprint recognition|iris recognit",exclude
 W4408764825,B5,india,B5_india_q3,12,Examining exclusions in the Public Distribution System,2025,article,0,True,include,2,rules,include
 W2913101407,B5,india,B5_india_q3,13,"Biometric Identification in India Versus the Right to Privacy: Core Constitutional Features, Defining Citizens’ Interests, and the Implications of Biometric Identification in the United States",2019,article,2,True,include,6,rules,include
@@ -6454,11 +6454,11 @@ W1972431889,B5,india,B5_india_q3,14,"The Unique Identity (UID) Project, Biometri
 W2791462330,B5,india,B5_india_q3,15,An eye for an I: recording biometrics and reconsidering identity in postcolonial India,2018,article,29,True,include,6,rules,include
 W7128374118,B5,india,B5_india_q3,16,"Customer Perception and Satisfaction towards E-POS Enabled Smart Ration Card System in Public Distribution System: Evidence from Eranad Taluk, Kerala",2024,article,0,True,include,3,rules,include
 W4287505917,B5,india,B5_india_q3,17,Identifying Kin Biometric Belonging and Databased Governance in Colonial South Asia and Postcolonial Pakistan,2021,dissertation,0,True,include,6,rules,include
-W4378907727,B5,india,B5_india_q3,18,"Built lives: Khwajasaras, Jouno‐Karmis, and the Politics of Non‐Normative Kinship and Citizenship in South Asia",2023,article,3,True,borderline,1,core concept mentioned once,pending
+W4378907727,B5,india,B5_india_q3,18,"Built lives: Khwajasaras, Jouno‐Karmis, and the Politics of Non‐Normative Kinship and Citizenship in South Asia",2023,article,3,True,borderline,1,core concept mentioned once | manual: non-normative kinship and citizenship,exclude
 W3004515645,B5,india,B5_india_q3,19,Identity Verification Standards in Welfare Programs: Experimental Evidence from India,2020,report,46,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W4402029620,B5,india,B5_india_q3,20,Biometrics,2024,book-chapter,0,True,include,6,rules,include
 W3038333636,B5,india,B5_india_q3,21,Information Technology (IT) and Welfare in India,2020,conference-paper,17,True,include,2,rules,include
-W7216941699,B5,india,B5_india_q3,22,Perspectives On The Digitalization Of Public Distribution System In Kanniyakumari District,2024,article,0,True,borderline,1,core concept mentioned once,pending
+W7216941699,B5,india,B5_india_q3,22,Perspectives On The Digitalization Of Public Distribution System In Kanniyakumari District,2024,article,0,True,borderline,1,core concept mentioned once | manual: PDS digitalisation in a district,exclude
 W3126545036,B5,india,B5_india_q3,23,Identity Verification Standards in Welfare Programs: Experimental Evidence from India,2023,article,14,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W7203625946,B5,india,B5_india_q3,24,Algorithmic Discrimination and Digital Exclusion: The Implications of AI-Based Governance in South Asia,2026,book-chapter,0,False,exclude,0,core concept missing,exclude
 W2137295153,B5,landmarks,B5_landmarks,1,Non-Parametric Estimation of a Multivariate Probability Density,1969,article,1860,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut | manual override: statistics paper (keyword-tag noise)",exclude
@@ -6630,7 +6630,7 @@ W4385688082,B5,recent,B5_recent_q1,16,India’s CBDC for digital public infrastr
 W4414475830,B5,recent,B5_recent_q1,17,Governing Digital Public Infrastructure,2025,book,1,True,include,4,rules,include
 W4405512768,B5,recent,B5_recent_q1,18,Digital public infrastructure for digital governments,2024,report,16,True,include,5,rules,include
 W4409410999,B5,recent,B5_recent_q1,19,Jordan Digital Public Infrastructure Diagnostic,2025,book,3,True,include,6,rules,include
-W4284710624,B5,recent,B5_recent_q1,20,DIGITAL CAPITALISM AND DIGITAL PUBLIC GOODS,2022,article,0,True,borderline,3,stub abstract (possible book review),pending
+W4284710624,B5,recent,B5_recent_q1,20,DIGITAL CAPITALISM AND DIGITAL PUBLIC GOODS,2022,article,0,True,borderline,3,stub abstract (possible book review) | manual: digital capitalism and digital public goods,include
 W4292764312,B5,recent,B5_recent_q1,21,Digital public goods platforms for development: The challenge of scaling,2022,article,40,True,include,3,rules,include
 W4410529445,B5,recent,B5_recent_q1,22,India Stack,2025,book-chapter,0,True,include,6,rules,include
 W7140192615,B5,recent,B5_recent_q1,23,Open Source Digital Public Infrastructure (OSDPI),2025,article,0,True,include,4,rules,include
@@ -6639,7 +6639,7 @@ W4389254284,B5,recent,B5_recent_q2,1,A Design for Managing Smart National Identi
 W7124434884,B5,recent,B5_recent_q2,2,Mandatory digital ID cards abandoned: where did the government go wrong?,2026,other,0,False,include,3,no abstract; core (and context) in title,include
 W4414615897,B5,recent,B5_recent_q2,3,National Identity Card and Citizen Inclusion in Uganda,2025,article,0,True,include,6,rules,include
 W4313524062,B5,recent,B5_recent_q2,4,Digital identity as platform-mediated surveillance,2023,article,36,True,include,6,rules,include
-W7140124413,B5,recent,B5_recent_q2,5,Framework for Privacy-Focused Digital Identity Verification Supporting Financial Inclusion in Africa,2024,article,2,True,borderline,6,flag: \b(fingerprint recognition|iris recognit,pending
+W7140124413,B5,recent,B5_recent_q2,5,Framework for Privacy-Focused Digital Identity Verification Supporting Financial Inclusion in Africa,2024,article,2,True,borderline,6,flag: \b(fingerprint recognition|iris recognit | manual: technical digital-ID verification framework,exclude
 W4389455376,B5,recent,B5_recent_q2,6,Digital Identity and Surveillance Capitalism,2023,book-chapter,2,True,include,6,rules,include
 W4403237698,B5,recent,B5_recent_q2,7,Digital Identity and Surveillance Capitalism,2024,book-chapter,1,True,include,6,rules,include
 W4389681158,B5,recent,B5_recent_q2,8,Digital Identity and Surveillance Capitalism,2023,book-chapter,0,True,include,6,rules,include
@@ -6650,7 +6650,7 @@ W4389503863,B5,recent,B5_recent_q2,12,Digital Identity and Surveillance Capitali
 W4409341371,B5,recent,B5_recent_q2,13,EMPOWERING REFUGEES IN INDIA - A DECENTRALIZED SYSTEM FOR DIGITAL IDENTITY AND FINANCIAL INCLUSION,2023,article,0,True,include,6,rules,include
 W7202356086,B5,recent,B5_recent_q2,14,Digital Identity and Women's Welfare Access,2026,book-chapter,0,True,include,6,rules,include
 W4402837935,B5,recent,B5_recent_q2,15,Digital Identity Card: Between Public Services And Community Needs (Case Study: Disdukcapil Of Cirebon Regency),2024,article,1,True,include,6,rules,include
-W7161269688,B5,recent,B5_recent_q2,16,Consultation Response: Making public services work for you with your digital identity,2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7161269688,B5,recent,B5_recent_q2,16,Consultation Response: Making public services work for you with your digital identity,2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: consultation response on UK national digital ID governance,include
 W7141621093,B5,recent,B5_recent_q2,17,Towards a Unified Civic Identity Stack: Integrating Nepal's National Identity Card (NID) with Cross-Domain Government Services,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W4405931502,B5,recent,B5_recent_q2,18,Evaluation of Public Acceptance of Digital ID Cards: Legal and Technological Implications in Indonesian Public Administration,2024,article,1,True,include,6,rules,include
 W4395049680,B5,recent,B5_recent_q2,19,"Digital Identity, Surveillance, and Data Protection in Africa",2024,book-chapter,3,True,include,6,rules,include
@@ -6663,24 +6663,24 @@ W7161638914,B5,recent,B5_recent_q3,1,TRUST: DUAL-FALLBACK BIOMETRIC AUTHENTICATI
 W4401771614,B5,recent,B5_recent_q3,2,"Biometrics, Citizenship, and the Documentary State",2024,book-chapter,0,True,include,6,rules,include
 W4414721271,B5,recent,B5_recent_q3,3,Remote Voting System Using Biometric Authentication,2025,conference-paper,0,False,include,3,no abstract; core in title; context terms missing,include
 W4295007358,B5,recent,B5_recent_q3,4,Digital Public Services: The Development of Biometric Authentication in India,2022,book-chapter,6,True,include,6,rules,include
-W4405215841,B5,recent,B5_recent_q3,5,Digitalisation of public distribution system,2024,article,0,True,borderline,1,core concept mentioned once,pending
+W4405215841,B5,recent,B5_recent_q3,5,Digitalisation of public distribution system,2024,article,0,True,borderline,1,core concept mentioned once | manual: PDS digitalisation (general),exclude
 W7126242103,B5,recent,B5_recent_q3,6,Offline Biometric Authentication for rural area Ration shop,2026,article,0,True,include,6,rules,include
 W4400681356,B5,recent,B5_recent_q3,7,Smart Ration Material Distribution Using RFID and Biometric Authentication,2023,conference-paper,3,True,include,4,rules,include
 W7157549018,B5,recent,B5_recent_q3,8,Biometrics and Surveillance as a Tool of Tracing Citizenship,2026,article,0,True,include,6,rules,include
 W7217997590,B5,recent,B5_recent_q3,9,Artificial Intelligence-Public Distribution System Fraud Detection,2026,article,0,True,include,2,rules,include
 W4408764825,B5,recent,B5_recent_q3,10,Examining exclusions in the Public Distribution System,2025,article,0,True,include,2,rules,include
 W4402029620,B5,recent,B5_recent_q3,11,Biometrics,2024,book-chapter,0,True,include,6,rules,include
-W7118080736,B5,recent,B5_recent_q3,12,Securing the Vote through Multimodal Biometric Authentication: Evidence from the DRC’s Electoral System,2025,article,0,True,borderline,5,flag: \b(fingerprint recognition|iris recognit,pending
-W7216941699,B5,recent,B5_recent_q3,13,Perspectives On The Digitalization Of Public Distribution System In Kanniyakumari District,2024,article,0,True,borderline,1,core concept mentioned once,pending
+W7118080736,B5,recent,B5_recent_q3,12,Securing the Vote through Multimodal Biometric Authentication: Evidence from the DRC’s Electoral System,2025,article,0,True,borderline,5,flag: \b(fingerprint recognition|iris recognit | manual: biometric voting system proposal,exclude
+W7216941699,B5,recent,B5_recent_q3,13,Perspectives On The Digitalization Of Public Distribution System In Kanniyakumari District,2024,article,0,True,borderline,1,core concept mentioned once | manual: PDS digitalisation in a district,exclude
 W4394910708,B5,recent,B5_recent_q3,14,Optimizing Ration Access: A Technical Evaluation of RFID and Biometric Authentication Methods using IoT,2023,conference-paper,3,True,include,4,rules,include
-W4407407947,B5,recent,B5_recent_q3,15,Machine Learning-Based Multimodal Biometric Authentication System (Facial and Fingerprint Recognition) for Online Voting Systems,2025,article,2,True,borderline,5,flag: \b(fingerprint recognition|iris recognit,pending
-W4403676989,B5,recent,B5_recent_q3,16,A Comprehensive Evaluation of Secured Electronic Voting System Design based on Face Biometric Authentication Policy,2024,conference-paper,1,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
-W7172521580,B5,recent,B5_recent_q3,17,"Aadhar Enabled Public Distribution System (AEPDS), Beneficiary Survey and Assessment Framework",2026,article,0,True,borderline,1,core concept mentioned once,pending
-W4387547120,B5,recent,B5_recent_q3,18,Preserving personal health records security and privacy using C-R3D algorithm and multimodal biometric authentication,2023,article,1,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4407407947,B5,recent,B5_recent_q3,15,Machine Learning-Based Multimodal Biometric Authentication System (Facial and Fingerprint Recognition) for Online Voting Systems,2025,article,2,True,borderline,5,flag: \b(fingerprint recognition|iris recognit | manual: biometric voting system (ML),exclude
+W4403676989,B5,recent,B5_recent_q3,16,A Comprehensive Evaluation of Secured Electronic Voting System Design based on Face Biometric Authentication Policy,2024,conference-paper,1,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: face-biometric e-voting design,exclude
+W7172521580,B5,recent,B5_recent_q3,17,"Aadhar Enabled Public Distribution System (AEPDS), Beneficiary Survey and Assessment Framework",2026,article,0,True,borderline,1,core concept mentioned once | manual: Aadhaar-enabled PDS beneficiary survey,include
+W4387547120,B5,recent,B5_recent_q3,18,Preserving personal health records security and privacy using C-R3D algorithm and multimodal biometric authentication,2023,article,1,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co | manual: health-records security algorithm,exclude
 W7159857748,B5,recent,B5_recent_q3,19,"Identification and Citizenship in Africa: Biometrics, the Documentary State and Bureaucratic Writings of the Self",2022,article,0,True,include,3,rules,include
-W4377248967,B5,recent,B5_recent_q3,20,AN EVALUATION OF TARGETED PUBLIC DISTRIBUTION SYSTEM FOR FOOD SECURITY IN INDIA,2023,article,0,True,borderline,1,core concept mentioned once,pending
+W4377248967,B5,recent,B5_recent_q3,20,AN EVALUATION OF TARGETED PUBLIC DISTRIBUTION SYSTEM FOR FOOD SECURITY IN INDIA,2023,article,0,True,borderline,1,core concept mentioned once | manual: PDS evaluation; biometrics in passing,exclude
 W7157191895,B5,recent,B5_recent_q3,21,DIGITAL GOVERNANCE AND POVERTY ALLEVIATION MECHANISMS: LESSONS FROM THE PUBLIC DISTRIBUTION SYSTEM IN KASHMIR AND KERALA,2026,article,3,True,include,2,rules,include
-W7211875750,B5,recent,B5_recent_q3,22,UNDERSTANDING BENEFICIARY EXPERIENCE AT FAIR PRICE SHOPS UNDER PUBLIC DISTRIBUTION SYSTEM: EVIDENCE FROM HARYANA,2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7211875750,B5,recent,B5_recent_q3,22,UNDERSTANDING BENEFICIARY EXPERIENCE AT FAIR PRICE SHOPS UNDER PUBLIC DISTRIBUTION SYSTEM: EVIDENCE FROM HARYANA,2026,article,0,True,borderline,1,"core concept mentioned once | manual: PDS beneficiaries and biometric authentication, Haryana",include
 W7215267263,B5,recent,B5_recent_q3,23,Comparative study of the Constitutionalism and State Capacity,2024,article,0,True,include,2,rules,include
 W4281251696,B5,recent,B5_recent_q3,24,"Courts, Constitutionalism, and State Capacity: A Preliminary Inquiry",2022,article,4,True,include,2,rules,include
 W4410078794,B6,india,B6_india_q1,1,IFC Mobile Money Study 2011: Sri Lanka,2011,book,0,True,include,3,rules,include

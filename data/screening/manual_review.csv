@@ -750,3 +750,40 @@ W2482717051,B3,include,"Claude (manual review, Stage 2)","biometrics, gender, ra
 W4414973587,B3,include,"Claude (manual review, Stage 2)",surveillant assemblage in Palestine
 W4402344539,B3,exclude,"Claude (manual review, Stage 2)",book review
 W4388818396,B3,exclude,"Claude (manual review, Stage 2)",book review
+W7125494615,B4,include,"Claude (manual review, Stage 2)",facial recognition as algorithmic governance (flag false positive)
+W7196952108,B4,exclude,"Claude (manual review, Stage 2)",cross-sector AI applications review
+W7213112498,B4,exclude,"Claude (manual review, Stage 2)",cross-sector AI applications review (duplicate)
+W4407402944,B4,exclude,"Claude (manual review, Stage 2)",pharmacy students' attitudes to AI
+W7105877115,B4,include,"Claude (manual review, Stage 2)",digital welfare state: Kenya and India
+W4386142022,B4,exclude,"Claude (manual review, Stage 2)",explainable AI methods review
+W2888967035,B4,exclude,"Claude (manual review, Stage 2)",AI and global health
+W3018302807,B4,exclude,"Claude (manual review, Stage 2)",digital transformation strategies
+W2768879061,B4,include,"Claude (manual review, Stage 2)",right to explanation for automated decision-making (GDPR)
+W3145891727,B4,exclude,"Claude (manual review, Stage 2)",AI in healthcare
+W2269646235,B4,exclude,"Claude (manual review, Stage 2)",Airbnb sharing economy (C10)
+W4407389811,B4,exclude,"Claude (manual review, Stage 2)",AI-IoT environmental monitoring
+W3201168013,B4,include,"Claude (manual review, Stage 2)",emerging technologies (incl. AI) against corruption in government
+W3105362007,B4,include,"Claude (manual review, Stage 2)",algorithmic governance: modes of governance (flag false positive)
+W2906180434,B4,exclude,"Claude (manual review, Stage 2)",blockchain and commons governance
+W1574597499,B4,exclude,"Claude (manual review, Stage 2)",public personnel management textbook
+W7199175306,B4,include,"Claude (manual review, Stage 2)",AI implementation in public administration (thesis)
+W7154973823,B4,exclude,"Claude (manual review, Stage 2)",algorithmic accountability in clinical AI
+W2069308389,B5,exclude,"Claude (manual review, Stage 2)",denture marking with Aadhaar barcode (forensic dentistry)
+W2891802581,B5,exclude,"Claude (manual review, Stage 2)",opinion piece on UIDAI (news aggregator)
+W3003790684,B5,exclude,"Claude (manual review, Stage 2)",news item on NRC/NPR/Aadhaar
+W7125412706,B5,exclude,"Claude (manual review, Stage 2)",decentralised identity technical model
+W2901531498,B5,exclude,"Claude (manual review, Stage 2)",news item on national ID cards
+W2775158321,B5,include,"Claude (manual review, Stage 2)","identity cards, migration and surveillance in Kerala"
+W7211875750,B5,include,"Claude (manual review, Stage 2)","PDS beneficiaries and biometric authentication, Haryana"
+W4377248967,B5,exclude,"Claude (manual review, Stage 2)",PDS evaluation; biometrics in passing
+W4405215841,B5,exclude,"Claude (manual review, Stage 2)",PDS digitalisation (general)
+W4378907727,B5,exclude,"Claude (manual review, Stage 2)",non-normative kinship and citizenship
+W7216941699,B5,exclude,"Claude (manual review, Stage 2)",PDS digitalisation in a district
+W4284710624,B5,include,"Claude (manual review, Stage 2)",digital capitalism and digital public goods
+W7140124413,B5,exclude,"Claude (manual review, Stage 2)",technical digital-ID verification framework
+W7161269688,B5,include,"Claude (manual review, Stage 2)",consultation response on UK national digital ID governance
+W7118080736,B5,exclude,"Claude (manual review, Stage 2)",biometric voting system proposal
+W4407407947,B5,exclude,"Claude (manual review, Stage 2)",biometric voting system (ML)
+W4403676989,B5,exclude,"Claude (manual review, Stage 2)",face-biometric e-voting design
+W7172521580,B5,include,"Claude (manual review, Stage 2)",Aadhaar-enabled PDS beneficiary survey
+W4387547120,B5,exclude,"Claude (manual review, Stage 2)",health-records security algorithm
