@@ -53,7 +53,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | A15 | Urban & planning theory, Southern urbanism | 233 | 144 | 39 (17%) | 24 / 15 | 158 | 154 |
 | A16 | Night-time city & urban time | 241 | 122 | 33 (14%) | 20 / 13 | 135 | 135 |
 | B1 | Platforms & platform capitalism | 239 | 181 | 33 (14%) | 16 / 17 | 187 | 176 |
-| B2 | Datafication, data justice & data colonialism | 240 | 148 | 39 (16%) | 0 / 0 (+39 pending) | 143 | 140 |
+| B2 | Datafication, data justice & data colonialism | 240 | 148 | 39 (16%) | 22 / 17 | 161 | 157 |
 | B3 | Surveillance studies | 230 | 129 | 32 (14%) | 0 / 0 (+32 pending) | 119 | 116 |
 | B4 | Algorithmic governance & AI in the public sec | 238 | 205 | 18 (8%) | 0 / 0 (+18 pending) | 181 | 181 |
 | B5 | Digital identity & digital public infrastruct | 272 | 184 | 47 (17%) | 7 / 21 (+19 pending) | 177 | 176 |
@@ -68,7 +68,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | B14 | Generative AI & society | 237 | 161 | 46 (19%) | 0 / 0 (+46 pending) | 151 | 151 |
 | C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 115 |
 
-Total deduplicated records: 4948.
+Total deduplicated records: 4965.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)

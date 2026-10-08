@@ -677,3 +677,42 @@ W3003313551,B1,exclude,"Claude (manual review, Stage 2)",platform urbanism (C2)
 W3039462715,B1,exclude,"Claude (manual review, Stage 2)",speculative public engagement
 W7125715809,B1,include,"Claude (manual review, Stage 2)",platform capitalism (reference entry; flag false positive)
 W4225265597,B1,include,"Claude (manual review, Stage 2)",platform capitalism and cloud infrastructure
+W4407195699,B2,include,"Claude (manual review, Stage 2)",datafication and India's unique health ID (flag false positive)
+W4400592045,B2,exclude,"Claude (manual review, Stage 2)",strategic autonomy and AI in South Asia
+W2584500616,B2,include,"Claude (manual review, Stage 2)",datafication of Bangalore's water supply (flag false positive; also C5)
+W7125511853,B2,include,"Claude (manual review, Stage 2)",datafication in digital geographies of One Health
+W4249636569,B2,include,"Claude (manual review, Stage 2)",datafication of Bangalore's water supply (preprint)
+W4225133227,B2,exclude,"Claude (manual review, Stage 2)",privacy law and cloud computing
+W3115775985,B2,include,"Claude (manual review, Stage 2)",data colonialism and South Asian hashtag publics
+W7167626768,B2,include,"Claude (manual review, Stage 2)",digital colonialism and data sovereignty in the Global South
+W7165168942,B2,exclude,"Claude (manual review, Stage 2)",AI and advertising
+W4364379205,B2,include,"Claude (manual review, Stage 2)",Digital India and surveillance capitalism
+W2945776595,B2,include,"Claude (manual review, Stage 2)",data justice and the limits of fairness discourse
+W2601491144,B2,include,"Claude (manual review, Stage 2)",datafication of health (review)
+W2552464140,B2,exclude,"Claude (manual review, Stage 2)",ethics of smart cities (C1)
+W1966998110,B2,include,"Claude (manual review, Stage 2)",datafication (information systems editorial)
+W3023054078,B2,include,"Claude (manual review, Stage 2)",datafication of teaching in higher education
+W1885831765,B2,exclude,"Claude (manual review, Stage 2)",review of Big Data book
+W2756900437,B2,exclude,"Claude (manual review, Stage 2)",EU data protection law
+W3037168550,B2,exclude,"Claude (manual review, Stage 2)",data-driven smart city (C1/C4)
+W2945268660,B2,include,"Claude (manual review, Stage 2)",exploring data justice (conference report)
+W3012457369,B2,exclude,"Claude (manual review, Stage 2)",edu-business platforms
+W4288083705,B2,exclude,"Claude (manual review, Stage 2)",trust in data science (CSCW)
+W3028852563,B2,exclude,"Claude (manual review, Stage 2)",AI in further education business models
+W3112490946,B2,exclude,"Claude (manual review, Stage 2)",platform pedagogies (Google Classroom)
+W2945831990,B2,include,"Claude (manual review, Stage 2)",datafication and algorithmic rationality in precision agriculture
+W2082553037,B2,exclude,"Claude (manual review, Stage 2)",big data and posthumanism (epistemology)
+W3024638662,B2,exclude,"Claude (manual review, Stage 2)",algorithms and incidental news exposure
+W2996776174,B2,include,"Claude (manual review, Stage 2)",data literacy and datafication
+W4408137476,B2,include,"Claude (manual review, Stage 2)",datafication (chapter)
+W4382278515,B2,exclude,"Claude (manual review, Stage 2)",datafication governance (business handbook)
+W4382278369,B2,exclude,"Claude (manual review, Stage 2)",introduction to datafication (business handbook)
+W4382278435,B2,exclude,"Claude (manual review, Stage 2)",datafication analytics (business handbook)
+W4394898377,B2,include,"Claude (manual review, Stage 2)",data justice (encyclopedia entry)
+W4416913067,B2,include,"Claude (manual review, Stage 2)",conservation data justice (flag false positive)
+W4387933955,B2,include,"Claude (manual review, Stage 2)",queer data justice
+W7202186064,B2,include,"Claude (manual review, Stage 2)",digital colonialism (chapter)
+W4402001166,B2,include,"Claude (manual review, Stage 2)",critiques of data colonialism
+W4401807354,B2,include,"Claude (manual review, Stage 2)",critiques of data colonialism (duplicate record)
+W4396516882,B2,exclude,"Claude (manual review, Stage 2)",book review (Surveillance Capitalism)
+W4285122544,B2,include,"Claude (manual review, Stage 2)",new perspectives in critical data studies

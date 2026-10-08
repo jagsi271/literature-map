@@ -5612,19 +5612,19 @@ W4410782373,B2,india,B2_india_q1,2,Datafication Governance,2025,book-chapter,0,T
 W4296613219,B2,india,B2_india_q1,3,"Datafication, Teachers' Dispositions and English Language Teaching in Bangladesh: A Bourdieuian Analysis",2022,article,3,True,include,6,rules,include
 W7168507804,B2,india,B2_india_q1,4,Beyond Datafication,2026,book-chapter,0,True,include,3,rules,include
 W3094080533,B2,india,B2_india_q1,5,"Digital identity, datafication and social justice: understanding Aadhaar use among informal workers in south India",2020,article,35,True,include,6,rules,include
-W4407195699,B2,india,B2_india_q1,6,BIOMETRIC GOVERNMENTALITIES: THE RISE OF DATAFICATION AND THE UNIQUE HEALTH IDENTIFICATION PROJECT IN INDIA,2025,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4407195699,B2,india,B2_india_q1,6,BIOMETRIC GOVERNMENTALITIES: THE RISE OF DATAFICATION AND THE UNIQUE HEALTH IDENTIFICATION PROJECT IN INDIA,2025,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: datafication and India's unique health ID (flag false positive),include
 W2979805802,B2,india,B2_india_q1,7,"Datafication, value and power in developing countries: Big data in two Indian public service organizations",2019,article,10,True,include,6,rules,include
-W4400592045,B2,india,B2_india_q1,8,Digital Strategic Autonomy in South Asia: Artificial Intelligence and Cyberspace,2024,article,3,True,borderline,1,core concept mentioned once,pending
+W4400592045,B2,india,B2_india_q1,8,Digital Strategic Autonomy in South Asia: Artificial Intelligence and Cyberspace,2024,article,3,True,borderline,1,core concept mentioned once | manual: strategic autonomy and AI in South Asia,exclude
 W4322743588,B2,india,B2_india_q1,9,Reconceptualizing carbon datafication through indigeneity,2023,article,4,True,include,6,rules,include
 W3100351556,B2,india,B2_india_q1,10,Aadhaar-Led Identification and Datafication Among Informal Workers in South India: A Data-Justice Perspective,2019,preprint,2,False,include,3,no abstract; core (and context) in title,include
 W4372215844,B2,india,B2_india_q1,11,Inheriting Discrimination: Datafication Encounters of Marginalized Workers,2022,conference-paper,2,True,include,6,rules,include
 W4225162252,B2,india,B2_india_q1,12,When is Machine Learning Data Good?: Valuing in Public Health Datafication,2022,conference-paper,35,True,include,3,rules,include
 W4366492927,B2,india,B2_india_q1,13,Liquid Inclusion: The Dynamics of Inclusion Under Datafication and Surveillance,2023,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W2779304045,B2,india,B2_india_q1,14,The Doing of Datafication (And What this Doing Does): Practices of Edification and the Enactment of New Forms of Sociality in the Indian Public Health Service,2017,article,17,True,include,6,rules,include
-W2584500616,B2,india,B2_india_q1,15,"The Power of Smart Solutions: Knowledge, Citizenship, and the Datafication of Bangalore’s Water Supply",2017,article,22,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co,pending
-W7125511853,B2,india,B2_india_q1,16,"Digital Disease Ecologies: Encounter, Datafication and the Digital Geographies of One Health",2026,article,0,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2584500616,B2,india,B2_india_q1,15,"The Power of Smart Solutions: Knowledge, Citizenship, and the Datafication of Bangalore’s Water Supply",2017,article,22,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co | manual: datafication of Bangalore's water supply (flag false positive; also C5),include
+W7125511853,B2,india,B2_india_q1,16,"Digital Disease Ecologies: Encounter, Datafication and the Digital Geographies of One Health",2026,article,0,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: datafication in digital geographies of One Health,include
 W7164142621,B2,india,B2_india_q1,17,Eye for an “I”: Biometric Governance and Datafication in Humanitarian Contexts,2026,dissertation,0,True,include,3,rules,include
-W4249636569,B2,india,B2_india_q1,18,"The power of smart solutions: knowledge, citizenship and the datafication of Bangalore’s water supply",2021,preprint,2,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4249636569,B2,india,B2_india_q1,18,"The power of smart solutions: knowledge, citizenship and the datafication of Bangalore’s water supply",2021,preprint,2,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co | manual: datafication of Bangalore's water supply (preprint),include
 W3102593409,B2,india,B2_india_q2,1,Humanitarian data justice: A structural data justice lens on civic technologies in post‐earthquake Nepal,2020,article,22,True,include,6,rules,include
 W3100351556,B2,india,B2_india_q2,2,Aadhaar-Led Identification and Datafication Among Informal Workers in South India: A Data-Justice Perspective,2019,preprint,2,False,include,3,no abstract; core (and context) in title,include
 W3048566524,B2,india,B2_india_q2,3,"Exclusion and inclusion in identification: regulation, displacement and data justice",2020,article,86,True,include,5,rules,include
@@ -5637,14 +5637,14 @@ W4413747889,B2,india,B2_india_q2,9,Advancing Administrative Data Justice Through
 W3114375797,B2,india,B2_india_q2,10,Interrogating data justice on Hyderabad’s urban frontier: information politics and the internal differentiation of vulnerable communities,2020,article,12,True,include,6,rules,include
 W3148203175,B2,india,B2_india_q2,11,Capturing Gender and Class Inequities: The CCTVisation of Delhi,2019,preprint,7,False,exclude,0,core concept missing,exclude
 W3194736065,B2,india,B2_india_q2,12,Data Justice in Digital Social Welfare: A Study of the Rythu Bharosa Scheme,2021,preprint,1,True,include,6,rules,include
-W4225133227,B2,india,B2_india_q2,13,Demystifying Data Justice: Legal Response to India’s Privacy and Security Standards: Challenges in Cloud Computing,2022,conference-paper,7,True,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4225133227,B2,india,B2_india_q2,13,Demystifying Data Justice: Legal Response to India’s Privacy and Security Standards: Challenges in Cloud Computing,2022,conference-paper,7,True,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co | manual: privacy law and cloud computing,exclude
 W3163281410,B2,india,B2_india_q2,14,Data Justice through the Prism of Information Politics and Resource Injustice: A Case Study from Hyderabad’s Urban Frontier,2019,preprint,1,False,include,3,no abstract; core (and context) in title,include
 W7155196028,B2,india,B2_india_q2,15,"From Social Media to Smart Advisory: Responsible AI, Data Justice, and the Governance of Farmer-Generated Knowledge in Smallholder Agriculture",2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W4285464471,B2,india,B2_india_q2,16,Testing Data Feminism in India,2021,article,2,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W3094080533,B2,india,B2_india_q2,17,"Digital identity, datafication and social justice: understanding Aadhaar use among informal workers in south India",2020,article,35,True,include,6,rules,include
 W7154840928,B2,india,B2_india_q2,18,"SURVEILLANCE, AGENCY, AND CONTROL: RETHINKING SOCIAL MEDIA USE IN PAKISTAN THROUGH A DATA COLONIALISM LENS",2024,article,0,True,include,6,rules,include
 W7217404811,B2,india,B2_india_q3,1,Digital Colonialism and Cultural Identity in South Asian Literature,2026,article,0,True,include,6,rules,include
-W3115775985,B2,india,B2_india_q3,2,Modalities of data colonialism and South Asian hashtag publics,2020,article,5,True,borderline,3,stub abstract (possible book review),pending
+W3115775985,B2,india,B2_india_q3,2,Modalities of data colonialism and South Asian hashtag publics,2020,article,5,True,borderline,3,stub abstract (possible book review) | manual: data colonialism and South Asian hashtag publics,include
 W4406471676,B2,india,B2_india_q3,3,US-China Technological Hegemony: Analyzing the Digital Colonialism in South Asia,2024,article,1,True,include,3,rules,include
 W4410471883,B2,india,B2_india_q3,4,From Sovereignty to Surveillance: The Legal Landscape of “Digital Colonialism” in India and Pakistan,2025,article,0,True,include,4,rules,include
 W7128490891,B2,india,B2_india_q3,5,Digital Colonialism (Comparative study between India and Africa),2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
@@ -5658,7 +5658,7 @@ W7165016107,B2,india,B2_india_q3,12,Traditional Knowledge and Digital Colonialis
 W7210280154,B2,india,B2_india_q3,13,Digital Colonialism and Linguistic Hegemony in Post-Pandemic Higher Education: A Study on Bangladeshi University Classrooms,2026,article,0,True,include,4,rules,include
 W3190246351,B2,india,B2_india_q3,14,Quest of Data Colonialism and Cyber Sovereignty: India’s Strategic Position in Cyberspace,2021,article,5,True,include,4,rules,include
 W7216798330,B2,india,B2_india_q3,15,"Data Colonialism, Algorithmic Justice, and the Law: A Global South Perspective",2025,article,0,True,include,4,rules,include
-W7167626768,B2,india,B2_india_q3,16,Digital Colonialism and Algorithmic Power: Data Sovereignty and AI Governance in the Global South,2026,article,0,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7167626768,B2,india,B2_india_q3,16,Digital Colonialism and Algorithmic Power: Data Sovereignty and AI Governance in the Global South,2026,article,0,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co | manual: digital colonialism and data sovereignty in the Global South,include
 W4417473728,B2,india,B2_india_q3,17,Digital Colonialism and Data Sovereignty: International and National Legal Perspectives in the Digital Era,2025,article,0,True,include,5,rules,include
 W7125194980,B2,india,B2_india_q3,18,Algorithmic dependence and digital colonialism: a conceptual framework for artificial intelligence in education and knowledge systems of the Global South,2026,article,10,True,include,6,rules,include
 W4411259158,B2,india,B2_india_q4,1,"HyperVerge, Aadhaar, and Surveillance Capitalism in India",2025,preprint,2,False,include,3,no abstract; core (and context) in title,include
@@ -5666,7 +5666,7 @@ W4312514530,B2,india,B2_india_q4,2,The Age of Surveillance Capitalism and its Im
 W4240217695,B2,india,B2_india_q4,3,Empathy and the image under surveillance capitalism,2021,book-chapter,0,True,include,3,rules,include
 W3176091681,B2,india,B2_india_q4,4,Beyond consent: Surveillance capitalism and politics in the data state,2021,article,7,True,include,4,rules,include
 W7162242559,B2,india,B2_india_q4,5,"Localising surveillance capitalism: caste, data, and power in Samit Basu’s Chosen Spirits",2026,article,0,True,include,6,rules,include
-W7165168942,B2,india,B2_india_q4,6,"Algorithmic Persuasion: Artificial Intelligence, Structural Disruption, and the Future Transformation of Print, Digital, and Video Advertising: Reimagining India and South Asia in the Age of Platform Capitalism",2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7165168942,B2,india,B2_india_q4,6,"Algorithmic Persuasion: Artificial Intelligence, Structural Disruption, and the Future Transformation of Print, Digital, and Video Advertising: Reimagining India and South Asia in the Age of Platform Capitalism",2026,article,0,True,borderline,1,core concept mentioned once | manual: AI and advertising,exclude
 W4285340780,B2,india,B2_india_q4,7,Age of Demagoguery and Surveillance Capitalism: A Case Study of Bharatiya Janata Party (BJP),2021,article,0,True,include,4,rules,include
 W4416118281,B2,india,B2_india_q4,8,Surveillance Capitalism and the New Social Order: Rethinking Freedom in the Digital Age,2025,article,0,True,include,3,rules,include
 W4414316470,B2,india,B2_india_q4,9,Claiming the Digital Commons: Data Sovereignty and the Global South's Resistance to Surveillance Capitalism,2025,preprint,0,False,include,3,no abstract; core (and context) in title,include
@@ -5674,7 +5674,7 @@ W7220728565,B2,india,B2_india_q4,10,"DIGITAL PURDAH: AI CENSORSHIP, WOMEN’S EX
 W7138857200,B2,india,B2_india_q4,11,"HOW META MONETIZES SILENT CONSUMERS AS PRODUCT (SURVEILLANCE CAPITALISM): A CRITICAL ANALYSIS OF ""TAKE-IT OR LEAVE-IT"" CONSENT PRIVACY POLICY OF WHATSAPP/META",2026,article,0,True,include,3,rules,include
 W7214161050,B2,india,B2_india_q4,12,The State–Corporate Nexus in Cyber Surveillance and Its Impact on Civil Liberties: A Comparative Study of Bangladesh and India,2026,article,0,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W4256635024,B2,india,B2_india_q4,13,The Politics of Digital India,2019,book,37,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
-W4364379205,B2,india,B2_india_q4,14,"India digitalized: surveillance, platformization, and digital labour in India",2023,article,8,True,borderline,1,core concept mentioned once,pending
+W4364379205,B2,india,B2_india_q4,14,"India digitalized: surveillance, platformization, and digital labour in India",2023,article,8,True,borderline,1,core concept mentioned once | manual: Digital India and surveillance capitalism,include
 W7162680532,B2,india,B2_india_q4,15,MECHANISMS SHAPING THE DIGITAL RIGHTS AND DATA PRIVACY AMONG KERALA YOUTH,2026,article,1,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W7171503062,B2,india,B2_india_q4,16,"Digitized intimacies: Femtech, data extraction, and reproductive rights in Indian urbanity",2026,book-chapter,0,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W7168137477,B2,india,B2_india_q4,17,People’s Multiparty Democracy: Digital Challenges and Democratic Adaptation in Nepal,2026,article,0,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
@@ -5701,42 +5701,42 @@ W3132771424,B2,landmarks,B2_landmarks,19,Algorithmic injustice: a relational eth
 W2101468243,B2,landmarks,B2_landmarks,20,"Big Data: A Revolution That Will Transform How We Live, Work, and Think",2014,article,631,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2794863590,B2,landmarks,B2_landmarks,21,"The Digital Architectures of Social Media: Comparing Political Campaigning on Facebook, Twitter, Instagram, and Snapchat in the 2016 U.S. Election",2018,article,621,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W2916690225,B2,landmarks,B2_landmarks,22,Blended learning in higher education: Trends and capabilities,2019,article,562,False,exclude,0,core concept missing,exclude
-W2945776595,B2,landmarks,B2_landmarks,23,"Where fairness fails: data, algorithms, and the limits of antidiscrimination discourse",2019,article,540,True,borderline,1,core concept mentioned once,pending
+W2945776595,B2,landmarks,B2_landmarks,23,"Where fairness fails: data, algorithms, and the limits of antidiscrimination discourse",2019,article,540,True,borderline,1,core concept mentioned once | manual: data justice and the limits of fairness discourse,include
 W2913788858,B2,landmarks,B2_landmarks,24,Surveillance Capitalism and the Challenge of Collective Action,2019,article,538,False,include,3,no abstract; core (and context) in title,include
 W3136983119,B2,landmarks,B2_landmarks,25,The age of surveillance capitalism : the fight for the future at the new frontier of power,2019,article,513,True,include,6,rules,include
 W2583071196,B2,landmarks,B2_landmarks,26,The datafied child: The dataveillance of children and implications for their rights,2017,article,511,True,include,4,rules,include
 W2298562067,B2,landmarks,B2_landmarks,27,Data colonialism through accumulation by dispossession: New metaphors for daily data,2016,article,510,True,include,4,rules,include
-W2601491144,B2,landmarks,B2_landmarks,28,The Datafication of Health,2017,review,498,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2601491144,B2,landmarks,B2_landmarks,28,The Datafication of Health,2017,review,498,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: datafication of health (review),include
 W2935719450,B2,landmarks,B2_landmarks,29,Big Data from the South(s): Beyond Data Universalism,2019,article,481,True,include,3,rules,include
-W2552464140,B2,landmarks,B2_landmarks,30,The ethics of smart cities and urban science,2016,article,477,True,borderline,1,core concept mentioned once,pending
+W2552464140,B2,landmarks,B2_landmarks,30,The ethics of smart cities and urban science,2016,article,477,True,borderline,1,core concept mentioned once | manual: ethics of smart cities (C1),exclude
 W2537383304,B2,landmarks,B2_landmarks,31,Critical data studies: An introduction,2016,article,467,True,include,5,rules,include
 W4237617041,B2,landmarks,B2_landmarks,32,Between Truth and Power,2019,book,445,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W3209760672,B2,landmarks,B2_landmarks,33,The Lancet and Financial Times Commission on governing health futures 2030: growing up in a digital world,2021,article,436,False,exclude,0,core concept missing,exclude
-W1966998110,B2,landmarks,B2_landmarks,34,‘Datafication’: making sense of (big) data in a complex world,2013,article,423,True,borderline,3,stub abstract (possible book review),pending
+W1966998110,B2,landmarks,B2_landmarks,34,‘Datafication’: making sense of (big) data in a complex world,2013,article,423,True,borderline,3,stub abstract (possible book review) | manual: datafication (information systems editorial),include
 W2940900846,B2,landmarks,B2_landmarks,35,Digital inequalities in the age of artificial intelligence and big data,2019,article,410,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W2363947341,B2,landmarks,B2_landmarks,36,Where are human subjects in Big Data research? The emerging ethics divide,2016,article,404,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W3093600053,B2,landmarks,B2_landmarks,37,"Behavioral Visibility: A new paradigm for organization studies in the age of digitization, digitalization, and datafication",2020,article,384,True,include,4,rules,include
 W2921822425,B2,landmarks,B2_landmarks,38,Research in behavior modification,1966,article,377,False,exclude,0,core concept missing,exclude
 W2945098413,B2,landmarks,B2_landmarks,39,The reign of the p -value is over: what alternative analyses could we employ to fill the power vacuum?,2019,article,376,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3121769056,B2,landmarks,B2_landmarks,40,Understanding Social Media Logic,2013,report,374,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
-W3023054078,B2,landmarks,B2_landmarks,41,The datafication of teaching in Higher Education: critical issues and perspectives,2020,article,368,True,borderline,3,stub abstract (possible book review),pending
+W3023054078,B2,landmarks,B2_landmarks,41,The datafication of teaching in Higher Education: critical issues and perspectives,2020,article,368,True,borderline,3,stub abstract (possible book review) | manual: datafication of teaching in higher education,include
 W2948100573,B2,landmarks,B2_landmarks,42,The Challenges of Algorithm-Based HR Decision-Making for Personal Integrity,2019,article,342,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W3020351970,B2,landmarks,B2_landmarks,43,Breaking the vicious cycle of algorithmic management: A virtue ethics approach to people analytics,2020,article,341,False,exclude,0,core concept missing,exclude
 W4206738898,B2,landmarks,B2_landmarks,44,Algorithmic governance,2019,article,339,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W3082258125,B2,landmarks,B2_landmarks,45,Emerging models of data governance in the age of datafication,2020,article,335,True,include,3,rules,include
-W1885831765,B2,landmarks,B2_landmarks,46,"Viktor Mayer-Schonberger and Kenneth Cukier, Big Data: A Revolution That Will Transform How We Live, Work and Think",2013,article,317,True,borderline,1,core concept mentioned once,pending
+W1885831765,B2,landmarks,B2_landmarks,46,"Viktor Mayer-Schonberger and Kenneth Cukier, Big Data: A Revolution That Will Transform How We Live, Work and Think",2013,article,317,True,borderline,1,core concept mentioned once | manual: review of Big Data book,exclude
 W4205191555,B2,landmarks,B2_landmarks,47,Datafication,2019,article,315,True,include,6,rules,include
 W2555951879,B2,landmarks,B2_landmarks,48,Towards data justice? The ambiguity of anti-surveillance resistance in political activism,2016,article,315,True,include,6,rules,include
-W2756900437,B2,landmarks,B2_landmarks,49,The law of everything. Broad concept of personal data and future of EU data protection law,2018,article,314,True,borderline,1,core concept mentioned once,pending
+W2756900437,B2,landmarks,B2_landmarks,49,The law of everything. Broad concept of personal data and future of EU data protection law,2018,article,314,True,borderline,1,core concept mentioned once | manual: EU data protection law,exclude
 W2251831051,B2,landmarks,B2_landmarks,50,"Datafication and empowerment: How the open data movement re-articulates notions of democracy, participation, and journalism",2015,article,303,True,include,6,rules,include
-W3037168550,B2,landmarks,B2_landmarks,51,The emerging data–driven Smart City and its innovative applied solutions for sustainability: the cases of London and Barcelona,2020,article,297,True,borderline,1,core concept mentioned once,pending
-W2945268660,B2,landmarks,B2_landmarks,52,"Exploring Data Justice: Conceptions, Applications and Directions",2019,article,297,True,borderline,5,stub abstract (possible book review),pending
+W3037168550,B2,landmarks,B2_landmarks,51,The emerging data–driven Smart City and its innovative applied solutions for sustainability: the cases of London and Barcelona,2020,article,297,True,borderline,1,core concept mentioned once | manual: data-driven smart city (C1/C4),exclude
+W2945268660,B2,landmarks,B2_landmarks,52,"Exploring Data Justice: Conceptions, Applications and Directions",2019,article,297,True,borderline,5,stub abstract (possible book review) | manual: exploring data justice (conference report),include
 W2530497518,B2,landmarks,B2_landmarks,53,The Alternative Epistemologies of Data Activism,2016,article,294,True,include,6,rules,include
 W2912423735,B2,landmarks,B2_landmarks,54,Editorial: the datafication of education,2019,editorial,288,True,exclude,0,type editorial,exclude
 W2543483077,B2,landmarks,B2_landmarks,55,The Feeling of Numbers: Emotions in Everyday Engagements with Data and Their Visualisation,2017,article,283,True,include,2,rules,include
 W3118612437,B2,landmarks,B2_landmarks,56,"Digital Rights, Digital Citizenship and Digital Literacy: What’s the Difference?",2021,article,278,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W2370712796,B2,landmarks,B2_landmarks,57,"Bentham, Deleuze and Beyond: An Overview of Surveillance Theories from the Panopticon to Participation",2016,article,276,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
-W3012457369,B2,landmarks,B2_landmarks,58,"Making markets through digital platforms: Pearson, edu-business, and the (e)valuation of higher education",2020,article,271,True,borderline,1,core concept mentioned once,pending
+W3012457369,B2,landmarks,B2_landmarks,58,"Making markets through digital platforms: Pearson, edu-business, and the (e)valuation of higher education",2020,article,271,True,borderline,1,core concept mentioned once | manual: edu-business platforms,exclude
 W3122925257,B2,landmarks,B2_landmarks,59,Critical Data Studies: A dialog on data and space,2016,article,264,True,include,4,rules,include
 W2951066188,B2,landmarks,B2_landmarks,60,Machine behaviourism: future visions of ‘learnification’ and ‘datafication’ across humans and digital technologies,2019,article,259,True,include,3,rules,include
 W2212352435,B2,landmarks,B2_landmarks,61,"In the name of Development: Power, profit and the datafication of the global South",2015,article,259,False,include,3,no abstract; core (and context) in title,include
@@ -5745,15 +5745,15 @@ W3102371174,B2,landmarks,B2_landmarks,63,"The Digital Architectures of Social Me
 W2468329802,B2,landmarks,B2_landmarks,64,Understanding the promises and premises of online health platforms,2016,article,237,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W2910548926,B2,landmarks,B2_landmarks,65,Problem Formulation and Fairness,2019,conference-paper,236,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W2829183658,B2,landmarks,B2_landmarks,66,Datafication and data fiction: Narrating data and narrating with data,2018,article,224,True,include,3,rules,include
-W4288083705,B2,landmarks,B2_landmarks,67,Trust in Data Science,2018,article,223,True,borderline,1,core concept mentioned once,pending
+W4288083705,B2,landmarks,B2_landmarks,67,Trust in Data Science,2018,article,223,True,borderline,1,core concept mentioned once | manual: trust in data science (CSCW),exclude
 W3033206842,B2,landmarks,B2_landmarks,68,"Civil libertiesorpublic health, or civil libertiesandpublic health? Using surveillance technologies to tackle the spread of COVID-19",2020,article,222,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W3113375623,B2,landmarks,B2_landmarks,69,Folk theories of algorithms: Understanding digital irritation,2020,article,221,True,include,3,rules,include
 W2810580611,B2,landmarks,B2_landmarks,70,Asking more of Siri and Alexa: feminine persona in service of surveillance capitalism,2018,article,221,True,include,5,rules,include
 W4283318215,B2,landmarks,B2_landmarks,71,The news framing of artificial intelligence: a critical exploration of how media discourses make sense of automation,2022,article,218,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
 W2904326656,B2,landmarks,B2_landmarks,72,"The datafication of discipline: ClassDojo, surveillance and a performative classroom culture",2018,article,218,True,include,4,rules,include
-W3028852563,B2,landmarks,B2_landmarks,73,"Prerequisites for artificial intelligence in further education: identification of drivers, barriers, and business models of educational technology companies",2020,article,214,True,borderline,1,core concept mentioned once,pending
+W3028852563,B2,landmarks,B2_landmarks,73,"Prerequisites for artificial intelligence in further education: identification of drivers, barriers, and business models of educational technology companies",2020,article,214,True,borderline,1,core concept mentioned once | manual: AI in further education business models,exclude
 W2999652690,B2,landmarks,B2_landmarks,74,The Costs of Connection: How Data Is Colonizing Human Life and Appropriating It for Capitalism,2019,book,212,True,include,2,rules,include
-W3112490946,B2,landmarks,B2_landmarks,75,"Automation, APIs and the distributed labour of platform pedagogies in Google Classroom",2020,article,204,True,borderline,1,core concept mentioned once,pending
+W3112490946,B2,landmarks,B2_landmarks,75,"Automation, APIs and the distributed labour of platform pedagogies in Google Classroom",2020,article,204,True,borderline,1,core concept mentioned once | manual: platform pedagogies (Google Classroom),exclude
 W4309756426,B2,landmarks,B2_landmarks,76,Surveillance Capitalism or Democracy? The Death Match of Institutional Orders and the Politics of Knowledge in Our Information Civilization,2022,article,201,True,include,6,rules,include
 W3008948670,B2,landmarks,B2_landmarks,77,Algorithmic Profiling of Job Seekers in Austria: How Austerity Politics Are Made Effective,2020,article,201,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W1589389886,B2,landmarks,B2_landmarks,78,Towards critical data studies: Charting and unpacking data assemblages and their work,2014,preprint,200,True,include,6,rules,include
@@ -5767,32 +5767,32 @@ W3134478167,B2,landmarks,B2_landmarks,85,"Smart and sustainable logistics of Por
 W2716311441,B2,landmarks,B2_landmarks,86,Critique and Contribute: A Practice-Based Framework for Improving Critical Data Studies and Data Science,2017,article,177,True,include,6,rules,include
 W2088282168,B2,landmarks,B2_landmarks,87,"The ‘datafication’ of early years pedagogy: ‘if the teaching is good, the data should be good and if there’s bad teaching, there is bad data’",2014,article,176,True,include,4,rules,include
 W3199982945,B2,landmarks,B2_landmarks,88,The decolonial turn in data and technology research: what is at stake and where is it heading?,2021,article,175,True,exclude,1,"core mentioned once, outside opening/aim (strict)",exclude
-W2945831990,B2,landmarks,B2_landmarks,89,The combine will tell the truth: On precision agriculture and algorithmic rationality,2019,article,173,True,borderline,1,core concept mentioned once,pending
+W2945831990,B2,landmarks,B2_landmarks,89,The combine will tell the truth: On precision agriculture and algorithmic rationality,2019,article,173,True,borderline,1,core concept mentioned once | manual: datafication and algorithmic rationality in precision agriculture,include
 W4318474896,B2,landmarks,B2_landmarks,90,"Re-examining AI, automation and datafication in education",2023,article,170,True,include,3,rules,include
-W2082553037,B2,landmarks,B2_landmarks,91,A World without Causation: Big Data and the Coming of Age of Posthumanism,2015,article,166,True,borderline,1,core concept mentioned once,pending
+W2082553037,B2,landmarks,B2_landmarks,91,A World without Causation: Big Data and the Coming of Age of Posthumanism,2015,article,166,True,borderline,1,core concept mentioned once | manual: big data and posthumanism (epistemology),exclude
 W4386131004,B2,landmarks,B2_landmarks,92,"Risk and the future of AI: Algorithmic bias, data colonialism, and marginalization",2023,editorial,165,False,exclude,0,type editorial,exclude
-W3024638662,B2,landmarks,B2_landmarks,93,"Attracting the news: Algorithms, platforms, and reframing incidental exposure",2020,article,165,True,borderline,1,core concept mentioned once,pending
+W3024638662,B2,landmarks,B2_landmarks,93,"Attracting the news: Algorithms, platforms, and reframing incidental exposure",2020,article,165,True,borderline,1,core concept mentioned once | manual: algorithms and incidental news exposure,exclude
 W2972463624,B2,landmarks,B2_landmarks,94,Digital Colonialism: The 21st Century Scramble for Africa through the Extraction and Control of User Data and the Limitations of Data Protection Laws,2019,article,163,True,include,6,rules,include
 W2983860014,B2,landmarks,B2_landmarks,95,From data politics to the contentious politics of data,2019,article,158,True,include,3,rules,include
 W2080166589,B2,landmarks,B2_landmarks,96,"Surveillance Capitalism: Monopoly-Finance Capital, the Military-Industrial Complex, and the Digital Age",2014,article,157,True,include,3,rules,include
 W2910220809,B2,landmarks,B2_landmarks,97,The social imaginaries of data activism,2019,article,154,True,include,6,rules,include
 W4386664099,B2,landmarks,B2_landmarks,98,Critical Zones: The Science and Politics of Landing on Earth,2021,article,152,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2996776174,B2,landmarks,B2_landmarks,99,The social utility of ‘data literacy’,2019,article,151,True,borderline,1,core concept mentioned once,pending
+W2996776174,B2,landmarks,B2_landmarks,99,The social utility of ‘data literacy’,2019,article,151,True,borderline,1,core concept mentioned once | manual: data literacy and datafication,include
 W2955297822,B2,landmarks,B2_landmarks,100,"The anatomy of the data-driven smart sustainable city: instrumentation, datafication, computerization and related applications",2019,article,148,True,include,5,rules,include
 W4211177031,B2,recent,B2_recent_q1,1,Datafication,2022,reference-entry,8,False,include,3,no abstract; core (and context) in title,include
 W4309298065,B2,recent,B2_recent_q1,2,Datafication,2022,reference-entry,1,False,include,3,no abstract; core (and context) in title,include
-W4408137476,B2,recent,B2_recent_q1,3,Datafication,2025,book-chapter,0,True,borderline,5,stub abstract (possible book review),pending
+W4408137476,B2,recent,B2_recent_q1,3,Datafication,2025,book-chapter,0,True,borderline,5,stub abstract (possible book review) | manual: datafication (chapter),include
 W4389152374,B2,recent,B2_recent_q1,4,Critical datafication literacy – a framework for educating about datafication,2023,article,21,True,include,6,rules,include
 W4382278177,B2,recent,B2_recent_q1,5,Datafication Engineering,2023,book-chapter,1,True,include,4,rules,include
 W7160257343,B2,recent,B2_recent_q1,6,Uneven datafication,2026,article,3,True,include,6,rules,include
 W4322489875,B2,recent,B2_recent_q1,7,Datafication,2023,book-chapter,0,True,include,3,rules,include
 W4366998197,B2,recent,B2_recent_q1,8,Datafication,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4387767643,B2,recent,B2_recent_q1,9,Spaces for Datafication: How Datafication Transforms Media Industries,2023,book-chapter,3,False,include,3,no abstract; core (and context) in title,include
-W4382278515,B2,recent,B2_recent_q1,10,Datafication Governance,2023,book-chapter,0,True,borderline,4,stub abstract (possible book review),pending
+W4382278515,B2,recent,B2_recent_q1,10,Datafication Governance,2023,book-chapter,0,True,borderline,4,stub abstract (possible book review) | manual: datafication governance (business handbook),exclude
 W4412970077,B2,recent,B2_recent_q1,11,Sexual Datafication,2025,editorial,0,True,exclude,0,type editorial,exclude
-W4382278369,B2,recent,B2_recent_q1,12,Introduction to Datafication,2023,book-chapter,1,True,borderline,5,stub abstract (possible book review),pending
+W4382278369,B2,recent,B2_recent_q1,12,Introduction to Datafication,2023,book-chapter,1,True,borderline,5,stub abstract (possible book review) | manual: introduction to datafication (business handbook),exclude
 W4362605179,B2,recent,B2_recent_q1,13,Datafication,2023,reference-entry,0,True,include,3,rules,include
-W4382278435,B2,recent,B2_recent_q1,14,Datafication Analytics,2023,book-chapter,0,True,borderline,4,stub abstract (possible book review),pending
+W4382278435,B2,recent,B2_recent_q1,14,Datafication Analytics,2023,book-chapter,0,True,borderline,4,stub abstract (possible book review) | manual: datafication analytics (business handbook),exclude
 W4402800563,B2,recent,B2_recent_q1,15,Critical Datafication Literacy,2024,book,4,True,include,6,rules,include
 W4223646338,B2,recent,B2_recent_q1,16,Constraining context: Situating datafication in public administration,2022,article,97,True,include,6,rules,include
 W4382278212,B2,recent,B2_recent_q1,17,Datafication Security,2023,book-chapter,0,True,include,3,rules,include
@@ -5803,12 +5803,12 @@ W4378574199,B2,recent,B2_recent_q2,3,Mobility data justice,2023,article,42,True,
 W4223904921,B2,recent,B2_recent_q2,4,Data justice and biodiversity conservation,2022,article,93,True,include,3,rules,include
 W4408137423,B2,recent,B2_recent_q2,5,Data justice,2025,book-chapter,0,True,include,6,rules,include
 W4402633430,B2,recent,B2_recent_q2,6,Data Justice,2024,book-chapter,0,True,include,4,rules,include
-W4394898377,B2,recent,B2_recent_q2,7,Data justice,2023,book-chapter,0,True,borderline,3,stub abstract (possible book review),pending
+W4394898377,B2,recent,B2_recent_q2,7,Data justice,2023,book-chapter,0,True,borderline,3,stub abstract (possible book review) | manual: data justice (encyclopedia entry),include
 W4415711657,B2,recent,B2_recent_q2,8,Data justice,2025,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4221071008,B2,recent,B2_recent_q2,9,Data justice and data solidarity,2022,article,42,True,include,6,rules,include
-W4416913067,B2,recent,B2_recent_q2,10,Conservation Data Justice,2025,book-chapter,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4416913067,B2,recent,B2_recent_q2,10,Conservation Data Justice,2025,book-chapter,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: conservation data justice (flag false positive),include
 W4298182065,B2,recent,B2_recent_q2,11,Infrastructuring Environmental Data Justice,2022,book-chapter,3,False,include,3,no abstract; core (and context) in title,include
-W4387933955,B2,recent,B2_recent_q2,12,Empowering Queer Data Justice,2023,article,2,True,borderline,3,stub abstract (possible book review),pending
+W4387933955,B2,recent,B2_recent_q2,12,Empowering Queer Data Justice,2023,article,2,True,borderline,3,stub abstract (possible book review) | manual: queer data justice,include
 W4304193697,B2,recent,B2_recent_q2,13,Journalism and Data Justice,2022,book-chapter,0,True,include,6,rules,include
 W4415326719,B2,recent,B2_recent_q2,14,Data Justice and Ethics,2022,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4292616041,B2,recent,B2_recent_q2,15,A Need For Disability Data Justice,2022,dataset,17,False,exclude,0,type dataset,exclude
@@ -5818,7 +5818,7 @@ W7164881924,B2,recent,B2_recent_q2,18,Data justice and social work,2026,referenc
 W4389622793,B2,recent,B2_recent_q3,1,Data extractivism,2023,book-chapter,5,True,include,4,rules,include
 W7171695467,B2,recent,B2_recent_q3,2,Digital Colonialism,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W4401531726,B2,recent,B2_recent_q3,3,Digital Colonialism,2024,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W7202186064,B2,recent,B2_recent_q3,4,Digital Colonialism,2026,book-chapter,0,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7202186064,B2,recent,B2_recent_q3,4,Digital Colonialism,2026,book-chapter,0,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co | manual: digital colonialism (chapter),include
 W4408464354,B2,recent,B2_recent_q3,5,An intellectual history of digital colonialism,2025,article,46,True,include,6,rules,include
 W4412483659,B2,recent,B2_recent_q3,6,Data Colonialism,2025,book-chapter,1,True,include,5,rules,include
 W4206612308,B2,recent,B2_recent_q3,7,Governable Stacks against Digital Colonialism,2022,article,21,True,include,4,rules,include
@@ -5831,13 +5831,13 @@ W4220903713,B2,recent,B2_recent_q3,13,3D Printing and Digital Colonialism:,2022,
 W4410155208,B2,recent,B2_recent_q3,14,Data Colonialism: The Geopolitics of Information,2025,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W4402164243,B2,recent,B2_recent_q3,15,Critiques of Data Colonialism,2024,book-chapter,3,False,include,3,no abstract; core (and context) in title,include
 W4387136749,B2,recent,B2_recent_q3,16,Militarized Biometric Data Colonialism,2023,book-chapter,0,True,include,5,rules,include
-W4402001166,B2,recent,B2_recent_q3,17,Critiques of Data Colonialism,2024,book-chapter,0,True,borderline,3,stub abstract (possible book review),pending
-W4401807354,B2,recent,B2_recent_q3,18,Critiques of Data Colonialism,2024,book-chapter,0,True,borderline,3,stub abstract (possible book review),pending
+W4402001166,B2,recent,B2_recent_q3,17,Critiques of Data Colonialism,2024,book-chapter,0,True,borderline,3,stub abstract (possible book review) | manual: critiques of data colonialism,include
+W4401807354,B2,recent,B2_recent_q3,18,Critiques of Data Colonialism,2024,book-chapter,0,True,borderline,3,stub abstract (possible book review) | manual: critiques of data colonialism (duplicate record),include
 W3143251375,B2,recent,B2_recent_q4,1,The Age of Surveillance Capitalism,2023,book-chapter,754,True,include,4,rules,include
-W4396516882,B2,recent,B2_recent_q4,2,Surveillance Capitalism,2024,article,26,True,borderline,3,stub abstract (possible book review),pending
+W4396516882,B2,recent,B2_recent_q4,2,Surveillance Capitalism,2024,article,26,True,borderline,3,stub abstract (possible book review) | manual: book review (Surveillance Capitalism),exclude
 W4307853169,B2,recent,B2_recent_q4,3,Surveillance Capitalism,2022,book-chapter,23,True,include,6,rules,include
 W4213260000,B2,recent,B2_recent_q4,4,Surveillance Capitalism,2022,book-chapter,4,True,include,3,rules,include
-W4285122544,B2,recent,B2_recent_q4,5,New Perspectives in Critical Data Studies,2022,book,73,True,borderline,3,stub abstract (possible book review),pending
+W4285122544,B2,recent,B2_recent_q4,5,New Perspectives in Critical Data Studies,2022,book,73,True,borderline,3,stub abstract (possible book review) | manual: new perspectives in critical data studies,include
 W4410895916,B2,recent,B2_recent_q4,6,Posthumanism Meets Surveillance Capitalism,2025,book,2,False,include,3,no abstract; core (and context) in title,include
 W4393906369,B2,recent,B2_recent_q4,7,Migration and (Surveillance) Capitalism,2024,other,0,True,exclude,0,core concept missing,exclude
 W4389455458,B2,recent,B2_recent_q4,8,Migration and (Surveillance) Capitalism,2023,book-chapter,1,True,exclude,0,core concept missing,exclude
