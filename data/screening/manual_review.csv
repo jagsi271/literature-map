@@ -847,3 +847,47 @@ W2898534870,B8,include,"Claude (manual review, Stage 2)",digital media effects o
 W3037197190,B8,include,"Claude (manual review, Stage 2)",filter bubbles and public debate
 W2015368323,B8,include,"Claude (manual review, Stage 2)",digital media in the Obama campaigns
 W4414426096,B8,include,"Claude (manual review, Stage 2)",visual political communication on social media (flag false positive)
+W3160863795,B9,include,"Claude (manual review, Stage 2)","fake news, religion and vaccine hesitancy in South Asia"
+W4407174310,B9,include,"Claude (manual review, Stage 2)",fake news in India during the pandemic
+W3138053709,B9,include,"Claude (manual review, Stage 2)",COVID-19 social-media fake news in India
+W4307804863,B9,exclude,"Claude (manual review, Stage 2)",AI fake-news detection for supply chains
+W4416622612,B9,include,"Claude (manual review, Stage 2)",media trust and fake news in India
+W4306885148,B9,include,"Claude (manual review, Stage 2)",fake news in India (no abstract)
+W2334068967,B9,include,"Claude (manual review, Stage 2)",online dangerous speech in South Asia
+W4392209860,B9,exclude,"Claude (manual review, Stage 2)",hate-speech detection model
+W7117101014,B9,include,"Claude (manual review, Stage 2)",computational propaganda in Pakistan (flag false positive)
+W4403021887,B9,include,"Claude (manual review, Stage 2)",information disorder during COVID-19 in India
+W7167910135,B9,exclude,"Claude (manual review, Stage 2)",political legitimacy discourse on Twitter (B8)
+W4312759973,B9,include,"Claude (manual review, Stage 2)",COVID misinformation in South Asian diaspora WhatsApp messages
+W4225307960,B9,include,"Claude (manual review, Stage 2)",same study (preprint; merged by title if identical)
+W4360620450,B9,exclude,"Claude (manual review, Stage 2)",ChatGPT perspectives (B14)
+W2791544114,B9,include,"Claude (manual review, Stage 2)",the science of fake news
+W2912336782,B9,exclude,"Claude (manual review, Stage 2)",manipulated-face detection
+W2116926372,B9,include,"Claude (manual review, Stage 2)",misinformation and its correction
+W4285585446,B9,exclude,"Claude (manual review, Stage 2)",metaverse perspectives
+W2595653137,B9,exclude,"Claude (manual review, Stage 2)",hate-speech detection method
+W2104256533,B9,exclude,"Claude (manual review, Stage 2)",argumentative theory of reasoning
+W2974087526,B9,include,"Claude (manual review, Stage 2)",health misinformation on social media (review)
+W3128392043,B9,include,"Claude (manual review, Stage 2)",vaccine misinformation and vaccination intent
+W3097590906,B9,include,"Claude (manual review, Stage 2)",health misinformation prevalence on social media (review)
+W2611921107,B9,exclude,"Claude (manual review, Stage 2)",fake-news detection dataset
+W3092858700,B9,include,"Claude (manual review, Stage 2)",susceptibility to COVID misinformation
+W2117485795,B9,include,"Claude (manual review, Stage 2)",anti-vaccination misinformation online
+W2997474044,B9,include,"Claude (manual review, Stage 2)",public health and online misinformation (review)
+W3087714840,B9,include,"Claude (manual review, Stage 2)",conspiracy theories and COVID-19 behaviour
+W2890058952,B9,include,"Claude (manual review, Stage 2)",echo chambers and epistemic bubbles (post-truth)
+W3011186656,B9,include,"Claude (manual review, Stage 2)",COVID misinformation on Twitter
+W4383913712,B9,exclude,"Claude (manual review, Stage 2)",HRM and generative AI
+W3019597125,B9,include,"Claude (manual review, Stage 2)",5G conspiracy theory network analysis
+W3122883818,B9,include,"Claude (manual review, Stage 2)",who falls for fake news
+W2766462585,B9,exclude,"Claude (manual review, Stage 2)",rumour-detection neural network
+W2912305564,B9,exclude,"Claude (manual review, Stage 2)",fake-news detection autoencoder
+W4282015473,B9,include,"Claude (manual review, Stage 2)","disinformation, misinformation and fake news (review chapter)"
+W7160744397,B9,include,"Claude (manual review, Stage 2)","fake news, conspiracy theories and hate-speech regulation"
+W4387875952,B9,include,"Claude (manual review, Stage 2)",health-related misinformation and fake news
+W4360994872,B9,exclude,"Claude (manual review, Stage 2)",Hindi hate-speech detection
+W4292259045,B9,exclude,"Claude (manual review, Stage 2)",explainable hate-speech detection
+W7167583633,B9,include,"Claude (manual review, Stage 2)",social-media mindsets and online hate speech
+W4312052513,B9,include,"Claude (manual review, Stage 2)",moralised language and online hate speech
+W7120346084,B9,exclude,"Claude (manual review, Stage 2)",hate-speech detection thesis
+W4226158522,B9,include,"Claude (manual review, Stage 2)",social debunking of misinformation on WhatsApp

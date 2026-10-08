@@ -7416,20 +7416,20 @@ W4393388366,B8,recent,B8_recent_q4,16,Challenges of #bodypositivity: Social medi
 W4387740515,B8,recent,B8_recent_q4,17,Horse racing and the growth of hashtag activism,2023,article,6,True,include,5,rules,include
 W4417365248,B8,recent,B8_recent_q4,18,Connective action,2025,reference-entry,1,False,include,3,no abstract; core in title; context terms missing,include
 W4411489098,B9,india,B9_india_q1,1,"Combating Misinformation, Disinformation, and Fake News",2025,book-chapter,1,True,include,6,rules,include
-W3160863795,B9,india,B9_india_q1,2,"“Fake news”, religion, and COVID-19 vaccine hesitancy in India, Pakistan, and Bangladesh",2021,article,123,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3160863795,B9,india,B9_india_q1,2,"“Fake news”, religion, and COVID-19 vaccine hesitancy in India, Pakistan, and Bangladesh",2021,article,123,True,borderline,3,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: fake news, religion and vaccine hesitancy in South Asia",include
 W4396578458,B9,india,B9_india_q1,3,"Building Trust in Digital Journalism: Countering Fake News, Misinformation and Disinformation",2024,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W7216606247,B9,india,B9_india_q1,4,FAKE NEWS AND DISINFORMATION IN PAKISTAN: A FORENSIC LINGUISTICS INVESTIGATION,2025,article,0,True,include,6,rules,include
 W4205268667,B9,india,B9_india_q1,5,Propaganda Warfare: Indian Disinformation Campaign against Pakistan,2021,article,0,True,include,6,rules,include
 W4405868784,B9,india,B9_india_q1,6,"Fake News, Misinformation, and Elections: Social Media Challenges in Indian Politics",2024,article,1,True,include,6,rules,include
-W4407174310,B9,india,B9_india_q1,7,Fake News in India,2025,book-chapter,1,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4407174310,B9,india,B9_india_q1,7,Fake News in India,2025,book-chapter,1,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: fake news in India during the pandemic,include
 W2973133701,B9,india,B9_india_q1,8,"Fake News, Forgery, and Falsification: Western Responses to Soviet Disinformation in Cold War India",2019,article,4,True,include,6,rules,include
 W2967434249,B9,india,B9_india_q1,9,Fake News and Social Media: Indian Perspective,2019,article,33,True,include,6,rules,include
-W3138053709,B9,india,B9_india_q1,10,COVID-19-Related Social Media Fake News in India,2021,article,101,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W4307804863,B9,india,B9_india_q1,11,Detecting fake news and disinformation using artificial intelligence and machine learning to avoid supply chain disruptions,2022,article,177,True,borderline,6,flag: \b(detection model|classifiers?|bert|f1[,pending
+W3138053709,B9,india,B9_india_q1,10,COVID-19-Related Social Media Fake News in India,2021,article,101,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: COVID-19 social-media fake news in India,include
+W4307804863,B9,india,B9_india_q1,11,Detecting fake news and disinformation using artificial intelligence and machine learning to avoid supply chain disruptions,2022,article,177,True,borderline,6,flag: \b(detection model|classifiers?|bert|f1[ | manual: AI fake-news detection for supply chains,exclude
 W4288079562,B9,india,B9_india_q1,12,Combating Misinformation in Bangladesh,2020,article,84,True,include,6,rules,include
-W4416622612,B9,india,B9_india_q1,13,Understanding Fake News in India,2025,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4416622612,B9,india,B9_india_q1,13,Understanding Fake News in India,2025,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: media trust and fake news in India,include
 W4285132683,B9,india,B9_india_q1,14,Making a Video Documentary on Fake News and Disinformation in Bangladesh: Critical Reflections and Learning,2022,article,4,True,include,6,rules,include
-W4306885148,B9,india,B9_india_q1,15,Fake news in India,2022,article,4,True,borderline,3,stub abstract (possible book review),pending
+W4306885148,B9,india,B9_india_q1,15,Fake news in India,2022,article,4,True,borderline,3,stub abstract (possible book review) | manual: fake news in India (no abstract),include
 W4294627457,B9,india,B9_india_q1,16,Media Literacy and Fake News: Bangladesh Perspective,2022,article,3,True,include,6,rules,include
 W7220181047,B9,india,B9_india_q1,17,Indian Disinformation Campaign: Suggestions and Recommendations for Pakistan,2025,article,0,True,include,6,rules,include
 W7126209182,B9,india,B9_india_q1,18,Countering Fake News and Misinformation in India: The Imperative for Enhanced Political Education,2025,article,0,True,include,6,rules,include
@@ -7438,11 +7438,11 @@ W2601088587,B9,india,B9_india_q2,2,Extreme speech online: an anthropological cri
 W3107176549,B9,india,B9_india_q2,3,Hate speech in online social media,2020,article,24,True,include,6,rules,include
 W2948445546,B9,india,B9_india_q2,4,The Control of Hate Speech on Social Media: Lessons from Sri Lanka,2018,preprint,2,False,include,3,no abstract; core (and context) in title,include
 W3164955130,B9,india,B9_india_q2,5,Hate Speech against Dalits on Social Media: Would a Penny Sparrow be Prosecuted in India for Online Hate Speech?,2021,article,10,True,include,6,rules,include
-W2334068967,B9,india,B9_india_q2,6,Managing the dangers of online hate speech in South Asia,2015,article,8,True,borderline,3,stub abstract (possible book review),pending
+W2334068967,B9,india,B9_india_q2,6,Managing the dangers of online hate speech in South Asia,2015,article,8,True,borderline,3,stub abstract (possible book review) | manual: online dangerous speech in South Asia,include
 W2531113700,B9,india,B9_india_q2,7,Free vs hate speech on social media: the Indian perspective,2016,article,12,True,include,6,rules,include
 W4392144522,B9,india,B9_india_q2,8,'Online Hate Speech in India: Legal Reforms and Social Impact on Social Media Platforms',2024,preprint,5,False,include,3,no abstract; core (and context) in title,include
 W4403821783,B9,india,B9_india_q2,9,The Role of Traditional Media vs. Social Media in Political Mobilization in South Asia: Case Studies from Sri Lanka and Bangladesh,2024,preprint,0,True,include,3,rules,include
-W4392209860,B9,india,B9_india_q2,10,Beyond Language Boundaries: Analysis and Ensemble Approach of Hate Speech Detection in South Asian Social Media,2023,conference-paper,1,True,borderline,4,flag: \b(detection model|classifiers?|bert|f1[,pending
+W4392209860,B9,india,B9_india_q2,10,Beyond Language Boundaries: Analysis and Ensemble Approach of Hate Speech Detection in South Asian Social Media,2023,conference-paper,1,True,borderline,4,flag: \b(detection model|classifiers?|bert|f1[ | manual: hate-speech detection model,exclude
 W3092739357,B9,india,B9_india_q2,11,SOCIAL MEDIA AND HATE SPEECH: THE CASE OF SECTARIAN DIVIDE IN PAKISTAN,2020,article,0,True,include,4,rules,include
 W4224264240,B9,india,B9_india_q2,12,Hate speech in social media: personal experiences and perceptions of university students in Bangladesh,2022,article,11,True,include,6,rules,include
 W3207479155,B9,india,B9_india_q2,13,Hate Speech About Politics in Social Media,2021,conference-paper,3,True,include,5,rules,include
@@ -7452,14 +7452,14 @@ W7216709196,B9,india,B9_india_q2,16,CYBER TERRORISM/HATE SPEECH ON SOCIAL MEDIA:
 W4388930893,B9,india,B9_india_q2,17,Hate Speech through Social Media: A Systematic Review,2023,article,0,True,include,6,rules,include
 W4362710274,B9,india,B9_india_q2,18,Strengthening legal framework to combat hate speech on social media: the Indian strategy towards a safer online space,2023,article,0,False,include,3,no abstract; core (and context) in title,include
 W4311177939,B9,india,B9_india_q3,1,Combatting Information Disorder: A South Asian Perspective,2022,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W7117101014,B9,india,B9_india_q3,2,Computational Propaganda in Pakistan: Political Manipulation through X (Twitter),2025,article,0,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7117101014,B9,india,B9_india_q3,2,Computational Propaganda in Pakistan: Political Manipulation through X (Twitter),2025,article,0,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co | manual: computational propaganda in Pakistan (flag false positive),include
 W4410580593,B9,india,B9_india_q3,3,A Comprehensive Examination of Computational Propaganda Campaigns in Pakistan,2025,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W7220350764,B9,india,B9_india_q3,4,THE ROLE OF COMPUTATIONAL PROPAGANDA IN POLITICAL POLARIZATION AND SOCIAL FRAGMENTATION AMONG URBAN YOUTH IN PAKISTAN: A CASE STUDY OF LAHORE CITY,2025,article,0,True,include,6,rules,include
 W2790245580,B9,india,B9_india_q3,5,The Trump Campaign Computational Propaganda Challenge for the Indian Parliamentary Elections 2019,2018,article,9,True,include,5,rules,include
 W4416438614,B9,india,B9_india_q3,6,Coordinated Computational Propaganda: Exploring Social Bot Activities During the July Revolution of Bangladesh,2025,article,1,True,include,5,rules,include
 W4386972239,B9,india,B9_india_q3,7,State Use of Computational Propaganda,2023,book-chapter,0,True,include,6,rules,include
 W7117120503,B9,india,B9_india_q3,8,"Framing False Political Narratives: Computational Propaganda, Fake News And Manipulation And Pakistan Social Media In 2025",2025,article,0,True,include,6,rules,include
-W4403021887,B9,india,B9_india_q3,9,Information Disorder Amidst Crisis: A Case Study of COVID-19 in India,2024,article,4,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W4403021887,B9,india,B9_india_q3,9,Information Disorder Amidst Crisis: A Case Study of COVID-19 in India,2024,article,4,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: information disorder during COVID-19 in India,include
 W4214729509,B9,india,B9_india_q3,10,H-Prop and H-Prop-News: Computational Propaganda Datasets in Hindi,2022,article,4,True,include,6,rules,include
 W7161235424,B9,india,B9_india_q3,11,"Information Disorder, Coordinated Behaviour and the Limits of FIMI Attribution Around Maaveerar Naal in Sri Lanka: A Multi-Year Storyline Analysis of the November–December Commemoration Period (2023, 2024, 2025)",2026,report,0,True,include,3,rules,include
 W2983844474,B9,india,B9_india_q3,12,THE ROLE OF SOCIAL MEDIA AND COMPUTATIONAL PROPAGANDA IN POLITICAL CAMPAIGN COMMUNICATION,2018,article,7,True,include,6,rules,include
@@ -7468,11 +7468,11 @@ W7126059966,B9,india,B9_india_q3,14,Information Disorder in Democracy: A Themati
 W4416814347,B9,india,B9_india_q3,15,Conceptualizing and Characterizing the Evolving Nature of Computational Propaganda Campaigns in the Global South,2025,dissertation,0,True,include,6,rules,include
 W7160169780,B9,india,B9_india_q3,16,"Weaponization of Social Media Algorithms: Computational Propaganda, Manufactured Consent, and the Subversion of Democratic Communication",2026,article,0,True,include,6,rules,include
 W7132594925,B9,india,B9_india_q3,17,Development of the computational propaganda awareness scale for bot usage on social networks and its application in political communication,2024,dissertation,0,True,include,6,rules,include
-W7167910135,B9,india,B9_india_q3,18,Discursive Construction of Political Legitimacy on Social Media: A Critical Discourse Study of Twitter/X Narratives in South Asia,2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7167910135,B9,india,B9_india_q3,18,Discursive Construction of Political Legitimacy on Social Media: A Critical Discourse Study of Twitter/X Narratives in South Asia,2026,article,0,True,borderline,1,core concept mentioned once | manual: political legitimacy discourse on Twitter (B8),exclude
 W2974221155,B9,india,B9_india_q4,1,"On WhatsApp, Rumours, Lynchings, and the Indian Government",2026,preprint,23,False,include,3,no abstract; core (and context) in title,include
 W3028584171,B9,india,B9_india_q4,2,Images and Misinformation in Political Groups: Evidence from WhatsApp in India,2020,article,106,True,include,4,rules,include
-W4312759973,B9,india,B9_india_q4,3,COVID-19–Associated Misinformation Across the South Asian Diaspora: Qualitative Study of WhatsApp Messages,2022,article,8,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W4225307960,B9,india,B9_india_q4,4,COVID-Associated Misinformation Across the South Asian Diaspora: A Qualitative Study of WhatsApp Messages (Preprint),2022,preprint,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4312759973,B9,india,B9_india_q4,3,COVID-19–Associated Misinformation Across the South Asian Diaspora: Qualitative Study of WhatsApp Messages,2022,article,8,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: COVID misinformation in South Asian diaspora WhatsApp messages,include
+W4225307960,B9,india,B9_india_q4,4,COVID-Associated Misinformation Across the South Asian Diaspora: A Qualitative Study of WhatsApp Messages (Preprint),2022,preprint,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: same study (preprint; merged by title if identical),include
 W3027149665,B9,india,B9_india_q4,5,WhatsApp vigilantes: an exploration of citizen reception and circulation of WhatsApp misinformation linked to mob violence in India,2019,book,121,True,include,6,rules,include
 W4403821783,B9,india,B9_india_q4,6,The Role of Traditional Media vs. Social Media in Political Mobilization in South Asia: Case Studies from Sri Lanka and Bangladesh,2024,preprint,0,True,include,3,rules,include
 W4224979604,B9,india,B9_india_q4,7,"Accost, Accede, or Amplify: Attitudes towards COVID-19 Misinformation on WhatsApp in India",2022,conference-paper,41,True,include,6,rules,include
@@ -7488,24 +7488,24 @@ W3047438096,B9,india,B9_india_q4,16,Can WhatsApp benefit from debunked fact-chec
 W3158385811,B9,india,B9_india_q4,17,Misinformation and the Indian Election: Case Study,2021,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W4255206896,B9,india,B9_india_q4,18,"Addressing Misinformation on Whatsapp in India Through Intermediary Liability Policy, Platform Design Modification, and Media Literacy",2020,article,3,True,include,6,rules,include
 W2582561810,B9,landmarks,B9_landmarks,1,Social Media and Fake News in the 2016 Election,2017,article,6777,True,include,6,rules,include
-W4360620450,B9,landmarks,B9_landmarks,2,"Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",2023,article,4455,True,borderline,1,core concept mentioned once,pending
-W2791544114,B9,landmarks,B9_landmarks,3,The science of fake news,2018,article,4002,True,borderline,4,stub abstract (possible book review),pending
+W4360620450,B9,landmarks,B9_landmarks,2,"Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",2023,article,4455,True,borderline,1,core concept mentioned once | manual: ChatGPT perspectives (B14),exclude
+W2791544114,B9,landmarks,B9_landmarks,3,The science of fake news,2018,article,4002,True,borderline,4,stub abstract (possible book review) | manual: the science of fake news,include
 W2742330194,B9,landmarks,B9_landmarks,4,Fake News Detection on Social Media,2017,article,3295,True,include,6,rules,include
-W2912336782,B9,landmarks,B9_landmarks,5,FaceForensics++: Learning to Detect Manipulated Facial Images,2019,conference-paper,3257,True,borderline,1,core concept mentioned once,pending
-W2116926372,B9,landmarks,B9_landmarks,6,Misinformation and Its Correction,2012,article,2959,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W4285585446,B9,landmarks,B9_landmarks,7,"Metaverse beyond the hype: Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",2022,article,2749,True,borderline,1,core concept mentioned once,pending
-W2595653137,B9,landmarks,B9_landmarks,8,Automated Hate Speech Detection and the Problem of Offensive Language,2017,conference-paper,2578,True,borderline,6,flag: \b(detection model|classifiers?|bert|f1[,pending
+W2912336782,B9,landmarks,B9_landmarks,5,FaceForensics++: Learning to Detect Manipulated Facial Images,2019,conference-paper,3257,True,borderline,1,core concept mentioned once | manual: manipulated-face detection,exclude
+W2116926372,B9,landmarks,B9_landmarks,6,Misinformation and Its Correction,2012,article,2959,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: misinformation and its correction,include
+W4285585446,B9,landmarks,B9_landmarks,7,"Metaverse beyond the hype: Multidisciplinary perspectives on emerging challenges, opportunities, and agenda for research, practice and policy",2022,article,2749,True,borderline,1,core concept mentioned once | manual: metaverse perspectives,exclude
+W2595653137,B9,landmarks,B9_landmarks,8,Automated Hate Speech Detection and the Problem of Offensive Language,2017,conference-paper,2578,True,borderline,6,flag: \b(detection model|classifiers?|bert|f1[ | manual: hate-speech detection method,exclude
 W2084591134,B9,landmarks,B9_landmarks,9,Information credibility on twitter,2011,conference-paper,2512,True,include,2,rules,include
 W2232384272,B9,landmarks,B9_landmarks,10,The spreading of misinformation online,2016,article,2451,True,include,6,rules,include
 W2009607369,B9,landmarks,B9_landmarks,11,"Organic geochemical proxies of paleoceanographic, paleolimnologic, and paleoclimatic processes",1997,article,2440,False,exclude,0,core concept missing,exclude
 W3007198457,B9,landmarks,B9_landmarks,12,How to fight an infodemic,2020,article,2354,False,exclude,0,core concept missing,exclude
-W2104256533,B9,landmarks,B9_landmarks,13,Why do humans reason? Arguments for an argumentative theory,2011,article,2279,True,borderline,1,core concept mentioned once,pending
+W2104256533,B9,landmarks,B9_landmarks,13,Why do humans reason? Arguments for an argumentative theory,2011,article,2279,True,borderline,1,core concept mentioned once | manual: argumentative theory of reasoning,exclude
 W2751589903,B9,landmarks,B9_landmarks,14,Defining “Fake News”,2017,article,2178,True,include,6,rules,include
 W3121274724,B9,landmarks,B9_landmarks,15,"Lazy, not biased: Susceptibility to partisan fake news is better explained by lack of reasoning than by motivated reasoning",2018,article,2077,False,include,3,no abstract; core (and context) in title,include
 W2760944227,B9,landmarks,B9_landmarks,16,Beyond misinformation: Understanding and coping with the “post-truth” era.,2017,article,2026,True,include,6,rules,include
 W2611634515,B9,landmarks,B9_landmarks,17,Communication Power,2009,article,1952,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2974087526,B9,landmarks,B9_landmarks,18,Systematic Literature Review on the Spread of Health-related Misinformation on Social Media,2019,review,1893,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W3128392043,B9,landmarks,B9_landmarks,19,Measuring the impact of COVID-19 vaccine misinformation on vaccination intent in the UK and USA,2021,article,1887,False,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2974087526,B9,landmarks,B9_landmarks,18,Systematic Literature Review on the Spread of Health-related Misinformation on Social Media,2019,review,1893,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: health misinformation on social media (review),include
+W3128392043,B9,landmarks,B9_landmarks,19,Measuring the impact of COVID-19 vaccine misinformation on vaccination intent in the UK and USA,2021,article,1887,False,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: vaccine misinformation and vaccination intent,include
 W2913649461,B9,landmarks,B9_landmarks,20,Fake news on Twitter during the 2016 U.S. presidential election,2019,article,1878,True,include,6,rules,include
 W3013473577,B9,landmarks,B9_landmarks,21,Fighting COVID-19 Misinformation on Social Media: Experimental Evidence for a Scalable Accuracy-Nudge Intervention,2020,article,1795,True,include,4,rules,include
 W3048383858,B9,landmarks,B9_landmarks,22,Vaccine hesitancy: the next challenge in the fight against COVID-19,2020,article,1790,False,exclude,0,core concept missing,exclude
@@ -7513,12 +7513,12 @@ W2045338850,B9,landmarks,B9_landmarks,23,Planning in the Face of Power,1982,arti
 W2910027323,B9,landmarks,B9_landmarks,24,Less than you think: Prevalence and predictors of fake news dissemination on Facebook,2019,article,1717,True,include,6,rules,include
 W3011345566,B9,landmarks,B9_landmarks,25,The COVID-19 social media infodemic,2020,article,1704,True,include,2,rules,include
 W2473555522,B9,landmarks,B9_landmarks,26,Hateful Symbols or Hateful People? Predictive Features for Hate Speech Detection on Twitter,2016,conference-paper,1691,True,include,6,rules,include
-W3097590906,B9,landmarks,B9_landmarks,27,Prevalence of Health Misinformation on Social Media: Systematic Review,2020,review,1611,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3097590906,B9,landmarks,B9_landmarks,27,Prevalence of Health Misinformation on Social Media: Systematic Review,2020,review,1611,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: health misinformation prevalence on social media (review),include
 W2152750261,B9,landmarks,B9_landmarks,28,Adolescent idiopathic scoliosis,2008,article,1583,False,exclude,0,core concept missing,exclude
 W2796536780,B9,landmarks,B9_landmarks,29,The disinformation order: Disruptive communication and the decline of democratic institutions,2018,article,1565,True,include,6,rules,include
 W2761197918,B9,landmarks,B9_landmarks,30,Mind the Hype: A Critical Evaluation and Prescriptive Agenda for Research on Mindfulness and Meditation,2017,article,1559,True,include,2,rules,include
-W2611921107,B9,landmarks,B9_landmarks,31,"""Liar, Liar Pants on Fire"": A New Benchmark Dataset for Fake News Detection",2017,conference-paper,1549,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
-W3092858700,B9,landmarks,B9_landmarks,32,Susceptibility to misinformation about COVID-19 around the world,2020,article,1520,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2611921107,B9,landmarks,B9_landmarks,31,"""Liar, Liar Pants on Fire"": A New Benchmark Dataset for Fake News Detection",2017,conference-paper,1549,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: fake-news detection dataset,exclude
+W3092858700,B9,landmarks,B9_landmarks,32,Susceptibility to misinformation about COVID-19 around the world,2020,article,1520,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: susceptibility to COVID misinformation,include
 W4213327489,B9,landmarks,B9_landmarks,33,Network Propaganda,2018,book,1466,True,include,4,rules,include
 W2740168486,B9,landmarks,B9_landmarks,34,A Survey on Hate Speech Detection using Natural Language Processing,2017,conference-paper,1423,True,include,6,rules,include
 W4206236567,B9,landmarks,B9_landmarks,35,The psychological drivers of misinformation belief and its resistance to correction,2022,review,1396,False,include,3,no abstract; core (and context) in title,include
@@ -7526,8 +7526,8 @@ W1988763630,B9,landmarks,B9_landmarks,36,Social Accountability and Corporate Gre
 W2102813049,B9,landmarks,B9_landmarks,37,Why Strict Churches Are Strong,1994,article,1321,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2073166664,B9,landmarks,B9_landmarks,38,Planting misinformation in the human mind: A 30-year investigation of the malleability of memory: Figure 1.,2005,preprint,1311,True,include,6,rules,include
 W3137986835,B9,landmarks,B9_landmarks,39,The Psychology of Fake News,2021,review,1296,True,include,5,rules,include
-W2117485795,B9,landmarks,B9_landmarks,40,A postmodern Pandora's box: Anti-vaccination misinformation on the Internet,2009,article,1255,False,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W2997474044,B9,landmarks,B9_landmarks,41,Public Health and Online Misinformation: Challenges and Recommendations,2019,review,1238,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2117485795,B9,landmarks,B9_landmarks,40,A postmodern Pandora's box: Anti-vaccination misinformation on the Internet,2009,article,1255,False,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: anti-vaccination misinformation online,include
+W2997474044,B9,landmarks,B9_landmarks,41,Public Health and Online Misinformation: Challenges and Recommendations,2019,review,1238,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: public health and online misinformation (review),include
 W2797202416,B9,landmarks,B9_landmarks,42,"Social Media, Political Polarization, and Political Disinformation: A Review of the Scientific Literature",2018,preprint,1238,False,include,3,no abstract; core (and context) in title,include
 W3015057951,B9,landmarks,B9_landmarks,43,The consequences of the COVID-19 pandemic on mental health and implications for clinical practice,2020,article,1234,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2887782043,B9,landmarks,B9_landmarks,44,A Survey on Automatic Detection of Hate Speech in Text,2018,article,1232,True,include,6,rules,include
@@ -7546,9 +7546,9 @@ W2062321610,B9,landmarks,B9_landmarks,56,"Anti-vaccine activists, Web 2.0, and t
 W3023617420,B9,landmarks,B9_landmarks,57,"A Comprehensive Review of the COVID-19 Pandemic and the Role of IoT, Drones, AI, Blockchain, and 5G in Managing its Impact",2020,article,1128,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W2031092644,B9,landmarks,B9_landmarks,58,Attitudes to vaccination: A critical review,2014,article,1128,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W3010571899,B9,landmarks,B9_landmarks,59,The pandemic of social media panic travels faster than the COVID-19 outbreak,2020,article,1121,True,include,3,rules,include
-W3087714840,B9,landmarks,B9_landmarks,60,Conspiracy theories as barriers to controlling the spread of COVID-19 in the U.S.,2020,article,1112,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3087714840,B9,landmarks,B9_landmarks,60,Conspiracy theories as barriers to controlling the spread of COVID-19 in the U.S.,2020,article,1112,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: conspiracy theories and COVID-19 behaviour,include
 W1991806543,B9,landmarks,B9_landmarks,61,Lies My Teacher Told Me: Everything Your American History Textbook Got Wrong.,1996,article,1106,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2890058952,B9,landmarks,B9_landmarks,62,ECHO CHAMBERS AND EPISTEMIC BUBBLES,2018,article,1105,True,borderline,1,core concept mentioned once,pending
+W2890058952,B9,landmarks,B9_landmarks,62,ECHO CHAMBERS AND EPISTEMIC BUBBLES,2018,article,1105,True,borderline,1,core concept mentioned once | manual: echo chambers and epistemic bubbles (post-truth),include
 W2989851933,B9,landmarks,B9_landmarks,63,The Emergence of Deepfake Technology: A Review,2019,article,1103,True,include,2,rules,include
 W2093512375,B9,landmarks,B9_landmarks,64,Undertreatment of Medical Inpatients with Narcotic Analgesics,1973,article,1103,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W4238352561,B9,landmarks,B9_landmarks,65,Post-Truth,2018,book,1089,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
@@ -7565,7 +7565,7 @@ W2913081045,B9,landmarks,B9_landmarks,75,Fighting misinformation on social media
 W2900471836,B9,landmarks,B9_landmarks,76,Addressing Health-Related Misinformation on Social Media,2018,article,991,False,include,3,no abstract; core (and context) in title,include
 W2410465342,B9,landmarks,B9_landmarks,77,Automatic deception detection: Methods for finding fake news,2015,article,990,True,include,6,rules,include
 W222325065,B9,landmarks,B9_landmarks,78,Environmental criminology,1982,article,975,False,exclude,0,core concept missing,exclude
-W3011186656,B9,landmarks,B9_landmarks,79,Coronavirus Goes Viral: Quantifying the COVID-19 Misinformation Epidemic on Twitter,2020,article,960,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3011186656,B9,landmarks,B9_landmarks,79,Coronavirus Goes Viral: Quantifying the COVID-19 Misinformation Epidemic on Twitter,2020,article,960,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: COVID misinformation on Twitter,include
 W3007419529,B9,landmarks,B9_landmarks,80,"Deepfakes and Disinformation: Exploring the Impact of Synthetic Political Video on Deception, Uncertainty, and Trust in News",2020,article,956,True,include,4,rules,include
 W3033808757,B9,landmarks,B9_landmarks,81,"Health-protective behaviour, social media usage and conspiracy belief during the COVID-19 public health emergency",2020,article,941,True,include,3,rules,include
 W2129000173,B9,landmarks,B9_landmarks,82,"HIV-Related Stigma and Knowledge in the United States: Prevalence and Trends, 1991–1999",2002,article,933,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
@@ -7575,28 +7575,28 @@ W4295747815,B9,landmarks,B9_landmarks,85,The Lancet Commission on lessons for th
 W3104758113,B9,landmarks,B9_landmarks,86,Inﬂuence of fake news in Twitter during the 2016 US presidential election,2019,article,906,True,include,6,rules,include
 W2759820691,B9,landmarks,B9_landmarks,87,Truth of Varying Shades: Analyzing Language in Fake News and Political Fact-Checking,2017,conference-paper,899,True,include,5,rules,include
 W2910172717,B9,landmarks,B9_landmarks,88,"Science audiences, misinformation, and fake news",2019,article,897,True,include,6,rules,include
-W4383913712,B9,landmarks,B9_landmarks,89,Human resource management in the age of generative artificial intelligence: Perspectives and research directions on ChatGPT,2023,article,894,True,borderline,1,core concept mentioned once,pending
+W4383913712,B9,landmarks,B9_landmarks,89,Human resource management in the age of generative artificial intelligence: Perspectives and research directions on ChatGPT,2023,article,894,True,borderline,1,core concept mentioned once | manual: HRM and generative AI,exclude
 W2763572884,B9,landmarks,B9_landmarks,90,CSI,2017,conference-paper,855,True,include,3,rules,include
 W3015218641,B9,landmarks,B9_landmarks,91,Top Concerns of Tweeters During the COVID-19 Pandemic: Infoveillance Study,2020,article,851,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W3019597125,B9,landmarks,B9_landmarks,92,COVID-19 and the 5G Conspiracy Theory: Social Network Analysis of Twitter Data,2020,article,841,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
-W3122883818,B9,landmarks,B9_landmarks,93,"Who falls for fake news? The roles of bullshit receptivity, overclaiming, familiarity, and analytic thinking",2019,article,839,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3019597125,B9,landmarks,B9_landmarks,92,COVID-19 and the 5G Conspiracy Theory: Social Network Analysis of Twitter Data,2020,article,841,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: 5G conspiracy theory network analysis,include
+W3122883818,B9,landmarks,B9_landmarks,93,"Who falls for fake news? The roles of bullshit receptivity, overclaiming, familiarity, and analytic thinking",2019,article,839,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: who falls for fake news,include
 W1971294185,B9,landmarks,B9_landmarks,94,Motivational pathways to STEM career choices: Using expectancy–value perspective to understand individual and gender differences in STEM fields,2013,article,838,False,exclude,0,core concept missing,exclude
 W2139297408,B9,landmarks,B9_landmarks,95,Limiting the spread of misinformation in social networks,2011,conference-paper,826,True,include,4,rules,include
-W2766462585,B9,landmarks,B9_landmarks,96,Multimodal Fusion with Recurrent Neural Networks for Rumor Detection on Microblogs,2017,conference-paper,821,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W2766462585,B9,landmarks,B9_landmarks,96,Multimodal Fusion with Recurrent Neural Networks for Rumor Detection on Microblogs,2017,conference-paper,821,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: rumour-detection neural network,exclude
 W3016317684,B9,landmarks,B9_landmarks,97,YouTube as a source of information on COVID-19: a pandemic of misinformation?,2020,article,816,True,include,4,rules,include
 W2140886363,B9,landmarks,B9_landmarks,98,DNA Double-Strand Break Repair: All's Well that Ends Well,2006,review,815,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2912305564,B9,landmarks,B9_landmarks,99,MVAE: Multimodal Variational Autoencoder for Fake News Detection,2019,conference-paper,806,True,borderline,6,flag: \b(detection model|classifiers?|bert|f1[,pending
+W2912305564,B9,landmarks,B9_landmarks,99,MVAE: Multimodal Variational Autoencoder for Fake News Detection,2019,conference-paper,806,True,borderline,6,flag: \b(detection model|classifiers?|bert|f1[ | manual: fake-news detection autoencoder,exclude
 W3087467629,B9,landmarks,B9_landmarks,100,"Transmission of SARS-CoV-2: A Review of Viral, Host, and Environmental Factors",2020,article,804,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W4319983294,B9,recent,B9_recent_q1,1,"Fake news, disinformation and misinformation in social media: a review",2023,article,774,False,include,3,no abstract; core (and context) in title,include
-W4282015473,B9,recent,B9_recent_q1,2,"Disinformation, Misinformation, and Fake News",2022,book-chapter,35,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4282015473,B9,recent,B9_recent_q1,2,"Disinformation, Misinformation, and Fake News",2022,book-chapter,35,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: disinformation, misinformation and fake news (review chapter)",include
 W7154492235,B9,recent,B9_recent_q1,3,"Fake News, Misinformation and Disinformation",2026,book,0,False,include,3,no abstract; core (and context) in title,include
 W4392507474,B9,recent,B9_recent_q1,4,"Misinformation, disinformation, and fake news: lessons from an interdisciplinary, systematic literature review",2024,review,208,True,include,6,rules,include
 W4416853345,B9,recent,B9_recent_q1,5,"Misinformation, disinformation, and fake news",2025,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4210511847,B9,recent,B9_recent_q1,6,"Combating fake news, disinformation, and misinformation: Experimental evidence for media literacy education",2022,article,190,True,include,6,rules,include
 W4411489098,B9,recent,B9_recent_q1,7,"Combating Misinformation, Disinformation, and Fake News",2025,book-chapter,1,True,include,6,rules,include
 W4392474756,B9,recent,B9_recent_q1,8,"44. Fake news, misinformation and disinformation",2024,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W7160744397,B9,recent,B9_recent_q1,9,"Fake News, Conspiracy Theories, Misinformation and Disinformation",2024,book-chapter,0,True,borderline,4,stub abstract (possible book review),pending
-W4387875952,B9,recent,B9_recent_q1,10,"Exploring Health-Related Misinformation, Disinformation and “Fake News”",2023,book-chapter,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7160744397,B9,recent,B9_recent_q1,9,"Fake News, Conspiracy Theories, Misinformation and Disinformation",2024,book-chapter,0,True,borderline,4,"stub abstract (possible book review) | manual: fake news, conspiracy theories and hate-speech regulation",include
+W4387875952,B9,recent,B9_recent_q1,10,"Exploring Health-Related Misinformation, Disinformation and “Fake News”",2023,book-chapter,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: health-related misinformation and fake news,include
 W4408140481,B9,recent,B9_recent_q1,11,"four digital horsemen: Disinformation, misinformation, fake news and pseudoscience",2025,article,2,True,include,6,rules,include
 W4405121834,B9,recent,B9_recent_q1,12,Tanzanian journalists in countering fake news: disinformation and misinformation,2024,article,1,True,include,6,rules,include
 W7106269914,B9,recent,B9_recent_q1,13,"Artificial Intelligence and Misinformation, Disinformation, Fake News, and Deepfakes",2025,other,0,True,include,6,rules,include
@@ -7609,19 +7609,19 @@ W7128810732,B9,recent,B9_recent_q2,1,Hate Speech: Social Media and Online,2025,r
 W4386003692,B9,recent,B9_recent_q2,2,EnsMulHateCyb: Multilingual hate speech and cyberbully detection in online social media,2023,article,51,False,include,3,no abstract; core (and context) in title,include
 W3124940434,B9,recent,B9_recent_q2,3,Hate Speech in Social Media,2023,book,16,False,include,3,no abstract; core (and context) in title,include
 W2948937448,B9,recent,B9_recent_q2,4,Transfer learning for hate speech detection in social media,2023,article,76,True,include,6,rules,include
-W4360994872,B9,recent,B9_recent_q2,5,Detecting Hate Speech in Hindi in Online Social Media,2023,conference-paper,2,True,borderline,6,flag: \b(detection model|classifiers?|bert|f1[,pending
+W4360994872,B9,recent,B9_recent_q2,5,Detecting Hate Speech in Hindi in Online Social Media,2023,conference-paper,2,True,borderline,6,flag: \b(detection model|classifiers?|bert|f1[ | manual: Hindi hate-speech detection,exclude
 W4387532351,B9,recent,B9_recent_q2,6,HATE SPEECH AND SOCIAL MEDIA,2023,article,1,True,include,6,rules,include
-W4292259045,B9,recent,B9_recent_q2,7,Social Media Hate Speech Detection Using Explainable Artificial Intelligence (XAI),2022,article,104,True,borderline,5,flag: \b(deep learning|neural network|convolut,pending
+W4292259045,B9,recent,B9_recent_q2,7,Social Media Hate Speech Detection Using Explainable Artificial Intelligence (XAI),2022,article,104,True,borderline,5,flag: \b(deep learning|neural network|convolut | manual: explainable hate-speech detection,exclude
 W4294837701,B9,recent,B9_recent_q2,8,Hate Speech and Social Media,2022,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4411503876,B9,recent,B9_recent_q2,9,Hate Speech on Social Media,2025,article,0,True,include,6,rules,include
 W4396218551,B9,recent,B9_recent_q2,10,The Virality of Hate Speech on Social Media,2024,article,33,True,include,6,rules,include
-W7167583633,B9,recent,B9_recent_q2,11,How Social Media Mindsets Shape Interactions with Online Hate Speech,2022,preprint,0,True,borderline,3,stub abstract (possible book review),pending
+W7167583633,B9,recent,B9_recent_q2,11,How Social Media Mindsets Shape Interactions with Online Hate Speech,2022,preprint,0,True,borderline,3,stub abstract (possible book review) | manual: social-media mindsets and online hate speech,include
 W4225400770,B9,recent,B9_recent_q2,12,How social media users perceive different forms of online hate speech: A qualitative multi-method study,2022,article,85,True,include,6,rules,include
-W4312052513,B9,recent,B9_recent_q2,13,Moralized language predicts hate speech on social media,2022,article,29,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4312052513,B9,recent,B9_recent_q2,13,Moralized language predicts hate speech on social media,2022,article,29,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: moralised language and online hate speech,include
 W4396528203,B9,recent,B9_recent_q2,14,Reframing social media discourse: Converting hate speech to non-hate speech,2024,article,0,True,include,6,rules,include
 W4321491066,B9,recent,B9_recent_q2,15,Hate Speech Prediction on Social Media,2023,article,2,False,include,3,no abstract; core (and context) in title,include
 W7124171553,B9,recent,B9_recent_q2,16,Social Media Implicit Hate Speech Dataset,2025,dataset,0,True,exclude,0,type dataset,exclude
-W7120346084,B9,recent,B9_recent_q2,17,Hate speech detection and gender bias mitigation on online social media,2024,dissertation,0,True,borderline,3,stub abstract (possible book review),pending
+W7120346084,B9,recent,B9_recent_q2,17,Hate speech detection and gender bias mitigation on online social media,2024,dissertation,0,True,borderline,3,stub abstract (possible book review) | manual: hate-speech detection thesis,exclude
 W4404520394,B9,recent,B9_recent_q2,18,Unmasking Online Hostility: Analysing and Mitigating Hate Speech in Social Media,2024,article,0,True,include,3,rules,include
 W4417365234,B9,recent,B9_recent_q3,1,Computational propaganda,2025,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4387129029,B9,recent,B9_recent_q3,2,Computational propaganda effects,2022,reference-entry,1,True,include,3,rules,include
@@ -7651,7 +7651,7 @@ W4288430940,B9,recent,B9_recent_q4,7,Audio misinformation on WhatsApp: A case st
 W4283069143,B9,recent,B9_recent_q4,8,WhatsApp and audio misinformation during the Covid-19 pandemic,2022,article,8,True,include,6,rules,include
 W4367357832,B9,recent,B9_recent_q4,9,FakeSpreadersWhatsApp.BR: Misinformation Spreaders Detection in Brazilian Portuguese WhatsApp Messages,2023,conference-paper,1,False,include,3,no abstract; core (and context) in title,include
 W4224979604,B9,recent,B9_recent_q4,10,"Accost, Accede, or Amplify: Attitudes towards COVID-19 Misinformation on WhatsApp in India",2022,conference-paper,41,True,include,6,rules,include
-W4226158522,B9,recent,B9_recent_q4,11,Social Debunking of Misinformation on WhatsApp: The Case for Strong and In-group Ties,2022,article,59,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4226158522,B9,recent,B9_recent_q4,11,Social Debunking of Misinformation on WhatsApp: The Case for Strong and In-group Ties,2022,article,59,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: social debunking of misinformation on WhatsApp,include
 W4400774316,B9,recent,B9_recent_q4,12,Misinformation Campaigns through WhatsApp and Telegram in Presidential Elections in Brazil,2024,article,12,False,include,3,no abstract; core (and context) in title,include
 W4401345805,B9,recent,B9_recent_q4,13,Content Analysis of MAFINDO's Verified WhatsApp-Related Misinformation in Indonesia,2024,article,1,True,include,6,rules,include
 W4381296828,B9,recent,B9_recent_q4,14,Misinformation Beyond Traditional Feeds: Evidence from a WhatsApp Deactivation Experiment in Brazil,2023,preprint,3,False,include,3,no abstract; core (and context) in title,include
