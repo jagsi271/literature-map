@@ -54,9 +54,9 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | A16 | Night-time city & urban time | 241 | 122 | 33 (14%) | 20 / 13 | 135 | 135 |
 | B1 | Platforms & platform capitalism | 239 | 181 | 33 (14%) | 16 / 17 | 187 | 176 |
 | B2 | Datafication, data justice & data colonialism | 240 | 148 | 39 (16%) | 22 / 17 | 161 | 157 |
-| B3 | Surveillance studies | 230 | 129 | 32 (14%) | 0 / 0 (+32 pending) | 119 | 116 |
+| B3 | Surveillance studies | 229 | 156 | 34 (15%) | 11 / 23 | 158 | 151 |
 | B4 | Algorithmic governance & AI in the public sec | 238 | 205 | 18 (8%) | 0 / 0 (+18 pending) | 181 | 181 |
-| B5 | Digital identity & digital public infrastruct | 272 | 184 | 47 (17%) | 7 / 21 (+19 pending) | 177 | 176 |
+| B5 | Digital identity & digital public infrastruct | 272 | 184 | 47 (17%) | 7 / 21 (+19 pending) | 177 | 174 |
 | B6 | Digital finance & payments | 217 | 182 | 14 (6%) | 0 / 0 (+14 pending) | 172 | 172 |
 | B7 | Digital divides & digital inclusion | 236 | 183 | 29 (12%) | 0 / 0 (+29 pending) | 166 | 164 |
 | B8 | Social media, digital publics & political com | 241 | 193 | 17 (7%) | 0 / 0 (+17 pending) | 180 | 177 |
@@ -68,14 +68,14 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | B14 | Generative AI & society | 237 | 161 | 46 (19%) | 0 / 0 (+46 pending) | 151 | 151 |
 | C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 115 |
 
-Total deduplicated records: 4965.
+Total deduplicated records: 4998.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
 <!-- AUTO:API -->
 | UTC day | Calls by this pipeline | Cost (USD) | ≈ searches | Credits left at last call |
 |---|---|---|---|---|
-| 2026-10-08 | 283 | 0.283 | 283 | 6770 |
+| 2026-10-08 | 286 | 0.286 | 286 | 6740 |
 <!-- /AUTO:API -->
 
 ## Stage 1 (pilot) — approved

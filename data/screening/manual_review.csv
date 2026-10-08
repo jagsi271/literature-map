@@ -716,3 +716,37 @@ W4402001166,B2,include,"Claude (manual review, Stage 2)",critiques of data colon
 W4401807354,B2,include,"Claude (manual review, Stage 2)",critiques of data colonialism (duplicate record)
 W4396516882,B2,exclude,"Claude (manual review, Stage 2)",book review (Surveillance Capitalism)
 W4285122544,B2,include,"Claude (manual review, Stage 2)",new perspectives in critical data studies
+W7114077465,B3,include,"Claude (manual review, Stage 2)",predictive policing and data tools at Delhi Police (surveillance studies; also C6)
+W7165204930,B3,exclude,"Claude (manual review, Stage 2)",dengue surveillance data
+W7203699707,B3,exclude,"Claude (manual review, Stage 2)",residual data framework; surveillance studies cited
+W1970185664,B3,exclude,"Claude (manual review, Stage 2)",disease risk-factor surveillance
+W4205273763,B3,exclude,"Claude (manual review, Stage 2)",online violence briefing
+W7212344677,B3,exclude,"Claude (manual review, Stage 2)",women peacebuilders; state surveillance in passing
+W4319836239,B3,include,"Claude (manual review, Stage 2)","COVID digital technologies, surveillance and privacy in India and Bangladesh"
+W7155507143,B3,include,"Claude (manual review, Stage 2)","state digital governance, privacy and surveillance"
+W584600887,B3,include,"Claude (manual review, Stage 2)",surveillance as social sorting (Lyon; flag false positive)
+W2619503097,B3,exclude,"Claude (manual review, Stage 2)",algorithmic regulation (B4)
+W2126690184,B3,include,"Claude (manual review, Stage 2)",dataveillance (Clarke 1988)
+W4246840924,B3,exclude,"Claude (manual review, Stage 2)","partisan ""social sorting"" (different sense)"
+W618851682,B3,exclude,"Claude (manual review, Stage 2)",internet politics textbook
+W2126756724,B3,include,"Claude (manual review, Stage 2)",suspect communities and counter-terror surveillance
+W2921764039,B3,include,"Claude (manual review, Stage 2)",digital resignation and consumer surveillance
+W4312807214,B3,exclude,"Claude (manual review, Stage 2)",Human Rights Watch report
+W3041006163,B3,exclude,"Claude (manual review, Stage 2)",COVID detection framework
+W2337563770,B3,exclude,"Claude (manual review, Stage 2)",algorithmic governmentality (B4)
+W1986011338,B3,exclude,"Claude (manual review, Stage 2)",digital data and education
+W2137063243,B3,exclude,"Claude (manual review, Stage 2)",haemophilia surveillance
+W2747047513,B3,exclude,"Claude (manual review, Stage 2)",business governance of the internet
+W2752737474,B3,exclude,"Claude (manual review, Stage 2)",smart-city privacy technologies
+W2556556396,B3,exclude,"Claude (manual review, Stage 2)",schools as sorting machines
+W3118612437,B3,exclude,"Claude (manual review, Stage 2)",digital citizenship and literacy
+W3042637685,B3,include,"Claude (manual review, Stage 2)","contact tracing, privacy and surveillance"
+W2418146721,B3,exclude,"Claude (manual review, Stage 2)",giardiasis surveillance
+W4288720373,B3,exclude,"Claude (manual review, Stage 2)",metaverse and smart cities
+W4240383239,B3,include,"Claude (manual review, Stage 2)",speculative security and state surveillance
+W2021360023,B3,exclude,"Claude (manual review, Stage 2)",cryptosporidiosis surveillance
+W4212774244,B3,exclude,"Claude (manual review, Stage 2)",privacy in government AI (B4)
+W2482717051,B3,include,"Claude (manual review, Stage 2)","biometrics, gender, race and surveillance"
+W4414973587,B3,include,"Claude (manual review, Stage 2)",surveillant assemblage in Palestine
+W4402344539,B3,exclude,"Claude (manual review, Stage 2)",book review
+W4388818396,B3,exclude,"Claude (manual review, Stage 2)",book review

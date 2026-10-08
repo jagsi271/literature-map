@@ -282,3 +282,6 @@ utc,label,status,cost_usd,credits_used_today,credits_remaining,cache_file
 2026-10-08T09:57:34+00:00,B14,200,0.001,10,6790,data/raw/api/search_B14_india_q1.json.gz
 2026-10-08T09:57:35+00:00,B14,200,0.001,10,6780,data/raw/api/search_B14_india_q2.json.gz
 2026-10-08T09:57:35+00:00,B14,200,0.001,10,6770,data/raw/api/search_B14_india_q3.json.gz
+2026-10-08T10:00:04+00:00,B3,200,0.001,10,6760,data/raw/api/search_B3_landmarks.json.gz
+2026-10-08T10:00:05+00:00,B3,200,0.001,10,6750,data/raw/api/search_B3_recent_q1.json.gz
+2026-10-08T10:00:06+00:00,B3,200,0.001,10,6740,data/raw/api/search_B3_india_q1.json.gz

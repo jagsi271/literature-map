@@ -3,113 +3,113 @@
  "slice": "india",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"surveillance studies\" OR \"surveillance society\" OR \"surveillant assemblage\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "query": "((\"surveillance studies\" AND (privacy OR power OR digital OR state OR police OR policing)) OR \"surveillance society\" OR \"surveillant assemblage\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"surveillance studies\" OR \"surveillance society\" OR \"surveillant assemblage\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:((\"surveillance studies\" AND (privacy OR power OR digital OR state OR police OR policing)) OR \"surveillance society\" OR \"surveillant assemblage\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
  "sort": "relevance_score:desc",
  "per_page": 24,
- "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"surveillance society\" OR \"surveillance studies\" OR \"surveillant assemblage\"))",
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"surveillance society\" OR \"surveillant assemblage\" OR (\"surveillance studies\" AND (\"digital\" OR \"police\" OR \"policing\" OR \"power\" OR \"privacy\" OR \"state\"))))",
  "page": 1,
- "total_results": 327,
+ "total_results": 74,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_B3_india_q1.json.gz",
  "results": [
   [
-   "W4404792319",
-   2024
+   "W7211944573",
+   2026
   ],
   [
-   "W2967449128",
-   2019
-  ],
-  [
-   "W2109784025",
-   2007
-  ],
-  [
-   "W3205523677",
-   2021
+   "W7114077465",
+   0
   ],
   [
    "W2315349491",
    2015
   ],
   [
-   "W7211944573",
-   2026
-  ],
-  [
-   "W2144738498",
-   1992
-  ],
-  [
-   "W2291675883",
-   2001
+   "W3205523677",
+   2021
   ],
   [
    "W2989566147",
    2019
   ],
   [
-   "W3011299649",
-   2020
-  ],
-  [
-   "W2014371527",
-   2011
-  ],
-  [
-   "W2254476736",
-   1997
+   "W3210159193",
+   2021
   ],
   [
    "W3198722924",
    2021
   ],
   [
-   "W3210159193",
-   2021
-  ],
-  [
-   "W4414576058",
-   2025
-  ],
-  [
-   "W3029391654",
-   2018
-  ],
-  [
-   "W4403046963",
-   2024
-  ],
-  [
-   "W2750933465",
-   2017
-  ],
-  [
    "W4400439990",
    2024
-  ],
-  [
-   "W7219289170",
-   2025
   ],
   [
    "W4213420514",
    2021
   ],
   [
-   "W1996465238",
+   "W3031693496",
+   2020
+  ],
+  [
+   "W7166880925",
+   2026
+  ],
+  [
+   "W7140833923",
+   2026
+  ],
+  [
+   "W7165204930",
+   2026
+  ],
+  [
+   "W7162529925",
+   2025
+  ],
+  [
+   "W7203699707",
+   2026
+  ],
+  [
+   "W2009404140",
+   2010
+  ],
+  [
+   "W2077111650",
+   2009
+  ],
+  [
+   "W2944892097",
+   2019
+  ],
+  [
+   "W2768442759",
+   2017
+  ],
+  [
+   "W1970185664",
    2011
   ],
   [
-   "W1503952773",
-   2011
+   "W4406851528",
+   2025
   ],
   [
-   "W2136788507",
-   2012
+   "W4402816251",
+   2024
+  ],
+  [
+   "W7220252281",
+   2023
+  ],
+  [
+   "W7153452077",
+   2026
   ]
  ]
 }

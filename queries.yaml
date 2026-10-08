@@ -305,7 +305,8 @@ themes:
     domain: B
     name: Surveillance studies
     queries:
-      - '"surveillance studies" OR "surveillance society" OR "surveillant assemblage"'
+      # v3: bare "surveillance studies" also matched epidemiological surveillance studies
+      - '("surveillance studies" AND (privacy OR power OR digital OR state OR police OR policing)) OR "surveillance society" OR "surveillant assemblage"'
       - 'dataveillance OR "lateral surveillance" OR "social sorting" OR "state surveillance" OR "mass surveillance"'
       - 'surveillance AND privacy AND (digital OR technology) AND (power OR state OR citizens)'
     screen:

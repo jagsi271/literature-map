@@ -3,15 +3,15 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"surveillance studies\" OR \"surveillance society\" OR \"surveillant assemblage\") OR (dataveillance OR \"lateral surveillance\" OR \"social sorting\" OR \"state surveillance\" OR \"mass surveillance\") OR (surveillance AND privacy AND (digital OR technology) AND (power OR state OR citizens))",
+ "query": "((\"surveillance studies\" AND (privacy OR power OR digital OR state OR police OR policing)) OR \"surveillance society\" OR \"surveillant assemblage\") OR (dataveillance OR \"lateral surveillance\" OR \"social sorting\" OR \"state surveillance\" OR \"mass surveillance\") OR (surveillance AND privacy AND (digital OR technology) AND (power OR state OR citizens))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"surveillance studies\" OR \"surveillance society\" OR \"surveillant assemblage\") OR (dataveillance OR \"lateral surveillance\" OR \"social sorting\" OR \"state surveillance\" OR \"mass surveillance\") OR (surveillance AND privacy AND (digital OR technology) AND (power OR state OR citizens)),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:((\"surveillance studies\" AND (privacy OR power OR digital OR state OR police OR policing)) OR \"surveillance society\" OR \"surveillant assemblage\") OR (dataveillance OR \"lateral surveillance\" OR \"social sorting\" OR \"state surveillance\" OR \"mass surveillance\") OR (surveillance AND privacy AND (digital OR technology) AND (power OR state OR citizens)),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
- "oql": "get works where retracted is (false)\n  and title-abstract has (\"lateral surveillance\" OR \"mass surveillance\" OR \"social sorting\" OR \"state surveillance\" OR \"surveillance society\" OR \"surveillance studies\" OR \"surveillant assemblage\" OR \"dataveillance\" OR (\"privacy\" AND \"surveillance\" AND (\"citizens\" OR \"power\" OR \"state\") AND (\"digital\" OR \"technology\")))",
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"lateral surveillance\" OR \"mass surveillance\" OR \"social sorting\" OR \"state surveillance\" OR \"surveillance society\" OR \"surveillant assemblage\" OR \"dataveillance\" OR (\"surveillance studies\" AND (\"digital\" OR \"police\" OR \"policing\" OR \"power\" OR \"privacy\" OR \"state\")) OR (\"privacy\" AND \"surveillance\" AND (\"citizens\" OR \"power\" OR \"state\") AND (\"digital\" OR \"technology\")))",
  "page": 1,
- "total_results": 14249,
+ "total_results": 9625,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_B3_landmarks.json.gz",
  "results": [
@@ -28,124 +28,36 @@
    2000
   ],
   [
-   "W4281385327",
-   2022
-  ],
-  [
-   "W2042063943",
-   2014
-  ],
-  [
-   "W2809593437",
-   2018
-  ],
-  [
-   "W2184405267",
-   2015
-  ],
-  [
-   "W2219714852",
-   1999
-  ],
-  [
-   "W2099001508",
-   2002
-  ],
-  [
-   "W1583871629",
-   2002
-  ],
-  [
-   "W2343234953",
-   2016
-  ],
-  [
    "W584790758",
    2014
-  ],
-  [
-   "W2171000901",
-   2005
   ],
   [
    "W2034679108",
    1999
   ],
   [
-   "W2113827628",
-   2000
-  ],
-  [
-   "W2037342985",
-   2012
-  ],
-  [
    "W4298286109",
    2013
-  ],
-  [
-   "W2080630525",
-   2014
   ],
   [
    "W2154805120",
    2001
   ],
   [
-   "W2166305421",
-   2011
-  ],
-  [
-   "W75505851",
-   2014
-  ],
-  [
-   "W2120736676",
-   1996
-  ],
-  [
-   "W1553187499",
-   2008
-  ],
-  [
-   "W2000811678",
-   2006
-  ],
-  [
    "W2057842517",
    1995
-  ],
-  [
-   "W3010101452",
-   2018
   ],
   [
    "W584600887",
    2003
   ],
   [
-   "W2396457900",
-   2016
-  ],
-  [
    "W568924004",
    2007
   ],
   [
-   "W3184815473",
-   2021
-  ],
-  [
    "W2619503097",
    2017
-  ],
-  [
-   "W1240542110",
-   2008
-  ],
-  [
-   "W2162067003",
-   2005
   ],
   [
    "W2133307234",
@@ -160,20 +72,8 @@
    1988
   ],
   [
-   "W4249774886",
-   2020
-  ],
-  [
-   "W2167385770",
-   2003
-  ],
-  [
    "W2134198313",
    2006
-  ],
-  [
-   "W2015569784",
-   1987
   ],
   [
    "W4246840924",
@@ -184,14 +84,6 @@
    2018
   ],
   [
-   "W2184506935",
-   2015
-  ],
-  [
-   "W2105033346",
-   2002
-  ],
-  [
    "W1558377788",
    2012
   ],
@@ -200,76 +92,32 @@
    1999
   ],
   [
-   "W1978174896",
-   2002
-  ],
-  [
    "W215352665",
    2007
-  ],
-  [
-   "W4211056710",
-   2008
   ],
   [
    "W1539198405",
    2012
   ],
   [
-   "W2137120198",
-   2009
-  ],
-  [
    "W2790895131",
    2018
-  ],
-  [
-   "W1887737698",
-   2001
   ],
   [
    "W1042953836",
    2015
   ],
   [
-   "W2067766620",
-   1986
-  ],
-  [
    "W282431559",
    2015
-  ],
-  [
-   "W1974342169",
-   2004
   ],
   [
    "W2583071196",
    2017
   ],
   [
-   "W1988570524",
-   2000
-  ],
-  [
-   "W2047041272",
-   2015
-  ],
-  [
-   "W2102341021",
-   2009
-  ],
-  [
    "W618851682",
    2006
-  ],
-  [
-   "W2136761329",
-   2002
-  ],
-  [
-   "W2987720685",
-   2019
   ],
   [
    "W2732757946",
@@ -280,16 +128,8 @@
    2016
   ],
   [
-   "W2576310876",
-   2017
-  ],
-  [
    "W2126756724",
    2009
-  ],
-  [
-   "W47623468",
-   2007
   ],
   [
    "W2338824285",
@@ -300,24 +140,8 @@
    2021
   ],
   [
-   "W2123624310",
-   2008
-  ],
-  [
    "W1895063068",
    2002
-  ],
-  [
-   "W2419509696",
-   2008
-  ],
-  [
-   "W2905874228",
-   2018
-  ],
-  [
-   "W3168314838",
-   2014
   ],
   [
    "W2095298352",
@@ -336,48 +160,8 @@
    2019
   ],
   [
-   "W1966831828",
-   2007
-  ],
-  [
-   "W180159265",
-   2004
-  ],
-  [
-   "W2036488991",
-   1996
-  ],
-  [
-   "W2163487803",
-   2013
-  ],
-  [
-   "W3010223436",
-   2020
-  ],
-  [
-   "W122374328",
-   2017
-  ],
-  [
    "W2015408938",
    2004
-  ],
-  [
-   "W2305526013",
-   2016
-  ],
-  [
-   "W3081358183",
-   2020
-  ],
-  [
-   "W2046548856",
-   2012
-  ],
-  [
-   "W3196616119",
-   2021
   ],
   [
    "W4312807214",
@@ -388,18 +172,6 @@
    2017
   ],
   [
-   "W2119542728",
-   1998
-  ],
-  [
-   "W3091097417",
-   2020
-  ],
-  [
-   "W2144410539",
-   2010
-  ],
-  [
    "W3041006163",
    2020
   ],
@@ -408,12 +180,240 @@
    2015
   ],
   [
-   "W2968953218",
+   "W1986011338",
+   2014
+  ],
+  [
+   "W1997119063",
+   2011
+  ],
+  [
+   "W2137063243",
+   2000
+  ],
+  [
+   "W2477154030",
+   2015
+  ],
+  [
+   "W2910023381",
+   2018
+  ],
+  [
+   "W2747047513",
+   2017
+  ],
+  [
+   "W2048228293",
+   1988
+  ],
+  [
+   "W2889620547",
+   2018
+  ],
+  [
+   "W2014856731",
+   2001
+  ],
+  [
+   "W1542856672",
+   2013
+  ],
+  [
+   "W1509572918",
+   2013
+  ],
+  [
+   "W2752737474",
+   2017
+  ],
+  [
+   "W2556556396",
+   2017
+  ],
+  [
+   "W374664100",
+   2012
+  ],
+  [
+   "W2181078401",
+   2015
+  ],
+  [
+   "W3118612437",
+   2021
+  ],
+  [
+   "W3047538085",
+   2020
+  ],
+  [
+   "W2370712796",
+   2016
+  ],
+  [
+   "W3045818689",
+   2020
+  ],
+  [
+   "W2072236708",
+   2010
+  ],
+  [
+   "W2060385390",
+   2005
+  ],
+  [
+   "W3006586877",
+   2005
+  ],
+  [
+   "W2913459835",
    2019
   ],
   [
-   "W1986011338",
+   "W3040719338",
+   2020
+  ],
+  [
+   "W2009404140",
+   2010
+  ],
+  [
+   "W2562005419",
+   2017
+  ],
+  [
+   "W4298812330",
+   1994
+  ],
+  [
+   "W4239851538",
+   2017
+  ],
+  [
+   "W2031138038",
+   2010
+  ],
+  [
+   "W1581291699",
+   2015
+  ],
+  [
+   "W3023078435",
+   2020
+  ],
+  [
+   "W4365388075",
+   2020
+  ],
+  [
+   "W2152129980",
+   1994
+  ],
+  [
+   "W2895593096",
+   2005
+  ],
+  [
+   "W611187621",
+   2009
+  ],
+  [
+   "W3042637685",
+   2020
+  ],
+  [
+   "W2418146721",
+   2000
+  ],
+  [
+   "W2545552532",
+   2015
+  ],
+  [
+   "W4288720373",
+   2022
+  ],
+  [
+   "W4240383239",
+   2010
+  ],
+  [
+   "W2324689850",
+   2016
+  ],
+  [
+   "W84792642",
+   2013
+  ],
+  [
+   "W2945916355",
+   2019
+  ],
+  [
+   "W3162088632",
+   2021
+  ],
+  [
+   "W2021360023",
+   2005
+  ],
+  [
+   "W3214846356",
+   1997
+  ],
+  [
+   "W4212774244",
+   2022
+  ],
+  [
+   "W3124187308",
+   2008
+  ],
+  [
+   "W2267699479",
+   2016
+  ],
+  [
+   "W2085406084",
+   2013
+  ],
+  [
+   "W1617422573",
+   2003
+  ],
+  [
+   "W4309756426",
+   2022
+  ],
+  [
+   "W2415159963",
+   2016
+  ],
+  [
+   "W180983570",
    2014
+  ],
+  [
+   "W1493925020",
+   2002
+  ],
+  [
+   "W1589389886",
+   2014
+  ],
+  [
+   "W2268157125",
+   2015
+  ],
+  [
+   "W2080071438",
+   1989
+  ],
+  [
+   "W2482717051",
+   2011
   ]
  ]
 }

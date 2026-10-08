@@ -5851,37 +5851,37 @@ W4403235175,B2,recent,B2_recent_q4,15,Migration and (Surveillance) Capitalism,20
 W4403470052,B2,recent,B2_recent_q4,16,In Defense of ‘Surveillance Capitalism’,2024,article,9,True,include,6,rules,include
 W4380320066,B2,recent,B2_recent_q4,17,The Slow Violence of Surveillance Capitalism,2023,conference-paper,22,True,include,3,rules,include
 W4210406316,B2,recent,B2_recent_q4,18,Surveillance Capitalism or Information Republic?,2022,article,7,True,include,6,rules,include
-W4404792319,B3,india,B3_india_q1,1,"Non-typhoidal Salmonella in humans in India, Vietnam, Bangladesh and Sri Lanka: a systematic review.",2024,review,5,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2967449128,B3,india,B3_india_q1,2,SURVEILLANCE STUDIES FOR ROTA VIRUS VACCINE IMPLICATION IN PAKISTAN,2019,article,3,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W2109784025,B3,india,B3_india_q1,3,"Prevalence of bacterial vaginosis among women in Delhi, India.",2007,article,98,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W7211944573,B3,india,B3_india_q1,1,"The control of digital spaces in India, Pakistan, and Bangladesh: a comparative analysis",2026,article,0,True,include,3,rules,include
+W7114077465,B3,india,B3_india_q1,2,Predictive policing and the construction of the 'criminal' an ethnographic study of Delhi police,,article,0,True,borderline,1,core concept mentioned once | manual: predictive policing and data tools at Delhi Police (surveillance studies; also C6),include
+W2315349491,B3,india,B3_india_q1,3,Feminist Surveillance Studies,2015,book,23,True,include,6,rules,include
 W3205523677,B3,india,B3_india_q1,4,"Estimating typhoid incidence from community-based serosurveys: A multicohort study in Bangladesh, Nepal, Pakistan and Ghana",2021,preprint,2,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2315349491,B3,india,B3_india_q1,5,Feminist Surveillance Studies,2015,book,23,True,include,6,rules,include
-W7211944573,B3,india,B3_india_q1,6,"The control of digital spaces in India, Pakistan, and Bangladesh: a comparative analysis",2026,article,0,True,include,3,rules,include
-W2144738498,B3,india,B3_india_q1,7,"Surveillance studies on parasitism in wild boar (Sus scrofa) in Punjab, Pakistan",1992,article,3,False,include,3,no abstract; core (and context) in title,include
-W2291675883,B3,india,B3_india_q1,8,A surveillance studies of gastrointestinal parasitic fauna of layer chickens at Faisalabad [Pakistan],2001,article,0,False,include,3,no abstract; core (and context) in title,include
-W2989566147,B3,india,B3_india_q1,9,The Unique Identity Project: Surveillance Society and Democratic Culture in Aravind Adiga’s India,2019,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W3011299649,B3,india,B3_india_q1,10,"Antibiogram of blood culture isolates of patients from a hospital in Dhaka, Bangladesh",2020,article,10,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2014371527,B3,india,B3_india_q1,11,Serological and clinical surveillance studies to validate reported foot-and-mouth disease free status in Tsirang district of Bhutan,2011,article,4,False,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W2254476736,B3,india,B3_india_q1,12,"Prevalence of human group A rotavirus serotypes in Pune, India (1990-1993).",1997,article,11,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W3198722924,B3,india,B3_india_q1,13,Surveillance Society: Its Nature And Characteristics,2021,article,0,True,include,6,rules,include
-W3210159193,B3,india,B3_india_q1,14,"Prevalence of Newcastle Disease Virus in Commercial and Backyard Poultry in Haryana, India",2021,article,21,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W4414576058,B3,india,B3_india_q1,15,"Acute Gastroenteritis and Intussusception Surveillance Studies in Seven Indian States Following the Introduction of the Oral, Pentavalent, Rotavirus Vaccine",2025,article,29,False,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W3029391654,B3,india,B3_india_q1,16,"Molecular Analysis of Dengue Virus Serotypes Circulating in Chennai, Tamil Nadu, India",2018,article,1,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W4403046963,B3,india,B3_india_q1,17,On Our Rising Dependence on Tech and the Scopes and Challenges of Surveillance Studies in India,2024,article,0,True,include,6,rules,include
-W2750933465,B3,india,B3_india_q1,18,Reassessment of areas with persistent Lymphatic Filariasis nine years after cessation of mass drug administration in Sri Lanka,2017,article,53,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W4400439990,B3,india,B3_india_q1,19,"Pathogen diversity and antimicrobial resistance transmission of Salmonella enterica serovars Typhi and Paratyphi A in Bangladesh, Nepal, and Malawi: a genomic epidemiological study",2024,article,18,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W7219289170,B3,india,B3_india_q1,20,"Molecular serotyping of dengue virus in villages of Daman District, India: predominance of DENV-2 and comparison with regional and international surveillance studies",2025,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W4213420514,B3,india,B3_india_q1,21,Do People Favor Personal Data Markets in a Surveillance Society?,2021,conference-paper,0,True,include,5,rules,include
-W1996465238,B3,india,B3_india_q1,22,"Antimicrobial resistance in community and nosocomial Escherichia coli urinary tract isolates from Chennai, South India in 2007",2011,article,3,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W1503952773,B3,india,B3_india_q1,23,Surveillant staring: Race and the everyday surveillance of South Asian women after 9/11,2011,article,40,True,include,6,rules,include
-W2136788507,B3,india,B3_india_q1,24,Occurrence and characterization of multidrug-resistant New Delhi metallo-β-lactamase-1-producing bacteria isolated between 2003 and 2010 in Bangladesh,2012,article,22,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2989566147,B3,india,B3_india_q1,5,The Unique Identity Project: Surveillance Society and Democratic Culture in Aravind Adiga’s India,2019,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
+W3210159193,B3,india,B3_india_q1,6,"Prevalence of Newcastle Disease Virus in Commercial and Backyard Poultry in Haryana, India",2021,article,21,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W3198722924,B3,india,B3_india_q1,7,Surveillance Society: Its Nature And Characteristics,2021,article,0,True,include,6,rules,include
+W4400439990,B3,india,B3_india_q1,8,"Pathogen diversity and antimicrobial resistance transmission of Salmonella enterica serovars Typhi and Paratyphi A in Bangladesh, Nepal, and Malawi: a genomic epidemiological study",2024,article,18,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W4213420514,B3,india,B3_india_q1,9,Do People Favor Personal Data Markets in a Surveillance Society?,2021,conference-paper,0,True,include,5,rules,include
+W3031693496,B3,india,B3_india_q1,10,Oral Health Literacy and Oral Health Practices in South Asian Populations,2020,dissertation,0,True,include,3,rules,include
+W7166880925,B3,india,B3_india_q1,11,Spatial epidemiology and multilevel determinants of enteric fever in the India-Bangladesh-Myanmar border region,2026,preprint,0,False,exclude,0,core concept missing,exclude
+W7140833923,B3,india,B3_india_q1,12,Surveillance Society and the Impacts of Digital Governance Initiatives : Evidence from a Planned Utopia—Chandigarh,2026,article,0,True,include,6,rules,include
+W7165204930,B3,india,B3_india_q1,13,A comparative state-wise assessment of dengue incidence and deaths in India using annual surveillance data,2026,article,0,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: dengue surveillance data,exclude
+W7162529925,B3,india,B3_india_q1,14,THE PANOPTIC STATE: INDIAN STATE SURVEILLANCE AND THE SHADOW OF ORWELL'S NINETEEN EIGHTY-FOUR A COMPARATIVE STUDY THROUGH THE LENS OF GEORGE ORWELL'S NINETEEN EIGHTY-FOUR,2025,article,0,True,include,6,rules,include
+W7203699707,B3,india,B3_india_q1,15,"Digital Afterimages in India: A Framework for Understanding Residual Data, Algorithmic Memory, and Social Implications",2026,article,0,True,borderline,1,core concept mentioned once | manual: residual data framework; surveillance studies cited,exclude
+W2009404140,B3,india,B3_india_q1,16,"Digital Epidermalization: Race, Identity and Biometrics",2010,article,254,True,include,2,rules,include
+W2077111650,B3,india,B3_india_q1,17,"Online privacy, government surveillance and national ID cards",2009,article,20,True,include,6,rules,include
+W2944892097,B3,india,B3_india_q1,18,"National, regional, and state-level burden of Streptococcus pneumoniae and Haemophilus influenzae type b disease in children in India: modelled estimates for 2000–15",2019,article,53,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2768442759,B3,india,B3_india_q1,19,A comprehensive geospatial assessment of seagrass distribution in India,2017,article,70,False,exclude,0,core concept missing,exclude
+W1970185664,B3,india,B3_india_q1,20,Noncommunicable Diseases Risk Factor Surveillance: Experience and Challenge from India,2011,article,41,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: disease risk-factor surveillance,exclude
+W4406851528,B3,india,B3_india_q1,21,The burden of injuries in Nepal: findings from the NIHR Global Health Research Group,2025,article,1,True,exclude,2,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
+W4402816251,B3,india,B3_india_q1,22,Phylogenetic analysis linked fatal neurologic disease in leopards (Panthera pardus) to Asia-5 lineage of canine distemper virus in Nepal,2024,article,6,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W7220252281,B3,india,B3_india_q1,23,"Surveillance, Containment, and the Establishment of Indian Reserves in Canada",2023,article,0,True,include,6,rules,include
+W7153452077,B3,india,B3_india_q1,24,Digital Surveillance and Everyday Resistance in the Global South,2026,article,0,True,include,6,rules,include
 W4387216063,B3,india,B3_india_q2,1,DATAVEILLANCE MANAGEMENT USING MICRO DRONE TECHNOLOGY FOR AGRICULTURE PURPOSE IN NEPAL,2023,article,0,True,include,3,rules,include
 W4388698519,B3,india,B3_india_q2,2,India data law raises state surveillance risks,2023,report,0,True,include,5,rules,include
 W7204559532,B3,india,B3_india_q2,3,State Surveillance without Safeguards: Constitutional Limits on Digital Monitoring in Pakistan,2026,article,0,True,include,4,rules,include
 W4402621893,B3,india,B3_india_q2,4,Urban Pakistan and women’s mobility in securitised Lahore,2024,article,4,True,include,2,rules,include
 W7161629625,B3,india,B3_india_q2,5,"STATE SURVEILLANCE IN PAKISTAN: RIGHTS VIOLATIONS, POLITICAL REPRESSION THROUGH FOUCAULDIAN PERSPECTIVE",2026,article,0,True,include,6,rules,include
 W2942381138,B3,india,B3_india_q2,6,"Penetrative or Embracive? Exploring State, Surveillance and Democracy in India",2019,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
-W4205273763,B3,india,B3_india_q2,7,"Pakistan, Bangladesh fail to tackle online violence",2022,other,0,True,borderline,1,core concept mentioned once,pending
+W4205273763,B3,india,B3_india_q2,7,"Pakistan, Bangladesh fail to tackle online violence",2022,other,0,True,borderline,1,core concept mentioned once | manual: online violence briefing,exclude
 W4412123163,B3,india,B3_india_q2,8,Digital Privacy and State Surveillance: An Indian Legal and Technological Perspective,2025,preprint,2,False,include,3,no abstract; core (and context) in title,include
 W4412496903,B3,india,B3_india_q2,9,Digital Privacy and State Surveillance: An Indian Legal and Technological Perspective,2025,preprint,0,True,include,5,rules,include
 W2929528324,B3,india,B3_india_q2,10,Benign dataveillance? Examining novel data-driven governance systems in India and China,2019,article,11,True,include,3,rules,include
@@ -5894,7 +5894,7 @@ W2251459166,B3,india,B3_india_q2,16,"Mass Surveillance, Drones, and Unconvention
 W4380882179,B3,india,B3_india_q2,17,Virtual qualitative inquiry: tensions of research in post-conflict Sri Lanka,2023,article,5,True,include,2,rules,include
 W7122393882,B3,india,B3_india_q2,18,The Right to Privacy in the Era of Mass Surveillance in India: A Constitutional Perspective,2024,article,0,True,include,6,rules,include
 W7214319703,B3,india,B3_india_q2,19,State Surveillance and Right to Privacy,2026,article,0,True,include,4,rules,include
-W7212344677,B3,india,B3_india_q2,20,Women’s peacebuilding in hybrid regimes : insights from Sri Lanka and Myanmar,2026,report,0,True,borderline,1,core concept mentioned once,pending
+W7212344677,B3,india,B3_india_q2,20,Women’s peacebuilding in hybrid regimes : insights from Sri Lanka and Myanmar,2026,report,0,True,borderline,1,core concept mentioned once | manual: women peacebuilders; state surveillance in passing,exclude
 W7163824454,B3,india,B3_india_q2,21,AI and Mass Surveillance in India: A Critical Analysis through the Lens of Doctrine of Proportionality,2026,article,0,True,include,6,rules,include
 W7151432466,B3,india,B3_india_q2,22,AI and Mass Surveillance in India: A Critical Analysis through the Lens of Doctrine of Proportionality,2026,article,0,True,include,6,rules,include
 W7151347392,B3,india,B3_india_q2,23,AI and Mass Surveillance in India: A Critical Analysis through the Lens of Doctrine of Proportionality,2026,article,0,True,include,6,rules,include
@@ -5910,12 +5910,12 @@ W7165166795,B3,india,B3_india_q3,8,Digital Personal Data Protection in India: Ex
 W7140030842,B3,india,B3_india_q3,9,"DIGITAL PRIVACY, SURVEILLANCE AND CONSTITUTIONAL PROTECTIONS",2025,article,0,True,include,6,rules,include
 W7204559532,B3,india,B3_india_q3,10,State Surveillance without Safeguards: Constitutional Limits on Digital Monitoring in Pakistan,2026,article,0,True,include,4,rules,include
 W4391502960,B3,india,B3_india_q3,11,Privacy and Surveillance in Digital Era,2024,book-chapter,0,True,include,6,rules,include
-W4319836239,B3,india,B3_india_q3,12,Adoption of digital technologies amidst COVID-19 and privacy breach in India and Bangladesh,2023,article,6,True,borderline,1,core concept mentioned once,pending
+W4319836239,B3,india,B3_india_q3,12,Adoption of digital technologies amidst COVID-19 and privacy breach in India and Bangladesh,2023,article,6,True,borderline,1,"core concept mentioned once | manual: COVID digital technologies, surveillance and privacy in India and Bangladesh",include
 W7148980637,B3,india,B3_india_q3,13,"The digital personal data protection act, 2023: Balancing the right to privacy and state surveillance in India",2026,article,0,True,include,6,rules,include
 W4386871654,B3,india,B3_india_q3,14,Playing catch up – privacy regimes in South Asia,2021,book-chapter,10,True,include,2,rules,include
 W4410471883,B3,india,B3_india_q3,15,From Sovereignty to Surveillance: The Legal Landscape of “Digital Colonialism” in India and Pakistan,2025,article,0,True,include,5,rules,include
 W7202341875,B3,india,B3_india_q3,16,"ENCRYPTED BUT NOT FREE: STATE SURVEILLANCE, SECTION 69 IT ACT, AND THE FUTURE OF DIGITAL PRIVACY IN INDIA",2026,article,0,True,include,6,rules,include
-W7155507143,B3,india,B3_india_q3,17,"Digital governance, data privacy and democracy: State power and citizen’s rights",2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7155507143,B3,india,B3_india_q3,17,"Digital governance, data privacy and democracy: State power and citizen’s rights",2026,article,0,True,borderline,1,"core concept mentioned once | manual: state digital governance, privacy and surveillance",include
 W7220764167,B3,india,B3_india_q3,18,Digital Surveillance and the Right to Privacy in Pakistan: A Constitutional and International Law Perspective,2026,article,0,True,include,6,rules,include
 W7205002263,B3,india,B3_india_q3,19,Digital Surveillance and the Crisis of Privacy in Emerging Economies,2026,article,0,True,include,6,rules,include
 W7168197295,B3,india,B3_india_q3,20,PRIVACY RIGHTS AND SOCIAL SURVEILLANCE IN CONTEMPORARY INDIA,2026,article,0,True,include,6,rules,include
@@ -5926,127 +5926,127 @@ W7133304752,B3,india,B3_india_q3,24,Digital Surveillance and Democratic Fragilit
 W2122349387,B3,landmarks,B3_landmarks,1,"Genetic and Serologic Properties of Zika Virus Associated with an Epidemic, Yap State, Micronesia, 2007",2008,article,2271,True,exclude,1,"flag, core not in title: \b(disease surveillance|epidemiolog\w*|s",exclude
 W1779680771,B3,landmarks,B3_landmarks,2,"Datafication, dataism and dataveillance: Big Data between scientific paradigm and ideology",2014,article,2202,True,include,3,rules,include
 W2127985840,B3,landmarks,B3_landmarks,3,The surveillant assemblage,2000,article,2154,True,include,6,rules,include
-W4281385327,B3,landmarks,B3_landmarks,4,"Global, regional, and national disease burden estimates of acute lower respiratory infections due to respiratory syncytial virus in children younger than 5 years in 2019: a systematic analysis",2022,article,2037,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2042063943,B3,landmarks,B3_landmarks,5,Global epidemiology and genotype distribution of the hepatitis C virus infection,2014,article,1921,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2809593437,B3,landmarks,B3_landmarks,6,Peri‐implant diseases and conditions: Consensus report of workgroup 4 of the 2017 World Workshop on the Classification of Periodontal and Peri‐Implant Diseases and Conditions,2018,article,1742,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2184405267,B3,landmarks,B3_landmarks,7,"World Health Organization Estimates of the Global and Regional Disease Burden of 22 Foodborne Bacterial, Protozoal, and Viral Diseases, 2010: A Data Synthesis",2015,article,1701,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2219714852,B3,landmarks,B3_landmarks,8,Nosocomial infections in medical intensive care units in the United States,1999,article,1571,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2099001508,B3,landmarks,B3_landmarks,9,Detection of Plasmid-Mediated AmpC β-Lactamase Genes in Clinical Isolates by Using Multiplex PCR,2002,article,1529,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W1583871629,B3,landmarks,B3_landmarks,10,Age and gender differences in objectively measured physical activity in youth,2002,article,1461,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2343234953,B3,landmarks,B3_landmarks,11,Dark matters: on the surveillance of blackness,2016,book-review,1452,True,exclude,0,type book-review,exclude
-W584790758,B3,landmarks,B3_landmarks,12,"The Data Revolution: Big Data, Open Data, Data Infrastructures & Their Consequences",2014,book,1448,True,include,2,rules,include
-W2171000901,B3,landmarks,B3_landmarks,13,Metallo-β-Lactamases: the Quiet before the Storm?,2005,article,1445,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2034679108,B3,landmarks,B3_landmarks,14,Traumatic Brain Injury in the United States: A Public Health Perspective,1999,article,1392,True,include,2,rules,include
-W2113827628,B3,landmarks,B3_landmarks,15,A review of avian influenza in different bird species,2000,article,1286,False,exclude,0,core concept missing,exclude
-W2037342985,B3,landmarks,B3_landmarks,16,Matrix architecture defines the preferential localization and migration of T cells into the stroma of human lung tumors,2012,article,1171,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W4298286109,B3,landmarks,B3_landmarks,17,"""Raw Data"" Is an Oxymoron",2013,book,1158,True,include,2,rules,include
-W2080630525,B3,landmarks,B3_landmarks,18,The Use of Google Trends in Health Care Research: A Systematic Review,2014,review,1141,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2154805120,B3,landmarks,B3_landmarks,19,Surveillance Society: Monitoring Everyday Life,2001,article,1053,False,include,3,no abstract; core (and context) in title,include
-W2166305421,B3,landmarks,B3_landmarks,20,Estimated global incidence of Japanese encephalitis:,2011,article,1017,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W75505851,B3,landmarks,B3_landmarks,21,Leptospirosis in Humans,2014,book-chapter,1000,False,exclude,0,core concept missing,exclude
-W2120736676,B3,landmarks,B3_landmarks,22,Detection of erythromycin-resistant determinants by PCR,1996,article,999,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W1553187499,B3,landmarks,B3_landmarks,23,Surveillance studies: an overview,2008,article,956,False,include,3,no abstract; core (and context) in title,include
-W2000811678,B3,landmarks,B3_landmarks,24,An overview of the epidemiology of avian influenza,2006,article,934,False,exclude,0,core concept missing,exclude
-W2057842517,B3,landmarks,B3_landmarks,25,The Electronic Eye: The Rise of the Surveillance Society .,1995,article,887,True,include,6,rules,include
-W3010101452,B3,landmarks,B3_landmarks,26,Peri‐implant diseases and conditions: Consensus report of workgroup 4 of the 2017 World Workshop on the Classification of Periodontal and Peri‐Implant Diseases and Conditions,2018,article,884,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W584600887,B3,landmarks,B3_landmarks,27,"Surveillance as social sorting : privacy, risk, and digital discrimination",2003,article,875,True,borderline,6,flag: \b(disease surveillance|epidemiolog\w*|s,pending
-W2396457900,B3,landmarks,B3_landmarks,28,‘Hypernudge’: Big Data as a mode of regulation by design,2016,article,848,True,borderline,1,core concept mentioned once,pending
-W568924004,B3,landmarks,B3_landmarks,29,"Space, knowledge and power: Foucault and geography",2007,book-review,829,True,exclude,0,type book-review,exclude
-W3184815473,B3,landmarks,B3_landmarks,30,"Extended-spectrum β-lactamases: an update on their characteristics, epidemiology and detection",2021,article,823,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2619503097,B3,landmarks,B3_landmarks,31,Algorithmic regulation: A critical interrogation,2017,article,811,True,borderline,1,core concept mentioned once,pending
-W1240542110,B3,landmarks,B3_landmarks,32,Increasing prevalence of ESBL-producing Enterobacteriaceae in Europe,2008,article,808,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2162067003,B3,landmarks,B3_landmarks,33,Emergence of Enterobacteriaceae producing extended-spectrum β-lactamases (ESBLs) in the community,2005,article,796,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2133307234,B3,landmarks,B3_landmarks,34,Surveillance Society: Monitoring Everyday Life,2001,book,784,True,include,6,rules,include
-W2895649879,B3,landmarks,B3_landmarks,35,Digital colonialism: US empire and the new imperialism in the Global South,2019,article,748,True,include,3,rules,include
-W2126690184,B3,landmarks,B3_landmarks,36,Information technology and dataveillance,1988,article,739,True,borderline,6,stub abstract (possible book review),pending
-W4249774886,B3,landmarks,B3_landmarks,37,Vascular Health and Risk Management,2020,paratext,709,True,exclude,0,type paratext,exclude
-W2167385770,B3,landmarks,B3_landmarks,38,Antibiotic Resistance Among Gram-Negative Bacilli in US Intensive Care Units,2003,article,680,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2134198313,B3,landmarks,B3_landmarks,39,"National estimates and race/ethnic‐specific variation of selected birth defects in the United States, 1999–2001",2006,article,668,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2015569784,B3,landmarks,B3_landmarks,40,Benign positional vertigo,1987,article,651,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W4246840924,B3,landmarks,B3_landmarks,41,Uncivil Agreement: How Politics Became Our Identity,2019,article,621,True,borderline,1,core concept mentioned once,pending
-W2887516688,B3,landmarks,B3_landmarks,42,Constructing a Data‐Driven Society: China's Social Credit System as a State Surveillance Infrastructure,2018,article,619,True,include,6,rules,include
-W2184506935,B3,landmarks,B3_landmarks,43,Stent thrombosis and restenosis: what have we learned and where are we going? The Andreas Grüntzig Lecture ESC 2014,2015,article,618,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2105033346,B3,landmarks,B3_landmarks,44,Descriptive studies: what they can and cannot do,2002,article,604,False,exclude,0,core concept missing,exclude
-W1558377788,B3,landmarks,B3_landmarks,45,Routledge Handbook of Surveillance Studies,2012,book,601,True,include,6,rules,include
-W1533914248,B3,landmarks,B3_landmarks,46,The Maximum Surveillance Society : The Rise of CCTV,1999,book,575,True,include,6,rules,include
-W1978174896,B3,landmarks,B3_landmarks,47,Prognostic Factors for Relapse in Stage I Seminoma Managed by Surveillance: A Pooled Analysis,2002,article,574,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W215352665,B3,landmarks,B3_landmarks,48,Surveillance Studies: An Overview,2007,book,572,True,include,6,rules,include
-W4211056710,B3,landmarks,B3_landmarks,49,Polymyxins Revisited,2008,article,570,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W1539198405,B3,landmarks,B3_landmarks,50,Consent of the networked: the world-wide struggle for Internet freedom,2012,book-review,539,True,exclude,0,type book-review,exclude
-W2137120198,B3,landmarks,B3_landmarks,51,"No injuries, but plenty of pain? On the methodology for recording overuse symptoms in sports",2009,article,537,True,borderline,1,core concept mentioned once,pending
-W2790895131,B3,landmarks,B3_landmarks,52,One Tribe to Bind Them All: How Our Social Group Attachments Strengthen Partisanship,2018,article,535,True,include,3,rules,include
-W1887737698,B3,landmarks,B3_landmarks,53,Incidence of adverse drug reactions in paediatric in/out‐patients: a systematic review and meta‐analysis of prospective studies,2001,review,527,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W1042953836,B3,landmarks,B3_landmarks,54,Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World,2015,article,525,True,include,3,rules,include
-W2067766620,B3,landmarks,B3_landmarks,55,AIDS in Africa: An Epidemiologic Paradigm,1986,article,521,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W282431559,B3,landmarks,B3_landmarks,56,"Increases in hepatitis C virus infection related to injection drug use among persons aged ≤30 years - Kentucky, Tennessee, Virginia, and West Virginia, 2006-2012.",2015,article,517,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W1974342169,B3,landmarks,B3_landmarks,57,Epidemiology of Candidaemia in Europe: Results of 28-Month European Confederation of Medical Mycology (ECMM) Hospital-Based Surveillance Study,2004,article,513,False,borderline,3,flag: \b(disease surveillance|epidemiolog\w*|s,pending
-W2583071196,B3,landmarks,B3_landmarks,58,The datafied child: The dataveillance of children and implications for their rights,2017,article,511,True,include,5,rules,include
-W1988570524,B3,landmarks,B3_landmarks,59,Chronic hepatitis B virus infection in Asian countries,2000,article,509,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2047041272,B3,landmarks,B3_landmarks,60,The Prevalence and Burden of Migraine and Severe Headache in the U nited S tates: Updated Statistics From Government Health Surveillance Studies,2015,article,505,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W2102341021,B3,landmarks,B3_landmarks,61,Burden of disease caused by Haemophilus influenzae type b in children younger than 5 years: global estimates,2009,article,502,False,exclude,0,core concept missing,exclude
-W618851682,B3,landmarks,B3_landmarks,62,"Internet Politics: States, Citizens, and New Communication Technologies",2006,article,499,True,borderline,1,core concept mentioned once,pending
-W2136761329,B3,landmarks,B3_landmarks,63,Secrets of success of a human pathogen: molecular evolution of pandemic clones of meticillin-resistant Staphylococcus aureus,2002,article,497,False,exclude,0,core concept missing,exclude
-W2987720685,B3,landmarks,B3_landmarks,64,The Global Ascendency of OXA-48-Type Carbapenemases,2019,article,496,True,borderline,1,core concept mentioned once,pending
-W2732757946,B3,landmarks,B3_landmarks,65,Data Capitalism: Redefining the Logics of Surveillance and Privacy,2017,article,489,True,include,4,rules,include
-W2552464140,B3,landmarks,B3_landmarks,66,The ethics of smart cities and urban science,2016,article,477,True,include,3,rules,include
-W2576310876,B3,landmarks,B3_landmarks,67,"Association of “Weekend Warrior” and Other Leisure Time Physical Activity Patterns With Risks for All-Cause, Cardiovascular Disease, and Cancer Mortality",2017,article,470,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2126756724,B3,landmarks,B3_landmarks,68,From the 'Old' to the 'New' Suspect Community: Examining the Impacts of Recent UK Counter-Terrorist Legislation,2009,article,463,True,borderline,1,core concept mentioned once,pending
-W47623468,B3,landmarks,B3_landmarks,69,Adverse Effects of Atypical Antipsychotics,2007,article,458,False,exclude,0,core concept missing,exclude
-W2338824285,B3,landmarks,B3_landmarks,70,The diverse domains of quantified selves: self-tracking modes and dataveillance,2016,article,454,True,include,6,rules,include
-W3135347465,B3,landmarks,B3_landmarks,71,When Machine Learning Meets Privacy,2021,article,451,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
-W2123624310,B3,landmarks,B3_landmarks,72,Using Respondent-Driven Sampling Methodology for HIV Biological and Behavioral Surveillance in International Settings: A Systematic Review,2008,review,444,False,include,3,no abstract; core (and context) in title,include
-W1895063068,B3,landmarks,B3_landmarks,73,"The Work of Watching One Another: Lateral Surveillance, Risk, and Governance",2002,article,442,True,include,4,rules,include
-W2419509696,B3,landmarks,B3_landmarks,74,Emergence of extensively drug-resistant and pandrug-resistant Gram-negative bacilli in Europe,2008,article,437,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2905874228,B3,landmarks,B3_landmarks,75,Validity of the International Physical Activity Questionnaire (IPAQ) for assessing moderate-to-vigorous physical activity and sedentary behaviour of older adults in the United Kingdom,2018,article,427,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W3168314838,B3,landmarks,B3_landmarks,76,Evolution and Ecology of Influenza A Viruses,2014,book-chapter,418,False,exclude,0,core concept missing,exclude
-W2095298352,B3,landmarks,B3_landmarks,77,M-health and health promotion: The digital cyborg and surveillance society,2012,article,418,False,include,3,no abstract; core (and context) in title,include
-W2302938491,B3,landmarks,B3_landmarks,78,A Cross-Cutting Calm,2016,article,416,True,include,3,rules,include
-W2088541859,B3,landmarks,B3_landmarks,79,Information Warfare And Security,2000,article,411,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2921764039,B3,landmarks,B3_landmarks,80,The corporate cultivation of digital resignation,2019,article,396,True,borderline,1,core concept mentioned once,pending
-W1966831828,B3,landmarks,B3_landmarks,81,Pandrug-resistant Gram-negative bacteria: the dawn of the post-antibiotic era?,2007,article,396,False,exclude,0,core concept missing,exclude
-W180159265,B3,landmarks,B3_landmarks,82,Reliability of accelerometry-based activity monitors: a generalizability study.,2004,article,394,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2036488991,B3,landmarks,B3_landmarks,83,Ciprofloxacin,1996,article,389,False,exclude,0,core concept missing,exclude
-W2163487803,B3,landmarks,B3_landmarks,84,"The Prevalence, Impact, and Treatment of Migraine and Severe Headaches in the U nited S tates: A Review of Statistics From National Surveillance Studies",2013,article,386,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W3010223436,B3,landmarks,B3_landmarks,85,Critical analysis of antibacterial agents in clinical development,2020,review,383,False,exclude,0,core concept missing,exclude
-W122374328,B3,landmarks,B3_landmarks,86,Searching for studies: a guide to information retrieval for Campbell systematic reviews,2017,review,379,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2015408938,B3,landmarks,B3_landmarks,87,Surveillance after September 11,2004,book-review,379,True,exclude,0,type book-review,exclude
-W2305526013,B3,landmarks,B3_landmarks,88,"Resistance trends among clinical isolates in China reported from CHINET surveillance of bacterial resistance, 2005–2014",2016,article,378,True,borderline,5,flag: \b(sensor network|wireless|5g|6g|edge co,pending
-W3081358183,B3,landmarks,B3_landmarks,89,"Epidemiology, definition and treatment of complicated urinary tract infections",2020,review,374,False,exclude,0,core concept missing,exclude
-W2046548856,B3,landmarks,B3_landmarks,90,Global Fluoroquinolone Resistance Epidemiology and Implictions for Clinical Use,2012,article,371,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W3196616119,B3,landmarks,B3_landmarks,91,The role of urbanisation in the spread of Aedes mosquitoes and the diseases they transmit—A systematic review,2021,review,367,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W4312807214,B3,landmarks,B3_landmarks,92,World Report 2016,2016,book,360,True,borderline,1,core concept mentioned once,pending
-W2613703610,B3,landmarks,B3_landmarks,93,An Efficient Algorithm for Media-based Surveillance System (EAMSuS) in IoT Smart City Framework,2017,article,357,False,include,3,no abstract; core (and context) in title,include
-W2119542728,B3,landmarks,B3_landmarks,94,STAGE SPECIFIC GUIDELINES FOR SURVEILLANCE AFTER RADICAL NEPHRECTOMY FOR LOCAL RENAL CELL CARCINOMA,1998,article,353,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W3091097417,B3,landmarks,B3_landmarks,95,Implementation of environmental surveillance for SARS-CoV-2 virus to support public health decisions: Opportunities and challenges,2020,review,351,False,include,3,no abstract; core (and context) in title,include
-W2144410539,B3,landmarks,B3_landmarks,96,Bronchiolitis: Recent Evidence on Diagnosis and Management,2010,article,349,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W3041006163,B3,landmarks,B3_landmarks,97,Explainable AI and Mass Surveillance System-Based Healthcare Framework to Combat COVID-I9 Like Pandemics,2020,article,348,True,borderline,4,flag: \b(deep learning|neural network|convolut,pending
-W2337563770,B3,landmarks,B3_landmarks,98,"Algorithms, Governance, and Governmentality",2015,article,344,True,borderline,1,core concept mentioned once,pending
-W2968953218,B3,landmarks,B3_landmarks,99,Extended-Spectrum β-Lactamase-Producing Enterobacteriaceae: Update on Molecular Epidemiology and Treatment Options,2019,article,338,False,exclude,0,core concept missing,exclude
-W1986011338,B3,landmarks,B3_landmarks,100,Data entry: towards the critical study of digital data and education,2014,article,335,True,borderline,1,core concept mentioned once,pending
-W4417350198,B3,recent,B3_recent_q1,1,From Surveillant Assemblage to Surveillance Culture: Shifting Metaphors in Surveillance Studies,2025,article,0,True,include,6,rules,include
-W4417350238,B3,recent,B3_recent_q1,2,Revisiting the “Surveillant Assemblage”,2025,article,0,True,include,6,rules,include
+W584790758,B3,landmarks,B3_landmarks,4,"The Data Revolution: Big Data, Open Data, Data Infrastructures & Their Consequences",2014,book,1448,True,include,2,rules,include
+W2034679108,B3,landmarks,B3_landmarks,5,Traumatic Brain Injury in the United States: A Public Health Perspective,1999,article,1392,True,include,2,rules,include
+W4298286109,B3,landmarks,B3_landmarks,6,"""Raw Data"" Is an Oxymoron",2013,book,1158,True,include,2,rules,include
+W2154805120,B3,landmarks,B3_landmarks,7,Surveillance Society: Monitoring Everyday Life,2001,article,1053,False,include,3,no abstract; core (and context) in title,include
+W2057842517,B3,landmarks,B3_landmarks,8,The Electronic Eye: The Rise of the Surveillance Society .,1995,article,887,True,include,6,rules,include
+W584600887,B3,landmarks,B3_landmarks,9,"Surveillance as social sorting : privacy, risk, and digital discrimination",2003,article,875,True,borderline,6,flag: \b(disease surveillance|epidemiolog\w*|s | manual: surveillance as social sorting (Lyon; flag false positive),include
+W568924004,B3,landmarks,B3_landmarks,10,"Space, knowledge and power: Foucault and geography",2007,book-review,829,True,exclude,0,type book-review,exclude
+W2619503097,B3,landmarks,B3_landmarks,11,Algorithmic regulation: A critical interrogation,2017,article,811,True,borderline,1,core concept mentioned once | manual: algorithmic regulation (B4),exclude
+W2133307234,B3,landmarks,B3_landmarks,12,Surveillance Society: Monitoring Everyday Life,2001,book,784,True,include,6,rules,include
+W2895649879,B3,landmarks,B3_landmarks,13,Digital colonialism: US empire and the new imperialism in the Global South,2019,article,748,True,include,3,rules,include
+W2126690184,B3,landmarks,B3_landmarks,14,Information technology and dataveillance,1988,article,739,True,borderline,6,stub abstract (possible book review) | manual: dataveillance (Clarke 1988),include
+W2134198313,B3,landmarks,B3_landmarks,15,"National estimates and race/ethnic‐specific variation of selected birth defects in the United States, 1999–2001",2006,article,668,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W4246840924,B3,landmarks,B3_landmarks,16,Uncivil Agreement: How Politics Became Our Identity,2019,article,621,True,borderline,1,"core concept mentioned once | manual: partisan ""social sorting"" (different sense)",exclude
+W2887516688,B3,landmarks,B3_landmarks,17,Constructing a Data‐Driven Society: China's Social Credit System as a State Surveillance Infrastructure,2018,article,619,True,include,6,rules,include
+W1558377788,B3,landmarks,B3_landmarks,18,Routledge Handbook of Surveillance Studies,2012,book,601,True,include,6,rules,include
+W1533914248,B3,landmarks,B3_landmarks,19,The Maximum Surveillance Society : The Rise of CCTV,1999,book,575,True,include,6,rules,include
+W215352665,B3,landmarks,B3_landmarks,20,Surveillance Studies: An Overview,2007,book,572,True,include,6,rules,include
+W1539198405,B3,landmarks,B3_landmarks,21,Consent of the networked: the world-wide struggle for Internet freedom,2012,book-review,539,True,exclude,0,type book-review,exclude
+W2790895131,B3,landmarks,B3_landmarks,22,One Tribe to Bind Them All: How Our Social Group Attachments Strengthen Partisanship,2018,article,535,True,include,3,rules,include
+W1042953836,B3,landmarks,B3_landmarks,23,Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World,2015,article,525,True,include,3,rules,include
+W282431559,B3,landmarks,B3_landmarks,24,"Increases in hepatitis C virus infection related to injection drug use among persons aged ≤30 years - Kentucky, Tennessee, Virginia, and West Virginia, 2006-2012.",2015,article,517,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2583071196,B3,landmarks,B3_landmarks,25,The datafied child: The dataveillance of children and implications for their rights,2017,article,511,True,include,5,rules,include
+W618851682,B3,landmarks,B3_landmarks,26,"Internet Politics: States, Citizens, and New Communication Technologies",2006,article,499,True,borderline,1,core concept mentioned once | manual: internet politics textbook,exclude
+W2732757946,B3,landmarks,B3_landmarks,27,Data Capitalism: Redefining the Logics of Surveillance and Privacy,2017,article,489,True,include,4,rules,include
+W2552464140,B3,landmarks,B3_landmarks,28,The ethics of smart cities and urban science,2016,article,477,True,include,3,rules,include
+W2126756724,B3,landmarks,B3_landmarks,29,From the 'Old' to the 'New' Suspect Community: Examining the Impacts of Recent UK Counter-Terrorist Legislation,2009,article,463,True,borderline,1,core concept mentioned once | manual: suspect communities and counter-terror surveillance,include
+W2338824285,B3,landmarks,B3_landmarks,30,The diverse domains of quantified selves: self-tracking modes and dataveillance,2016,article,454,True,include,6,rules,include
+W3135347465,B3,landmarks,B3_landmarks,31,When Machine Learning Meets Privacy,2021,article,451,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
+W1895063068,B3,landmarks,B3_landmarks,32,"The Work of Watching One Another: Lateral Surveillance, Risk, and Governance",2002,article,442,True,include,4,rules,include
+W2095298352,B3,landmarks,B3_landmarks,33,M-health and health promotion: The digital cyborg and surveillance society,2012,article,418,False,include,3,no abstract; core (and context) in title,include
+W2302938491,B3,landmarks,B3_landmarks,34,A Cross-Cutting Calm,2016,article,416,True,include,3,rules,include
+W2088541859,B3,landmarks,B3_landmarks,35,Information Warfare And Security,2000,article,411,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2921764039,B3,landmarks,B3_landmarks,36,The corporate cultivation of digital resignation,2019,article,396,True,borderline,1,core concept mentioned once | manual: digital resignation and consumer surveillance,include
+W2015408938,B3,landmarks,B3_landmarks,37,Surveillance after September 11,2004,book-review,379,True,exclude,0,type book-review,exclude
+W4312807214,B3,landmarks,B3_landmarks,38,World Report 2016,2016,book,360,True,borderline,1,core concept mentioned once | manual: Human Rights Watch report,exclude
+W2613703610,B3,landmarks,B3_landmarks,39,An Efficient Algorithm for Media-based Surveillance System (EAMSuS) in IoT Smart City Framework,2017,article,357,False,include,3,no abstract; core (and context) in title,include
+W3041006163,B3,landmarks,B3_landmarks,40,Explainable AI and Mass Surveillance System-Based Healthcare Framework to Combat COVID-I9 Like Pandemics,2020,article,348,True,borderline,4,flag: \b(deep learning|neural network|convolut | manual: COVID detection framework,exclude
+W2337563770,B3,landmarks,B3_landmarks,41,"Algorithms, Governance, and Governmentality",2015,article,344,True,borderline,1,core concept mentioned once | manual: algorithmic governmentality (B4),exclude
+W1986011338,B3,landmarks,B3_landmarks,42,Data entry: towards the critical study of digital data and education,2014,article,335,True,borderline,1,core concept mentioned once | manual: digital data and education,exclude
+W1997119063,B3,landmarks,B3_landmarks,43,Dynamic Horizontal Cultural Transmission of Humpback Whale Song at the Ocean Basin Scale,2011,article,329,False,exclude,0,core concept missing,exclude
+W2137063243,B3,landmarks,B3_landmarks,44,Mortality among males with hemophilia: relations with source of medical care. The Hemophilia Surveillance System Project Investigators.,2000,article,328,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: haemophilia surveillance,exclude
+W2477154030,B3,landmarks,B3_landmarks,45,Dark Matters: On the Surveillance of Blackness,2015,article,321,True,include,6,rules,include
+W2910023381,B3,landmarks,B3_landmarks,46,Online Manipulation: Hidden Influences in a Digital World,2018,preprint,320,False,exclude,0,core concept missing,exclude
+W2747047513,B3,landmarks,B3_landmarks,47,"The Governance of Digital Technology, Big Data, and the Internet: New Roles and Responsibilities for Business",2017,article,318,True,borderline,1,core concept mentioned once | manual: business governance of the internet,exclude
+W2048228293,B3,landmarks,B3_landmarks,48,Captopril,1988,article,318,False,exclude,0,core concept missing,exclude
+W2889620547,B3,landmarks,B3_landmarks,49,Digital phenotyping: a global tool for psychiatry,2018,article,316,True,exclude,2,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
+W2014856731,B3,landmarks,B3_landmarks,50,Current Issues in Spinal Anesthesia,2001,article,308,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W1542856672,B3,landmarks,B3_landmarks,51,"The new digital age: reshaping the future of people, nations and business",2013,book-review,301,True,exclude,0,type book-review,exclude
+W1509572918,B3,landmarks,B3_landmarks,52,Gaming the Quantified Self,2013,article,299,True,include,3,rules,include
+W2752737474,B3,landmarks,B3_landmarks,53,"Privacy in the Smart City—Applications, Technologies, Challenges, and Solutions",2017,article,289,True,borderline,1,core concept mentioned once | manual: smart-city privacy technologies,exclude
+W2556556396,B3,landmarks,B3_landmarks,54,Categorical Inequality: Schools As Sorting Machines,2017,review,289,True,borderline,1,core concept mentioned once | manual: schools as sorting machines,exclude
+W374664100,B3,landmarks,B3_landmarks,55,Liquid Surveillance: A Conversation,2012,article,283,True,include,6,rules,include
+W2181078401,B3,landmarks,B3_landmarks,56,Data flows and water woes: The Utah Data Center,2015,article,280,True,include,3,rules,include
+W3118612437,B3,landmarks,B3_landmarks,57,"Digital Rights, Digital Citizenship and Digital Literacy: What’s the Difference?",2021,article,278,True,borderline,1,core concept mentioned once | manual: digital citizenship and literacy,exclude
+W3047538085,B3,landmarks,B3_landmarks,58,Getting Eyes in the Home: Child Protective Services Investigations and State Surveillance of Family Life,2020,article,276,True,include,5,rules,include
+W2370712796,B3,landmarks,B3_landmarks,59,"Bentham, Deleuze and Beyond: An Overview of Surveillance Theories from the Panopticon to Participation",2016,article,276,True,include,6,rules,include
+W3045818689,B3,landmarks,B3_landmarks,60,Security and Privacy in IoT: A Survey,2020,article,270,False,exclude,0,core concept missing,exclude
+W2072236708,B3,landmarks,B3_landmarks,61,Real-world Impact of Rotavirus Vaccination,2010,article,266,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2060385390,B3,landmarks,B3_landmarks,62,"Governance, risk and dataveillance in the war on terror",2005,article,264,False,include,3,no abstract; core (and context) in title,include
+W3006586877,B3,landmarks,B3_landmarks,63,Surveillance as Social Sorting,2005,book,263,False,include,3,no abstract; core (and context) in title,include
+W2913459835,B3,landmarks,B3_landmarks,64,Digital Technology and the Future of Health Systems,2019,editorial,261,True,exclude,0,type editorial,exclude
+W3040719338,B3,landmarks,B3_landmarks,65,"Characteristics of Persons Who Died with COVID-19 — United States, February 12–May 18, 2020",2020,article,257,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2009404140,B3,landmarks,B3_landmarks,66,"Digital Epidermalization: Race, Identity and Biometrics",2010,article,254,True,include,2,rules,include
+W2562005419,B3,landmarks,B3_landmarks,67,Beauty surveillance: The digital self-monitoring cultures of neoliberalism,2017,article,247,True,include,6,rules,include
+W4298812330,B3,landmarks,B3_landmarks,68,The electronic eye: the rise of surveillance society,1994,book-review,247,False,exclude,0,type book-review,exclude
+W4239851538,B3,landmarks,B3_landmarks,69,The surveillant assemblage,2017,book-chapter,242,True,include,6,rules,include
+W2031138038,B3,landmarks,B3_landmarks,70,Stochastic cell transmission model (SCTM): A stochastic dynamic traffic model for traffic state surveillance and assignment,2010,article,242,False,include,3,no abstract; core (and context) in title,include
+W1581291699,B3,landmarks,B3_landmarks,71,Grand Challenges in Digital Health,2015,article,241,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W3023078435,B3,landmarks,B3_landmarks,72,Harnessing artificial intelligence (AI) to increase wellbeing for all: The case for a new technology diplomacy,2020,article,240,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W4365388075,B3,landmarks,B3_landmarks,73,The Rise of Big Data Policing,2020,book,238,True,include,2,rules,include
+W2152129980,B3,landmarks,B3_landmarks,74,The digital persona and its application to data surveillance,1994,article,236,True,include,6,rules,include
+W2895593096,B3,landmarks,B3_landmarks,75,Surveillance as social sorting : Computer codes and mobile bodies,2005,article,235,False,include,3,no abstract; core (and context) in title,include
+W611187621,B3,landmarks,B3_landmarks,76,Capturing the Criminal Image: From Mug Shot to Surveillance Society,2009,article,233,True,include,3,rules,include
+W3042637685,B3,landmarks,B3_landmarks,77,"Blind-sided by privacy? Digital contact tracing, the Apple/Google API and big tech’s newfound role as global health policy makers",2020,article,232,True,borderline,1,"core concept mentioned once | manual: contact tracing, privacy and surveillance",include
+W2418146721,B3,landmarks,B3_landmarks,78,"Giardiasis surveillance--United States, 1992-1997.",2000,article,232,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: giardiasis surveillance,exclude
+W2545552532,B3,landmarks,B3_landmarks,79,Pax technica: how the Internet of things may set us free or lock us up,2015,book-review,230,True,exclude,0,type book-review,exclude
+W4288720373,B3,landmarks,B3_landmarks,80,"The Social Shaping of the Metaverse as an Alternative to the Imaginaries of Data-Driven Smart Cities: A Study in Science, Technology, and Society",2022,article,226,True,borderline,1,core concept mentioned once | manual: metaverse and smart cities,exclude
+W4240383239,B3,landmarks,B3_landmarks,81,Speculative Security,2010,book,226,True,borderline,1,core concept mentioned once | manual: speculative security and state surveillance,include
+W2324689850,B3,landmarks,B3_landmarks,82,Digital Vigilantism as Weaponisation of Visibility,2016,article,225,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
+W84792642,B3,landmarks,B3_landmarks,83,Social Media as Surveillance: Rethinking Visibility in a Converging World,2013,article,225,True,include,6,rules,include
+W2945916355,B3,landmarks,B3_landmarks,84,Blockchain and more - Algorithm driven food traceability,2019,article,224,False,exclude,0,core concept missing,exclude
+W3162088632,B3,landmarks,B3_landmarks,85,The Rise of Digital Repression,2021,book,221,True,include,2,rules,include
+W2021360023,B3,landmarks,B3_landmarks,86,Cryptosporidiosis surveillance--United States 1999-2002.,2005,article,218,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: cryptosporidiosis surveillance,exclude
+W3214846356,B3,landmarks,B3_landmarks,87,Introduction to Dataveillance and Information Privacy and Definitions of Terms,1997,article,213,False,include,3,no abstract; core (and context) in title,include
+W4212774244,B3,landmarks,B3_landmarks,88,Assessing behavioral data science privacy issues in government artificial intelligence deployment,2022,article,210,True,borderline,1,core concept mentioned once | manual: privacy in government AI (B4),exclude
+W3124187308,B3,landmarks,B3_landmarks,89,"RFID Handbook: Applications, Technology, Security, and Privacy",2008,article,208,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2267699479,B3,landmarks,B3_landmarks,90,"Increasing Prevalence of Gastroschisis — 14 States, 1995–2012",2016,article,205,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2085406084,B3,landmarks,B3_landmarks,91,"Science, Scientism and Imaginaries of Publics in the UK: Passive Objects, Incipient Threats",2013,article,202,True,include,2,rules,include
+W1617422573,B3,landmarks,B3_landmarks,92,"Traumatic brain injury-related hospital discharges. Results from a 14-state surveillance system, 1997.",2003,article,202,True,include,6,rules,include
+W4309756426,B3,landmarks,B3_landmarks,93,Surveillance Capitalism or Democracy? The Death Match of Institutional Orders and the Politics of Knowledge in Our Information Civilization,2022,article,201,True,include,6,rules,include
+W2415159963,B3,landmarks,B3_landmarks,94,"A technoethical review of commercial drone use in the context of governance, ethics, and privacy",2016,article,201,False,exclude,0,core concept missing,exclude
+W180983570,B3,landmarks,B3_landmarks,95,Security of Symmetric Encryption against Mass Surveillance,2014,conference-paper,201,False,include,3,no abstract; core (and context) in title,include
+W1493925020,B3,landmarks,B3_landmarks,96,CTRL [space] : rhetorics of surveillance from bentham to big brother,2002,book,201,True,include,6,rules,include
+W1589389886,B3,landmarks,B3_landmarks,97,Towards critical data studies: Charting and unpacking data assemblages and their work,2014,preprint,200,True,include,2,rules,include
+W2268157125,B3,landmarks,B3_landmarks,98,Cookies That Give You Away,2015,conference-paper,199,True,include,2,rules,include
+W2080071438,B3,landmarks,B3_landmarks,99,Residential energy monitoring and computerized surveillance via utility power flows,1989,article,199,True,include,4,rules,include
+W2482717051,B3,landmarks,B3_landmarks,100,"When Biometrics Fail: Gender, Race, and the Technology of Identity",2011,article,197,True,borderline,1,"core concept mentioned once | manual: biometrics, gender, race and surveillance",include
+W4417350238,B3,recent,B3_recent_q1,1,Revisiting the “Surveillant Assemblage”,2025,article,0,True,include,6,rules,include
+W4311696806,B3,recent,B3_recent_q1,2,Privacy Without Power: What Privacy Research Can Learn from Surveillance Studies,2022,article,18,True,include,6,rules,include
 W7108469170,B3,recent,B3_recent_q1,3,Chapter Three Japan’s Maximum Surveillant Assemblage,2025,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4417373973,B3,recent,B3_recent_q1,4,The Global Anarchy of the Surveillant Assemblage,2025,other,0,False,include,3,no abstract; core (and context) in title,include
-W4414973587,B3,recent,B3_recent_q1,5,Genocidal Surveillant Assemblage in Palestine: A Socio-Legal Analysis,2025,article,1,True,borderline,3,stub abstract (possible book review),pending
-W4417350244,B3,recent,B3_recent_q1,6,A Pivot to Quantum: Shifting the Surveillant Assemblage,2025,article,0,True,include,6,rules,include
-W4417350220,B3,recent,B3_recent_q1,7,"Rethinking the Surveillant Assemblage in Palestine: Racialization, Friction, Speed",2025,article,1,True,include,6,rules,include
+W4417350220,B3,recent,B3_recent_q1,5,"Rethinking the Surveillant Assemblage in Palestine: Racialization, Friction, Speed",2025,article,1,True,include,6,rules,include
+W4414973587,B3,recent,B3_recent_q1,6,Genocidal Surveillant Assemblage in Palestine: A Socio-Legal Analysis,2025,article,1,True,borderline,3,stub abstract (possible book review) | manual: surveillant assemblage in Palestine,include
+W4417350244,B3,recent,B3_recent_q1,7,A Pivot to Quantum: Shifting the Surveillant Assemblage,2025,article,0,True,include,6,rules,include
 W4304688274,B3,recent,B3_recent_q1,8,Artistic sousveillance in the societal surveillant assemblage – onDragonfly EyesandEye Contact,2022,article,0,True,include,6,rules,include
 W4400986451,B3,recent,B3_recent_q1,9,Appified surveillance: TripAdvisor as a site for entextualized surveillant assemblage,2024,article,2,True,include,6,rules,include
-W4387906381,B3,recent,B3_recent_q1,10,The Surveillant Assemblage: A Critical Reading of Dave Eggers’ The Circle As Today’s Dystopia,2023,article,0,True,include,6,rules,include
-W4417350199,B3,recent,B3_recent_q1,11,"A Critique of Surveillant Assemblage: Bodies, Desire, and the Limits of the Data Double",2025,article,1,True,include,5,rules,include
-W4313321487,B3,recent,B3_recent_q1,12,Surveillance Studies in Retrospect and Prospect: Recollections and Thoughts to Mark the 20th Anniversary of Surveillance & Society,2022,article,0,True,include,5,rules,include
+W4417350198,B3,recent,B3_recent_q1,10,From Surveillant Assemblage to Surveillance Culture: Shifting Metaphors in Surveillance Studies,2025,article,0,True,include,6,rules,include
+W4387906381,B3,recent,B3_recent_q1,11,The Surveillant Assemblage: A Critical Reading of Dave Eggers’ The Circle As Today’s Dystopia,2023,article,0,True,include,6,rules,include
+W4417350246,B3,recent,B3_recent_q1,12,The Ontological Shift in Surveillance: Revisiting the “Surveillant Assemblage” in the Age of Facial Recognition,2025,article,2,True,include,6,rules,include
 W7147557988,B3,recent,B3_recent_q1,13,"Here's Looking at You, Kid: Nonhuman and Human Privacy Entanglements in the Surveillant Assemblage",2026,article,0,True,include,6,rules,include
-W4311596039,B3,recent,B3_recent_q1,14,"Surveillant assemblage: Overt, covert, movement and social surveillance in domestic and family violence in Singapore",2022,article,7,False,include,3,no abstract; core (and context) in title,include
-W4417350246,B3,recent,B3_recent_q1,15,The Ontological Shift in Surveillance: Revisiting the “Surveillant Assemblage” in the Age of Facial Recognition,2025,article,2,True,include,6,rules,include
+W4417350199,B3,recent,B3_recent_q1,14,"A Critique of Surveillant Assemblage: Bodies, Desire, and the Limits of the Data Double",2025,article,1,True,include,5,rules,include
+W4311596039,B3,recent,B3_recent_q1,15,"Surveillant assemblage: Overt, covert, movement and social surveillance in domestic and family violence in Singapore",2022,article,7,False,include,3,no abstract; core (and context) in title,include
 W4389798128,B3,recent,B3_recent_q1,16,Surveillance Society,2023,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
-W4404087273,B3,recent,B3_recent_q1,17,Surveillance Studies,2024,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W7140066003,B3,recent,B3_recent_q1,18,surveillance studies,2026,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W7170230664,B3,recent,B3_recent_q1,19,Surveillance Studies,2025,article,0,True,borderline,3,stub abstract (possible book review),pending
-W7131095141,B3,recent,B3_recent_q1,20,90915 Surveillance Studies,2025,book-chapter,0,True,include,6,rules,include
-W4313321620,B3,recent,B3_recent_q1,21,Seeing Surveillance: Twenty Years of Surveillance & Society,2022,article,3,True,include,6,rules,include
-W4367623742,B3,recent,B3_recent_q1,22,Gendered Visions: Reimagining Surveillance Studies,2023,other,14,True,include,6,rules,include
-W4414012433,B3,recent,B3_recent_q1,23,Smart Doorbells in a Surveillance Society,2025,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
-W4367624236,B3,recent,B3_recent_q1,24,Gendered Visions: Reimagining Surveillance Studies,2023,other,2,True,include,6,rules,include
+W4403926350,B3,recent,B3_recent_q1,17,Intersecting perspectives: Video surveillance in urban spaces through surveillance society and security state frameworks,2024,article,10,True,include,6,rules,include
+W7131095141,B3,recent,B3_recent_q1,18,90915 Surveillance Studies,2025,book-chapter,0,True,include,6,rules,include
+W7161298011,B3,recent,B3_recent_q1,19,La predictive policing vista dalla prospettiva dei surveillance studies. Un’analisi attraverso i concetti di sorveglianza e dataveillance,2026,article,0,True,include,6,rules,include
+W4367623742,B3,recent,B3_recent_q1,20,Gendered Visions: Reimagining Surveillance Studies,2023,other,14,True,include,6,rules,include
+W4414012433,B3,recent,B3_recent_q1,21,Smart Doorbells in a Surveillance Society,2025,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
+W4367624236,B3,recent,B3_recent_q1,22,Gendered Visions: Reimagining Surveillance Studies,2023,other,2,True,include,6,rules,include
+W4313321620,B3,recent,B3_recent_q1,23,Seeing Surveillance: Twenty Years of Surveillance & Society,2022,article,3,True,include,6,rules,include
+W4313321537,B3,recent,B3_recent_q1,24,Feminist Surveillance Studies and the Institutionalization of Interphobia,2022,article,3,True,include,6,rules,include
 W4384992773,B3,recent,B3_recent_q2,1,"dataveillance, n.",2023,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4367314922,B3,recent,B3_recent_q2,2,Dataveillance: Delivering 1984,2023,book-chapter,7,True,include,6,rules,include
 W4401960744,B3,recent,B3_recent_q2,3,Mass Surveillance,2024,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
@@ -6072,9 +6072,9 @@ W4404257835,B3,recent,B3_recent_q2,22,Mass Surveillance and Human Rights,2024,bo
 W4404749262,B3,recent,B3_recent_q2,23,Protecting Victims Without Mass Surveillance,2024,preprint,0,True,include,4,rules,include
 W4405176040,B3,recent,B3_recent_q2,24,MASS SURVEILLANCE AND PRIVATE COMPANIES,2023,conference-paper,0,True,include,6,rules,include
 W7141834613,B3,recent,B3_recent_q3,1,Digital Privacy and Aadhaar: Protecting Citizens in the Age of Surveillance,2025,article,0,True,include,6,rules,include
-W4402344539,B3,recent,B3_recent_q3,2,"Review of Ollier-Malaterre’s Living with Digital Surveillance in China: Citizens’ Narratives on Technology, Privacy, and Governance",2024,article,0,True,borderline,5,stub abstract (possible book review),pending
+W4402344539,B3,recent,B3_recent_q3,2,"Review of Ollier-Malaterre’s Living with Digital Surveillance in China: Citizens’ Narratives on Technology, Privacy, and Governance",2024,article,0,True,borderline,5,stub abstract (possible book review) | manual: book review,exclude
 W7147057758,B3,recent,B3_recent_q3,3,"Privacy, Surveillance, and Constitutional Rights in the Digital State",2026,article,0,True,include,6,rules,include
-W4388818396,B3,recent,B3_recent_q3,4,"Ariane Ollier-Malaterre (2023) Living with Digital Surveillance in China: Citizens’ Narratives on Technology, Privacy, and Governance. Routledge Studies in Surveillance",2023,article,0,True,borderline,4,stub abstract (possible book review),pending
+W4388818396,B3,recent,B3_recent_q3,4,"Ariane Ollier-Malaterre (2023) Living with Digital Surveillance in China: Citizens’ Narratives on Technology, Privacy, and Governance. Routledge Studies in Surveillance",2023,article,0,True,borderline,4,stub abstract (possible book review) | manual: book review,exclude
 W615350215,B3,recent,B3_recent_q3,5,"Privacy, Surveillance und Datenschutz",2025,book,116,True,include,4,rules,include
 W7215094026,B3,recent,B3_recent_q3,6,State-Sponsored Digital Surveillance and Privacy Threats through Covert Software,2026,article,0,True,include,6,rules,include
 W7220157801,B3,recent,B3_recent_q3,7,STATE DIGITAL SURVEILLANCE AND PRIVACY UNDER INTERNATIONAL HUMAN RIGHTS LAW,2026,article,0,True,include,6,rules,include
@@ -6090,7 +6090,7 @@ W4412496903,B3,recent,B3_recent_q3,16,Digital Privacy and State Surveillance: An
 W7167222208,B3,recent,B3_recent_q3,17,"STATE SURVEILLANCE IN INDIA: A CONSTITUTIONAL TEST OF PRIVACY, POWER, AND PROPORTIONALITY",2026,article,0,True,include,6,rules,include
 W4402502518,B3,recent,B3_recent_q3,18,State surveillance in the digital age: Factors associated with citizens' attitudes towards trust registers,2024,preprint,0,True,include,4,rules,include
 W7154122147,B3,recent,B3_recent_q3,19,"Surveillance Technology and State Security in Africa: Pegasus, Cellebrite, and Privacy Rights",2023,article,0,True,include,4,rules,include
-W7155507143,B3,recent,B3_recent_q3,20,"Digital governance, data privacy and democracy: State power and citizen’s rights",2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7155507143,B3,recent,B3_recent_q3,20,"Digital governance, data privacy and democracy: State power and citizen’s rights",2026,article,0,True,borderline,1,"core concept mentioned once | manual: state digital governance, privacy and surveillance",include
 W7143819891,B3,recent,B3_recent_q3,21,DIGITAL SURVEILLANCE AND PRIVACY RIGHTS: A SOCIOLOGICAL INQUIRY,2022,article,1,True,include,6,rules,include
 W7202378614,B3,recent,B3_recent_q3,22,"Privacy in the Age of Surveillance Capitalism: Digital Awareness, User Practices, and Data Power",2026,article,0,False,include,3,no abstract; core (and context) in title,include
 W4389484081,B3,recent,B3_recent_q3,23,Review of Lindau’s Surveillance and the Vanishing Individual: Power and Privacy in the Digital Age,2023,article,0,True,include,6,rules,include
