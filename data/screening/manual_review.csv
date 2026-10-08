@@ -1090,3 +1090,25 @@ W2890620150,C3,include,"Claude (manual review, Stage 2)",queer male spaces broke
 W4285132863,C3,exclude,"Claude (manual review, Stage 2)",OFDM wireless
 W7165435430,C3,exclude,"Claude (manual review, Stage 2)",geoweb system software record
 W4392105910,C3,exclude,"Claude (manual review, Stage 2)",dark tourism geographies
+W2749186846,C4,exclude,"Claude (manual review, Stage 2)",smart cities in India report (C1)
+W757758970,C4,include,"Claude (manual review, Stage 2)",social media and urban informatics (edited volume)
+W2517083874,C4,include,"Claude (manual review, Stage 2)",civic-complaint analytics for urban maintenance (technical)
+W7125489955,C4,include,"Claude (manual review, Stage 2)",environmentally reflexive urban informatics
+W2038484192,C4,include,"Claude (manual review, Stage 2)",urban sound dataset for urban informatics (technical)
+W2460236366,C4,exclude,"Claude (manual review, Stage 2)",privacy concerns in smart cities (C5)
+W2904768136,C4,exclude,"Claude (manual review, Stage 2)",IoT mobility architecture
+W3022124280,C4,exclude,"Claude (manual review, Stage 2)",smart-city technology survey
+W4361292570,C4,include,"Claude (manual review, Stage 2)",algorithmic urban planning review (also C7)
+W3138924974,C4,exclude,"Claude (manual review, Stage 2)",smart mobility technology review
+W2913153455,C4,exclude,"Claude (manual review, Stage 2)",conference proceedings front matter
+W2032378436,C4,exclude,"Claude (manual review, Stage 2)",RDF stream query language
+W2791274945,C4,exclude,"Claude (manual review, Stage 2)",Airbnb and planning (C10)
+W2105408445,C4,include,"Claude (manual review, Stage 2)",urban media façades (urban computing)
+W2114314131,C4,exclude,"Claude (manual review, Stage 2)",RDF stream query language
+W2013666091,C4,exclude,"Claude (manual review, Stage 2)",book review (urban informatics handbook)
+W4285038156,C4,include,"Claude (manual review, Stage 2)",machine learning for urban spatial analysis (urban science review)
+W2993701489,C4,exclude,"Claude (manual review, Stage 2)",platform urbanism book (C2)
+W2109360361,C4,exclude,"Claude (manual review, Stage 2)",RDF stream query language
+W4311238919,C4,include,"Claude (manual review, Stage 2)",smart urban computing applications (book)
+W7117115112,C4,include,"Claude (manual review, Stage 2)",the science of urban informatics
+W7220756095,C4,include,"Claude (manual review, Stage 2)","urban science, planning support systems and open data (thesis)"

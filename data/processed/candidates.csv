@@ -10480,14 +10480,14 @@ W4385951659,C4,india,C4_india_q1,1,Smart Cities and Urban Computing: Enhancing S
 W3180348605,C4,india,C4_india_q1,2,URBAN INFORMATICS A Tool for Shaping the Future,2021,article,1,True,include,5,rules,include
 W7154913155,C4,india,C4_india_q1,3,Cherishing Human-Elephant Landscapes with GIS-LBS: A LUCIS-Based Negotiation Framework for Human-Elephant Coexistence in Sri Lanka,2026,article,0,True,include,3,rules,include
 W7163341842,C4,india,C4_india_q1,4,Data-driven framework for eco-sensitive planning and design: a game theory-enhanced LUCIS approach to human–elephant conflict in Sri Lanka,2026,article,0,True,include,3,rules,include
-W2749186846,C4,india,C4_india_q1,5,Insightﾠ into the Incipient Smart Cities Phenomena in India,2017,report,1,True,borderline,1,core concept mentioned once,pending
+W2749186846,C4,india,C4_india_q1,5,Insightﾠ into the Incipient Smart Cities Phenomena in India,2017,report,1,True,borderline,1,core concept mentioned once | manual: smart cities in India report (C1),exclude
 W3158248489,C4,india,C4_india_q1,6,Big Data and Urban Planning in Pakistan: A Case Study of The Urban Unit,2018,article,3,True,include,6,rules,include
 W7160249893,C4,india,C4_india_q1,7,Smart UrbanAI: An AI-Powered Web-Based SmartUrban Planning and Decision Support System For Indian Cities,2026,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3193195427,C4,india,C4_india_q1,8,Integrated Urban Environmental System of Systems for Weather Ready Cities in India,2021,article,12,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W757758970,C4,india,C4_india_q1,9,From Social Butterfly to Engaged Citizen,2011,book,100,True,borderline,1,core concept mentioned once,pending
+W757758970,C4,india,C4_india_q1,9,From Social Butterfly to Engaged Citizen,2011,book,100,True,borderline,1,core concept mentioned once | manual: social media and urban informatics (edited volume),include
 W7170400752,C4,india,C4_india_q1,10,Integrating science and policy in a HydroGIS framework for urban water resilience,2026,article,0,True,include,3,rules,include
-W2517083874,C4,india,C4_india_q1,11,Analyzing civic complaints for proactive maintenance in smart city,2016,conference-paper,10,True,borderline,1,core concept mentioned once,pending
-W7125489955,C4,india,C4_india_q1,12,S.M.A.R.T: Sustainability Meets Analytics in a Resource Trade,2026,article,0,True,borderline,1,core concept mentioned once,pending
+W2517083874,C4,india,C4_india_q1,11,Analyzing civic complaints for proactive maintenance in smart city,2016,conference-paper,10,True,borderline,1,core concept mentioned once | manual: civic-complaint analytics for urban maintenance (technical),include
+W7125489955,C4,india,C4_india_q1,12,S.M.A.R.T: Sustainability Meets Analytics in a Resource Trade,2026,article,0,True,borderline,1,core concept mentioned once | manual: environmentally reflexive urban informatics,include
 W7134108197,C4,india,C4_india_q1,13,Emerging technologies and future trends of urban development,2026,book-chapter,0,False,exclude,0,core concept missing,exclude
 W4415560846,C4,india,C4_india_q1,14,Connected Mobility: Advancing V2X Communication for Safer and Smarter Roads,2024,reference-entry,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7160754792,C4,india,C4_india_q1,15,AI Powered Multiple Disease Detection,2026,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -10538,7 +10538,7 @@ W3125866593,C4,landmarks,C4_landmarks,1,The real-time city? Big data and smart u
 W564943520,C4,landmarks,C4_landmarks,2,"Smart cities: big data, civic hackers, and the quest for a new utopia",2014,book-review,1600,True,exclude,0,type book-review,exclude
 W2594141822,C4,landmarks,C4_landmarks,3,Smart sustainable cities of the future: An extensive interdisciplinary literature review,2017,article,1590,False,exclude,0,core concept missing,exclude
 W2112738128,C4,landmarks,C4_landmarks,4,Urban Computing,2014,article,1532,True,include,6,rules,include
-W2038484192,C4,landmarks,C4_landmarks,5,A Dataset and Taxonomy for Urban Sound Research,2014,conference-paper,1335,True,borderline,1,core concept mentioned once,pending
+W2038484192,C4,landmarks,C4_landmarks,5,A Dataset and Taxonomy for Urban Sound Research,2014,conference-paper,1335,True,borderline,1,core concept mentioned once | manual: urban sound dataset for urban informatics (technical),include
 W2912275277,C4,landmarks,C4_landmarks,6,"On big data, artificial intelligence and smart cities",2019,article,1171,False,include,3,no abstract; core (and context) in title,include
 W3082766779,C4,landmarks,C4_landmarks,7,Google Earth Engine Cloud Computing Platform for Remote Sensing Big Data Applications: A Comprehensive Review,2020,article,1170,True,include,5,rules,include
 W2066473934,C4,landmarks,C4_landmarks,8,"Big data, smart cities and city planning",2013,article,1094,True,include,6,rules,include
@@ -10562,24 +10562,24 @@ W2534538876,C4,landmarks,C4_landmarks,25,Sensing spatial distribution of urban l
 W2094791001,C4,landmarks,C4_landmarks,26,The International Classification of Diseases: Ninth Revision (ICD-9),1978,article,488,True,include,3,rules,include
 W2552464140,C4,landmarks,C4_landmarks,27,The ethics of smart cities and urban science,2016,article,477,True,include,6,rules,include
 W2804319089,C4,landmarks,C4_landmarks,28,"Smart cities with big data: Reference models, challenges, and considerations",2018,article,472,True,include,5,rules,include
-W2460236366,C4,landmarks,C4_landmarks,29,Privacy concerns in smart cities,2016,article,472,True,borderline,1,core concept mentioned once,pending
-W2904768136,C4,landmarks,C4_landmarks,30,Sii-Mobility: An IoT/IoE Architecture to Enhance Smart City Mobility and Transportation Services,2018,article,471,True,borderline,1,core concept mentioned once,pending
+W2460236366,C4,landmarks,C4_landmarks,29,Privacy concerns in smart cities,2016,article,472,True,borderline,1,core concept mentioned once | manual: privacy concerns in smart cities (C5),exclude
+W2904768136,C4,landmarks,C4_landmarks,30,Sii-Mobility: An IoT/IoE Architecture to Enhance Smart City Mobility and Transportation Services,2018,article,471,True,borderline,1,core concept mentioned once | manual: IoT mobility architecture,exclude
 W2001703222,C4,landmarks,C4_landmarks,31,Geospatial Big Data: Challenges and Opportunities,2015,article,459,False,exclude,3,no abstract; no urban context (C theme),exclude
 W2936516903,C4,landmarks,C4_landmarks,32,Cooperative Heterogeneous Multi-Robot Systems,2019,article,455,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W3022124280,C4,landmarks,C4_landmarks,33,Future Trends and Current State of Smart City Concepts: A Survey,2020,article,454,True,borderline,1,core concept mentioned once,pending
+W3022124280,C4,landmarks,C4_landmarks,33,Future Trends and Current State of Smart City Concepts: A Survey,2020,article,454,True,borderline,1,core concept mentioned once | manual: smart-city technology survey,exclude
 W3210458411,C4,landmarks,C4_landmarks,34,Exploiting dynamic spatio-temporal graph convolutional neural networks for citywide traffic flows prediction,2021,article,435,False,exclude,0,core concept missing,exclude
 W2114092915,C4,landmarks,C4_landmarks,35,The path most traveled: Travel demand estimation using big data resources,2015,article,426,False,exclude,3,no abstract; no urban context (C theme),exclude
 W2974175488,C4,landmarks,C4_landmarks,36,Differentially Private Asynchronous Federated Learning for Mobile Edge Computing in Urban Informatics,2019,article,404,True,include,4,rules,include
-W4361292570,C4,landmarks,C4_landmarks,37,Algorithmic urban planning for smart and sustainable development: Systematic review of the literature,2023,review,400,True,borderline,1,core concept mentioned once,pending
+W4361292570,C4,landmarks,C4_landmarks,37,Algorithmic urban planning for smart and sustainable development: Systematic review of the literature,2023,review,400,True,borderline,1,core concept mentioned once | manual: algorithmic urban planning review (also C7),include
 W3207740732,C4,landmarks,C4_landmarks,38,Big data analysis of the Internet of Things in the digital twins of smart city based on deep learning,2021,article,398,False,include,3,no abstract; core (and context) in title,include
-W3138924974,C4,landmarks,C4_landmarks,39,"Enabling Technologies for Urban Smart Mobility: Recent Trends, Opportunities and Challenges",2021,article,397,True,borderline,1,core concept mentioned once,pending
+W3138924974,C4,landmarks,C4_landmarks,39,"Enabling Technologies for Urban Smart Mobility: Recent Trends, Opportunities and Challenges",2021,article,397,True,borderline,1,core concept mentioned once | manual: smart mobility technology review,exclude
 W2017351764,C4,landmarks,C4_landmarks,40,Activity recognition with smartphone sensors,2014,article,388,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2996388770,C4,landmarks,C4_landmarks,41,On the new era of urban traffic monitoring with massive drone data: The pNEUMA large-scale field experiment,2019,article,381,False,exclude,0,core concept missing,exclude
 W3042449702,C4,landmarks,C4_landmarks,42,Social media and the city: Rethinking urban socio-spatial inequality using user-generated geographic information,2015,article,375,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3170397984,C4,landmarks,C4_landmarks,43,Adaptive Digital Twin and Multiagent Deep Reinforcement Learning for Vehicular Edge Computing and Networks,2021,article,334,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3108852469,C4,landmarks,C4_landmarks,44,"Smart cities, big data and urban policy: Towards urban analytics for the long run",2020,article,329,True,include,6,rules,include
 W2918891759,C4,landmarks,C4_landmarks,45,Deep Learning Empowered Task Offloading for Mobile Edge Computing in Urban Informatics,2019,article,320,True,include,3,rules,include
-W2913153455,C4,landmarks,C4_landmarks,46,Proceedings of the 26th International Conference on World Wide Web Companion,2017,other,318,True,borderline,1,core concept mentioned once,pending
+W2913153455,C4,landmarks,C4_landmarks,46,Proceedings of the 26th International Conference on World Wide Web Companion,2017,other,318,True,borderline,1,core concept mentioned once | manual: conference proceedings front matter,exclude
 W2027997059,C4,landmarks,C4_landmarks,47,Thinking about smart cities,2015,article,305,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3183401854,C4,landmarks,C4_landmarks,48,Observed inequality in urban greenspace exposure in China,2021,article,304,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4313325044,C4,landmarks,C4_landmarks,49,Federated learning for smart cities: A comprehensive survey,2022,article,300,False,exclude,0,core concept missing,exclude
@@ -10587,15 +10587,15 @@ W2898183913,C4,landmarks,C4_landmarks,50,Deciphering the spatial structure of Ch
 W3037168550,C4,landmarks,C4_landmarks,51,The emerging data–driven Smart City and its innovative applied solutions for sustainability: the cases of London and Barcelona,2020,article,297,True,include,3,rules,include
 W2358802965,C4,landmarks,C4_landmarks,52,"Speculative futures: Cities, data, and governance beyond smart urbanism",2016,article,286,True,include,3,rules,include
 W2125189556,C4,landmarks,C4_landmarks,53,Spatiotemporal Patterns of Urban Human Mobility,2012,article,285,False,exclude,0,core concept missing,exclude
-W2032378436,C4,landmarks,C4_landmarks,54,C-SPARQL: A CONTINUOUS QUERY LANGUAGE FOR RDF DATA STREAMS,2010,article,279,True,borderline,1,core concept mentioned once,pending
-W2791274945,C4,landmarks,C4_landmarks,55,Platform economies and urban planning: Airbnb and regulated deregulation in London,2018,article,271,True,borderline,1,core concept mentioned once,pending
+W2032378436,C4,landmarks,C4_landmarks,54,C-SPARQL: A CONTINUOUS QUERY LANGUAGE FOR RDF DATA STREAMS,2010,article,279,True,borderline,1,core concept mentioned once | manual: RDF stream query language,exclude
+W2791274945,C4,landmarks,C4_landmarks,55,Platform economies and urban planning: Airbnb and regulated deregulation in London,2018,article,271,True,borderline,1,core concept mentioned once | manual: Airbnb and planning (C10),exclude
 W2952613166,C4,landmarks,C4_landmarks,56,Urban big data fusion based on deep learning: An overview,2019,article,267,False,include,3,no abstract; core (and context) in title,include
 W2987354670,C4,landmarks,C4_landmarks,57,Portraying the spatial dynamics of urban vibrancy using multisource urban big data,2019,article,261,False,include,3,no abstract; core (and context) in title,include
 W3007895089,C4,landmarks,C4_landmarks,58,From digital to sustainable: A scientometric review of smart city literature between 1990 and 2019,2020,review,259,False,exclude,0,core concept missing,exclude
 W1498029981,C4,landmarks,C4_landmarks,59,A review of urban computing for mobile phone traces,2013,conference-paper,259,True,include,4,rules,include
 W2904703694,C4,landmarks,C4_landmarks,60,Beyond Word2vec: An approach for urban functional region extraction and identification by combining Place2vec and POIs,2018,article,256,False,exclude,0,core concept missing,exclude
 W2514159439,C4,landmarks,C4_landmarks,61,Big Data Driven Mobile Traffic Understanding and Forecasting: A Time Series Approach,2016,article,255,True,include,3,rules,include
-W2105408445,C4,landmarks,C4_landmarks,62,Designing urban media façades,2010,conference-paper,244,True,borderline,1,core concept mentioned once,pending
+W2105408445,C4,landmarks,C4_landmarks,62,Designing urban media façades,2010,conference-paper,244,True,borderline,1,core concept mentioned once | manual: urban media façades (urban computing),include
 W4283590008,C4,landmarks,C4_landmarks,63,Measuring residents’ perceptions of city streets to inform better street planning through deep learning and space syntax,2022,article,241,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2775827109,C4,landmarks,C4_landmarks,64,Cooperative Fog Computing for Dealing with Big Data in the Internet of Vehicles: Architecture and Hierarchical Resource Management,2017,article,239,True,include,4,rules,include
 W3153907075,C4,landmarks,C4_landmarks,65,Effects of urban parks on residents’ expressed happiness before and during the COVID-19 pandemic,2021,article,232,False,exclude,0,core concept missing,exclude
@@ -10603,17 +10603,17 @@ W2154733731,C4,landmarks,C4_landmarks,66,Towards cloud based big data analytics 
 W2999339909,C4,landmarks,C4_landmarks,67,"Spatially varying impacts of built environment factors on rail transit ridership at station level: A case study in Guangzhou, China",2020,article,226,False,exclude,0,core concept missing,exclude
 W2586749094,C4,landmarks,C4_landmarks,68,Mapping fine-scale population distributions at the building level by integrating multisource geospatial big data,2017,article,225,True,include,5,rules,include
 W3144879775,C4,landmarks,C4_landmarks,69,Data-driven smart sustainable cities of the future: An evidence synthesis approach to a comprehensive state-of-the-art literature review,2021,article,224,True,include,3,rules,include
-W2114314131,C4,landmarks,C4_landmarks,70,C-SPARQL,2009,conference-paper,224,True,borderline,1,core concept mentioned once,pending
+W2114314131,C4,landmarks,C4_landmarks,70,C-SPARQL,2009,conference-paper,224,True,borderline,1,core concept mentioned once | manual: RDF stream query language,exclude
 W3109283012,C4,landmarks,C4_landmarks,71,"Environmentally data-driven smart sustainable cities: applied innovative solutions for energy efficiency, pollution reduction, and urban metabolism",2020,article,223,True,include,3,rules,include
 W2766179191,C4,landmarks,C4_landmarks,72,The Resilience to Emergencies and Disasters Index: Applying big data to benchmark and validate neighborhood resilience capacity,2017,article,223,False,include,3,no abstract; core (and context) in title,include
 W3017021688,C4,landmarks,C4_landmarks,73,A Survey of Network Virtualization Techniques for Internet of Things Using SDN and NFV,2020,article,221,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2728446802,C4,landmarks,C4_landmarks,74,Does block size matter? The impact of urban design on economic vitality for Chinese cities,2017,article,217,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2013666091,C4,landmarks,C4_landmarks,75,Handbook of Research on Urban Informatics: The Practice and Promise of the Real-Time City,2009,article,217,True,borderline,3,stub abstract (possible book review),pending
+W2013666091,C4,landmarks,C4_landmarks,75,Handbook of Research on Urban Informatics: The Practice and Promise of the Real-Time City,2009,article,217,True,borderline,3,stub abstract (possible book review) | manual: book review (urban informatics handbook),exclude
 W2146786978,C4,landmarks,C4_landmarks,76,Technology‐rich inquiry science in urban classrooms: What are the barriers to inquiry pedagogy?*,2002,article,215,True,include,3,rules,include
 W3112597358,C4,landmarks,C4_landmarks,77,Artificial Intelligence Technologies and Related Urban Planning and Development Concepts: How Are They Perceived and Utilized in Australia?,2020,article,214,True,include,2,rules,include
 W3197958969,C4,landmarks,C4_landmarks,78,Integrating remote sensing and geospatial big data for urban land use mapping: A review,2021,article,211,True,include,4,rules,include
 W2083933193,C4,landmarks,C4_landmarks,79,Synergies between VSWIR and TIR data for the urban environment: An evaluation of the potential for the Hyperspectral Infrared Imager (HyspIRI) Decadal Survey mission,2011,article,210,False,exclude,0,core concept missing,exclude
-W4285038156,C4,landmarks,C4_landmarks,80,Machine learning for spatial analyses in urban areas: a scoping review,2022,article,209,True,borderline,1,core concept mentioned once,pending
+W4285038156,C4,landmarks,C4_landmarks,80,Machine learning for spatial analyses in urban areas: a scoping review,2022,article,209,True,borderline,1,core concept mentioned once | manual: machine learning for urban spatial analysis (urban science review),include
 W2122391400,C4,landmarks,C4_landmarks,81,The Real-Time City? Big Data and Smart Urbanism,2013,preprint,206,False,include,3,no abstract; core (and context) in title,include
 W2515244244,C4,landmarks,C4_landmarks,82,Estimation of the building energy use intensity in the urban scale by integrating GIS and big data technology,2016,article,203,False,include,3,no abstract; core (and context) in title,include
 W3199212381,C4,landmarks,C4_landmarks,83,"Review of urban computing in air quality management as smart city service: An integrated IoT, AI, and cloud technology perspective",2021,article,199,False,include,3,no abstract; core (and context) in title,include
@@ -10630,8 +10630,8 @@ W2611178900,C4,landmarks,C4_landmarks,93,Designing for Cohabitation,2017,confere
 W2919383237,C4,landmarks,C4_landmarks,94,Identification of Urban Functional Areas Based on POI Data: A Case Study of the Guangzhou Economic and Technological Development Zone,2019,article,185,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W211709846,C4,landmarks,C4_landmarks,95,The meaning of the built environment. A non-verbal communication approach,1985,article,184,False,exclude,0,core concept missing,exclude
 W2889151250,C4,landmarks,C4_landmarks,96,Moving Culturally Relevant Pedagogy From Theory to Practice: Exploring Teachers’ Application of Culturally Relevant Education in Science and Mathematics,2018,article,183,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2993701489,C4,landmarks,C4_landmarks,97,Platform Urbanism: Negotiating Platform Ecosystems in Connected Cities,2019,report,182,True,borderline,1,core concept mentioned once,pending
-W2109360361,C4,landmarks,C4_landmarks,98,Querying RDF streams with C-SPARQL,2010,article,182,True,borderline,1,core concept mentioned once,pending
+W2993701489,C4,landmarks,C4_landmarks,97,Platform Urbanism: Negotiating Platform Ecosystems in Connected Cities,2019,report,182,True,borderline,1,core concept mentioned once | manual: platform urbanism book (C2),exclude
+W2109360361,C4,landmarks,C4_landmarks,98,Querying RDF streams with C-SPARQL,2010,article,182,True,borderline,1,core concept mentioned once | manual: RDF stream query language,exclude
 W3012297079,C4,landmarks,C4_landmarks,99,Estimation of Coronavirus Disease 2019 (COVID-19) Burden and Potential for International Dissemination of Infection From Iran,2020,article,181,True,exclude,0,core concept missing,exclude
 W2909686411,C4,landmarks,C4_landmarks,100,Does polycentric and compact development alleviate urban traffic congestion? A case study of 98 Chinese cities,2019,article,180,False,exclude,0,core concept missing,exclude
 W4309300343,C4,recent,C4_recent_q1,1,Urban Informatics,2022,book,2,True,include,6,rules,include
@@ -10639,12 +10639,12 @@ W4295866777,C4,recent,C4_recent_q1,2,Prospective for urban informatics,2022,arti
 W7139059301,C4,recent,C4_recent_q1,3,Urban Informatics,2026,reference-entry,0,True,include,6,rules,include
 W4396973240,C4,recent,C4_recent_q1,4,Digital twins in urban informatics,2024,article,32,True,include,5,rules,include
 W7172494278,C4,recent,C4_recent_q1,5,Advanced Urban Informatics,2026,book,0,False,include,3,no abstract; core (and context) in title,include
-W4311238919,C4,recent,C4_recent_q1,6,Smart Urban Computing Applications,2022,book,59,True,borderline,5,stub abstract (possible book review),pending
+W4311238919,C4,recent,C4_recent_q1,6,Smart Urban Computing Applications,2022,book,59,True,borderline,5,stub abstract (possible book review) | manual: smart urban computing applications (book),include
 W4306377233,C4,recent,C4_recent_q1,7,Urban Informatics and Future Cities,2022,book-review,11,True,exclude,0,type book-review,exclude
 W4298121259,C4,recent,C4_recent_q1,8,Urban informatics and spatial optimization,2022,article,5,True,include,6,rules,include
 W4281783549,C4,recent,C4_recent_q1,9,Spatial Data in Urban Informatics,2022,other,2,True,include,6,rules,include
 W7119089122,C4,recent,C4_recent_q1,10,Urban Computing,2024,dataset,0,False,exclude,0,type dataset,exclude
-W7117115112,C4,recent,C4_recent_q1,11,The science of urban informatics,2025,article,1,True,borderline,3,stub abstract (possible book review),pending
+W7117115112,C4,recent,C4_recent_q1,11,The science of urban informatics,2025,article,1,True,borderline,3,stub abstract (possible book review) | manual: the science of urban informatics,include
 W4281663674,C4,recent,C4_recent_q1,12,Urban informatics and future cities,2022,book-review,0,True,exclude,0,type book-review,exclude
 W4404744285,C4,recent,C4_recent_q1,13,Envisioning the New Urban Informatics,2024,book-chapter,0,True,include,6,rules,include
 W4220688436,C4,recent,C4_recent_q1,14,Electric vehicle demand estimation and charging station allocation using urban informatics,2022,article,119,False,include,3,no abstract; core (and context) in title,include
@@ -10663,7 +10663,7 @@ W4400890167,C4,recent,C4_recent_q2,8,Leveraging Generative AI Models in Urban Sc
 W4407717490,C4,recent,C4_recent_q2,9,Artificial intelligence in urban science: why does it matter?,2025,article,34,True,include,6,rules,include
 W7172518542,C4,recent,C4_recent_q2,10,Generative AI in urban science and practice,2026,article,0,False,include,3,no abstract; core (and context) in title,include
 W4414283521,C4,recent,C4_recent_q2,11,Urban Science Meets Cyber Risk: Quantifying Smart City Downtime with CTMC and H3 Geospatial Data,2025,article,2,True,include,3,rules,include
-W7220756095,C4,recent,C4_recent_q2,12,Urban science and the future of sustainable cities: Planning support systems and open data perspectives,2022,dissertation,0,True,borderline,3,stub abstract (possible book review),pending
+W7220756095,C4,recent,C4_recent_q2,12,Urban science and the future of sustainable cities: Planning support systems and open data perspectives,2022,dissertation,0,True,borderline,3,"stub abstract (possible book review) | manual: urban science, planning support systems and open data (thesis)",include
 W4414801081,C4,recent,C4_recent_q2,13,GenAI Models Capture Urban Science but Oversimplify Complexity,2025,preprint,0,True,include,4,rules,include
 W4415688617,C4,recent,C4_recent_q2,14,Dynamic Measurement of Urban Science and Technology Innovation Capability Based on Analysis of Scientific Research Data,2025,article,0,True,include,3,rules,include
 W4407891804,C4,recent,C4_recent_q2,15,Spatially integrated social sciences: opportunities for computational urban science,2025,article,3,True,include,4,rules,include
