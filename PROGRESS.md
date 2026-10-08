@@ -2,7 +2,23 @@
 
 Read BRIEF.md first. This file says what is done, what is next, and what went wrong.
 
-## Current stage: Stage 2 complete — waiting for approval
+## Current stage: Stage 2b in progress (Stage 2 approved 2026-10-08)
+
+### Stage 2b log
+- Keep all records (no trimming).
+- Core venue column (source `is_core` from the cached work records; no lookups needed).
+- Shortlist tag removed from 17 works (13 construction/structural-engineering/materials, 4
+  off-topic matches): `data/screening/shortlist_exclusions.csv`. Shortlist 285 → 268.
+- Hand-check of the 134 Engineering/Computer Science records in C9, C11, C14, C18
+  (`data/screening/handcheck_stage2b.csv`): 89 kept, 41 dropped (ticketing-system builds,
+  routing/assignment algorithms, crypto/forensics, remote sensing), 2 moved (C14 → A3, A14).
+  Records 7,666 → 7,625.
+- Coverage limits for Indian venues: `scripts/coverage_check.py` →
+  `data/processed/coverage_limits.csv`.
+- India slices page 2 (207 searches, ≈2,070 credits): waiting for the OpenAlex daily reset
+  (898 credits left on 2026-10-08, reserve 800); scheduled for 2026-10-09 00:15 UTC.
+
+## Stage 2 — approved
 
 Stage 1 approved 2026-10-08 with eight changes for Stage 2 (direct API search with the
 personal key; borderline < 25% per theme; blind precision check of 6 records per theme by a
