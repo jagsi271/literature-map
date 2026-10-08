@@ -535,7 +535,8 @@ def main(themes_wanted):
             "Method": method(text) if abstract else "unclear",
             "Landmark flag": "Y" if any(c["slice"].startswith("landmarks") for c in mainc)
                                     and not repo_only else "",
-            "Emerging flag": "Y" if (w.get("publication_year") or 0) >= 2022
+            # FWCI-based signal for 2022-24 only: 2025-26 works' citations are too young
+            "Emerging flag": "Y" if 2022 <= (w.get("publication_year") or 0) <= 2024
                                     and (w.get("fwci") or 0) >= 1.5 else "",
             "One-line summary": summary(abstract),
             "Stated gaps": stated_gaps(abstract),
