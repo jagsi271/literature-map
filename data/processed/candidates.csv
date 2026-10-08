@@ -6976,7 +6976,7 @@ W4413897068,B7,india,B7_india_q3,10,"The Uneven Web: Digital Literacy, Access, a
 W7154702284,B7,india,B7_india_q3,11,Impact of Digital Literacy on Financial Inclusion in Rural India,2026,article,0,True,include,6,rules,include
 W3012879953,B7,india,B7_india_q3,12,Building Financial Resilience Through Financial and Digital Literacy in South Asia and Sub-Saharan Africa,2019,preprint,48,False,include,3,no abstract; core (and context) in title,include
 W4403821761,B7,india,B7_india_q3,13,The Role of Microenterprises in Reducing Poverty in South Asia: A Comparative Analysis of Women-Led Businesses in Pakistan and Sri Lanka,2024,preprint,0,True,include,3,rules,include
-W7118822637,B7,india,B7_india_q3,14,Financial Inclusion and Gender Inequality in India,2026,book-chapter,0,True,borderline,1,core concept mentioned once,pending
+W7118822637,B7,india,B7_india_q3,14,Financial Inclusion and Gender Inequality in India,2026,book-chapter,0,True,borderline,1,core concept mentioned once | manual: gender and financial inclusion (B6),exclude
 W4415608020,B7,india,B7_india_q3,15,4 69Fostering Digital Literacy in India: Government Initiatives and Digital Inclusion,2025,book-chapter,0,True,include,5,rules,include
 W4412117874,B7,india,B7_india_q3,16,"Digital Literacy and Gendered Usage: A Descriptive Study of Empowerment and Barriers among Women in Noida, India",2025,article,0,True,include,6,rules,include
 W7130833008,B7,india,B7_india_q3,17,Exploring Digital Entrepreneurial Intentions of Generation Z in Sri Lanka: Insights from TAM and Digital Literacy,2026,article,0,True,include,6,rules,include
@@ -6988,8 +6988,8 @@ W2166531947,B7,india,B7_india_q4,4,Sustainable Internet access for the rural poo
 W4403821783,B7,india,B7_india_q4,5,The Role of Traditional Media vs. Social Media in Political Mobilization in South Asia: Case Studies from Sri Lanka and Bangladesh,2024,preprint,0,True,include,3,rules,include
 W3199410535,B7,india,B7_india_q4,6,Contours of Internet Access in Rural-Urban Landscapes in India,2021,article,2,True,include,4,rules,include
 W4285152197,B7,india,B7_india_q4,7,Inequality in Internet Access in India: Implications for Learning During COVID,2022,preprint,4,False,include,3,no abstract; core (and context) in title,include
-W1529541629,B7,india,B7_india_q4,8,Private sector provision of Internet access in rural India,2002,dissertation,1,True,borderline,3,stub abstract (possible book review),pending
-W2998442549,B7,india,B7_india_q4,9,Digital Governance in Rural Schools of Sri Lanka,2019,book-chapter,0,True,borderline,1,core concept mentioned once,pending
+W1529541629,B7,india,B7_india_q4,8,Private sector provision of Internet access in rural India,2002,dissertation,1,True,borderline,3,stub abstract (possible book review) | manual: private provision of internet access in rural India,include
+W2998442549,B7,india,B7_india_q4,9,Digital Governance in Rural Schools of Sri Lanka,2019,book-chapter,0,True,borderline,1,core concept mentioned once | manual: ICT in rural schools; internet access in passing,exclude
 W2159464070,B7,india,B7_india_q4,10,COMMUNITY INTERNET ACCESS IN RURAL AREAS: A STUDY ON COMMUNITY INFORMATION CENTRES IN BANGLADESH,2010,article,24,True,include,5,rules,include
 W7171500963,B7,india,B7_india_q4,11,Digital Payment Systems and Financial Inclusion in Rural India: Evidence from Bengaluru Rural District,2026,article,0,True,include,3,rules,include
 W4230446597,B7,india,B7_india_q4,12,Sustainable internet access for the rural poor: elements of an emerging Indian model,2002,article,5,False,include,3,no abstract; core (and context) in title,include
@@ -7001,9 +7001,9 @@ W7220676400,B7,india,B7_india_q4,17,Digital Migration: How Internet Access is Re
 W7170067021,B7,india,B7_india_q4,18,"Connecting the dots: internet access, income, and clean cooking energy adoption among rural households in Pakistan",2026,article,0,True,include,6,rules,include
 W1977037734,B7,landmarks,B7_landmarks,1,"Digital divide: civic engagement, information poverty, and the Internet worldwide",2002,book-review,2948,True,exclude,0,type book-review,exclude
 W4205325953,B7,landmarks,B7_landmarks,2,Digital Divide,2001,book,2901,True,include,4,rules,include
-W4365512576,B7,landmarks,B7_landmarks,3,"ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope",2023,article,2475,True,borderline,1,core concept mentioned once,pending
-W3153389987,B7,landmarks,B7_landmarks,4,Confronting the Challenges of Participatory Culture,2009,book,2258,True,borderline,1,core concept mentioned once,pending
-W1873175055,B7,landmarks,B7_landmarks,5,The Deepening Divide: Inequality in the Information Society,2005,book,2252,True,borderline,1,core concept mentioned once,pending
+W4365512576,B7,landmarks,B7_landmarks,3,"ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope",2023,article,2475,True,borderline,1,core concept mentioned once | manual: ChatGPT review,exclude
+W3153389987,B7,landmarks,B7_landmarks,4,Confronting the Challenges of Participatory Culture,2009,book,2258,True,borderline,1,core concept mentioned once | manual: participatory culture and the participation gap (digital divide),include
+W1873175055,B7,landmarks,B7_landmarks,5,The Deepening Divide: Inequality in the Information Society,2005,book,2252,True,borderline,1,core concept mentioned once | manual: the deepening divide (van Dijk),include
 W2100347631,B7,landmarks,B7_landmarks,6,Social Implications of the Internet,2001,review,2047,True,include,2,rules,include
 W2040484355,B7,landmarks,B7_landmarks,7,"Digital divide research, achievements and shortcomings",2006,article,2039,False,include,3,no abstract; core (and context) in title,include
 W2127081335,B7,landmarks,B7_landmarks,8,Second-Level Digital Divide: Differences in People's Online Skills,2002,article,1921,True,include,5,rules,include
@@ -7015,7 +7015,7 @@ W2735791018,B7,landmarks,B7_landmarks,13,"Determinants of Internet skills, uses 
 W2157767588,B7,landmarks,B7_landmarks,14,Reconsidering Political and Popular Understandings of the Digital Divide,2004,article,1440,True,include,6,rules,include
 W2142930729,B7,landmarks,B7_landmarks,15,The exposome: from concept to utility,2012,article,1438,True,exclude,0,core concept missing,exclude
 W2168637053,B7,landmarks,B7_landmarks,16,"Gradations in digital inclusion: children, young people and the digital divide",2007,article,1355,True,include,6,rules,include
-W2106103812,B7,landmarks,B7_landmarks,17,Whose Space? Differences Among Users and Non-Users of Social Network Sites,2007,article,1298,True,borderline,1,core concept mentioned once,pending
+W2106103812,B7,landmarks,B7_landmarks,17,Whose Space? Differences Among Users and Non-Users of Social Network Sites,2007,article,1298,True,borderline,1,core concept mentioned once | manual: digital inequality in social network site use,include
 W2000304796,B7,landmarks,B7_landmarks,18,Digital Inequality,2008,article,1258,True,include,6,rules,include
 W1984234945,B7,landmarks,B7_landmarks,19,Digital inequalities and why they matter,2015,article,1220,True,include,6,rules,include
 W2892254122,B7,landmarks,B7_landmarks,20,The first-level digital divide shifts from inequalities in physical access to inequalities in material access,2018,article,1204,True,include,6,rules,include
@@ -7024,9 +7024,9 @@ W3024530634,B7,landmarks,B7_landmarks,22,COVID-19 and digital inequalities: Reci
 W2033074164,B7,landmarks,B7_landmarks,23,The Internet in Everyday Life,2002,book,1152,True,include,3,rules,include
 W2149078706,B7,landmarks,B7_landmarks,24,The digital divide has grown old: Determinants of a digital divide among seniors,2014,article,1137,True,include,6,rules,include
 W3033915435,B7,landmarks,B7_landmarks,25,Impact of digital surge during Covid-19 pandemic: A viewpoint on research and practice,2020,article,1136,False,exclude,0,core concept missing,exclude
-W2805112548,B7,landmarks,B7_landmarks,26,Barriers and solutions to online learning in medical education – an integrative review,2018,article,1067,True,borderline,1,core concept mentioned once,pending
+W2805112548,B7,landmarks,B7_landmarks,26,Barriers and solutions to online learning in medical education – an integrative review,2018,article,1067,True,borderline,1,core concept mentioned once | manual: online learning in medical education,exclude
 W3037440052,B7,landmarks,B7_landmarks,27,Digital transformation of everyday life – How COVID-19 pandemic transformed the basic education of the young generation and why information management research should care?,2020,article,1050,True,include,2,rules,include
-W2143062300,B7,landmarks,B7_landmarks,28,Predictors of eHealth Usage: Insights on The Digital Divide From the Health Information National Trends Survey 2012,2014,article,1021,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2143062300,B7,landmarks,B7_landmarks,28,Predictors of eHealth Usage: Insights on The Digital Divide From the Health Information National Trends Survey 2012,2014,article,1021,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: eHealth use and the digital divide (flag false positive),include
 W3215923938,B7,landmarks,B7_landmarks,29,The digital divide: A review and future research agenda,2021,article,1018,False,include,3,no abstract; core (and context) in title,include
 W2268109066,B7,landmarks,B7_landmarks,30,The Third-Level Digital Divide: Who Benefits Most from Being Online?,2015,book-chapter,1017,True,include,6,rules,include
 W2110016748,B7,landmarks,B7_landmarks,31,Internet skills and the digital divide,2010,article,1007,True,include,5,rules,include
@@ -7034,7 +7034,7 @@ W2279520549,B7,landmarks,B7_landmarks,32,"World Development Report, 2016: digita
 W2079980561,B7,landmarks,B7_landmarks,33,"The Digital Divide Among Low-Income Homebound Older Adults: Internet Use Patterns, eHealth Literacy, and Attitudes Toward Computer/Internet Use",2013,article,940,True,include,6,rules,include
 W1966809963,B7,landmarks,B7_landmarks,34,eHealth Literacy: Extending the Digital Divide to the Realm of Health Information,2012,article,921,True,include,6,rules,include
 W2942193471,B7,landmarks,B7_landmarks,35,Artificial intelligence in education : challenges and opportunities for sustainable development,2019,article,902,True,include,2,rules,include
-W4287762607,B7,landmarks,B7_landmarks,36,A global outlook to the interruption of education due to COVID-19 pandemic: Navigating in a time of uncertainty and crisis,2020,article,890,True,borderline,1,core concept mentioned once,pending
+W4287762607,B7,landmarks,B7_landmarks,36,A global outlook to the interruption of education due to COVID-19 pandemic: Navigating in a time of uncertainty and crisis,2020,article,890,True,borderline,1,core concept mentioned once | manual: COVID education disruption,exclude
 W2015851252,B7,landmarks,B7_landmarks,37,Characteristics of online and offline health information seekers and factors that discriminate between them,2004,article,864,False,exclude,0,core concept missing,exclude
 W1600393059,B7,landmarks,B7_landmarks,38,Rethinking education in the age of technology: the digital revolution and schooling in America,2010,book-review,854,True,exclude,0,type book-review,exclude
 W2343437055,B7,landmarks,B7_landmarks,39,Second-Level Digital Divide: Differences in People's Online Skills,2007,article,841,True,include,6,rules,include
@@ -7048,17 +7048,17 @@ W2100277498,B7,landmarks,B7_landmarks,46,"Digital Citizenship: The Internet, Soc
 W2565578188,B7,landmarks,B7_landmarks,47,Maximizing Opportunities and Minimizing Risks for Children Online: The Role of Digital Skills in Emerging Strategies of Parental Mediation,2017,article,723,True,include,6,rules,include
 W1814389775,B7,landmarks,B7_landmarks,48,A Corresponding Fields Model for the Links Between Social and Digital Exclusion,2012,article,700,True,include,5,rules,include
 W2099977142,B7,landmarks,B7_landmarks,49,The determinants of the global digital divide: a cross-country analysis of computer and internet penetration,2006,article,694,True,include,6,rules,include
-W7025306870,B7,landmarks,B7_landmarks,50,Understanding Digital Inequality: Comparing Continued Use Behavioral Models of the Socio-Economically Advantaged and Disadvantaged,2008,article,687,True,borderline,3,stub abstract (possible book review),pending
-W2193121729,B7,landmarks,B7_landmarks,51,Big Data for Development: A Review of Promises and Challenges,2015,article,682,True,borderline,1,core concept mentioned once,pending
+W7025306870,B7,landmarks,B7_landmarks,50,Understanding Digital Inequality: Comparing Continued Use Behavioral Models of the Socio-Economically Advantaged and Disadvantaged,2008,article,687,True,borderline,3,stub abstract (possible book review) | manual: digital inequality and continued use,include
+W2193121729,B7,landmarks,B7_landmarks,51,Big Data for Development: A Review of Promises and Challenges,2015,article,682,True,borderline,1,core concept mentioned once | manual: big data for development (B2),exclude
 W2170372734,B7,landmarks,B7_landmarks,52,Simulating LTE Cellular Systems: An Open-Source Framework,2010,article,682,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2021625132,B7,landmarks,B7_landmarks,53,How social media transform migrant networks and facilitate migration,2013,article,679,True,borderline,1,core concept mentioned once,pending
-W3033694598,B7,landmarks,B7_landmarks,54,A global outlook to the interruption of education due to COVID-19 pandemic: Navigating in a time of uncertainty and crisis,2020,article,678,True,borderline,1,core concept mentioned once,pending
+W2021625132,B7,landmarks,B7_landmarks,53,How social media transform migrant networks and facilitate migration,2013,article,679,True,borderline,1,core concept mentioned once | manual: social media and migrant networks,exclude
+W3033694598,B7,landmarks,B7_landmarks,54,A global outlook to the interruption of education due to COVID-19 pandemic: Navigating in a time of uncertainty and crisis,2020,article,678,True,borderline,1,core concept mentioned once | manual: COVID education disruption (duplicate),exclude
 W2776548695,B7,landmarks,B7_landmarks,55,Bowing before Dual Gods: How Structured Flexibility Sustains Organizational Hybridity,2017,article,652,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2146702897,B7,landmarks,B7_landmarks,56,The Internet and Knowledge Gaps,2002,article,650,True,borderline,1,core concept mentioned once,pending
+W2146702897,B7,landmarks,B7_landmarks,56,The Internet and Knowledge Gaps,2002,article,650,True,borderline,1,core concept mentioned once | manual: internet and knowledge gaps,include
 W3043638772,B7,landmarks,B7_landmarks,57,A Double Burden of Exclusion? Digital and Social Exclusion of Older Adults in Times of COVID-19,2020,article,644,True,include,2,rules,include
-W3136595486,B7,landmarks,B7_landmarks,58,Digital inclusion as a social determinant of health,2021,article,639,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3136595486,B7,landmarks,B7_landmarks,58,Digital inclusion as a social determinant of health,2021,article,639,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: digital inclusion as a social determinant of health,include
 W2122621515,B7,landmarks,B7_landmarks,59,Balancing opportunities and risks in teenagers’ use of the internet: the role of online skills and internet self-efficacy,2009,article,632,True,include,2,rules,include
-W3017705096,B7,landmarks,B7_landmarks,60,Impact of the digital divide in the age of COVID-19,2020,article,623,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3017705096,B7,landmarks,B7_landmarks,60,Impact of the digital divide in the age of COVID-19,2020,article,623,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: digital divide and telehealth in COVID-19,include
 W2022323093,B7,landmarks,B7_landmarks,61,"Overview of electronic waste (e-waste) management practices and legislations, and their poor applications in the developing countries",2008,article,619,False,exclude,0,core concept missing,exclude
 W2106454818,B7,landmarks,B7_landmarks,62,Digital Distinction: Status‐Specific Types of Internet Usage *,2009,article,618,True,include,3,rules,include
 W2801186751,B7,landmarks,B7_landmarks,63,From internet access to internet skills: digital inequality among older adults,2018,article,614,False,include,3,no abstract; core (and context) in title,include
@@ -7068,10 +7068,10 @@ W2140510106,B7,landmarks,B7_landmarks,66,"Comparing internet and mobile phone us
 W3185220037,B7,landmarks,B7_landmarks,67,Disparities in Health Care and the Digital Divide,2021,article,592,False,include,3,no abstract; core (and context) in title,include
 W2111210326,B7,landmarks,B7_landmarks,68,The digital divide: the special case of gender,2006,article,590,True,include,6,rules,include
 W2025747271,B7,landmarks,B7_landmarks,69,Conceptualizing and Testing a Social Cognitive Model of the Digital Divide,2010,article,586,True,include,6,rules,include
-W1487248717,B7,landmarks,B7_landmarks,70,Comment: The First and Second Digital Divides,2001,article,580,True,borderline,3,stub abstract (possible book review),pending
+W1487248717,B7,landmarks,B7_landmarks,70,Comment: The First and Second Digital Divides,2001,article,580,True,borderline,3,stub abstract (possible book review) | manual: first and second digital divides,include
 W2031236081,B7,landmarks,B7_landmarks,71,Reconceptualizing the Digital Divide,2002,article,561,True,include,4,rules,include
 W2911463972,B7,landmarks,B7_landmarks,72,Automated pastures and the digital divide: How agricultural technologies are shaping labour and rural communities,2019,article,554,True,include,3,rules,include
-W2528685687,B7,landmarks,B7_landmarks,73,Health Literacy and Health Information Technology Adoption: The Potential for a New Digital Divide,2016,article,551,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2528685687,B7,landmarks,B7_landmarks,73,Health Literacy and Health Information Technology Adoption: The Potential for a New Digital Divide,2016,article,551,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: health literacy and a new digital divide,include
 W1547594306,B7,landmarks,B7_landmarks,74,Marketing of High-Technology Products and Innovations,2001,article,551,True,include,2,rules,include
 W636061962,B7,landmarks,B7_landmarks,75,Virtual inequality: beyond the digital divide,2004,book-review,550,True,exclude,0,type book-review,exclude
 W1485293642,B7,landmarks,B7_landmarks,76,Beyond the Data Deluge,2009,article,528,True,exclude,1,"stub abstract, core not in title",exclude
@@ -7079,17 +7079,17 @@ W2099758956,B7,landmarks,B7_landmarks,77,Social Consequences of Internet Use,200
 W4301948712,B7,landmarks,B7_landmarks,78,"Digital Divide: Civic Engagement, Information Poverty, and the Internet Worldwide",2003,article,527,False,include,3,no abstract; core (and context) in title,include
 W2079278491,B7,landmarks,B7_landmarks,79,Addressing the digital divide,2001,article,526,True,include,6,rules,include
 W4254128747,B7,landmarks,B7_landmarks,80,Digital Citizenship,2007,book,520,True,include,3,rules,include
-W2608869440,B7,landmarks,B7_landmarks,81,Social Health Inequalities and eHealth: A Literature Review With Qualitative Synthesis of Theoretical and Empirical Studies,2017,article,518,True,borderline,1,core concept mentioned once,pending
-W2158500347,B7,landmarks,B7_landmarks,82,ONE-TO-ONE TECHNOLOGY-ENHANCED LEARNING: AN OPPORTUNITY FOR GLOBAL RESEARCH COLLABORATION,2006,article,515,True,borderline,1,core concept mentioned once,pending
+W2608869440,B7,landmarks,B7_landmarks,81,Social Health Inequalities and eHealth: A Literature Review With Qualitative Synthesis of Theoretical and Empirical Studies,2017,article,518,True,borderline,1,core concept mentioned once | manual: eHealth and social health inequalities (digital divide),include
+W2158500347,B7,landmarks,B7_landmarks,82,ONE-TO-ONE TECHNOLOGY-ENHANCED LEARNING: AN OPPORTUNITY FOR GLOBAL RESEARCH COLLABORATION,2006,article,515,True,borderline,1,core concept mentioned once | manual: one-to-one learning technology,exclude
 W2241803474,B7,landmarks,B7_landmarks,83,"Social Consequences of Internet Use: Access, Involvement, and Interaction",2002,article,510,True,include,6,rules,include
-W1598653619,B7,landmarks,B7_landmarks,84,INTERNET AND SOCIAL MOVEMENT ACTION REPERTOIRES,2010,article,508,True,borderline,1,core concept mentioned once,pending
+W1598653619,B7,landmarks,B7_landmarks,84,INTERNET AND SOCIAL MOVEMENT ACTION REPERTOIRES,2010,article,508,True,borderline,1,core concept mentioned once | manual: internet and social movement repertoires (B8),exclude
 W4250717880,B7,landmarks,B7_landmarks,85,Falling through the Net: Defining the Digital Divide,2001,book-chapter,500,False,include,3,no abstract; core (and context) in title,include
-W618851682,B7,landmarks,B7_landmarks,86,"Internet Politics: States, Citizens, and New Communication Technologies",2006,article,499,True,borderline,1,core concept mentioned once,pending
+W618851682,B7,landmarks,B7_landmarks,86,"Internet Politics: States, Citizens, and New Communication Technologies",2006,article,499,True,borderline,1,core concept mentioned once | manual: internet politics textbook,exclude
 W2601491144,B7,landmarks,B7_landmarks,87,The Datafication of Health,2017,review,498,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W61849110,B7,landmarks,B7_landmarks,88,Measuring the Gender Gap on the Internet 1,2000,article,494,True,include,3,rules,include
 W3172861707,B7,landmarks,B7_landmarks,89,The Digital Disconnect: The Social Causes and Consequences of Digital Inequalities,2021,book,493,True,include,6,rules,include
 W1995817465,B7,landmarks,B7_landmarks,90,E-government adoption: A cultural comparison,2008,article,492,False,exclude,0,core concept missing,exclude
-W2160780574,B7,landmarks,B7_landmarks,91,Collecting behavioural data using the world wide web: considerations for researchers,2002,article,492,True,borderline,1,core concept mentioned once,pending
+W2160780574,B7,landmarks,B7_landmarks,91,Collecting behavioural data using the world wide web: considerations for researchers,2002,article,492,True,borderline,1,core concept mentioned once | manual: web-based data collection,exclude
 W1633759731,B7,landmarks,B7_landmarks,92,Empowerment evaluation: From principles to practice,2003,dataset,491,True,exclude,0,type dataset,exclude
 W3120151967,B7,landmarks,B7_landmarks,93,Bridging Digital Divides: a Literature Review and Research Agenda for Information Systems Research,2021,article,490,False,include,3,no abstract; core (and context) in title,include
 W2125728730,B7,landmarks,B7_landmarks,94,From the ’Digital Divide’ to Digital Inequality: Studying Internet Use as Penetration Increases,2001,preprint,490,True,include,6,rules,include
@@ -7105,7 +7105,7 @@ W4414393509,B7,recent,B7_recent_q1,3,ON THE DIGITAL DIVIDE AND DIGITAL INEQUALIT
 W7154830856,B7,recent,B7_recent_q1,4,Digital Inequality And The Post-Pandemic Digital Divide,2026,article,0,True,include,6,rules,include
 W4283814558,B7,recent,B7_recent_q1,5,Digital Divide and Digital Inequality in Global Food Systems,2022,article,7,True,include,6,rules,include
 W4411936860,B7,recent,B7_recent_q1,6,Digital Inequality and Efforts to Bridge the Global Digital Divide,2024,conference-paper,2,True,include,6,rules,include
-W7110645558,B7,recent,B7_recent_q1,7,Digital Inequality and Social Media - Digital Divide: Profiling Luxembourg's Youth,2024,conference-abstract,0,True,borderline,3,stub abstract (possible book review),pending
+W7110645558,B7,recent,B7_recent_q1,7,Digital Inequality and Social Media - Digital Divide: Profiling Luxembourg's Youth,2024,conference-abstract,0,True,borderline,3,stub abstract (possible book review) | manual: digital inequality among Luxembourg's youth,include
 W7198691797,B7,recent,B7_recent_q1,8,The problem of digital inequality (digital divide) in modern ukrainian society,2025,article,0,False,include,3,no abstract; core (and context) in title,include
 W4410184392,B7,recent,B7_recent_q1,9,The Sustained Reproduction of the Urban-Rural Digital Divide and Digital Inequality,2025,book-chapter,0,True,include,6,rules,include
 W4412817010,B7,recent,B7_recent_q1,10,Social Class and Digital Divide: Analyzing Digital Inequalities on Census and Digital Behavioral Data,2025,article,1,True,include,6,rules,include
@@ -7119,7 +7119,7 @@ W4211158244,B7,recent,B7_recent_q1,17,Digital Divide in Tourism,2022,reference-e
 W4401514409,B7,recent,B7_recent_q1,18,Digital Inequality and Two Levels of the Digital Divide in Online Learning: A Mixed Methods Study of Underserved College Students,2024,article,30,True,include,6,rules,include
 W4391524131,B7,recent,B7_recent_q2,1,From Digital Exclusion to Digital Inclusion: How is the Dominican Republic Fostering a Digital Culture?,2023,book-chapter,2,False,include,3,no abstract; core (and context) in title,include
 W4293110950,B7,recent,B7_recent_q2,2,Digital Exclusion,2022,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
-W4389198636,B7,recent,B7_recent_q2,3,FROM DIGITAL EXCLUSION TO DIGITAL INCLUSION: FOSTERING PARENTAL SELF-EFFICACY FOR THEIR CHILDREN'S HOME-BASED DIGITAL LEARNING,2023,conference-paper,0,True,borderline,5,stub abstract (possible book review),pending
+W4389198636,B7,recent,B7_recent_q2,3,FROM DIGITAL EXCLUSION TO DIGITAL INCLUSION: FOSTERING PARENTAL SELF-EFFICACY FOR THEIR CHILDREN'S HOME-BASED DIGITAL LEARNING,2023,conference-paper,0,True,borderline,5,stub abstract (possible book review) | manual: digital exclusion to inclusion in home-based learning,include
 W7167673950,B7,recent,B7_recent_q2,4,Digital Exclusion,2026,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4206381635,B7,recent,B7_recent_q2,5,Geographies of Digital Exclusion,2022,book,46,False,include,3,no abstract; core (and context) in title,include
 W4415505336,B7,recent,B7_recent_q2,6,Digital Exclusion,2025,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
@@ -7130,10 +7130,10 @@ W4392519762,B7,recent,B7_recent_q2,10,From Digital Exclusion to Digital Inclusio
 W7137769173,B7,recent,B7_recent_q2,11,Digital Inclusion,2024,article,0,True,include,6,rules,include
 W4378906605,B7,recent,B7_recent_q2,12,Barriers to digital inclusion among older people: a intergenerational reflection on the need to develop digital competences for the group with the highest level of digital exclusion,2023,article,85,True,include,6,rules,include
 W4387521426,B7,recent,B7_recent_q2,13,Household green consumption: Does digital inclusion matter?,2023,article,212,False,include,3,no abstract; core (and context) in title,include
-W4393284758,B7,recent,B7_recent_q2,14,Digital Inclusion,2024,book,8,True,borderline,5,stub abstract (possible book review),pending
+W4393284758,B7,recent,B7_recent_q2,14,Digital Inclusion,2024,book,8,True,borderline,5,stub abstract (possible book review) | manual: digital inclusion (book),include
 W7132644994,B7,recent,B7_recent_q2,15,DIGITAL INCLUSION,2024,article,0,True,include,5,rules,include
 W7169759198,B7,recent,B7_recent_q2,16,Digital Inclusion,2026,book-chapter,0,True,include,3,rules,include
-W4394883318,B7,recent,B7_recent_q2,17,Digital inclusion,2023,book-chapter,0,True,borderline,3,stub abstract (possible book review),pending
+W4394883318,B7,recent,B7_recent_q2,17,Digital inclusion,2023,book-chapter,0,True,borderline,3,stub abstract (possible book review) | manual: digital inclusion (encyclopedia entry),include
 W4392608003,B7,recent,B7_recent_q2,18,Digital Inclusion,2024,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W4387226831,B7,recent,B7_recent_q3,1,Digital Literacy and Inclusion,2023,book,4,False,include,3,no abstract; core (and context) in title,include
 W4387776733,B7,recent,B7_recent_q3,2,Digital inclusion for social inclusion. Case study on digital literacy,2023,article,30,True,include,6,rules,include
@@ -7151,7 +7151,7 @@ W4416602353,B7,recent,B7_recent_q3,13,Digital Literacy and Inclusion: Promoting 
 W4413897068,B7,recent,B7_recent_q3,14,"The Uneven Web: Digital Literacy, Access, and Exclusion in Marginalized India",2025,article,0,True,include,6,rules,include
 W7128128937,B7,recent,B7_recent_q3,15,Digital literacy and digital inclusion: reading the digital world,2025,book-chapter,0,True,include,5,rules,include
 W7155696515,B7,recent,B7_recent_q3,16,Digital Literacy as a Tool for Enhancing Financial Inclusion,2026,article,0,True,include,6,rules,include
-W4412563789,B7,recent,B7_recent_q3,17,Digital literacy and digital inequality: new challenges and formation factors,2025,article,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4412563789,B7,recent,B7_recent_q3,17,Digital literacy and digital inequality: new challenges and formation factors,2025,article,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: digital literacy and digital inequality among youth,include
 W4361275066,B7,recent,B7_recent_q3,18,"On the triple exclusion of older adults during COVID-19: Technology, digital literacy and social isolation",2023,article,77,True,include,6,rules,include
 W4224135945,B7,recent,B7_recent_q4,1,Internet access and its role on educational inequality during the COVID-19 pandemic,2022,article,76,False,include,3,no abstract; core (and context) in title,include
 W4392148601,B7,recent,B7_recent_q4,2,Research on the Internet Access and Usage Gap in Rural Areas and Its Influencing Factors,2024,conference-paper,0,False,include,3,no abstract; core (and context) in title,include

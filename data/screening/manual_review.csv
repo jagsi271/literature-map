@@ -801,3 +801,32 @@ W4220882123,B6,exclude,"Claude (manual review, Stage 2)",digital-only banking ex
 W4414366822,B6,include,"Claude (manual review, Stage 2)",demonetisation and digital payments
 W4405421045,B6,include,"Claude (manual review, Stage 2)",digital payments in Jharkhand after demonetisation
 W7220321977,B6,include,"Claude (manual review, Stage 2)","fintech, mobile banking and financial inclusion"
+W7118822637,B7,exclude,"Claude (manual review, Stage 2)",gender and financial inclusion (B6)
+W1529541629,B7,include,"Claude (manual review, Stage 2)",private provision of internet access in rural India
+W2998442549,B7,exclude,"Claude (manual review, Stage 2)",ICT in rural schools; internet access in passing
+W4365512576,B7,exclude,"Claude (manual review, Stage 2)",ChatGPT review
+W3153389987,B7,include,"Claude (manual review, Stage 2)",participatory culture and the participation gap (digital divide)
+W1873175055,B7,include,"Claude (manual review, Stage 2)",the deepening divide (van Dijk)
+W2106103812,B7,include,"Claude (manual review, Stage 2)",digital inequality in social network site use
+W2805112548,B7,exclude,"Claude (manual review, Stage 2)",online learning in medical education
+W2143062300,B7,include,"Claude (manual review, Stage 2)",eHealth use and the digital divide (flag false positive)
+W4287762607,B7,exclude,"Claude (manual review, Stage 2)",COVID education disruption
+W7025306870,B7,include,"Claude (manual review, Stage 2)",digital inequality and continued use
+W2193121729,B7,exclude,"Claude (manual review, Stage 2)",big data for development (B2)
+W2021625132,B7,exclude,"Claude (manual review, Stage 2)",social media and migrant networks
+W3033694598,B7,exclude,"Claude (manual review, Stage 2)",COVID education disruption (duplicate)
+W2146702897,B7,include,"Claude (manual review, Stage 2)",internet and knowledge gaps
+W3136595486,B7,include,"Claude (manual review, Stage 2)",digital inclusion as a social determinant of health
+W3017705096,B7,include,"Claude (manual review, Stage 2)",digital divide and telehealth in COVID-19
+W1487248717,B7,include,"Claude (manual review, Stage 2)",first and second digital divides
+W2528685687,B7,include,"Claude (manual review, Stage 2)",health literacy and a new digital divide
+W2608869440,B7,include,"Claude (manual review, Stage 2)",eHealth and social health inequalities (digital divide)
+W2158500347,B7,exclude,"Claude (manual review, Stage 2)",one-to-one learning technology
+W1598653619,B7,exclude,"Claude (manual review, Stage 2)",internet and social movement repertoires (B8)
+W618851682,B7,exclude,"Claude (manual review, Stage 2)",internet politics textbook
+W2160780574,B7,exclude,"Claude (manual review, Stage 2)",web-based data collection
+W7110645558,B7,include,"Claude (manual review, Stage 2)",digital inequality among Luxembourg's youth
+W4389198636,B7,include,"Claude (manual review, Stage 2)",digital exclusion to inclusion in home-based learning
+W4393284758,B7,include,"Claude (manual review, Stage 2)",digital inclusion (book)
+W4394883318,B7,include,"Claude (manual review, Stage 2)",digital inclusion (encyclopedia entry)
+W4412563789,B7,include,"Claude (manual review, Stage 2)",digital literacy and digital inequality among youth
