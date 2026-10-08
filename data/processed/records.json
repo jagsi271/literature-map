@@ -164851,6 +164851,41 @@
  },
  {
   "ID": "LM04711",
+  "Title": "Blurring Boundaries? Linking Technology Use, Spillover, Individual Distress, and Family Satisfaction",
+  "Year": 2005,
+  "Authors": "Noelle Chesley",
+  "Venue": "Journal of Marriage and the Family",
+  "Document type": "article",
+  "DOI": "10.1111/j.1741-3737.2005.00213.x",
+  "OpenAlex ID": "W1993275348",
+  "Link": "https://doi.org/10.1111/j.1741-3737.2005.00213.x",
+  "Open-access link": "",
+  "Cited-by count": 513,
+  "Domain": "B",
+  "Primary theme": "B13",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "quantitative",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: This study analyzes longitudinal data (N =1,367) from the Cornell Couples and Careers Study to assess whether increases in spillover explain changes in distress and family satisfaction associated with technology use.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B13:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 30.1578
+ },
+ {
+  "ID": "LM04712",
   "Title": "UniMiB SHAR: A Dataset for Human Activity Recognition Using Acceleration Data from Smartphones",
   "Year": 2017,
   "Authors": "Daniela Micucci; Marco Mobilio; Paolo Napoletano",
@@ -164885,7 +164920,7 @@
   "FWCI": 10.0651
  },
  {
-  "ID": "LM04712",
+  "ID": "LM04713",
   "Title": "Realizing the potential of digital development: The case of agricultural advice",
   "Year": 2019,
   "Authors": "Raissa Fabregas; Michael R. Kremer; Frank Schilbach",
@@ -164920,7 +164955,7 @@
   "FWCI": 61.6015
  },
  {
-  "ID": "LM04713",
+  "ID": "LM04714",
   "Title": "Staying connected while on the move",
   "Year": 2006,
   "Authors": "Ran Wei; Ven‐hwei Lo",
@@ -164955,7 +164990,7 @@
   "FWCI": 20.4047
  },
  {
-  "ID": "LM04714",
+  "ID": "LM04715",
   "Title": "ContextPhone: A Prototyping Platform for Context-Aware Mobile Applications",
   "Year": 2005,
   "Authors": "Mika Raento; Antti Oulasvirta; R. Petit; Hannu T. T. Toivonen",
@@ -164990,7 +165025,7 @@
   "FWCI": 52.2554
  },
  {
-  "ID": "LM04715",
+  "ID": "LM04716",
   "Title": "Mobile banking and economic development: linking adoption, impact, and use",
   "Year": 2008,
   "Authors": "Jonathan Donner; Camilo Tellez",
@@ -165025,7 +165060,7 @@
   "FWCI": 32.0474
  },
  {
-  "ID": "LM04716",
+  "ID": "LM04717",
   "Title": "Analysis of users and non-users of smartphone applications",
   "Year": 2009,
   "Authors": "Hannu Verkasalo; Carolina López‐Nicolás; Francisco‐Jose Molina‐Castillo; Harry Bouwman",
@@ -165060,7 +165095,7 @@
   "FWCI": 44.0246
  },
  {
-  "ID": "LM04717",
+  "ID": "LM04718",
   "Title": "Cell Phone Culture: Mobile Technology in Everyday Life",
   "Year": 2006,
   "Authors": "Gerard Michael Goggin",
@@ -165095,7 +165130,7 @@
   "FWCI": 25.5059
  },
  {
-  "ID": "LM04718",
+  "ID": "LM04719",
   "Title": "Associations between problematic mobile phone use and psychological parameters in young adults",
   "Year": 2011,
   "Authors": "Christoph Augner; Gerhard W. Hacker",
@@ -165130,7 +165165,7 @@
   "FWCI": 26.7929
  },
  {
-  "ID": "LM04719",
+  "ID": "LM04720",
   "Title": "Adoption of the mobile Internet: An empirical study of multimedia message service (MMS)",
   "Year": 2006,
   "Authors": "Chin‐Lung Hsu; Hsi‐Peng Lu; Huei-Hsia Hsu",
@@ -165165,7 +165200,7 @@
   "FWCI": 30.6438
  },
  {
-  "ID": "LM04720",
+  "ID": "LM04721",
   "Title": "NoiseTube: Measuring and mapping noise pollution with mobile phones",
   "Year": 2009,
   "Authors": "Nicolas Maisonneuve; Matthias Stevens; Maria E. Niessen; Luc Steels",
@@ -165200,7 +165235,7 @@
   "FWCI": 44.9962
  },
  {
-  "ID": "LM04721",
+  "ID": "LM04722",
   "Title": "BeWell: A Smartphone Application to Monitor, Model and Promote Wellbeing",
   "Year": 2011,
   "Authors": "Nicholas D. Lane; Mashfiqui Mohammod; Mu Lin; Xiaochao Yang; Hong Lu; Shahid Muhammad Ali; Afsaneh Doryab; Ethan M. Berke; Tanzeem Choudhury; Andrew Thomas Campbell",
@@ -165235,7 +165270,7 @@
   "FWCI": 166.8367
  },
  {
-  "ID": "LM04722",
+  "ID": "LM04723",
   "Title": "ICT4D research: reflections on history and future agenda",
   "Year": 2017,
   "Authors": "Geoff Walsham",
@@ -165270,7 +165305,7 @@
   "FWCI": 67.2408
  },
  {
-  "ID": "LM04723",
+  "ID": "LM04724",
   "Title": "Determinants of continuance intention to use the smartphone banking services",
   "Year": 2016,
   "Authors": "Aries Susanto; Younghoon Chang; Youngwook Ha",
@@ -165305,7 +165340,7 @@
   "FWCI": 30.9766
  },
  {
-  "ID": "LM04724",
+  "ID": "LM04725",
   "Title": "Mining large-scale smartphone data for personality studies",
   "Year": 2011,
   "Authors": "Gokul Chittaranjan; Jan Blom; Daniel Gática-Pérez",
@@ -165340,7 +165375,42 @@
   "FWCI": 42.2676
  },
  {
-  "ID": "LM04725",
+  "ID": "LM04726",
+  "Title": "Mobile Communication and Society",
+  "Year": 2006,
+  "Authors": "Manuel Castells; Mireia Fernández-Ardèvol; Jack Linchuan Qiu; Araba Sey",
+  "Venue": "The MIT Press eBooks",
+  "Document type": "book",
+  "DOI": "10.7551/mitpress/4692.001.0001",
+  "OpenAlex ID": "W2741096981",
+  "Link": "https://doi.org/10.7551/mitpress/4692.001.0001",
+  "Open-access link": "",
+  "Cited-by count": 388,
+  "Domain": "B",
+  "Primary theme": "B13",
+  "Secondary theme": "",
+  "Places studied": "Africa; China; Europe; Latin America; United States",
+  "Region": "Multi-region",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "unclear",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: How wireless technology is redefining the relationship of communication, technology, and society around the world—in everyday work and life, in youth culture, in politics, and in the developing world.Wireless networks are the fastest growing communications technology in history.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B13:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 35.1743
+ },
+ {
+  "ID": "LM04727",
   "Title": "The Cell Phone",
   "Year": 2020,
   "Authors": "Heather A. Horst; Daniel J. Miller",
@@ -165375,7 +165445,7 @@
   "FWCI": 6.4318
  },
  {
-  "ID": "LM04726",
+  "ID": "LM04728",
   "Title": "Adapting to the mobile world: A model of smartphone use",
   "Year": 2014,
   "Authors": "Dan Wang; Zheng Xiang; Daniel R. Fesenmaier",
@@ -165410,7 +165480,7 @@
   "FWCI": 106.2057
  },
  {
-  "ID": "LM04727",
+  "ID": "LM04729",
   "Title": "Digital Privacy Challenges with Shared Mobile Phone Use in Bangladesh",
   "Year": 2017,
   "Authors": "Syed Ishtiaque Ahmed; Md Romael Haque; Jay Chen; Nicola Lee Dell",
@@ -165445,7 +165515,7 @@
   "FWCI": 20.9028
  },
  {
-  "ID": "LM04728",
+  "ID": "LM04730",
   "Title": "The human infrastructure of ICTD",
   "Year": 2010,
   "Authors": "Nithya Sambasivan; Thomas N. Smyth",
@@ -165480,7 +165550,7 @@
   "FWCI": 0.4496
  },
  {
-  "ID": "LM04729",
+  "ID": "LM04731",
   "Title": "Role of Mobile Phone-enabled Climate Information Services in Gender-inclusive Agriculture",
   "Year": 2016,
   "Authors": "Surabhi Mittal",
@@ -165515,7 +165585,7 @@
   "FWCI": 13.4539
  },
  {
-  "ID": "LM04730",
+  "ID": "LM04732",
   "Title": "Using mobile phones to promote lifelong learning among rural women in Southern India",
   "Year": 2010,
   "Authors": "K. Balasubramanian; Perumal Thamizoli; Abdurrahman Umar; Asha Singh Kanwar",
@@ -165550,7 +165620,7 @@
   "FWCI": 15.293
  },
  {
-  "ID": "LM04731",
+  "ID": "LM04733",
   "Title": "Freedom within a cage: how patriarchal gender norms limit women’s use of mobile phones in rural central India",
   "Year": 2021,
   "Authors": "Kerry Scott; Aashaka Shinde; Osama Ummer; Shalini Yadav; Manjula D. Sharma; Nikita Purty; Anushree Jairath; Sara Chamberlain; Amnesty Elizabeth LeFevre",
@@ -165585,7 +165655,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04732",
+  "ID": "LM04734",
   "Title": "Mobile Internet Technology Adoption for Sustainable Agriculture: Evidence from Wheat Farmers",
   "Year": 2022,
   "Authors": "Nawab Khan; Ram L. Ray; Hazem S. Kassem; Shemei Zhang",
@@ -165620,7 +165690,7 @@
   "FWCI": 22.8744
  },
  {
-  "ID": "LM04733",
+  "ID": "LM04735",
   "Title": "The mobile internet in the wild and every day: Digital leisure in the slums of urban India",
   "Year": 2015,
   "Authors": "Nimmi Rangaswamy; Payal Arora",
@@ -165655,7 +165725,7 @@
   "FWCI": 12.6834
  },
  {
-  "ID": "LM04734",
+  "ID": "LM04736",
   "Title": "Should we still be doing ICT4D research?",
   "Year": 2022,
   "Authors": "Silvia Masiero",
@@ -165690,7 +165760,7 @@
   "FWCI": 7.7341
  },
  {
-  "ID": "LM04735",
+  "ID": "LM04737",
   "Title": "The PC in an Indian urban slum: enterprise and entrepreneurship in ICT4D 2.0",
   "Year": 2012,
   "Authors": "Nimmi Rangaswamy; Sumitra Nair",
@@ -165725,7 +165795,7 @@
   "FWCI": 7.881
  },
  {
-  "ID": "LM04736",
+  "ID": "LM04738",
   "Title": "Does the Adoption of Mobile Internet Technology Promote Wheat Productivity? Evidence from Rural Farmers",
   "Year": 2022,
   "Authors": "Nawab Khan; Ram L. Ray; Hazem S. Kassem; Farhat Ullah Khan; Muhammad Ihtisham; Shemei Zhang",
@@ -165760,7 +165830,7 @@
   "FWCI": 10.6558
  },
  {
-  "ID": "LM04737",
+  "ID": "LM04739",
   "Title": "Inequalities creating economic barriers to owning mobile phones in India",
   "Year": 2015,
   "Authors": "Devendra Dilip Potnis",
@@ -165795,7 +165865,7 @@
   "FWCI": 4.5298
  },
  {
-  "ID": "LM04738",
+  "ID": "LM04740",
   "Title": "Understanding Technology as Situated Practice: Everyday use of Voice User Interfaces Among Diverse Groups of Users in Urban India",
   "Year": 2020,
   "Authors": "Linus Kendall; Bidisha Chaudhuri; Apoorva Bhalla",
@@ -165830,7 +165900,7 @@
   "FWCI": 3.6928
  },
  {
-  "ID": "LM04739",
+  "ID": "LM04741",
   "Title": "Narrowing the gender digital divide in Pakistan: Mobile phone ownership and female labor force participation",
   "Year": 2023,
   "Authors": "Hina Amber; Bezawit Beyene Chichaibelu",
@@ -165865,7 +165935,7 @@
   "FWCI": 4.0314
  },
  {
-  "ID": "LM04740",
+  "ID": "LM04742",
   "Title": "Communicating about users in ICTD",
   "Year": 2012,
   "Authors": "Cynthia Putnam; Beth E. Kolko; Siri Wood",
@@ -165900,7 +165970,7 @@
   "FWCI": 2.2512
  },
  {
-  "ID": "LM04741",
+  "ID": "LM04743",
   "Title": "Revisiting the fishers of Kerala, India",
   "Year": 2013,
   "Authors": "Janaki Srinivasan; Jenna Burrell",
@@ -165935,7 +166005,7 @@
   "FWCI": 2.4204
  },
  {
-  "ID": "LM04742",
+  "ID": "LM04744",
   "Title": "Public WiFi is for Men and Mobile Internet is for Women",
   "Year": 2018,
   "Authors": "Preeti Mudliar",
@@ -165970,7 +166040,7 @@
   "FWCI": 2.6869
  },
  {
-  "ID": "LM04743",
+  "ID": "LM04745",
   "Title": "Access to Mobile Phones and Women's Socio-Economic Empowerment in Rural Areas of Bangladesh: Understanding Gender Relation Transformation",
   "Year": 2021,
   "Authors": "Shamim Noor; Morshadul Hoque",
@@ -166005,7 +166075,7 @@
   "FWCI": 5.0769
  },
  {
-  "ID": "LM04744",
+  "ID": "LM04746",
   "Title": "Privacy Vulnerabilities in Public Digital Service Centers in Dhaka, Bangladesh",
   "Year": 2020,
   "Authors": "S M Taiabul Haque; Md Romael Haque; Swapnil Nandy; Priyank Chandra; Mahdi Nasrullah Al-Ameen; Shion Guha; Syed Ishtiaque Ahmed",
@@ -166040,7 +166110,42 @@
   "FWCI": 10.9076
  },
  {
-  "ID": "LM04745",
+  "ID": "LM04747",
+  "Title": "Demystifying the Possibilities of ICT4D in the Mountain Regions of Nepal",
+  "Year": 2011,
+  "Authors": "Devinder Thapa; Øystein Sæbø",
+  "Venue": "Proceedings of the ... Annual Hawaii International Conference on System Sciences/Proceedings of the Annual Hawaii International Conference on System Sciences",
+  "Document type": "conference-paper",
+  "DOI": "10.1109/hicss.2011.142",
+  "OpenAlex ID": "W2117853829",
+  "Link": "https://doi.org/10.1109/hicss.2011.142",
+  "Open-access link": "http://hdl.handle.net/11250/136256",
+  "Cited-by count": 24,
+  "Domain": "B",
+  "Primary theme": "B13",
+  "Secondary theme": "",
+  "Places studied": "Nepal",
+  "Region": "South Asia",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "qualitative",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: This paper focuses on an interpretive case study in Nepal to widen our understanding of how locally-initiated ICT4D projects may help to narrow these gaps.",
+  "Stated gaps": "auto: Inaccessibility to ICT has widened educational, healthcare, information, and communication gaps between urban and remote communities. | This paper focuses on an interpretive case study in Nepal to widen our understanding of how locally-initiated ICT4D projects may help to narrow these gaps.",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B13:india",
+  "Duplicates merged": "",
+  "FWCI": 1.9184
+ },
+ {
+  "ID": "LM04748",
   "Title": "Sustainable Development of Rural Communities in Bangladesh by Integrating Mobile Internet and Agent Banking Technology",
   "Year": 2016,
   "Authors": "Muhammad Hassan Bin Afzal",
@@ -166075,7 +166180,7 @@
   "FWCI": 4.4869
  },
  {
-  "ID": "LM04746",
+  "ID": "LM04749",
   "Title": "Smartphone‐based ear‐electroencephalography to study sound processing in everyday life",
   "Year": 2023,
   "Authors": "Daniel Hölle; Martin Georg Bleichner",
@@ -166110,7 +166215,7 @@
   "FWCI": 3.4905
  },
  {
-  "ID": "LM04747",
+  "ID": "LM04750",
   "Title": "The Employment Effects of Mobile Internet in Developing Countries",
   "Year": 2022,
   "Authors": "Gaurav Chiplunkar; Pinelopi Koujianou Goldberg",
@@ -166145,7 +166250,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04748",
+  "ID": "LM04751",
   "Title": "E for express1: “Seeing” the Indian State through ICTD",
   "Year": 2009,
   "Authors": "Renee Kuriyan; Isha Ray",
@@ -166180,7 +166285,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04749",
+  "ID": "LM04752",
   "Title": "Economic Analysis of Edge Caching Enabled Mobile Internet Ecosystem",
   "Year": 2024,
   "Authors": "Changkun Jiang; Lin Xia Gao; Fen Hou; Jianqiang Li",
@@ -166215,7 +166320,7 @@
   "FWCI": 2.5133
  },
  {
-  "ID": "LM04750",
+  "ID": "LM04753",
   "Title": "E for express 1 : “Seeing” the Indian State through ICTD",
   "Year": 2009,
   "Authors": "Renee Kuriyan; Isha Ray",
@@ -166250,7 +166355,7 @@
   "FWCI": 14.8254
  },
  {
-  "ID": "LM04751",
+  "ID": "LM04754",
   "Title": "Development of Text and Speech database for Hindi and Indian English specific to Mobile Communication environment",
   "Year": 2012,
   "Authors": "Shyam Sundar Agrawal; Shweta Sinha; Pooja Singh; Jesper Olson",
@@ -166285,7 +166390,7 @@
   "FWCI": 1.2301
  },
  {
-  "ID": "LM04752",
+  "ID": "LM04755",
   "Title": "DiversityOne: A Multi-Country Smartphone Sensor Dataset for Everyday Life Behavior Modeling",
   "Year": 2025,
   "Authors": "Matteo Busso; Andrea Bontempelli; Leonardo Javier Malcotti; Lakmal Meegahapola; Péter Kun; Shyam Diwakar; Chaitanya Sai Nutakki; Marcelo Dario Rodas Britez; Hao Xu; Donglei Song et al.",
@@ -166320,7 +166425,7 @@
   "FWCI": 4.7403
  },
  {
-  "ID": "LM04753",
+  "ID": "LM04756",
   "Title": "Implementing healthcare information in rural communities in Sri Lanka: a novel approach with mobile communication.",
   "Year": 2009,
   "Authors": "Indika Perera",
@@ -166355,7 +166460,7 @@
   "FWCI": 1.764
  },
  {
-  "ID": "LM04754",
+  "ID": "LM04757",
   "Title": "Minimum ethical standards for ICTD/ICT4D research",
   "Year": 2018,
   "Authors": "Andy Dearden; Dorothea Kleine",
@@ -166390,7 +166495,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04755",
+  "ID": "LM04758",
   "Title": "Mobile internet in the EU: problems and perspectives",
   "Year": 2022,
   "Authors": "Olga Lavrinenko; Svetlana Ignatjeva; Alina Betlej; Alina Danileviča; Vladimir Menshikov; Oleg Rybalkin",
@@ -166425,7 +166530,7 @@
   "FWCI": 0.7955
  },
  {
-  "ID": "LM04756",
+  "ID": "LM04759",
   "Title": "Mobile phones and rural women in South Asia and Africa: a systematic review",
   "Year": 2023,
   "Authors": "Tanusree Paul; Sudeshna Dutta",
@@ -166460,7 +166565,7 @@
   "FWCI": 0.411
  },
  {
-  "ID": "LM04757",
+  "ID": "LM04760",
   "Title": "Gender, Mobile, and Mobile Internet| Understanding the Darker Side of ICTs: Gender, Sexual Harassment, and Mobile Devices in Pakistan",
   "Year": 2018,
   "Authors": "Bushra Hassan; Tim Unwin; Akber Abid Gardezi",
@@ -166495,7 +166600,7 @@
   "FWCI": 0.5675
  },
  {
-  "ID": "LM04758",
+  "ID": "LM04761",
   "Title": "Exploring Influencing Factors towards Intention and Use of Mobile Internet for Youth Consumers in Bangladesh",
   "Year": 2017,
   "Authors": "Mohammad Majedul Islam",
@@ -166530,7 +166635,7 @@
   "FWCI": 2.2162
  },
  {
-  "ID": "LM04759",
+  "ID": "LM04762",
   "Title": "Adoption of Android smartphones and intention to pay for mobile internet: an empirical analysis of consumers in Pakistan",
   "Year": 2020,
   "Authors": "Wajeeha Aslam; Kashif Farhat; Laraib Ejaz; Imtiaz Arif",
@@ -166565,7 +166670,7 @@
   "FWCI": 1.5216
  },
  {
-  "ID": "LM04760",
+  "ID": "LM04763",
   "Title": "Mobile phones based agro-advisories role in gender empowerment",
   "Year": 2015,
   "Authors": "Surabhi Mittal; Mittal, Surabhi",
@@ -166600,7 +166705,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04761",
+  "ID": "LM04764",
   "Title": "Managing mobility: commuting domestic workers, mobile phones, and women’s ‘honour’ in Kolkata",
   "Year": 2021,
   "Authors": "Lauren E. Wilks",
@@ -166635,7 +166740,7 @@
   "FWCI": 0.9465
  },
  {
-  "ID": "LM04762",
+  "ID": "LM04765",
   "Title": "SummaryLens – A Smartphone App for Exploring Interactive Use of Automated Text Summarization in Everyday Life",
   "Year": 2022,
   "Authors": "Karim Benharrak; Florian Lehmann; Hai Dang; Daniel Buschek",
@@ -166670,7 +166775,7 @@
   "FWCI": 2.2532
  },
  {
-  "ID": "LM04763",
+  "ID": "LM04766",
   "Title": "Development of Intelligent Reflecting Surfaces for Mobile Communication Systems",
   "Year": 2022,
   "Authors": "Hiromi Matsuno; Takuya Ohto; Takahiro Hayashi",
@@ -166705,7 +166810,7 @@
   "FWCI": 2.0987
  },
  {
-  "ID": "LM04764",
+  "ID": "LM04767",
   "Title": "Daughters, devices and doorkeeping: how gender and class shape adolescent mobile phone access in Mumbai, India",
   "Year": 2022,
   "Authors": "Isha Bhallamudi",
@@ -166740,7 +166845,7 @@
   "FWCI": 1.4149
  },
  {
-  "ID": "LM04765",
+  "ID": "LM04768",
   "Title": "The willingness for using mobile phone for health education among women caregivers of under 5 children in an urban resettlement colony in Delhi, India",
   "Year": 2017,
   "Authors": "Saurav Basu; Suneela Garg; Rajesh Kumar; Anshul Shukla",
@@ -166775,7 +166880,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04766",
+  "ID": "LM04769",
   "Title": "Brighter Time: A Smartphone App Recording Cognitive Task Performance and Illuminance in Everyday Life",
   "Year": 2022,
   "Authors": "Marina Gardasevic; Altuğ Didikoğlu; Samuel Lawrence; Céline Vetter; Timothy Matthew Brown; Annette Elisabeth Allen; Robert James Lucas",
@@ -166810,7 +166915,7 @@
   "FWCI": 0.8855
  },
  {
-  "ID": "LM04767",
+  "ID": "LM04770",
   "Title": "Predicting food craving in everyday life through smartphone-derived sensor and usage data",
   "Year": 2023,
   "Authors": "Thomas Schneidergruber; Jens Blechert; Samuel Arzt; Björn Pannicke; Julia Reichenberger; Ann‐Kathrin Arend; Simon Ginzinger",
@@ -166845,7 +166950,7 @@
   "FWCI": 1.2018
  },
  {
-  "ID": "LM04768",
+  "ID": "LM04771",
   "Title": "Smartphone-based ear-EEG to study sound processing in everyday life",
   "Year": 2023,
   "Authors": "Daniel Hölle; Martin Georg Bleichner",
@@ -166880,7 +166985,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04769",
+  "ID": "LM04772",
   "Title": "Digital revolution and the gender divide: factors affecting mobile phone use in India",
   "Year": 2024,
   "Authors": "Lina Sonne",
@@ -166915,7 +167020,7 @@
   "FWCI": 1.676
  },
  {
-  "ID": "LM04770",
+  "ID": "LM04773",
   "Title": "Geographic Diversification of ICTD Research",
   "Year": 2016,
   "Authors": "Tsuyoshi Kano; Kentaro Toyama",
@@ -166950,7 +167055,7 @@
   "FWCI": 3.0029
  },
  {
-  "ID": "LM04771",
+  "ID": "LM04774",
   "Title": "Mobile Phone Intimacies and Moral Panics in India",
   "Year": 2010,
   "Authors": "Gopalan Ravindran",
@@ -166985,7 +167090,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04772",
+  "ID": "LM04775",
   "Title": "Gendered Technologies: Youth, Gender and Mobile Phones in Chennai City",
   "Year": 2021,
   "Authors": "Vijay Devadas",
@@ -167020,7 +167125,7 @@
   "FWCI": 0.7013
  },
  {
-  "ID": "LM04773",
+  "ID": "LM04776",
   "Title": "Mobile Internet and Income Improvement: Evidence from Viet Nam",
   "Year": 2025,
   "Authors": "Trang Thi Pham",
@@ -167055,7 +167160,7 @@
   "FWCI": 1.399
  },
  {
-  "ID": "LM04774",
+  "ID": "LM04777",
   "Title": "Activism via Social Networking: A case study of Urban Indian Women Facebook Users",
   "Year": 2014,
   "Authors": "Paula Ray",
@@ -167090,7 +167195,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04775",
+  "ID": "LM04778",
   "Title": "Gender & Mobile Internet| Understanding the darker side of ICTs: gender, harassment and mobile technologies in Pakistan",
   "Year": 2017,
   "Authors": "Tim Unwin; Bushra Hassan; Akber Abid Gardezi",
@@ -167125,7 +167230,7 @@
   "FWCI": 2.0903
  },
  {
-  "ID": "LM04776",
+  "ID": "LM04779",
   "Title": "Consumers’ Intention to Use Mobile Internet Services: A Sri Lankan Study",
   "Year": 2019,
   "Authors": "Sabraz Nawaz Samsudeen; Gunapalan Selvaratnam",
@@ -167160,7 +167265,7 @@
   "FWCI": 0.5751
  },
  {
-  "ID": "LM04777",
+  "ID": "LM04780",
   "Title": "REGIONAL DEVELOPMENT OF KYIVSTAR MOBILE COMMUNICATION NETWORK IN WESTERN UKRAINE",
   "Year": 2022,
   "Authors": "Serhii Puhach; Volodymyr Lazhnik; Yuriy Kandyba",
@@ -167195,7 +167300,7 @@
   "FWCI": 0.1989
  },
  {
-  "ID": "LM04778",
+  "ID": "LM04781",
   "Title": "Everyday engagement with mobile phones in an urban slum in Delhi",
   "Year": 2023,
   "Authors": "Simranjeet Kaur; Sunita Singh",
@@ -167230,7 +167335,7 @@
   "FWCI": 0.5163
  },
  {
-  "ID": "LM04779",
+  "ID": "LM04782",
   "Title": "Evidence and Gap on Mobile Internet Usage in Sub-Saharan Africa and South Asia",
   "Year": 2025,
   "Authors": "Jonathan Muringani; Josef Noll; Catherine Kimambo; Wisam A. Mansour; Caitlin Blaser Mapitsa; Jamie Roberson; James Mugi Karanja; Ruth Orbach",
@@ -167265,7 +167370,42 @@
   "FWCI": 3.941
  },
  {
-  "ID": "LM04780",
+  "ID": "LM04783",
+  "Title": "Usage of mobile communication for sustainable agricultural development in Karnataka, India",
+  "Year": 2015,
+  "Authors": "Onkargouda Kakade; Tahmeena Nigar Sultana Kolar",
+  "Venue": "MyPrints@UOM (Mysore University Library)",
+  "Document type": "article",
+  "DOI": "",
+  "OpenAlex ID": "W26321722",
+  "Link": "http://eprints.uni-mysore.ac.in/15732/1/4-volume2issue3kakadefinal1.pdf",
+  "Open-access link": "http://eprints.uni-mysore.ac.in/15732/1/4-volume2issue3kakadefinal1.pdf",
+  "Cited-by count": 2,
+  "Domain": "B",
+  "Primary theme": "B13",
+  "Secondary theme": "",
+  "Places studied": "India; Karnataka",
+  "Region": "South Asia",
+  "India flag": "Y",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "mixed",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: This paper is based on the research study which examined the possibilities and the potential of mobile communication, its style of functioning, services, language and need of farmers, with the help of a structured interview schedule.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "Y",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B13:india",
+  "Duplicates merged": "",
+  "FWCI": 0.0
+ },
+ {
+  "ID": "LM04784",
   "Title": "Education for All in Sri Lanka : ICT4D Hubs for Region-Wide Dissemination of Blended Learning",
   "Year": 2014,
   "Authors": "Peter Mozelius",
@@ -167300,7 +167440,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04781",
+  "ID": "LM04785",
   "Title": "The Impact of Mobile Phones on Peoples‟ Lives in Sri Lanka",
   "Year": 2012,
   "Authors": "H. P. T. N. Silva",
@@ -167335,7 +167475,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04782",
+  "ID": "LM04786",
   "Title": "Mobile phones, nutrition and health in Tanzania: Initial exploratory qualitative study report. External evaluation of mobile phone technology-based nutrition and agriculture advisory services in Africa and South Asia",
   "Year": 2017,
   "Authors": "Inka Barnett; Stephanie Brockerhoff; Deogardius Medardi; Jess Gordon; Shilpi Srivastava",
@@ -167370,7 +167510,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04783",
+  "ID": "LM04787",
   "Title": "ICT4D Experiences from Kerala, India",
   "Year": 2005,
   "Authors": "Babu Ambat",
@@ -167405,7 +167545,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04784",
+  "ID": "LM04788",
   "Title": "The Development of Mobile Communication System and Human Health Risks",
   "Year": 2022,
   "Authors": "Nina B. Rubtsova; Sergey Yu. Perov; Оlga V. Belaya",
@@ -167440,7 +167580,7 @@
   "FWCI": 0.1025
  },
  {
-  "ID": "LM04785",
+  "ID": "LM04789",
   "Title": "First Time-Users of the Mobile Internet in the Global South",
   "Year": 2022,
   "Authors": "Jeffrey D. James",
@@ -167475,7 +167615,42 @@
   "FWCI": 0.6706
  },
  {
-  "ID": "LM04786",
+  "ID": "LM04790",
+  "Title": "Lost in Afghanistan: Can the World Take ICT4D Seriously?",
+  "Year": 2023,
+  "Authors": "Tariq Zaman",
+  "Venue": "Communications of the ACM",
+  "Document type": "article",
+  "DOI": "10.1145/3574156",
+  "OpenAlex ID": "W4381612102",
+  "Link": "https://doi.org/10.1145/3574156",
+  "Open-access link": "https://dl.acm.org/doi/pdf/10.1145/3574156",
+  "Cited-by count": 1,
+  "Domain": "B",
+  "Primary theme": "B13",
+  "Secondary theme": "",
+  "Places studied": "Afghanistan",
+  "Region": "South Asia",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "unclear",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: Seeking to maximize the value of information and communication technologies for development research.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B13:india",
+  "Duplicates merged": "",
+  "FWCI": 0.2581
+ },
+ {
+  "ID": "LM04791",
   "Title": "Exploring the Use of Mobile Communication in Achieving Sustainable Development Goals: An Indian Perspective",
   "Year": 2024,
   "Authors": "Govind Ji Pandey; Sanchita Mehrotra",
@@ -167510,7 +167685,7 @@
   "FWCI": 0.7532
  },
  {
-  "ID": "LM04787",
+  "ID": "LM04792",
   "Title": "Mobile Internet Connectivity and Household Wealth in the Philippines",
   "Year": 2025,
   "Authors": "Zhiwu Wei; Neil Lee; Yohan Iddawela",
@@ -167545,7 +167720,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04788",
+  "ID": "LM04793",
   "Title": "From “female farming” to “female labor”: how mobile internet use drives non-agricultural employment among rural women in China",
   "Year": 2026,
   "Authors": "Qingjun Zhao; Rongrong Shi",
@@ -167580,7 +167755,7 @@
   "FWCI": 3.8105
  },
  {
-  "ID": "LM04789",
+  "ID": "LM04794",
   "Title": "India Posts Putting Its Best Leg Forward: A Case On ICT4D",
   "Year": 2018,
   "Authors": "Parvathi Jayaprakash; Radhakrishna G. Pillai",
@@ -167615,7 +167790,7 @@
   "FWCI": 0.4126
  },
  {
-  "ID": "LM04790",
+  "ID": "LM04795",
   "Title": "ICT4D and Sustainability",
   "Year": 2024,
   "Authors": "Mario Alphonso Marais",
@@ -167650,7 +167825,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04791",
+  "ID": "LM04796",
   "Title": "The Indian neighbourhood user and designing for mobile internet",
   "Year": 2008,
   "Authors": "Karthikeya Satish Acharya",
@@ -167685,7 +167860,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04792",
+  "ID": "LM04797",
   "Title": "ICT4D and Empowerment: Uneven Development in Rural South India",
   "Year": 2016,
   "Authors": "Rakhee Chatbar",
@@ -167720,7 +167895,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04793",
+  "ID": "LM04798",
   "Title": "ICT4D",
   "Year": 2015,
   "Authors": "James T. Murphy; Pádraig Carmody",
@@ -167755,7 +167930,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04794",
+  "ID": "LM04799",
   "Title": "GIRLS, GADGETS AND GATEKEEPERS: HOW GENDER AND CLASS ASPIRATIONS SHAPE ADOLESCENT ACCESS TO MOBILE PHONES IN MUMBAI, INDIA",
   "Year": 2021,
   "Authors": "Isha Bhallamudi",
@@ -167790,7 +167965,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04795",
+  "ID": "LM04800",
   "Title": "Marketing Strategy Innovation Based on Mobile Internet Technology",
   "Year": 2022,
   "Authors": "Lin Shan",
@@ -167825,7 +168000,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04796",
+  "ID": "LM04801",
   "Title": "Impact of Online Advertising on Daily Users of Mobile Internet Towards Malaysia",
   "Year": 2022,
   "Authors": "Neel Wasantha; W.C. Dombepola; F.A. Ibrahim; Raja Gopal",
@@ -167860,7 +168035,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04797",
+  "ID": "LM04802",
   "Title": "Construction of refined operation management system of power users' points for mobile internet applications",
   "Year": 2023,
   "Authors": "Fei Lou; Ying Jiang; Yichi Zhang; Qirui Chen; Yuling Chen",
@@ -167895,7 +168070,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04798",
+  "ID": "LM04803",
   "Title": "Influence of spatial factors on the diffusion of mobile internet in rural areas",
   "Year": 2023,
   "Authors": "Dmitry Hvaley",
@@ -167930,7 +168105,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04799",
+  "ID": "LM04804",
   "Title": "Rethinking ICT4D",
   "Year": 2023,
   "Authors": "Jenny C. Aker; Joël Cariolle",
@@ -167965,7 +168140,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04800",
+  "ID": "LM04805",
   "Title": "Analysis of the Development Status of Mobile Communication Engineering Management",
   "Year": 2024,
   "Authors": "Tong Zhang; Wu Hao; Xin Chen",
@@ -168000,7 +168175,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04801",
+  "ID": "LM04806",
   "Title": "Women's Economic Empowerment Through Access to Mobile Internet",
   "Year": 2024,
   "Authors": "Safae Aïssaoui; Samira Oukarfi",
@@ -168035,7 +168210,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04802",
+  "ID": "LM04807",
   "Title": "10.19088/ICTD.2024.072",
   "Year": 2024,
   "Authors": "Tizgowere Msiska; Masauko Thawe",
@@ -168070,7 +168245,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04803",
+  "ID": "LM04808",
   "Title": "ICT4D",
   "Year": 2024,
   "Authors": "Alexander Gonzalez Flor",
@@ -168105,7 +168280,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04804",
+  "ID": "LM04809",
   "Title": "FORMATION AND DEVELOPMENT OF MOBILE COMMUNICATION TERMINOLOGY",
   "Year": 2025,
   "Authors": "Ezoza Arzimurodova",
@@ -168140,7 +168315,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04805",
+  "ID": "LM04810",
   "Title": "Mobile internet diffusion and development impacts",
   "Year": 2025,
   "Authors": "Thi Trang Pham",
@@ -168175,7 +168350,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04806",
+  "ID": "LM04811",
   "Title": "Epistemological Development of Mobile Communication Research",
   "Year": 2025,
   "Authors": "Rich Ling",
@@ -168210,7 +168385,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04807",
+  "ID": "LM04812",
   "Title": "Delay-Tolerant Mobile Internet Services in Rural and Remote Areas",
   "Year": 2025,
   "Authors": "Dr.B.M. Rajesh; Dr.A. Aqeel; Zaed Balasm; Vella Satyanarayana; P. Kalaimathi; K. Raguvaran",
@@ -168245,7 +168420,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04808",
+  "ID": "LM04813",
   "Title": "The Mobile Phone in Everyday Life",
   "Year": 2026,
   "Authors": "Hannah Rippin",
@@ -168280,7 +168455,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04809",
+  "ID": "LM04814",
   "Title": "The Everyday Life of Media Fans",
   "Year": 2026,
   "Authors": "Welmoed Fenna Wagenaar",
@@ -168315,7 +168490,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04810",
+  "ID": "LM04815",
   "Title": "Free Paper Abstracts – ICTD 2026",
   "Year": 2026,
   "Authors": "Janaka Akarawita; Indira Kahawita",
@@ -168350,7 +168525,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04811",
+  "ID": "LM04816",
   "Title": "E-Poster Abstracts – ICTD 2026",
   "Year": 2026,
   "Authors": "Janaka Akarawita; Indira Kahawita",
@@ -168385,7 +168560,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04812",
+  "ID": "LM04817",
   "Title": "Topics from Tropics: Proceedings of the Second International Conference on Tropical Dermatology (ICTD 2026), Colombo, Sri Lanka, 11–14 March 2026",
   "Year": 2026,
   "Authors": "Nayani Madarasingha; Nuwangika Marcellin",
@@ -168420,7 +168595,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04813",
+  "ID": "LM04818",
   "Title": "Beyond Screen Time: Inferring Everyday Life Context from Diverse Smartphone Data",
   "Year": 2026,
   "Authors": "Gujun Chen; Xiaomin Yang; Yutong Han; Shuning Zhang; Yan Kong; Dafei Yin; Hu Sun; Xin Yi; Hewu Li",
@@ -168455,7 +168630,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04814",
+  "ID": "LM04819",
   "Title": "Evaluating user satisfaction through service innovation in the mobile internet industry of Bangladesh",
   "Year": 2026,
   "Authors": "Md. Abdul Kader; Abul Hasan M. Sadeq; Md Zakir Hossain; Muktasha Deena Chowdhury; Hanif Hossain",
@@ -168490,7 +168665,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04815",
+  "ID": "LM04820",
   "Title": "Analysis of Internet Users' Connection Mechanism and Problems under the Socialization Trend of Mobile Internet Products",
   "Year": 2026,
   "Authors": "Cheng Fei; Li Xinyi; Hairong Wang",
@@ -168525,7 +168700,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04816",
+  "ID": "LM04821",
   "Title": "Adolescents perceptions and experiences of mobile phone use in everyday life a qualitative inquiry",
   "Year": 2026,
   "Authors": "V. Priya; T Suseelal; Helen Shaji J C",
@@ -168560,7 +168735,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04817",
+  "ID": "LM04822",
   "Title": "Cultural Dimensions and ICT4D Adoption: Implications for Financial Performance in South Asian Family Businesses",
   "Year": 2026,
   "Authors": "Md. Shafayet Shahed Ornob; DR. MD KHAIRUL ISLAM; Nazrul Islam",
@@ -168595,7 +168770,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04818",
+  "ID": "LM04823",
   "Title": "Gender, development and mobile phones",
   "Year": 2012,
   "Authors": "Jo Tacchi; Kathi R Kitner; Kate Crawford",
@@ -168630,7 +168805,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04819",
+  "ID": "LM04824",
   "Title": "Reflection of ‘access’ in ICT4D evaluation: The case of Nenasala telecenter initiative in Sri Lanka",
   "Year": 2014,
   "Authors": "D.L.C. Jayashantha; Uma Raman",
@@ -168665,7 +168840,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04820",
+  "ID": "LM04825",
   "Title": "Mobile phones, empowerment and female heads of households: Trincomalee, Sri Lanka",
   "Year": 2017,
   "Authors": "Abeykoon Mudiyanselage Shamali Achala Abeykoon",
@@ -168700,7 +168875,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04821",
+  "ID": "LM04826",
   "Title": "Exploring the Deep Structure of Mobile Internet Use Patterns in Bangladesh and Ghana",
   "Year": 2021,
   "Authors": "Leon Gwaka; Müge Haseki; Himani Mehta; Christopher S. Yoo",
@@ -168735,7 +168910,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04822",
+  "ID": "LM04827",
   "Title": "Impact of mobile Internet use cases on socioeconomic wellbeing of individuals in Bangladesh and Ghana",
   "Year": 2021,
   "Authors": "Himani Mehta; Christopher S. Yoo; Müge Haseki; Leon Gwaka",
@@ -168770,7 +168945,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04823",
+  "ID": "LM04828",
   "Title": "Mobile Phones and Gender Norms: Evidence from Afghanistan",
   "Year": 2025,
   "Authors": "Seung‐hun Chung; Robert M. Gonzalez; Ahmad Shah Mobariz",
@@ -168805,7 +168980,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04824",
+  "ID": "LM04829",
   "Title": "The Protic Project.:Outcomes from a ICT4D Action Research in Rural Bangladesh",
   "Year": 2021,
   "Authors": "Stillman, Larry; Sarrica, Mauro; Matta, Mara",
@@ -168840,7 +169015,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04825",
+  "ID": "LM04830",
   "Title": "The Role of Connection Cues For Co-Present Smartphone Use in Everyday Life",
   "Year": 2025,
   "Authors": "Anisha Arenz; Anna Schnauber-Stockmann",
@@ -168875,7 +169050,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04826",
+  "ID": "LM04831",
   "Title": "Analysis of Factors Influencing Switching Intention among Generation Z Users of Telkomsel Mobile Internet Services",
   "Year": 2026,
   "Authors": "Najma Naira Hanifah",
@@ -168910,7 +169085,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04827",
+  "ID": "LM04832",
   "Title": "Exploiting Generative AI to Scale up Intelligent Tutoring Systems",
   "Year": 2023,
   "Authors": "Jakubův, Jan; Chvalovský, Karel; Goertzel, Zarathustra; Kaliszyk, Cezary; Olšák, Mirek; Piotrowski, Bartosz; Schulz, Stephan; Suda, Martin; Urban, Josef",
@@ -168945,7 +169120,7 @@
   "FWCI": 5226.8395
  },
  {
-  "ID": "LM04828",
+  "ID": "LM04833",
   "Title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
   "Year": 2023,
   "Authors": "Yogesh Kumar Dwivedi; Nir Kshetri; Laurie Hughes; Emma Louise Slade; Anand Jeyaraj; Arpan Kumar Kar; Abdullah Mohammed Baabdullah; Alex A. Koohang; Vishnupriya Raghavan; Manju K. Ahuja et al.",
@@ -168980,7 +169155,7 @@
   "FWCI": 1114.2463
  },
  {
-  "ID": "LM04829",
+  "ID": "LM04834",
   "Title": "Large language models in medicine",
   "Year": 2023,
   "Authors": "Arun James Thirunavukarasu; Darren Shu Jeng Ting; Kabilan Elangovan; Laura Gutiérrez; Ting Fang Tan; Daniel Shu Wei Ting",
@@ -169015,7 +169190,7 @@
   "FWCI": 137.1261
  },
  {
-  "ID": "LM04830",
+  "ID": "LM04835",
   "Title": "ChatGPT Utility in Healthcare Education, Research, and Practice: Systematic Review on the Promising Perspectives and Valid Concerns",
   "Year": 2023,
   "Authors": "Malik Sallam",
@@ -169050,7 +169225,7 @@
   "FWCI": 48.4894
  },
  {
-  "ID": "LM04831",
+  "ID": "LM04836",
   "Title": "A Survey on Evaluation of Large Language Models",
   "Year": 2024,
   "Authors": "Yupeng Chang; Xu Wang; Jindong Wang; Yuan Wu; Linyi Yang; Kaijie Zhu; Hao Chen; Xiaoyuan Yi; Cunxiang Wang; Yidong Wang et al.",
@@ -169085,7 +169260,7 @@
   "FWCI": 439.9432
  },
  {
-  "ID": "LM04832",
+  "ID": "LM04837",
   "Title": "ChatGPT: A comprehensive review on background, applications, key challenges, bias, ethics, limitations and future scope",
   "Year": 2023,
   "Authors": "Partha Pratim Ray",
@@ -169120,7 +169295,7 @@
   "FWCI": 617.8866
  },
  {
-  "ID": "LM04833",
+  "ID": "LM04838",
   "Title": "Students’ voices on generative AI: perceptions, benefits, and challenges in higher education",
   "Year": 2023,
   "Authors": "Cecilia Ka Yuk Chan; Wenjie Hu",
@@ -169155,7 +169330,7 @@
   "FWCI": 571.6185
  },
  {
-  "ID": "LM04834",
+  "ID": "LM04839",
   "Title": "What if the devil is my guardian angel: ChatGPT as a case study of using chatbots in education",
   "Year": 2023,
   "Authors": "Ahmed Tlili; Boulus Shehata; Michael Agyemang Adarkwah; Aras Bozkurt; Daniel Thomas Hickey; Ronghuai Huang; Brighter Agyemang",
@@ -169190,7 +169365,7 @@
   "FWCI": 471.9176
  },
  {
-  "ID": "LM04835",
+  "ID": "LM04840",
   "Title": "Education in the Era of Generative Artificial Intelligence (AI): Understanding the Potential Benefits of ChatGPT in Promoting Teaching and Learning",
   "Year": 2023,
   "Authors": "David Baidoo-Anu; Leticia Owusu Ansah",
@@ -169225,7 +169400,7 @@
   "FWCI": 452.4698
  },
  {
-  "ID": "LM04836",
+  "ID": "LM04841",
   "Title": "Experimental evidence on the productivity effects of generative artificial intelligence",
   "Year": 2023,
   "Authors": "Shakked Noy; Whitney Zhang",
@@ -169260,7 +169435,7 @@
   "FWCI": 371.4311
  },
  {
-  "ID": "LM04837",
+  "ID": "LM04842",
   "Title": "Generative AI",
   "Year": 2023,
   "Authors": "Stefan Feuerriegel; Jochen Hartmann; Christian Janiesch; Patrick Zschech",
@@ -169295,7 +169470,7 @@
   "FWCI": 129.5389
  },
  {
-  "ID": "LM04838",
+  "ID": "LM04843",
   "Title": "Generative AI and ChatGPT: Applications, challenges, and AI-human collaboration",
   "Year": 2023,
   "Authors": "Fiona Fui‐Hoon Nah; Ruilin Zheng; Jingyuan Cai; Keng Leng Siau; Langtao Chen",
@@ -169330,7 +169505,7 @@
   "FWCI": 125.6244
  },
  {
-  "ID": "LM04839",
+  "ID": "LM04844",
   "Title": "ChatGPT for Language Teaching and Learning",
   "Year": 2023,
   "Authors": "Lucas Kohnke; Benjamin Luke Moorhouse; Di Zou",
@@ -169365,7 +169540,7 @@
   "FWCI": 322.4893
  },
  {
-  "ID": "LM04840",
+  "ID": "LM04845",
   "Title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
   "Year": 2024,
   "Authors": "Haotian Cui; Chloe Wang; Hassaan Maan; Kuan Pang; Fengning Luo; Nan Duan; Bo Wang",
@@ -169400,7 +169575,7 @@
   "FWCI": 157.8316
  },
  {
-  "ID": "LM04841",
+  "ID": "LM04846",
   "Title": "Examining Science Education in ChatGPT: An Exploratory Study of Generative Artificial Intelligence",
   "Year": 2023,
   "Authors": "Grant Cooper",
@@ -169435,7 +169610,7 @@
   "FWCI": 308.9497
  },
  {
-  "ID": "LM04842",
+  "ID": "LM04847",
   "Title": "Generative AI and the future of education: Ragnarök or reformation? A paradoxical perspective from management educators",
   "Year": 2023,
   "Authors": "Weng Marc Lim; Asanka N. Gunasekara; Jessica Leigh Pallant; Jason Ian Pallant; Ekaterina Pechenkina",
@@ -169470,7 +169645,7 @@
   "FWCI": 281.3781
  },
  {
-  "ID": "LM04843",
+  "ID": "LM04848",
   "Title": "Collaborating With ChatGPT: Considering the Implications of Generative Artificial Intelligence for Journalism and Media Education",
   "Year": 2023,
   "Authors": "John V. Pavlik",
@@ -169505,7 +169680,7 @@
   "FWCI": 485.3042
  },
  {
-  "ID": "LM04844",
+  "ID": "LM04849",
   "Title": "Practical and ethical challenges of large language models in education: A systematic scoping review",
   "Year": 2023,
   "Authors": "Lixiang Yan; Lele Sha; Linxuan Zhao; Yuheng Li; Roberto Martínez‐Maldonado; Guanliang Chen; Xinyu Li; Yueqiao Jin; Dragan Gašević",
@@ -169540,7 +169715,7 @@
   "FWCI": 232.1431
  },
  {
-  "ID": "LM04845",
+  "ID": "LM04850",
   "Title": "Generative AI at Work",
   "Year": 2024,
   "Authors": "Erik Brynjolfsson; Danielle Li; Lindsey Raymond",
@@ -169575,7 +169750,7 @@
   "FWCI": 344.778
  },
  {
-  "ID": "LM04846",
+  "ID": "LM04851",
   "Title": "ChatGPT User Experience: Implications for Education",
   "Year": 2023,
   "Authors": "Xiaoming Zhaı",
@@ -169610,7 +169785,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04847",
+  "ID": "LM04852",
   "Title": "Human resource management in the age of generative artificial intelligence: Perspectives and research directions on ChatGPT",
   "Year": 2023,
   "Authors": "Pawan S Budhwar; Soumyadeb Chowdhury; Geoffrey Wood; Herman Aguinis; Greg J. Bamber; Jose R. Beltran; Paul Boselie; Fang Lee Cooke; Stephanie Decker; Angelo S. DeNisi et al.",
@@ -169645,7 +169820,7 @@
   "FWCI": 266.935
  },
  {
-  "ID": "LM04848",
+  "ID": "LM04853",
   "Title": "ChatGPT and a new academic reality: Artificial Intelligence‐written research papers and the ethics of the large language models in scholarly publishing",
   "Year": 2023,
   "Authors": "Brady Daniel Lund; Ting Wang; Nishith Reddy Mannuru; Bing Nie; Somipam Ronra Shimray; Ziang Wang",
@@ -169680,7 +169855,7 @@
   "FWCI": 223.6716
  },
  {
-  "ID": "LM04849",
+  "ID": "LM04854",
   "Title": "What ChatGPT and generative AI mean for science",
   "Year": 2023,
   "Authors": "Chris Stokel-Walker; Richard Van Noorden",
@@ -169715,7 +169890,7 @@
   "FWCI": 78.4858
  },
  {
-  "ID": "LM04850",
+  "ID": "LM04855",
   "Title": "Fairness and Bias in Artificial Intelligence: A Brief Survey of Sources, Impacts, and Mitigation Strategies",
   "Year": 2023,
   "Authors": "Emilio Ferrara",
@@ -169750,7 +169925,7 @@
   "FWCI": 213.98
  },
  {
-  "ID": "LM04851",
+  "ID": "LM04856",
   "Title": "A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges",
   "Year": 2024,
   "Authors": "Mohaimenul Azam Khan Raiaan; Md. Saddam Hossain Mukta; Kaniz Fatema; Nur Mohammad Fahad; Sadman Sakib; Most. Marufatul Jannat Mim; Jubaer Ahmad; Mohammed Eunus Ali; Sami Azam",
@@ -169785,7 +169960,7 @@
   "FWCI": 130.3766
  },
  {
-  "ID": "LM04852",
+  "ID": "LM04857",
   "Title": "The impact of Generative AI (GenAI) on practices, policies and research direction in education: a case of ChatGPT and Midjourney",
   "Year": 2023,
   "Authors": "Thomas K. F. Chiu",
@@ -169820,7 +169995,7 @@
   "FWCI": 215.2822
  },
  {
-  "ID": "LM04853",
+  "ID": "LM04858",
   "Title": "ChatGPT in higher education: Considerations for academic integrity and student learning",
   "Year": 2023,
   "Authors": "Miriam Sullivan; Andrew Kelly; Paul McLaughlan",
@@ -169855,7 +170030,7 @@
   "FWCI": 202.8483
  },
  {
-  "ID": "LM04854",
+  "ID": "LM04859",
   "Title": "Transforming Education: A Comprehensive Review of Generative Artificial Intelligence in Educational Settings through Bibliometric and Content Analysis",
   "Year": 2023,
   "Authors": "Zied Bahroun; Chiraz Anane; Vian Ahmed; Andrew Zacca",
@@ -169890,7 +170065,7 @@
   "FWCI": 202.9215
  },
  {
-  "ID": "LM04855",
+  "ID": "LM04860",
   "Title": "From ChatGPT to ThreatGPT: Impact of Generative AI in Cybersecurity and Privacy",
   "Year": 2023,
   "Authors": "Maanak Gupta; Charankumar Akiri; Kshitiz Aryal; Eli Parker; Lopamudra Praharaj",
@@ -169925,7 +170100,7 @@
   "FWCI": 70.3499
  },
  {
-  "ID": "LM04856",
+  "ID": "LM04861",
   "Title": "A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models",
   "Year": 2024,
   "Authors": "Wenqi Fan; Yujuan Ding; Liangbo Ning; Shijie Wang; Hengyun Li; Dawei Yin; Tat‐Seng Chua; Qing Li",
@@ -169960,7 +170135,7 @@
   "FWCI": 245.341
  },
  {
-  "ID": "LM04857",
+  "ID": "LM04862",
   "Title": "Generative AI enhances individual creativity but reduces the collective diversity of novel content",
   "Year": 2024,
   "Authors": "Anil Rajnikant Doshi; Oliver Hauser",
@@ -169995,7 +170170,7 @@
   "FWCI": 318.9347
  },
  {
-  "ID": "LM04858",
+  "ID": "LM04863",
   "Title": "AI models collapse when trained on recursively generated data",
   "Year": 2024,
   "Authors": "Ilia Shumailov; Zakhar Shumaylov; Yiren Zhao; Nicolas Papernot; Ross Anderson; Yarin Gal",
@@ -170030,7 +170205,7 @@
   "FWCI": 118.2123
  },
  {
-  "ID": "LM04859",
+  "ID": "LM04864",
   "Title": "The Potential of Generative Artificial Intelligence Across Disciplines: Perspectives and Future Directions",
   "Year": 2023,
   "Authors": "Keng‐Boon Ooi; Garry Wei‐Han Tan; Mostafa Al‐Emran; Mohammed Abdullah Al-Sharafi; Alexandru Căpățînă; Amrita Chakraborty; Yogesh Kumar Dwivedi; Tzu-Ling Huang; Arpan Kumar Kar; Voon‐Hsien Lee et al.",
@@ -170065,7 +170240,7 @@
   "FWCI": 68.6074
  },
  {
-  "ID": "LM04860",
+  "ID": "LM04865",
   "Title": "The effect of generative artificial intelligence (AI)-based tool use on students' computational thinking skills, programming self-efficacy and motivation",
   "Year": 2023,
   "Authors": "Ramazan Yılmaz; Fatma Gizem Karaoğlan Yılmaz",
@@ -170100,7 +170275,7 @@
   "FWCI": 183.1782
  },
  {
-  "ID": "LM04861",
+  "ID": "LM04866",
   "Title": "ChatGPT: Jack of all trades, master of none",
   "Year": 2023,
   "Authors": "Jan Kocoń; Igor Cichecki; Oliwier Kaszyca; Mateusz Kochanek; Dominika Szydło; Joanna Baran; Julita Bielaniewicz; Marcin Gruza; Arkadiusz Janz; Kamil Kanclerz et al.",
@@ -170135,7 +170310,7 @@
   "FWCI": 68.2335
  },
  {
-  "ID": "LM04862",
+  "ID": "LM04867",
   "Title": "Guidance for generative AI in education and research",
   "Year": 2023,
   "Authors": "",
@@ -170170,7 +170345,7 @@
   "FWCI": 258.1
  },
  {
-  "ID": "LM04863",
+  "ID": "LM04868",
   "Title": "Large language models in education: A focus on the complementary relationship between human teachers and ChatGPT",
   "Year": 2023,
   "Authors": "Jaeho Jeon; Seongyong Lee",
@@ -170205,7 +170380,7 @@
   "FWCI": 179.1437
  },
  {
-  "ID": "LM04864",
+  "ID": "LM04869",
   "Title": "Code as Policies: Language Model Programs for Embodied Control",
   "Year": 2023,
   "Authors": "Jacky Liang; Wenlong Huang; Fei Xia; Peng Xu; Karol Hausman; Brian Ichter; Pete Florence; Andy Zeng",
@@ -170240,7 +170415,7 @@
   "FWCI": 318.9643
  },
  {
-  "ID": "LM04865",
+  "ID": "LM04870",
   "Title": "Engineering Education in the Era of ChatGPT: Promise and Pitfalls of Generative AI for Education",
   "Year": 2023,
   "Authors": "Junaid Qadir",
@@ -170275,7 +170450,7 @@
   "FWCI": 178.3261
  },
  {
-  "ID": "LM04866",
+  "ID": "LM04871",
   "Title": "The Power of Generative AI: A Review of Requirements, Models, Input–Output Formats, Evaluation Metrics, and Challenges",
   "Year": 2023,
   "Authors": "Ajay Bandi; Pydi Venkata Satya Ramesh Adapa; Yudu Eswar Vinay Pratap Kumar Kuchi",
@@ -170310,7 +170485,7 @@
   "FWCI": 60.5639
  },
  {
-  "ID": "LM04867",
+  "ID": "LM04872",
   "Title": "Unlocking the Power of ChatGPT: A Framework for Applying Generative AI in Education",
   "Year": 2023,
   "Authors": "Jiahong Su; Weipeng Yang",
@@ -170345,7 +170520,7 @@
   "FWCI": 163.0197
  },
  {
-  "ID": "LM04868",
+  "ID": "LM04873",
   "Title": "The AI generation gap: Are Gen Z students more interested in adopting generative AI such as ChatGPT in teaching and learning than their Gen X and millennial generation teachers?",
   "Year": 2023,
   "Authors": "Cecilia Ka Yuk Chan; Katherine K. W. Lee",
@@ -170380,7 +170555,7 @@
   "FWCI": 156.982
  },
  {
-  "ID": "LM04869",
+  "ID": "LM04874",
   "Title": "Generative artificial intelligence",
   "Year": 2023,
   "Authors": "Leonardo Banh; Gero Strobel",
@@ -170415,7 +170590,7 @@
   "FWCI": 55.2228
  },
  {
-  "ID": "LM04870",
+  "ID": "LM04875",
   "Title": "The dark side of generative artificial intelligence: A critical analysis of controversies and risks of ChatGPT",
   "Year": 2023,
   "Authors": "Krzysztof Wach; Cong Doanh Duong; Joanna Ejdys; Rūta Kazlauskaitė; Paweł Korzyński; Grzegorz Mazurek; Joanna Olga Paliszkiewicz; Ewa Wanda Ziemba",
@@ -170450,7 +170625,7 @@
   "FWCI": 146.904
  },
  {
-  "ID": "LM04871",
+  "ID": "LM04876",
   "Title": "Leveraging ChatGPT and other generative artificial intelligence (AI)-based applications in the hospitality and tourism industry: practices, challenges and research agenda",
   "Year": 2023,
   "Authors": "Yogesh Kumar Dwivedi; Neeraj Pandey; Wendy L. Currie; Adrian Micu",
@@ -170485,7 +170660,7 @@
   "FWCI": 52.2364
  },
  {
-  "ID": "LM04872",
+  "ID": "LM04877",
   "Title": "AI-generated feedback on writing: insights into efficacy and ENL student preference",
   "Year": 2023,
   "Authors": "Juan Escalante; Austin Pack; Alex James Barrett",
@@ -170520,7 +170695,7 @@
   "FWCI": 140.3198
  },
  {
-  "ID": "LM04873",
+  "ID": "LM04878",
   "Title": "The role of ChatGPT in higher education: Benefits, challenges, and future research directions",
   "Year": 2023,
   "Authors": "Tareq Rasul; Sumesh Nair; Diane Robyn Kalendra; Mulyadi Robin; Fernando de Oliveira Santini; Wagner Júnior Ladeira; Mingwei Sun; Ingrid Day; Raouf Ahmad Rather; Liz Heathcote",
@@ -170555,7 +170730,7 @@
   "FWCI": 147.0065
  },
  {
-  "ID": "LM04874",
+  "ID": "LM04879",
   "Title": "ChatGPT Chemistry Assistant for Text Mining and the Prediction of MOF Synthesis",
   "Year": 2023,
   "Authors": "Zhiling Zheng; Oufan Zhang; Christian Borgs; Jennifer Chayes; Omar M. Yaghi",
@@ -170590,7 +170765,7 @@
   "FWCI": 39.3426
  },
  {
-  "ID": "LM04875",
+  "ID": "LM04880",
   "Title": "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models",
   "Year": 2023,
   "Authors": "Tyna Eloundou; Manning, Sam; Pamela Mishkin; Rock, Daniel",
@@ -170625,7 +170800,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04876",
+  "ID": "LM04881",
   "Title": "ChatGPT and Generative Artificial Intelligence for Medical Education: Potential Impact and Opportunity",
   "Year": 2023,
   "Authors": "Christy Boscardin; Brian C. Gin; Polo Black Golde; Karen E. Hauer",
@@ -170660,7 +170835,7 @@
   "FWCI": 19.0623
  },
  {
-  "ID": "LM04877",
+  "ID": "LM04882",
   "Title": "ChatGPT and the rise of generative AI: Threat to academic integrity?",
   "Year": 2023,
   "Authors": "Damian Eke",
@@ -170695,7 +170870,7 @@
   "FWCI": 135.1721
  },
  {
-  "ID": "LM04878",
+  "ID": "LM04883",
   "Title": "What are artificial intelligence literacy and competency? A comprehensive framework to support them",
   "Year": 2024,
   "Authors": "Thomas K. F. Chiu; Zubair Ahmad; Murod Ismailov; Ismaila Temitayo Sanusi",
@@ -170730,7 +170905,7 @@
   "FWCI": 225.4712
  },
  {
-  "ID": "LM04879",
+  "ID": "LM04884",
   "Title": "Generative AI and the future of higher education: a threat to academic integrity or reformation? Evidence from multicultural perspectives",
   "Year": 2024,
   "Authors": "Abdullahi Yusuf; Nasrin Pervin; ‪Marcos Román-González‬",
@@ -170765,7 +170940,7 @@
   "FWCI": 210.9689
  },
  {
-  "ID": "LM04880",
+  "ID": "LM04885",
   "Title": "The promise and challenges of generative AI in education",
   "Year": 2024,
   "Authors": "Michail N. Giannakos; Roger Azevedo; Peter L. Brusilovsky; Mutlu Cukurova; Yannis A. Dimitriadis; Davinia Hernández‐Leo; Sanna Järvelä; Manolis Mavrikis; Bart Rienties",
@@ -170800,7 +170975,7 @@
   "FWCI": 204.9527
  },
  {
-  "ID": "LM04881",
+  "ID": "LM04886",
   "Title": "“What Can ChatGPT Do?” Analyzing Early Reactions to the Innovative AI Chatbot on Twitter",
   "Year": 2023,
   "Authors": "Viriya Taecharungroj",
@@ -170835,7 +171010,7 @@
   "FWCI": 123.5273
  },
  {
-  "ID": "LM04882",
+  "ID": "LM04887",
   "Title": "Is it harmful or helpful? Examining the causes and consequences of generative AI usage among university students",
   "Year": 2024,
   "Authors": "Muhammad Abbas; Farooq Ahmed Jam; Tariq Iqbal Khan",
@@ -170870,7 +171045,7 @@
   "FWCI": 198.1343
  },
  {
-  "ID": "LM04883",
+  "ID": "LM04888",
   "Title": "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers",
   "Year": 2025,
   "Authors": "Hao-Ping Lee; Advait Sarkar; Lev Tankelevitch; Ian Drosos; Sean Rintel; Richard Banks; Nicholas Wilson",
@@ -170905,7 +171080,7 @@
   "FWCI": 600.6478
  },
  {
-  "ID": "LM04884",
+  "ID": "LM04889",
   "Title": "Future research recommendations for transforming higher education with generative AI",
   "Year": 2023,
   "Authors": "Thomas K. F. Chiu",
@@ -170940,7 +171115,7 @@
   "FWCI": 120.872
  },
  {
-  "ID": "LM04885",
+  "ID": "LM04890",
   "Title": "Attention is not all you need: the complicated case of ethically using large language models in healthcare and medicine",
   "Year": 2023,
   "Authors": "Stefan Harrer",
@@ -170975,7 +171150,7 @@
   "FWCI": 17.2683
  },
  {
-  "ID": "LM04886",
+  "ID": "LM04891",
   "Title": "The ethics of ChatGPT – Exploring the ethical issues of an emerging technology",
   "Year": 2023,
   "Authors": "Bernd Carsten Stahl; Damian Eke",
@@ -171010,7 +171185,7 @@
   "FWCI": 122.165
  },
  {
-  "ID": "LM04887",
+  "ID": "LM04892",
   "Title": "Promises and challenges of generative artificial intelligence for human learning",
   "Year": 2024,
   "Authors": "Lixiang Yan; Samuel Greiff; Ziwen Teuber; Dragan Gašević",
@@ -171045,7 +171220,7 @@
   "FWCI": 188.9094
  },
  {
-  "ID": "LM04888",
+  "ID": "LM04893",
   "Title": "Opportunities, Challenges, and Future Directions of Generative Artificial Intelligence in Medical Education: Scoping Review",
   "Year": 2023,
   "Authors": "Carl M. Preiksaitis; Christian C. Rose",
@@ -171080,7 +171255,7 @@
   "FWCI": 16.2486
  },
  {
-  "ID": "LM04889",
+  "ID": "LM04894",
   "Title": "Generative artificial intelligence: a systematic review and applications",
   "Year": 2024,
   "Authors": "Sandeep Singh Sengar; Affan Bin Hasan; Sanjay Kumar; Fiona Carroll",
@@ -171115,7 +171290,7 @@
   "FWCI": 27.2769
  },
  {
-  "ID": "LM04890",
+  "ID": "LM04895",
   "Title": "The GenAI is out of the bottle: generative artificial intelligence from a business model innovation perspective",
   "Year": 2023,
   "Authors": "Dominik Kurt Kanbach; Louisa Heiduk; Georg Blueher; Maximilian Schreiter; Alexander D.F. Lahmann",
@@ -171150,7 +171325,7 @@
   "FWCI": 119.5466
  },
  {
-  "ID": "LM04891",
+  "ID": "LM04896",
   "Title": "Comparing the quality of human and ChatGPT feedback of students’ writing",
   "Year": 2024,
   "Authors": "Jacob Steiss; Tamara Powell Tate; Steve Graham; Jazmin Cruz; Michael A. Hebert; Jiali Wang; Youngsun Moon; Waverly Tseng; Mark Warschauer; Carol Booth Olson",
@@ -171185,7 +171360,7 @@
   "FWCI": 603.6113
  },
  {
-  "ID": "LM04892",
+  "ID": "LM04897",
   "Title": "Generative AI in Education and Research: Opportunities, Concerns, and Solutions",
   "Year": 2023,
   "Authors": "Eman A. Alasadi; Carlos R. Baiz",
@@ -171220,7 +171395,7 @@
   "FWCI": 118.4826
  },
  {
-  "ID": "LM04893",
+  "ID": "LM04898",
   "Title": "TPACK in the age of ChatGPT and Generative AI",
   "Year": 2023,
   "Authors": "Punya Mishra; Melissa Warr; Rezwana Islam",
@@ -171255,7 +171430,7 @@
   "FWCI": 112.9944
  },
  {
-  "ID": "LM04894",
+  "ID": "LM04899",
   "Title": "A scoping review on how generative artificial intelligence transforms assessment in higher education",
   "Year": 2024,
   "Authors": "Qi Xia; Xiaojing Weng; Fan Ouyang; Tzung‐Jin Lin; Thomas K. F. Chiu",
@@ -171290,7 +171465,7 @@
   "FWCI": 182.091
  },
  {
-  "ID": "LM04895",
+  "ID": "LM04900",
   "Title": "Generative artificial intelligence, human creativity, and art",
   "Year": 2024,
   "Authors": "Eric Zhou; Dokyun Lee",
@@ -171325,7 +171500,7 @@
   "FWCI": 1924.3979
  },
  {
-  "ID": "LM04896",
+  "ID": "LM04901",
   "Title": "The ethics of ChatGPT in medicine and healthcare: a systematic review on Large Language Models (LLMs)",
   "Year": 2024,
   "Authors": "Joschka Haltaufderheide; Robert Ranisch",
@@ -171360,7 +171535,7 @@
   "FWCI": 11.8462
  },
  {
-  "ID": "LM04897",
+  "ID": "LM04902",
   "Title": "How does generative artificial intelligence impact student creativity?",
   "Year": 2023,
   "Authors": "Sabrina Habib; Thomas Vogel; Xiao Anli; Evelyn Thorne",
@@ -171395,7 +171570,7 @@
   "FWCI": 86.0141
  },
  {
-  "ID": "LM04898",
+  "ID": "LM04903",
   "Title": "Generative artificial intelligence in the metaverse era",
   "Year": 2023,
   "Authors": "Zhihan Lv",
@@ -171430,7 +171605,7 @@
   "FWCI": 30.2806
  },
  {
-  "ID": "LM04899",
+  "ID": "LM04904",
   "Title": "Developing evaluative judgement for a time of generative artificial intelligence",
   "Year": 2024,
   "Authors": "Margaret Bearman; Joanna Tai; Phillip Dawson; David J. Boud; Rola Ajjawi",
@@ -171465,7 +171640,7 @@
   "FWCI": 352.9814
  },
  {
-  "ID": "LM04900",
+  "ID": "LM04905",
   "Title": "Should ChatGPT be biased? Challenges and risks of bias in large language models",
   "Year": 2023,
   "Authors": "Emilio Ferrara",
@@ -171500,7 +171675,7 @@
   "FWCI": 67.3771
  },
  {
-  "ID": "LM04901",
+  "ID": "LM04906",
   "Title": "Generative artificial intelligence and evaluating strategic decisions",
   "Year": 2024,
   "Authors": "Anil Rajnikant Doshi; J. Jason Bell; Emil Mirzayev; Bart S. Vanneste",
@@ -171535,7 +171710,7 @@
   "FWCI": 30.8667
  },
  {
-  "ID": "LM04902",
+  "ID": "LM04907",
   "Title": "ChatGPT and Publication Ethics",
   "Year": 2023,
   "Authors": "Farid Rahimi; Amin Talebi Bezmin Abadi",
@@ -171570,7 +171745,7 @@
   "FWCI": 40.5516
  },
  {
-  "ID": "LM04903",
+  "ID": "LM04908",
   "Title": "Generative artificial intelligence (GenAI) revolution: A deep dive into GenAI adoption",
   "Year": 2025,
   "Authors": "Aman Kumar; Amit Shankar; Linda D. Hollebeek; Abhishek Behl; Weng Marc Lim",
@@ -171605,7 +171780,7 @@
   "FWCI": 159.9892
  },
  {
-  "ID": "LM04904",
+  "ID": "LM04909",
   "Title": "Generative artificial intelligence and engineering education",
   "Year": 2023,
   "Authors": "Aditya Johri; Andrew Katz; Junaid Qadir; Ashish Hingle",
@@ -171640,7 +171815,7 @@
   "FWCI": 30.2015
  },
  {
-  "ID": "LM04905",
+  "ID": "LM04910",
   "Title": "Generative artificial intelligence in medicine",
   "Year": 2025,
   "Authors": "Zhen Ling Teo; Arun James Thirunavukarasu; Kabilan Elangovan; Haoran Cheng; Prasanth Moova; Brian T. Soetikno; Christopher Nielsen; Andreas Pollreisz; Darren Shu Jeng Ting; Robert Morris et al.",
@@ -171675,7 +171850,7 @@
   "FWCI": 24.3515
  },
  {
-  "ID": "LM04906",
+  "ID": "LM04911",
   "Title": "Generative artificial intelligence: a historical perspective",
   "Year": 2025,
   "Authors": "Ran He; Jie Cao; Tieniu Tan",
@@ -171710,7 +171885,7 @@
   "FWCI": 39.9913
  },
  {
-  "ID": "LM04907",
+  "ID": "LM04912",
   "Title": "The Security of Using Large Language Models: A Survey with Emphasis on ChatGPT",
   "Year": 2024,
   "Authors": "Wei Zhou; Xiaogang Zhu; Qing‐Long Han; Lin Li; Xiao Chen; Sheng Wen; Yang Xiang",
@@ -171745,7 +171920,7 @@
   "FWCI": 14.956
  },
  {
-  "ID": "LM04908",
+  "ID": "LM04913",
   "Title": "Integrating Generative AI Into K-12 Curriculums and Pedagogies in India",
   "Year": 2023,
   "Authors": "Durgesh M. Sharma; K. Venkata Ramana; R. Jothilakshmi; Rakesh Verma; B. Uma Maheswari; Sampath Boopathi",
@@ -171780,7 +171955,7 @@
   "FWCI": 62.8644
  },
  {
-  "ID": "LM04909",
+  "ID": "LM04914",
   "Title": "Ethics Education for Healthcare Professionals in the Era of ChatGPT and Other Large Language Models: Do We Still Need It?",
   "Year": 2023,
   "Authors": "Vasiliki Nataly Rahimzadeh; Kristin M. Kostick; Jennifer Blumenthal‐Barby; Amy L. McGuire",
@@ -171815,7 +171990,7 @@
   "FWCI": 2.4975
  },
  {
-  "ID": "LM04910",
+  "ID": "LM04915",
   "Title": "Demystifying ChatGPT: An In-depth Survey of OpenAI’s Robust Large Language Models",
   "Year": 2024,
   "Authors": "Pronaya Bhattacharya; Vivek Kumar Prasad; Ashwin Verma; Deepak Kumar Gupta; Assadaporn Sapsomboon; Wattana Viriyasitavat; Gaurav Dhiman",
@@ -171850,7 +172025,7 @@
   "FWCI": 10.9783
  },
  {
-  "ID": "LM04911",
+  "ID": "LM04916",
   "Title": "Generative Artificial Intelligence in Finance",
   "Year": 2023,
   "Authors": "Ghiath Shabsigh; El Bachir Boukherouaa",
@@ -171885,7 +172060,7 @@
   "FWCI": 28.0853
  },
  {
-  "ID": "LM04912",
+  "ID": "LM04917",
   "Title": "Reconciling the contrasting narratives on the environmental impact of large language models",
   "Year": 2024,
   "Authors": "Shaolei Ren; Bill Tomlinson; Rebecca W. Black; Andrew W. Torrance",
@@ -171920,7 +172095,7 @@
   "FWCI": 6.3885
  },
  {
-  "ID": "LM04913",
+  "ID": "LM04918",
   "Title": "Can Generative Artificial Intelligence be a Good Teaching Assistant?—An Empirical Analysis Based on Generative AI ‐Assisted Teaching",
   "Year": 2025,
   "Authors": "Qianwen Tang; Wenbo Deng; Yidan Huang; Shuaijie Wang; Hao Zhang",
@@ -171955,7 +172130,7 @@
   "FWCI": 63.3174
  },
  {
-  "ID": "LM04914",
+  "ID": "LM04919",
   "Title": "Barriers to and Opportunities for the Adoption of Generative Artificial Intelligence in Higher Education in the Global South: Insights from Sri Lanka",
   "Year": 2024,
   "Authors": "Amali Henadirage; Nuwan Gunarathne",
@@ -171990,7 +172165,7 @@
   "FWCI": 19.653
  },
  {
-  "ID": "LM04915",
+  "ID": "LM04920",
   "Title": "The Importance of AI Data Governance in Large Language Models",
   "Year": 2025,
   "Authors": "Saurabh A. Pahune; Zahid Akhtar; Venkatesh Mandapati; Kamran Siddique",
@@ -172025,7 +172200,7 @@
   "FWCI": 53.5023
  },
  {
-  "ID": "LM04916",
+  "ID": "LM04921",
   "Title": "Large Foundation Models for Power Systems",
   "Year": 2024,
   "Authors": "Chenghao Huang; Siyang Li; Ruohong Liu; Hao Henry Wang; Yize Chen",
@@ -172060,7 +172235,7 @@
   "FWCI": 35.8719
  },
  {
-  "ID": "LM04917",
+  "ID": "LM04922",
   "Title": "Foundation models for the electric power grid",
   "Year": 2024,
   "Authors": "Hendrik F. Hamann; Blazhe Gjorgiev; Thomas Brunschwiler; L. S. A. Martins; Alban Puech; Anna Varbella; Jonas Weiß; Juan Bernabé-Moreno; Alexandre Blondin Massé; Seong Lok Choi et al.",
@@ -172095,7 +172270,7 @@
   "FWCI": 4.4253
  },
  {
-  "ID": "LM04918",
+  "ID": "LM04923",
   "Title": "Generative Artificial Intelligence: Fundamentals",
   "Year": 2023,
   "Authors": "Juan M. Corchado; Sebastian López F.; J. V.; Raul Garcia S.; Pablo Chamoso",
@@ -172130,7 +172305,7 @@
   "FWCI": 3.8323
  },
  {
-  "ID": "LM04919",
+  "ID": "LM04924",
   "Title": "Written by ChatGPT: AI, large language models, conversational chatbots, and their place in society and business",
   "Year": 2024,
   "Authors": "Jan Kietzmann; ANDREW W. PARK",
@@ -172165,7 +172340,7 @@
   "FWCI": 5.4096
  },
  {
-  "ID": "LM04920",
+  "ID": "LM04925",
   "Title": "MiniLLM: On-Policy Distillation of Large Language Models",
   "Year": 2023,
   "Authors": "Yuxian Gu; Li Dong; Furu Wei; Minlie Huang",
@@ -172200,7 +172375,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04921",
+  "ID": "LM04926",
   "Title": "Large language models in anaesthesiology: use of ChatGPT for American Society of Anesthesiologists physical status classification",
   "Year": 2023,
   "Authors": "Daniel Yan Zheng Lim; Yu He Ke; Gerald Gui Ren Sng; Joshua Yi Min Tung; Jia X. Chai; Hairil Rizal Abdullah",
@@ -172235,7 +172410,7 @@
   "FWCI": 0.892
  },
  {
-  "ID": "LM04922",
+  "ID": "LM04927",
   "Title": "Large Language Models, Small Labor Market Effects",
   "Year": 2025,
   "Authors": "Anders Humlum; Emilie Vestergaard",
@@ -172270,7 +172445,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04923",
+  "ID": "LM04928",
   "Title": "ChatGPT: Where Is a Silver Lining? Exploring the realm of GPT and large language models",
   "Year": 2023,
   "Authors": "Елена Викторовна Тихонова; Lilia Raitskaya",
@@ -172305,7 +172480,7 @@
   "FWCI": 4.3882
  },
  {
-  "ID": "LM04924",
+  "ID": "LM04929",
   "Title": "How Can Generative AI (GenAI) Enhance or Hinder Qualitative Studies? A Critical Appraisal from South Asia, Nepal",
   "Year": 2024,
   "Authors": "Niroj Dahal",
@@ -172340,7 +172515,7 @@
   "FWCI": 21.2413
  },
  {
-  "ID": "LM04925",
+  "ID": "LM04930",
   "Title": "Semantic-Aware Power Allocation for Generative Semantic Communications with Foundation Models",
   "Year": 2024,
   "Authors": "Chunmei Xu; Mahdi Boloursaz Mashhadi; Yi Ma; Rahim Tafazolli",
@@ -172375,7 +172550,7 @@
   "FWCI": 13.0368
  },
  {
-  "ID": "LM04926",
+  "ID": "LM04931",
   "Title": "Thematic insights into the impact of large language models on K-12 education in rural India from student volunteers’ perspectives",
   "Year": 2025,
   "Authors": "Harshita Goyal; Garima Garg; Prisha Mordia; Veena Ramachandran; Dhruv Kumar; Jagat Sesh Challa",
@@ -172410,7 +172585,7 @@
   "FWCI": 17.3813
  },
  {
-  "ID": "LM04927",
+  "ID": "LM04932",
   "Title": "Intersection of generative artificial intelligence and copyright: an Indian perspective",
   "Year": 2024,
   "Authors": "Shinu Vig",
@@ -172445,7 +172620,7 @@
   "FWCI": 1.2729
  },
  {
-  "ID": "LM04928",
+  "ID": "LM04933",
   "Title": "Factors Affecting the Effectiveness of Generative Artificial Intelligence Apps on University Students' Programming Language Learning in Sri Lanka: A Systematic Literature Review",
   "Year": 2024,
   "Authors": "K. G. D. K. Perera; Janaka I Wijayanayake; J. Prasadika",
@@ -172480,7 +172655,7 @@
   "FWCI": 0.5865
  },
  {
-  "ID": "LM04929",
+  "ID": "LM04934",
   "Title": "Analyzing the Learning Effectiveness of Generative AI for Software Development for Undergraduates in Sri Lanka",
   "Year": 2024,
   "Authors": "Pramodya Samarakoon; Dinesh Asanka; Shantha Jayalal; Nirasha Jayalath",
@@ -172515,7 +172690,7 @@
   "FWCI": 3.3411
  },
  {
-  "ID": "LM04930",
+  "ID": "LM04935",
   "Title": "Learning the Power of “No”: Foundation Models with Negations",
   "Year": 2025,
   "Authors": "Jaisidh Singh; Ishaan Shrivastava; Mayank Vatsa; Richa Singh; Aparna Bharati",
@@ -172550,7 +172725,7 @@
   "FWCI": 5.3146
  },
  {
-  "ID": "LM04931",
+  "ID": "LM04936",
   "Title": "ChatGPT and Large Language Models: What are the Implications for Policy Makers?",
   "Year": 2023,
   "Authors": "Paul G. Geertsema; Albert Bifet; Richard Green",
@@ -172585,7 +172760,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04932",
+  "ID": "LM04937",
   "Title": "ChatGPT: A Comprehensive Review of a Large Language Model",
   "Year": 2023,
   "Authors": "Kuldeep Singh Kaswan; Jagjit Singh Dhatterwal; Reenu Batra; Dileep Kumar Yadav",
@@ -172620,7 +172795,7 @@
   "FWCI": 1.006
  },
  {
-  "ID": "LM04933",
+  "ID": "LM04938",
   "Title": "On the Power of Foundation Models",
   "Year": 2022,
   "Authors": "Yuan Yang",
@@ -172655,7 +172830,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04934",
+  "ID": "LM04939",
   "Title": "Adoption success of using Generative AI apps for the ECommerce Platforms in Sri Lanka",
   "Year": 2024,
   "Authors": "A. Dilshan; Janaka I Wijayanayake; Dinesh Asanka; Chamindu Karunarathna",
@@ -172690,7 +172865,7 @@
   "FWCI": 3.7328
  },
  {
-  "ID": "LM04935",
+  "ID": "LM04940",
   "Title": "Data and AI governance: Promoting equity, ethics, and fairness in large language models",
   "Year": 2025,
   "Authors": "Alok Abishek; Lisa Erickson; Tushar Bandopadhyay",
@@ -172725,7 +172900,7 @@
   "FWCI": 3.5668
  },
  {
-  "ID": "LM04936",
+  "ID": "LM04941",
   "Title": "Country Landscape of Large Language Models Development: A Review",
   "Year": 2025,
   "Authors": "Wan Chong Choi; Chi In Chang; Iek Chong Choi; Lai Chu Lam",
@@ -172760,7 +172935,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04937",
+  "ID": "LM04942",
   "Title": "A Hybrid ML-NWP Approach for Predicting GHI and Power to Mitigate Penalties Under CERC’s Deviation Settlement Mechanism",
   "Year": 2024,
   "Authors": "Amol Patil; Kedar S. Kulkarni",
@@ -172795,7 +172970,7 @@
   "FWCI": 0.6468
  },
  {
-  "ID": "LM04938",
+  "ID": "LM04943",
   "Title": "Ethics in AI: Integrating Ancient Indian Wisdom into Large Language Models",
   "Year": 2025,
   "Authors": "Yash Triapthi; Abhinandit Singh Saunkhla; Aman Sharma",
@@ -172830,7 +173005,7 @@
   "FWCI": 2.4318
  },
  {
-  "ID": "LM04939",
+  "ID": "LM04944",
   "Title": "Decoding cultural tapestries: A deep dive into Indian social stigma patterns in large language models",
   "Year": 2025,
   "Authors": "Sridhar Jonnala; Rushikesh Tade; Nisha Mary Thomas",
@@ -172865,7 +173040,7 @@
   "FWCI": 2.3779
  },
  {
-  "ID": "LM04940",
+  "ID": "LM04945",
   "Title": "The Economics of AI Foundation Models: Openness, Competition, and Governance",
   "Year": 2024,
   "Authors": "Fasheng Xu; Xiaoyu Wang; Wei Chen; Karen Xie",
@@ -172900,7 +173075,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04941",
+  "ID": "LM04946",
   "Title": "Indian Pediatrics’ Policy Regarding Artificial Intelligence (AI) — Enabled Large Language Models",
   "Year": 2023,
   "Authors": "Devendra Mishra",
@@ -172935,7 +173110,7 @@
   "FWCI": 0.0357
  },
  {
-  "ID": "LM04942",
+  "ID": "LM04947",
   "Title": "The Influence of Generative AI on work-life balance among female software professionals in Sri Lanka",
   "Year": 2025,
   "Authors": "Sanduni Upeksha; D.G.S.P. Samarasinghe; Mithun Sanochana; Sapni S. Samarathunga; Lochana Rajamanthri; Takshila Samarakkody; Chathuni Aluthwala",
@@ -172970,7 +173145,7 @@
   "FWCI": 3.9817
  },
  {
-  "ID": "LM04943",
+  "ID": "LM04948",
   "Title": "Large Language Models and Geopolitical Competition",
   "Year": 2025,
   "Authors": "Srirath Goi Gohwong",
@@ -173005,7 +173180,7 @@
   "FWCI": 3.4736
  },
  {
-  "ID": "LM04944",
+  "ID": "LM04949",
   "Title": "Ethics and Governance of Large Language Models",
   "Year": 2025,
   "Authors": "Gabriele Rendace Presta; Andrea Paolella",
@@ -173040,7 +173215,7 @@
   "FWCI": 3.4736
  },
  {
-  "ID": "LM04945",
+  "ID": "LM04950",
   "Title": "ChatGPT and Pakistan",
   "Year": 2024,
   "Authors": "Muhammad Mooneeb Ali",
@@ -173075,7 +173250,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04946",
+  "ID": "LM04951",
   "Title": "Generative Artificial Intelligence (GenAI) Use Cases for the Banks in India",
   "Year": 2024,
   "Authors": "Srihari Subudhi",
@@ -173110,7 +173285,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04947",
+  "ID": "LM04952",
   "Title": "Generative Artificial Intelligence in Employee Retention and Engagement at IT Sectors With Reference to Chennai",
   "Year": 2025,
   "Authors": "S. S. Uma Sankari; A. Geetha",
@@ -173145,7 +173320,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04948",
+  "ID": "LM04953",
   "Title": "Generative AI in India",
   "Year": 2025,
   "Authors": "Debayan Gupta",
@@ -173180,7 +173355,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04949",
+  "ID": "LM04954",
   "Title": "Politics of Generative Artificial Intelligence in Empowering Education in India",
   "Year": 2025,
   "Authors": "Jian Li",
@@ -173215,7 +173390,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04950",
+  "ID": "LM04955",
   "Title": "Advancing AI for India: A Survey on Hierarchical Reasoning and Modular Enhancements in Large Language Models",
   "Year": 2025,
   "Authors": "Manish Kumar Gupta; Lakshmi Panat",
@@ -173250,7 +173425,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04951",
+  "ID": "LM04956",
   "Title": "Exploring generative AI in social sciences: A case study of selected universities in Karachi, Pakistan",
   "Year": 2026,
   "Authors": "Erum Muzaffar; Marium Fatima",
@@ -173285,7 +173460,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04952",
+  "ID": "LM04957",
   "Title": "AgriLLM-India: Empowering Indian Farmers Through Domain-Specific Large Language Models for Agricultural Knowledge and Decision Support",
   "Year": 2026,
   "Authors": "Vijay Kumar Damera; Deepthi Kalavala",
@@ -173320,7 +173495,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04953",
+  "ID": "LM04958",
   "Title": "Explicating Generative Artificial Intelligence Literacy of Management Students in India",
   "Year": 2026,
   "Authors": "Namrata Ladha; Priya Rathore",
@@ -173355,7 +173530,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04954",
+  "ID": "LM04959",
   "Title": "Autonomous 3D Bioprinting Pipelines: Foundation Models for Tissue Design, Vascularization, and Quality Assurance",
   "Year": 2026,
   "Authors": "Murali Krishna Pasupuleti",
@@ -173390,7 +173565,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04955",
+  "ID": "LM04960",
   "Title": "Generative AI and copyright law: a comparative study on copyright protection for AI generated audio-visual works in Sri Lanka, the US and India",
   "Year": 2026,
   "Authors": "H.M Oshan N. Piumantha",
@@ -173425,7 +173600,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04956",
+  "ID": "LM04961",
   "Title": "Foundation Models for Intelligent Financial Forecasting, Fraud Detection, and Market Risk Analytics",
   "Year": 2026,
   "Authors": "Murali Krishna Pasupuleti",
@@ -173460,7 +173635,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04957",
+  "ID": "LM04962",
   "Title": "Digital Artists’ Perceptions of Generative AI in South Asia: Insights from the South Asian Digital Art Archive (SADA)",
   "Year": 2026,
   "Authors": "Najam Ul Assar; Megan Smith",
@@ -173495,7 +173670,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04958",
+  "ID": "LM04963",
   "Title": "Generative AI: Challenges and Opportunities for Women in South Asia",
   "Year": 2026,
   "Authors": "Qurat Ul Ain Nizamani; Madhumita A. Takalkar; Anita Jahid",
@@ -173530,7 +173705,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04959",
+  "ID": "LM04964",
   "Title": "Machine Unlearning for Governance of Foundation Models",
   "Year": 2026,
   "Authors": "",
@@ -173565,7 +173740,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04960",
+  "ID": "LM04965",
   "Title": "Generative Artificial Intelligence and Educational Equity in Indian Higher Education",
   "Year": 2026,
   "Authors": "Neetu Chettri",
@@ -173600,7 +173775,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04961",
+  "ID": "LM04966",
   "Title": "Generative AI for Personalized Travel Planning, Hospitality Services and Multilingual Destination Experiences",
   "Year": 2026,
   "Authors": "Murali Krishna Pasupuleti",
@@ -173635,7 +173810,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04962",
+  "ID": "LM04967",
   "Title": "Impact of Large Language Model on Indian Economy",
   "Year": 2024,
   "Authors": "Jignesh Vidani",
@@ -173670,7 +173845,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04963",
+  "ID": "LM04968",
   "Title": "Optimal Power Grid Operations with Foundation Models",
   "Year": 2024,
   "Authors": "Alban Puech; Jonas Weiß; Thomas Brunschwiler; Hendrik F. Hamann",
@@ -173705,7 +173880,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04964",
+  "ID": "LM04969",
   "Title": "Predicting Climate Policy Support with Large Language Models: Assessing Accuracy and Bias in AI-Simulated Policy Support",
   "Year": 2025,
   "Authors": "Ziqian Xia; Jinquan Ye; Jianing Ding; Nathaniel Geiger; Ulf J.J. Hahnel; Ramit Debnath; Sara Madureira Constantino; Chao Zhang; Kristian Steensen Nielsen",
@@ -173740,7 +173915,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04965",
+  "ID": "LM04970",
   "Title": "Vietnam's Strategic Dilemma in Large Language Model Development: Comparative Lessons and Policy Imperatives",
   "Year": 2025,
   "Authors": "Dai-Long Ngo-Hoang",
@@ -173775,7 +173950,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04966",
+  "ID": "LM04971",
   "Title": "PolicyStory: Leveraging Large Language Models to Generate Comprehensible Summaries of Policy-News in India",
   "Year": 2025,
   "Authors": "Aatif Nisar Dar; Aditya Singh; Anirban Sen",
@@ -173810,7 +173985,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04967",
+  "ID": "LM04972",
   "Title": "Predicting Power-System Dynamic Trajectories with Foundation Models",
   "Year": 2026,
   "Authors": "Haoran Li; Lihao Mai; Chenhan Xiao; Erik Blasch; Yang Weng",
@@ -173845,7 +174020,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04968",
+  "ID": "LM04973",
   "Title": "MSAF: Model State Attestation Framework — Evidence-Based Governance for Foundation Models",
   "Year": 2026,
   "Authors": "Ryan Fields",
@@ -173880,7 +174055,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04969",
+  "ID": "LM04974",
   "Title": "Generative Artificial Intelligence In Crop Breeding: Transforming Indian Agriculture With A Karnataka Perspective",
   "Year": 2026,
   "Authors": "Dr. Ranganath G",
@@ -173915,7 +174090,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04970",
+  "ID": "LM04975",
   "Title": "Large Language Models in Archaeological Practice: Efficacy, Ethics, Risks, and Governance",
   "Year": 2026,
   "Authors": "Robert J. Bischoff",
@@ -173950,7 +174125,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04971",
+  "ID": "LM04976",
   "Title": "Data Sovereignty and Algorithmic Dependency in the Global South: A Systematic Review of Foundation Model Governance, Digital Inequity, and Decolonial Artificial Intelligence Frameworks",
   "Year": 2026,
   "Authors": "Dharma Patel",
@@ -173985,7 +174160,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04972",
+  "ID": "LM04977",
   "Title": "Benchmarking Open-Weight Foundation Models for Global AI Technical Governance",
   "Year": 2026,
   "Authors": "Jason Hung",
@@ -174020,7 +174195,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04973",
+  "ID": "LM04978",
   "Title": "AI Governance Framework for Large Language Models in Healthcare: Ensuring Trust, Privacy, Security and Regulatory Compliance",
   "Year": 2026,
   "Authors": "Mudassir Ali Mohammed; Dr Yohannes Tadesse",
@@ -174055,7 +174230,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04974",
+  "ID": "LM04979",
   "Title": "Sarvam 105B Wins 90% of Indian-Language Benchmarks Against GPT-4. Research Shows LLMs Are Not Court-Ready. The Supreme Court's June 2026 Regulations Require AI Outputs to Be Traceable. Probabilistic Models Cannot Produce Deterministic Constitutional Proof.",
   "Year": 2026,
   "Authors": "Akhil Sharma; Preethi Sharma",
@@ -174090,7 +174265,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04975",
+  "ID": "LM04980",
   "Title": "Mapping the Narrow Corridor with Large Language Models",
   "Year": 2026,
   "Authors": "Ebrahim M. Songhori",
@@ -174125,7 +174300,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04976",
+  "ID": "LM04981",
   "Title": "Generative Artificial Intelligence, Large Language Models, and Intelligent Assessment Systems: Implications for India",
   "Year": 2026,
   "Authors": "Dr. Aprajita Sharma Ajay Solanki",
@@ -174160,7 +174335,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04977",
+  "ID": "LM04982",
   "Title": "Generative Artificial Intelligence & its Military Applications by the US and China – Lessons for South Asia",
   "Year": 2024,
   "Authors": "Hananah Zarrar; Sher Ali Kakar",
@@ -174195,7 +174370,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04978",
+  "ID": "LM04983",
   "Title": "Glitchy vignettes of platform urbanism",
   "Year": 2019,
   "Authors": "Agnieszka Leszczynski",
@@ -174230,7 +174405,7 @@
   "FWCI": 21.8483
  },
  {
-  "ID": "LM04979",
+  "ID": "LM04984",
   "Title": "Questioning mobility as a service: Unanticipated implications for society and governance",
   "Year": 2019,
   "Authors": "Kate Pangbourne; Miloš N. Mladenović; Dominic Stead; Dimitris Milakis",
@@ -174265,7 +174440,7 @@
   "FWCI": 16.6636
  },
  {
-  "ID": "LM04980",
+  "ID": "LM04985",
   "Title": "Platform Urbanism",
   "Year": 2019,
   "Authors": "Sarah Barns",
@@ -174300,7 +174475,7 @@
   "FWCI": 20.9781
  },
  {
-  "ID": "LM04981",
+  "ID": "LM04986",
   "Title": "Regulate, replicate, and resist – the conjunctural geographies of platform urbanism",
   "Year": 2020,
   "Authors": "Mark J Graham",
@@ -174335,7 +174510,7 @@
   "FWCI": 66.3866
  },
  {
-  "ID": "LM04982",
+  "ID": "LM04987",
   "Title": "The rise of on-demand ‘Instant Deliveries’ in European cities",
   "Year": 2017,
   "Authors": "Lætitia Dablanc; Eléonora Morganti; Niklas Arvidsson; Johan Woxenius; Michael J. Browne; Neïla Saidi",
@@ -174370,7 +174545,7 @@
   "FWCI": 14.4844
  },
  {
-  "ID": "LM04983",
+  "ID": "LM04988",
   "Title": "City-as-a-Platform: The Rise of Participatory Innovation Platforms in Finnish Cities",
   "Year": 2016,
   "Authors": "Ari‐Veikko Anttiroiko",
@@ -174405,7 +174580,7 @@
   "FWCI": 17.3429
  },
  {
-  "ID": "LM04984",
+  "ID": "LM04989",
   "Title": "Gig work as migrant work: The platformization of migration infrastructure",
   "Year": 2021,
   "Authors": "Niels van Doorn; Darsana Vijay",
@@ -174440,7 +174615,7 @@
   "FWCI": 31.5938
  },
  {
-  "ID": "LM04985",
+  "ID": "LM04990",
   "Title": "Cyberspace and cityscapes: on the emergence of platform urbanism",
   "Year": 2020,
   "Authors": "Jathan Sadowski",
@@ -174475,7 +174650,7 @@
   "FWCI": 11.9432
  },
  {
-  "ID": "LM04986",
+  "ID": "LM04991",
   "Title": "Platform Urbanism: Negotiating Platform Ecosystems in Connected Cities",
   "Year": 2019,
   "Authors": "Sarah Barns",
@@ -174510,7 +174685,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04987",
+  "ID": "LM04992",
   "Title": "Does Sharing Mean Caring? Regulating Innovation in the Sharing Economy",
   "Year": 2015,
   "Authors": "Sofia Ranchordás",
@@ -174545,7 +174720,7 @@
   "FWCI": 45.7863
  },
  {
-  "ID": "LM04988",
+  "ID": "LM04993",
   "Title": "A new institution on the block: On platform urbanism and Airbnb citizenship",
   "Year": 2019,
   "Authors": "Niels van Doorn",
@@ -174580,7 +174755,7 @@
   "FWCI": 25.7695
  },
  {
-  "ID": "LM04989",
+  "ID": "LM04994",
   "Title": "Platform mobilities and the production of urban space: Toward a typology of platformization trajectories",
   "Year": 2020,
   "Authors": "John G. Stehlin; Michael Hodson; Andrew McMeekin",
@@ -174615,7 +174790,7 @@
   "FWCI": 26.6852
  },
  {
-  "ID": "LM04990",
+  "ID": "LM04995",
   "Title": "Temporal arbitrage, fragmented rush, and opportunistic behaviors: The labor politics of time in the platform economy",
   "Year": 2020,
   "Authors": "Yu-Jie Chen; Ping Sun",
@@ -174650,7 +174825,7 @@
   "FWCI": 18.4491
  },
  {
-  "ID": "LM04991",
+  "ID": "LM04996",
   "Title": "The Metaverse as a virtual form of data-driven smart cities: the ethics of the hyper-connectivity, datafication, algorithmization, and platformization of urban society",
   "Year": 2022,
   "Authors": "Simon Elias Bibri; Zaheer Allam",
@@ -174685,7 +174860,7 @@
   "FWCI": 13.6235
  },
  {
-  "ID": "LM04992",
+  "ID": "LM04997",
   "Title": "Platform urbanism in a pandemic: Dark stores, ghost kitchens, and the logistical-urban frontier",
   "Year": 2022,
   "Authors": "Aaron Shapiro",
@@ -174720,7 +174895,7 @@
   "FWCI": 12.2698
  },
  {
-  "ID": "LM04993",
+  "ID": "LM04998",
   "Title": "The Metaverse as a virtual form of data-driven smart urbanism: platformization and its underlying processes, institutional dimensions, and disruptive impacts",
   "Year": 2022,
   "Authors": "Simon Elias Bibri; Zaheer Allam; John Krogstie",
@@ -174755,7 +174930,7 @@
   "FWCI": 11.7342
  },
  {
-  "ID": "LM04994",
+  "ID": "LM04999",
   "Title": "Digital utility: Datafication, regulation, labor, and DiDi’s platformization of urban transport in China",
   "Year": 2019,
   "Authors": "Yu-Jie Chen; Jack Linchuan Qiu",
@@ -174790,7 +174965,7 @@
   "FWCI": 29.683
  },
  {
-  "ID": "LM04995",
+  "ID": "LM05000",
   "Title": "Platform urbanism and the Chinese smart city: the co-production and territorialisation of Hangzhou City Brain",
   "Year": 2020,
   "Authors": "Federico Caprotti; Dong Liu",
@@ -174825,7 +175000,7 @@
   "FWCI": 6.4909
  },
  {
-  "ID": "LM04996",
+  "ID": "LM05001",
   "Title": "Beyond the smart city: a typology of platform urbanism",
   "Year": 2022,
   "Authors": "Federico Caprotti; I-Chun Catherine Chang; Simon Joss",
@@ -174860,7 +175035,7 @@
   "FWCI": 8.6386
  },
  {
-  "ID": "LM04997",
+  "ID": "LM05002",
   "Title": "Platform methods: studying platform urbanism outside the black box",
   "Year": 2020,
   "Authors": "Desiree Fields; David Bissell; Rachel Macrorie",
@@ -174895,7 +175070,7 @@
   "FWCI": 8.8276
  },
  {
-  "ID": "LM04998",
+  "ID": "LM05003",
   "Title": "Who owns the future city? Phases of technological urbanism and shifts in sovereignty",
   "Year": 2020,
   "Authors": "Jathan Sadowski",
@@ -174930,7 +175105,7 @@
   "FWCI": 7.5294
  },
  {
-  "ID": "LM04999",
+  "ID": "LM05004",
   "Title": "Artificial intelligence of things for synergizing smarter eco-city brain, metabolism, and platform: Pioneering data-driven environmental governance",
   "Year": 2024,
   "Authors": "Simon Elias Bibri; Jeffrey R. Huang; John Krogstie",
@@ -174965,7 +175140,7 @@
   "FWCI": 19.1106
  },
  {
-  "ID": "LM05000",
+  "ID": "LM05005",
   "Title": "Affective platform urbanism: Changing habits of digital on-demand consumption",
   "Year": 2020,
   "Authors": "David Bissell",
@@ -175000,7 +175175,7 @@
   "FWCI": 14.8251
  },
  {
-  "ID": "LM05001",
+  "ID": "LM05006",
   "Title": "Urban Operating Systems",
   "Year": 2020,
   "Authors": "Andrés Luque‐Ayala; Simon Marvin",
@@ -175035,7 +175210,7 @@
   "FWCI": 11.3226
  },
  {
-  "ID": "LM05002",
+  "ID": "LM05007",
   "Title": "The Evolution of City-as-a-Platform: Smart Urban Development Governance with Collective Knowledge-Based Platform Urbanism",
   "Year": 2021,
   "Authors": "Palmyra Farinazzo Reis Repette; Jamile Sabatini‐Marques; Tan Yiğitcanlar; Denílson Sell; Eduardo Costa",
@@ -175070,7 +175245,7 @@
   "FWCI": 7.0945
  },
  {
-  "ID": "LM05003",
+  "ID": "LM05008",
   "Title": "Navigating platform urbanism",
   "Year": 2018,
   "Authors": "Shenja van der Graaf; Pieter Ballon",
@@ -175105,7 +175280,7 @@
   "FWCI": 7.2931
  },
  {
-  "ID": "LM05004",
+  "ID": "LM05009",
   "Title": "Platform governance and the rural–urban divide: Sellers' responses to design change",
   "Year": 2020,
   "Authors": "Wesley Wu-Yi Koo; Charles Eric Eesley",
@@ -175140,7 +175315,7 @@
   "FWCI": 8.8122
  },
  {
-  "ID": "LM05005",
+  "ID": "LM05010",
   "Title": "Urbanism Under Google: Lessons from Sidewalk Toronto",
   "Year": 2019,
   "Authors": "Ellen Goodman; Julia Powles",
@@ -175175,7 +175350,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05006",
+  "ID": "LM05011",
   "Title": "Understanding Sensor Cities: Insights from Technology Giant Company Driven Smart Urbanism Practices",
   "Year": 2020,
   "Authors": "Gaspare D’Amico; Pasqua L’Abbate; Wenjie Liao; Tan Yiğitcanlar; Giuseppe Ioppolo",
@@ -175210,7 +175385,7 @@
   "FWCI": 6.3611
  },
  {
-  "ID": "LM05007",
+  "ID": "LM05012",
   "Title": "Platform urbanism, smartphone applications and valuing data in a smart city",
   "Year": 2020,
   "Authors": "Gillian Rose; Parvati Raghuram; Sophie Watson; Edward Wigley",
@@ -175245,7 +175420,7 @@
   "FWCI": 6.4909
  },
  {
-  "ID": "LM05008",
+  "ID": "LM05013",
   "Title": "Biopolitical platforms: the perverse virtues of digital labour",
   "Year": 2021,
   "Authors": "Karen Gregory; Jathan Sadowski",
@@ -175280,7 +175455,7 @@
   "FWCI": 18.7134
  },
  {
-  "ID": "LM05009",
+  "ID": "LM05014",
   "Title": "# BlockSidewalk to Barcelona: Technological sovereignty and the social license to operate smart cities",
   "Year": 2020,
   "Authors": "Monique Mann; Peta Mitchell; Marcus Foth; Irina Anastasiu",
@@ -175315,7 +175490,7 @@
   "FWCI": 7.2247
  },
  {
-  "ID": "LM05010",
+  "ID": "LM05015",
   "Title": "Platform-mediated short-term rentals and gentrification in Madrid",
   "Year": 2020,
   "Authors": "Álvaro Ardura Urquiaga; Iñigo Lorente Riverola; Javier Ruiz Sánchez",
@@ -175350,7 +175525,7 @@
   "FWCI": 10.2582
  },
  {
-  "ID": "LM05011",
+  "ID": "LM05016",
   "Title": "Short-term rentals as digitally-mediated tourism gentrification: impacts on housing in New Orleans",
   "Year": 2020,
   "Authors": "Dustin Robertson; Christopher Oliver; Eric Nost",
@@ -175385,7 +175560,7 @@
   "FWCI": 10.3435
  },
  {
-  "ID": "LM05012",
+  "ID": "LM05017",
   "Title": "Mapping Platform Urbanism: Charting the Nuance of the Platform Pivot",
   "Year": 2020,
   "Authors": "Ashlin Lee; Adrian Mackenzie; Gavin J. D. Smith; Paul J. Box",
@@ -175420,7 +175595,7 @@
   "FWCI": 6.3611
  },
  {
-  "ID": "LM05013",
+  "ID": "LM05018",
   "Title": "Emerging platform urbanism in China: Reconfigurations of data, citizenship and materialities",
   "Year": 2019,
   "Authors": "Federico Caprotti; Dong Liu",
@@ -175455,7 +175630,7 @@
   "FWCI": 5.2504
  },
  {
-  "ID": "LM05014",
+  "ID": "LM05019",
   "Title": "From brick-and-mortar to location-less restaurant: The spatial fixing of on-demand food delivery platformization",
   "Year": 2022,
   "Authors": "Gianni Talamini; Weike Li; Xin Li",
@@ -175490,7 +175665,7 @@
   "FWCI": 17.4051
  },
  {
-  "ID": "LM05015",
+  "ID": "LM05020",
   "Title": "The Metaverse as a Virtual Model of Platform Urbanism: Its Converging AIoT, XReality, Neurotech, and Nanobiotech and Their Applications, Challenges, and Risks",
   "Year": 2023,
   "Authors": "Simon Elias Bibri",
@@ -175525,7 +175700,7 @@
   "FWCI": 6.3474
  },
  {
-  "ID": "LM05016",
+  "ID": "LM05021",
   "Title": "Silicon Savannahs and motorcycle taxis: A Southern perspective on the frontiers of platform urbanism",
   "Year": 2023,
   "Authors": "Liza Rose Cirolia; Rike Sitas; Andrea Pollio; Alexis Gatoni Sebarenzi; Prince K. Guma",
@@ -175560,7 +175735,7 @@
   "FWCI": 20.4816
  },
  {
-  "ID": "LM05017",
+  "ID": "LM05022",
   "Title": "Towards alternative platform futures in post-pandemic cities? A case study on platformization and changing socio-spatial relations in on-demand food delivery",
   "Year": 2022,
   "Authors": "Yannick Ecker; Anke Strüver",
@@ -175595,7 +175770,7 @@
   "FWCI": 13.4164
  },
  {
-  "ID": "LM05018",
+  "ID": "LM05023",
   "Title": "Sustaining urban labour markets: Situating migration and domestic work in India's ‘gig’ economy",
   "Year": 2022,
   "Authors": "Ambika Tandon; Aayush Rathi",
@@ -175630,7 +175805,7 @@
   "FWCI": 9.0652
  },
  {
-  "ID": "LM05019",
+  "ID": "LM05024",
   "Title": "Creative digipreneurs: Artistic entrepreneurial practices in platform-mediated space",
   "Year": 2023,
   "Authors": "Alica Repenning; Anna Oechslen",
@@ -175665,7 +175840,7 @@
   "FWCI": 15.1929
  },
  {
-  "ID": "LM05020",
+  "ID": "LM05025",
   "Title": "The Platformization of Student Housing and the Rise of Mid‐Term Rentals. The Case of Uniplaces in Lisbon",
   "Year": 2023,
   "Authors": "Agustín Cócola-Gant; Daniel Malet Calvo",
@@ -175700,7 +175875,7 @@
   "FWCI": 4.9279
  },
  {
-  "ID": "LM05021",
+  "ID": "LM05026",
   "Title": "Urban infrastructure reconfiguration and digital platforms: Who is in control?",
   "Year": 2024,
   "Authors": "Mike Hodson; Andrew McMeekin; Andy Lockhart",
@@ -175735,7 +175910,7 @@
   "FWCI": 4.042
  },
  {
-  "ID": "LM05022",
+  "ID": "LM05027",
   "Title": "Protest, pandemic, & platformisation in Hong Kong: Towards cities of alternatives",
   "Year": 2022,
   "Authors": "Yung Au",
@@ -175770,7 +175945,7 @@
   "FWCI": 1.4504
  },
  {
-  "ID": "LM05023",
+  "ID": "LM05028",
   "Title": "Splintering by Proxy: A Reflection on the Spatial Impacts and Distributed Agency of Platform Urbanism",
   "Year": 2022,
   "Authors": "Nancy Odendaal",
@@ -175805,7 +175980,7 @@
   "FWCI": 7.426
  },
  {
-  "ID": "LM05024",
+  "ID": "LM05029",
   "Title": "The Platformization of Public Participation: Considerations for Urban Planners Navigating New Engagement Tools",
   "Year": 2023,
   "Authors": "Pamela J. Robinson; Peter A. Johnson",
@@ -175840,7 +176015,7 @@
   "FWCI": 6.3651
  },
  {
-  "ID": "LM05025",
+  "ID": "LM05030",
   "Title": "Dispossession by platformization: The rise of on-demand recycling in urban India",
   "Year": 2023,
   "Authors": "Aman Luthra; Jake Lowe; Karina Ochoa Berkley",
@@ -175875,7 +176050,7 @@
   "FWCI": 6.3084
  },
  {
-  "ID": "LM05026",
+  "ID": "LM05031",
   "Title": "The spatial politics of platformization: Negotiating platform power in everyday taxi driving in Mumbai",
   "Year": 2023,
   "Authors": "Tobias Kuttler",
@@ -175910,7 +176085,7 @@
   "FWCI": 5.8578
  },
  {
-  "ID": "LM05027",
+  "ID": "LM05032",
   "Title": "Is the COVID‐19 pandemic accelerating the platformisation of the urban economy?",
   "Year": 2022,
   "Authors": "Daniela Ferreira; Renato Miguel do Carmo; Mário Vale",
@@ -175945,7 +176120,7 @@
   "FWCI": 3.6261
  },
  {
-  "ID": "LM05028",
+  "ID": "LM05033",
   "Title": "Spatiotemporal (In)justice in Digital Platforms: An Analysis of Food-Delivery Platforms in South India",
   "Year": 2020,
   "Authors": "Shyam Krishna",
@@ -175980,7 +176155,7 @@
   "FWCI": 1.6361
  },
  {
-  "ID": "LM05029",
+  "ID": "LM05034",
   "Title": "Platforms in the city and cities at the service of platforms: An urban perspective on the platform economy and workers’ responses",
   "Year": 2023,
   "Authors": "Maël Dif‐Pradalier; Thomas Jammet; Julie Tiberghien; Filippo Bignami; Niccolò Cuppini",
@@ -176015,7 +176190,7 @@
   "FWCI": 4.506
  },
  {
-  "ID": "LM05030",
+  "ID": "LM05035",
   "Title": "Platformization of Urban Life",
   "Year": 2022,
   "Authors": "",
@@ -176050,7 +176225,7 @@
   "FWCI": 2.5818
  },
  {
-  "ID": "LM05031",
+  "ID": "LM05036",
   "Title": "Digital platforms and the spatial transformation of urban villages in southern China: a case for platform-urban villagism?",
   "Year": 2024,
   "Authors": "Aiping Kuang; Godfrey Kwok-yung Yeung; Mingfeng Wang; Zhang Xiao",
@@ -176085,7 +176260,7 @@
   "FWCI": 9.808
  },
  {
-  "ID": "LM05032",
+  "ID": "LM05037",
   "Title": "Smart City Governance and the challenge of digital platforms within the public sector",
   "Year": 2022,
   "Authors": "Viviana Vaira",
@@ -176120,7 +176295,7 @@
   "FWCI": 2.4884
  },
  {
-  "ID": "LM05033",
+  "ID": "LM05038",
   "Title": "From platform capitalism to strategic place-based platformisation?",
   "Year": 2025,
   "Authors": "Mike Hodson; Andrew McMeekin; Andy Lockhart",
@@ -176155,7 +176330,7 @@
   "FWCI": 11.5987
  },
  {
-  "ID": "LM05034",
+  "ID": "LM05039",
   "Title": "Localized processes of platformization: The example of Surabaya",
   "Year": 2025,
   "Authors": "Alessandra Renzi; Janna Frenzel",
@@ -176190,7 +176365,7 @@
   "FWCI": 2.3317
  },
  {
-  "ID": "LM05035",
+  "ID": "LM05040",
   "Title": "Between algorithms and the streets",
   "Year": 2020,
   "Authors": "Anurag Mazumdar",
@@ -176225,7 +176400,7 @@
   "FWCI": 1.7449
  },
  {
-  "ID": "LM05036",
+  "ID": "LM05041",
   "Title": "Platformized Cities and Urban Life",
   "Year": 2022,
   "Authors": "Sybille Bauriedl; Anke Strüver",
@@ -176260,7 +176435,7 @@
   "FWCI": 0.7493
  },
  {
-  "ID": "LM05037",
+  "ID": "LM05042",
   "Title": "Parasitic platform urbanism in Dhaka and Melbourne",
   "Year": 2025,
   "Authors": "Lutfun Nahar Lata; Andrew Copolov",
@@ -176295,7 +176470,7 @@
   "FWCI": 5.7994
  },
  {
-  "ID": "LM05038",
+  "ID": "LM05043",
   "Title": "Conceptualising urban informality in the platform economy: regulation, legitimisation, value extraction and collective agency",
   "Year": 2025,
   "Authors": "Mindy Park; Christopher Foster; Richard Heeks",
@@ -176330,7 +176505,7 @@
   "FWCI": 6.3506
  },
  {
-  "ID": "LM05039",
+  "ID": "LM05044",
   "Title": "Handbook of Platform Urbanism",
   "Year": 2025,
   "Authors": "Annelien Smets; Pieter Ballon",
@@ -176365,7 +176540,7 @@
   "FWCI": 6.0504
  },
  {
-  "ID": "LM05040",
+  "ID": "LM05045",
   "Title": "Opportunities or challenges? Upgrading of periphery space with the rise of platform urbanism: Live streaming commerce in Yangtze River Delta, China",
   "Year": 2026,
   "Authors": "Lin Zou; Yiwen Zhu; Simin Yan",
@@ -176400,7 +176575,7 @@
   "FWCI": 26.1924
  },
  {
-  "ID": "LM05041",
+  "ID": "LM05046",
   "Title": "Counter-mapping platformization. Rethinking the spatial differentiation of platform control, labor relations and restaurant virtualization in proprietary markets for food-delivery",
   "Year": 2024,
   "Authors": "Yannick Ecker; Maximilian Lukowsky; Marius Wecker",
@@ -176435,7 +176610,7 @@
   "FWCI": 1.5324
  },
  {
-  "ID": "LM05042",
+  "ID": "LM05047",
   "Title": "Informal service labour and digital platforms in India’s marriage economy",
   "Year": 2026,
   "Authors": "Debalina Roy",
@@ -176470,7 +176645,7 @@
   "FWCI": 28.1578
  },
  {
-  "ID": "LM05043",
+  "ID": "LM05048",
   "Title": "Digital Tools for Low-Income Housing in Indian Cities",
   "Year": 2017,
   "Authors": "Rakhi Mehra; Maria Angela Ferrario; Swati Janu",
@@ -176505,7 +176680,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05044",
+  "ID": "LM05049",
   "Title": "PLATFORMISATION OF RIDE HAILING, FOOD DELIVERY AND DOMESTIC WORK SERVICES IN URBAN INDIA",
   "Year": 2021,
   "Authors": "Simiran Lalvani; Sarah Zia; Anushree Gupta; Aayush Rathi",
@@ -176540,7 +176715,7 @@
   "FWCI": 0.3472
  },
  {
-  "ID": "LM05045",
+  "ID": "LM05050",
   "Title": "Ciudades, comunicación digital y pospandemia: de las smart cities al urbanismo de plataformas",
   "Year": 2022,
   "Authors": "Luis Sebastián Ramón Rossi",
@@ -176575,7 +176750,7 @@
   "FWCI": 0.0994
  },
  {
-  "ID": "LM05046",
+  "ID": "LM05051",
   "Title": "Platform Urbanism and “Splintering Amenitization”: An Analysis of Canadian Cities",
   "Year": 2024,
   "Authors": "Anirudh Govind; Agnieszka Leszczynski; Ate Poorthuis",
@@ -176610,7 +176785,7 @@
   "FWCI": 1.0898
  },
  {
-  "ID": "LM05047",
+  "ID": "LM05052",
   "Title": "Unequal taxi geographies: Antagonisms in platform-driven urban restructuring in Delhi, India",
   "Year": 2025,
   "Authors": "Anurag Mazumdar",
@@ -176645,7 +176820,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM05048",
+  "ID": "LM05053",
   "Title": "Platformization in the southern city: Entrepreneurial volunteering and the suturing of collective life in Hyderabad",
   "Year": 2025,
   "Authors": "Anushree Gupta; Aalok Khandekar",
@@ -176680,7 +176855,7 @@
   "FWCI": 0.4663
  },
  {
-  "ID": "LM05049",
+  "ID": "LM05054",
   "Title": "Labor Productivity and Wage Inequality in the Gig Economy: Evidence from Bangladesh and Canada",
   "Year": 2025,
   "Authors": "",
@@ -176715,7 +176890,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM05050",
+  "ID": "LM05055",
   "Title": "Household platforms as transactional infrastructures: the case of Urban Company",
   "Year": 2026,
   "Authors": "Adrian Mabbott Athique; Akshaya Kumar",
@@ -176750,7 +176925,7 @@
   "FWCI": 14.0789
  },
  {
-  "ID": "LM05051",
+  "ID": "LM05056",
   "Title": "Platform Urbanization: How Digital Platforms (Avito, Yandex, Wildberries) Restructure the Space of Urban Agglomerations",
   "Year": 2026,
   "Authors": "D. D. Khamitov",
@@ -176785,7 +176960,7 @@
   "FWCI": 14.0789
  },
  {
-  "ID": "LM05052",
+  "ID": "LM05057",
   "Title": "Platform Politics and Silicon Savannahs: The rise of on-demand logistics and mobility in Nairobi and Kigali",
   "Year": 2022,
   "Authors": "Rike Sitas; Liza Rose Cirolia; Andrea Pollio; Alexis Gatoni Sebarenzi; Price Guma; Anirudh Rajashekar",
@@ -176820,7 +176995,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05053",
+  "ID": "LM05058",
   "Title": "Conclusion: On Understanding Situated Platform Urbanism",
   "Year": 2023,
   "Authors": "Nancy Odendaal",
@@ -176855,7 +177030,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05054",
+  "ID": "LM05059",
   "Title": "UBER IN EXURBIA : Peripheral Platformization, Post‐Suburbanization and the Public–Private Ridehail Partnership in the Toronto City Region",
   "Year": 2024,
   "Authors": "Fabian Namberger",
@@ -176890,7 +177065,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05055",
+  "ID": "LM05060",
   "Title": "Cities and Digital Platforms",
   "Year": 2025,
   "Authors": "Elham Bahmanteymouri",
@@ -176925,7 +177100,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05056",
+  "ID": "LM05061",
   "Title": "Platform co-operatives in the age of gig economy: A case study of SEWA cooperative federation",
   "Year": 2025,
   "Authors": "Sreeda TP",
@@ -176960,7 +177135,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05057",
+  "ID": "LM05062",
   "Title": "The Gig Economy in India: Economic Empowerment or Precarious Employment?",
   "Year": 2025,
   "Authors": "Heena Gandhi",
@@ -176995,7 +177170,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05058",
+  "ID": "LM05063",
   "Title": "Design in the ‘hybrid city’: DIY meets platform urbanism in Dhaka’s informal settlements",
   "Year": 2016,
   "Authors": "Teresa Swist; Liam Magee; David Sweeting",
@@ -177030,7 +177205,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05059",
+  "ID": "LM05064",
   "Title": "Gig Workers in India- a Legal Perspective",
   "Year": 2025,
   "Authors": "BHASWATI TALUKDAR; Bimal Kumar Baishya",
@@ -177065,7 +177240,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05060",
+  "ID": "LM05065",
   "Title": "The Virtual City in the Twenty-First Century: Exploring the Role of Digital Platforms in Urban Evolution",
   "Year": 2025,
   "Authors": "Patricio Julián Feldman; Susana Finquelievich",
@@ -177100,7 +177275,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05061",
+  "ID": "LM05066",
   "Title": "Platform Urbanism and Land-Use Transformation in Shanghai: Dual Neighborhood Impacts of E-Commerce Logistics in Relation to the 2017–2035 Master Plan",
   "Year": 2025,
   "Authors": "Jane Zheng; Yuanyi Zhao",
@@ -177135,7 +177310,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05062",
+  "ID": "LM05067",
   "Title": "Platform Urbanism and Culinary Logistics: Mobility, Infrastructure, and Micro-Entrepreneurship in Post-Digital Kolkata",
   "Year": 2026,
   "Authors": "Sayon Pramanik; Sampurna Biswas",
@@ -177170,7 +177345,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05063",
+  "ID": "LM05068",
   "Title": "Platformisation, technical citizenship and making space for rights in the city",
   "Year": 2025,
   "Authors": "Aphra Kerr; Jos Pierson",
@@ -177205,7 +177380,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05064",
+  "ID": "LM05069",
   "Title": "GIG ECONOMY IN INDIA: OPPORTUNITIES AND CHALLENGES",
   "Year": 2026,
   "Authors": "Tushar Kumar Goyal",
@@ -177240,7 +177415,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05065",
+  "ID": "LM05070",
   "Title": "ANALYSIS OF GIG WORKERS IN THE INDIAN LABOUR MARKET WITH SPECIAL REFERENCE TO BENGALURU URBAN",
   "Year": 2025,
   "Authors": "ANU THOMAS; DR. CJ LAKSHMI",
@@ -177275,7 +177450,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05066",
+  "ID": "LM05071",
   "Title": "Youth Participation and Work Experience in India’s Gig Economy: Evidence from Bengaluru",
   "Year": 2026,
   "Authors": "Ananya Sahoo; Jennifer Fernandes",
@@ -177310,7 +177485,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05067",
+  "ID": "LM05072",
   "Title": "The digitalization of urban governance in India : platforms, processes and people in Bhubaneswar",
   "Year": 2025,
   "Authors": "Khaliq Parkar",
@@ -177345,7 +177520,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05068",
+  "ID": "LM05073",
   "Title": "Delivering food, navigating stigma: the social experience of gig workers in urban India",
   "Year": 2026,
   "Authors": "Mohammad Sajjad Hussain",
@@ -177380,7 +177555,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05069",
+  "ID": "LM05074",
   "Title": "India's Shift to the Instant Service Economy: Platform Growth, Urban Consumption, and Socioeconomic Impact",
   "Year": 2026,
   "Authors": "Myra Abhishek Chamaria",
@@ -177415,7 +177590,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05070",
+  "ID": "LM05075",
   "Title": "Decent Work, Inclusion, and Growth in Gig Workers of India: The Viksit Bharat Vision",
   "Year": 2026,
   "Authors": "Naynith Nitesh Rathod; Yuvraj Singh Kimtee; Dikshit Jain; Kishan T Patel",
@@ -177450,7 +177625,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05071",
+  "ID": "LM05076",
   "Title": "Digital platforms for micro and small enterprises in India: performance, future of work and sustainability implications",
   "Year": 2026,
   "Authors": "Sumesh P. Soman; Bino Paul G. D.; Unmesh Patnaik; Kamal Kumar Murari",
@@ -177485,7 +177660,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05072",
+  "ID": "LM05077",
   "Title": "The Platformisation of Performance Traditions: Archiving Nachni Performances on Digital Platforms and the Parallel Economy of YouTubers in Purulia, West Bengal",
   "Year": 2026,
   "Authors": "Sudatta Ghosh",
@@ -177520,7 +177695,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05073",
+  "ID": "LM05078",
   "Title": "From unpaid care work to gig labour: Women and the platform economy in India",
   "Year": 2026,
   "Authors": "Sushmitha BC; Sunitha V Ganiger",
@@ -177555,7 +177730,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05074",
+  "ID": "LM05079",
   "Title": "Rethinking Platform Urbanization from the Perspective of Latin American Cities: Theoretical Insights and Empirical Contributions of Regional Research on Airbnb",
   "Year": 2026,
   "Authors": "Pedro Henrique Cícero Ferreira; João Bosco Moura Tonucci Filho",
@@ -177590,7 +177765,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05075",
+  "ID": "LM05080",
   "Title": "Converging Platforms: Media, Precarity and Everyday Resistance among Urban Gig Workers – A Case Study of Delhi",
   "Year": 2026,
   "Authors": "Jagriti Lamba; Anjan Sen",
@@ -177625,7 +177800,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05076",
+  "ID": "LM05081",
   "Title": "Algorithmic Governance, Local Government Regulation, And Sustainable Labour Policy: A Structural Equation Modelling Approach To Gig Delivery Workers In South India",
   "Year": 2026,
   "Authors": "R. Swathi Lakshmi, S. Manimaran, P.S.Venkateswaran",
@@ -177660,7 +177835,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05077",
+  "ID": "LM05082",
   "Title": "From crisis to governmental fix: platformisation-as-negotiation in authoritarian Vietnam",
   "Year": 2026,
   "Authors": "Marie Gibert‐Flutre",
@@ -177695,7 +177870,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05078",
+  "ID": "LM05083",
   "Title": "Learning from the Margin in Platform Urbanism",
   "Year": 2026,
   "Authors": "Tooran Alizadeh; Deepti Prasad",
@@ -177730,7 +177905,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05079",
+  "ID": "LM05084",
   "Title": "Planning for platform urbanism",
   "Year": 2026,
   "Authors": "Subina Shrestha",
@@ -177765,7 +177940,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05080",
+  "ID": "LM05085",
   "Title": "Accumulation by platformization: Digital platforms in urban space as a form of governance and enclosure",
   "Year": 2026,
   "Authors": "Francisco Fernández-Trujillo Moares; Ana Santamarina; Jorge Sequera",
@@ -177800,7 +177975,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05081",
+  "ID": "LM05086",
   "Title": "From Informal Labour to Digital Platforms: The Sustainability of Assam's Emerging Gig Economy",
   "Year": 2026,
   "Authors": "Arabinda Medhi",
@@ -177835,7 +178010,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05082",
+  "ID": "LM05087",
   "Title": "The Mental Health Toll of Gig Work in Pakistan: A Structural Equation Modeling Analysis of Work Intensity, Financial Uncertainty, And Algorithmic Control",
   "Year": 2026,
   "Authors": "Muhammad Hamza; Dr. Zahida Llyas; Majid Ali; Dr. Nasir Mahmood; Temoor Anjum",
@@ -177870,7 +178045,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05083",
+  "ID": "LM05088",
   "Title": "The Rise of Digital Labor Platforms in India: Gig Economy, Labor Rights, and Economic Inequality",
   "Year": 2024,
   "Authors": "Shunsuke Sato",
@@ -177905,7 +178080,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05084",
+  "ID": "LM05089",
   "Title": "Platform Urbanism and the Fractal City: Deconstructing Gentrification, Megacity Hypertrophy, and the Algorithmic Periphery",
   "Year": 2025,
   "Authors": "Revista, Zen; GEOGRAPHY, 10",
@@ -177940,7 +178115,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05085",
+  "ID": "LM05090",
   "Title": "Fairwork India Ratings 2020:Labour Standards in the Gig Economy",
   "Year": 2020,
   "Authors": "Parthasarathy, Balaji; Srinivasan, Janaki; Neerukonda, Mounika; Taduri, Pradyumna; Ustek-Spilda, Funda; Vadekkethil, Aradhana Cherupara; Graham, Mark; Heeks, Richard; id_orcid 0000-0002-4551-2208",
@@ -177975,7 +178150,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05086",
+  "ID": "LM05091",
   "Title": "Exploring the Socio - Economic Conditions of Gig Workers in Hyderabad",
   "Year": 2026,
   "Authors": "Dr. J. Ratna Prabhakar; Mrs. Chaviti Sai Vani",
@@ -178010,7 +178185,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05087",
+  "ID": "LM05092",
   "Title": "GIG ECONOMY WORKERS AND LABOUR PROTECTION IN INDIA: REIMAGINING EMPLOYMENT RIGHTS IN THE DIGITAL AGE",
   "Year": 2026,
   "Authors": "Taranbir Singh",
@@ -178045,7 +178220,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05088",
+  "ID": "LM05093",
   "Title": "Socio-Economic and Career Dynamics of Gig Economy Workers in Karnataka: A Conceptual Review of Platform-Based Employment",
   "Year": 2026,
   "Authors": "Shetty, Praveena; Dr Ishwara P",
@@ -178080,7 +178255,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05089",
+  "ID": "LM05094",
   "Title": "From subordination to freedom? An ethnography of Bangalore’s auto- rickshaw drivers and ride-hailing economy",
   "Year": 2026,
   "Authors": "Shivani Daxini",
@@ -178115,7 +178290,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05090",
+  "ID": "LM05095",
   "Title": "AN ANALYTICAL STUDY OF THE PROBLEMS AND CHALLENGES FACED BY GIG ECONOMY WORKERS AND THEIR IMPACT ON JOB SATISFACTION IN BANGALORE CITY",
   "Year": 2026,
   "Authors": "Dr. Radhika.B",
@@ -178150,7 +178325,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05091",
+  "ID": "LM05096",
   "Title": "La plataformización como problema urbano: limitaciones y desafíos en la gobernanza de plataformas",
   "Year": 2024,
   "Authors": "Patricio Feldman",
@@ -178185,7 +178360,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05092",
+  "ID": "LM05097",
   "Title": "The Penetration of the Gig Economy in Post-Pandemic India: Transforming the Traditional Economic Landscape",
   "Year": 2025,
   "Authors": "Aahana Jain",

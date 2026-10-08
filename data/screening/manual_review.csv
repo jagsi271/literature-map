@@ -971,3 +971,29 @@ W7154490736,B12,exclude,"Claude (manual review, Stage 2)",imaginaries in biomedi
 W7204863957,B12,include,"Claude (manual review, Stage 2)","data flows in education through STS (infrastructure, power)"
 W4393317822,B12,exclude,"Claude (manual review, Stage 2)",digital participatory biodiversity science
 W7128589810,B12,exclude,"Claude (manual review, Stage 2)",digital participatory biodiversity science (duplicate)
+W7122669043,B13,exclude,"Claude (manual review, Stage 2)",gender digital divide in internet access (B7)
+W26321722,B13,include,"Claude (manual review, Stage 2)","mobile communication use in agriculture, Karnataka"
+W4381612102,B13,include,"Claude (manual review, Stage 2)",ICT4D in Afghanistan
+W2117853829,B13,include,"Claude (manual review, Stage 2)",ICT4D projects in Nepal's mountain regions
+W2048799165,B13,exclude,"Claude (manual review, Stage 2)",ecological momentary health interventions
+W4280614820,B13,exclude,"Claude (manual review, Stage 2)",glioblastoma epidemiology
+W2142057670,B13,exclude,"Claude (manual review, Stage 2)",emotion-sensing phone platform
+W3127663722,B13,exclude,"Claude (manual review, Stage 2)",digital platforms for development (B1)
+W1993275348,B13,include,"Claude (manual review, Stage 2)","cell-phone use, work-family spillover and distress"
+W4294741352,B13,exclude,"Claude (manual review, Stage 2)",6G technology review
+W2094331245,B13,exclude,"Claude (manual review, Stage 2)","race, gender and IT use (B7)"
+W1527254971,B13,exclude,"Claude (manual review, Stage 2)",location-based services (technical)
+W2741096981,B13,include,"Claude (manual review, Stage 2)",Mobile Communication and Society (flag false positive)
+W2194774191,B13,exclude,"Claude (manual review, Stage 2)",analytic thinking psychology
+W4416111800,B13,exclude,"Claude (manual review, Stage 2)",heart-rate monitoring
+W4320474032,B13,exclude,"Claude (manual review, Stage 2)",media repertoires in disrupted everyday life (general media use)
+W4417446055,B13,exclude,"Claude (manual review, Stage 2)",smile monitoring
+W4311204744,B13,exclude,"Claude (manual review, Stage 2)",alcohol-use smartphone tasks
+W1518746045,B13,exclude,"Claude (manual review, Stage 2)",mobile communication engineering
+W4390881897,B13,exclude,"Claude (manual review, Stage 2)",6G outlook
+W7164454174,B13,exclude,"Claude (manual review, Stage 2)",6G
+W4392980282,B13,exclude,"Claude (manual review, Stage 2)",emergency-call network design
+W7216659191,B13,exclude,"Claude (manual review, Stage 2)",mobile communication generations
+W4229442680,B13,exclude,"Claude (manual review, Stage 2)",short-video addiction
+W4412915776,B13,exclude,"Claude (manual review, Stage 2)",5G dual connectivity
+W3155925435,B13,exclude,"Claude (manual review, Stage 2)",mobile internet offload architecture

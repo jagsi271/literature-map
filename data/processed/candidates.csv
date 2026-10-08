@@ -4896,7 +4896,7 @@ W2466570333,B13,india,B13_india_q1,18,Mobile phones based agro-advisories role i
 W4404148121,B13,india,B13_india_q1,19,Digital revolution and the gender divide: factors affecting mobile phone use in India,2024,article,4,True,include,6,rules,include
 W2101755435,B13,india,B13_india_q1,20,Using mobile phones to promote lifelong learning among rural women in Southern India,2010,article,77,True,include,5,rules,include
 W2590979747,B13,india,B13_india_q1,21,Mobile Phone Intimacies and Moral Panics in India,2010,article,3,True,include,6,rules,include
-W7122669043,B13,india,B13_india_q1,22,Gender Inequality in Internet Access During COVID-19 in South Asia: Evidence from Pakistan,2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7122669043,B13,india,B13_india_q1,22,Gender Inequality in Internet Access During COVID-19 in South Asia: Evidence from Pakistan,2026,article,0,True,borderline,1,core concept mentioned once | manual: gender digital divide in internet access (B7),exclude
 W2788793237,B13,india,B13_india_q1,23,"Mobile phones, nutrition and health in Tanzania: Initial exploratory qualitative study report. External evaluation of mobile phone technology-based nutrition and agriculture advisory services in Africa and South Asia",2017,report,2,True,include,5,rules,include
 W3157300437,B13,india,B13_india_q1,24,Access to Mobile Phones and Women's Socio-Economic Empowerment in Rural Areas of Bangladesh: Understanding Gender Relation Transformation,2021,article,28,True,include,6,rules,include
 W2408204738,B13,india,B13_india_q2,1,"ICT4D Experiences from Kerala, India",2005,article,1,True,include,5,rules,include
@@ -4908,11 +4908,11 @@ W61742666,B13,india,B13_india_q2,6,Education for All in Sri Lanka : ICT4D Hubs f
 W2061314343,B13,india,B13_india_q2,7,The human infrastructure of ICTD,2010,conference-paper,104,True,include,6,rules,include
 W2468791974,B13,india,B13_india_q2,8,Reflection of ‘access’ in ICT4D evaluation: The case of Nenasala telecenter initiative in Sri Lanka,2014,article,0,False,include,3,no abstract; core (and context) in title,include
 W3142035133,B13,india,B13_india_q2,9,E for express1: “Seeing” the Indian State through ICTD,2009,conference-paper,18,True,include,5,rules,include
-W26321722,B13,india,B13_india_q2,10,"Usage of mobile communication for sustainable agricultural development in Karnataka, India",2015,article,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W4381612102,B13,india,B13_india_q2,11,Lost in Afghanistan: Can the World Take ICT4D Seriously?,2023,article,1,True,borderline,3,stub abstract (possible book review),pending
+W26321722,B13,india,B13_india_q2,10,"Usage of mobile communication for sustainable agricultural development in Karnataka, India",2015,article,2,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: mobile communication use in agriculture, Karnataka",include
+W4381612102,B13,india,B13_india_q2,11,Lost in Afghanistan: Can the World Take ICT4D Seriously?,2023,article,1,True,borderline,3,stub abstract (possible book review) | manual: ICT4D in Afghanistan,include
 W2024737407,B13,india,B13_india_q2,12,"Revisiting the fishers of Kerala, India",2013,conference-paper,33,True,include,3,rules,include
 W1981578948,B13,india,B13_india_q2,13,The PC in an Indian urban slum: enterprise and entrepreneurship in ICT4D 2.0,2012,article,40,True,include,4,rules,include
-W2117853829,B13,india,B13_india_q2,14,Demystifying the Possibilities of ICT4D in the Mountain Regions of Nepal,2011,conference-paper,24,True,borderline,5,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W2117853829,B13,india,B13_india_q2,14,Demystifying the Possibilities of ICT4D in the Mountain Regions of Nepal,2011,conference-paper,24,True,borderline,5,flag: \b(sensor network|wireless|5g|6g|edge co | manual: ICT4D projects in Nepal's mountain regions,include
 W2150399447,B13,india,B13_india_q2,15,E for express 1 : “Seeing” the Indian State through ICTD,2009,article,13,True,include,5,rules,include
 W3036695520,B13,india,B13_india_q2,16,"Privacy Vulnerabilities in Public Digital Service Centers in Dhaka, Bangladesh",2020,conference-paper,26,True,include,2,rules,include
 W4400168584,B13,india,B13_india_q2,17,Exploring the Use of Mobile Communication in Achieving Sustainable Development Goals: An Indian Perspective,2024,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
@@ -4955,7 +4955,7 @@ W2804724448,B13,landmarks,B13_landmarks,5,International guidelines for groin her
 W2149967206,B13,landmarks,B13_landmarks,6,Value-based Adoption of Mobile Internet: An empirical investigation,2005,article,2084,False,include,3,no abstract; core (and context) in title,include
 W3126686235,B13,landmarks,B13_landmarks,7,The Road Towards 6G: A Comprehensive Survey,2021,article,1622,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W2559928430,B13,landmarks,B13_landmarks,8,The long-run poverty and gender impacts of mobile money,2016,article,1584,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2048799165,B13,landmarks,B13_landmarks,9,Ecological momentary interventions: Incorporating mobile technology into psychosocial and health behaviour treatments,2009,article,1529,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2048799165,B13,landmarks,B13_landmarks,9,Ecological momentary interventions: Incorporating mobile technology into psychosocial and health behaviour treatments,2009,article,1529,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: ecological momentary health interventions,exclude
 W2284219800,B13,landmarks,B13_landmarks,10,Culture’s consequences: Economic barriers to owning mobile phones experienced by women in India,2015,article,1404,False,include,3,no abstract; core (and context) in title,include
 W2096769597,B13,landmarks,B13_landmarks,11,The effects of post-adoption beliefs on the expectation-confirmation model for information technology continuance,2006,article,1337,False,exclude,0,core concept missing,exclude
 W1559489076,B13,landmarks,B13_landmarks,12,The mobile connection: the cell phone's impact on society,2004,book-review,1321,True,exclude,0,type book-review,exclude
@@ -4982,7 +4982,7 @@ W2327214248,B13,landmarks,B13_landmarks,32,"Rare Earth Elements: Minerals, Mines
 W2915905517,B13,landmarks,B13_landmarks,33,A Survey of Machine Learning Techniques Applied to Software Defined Networking (SDN): Research Issues and Challenges,2018,article,705,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2003255646,B13,landmarks,B13_landmarks,34,Uses of Music in Everyday Life,2004,article,669,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2127963147,B13,landmarks,B13_landmarks,35,"PEIR, the personal environmental impact report, as a platform for participatory sensing systems research",2009,conference-paper,667,True,include,2,rules,include
-W4280614820,B13,landmarks,B13_landmarks,36,Epidemiology of Glioblastoma Multiforme–Literature Review,2022,article,652,True,borderline,1,core concept mentioned once,pending
+W4280614820,B13,landmarks,B13_landmarks,36,Epidemiology of Glioblastoma Multiforme–Literature Review,2022,article,652,True,borderline,1,core concept mentioned once | manual: glioblastoma epidemiology,exclude
 W3016325548,B13,landmarks,B13_landmarks,37,"A Survey on Resource Allocation for 5G Heterogeneous Networks: Current Research, Future Trends, and Challenges",2021,article,642,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W2165016052,B13,landmarks,B13_landmarks,38,ICT4D 2.0: The Next Phase of Applying ICT for International Development,2008,article,641,True,include,6,rules,include
 W3031856734,B13,landmarks,B13_landmarks,39,Understanding the attitude and intention to use smartphone chatbots for shopping,2020,article,640,False,include,3,no abstract; core (and context) in title,include
@@ -5001,9 +5001,9 @@ W2797816609,B13,landmarks,B13_landmarks,51,When Mobile Blockchain Meets Edge Com
 W2144193487,B13,landmarks,B13_landmarks,52,Mobile Phone Sensing Systems: A Survey,2012,article,559,True,include,6,rules,include
 W1495304277,B13,landmarks,B13_landmarks,53,Poverty Lines in Theory and Practice,1998,book,554,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4312940001,B13,landmarks,B13_landmarks,54,"A Full Dive Into Realizing the Edge-Enabled Metaverse: Visions, Enabling Technologies, and Challenges",2022,article,553,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2142057670,B13,landmarks,B13_landmarks,55,EmotionSense,2010,conference-paper,517,True,borderline,1,core concept mentioned once,pending
-W3127663722,B13,landmarks,B13_landmarks,56,Digital platforms for development: Foundations and research agenda,2021,article,513,True,borderline,1,core concept mentioned once,pending
-W1993275348,B13,landmarks,B13_landmarks,57,"Blurring Boundaries? Linking Technology Use, Spillover, Individual Distress, and Family Satisfaction",2005,article,513,True,borderline,1,core concept mentioned once,pending
+W2142057670,B13,landmarks,B13_landmarks,55,EmotionSense,2010,conference-paper,517,True,borderline,1,core concept mentioned once | manual: emotion-sensing phone platform,exclude
+W3127663722,B13,landmarks,B13_landmarks,56,Digital platforms for development: Foundations and research agenda,2021,article,513,True,borderline,1,core concept mentioned once | manual: digital platforms for development (B1),exclude
+W1993275348,B13,landmarks,B13_landmarks,57,"Blurring Boundaries? Linking Technology Use, Spillover, Individual Distress, and Family Satisfaction",2005,article,513,True,borderline,1,"core concept mentioned once | manual: cell-phone use, work-family spillover and distress",include
 W1997772859,B13,landmarks,B13_landmarks,58,Towards a feminist HCI methodology,2011,conference-paper,511,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2555209581,B13,landmarks,B13_landmarks,59,UniMiB SHAR: A Dataset for Human Activity Recognition Using Acceleration Data from Smartphones,2017,article,510,True,include,5,rules,include
 W2995289242,B13,landmarks,B13_landmarks,60,Realizing the potential of digital development: The case of agricultural advice,2019,article,506,True,include,3,rules,include
@@ -5015,7 +5015,7 @@ W2022317205,B13,landmarks,B13_landmarks,65,ContextPhone: A Prototyping Platform 
 W2975158636,B13,landmarks,B13_landmarks,66,Key drivers and research challenges for 6G ubiquitous wireless intelligence,2019,article,482,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W2586472050,B13,landmarks,B13_landmarks,67,Visual analogue scales (VAS): Measuring instruments for the documentation of symptoms and therapy monitoring in cases of allergic rhinitis in everyday health care,2017,article,480,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W1982728102,B13,landmarks,B13_landmarks,68,"Mobile banking and economic development: linking adoption, impact, and use",2008,article,480,True,include,2,rules,include
-W4294741352,B13,landmarks,B13_landmarks,69,"6G Mobile Communication Technology: Requirements, Targets, Applications, Challenges, Advantages, and Opportunities",2022,article,477,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4294741352,B13,landmarks,B13_landmarks,69,"6G Mobile Communication Technology: Requirements, Targets, Applications, Challenges, Advantages, and Opportunities",2022,article,477,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: 6G technology review,exclude
 W2008578270,B13,landmarks,B13_landmarks,70,Analysis of users and non-users of smartphone applications,2009,article,472,False,include,3,no abstract; core (and context) in title,include
 W622533660,B13,landmarks,B13_landmarks,71,Brands: Meaning and Value in Media Culture,2006,article,468,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W1481956422,B13,landmarks,B13_landmarks,72,Cell Phone Culture: Mobile Technology in Everyday Life,2006,article,462,True,include,5,rules,include
@@ -5032,18 +5032,18 @@ W1583075929,B13,landmarks,B13_landmarks,82,NoiseTube: Measuring and mapping nois
 W2056591916,B13,landmarks,B13_landmarks,83,"BeWell: A Smartphone Application to Monitor, Model and Promote Wellbeing",2011,conference-paper,416,True,include,4,rules,include
 W2532095825,B13,landmarks,B13_landmarks,84,5G Millimeter-Wave Antenna Array: Design and Challenges,2016,article,415,True,exclude,2,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W3135089279,B13,landmarks,B13_landmarks,85,A Tutorial on Ultrareliable and Low-Latency Communications in 6G: Integrating Domain Knowledge Into Deep Learning,2021,article,412,True,exclude,2,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
-W2094331245,B13,landmarks,B13_landmarks,86,"Race, Gender, and Information Technology Use: The New Digital Divide",2008,article,403,True,borderline,1,core concept mentioned once,pending
+W2094331245,B13,landmarks,B13_landmarks,86,"Race, Gender, and Information Technology Use: The New Digital Divide",2008,article,403,True,borderline,1,"core concept mentioned once | manual: race, gender and IT use (B7)",exclude
 W2022106248,B13,landmarks,B13_landmarks,87,"A GPS-based bicycle route choice model for San Francisco, California",2011,article,400,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2569080466,B13,landmarks,B13_landmarks,88,ICT4D research: reflections on history and future agenda,2017,article,399,True,include,6,rules,include
 W2120909070,B13,landmarks,B13_landmarks,89,Flowers or a robot army?,2008,conference-paper,399,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2334884533,B13,landmarks,B13_landmarks,90,Determinants of continuance intention to use the smartphone banking services,2016,article,396,True,include,6,rules,include
 W2056068852,B13,landmarks,B13_landmarks,91,Mining large-scale smartphone data for personality studies,2011,article,390,False,include,3,no abstract; core (and context) in title,include
-W1527254971,B13,landmarks,B13_landmarks,92,Location-Based Services,2010,reference-entry,389,True,borderline,1,core concept mentioned once,pending
-W2741096981,B13,landmarks,B13_landmarks,93,Mobile Communication and Society,2006,book,388,True,borderline,5,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W1527254971,B13,landmarks,B13_landmarks,92,Location-Based Services,2010,reference-entry,389,True,borderline,1,core concept mentioned once | manual: location-based services (technical),exclude
+W2741096981,B13,landmarks,B13_landmarks,93,Mobile Communication and Society,2006,book,388,True,borderline,5,flag: \b(sensor network|wireless|5g|6g|edge co | manual: Mobile Communication and Society (flag false positive),include
 W2594855606,B13,landmarks,B13_landmarks,94,Acceptance and Commitment Therapy: A Transdiagnostic Behavioral Intervention for Mental Health and Medical Conditions,2017,article,379,False,exclude,0,core concept missing,exclude
 W1486457878,B13,landmarks,B13_landmarks,95,Fog Computing: Focusing on Mobile Users at the Edge,2015,preprint,378,True,exclude,2,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W2889156017,B13,landmarks,B13_landmarks,96,Acceptance and use of mobile banking: an application of UTAUT2,2018,article,374,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2194774191,B13,landmarks,B13_landmarks,97,Everyday Consequences of Analytic Thinking,2015,article,371,True,borderline,1,core concept mentioned once,pending
+W2194774191,B13,landmarks,B13_landmarks,97,Everyday Consequences of Analytic Thinking,2015,article,371,True,borderline,1,core concept mentioned once | manual: analytic thinking psychology,exclude
 W1947182982,B13,landmarks,B13_landmarks,98,The Cell Phone,2020,book,370,True,include,6,rules,include
 W2606540748,B13,landmarks,B13_landmarks,99,Programming experience promotes higher STEM motivation among first-grade girls,2017,article,370,False,exclude,0,core concept missing,exclude
 W2059615651,B13,landmarks,B13_landmarks,100,Adapting to the mobile world: A model of smartphone use,2014,article,368,False,include,3,no abstract; core (and context) in title,include
@@ -5051,22 +5051,22 @@ W7124157396,B13,recent,B13_recent_q1,1,The Mobile Phone in Everyday Life,2026,ar
 W7212118642,B13,recent,B13_recent_q1,2,Adolescents perceptions and experiences of mobile phone use in everyday life a qualitative inquiry,2026,article,0,True,include,6,rules,include
 W4386117319,B13,recent,B13_recent_q1,3,Smartphone‐based ear‐electroencephalography to study sound processing in everyday life,2023,article,23,True,include,5,rules,include
 W4367458586,B13,recent,B13_recent_q1,4,For Everyday Life,2023,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W4416111800,B13,recent,B13_recent_q1,5,Passive heart-rate monitoring during smartphone use in everyday life,2026,article,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4416111800,B13,recent,B13_recent_q1,5,Passive heart-rate monitoring during smartphone use in everyday life,2026,article,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: heart-rate monitoring,exclude
 W4319321076,B13,recent,B13_recent_q1,6,Smartphone-based ear-EEG to study sound processing in everyday life,2023,preprint,5,True,include,5,rules,include
 W4407231338,B13,recent,B13_recent_q1,7,DiversityOne: A Multi-Country Smartphone Sensor Dataset for Everyday Life Behavior Modeling,2025,article,12,True,include,5,rules,include
 W7164846610,B13,recent,B13_recent_q1,8,Beyond Screen Time: Inferring Everyday Life Context from Diverse Smartphone Data,2026,article,0,True,include,4,rules,include
 W4382060035,B13,recent,B13_recent_q1,9,Predicting food craving in everyday life through smartphone-derived sensor and usage data,2023,article,5,True,include,5,rules,include
 W4320922706,B13,recent,B13_recent_q1,10,Predicting food craving in everyday life through smartphone derived sensor and usage data,2023,preprint,2,True,include,4,rules,include
-W4320474032,B13,recent,B13_recent_q1,11,Media Use in Disrupted Everyday Life,2023,book-chapter,3,True,borderline,1,core concept mentioned once,pending
+W4320474032,B13,recent,B13_recent_q1,11,Media Use in Disrupted Everyday Life,2023,book-chapter,3,True,borderline,1,core concept mentioned once | manual: media repertoires in disrupted everyday life (general media use),exclude
 W4386158587,B13,recent,B13_recent_q1,12,"Review for ""Smartphone‐based ear‐electroencephalography to study sound processing in everyday life""",2023,peer-review,0,False,exclude,0,type peer-review,exclude
 W7113464610,B13,recent,B13_recent_q1,13,The Role of Connection Cues For Co-Present Smartphone Use in Everyday Life,2025,preprint,0,True,include,6,rules,include
 W4386174752,B13,recent,B13_recent_q1,14,"Review for ""Smartphone‐based ear‐electroencephalography to study sound processing in everyday life""",2023,peer-review,0,False,exclude,0,type peer-review,exclude
 W4307266421,B13,recent,B13_recent_q1,15,Brighter Time: A Smartphone App Recording Cognitive Task Performance and Illuminance in Everyday Life,2022,article,5,True,include,5,rules,include
 W7131346052,B13,recent,B13_recent_q1,16,The Everyday Life of Media Fans,2026,dissertation,0,True,include,2,rules,include
 W4386155607,B13,recent,B13_recent_q1,17,"Decision letter for ""Smartphone‐based ear‐electroencephalography to study sound processing in everyday life""",2023,peer-review,0,False,exclude,0,type peer-review,exclude
-W4417446055,B13,recent,B13_recent_q1,18,Smartphone monitoring of smiling as a behavioral proxy of well-being in everyday life,2025,preprint,0,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W4417446055,B13,recent,B13_recent_q1,18,Smartphone monitoring of smiling as a behavioral proxy of well-being in everyday life,2025,preprint,0,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: smile monitoring,exclude
 W4386158566,B13,recent,B13_recent_q1,19,"Decision letter for ""Smartphone‐based ear‐electroencephalography to study sound processing in everyday life""",2023,peer-review,0,False,exclude,0,type peer-review,exclude
-W4311204744,B13,recent,B13_recent_q1,20,Measuring self-regulation in everyday life: Reliability and validity of smartphone-based experiments in alcohol use disorder,2022,article,25,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4311204744,B13,recent,B13_recent_q1,20,Measuring self-regulation in everyday life: Reliability and validity of smartphone-based experiments in alcohol use disorder,2022,article,25,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: alcohol-use smartphone tasks,exclude
 W4386158581,B13,recent,B13_recent_q1,21,"Author response for ""Smartphone‐based ear‐electroencephalography to study sound processing in everyday life""",2023,peer-review,0,False,exclude,0,type peer-review,exclude
 W4386158596,B13,recent,B13_recent_q1,22,"Author response for ""Smartphone‐based ear‐electroencephalography to study sound processing in everyday life""",2023,peer-review,0,False,exclude,0,type peer-review,exclude
 W4386158597,B13,recent,B13_recent_q1,23,"Decision letter for ""Smartphone‐based ear‐electroencephalography to study sound processing in everyday life""",2023,peer-review,0,False,exclude,0,type peer-review,exclude
@@ -5077,24 +5077,24 @@ W4405874965,B13,recent,B13_recent_q2,3,ICT4D,2024,book-chapter,0,False,include,3
 W4412428962,B13,recent,B13_recent_q2,4,Epistemological Development of Mobile Communication Research,2025,book-chapter,0,True,include,6,rules,include
 W4408625081,B13,recent,B13_recent_q2,5,FORMATION AND DEVELOPMENT OF MOBILE COMMUNICATION TERMINOLOGY,2025,article,0,True,include,6,rules,include
 W4389196361,B13,recent,B13_recent_q2,6,Rethinking ICT4D,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W1518746045,B13,recent,B13_recent_q2,7,Mobile Communication Systems (1),2023,book-chapter,36,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W1518746045,B13,recent,B13_recent_q2,7,Mobile Communication Systems (1),2023,book-chapter,36,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: mobile communication engineering,exclude
 W4401080347,B13,recent,B13_recent_q2,8,10.19088/ICTD.2024.072,2024,report,0,True,include,4,rules,include
-W4390881897,B13,recent,B13_recent_q2,9,Six-Generation Mobile Communication: Development Trend and Outlook,2023,article,3,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
-W7164454174,B13,recent,B13_recent_q2,10,6G: a new stage of mobile communication development,2026,conference-abstract,0,False,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4390881897,B13,recent,B13_recent_q2,9,Six-Generation Mobile Communication: Development Trend and Outlook,2023,article,3,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: 6G outlook,exclude
+W7164454174,B13,recent,B13_recent_q2,10,6G: a new stage of mobile communication development,2026,conference-abstract,0,False,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co | manual: 6G,exclude
 W4313203297,B13,recent,B13_recent_q2,11,Development of Intelligent Reflecting Surfaces for Mobile Communication Systems,2022,conference-paper,6,True,include,4,rules,include
 W4394566996,B13,recent,B13_recent_q2,12,ICT4D and Sustainability,2024,preprint,1,True,include,5,rules,include
 W7148585256,B13,recent,B13_recent_q2,13,E-Poster Abstracts – ICTD 2026,2026,article,0,False,include,3,no abstract; core (and context) in title,include
-W4294741352,B13,recent,B13_recent_q2,14,"6G Mobile Communication Technology: Requirements, Targets, Applications, Challenges, Advantages, and Opportunities",2022,article,477,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4294741352,B13,recent,B13_recent_q2,14,"6G Mobile Communication Technology: Requirements, Targets, Applications, Challenges, Advantages, and Opportunities",2022,article,477,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: 6G technology review,exclude
 W7148535353,B13,recent,B13_recent_q2,15,Free Paper Abstracts – ICTD 2026,2026,article,0,False,include,3,no abstract; core (and context) in title,include
 W4367666416,B13,recent,B13_recent_q2,16,REGIONAL DEVELOPMENT OF KYIVSTAR MOBILE COMMUNICATION NETWORK IN WESTERN UKRAINE,2022,article,2,True,include,6,rules,include
-W4392980282,B13,recent,B13_recent_q2,17,Development of a Mobile Communication System with an Emergency Call,2024,conference-paper,2,True,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4392980282,B13,recent,B13_recent_q2,17,Development of a Mobile Communication System with an Emergency Call,2024,conference-paper,2,True,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co | manual: emergency-call network design,exclude
 W4210279754,B13,recent,B13_recent_q2,18,The Development of Mobile Communication System and Human Health Risks,2022,article,1,False,include,3,no abstract; core (and context) in title,include
 W4213117405,B13,recent,B13_recent_q2,19,Should we still be doing ICT4D research?,2022,article,41,True,include,6,rules,include
 W4396981636,B13,recent,B13_recent_q2,20,Analysis of the Development Status of Mobile Communication Engineering Management,2024,article,0,True,include,5,rules,include
 W4210607276,B13,recent,B13_recent_q2,21,THE DEVELOPMENT OF MOBILE COMMUNICATION SYSTEM AND HUMAN HEALTH RISKS,2022,article,0,False,include,3,no abstract; core (and context) in title,include
 W7167098575,B13,recent,B13_recent_q2,22,The Impact of ICTD on Nurses,2026,dataset,0,True,exclude,0,type dataset,exclude
 W7153729914,B13,recent,B13_recent_q2,23,The Responsibility of ICT4D Research,2026,editorial,0,True,exclude,0,type editorial,exclude
-W7216659191,B13,recent,B13_recent_q2,24,STUDY OF MOBILE COMMUNICATION,2022,article,0,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7216659191,B13,recent,B13_recent_q2,24,STUDY OF MOBILE COMMUNICATION,2022,article,0,True,borderline,4,flag: \b(sensor network|wireless|5g|6g|edge co | manual: mobile communication generations,exclude
 W4312656011,B13,recent,B13_recent_q3,1,First Time-Users of the Mobile Internet in the Global South,2022,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W4415912571,B13,recent,B13_recent_q3,2,Delay-Tolerant Mobile Internet Services in Rural and Remote Areas,2025,article,0,True,include,3,rules,include
 W4313185807,B13,recent,B13_recent_q3,3,Impact of Online Advertising on Daily Users of Mobile Internet Towards Malaysia,2022,article,0,True,include,6,rules,include
@@ -5105,16 +5105,16 @@ W7125623499,B13,recent,B13_recent_q3,7,Analysis of Factors Influencing Switching
 W4384572930,B13,recent,B13_recent_q3,8,Influence of spatial factors on the diffusion of mobile internet in rural areas,2023,article,0,True,include,6,rules,include
 W7204781108,B13,recent,B13_recent_q3,9,Analysis of Internet Users' Connection Mechanism and Problems under the Socialization Trend of Mobile Internet Products,2026,article,0,True,include,5,rules,include
 W4411803839,B13,recent,B13_recent_q3,10,Mobile internet diffusion and development impacts,2025,dissertation,0,True,include,6,rules,include
-W4229442680,B13,recent,B13_recent_q3,11,Adolescent Addiction to Short Video Applications in the Mobile Internet Era,2022,article,85,True,borderline,4,flag: \b(addiction|problematic (smartphone )?u,pending
+W4229442680,B13,recent,B13_recent_q3,11,Adolescent Addiction to Short Video Applications in the Mobile Internet Era,2022,article,85,True,borderline,4,flag: \b(addiction|problematic (smartphone )?u | manual: short-video addiction,exclude
 W4280642713,B13,recent,B13_recent_q3,12,Mobile Internet Technology Adoption for Sustainable Agriculture: Evidence from Wheat Farmers,2022,article,74,True,include,4,rules,include
 W4399217126,B13,recent,B13_recent_q3,13,Women's Economic Empowerment Through Access to Mobile Internet,2024,book-chapter,0,True,include,6,rules,include
 W4311207649,B13,recent,B13_recent_q3,14,The Employment Effects of Mobile Internet in Developing Countries,2022,report,19,True,include,4,rules,include
 W4220945028,B13,recent,B13_recent_q3,15,Mobile internet in the EU: problems and perspectives,2022,article,8,True,include,6,rules,include
 W4205928479,B13,recent,B13_recent_q3,16,Marketing Strategy Innovation Based on Mobile Internet Technology,2022,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
-W4412915776,B13,recent,B13_recent_q3,17,Dual Connectivity Management in 5G Mobile Internet Infrastructures,2025,article,2,True,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4412915776,B13,recent,B13_recent_q3,17,Dual Connectivity Management in 5G Mobile Internet Infrastructures,2025,article,2,True,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co | manual: 5G dual connectivity,exclude
 W4393241045,B13,recent,B13_recent_q3,18,Economic Analysis of Edge Caching Enabled Mobile Internet Ecosystem,2024,article,14,True,include,3,rules,include
 W4312975406,B13,recent,B13_recent_q3,19,The Employment Effects of Mobile Internet in Developing Countries,2022,preprint,5,False,include,3,no abstract; core (and context) in title,include
-W3155925435,B13,recent,B13_recent_q3,20,Blockchain-Enabled NextGen Service Architecture for Mobile Internet Offload,2023,article,3,True,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W3155925435,B13,recent,B13_recent_q3,20,Blockchain-Enabled NextGen Service Architecture for Mobile Internet Offload,2023,article,3,True,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co | manual: mobile internet offload architecture,exclude
 W4413081683,B13,recent,B13_recent_q3,21,Mobile Internet and Income Improvement: Evidence from Viet Nam,2025,article,3,True,include,5,rules,include
 W4415977687,B13,recent,B13_recent_q3,22,Mobile Internet Connectivity and Household Wealth in the Philippines,2025,report,1,True,include,5,rules,include
 W4389734418,B13,recent,B13_recent_q3,23,Mobile Internet and income improvement: Evidence from Viet Nam,2023,report,1,True,include,5,rules,include
