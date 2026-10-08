@@ -997,3 +997,49 @@ W7216659191,B13,exclude,"Claude (manual review, Stage 2)",mobile communication g
 W4229442680,B13,exclude,"Claude (manual review, Stage 2)",short-video addiction
 W4412915776,B13,exclude,"Claude (manual review, Stage 2)",5G dual connectivity
 W3155925435,B13,exclude,"Claude (manual review, Stage 2)",mobile internet offload architecture
+W7214365001,B14,exclude,"Claude (manual review, Stage 2)",generative AI technical advances overview
+W4400917694,B14,exclude,"Claude (manual review, Stage 2)",FinBERT sentiment and firm performance
+W7213552002,B14,include,"Claude (manual review, Stage 2)",LLMs in healthcare: evaluation and governance framework
+W4412801553,B14,include,"Claude (manual review, Stage 2)","LLM adoption perceptions among health professionals, South India"
+W7128452881,B14,exclude,"Claude (manual review, Stage 2)",biomedical foundation models
+W7155198016,B14,exclude,"Claude (manual review, Stage 2)",precision-healthcare foundation models
+W7210292551,B14,exclude,"Claude (manual review, Stage 2)",biomedical foundation models
+W7166191650,B14,include,"Claude (manual review, Stage 2)",India's AI policy vacuum and foundation models
+W7166139045,B14,include,"Claude (manual review, Stage 2)",India's AI policy vacuum (duplicate deposit)
+W7133532012,B14,include,"Claude (manual review, Stage 2)",colonial mapping of generative AI
+W7149284733,B14,include,"Claude (manual review, Stage 2)",India's sovereign foundation models (policy)
+W7161499526,B14,exclude,"Claude (manual review, Stage 2)",SpaceTech report
+W4383312437,B14,include,"Claude (manual review, Stage 2)",generative AI policy for university teaching
+W4383346782,B14,include,"Claude (manual review, Stage 2)",regulatory oversight of LLMs in healthcare
+W4399083018,B14,exclude,"Claude (manual review, Stage 2)",clinical note generation
+W4386098991,B14,include,"Claude (manual review, Stage 2)",generative AI in higher education
+W4298110867,B14,exclude,"Claude (manual review, Stage 2)",FinBERT model
+W4319301505,B14,exclude,"Claude (manual review, Stage 2)",ChatGPT discharge summaries
+W4385484319,B14,exclude,"Claude (manual review, Stage 2)",AI in organisations review
+W4380769213,B14,include,"Claude (manual review, Stage 2)",art and the science of generative AI
+W4405211386,B14,include,"Claude (manual review, Stage 2)",generative AI and learning motivation (experiment; flag false positive)
+W4319301446,B14,include,"Claude (manual review, Stage 2)",ChatGPT and ethics of scholarly publishing
+W4385242971,B14,include,"Claude (manual review, Stage 2)",ethical considerations of ChatGPT in health care
+W4392851477,B14,include,"Claude (manual review, Stage 2)",generative AI governance in healthcare implementation
+W4380730209,B14,exclude,"Claude (manual review, Stage 2)",diagnostic accuracy study
+W4399567248,B14,exclude,"Claude (manual review, Stage 2)",pathology copilot
+W4391615642,B14,exclude,"Claude (manual review, Stage 2)",generative AI primer
+W4297325261,B14,exclude,"Claude (manual review, Stage 2)",generative AI trends (technical)
+W4396952102,B14,exclude,"Claude (manual review, Stage 2)",ophthalmology applications
+W4400691855,B14,exclude,"Claude (manual review, Stage 2)",generative AI techniques book
+W4367186868,B14,include,"Claude (manual review, Stage 2)",ethics of LLMs in medicine and research
+W4399737726,B14,include,"Claude (manual review, Stage 2)",medical ethics of LLMs
+W4403332906,B14,include,"Claude (manual review, Stage 2)",ethics and governance of LLMs in computing education
+W7201993829,B14,exclude,"Claude (manual review, Stage 2)",LLMs in nursing review
+W4388343109,B14,exclude,"Claude (manual review, Stage 2)",LLMs in radiation oncology
+W7127589159,B14,exclude,"Claude (manual review, Stage 2)",brain foundation model data governance
+W4387026748,B14,exclude,"Claude (manual review, Stage 2)",digital pathology foundation models
+W4400668519,B14,exclude,"Claude (manual review, Stage 2)",power-grid foundation models
+W4409411571,B14,exclude,"Claude (manual review, Stage 2)",power-grid inspection
+W7128249609,B14,include,"Claude (manual review, Stage 2)",ethical risk governance of medical foundation models
+W4400038656,B14,exclude,"Claude (manual review, Stage 2)",single-cell omics models
+W4414778512,B14,exclude,"Claude (manual review, Stage 2)",single-cell foundation models
+W7212023476,B14,exclude,"Claude (manual review, Stage 2)",diffusion model calibration
+W7128177530,B14,exclude,"Claude (manual review, Stage 2)",foundation-model attestation framework (technical)
+W7128198285,B14,exclude,"Claude (manual review, Stage 2)",foundation-model attestation framework (duplicate)
+W4402586742,B14,exclude,"Claude (manual review, Stage 2)",geo-foundation models

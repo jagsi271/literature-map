@@ -169436,6 +169436,41 @@
  },
  {
   "ID": "LM04842",
+  "Title": "A comprehensive AI policy education framework for university teaching and learning",
+  "Year": 2023,
+  "Authors": "Cecilia Ka Yuk Chan",
+  "Venue": "International Journal of Educational Technology in Higher Education",
+  "Document type": "article",
+  "DOI": "10.1186/s41239-023-00408-3",
+  "OpenAlex ID": "W4383312437",
+  "Link": "https://doi.org/10.1186/s41239-023-00408-3",
+  "Open-access link": "https://educationaltechnologyjournal.springeropen.com/counter/pdf/10.1186/s41239-023-00408-3",
+  "Cited-by count": 1496,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "Hong Kong",
+  "Region": "China & East Asia",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "mixed",
+  "Landmark flag": "Y",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: Abstract This study aims to develop an AI education policy for higher education by examining the perceptions and implications of text generative AI technologies.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 367.7856
+ },
+ {
+  "ID": "LM04843",
   "Title": "Generative AI",
   "Year": 2023,
   "Authors": "Stefan Feuerriegel; Jochen Hartmann; Christian Janiesch; Patrick Zschech",
@@ -169470,7 +169505,7 @@
   "FWCI": 129.5389
  },
  {
-  "ID": "LM04843",
+  "ID": "LM04844",
   "Title": "Generative AI and ChatGPT: Applications, challenges, and AI-human collaboration",
   "Year": 2023,
   "Authors": "Fiona Fui‐Hoon Nah; Ruilin Zheng; Jingyuan Cai; Keng Leng Siau; Langtao Chen",
@@ -169505,7 +169540,7 @@
   "FWCI": 125.6244
  },
  {
-  "ID": "LM04844",
+  "ID": "LM04845",
   "Title": "ChatGPT for Language Teaching and Learning",
   "Year": 2023,
   "Authors": "Lucas Kohnke; Benjamin Luke Moorhouse; Di Zou",
@@ -169540,7 +169575,7 @@
   "FWCI": 322.4893
  },
  {
-  "ID": "LM04845",
+  "ID": "LM04846",
   "Title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
   "Year": 2024,
   "Authors": "Haotian Cui; Chloe Wang; Hassaan Maan; Kuan Pang; Fengning Luo; Nan Duan; Bo Wang",
@@ -169575,7 +169610,7 @@
   "FWCI": 157.8316
  },
  {
-  "ID": "LM04846",
+  "ID": "LM04847",
   "Title": "Examining Science Education in ChatGPT: An Exploratory Study of Generative Artificial Intelligence",
   "Year": 2023,
   "Authors": "Grant Cooper",
@@ -169610,7 +169645,7 @@
   "FWCI": 308.9497
  },
  {
-  "ID": "LM04847",
+  "ID": "LM04848",
   "Title": "Generative AI and the future of education: Ragnarök or reformation? A paradoxical perspective from management educators",
   "Year": 2023,
   "Authors": "Weng Marc Lim; Asanka N. Gunasekara; Jessica Leigh Pallant; Jason Ian Pallant; Ekaterina Pechenkina",
@@ -169645,7 +169680,42 @@
   "FWCI": 281.3781
  },
  {
-  "ID": "LM04848",
+  "ID": "LM04849",
+  "Title": "The imperative for regulatory oversight of large language models (or generative AI) in healthcare",
+  "Year": 2023,
+  "Authors": "Bertalan Meskó; Eric J. Topol",
+  "Venue": "npj Digital Medicine",
+  "Document type": "article",
+  "DOI": "10.1038/s41746-023-00873-0",
+  "OpenAlex ID": "W4383346782",
+  "Link": "https://doi.org/10.1038/s41746-023-00873-0",
+  "Open-access link": "https://www.nature.com/articles/s41746-023-00873-0.pdf",
+  "Cited-by count": 1060,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "Y",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: We argue that regulatory oversight should assure medical professionals and patients can use LLMs without causing harm or compromising their data or privacy.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 36.724
+ },
+ {
+  "ID": "LM04850",
   "Title": "Collaborating With ChatGPT: Considering the Implications of Generative Artificial Intelligence for Journalism and Media Education",
   "Year": 2023,
   "Authors": "John V. Pavlik",
@@ -169680,7 +169750,7 @@
   "FWCI": 485.3042
  },
  {
-  "ID": "LM04849",
+  "ID": "LM04851",
   "Title": "Practical and ethical challenges of large language models in education: A systematic scoping review",
   "Year": 2023,
   "Authors": "Lixiang Yan; Lele Sha; Linxuan Zhao; Yuheng Li; Roberto Martínez‐Maldonado; Guanliang Chen; Xinyu Li; Yueqiao Jin; Dragan Gašević",
@@ -169715,7 +169785,7 @@
   "FWCI": 232.1431
  },
  {
-  "ID": "LM04850",
+  "ID": "LM04852",
   "Title": "Generative AI at Work",
   "Year": 2024,
   "Authors": "Erik Brynjolfsson; Danielle Li; Lindsey Raymond",
@@ -169750,7 +169820,7 @@
   "FWCI": 344.778
  },
  {
-  "ID": "LM04851",
+  "ID": "LM04853",
   "Title": "ChatGPT User Experience: Implications for Education",
   "Year": 2023,
   "Authors": "Xiaoming Zhaı",
@@ -169785,7 +169855,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04852",
+  "ID": "LM04854",
   "Title": "Human resource management in the age of generative artificial intelligence: Perspectives and research directions on ChatGPT",
   "Year": 2023,
   "Authors": "Pawan S Budhwar; Soumyadeb Chowdhury; Geoffrey Wood; Herman Aguinis; Greg J. Bamber; Jose R. Beltran; Paul Boselie; Fang Lee Cooke; Stephanie Decker; Angelo S. DeNisi et al.",
@@ -169820,7 +169890,7 @@
   "FWCI": 266.935
  },
  {
-  "ID": "LM04853",
+  "ID": "LM04855",
   "Title": "ChatGPT and a new academic reality: Artificial Intelligence‐written research papers and the ethics of the large language models in scholarly publishing",
   "Year": 2023,
   "Authors": "Brady Daniel Lund; Ting Wang; Nishith Reddy Mannuru; Bing Nie; Somipam Ronra Shimray; Ziang Wang",
@@ -169855,7 +169925,42 @@
   "FWCI": 223.6716
  },
  {
-  "ID": "LM04854",
+  "ID": "LM04856",
+  "Title": "Challenges and Opportunities of Generative AI for Higher Education as Explained by ChatGPT",
+  "Year": 2023,
+  "Authors": "Rosario Michel‐Villarreal; Eliseo Luis Vilalta-perdomo; David Ernesto Salinas-Navarro; Ricardo Thierry-Aguilera; Flor Silvestre Gerardou",
+  "Venue": "Education Sciences",
+  "Document type": "article",
+  "DOI": "10.3390/educsci13090856",
+  "OpenAlex ID": "W4386098991",
+  "Link": "https://doi.org/10.3390/educsci13090856",
+  "Open-access link": "https://www.mdpi.com/2227-7102/13/9/856/pdf?version=1692771591",
+  "Cited-by count": 864,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "computational",
+  "Landmark flag": "Y",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: This article presents a study that adopts a thing ethnography approach to understand ChatGPT’s perspective on the challenges and opportunities it represents for higher education.",
+  "Stated gaps": "auto: The research explores the potential benefits and limitations of ChatGPT, as well as mitigation strategies for addressing the identified challenges. | The findings provide insights that can guide future research efforts in understanding the implications of ChatGPT and similar Artificial Intelligence (AI) systems in higher education.",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 212.4491
+ },
+ {
+  "ID": "LM04857",
   "Title": "What ChatGPT and generative AI mean for science",
   "Year": 2023,
   "Authors": "Chris Stokel-Walker; Richard Van Noorden",
@@ -169890,7 +169995,7 @@
   "FWCI": 78.4858
  },
  {
-  "ID": "LM04855",
+  "ID": "LM04858",
   "Title": "Fairness and Bias in Artificial Intelligence: A Brief Survey of Sources, Impacts, and Mitigation Strategies",
   "Year": 2023,
   "Authors": "Emilio Ferrara",
@@ -169925,7 +170030,7 @@
   "FWCI": 213.98
  },
  {
-  "ID": "LM04856",
+  "ID": "LM04859",
   "Title": "A Review on Large Language Models: Architectures, Applications, Taxonomies, Open Issues and Challenges",
   "Year": 2024,
   "Authors": "Mohaimenul Azam Khan Raiaan; Md. Saddam Hossain Mukta; Kaniz Fatema; Nur Mohammad Fahad; Sadman Sakib; Most. Marufatul Jannat Mim; Jubaer Ahmad; Mohammed Eunus Ali; Sami Azam",
@@ -169960,7 +170065,7 @@
   "FWCI": 130.3766
  },
  {
-  "ID": "LM04857",
+  "ID": "LM04860",
   "Title": "The impact of Generative AI (GenAI) on practices, policies and research direction in education: a case of ChatGPT and Midjourney",
   "Year": 2023,
   "Authors": "Thomas K. F. Chiu",
@@ -169995,7 +170100,7 @@
   "FWCI": 215.2822
  },
  {
-  "ID": "LM04858",
+  "ID": "LM04861",
   "Title": "ChatGPT in higher education: Considerations for academic integrity and student learning",
   "Year": 2023,
   "Authors": "Miriam Sullivan; Andrew Kelly; Paul McLaughlan",
@@ -170030,7 +170135,7 @@
   "FWCI": 202.8483
  },
  {
-  "ID": "LM04859",
+  "ID": "LM04862",
   "Title": "Transforming Education: A Comprehensive Review of Generative Artificial Intelligence in Educational Settings through Bibliometric and Content Analysis",
   "Year": 2023,
   "Authors": "Zied Bahroun; Chiraz Anane; Vian Ahmed; Andrew Zacca",
@@ -170065,7 +170170,7 @@
   "FWCI": 202.9215
  },
  {
-  "ID": "LM04860",
+  "ID": "LM04863",
   "Title": "From ChatGPT to ThreatGPT: Impact of Generative AI in Cybersecurity and Privacy",
   "Year": 2023,
   "Authors": "Maanak Gupta; Charankumar Akiri; Kshitiz Aryal; Eli Parker; Lopamudra Praharaj",
@@ -170100,7 +170205,7 @@
   "FWCI": 70.3499
  },
  {
-  "ID": "LM04861",
+  "ID": "LM04864",
   "Title": "A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models",
   "Year": 2024,
   "Authors": "Wenqi Fan; Yujuan Ding; Liangbo Ning; Shijie Wang; Hengyun Li; Dawei Yin; Tat‐Seng Chua; Qing Li",
@@ -170135,7 +170240,7 @@
   "FWCI": 245.341
  },
  {
-  "ID": "LM04862",
+  "ID": "LM04865",
   "Title": "Generative AI enhances individual creativity but reduces the collective diversity of novel content",
   "Year": 2024,
   "Authors": "Anil Rajnikant Doshi; Oliver Hauser",
@@ -170170,7 +170275,7 @@
   "FWCI": 318.9347
  },
  {
-  "ID": "LM04863",
+  "ID": "LM04866",
   "Title": "AI models collapse when trained on recursively generated data",
   "Year": 2024,
   "Authors": "Ilia Shumailov; Zakhar Shumaylov; Yiren Zhao; Nicolas Papernot; Ross Anderson; Yarin Gal",
@@ -170205,7 +170310,42 @@
   "FWCI": 118.2123
  },
  {
-  "ID": "LM04864",
+  "ID": "LM04867",
+  "Title": "Art and the science of generative AI",
+  "Year": 2023,
+  "Authors": "Ziv Epstein; Aaron Hertzmann; the Investigators of Human Creativity; Memo Akten; Hany Farid; Jessica Fjeld; Morgan R. Frank; Matthew Groh; Laura Mariah Herman; Neil Leach et al.",
+  "Venue": "Science",
+  "Document type": "article",
+  "DOI": "10.1126/science.adh4451",
+  "OpenAlex ID": "W4380769213",
+  "Link": "https://doi.org/10.1126/science.adh4451",
+  "Open-access link": "",
+  "Cited-by count": 755,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "unclear",
+  "Landmark flag": "Y",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: Understanding shifts in creative work will help guide AI's impact on the media ecosystem.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 2246.564
+ },
+ {
+  "ID": "LM04868",
   "Title": "The Potential of Generative Artificial Intelligence Across Disciplines: Perspectives and Future Directions",
   "Year": 2023,
   "Authors": "Keng‐Boon Ooi; Garry Wei‐Han Tan; Mostafa Al‐Emran; Mohammed Abdullah Al-Sharafi; Alexandru Căpățînă; Amrita Chakraborty; Yogesh Kumar Dwivedi; Tzu-Ling Huang; Arpan Kumar Kar; Voon‐Hsien Lee et al.",
@@ -170240,7 +170380,7 @@
   "FWCI": 68.6074
  },
  {
-  "ID": "LM04865",
+  "ID": "LM04869",
   "Title": "The effect of generative artificial intelligence (AI)-based tool use on students' computational thinking skills, programming self-efficacy and motivation",
   "Year": 2023,
   "Authors": "Ramazan Yılmaz; Fatma Gizem Karaoğlan Yılmaz",
@@ -170275,7 +170415,7 @@
   "FWCI": 183.1782
  },
  {
-  "ID": "LM04866",
+  "ID": "LM04870",
   "Title": "ChatGPT: Jack of all trades, master of none",
   "Year": 2023,
   "Authors": "Jan Kocoń; Igor Cichecki; Oliwier Kaszyca; Mateusz Kochanek; Dominika Szydło; Joanna Baran; Julita Bielaniewicz; Marcin Gruza; Arkadiusz Janz; Kamil Kanclerz et al.",
@@ -170310,7 +170450,7 @@
   "FWCI": 68.2335
  },
  {
-  "ID": "LM04867",
+  "ID": "LM04871",
   "Title": "Guidance for generative AI in education and research",
   "Year": 2023,
   "Authors": "",
@@ -170345,7 +170485,42 @@
   "FWCI": 258.1
  },
  {
-  "ID": "LM04868",
+  "ID": "LM04872",
+  "Title": "Beware of metacognitive laziness: Effects of generative artificial intelligence on learning motivation, processes, and performance",
+  "Year": 2024,
+  "Authors": "Yizhou Fan; Luzhen Tang; Huixiao Le; Kejie Shen; Shufang Tan; Yueying Zhao; Yüan Shen; Xinyu Li; Dragan Gašević",
+  "Venue": "British Journal of Educational Technology",
+  "Document type": "article",
+  "DOI": "10.1111/bjet.13544",
+  "OpenAlex ID": "W4405211386",
+  "Link": "https://doi.org/10.1111/bjet.13544",
+  "Open-access link": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/bjet.13544",
+  "Cited-by count": 708,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "quantitative",
+  "Landmark flag": "Y",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: Practitioner notes What is already known about this topic Hybrid intelligence, combining human and machine intelligence, aims to augment human capabilities rather than replace them, creating opportunities for more effective lifelong learning and collaboration.",
+  "Stated gaps": "auto: The emerging concept of hybrid intelligence also lacks deep insights and understanding of the mechanisms and consequences of hybrid human‐AI learning based on strong empirical research. | In order to address this gap, we conducted a randomised experimental study and compared learners' motivations, self‐regulated learning processes and learning performances on a writing task among different groups who had support from different agents, that is, ChatGPT (also referred to as the AI group), chat …",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 283.9657
+ },
+ {
+  "ID": "LM04873",
   "Title": "Large language models in education: A focus on the complementary relationship between human teachers and ChatGPT",
   "Year": 2023,
   "Authors": "Jaeho Jeon; Seongyong Lee",
@@ -170380,7 +170555,7 @@
   "FWCI": 179.1437
  },
  {
-  "ID": "LM04869",
+  "ID": "LM04874",
   "Title": "Code as Policies: Language Model Programs for Embodied Control",
   "Year": 2023,
   "Authors": "Jacky Liang; Wenlong Huang; Fei Xia; Peng Xu; Karol Hausman; Brian Ichter; Pete Florence; Andy Zeng",
@@ -170415,7 +170590,7 @@
   "FWCI": 318.9643
  },
  {
-  "ID": "LM04870",
+  "ID": "LM04875",
   "Title": "Engineering Education in the Era of ChatGPT: Promise and Pitfalls of Generative AI for Education",
   "Year": 2023,
   "Authors": "Junaid Qadir",
@@ -170450,7 +170625,7 @@
   "FWCI": 178.3261
  },
  {
-  "ID": "LM04871",
+  "ID": "LM04876",
   "Title": "The Power of Generative AI: A Review of Requirements, Models, Input–Output Formats, Evaluation Metrics, and Challenges",
   "Year": 2023,
   "Authors": "Ajay Bandi; Pydi Venkata Satya Ramesh Adapa; Yudu Eswar Vinay Pratap Kumar Kuchi",
@@ -170485,7 +170660,7 @@
   "FWCI": 60.5639
  },
  {
-  "ID": "LM04872",
+  "ID": "LM04877",
   "Title": "Unlocking the Power of ChatGPT: A Framework for Applying Generative AI in Education",
   "Year": 2023,
   "Authors": "Jiahong Su; Weipeng Yang",
@@ -170520,7 +170695,42 @@
   "FWCI": 163.0197
  },
  {
-  "ID": "LM04873",
+  "ID": "LM04878",
+  "Title": "Generating scholarly content with ChatGPT: ethical challenges for medical publishing",
+  "Year": 2023,
+  "Authors": "Michael Liebrenz; Roman Schleifer; Anna Buadze; Dinesh Bhugra; Alexander James Smith",
+  "Venue": "The Lancet Digital Health",
+  "Document type": "article",
+  "DOI": "10.1016/s2589-7500(23)00019-5",
+  "OpenAlex ID": "W4319301446",
+  "Link": "https://doi.org/10.1016/s2589-7500(23)00019-5",
+  "Open-access link": "http://www.thelancet.com/article/S2589750023000195/pdf",
+  "Cited-by count": 612,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "unclear",
+  "Landmark flag": "Y",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: The impact of generative artificial intelligence (AI) on medical publishing practices is currently unknown.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 21.7281
+ },
+ {
+  "ID": "LM04879",
   "Title": "The AI generation gap: Are Gen Z students more interested in adopting generative AI such as ChatGPT in teaching and learning than their Gen X and millennial generation teachers?",
   "Year": 2023,
   "Authors": "Cecilia Ka Yuk Chan; Katherine K. W. Lee",
@@ -170555,7 +170765,7 @@
   "FWCI": 156.982
  },
  {
-  "ID": "LM04874",
+  "ID": "LM04880",
   "Title": "Generative artificial intelligence",
   "Year": 2023,
   "Authors": "Leonardo Banh; Gero Strobel",
@@ -170590,7 +170800,7 @@
   "FWCI": 55.2228
  },
  {
-  "ID": "LM04875",
+  "ID": "LM04881",
   "Title": "The dark side of generative artificial intelligence: A critical analysis of controversies and risks of ChatGPT",
   "Year": 2023,
   "Authors": "Krzysztof Wach; Cong Doanh Duong; Joanna Ejdys; Rūta Kazlauskaitė; Paweł Korzyński; Grzegorz Mazurek; Joanna Olga Paliszkiewicz; Ewa Wanda Ziemba",
@@ -170625,7 +170835,7 @@
   "FWCI": 146.904
  },
  {
-  "ID": "LM04876",
+  "ID": "LM04882",
   "Title": "Leveraging ChatGPT and other generative artificial intelligence (AI)-based applications in the hospitality and tourism industry: practices, challenges and research agenda",
   "Year": 2023,
   "Authors": "Yogesh Kumar Dwivedi; Neeraj Pandey; Wendy L. Currie; Adrian Micu",
@@ -170660,7 +170870,7 @@
   "FWCI": 52.2364
  },
  {
-  "ID": "LM04877",
+  "ID": "LM04883",
   "Title": "AI-generated feedback on writing: insights into efficacy and ENL student preference",
   "Year": 2023,
   "Authors": "Juan Escalante; Austin Pack; Alex James Barrett",
@@ -170695,7 +170905,7 @@
   "FWCI": 140.3198
  },
  {
-  "ID": "LM04878",
+  "ID": "LM04884",
   "Title": "The role of ChatGPT in higher education: Benefits, challenges, and future research directions",
   "Year": 2023,
   "Authors": "Tareq Rasul; Sumesh Nair; Diane Robyn Kalendra; Mulyadi Robin; Fernando de Oliveira Santini; Wagner Júnior Ladeira; Mingwei Sun; Ingrid Day; Raouf Ahmad Rather; Liz Heathcote",
@@ -170730,7 +170940,42 @@
   "FWCI": 147.0065
  },
  {
-  "ID": "LM04879",
+  "ID": "LM04885",
+  "Title": "Ethical Considerations of Using ChatGPT in Health Care",
+  "Year": 2023,
+  "Authors": "Changyu Wang; Siru Liu; Hao Yang; Guo Jiu-lin; Yuxuan Wu; Jialin Liu",
+  "Venue": "Journal of Medical Internet Research",
+  "Document type": "article",
+  "DOI": "10.2196/48009",
+  "OpenAlex ID": "W4385242971",
+  "Link": "https://doi.org/10.2196/48009",
+  "Open-access link": "https://www.jmir.org/2023/1/e48009/PDF",
+  "Cited-by count": 552,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "Y",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: ChatGPT has promising applications in health care, but potential ethical issues need to be addressed proactively to prevent harm.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 19.6945
+ },
+ {
+  "ID": "LM04886",
   "Title": "ChatGPT Chemistry Assistant for Text Mining and the Prediction of MOF Synthesis",
   "Year": 2023,
   "Authors": "Zhiling Zheng; Oufan Zhang; Christian Borgs; Jennifer Chayes; Omar M. Yaghi",
@@ -170765,7 +171010,7 @@
   "FWCI": 39.3426
  },
  {
-  "ID": "LM04880",
+  "ID": "LM04887",
   "Title": "GPTs are GPTs: An Early Look at the Labor Market Impact Potential of Large Language Models",
   "Year": 2023,
   "Authors": "Tyna Eloundou; Manning, Sam; Pamela Mishkin; Rock, Daniel",
@@ -170800,7 +171045,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04881",
+  "ID": "LM04888",
   "Title": "ChatGPT and Generative Artificial Intelligence for Medical Education: Potential Impact and Opportunity",
   "Year": 2023,
   "Authors": "Christy Boscardin; Brian C. Gin; Polo Black Golde; Karen E. Hauer",
@@ -170835,7 +171080,42 @@
   "FWCI": 19.0623
  },
  {
-  "ID": "LM04882",
+  "ID": "LM04889",
+  "Title": "Generative AI in healthcare: an implementation science informed translational path on application, integration and governance",
+  "Year": 2024,
+  "Authors": "Sandeep Reddy",
+  "Venue": "Implementation Science",
+  "Document type": "article",
+  "DOI": "10.1186/s13012-024-01357-9",
+  "OpenAlex ID": "W4392851477",
+  "Link": "https://doi.org/10.1186/s13012-024-01357-9",
+  "Open-access link": "https://implementationscience.biomedcentral.com/counter/pdf/10.1186/s13012-024-01357-9",
+  "Cited-by count": 533,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "Y",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: METHODS: This article aims to provide a comprehensive overview of the use of generative AI in healthcare, focusing on the utility of the technology in healthcare and its translational application highlighting the need for careful planning, execution and management of expectations in adopting gene…",
+  "Stated gaps": "auto: Strategic adoption based on implementation science, incremental deployment and balanced messaging around opportunities versus limitations helps promote safe, ethical generative AI integration.",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 44.0533
+ },
+ {
+  "ID": "LM04890",
   "Title": "ChatGPT and the rise of generative AI: Threat to academic integrity?",
   "Year": 2023,
   "Authors": "Damian Eke",
@@ -170870,7 +171150,7 @@
   "FWCI": 135.1721
  },
  {
-  "ID": "LM04883",
+  "ID": "LM04891",
   "Title": "What are artificial intelligence literacy and competency? A comprehensive framework to support them",
   "Year": 2024,
   "Authors": "Thomas K. F. Chiu; Zubair Ahmad; Murod Ismailov; Ismaila Temitayo Sanusi",
@@ -170905,7 +171185,7 @@
   "FWCI": 225.4712
  },
  {
-  "ID": "LM04884",
+  "ID": "LM04892",
   "Title": "Generative AI and the future of higher education: a threat to academic integrity or reformation? Evidence from multicultural perspectives",
   "Year": 2024,
   "Authors": "Abdullahi Yusuf; Nasrin Pervin; ‪Marcos Román-González‬",
@@ -170940,7 +171220,7 @@
   "FWCI": 210.9689
  },
  {
-  "ID": "LM04885",
+  "ID": "LM04893",
   "Title": "The promise and challenges of generative AI in education",
   "Year": 2024,
   "Authors": "Michail N. Giannakos; Roger Azevedo; Peter L. Brusilovsky; Mutlu Cukurova; Yannis A. Dimitriadis; Davinia Hernández‐Leo; Sanna Järvelä; Manolis Mavrikis; Bart Rienties",
@@ -170975,7 +171255,7 @@
   "FWCI": 204.9527
  },
  {
-  "ID": "LM04886",
+  "ID": "LM04894",
   "Title": "“What Can ChatGPT Do?” Analyzing Early Reactions to the Innovative AI Chatbot on Twitter",
   "Year": 2023,
   "Authors": "Viriya Taecharungroj",
@@ -171010,7 +171290,7 @@
   "FWCI": 123.5273
  },
  {
-  "ID": "LM04887",
+  "ID": "LM04895",
   "Title": "Is it harmful or helpful? Examining the causes and consequences of generative AI usage among university students",
   "Year": 2024,
   "Authors": "Muhammad Abbas; Farooq Ahmed Jam; Tariq Iqbal Khan",
@@ -171045,7 +171325,7 @@
   "FWCI": 198.1343
  },
  {
-  "ID": "LM04888",
+  "ID": "LM04896",
   "Title": "The Impact of Generative AI on Critical Thinking: Self-Reported Reductions in Cognitive Effort and Confidence Effects From a Survey of Knowledge Workers",
   "Year": 2025,
   "Authors": "Hao-Ping Lee; Advait Sarkar; Lev Tankelevitch; Ian Drosos; Sean Rintel; Richard Banks; Nicholas Wilson",
@@ -171080,7 +171360,7 @@
   "FWCI": 600.6478
  },
  {
-  "ID": "LM04889",
+  "ID": "LM04897",
   "Title": "Future research recommendations for transforming higher education with generative AI",
   "Year": 2023,
   "Authors": "Thomas K. F. Chiu",
@@ -171115,7 +171395,7 @@
   "FWCI": 120.872
  },
  {
-  "ID": "LM04890",
+  "ID": "LM04898",
   "Title": "Attention is not all you need: the complicated case of ethically using large language models in healthcare and medicine",
   "Year": 2023,
   "Authors": "Stefan Harrer",
@@ -171150,7 +171430,7 @@
   "FWCI": 17.2683
  },
  {
-  "ID": "LM04891",
+  "ID": "LM04899",
   "Title": "The ethics of ChatGPT – Exploring the ethical issues of an emerging technology",
   "Year": 2023,
   "Authors": "Bernd Carsten Stahl; Damian Eke",
@@ -171185,7 +171465,7 @@
   "FWCI": 122.165
  },
  {
-  "ID": "LM04892",
+  "ID": "LM04900",
   "Title": "Promises and challenges of generative artificial intelligence for human learning",
   "Year": 2024,
   "Authors": "Lixiang Yan; Samuel Greiff; Ziwen Teuber; Dragan Gašević",
@@ -171220,7 +171500,7 @@
   "FWCI": 188.9094
  },
  {
-  "ID": "LM04893",
+  "ID": "LM04901",
   "Title": "Opportunities, Challenges, and Future Directions of Generative Artificial Intelligence in Medical Education: Scoping Review",
   "Year": 2023,
   "Authors": "Carl M. Preiksaitis; Christian C. Rose",
@@ -171255,7 +171535,7 @@
   "FWCI": 16.2486
  },
  {
-  "ID": "LM04894",
+  "ID": "LM04902",
   "Title": "Generative artificial intelligence: a systematic review and applications",
   "Year": 2024,
   "Authors": "Sandeep Singh Sengar; Affan Bin Hasan; Sanjay Kumar; Fiona Carroll",
@@ -171290,7 +171570,7 @@
   "FWCI": 27.2769
  },
  {
-  "ID": "LM04895",
+  "ID": "LM04903",
   "Title": "The GenAI is out of the bottle: generative artificial intelligence from a business model innovation perspective",
   "Year": 2023,
   "Authors": "Dominik Kurt Kanbach; Louisa Heiduk; Georg Blueher; Maximilian Schreiter; Alexander D.F. Lahmann",
@@ -171325,7 +171605,7 @@
   "FWCI": 119.5466
  },
  {
-  "ID": "LM04896",
+  "ID": "LM04904",
   "Title": "Comparing the quality of human and ChatGPT feedback of students’ writing",
   "Year": 2024,
   "Authors": "Jacob Steiss; Tamara Powell Tate; Steve Graham; Jazmin Cruz; Michael A. Hebert; Jiali Wang; Youngsun Moon; Waverly Tseng; Mark Warschauer; Carol Booth Olson",
@@ -171360,7 +171640,7 @@
   "FWCI": 603.6113
  },
  {
-  "ID": "LM04897",
+  "ID": "LM04905",
   "Title": "Generative AI in Education and Research: Opportunities, Concerns, and Solutions",
   "Year": 2023,
   "Authors": "Eman A. Alasadi; Carlos R. Baiz",
@@ -171395,7 +171675,7 @@
   "FWCI": 118.4826
  },
  {
-  "ID": "LM04898",
+  "ID": "LM04906",
   "Title": "TPACK in the age of ChatGPT and Generative AI",
   "Year": 2023,
   "Authors": "Punya Mishra; Melissa Warr; Rezwana Islam",
@@ -171430,7 +171710,7 @@
   "FWCI": 112.9944
  },
  {
-  "ID": "LM04899",
+  "ID": "LM04907",
   "Title": "A scoping review on how generative artificial intelligence transforms assessment in higher education",
   "Year": 2024,
   "Authors": "Qi Xia; Xiaojing Weng; Fan Ouyang; Tzung‐Jin Lin; Thomas K. F. Chiu",
@@ -171465,7 +171745,7 @@
   "FWCI": 182.091
  },
  {
-  "ID": "LM04900",
+  "ID": "LM04908",
   "Title": "Generative artificial intelligence, human creativity, and art",
   "Year": 2024,
   "Authors": "Eric Zhou; Dokyun Lee",
@@ -171500,7 +171780,7 @@
   "FWCI": 1924.3979
  },
  {
-  "ID": "LM04901",
+  "ID": "LM04909",
   "Title": "The ethics of ChatGPT in medicine and healthcare: a systematic review on Large Language Models (LLMs)",
   "Year": 2024,
   "Authors": "Joschka Haltaufderheide; Robert Ranisch",
@@ -171535,7 +171815,7 @@
   "FWCI": 11.8462
  },
  {
-  "ID": "LM04902",
+  "ID": "LM04910",
   "Title": "How does generative artificial intelligence impact student creativity?",
   "Year": 2023,
   "Authors": "Sabrina Habib; Thomas Vogel; Xiao Anli; Evelyn Thorne",
@@ -171570,7 +171850,7 @@
   "FWCI": 86.0141
  },
  {
-  "ID": "LM04903",
+  "ID": "LM04911",
   "Title": "Generative artificial intelligence in the metaverse era",
   "Year": 2023,
   "Authors": "Zhihan Lv",
@@ -171605,7 +171885,42 @@
   "FWCI": 30.2806
  },
  {
-  "ID": "LM04904",
+  "ID": "LM04912",
+  "Title": "Ethics of large language models in medicine and medical research",
+  "Year": 2023,
+  "Authors": "Hanzhou Li; John Timothy Moon; Saptarshi Purkayastha; Leo Anthony Celi; Hari Trivedi; Judy Wawira Gichoya",
+  "Venue": "The Lancet Digital Health",
+  "Document type": "article",
+  "DOI": "10.1016/s2589-7500(23)00083-3",
+  "OpenAlex ID": "W4367186868",
+  "Link": "https://doi.org/10.1016/s2589-7500(23)00083-3",
+  "Open-access link": "https://doi.org/10.1016/s2589-7500(23)00083-3",
+  "Cited-by count": 298,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "San Francisco; United States",
+  "Region": "Global North",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "computational",
+  "Landmark flag": "",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: Large language models (LLMs) are a type of deep learning model that are trained on vast amounts of text data with the goal of generating new text that closely resembles human responses.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:recent",
+  "Duplicates merged": "",
+  "FWCI": 10.6322
+ },
+ {
+  "ID": "LM04913",
   "Title": "Developing evaluative judgement for a time of generative artificial intelligence",
   "Year": 2024,
   "Authors": "Margaret Bearman; Joanna Tai; Phillip Dawson; David J. Boud; Rola Ajjawi",
@@ -171640,7 +171955,7 @@
   "FWCI": 352.9814
  },
  {
-  "ID": "LM04905",
+  "ID": "LM04914",
   "Title": "Should ChatGPT be biased? Challenges and risks of bias in large language models",
   "Year": 2023,
   "Authors": "Emilio Ferrara",
@@ -171675,7 +171990,7 @@
   "FWCI": 67.3771
  },
  {
-  "ID": "LM04906",
+  "ID": "LM04915",
   "Title": "Generative artificial intelligence and evaluating strategic decisions",
   "Year": 2024,
   "Authors": "Anil Rajnikant Doshi; J. Jason Bell; Emil Mirzayev; Bart S. Vanneste",
@@ -171710,7 +172025,7 @@
   "FWCI": 30.8667
  },
  {
-  "ID": "LM04907",
+  "ID": "LM04916",
   "Title": "ChatGPT and Publication Ethics",
   "Year": 2023,
   "Authors": "Farid Rahimi; Amin Talebi Bezmin Abadi",
@@ -171745,7 +172060,7 @@
   "FWCI": 40.5516
  },
  {
-  "ID": "LM04908",
+  "ID": "LM04917",
   "Title": "Generative artificial intelligence (GenAI) revolution: A deep dive into GenAI adoption",
   "Year": 2025,
   "Authors": "Aman Kumar; Amit Shankar; Linda D. Hollebeek; Abhishek Behl; Weng Marc Lim",
@@ -171780,7 +172095,7 @@
   "FWCI": 159.9892
  },
  {
-  "ID": "LM04909",
+  "ID": "LM04918",
   "Title": "Generative artificial intelligence and engineering education",
   "Year": 2023,
   "Authors": "Aditya Johri; Andrew Katz; Junaid Qadir; Ashish Hingle",
@@ -171815,7 +172130,7 @@
   "FWCI": 30.2015
  },
  {
-  "ID": "LM04910",
+  "ID": "LM04919",
   "Title": "Generative artificial intelligence in medicine",
   "Year": 2025,
   "Authors": "Zhen Ling Teo; Arun James Thirunavukarasu; Kabilan Elangovan; Haoran Cheng; Prasanth Moova; Brian T. Soetikno; Christopher Nielsen; Andreas Pollreisz; Darren Shu Jeng Ting; Robert Morris et al.",
@@ -171850,7 +172165,7 @@
   "FWCI": 24.3515
  },
  {
-  "ID": "LM04911",
+  "ID": "LM04920",
   "Title": "Generative artificial intelligence: a historical perspective",
   "Year": 2025,
   "Authors": "Ran He; Jie Cao; Tieniu Tan",
@@ -171885,7 +172200,7 @@
   "FWCI": 39.9913
  },
  {
-  "ID": "LM04912",
+  "ID": "LM04921",
   "Title": "The Security of Using Large Language Models: A Survey with Emphasis on ChatGPT",
   "Year": 2024,
   "Authors": "Wei Zhou; Xiaogang Zhu; Qing‐Long Han; Lin Li; Xiao Chen; Sheng Wen; Yang Xiang",
@@ -171920,7 +172235,7 @@
   "FWCI": 14.956
  },
  {
-  "ID": "LM04913",
+  "ID": "LM04922",
   "Title": "Integrating Generative AI Into K-12 Curriculums and Pedagogies in India",
   "Year": 2023,
   "Authors": "Durgesh M. Sharma; K. Venkata Ramana; R. Jothilakshmi; Rakesh Verma; B. Uma Maheswari; Sampath Boopathi",
@@ -171955,7 +172270,7 @@
   "FWCI": 62.8644
  },
  {
-  "ID": "LM04914",
+  "ID": "LM04923",
   "Title": "Ethics Education for Healthcare Professionals in the Era of ChatGPT and Other Large Language Models: Do We Still Need It?",
   "Year": 2023,
   "Authors": "Vasiliki Nataly Rahimzadeh; Kristin M. Kostick; Jennifer Blumenthal‐Barby; Amy L. McGuire",
@@ -171990,7 +172305,7 @@
   "FWCI": 2.4975
  },
  {
-  "ID": "LM04915",
+  "ID": "LM04924",
   "Title": "Demystifying ChatGPT: An In-depth Survey of OpenAI’s Robust Large Language Models",
   "Year": 2024,
   "Authors": "Pronaya Bhattacharya; Vivek Kumar Prasad; Ashwin Verma; Deepak Kumar Gupta; Assadaporn Sapsomboon; Wattana Viriyasitavat; Gaurav Dhiman",
@@ -172025,7 +172340,7 @@
   "FWCI": 10.9783
  },
  {
-  "ID": "LM04916",
+  "ID": "LM04925",
   "Title": "Generative Artificial Intelligence in Finance",
   "Year": 2023,
   "Authors": "Ghiath Shabsigh; El Bachir Boukherouaa",
@@ -172060,7 +172375,7 @@
   "FWCI": 28.0853
  },
  {
-  "ID": "LM04917",
+  "ID": "LM04926",
   "Title": "Reconciling the contrasting narratives on the environmental impact of large language models",
   "Year": 2024,
   "Authors": "Shaolei Ren; Bill Tomlinson; Rebecca W. Black; Andrew W. Torrance",
@@ -172095,7 +172410,42 @@
   "FWCI": 6.3885
  },
  {
-  "ID": "LM04918",
+  "ID": "LM04927",
+  "Title": "Medical Ethics of Large Language Models in Medicine",
+  "Year": 2024,
+  "Authors": "Jasmine Chiat Ling Ong; Yin‐Hsi Chang; William Wasswa; Atul Janardhan Butte; Nigam Haresh Shah; Lita Sui Tjien Chew; Nan Liu; Finale Doshi‐Velez; Wei Lu; Julian Savulescu et al.",
+  "Venue": "NEJM AI",
+  "Document type": "article",
+  "DOI": "10.1056/aira2400038",
+  "OpenAlex ID": "W4399737726",
+  "Link": "https://doi.org/10.1056/aira2400038",
+  "Open-access link": "https://doi.org/10.1056/aira2400038",
+  "Cited-by count": 59,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: Large language models (LLMs) have shown significant promise related to their application in medical research, medical education, and clinical tasks.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:recent",
+  "Duplicates merged": "",
+  "FWCI": 4.9013
+ },
+ {
+  "ID": "LM04928",
   "Title": "Can Generative Artificial Intelligence be a Good Teaching Assistant?—An Empirical Analysis Based on Generative AI ‐Assisted Teaching",
   "Year": 2025,
   "Authors": "Qianwen Tang; Wenbo Deng; Yidan Huang; Shuaijie Wang; Hao Zhang",
@@ -172130,7 +172480,7 @@
   "FWCI": 63.3174
  },
  {
-  "ID": "LM04919",
+  "ID": "LM04929",
   "Title": "Barriers to and Opportunities for the Adoption of Generative Artificial Intelligence in Higher Education in the Global South: Insights from Sri Lanka",
   "Year": 2024,
   "Authors": "Amali Henadirage; Nuwan Gunarathne",
@@ -172165,7 +172515,7 @@
   "FWCI": 19.653
  },
  {
-  "ID": "LM04920",
+  "ID": "LM04930",
   "Title": "The Importance of AI Data Governance in Large Language Models",
   "Year": 2025,
   "Authors": "Saurabh A. Pahune; Zahid Akhtar; Venkatesh Mandapati; Kamran Siddique",
@@ -172200,7 +172550,7 @@
   "FWCI": 53.5023
  },
  {
-  "ID": "LM04921",
+  "ID": "LM04931",
   "Title": "Large Foundation Models for Power Systems",
   "Year": 2024,
   "Authors": "Chenghao Huang; Siyang Li; Ruohong Liu; Hao Henry Wang; Yize Chen",
@@ -172235,7 +172585,7 @@
   "FWCI": 35.8719
  },
  {
-  "ID": "LM04922",
+  "ID": "LM04932",
   "Title": "Foundation models for the electric power grid",
   "Year": 2024,
   "Authors": "Hendrik F. Hamann; Blazhe Gjorgiev; Thomas Brunschwiler; L. S. A. Martins; Alban Puech; Anna Varbella; Jonas Weiß; Juan Bernabé-Moreno; Alexandre Blondin Massé; Seong Lok Choi et al.",
@@ -172270,7 +172620,7 @@
   "FWCI": 4.4253
  },
  {
-  "ID": "LM04923",
+  "ID": "LM04933",
   "Title": "Generative Artificial Intelligence: Fundamentals",
   "Year": 2023,
   "Authors": "Juan M. Corchado; Sebastian López F.; J. V.; Raul Garcia S.; Pablo Chamoso",
@@ -172305,7 +172655,7 @@
   "FWCI": 3.8323
  },
  {
-  "ID": "LM04924",
+  "ID": "LM04934",
   "Title": "Written by ChatGPT: AI, large language models, conversational chatbots, and their place in society and business",
   "Year": 2024,
   "Authors": "Jan Kietzmann; ANDREW W. PARK",
@@ -172340,7 +172690,7 @@
   "FWCI": 5.4096
  },
  {
-  "ID": "LM04925",
+  "ID": "LM04935",
   "Title": "MiniLLM: On-Policy Distillation of Large Language Models",
   "Year": 2023,
   "Authors": "Yuxian Gu; Li Dong; Furu Wei; Minlie Huang",
@@ -172375,7 +172725,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04926",
+  "ID": "LM04936",
   "Title": "Large language models in anaesthesiology: use of ChatGPT for American Society of Anesthesiologists physical status classification",
   "Year": 2023,
   "Authors": "Daniel Yan Zheng Lim; Yu He Ke; Gerald Gui Ren Sng; Joshua Yi Min Tung; Jia X. Chai; Hairil Rizal Abdullah",
@@ -172410,7 +172760,7 @@
   "FWCI": 0.892
  },
  {
-  "ID": "LM04927",
+  "ID": "LM04937",
   "Title": "Large Language Models, Small Labor Market Effects",
   "Year": 2025,
   "Authors": "Anders Humlum; Emilie Vestergaard",
@@ -172445,7 +172795,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04928",
+  "ID": "LM04938",
   "Title": "ChatGPT: Where Is a Silver Lining? Exploring the realm of GPT and large language models",
   "Year": 2023,
   "Authors": "Елена Викторовна Тихонова; Lilia Raitskaya",
@@ -172480,7 +172830,7 @@
   "FWCI": 4.3882
  },
  {
-  "ID": "LM04929",
+  "ID": "LM04939",
   "Title": "How Can Generative AI (GenAI) Enhance or Hinder Qualitative Studies? A Critical Appraisal from South Asia, Nepal",
   "Year": 2024,
   "Authors": "Niroj Dahal",
@@ -172515,7 +172865,7 @@
   "FWCI": 21.2413
  },
  {
-  "ID": "LM04930",
+  "ID": "LM04940",
   "Title": "Semantic-Aware Power Allocation for Generative Semantic Communications with Foundation Models",
   "Year": 2024,
   "Authors": "Chunmei Xu; Mahdi Boloursaz Mashhadi; Yi Ma; Rahim Tafazolli",
@@ -172550,7 +172900,7 @@
   "FWCI": 13.0368
  },
  {
-  "ID": "LM04931",
+  "ID": "LM04941",
   "Title": "Thematic insights into the impact of large language models on K-12 education in rural India from student volunteers’ perspectives",
   "Year": 2025,
   "Authors": "Harshita Goyal; Garima Garg; Prisha Mordia; Veena Ramachandran; Dhruv Kumar; Jagat Sesh Challa",
@@ -172585,7 +172935,7 @@
   "FWCI": 17.3813
  },
  {
-  "ID": "LM04932",
+  "ID": "LM04942",
   "Title": "Intersection of generative artificial intelligence and copyright: an Indian perspective",
   "Year": 2024,
   "Authors": "Shinu Vig",
@@ -172620,7 +172970,7 @@
   "FWCI": 1.2729
  },
  {
-  "ID": "LM04933",
+  "ID": "LM04943",
   "Title": "Factors Affecting the Effectiveness of Generative Artificial Intelligence Apps on University Students' Programming Language Learning in Sri Lanka: A Systematic Literature Review",
   "Year": 2024,
   "Authors": "K. G. D. K. Perera; Janaka I Wijayanayake; J. Prasadika",
@@ -172655,7 +173005,7 @@
   "FWCI": 0.5865
  },
  {
-  "ID": "LM04934",
+  "ID": "LM04944",
   "Title": "Analyzing the Learning Effectiveness of Generative AI for Software Development for Undergraduates in Sri Lanka",
   "Year": 2024,
   "Authors": "Pramodya Samarakoon; Dinesh Asanka; Shantha Jayalal; Nirasha Jayalath",
@@ -172690,7 +173040,42 @@
   "FWCI": 3.3411
  },
  {
-  "ID": "LM04935",
+  "ID": "LM04945",
+  "Title": "Ethics, Governance, and User Mental Models for Large Language Models in Computing Education",
+  "Year": 2024,
+  "Authors": "Zhixuan Zhou; Zachary Kilhoffer; Madelyn Rose Sanfilippo; Ted Underwood; Ece Gumusel; Mengyi Wei; Abhinav Choudhry; Jinjun Xiong",
+  "Venue": "XRDS Crossroads The ACM Magazine for Students",
+  "Document type": "article",
+  "DOI": "10.1145/3688089",
+  "OpenAlex ID": "W4403332906",
+  "Link": "https://doi.org/10.1145/3688089",
+  "Open-access link": "https://doi.org/10.1145/3688089",
+  "Cited-by count": 7,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "unclear",
+  "Landmark flag": "",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: Large language models like ChatGPT are disrupting many industries, including computing education.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:recent",
+  "Duplicates merged": "",
+  "FWCI": 2.9329
+ },
+ {
+  "ID": "LM04946",
   "Title": "Learning the Power of “No”: Foundation Models with Negations",
   "Year": 2025,
   "Authors": "Jaisidh Singh; Ishaan Shrivastava; Mayank Vatsa; Richa Singh; Aparna Bharati",
@@ -172725,7 +173110,7 @@
   "FWCI": 5.3146
  },
  {
-  "ID": "LM04936",
+  "ID": "LM04947",
   "Title": "ChatGPT and Large Language Models: What are the Implications for Policy Makers?",
   "Year": 2023,
   "Authors": "Paul G. Geertsema; Albert Bifet; Richard Green",
@@ -172760,7 +173145,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04937",
+  "ID": "LM04948",
   "Title": "ChatGPT: A Comprehensive Review of a Large Language Model",
   "Year": 2023,
   "Authors": "Kuldeep Singh Kaswan; Jagjit Singh Dhatterwal; Reenu Batra; Dileep Kumar Yadav",
@@ -172795,7 +173180,7 @@
   "FWCI": 1.006
  },
  {
-  "ID": "LM04938",
+  "ID": "LM04949",
   "Title": "On the Power of Foundation Models",
   "Year": 2022,
   "Authors": "Yuan Yang",
@@ -172830,7 +173215,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04939",
+  "ID": "LM04950",
   "Title": "Adoption success of using Generative AI apps for the ECommerce Platforms in Sri Lanka",
   "Year": 2024,
   "Authors": "A. Dilshan; Janaka I Wijayanayake; Dinesh Asanka; Chamindu Karunarathna",
@@ -172865,7 +173250,7 @@
   "FWCI": 3.7328
  },
  {
-  "ID": "LM04940",
+  "ID": "LM04951",
   "Title": "Data and AI governance: Promoting equity, ethics, and fairness in large language models",
   "Year": 2025,
   "Authors": "Alok Abishek; Lisa Erickson; Tushar Bandopadhyay",
@@ -172900,7 +173285,7 @@
   "FWCI": 3.5668
  },
  {
-  "ID": "LM04941",
+  "ID": "LM04952",
   "Title": "Country Landscape of Large Language Models Development: A Review",
   "Year": 2025,
   "Authors": "Wan Chong Choi; Chi In Chang; Iek Chong Choi; Lai Chu Lam",
@@ -172935,7 +173320,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04942",
+  "ID": "LM04953",
   "Title": "A Hybrid ML-NWP Approach for Predicting GHI and Power to Mitigate Penalties Under CERC’s Deviation Settlement Mechanism",
   "Year": 2024,
   "Authors": "Amol Patil; Kedar S. Kulkarni",
@@ -172970,7 +173355,7 @@
   "FWCI": 0.6468
  },
  {
-  "ID": "LM04943",
+  "ID": "LM04954",
   "Title": "Ethics in AI: Integrating Ancient Indian Wisdom into Large Language Models",
   "Year": 2025,
   "Authors": "Yash Triapthi; Abhinandit Singh Saunkhla; Aman Sharma",
@@ -173005,7 +173390,7 @@
   "FWCI": 2.4318
  },
  {
-  "ID": "LM04944",
+  "ID": "LM04955",
   "Title": "Decoding cultural tapestries: A deep dive into Indian social stigma patterns in large language models",
   "Year": 2025,
   "Authors": "Sridhar Jonnala; Rushikesh Tade; Nisha Mary Thomas",
@@ -173040,7 +173425,7 @@
   "FWCI": 2.3779
  },
  {
-  "ID": "LM04945",
+  "ID": "LM04956",
   "Title": "The Economics of AI Foundation Models: Openness, Competition, and Governance",
   "Year": 2024,
   "Authors": "Fasheng Xu; Xiaoyu Wang; Wei Chen; Karen Xie",
@@ -173075,7 +173460,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04946",
+  "ID": "LM04957",
   "Title": "Indian Pediatrics’ Policy Regarding Artificial Intelligence (AI) — Enabled Large Language Models",
   "Year": 2023,
   "Authors": "Devendra Mishra",
@@ -173110,7 +173495,7 @@
   "FWCI": 0.0357
  },
  {
-  "ID": "LM04947",
+  "ID": "LM04958",
   "Title": "The Influence of Generative AI on work-life balance among female software professionals in Sri Lanka",
   "Year": 2025,
   "Authors": "Sanduni Upeksha; D.G.S.P. Samarasinghe; Mithun Sanochana; Sapni S. Samarathunga; Lochana Rajamanthri; Takshila Samarakkody; Chathuni Aluthwala",
@@ -173145,7 +173530,7 @@
   "FWCI": 3.9817
  },
  {
-  "ID": "LM04948",
+  "ID": "LM04959",
   "Title": "Large Language Models and Geopolitical Competition",
   "Year": 2025,
   "Authors": "Srirath Goi Gohwong",
@@ -173180,7 +173565,7 @@
   "FWCI": 3.4736
  },
  {
-  "ID": "LM04949",
+  "ID": "LM04960",
   "Title": "Ethics and Governance of Large Language Models",
   "Year": 2025,
   "Authors": "Gabriele Rendace Presta; Andrea Paolella",
@@ -173215,7 +173600,7 @@
   "FWCI": 3.4736
  },
  {
-  "ID": "LM04950",
+  "ID": "LM04961",
   "Title": "ChatGPT and Pakistan",
   "Year": 2024,
   "Authors": "Muhammad Mooneeb Ali",
@@ -173250,7 +173635,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04951",
+  "ID": "LM04962",
   "Title": "Generative Artificial Intelligence (GenAI) Use Cases for the Banks in India",
   "Year": 2024,
   "Authors": "Srihari Subudhi",
@@ -173285,7 +173670,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04952",
+  "ID": "LM04963",
   "Title": "Generative Artificial Intelligence in Employee Retention and Engagement at IT Sectors With Reference to Chennai",
   "Year": 2025,
   "Authors": "S. S. Uma Sankari; A. Geetha",
@@ -173320,7 +173705,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04953",
+  "ID": "LM04964",
   "Title": "Generative AI in India",
   "Year": 2025,
   "Authors": "Debayan Gupta",
@@ -173355,7 +173740,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04954",
+  "ID": "LM04965",
   "Title": "Politics of Generative Artificial Intelligence in Empowering Education in India",
   "Year": 2025,
   "Authors": "Jian Li",
@@ -173390,7 +173775,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04955",
+  "ID": "LM04966",
   "Title": "Advancing AI for India: A Survey on Hierarchical Reasoning and Modular Enhancements in Large Language Models",
   "Year": 2025,
   "Authors": "Manish Kumar Gupta; Lakshmi Panat",
@@ -173425,7 +173810,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04956",
+  "ID": "LM04967",
   "Title": "Exploring generative AI in social sciences: A case study of selected universities in Karachi, Pakistan",
   "Year": 2026,
   "Authors": "Erum Muzaffar; Marium Fatima",
@@ -173460,7 +173845,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04957",
+  "ID": "LM04968",
   "Title": "AgriLLM-India: Empowering Indian Farmers Through Domain-Specific Large Language Models for Agricultural Knowledge and Decision Support",
   "Year": 2026,
   "Authors": "Vijay Kumar Damera; Deepthi Kalavala",
@@ -173495,7 +173880,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04958",
+  "ID": "LM04969",
   "Title": "Explicating Generative Artificial Intelligence Literacy of Management Students in India",
   "Year": 2026,
   "Authors": "Namrata Ladha; Priya Rathore",
@@ -173530,7 +173915,42 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04959",
+  "ID": "LM04970",
+  "Title": "COLONIAL MAPPING OF ADVANCE AUTOMATION: EAST INDIA COMPANY AS AI",
+  "Year": 2026,
+  "Authors": "Elisha Lim; Beth Coleman",
+  "Venue": "AoIR Selected Papers of Internet Research",
+  "Document type": "article",
+  "DOI": "10.5210/spir.v2024i0.15215",
+  "OpenAlex ID": "W7133532012",
+  "Link": "https://doi.org/10.5210/spir.v2024i0.15215",
+  "Open-access link": "https://spir.aoir.org/ojs/index.php/spir/article/download/15215/12286",
+  "Cited-by count": 0,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "India; United Kingdom",
+  "Region": "Multi-region",
+  "India flag": "Y",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: This paper argues that AI systems must be understood as extensions of centuries-old platform infrastructures rooted in empire.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:india",
+  "Duplicates merged": "",
+  "FWCI": 0.0
+ },
+ {
+  "ID": "LM04971",
   "Title": "Autonomous 3D Bioprinting Pipelines: Foundation Models for Tissue Design, Vascularization, and Quality Assurance",
   "Year": 2026,
   "Authors": "Murali Krishna Pasupuleti",
@@ -173565,7 +173985,42 @@
   "FWCI": null
  },
  {
-  "ID": "LM04960",
+  "ID": "LM04972",
+  "Title": "EMPOWERING THE GLOBAL SOUTH: INDIA’S SOVEREIGN AI REVOLUTION AND THE \"पढAI\" EDUCATIONAL TRANSFORMATION",
+  "Year": 2020,
+  "Authors": "Sandeep Kumar Sharma",
+  "Venue": "",
+  "Document type": "book-chapter",
+  "DOI": "10.25215/110546900x.17",
+  "OpenAlex ID": "W7149284733",
+  "Link": "https://doi.org/10.25215/110546900x.17",
+  "Open-access link": "https://doi.org/10.25215/110546900x.17",
+  "Cited-by count": 0,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "India; New Delhi",
+  "Region": "South Asia",
+  "India flag": "Y",
+  "Delhi/NCR flag": "Y",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: This chapter examines the strategic outcomes of the India AI Impact Summit 2026 at Bharat Mandapam, New Delhi.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:india",
+  "Duplicates merged": "",
+  "FWCI": 0.0
+ },
+ {
+  "ID": "LM04973",
   "Title": "Generative AI and copyright law: a comparative study on copyright protection for AI generated audio-visual works in Sri Lanka, the US and India",
   "Year": 2026,
   "Authors": "H.M Oshan N. Piumantha",
@@ -173600,7 +174055,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04961",
+  "ID": "LM04974",
   "Title": "Foundation Models for Intelligent Financial Forecasting, Fraud Detection, and Market Risk Analytics",
   "Year": 2026,
   "Authors": "Murali Krishna Pasupuleti",
@@ -173635,7 +174090,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04962",
+  "ID": "LM04975",
   "Title": "Digital Artists’ Perceptions of Generative AI in South Asia: Insights from the South Asian Digital Art Archive (SADA)",
   "Year": 2026,
   "Authors": "Najam Ul Assar; Megan Smith",
@@ -173670,7 +174125,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04963",
+  "ID": "LM04976",
   "Title": "Generative AI: Challenges and Opportunities for Women in South Asia",
   "Year": 2026,
   "Authors": "Qurat Ul Ain Nizamani; Madhumita A. Takalkar; Anita Jahid",
@@ -173705,7 +174160,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04964",
+  "ID": "LM04977",
   "Title": "Machine Unlearning for Governance of Foundation Models",
   "Year": 2026,
   "Authors": "",
@@ -173740,7 +174195,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04965",
+  "ID": "LM04978",
   "Title": "Generative Artificial Intelligence and Educational Equity in Indian Higher Education",
   "Year": 2026,
   "Authors": "Neetu Chettri",
@@ -173775,7 +174230,42 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04966",
+  "ID": "LM04979",
+  "Title": "Large language models in healthcare: applications, evaluation frameworks, and governance pathways — a scoping review and multidimensional framework",
+  "Year": 2026,
+  "Authors": "João C. Ferreira; Isabel Rosa",
+  "Venue": "Frontiers in Digital Health",
+  "Document type": "article",
+  "DOI": "10.3389/fdgth.2026.1865568",
+  "OpenAlex ID": "W7213552002",
+  "Link": "https://doi.org/10.3389/fdgth.2026.1865568",
+  "Open-access link": "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1865568/pdf",
+  "Cited-by count": 0,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "Africa; East Asia; Latin America; North America; South Asia",
+  "Region": "Multi-region",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "review",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: Background: Large language models (LLMs) are increasingly evaluated for healthcare applications spanning clinical documentation, decision support, patient communication, research assistance, and operational workflows.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:india",
+  "Duplicates merged": "",
+  "FWCI": 0.0
+ },
+ {
+  "ID": "LM04980",
   "Title": "Generative AI for Personalized Travel Planning, Hospitality Services and Multilingual Destination Experiences",
   "Year": 2026,
   "Authors": "Murali Krishna Pasupuleti",
@@ -173810,7 +174300,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04967",
+  "ID": "LM04981",
   "Title": "Impact of Large Language Model on Indian Economy",
   "Year": 2024,
   "Authors": "Jignesh Vidani",
@@ -173845,7 +174335,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04968",
+  "ID": "LM04982",
   "Title": "Optimal Power Grid Operations with Foundation Models",
   "Year": 2024,
   "Authors": "Alban Puech; Jonas Weiß; Thomas Brunschwiler; Hendrik F. Hamann",
@@ -173880,7 +174370,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04969",
+  "ID": "LM04983",
   "Title": "Predicting Climate Policy Support with Large Language Models: Assessing Accuracy and Bias in AI-Simulated Policy Support",
   "Year": 2025,
   "Authors": "Ziqian Xia; Jinquan Ye; Jianing Ding; Nathaniel Geiger; Ulf J.J. Hahnel; Ramit Debnath; Sara Madureira Constantino; Chao Zhang; Kristian Steensen Nielsen",
@@ -173915,7 +174405,42 @@
   "FWCI": null
  },
  {
-  "ID": "LM04970",
+  "ID": "LM04984",
+  "Title": "Perceptions and Implementation Gaps in Large Language Model Adoption Among Healthcare Professionals in South India (Preprint)",
+  "Year": 2025,
+  "Authors": "Nidhi Fotedar; N. R. Ramesh Masthi",
+  "Venue": "",
+  "Document type": "preprint",
+  "DOI": "10.2196/preprints.81501",
+  "OpenAlex ID": "W4412801553",
+  "Link": "https://doi.org/10.2196/preprints.81501",
+  "Open-access link": "",
+  "Cited-by count": 0,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "India",
+  "Region": "South Asia",
+  "India flag": "Y",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "mixed",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: OBJECTIVE This study aimed to assess awareness, training, usage patterns, perceived benefits, and concerns regarding LLMs among healthcare professionals in South India.",
+  "Stated gaps": "auto: However, little is known about how healthcare professionals in India perceive, use, and are prepared for such technologies. | Key perceived benefits included diagnostic assistance (58.6%) and administrative task reduction (74.8%), while concerns included lack of empathy (74.7%), ethical uncertainty (71.7%), and data privacy (65.7%).",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "Y",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:india",
+  "Duplicates merged": "",
+  "FWCI": null
+ },
+ {
+  "ID": "LM04985",
   "Title": "Vietnam's Strategic Dilemma in Large Language Model Development: Comparative Lessons and Policy Imperatives",
   "Year": 2025,
   "Authors": "Dai-Long Ngo-Hoang",
@@ -173950,7 +174475,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04971",
+  "ID": "LM04986",
   "Title": "PolicyStory: Leveraging Large Language Models to Generate Comprehensible Summaries of Policy-News in India",
   "Year": 2025,
   "Authors": "Aatif Nisar Dar; Aditya Singh; Anirban Sen",
@@ -173985,7 +174510,42 @@
   "FWCI": null
  },
  {
-  "ID": "LM04972",
+  "ID": "LM04987",
+  "Title": "Ethical Risk Identification, Governance, and Foresight of Medical Foundation Models",
+  "Year": 2025,
+  "Authors": "Liu Liu; Xin Zhang; Qiqi Zhang; Jie Liu; Ziyu Liu; Huiling Wang; Hanxi Yi; Weiyuan Wang; Ousmane Diabate; Junpu Wang",
+  "Venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+  "Document type": "article",
+  "DOI": "10.15302/j-sscae-2025.07.028",
+  "OpenAlex ID": "W7128249609",
+  "Link": "https://doi.org/10.15302/j-sscae-2025.07.028",
+  "Open-access link": "https://doaj.org/article/9cf55c074089421b85abb89d47c1619e",
+  "Cited-by count": 0,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: This study systematically examines four core categories of ethical risks in medical foundation model applications: data privacy risks, algorithmic decision-making risks, subject-relation risks, and social equity risks, illustrated through representative cases.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "Y",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:recent",
+  "Duplicates merged": "",
+  "FWCI": 0.0
+ },
+ {
+  "ID": "LM04988",
   "Title": "Predicting Power-System Dynamic Trajectories with Foundation Models",
   "Year": 2026,
   "Authors": "Haoran Li; Lihao Mai; Chenhan Xiao; Erik Blasch; Yang Weng",
@@ -174020,7 +174580,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04973",
+  "ID": "LM04989",
   "Title": "MSAF: Model State Attestation Framework — Evidence-Based Governance for Foundation Models",
   "Year": 2026,
   "Authors": "Ryan Fields",
@@ -174055,7 +174615,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04974",
+  "ID": "LM04990",
   "Title": "Generative Artificial Intelligence In Crop Breeding: Transforming Indian Agriculture With A Karnataka Perspective",
   "Year": 2026,
   "Authors": "Dr. Ranganath G",
@@ -174090,7 +174650,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04975",
+  "ID": "LM04991",
   "Title": "Large Language Models in Archaeological Practice: Efficacy, Ethics, Risks, and Governance",
   "Year": 2026,
   "Authors": "Robert J. Bischoff",
@@ -174125,7 +174685,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04976",
+  "ID": "LM04992",
   "Title": "Data Sovereignty and Algorithmic Dependency in the Global South: A Systematic Review of Foundation Model Governance, Digital Inequity, and Decolonial Artificial Intelligence Frameworks",
   "Year": 2026,
   "Authors": "Dharma Patel",
@@ -174160,7 +174720,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04977",
+  "ID": "LM04993",
   "Title": "Benchmarking Open-Weight Foundation Models for Global AI Technical Governance",
   "Year": 2026,
   "Authors": "Jason Hung",
@@ -174195,7 +174755,42 @@
   "FWCI": null
  },
  {
-  "ID": "LM04978",
+  "ID": "LM04994",
+  "Title": "India's AI Policy Vacuum: Between Digital Public Infrastructure Ambition and Governance Readiness",
+  "Year": 2026,
+  "Authors": "Ali Sadhik Shaik",
+  "Venue": "Zenodo (CERN European Organization for Nuclear Research)",
+  "Document type": "preprint",
+  "DOI": "10.5281/zenodo.20894232",
+  "OpenAlex ID": "W7166139045",
+  "Link": "https://doi.org/10.5281/zenodo.20894232",
+  "Open-access link": "https://doi.org/10.5281/zenodo.20894232",
+  "Cited-by count": 0,
+  "Domain": "B",
+  "Primary theme": "B14",
+  "Secondary theme": "",
+  "Places studied": "India",
+  "Region": "South Asia",
+  "India flag": "Y",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "unclear",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: This paper examines this governance vacuum through three analytical lenses: the deployment gap (AI systems operating at population scale without regulatory guardrails in lending, hiring, healthcare, and law enforcement), the institutional gap (absence of the specialized agencies, technical expert…",
+  "Stated gaps": "auto: This paper examines this governance vacuum through three analytical lenses: the deployment gap (AI systems operating at population scale without regulatory guardrails in lending, hiring, healthcare, and law enforcement), the institutional gap (absence of the specialized agencies, technical expertise, and enforcement mechanisms required to implement AI governance), and the strategic tension (political incentives to delay regulation that might slow AI adoption, even as governance failures accum…",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "Y",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "B14:india",
+  "Duplicates merged": "W7166191650",
+  "FWCI": null
+ },
+ {
+  "ID": "LM04995",
   "Title": "AI Governance Framework for Large Language Models in Healthcare: Ensuring Trust, Privacy, Security and Regulatory Compliance",
   "Year": 2026,
   "Authors": "Mudassir Ali Mohammed; Dr Yohannes Tadesse",
@@ -174230,7 +174825,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04979",
+  "ID": "LM04996",
   "Title": "Sarvam 105B Wins 90% of Indian-Language Benchmarks Against GPT-4. Research Shows LLMs Are Not Court-Ready. The Supreme Court's June 2026 Regulations Require AI Outputs to Be Traceable. Probabilistic Models Cannot Produce Deterministic Constitutional Proof.",
   "Year": 2026,
   "Authors": "Akhil Sharma; Preethi Sharma",
@@ -174265,7 +174860,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04980",
+  "ID": "LM04997",
   "Title": "Mapping the Narrow Corridor with Large Language Models",
   "Year": 2026,
   "Authors": "Ebrahim M. Songhori",
@@ -174300,7 +174895,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04981",
+  "ID": "LM04998",
   "Title": "Generative Artificial Intelligence, Large Language Models, and Intelligent Assessment Systems: Implications for India",
   "Year": 2026,
   "Authors": "Dr. Aprajita Sharma Ajay Solanki",
@@ -174335,7 +174930,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04982",
+  "ID": "LM04999",
   "Title": "Generative Artificial Intelligence & its Military Applications by the US and China – Lessons for South Asia",
   "Year": 2024,
   "Authors": "Hananah Zarrar; Sher Ali Kakar",
@@ -174370,7 +174965,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM04983",
+  "ID": "LM05000",
   "Title": "Glitchy vignettes of platform urbanism",
   "Year": 2019,
   "Authors": "Agnieszka Leszczynski",
@@ -174405,7 +175000,7 @@
   "FWCI": 21.8483
  },
  {
-  "ID": "LM04984",
+  "ID": "LM05001",
   "Title": "Questioning mobility as a service: Unanticipated implications for society and governance",
   "Year": 2019,
   "Authors": "Kate Pangbourne; Miloš N. Mladenović; Dominic Stead; Dimitris Milakis",
@@ -174440,7 +175035,7 @@
   "FWCI": 16.6636
  },
  {
-  "ID": "LM04985",
+  "ID": "LM05002",
   "Title": "Platform Urbanism",
   "Year": 2019,
   "Authors": "Sarah Barns",
@@ -174475,7 +175070,7 @@
   "FWCI": 20.9781
  },
  {
-  "ID": "LM04986",
+  "ID": "LM05003",
   "Title": "Regulate, replicate, and resist – the conjunctural geographies of platform urbanism",
   "Year": 2020,
   "Authors": "Mark J Graham",
@@ -174510,7 +175105,7 @@
   "FWCI": 66.3866
  },
  {
-  "ID": "LM04987",
+  "ID": "LM05004",
   "Title": "The rise of on-demand ‘Instant Deliveries’ in European cities",
   "Year": 2017,
   "Authors": "Lætitia Dablanc; Eléonora Morganti; Niklas Arvidsson; Johan Woxenius; Michael J. Browne; Neïla Saidi",
@@ -174545,7 +175140,7 @@
   "FWCI": 14.4844
  },
  {
-  "ID": "LM04988",
+  "ID": "LM05005",
   "Title": "City-as-a-Platform: The Rise of Participatory Innovation Platforms in Finnish Cities",
   "Year": 2016,
   "Authors": "Ari‐Veikko Anttiroiko",
@@ -174580,7 +175175,7 @@
   "FWCI": 17.3429
  },
  {
-  "ID": "LM04989",
+  "ID": "LM05006",
   "Title": "Gig work as migrant work: The platformization of migration infrastructure",
   "Year": 2021,
   "Authors": "Niels van Doorn; Darsana Vijay",
@@ -174615,7 +175210,7 @@
   "FWCI": 31.5938
  },
  {
-  "ID": "LM04990",
+  "ID": "LM05007",
   "Title": "Cyberspace and cityscapes: on the emergence of platform urbanism",
   "Year": 2020,
   "Authors": "Jathan Sadowski",
@@ -174650,7 +175245,7 @@
   "FWCI": 11.9432
  },
  {
-  "ID": "LM04991",
+  "ID": "LM05008",
   "Title": "Platform Urbanism: Negotiating Platform Ecosystems in Connected Cities",
   "Year": 2019,
   "Authors": "Sarah Barns",
@@ -174685,7 +175280,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM04992",
+  "ID": "LM05009",
   "Title": "Does Sharing Mean Caring? Regulating Innovation in the Sharing Economy",
   "Year": 2015,
   "Authors": "Sofia Ranchordás",
@@ -174720,7 +175315,7 @@
   "FWCI": 45.7863
  },
  {
-  "ID": "LM04993",
+  "ID": "LM05010",
   "Title": "A new institution on the block: On platform urbanism and Airbnb citizenship",
   "Year": 2019,
   "Authors": "Niels van Doorn",
@@ -174755,7 +175350,7 @@
   "FWCI": 25.7695
  },
  {
-  "ID": "LM04994",
+  "ID": "LM05011",
   "Title": "Platform mobilities and the production of urban space: Toward a typology of platformization trajectories",
   "Year": 2020,
   "Authors": "John G. Stehlin; Michael Hodson; Andrew McMeekin",
@@ -174790,7 +175385,7 @@
   "FWCI": 26.6852
  },
  {
-  "ID": "LM04995",
+  "ID": "LM05012",
   "Title": "Temporal arbitrage, fragmented rush, and opportunistic behaviors: The labor politics of time in the platform economy",
   "Year": 2020,
   "Authors": "Yu-Jie Chen; Ping Sun",
@@ -174825,7 +175420,7 @@
   "FWCI": 18.4491
  },
  {
-  "ID": "LM04996",
+  "ID": "LM05013",
   "Title": "The Metaverse as a virtual form of data-driven smart cities: the ethics of the hyper-connectivity, datafication, algorithmization, and platformization of urban society",
   "Year": 2022,
   "Authors": "Simon Elias Bibri; Zaheer Allam",
@@ -174860,7 +175455,7 @@
   "FWCI": 13.6235
  },
  {
-  "ID": "LM04997",
+  "ID": "LM05014",
   "Title": "Platform urbanism in a pandemic: Dark stores, ghost kitchens, and the logistical-urban frontier",
   "Year": 2022,
   "Authors": "Aaron Shapiro",
@@ -174895,7 +175490,7 @@
   "FWCI": 12.2698
  },
  {
-  "ID": "LM04998",
+  "ID": "LM05015",
   "Title": "The Metaverse as a virtual form of data-driven smart urbanism: platformization and its underlying processes, institutional dimensions, and disruptive impacts",
   "Year": 2022,
   "Authors": "Simon Elias Bibri; Zaheer Allam; John Krogstie",
@@ -174930,7 +175525,7 @@
   "FWCI": 11.7342
  },
  {
-  "ID": "LM04999",
+  "ID": "LM05016",
   "Title": "Digital utility: Datafication, regulation, labor, and DiDi’s platformization of urban transport in China",
   "Year": 2019,
   "Authors": "Yu-Jie Chen; Jack Linchuan Qiu",
@@ -174965,7 +175560,7 @@
   "FWCI": 29.683
  },
  {
-  "ID": "LM05000",
+  "ID": "LM05017",
   "Title": "Platform urbanism and the Chinese smart city: the co-production and territorialisation of Hangzhou City Brain",
   "Year": 2020,
   "Authors": "Federico Caprotti; Dong Liu",
@@ -175000,7 +175595,7 @@
   "FWCI": 6.4909
  },
  {
-  "ID": "LM05001",
+  "ID": "LM05018",
   "Title": "Beyond the smart city: a typology of platform urbanism",
   "Year": 2022,
   "Authors": "Federico Caprotti; I-Chun Catherine Chang; Simon Joss",
@@ -175035,7 +175630,7 @@
   "FWCI": 8.6386
  },
  {
-  "ID": "LM05002",
+  "ID": "LM05019",
   "Title": "Platform methods: studying platform urbanism outside the black box",
   "Year": 2020,
   "Authors": "Desiree Fields; David Bissell; Rachel Macrorie",
@@ -175070,7 +175665,7 @@
   "FWCI": 8.8276
  },
  {
-  "ID": "LM05003",
+  "ID": "LM05020",
   "Title": "Who owns the future city? Phases of technological urbanism and shifts in sovereignty",
   "Year": 2020,
   "Authors": "Jathan Sadowski",
@@ -175105,7 +175700,7 @@
   "FWCI": 7.5294
  },
  {
-  "ID": "LM05004",
+  "ID": "LM05021",
   "Title": "Artificial intelligence of things for synergizing smarter eco-city brain, metabolism, and platform: Pioneering data-driven environmental governance",
   "Year": 2024,
   "Authors": "Simon Elias Bibri; Jeffrey R. Huang; John Krogstie",
@@ -175140,7 +175735,7 @@
   "FWCI": 19.1106
  },
  {
-  "ID": "LM05005",
+  "ID": "LM05022",
   "Title": "Affective platform urbanism: Changing habits of digital on-demand consumption",
   "Year": 2020,
   "Authors": "David Bissell",
@@ -175175,7 +175770,7 @@
   "FWCI": 14.8251
  },
  {
-  "ID": "LM05006",
+  "ID": "LM05023",
   "Title": "Urban Operating Systems",
   "Year": 2020,
   "Authors": "Andrés Luque‐Ayala; Simon Marvin",
@@ -175210,7 +175805,7 @@
   "FWCI": 11.3226
  },
  {
-  "ID": "LM05007",
+  "ID": "LM05024",
   "Title": "The Evolution of City-as-a-Platform: Smart Urban Development Governance with Collective Knowledge-Based Platform Urbanism",
   "Year": 2021,
   "Authors": "Palmyra Farinazzo Reis Repette; Jamile Sabatini‐Marques; Tan Yiğitcanlar; Denílson Sell; Eduardo Costa",
@@ -175245,7 +175840,7 @@
   "FWCI": 7.0945
  },
  {
-  "ID": "LM05008",
+  "ID": "LM05025",
   "Title": "Navigating platform urbanism",
   "Year": 2018,
   "Authors": "Shenja van der Graaf; Pieter Ballon",
@@ -175280,7 +175875,7 @@
   "FWCI": 7.2931
  },
  {
-  "ID": "LM05009",
+  "ID": "LM05026",
   "Title": "Platform governance and the rural–urban divide: Sellers' responses to design change",
   "Year": 2020,
   "Authors": "Wesley Wu-Yi Koo; Charles Eric Eesley",
@@ -175315,7 +175910,7 @@
   "FWCI": 8.8122
  },
  {
-  "ID": "LM05010",
+  "ID": "LM05027",
   "Title": "Urbanism Under Google: Lessons from Sidewalk Toronto",
   "Year": 2019,
   "Authors": "Ellen Goodman; Julia Powles",
@@ -175350,7 +175945,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05011",
+  "ID": "LM05028",
   "Title": "Understanding Sensor Cities: Insights from Technology Giant Company Driven Smart Urbanism Practices",
   "Year": 2020,
   "Authors": "Gaspare D’Amico; Pasqua L’Abbate; Wenjie Liao; Tan Yiğitcanlar; Giuseppe Ioppolo",
@@ -175385,7 +175980,7 @@
   "FWCI": 6.3611
  },
  {
-  "ID": "LM05012",
+  "ID": "LM05029",
   "Title": "Platform urbanism, smartphone applications and valuing data in a smart city",
   "Year": 2020,
   "Authors": "Gillian Rose; Parvati Raghuram; Sophie Watson; Edward Wigley",
@@ -175420,7 +176015,7 @@
   "FWCI": 6.4909
  },
  {
-  "ID": "LM05013",
+  "ID": "LM05030",
   "Title": "Biopolitical platforms: the perverse virtues of digital labour",
   "Year": 2021,
   "Authors": "Karen Gregory; Jathan Sadowski",
@@ -175455,7 +176050,7 @@
   "FWCI": 18.7134
  },
  {
-  "ID": "LM05014",
+  "ID": "LM05031",
   "Title": "# BlockSidewalk to Barcelona: Technological sovereignty and the social license to operate smart cities",
   "Year": 2020,
   "Authors": "Monique Mann; Peta Mitchell; Marcus Foth; Irina Anastasiu",
@@ -175490,7 +176085,7 @@
   "FWCI": 7.2247
  },
  {
-  "ID": "LM05015",
+  "ID": "LM05032",
   "Title": "Platform-mediated short-term rentals and gentrification in Madrid",
   "Year": 2020,
   "Authors": "Álvaro Ardura Urquiaga; Iñigo Lorente Riverola; Javier Ruiz Sánchez",
@@ -175525,7 +176120,7 @@
   "FWCI": 10.2582
  },
  {
-  "ID": "LM05016",
+  "ID": "LM05033",
   "Title": "Short-term rentals as digitally-mediated tourism gentrification: impacts on housing in New Orleans",
   "Year": 2020,
   "Authors": "Dustin Robertson; Christopher Oliver; Eric Nost",
@@ -175560,7 +176155,7 @@
   "FWCI": 10.3435
  },
  {
-  "ID": "LM05017",
+  "ID": "LM05034",
   "Title": "Mapping Platform Urbanism: Charting the Nuance of the Platform Pivot",
   "Year": 2020,
   "Authors": "Ashlin Lee; Adrian Mackenzie; Gavin J. D. Smith; Paul J. Box",
@@ -175595,7 +176190,7 @@
   "FWCI": 6.3611
  },
  {
-  "ID": "LM05018",
+  "ID": "LM05035",
   "Title": "Emerging platform urbanism in China: Reconfigurations of data, citizenship and materialities",
   "Year": 2019,
   "Authors": "Federico Caprotti; Dong Liu",
@@ -175630,7 +176225,7 @@
   "FWCI": 5.2504
  },
  {
-  "ID": "LM05019",
+  "ID": "LM05036",
   "Title": "From brick-and-mortar to location-less restaurant: The spatial fixing of on-demand food delivery platformization",
   "Year": 2022,
   "Authors": "Gianni Talamini; Weike Li; Xin Li",
@@ -175665,7 +176260,7 @@
   "FWCI": 17.4051
  },
  {
-  "ID": "LM05020",
+  "ID": "LM05037",
   "Title": "The Metaverse as a Virtual Model of Platform Urbanism: Its Converging AIoT, XReality, Neurotech, and Nanobiotech and Their Applications, Challenges, and Risks",
   "Year": 2023,
   "Authors": "Simon Elias Bibri",
@@ -175700,7 +176295,7 @@
   "FWCI": 6.3474
  },
  {
-  "ID": "LM05021",
+  "ID": "LM05038",
   "Title": "Silicon Savannahs and motorcycle taxis: A Southern perspective on the frontiers of platform urbanism",
   "Year": 2023,
   "Authors": "Liza Rose Cirolia; Rike Sitas; Andrea Pollio; Alexis Gatoni Sebarenzi; Prince K. Guma",
@@ -175735,7 +176330,7 @@
   "FWCI": 20.4816
  },
  {
-  "ID": "LM05022",
+  "ID": "LM05039",
   "Title": "Towards alternative platform futures in post-pandemic cities? A case study on platformization and changing socio-spatial relations in on-demand food delivery",
   "Year": 2022,
   "Authors": "Yannick Ecker; Anke Strüver",
@@ -175770,7 +176365,7 @@
   "FWCI": 13.4164
  },
  {
-  "ID": "LM05023",
+  "ID": "LM05040",
   "Title": "Sustaining urban labour markets: Situating migration and domestic work in India's ‘gig’ economy",
   "Year": 2022,
   "Authors": "Ambika Tandon; Aayush Rathi",
@@ -175805,7 +176400,7 @@
   "FWCI": 9.0652
  },
  {
-  "ID": "LM05024",
+  "ID": "LM05041",
   "Title": "Creative digipreneurs: Artistic entrepreneurial practices in platform-mediated space",
   "Year": 2023,
   "Authors": "Alica Repenning; Anna Oechslen",
@@ -175840,7 +176435,7 @@
   "FWCI": 15.1929
  },
  {
-  "ID": "LM05025",
+  "ID": "LM05042",
   "Title": "The Platformization of Student Housing and the Rise of Mid‐Term Rentals. The Case of Uniplaces in Lisbon",
   "Year": 2023,
   "Authors": "Agustín Cócola-Gant; Daniel Malet Calvo",
@@ -175875,7 +176470,7 @@
   "FWCI": 4.9279
  },
  {
-  "ID": "LM05026",
+  "ID": "LM05043",
   "Title": "Urban infrastructure reconfiguration and digital platforms: Who is in control?",
   "Year": 2024,
   "Authors": "Mike Hodson; Andrew McMeekin; Andy Lockhart",
@@ -175910,7 +176505,7 @@
   "FWCI": 4.042
  },
  {
-  "ID": "LM05027",
+  "ID": "LM05044",
   "Title": "Protest, pandemic, & platformisation in Hong Kong: Towards cities of alternatives",
   "Year": 2022,
   "Authors": "Yung Au",
@@ -175945,7 +176540,7 @@
   "FWCI": 1.4504
  },
  {
-  "ID": "LM05028",
+  "ID": "LM05045",
   "Title": "Splintering by Proxy: A Reflection on the Spatial Impacts and Distributed Agency of Platform Urbanism",
   "Year": 2022,
   "Authors": "Nancy Odendaal",
@@ -175980,7 +176575,7 @@
   "FWCI": 7.426
  },
  {
-  "ID": "LM05029",
+  "ID": "LM05046",
   "Title": "The Platformization of Public Participation: Considerations for Urban Planners Navigating New Engagement Tools",
   "Year": 2023,
   "Authors": "Pamela J. Robinson; Peter A. Johnson",
@@ -176015,7 +176610,7 @@
   "FWCI": 6.3651
  },
  {
-  "ID": "LM05030",
+  "ID": "LM05047",
   "Title": "Dispossession by platformization: The rise of on-demand recycling in urban India",
   "Year": 2023,
   "Authors": "Aman Luthra; Jake Lowe; Karina Ochoa Berkley",
@@ -176050,7 +176645,7 @@
   "FWCI": 6.3084
  },
  {
-  "ID": "LM05031",
+  "ID": "LM05048",
   "Title": "The spatial politics of platformization: Negotiating platform power in everyday taxi driving in Mumbai",
   "Year": 2023,
   "Authors": "Tobias Kuttler",
@@ -176085,7 +176680,7 @@
   "FWCI": 5.8578
  },
  {
-  "ID": "LM05032",
+  "ID": "LM05049",
   "Title": "Is the COVID‐19 pandemic accelerating the platformisation of the urban economy?",
   "Year": 2022,
   "Authors": "Daniela Ferreira; Renato Miguel do Carmo; Mário Vale",
@@ -176120,7 +176715,7 @@
   "FWCI": 3.6261
  },
  {
-  "ID": "LM05033",
+  "ID": "LM05050",
   "Title": "Spatiotemporal (In)justice in Digital Platforms: An Analysis of Food-Delivery Platforms in South India",
   "Year": 2020,
   "Authors": "Shyam Krishna",
@@ -176155,7 +176750,7 @@
   "FWCI": 1.6361
  },
  {
-  "ID": "LM05034",
+  "ID": "LM05051",
   "Title": "Platforms in the city and cities at the service of platforms: An urban perspective on the platform economy and workers’ responses",
   "Year": 2023,
   "Authors": "Maël Dif‐Pradalier; Thomas Jammet; Julie Tiberghien; Filippo Bignami; Niccolò Cuppini",
@@ -176190,7 +176785,7 @@
   "FWCI": 4.506
  },
  {
-  "ID": "LM05035",
+  "ID": "LM05052",
   "Title": "Platformization of Urban Life",
   "Year": 2022,
   "Authors": "",
@@ -176225,7 +176820,7 @@
   "FWCI": 2.5818
  },
  {
-  "ID": "LM05036",
+  "ID": "LM05053",
   "Title": "Digital platforms and the spatial transformation of urban villages in southern China: a case for platform-urban villagism?",
   "Year": 2024,
   "Authors": "Aiping Kuang; Godfrey Kwok-yung Yeung; Mingfeng Wang; Zhang Xiao",
@@ -176260,7 +176855,7 @@
   "FWCI": 9.808
  },
  {
-  "ID": "LM05037",
+  "ID": "LM05054",
   "Title": "Smart City Governance and the challenge of digital platforms within the public sector",
   "Year": 2022,
   "Authors": "Viviana Vaira",
@@ -176295,7 +176890,7 @@
   "FWCI": 2.4884
  },
  {
-  "ID": "LM05038",
+  "ID": "LM05055",
   "Title": "From platform capitalism to strategic place-based platformisation?",
   "Year": 2025,
   "Authors": "Mike Hodson; Andrew McMeekin; Andy Lockhart",
@@ -176330,7 +176925,7 @@
   "FWCI": 11.5987
  },
  {
-  "ID": "LM05039",
+  "ID": "LM05056",
   "Title": "Localized processes of platformization: The example of Surabaya",
   "Year": 2025,
   "Authors": "Alessandra Renzi; Janna Frenzel",
@@ -176365,7 +176960,7 @@
   "FWCI": 2.3317
  },
  {
-  "ID": "LM05040",
+  "ID": "LM05057",
   "Title": "Between algorithms and the streets",
   "Year": 2020,
   "Authors": "Anurag Mazumdar",
@@ -176400,7 +176995,7 @@
   "FWCI": 1.7449
  },
  {
-  "ID": "LM05041",
+  "ID": "LM05058",
   "Title": "Platformized Cities and Urban Life",
   "Year": 2022,
   "Authors": "Sybille Bauriedl; Anke Strüver",
@@ -176435,7 +177030,7 @@
   "FWCI": 0.7493
  },
  {
-  "ID": "LM05042",
+  "ID": "LM05059",
   "Title": "Parasitic platform urbanism in Dhaka and Melbourne",
   "Year": 2025,
   "Authors": "Lutfun Nahar Lata; Andrew Copolov",
@@ -176470,7 +177065,7 @@
   "FWCI": 5.7994
  },
  {
-  "ID": "LM05043",
+  "ID": "LM05060",
   "Title": "Conceptualising urban informality in the platform economy: regulation, legitimisation, value extraction and collective agency",
   "Year": 2025,
   "Authors": "Mindy Park; Christopher Foster; Richard Heeks",
@@ -176505,7 +177100,7 @@
   "FWCI": 6.3506
  },
  {
-  "ID": "LM05044",
+  "ID": "LM05061",
   "Title": "Handbook of Platform Urbanism",
   "Year": 2025,
   "Authors": "Annelien Smets; Pieter Ballon",
@@ -176540,7 +177135,7 @@
   "FWCI": 6.0504
  },
  {
-  "ID": "LM05045",
+  "ID": "LM05062",
   "Title": "Opportunities or challenges? Upgrading of periphery space with the rise of platform urbanism: Live streaming commerce in Yangtze River Delta, China",
   "Year": 2026,
   "Authors": "Lin Zou; Yiwen Zhu; Simin Yan",
@@ -176575,7 +177170,7 @@
   "FWCI": 26.1924
  },
  {
-  "ID": "LM05046",
+  "ID": "LM05063",
   "Title": "Counter-mapping platformization. Rethinking the spatial differentiation of platform control, labor relations and restaurant virtualization in proprietary markets for food-delivery",
   "Year": 2024,
   "Authors": "Yannick Ecker; Maximilian Lukowsky; Marius Wecker",
@@ -176610,7 +177205,7 @@
   "FWCI": 1.5324
  },
  {
-  "ID": "LM05047",
+  "ID": "LM05064",
   "Title": "Informal service labour and digital platforms in India’s marriage economy",
   "Year": 2026,
   "Authors": "Debalina Roy",
@@ -176645,7 +177240,7 @@
   "FWCI": 28.1578
  },
  {
-  "ID": "LM05048",
+  "ID": "LM05065",
   "Title": "Digital Tools for Low-Income Housing in Indian Cities",
   "Year": 2017,
   "Authors": "Rakhi Mehra; Maria Angela Ferrario; Swati Janu",
@@ -176680,7 +177275,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05049",
+  "ID": "LM05066",
   "Title": "PLATFORMISATION OF RIDE HAILING, FOOD DELIVERY AND DOMESTIC WORK SERVICES IN URBAN INDIA",
   "Year": 2021,
   "Authors": "Simiran Lalvani; Sarah Zia; Anushree Gupta; Aayush Rathi",
@@ -176715,7 +177310,7 @@
   "FWCI": 0.3472
  },
  {
-  "ID": "LM05050",
+  "ID": "LM05067",
   "Title": "Ciudades, comunicación digital y pospandemia: de las smart cities al urbanismo de plataformas",
   "Year": 2022,
   "Authors": "Luis Sebastián Ramón Rossi",
@@ -176750,7 +177345,7 @@
   "FWCI": 0.0994
  },
  {
-  "ID": "LM05051",
+  "ID": "LM05068",
   "Title": "Platform Urbanism and “Splintering Amenitization”: An Analysis of Canadian Cities",
   "Year": 2024,
   "Authors": "Anirudh Govind; Agnieszka Leszczynski; Ate Poorthuis",
@@ -176785,7 +177380,7 @@
   "FWCI": 1.0898
  },
  {
-  "ID": "LM05052",
+  "ID": "LM05069",
   "Title": "Unequal taxi geographies: Antagonisms in platform-driven urban restructuring in Delhi, India",
   "Year": 2025,
   "Authors": "Anurag Mazumdar",
@@ -176820,7 +177415,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM05053",
+  "ID": "LM05070",
   "Title": "Platformization in the southern city: Entrepreneurial volunteering and the suturing of collective life in Hyderabad",
   "Year": 2025,
   "Authors": "Anushree Gupta; Aalok Khandekar",
@@ -176855,7 +177450,7 @@
   "FWCI": 0.4663
  },
  {
-  "ID": "LM05054",
+  "ID": "LM05071",
   "Title": "Labor Productivity and Wage Inequality in the Gig Economy: Evidence from Bangladesh and Canada",
   "Year": 2025,
   "Authors": "",
@@ -176890,7 +177485,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM05055",
+  "ID": "LM05072",
   "Title": "Household platforms as transactional infrastructures: the case of Urban Company",
   "Year": 2026,
   "Authors": "Adrian Mabbott Athique; Akshaya Kumar",
@@ -176925,7 +177520,7 @@
   "FWCI": 14.0789
  },
  {
-  "ID": "LM05056",
+  "ID": "LM05073",
   "Title": "Platform Urbanization: How Digital Platforms (Avito, Yandex, Wildberries) Restructure the Space of Urban Agglomerations",
   "Year": 2026,
   "Authors": "D. D. Khamitov",
@@ -176960,7 +177555,7 @@
   "FWCI": 14.0789
  },
  {
-  "ID": "LM05057",
+  "ID": "LM05074",
   "Title": "Platform Politics and Silicon Savannahs: The rise of on-demand logistics and mobility in Nairobi and Kigali",
   "Year": 2022,
   "Authors": "Rike Sitas; Liza Rose Cirolia; Andrea Pollio; Alexis Gatoni Sebarenzi; Price Guma; Anirudh Rajashekar",
@@ -176995,7 +177590,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05058",
+  "ID": "LM05075",
   "Title": "Conclusion: On Understanding Situated Platform Urbanism",
   "Year": 2023,
   "Authors": "Nancy Odendaal",
@@ -177030,7 +177625,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05059",
+  "ID": "LM05076",
   "Title": "UBER IN EXURBIA : Peripheral Platformization, Post‐Suburbanization and the Public–Private Ridehail Partnership in the Toronto City Region",
   "Year": 2024,
   "Authors": "Fabian Namberger",
@@ -177065,7 +177660,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05060",
+  "ID": "LM05077",
   "Title": "Cities and Digital Platforms",
   "Year": 2025,
   "Authors": "Elham Bahmanteymouri",
@@ -177100,7 +177695,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05061",
+  "ID": "LM05078",
   "Title": "Platform co-operatives in the age of gig economy: A case study of SEWA cooperative federation",
   "Year": 2025,
   "Authors": "Sreeda TP",
@@ -177135,7 +177730,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05062",
+  "ID": "LM05079",
   "Title": "The Gig Economy in India: Economic Empowerment or Precarious Employment?",
   "Year": 2025,
   "Authors": "Heena Gandhi",
@@ -177170,7 +177765,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05063",
+  "ID": "LM05080",
   "Title": "Design in the ‘hybrid city’: DIY meets platform urbanism in Dhaka’s informal settlements",
   "Year": 2016,
   "Authors": "Teresa Swist; Liam Magee; David Sweeting",
@@ -177205,7 +177800,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05064",
+  "ID": "LM05081",
   "Title": "Gig Workers in India- a Legal Perspective",
   "Year": 2025,
   "Authors": "BHASWATI TALUKDAR; Bimal Kumar Baishya",
@@ -177240,7 +177835,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05065",
+  "ID": "LM05082",
   "Title": "The Virtual City in the Twenty-First Century: Exploring the Role of Digital Platforms in Urban Evolution",
   "Year": 2025,
   "Authors": "Patricio Julián Feldman; Susana Finquelievich",
@@ -177275,7 +177870,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05066",
+  "ID": "LM05083",
   "Title": "Platform Urbanism and Land-Use Transformation in Shanghai: Dual Neighborhood Impacts of E-Commerce Logistics in Relation to the 2017–2035 Master Plan",
   "Year": 2025,
   "Authors": "Jane Zheng; Yuanyi Zhao",
@@ -177310,7 +177905,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05067",
+  "ID": "LM05084",
   "Title": "Platform Urbanism and Culinary Logistics: Mobility, Infrastructure, and Micro-Entrepreneurship in Post-Digital Kolkata",
   "Year": 2026,
   "Authors": "Sayon Pramanik; Sampurna Biswas",
@@ -177345,7 +177940,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05068",
+  "ID": "LM05085",
   "Title": "Platformisation, technical citizenship and making space for rights in the city",
   "Year": 2025,
   "Authors": "Aphra Kerr; Jos Pierson",
@@ -177380,7 +177975,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05069",
+  "ID": "LM05086",
   "Title": "GIG ECONOMY IN INDIA: OPPORTUNITIES AND CHALLENGES",
   "Year": 2026,
   "Authors": "Tushar Kumar Goyal",
@@ -177415,7 +178010,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05070",
+  "ID": "LM05087",
   "Title": "ANALYSIS OF GIG WORKERS IN THE INDIAN LABOUR MARKET WITH SPECIAL REFERENCE TO BENGALURU URBAN",
   "Year": 2025,
   "Authors": "ANU THOMAS; DR. CJ LAKSHMI",
@@ -177450,7 +178045,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05071",
+  "ID": "LM05088",
   "Title": "Youth Participation and Work Experience in India’s Gig Economy: Evidence from Bengaluru",
   "Year": 2026,
   "Authors": "Ananya Sahoo; Jennifer Fernandes",
@@ -177485,7 +178080,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05072",
+  "ID": "LM05089",
   "Title": "The digitalization of urban governance in India : platforms, processes and people in Bhubaneswar",
   "Year": 2025,
   "Authors": "Khaliq Parkar",
@@ -177520,7 +178115,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05073",
+  "ID": "LM05090",
   "Title": "Delivering food, navigating stigma: the social experience of gig workers in urban India",
   "Year": 2026,
   "Authors": "Mohammad Sajjad Hussain",
@@ -177555,7 +178150,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05074",
+  "ID": "LM05091",
   "Title": "India's Shift to the Instant Service Economy: Platform Growth, Urban Consumption, and Socioeconomic Impact",
   "Year": 2026,
   "Authors": "Myra Abhishek Chamaria",
@@ -177590,7 +178185,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05075",
+  "ID": "LM05092",
   "Title": "Decent Work, Inclusion, and Growth in Gig Workers of India: The Viksit Bharat Vision",
   "Year": 2026,
   "Authors": "Naynith Nitesh Rathod; Yuvraj Singh Kimtee; Dikshit Jain; Kishan T Patel",
@@ -177625,7 +178220,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05076",
+  "ID": "LM05093",
   "Title": "Digital platforms for micro and small enterprises in India: performance, future of work and sustainability implications",
   "Year": 2026,
   "Authors": "Sumesh P. Soman; Bino Paul G. D.; Unmesh Patnaik; Kamal Kumar Murari",
@@ -177660,7 +178255,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05077",
+  "ID": "LM05094",
   "Title": "The Platformisation of Performance Traditions: Archiving Nachni Performances on Digital Platforms and the Parallel Economy of YouTubers in Purulia, West Bengal",
   "Year": 2026,
   "Authors": "Sudatta Ghosh",
@@ -177695,7 +178290,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05078",
+  "ID": "LM05095",
   "Title": "From unpaid care work to gig labour: Women and the platform economy in India",
   "Year": 2026,
   "Authors": "Sushmitha BC; Sunitha V Ganiger",
@@ -177730,7 +178325,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05079",
+  "ID": "LM05096",
   "Title": "Rethinking Platform Urbanization from the Perspective of Latin American Cities: Theoretical Insights and Empirical Contributions of Regional Research on Airbnb",
   "Year": 2026,
   "Authors": "Pedro Henrique Cícero Ferreira; João Bosco Moura Tonucci Filho",
@@ -177765,7 +178360,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05080",
+  "ID": "LM05097",
   "Title": "Converging Platforms: Media, Precarity and Everyday Resistance among Urban Gig Workers – A Case Study of Delhi",
   "Year": 2026,
   "Authors": "Jagriti Lamba; Anjan Sen",
@@ -177800,7 +178395,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05081",
+  "ID": "LM05098",
   "Title": "Algorithmic Governance, Local Government Regulation, And Sustainable Labour Policy: A Structural Equation Modelling Approach To Gig Delivery Workers In South India",
   "Year": 2026,
   "Authors": "R. Swathi Lakshmi, S. Manimaran, P.S.Venkateswaran",
@@ -177835,7 +178430,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05082",
+  "ID": "LM05099",
   "Title": "From crisis to governmental fix: platformisation-as-negotiation in authoritarian Vietnam",
   "Year": 2026,
   "Authors": "Marie Gibert‐Flutre",
@@ -177870,7 +178465,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05083",
+  "ID": "LM05100",
   "Title": "Learning from the Margin in Platform Urbanism",
   "Year": 2026,
   "Authors": "Tooran Alizadeh; Deepti Prasad",
@@ -177905,7 +178500,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05084",
+  "ID": "LM05101",
   "Title": "Planning for platform urbanism",
   "Year": 2026,
   "Authors": "Subina Shrestha",
@@ -177940,7 +178535,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05085",
+  "ID": "LM05102",
   "Title": "Accumulation by platformization: Digital platforms in urban space as a form of governance and enclosure",
   "Year": 2026,
   "Authors": "Francisco Fernández-Trujillo Moares; Ana Santamarina; Jorge Sequera",
@@ -177975,7 +178570,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05086",
+  "ID": "LM05103",
   "Title": "From Informal Labour to Digital Platforms: The Sustainability of Assam's Emerging Gig Economy",
   "Year": 2026,
   "Authors": "Arabinda Medhi",
@@ -178010,7 +178605,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05087",
+  "ID": "LM05104",
   "Title": "The Mental Health Toll of Gig Work in Pakistan: A Structural Equation Modeling Analysis of Work Intensity, Financial Uncertainty, And Algorithmic Control",
   "Year": 2026,
   "Authors": "Muhammad Hamza; Dr. Zahida Llyas; Majid Ali; Dr. Nasir Mahmood; Temoor Anjum",
@@ -178045,7 +178640,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05088",
+  "ID": "LM05105",
   "Title": "The Rise of Digital Labor Platforms in India: Gig Economy, Labor Rights, and Economic Inequality",
   "Year": 2024,
   "Authors": "Shunsuke Sato",
@@ -178080,7 +178675,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05089",
+  "ID": "LM05106",
   "Title": "Platform Urbanism and the Fractal City: Deconstructing Gentrification, Megacity Hypertrophy, and the Algorithmic Periphery",
   "Year": 2025,
   "Authors": "Revista, Zen; GEOGRAPHY, 10",
@@ -178115,7 +178710,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05090",
+  "ID": "LM05107",
   "Title": "Fairwork India Ratings 2020:Labour Standards in the Gig Economy",
   "Year": 2020,
   "Authors": "Parthasarathy, Balaji; Srinivasan, Janaki; Neerukonda, Mounika; Taduri, Pradyumna; Ustek-Spilda, Funda; Vadekkethil, Aradhana Cherupara; Graham, Mark; Heeks, Richard; id_orcid 0000-0002-4551-2208",
@@ -178150,7 +178745,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05091",
+  "ID": "LM05108",
   "Title": "Exploring the Socio - Economic Conditions of Gig Workers in Hyderabad",
   "Year": 2026,
   "Authors": "Dr. J. Ratna Prabhakar; Mrs. Chaviti Sai Vani",
@@ -178185,7 +178780,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05092",
+  "ID": "LM05109",
   "Title": "GIG ECONOMY WORKERS AND LABOUR PROTECTION IN INDIA: REIMAGINING EMPLOYMENT RIGHTS IN THE DIGITAL AGE",
   "Year": 2026,
   "Authors": "Taranbir Singh",
@@ -178220,7 +178815,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05093",
+  "ID": "LM05110",
   "Title": "Socio-Economic and Career Dynamics of Gig Economy Workers in Karnataka: A Conceptual Review of Platform-Based Employment",
   "Year": 2026,
   "Authors": "Shetty, Praveena; Dr Ishwara P",
@@ -178255,7 +178850,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05094",
+  "ID": "LM05111",
   "Title": "From subordination to freedom? An ethnography of Bangalore’s auto- rickshaw drivers and ride-hailing economy",
   "Year": 2026,
   "Authors": "Shivani Daxini",
@@ -178290,7 +178885,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM05095",
+  "ID": "LM05112",
   "Title": "AN ANALYTICAL STUDY OF THE PROBLEMS AND CHALLENGES FACED BY GIG ECONOMY WORKERS AND THEIR IMPACT ON JOB SATISFACTION IN BANGALORE CITY",
   "Year": 2026,
   "Authors": "Dr. Radhika.B",
@@ -178325,7 +178920,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05096",
+  "ID": "LM05113",
   "Title": "La plataformización como problema urbano: limitaciones y desafíos en la gobernanza de plataformas",
   "Year": 2024,
   "Authors": "Patricio Feldman",
@@ -178360,7 +178955,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM05097",
+  "ID": "LM05114",
   "Title": "The Penetration of the Gig Economy in Post-Pandemic India: Transforming the Traditional Economic Landscape",
   "Year": 2025,
   "Authors": "Aahana Jain",
