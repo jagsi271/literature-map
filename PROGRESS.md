@@ -36,39 +36,39 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 <!-- AUTO:SCREENING -->
 | Theme | Name | Candidates | Rule incl. | Borderline (share) | Hand kept / dropped | Records found | Primary here |
 |---|---|---|---|---|---|---|---|
-| A1 | Urban governance, decentralisation & municipa | 289 | 212 | 39 (14%) | 17 / 22 | 207 | 203 |
+| A1 | Urban governance, decentralisation & municipa | 289 | 211 | 39 (14%) | 17 / 22 | 206 | 203 |
 | A2 | Planning, master plans & land-use regulation | 239 | 160 | 12 (5%) | 3 / 9 | 156 | 153 |
 | A3 | Housing, informality & slums | 238 | 152 | 42 (18%) | 14 / 28 | 149 | 144 |
 | A4 | Eviction, resettlement & displacement | 219 | 170 | 22 (10%) | 9 / 13 | 170 | 165 |
 | A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 12 / 16 | 147 | 145 |
 | A6 | Small towns, census towns & secondary cities | 336 | 138 | 28 (8%) | 11 / 17 | 142 | 142 |
-| A7 | Urban infrastructure (water, sanitation, ener | 242 | 160 | 23 (10%) | 9 / 14 | 162 | 154 |
+| A7 | Urban infrastructure (water, sanitation, ener | 242 | 159 | 23 (10%) | 9 / 14 | 161 | 154 |
 | A8 | Mobility & transport (social science) | 246 | 174 | 27 (11%) | 7 / 20 | 174 | 170 |
 | A9 | Public space, publicness & the street | 287 | 188 | 36 (12%) | 21 / 15 | 208 | 207 |
 | A10 | Urban economy, informal work & street vending | 221 | 154 | 22 (10%) | 9 / 13 | 162 | 159 |
-| A11 | Migration & the city | 234 | 194 | 22 (9%) | 6 / 16 | 190 | 187 |
-| A12 | Gender, caste, class & the city | 229 | 157 | 23 (10%) | 12 / 11 | 164 | 161 |
+| A11 | Migration & the city | 234 | 192 | 22 (9%) | 6 / 16 | 188 | 185 |
+| A12 | Gender, caste, class & the city | 229 | 156 | 23 (10%) | 12 / 11 | 163 | 161 |
 | A13 | Heritage, mega-events & "world-class" city ma | 211 | 146 | 13 (6%) | 7 / 6 | 152 | 149 |
 | A14 | Urban environment, climate & risk | 246 | 195 | 29 (12%) | 10 / 19 | 192 | 189 |
 | A15 | Urban & planning theory, Southern urbanism | 233 | 144 | 39 (17%) | 24 / 15 | 158 | 154 |
 | A16 | Night-time city & urban time | 241 | 122 | 33 (14%) | 20 / 13 | 135 | 135 |
-| B1 | Platforms & platform capitalism | 239 | 181 | 33 (14%) | 16 / 17 | 187 | 176 |
-| B2 | Datafication, data justice & data colonialism | 240 | 148 | 39 (16%) | 22 / 17 | 161 | 157 |
+| B1 | Platforms & platform capitalism | 239 | 177 | 33 (14%) | 16 / 17 | 183 | 172 |
+| B2 | Datafication, data justice & data colonialism | 240 | 149 | 38 (16%) | 21 / 17 | 161 | 157 |
 | B3 | Surveillance studies | 229 | 156 | 34 (15%) | 11 / 23 | 158 | 151 |
 | B4 | Algorithmic governance & AI in the public sec | 238 | 205 | 18 (8%) | 6 / 12 | 187 | 187 |
 | B5 | Digital identity & digital public infrastruct | 272 | 184 | 47 (17%) | 12 / 35 | 182 | 179 |
 | B6 | Digital finance & payments | 217 | 182 | 14 (6%) | 8 / 6 | 180 | 180 |
-| B7 | Digital divides & digital inclusion | 236 | 183 | 29 (12%) | 17 / 12 | 181 | 179 |
+| B7 | Digital divides & digital inclusion | 236 | 184 | 28 (12%) | 16 / 12 | 181 | 179 |
 | B8 | Social media, digital publics & political com | 241 | 193 | 17 (7%) | 12 / 5 | 191 | 188 |
 | B9 | Misinformation & extreme speech | 238 | 161 | 44 (18%) | 29 / 15 | 181 | 180 |
 | B10 | Cybercrime, fraud & cybersecurity (social sci | 240 | 173 | 25 (10%) | 10 / 15 | 173 | 173 |
-| B11 | Digital labour | 238 | 203 | 16 (7%) | 0 / 0 (+16 pending) | 194 | 189 |
+| B11 | Digital labour | 238 | 203 | 12 (5%) | 8 / 4 | 202 | 197 |
 | B12 | Infrastructure studies & STS of digital syste | 221 | 131 | 39 (18%) | 0 / 0 (+39 pending) | 127 | 126 |
 | B13 | Mobile phones & everyday digital life | 239 | 142 | 26 (11%) | 0 / 0 (+26 pending) | 135 | 132 |
 | B14 | Generative AI & society | 237 | 161 | 46 (19%) | 0 / 0 (+46 pending) | 151 | 151 |
 | C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 115 |
 
-Total deduplicated records: 5080.
+Total deduplicated records: 5082.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)

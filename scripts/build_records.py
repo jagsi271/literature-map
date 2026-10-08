@@ -253,11 +253,39 @@ def compile_cfg(cfg, t):
     return req, flags
 
 
+def shared_abstracts():
+    """IDs of works whose abstract is also attached to a work with a clearly different title
+    (e.g. one 2020s platform-work abstract on several 1980s Annual Review articles)."""
+    import difflib
+    by_abs = defaultdict(dict)
+    for man in sorted((RAW / "searches").glob("*_*.json")):
+        if man.name.startswith("_"):
+            continue
+        for wid, _ in json.loads(man.read_text())["results"]:
+            w = load_work(wid)
+            a = abstract_text(w)
+            if len(a) >= 200:
+                by_abs[a[:300]][wid] = norm_title(w.get("title") or "")
+    bad = set()
+    for works in by_abs.values():
+        if len(works) < 2:
+            continue
+        items = list(works.items())
+        for i, (w1, t1) in enumerate(items):
+            for w2, t2 in items[i + 1:]:
+                if t1 and t2 and (t1 in t2 or t2 in t1):
+                    continue  # same work with and without subtitle
+                if difflib.SequenceMatcher(None, t1, t2).ratio() < 0.6:
+                    bad.update((w1, w2))
+    return bad
+
+
 def main(themes_wanted):
     cfg = yaml.safe_load((ROOT / "queries.yaml").read_text())
     idcheck = json.loads((RAW / "searches" / "_id_check.json").read_text())
     manual = load_manual()
     cands = []
+    shared = shared_abstracts()
     for man in sorted((RAW / "searches").glob("*_*.json")):
         if man.name.startswith("_"):
             continue
@@ -272,6 +300,10 @@ def main(themes_wanted):
             w = load_work(wid)
             title = w.get("title") or w.get("display_name") or ""
             abstract = abstract_text(w)
+            if wid in shared:
+                # the same abstract is attached to works with different titles: an OpenAlex
+                # metadata error, so the work is screened on its title alone
+                abstract = ""
             kw = "; ".join(k["display_name"] for k in (w.get("keywords") or []))
             full = f"{title} {abstract} {kw}"
             c = dict(openalex_id=wid, theme=t, slice=m["slice"], manifest=man.stem, rank=rank,

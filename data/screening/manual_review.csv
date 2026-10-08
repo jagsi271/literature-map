@@ -916,3 +916,19 @@ W4405909195,B10,exclude,"Claude (manual review, Stage 2)",scam detection review 
 W4387343573,B10,include,"Claude (manual review, Stage 2)",cyber-victimisation of women (flag false positive)
 W7128314699,B10,exclude,"Claude (manual review, Stage 2)",nursing note on teen cyber-victimisation
 W4380483419,B10,include,"Claude (manual review, Stage 2)",cybercrime victimisation survey experiment
+W3004148092,B11,include,"Claude (manual review, Stage 2)",crowdwork barriers in India and the US (flag false positive)
+W2131870909,B11,exclude,"Claude (manual review, Stage 2)",wrong abstract attached (1982 Annual Review article)
+W3093398560,B11,include,"Claude (manual review, Stage 2)",aspirational labour of women on social media
+W2147603330,B11,include,"Claude (manual review, Stage 2)",Turkopticon and crowdworker ethics
+W4385484319,B11,exclude,"Claude (manual review, Stage 2)",AI in organisations review
+W2925236077,B11,include,"Claude (manual review, Stage 2)",labour process of food-delivery platform work
+W3093272061,B11,exclude,"Claude (manual review, Stage 2)",book review (The Gig Economy)
+W2580351931,B11,include,"Claude (manual review, Stage 2)","work, debt and insecurity in the era of Uberization"
+W3150100371,B11,exclude,"Claude (manual review, Stage 2)",wrong abstract attached (1987 Annual Review article)
+W3154698993,B11,include,"Claude (manual review, Stage 2)",gig workers and opaque algorithmic evaluations
+W3166103365,B11,exclude,"Claude (manual review, Stage 2)",people analytics review
+W2110736211,B11,exclude,"Claude (manual review, Stage 2)",wrong abstract attached (1984 Annual Review article)
+W2903975937,B11,include,"Claude (manual review, Stage 2)",heteromation and unpaid digital labour
+W2156942300,B11,exclude,"Claude (manual review, Stage 2)",wrong abstract attached (1984 Annual Review article)
+W4292505973,B11,exclude,"Claude (manual review, Stage 2)",Great Resignation in hospitality
+W4407099405,B11,include,"Claude (manual review, Stage 2)",algorithmic management in the workplace (OECD; flag false positive)

@@ -286,7 +286,7 @@ W2782724209,A11,india,A11_india_q2,16,A STUDY OF SOCIO ECONOMIC STATUS OF INTER�
 W2908797146,A11,india,A11_india_q2,17,The Influence of ‘Smart City’ on the Wage Labor of Internal Migrant Workers in India - A Case on the Autorickshaw-walla of Gurgaon -,2018,article,0,True,include,3,rules,include
 W4313439733,A11,india,A11_india_q2,18,Morbidity profile of migrant workers attending health camps in Bangalore urban during the Covid-19 pandemic,2023,article,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: morbidity profile,exclude
 W7212857194,A11,india,A11_india_q3,1,"Circular labour migration and urban service pressure in India: A comparative analysis of Delhi, Mumbai and Bengaluru",2026,article,0,True,include,6,rules,include
-W4410391812,A11,india,A11_india_q3,2,"Demographic and Economic Transformations in South Asia: A Comparative Analysis of India, Pakistan, and Bangladesh",2025,preprint,0,True,include,3,rules,include
+W4410391812,A11,india,A11_india_q3,2,"Demographic and Economic Transformations in South Asia: A Comparative Analysis of India, Pakistan, and Bangladesh",2025,preprint,0,False,exclude,0,core concept missing,exclude
 W1946284464,A11,india,A11_india_q3,3,"Seasonal Migration and Circular Turmoil: A Geographic Narrative of Brick Factory Migrant Workers in the Kathmandu Valley, Nepal",2015,article,0,True,include,6,rules,include
 W3159882401,A11,india,A11_india_q3,4,The Making of Urban Peripheries and Peripheral Labor: Brick Kilns and Circular Migration in and beyond Greater Delhi,2021,article,5,True,include,6,rules,include
 W4403819816,A11,india,A11_india_q3,5,Migration and Urbanization in South Asia: Socio-Economic Impacts on Rural Communities in Bangladesh and India,2024,preprint,0,True,include,6,rules,include
@@ -294,7 +294,7 @@ W2796500450,A11,india,A11_india_q3,6,Costs and Benefits of Seasonal Migration: E
 W4409684043,A11,india,A11_india_q3,7,Circular Migration,2025,book-chapter,0,True,include,6,rules,include
 W2117531348,A11,india,A11_india_q3,8,Seasonal Migration and Micro-credit in the Lean Period: Evidence from Northwest Bangladesh,2010,report,13,True,include,6,rules,include
 W4398461893,A11,india,A11_india_q3,9,Underinvestment in a Profitable Technology: the Case of Seasonal Migration in Bangladesh,2014,dataset,1,True,exclude,0,type dataset,exclude
-W4403666038,A11,india,A11_india_q3,10,"The Recent Demographic and Economic Trends in India, Pakistan, and Bangladesh: A Comparative Analysis",2024,preprint,2,True,include,3,rules,include
+W4403666038,A11,india,A11_india_q3,10,"The Recent Demographic and Economic Trends in India, Pakistan, and Bangladesh: A Comparative Analysis",2024,preprint,2,False,exclude,0,core concept missing,exclude
 W3092908179,A11,india,A11_india_q3,11,Seasonal Migration and Unfree Labour in Globalising India: Insights from Field Surveys in Odisha,2020,article,18,False,include,3,no abstract; core in title; context terms missing,include
 W2898462808,A11,india,A11_india_q3,12,Opportunistic Migration: A Collateral Promise For Development In Seasonal Migration Of Southwest Coastal Bangladesh,2018,preprint,2,True,include,6,rules,include
 W3211645137,A11,india,A11_india_q3,13,Opportunistic Migration: A Collateral Promise for Development in Seasonal Migration of Southwest Coastal Bangladesh,2018,preprint,1,False,include,3,no abstract; core in title; context terms missing,include
@@ -527,7 +527,7 @@ W3171140792,A12,india,A12_india_q3,6,"Rural–urban migration and ethnic diversi
 W646918324,A12,india,A12_india_q3,7,"Contested hierarchies : a collaborative ethnography of caste among the Newars of the Kathmandu Valley, Nepal",1995,book,74,True,include,6,rules,include
 W7117115844,A12,india,A12_india_q3,8,Caste and Urban Housing in Mumbai,2025,article,0,True,include,6,rules,include
 W1584631463,A12,india,A12_india_q3,9,Everyday life in South Asia,2002,article,237,True,include,3,rules,include
-W4410391812,A12,india,A12_india_q3,10,"Demographic and Economic Transformations in South Asia: A Comparative Analysis of India, Pakistan, and Bangladesh",2025,preprint,0,True,include,3,rules,include
+W4410391812,A12,india,A12_india_q3,10,"Demographic and Economic Transformations in South Asia: A Comparative Analysis of India, Pakistan, and Bangladesh",2025,preprint,0,False,exclude,0,core concept missing,exclude
 W7130507931,A12,india,A12_india_q3,11,"Caste, class, city and choice: Unravelling caste-based school segregation in urban India",2026,article,0,True,include,6,rules,include
 W1515147099,A12,india,A12_india_q3,12,Ahmedabad: shock city of twentieth-century India,2012,book-review,22,True,exclude,0,type book-review,exclude
 W3161987450,A12,india,A12_india_q3,13,Caste at the City’s Edge: Land Struggles in Peri-urban Bengaluru,2021,article,40,True,include,6,rules,include
@@ -1413,7 +1413,7 @@ W7211959660,A15,recent,A15_recent_q2,16,Fluid walls: Mural art and identity nego
 W7211960353,A15,recent,A15_recent_q2,17,Fluid walls: Mural art and identity negotiation in postcolonial urban space,2026,article,0,True,include,6,rules,include
 W7211947106,A15,recent,A15_recent_q2,18,Fluid walls: Mural art and identity negotiation in postcolonial urban space,2026,article,0,True,include,6,rules,include
 W4391727706,A15,recent,A15_recent_q3,1,Insurgent Planning,2023,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
-W4390592458,A15,recent,A15_recent_q3,2,Insurgent planning,2023,reference-entry,0,True,include,3,rules,include
+W4390592458,A15,recent,A15_recent_q3,2,Insurgent planning,2023,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W7165726907,A15,recent,A15_recent_q3,3,Insurgent planning practices,2026,dissertation,0,True,include,6,rules,include
 W4405532625,A15,recent,A15_recent_q3,4,Insurgent Planning Practice,2024,book,4,True,include,5,rules,include
 W4410345794,A15,recent,A15_recent_q3,5,Insurgent Planning Practice,2025,book-review,1,True,exclude,0,type book-review,exclude
@@ -1476,7 +1476,7 @@ W2519399075,A16,india,A16_india_q2,1,Rhythmanalysis as a tool for understanding 
 W136116771,A16,india,A16_india_q2,2,'Between Day and Night: Urban Time Schedules in Bombay and Other Cities',2003,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W4405609880,A16,india,A16_india_q2,3,Mumbai Taximen,2022,book,2,True,borderline,1,core concept mentioned once | manual: Mumbai taxi ethnography (A8); urban time in passing,exclude
 W3162147968,A16,india,A16_india_q2,4,"Ритмы современной жизни. Рец. на кн.: Dawn Lyon. Rhythmanalysis: Research Methods. London, Oxford, New York, New Delhi, Sydney: Bloomsbury Academic, 2021",2021,article,0,True,include,3,core in title; context terms missing,include
-W3156355072,A16,india,A16_india_q2,5,"Rhythmanalysis of Life during Physical Distancing for Covid-19: Sri Lankans in Brussels, Belgium",2020,article,1,True,include,3,rules,include
+W3156355072,A16,india,A16_india_q2,5,"Rhythmanalysis of Life during Physical Distancing for Covid-19: Sri Lankans in Brussels, Belgium",2020,article,1,False,include,3,no abstract; core in title; context terms missing,include
 W7163404670,A16,india,A16_india_q2,6,"Holy Birthdays and the Sharing of Streets in Two Neighborhoods of Old Pune, Maharashtra",2026,article,0,True,borderline,1,core concept mentioned once | manual: rhythmanalysis of shared streets in Old Pune,include
 W7118006460,A16,india,A16_india_q2,7,"Platform Urbanism and Culinary Logistics: Mobility, Infrastructure, and Micro-Entrepreneurship in Post-Digital Kolkata",2026,conference-paper,0,False,exclude,0,core concept missing,exclude
 W4386379829,A16,india,A16_india_q2,8,An Assessment on the Trend of Urbanization in Nepal,2023,article,3,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -1648,7 +1648,7 @@ W4306411770,A16,recent,A16_recent_q2,1,Urban Temporalities,2022,book-chapter,2,T
 W4386771192,A16,recent,A16_recent_q2,2,Urban Temporalities,2023,article,0,False,include,3,no abstract; core (and context) in title,include
 W4414429849,A16,recent,A16_recent_q2,3,Pace of Life and Urban Rhythms. What Prospects for Urban Time Policies,2025,other,0,False,include,3,no abstract; core (and context) in title,include
 W4319074031,A16,recent,A16_recent_q2,4,URBAN RHYTHMS AND CREATIVITY:,2022,book-chapter,2,False,include,3,no abstract; core (and context) in title,include
-W4390592203,A16,recent,A16_recent_q2,5,Rhythmanalysis in planning,2023,reference-entry,1,True,include,3,rules,include
+W4390592203,A16,recent,A16_recent_q2,5,Rhythmanalysis in planning,2023,reference-entry,1,False,include,3,no abstract; core in title; context terms missing,include
 W4413398018,A16,recent,A16_recent_q2,6,Narrative Rhythmanalysis,2025,book-chapter,0,True,include,4,rules,include
 W4410890757,A16,recent,A16_recent_q2,7,Scaping: Revolutionary Rhythmanalysis,2024,book-chapter,0,True,include,5,core in title; context terms missing,include
 W4400651410,A16,recent,A16_recent_q2,8,Rhythmanalysis of Switzerland,2024,article,1,True,include,4,rules,include
@@ -1693,7 +1693,7 @@ W4416703108,A16,recent,A16_recent_q3,22,Evaluating urban nighttime lighting and 
 W4407798572,A16,recent,A16_recent_q3,23,Lyric Essay on Sarona Abuaker’s Why so few women on the street at night,2024,article,0,False,include,3,no abstract; core (and context) in title,include
 W4390456885,A16,recent,A16_recent_q3,24,"Walking After Dark: A Sidewalk Illumination Case Study in Cedar City, UT",2023,article,2,True,include,4,rules,include
 W2625073173,A1,india,A1_india_q1,1,"Comparing urban governance in Delhi, Hyderabad, Kolkata, and Mumbai",2009,book-chapter,1,True,borderline,3,stub abstract (possible book review) | manual: comparative urban governance in four Indian metros,include
-W4231959608,A1,india,A1_india_q1,2,"A Comparative Overview of Urban Governance in Delhi, Hyderabad, Kolkata, and Mumbai",2012,book-chapter,3,True,include,6,rules,include
+W4231959608,A1,india,A1_india_q1,2,"A Comparative Overview of Urban Governance in Delhi, Hyderabad, Kolkata, and Mumbai",2012,book-chapter,3,False,include,3,no abstract; core (and context) in title,include
 W4246338484,A1,india,A1_india_q1,3,"Thinking the Delhi, Hyderabad, Kolkata, and Mumbai Experience: Emerging Modes of Urban Governance and State Intervention",2012,book-chapter,1,True,include,3,rules,include
 W2741749344,A1,india,A1_india_q1,4,"A comparative overview of urban governance in Delhi, Hybderabad, Kolkata, and Mumbai",2009,article,4,False,include,3,no abstract; core (and context) in title,include
 W7121181499,A1,india,A1_india_q1,5,Contrasting Models of Urban Governance: A Comparative Study of Noida and Gurugram,2026,article,0,True,include,6,rules,include
@@ -1713,7 +1713,7 @@ W3007576890,A1,india,A1_india_q1,18,Metropolitan and Peri-Urban Governance in In
 W2795989092,A1,india,A1_india_q1,19,Revitalizing Urban Governance and Finance in South Asia,2015,article,0,False,include,3,no abstract; core (and context) in title,include
 W7118831997,A1,india,A1_india_q1,20,Water service provision in rapidly urbanising villages: a comparison of rural and urban governance in Mumbai and Chennai regions in India,2026,article,1,True,borderline,4,"stub abstract (possible book review) | manual: rural vs urban governance and water services, Mumbai/Chennai",include
 W2797228865,A1,india,A1_india_q1,21,"Transforming Urban Governance to Manage Uncertainty and Climate Change in Mumbai, India",2018,report,4,True,include,5,rules,include
-W3198836228,A1,india,A1_india_q1,22,"From Polarisation to Urban De-integration: Water and Sanitation in Delhi, Kolkata and Hyderabad",2012,book-chapter,1,True,include,3,rules,include
+W3198836228,A1,india,A1_india_q1,22,"From Polarisation to Urban De-integration: Water and Sanitation in Delhi, Kolkata and Hyderabad",2012,book-chapter,1,False,exclude,0,core concept missing,exclude
 W7217973362,A1,india,A1_india_q1,23,Urban Governance - Greater Noida - Looking Towards the Future,2025,article,0,True,include,3,rules,include
 W2551414598,A1,india,A1_india_q1,24,Participatory Urban Governance in Bangladesh,2016,article,7,True,include,3,rules,include
 W3019376610,A1,india,A1_india_q1,25,"Relational strategy of institutional reforms and urban governance: an assessment for Dhaka, Bangladesh",2007,article,0,False,include,3,no abstract; core (and context) in title,include
@@ -1767,7 +1767,7 @@ W7218141094,A1,india,A1_india_q3,22,Decentralization And Local Government,2024,a
 W2476247510,A1,india,A1_india_q3,23,Fiscal decentralization in Nepal : a municipal perspective,2014,article,4,False,include,3,no abstract; core (and context) in title,include
 W4412870682,A1,india,A1_india_q3,24,The Informal Economy and Municipal Revenue: A Hidden Fiscal Resource for Indian Urban Local Bodies?,2025,article,0,True,include,6,rules,include
 W4404641313,A1,india,A1_india_q3,25,Local Government in Sri Lankan and Pakistan: A Comparative Analysis of Decentralization and Governance,2024,article,1,True,include,6,rules,include
-W4231959608,A1,india,A1_india_q4,1,"A Comparative Overview of Urban Governance in Delhi, Hyderabad, Kolkata, and Mumbai",2012,book-chapter,3,True,include,6,rules,include
+W4231959608,A1,india,A1_india_q4,1,"A Comparative Overview of Urban Governance in Delhi, Hyderabad, Kolkata, and Mumbai",2012,book-chapter,3,False,include,3,no abstract; core (and context) in title,include
 W4285188090,A1,india,A1_india_q4,2,Finances of Dhaka City Corporations and Kolkata Municipal Corporation,2022,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W2130788994,A1,india,A1_india_q4,3,Tobacco associated mortality in Mumbai (Bombay) India. Results of the Bombay Cohort Study,2005,article,167,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2027894409,A1,india,A1_india_q4,4,"Women's Reservations and Electoral Politics in Urban Local Bodies: An Analysis of Chennai Municipal Corporation Elections, 2001",2003,article,9,False,include,3,no abstract; core (and context) in title,include
@@ -2422,7 +2422,7 @@ W4406758488,A3,recent,A3_recent_q1,11,Informal settlements,2025,book-chapter,1,T
 W7131114038,A3,recent,A3_recent_q1,12,Informal Settlements,2025,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4316089774,A3,recent,A3_recent_q1,13,Informal Settlements,2022,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4401406257,A3,recent,A3_recent_q1,14,Patronage Pattern and Accessibility of Healthcare Facilities in Urban Slums and Informal Settlements in Ibadan Metropolis,2024,article,5,True,include,6,rules,include
-W4390592173,A3,recent,A3_recent_q1,15,Informal settlements,2023,reference-entry,0,True,include,3,rules,include
+W4390592173,A3,recent,A3_recent_q1,15,Informal settlements,2023,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4395029646,A3,recent,A3_recent_q1,16,Informal Settlements: Domain Report,2024,preprint,16,False,include,3,no abstract; core (and context) in title,include
 W7155497084,A3,recent,A3_recent_q1,17,Urban slum vulnerability in informal settlements: A case study of indoor overheating in Ghana,2026,article,1,False,include,3,no abstract; core (and context) in title,include
 W4409217973,A3,recent,A3_recent_q1,18,Vulnerability and Resilience: Assessing Climate Change Impacts on Urban Slums and Informal Settlements,2025,article,2,True,include,5,rules,include
@@ -3333,9 +3333,9 @@ W2912883445,A7,india,A7_india_q1,12,India - SOUTH ASIA- P130544- IN Karnataka Ur
 W2751249083,A7,india,A7_india_q1,13,India/SOUTH ASIA- P130544- IN Karnataka Urban Water Supply Modernization Project - Procurement Plan,2017,article,0,False,include,3,no abstract; core (and context) in title,include
 W2127176431,A7,india,A7_india_q1,14,Urban Water Supply Sector Reform in Kathmandu Valley,2014,article,6,True,include,6,rules,include
 W3172622152,A7,india,A7_india_q1,15,Gender inequality in urban water governance: Continuity and change in two towns of Nepal,2021,article,19,True,include,6,rules,include
-W4231959608,A7,india,A7_india_q2,1,"A Comparative Overview of Urban Governance in Delhi, Hyderabad, Kolkata, and Mumbai",2012,book-chapter,3,True,include,2,rules,include
+W4231959608,A7,india,A7_india_q2,1,"A Comparative Overview of Urban Governance in Delhi, Hyderabad, Kolkata, and Mumbai",2012,book-chapter,3,False,exclude,0,core concept missing,exclude
 W2762405724,A7,india,A7_india_q2,2,"Transforming Urban Dichotomies and Challenges of South Asian Megacities: Rethinking Sustainable Growth of Dhaka, Bangladesh",2017,article,138,True,include,3,rules,include
-W3198836228,A7,india,A7_india_q2,3,"From Polarisation to Urban De-integration: Water and Sanitation in Delhi, Kolkata and Hyderabad",2012,book-chapter,1,True,include,5,rules,include
+W3198836228,A7,india,A7_india_q2,3,"From Polarisation to Urban De-integration: Water and Sanitation in Delhi, Kolkata and Hyderabad",2012,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W1992413249,A7,india,A7_india_q2,4,Electricity access in urban slum households of Bangladesh: A case of Dhaka,2014,article,12,True,include,6,rules,include
 W4403821726,A7,india,A7_india_q2,5,Access to Clean Water and Sanitation in Rural South Asia: A Study of Bangladesh and Afghanistan,2024,preprint,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: rural water and sanitation (not urban),exclude
 W2317788435,A7,india,A7_india_q2,6,Factors affecting slum sanitation projects in Dhaka City: learning from the dynamics of social-technological-governance systems,2014,article,13,True,include,6,rules,include
@@ -3851,7 +3851,7 @@ W4392164286,A9,india,A9_india,30,"Reclaiming Public Spaces in Post-pandemic Indi
 W2971954793,A9,india,A9_india,31,"The Slow Boil: Street Food, Rights and Public Space in Mumbai",2016,article,69,False,include,3,no abstract; core (and context) in title | manual override: street food and public space,include
 W7219447621,A9,india,A9_india,32,ENTRE CALLES Y RASCACIELOS: ESTUDIO DEL ESPACIO PÚBLICO EN MUMBAI,2025,dissertation,0,True,exclude,0,core concept missing,exclude
 W4382120162,A9,india,A9_india,33,"Commoning and Territoriality in the Public Space “Plasma” of Historical Cities: Investigating Emplaced Network Dynamics in Bhaktapur, Kathmandu Valley, Nepal",2023,conference-paper,0,False,include,3,"no abstract; core (and context) in title | manual override: public space commoning, Kathmandu",include
-W2596810273,A9,india,A9_india,34,"Reclaiming Traffic Influenced Urban Residual Spaces for the Public in Colombo, Sri Lanka",2017,article,6,True,exclude,0,core concept missing,exclude
+W2596810273,A9,india,A9_india,34,"Reclaiming Traffic Influenced Urban Residual Spaces for the Public in Colombo, Sri Lanka",2017,article,6,False,exclude,0,core concept missing,exclude
 W4386155199,A9,india,A9_india,35,Understanding vitality of public space: A review with an example of capital city Kathmandu in Nepal,2023,article,14,False,include,3,no abstract; core (and context) in title | manual override: public space vitality,include
 W1924685162,A9,india,A9_india,36,Spaces for engagement in the city of Mumbai : rethinking parks and public spaces in congested cities,2015,dissertation,0,False,include,3,"no abstract; core (and context) in title | manual override: parks and public spaces, Mumbai",include
 W3007872607,A9,india,A9_india,37,Defending Frivolous Fun: Feminist Acts of Claiming Public Spaces in South Asia,2020,article,36,True,include,4,rules,include
@@ -4465,7 +4465,7 @@ W4416007346,B11,india,B11_india_q4,4,Contextualised Algorithmic Management Strat
 W2746560133,B11,india,B11_india_q4,5,An ethnographic study of crowdwork via Amazon Mechanical Turk in India,2017,dissertation,5,True,include,6,rules,include
 W7162077589,B11,india,B11_india_q4,6,ALGORITHMIC MANAGEMENT IN THE GIG ECONOMY: CHALLENGES TO LABOUR RIGHTS IN INDIA,2026,article,0,True,include,6,rules,include
 W7207749297,B11,india,B11_india_q4,7,DECOUPLED CONTROL: ALGORITHMIC MANAGEMENT AND LABOUR GOVERNANCE IN THE INDIAN PLATFORM ECONOMY,2026,article,0,True,include,6,rules,include
-W3004148092,B11,india,B11_india_q4,8,Crowdwork and the mobile underclass: Barriers to participation in India and the United States,2020,article,30,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3004148092,B11,india,B11_india_q4,8,Crowdwork and the mobile underclass: Barriers to participation in India and the United States,2020,article,30,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: crowdwork barriers in India and the US (flag false positive),include
 W7216476359,B11,india,B11_india_q4,9,"Algorithmic Management, Perceived Algorithmic Injustice, and Gig Worker Outcomes in Pakistan: A Time-Lagged, Moderated-Mediation Analysis",2025,article,0,True,include,6,rules,include
 W2769908743,B11,india,B11_india_q4,10,Target experiences of workplace bullying on online labour markets,2017,article,63,True,include,4,rules,include
 W4417246075,B11,india,B11_india_q4,11,Flickering agency: How algorithmic management shapes workers’ agency in the platform economy in India?,2025,article,1,True,include,6,rules,include
@@ -4477,7 +4477,7 @@ W3199398868,B11,india,B11_india_q4,16,Online Labour Index 2020: New ways to meas
 W7214976306,B11,india,B11_india_q4,17,De Facto Employment Without an Employer: Algorithmic Management and the Reclassification of Platform Workers in India,2026,article,0,True,include,5,rules,include
 W7115583969,B11,india,B11_india_q4,18,"Effect of Gig Economy on Employment in Indian Economy (Special Reference, Aundh Gaon, Pune)",2025,article,0,True,include,5,rules,include
 W2887734062,B11,landmarks,B11_landmarks,1,"Good Gig, Bad Gig: Autonomy and Algorithmic Control in the Global Gig Economy",2018,article,2156,True,include,6,rules,include
-W2131870909,B11,landmarks,B11_landmarks,2,The Self-Concept,1982,article,1548,True,borderline,1,core concept mentioned once,pending
+W2131870909,B11,landmarks,B11_landmarks,2,The Self-Concept,1982,article,1548,False,exclude,0,core concept missing | manual override: wrong abstract attached (1982 Annual Review article),exclude
 W3019960341,B11,landmarks,B11_landmarks,3,What Do Platforms Do? Understanding the Gig Economy,2020,review,1322,True,include,4,rules,include
 W2792183666,B11,landmarks,B11_landmarks,4,"Understanding perception of algorithmic decisions: Fairness, trust, and emotion in response to algorithmic management",2018,article,1322,True,include,4,rules,include
 W3033915435,B11,landmarks,B11_landmarks,5,Impact of digital surge during Covid-19 pandemic: A viewpoint on research and practice,2020,article,1136,False,exclude,0,core concept missing,exclude
@@ -4487,21 +4487,21 @@ W2972413052,B11,landmarks,B11_landmarks,8,Algorithmic management and app‐work 
 W2146286563,B11,landmarks,B11_landmarks,9,The future of crowd work,2013,conference-paper,983,True,include,6,rules,include
 W2590882924,B11,landmarks,B11_landmarks,10,Platform labor: on the gendered and racialized exploitation of low-income service work in the ‘on-demand’ economy,2017,article,937,True,include,4,rules,include
 W2892117148,B11,landmarks,B11_landmarks,11,Labour process theory and the gig economy,2018,article,928,True,include,5,rules,include
-W3093398560,B11,landmarks,B11_landmarks,12,(Not) Getting Paid to Do What You Love,2017,book,917,True,borderline,1,core concept mentioned once,pending
-W2147603330,B11,landmarks,B11_landmarks,13,Turkopticon,2013,conference-paper,805,True,borderline,1,core concept mentioned once,pending
+W3093398560,B11,landmarks,B11_landmarks,12,(Not) Getting Paid to Do What You Love,2017,book,917,True,borderline,1,core concept mentioned once | manual: aspirational labour of women on social media,include
+W2147603330,B11,landmarks,B11_landmarks,13,Turkopticon,2013,conference-paper,805,True,borderline,1,core concept mentioned once | manual: Turkopticon and crowdworker ethics,include
 W178437142,B11,landmarks,B11_landmarks,14,Digital Labour and Karl Marx,2014,book,786,True,include,4,rules,include
-W4385484319,B11,landmarks,B11_landmarks,15,A multilevel review of artificial intelligence in organizations: Implications for organizational behavior research and practice,2023,article,757,True,borderline,1,core concept mentioned once,pending
+W4385484319,B11,landmarks,B11_landmarks,15,A multilevel review of artificial intelligence in organizations: Implications for organizational behavior research and practice,2023,article,757,True,borderline,1,core concept mentioned once | manual: AI in organisations review,exclude
 W2966058192,B11,landmarks,B11_landmarks,16,Riders on the Storm: Workplace Solidarity among Gig Economy Couriers in Italy and the UK,2019,article,746,True,include,6,rules,include
 W2785603301,B11,landmarks,B11_landmarks,17,Agony and Ecstasy in the Gig Economy: Cultivating Holding Environments for Precarious and Personalized Work Identities,2018,article,736,True,include,3,rules,include
 W2058590479,B11,landmarks,B11_landmarks,18,Workers without employers: shadow corporations and the rise of the gig economy,2014,article,728,True,include,4,rules,include
-W2925236077,B11,landmarks,B11_landmarks,19,Platform-Capital’s ‘App-etite’ for Control: A Labour Process Analysis of Food-Delivery Work in Australia,2019,article,648,True,borderline,1,core concept mentioned once,pending
+W2925236077,B11,landmarks,B11_landmarks,19,Platform-Capital’s ‘App-etite’ for Control: A Labour Process Analysis of Food-Delivery Work in Australia,2019,article,648,True,borderline,1,core concept mentioned once | manual: labour process of food-delivery platform work,include
 W3123274456,B11,landmarks,B11_landmarks,20,Can You Gig It? An Empirical Examination of the Gig Economy and Entrepreneurial Activity,2018,article,584,True,include,3,rules,include
 W2034280589,B11,landmarks,B11_landmarks,21,Digital labor: the internet as playground and factory,2013,book-review,584,True,exclude,0,type book-review,exclude
 W2902194800,B11,landmarks,B11_landmarks,22,From surviving to thriving in the gig economy: A research agenda for individuals in the new world of work,2018,article,574,False,include,3,no abstract; core (and context) in title,include
 W2118916162,B11,landmarks,B11_landmarks,23,The cultural work of microwork,2013,article,571,True,include,5,rules,include
 W2744940739,B11,landmarks,B11_landmarks,24,Regulating work in the gig economy: What are the options?,2017,article,554,True,include,4,rules,include
 W2515288491,B11,landmarks,B11_landmarks,25,Online labour index: Measuring the online gig economy for policy and research,2018,article,550,False,include,3,no abstract; core (and context) in title,include
-W3093272061,B11,landmarks,B11_landmarks,26,The Gig Economy: A Critical Introduction,2020,article,549,True,borderline,4,stub abstract (possible book review),pending
+W3093272061,B11,landmarks,B11_landmarks,26,The Gig Economy: A Critical Introduction,2020,article,549,True,borderline,4,stub abstract (possible book review) | manual: book review (The Gig Economy),exclude
 W2894726823,B11,landmarks,B11_landmarks,27,Digital labour platforms and the future of work: Towards decent work in the online world,2018,article,546,True,include,5,rules,include
 W2972706642,B11,landmarks,B11_landmarks,28,Dependence and precarity in the platform economy,2020,article,538,False,exclude,0,core concept missing,exclude
 W2784059491,B11,landmarks,B11_landmarks,29,Flexibility in the gig economy: managing time on three online piecework platforms,2018,article,537,True,include,4,rules,include
@@ -4510,7 +4510,7 @@ W3178993634,B11,landmarks,B11_landmarks,31,Algorithmic management in a work cont
 W2777647957,B11,landmarks,B11_landmarks,32,A Data-Driven Analysis of Workers' Earnings on Amazon Mechanical Turk,2018,conference-paper,493,True,include,3,rules,include
 W2799513409,B11,landmarks,B11_landmarks,33,A Typology of Crowdwork Platforms,2018,article,482,True,include,6,rules,include
 W3161181201,B11,landmarks,B11_landmarks,34,Algorithms as work designers: How algorithmic management influences the design of jobs,2021,article,479,False,include,3,no abstract; core (and context) in title,include
-W2580351931,B11,landmarks,B11_landmarks,35,"The Human Capital Hoax: Work, Debt and Insecurity in the Era of Uberization",2017,article,471,True,borderline,1,core concept mentioned once,pending
+W2580351931,B11,landmarks,B11_landmarks,35,"The Human Capital Hoax: Work, Debt and Insecurity in the Era of Uberization",2017,article,471,True,borderline,1,"core concept mentioned once | manual: work, debt and insecurity in the era of Uberization",include
 W2707170996,B11,landmarks,B11_landmarks,36,Uberworked and underpaid: How workers are disrupting the digital economy,2017,book-review,460,True,exclude,0,type book-review,exclude
 W3023482097,B11,landmarks,B11_landmarks,37,Flexible employment relationships and careers in times of the COVID-19 pandemic,2020,article,457,False,exclude,0,core concept missing,exclude
 W2801943901,B11,landmarks,B11_landmarks,38,Humans as a Service,2018,book,441,True,include,2,rules,include
@@ -4525,30 +4525,30 @@ W2857304043,B11,landmarks,B11_landmarks,46,Workers of the Internet unite? Online
 W3001917209,B11,landmarks,B11_landmarks,47,Entrepreneurship education: Time for a change in research direction?,2020,article,405,False,exclude,0,core concept missing,exclude
 W2623524052,B11,landmarks,B11_landmarks,48,"#familygoals: Family Influencers, Calibrated Amateurism, and Justifying Young Digital Labor",2017,article,396,True,include,4,rules,include
 W2904611032,B11,landmarks,B11_landmarks,49,"Independent work: choice, necessity and the gig economy",2016,article,390,False,include,3,no abstract; core (and context) in title,include
-W3150100371,B11,landmarks,B11_landmarks,50,Institutional Theories Of Organization,1987,article,390,True,borderline,1,core concept mentioned once,pending
+W3150100371,B11,landmarks,B11_landmarks,50,Institutional Theories Of Organization,1987,article,390,False,exclude,0,core concept missing | manual override: wrong abstract attached (1987 Annual Review article),exclude
 W2918605963,B11,landmarks,B11_landmarks,51,Networked but Commodified: The (Dis)Embeddedness of Digital Labour in the Gig Economy,2019,article,382,True,include,6,rules,include
 W1538442083,B11,landmarks,B11_landmarks,52,Digital Labor: The Internet as Playground and Factory,2012,article,367,True,include,4,rules,include
 W2912921814,B11,landmarks,B11_landmarks,53,“Is your gig any good?” Analysing job quality in the Australian platform-based food-delivery sector,2019,article,362,True,include,2,rules,include
-W3154698993,B11,landmarks,B11_landmarks,54,The Invisible Cage: Workers’ Reactivity to Opaque Algorithmic Evaluations,2021,article,361,True,borderline,1,core concept mentioned once,pending
+W3154698993,B11,landmarks,B11_landmarks,54,The Invisible Cage: Workers’ Reactivity to Opaque Algorithmic Evaluations,2021,article,361,True,borderline,1,core concept mentioned once | manual: gig workers and opaque algorithmic evaluations,include
 W2917527157,B11,landmarks,B11_landmarks,55,Gig-workers’ motivation: thinking beyond carrots and sticks,2019,article,351,True,include,3,rules,include
 W2743256382,B11,landmarks,B11_landmarks,56,The resurgence of gig work: Historical and theoretical perspectives,2017,article,351,True,include,5,rules,include
 W2996758687,B11,landmarks,B11_landmarks,57,Hidden transcripts of the gig economy: labour agency and the new art of resistance among African gig workers,2019,article,349,True,include,6,rules,include
 W3020351970,B11,landmarks,B11_landmarks,58,Breaking the vicious cycle of algorithmic management: A virtue ethics approach to people analytics,2020,article,341,False,include,3,no abstract; core (and context) in title,include
 W3108545268,B11,landmarks,B11_landmarks,59,Pacifying the algorithm – Anticipatory compliance in the face of algorithmic management in the gig economy,2020,article,340,True,include,6,rules,include
 W2296057633,B11,landmarks,B11_landmarks,60,Can You Gig it? An Empirical Examination of the Gig-Economy and Entrepreneurial Activity,2016,preprint,332,False,exclude,0,core concept missing,exclude
-W3166103365,B11,landmarks,B11_landmarks,61,The dark sides of people analytics: reviewing the perils for organisations and employees,2021,article,327,True,borderline,1,core concept mentioned once,pending
+W3166103365,B11,landmarks,B11_landmarks,61,The dark sides of people analytics: reviewing the perils for organisations and employees,2021,article,327,True,borderline,1,core concept mentioned once | manual: people analytics review,exclude
 W2933742758,B11,landmarks,B11_landmarks,62,Conceptualizing human resource management in the gig economy,2019,article,323,True,include,6,rules,include
 W1501447279,B11,landmarks,B11_landmarks,63,What Is Digital Labour? What Is Digital Work? What’s their Difference? And Why Do These Questions Matter for Understanding Social Media?,2013,article,322,True,include,6,rules,include
 W3122871745,B11,landmarks,B11_landmarks,64,The Gender Earnings Gap in the Gig Economy: Evidence from over a Million Rideshare Drivers,2020,article,315,True,include,3,rules,include
 W2985921739,B11,landmarks,B11_landmarks,65,Early evidence of digital labor in accounting: Innovation with Robotic Process Automation,2019,article,312,False,include,3,no abstract; core (and context) in title,include
-W2110736211,B11,landmarks,B11_landmarks,66,Negotiated Orders and Organizational Cultures,1984,article,304,True,borderline,1,core concept mentioned once,pending
+W2110736211,B11,landmarks,B11_landmarks,66,Negotiated Orders and Organizational Cultures,1984,article,304,False,exclude,0,core concept missing | manual override: wrong abstract attached (1984 Annual Review article),exclude
 W3007153134,B11,landmarks,B11_landmarks,67,Digital labour platforms and new forms of flexible work in developing countries: Algorithmic management of work and workers,2020,article,301,True,include,6,rules,include
 W3208464903,B11,landmarks,B11_landmarks,68,"The duality of algorithmic management: Toward a research agenda on HRM algorithms, autonomy and value creation",2021,article,297,True,include,6,rules,include
 W2969542118,B11,landmarks,B11_landmarks,69,The organisation and experience of work in the gig economy,2019,article,293,True,include,6,rules,include
 W4304607036,B11,landmarks,B11_landmarks,70,The organizational psychology of gig work: An integrative conceptual review.,2022,article,285,True,include,6,rules,include
-W2903975937,B11,landmarks,B11_landmarks,71,"Heteromation, and Other Stories of Computing and Capitalism",2017,book,285,True,borderline,1,core concept mentioned once,pending
+W2903975937,B11,landmarks,B11_landmarks,71,"Heteromation, and Other Stories of Computing and Capitalism",2017,book,285,True,borderline,1,core concept mentioned once | manual: heteromation and unpaid digital labour,include
 W4292227188,B11,landmarks,B11_landmarks,72,Digital labour and Karl Marx,2014,book-review,284,False,exclude,0,type book-review,exclude
-W2156942300,B11,landmarks,B11_landmarks,73,Contextual-Effects Models: Theoretical and Methodological Issues,1984,article,284,True,borderline,1,core concept mentioned once,pending
+W2156942300,B11,landmarks,B11_landmarks,73,Contextual-Effects Models: Theoretical and Methodological Issues,1984,article,284,False,exclude,0,core concept missing | manual override: wrong abstract attached (1984 Annual Review article),exclude
 W2809584719,B11,landmarks,B11_landmarks,74,Drivers of disruption? Estimating the Uber effect,2018,article,283,False,exclude,0,core concept missing,exclude
 W2083353365,B11,landmarks,B11_landmarks,75,The socio-technical architecture of digital labor: Converting play into YouTube money,2014,article,283,True,include,4,rules,include
 W3033766131,B11,landmarks,B11_landmarks,76,Platform Capitalism’s Hidden Abode: Producing Data Assets in the Gig Economy,2020,article,281,True,include,5,rules,include
@@ -4575,7 +4575,7 @@ W3130138474,B11,landmarks,B11_landmarks,96,World employment and social outlook: 
 W3000872675,B11,landmarks,B11_landmarks,97,The platform as factory: Crowdwork and the hidden labour behind artificial intelligence,2020,article,238,True,include,6,rules,include
 W4283831628,B11,landmarks,B11_landmarks,98,Migration and Migrant Labour in the Gig Economy: An Intervention,2022,article,237,True,include,6,rules,include
 W2293765620,B11,landmarks,B11_landmarks,99,The Crowd is a Collaborative Network,2016,conference-paper,237,True,include,3,rules,include
-W4292505973,B11,landmarks,B11_landmarks,100,A reflection on the Great Resignation in the hospitality and tourism industry,2022,article,234,True,borderline,1,core concept mentioned once,pending
+W4292505973,B11,landmarks,B11_landmarks,100,A reflection on the Great Resignation in the hospitality and tourism industry,2022,article,234,True,borderline,1,core concept mentioned once | manual: Great Resignation in hospitality,exclude
 W4391242348,B11,recent,B11_recent_q1,1,Digital Labor,2024,book-chapter,4,True,include,6,rules,include
 W7129734463,B11,recent,B11_recent_q1,2,Digital labour platforms,2026,book,2,True,include,4,rules,include
 W4410835269,B11,recent,B11_recent_q1,3,7 Digital Labour,2025,book-chapter,0,True,include,4,rules,include
@@ -4628,7 +4628,7 @@ W4390946203,B11,recent,B11_recent_q3,13,Platform work meets flexicurity: A compa
 W7201958710,B11,recent,B11_recent_q3,14,Implications of platform work organisation for delivery platform workers in Georgia : case study of Wolt and Glovo couriers in Tbilisi,2023,dissertation,0,True,include,6,rules,include
 W4319592724,B11,recent,B11_recent_q3,15,Mediatisation and Platform Labour,2023,book-chapter,1,True,include,6,rules,include
 W7163361229,B11,recent,B11_recent_q3,16,Platform Labor (Various Forms),2026,reference-entry,0,True,include,6,rules,include
-W4362605043,B11,recent,B11_recent_q3,17,Platform work,2023,reference-entry,0,True,include,4,rules,include
+W4362605043,B11,recent,B11_recent_q3,17,Platform work,2023,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4404262610,B11,recent,B11_recent_q3,18,Platform Labour and Gig Work Futures,2024,book-chapter,1,True,include,6,rules,include
 W4385768381,B11,recent,B11_recent_q4,1,"Finding meaning in crowdwork: An analysis of algorithmic management, work characteristics, and meaningfulness",2023,article,20,True,include,6,rules,include
 W4289337208,B11,recent,B11_recent_q4,2,Algorithmic Management,2022,article,169,True,include,4,rules,include
@@ -4636,9 +4636,9 @@ W7140761938,B11,recent,B11_recent_q4,3,The production of algorithmic management 
 W4399778477,B11,recent,B11_recent_q4,4,Principles of Algorithmic Management,2024,article,75,True,include,6,rules,include
 W4312181728,B11,recent,B11_recent_q4,5,Algorithmic management and collective bargaining,2022,article,114,True,include,5,rules,include
 W4408617724,B11,recent,B11_recent_q4,6,Algorithmic Management,2025,other,2,False,include,3,no abstract; core (and context) in title,include
-W4407099405,B11,recent,B11_recent_q4,7,Algorithmic management in the workplace,2025,report,57,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W4381488851,B11,recent,B11_recent_q4,8,Algorithmic Management,2022,reference-entry,1,True,include,3,rules,include
-W4362605152,B11,recent,B11_recent_q4,9,Algorithmic management,2023,reference-entry,1,True,include,4,rules,include
+W4407099405,B11,recent,B11_recent_q4,7,Algorithmic management in the workplace,2025,report,57,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: algorithmic management in the workplace (OECD; flag false positive),include
+W4381488851,B11,recent,B11_recent_q4,8,Algorithmic Management,2022,reference-entry,1,False,include,3,no abstract; core (and context) in title,include
+W4362605152,B11,recent,B11_recent_q4,9,Algorithmic management,2023,reference-entry,1,False,include,3,no abstract; core (and context) in title,include
 W7120693103,B11,recent,B11_recent_q4,10,Plataformas de trabalho crowdwork,2022,article,0,False,include,3,no abstract; core (and context) in title,include
 W4312253576,B11,recent,B11_recent_q4,11,Die Ombudsstelle Crowdwork,2022,article,3,True,include,5,rules,include
 W4213245898,B11,recent,B11_recent_q4,12,Crowdwork for young people,2022,book,4,True,include,6,rules,include
@@ -5436,7 +5436,7 @@ W2896156473,B1,india,B1_india_q3,22,Global Digital Cultures: Perspectives from S
 W4414003266,B1,india,B1_india_q3,23,Link to link: The ‘Lesbian Eroticverse’ of personal narratives and Indian Digital Platforms,2025,article,2,True,include,3,rules,include
 W3195863551,B1,india,B1_india_q3,24,Special issue: Digital platforms for development,2021,article,34,True,include,6,rules,include
 W4249673087,B1,landmarks,B1_landmarks,1,The Platform Society,2018,book,2865,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: The Platform Society (flag false positive),include
-W2131870909,B1,landmarks,B1_landmarks,2,The Self-Concept,1982,article,1548,True,include,2,rules,include
+W2131870909,B1,landmarks,B1_landmarks,2,The Self-Concept,1982,article,1548,False,exclude,0,core concept missing,exclude
 W2801313916,B1,landmarks,B1_landmarks,3,The platformization of cultural production: Theorizing the contingent cultural commodity,2018,article,1498,True,include,6,rules,include
 W2184763095,B1,landmarks,B1_landmarks,4,The Platformization of the Web: Making Web Data Platform Ready,2015,article,1363,True,include,6,rules,include
 W3019960341,B1,landmarks,B1_landmarks,5,What Do Platforms Do? Understanding the Gig Economy,2020,review,1322,True,include,3,rules,include
@@ -5463,7 +5463,7 @@ W3084157653,B1,landmarks,B1_landmarks,25,How should we understand the digital ec
 W2963101048,B1,landmarks,B1_landmarks,26,Industry 4.0: a supply chain innovation perspective,2019,article,406,True,borderline,1,core concept mentioned once | manual: Industry 4.0 supply chains,exclude
 W3158066160,B1,landmarks,B1_landmarks,27,Social Media and Political Agenda Setting,2021,article,405,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2906852982,B1,landmarks,B1_landmarks,28,WeChat as infrastructure: the techno-nationalist shaping of Chinese digital platforms,2019,article,391,True,include,6,rules,include
-W3150100371,B1,landmarks,B1_landmarks,29,Institutional Theories Of Organization,1987,article,390,True,include,2,rules,include
+W3150100371,B1,landmarks,B1_landmarks,29,Institutional Theories Of Organization,1987,article,390,False,exclude,0,core concept missing,exclude
 W2900677429,B1,landmarks,B1_landmarks,30,Regulating Uber: The Politics of the Platform Economy in Europe and the United States,2018,article,384,True,include,4,rules,include
 W2734686021,B1,landmarks,B1_landmarks,31,"The “sharing” economy: labor, inequality, and social connection on for‐profit platforms",2017,article,380,True,include,2,rules,include
 W3119526826,B1,landmarks,B1_landmarks,32,"Co-evolution of platform architecture, platform services, and platform governance: Expanding the platform value of industrial digital platforms",2021,article,375,True,include,6,rules,include
@@ -5479,12 +5479,12 @@ W3048529398,B1,landmarks,B1_landmarks,41,Governance responses to disinformation,
 W2888628853,B1,landmarks,B1_landmarks,42,The Global Platform Economy: A New Offshoring Institution Enabling Emerging-Economy Microproviders,2018,article,308,True,include,3,rules,include
 W2903890472,B1,landmarks,B1_landmarks,43,"The who, why, and when of Uber and other ride-hailing trips: An examination of a large sample household travel survey",2018,article,305,False,exclude,0,core concept missing,exclude
 W2946715324,B1,landmarks,B1_landmarks,44,Questioning mobility as a service: Unanticipated implications for society and governance,2019,article,304,True,borderline,1,core concept mentioned once | manual: MaaS (C9),exclude
-W2110736211,B1,landmarks,B1_landmarks,45,Negotiated Orders and Organizational Cultures,1984,article,304,True,include,2,rules,include
+W2110736211,B1,landmarks,B1_landmarks,45,Negotiated Orders and Organizational Cultures,1984,article,304,False,exclude,0,core concept missing,exclude
 W2942581996,B1,landmarks,B1_landmarks,46,Automated landlord: Digital technologies and post-crisis financial accumulation,2019,article,298,True,borderline,1,core concept mentioned once | manual: automated landlord (C10),exclude
 W3019435843,B1,landmarks,B1_landmarks,47,Decentralized Governance of Digital Platforms,2020,article,296,True,include,6,rules,include
 W3010461976,B1,landmarks,B1_landmarks,48,What’s so new about New Municipalism?,2020,article,292,True,borderline,1,core concept mentioned once | manual: new municipalism,exclude
 W2801115940,B1,landmarks,B1_landmarks,49,Exploiting and Defending Open Digital Platforms with Boundary Resources: Android’s Five Platform Forks,2018,article,288,True,include,6,rules,include
-W2156942300,B1,landmarks,B1_landmarks,50,Contextual-Effects Models: Theoretical and Methodological Issues,1984,article,284,True,include,2,rules,include
+W2156942300,B1,landmarks,B1_landmarks,50,Contextual-Effects Models: Theoretical and Methodological Issues,1984,article,284,False,exclude,0,core concept missing,exclude
 W3092302198,B1,landmarks,B1_landmarks,51,Where Platform Capitalism and Racial Capitalism Meet: The Sociology of Race and Racism in the Digital Society,2020,article,283,True,include,3,rules,include
 W3080574953,B1,landmarks,B1_landmarks,52,Developing a framework for enhancing survivability of sustainable supply chains during and post-COVID-19 pandemic,2020,article,283,True,borderline,1,core concept mentioned once | manual: supply chain survivability,exclude
 W3036998917,B1,landmarks,B1_landmarks,53,Tiered Governance and Demonetization: The Shifting Terms of Labor and Compensation in the Platform Economy,2020,article,282,True,include,3,rules,include
@@ -5551,7 +5551,7 @@ W7128228670,B1,recent,B1_recent_q1,13,Housing Under Platform Capitalism,2025,boo
 W4413375714,B1,recent,B1_recent_q1,14,Creative Labor and Platform Capitalism,2025,preprint,1,False,include,3,no abstract; core (and context) in title,include
 W4289342412,B1,recent,B1_recent_q1,15,"Racial platform capitalism: Empire, migration and the making of Uber in London",2022,article,128,True,include,6,rules,include
 W4412975067,B1,recent,B1_recent_q1,16,Is Platform Capitalism Socially Sustainable?,2025,article,3,True,include,6,rules,include
-W4211130383,B1,recent,B1_recent_q1,17,Platform Economy,2022,reference-entry,2,True,include,3,rules,include
+W4211130383,B1,recent,B1_recent_q1,17,Platform Economy,2022,reference-entry,2,False,include,3,no abstract; core (and context) in title,include
 W4315648631,B1,recent,B1_recent_q1,18,The US–China rivalry and the emergence of state platform capitalism,2023,article,160,True,include,6,rules,include
 W4310479509,B1,recent,B1_recent_q1,19,Convivial autonomy in platform capitalism,2022,book-chapter,2,True,include,6,rules,include
 W4408876548,B1,recent,B1_recent_q1,20,Is Platform Capitalism Socially Sustainable?,2025,preprint,1,True,include,6,rules,include
@@ -5791,7 +5791,7 @@ W4387767643,B2,recent,B2_recent_q1,9,Spaces for Datafication: How Datafication T
 W4382278515,B2,recent,B2_recent_q1,10,Datafication Governance,2023,book-chapter,0,True,borderline,4,stub abstract (possible book review) | manual: datafication governance (business handbook),exclude
 W4412970077,B2,recent,B2_recent_q1,11,Sexual Datafication,2025,editorial,0,True,exclude,0,type editorial,exclude
 W4382278369,B2,recent,B2_recent_q1,12,Introduction to Datafication,2023,book-chapter,1,True,borderline,5,stub abstract (possible book review) | manual: introduction to datafication (business handbook),exclude
-W4362605179,B2,recent,B2_recent_q1,13,Datafication,2023,reference-entry,0,True,include,3,rules,include
+W4362605179,B2,recent,B2_recent_q1,13,Datafication,2023,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4382278435,B2,recent,B2_recent_q1,14,Datafication Analytics,2023,book-chapter,0,True,borderline,4,stub abstract (possible book review) | manual: datafication analytics (business handbook),exclude
 W4402800563,B2,recent,B2_recent_q1,15,Critical Datafication Literacy,2024,book,4,True,include,6,rules,include
 W4223646338,B2,recent,B2_recent_q1,16,Constraining context: Situating datafication in public administration,2022,article,97,True,include,6,rules,include
@@ -5803,7 +5803,7 @@ W4378574199,B2,recent,B2_recent_q2,3,Mobility data justice,2023,article,42,True,
 W4223904921,B2,recent,B2_recent_q2,4,Data justice and biodiversity conservation,2022,article,93,True,include,3,rules,include
 W4408137423,B2,recent,B2_recent_q2,5,Data justice,2025,book-chapter,0,True,include,6,rules,include
 W4402633430,B2,recent,B2_recent_q2,6,Data Justice,2024,book-chapter,0,True,include,4,rules,include
-W4394898377,B2,recent,B2_recent_q2,7,Data justice,2023,book-chapter,0,True,borderline,3,stub abstract (possible book review) | manual: data justice (encyclopedia entry),include
+W4394898377,B2,recent,B2_recent_q2,7,Data justice,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title | manual override: data justice (encyclopedia entry),include
 W4415711657,B2,recent,B2_recent_q2,8,Data justice,2025,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4221071008,B2,recent,B2_recent_q2,9,Data justice and data solidarity,2022,article,42,True,include,6,rules,include
 W4416913067,B2,recent,B2_recent_q2,10,Conservation Data Justice,2025,book-chapter,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: conservation data justice (flag false positive),include
@@ -7115,7 +7115,7 @@ W7133506448,B7,recent,B7_recent_q1,13,Bridging Digital Divides,2026,book-chapter
 W7202284866,B7,recent,B7_recent_q1,14,Digital Divides,2026,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4415613179,B7,recent,B7_recent_q1,15,What makes smart cities inclusive? The spillover effects of the intra-city digital divide on inter-city digital inequality,2025,article,11,False,include,3,no abstract; core (and context) in title,include
 W7154246934,B7,recent,B7_recent_q1,16,First-Level Digital Divides Matter: The Importance of Quality of Access and the Digital Divide in Predicting Internet Use,2026,conference-paper,0,True,include,6,rules,include
-W4211158244,B7,recent,B7_recent_q1,17,Digital Divide in Tourism,2022,reference-entry,109,True,include,3,rules,include
+W4211158244,B7,recent,B7_recent_q1,17,Digital Divide in Tourism,2022,reference-entry,109,False,include,3,no abstract; core (and context) in title,include
 W4401514409,B7,recent,B7_recent_q1,18,Digital Inequality and Two Levels of the Digital Divide in Online Learning: A Mixed Methods Study of Underserved College Students,2024,article,30,True,include,6,rules,include
 W4391524131,B7,recent,B7_recent_q2,1,From Digital Exclusion to Digital Inclusion: How is the Dominican Republic Fostering a Digital Culture?,2023,book-chapter,2,False,include,3,no abstract; core (and context) in title,include
 W4293110950,B7,recent,B7_recent_q2,2,Digital Exclusion,2022,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
@@ -7133,7 +7133,7 @@ W4387521426,B7,recent,B7_recent_q2,13,Household green consumption: Does digital 
 W4393284758,B7,recent,B7_recent_q2,14,Digital Inclusion,2024,book,8,True,borderline,5,stub abstract (possible book review) | manual: digital inclusion (book),include
 W7132644994,B7,recent,B7_recent_q2,15,DIGITAL INCLUSION,2024,article,0,True,include,5,rules,include
 W7169759198,B7,recent,B7_recent_q2,16,Digital Inclusion,2026,book-chapter,0,True,include,3,rules,include
-W4394883318,B7,recent,B7_recent_q2,17,Digital inclusion,2023,book-chapter,0,True,borderline,3,stub abstract (possible book review) | manual: digital inclusion (encyclopedia entry),include
+W4394883318,B7,recent,B7_recent_q2,17,Digital inclusion,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title | manual override: digital inclusion (encyclopedia entry),include
 W4392608003,B7,recent,B7_recent_q2,18,Digital Inclusion,2024,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W4387226831,B7,recent,B7_recent_q3,1,Digital Literacy and Inclusion,2023,book,4,False,include,3,no abstract; core (and context) in title,include
 W4387776733,B7,recent,B7_recent_q3,2,Digital inclusion for social inclusion. Case study on digital literacy,2023,article,30,True,include,6,rules,include
@@ -7357,11 +7357,11 @@ W4207051153,B8,recent,B8_recent_q1,11,2019 Election Campaign Model in Indonesia 
 W7128187307,B8,recent,B8_recent_q1,12,Political Communication in the Digital Age: The Role of Social Media and Digital Activities in the 2024 Election Campaign,2025,article,1,True,include,6,rules,include
 W4408093961,B8,recent,B8_recent_q1,13,Social Media in the 2020 U.S. Presidential Election Campaign,2024,article,0,True,include,6,rules,include
 W4285726900,B8,recent,B8_recent_q1,14,Analyzing voter behavior on social media during the 2020 US presidential election campaign,2022,article,44,True,include,6,rules,include
-W4387128860,B8,recent,B8_recent_q1,15,Populism and social media,2022,reference-entry,5,True,include,3,rules,include
+W4387128860,B8,recent,B8_recent_q1,15,Populism and social media,2022,reference-entry,5,False,include,3,no abstract; core (and context) in title,include
 W7215657334,B8,recent,B8_recent_q1,16,Political Parties and Election Campaign: Strategic Dimensions of Political Communication in India,2026,dissertation,0,True,include,3,rules,include
 W4285143353,B8,recent,B8_recent_q1,17,The First European Election Campaign in the Time of Social Media,2022,book-chapter,2,False,include,3,no abstract; core (and context) in title,include
 W7129034885,B8,recent,B8_recent_q1,18,704 Political communication on social media,2025,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W4387128850,B8,recent,B8_recent_q2,1,Digital public sphere,2022,reference-entry,0,True,include,3,rules,include
+W4387128850,B8,recent,B8_recent_q2,1,Digital public sphere,2022,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4392030125,B8,recent,B8_recent_q2,2,Making Change in the Networked Public Sphere,2024,book-chapter,0,True,include,4,rules,include
 W4383814214,B8,recent,B8_recent_q2,3,Africa's Digital Public Sphere,2023,book-chapter,2,True,include,6,rules,include
 W4398784260,B8,recent,B8_recent_q2,4,The Networked Public Sphere and the Sectarian Public,2024,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
@@ -7401,8 +7401,8 @@ W4402599443,B8,recent,B8_recent_q4,1,Hashtag activism,2024,book-chapter,3,True,i
 W7127041633,B8,recent,B8_recent_q4,2,Hashtag Activism,2026,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4393332655,B8,recent,B8_recent_q4,3,Illness Politics and Hashtag Activism,2024,book,22,True,include,6,rules,include
 W7134127206,B8,recent,B8_recent_q4,4,Digital and Hashtag Activism,2026,book-chapter,0,True,include,6,rules,include
-W4327756845,B8,recent,B8_recent_q4,5,Introduction Redefining Hashtag Activism,2023,book-chapter,0,True,include,3,rules,include
-W4327756656,B8,recent,B8_recent_q4,6,Introduction: Redefining Hashtag Activism,2023,book-chapter,1,True,include,3,rules,include
+W4327756845,B8,recent,B8_recent_q4,5,Introduction Redefining Hashtag Activism,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
+W4327756656,B8,recent,B8_recent_q4,6,Introduction: Redefining Hashtag Activism,2023,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W4327757022,B8,recent,B8_recent_q4,7,Hashtag Activism Interrogated and Embodied,2023,book,7,False,include,3,no abstract; core (and context) in title,include
 W4409025686,B8,recent,B8_recent_q4,8,Hashtag Activism and Women’s Rights,2025,book,0,True,include,6,rules,include
 W4404804875,B8,recent,B8_recent_q4,9,Hashtag Activism and Women’s Rights,2024,book,0,False,include,3,no abstract; core (and context) in title,include
@@ -7411,7 +7411,7 @@ W4407356437,B8,recent,B8_recent_q4,11,Hashtag Activism and Women’s Rights,2025
 W4401420169,B8,recent,B8_recent_q4,12,Racist Ideology and Hashtag Activism,2022,article,0,True,include,3,rules,include
 W4381889026,B8,recent,B8_recent_q4,13,Hashtag Activism and #MeToo in South Africa,2023,book-chapter,2,True,include,6,rules,include
 W4362706516,B8,recent,B8_recent_q4,14,Intersectionality in/through Nigeria’s feminist hashtag activism,2023,article,2,True,include,6,rules,include
-W4327756584,B8,recent,B8_recent_q4,15,10 Meme Warfare and Fake Hashtag Activism,2023,book-chapter,0,True,include,3,rules,include
+W4327756584,B8,recent,B8_recent_q4,15,10 Meme Warfare and Fake Hashtag Activism,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4393388366,B8,recent,B8_recent_q4,16,Challenges of #bodypositivity: Social media and hashtag activism,2024,article,5,True,include,6,rules,include
 W4387740515,B8,recent,B8_recent_q4,17,Horse racing and the growth of hashtag activism,2023,article,6,True,include,5,rules,include
 W4417365248,B8,recent,B8_recent_q4,18,Connective action,2025,reference-entry,1,False,include,3,no abstract; core in title; context terms missing,include
@@ -7624,7 +7624,7 @@ W7124171553,B9,recent,B9_recent_q2,16,Social Media Implicit Hate Speech Dataset,
 W7120346084,B9,recent,B9_recent_q2,17,Hate speech detection and gender bias mitigation on online social media,2024,dissertation,0,True,borderline,3,stub abstract (possible book review) | manual: hate-speech detection thesis,exclude
 W4404520394,B9,recent,B9_recent_q2,18,Unmasking Online Hostility: Analysing and Mitigating Hate Speech in Social Media,2024,article,0,True,include,3,rules,include
 W4417365234,B9,recent,B9_recent_q3,1,Computational propaganda,2025,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
-W4387129029,B9,recent,B9_recent_q3,2,Computational propaganda effects,2022,reference-entry,1,True,include,3,rules,include
+W4387129029,B9,recent,B9_recent_q3,2,Computational propaganda effects,2022,reference-entry,1,False,include,3,no abstract; core (and context) in title,include
 W4384523610,B9,recent,B9_recent_q3,3,"Computational propaganda: Concepts, methods, and challenges",2023,article,18,True,include,6,rules,include
 W4319075643,B9,recent,B9_recent_q3,4,State Use of Computational Propaganda,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4386972239,B9,recent,B9_recent_q3,5,State Use of Computational Propaganda,2023,book-chapter,0,True,include,6,rules,include
