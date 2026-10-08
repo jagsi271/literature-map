@@ -1,0 +1,91 @@
+{
+ "theme": "B4",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital welfare state\" OR \"algorithmic accountability\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital welfare state\" OR \"algorithmic accountability\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"algorithmic accountability\" OR \"digital welfare state\")",
+ "page": 1,
+ "total_results": 1637,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B4_recent_q4.json.gz",
+ "results": [
+  [
+   "W4377984406",
+   2023
+  ],
+  [
+   "W4412088014",
+   2025
+  ],
+  [
+   "W4409946636",
+   2025
+  ],
+  [
+   "W7166045642",
+   2026
+  ],
+  [
+   "W4282832127",
+   2022
+  ],
+  [
+   "W4283157073",
+   2022
+  ],
+  [
+   "W4389426353",
+   2023
+  ],
+  [
+   "W4207056988",
+   2022
+  ],
+  [
+   "W4280596242",
+   2022
+  ],
+  [
+   "W4402406543",
+   2024
+  ],
+  [
+   "W7154973823",
+   2026
+  ],
+  [
+   "W7171818368",
+   2026
+  ],
+  [
+   "W4285121880",
+   2022
+  ],
+  [
+   "W7166833741",
+   2026
+  ],
+  [
+   "W4292377909",
+   2022
+  ],
+  [
+   "W4285207549",
+   2022
+  ],
+  [
+   "W7115704838",
+   2025
+  ],
+  [
+   "W4285060000",
+   2022
+  ]
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "theme": "B5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"biometric identification\" OR \"biometric registration\" OR \"biometric ID\" OR \"biometric authentication\" OR biometrics) AND (citizenship OR \"social protection\" OR \"public distribution system\" OR welfare OR \"cash transfers\" OR \"state capacity\" OR \"voter registration\" OR NREGA OR MGNREGA OR pensions)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"biometric identification\" OR \"biometric registration\" OR \"biometric ID\" OR \"biometric authentication\" OR biometrics) AND (citizenship OR \"social protection\" OR \"public distribution system\" OR welfare OR \"cash transfers\" OR \"state capacity\" OR \"voter registration\" OR NREGA OR MGNREGA OR pensions),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"MGNREGA\" OR \"NREGA\" OR \"cash transfers\" OR \"public distribution system\" OR \"social protection\" OR \"state capacity\" OR \"voter registration\" OR \"citizenship\" OR \"pensions\" OR \"welfare\") AND (\"biometric ID\" OR \"biometric authentication\" OR \"biometric identification\" OR \"biometric registration\" OR \"biometrics\"))",
+ "page": 1,
+ "total_results": 245,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B5_recent_q3.json.gz",
+ "results": [
+  [
+   "W7161638914",
+   2026
+  ],
+  [
+   "W4401771614",
+   2024
+  ],
+  [
+   "W4414721271",
+   2025
+  ],
+  [
+   "W4295007358",
+   2022
+  ],
+  [
+   "W4405215841",
+   2024
+  ],
+  [
+   "W7126242103",
+   2026
+  ],
+  [
+   "W4400681356",
+   2023
+  ],
+  [
+   "W7157549018",
+   2026
+  ],
+  [
+   "W7217997590",
+   2026
+  ],
+  [
+   "W4408764825",
+   2025
+  ],
+  [
+   "W4402029620",
+   2024
+  ],
+  [
+   "W7118080736",
+   2025
+  ],
+  [
+   "W7216941699",
+   2024
+  ],
+  [
+   "W4394910708",
+   2023
+  ],
+  [
+   "W4407407947",
+   2025
+  ],
+  [
+   "W4403676989",
+   2024
+  ],
+  [
+   "W7172521580",
+   2026
+  ],
+  [
+   "W4387547120",
+   2023
+  ],
+  [
+   "W7159857748",
+   2022
+  ],
+  [
+   "W4377248967",
+   2023
+  ],
+  [
+   "W7157191895",
+   2026
+  ],
+  [
+   "W7211875750",
+   2026
+  ],
+  [
+   "W7215267263",
+   2024
+  ],
+  [
+   "W4281251696",
+   2022
+  ]
+ ]
+}

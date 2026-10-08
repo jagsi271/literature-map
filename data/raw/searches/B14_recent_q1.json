@@ -1,0 +1,115 @@
+{
+ "theme": "B14",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"generative AI\" OR \"generative artificial intelligence\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"generative AI\" OR \"generative artificial intelligence\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"generative AI\" OR \"generative artificial intelligence\")",
+ "page": 1,
+ "total_results": 113002,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B14_recent_q1.json.gz",
+ "results": [
+  [
+   "W4389359039",
+   2023
+  ],
+  [
+   "W4381332452",
+   2023
+  ],
+  [
+   "W4391615642",
+   2024
+  ],
+  [
+   "W4392447866",
+   2024
+  ],
+  [
+   "W4401587065",
+   2024
+  ],
+  [
+   "W4297325261",
+   2022
+  ],
+  [
+   "W4404389403",
+   2024
+  ],
+  [
+   "W4414849058",
+   2025
+  ],
+  [
+   "W4386065249",
+   2023
+  ],
+  [
+   "W4380325134",
+   2023
+  ],
+  [
+   "W4383616930",
+   2023
+  ],
+  [
+   "W4396952102",
+   2024
+  ],
+  [
+   "W4400691855",
+   2024
+  ],
+  [
+   "W4394989078",
+   2024
+  ],
+  [
+   "W4389393309",
+   2023
+  ],
+  [
+   "W4410134888",
+   2025
+  ],
+  [
+   "W4394675615",
+   2024
+  ],
+  [
+   "W4389977086",
+   2023
+  ],
+  [
+   "W4386693657",
+   2023
+  ],
+  [
+   "W4390491274",
+   2024
+  ],
+  [
+   "W4386641663",
+   2023
+  ],
+  [
+   "W4409327319",
+   2025
+  ],
+  [
+   "W4407861126",
+   2025
+  ],
+  [
+   "W4403637324",
+   2024
+  ]
+ ]
+}

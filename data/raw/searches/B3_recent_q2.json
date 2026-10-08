@@ -1,0 +1,115 @@
+{
+ "theme": "B3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "dataveillance OR \"lateral surveillance\" OR \"social sorting\" OR \"state surveillance\" OR \"mass surveillance\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:dataveillance OR \"lateral surveillance\" OR \"social sorting\" OR \"state surveillance\" OR \"mass surveillance\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"lateral surveillance\" OR \"mass surveillance\" OR \"social sorting\" OR \"state surveillance\" OR \"dataveillance\")",
+ "page": 1,
+ "total_results": 2087,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B3_recent_q2.json.gz",
+ "results": [
+  [
+   "W4384992773",
+   2023
+  ],
+  [
+   "W4367314922",
+   2023
+  ],
+  [
+   "W4401960744",
+   2024
+  ],
+  [
+   "W4205803497",
+   2022
+  ],
+  [
+   "W7111523236",
+   2025
+  ],
+  [
+   "W7111531659",
+   2025
+  ],
+  [
+   "W4391772126",
+   2024
+  ],
+  [
+   "W4399468621",
+   2022
+  ],
+  [
+   "W4295997920",
+   2022
+  ],
+  [
+   "W4411160068",
+   2025
+  ],
+  [
+   "W4310157873",
+   2022
+  ],
+  [
+   "W4403180498",
+   2024
+  ],
+  [
+   "W4392041095",
+   2023
+  ],
+  [
+   "W7152728865",
+   2026
+  ],
+  [
+   "W4412971780",
+   2025
+  ],
+  [
+   "W7148180332",
+   2026
+  ],
+  [
+   "W4385336588",
+   2023
+  ],
+  [
+   "W4296042324",
+   2022
+  ],
+  [
+   "W4392288690",
+   2024
+  ],
+  [
+   "W4394451444",
+   2023
+  ],
+  [
+   "W4400118587",
+   2024
+  ],
+  [
+   "W4404257835",
+   2024
+  ],
+  [
+   "W4404749262",
+   2024
+  ],
+  [
+   "W4405176040",
+   2023
+  ]
+ ]
+}

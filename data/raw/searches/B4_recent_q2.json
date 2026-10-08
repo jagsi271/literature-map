@@ -1,0 +1,91 @@
+{
+ "theme": "B4",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"automated decision-making\" OR \"automated decision making\" AND (government OR public OR welfare)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"automated decision-making\" OR \"automated decision making\" AND (government OR public OR welfare),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"automated decision-making\" OR (\"automated decision making\" AND (\"government\" OR \"public\" OR \"welfare\")))",
+ "page": 1,
+ "total_results": 968,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B4_recent_q2.json.gz",
+ "results": [
+  [
+   "W4414031027",
+   2025
+  ],
+  [
+   "W4410976708",
+   2025
+  ],
+  [
+   "W4386882139",
+   2023
+  ],
+  [
+   "W4388835213",
+   2023
+  ],
+  [
+   "W7129063156",
+   2026
+  ],
+  [
+   "W4211020064",
+   2022
+  ],
+  [
+   "W4386453387",
+   2023
+  ],
+  [
+   "W4386062966",
+   2023
+  ],
+  [
+   "W4376472774",
+   2023
+  ],
+  [
+   "W4224605628",
+   2022
+  ],
+  [
+   "W4402049607",
+   2024
+  ],
+  [
+   "W4322703895",
+   2022
+  ],
+  [
+   "W4379473771",
+   2023
+  ],
+  [
+   "W4409892060",
+   2025
+  ],
+  [
+   "W4402048878",
+   2024
+  ],
+  [
+   "W7113107252",
+   2025
+  ],
+  [
+   "W7171302513",
+   2026
+  ],
+  [
+   "W4318145307",
+   2023
+  ]
+ ]
+}

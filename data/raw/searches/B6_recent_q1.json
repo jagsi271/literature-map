@@ -1,0 +1,91 @@
+{
+ "theme": "B6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"mobile money\" OR M-Pesa OR MPesa",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"mobile money\" OR M-Pesa OR MPesa,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"M-Pesa\" OR \"MPesa\" OR \"mobile money\")",
+ "page": 1,
+ "total_results": 3316,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B6_recent_q1.json.gz",
+ "results": [
+  [
+   "W7127584527",
+   2026
+  ],
+  [
+   "W7165473628",
+   2026
+  ],
+  [
+   "W7165495641",
+   2026
+  ],
+  [
+   "W4388910527",
+   2023
+  ],
+  [
+   "W7153738097",
+   2025
+  ],
+  [
+   "W4410427214",
+   2025
+  ],
+  [
+   "W7153840029",
+   2023
+  ],
+  [
+   "W7153744531",
+   2025
+  ],
+  [
+   "W4400117282",
+   2024
+  ],
+  [
+   "W4285131944",
+   2022
+  ],
+  [
+   "W4285027696",
+   2022
+  ],
+  [
+   "W4353029157",
+   2023
+  ],
+  [
+   "W4364357425",
+   2023
+  ],
+  [
+   "W7171782811",
+   2026
+  ],
+  [
+   "W7125519022",
+   2026
+  ],
+  [
+   "W7171871077",
+   2026
+  ],
+  [
+   "W4390705639",
+   2024
+  ],
+  [
+   "W4417064392",
+   2025
+  ]
+ ]
+}

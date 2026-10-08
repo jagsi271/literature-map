@@ -1,0 +1,115 @@
+{
+ "theme": "B1",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "platformization OR platformisation",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:platformization OR platformisation,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"platformisation\" OR \"platformization\")",
+ "page": 1,
+ "total_results": 2804,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B1_recent_q2.json.gz",
+ "results": [
+  [
+   "W4388945826",
+   2023
+  ],
+  [
+   "W4412631183",
+   2025
+  ],
+  [
+   "W4417363911",
+   2025
+  ],
+  [
+   "W4285054911",
+   2022
+  ],
+  [
+   "W4387820980",
+   2023
+  ],
+  [
+   "W7165809145",
+   2026
+  ],
+  [
+   "W4405634990",
+   2024
+  ],
+  [
+   "W4402599480",
+   2024
+  ],
+  [
+   "W4368363464",
+   2023
+  ],
+  [
+   "W4401518030",
+   2024
+  ],
+  [
+   "W4391947094",
+   2024
+  ],
+  [
+   "W4309882962",
+   2022
+  ],
+  [
+   "W4376464893",
+   2023
+  ],
+  [
+   "W7155501689",
+   2026
+  ],
+  [
+   "W4403879549",
+   2024
+  ],
+  [
+   "W7219404651",
+   2025
+  ],
+  [
+   "W7124456035",
+   2026
+  ],
+  [
+   "W4366496151",
+   2023
+  ],
+  [
+   "W4362568831",
+   2023
+  ],
+  [
+   "W4400675541",
+   2022
+  ],
+  [
+   "W4396603331",
+   2024
+  ],
+  [
+   "W4400514360",
+   2024
+  ],
+  [
+   "W4297859249",
+   2022
+  ],
+  [
+   "W4393987378",
+   2024
+  ]
+ ]
+}

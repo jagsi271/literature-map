@@ -1,0 +1,91 @@
+{
+ "theme": "B10",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "cybercrime OR \"cyber crime\" OR \"cyber-crime\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:cybercrime OR \"cyber crime\" OR \"cyber-crime\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"cyber crime\" OR \"cyber-crime\" OR \"cybercrime\")",
+ "page": 1,
+ "total_results": 14310,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B10_recent_q1.json.gz",
+ "results": [
+  [
+   "W7215699877",
+   2022
+  ],
+  [
+   "W7164458823",
+   2026
+  ],
+  [
+   "W7125588317",
+   2022
+  ],
+  [
+   "W4406271523",
+   2025
+  ],
+  [
+   "W4312371522",
+   2022
+  ],
+  [
+   "W4281668342",
+   2022
+  ],
+  [
+   "W4393976450",
+   2024
+  ],
+  [
+   "W4281681992",
+   2022
+  ],
+  [
+   "W2481619157",
+   2022
+  ],
+  [
+   "W4409269084",
+   2023
+  ],
+  [
+   "W4397037555",
+   2023
+  ],
+  [
+   "W4415548307",
+   2025
+  ],
+  [
+   "W7135207552",
+   2026
+  ],
+  [
+   "W7127169162",
+   2026
+  ],
+  [
+   "W7161971823",
+   2026
+  ],
+  [
+   "W7171416173",
+   2026
+  ],
+  [
+   "W4408626353",
+   2025
+  ],
+  [
+   "W7220308418",
+   2025
+  ]
+ ]
+}

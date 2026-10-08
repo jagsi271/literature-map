@@ -1,0 +1,91 @@
+{
+ "theme": "B11",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"gig economy\" OR \"gig work\" OR \"gig workers\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"gig economy\" OR \"gig work\" OR \"gig workers\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"gig economy\" OR \"gig work\" OR \"gig workers\")",
+ "page": 1,
+ "total_results": 7791,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B11_recent_q2.json.gz",
+ "results": [
+  [
+   "W4391226609",
+   2024
+  ],
+  [
+   "W4388125138",
+   2023
+  ],
+  [
+   "W4415038849",
+   2025
+  ],
+  [
+   "W4322738445",
+   2023
+  ],
+  [
+   "W4401468944",
+   2022
+  ],
+  [
+   "W4388163177",
+   2023
+  ],
+  [
+   "W7117308701",
+   2025
+  ],
+  [
+   "W4381946654",
+   2023
+  ],
+  [
+   "W7220464217",
+   2024
+  ],
+  [
+   "W4206523511",
+   2022
+  ],
+  [
+   "W7161174230",
+   2026
+  ],
+  [
+   "W4406225273",
+   2024
+  ],
+  [
+   "W4408845252",
+   2025
+  ],
+  [
+   "W4407867845",
+   2024
+  ],
+  [
+   "W7219322612",
+   2025
+  ],
+  [
+   "W4283767143",
+   2022
+  ],
+  [
+   "W7220560665",
+   2026
+  ],
+  [
+   "W4411125921",
+   2025
+  ]
+ ]
+}

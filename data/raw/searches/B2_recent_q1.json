@@ -1,0 +1,91 @@
+{
+ "theme": "B2",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "datafication",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:datafication,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"datafication\")",
+ "page": 1,
+ "total_results": 2785,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B2_recent_q1.json.gz",
+ "results": [
+  [
+   "W4211177031",
+   2022
+  ],
+  [
+   "W4309298065",
+   2022
+  ],
+  [
+   "W4408137476",
+   2025
+  ],
+  [
+   "W4389152374",
+   2023
+  ],
+  [
+   "W4382278177",
+   2023
+  ],
+  [
+   "W7160257343",
+   2026
+  ],
+  [
+   "W4322489875",
+   2023
+  ],
+  [
+   "W4366998197",
+   2023
+  ],
+  [
+   "W4387767643",
+   2023
+  ],
+  [
+   "W4382278515",
+   2023
+  ],
+  [
+   "W4412970077",
+   2025
+  ],
+  [
+   "W4382278369",
+   2023
+  ],
+  [
+   "W4362605179",
+   2023
+  ],
+  [
+   "W4382278435",
+   2023
+  ],
+  [
+   "W4402800563",
+   2024
+  ],
+  [
+   "W4223646338",
+   2022
+  ],
+  [
+   "W4382278212",
+   2023
+  ],
+  [
+   "W4401478239",
+   2024
+  ]
+ ]
+}

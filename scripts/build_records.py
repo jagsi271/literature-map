@@ -147,7 +147,7 @@ def shortlist_tag(text, haryana):
 
 
 # --------------------------------------------------------------------------- screening
-def screen(title, abstract, kw_text, req, flags, domain, slice_name=""):
+def screen(title, abstract, kw_text, req, flags, domain, slice_name="", strict_once=False):
     """Return (decision, score, reason). Rules v3 (Stage 2), calibrated on the 202 Stage 1
     manual decisions so that borderline cases stay under 25% per theme.
 
@@ -187,6 +187,13 @@ def screen(title, abstract, kw_text, req, flags, domain, slice_name=""):
             return "borderline", score, "context terms missing"
         return "exclude", score, "context terms missing, core mentioned once"
     if not core_title and core_rest < 2:
+        if kw_core and strict_once:
+            # per-theme tightening (queries.yaml screen.strict_once): the single mention must
+            # be in the opening two sentences or in a sentence stating the work's aim
+            ss = sentences(abstract)
+            pos = next((i for i, x in enumerate(ss) if core.search(x)), -1)
+            if not (0 <= pos <= 1 or (pos >= 0 and AIM.search(ss[pos]))):
+                return "exclude", score, "core mentioned once, outside opening/aim (strict)"
         if kw_core:
             return "borderline", score, "core concept mentioned once"
         return "exclude", score, "core mentioned once, not in keyword tags"
@@ -280,7 +287,8 @@ def main(themes_wanted):
                 # OpenAlex keyword tags are not used as evidence of relevance on their own: in
                 # testing they attached e.g. "digital identity" to education papers. They only
                 # decide whether a single core mention goes to review or is excluded.
-                d, sc_, r = screen(title, abstract, kw, req, flags, domain, m["slice"])
+                d, sc_, r = screen(title, abstract, kw, req, flags, domain, m["slice"],
+                                   theme_cfg(cfg, t)["screen"].get("strict_once", False))
                 c.update(decision=d, score=sc_, reason=r)
             c["final"] = c["decision"]
             c["rule_reason"] = c["reason"]

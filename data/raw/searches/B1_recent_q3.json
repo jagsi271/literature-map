@@ -1,0 +1,115 @@
+{
+ "theme": "B1",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital platforms\" AND (power OR governance OR capitalism OR regulation OR monopoly)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital platforms\" AND (power OR governance OR capitalism OR regulation OR monopoly),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital platforms\" AND (\"capitalism\" OR \"governance\" OR \"monopoly\" OR \"power\" OR \"regulation\"))",
+ "page": 1,
+ "total_results": 12453,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B1_recent_q3.json.gz",
+ "results": [
+  [
+   "W4221099942",
+   2022
+  ],
+  [
+   "W4411743640",
+   2025
+  ],
+  [
+   "W4416376569",
+   2025
+  ],
+  [
+   "W4377981854",
+   2023
+  ],
+  [
+   "W4296046445",
+   2022
+  ],
+  [
+   "W4390456502",
+   2023
+  ],
+  [
+   "W7153538427",
+   2023
+  ],
+  [
+   "W7153823899",
+   2026
+  ],
+  [
+   "W7153496714",
+   2023
+  ],
+  [
+   "W7153889434",
+   2025
+  ],
+  [
+   "W7153740769",
+   2025
+  ],
+  [
+   "W7118162707",
+   2026
+  ],
+  [
+   "W4320009335",
+   2023
+  ],
+  [
+   "W4315640659",
+   2022
+  ],
+  [
+   "W4401926943",
+   2024
+  ],
+  [
+   "W7154065669",
+   2026
+  ],
+  [
+   "W4392739981",
+   2024
+  ],
+  [
+   "W7160528719",
+   2026
+  ],
+  [
+   "W4401926911",
+   2024
+  ],
+  [
+   "W4388567743",
+   2023
+  ],
+  [
+   "W4387494534",
+   2023
+  ],
+  [
+   "W4405915197",
+   2024
+  ],
+  [
+   "W4416715373",
+   2025
+  ],
+  [
+   "W4303647326",
+   2022
+  ]
+ ]
+}

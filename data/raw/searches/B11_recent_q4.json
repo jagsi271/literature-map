@@ -1,0 +1,91 @@
+{
+ "theme": "B11",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "crowdwork OR \"crowd work\" OR microwork OR \"online labour\" OR \"algorithmic management\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:crowdwork OR \"crowd work\" OR microwork OR \"online labour\" OR \"algorithmic management\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"algorithmic management\" OR \"crowd work\" OR \"online labour\" OR \"crowdwork\" OR \"microwork\")",
+ "page": 1,
+ "total_results": 3245,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B11_recent_q4.json.gz",
+ "results": [
+  [
+   "W4385768381",
+   2023
+  ],
+  [
+   "W4289337208",
+   2022
+  ],
+  [
+   "W7140761938",
+   2026
+  ],
+  [
+   "W4399778477",
+   2024
+  ],
+  [
+   "W4312181728",
+   2022
+  ],
+  [
+   "W4408617724",
+   2025
+  ],
+  [
+   "W4407099405",
+   2025
+  ],
+  [
+   "W4381488851",
+   2022
+  ],
+  [
+   "W4362605152",
+   2023
+  ],
+  [
+   "W7120693103",
+   2022
+  ],
+  [
+   "W4312253576",
+   2022
+  ],
+  [
+   "W4213245898",
+   2022
+  ],
+  [
+   "W7135020969",
+   2026
+  ],
+  [
+   "W4406950019",
+   2025
+  ],
+  [
+   "W7207456987",
+   2026
+  ],
+  [
+   "W4391644878",
+   2024
+  ],
+  [
+   "W4366688543",
+   2023
+  ],
+  [
+   "W4384499948",
+   2023
+  ]
+ ]
+}

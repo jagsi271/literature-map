@@ -1,0 +1,91 @@
+{
+ "theme": "B12",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"sociotechnical imaginaries\" OR \"socio-technical imaginaries\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"sociotechnical imaginaries\" OR \"socio-technical imaginaries\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"socio-technical imaginaries\" OR \"sociotechnical imaginaries\")",
+ "page": 1,
+ "total_results": 874,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B12_recent_q3.json.gz",
+ "results": [
+  [
+   "W4221079296",
+   2022
+  ],
+  [
+   "W4399202278",
+   2024
+  ],
+  [
+   "W4410260656",
+   2025
+  ],
+  [
+   "W7141773195",
+   2026
+  ],
+  [
+   "W7125102661",
+   2024
+  ],
+  [
+   "W4226053296",
+   2022
+  ],
+  [
+   "W7171935212",
+   2026
+  ],
+  [
+   "W4391418350",
+   2024
+  ],
+  [
+   "W7154891174",
+   2026
+  ],
+  [
+   "W7204046606",
+   2026
+  ],
+  [
+   "W7141004058",
+   2026
+  ],
+  [
+   "W4409382522",
+   2025
+  ],
+  [
+   "W7160931605",
+   2026
+  ],
+  [
+   "W4389783966",
+   2023
+  ],
+  [
+   "W7154490736",
+   2026
+  ],
+  [
+   "W4396833254",
+   2024
+  ],
+  [
+   "W4408531120",
+   2025
+  ],
+  [
+   "W4366547474",
+   2023
+  ]
+ ]
+}

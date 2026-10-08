@@ -1,0 +1,115 @@
+{
+ "theme": "B14",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(ChatGPT OR \"large language models\" OR \"large language model\") AND (society OR labour OR labor OR policy OR ethics OR governance)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(ChatGPT OR \"large language models\" OR \"large language model\") AND (society OR labour OR labor OR policy OR ethics OR governance),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"ChatGPT\" OR \"large language model\" OR \"large language models\") AND (\"ethics\" OR \"governance\" OR \"labor\" OR \"labour\" OR \"policy\" OR \"society\"))",
+ "page": 1,
+ "total_results": 34226,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B14_recent_q2.json.gz",
+ "results": [
+  [
+   "W4393119065",
+   2024
+  ],
+  [
+   "W4412730391",
+   2025
+  ],
+  [
+   "W4367186868",
+   2023
+  ],
+  [
+   "W4323848232",
+   2023
+  ],
+  [
+   "W4388488349",
+   2023
+  ],
+  [
+   "W4399737726",
+   2024
+  ],
+  [
+   "W4403332906",
+   2024
+  ],
+  [
+   "W4367725373",
+   2023
+  ],
+  [
+   "W4388687124",
+   2023
+  ],
+  [
+   "W4404293760",
+   2024
+  ],
+  [
+   "W7161178631",
+   2026
+  ],
+  [
+   "W4409523018",
+   2025
+  ],
+  [
+   "W4399771169",
+   2024
+  ],
+  [
+   "W4399770196",
+   2024
+  ],
+  [
+   "W4384700226",
+   2023
+  ],
+  [
+   "W4385190665",
+   2023
+  ],
+  [
+   "W7201993829",
+   2026
+  ],
+  [
+   "W4388343109",
+   2023
+  ],
+  [
+   "W4361004509",
+   2023
+  ],
+  [
+   "W4391894733",
+   2023
+  ],
+  [
+   "W4380993498",
+   2023
+  ],
+  [
+   "W4410823183",
+   2025
+  ],
+  [
+   "W4391136507",
+   2024
+  ],
+  [
+   "W4412956102",
+   2025
+  ]
+ ]
+}

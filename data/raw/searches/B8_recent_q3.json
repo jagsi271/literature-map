@@ -1,0 +1,91 @@
+{
+ "theme": "B8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"political participation\" AND (online OR \"social media\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"political participation\" AND (online OR \"social media\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"political participation\" AND (\"social media\" OR \"online\"))",
+ "page": 1,
+ "total_results": 2339,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B8_recent_q3.json.gz",
+ "results": [
+  [
+   "W4407369284",
+   2025
+  ],
+  [
+   "W4285594086",
+   2022
+  ],
+  [
+   "W4405665067",
+   2024
+  ],
+  [
+   "W4409758215",
+   2024
+  ],
+  [
+   "W4410397282",
+   2025
+  ],
+  [
+   "W4405042094",
+   2023
+  ],
+  [
+   "W7129537563",
+   2026
+  ],
+  [
+   "W4386594664",
+   2023
+  ],
+  [
+   "W4405665185",
+   2024
+  ],
+  [
+   "W4297633673",
+   2022
+  ],
+  [
+   "W4409592130",
+   2025
+  ],
+  [
+   "W4402599619",
+   2024
+  ],
+  [
+   "W4383909637",
+   2023
+  ],
+  [
+   "W4401381146",
+   2024
+  ],
+  [
+   "W4386805028",
+   2023
+  ],
+  [
+   "W4401546450",
+   2024
+  ],
+  [
+   "W7213551893",
+   2026
+  ],
+  [
+   "W4211255596",
+   2022
+  ]
+ ]
+}

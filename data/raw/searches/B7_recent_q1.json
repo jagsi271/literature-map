@@ -1,0 +1,91 @@
+{
+ "theme": "B7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital divide\" OR \"digital divides\" OR \"digital inequality\" OR \"digital inequalities\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital divide\" OR \"digital divides\" OR \"digital inequality\" OR \"digital inequalities\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital divide\" OR \"digital divides\" OR \"digital inequalities\" OR \"digital inequality\")",
+ "page": 1,
+ "total_results": 26526,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B7_recent_q1.json.gz",
+ "results": [
+  [
+   "W4380487091",
+   2023
+  ],
+  [
+   "W4284880397",
+   2022
+  ],
+  [
+   "W4414393509",
+   2025
+  ],
+  [
+   "W7154830856",
+   2026
+  ],
+  [
+   "W4283814558",
+   2022
+  ],
+  [
+   "W4411936860",
+   2024
+  ],
+  [
+   "W7110645558",
+   2024
+  ],
+  [
+   "W7198691797",
+   2025
+  ],
+  [
+   "W4410184392",
+   2025
+  ],
+  [
+   "W4412817010",
+   2025
+  ],
+  [
+   "W7212161682",
+   2026
+  ],
+  [
+   "W7163381403",
+   2026
+  ],
+  [
+   "W7133506448",
+   2026
+  ],
+  [
+   "W7202284866",
+   2026
+  ],
+  [
+   "W4415613179",
+   2025
+  ],
+  [
+   "W7154246934",
+   2026
+  ],
+  [
+   "W4211158244",
+   2022
+  ],
+  [
+   "W4401514409",
+   2024
+  ]
+ ]
+}

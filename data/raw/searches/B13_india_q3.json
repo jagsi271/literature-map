@@ -1,0 +1,115 @@
+{
+ "theme": "B13",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"mobile internet\" AND (users OR everyday OR rural OR women)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"mobile internet\" AND (users OR everyday OR rural OR women)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"mobile internet\" AND (\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"everyday\" OR \"rural\" OR \"users\" OR \"women\"))",
+ "page": 1,
+ "total_results": 214,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B13_india_q3.json.gz",
+ "results": [
+  [
+   "W2471887864",
+   2016
+  ],
+  [
+   "W2558463059",
+   2016
+  ],
+  [
+   "W4412346730",
+   2025
+  ],
+  [
+   "W2073287140",
+   2008
+  ],
+  [
+   "W2899455993",
+   2018
+  ],
+  [
+   "W3034142844",
+   2020
+  ],
+  [
+   "W4283318361",
+   2022
+  ],
+  [
+   "W3190580201",
+   2021
+  ],
+  [
+   "W96710208",
+   2014
+  ],
+  [
+   "W7204163098",
+   2026
+  ],
+  [
+   "W2080553481",
+   2015
+  ],
+  [
+   "W3193543559",
+   2021
+  ],
+  [
+   "W2591389740",
+   2017
+  ],
+  [
+   "W2955736945",
+   2019
+  ],
+  [
+   "W2739045033",
+   2017
+  ],
+  [
+   "W7140058917",
+   2026
+  ],
+  [
+   "W4280642713",
+   2022
+  ],
+  [
+   "W4253503867",
+   2020
+  ],
+  [
+   "W2945957012",
+   2019
+  ],
+  [
+   "W2791503878",
+   2018
+  ],
+  [
+   "W2588530851",
+   2016
+  ],
+  [
+   "W2971843586",
+   2019
+  ],
+  [
+   "W7160012163",
+   2026
+  ],
+  [
+   "W4298063734",
+   2017
+  ]
+ ]
+}

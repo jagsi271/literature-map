@@ -1,0 +1,91 @@
+{
+ "theme": "B8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"hashtag activism\" OR \"connective action\" OR \"digital activism\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"hashtag activism\" OR \"connective action\" OR \"digital activism\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"connective action\" OR \"digital activism\" OR \"hashtag activism\")",
+ "page": 1,
+ "total_results": 2308,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B8_recent_q4.json.gz",
+ "results": [
+  [
+   "W4402599443",
+   2024
+  ],
+  [
+   "W7127041633",
+   2026
+  ],
+  [
+   "W4393332655",
+   2024
+  ],
+  [
+   "W7134127206",
+   2026
+  ],
+  [
+   "W4327756845",
+   2023
+  ],
+  [
+   "W4327756656",
+   2023
+  ],
+  [
+   "W4327757022",
+   2023
+  ],
+  [
+   "W4409025686",
+   2025
+  ],
+  [
+   "W4404804875",
+   2024
+  ],
+  [
+   "W4414512906",
+   2025
+  ],
+  [
+   "W4407356437",
+   2025
+  ],
+  [
+   "W4401420169",
+   2022
+  ],
+  [
+   "W4381889026",
+   2023
+  ],
+  [
+   "W4362706516",
+   2023
+  ],
+  [
+   "W4327756584",
+   2023
+  ],
+  [
+   "W4393388366",
+   2024
+  ],
+  [
+   "W4387740515",
+   2023
+  ],
+  [
+   "W4417365248",
+   2025
+  ]
+ ]
+}

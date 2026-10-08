@@ -1,0 +1,91 @@
+{
+ "theme": "B7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital inclusion\" OR \"digital exclusion\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital inclusion\" OR \"digital exclusion\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital exclusion\" OR \"digital inclusion\")",
+ "page": 1,
+ "total_results": 9173,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B7_recent_q2.json.gz",
+ "results": [
+  [
+   "W4391524131",
+   2023
+  ],
+  [
+   "W4293110950",
+   2022
+  ],
+  [
+   "W4389198636",
+   2023
+  ],
+  [
+   "W7167673950",
+   2026
+  ],
+  [
+   "W4206381635",
+   2022
+  ],
+  [
+   "W4415505336",
+   2025
+  ],
+  [
+   "W4285229783",
+   2022
+  ],
+  [
+   "W4391721134",
+   2023
+  ],
+  [
+   "W7133232420",
+   2026
+  ],
+  [
+   "W4392519762",
+   2024
+  ],
+  [
+   "W7137769173",
+   2024
+  ],
+  [
+   "W4378906605",
+   2023
+  ],
+  [
+   "W4387521426",
+   2023
+  ],
+  [
+   "W4393284758",
+   2024
+  ],
+  [
+   "W7132644994",
+   2024
+  ],
+  [
+   "W7169759198",
+   2026
+  ],
+  [
+   "W4394883318",
+   2023
+  ],
+  [
+   "W4392608003",
+   2024
+  ]
+ ]
+}

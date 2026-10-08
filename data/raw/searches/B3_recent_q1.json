@@ -1,0 +1,115 @@
+{
+ "theme": "B3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"surveillance studies\" OR \"surveillance society\" OR \"surveillant assemblage\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"surveillance studies\" OR \"surveillance society\" OR \"surveillant assemblage\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"surveillance society\" OR \"surveillance studies\" OR \"surveillant assemblage\")",
+ "page": 1,
+ "total_results": 1742,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B3_recent_q1.json.gz",
+ "results": [
+  [
+   "W4417350198",
+   2025
+  ],
+  [
+   "W4417350238",
+   2025
+  ],
+  [
+   "W7108469170",
+   2025
+  ],
+  [
+   "W4417373973",
+   2025
+  ],
+  [
+   "W4414973587",
+   2025
+  ],
+  [
+   "W4417350244",
+   2025
+  ],
+  [
+   "W4417350220",
+   2025
+  ],
+  [
+   "W4304688274",
+   2022
+  ],
+  [
+   "W4400986451",
+   2024
+  ],
+  [
+   "W4387906381",
+   2023
+  ],
+  [
+   "W4417350199",
+   2025
+  ],
+  [
+   "W4313321487",
+   2022
+  ],
+  [
+   "W7147557988",
+   2026
+  ],
+  [
+   "W4311596039",
+   2022
+  ],
+  [
+   "W4417350246",
+   2025
+  ],
+  [
+   "W4389798128",
+   2023
+  ],
+  [
+   "W4404087273",
+   2024
+  ],
+  [
+   "W7140066003",
+   2026
+  ],
+  [
+   "W7170230664",
+   2025
+  ],
+  [
+   "W7131095141",
+   2025
+  ],
+  [
+   "W4313321620",
+   2022
+  ],
+  [
+   "W4367623742",
+   2023
+  ],
+  [
+   "W4414012433",
+   2025
+  ],
+  [
+   "W4367624236",
+   2023
+  ]
+ ]
+}

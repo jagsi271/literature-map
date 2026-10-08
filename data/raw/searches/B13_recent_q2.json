@@ -1,0 +1,115 @@
+{
+ "theme": "B13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "ICT4D OR ICTD OR (\"mobile communication\" AND development)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:ICT4D OR ICTD OR (\"mobile communication\" AND development),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"ICT4D\" OR \"ICTD\" OR (\"mobile communication\" AND \"development\"))",
+ "page": 1,
+ "total_results": 2439,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B13_recent_q2.json.gz",
+ "results": [
+  [
+   "W7164743197",
+   2026
+  ],
+  [
+   "W7164754812",
+   2026
+  ],
+  [
+   "W4405874965",
+   2024
+  ],
+  [
+   "W4412428962",
+   2025
+  ],
+  [
+   "W4408625081",
+   2025
+  ],
+  [
+   "W4389196361",
+   2023
+  ],
+  [
+   "W1518746045",
+   2023
+  ],
+  [
+   "W4401080347",
+   2024
+  ],
+  [
+   "W4390881897",
+   2023
+  ],
+  [
+   "W7164454174",
+   2026
+  ],
+  [
+   "W4313203297",
+   2022
+  ],
+  [
+   "W4394566996",
+   2024
+  ],
+  [
+   "W7148585256",
+   2026
+  ],
+  [
+   "W4294741352",
+   2022
+  ],
+  [
+   "W7148535353",
+   2026
+  ],
+  [
+   "W4367666416",
+   2022
+  ],
+  [
+   "W4392980282",
+   2024
+  ],
+  [
+   "W4210279754",
+   2022
+  ],
+  [
+   "W4213117405",
+   2022
+  ],
+  [
+   "W4396981636",
+   2024
+  ],
+  [
+   "W4210607276",
+   2022
+  ],
+  [
+   "W7167098575",
+   2026
+  ],
+  [
+   "W7153729914",
+   2026
+  ],
+  [
+   "W7216659191",
+   2022
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "B9",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"extreme speech\" OR (\"hate speech\" AND (online OR \"social media\"))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"extreme speech\" OR (\"hate speech\" AND (online OR \"social media\")),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"extreme speech\" OR (\"hate speech\" AND (\"social media\" OR \"online\")))",
+ "page": 1,
+ "total_results": 7207,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B9_recent_q2.json.gz",
+ "results": [
+  [
+   "W7128810732",
+   2025
+  ],
+  [
+   "W4386003692",
+   2023
+  ],
+  [
+   "W3124940434",
+   2023
+  ],
+  [
+   "W2948937448",
+   2023
+  ],
+  [
+   "W4360994872",
+   2023
+  ],
+  [
+   "W4387532351",
+   2023
+  ],
+  [
+   "W4292259045",
+   2022
+  ],
+  [
+   "W4294837701",
+   2022
+  ],
+  [
+   "W4411503876",
+   2025
+  ],
+  [
+   "W4396218551",
+   2024
+  ],
+  [
+   "W7167583633",
+   2022
+  ],
+  [
+   "W4225400770",
+   2022
+  ],
+  [
+   "W4312052513",
+   2022
+  ],
+  [
+   "W4396528203",
+   2024
+  ],
+  [
+   "W4321491066",
+   2023
+  ],
+  [
+   "W7124171553",
+   2025
+  ],
+  [
+   "W7120346084",
+   2024
+  ],
+  [
+   "W4404520394",
+   2024
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "B6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "fintech AND (inclusion OR society OR regulation OR households OR poor)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:fintech AND (inclusion OR society OR regulation OR households OR poor),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"fintech\" AND (\"households\" OR \"inclusion\" OR \"poor\" OR \"regulation\" OR \"society\"))",
+ "page": 1,
+ "total_results": 9641,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B6_recent_q4.json.gz",
+ "results": [
+  [
+   "W4361803141",
+   2023
+  ],
+  [
+   "W4280610106",
+   2022
+  ],
+  [
+   "W4288085637",
+   2022
+  ],
+  [
+   "W4285263327",
+   2022
+  ],
+  [
+   "W7203486337",
+   2026
+  ],
+  [
+   "W4210387315",
+   2022
+  ],
+  [
+   "W4294958198",
+   2022
+  ],
+  [
+   "W3216492618",
+   2022
+  ],
+  [
+   "W4408439066",
+   2025
+  ],
+  [
+   "W4213024457",
+   2022
+  ],
+  [
+   "W4407582493",
+   2025
+  ],
+  [
+   "W4312592393",
+   2022
+  ],
+  [
+   "W4407582488",
+   2025
+  ],
+  [
+   "W4322627137",
+   2023
+  ],
+  [
+   "W4322100979",
+   2023
+  ],
+  [
+   "W4402070814",
+   2024
+  ],
+  [
+   "W4411936283",
+   2025
+  ],
+  [
+   "W4213116269",
+   2022
+  ]
+ ]
+}

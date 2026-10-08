@@ -1,0 +1,91 @@
+{
+ "theme": "B6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital payments\" OR \"digital payment\" OR cashless OR demonetisation OR demonetization",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital payments\" OR \"digital payment\" OR cashless OR demonetisation OR demonetization,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital payment\" OR \"digital payments\" OR \"cashless\" OR \"demonetisation\" OR \"demonetization\")",
+ "page": 1,
+ "total_results": 18483,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B6_recent_q2.json.gz",
+ "results": [
+  [
+   "W4414366822",
+   2025
+  ],
+  [
+   "W4406368186",
+   2025
+  ],
+  [
+   "W4411608750",
+   2025
+  ],
+  [
+   "W7217840604",
+   2025
+  ],
+  [
+   "W4392630473",
+   2024
+  ],
+  [
+   "W4294310842",
+   2022
+  ],
+  [
+   "W4402008186",
+   2024
+  ],
+  [
+   "W4408158204",
+   2025
+  ],
+  [
+   "W4397037687",
+   2023
+  ],
+  [
+   "W4405421045",
+   2024
+  ],
+  [
+   "W4403763508",
+   2024
+  ],
+  [
+   "W4404646189",
+   2024
+  ],
+  [
+   "W4407743767",
+   2025
+  ],
+  [
+   "W4400521531",
+   2024
+  ],
+  [
+   "W7216356607",
+   2026
+  ],
+  [
+   "W7168339669",
+   2026
+  ],
+  [
+   "W7125629284",
+   2026
+  ],
+  [
+   "W3215524593",
+   2022
+  ]
+ ]
+}

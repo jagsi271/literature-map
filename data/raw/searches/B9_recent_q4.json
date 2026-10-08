@@ -1,0 +1,91 @@
+{
+ "theme": "B9",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "WhatsApp AND (misinformation OR rumours OR rumors OR lynching)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:WhatsApp AND (misinformation OR rumours OR rumors OR lynching),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"WhatsApp\" AND (\"lynching\" OR \"misinformation\" OR \"rumors\" OR \"rumours\"))",
+ "page": 1,
+ "total_results": 796,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B9_recent_q4.json.gz",
+ "results": [
+  [
+   "W4224235491",
+   2022
+  ],
+  [
+   "W2974221155",
+   2026
+  ],
+  [
+   "W7128231885",
+   2025
+  ],
+  [
+   "W4398728396",
+   2022
+  ],
+  [
+   "W4401430934",
+   2024
+  ],
+  [
+   "W4293657499",
+   2022
+  ],
+  [
+   "W4288430940",
+   2022
+  ],
+  [
+   "W4283069143",
+   2022
+  ],
+  [
+   "W4367357832",
+   2023
+  ],
+  [
+   "W4224979604",
+   2022
+  ],
+  [
+   "W4226158522",
+   2022
+  ],
+  [
+   "W4400774316",
+   2024
+  ],
+  [
+   "W4401345805",
+   2024
+  ],
+  [
+   "W4381296828",
+   2023
+  ],
+  [
+   "W4377990120",
+   2023
+  ],
+  [
+   "W4307058635",
+   2022
+  ],
+  [
+   "W4387215963",
+   2023
+  ],
+  [
+   "W4416308772",
+   2025
+  ]
+ ]
+}

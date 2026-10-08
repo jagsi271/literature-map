@@ -1,0 +1,115 @@
+{
+ "theme": "B13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"mobile phone\" OR \"mobile phones\" OR \"cell phone\" OR smartphone) AND (\"everyday life\" OR everyday OR gender) NOT (addiction OR \"problematic smartphone use\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"mobile phone\" OR \"mobile phones\" OR \"cell phone\" OR smartphone) AND (\"everyday life\" OR everyday OR gender) NOT (addiction OR \"problematic smartphone use\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"cell phone\" OR \"mobile phone\" OR \"mobile phones\" OR \"smartphone\") AND (\"everyday life\" OR \"everyday\" OR \"gender\") NOT (\"problematic smartphone use\" OR \"addiction\"))",
+ "page": 1,
+ "total_results": 5842,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B13_recent_q1.json.gz",
+ "results": [
+  [
+   "W7124157396",
+   2026
+  ],
+  [
+   "W7212118642",
+   2026
+  ],
+  [
+   "W4386117319",
+   2023
+  ],
+  [
+   "W4367458586",
+   2023
+  ],
+  [
+   "W4416111800",
+   2026
+  ],
+  [
+   "W4319321076",
+   2023
+  ],
+  [
+   "W4407231338",
+   2025
+  ],
+  [
+   "W7164846610",
+   2026
+  ],
+  [
+   "W4382060035",
+   2023
+  ],
+  [
+   "W4320922706",
+   2023
+  ],
+  [
+   "W4320474032",
+   2023
+  ],
+  [
+   "W4386158587",
+   2023
+  ],
+  [
+   "W7113464610",
+   2025
+  ],
+  [
+   "W4386174752",
+   2023
+  ],
+  [
+   "W4307266421",
+   2022
+  ],
+  [
+   "W7131346052",
+   2026
+  ],
+  [
+   "W4386155607",
+   2023
+  ],
+  [
+   "W4417446055",
+   2025
+  ],
+  [
+   "W4386158566",
+   2023
+  ],
+  [
+   "W4311204744",
+   2022
+  ],
+  [
+   "W4386158581",
+   2023
+  ],
+  [
+   "W4386158596",
+   2023
+  ],
+  [
+   "W4386158597",
+   2023
+  ],
+  [
+   "W4220861422",
+   2022
+  ]
+ ]
+}

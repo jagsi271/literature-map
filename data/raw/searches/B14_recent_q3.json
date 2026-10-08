@@ -1,0 +1,115 @@
+{
+ "theme": "B14",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"foundation models\" AND (society OR power OR governance)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"foundation models\" AND (society OR power OR governance),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"foundation models\" AND (\"governance\" OR \"power\" OR \"society\"))",
+ "page": 1,
+ "total_results": 1896,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B14_recent_q3.json.gz",
+ "results": [
+  [
+   "W4403126983",
+   2024
+  ],
+  [
+   "W4404961535",
+   2024
+  ],
+  [
+   "W7161481188",
+   2026
+  ],
+  [
+   "W7127589159",
+   2026
+  ],
+  [
+   "W4310513840",
+   2022
+  ],
+  [
+   "W4389714151",
+   2023
+  ],
+  [
+   "W4387026748",
+   2023
+  ],
+  [
+   "W4400668519",
+   2024
+  ],
+  [
+   "W4403159831",
+   2024
+  ],
+  [
+   "W4409411571",
+   2025
+  ],
+  [
+   "W4404040651",
+   2024
+  ],
+  [
+   "W7154727346",
+   2026
+  ],
+  [
+   "W4415877133",
+   2025
+  ],
+  [
+   "W7128249609",
+   2025
+  ],
+  [
+   "W7166053300",
+   2026
+  ],
+  [
+   "W4409262921",
+   2025
+  ],
+  [
+   "W4400038656",
+   2024
+  ],
+  [
+   "W4414778512",
+   2025
+  ],
+  [
+   "W7212023476",
+   2026
+  ],
+  [
+   "W7128177530",
+   2026
+  ],
+  [
+   "W7155649020",
+   2026
+  ],
+  [
+   "W7128198285",
+   2026
+  ],
+  [
+   "W4402586742",
+   2024
+  ],
+  [
+   "W4413180563",
+   2024
+  ]
+ ]
+}

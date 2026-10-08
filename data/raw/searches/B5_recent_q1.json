@@ -1,0 +1,115 @@
+{
+ "theme": "B5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "Aadhaar OR \"India Stack\" OR \"digital public infrastructure\" OR \"digital public goods\" OR \"Unique Identification Authority\" OR \"identification for development\" OR ID4D",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:Aadhaar OR \"India Stack\" OR \"digital public infrastructure\" OR \"digital public goods\" OR \"Unique Identification Authority\" OR \"identification for development\" OR ID4D,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"Aadhaar\" OR \"ID4D\" OR \"India Stack\" OR \"Unique Identification Authority\" OR \"digital public goods\" OR \"digital public infrastructure\" OR \"identification for development\")",
+ "page": 1,
+ "total_results": 2615,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B5_recent_q1.json.gz",
+ "results": [
+  [
+   "W7167943279",
+   2026
+  ],
+  [
+   "W7204933344",
+   2026
+  ],
+  [
+   "W7165404341",
+   2026
+  ],
+  [
+   "W7117969054",
+   2026
+  ],
+  [
+   "W4415011675",
+   2025
+  ],
+  [
+   "W4391187801",
+   2024
+  ],
+  [
+   "W7204199979",
+   2026
+  ],
+  [
+   "W7204175336",
+   2026
+  ],
+  [
+   "W7162573878",
+   2026
+  ],
+  [
+   "W7212031922",
+   2026
+  ],
+  [
+   "W4411413139",
+   2025
+  ],
+  [
+   "W4400536705",
+   2024
+  ],
+  [
+   "W7124452024",
+   2026
+  ],
+  [
+   "W7214301512",
+   2026
+  ],
+  [
+   "W7155510116",
+   2026
+  ],
+  [
+   "W4385688082",
+   2023
+  ],
+  [
+   "W4414475830",
+   2025
+  ],
+  [
+   "W4405512768",
+   2024
+  ],
+  [
+   "W4409410999",
+   2025
+  ],
+  [
+   "W4284710624",
+   2022
+  ],
+  [
+   "W4292764312",
+   2022
+  ],
+  [
+   "W4410529445",
+   2025
+  ],
+  [
+   "W7140192615",
+   2025
+  ],
+  [
+   "W7140824377",
+   2025
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "B8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital publics\" OR \"networked publics\" OR \"digital public sphere\" OR \"networked public sphere\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital publics\" OR \"networked publics\" OR \"digital public sphere\" OR \"networked public sphere\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital public sphere\" OR \"digital publics\" OR \"networked public sphere\" OR \"networked publics\")",
+ "page": 1,
+ "total_results": 1513,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B8_recent_q2.json.gz",
+ "results": [
+  [
+   "W4387128850",
+   2022
+  ],
+  [
+   "W4392030125",
+   2024
+  ],
+  [
+   "W4383814214",
+   2023
+  ],
+  [
+   "W4398784260",
+   2024
+  ],
+  [
+   "W4302307238",
+   2022
+  ],
+  [
+   "W4403560198",
+   2024
+  ],
+  [
+   "W4400093015",
+   2024
+  ],
+  [
+   "W4411255349",
+   2025
+  ],
+  [
+   "W7165158267",
+   2026
+  ],
+  [
+   "W4391622767",
+   2023
+  ],
+  [
+   "W4404928947",
+   2024
+  ],
+  [
+   "W4361255043",
+   2023
+  ],
+  [
+   "W4361273500",
+   2023
+  ],
+  [
+   "W4387971369",
+   2023
+  ],
+  [
+   "W4293058640",
+   2022
+  ],
+  [
+   "W4383271320",
+   2022
+  ],
+  [
+   "W4313180748",
+   2022
+  ],
+  [
+   "W4409487029",
+   2025
+  ]
+ ]
+}

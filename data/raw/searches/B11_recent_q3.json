@@ -1,0 +1,91 @@
+{
+ "theme": "B11",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"platform work\" OR \"platform workers\" OR \"platform labour\" OR \"platform labor\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"platform work\" OR \"platform workers\" OR \"platform labour\" OR \"platform labor\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"platform labor\" OR \"platform labour\" OR \"platform work\" OR \"platform workers\")",
+ "page": 1,
+ "total_results": 3482,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B11_recent_q3.json.gz",
+ "results": [
+  [
+   "W4390586593",
+   2024
+  ],
+  [
+   "W7154569971",
+   2026
+  ],
+  [
+   "W4387046025",
+   2023
+  ],
+  [
+   "W4362700872",
+   2023
+  ],
+  [
+   "W7214748181",
+   2026
+  ],
+  [
+   "W7212122597",
+   2026
+  ],
+  [
+   "W4415926312",
+   2025
+  ],
+  [
+   "W7204895081",
+   2026
+  ],
+  [
+   "W4317462812",
+   2023
+  ],
+  [
+   "W4386937947",
+   2023
+  ],
+  [
+   "W4394213371",
+   2023
+  ],
+  [
+   "W4310538392",
+   2022
+  ],
+  [
+   "W4390946203",
+   2024
+  ],
+  [
+   "W7201958710",
+   2023
+  ],
+  [
+   "W4319592724",
+   2023
+  ],
+  [
+   "W7163361229",
+   2026
+  ],
+  [
+   "W4362605043",
+   2023
+  ],
+  [
+   "W4404262610",
+   2024
+  ]
+ ]
+}

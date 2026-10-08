@@ -1,0 +1,91 @@
+{
+ "theme": "B11",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital labour\" OR \"digital labor\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital labour\" OR \"digital labor\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital labor\" OR \"digital labour\")",
+ "page": 1,
+ "total_results": 2401,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B11_recent_q1.json.gz",
+ "results": [
+  [
+   "W4391242348",
+   2024
+  ],
+  [
+   "W7129734463",
+   2026
+  ],
+  [
+   "W4410835269",
+   2025
+  ],
+  [
+   "W4411032070",
+   2025
+  ],
+  [
+   "W4221105287",
+   2022
+  ],
+  [
+   "W7128300428",
+   2025
+  ],
+  [
+   "W4417168080",
+   2025
+  ],
+  [
+   "W4390006738",
+   2023
+  ],
+  [
+   "W4206268032",
+   2022
+  ],
+  [
+   "W4284898825",
+   2022
+  ],
+  [
+   "W4410757617",
+   2025
+  ],
+  [
+   "W7168276966",
+   2026
+  ],
+  [
+   "W4411701011",
+   2025
+  ],
+  [
+   "W4388291024",
+   2023
+  ],
+  [
+   "W7168209647",
+   2026
+  ],
+  [
+   "W7128300048",
+   2025
+  ],
+  [
+   "W7163205719",
+   2026
+  ],
+  [
+   "W7128292788",
+   2025
+  ]
+ ]
+}

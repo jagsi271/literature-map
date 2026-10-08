@@ -29,6 +29,9 @@
 #              e.g. Elsevier, and the search matched text we cannot see: in A1/A2 landmarks 35
 #              of 35 such records were off-topic); flag match without core in title; core once in the abstract and
 #              not in keyword tags; stub abstract without core in title
+# Per-theme tightening (strict_once: true) when a theme's borderline share exceeds 25%: a single
+# core mention is reviewed only if it is in the abstract's first two sentences or in a sentence
+# stating the work's aim (Stage 1 calibration: 12/25 such records kept vs 15/50 elsewhere).
 # Borderline records are decided by hand in data/screening/manual_review.csv; a hand decision
 # on a work-theme pair overrides the rules. v2 core terms were revised for the pilot themes
 # (C2, A9, B5); v3 core terms for all other themes are theme-specific phrases instead of
@@ -294,8 +297,10 @@ themes:
       - '"surveillance capitalism" OR "critical data studies"'
     screen:
       # v3 (Stage 2)
-      require: ['datafi\w*|data justice|data colonialism|digital colonialism|data extractiv\w*|surveillance capitalism|critical data studies|data activism|data power|big data (and|&) society|data subjects?|dataism']
+      require: ['datafi\w*|data justice|data colonialism|digital colonialism|data extractiv\w*|surveillance capitalism|critical data studies|data activism|big data (and|&) society']
       flag: []
+      # v3b: borderline was 26%; a single core mention must be in the opening/aim sentences
+      strict_once: true
   B3:
     domain: B
     name: Surveillance studies

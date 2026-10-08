@@ -1,0 +1,91 @@
+{
+ "theme": "B7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"internet access\" AND (inequality OR gap OR rural)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"internet access\" AND (inequality OR gap OR rural),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"internet access\" AND (\"gap\" OR \"inequality\" OR \"rural\"))",
+ "page": 1,
+ "total_results": 2939,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B7_recent_q4.json.gz",
+ "results": [
+  [
+   "W4224135945",
+   2022
+  ],
+  [
+   "W4392148601",
+   2024
+  ],
+  [
+   "W4402475033",
+   2024
+  ],
+  [
+   "W4417289466",
+   2025
+  ],
+  [
+   "W4285152197",
+   2022
+  ],
+  [
+   "W7113515555",
+   2025
+  ],
+  [
+   "W4388924040",
+   2023
+  ],
+  [
+   "W7163888403",
+   2026
+  ],
+  [
+   "W4382564076",
+   2023
+  ],
+  [
+   "W7129630274",
+   2026
+  ],
+  [
+   "W4417488173",
+   2025
+  ],
+  [
+   "W4410956633",
+   2025
+  ],
+  [
+   "W7124166787",
+   2025
+  ],
+  [
+   "W7163269076",
+   2026
+  ],
+  [
+   "W7147079148",
+   2026
+  ],
+  [
+   "W4406167137",
+   2025
+  ],
+  [
+   "W7163208009",
+   2026
+  ],
+  [
+   "W4417472053",
+   2025
+  ]
+ ]
+}

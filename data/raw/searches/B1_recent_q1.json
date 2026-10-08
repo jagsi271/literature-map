@@ -1,0 +1,115 @@
+{
+ "theme": "B1",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"platform capitalism\" OR \"platform economy\" OR \"platform society\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"platform capitalism\" OR \"platform economy\" OR \"platform society\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"platform capitalism\" OR \"platform economy\" OR \"platform society\")",
+ "page": 1,
+ "total_results": 4909,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B1_recent_q1.json.gz",
+ "results": [
+  [
+   "W4387700046",
+   2023
+  ],
+  [
+   "W7153150334",
+   2026
+  ],
+  [
+   "W7164843055",
+   2026
+  ],
+  [
+   "W4415585421",
+   2025
+  ],
+  [
+   "W7112557522",
+   2025
+  ],
+  [
+   "W7125715809",
+   2026
+  ],
+  [
+   "W4213219332",
+   2022
+  ],
+  [
+   "W4417013258",
+   2025
+  ],
+  [
+   "W4386754307",
+   2023
+  ],
+  [
+   "W4389202802",
+   2023
+  ],
+  [
+   "W4411083462",
+   2025
+  ],
+  [
+   "W4289353096",
+   2022
+  ],
+  [
+   "W7128228670",
+   2025
+  ],
+  [
+   "W4413375714",
+   2025
+  ],
+  [
+   "W4289342412",
+   2022
+  ],
+  [
+   "W4412975067",
+   2025
+  ],
+  [
+   "W4211130383",
+   2022
+  ],
+  [
+   "W4315648631",
+   2023
+  ],
+  [
+   "W4310479509",
+   2022
+  ],
+  [
+   "W4408876548",
+   2025
+  ],
+  [
+   "W4404626859",
+   2024
+  ],
+  [
+   "W4391423922",
+   2023
+  ],
+  [
+   "W4225265597",
+   2022
+  ],
+  [
+   "W4392760292",
+   2024
+  ]
+ ]
+}

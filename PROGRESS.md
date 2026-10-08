@@ -43,7 +43,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 12 / 16 | 147 | 145 |
 | A6 | Small towns, census towns & secondary cities | 336 | 138 | 28 (8%) | 11 / 17 | 142 | 142 |
 | A7 | Urban infrastructure (water, sanitation, ener | 242 | 160 | 23 (10%) | 9 / 14 | 162 | 154 |
-| A8 | Mobility & transport (social science) | 246 | 174 | 27 (11%) | 7 / 20 | 174 | 172 |
+| A8 | Mobility & transport (social science) | 246 | 174 | 27 (11%) | 7 / 20 | 174 | 170 |
 | A9 | Public space, publicness & the street | 287 | 188 | 36 (12%) | 21 / 15 | 208 | 207 |
 | A10 | Urban economy, informal work & street vending | 221 | 154 | 22 (10%) | 9 / 13 | 162 | 159 |
 | A11 | Migration & the city | 234 | 194 | 22 (9%) | 6 / 16 | 190 | 187 |
@@ -52,17 +52,30 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | A14 | Urban environment, climate & risk | 246 | 195 | 29 (12%) | 10 / 19 | 192 | 189 |
 | A15 | Urban & planning theory, Southern urbanism | 233 | 144 | 39 (17%) | 24 / 15 | 158 | 154 |
 | A16 | Night-time city & urban time | 241 | 122 | 33 (14%) | 20 / 13 | 135 | 135 |
-| B5 | Digital identity & digital public infrastruct | 177 | 114 | 28 (16%) | 7 / 21 | 117 | 117 |
-| C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 125 |
+| B1 | Platforms & platform capitalism | 239 | 181 | 33 (14%) | 16 / 17 | 187 | 176 |
+| B2 | Datafication, data justice & data colonialism | 240 | 148 | 39 (16%) | 0 / 0 (+39 pending) | 143 | 140 |
+| B3 | Surveillance studies | 230 | 129 | 32 (14%) | 0 / 0 (+32 pending) | 119 | 116 |
+| B4 | Algorithmic governance & AI in the public sec | 238 | 205 | 18 (8%) | 0 / 0 (+18 pending) | 181 | 181 |
+| B5 | Digital identity & digital public infrastruct | 272 | 184 | 47 (17%) | 7 / 21 (+19 pending) | 177 | 176 |
+| B6 | Digital finance & payments | 217 | 182 | 14 (6%) | 0 / 0 (+14 pending) | 172 | 172 |
+| B7 | Digital divides & digital inclusion | 236 | 183 | 29 (12%) | 0 / 0 (+29 pending) | 166 | 164 |
+| B8 | Social media, digital publics & political com | 241 | 193 | 17 (7%) | 0 / 0 (+17 pending) | 180 | 177 |
+| B9 | Misinformation & extreme speech | 238 | 161 | 44 (18%) | 0 / 0 (+44 pending) | 153 | 152 |
+| B10 | Cybercrime, fraud & cybersecurity (social sci | 240 | 173 | 25 (10%) | 0 / 0 (+25 pending) | 164 | 164 |
+| B11 | Digital labour | 238 | 203 | 16 (7%) | 0 / 0 (+16 pending) | 194 | 189 |
+| B12 | Infrastructure studies & STS of digital syste | 221 | 131 | 39 (18%) | 0 / 0 (+39 pending) | 127 | 126 |
+| B13 | Mobile phones & everyday digital life | 239 | 142 | 26 (11%) | 0 / 0 (+26 pending) | 135 | 132 |
+| B14 | Generative AI & society | 237 | 161 | 46 (19%) | 0 / 0 (+46 pending) | 151 | 151 |
+| C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 115 |
 
-Total deduplicated records: 2861.
+Total deduplicated records: 4948.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
 <!-- AUTO:API -->
 | UTC day | Calls by this pipeline | Cost (USD) | ≈ searches | Credits left at last call |
 |---|---|---|---|---|
-| 2026-10-08 | 168 | 0.168 | 168 | 7920 |
+| 2026-10-08 | 283 | 0.283 | 283 | 6770 |
 <!-- /AUTO:API -->
 
 ## Stage 1 (pilot) — approved

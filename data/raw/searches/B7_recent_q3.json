@@ -1,0 +1,91 @@
+{
+ "theme": "B7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital literacy\" AND (inequality OR inclusion OR exclusion)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital literacy\" AND (inequality OR inclusion OR exclusion),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital literacy\" AND (\"exclusion\" OR \"inclusion\" OR \"inequality\"))",
+ "page": 1,
+ "total_results": 8116,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B7_recent_q3.json.gz",
+ "results": [
+  [
+   "W4387226831",
+   2023
+  ],
+  [
+   "W4387776733",
+   2023
+  ],
+  [
+   "W7167364100",
+   2026
+  ],
+  [
+   "W7130563183",
+   2026
+  ],
+  [
+   "W4415057572",
+   2025
+  ],
+  [
+   "W7203753143",
+   2026
+  ],
+  [
+   "W4415134584",
+   2025
+  ],
+  [
+   "W7160103329",
+   2026
+  ],
+  [
+   "W4392850689",
+   2024
+  ],
+  [
+   "W4390509260",
+   2024
+  ],
+  [
+   "W4391683215",
+   2024
+  ],
+  [
+   "W4312432417",
+   2022
+  ],
+  [
+   "W4416602353",
+   2025
+  ],
+  [
+   "W4413897068",
+   2025
+  ],
+  [
+   "W7128128937",
+   2025
+  ],
+  [
+   "W7155696515",
+   2026
+  ],
+  [
+   "W4412563789",
+   2025
+  ],
+  [
+   "W4361275066",
+   2023
+  ]
+ ]
+}

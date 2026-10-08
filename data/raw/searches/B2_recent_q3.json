@@ -1,0 +1,91 @@
+{
+ "theme": "B2",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"data colonialism\" OR \"digital colonialism\" OR \"data extractivism\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"data colonialism\" OR \"digital colonialism\" OR \"data extractivism\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"data colonialism\" OR \"data extractivism\" OR \"digital colonialism\")",
+ "page": 1,
+ "total_results": 999,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B2_recent_q3.json.gz",
+ "results": [
+  [
+   "W4389622793",
+   2023
+  ],
+  [
+   "W7171695467",
+   2026
+  ],
+  [
+   "W4401531726",
+   2024
+  ],
+  [
+   "W7202186064",
+   2026
+  ],
+  [
+   "W4408464354",
+   2025
+  ],
+  [
+   "W4412483659",
+   2025
+  ],
+  [
+   "W4206612308",
+   2022
+  ],
+  [
+   "W7127182297",
+   2025
+  ],
+  [
+   "W4412073219",
+   2025
+  ],
+  [
+   "W4311249809",
+   2022
+  ],
+  [
+   "W4206174346",
+   2022
+  ],
+  [
+   "W4220771466",
+   2022
+  ],
+  [
+   "W4220903713",
+   2022
+  ],
+  [
+   "W4410155208",
+   2025
+  ],
+  [
+   "W4402164243",
+   2024
+  ],
+  [
+   "W4387136749",
+   2023
+  ],
+  [
+   "W4402001166",
+   2024
+  ],
+  [
+   "W4401807354",
+   2024
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "B8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"social media\" AND (\"political communication\" OR elections OR \"election campaign\" OR populism)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"social media\" AND (\"political communication\" OR elections OR \"election campaign\" OR populism),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"social media\" AND (\"election campaign\" OR \"political communication\" OR \"elections\" OR \"populism\"))",
+ "page": 1,
+ "total_results": 6841,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B8_recent_q1.json.gz",
+ "results": [
+  [
+   "W4381929465",
+   2023
+  ],
+  [
+   "W4414426096",
+   2025
+  ],
+  [
+   "W4323778146",
+   2023
+  ],
+  [
+   "W4385298751",
+   2023
+  ],
+  [
+   "W4310416894",
+   2022
+  ],
+  [
+   "W7136173547",
+   2026
+  ],
+  [
+   "W4413173479",
+   2025
+  ],
+  [
+   "W7134731794",
+   2024
+  ],
+  [
+   "W7171338829",
+   2026
+  ],
+  [
+   "W4281491750",
+   2022
+  ],
+  [
+   "W4207051153",
+   2022
+  ],
+  [
+   "W7128187307",
+   2025
+  ],
+  [
+   "W4408093961",
+   2024
+  ],
+  [
+   "W4285726900",
+   2022
+  ],
+  [
+   "W4387128860",
+   2022
+  ],
+  [
+   "W7215657334",
+   2026
+  ],
+  [
+   "W4285143353",
+   2022
+  ],
+  [
+   "W7129034885",
+   2025
+  ]
+ ]
+}

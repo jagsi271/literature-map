@@ -1,0 +1,115 @@
+{
+ "theme": "B13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"mobile internet\" AND (users OR everyday OR rural OR women)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"mobile internet\" AND (users OR everyday OR rural OR women),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"mobile internet\" AND (\"everyday\" OR \"rural\" OR \"users\" OR \"women\"))",
+ "page": 1,
+ "total_results": 949,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B13_recent_q3.json.gz",
+ "results": [
+  [
+   "W4312656011",
+   2022
+  ],
+  [
+   "W4415912571",
+   2025
+  ],
+  [
+   "W4313185807",
+   2022
+  ],
+  [
+   "W4283318361",
+   2022
+  ],
+  [
+   "W7154132138",
+   2026
+  ],
+  [
+   "W4380875487",
+   2023
+  ],
+  [
+   "W7125623499",
+   2026
+  ],
+  [
+   "W4384572930",
+   2023
+  ],
+  [
+   "W7204781108",
+   2026
+  ],
+  [
+   "W4411803839",
+   2025
+  ],
+  [
+   "W4229442680",
+   2022
+  ],
+  [
+   "W4280642713",
+   2022
+  ],
+  [
+   "W4399217126",
+   2024
+  ],
+  [
+   "W4311207649",
+   2022
+  ],
+  [
+   "W4220945028",
+   2022
+  ],
+  [
+   "W4205928479",
+   2022
+  ],
+  [
+   "W4412915776",
+   2025
+  ],
+  [
+   "W4393241045",
+   2024
+  ],
+  [
+   "W4312975406",
+   2022
+  ],
+  [
+   "W3155925435",
+   2023
+  ],
+  [
+   "W4413081683",
+   2025
+  ],
+  [
+   "W4415977687",
+   2025
+  ],
+  [
+   "W4389734418",
+   2023
+  ],
+  [
+   "W4415988768",
+   2025
+  ]
+ ]
+}

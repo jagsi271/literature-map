@@ -1,0 +1,91 @@
+{
+ "theme": "B12",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"science and technology studies\" AND digital AND infrastructure) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"science and technology studies\" AND digital AND infrastructure) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"science and technology studies\" AND \"digital\" AND \"infrastructure\" AND (\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\"))",
+ "page": 1,
+ "total_results": 20,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B12_india_q4.json.gz",
+ "results": [
+  [
+   "W7217526796",
+   2026
+  ],
+  [
+   "W3048997895",
+   2020
+  ],
+  [
+   "W7160899769",
+   2026
+  ],
+  [
+   "W7214543184",
+   2026
+  ],
+  [
+   "W4391463822",
+   2023
+  ],
+  [
+   "W7204444627",
+   2026
+  ],
+  [
+   "W7135199058",
+   2026
+  ],
+  [
+   "W7170078457",
+   2026
+  ],
+  [
+   "W7168275287",
+   2026
+  ],
+  [
+   "W7164015464",
+   2026
+  ],
+  [
+   "W2323026095",
+   2014
+  ],
+  [
+   "W7130651286",
+   2026
+  ],
+  [
+   "W7167236561",
+   2026
+  ],
+  [
+   "W7139006347",
+   2026
+  ],
+  [
+   "W7138872899",
+   2026
+  ],
+  [
+   "W7167368210",
+   2026
+  ],
+  [
+   "W7115976040",
+   2025
+  ],
+  [
+   "W4256156033",
+   2019
+  ]
+ ]
+}

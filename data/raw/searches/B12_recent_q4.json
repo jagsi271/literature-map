@@ -1,0 +1,91 @@
+{
+ "theme": "B12",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"science and technology studies\" AND digital AND infrastructure",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"science and technology studies\" AND digital AND infrastructure,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"science and technology studies\" AND \"digital\" AND \"infrastructure\")",
+ "page": 1,
+ "total_results": 130,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B12_recent_q4.json.gz",
+ "results": [
+  [
+   "W4376954331",
+   2023
+  ],
+  [
+   "W4408315889",
+   2025
+  ],
+  [
+   "W4361236314",
+   2023
+  ],
+  [
+   "W7217526796",
+   2026
+  ],
+  [
+   "W7204863957",
+   2026
+  ],
+  [
+   "W4391735551",
+   2024
+  ],
+  [
+   "W7147510064",
+   2026
+  ],
+  [
+   "W7155275805",
+   2026
+  ],
+  [
+   "W7162492357",
+   2026
+  ],
+  [
+   "W7158427630",
+   2026
+  ],
+  [
+   "W4414921286",
+   2025
+  ],
+  [
+   "W4393317822",
+   2024
+  ],
+  [
+   "W7128589810",
+   2026
+  ],
+  [
+   "W4404686217",
+   2024
+  ],
+  [
+   "W4402326132",
+   2024
+  ],
+  [
+   "W4415329846",
+   2024
+  ],
+  [
+   "W7166689928",
+   2026
+  ],
+  [
+   "W4392122422",
+   2024
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "B4",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"algorithmic governance\" OR \"algorithmic governmentality\" OR \"algorithmic regulation\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"algorithmic governance\" OR \"algorithmic governmentality\" OR \"algorithmic regulation\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"algorithmic governance\" OR \"algorithmic governmentality\" OR \"algorithmic regulation\")",
+ "page": 1,
+ "total_results": 3476,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B4_recent_q1.json.gz",
+ "results": [
+  [
+   "W4366816974",
+   2023
+  ],
+  [
+   "W7112535332",
+   2023
+  ],
+  [
+   "W4415513092",
+   2025
+  ],
+  [
+   "W7213273543",
+   2026
+  ],
+  [
+   "W4205441192",
+   2022
+  ],
+  [
+   "W4415567414",
+   2025
+  ],
+  [
+   "W4214652370",
+   2022
+  ],
+  [
+   "W7162283178",
+   2026
+  ],
+  [
+   "W7214089708",
+   2026
+  ],
+  [
+   "W4405353859",
+   2024
+  ],
+  [
+   "W7126178792",
+   2026
+  ],
+  [
+   "W4297156471",
+   2022
+  ],
+  [
+   "W7220629562",
+   2024
+  ],
+  [
+   "W7162340360",
+   2026
+  ],
+  [
+   "W7213246307",
+   2026
+  ],
+  [
+   "W7161116937",
+   2026
+  ],
+  [
+   "W7161112571",
+   2026
+  ],
+  [
+   "W7162646548",
+   2026
+  ]
+ ]
+}

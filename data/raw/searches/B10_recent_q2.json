@@ -1,0 +1,91 @@
+{
+ "theme": "B10",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"online fraud\" OR \"internet fraud\" OR \"romance scam\" OR \"online scams\" OR (phishing AND victim)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"online fraud\" OR \"internet fraud\" OR \"romance scam\" OR \"online scams\" OR (phishing AND victim),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"internet fraud\" OR \"online fraud\" OR \"online scams\" OR \"romance scam\" OR (\"phishing\" AND \"victim\"))",
+ "page": 1,
+ "total_results": 2693,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B10_recent_q2.json.gz",
+ "results": [
+  [
+   "W7220329019",
+   2024
+  ],
+  [
+   "W7140099358",
+   2026
+  ],
+  [
+   "W7165173079",
+   2026
+  ],
+  [
+   "W7165142222",
+   2026
+  ],
+  [
+   "W4405473629",
+   2024
+  ],
+  [
+   "W4392880346",
+   2024
+  ],
+  [
+   "W7156909909",
+   2026
+  ],
+  [
+   "W4388014937",
+   2023
+  ],
+  [
+   "W4386508356",
+   2023
+  ],
+  [
+   "W4405909195",
+   2024
+  ],
+  [
+   "W4388191864",
+   2023
+  ],
+  [
+   "W4406254891",
+   2025
+  ],
+  [
+   "W4376624240",
+   2023
+  ],
+  [
+   "W4293187880",
+   2022
+  ],
+  [
+   "W4385207510",
+   2022
+  ],
+  [
+   "W4225383697",
+   2022
+  ],
+  [
+   "W4411883791",
+   2025
+  ],
+  [
+   "W7220414387",
+   2026
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "B2",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"surveillance capitalism\" OR \"critical data studies\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"surveillance capitalism\" OR \"critical data studies\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"critical data studies\" OR \"surveillance capitalism\")",
+ "page": 1,
+ "total_results": 1999,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B2_recent_q4.json.gz",
+ "results": [
+  [
+   "W3143251375",
+   2023
+  ],
+  [
+   "W4396516882",
+   2024
+  ],
+  [
+   "W4307853169",
+   2022
+  ],
+  [
+   "W4213260000",
+   2022
+  ],
+  [
+   "W4285122544",
+   2022
+  ],
+  [
+   "W4410895916",
+   2025
+  ],
+  [
+   "W4393906369",
+   2024
+  ],
+  [
+   "W4389455458",
+   2023
+  ],
+  [
+   "W7128731646",
+   2026
+  ],
+  [
+   "W4389685094",
+   2023
+  ],
+  [
+   "W7216850346",
+   2023
+  ],
+  [
+   "W7143281505",
+   2026
+  ],
+  [
+   "W4389502140",
+   2023
+  ],
+  [
+   "W4394611597",
+   2024
+  ],
+  [
+   "W4403235175",
+   2024
+  ],
+  [
+   "W4403470052",
+   2024
+  ],
+  [
+   "W4380320066",
+   2023
+  ],
+  [
+   "W4210406316",
+   2022
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "B10",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"cyber victimization\" OR \"cyber victimisation\" OR \"cybercrime victimization\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"cyber victimization\" OR \"cyber victimisation\" OR \"cybercrime victimization\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"cyber victimisation\" OR \"cyber victimization\" OR \"cybercrime victimization\")",
+ "page": 1,
+ "total_results": 606,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B10_recent_q4.json.gz",
+ "results": [
+  [
+   "W4402770099",
+   2024
+  ],
+  [
+   "W7212289263",
+   2026
+  ],
+  [
+   "W7166561057",
+   2026
+  ],
+  [
+   "W4387343573",
+   2023
+  ],
+  [
+   "W7117408585",
+   2025
+  ],
+  [
+   "W4321214091",
+   2023
+  ],
+  [
+   "W7128314699",
+   2026
+  ],
+  [
+   "W7203539880",
+   2026
+  ],
+  [
+   "W4415555364",
+   2025
+  ],
+  [
+   "W4206107372",
+   2022
+  ],
+  [
+   "W7140962947",
+   2026
+  ],
+  [
+   "W4311006481",
+   2022
+  ],
+  [
+   "W4297347410",
+   2022
+  ],
+  [
+   "W4296713237",
+   2022
+  ],
+  [
+   "W4380483419",
+   2023
+  ],
+  [
+   "W4401116326",
+   2024
+  ],
+  [
+   "W4412696165",
+   2025
+  ],
+  [
+   "W7125967022",
+   2025
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "B8",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"hashtag activism\" OR \"connective action\" OR \"digital activism\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"hashtag activism\" OR \"connective action\" OR \"digital activism\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"connective action\" OR \"digital activism\" OR \"hashtag activism\"))",
+ "page": 1,
+ "total_results": 284,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B8_india_q4.json.gz",
+ "results": [
+  [
+   "W7126268699",
+   2026
+  ],
+  [
+   "W7143480065",
+   2026
+  ],
+  [
+   "W4413783617",
+   2025
+  ],
+  [
+   "W4414512906",
+   2025
+  ],
+  [
+   "W2716116507",
+   2017
+  ],
+  [
+   "W7215079750",
+   2026
+  ],
+  [
+   "W4411285550",
+   2025
+  ],
+  [
+   "W4220820691",
+   2022
+  ],
+  [
+   "W3188947916",
+   2020
+  ],
+  [
+   "W7220798689",
+   2026
+  ],
+  [
+   "W2771970346",
+   2016
+  ],
+  [
+   "W2756732784",
+   2017
+  ],
+  [
+   "W3034623249",
+   2020
+  ],
+  [
+   "W3212714054",
+   2021
+  ],
+  [
+   "W4399918010",
+   2024
+  ],
+  [
+   "W4407072931",
+   2024
+  ],
+  [
+   "W2471887864",
+   2016
+  ],
+  [
+   "W4385612141",
+   2023
+  ]
+ ]
+}

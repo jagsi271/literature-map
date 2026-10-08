@@ -1,0 +1,115 @@
+{
+ "theme": "B13",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"mobile phone\" OR \"mobile phones\" OR \"cell phone\" OR smartphone) AND (\"everyday life\" OR everyday OR gender) NOT (addiction OR \"problematic smartphone use\")) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"mobile phone\" OR \"mobile phones\" OR \"cell phone\" OR smartphone) AND (\"everyday life\" OR everyday OR gender) NOT (addiction OR \"problematic smartphone use\")) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"cell phone\" OR \"mobile phone\" OR \"mobile phones\" OR \"smartphone\") AND (\"everyday life\" OR \"everyday\" OR \"gender\") NOT (\"problematic smartphone use\" OR \"addiction\"))",
+ "page": 1,
+ "total_results": 1135,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B13_india_q1.json.gz",
+ "results": [
+  [
+   "W4200292163",
+   2021
+  ],
+  [
+   "W4413926331",
+   2025
+  ],
+  [
+   "W4390401512",
+   2023
+  ],
+  [
+   "W4226190985",
+   2022
+  ],
+  [
+   "W2272756466",
+   2012
+  ],
+  [
+   "W2284219800",
+   2015
+  ],
+  [
+   "W2765517014",
+   2017
+  ],
+  [
+   "W3201324238",
+   2021
+  ],
+  [
+   "W2775715748",
+   2017
+  ],
+  [
+   "W4407231338",
+   2025
+  ],
+  [
+   "W4366189026",
+   2023
+  ],
+  [
+   "W2327522969",
+   2012
+  ],
+  [
+   "W4318832913",
+   2023
+  ],
+  [
+   "W3133354761",
+   2021
+  ],
+  [
+   "W3201334945",
+   2021
+  ],
+  [
+   "W2395799888",
+   2016
+  ],
+  [
+   "W2398070379",
+   2015
+  ],
+  [
+   "W2466570333",
+   2015
+  ],
+  [
+   "W4404148121",
+   2024
+  ],
+  [
+   "W2101755435",
+   2010
+  ],
+  [
+   "W2590979747",
+   2010
+  ],
+  [
+   "W7122669043",
+   2026
+  ],
+  [
+   "W2788793237",
+   2017
+  ],
+  [
+   "W3157300437",
+   2021
+  ]
+ ]
+}

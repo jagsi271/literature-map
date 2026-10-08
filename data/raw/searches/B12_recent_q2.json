@@ -1,0 +1,91 @@
+{
+ "theme": "B12",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital infrastructure\" AND (politics OR power OR sociotechnical OR \"science and technology studies\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital infrastructure\" AND (politics OR power OR sociotechnical OR \"science and technology studies\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital infrastructure\" AND (\"science and technology studies\" OR \"politics\" OR \"power\" OR \"sociotechnical\"))",
+ "page": 1,
+ "total_results": 1938,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B12_recent_q2.json.gz",
+ "results": [
+  [
+   "W4308426353",
+   2022
+  ],
+  [
+   "W7172535264",
+   2026
+  ],
+  [
+   "W4311657362",
+   2022
+  ],
+  [
+   "W4399329248",
+   2024
+  ],
+  [
+   "W7150061110",
+   2026
+  ],
+  [
+   "W4317347336",
+   2022
+  ],
+  [
+   "W7167495995",
+   2026
+  ],
+  [
+   "W7171661626",
+   2026
+  ],
+  [
+   "W7167478667",
+   2026
+  ],
+  [
+   "W7153070399",
+   2026
+  ],
+  [
+   "W7204557371",
+   2026
+  ],
+  [
+   "W7171961397",
+   2026
+  ],
+  [
+   "W4366145835",
+   2023
+  ],
+  [
+   "W4386505692",
+   2023
+  ],
+  [
+   "W7171478940",
+   2026
+  ],
+  [
+   "W4367459227",
+   2023
+  ],
+  [
+   "W7160566841",
+   2026
+  ],
+  [
+   "W7172406090",
+   2026
+  ]
+ ]
+}

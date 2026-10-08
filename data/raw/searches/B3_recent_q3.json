@@ -1,0 +1,115 @@
+{
+ "theme": "B3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "surveillance AND privacy AND (digital OR technology) AND (power OR state OR citizens)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:surveillance AND privacy AND (digital OR technology) AND (power OR state OR citizens),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"privacy\" AND \"surveillance\" AND (\"citizens\" OR \"power\" OR \"state\") AND (\"digital\" OR \"technology\"))",
+ "page": 1,
+ "total_results": 1959,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B3_recent_q3.json.gz",
+ "results": [
+  [
+   "W7141834613",
+   2025
+  ],
+  [
+   "W4402344539",
+   2024
+  ],
+  [
+   "W7147057758",
+   2026
+  ],
+  [
+   "W4388818396",
+   2023
+  ],
+  [
+   "W615350215",
+   2025
+  ],
+  [
+   "W7215094026",
+   2026
+  ],
+  [
+   "W7220157801",
+   2026
+  ],
+  [
+   "W4398141566",
+   2024
+  ],
+  [
+   "W7140030842",
+   2025
+  ],
+  [
+   "W7167328144",
+   2026
+  ],
+  [
+   "W4391502960",
+   2024
+  ],
+  [
+   "W7214319703",
+   2026
+  ],
+  [
+   "W4400303997",
+   2024
+  ],
+  [
+   "W4412123163",
+   2025
+  ],
+  [
+   "W4415725699",
+   2025
+  ],
+  [
+   "W4412496903",
+   2025
+  ],
+  [
+   "W7167222208",
+   2026
+  ],
+  [
+   "W4402502518",
+   2024
+  ],
+  [
+   "W7154122147",
+   2023
+  ],
+  [
+   "W7155507143",
+   2026
+  ],
+  [
+   "W7143819891",
+   2022
+  ],
+  [
+   "W7202378614",
+   2026
+  ],
+  [
+   "W4389484081",
+   2023
+  ],
+  [
+   "W7220688719",
+   2025
+  ]
+ ]
+}

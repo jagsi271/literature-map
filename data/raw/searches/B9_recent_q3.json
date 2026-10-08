@@ -1,0 +1,91 @@
+{
+ "theme": "B9",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"computational propaganda\" OR \"information disorder\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"computational propaganda\" OR \"information disorder\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"computational propaganda\" OR \"information disorder\")",
+ "page": 1,
+ "total_results": 816,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B9_recent_q3.json.gz",
+ "results": [
+  [
+   "W4417365234",
+   2025
+  ],
+  [
+   "W4387129029",
+   2022
+  ],
+  [
+   "W4384523610",
+   2023
+  ],
+  [
+   "W4319075643",
+   2023
+  ],
+  [
+   "W4386972239",
+   2023
+  ],
+  [
+   "W4403717999",
+   2024
+  ],
+  [
+   "W4324054959",
+   2023
+  ],
+  [
+   "W4410670198",
+   2023
+  ],
+  [
+   "W4280572064",
+   2022
+  ],
+  [
+   "W4398255336",
+   2024
+  ],
+  [
+   "W4321374944",
+   2023
+  ],
+  [
+   "W4377098906",
+   2023
+  ],
+  [
+   "W4323521167",
+   2023
+  ],
+  [
+   "W4402064293",
+   2024
+  ],
+  [
+   "W7137555042",
+   2022
+  ],
+  [
+   "W4388498032",
+   2023
+  ],
+  [
+   "W7169538852",
+   2026
+  ],
+  [
+   "W4414095549",
+   2025
+  ]
+ ]
+}
