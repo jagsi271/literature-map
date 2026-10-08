@@ -61,13 +61,15 @@ def col(name):
     return f"Records!${L[name]}:${L[name]}"
 
 
+NOSUP = f"{col('Supplementary')},\"<>Y\""  # supplementary-only records stay out of the matrix
+
 # ------------------------------------------------------------------ Gap matrix
 ws_g = wb.create_sheet("Gap matrix")
 ws_g["A1"] = "Gap matrix — live COUNTIFS over the Records tab (counts update when rows are added)"
 ws_g["A1"].font = Font(bold=True, size=12)
-ws_g["A2"] = ("Stage 1 pilot: only C2, A9 and B5 have records; other themes show 0 until Stage 2. "
-              "Counts are of records in this bibliography (a sample), not of all literature; "
-              "use the Growth tab for OpenAlex-wide counts.")
+ws_g["A2"] = ("Counts are of records in this bibliography (a sample), not of all literature; "
+              "use the Growth tab for OpenAlex-wide counts. Records found only by the "
+              "supplementary query set (Supplementary = Y) are excluded.")
 row = 4
 
 
@@ -88,12 +90,12 @@ def block(title, colvals, crit):
             cl = get_column_letter(j)
             extra = ",".join(crit(f"{cl}${hdr}"))
             ws_g.cell(row=row, column=j,
-                      value=f"=COUNTIFS({col('Primary theme')},$A{row},{extra})")
+                      value=f"=COUNTIFS({col('Primary theme')},$A{row},{NOSUP},{extra})")
         tc = get_column_letter(len(colvals) + 3)
         ws_g.cell(row=row, column=len(colvals) + 3,
-                  value=f"=COUNTIFS({col('Primary theme')},$A{row})")
+                  value=f"=COUNTIFS({col('Primary theme')},$A{row},{NOSUP})")
         ws_g.cell(row=row, column=len(colvals) + 4,
-                  value=f"=COUNTIFS({col('Primary theme')},$A{row},{col('India flag')},\"Y\")")
+                  value=f"=COUNTIFS({col('Primary theme')},$A{row},{NOSUP},{col('India flag')},\"Y\")")
         row += 1
     ws_g.cell(row=row, column=2, value="All themes").font = Font(bold=True)
     for j in range(3, len(colvals) + 5):
@@ -116,11 +118,11 @@ for code, t in THEMES.items():
     ws_g.cell(row=row, column=2, value=t["name"])
     for j, (_, a, b) in enumerate(PERIODS, 3):
         ws_g.cell(row=row, column=j, value=(
-            f"=COUNTIFS({col('Primary theme')},$A{row},{col('Year')},\">={a}\","
+            f"=COUNTIFS({col('Primary theme')},$A{row},{NOSUP},{col('Year')},\">={a}\","
             f"{col('Year')},\"<={b}\")"))
     ws_g.cell(row=row, column=6, value=(
-        f"=COUNTIFS({col('Primary theme')},$A{row},{col('Year')},\"<2010\")"))
-    ws_g.cell(row=row, column=7, value=f"=COUNTIFS({col('Primary theme')},$A{row})")
+        f"=COUNTIFS({col('Primary theme')},$A{row},{NOSUP},{col('Year')},\"<2010\")"))
+    ws_g.cell(row=row, column=7, value=f"=COUNTIFS({col('Primary theme')},$A{row},{NOSUP})")
     row += 1
 ws_g.cell(row=row, column=2, value="All themes").font = Font(bold=True)
 for j in range(3, 8):
@@ -130,54 +132,61 @@ widths(ws_g, [8, 48] + [13] * 11)
 ws_g.freeze_panes = "C4"
 
 # ------------------------------------------------------------------ Growth
+import csv  # noqa: E402
+
 ws_w = wb.create_sheet("Growth")
-ws_w["A1"] = "Growth — OpenAlex-wide hit counts for each theme's combined query (not just this sample)"
+ws_w["A1"] = "Growth — OpenAlex-wide counts per theme (prepared in Stage 2 for the Stage 3 analysis)"
 ws_w["A1"].font = Font(bold=True, size=12)
-ws_w["A2"] = ("Source: OpenAlex group_works by year, same query and mode as the search "
-              "(data/raw/counts/). Ratio = mean per year 2020–26 ÷ mean per year 2015–19. "
-              "Caveats: hit counts include off-topic works (precision of the full result set is "
-              "well below that of the screened top results), and 2025–26 counts jump in every "
-              "theme, partly because OpenAlex indexed many more repository/preprint records "
-              "(e.g. Zenodo) in those years; Stage 3 will normalise by a baseline.")
+ws_w["A2"] = ("Source: scripts/growth_counts.py (data/raw/counts/growth_stage2.json, "
+              "data/processed/growth_counts.csv). Journal articles and book chapters only "
+              "(primary location in a journal, book series or ebook platform: repository-only "
+              "records such as Zenodo are excluded), 2010–2026, each theme's combined query. "
+              "Counts are multiplied by the theme's estimated precision (random sample of 40 from "
+              "the full 2015–26 hit set, screened with the theme's rules; borderline counted at "
+              "the hand keep-rate) and normalised per 10,000 Social Sciences works in the same "
+              "period under the same filters. 2026 is a partial year (retrieved October 2026); "
+              "the normalised shares stay comparable because the baseline is equally partial. "
+              "Growth ratio = normalised share 2020–26 ÷ 2015–19. One precision estimate per theme "
+              "is applied to both periods.")
 ws_w["A2"].alignment = WRAP
-ws_w.row_dimensions[2].height = 75
-ws_w.merge_cells("A2:K2")
-header(ws_w, 4, ["Theme", "Name", "2010–14", "2015–19", "2020–26", "Growth ratio (per-year)",
-                 "SA 2010–14", "SA 2015–19", "SA 2020–26", "SA growth ratio",
-                 "SA share 2020–26"])
-r0 = 5
-yearly = {}
-for i, (code, t) in enumerate(THEMES.items()):
-    rr = r0 + i
-    ws_w.cell(row=rr, column=1, value=code)
-    ws_w.cell(row=rr, column=2, value=t["name"])
-    p = ROOT / "data" / "raw" / "counts" / f"{code}_by_year.json"
-    if not p.exists():
-        ws_w.cell(row=rr, column=3, value="Stage 2")
-        continue
-    d = json.loads(p.read_text())
-    yearly[code] = d
-    by = dict(zip(d["years"], d["global"]))
-    sa = dict(zip(d["years"], d["south_asia"]))
-    for j, (_, a, b) in enumerate(PERIODS, 3):
-        ws_w.cell(row=rr, column=j, value=sum(by[y] for y in range(a, b + 1)))
-        ws_w.cell(row=rr, column=j + 4, value=sum(sa[y] for y in range(a, b + 1)))
-    ws_w.cell(row=rr, column=6, value=f"=IFERROR((E{rr}/7)/(D{rr}/5),\"\")").number_format = "0.00"
-    ws_w.cell(row=rr, column=10, value=f"=IFERROR((I{rr}/7)/(H{rr}/5),\"\")").number_format = "0.00"
-    ws_w.cell(row=rr, column=11, value=f"=IFERROR(I{rr}/E{rr},\"\")").number_format = "0.0%"
-rr = r0 + len(THEMES) + 2
-ws_w.cell(row=rr, column=1, value="Per-year counts (pilot themes)").font = Font(bold=True)
-rr += 1
-years = list(range(2010, 2027))
-header(ws_w, rr, ["Theme", "Scope"] + years, fill=SUB, font=Font(bold=True))
-for code, d in yearly.items():
-    for scope in ("global", "south_asia"):
+ws_w.row_dimensions[2].height = 105
+ws_w.merge_cells("A2:N2")
+gpath = ROOT / "data" / "processed" / "growth_counts.csv"
+grows = list(csv.DictReader(gpath.open())) if gpath.exists() else []
+gcols = ["theme", "name", "precision_est", "global_2015-19_raw", "global_2020-26_raw",
+         "global_2015-19_per10k_ss", "global_2020-26_per10k_ss", "global_growth_ratio",
+         "SA_2015-19_raw", "SA_2020-26_raw", "SA_2015-19_per10k_ss", "SA_2020-26_per10k_ss",
+         "SA_growth_ratio", "2026_global_raw_partial"]
+header(ws_w, 4, ["Theme", "Name", "Precision est.", "Raw 2015–19", "Raw 2020–26",
+                 "Adj. per 10k SS 2015–19", "Adj. per 10k SS 2020–26", "Growth ratio",
+                 "SA raw 2015–19", "SA raw 2020–26", "SA adj. per 10k SA-SS 2015–19",
+                 "SA adj. per 10k SA-SS 2020–26", "SA growth ratio", "2026 raw (partial)"])
+for i, g in enumerate(grows, 5):
+    for j, c in enumerate(gcols, 1):
+        v = g[c]
+        try:
+            v = float(v) if "." in v else int(v)
+        except ValueError:
+            pass
+        ws_w.cell(row=i, column=j, value=v)
+rr = 5 + len(grows) + 2
+gj = ROOT / "data" / "raw" / "counts" / "growth_stage2.json"
+if gj.exists():
+    gd = json.loads(gj.read_text())
+    years = list(range(2010, 2027))
+    ws_w.cell(row=rr, column=1, value="Per-year raw counts (same filters)").font = Font(bold=True)
+    rr += 1
+    header(ws_w, rr, ["Theme", "Scope"] + years, fill=SUB, font=Font(bold=True))
+    series = [("SS baseline", "global", gd["baseline"]["global"]),
+              ("SS baseline", "south_asia", gd["baseline"]["south_asia"])]
+    series += [(t, sc, d[sc]) for t, d in gd["themes"].items() for sc in ("global", "south_asia")]
+    for name, sc, d in series:
         rr += 1
-        ws_w.cell(row=rr, column=1, value=code)
-        ws_w.cell(row=rr, column=2, value=scope)
-        for j, v in enumerate(d[scope], 3):
-            ws_w.cell(row=rr, column=j, value=v)
-widths(ws_w, [8, 44] + [11] * 17)
+        ws_w.cell(row=rr, column=1, value=name)
+        ws_w.cell(row=rr, column=2, value=sc)
+        for j, y in enumerate(years, 3):
+            ws_w.cell(row=rr, column=j, value=int(d.get(str(y), d.get(y, 0))))
+widths(ws_w, [8, 44] + [12] * 17)
 
 # ------------------------------------------------------------------ Emerging terms
 ws_e = wb.create_sheet("Emerging terms")
@@ -212,7 +221,8 @@ subset("Landmarks by theme",
        sorted([r for r in recs if r["Landmark flag"] == "Y"],
               key=lambda r: (r["Primary theme"], -(r["Cited-by count"] or 0))),
        "Records found in a theme's 'landmarks' slice (top cited works for the query, any year) "
-       "and kept after screening; sorted by theme, then citations.")
+       "and kept after screening; repository-only records are excluded; sorted by theme, then "
+       "citations.")
 subset("India subset",
        sorted([r for r in recs if r["India flag"] == "Y"],
               key=lambda r: (r["Primary theme"], -(r["Year"] or 0))),
@@ -231,10 +241,13 @@ n = len(recs)
 by_theme = {}
 for r in recs:
     by_theme[r["Primary theme"]] = by_theme.get(r["Primary theme"], 0) + 1
+sup = sum(r["Supplementary"] == "Y" for r in recs)
+repo = sum(r["Repository-only"] == "Y" for r in recs)
 lines = [
     ("Literature map: urban, digital and urban–digital research", "title"),
-    (f"Stage 1 (pilot) build, {dt.date.today().isoformat()}. {n} deduplicated records "
-     f"({', '.join(f'{k}: {v}' for k, v in sorted(by_theme.items()))}).", ""),
+    (f"Stage 2 build, {dt.date.today().isoformat()}. {n} deduplicated records, of which {sup} "
+     f"come only from the supplementary query set and {repo} are repository-only. Records per "
+     f"primary theme: {', '.join(f'{k}: {v}' for k, v in sorted(by_theme.items(), key=lambda x: (x[0][0], int(x[0][1:]))))}.", ""),
     ("What this is", "h"),
     ("A representative, reproducible map — not a census — of three domains (A urban, B digital "
      "society, C urban × digital), 48 themes. Every record comes from an OpenAlex API response; "
@@ -242,47 +255,56 @@ lines = [
      "PROGRESS.md and scripts/.", ""),
     ("Tabs", "h"),
     ("Records — one row per work (schema below). Gap matrix — live COUNTIFS of theme × region, "
-     "theme × method, theme × period. Growth — OpenAlex-wide counts per theme and period. "
-     "Emerging terms — Stage 3. Landmarks by theme — records from the 'landmarks' slice. "
-     "India subset — India-flagged records. Shortlist — records touching current leads.", ""),
+     "theme × method, theme × period (supplementary-only records excluded). Growth — "
+     "OpenAlex-wide counts per theme, precision-adjusted and normalised (Stage 3 input). "
+     "Emerging terms — Stage 3. Landmarks by theme — records from the 'landmarks' slice, "
+     "repository-only records excluded. India subset — India-flagged records. Shortlist — "
+     "records touching current leads.", ""),
     ("How records were found", "h"),
-    ("For each theme, 2–5 queries (queries.yaml) were OR-ed and run in OpenAlex exact-phrase "
-     "mode over title, abstract and keywords, in three slices: landmarks (most cited, any year, "
-     "top 50; page 2 added where fewer than 40 survived screening), recent (2022–2026, "
-     "relevance-ranked, top 50), India/South Asia (same queries AND South Asian place names, "
-     "relevance-ranked, top 50). Searches ran through the OpenAlex connector; full records "
-     "were then fetched one by one from api.openalex.org by a single throttled fetcher.", ""),
+    ("For each theme, 2–6 queries (queries.yaml) run against the OpenAlex API in exact-phrase "
+     "mode over title and abstract (Stage 1 pilot slices: title, abstract and keywords), in "
+     "three slices: landmarks (the theme's queries OR-ed, top 100 by citations; page 2 where "
+     "fewer than 25 survived), recent (2022–2026, one search per query string, top 15–25 by "
+     "relevance), India/South Asia (each query AND South Asian place names, top 15–25 by "
+     "relevance). A supplementary query set (S1–S7: railway stations, waiting, night-time "
+     "transit, fare integration/NCMC, rail-led urbanism, elevated rail, Haryana secondary "
+     "cities) was searched separately; records found only there are tagged Supplementary = Y "
+     "and given the query's home theme.", ""),
     ("Screening", "h"),
-    ("Rule-based on title + abstract: the theme's core concept must appear in the title or at "
-     "least twice in the abstract, plus its context terms. One mention, a missing or stub "
-     "abstract, or a technical/biomedical flag sends the record to manual review "
-     "(data/screening/manual_review.csv, with a note per decision). Book reviews, errata, "
-     "paratext, editorials, datasets and retracted works are excluded. Deduplicated by DOI, "
-     "then by normalised title (the version with a publisher DOI and most citations is kept).",
-     ""),
+    ("Rule-based on title + abstract (rules v3, queries.yaml header): the theme's core concept "
+     "in the title or twice in the abstract, plus its context terms (for C themes the urban "
+     "context, or a named city, is required). Borderline cases (single mention named by a "
+     "keyword tag, flagged technical/biomedical terms with the core in the title, stub "
+     "abstracts) were decided by hand (data/screening/manual_review.csv). Records whose OpenAlex "
+     "primary-topic field is biomedical or natural-science are excluded unless kept by hand. "
+     "Book reviews, errata, paratext, editorials, datasets and retracted works are excluded. "
+     "A work is assigned the primary theme with the strongest match among the themes whose "
+     "searches found it. Deduplicated by DOI, then by normalised title.", ""),
     ("Columns that are inferred automatically (check before citing)", "h"),
     ("Places studied / Region: place names matched in title + abstract (not author "
      "affiliations). Region buckets: Global North (Europe, North America, Australia, NZ, "
      "Russia), China & East Asia, South Asia, Southeast Asia (incl. Pacific islands), Africa "
      "(incl. North Africa), Latin America (incl. Caribbean), Middle East (incl. Central Asia "
-     "and Caucasus); two or more buckets = Multi-region; none = Not place-specific (also used "
-     "when there is no abstract). India / Delhi-NCR / Haryana flags: same matching; NCR "
-     "includes Haryana NCR districts (e.g. Rohtak, Sonipat, Panipat). Method: keyword cues in "
-     "the abstract; 'unclear' when there is no abstract or no cue. Landmark flag: found in the "
-     "landmarks slice. Emerging flag (provisional): published 2022+ with field-weighted "
-     "citation impact ≥ 1.5; Stage 3 replaces this with term-growth analysis. One-line summary "
-     "and Stated gaps: sentences copied from the abstract, marked 'auto:'. Screening "
-     "confidence: high = core concept in title and rule-included; medium = rule-included via "
-     "abstract or kept on manual review; low = no abstract.", ""),
-    ("Known limits of the pilot", "h"),
-    ("Only C2, A9 and B5 have been run; the Gap matrix shows 0 elsewhere. A record's primary "
-     "theme is chosen among the themes whose searches found it, so pilot records that belong "
-     "to un-run themes (e.g. A12, A13, B1) sit in a pilot theme for now. Precision on a "
-     "random 50 records: see data/screening/precision_sample_stage1.csv and PROGRESS.md.", ""),
+     "and Caucasus); two or more buckets = Multi-region; none = Not place-specific. India / "
+     "Delhi-NCR / Haryana flags: same matching. Method: keyword cues in the abstract; 'unclear' "
+     "when there is no abstract or no cue. Landmark flag: found in a landmarks slice and not "
+     "repository-only. Repository-only: every merged version sits only in a repository or "
+     "preprint server (Zenodo, SSRN, arXiv, institutional repositories). C4 orientation: "
+     "critical vs technical (keyword cues). Emerging flag (provisional): published 2022+ with "
+     "FWCI ≥ 1.5. One-line summary and Stated gaps: sentences copied from the abstract, marked "
+     "'auto:'. Screening confidence: high = rule-included with the core concept and context; "
+     "medium = rule-included via other routes or kept by hand; low = no abstract.", ""),
+    ("Known limits", "h"),
+    ("Blind check of 6 random records per theme (data/screening/precision_check_stage2.csv): "
+     "about 88–91% in scope, 81–83% with a correct primary theme; weakest in technical-leaning C "
+     "themes. Recall against 176 researcher-chosen seeds: 52 of the 165 resolvable seeds are in "
+     "the map; most misses match a theme query but rank below the per-query cut-off of the "
+     "recent/India slices. See PROGRESS.md.", ""),
     ("Extra columns", "h"),
-    ("Found in = theme:slice combinations that returned the work; Duplicates merged = other "
-     "OpenAlex IDs folded into this record; FWCI = OpenAlex field-weighted citation impact.",
-     ""),
+    ("Supplementary / Supplementary query = found only by / also by the supplementary query "
+     "set; Found in = theme:slice combinations that returned the work ('<-X' marks a work moved "
+     "by hand from theme X); Duplicates merged = other OpenAlex IDs folded into this record; "
+     "FWCI = OpenAlex field-weighted citation impact.", ""),
 ]
 r = 1
 for text, kind in lines:

@@ -48,9 +48,56 @@ api = ["| UTC day | Calls by this pipeline | Cost (USD) | ≈ searches | Credits
 for d, (n, c, rem) in sorted(usage.items()):
     api.append(f"| {d} | {n} | {c:.3f} | {c / 0.001:.0f} | {rem} |")
 
+# ---- blind precision check (6 random records per theme)
+prec = []
+pc = ROOT / "data/screening/precision_check_stage2.csv"
+if pc.exists():
+    rows = [r for r in csv.DictReader(pc.open()) if r["why"] == "random6"]
+    by = defaultdict(list)
+    for r in rows:
+        by[r["assigned_theme"]].append(r)
+    prec = ["| Theme | In scope | Correct theme | Region correct | Theme | In scope | Correct theme | Region correct |",
+            "|---|---|---|---|---|---|---|---|"]
+    cells = []
+    for t in list(cfg["themes"]):
+        v = by.get(t, [])
+        ok = sum(x["theme_ok"] == "Y" for x in v)
+        cells.append(f"{t} | {sum(x['in_scope'] == 'Y' for x in v)}/{len(v)} | "
+                     f"{ok}/{len(v)}{' ⚠' if v and ok / len(v) < 0.8 else ''} | "
+                     f"{sum(x['region_ok'] == 'Y' for x in v)}/{len(v)}")
+    for i in range(0, len(cells), 2):
+        prec.append("| " + " | ".join(cells[i:i + 2]) + " |")
+    prec.append(f"\nAll: in scope {sum(r['in_scope'] == 'Y' for r in rows)}/{len(rows)}, correct "
+                f"theme {sum(r['theme_ok'] == 'Y' for r in rows)}/{len(rows)}, region "
+                f"{sum(r['region_ok'] == 'Y' for r in rows)}/{len(rows)} (sample drawn before the "
+                f"primary-topic-field rule; see log).")
+
+# ---- recall against seeds.csv
+rec_t = []
+rp = ROOT / "data/screening/recall_seeds_stage2.csv"
+if rp.exists():
+    rr = list(csv.DictReader(rp.open()))
+    sts = ["found", "below cut-off", "query gap", "screened out", "not in OpenAlex",
+           "expansion corpus only"]
+    rec_t = ["| Seed category (seeds.csv) | Map themes | Seeds | " + " | ".join(sts) + " |",
+             "|---|---|---|" + "---|" * len(sts)]
+    byc = defaultdict(Counter)
+    exp = {}
+    for r in rr:
+        byc[r["category"]][r["status"]] += 1
+        exp[r["category"]] = r["expected_themes"]
+    for c_, v in sorted(byc.items(), key=lambda x: -sum(x[1].values())):
+        rec_t.append(f"| {c_} | {exp[c_]} | {sum(v.values())} | " + " | ".join(str(v.get(x, 0)) for x in sts) + " |")
+    tot = Counter(r["status"] for r in rr)
+    rec_t.append(f"| **All** | | {len(rr)} | " + " | ".join(str(tot.get(x, 0)) for x in sts) + " |")
+    fp = Counter(r["primary_theme"] for r in rr if r["status"] == "found")
+    rec_t.append("\nFound seeds by the map's primary theme: " +
+                 ", ".join(f"{k} {v}" for k, v in sorted(fp.items(), key=lambda x: (x[0][0], int(x[0][1:])))) + ".")
+
 p = ROOT / "PROGRESS.md"
 txt = p.read_text()
-for tag, body in (("SCREENING", "\n".join(lines)), ("API", "\n".join(api))):
+for tag, body in (("SCREENING", "\n".join(lines)), ("API", "\n".join(api)),
+                  ("PRECISION", "\n".join(prec)), ("RECALL", "\n".join(rec_t))):
     txt = re.sub(rf"(<!-- AUTO:{tag} -->\n).*?(<!-- /AUTO:{tag} -->)",
                  lambda m: m.group(1) + body + "\n" + m.group(2), txt, flags=re.S)
 p.write_text(txt)

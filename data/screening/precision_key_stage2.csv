@@ -1,0 +1,307 @@
+item,ID,openalex_id,why,assigned_theme,secondary_theme,region,confidence,found_in
+1,LM00079,W2797228865,random6,A1,,South Asia,high,A1:india
+2,LM02879,W1773935842,random6,A16,,Not place-specific,high,A16:landmarks
+3,LM06781,W2944158788,random6,C9,,South Asia,medium,C9:india; S4:india
+4,LM01736,W7119150781,stage1_A9,A9,A15,South Asia,medium,A15:india; A9:india
+5,LM04467,W4407369284,random6,B8,,Multi-region,high,B8:recent
+6,LM01165,W2062981820,random6,A7,,Not place-specific,low,A7:landmarks
+7,LM05954,W2718343603,random6,C3,,Global North,high,C3:landmarks
+8,LM01841,W2510413987,random6,A10,A4,Multi-region,high,A10:landmarks; A4:landmarks
+9,LM07287,W7134156255,random6,C13,,Not place-specific,medium,C13:recent
+10,LM04857,W7117420676,random6,B10,,Not place-specific,high,B10:recent
+11,LM01859,W2043366532,random6,A10,,Not place-specific,high,A10:landmarks
+12,LM06008,W4412227850,random6,C3,,Not place-specific,high,C3:recent
+13,LM01646,W2055153148,stage1_A9,A9,,Global North,medium,A9:landmarks
+14,LM00592,W2023660471,random6,A4,A3,Global North,high,A3:landmarks; A4:landmarks
+15,LM07011,W7133340221,random6,C11,,South Asia,high,C11:recent
+16,LM07731,W1783695073,random6,C18,,Not place-specific,high,C18:landmarks
+17,LM06086,W2418280613,random6,C4,,South Asia,high,C4:india
+18,LM04367,W2787037992,random6,B8,,Global North,high,B8:landmarks
+19,LM00674,W4391872577,random6,A4,,Global North,high,A4:recent
+20,LM01686,W2049763581,stage1_A9,A9,,South Asia,high,A9:india
+21,LM03302,W4225162252,random6,B2,,South Asia,high,B2:india
+22,LM03278,W2339105604,random6,B2,,Not place-specific,high,B2:landmarks
+23,LM06744,W4392623322,random6,C9,,Not place-specific,high,C9:recent
+24,LM03559,W2332851105,random6,B4,,Not place-specific,high,B4:landmarks; B4:recent
+25,LM05527,W7159680498,random6,B14,,South Asia,low,B14:india
+26,LM01151,W2058568474,random6,A7,,Not place-specific,low,A7:landmarks
+27,LM02419,W4297502249,random6,A13,,Global North,high,A13:recent
+28,LM01635,W2031542882,stage1_A9,A9,,Global North,high,A9:landmarks
+29,LM07122,W7203788908,random6,C12,,Not place-specific,high,C12:recent
+30,LM04547,W3125618971,random6,B9,,Global North,high,B9:landmarks
+31,LM01310,W78997371,random6,A7,,South Asia,high,A7:india
+32,LM00097,W4321225743,random6,A1,,Southeast Asia,medium,A1:recent
+33,LM01361,W2024579041,random6,A8,,Global North,high,A8:landmarks
+34,LM03399,W2034679108,random6,B3,,Global North,high,B3:landmarks
+35,LM06016,W7111615887,random6,C3,,Not place-specific,high,C3:recent
+36,LM00545,W4413032291,random6,A3,,South Asia,high,A3:recent
+37,LM02603,W3157658149,random6,A14,,South Asia,medium,A14:india
+38,LM02593,W2889362462,random6,A14,,South Asia,high,A14:india
+39,LM02162,W4388310753,random6,A12,,Global North,high,A12:landmarks
+40,LM06297,W3185971307,random6,C6,,South Asia,high,C6:india
+41,LM00827,W3122398158,random6,A5,,South Asia,low,A5:india
+42,LM05376,W2765517014,random6,B13,,South Asia,high,B13:india
+43,LM05138,W4225160856,random6,B12,,South Asia,high,B12:india
+44,LM01912,W3125006064,random6,A10,,South Asia,high,A10:india
+45,LM07392,W7107945733,random6,C14,,South Asia,high,C14:india; C14:recent
+46,LM07754,W4412585381,random6,C18,,Not place-specific,high,C18:recent
+47,LM07054,W3006045412,random6,C12,,Not place-specific,medium,C12:landmarks
+48,LM06131,W7170400752,random6,C4,,South Asia,high,C4:india
+49,LM00839,W4387519140,random6,A5,,Not place-specific,low,A5:recent
+50,LM03416,W2095298352,random6,B3,,Not place-specific,low,B3:landmarks
+51,LM04418,W4320497601,random6,B8,,South Asia,high,B8:india
+52,LM06517,W2167511680,random6,C8,,Not place-specific,low,C8:landmarks
+53,LM04059,W4236501677,random6,B6,C11,South Asia,high,B6:india; C11:india
+54,LM04681,W7160169780,random6,B9,,South Asia,high,B9:india
+55,LM06859,W4285088860,random6,C10,,Global North,high,C10:recent
+56,LM05025,W7128300428,random6,B11,,Not place-specific,low,B11:recent
+57,LM07443,W4412384950,random6,C15,,Southeast Asia,high,C15:recent
+58,LM06137,W7134910458,random6,C4,,South Asia,low,C4:india
+59,LM04866,W7203539880,random6,B10,,Not place-specific,low,B10:recent
+60,LM06492,W2082783429,random6,C8,,Global North,high,C8:landmarks
+61,LM02727,W2748440121,random6,A15,,Africa,high,A15:landmarks
+62,LM02032,W1575750805,random6,A11,,China & East Asia,high,A11:landmarks
+63,LM05713,W4399139647,random6,C1,,Not place-specific,high,C1:recent
+64,LM06237,W7154582686,random6,C5,,Not place-specific,high,C5:recent
+65,LM07274,W7163828211,random6,C13,C17,Multi-region,high,C13:india; C17:india
+66,LM03761,W2955090878,random6,B5,,South Asia,high,B5:landmarks
+67,LM03574,W3093718041,random6,B4,,Not place-specific,medium,B4:landmarks
+68,LM06179,W2900877471,random6,C5,,Global North,high,C5:landmarks
+69,LM01222,W636483171,random6,A7,,Multi-region,high,A7:india
+70,LM07071,W4206003068,random6,C12,,Southeast Asia,high,C12:landmarks
+71,LM07437,W4415956444,random6,C15,,Africa,high,C15:recent
+72,LM02223,W1994429905,random6,A12,,South Asia,low,A12:india
+73,LM00803,W4406949182,random6,A5,,Multi-region,high,A5:india
+74,LM01999,W1984366279,random6,A11,,China & East Asia,low,A11:landmarks
+75,LM04803,W4281668342,random6,B10,,Africa,high,B10:recent
+76,LM06032,W2974175488,random6,C4,,Not place-specific,high,C4:landmarks
+77,LM00537,W4391547069,random6,A3,,Not place-specific,low,A3:recent
+78,LM04337,W2149231765,random6,B8,,Multi-region,medium,B8:landmarks
+79,LM07248,W4225832935,random6,C13,,Not place-specific,high,C13:recent
+80,LM01268,W4282961753,random6,A7,,Not place-specific,high,A7:recent
+81,LM05295,W2330241765,random6,B13,,Multi-region,high,B13:india
+82,LM06640,W2976077326,random6,C9,,Not place-specific,low,C9:landmarks
+83,LM07366,W7117368699,random6,C14,,South Asia,high,C14:india
+84,LM04013,W2807645154,random6,B6,,South Asia,medium,B6:landmarks<-C11
+85,LM00438,W1576855161,random6,A3,,Global North,high,A3:landmarks
+86,LM00850,W4316088745,random6,A5,,Not place-specific,low,A5:recent
+87,LM03928,W7215267263,random6,B5,,Multi-region,high,B5:recent
+88,LM07489,W4383345515,random6,C16,,Not place-specific,high,C16:landmarks; C16:recent
+89,LM03324,W4296613219,random6,B2,,South Asia,high,B2:india
+90,LM02195,W2134956637,random6,A12,,Global North,high,A12:landmarks
+91,LM05837,W4292840629,random6,C2,,Not place-specific,high,C2:recent
+92,LM03404,W2126690184,random6,B3,,Not place-specific,medium,B3:landmarks
+93,LM00308,W4391957196,random6,A2,,South Asia,high,A2:india
+94,LM06315,W4394826148,random6,C6,,Southeast Asia,high,C6:recent
+95,LM01725,W4415043189,stage1_A9,A9,,China & East Asia,high,A9:recent
+96,LM03966,W2789152355,random6,B6,,Africa,high,B6:landmarks
+97,LM05996,W4206031011,random6,C3,,Not place-specific,low,C3:recent
+98,LM00034,W2587562756,random6,A1,,Not place-specific,low,A1:landmarks
+99,LM05048,W7216476359,random6,B11,,South Asia,high,B11:india
+100,LM00952,W437821785,random6,A6,,Multi-region,high,A6:landmarks
+101,LM05510,W4409494954,random6,B14,,South Asia,high,B14:india
+102,LM03622,W4407087968,random6,B4,,Not place-specific,high,B4:landmarks
+103,LM01715,W4290039801,stage1_A9,A9,,South Asia,high,A9:india
+104,LM01741,W3167123494,random6,A9,,South Asia,low,A9:india
+105,LM05871,W7120261736,random6,C2,,Not place-specific,low,C2:recent
+106,LM02121,W4402949952,random6,A11,,South Asia,high,A11:india
+107,LM07435,W4402807011,random6,C15,,Africa,high,C15:recent
+108,LM05504,W4409856309,random6,B14,,Multi-region,high,B14:india
+109,LM04702,W2758039286,random6,B10,,Not place-specific,low,B10:landmarks
+110,LM00669,W2263928282,random6,A4,,South Asia,low,A4:india
+111,LM06811,W2113764854,random6,C10,,Not place-specific,low,C10:landmarks
+112,LM03393,W7210280154,random6,B2,,Multi-region,high,B2:india
+113,LM02722,W2106132488,random6,A15,,Not place-specific,high,A15:landmarks
+114,LM01731,W4382789181,stage1_A9,A9,,Not place-specific,high,A9:recent
+115,LM06606,W7217280910,random6,C8,,Not place-specific,high,C8:recent
+116,LM07395,W7161413424,random6,C14,,South Asia,high,C14:india
+117,LM04180,W2241803474,random6,B7,,Global North,high,B7:landmarks
+118,LM03802,W4296837992,random6,B5,,South Asia,medium,B5:india; S2:india; S2:recent
+119,LM02693,W3137163592,random6,A14,,Not place-specific,low,A14:india
+120,LM05349,W4387457462,random6,B13,,South Asia,high,B13:recent
+121,LM02543,W2099238871,random6,A14,,Global North,high,A14:landmarks
+122,LM03128,W4315648631,random6,B1,,Multi-region,high,B1:recent
+123,LM05002,W7106297724,random6,B11,,Global North,medium,B11:recent<-C2
+124,LM07637,W4313640965,random6,C17,,Not place-specific,high,C17:landmarks
+125,LM01603,W7162639183,random6,A8,,Africa,low,A8:recent
+126,LM00526,W4285407513,random6,A3,,Not place-specific,high,A3:recent
+127,LM05211,W7141773195,random6,B12,,Global North,high,B12:recent
+128,LM00610,W2133505800,random6,A4,,Global North,high,A4:landmarks
+129,LM05910,W7115571353,random6,C2,,South Asia,high,C2:india
+130,LM02793,W3112872624,random6,A15,,South Asia,high,A15:india
+131,LM02206,W2075989309,random6,A12,,Not place-specific,low,A12:landmarks
+132,LM04570,W3104758113,random6,B9,,Not place-specific,high,B9:landmarks
+133,LM01658,W3181114874,stage1_A9,A9,,South Asia,high,A9:india
+134,LM06835,W2972559601,random6,C10,,Not place-specific,low,C10:landmarks
+135,LM06233,W7117994131,random6,C5,,Not place-specific,low,C5:recent
+136,LM07282,W7213298440,random6,C13,,Multi-region,high,C13:india
+137,LM01388,W2140488108,random6,A8,,Global North,high,A8:landmarks
+138,LM05162,W4308426353,random6,B12,,Not place-specific,high,B12:recent
+139,LM02830,W4409545198,random6,A15,,South Asia,high,A15:india
+140,LM01640,W642358081,random6,A9,,Multi-region,high,A9:landmarks
+141,LM02439,W2909894982,random6,A13,,South Asia,high,A13:india
+142,LM03497,W4404257835,random6,B3,,Not place-specific,low,B3:recent
+143,LM06353,W7215106211,random6,C6,,Middle East,high,C6:recent
+144,LM03800,W2808448383,random6,B5,,South Asia,high,B5:india
+145,LM04910,W1538442083,random6,B11,,Not place-specific,high,B11:landmarks
+146,LM06733,W4200595533,random6,C9,,South Asia,high,C9:india
+147,LM00276,W4291826378,random6,A2,,Global North,high,A2:recent
+148,LM07752,W4392912220,random6,C18,,Not place-specific,high,C18:recent
+149,LM06476,W7213170439,random6,C7,,South Asia,medium,C7:india
+150,LM03594,W2770363731,random6,B4,,Not place-specific,high,B4:landmarks
+151,LM03666,W4402048878,random6,B4,,Not place-specific,high,B4:recent
+152,LM07410,W3167714685,random6,C15,,Global North,high,C15:landmarks
+153,LM06385,W3121891683,random6,C7,,Global North,high,C7:landmarks
+154,LM00199,W2086853082,random6,A2,,Not place-specific,low,A2:landmarks
+155,LM05849,W7168355438,random6,C2,,Global North,high,C2:recent
+156,LM05377,W3190580201,random6,B13,,Multi-region,low,B13:india
+157,LM06351,W7204190113,random6,C6,,Global North,high,C6:recent
+158,LM03922,W7172521580,random6,B5,,South Asia,medium,B5:recent
+159,LM02147,W4403819816,random6,A11,,South Asia,high,A11:india
+160,LM01111,W1528618327,random6,A6,,Not place-specific,low,A6:india
+161,LM07338,W4393231899,random6,C14,,Africa,medium,C14:recent
+162,LM00840,W4396773855,random6,A5,,Multi-region,high,A5:india
+163,LM04733,W2099222119,random6,B10,,Not place-specific,high,B10:landmarks
+164,LM07151,W4318827691,random6,C13,,Not place-specific,high,C13:landmarks
+165,LM00147,W2907633963,random6,A1,,South Asia,low,A1:india
+166,LM06525,W4400907513,random6,C8,C1,South Asia,high,C1:india; C1:recent; C8:india; C8:landmarks; C8:recent
+167,LM06608,W7218285307,random6,C8,,Southeast Asia,high,C8:recent
+168,LM02208,W2042375431,random6,A12,,South Asia,low,A12:india
+169,LM04186,W2124049460,random6,B7,,Not place-specific,low,B7:landmarks
+170,LM07576,W4387382261,random6,C16,,Not place-specific,high,C16:recent
+171,LM04008,W2990861418,random6,B6,,Africa,low,B6:landmarks
+172,LM07362,W4410475343,random6,C14,,South Asia,low,C14:india
+173,LM07002,W4413340618,random6,C11,,Africa,high,C11:recent
+174,LM05742,W7204832639,random6,C1,,South Asia,low,C1:india
+175,LM03456,W2251459166,random6,B3,,Multi-region,high,B3:india
+176,LM04978,W4391242348,random6,B11,,Not place-specific,high,B11:recent
+177,LM02953,W4390456885,random6,A16,,Not place-specific,high,A16:recent
+178,LM05647,W4210925349,random6,C1,,China & East Asia,high,C1:recent
+179,LM04533,W2473555522,random6,B9,,Not place-specific,high,B9:landmarks
+180,LM05090,W2159533605,random6,B12,,Not place-specific,low,B12:landmarks
+181,LM01304,W7167808231,random6,A7,,Not place-specific,high,A7:recent
+182,LM00465,W4312139062,random6,A3,,South Asia,high,A3:recent
+183,LM06564,W4409687136,random6,C8,,Not place-specific,low,C8:recent
+184,LM03988,W3145338225,random6,B6,,Multi-region,high,B6:landmarks
+185,LM07683,W4412338781,random6,C17,,South Asia,high,C17:india
+186,LM02567,W1985127998,random6,A14,,Multi-region,high,A14:landmarks; A14:landmarks<-A7
+187,LM05905,W7216267893,random6,C2,,South Asia,high,C2:india
+188,LM06950,W4403712981,random6,C11,,Not place-specific,high,C11:landmarks
+189,LM05932,W2145919769,random6,C3,C6,Not place-specific,high,C3:landmarks; C6:landmarks
+190,LM06464,W7167281399,random6,C7,,South Asia,high,C7:india
+191,LM02880,W2162224850,random6,A16,,Not place-specific,high,A16:landmarks
+192,LM07759,W4404091085,random6,C18,,Not place-specific,high,C18:recent
+193,LM00243,W2146175242,random6,A2,,South Asia,high,A2:india
+194,LM00935,W2132104902,random6,A6,,Multi-region,high,A6:landmarks
+195,LM00938,W2096037138,random6,A6,,Not place-specific,low,A6:landmarks
+196,LM05509,W4324130209,random6,B14,,South Asia,low,B14:india
+197,LM07744,W2990015459,random6,C18,,South Asia,medium,C18:india
+198,LM03853,W3088797986,random6,B5,,South Asia,high,B5:india
+199,LM01837,W106456303,random6,A10,,Multi-region,high,A10:landmarks
+200,LM04380,W3213890796,random6,B8,,South Asia,high,B8:india
+201,LM07046,W2323354180,random6,C12,,Not place-specific,high,C12:landmarks
+202,LM01687,W2567448509,stage1_A9,A9,,South Asia,high,A9:india
+203,LM03218,W7172430049,random6,B1,,South Asia,high,B1:india
+204,LM06823,W2950403935,random6,C10,,Global North,high,C10:landmarks
+205,LM01850,W2757416393,random6,A10,,Latin America,high,A10:landmarks
+206,LM01803,W2955220964,random6,A9,,South Asia,high,A9:india
+207,LM02952,W4377027842,random6,A16,,South Asia,high,A16:india; A16:recent
+208,LM01829,W2109441424,random6,A10,,Not place-specific,low,A10:landmarks
+209,LM02364,W2002489115,random6,A13,,Multi-region,medium,A13:landmarks
+210,LM02330,W2480957165,random6,A13,,Not place-specific,low,A13:landmarks
+211,LM05870,W7119656903,random6,C2,,Not place-specific,low,C2:recent
+212,LM07621,W4282939159,random6,C17,,Global North,high,C17:landmarks
+213,LM07157,W4362514681,random6,C13,,Not place-specific,high,C13:landmarks
+214,LM00606,W2734973016,random6,A4,,Global North,high,A4:landmarks
+215,LM00204,W2910698884,random6,A2,,Not place-specific,high,A2:landmarks
+216,LM03033,W7163404670,random6,A16,,South Asia,medium,A16:india
+217,LM01988,W1537901284,random6,A11,,China & East Asia,medium,A11:landmarks
+218,LM03081,W2972706642,random6,B1,,Not place-specific,low,B1:landmarks
+219,LM04563,W2900471836,random6,B9,,Not place-specific,low,B9:landmarks
+220,LM06782,W3147821219,random6,C9,,South Asia,high,C9:india; S4:india
+221,LM01081,W4410089803,random6,A6,,South Asia,high,A6:recent
+222,LM05156,W3035593237,random6,B12,,Not place-specific,low,B12:india
+223,LM00987,W4403682695,random6,A6,,Not place-specific,high,A6:recent
+224,LM07103,W4295781017,random6,C12,,Not place-specific,low,C12:recent
+225,LM01800,W1924685162,stage1_A9,A9,,South Asia,low,A9:india
+226,LM04922,W3007153134,random6,B11,,Not place-specific,high,B11:landmarks
+227,LM05941,W3003767648,random6,C3,,Not place-specific,high,C3:landmarks
+228,LM02485,W7128783837,random6,A13,,Global North,high,A13:recent
+229,LM01669,W4221060912,random6,A9,,Not place-specific,high,A9:recent
+230,LM00905,W7153000186,random6,A5,,Not place-specific,medium,A5:recent
+231,LM07718,W7128076046,random6,C17,,Not place-specific,high,C17:recent
+232,LM04298,W7212161682,random6,B7,,Global North,high,B7:recent
+233,LM02724,W2212891289,random6,A15,,Not place-specific,high,A15:landmarks
+234,LM06156,W3159022021,random6,C5,,Not place-specific,high,C5:landmarks
+235,LM07552,W2050437587,random6,C16,,Africa,high,C16:india
+236,LM00072,W1607554412,random6,A1,,Multi-region,high,A1:india
+237,LM00003,W2124222250,random6,A1,,Not place-specific,medium,A1:landmarks
+238,LM01796,W7169659753,stage1_A9,A9,,Multi-region,high,A9:recent
+239,LM07668,W4226056414,random6,C17,,Not place-specific,low,C17:recent
+240,LM02618,W4400099739,random6,A14,,Not place-specific,medium,A14:recent
+241,LM01365,W4240874934,random6,A8,,Not place-specific,medium,A8:landmarks
+242,LM07631,W4226144297,random6,C17,,Not place-specific,high,C17:landmarks
+243,LM01770,W4403014504,stage1_A9,A9,,Not place-specific,low,A9:recent
+244,LM05740,W7165425715,random6,C1,,South Asia,high,C1:india
+245,LM02492,W7203668205,random6,A13,,South Asia,medium,A13:india
+246,LM00623,W1970465826,random6,A4,,Global North,high,A4:landmarks
+247,LM02870,W1510628762,random6,A16,,Global North,medium,A16:landmarks
+248,LM04687,W7155169798,random6,B9,,Not place-specific,low,B9:recent
+249,LM04265,W7161244734,random6,B7,,South Asia,high,B7:india
+250,LM05169,W3048997895,random6,B12,,Multi-region,high,B12:india
+251,LM02757,W2898960413,random6,A15,,Not place-specific,high,A15:landmarks
+252,LM07003,W4413477721,random6,C11,,South Asia,high,C11:india
+253,LM04113,W7154702555,random6,B6,,South Asia,high,B6:india; B6:india<-C8
+254,LM07730,W2934027896,random6,C18,,Global North,high,C18:landmarks
+255,LM07309,W3201997818,random6,C14,,Africa,high,C14:landmarks
+256,LM01645,W2093331601,stage1_A9,A9,,Multi-region,high,A9:landmarks
+257,LM06408,W4391817071,random6,C7,,Not place-specific,high,C7:recent
+258,LM07445,W4415581153,random6,C15,,Global North,high,C15:recent
+259,LM00208,W2896188610,random6,A2,,Not place-specific,low,A2:landmarks
+260,LM06191,W3110496620,random6,C5,,Global North,high,C5:landmarks
+261,LM01818,W7207261412,random6,A9,,Global North,high,A9:recent
+262,LM02102,W4318953868,random6,A11,,Africa,high,A11:recent
+263,LM06265,W2102395943,random6,C6,,Not place-specific,high,C6:landmarks
+264,LM01768,W4400562152,stage1_A9,A9,,Latin America,high,A9:recent
+265,LM01651,W2113892502,stage1_A9,A9,,Global North,high,A9:landmarks
+266,LM06400,W4387460320,random6,C7,,Not place-specific,high,C7:landmarks
+267,LM05726,W7160313297,random6,C1,,South Asia,high,C1:india
+268,LM07036,W7167558203,random6,C11,,Africa,high,C11:recent
+269,LM03519,W7161629625,random6,B3,,South Asia,high,B3:india
+270,LM01349,W2053159337,random6,A8,,Not place-specific,high,A8:landmarks
+271,LM06306,W2295365385,random6,C6,,South Asia,high,C6:india
+272,LM07060,W2958191092,random6,C12,,Not place-specific,high,C12:landmarks
+273,LM03146,W4221099942,random6,B1,,China & East Asia,high,B1:recent
+274,LM05446,W4321106177,random6,B14,,Not place-specific,high,B14:landmarks
+275,LM05722,W4415721477,random6,C1,,Multi-region,high,C1:recent
+276,LM01641,W2035829157,stage1_A9,A9,,Not place-specific,medium,A9:landmarks
+277,LM05270,W4283318361,random6,B13,,South Asia,high,B13:india; B13:recent
+278,LM04482,W7143480065,random6,B8,,South Asia,medium,B8:india
+279,LM07422,W4405829608,random6,C15,,South Asia,high,C15:recent
+280,LM03202,W4415585421,random6,B1,,Not place-specific,low,B1:recent
+281,LM06379,W4398194538,random6,C7,,Not place-specific,high,C7:landmarks
+282,LM06797,W7218000368,random6,C9,,South Asia,high,C9:india
+283,LM03334,W4226314256,random6,B2,,Not place-specific,low,B2:india
+284,LM06162,W4253840475,random6,C5,C4,Global North,high,C2:landmarks; C4:landmarks<-C12; C4:landmarks<-C16; C5:landmarks
+285,LM06826,W2795240022,random6,C10,,Not place-specific,low,C10:landmarks
+286,LM07561,W4226457949,random6,C16,,Multi-region,high,C16:recent
+287,LM00568,W2882111539,random6,A3,,South Asia,low,A3:india
+288,LM06977,W4405670958,random6,C11,,South Asia,high,C11:india
+289,LM06115,W4385951659,random6,C4,,Multi-region,high,C4:india
+290,LM06135,W4389641379,random6,C4,,Not place-specific,low,C4:recent
+291,LM07506,W2748337466,random6,C16,,China & East Asia,high,C16:landmarks
+292,LM04713,W2121377134,random6,B10,,Not place-specific,high,B10:landmarks
+293,LM05392,W4389437528,random6,B14,,Not place-specific,high,B14:landmarks
+294,LM04169,W2025747271,random6,B7,,Southeast Asia,high,B7:landmarks
+295,LM04248,W4412117874,random6,B7,,South Asia,high,B7:india
+296,LM01631,W2084995582,stage1_A9,A9,,Latin America,low,A9:landmarks
+297,LM01612,W2153492338,random6,A9,,Global North,high,A9:landmarks
+298,LM03705,W4410976708,random6,B4,,Not place-specific,low,B4:recent
+299,LM01644,W2013275119,stage1_A9,A9,,Global North,high,A9:landmarks
+300,LM07609,W7204185316,random6,C16,,Global North,high,C16:recent
+301,LM03095,W3194056670,random6,B1,,Not place-specific,high,B1:landmarks
+302,LM01500,W3189731318,random6,A8,,Not place-specific,high,A8:recent
+303,LM05337,W7154132138,random6,B13,,China & East Asia,high,B13:recent
+304,LM02306,W2338416723,random6,A12,,South Asia,high,A12:india
+305,LM06887,W4401366460,random6,C10,,Not place-specific,high,C10:recent
+306,LM03370,W7126368781,random6,B2,,South Asia,high,B2:india

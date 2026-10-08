@@ -244,6 +244,21 @@ def load_manual():
 
 
 # --------------------------------------------------------------------------- main
+# OpenAlex primary-topic fields outside the map's social-science scope. In the Stage 2 blind
+# check, 9 of 10 sampled records in these fields were out of scope; Engineering, Computer
+# Science, Environmental Science, Earth Sciences and Health Professions were mixed and stay.
+OFF_FIELDS = {
+    "Medicine", "Nursing", "Dentistry", "Neuroscience", "Immunology and Microbiology",
+    "Biochemistry, Genetics and Molecular Biology", "Pharmacology, Toxicology and Pharmaceutics",
+    "Agricultural and Biological Sciences", "Veterinary", "Materials Science", "Chemistry",
+    "Chemical Engineering", "Physics and Astronomy", "Energy", "Mathematics",
+}
+
+
+def primary_field(w):
+    return (((w.get("primary_topic") or {}).get("field")) or {}).get("display_name", "")
+
+
 def theme_cfg(cfg, t):
     """Main themes (A1..C18) and supplementary query sets (S1..) share one config shape."""
     return cfg["themes"].get(t) or cfg["supplementary"][t]
@@ -319,6 +334,9 @@ def main(themes_wanted):
                 c.update(decision="exclude", score=0, reason="retracted")
             elif w.get("type") in EXCLUDED_TYPES:
                 c.update(decision="exclude", score=0, reason=f"type {w.get('type')}")
+            elif primary_field(w) in OFF_FIELDS:
+                c.update(decision="exclude", score=0,
+                         reason=f"primary topic field {primary_field(w)}")
             else:
                 # OpenAlex keyword tags are not used as evidence of relevance on their own: in
                 # testing they attached e.g. "digital identity" to education papers. They only

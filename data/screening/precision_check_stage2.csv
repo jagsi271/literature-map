@@ -1,0 +1,307 @@
+item,ID,openalex_id,why,assigned_theme,secondary_theme,region,confidence,found_in,rule_decision,judge_in_scope,judge_best,judge_other,judge_region,judge_note,in_scope,theme_ok,region_ok
+1,LM00079,W2797228865,random6,A1,,South Asia,high,A1:india,include,Y,A14,A1,South Asia,Mumbai urban governance for climate risk and adaptation,Y,Y,Y
+2,LM02879,W1773935842,random6,A16,,Not place-specific,high,A16:landmarks,include,N,,,Global North,Physical climatology of urban heat island; no social or policy angle.,N,N,N
+3,LM06781,W2944158788,random6,C9,,South Asia,medium,C9:india; S4:india,hand,Y,A8,C1,South Asia,Commuter survey on public transport integration for Indian smart city,Y,N,Y
+4,LM01736,W7119150781,stage1_A9,A9,A15,South Asia,medium,A15:india; A9:india,hand,Y,A10,A9 A15,South Asia,"Ethnography of street vending as city-making, Karachi and Mumbai",Y,Y,Y
+5,LM04467,W4407369284,random6,B8,,Multi-region,high,B8:recent,include,Y,B8,,Multi-region,"Social media use and online political participation, China vs US comparison.",Y,Y,Y
+6,LM01165,W2062981820,random6,A7,,Not place-specific,low,A7:landmarks,include,N,,,Not place-specific,"No abstract; hydrological demand forecasting, engineering with no social angle",N,N,Y
+7,LM05954,W2718343603,random6,C3,,Global North,high,C3:landmarks,include,Y,C3,A12 B13,Global North,Locative dating apps hybridising queer urban space in London,Y,Y,Y
+8,LM01841,W2510413987,random6,A10,A4,Multi-region,high,A10:landmarks; A4:landmarks,include,Y,A10,A9 A1,Multi-region,Street vending policy and practice; Ahmedabad and Lima cases.,Y,Y,Y
+9,LM07287,W7134156255,random6,C13,,Not place-specific,medium,C13:recent,hand,Y,C13,C1,Not place-specific,Title only (no real abstract); urban digital twins for inclusive cities,Y,Y,Y
+10,LM04857,W7117420676,random6,B10,,Not place-specific,high,B10:recent,include,Y,B10,,Not place-specific,Survey of human factors in cybersecurity; borderline social science,Y,Y,Y
+11,LM01859,W2043366532,random6,A10,,Not place-specific,high,A10:landmarks,include,Y,A10,A12,Multi-region,Women informal home-based workers in global value chains; weakly urban.,Y,Y,N
+12,LM06008,W4412227850,random6,C3,,Not place-specific,high,C3:recent,include,Y,C3,C16,Not place-specific,Locative media audiowalks; sensory ethnography of digital place-based experience,Y,Y,Y
+13,LM01646,W2055153148,stage1_A9,A9,,Global North,medium,A9:landmarks,hand,Y,A12,A9,Global North,"Women's fear of violence and public space, Finland",Y,Y,Y
+14,LM00592,W2023660471,random6,A4,A3,Global North,high,A3:landmarks; A4:landmarks,include,Y,A4,A3,Global North,Gentrification-induced displacement and resistance in New York City.,Y,Y,Y
+15,LM07011,W7133340221,random6,C11,,South Asia,high,C11:recent,include,Y,B6,C11,South Asia,Digital payments (UPI/QR) adoption by small businesses in India,Y,Y,Y
+16,LM07731,W1783695073,random6,C18,,Not place-specific,high,C18:landmarks,include,Y,B8,C12,Global North,"Hyperlocal online media and local democracy, UK survey",Y,N,N
+17,LM06086,W2418280613,random6,C4,,South Asia,high,C4:india,include,Y,C4,A8 B2,South Asia,Mobile network big data for Colombo transport and urban planning.,Y,Y,Y
+18,LM04367,W2787037992,random6,B8,,Global North,high,B8:landmarks,include,Y,B9,B8,Global North,"Russian troll disinformation on Twitter, 2016 US election",Y,Y,Y
+19,LM00674,W4391872577,random6,A4,,Global North,high,A4:recent,include,N,,,Global North,"Rural evictions explicitly, not urban; outside map's urban framing",N,N,Y
+20,LM01686,W2049763581,stage1_A9,A9,,South Asia,high,A9:india,include,Y,A9,,South Asia,Contestation of public space in Dhaka between Islamic and secular groups.,Y,Y,Y
+21,LM03302,W4225162252,random6,B2,,South Asia,high,B2:india,include,Y,B2,B4,South Asia,Data work and valuing in public health datafication in India,Y,Y,Y
+22,LM03278,W2339105604,random6,B2,,Not place-specific,high,B2:landmarks,include,Y,B2,B3,Not place-specific,Conceptual datafication model of privacy,Y,Y,Y
+23,LM06744,W4392623322,random6,C9,,Not place-specific,high,C9:recent,include,Y,C9,A8,Not place-specific,"MaaS integration of mass transit: data, fares, ticketing, revenue allocation.",Y,Y,Y
+24,LM03559,W2332851105,random6,B4,,Not place-specific,high,B4:landmarks; B4:recent,include,Y,B4,,Not place-specific,Algorithmic power and accountability reporting; transparency policy,Y,Y,Y
+25,LM05527,W7159680498,random6,B14,,South Asia,low,B14:india,include,Y,B14,,South Asia,"No abstract; title: artists' perceptions of generative AI, South Asia",Y,Y,Y
+26,LM01151,W2058568474,random6,A7,,Not place-specific,low,A7:landmarks,include,N,,,Not place-specific,Materials science on ferroelectric crystals; no abstract; clearly out of scope.,N,N,Y
+27,LM02419,W4297502249,random6,A13,,Global North,high,A13:recent,include,Y,A13,A9,Global North,"Mega-event legacy heritage walk, world-class city reimaging, Gold Coast",Y,Y,Y
+28,LM01635,W2031542882,stage1_A9,A9,,Global North,high,A9:landmarks,include,Y,A9,,Global North,"Future of public space and planners' role, US",Y,Y,Y
+29,LM07122,W7203788908,random6,C12,,Not place-specific,high,C12:recent,include,Y,C12,C13 A8,Not place-specific,Scoping review of digital/VR participation tools in urban planning.,Y,Y,Y
+30,LM04547,W3125618971,random6,B9,,Global North,high,B9:landmarks,include,Y,B9,,Global North,"Psychology of fake news belief on social media, US context",Y,Y,Y
+31,LM01310,W78997371,random6,A7,,South Asia,high,A7:india,include,Y,A8,A7 A15,South Asia,Mumbai Metro rail infrastructure via ANT and splintering urbanism,Y,Y,Y
+32,LM00097,W4321225743,random6,A1,,Southeast Asia,medium,A1:recent,include,Y,A1,,Southeast Asia,"Local government, decentralisation and privatisation in Peninsular Malaysia.",Y,Y,Y
+33,LM01361,W2024579041,random6,A8,,Global North,high,A8:landmarks,include,N,,,Global North,"Rural mobilities in Wales; explicitly non-urban, digital only peripheral",N,N,Y
+34,LM03399,W2034679108,random6,B3,,Global North,high,B3:landmarks,include,N,,,Global North,"Public health epidemiology of brain injury; clinical, out of scope",N,N,Y
+35,LM06016,W7111615887,random6,C3,,Not place-specific,high,C3:recent,include,Y,C3,,Not place-specific,Revisits Kitchin and Dodge code/space concept.,Y,Y,Y
+36,LM00545,W4413032291,random6,A3,,South Asia,high,A3:recent,include,Y,A3,A5,South Asia,"Unauthorised colonies, semi-legal titles and informal credit in Delhi",Y,Y,Y
+37,LM02603,W3157658149,random6,A14,,South Asia,medium,A14:india,hand,Y,A14,A12,South Asia,"Urban heat and greenspace inequities, climate justice in Delhi",Y,Y,Y
+38,LM02593,W2889362462,random6,A14,,South Asia,high,A14:india,include,Y,A14,,South Asia,"Multidimensional social vulnerability to urban flooding in Punjab, Pakistan.",Y,Y,Y
+39,LM02162,W4388310753,random6,A12,,Global North,high,A12:landmarks,include,N,,,Global North,European political history of regime types; not urban or digital,N,N,Y
+40,LM06297,W3185971307,random6,C6,,South Asia,high,C6:india,include,Y,C9,C1 C6,South Asia,"User survey on ITS and safe city traffic system, Lahore",Y,Y,Y
+41,LM00827,W3122398158,random6,A5,,South Asia,low,A5:india,include,Y,A1,A2 A5,South Asia,No abstract; title indicates private city governance in Gurgaon.,Y,Y,Y
+42,LM05376,W2765517014,random6,B13,,South Asia,high,B13:india,include,Y,B13,B7,South Asia,"Mobile phones and gendered empowerment, Trincomalee Sri Lanka",Y,Y,Y
+43,LM05138,W4225160856,random6,B12,,South Asia,high,B12:india,include,N,,,South Asia,National energy imaginaries in Afghanistan; neither urban nor digital,N,N,Y
+44,LM01912,W3125006064,random6,A10,,South Asia,high,A10:india,include,Y,A10,A1,South Asia,Urban informal sector and decentralisation in Nepal.,Y,Y,Y
+45,LM07392,W7107945733,random6,C14,,South Asia,high,C14:india; C14:recent,include,Y,B1,B13,South Asia,Social commerce via platforms in Maldivian informal economy,Y,N,Y
+46,LM07754,W4412585381,random6,C18,,Not place-specific,high,C18:recent,include,Y,C18,B8 B1,Global North,Nextdoor/Facebook local groups and volunteer moderation discourse,Y,Y,N
+47,LM07054,W3006045412,random6,C12,,Not place-specific,medium,C12:landmarks,hand,Y,C12,C1,Global North,Technology-enhanced public participation in Calgary smart city.,Y,Y,N
+48,LM06131,W7170400752,random6,C4,,South Asia,high,C4:india,include,Y,C4,A14 A2,South Asia,"Policy-oriented HydroGIS urban informatics for municipal flood governance, Colombo",Y,Y,Y
+49,LM00839,W4387519140,random6,A5,,Not place-specific,low,A5:recent,include,Y,A5,A15,Not place-specific,No abstract; title on extended urbanisation framework,Y,Y,Y
+50,LM03416,W2095298352,random6,B3,,Not place-specific,low,B3:landmarks,include,Y,B3,,Not place-specific,No abstract; sociology of m-health surveillance from title and venue.,Y,Y,Y
+51,LM04418,W4320497601,random6,B8,,South Asia,high,B8:india,include,Y,B8,,South Asia,Students' political communication on social media in Bangladesh,Y,Y,Y
+52,LM06517,W2167511680,random6,C8,,Not place-specific,low,C8:landmarks,include,Y,C8,,Not place-specific,No abstract; title on municipal e-government determinants,Y,Y,Y
+53,LM04059,W4236501677,random6,B6,C11,South Asia,high,B6:india; C11:india,include,Y,B6,,South Asia,Demonetisation and push to digital payments in India.,Y,Y,Y
+54,LM04681,W7160169780,random6,B9,,South Asia,high,B9:india,include,Y,B9,B8,Not place-specific,"Conceptual: algorithmic computational propaganda and democracy, global with Pakistan mention",Y,Y,N
+55,LM06859,W4285088860,random6,C10,,Global North,high,C10:recent,include,N,,,Global North,Business content analysis of fashion rental websites; not urban/digital society,N,N,Y
+56,LM05025,W7128300428,random6,B11,,Not place-specific,low,B11:recent,include,Y,B11,,Not place-specific,No abstract; title on unionisation of digital labour.,Y,Y,Y
+57,LM07443,W4412384950,random6,C15,,Southeast Asia,high,C15:recent,include,Y,B11,B7,Southeast Asia,"Online freelancing/platform work for rural women, Philippines",Y,N,Y
+58,LM06137,W7134910458,random6,C4,,South Asia,low,C4:india,include,Y,C4,A2,South Asia,No abstract; title: big data analytics for Dhaka urban planning,Y,Y,Y
+59,LM04866,W7203539880,random6,B10,,Not place-specific,low,B10:recent,include,Y,B10,,Not place-specific,"No abstract or venue; cyber-victimisation coping, borderline psychology.",Y,Y,Y
+60,LM06492,W2082783429,random6,C8,,Global North,high,C8:landmarks,include,Y,C8,A1,Global North,Local government e-government adoption in US,Y,Y,Y
+61,LM02727,W2748440121,random6,A15,,Africa,high,A15:landmarks,include,Y,A7,A15,Africa,"Heterogeneous sanitation/waste infrastructure configurations, Kampala",Y,Y,Y
+62,LM02032,W1575750805,random6,A11,,China & East Asia,high,A11:landmarks,include,Y,A11,,Multi-region,Internal and international migration linkages across South and East Asia.,Y,Y,N
+63,LM05713,W4399139647,random6,C1,,Not place-specific,high,C1:recent,include,Y,C1,,Not place-specific,Citizens' perceptions of smart city in unnamed port city,Y,Y,Y
+64,LM06237,W7154582686,random6,C5,,Not place-specific,high,C5:recent,include,Y,C6,C1 C7,Not place-specific,Review of AI governance and sovereignty in smart city surveillance,Y,N,Y
+65,LM07274,W7163828211,random6,C13,C17,Multi-region,high,C13:india; C17:india,include,Y,C13,C17 C7,Not place-specific,Conceptual handbook on governed digital twins for smart-city resilience.,Y,Y,N
+66,LM03761,W2955090878,random6,B5,,South Asia,high,B5:landmarks,include,Y,B5,B12,South Asia,Ethnography of Aadhaar design team and platformised government,Y,Y,Y
+67,LM03574,W3093718041,random6,B4,,Not place-specific,medium,B4:landmarks,include,N,,,Not place-specific,Computer-science history of explainable AI; no social/policy angle,N,N,Y
+68,LM06179,W2900877471,random6,C5,,Global North,high,C5:landmarks,include,Y,C8,C5,Global North,Evaluation of US municipal open government data portals.,Y,Y,Y
+69,LM01222,W636483171,random6,A7,,Multi-region,high,A7:india,include,Y,A1,A7 A2,Multi-region,"Edited volume on urban governance, planning, finance; India, China, others",Y,Y,Y
+70,LM07071,W4206003068,random6,C12,,Southeast Asia,high,C12:landmarks,include,Y,C12,C1,Southeast Asia,E-participation in Malaysian smart cities,Y,Y,Y
+71,LM07437,W4415956444,random6,C15,,Africa,high,C15:recent,include,Y,C15,A12 C9,Africa,Gendered safety of Uber drivers in Johannesburg.,Y,Y,Y
+72,LM02223,W1994429905,random6,A12,,South Asia,low,A12:india,include,Y,A3,A12,South Asia,"No abstract; urban homelessness, violence and harassment in Dhaka",Y,Y,Y
+73,LM00803,W4406949182,random6,A5,,Multi-region,high,A5:india,include,Y,A5,A15 A7,South Asia,Highway-led extended urbanisation and authoritarianism in India,Y,Y,N
+74,LM01999,W1984366279,random6,A11,,China & East Asia,low,A11:landmarks,include,Y,A11,,China & East Asia,No abstract; well-being of rural-urban migrants in China.,Y,Y,Y
+75,LM04803,W4281668342,random6,B10,,Africa,high,B10:recent,include,Y,B10,,Africa,Cybercrime forensic framework for Sudanese judiciary; borderline technical,Y,Y,Y
+76,LM06032,W2974175488,random6,C4,,Not place-specific,high,C4:landmarks,include,Y,C4,,Not place-specific,Technical federated learning for urban informatics; C4 only,Y,Y,Y
+77,LM00537,W4391547069,random6,A3,,Not place-specific,low,A3:recent,include,Y,A3,A15,Not place-specific,No abstract; title on urban informality theory.,Y,Y,Y
+78,LM04337,W2149231765,random6,B8,,Multi-region,medium,B8:landmarks,hand,Y,B8,,Africa,"Digital media in Arab Spring uprisings, Egypt and Tunisia",Y,Y,N
+79,LM07248,W4225832935,random6,C13,,Not place-specific,high,C13:recent,include,N,,,Not place-specific,Technical real-estate marketing visualisation system; no social angle,N,N,Y
+80,LM01268,W4282961753,random6,A7,,Not place-specific,high,A7:recent,include,N,,,Not place-specific,Technical hydrogeology guidance for water utilities; little social or policy analysis.,N,N,Y
+81,LM05295,W2330241765,random6,B13,,Multi-region,high,B13:india,include,Y,B13,B10,South Asia,Cyberbullying through mobile phones among Chennai youth,Y,Y,N
+82,LM06640,W2976077326,random6,C9,,Not place-specific,low,C9:landmarks,include,Y,C9,,Not place-specific,No abstract; title: MaaS bundling preference experiment,Y,Y,Y
+83,LM07366,W7117368699,random6,C14,,South Asia,high,C14:india,include,Y,C11,C14 A10,South Asia,FinTech adoption by Bengaluru street vendors.,Y,Y,Y
+84,LM04013,W2807645154,random6,B6,,South Asia,medium,B6:landmarks<-C11,hand,Y,B6,B7,South Asia,"Financial inclusion drivers incl. online banking, rural Tamil Nadu; borderline",Y,Y,Y
+85,LM00438,W1576855161,random6,A3,,Global North,high,A3:landmarks,include,Y,A3,,Global North,"Comparative rental and social housing policy, Kemeny",Y,Y,Y
+86,LM00850,W4316088745,random6,A5,,Not place-specific,low,A5:recent,include,Y,A5,,Not place-specific,No abstract; reference entry on peri-urbanization.,Y,Y,Y
+87,LM03928,W7215267263,random6,B5,,Multi-region,high,B5:recent,include,N,,,Multi-region,Constitutional law and state capacity; biometric ID only one minor case,N,N,Y
+88,LM07489,W4383345515,random6,C16,,Not place-specific,high,C16:landmarks; C16:recent,include,Y,C4,C16 B2,Multi-region,Global inequalities in OSM urban building data completeness,Y,Y,N
+89,LM03324,W4296613219,random6,B2,,South Asia,high,B2:india,include,Y,B2,,South Asia,Datafication of schooling and teachers' practices in Bangladesh.,Y,Y,Y
+90,LM02195,W2134956637,random6,A12,,Global North,high,A12:landmarks,include,Y,A10,A12,Global North,Retail landscapes and consumption in gentrified Sydney neighbourhoods,Y,Y,Y
+91,LM05837,W4292840629,random6,C2,,Not place-specific,high,C2:recent,include,Y,C2,C1,Latin America,"Review from smart cities to platform urbanism, Ibero-American cities",Y,Y,N
+92,LM03404,W2126690184,random6,B3,,Not place-specific,medium,B3:landmarks,hand,Y,B3,,Not place-specific,Classic conceptualisation of dataveillance and policy safeguards.,Y,Y,Y
+93,LM00308,W4391957196,random6,A2,,South Asia,high,A2:india,include,Y,A2,A14,South Asia,Zoning and nature-based solutions in Sri Jayawardhanapura-Kotte plan,Y,Y,Y
+94,LM06315,W4394826148,random6,C6,,Southeast Asia,high,C6:recent,include,Y,C6,C8,Southeast Asia,CCTV security system as e-government in Makassar,Y,Y,Y
+95,LM01725,W4415043189,stage1_A9,A9,,China & East Asia,high,A9:recent,include,Y,A9,A15,China & East Asia,Publicness model for public space in Shanghai urban regeneration.,Y,Y,Y
+96,LM03966,W2789152355,random6,B6,,Africa,high,B6:landmarks,include,Y,B6,,Africa,"Mobile money effects on entrepreneurship, calibrated to Kenya",Y,Y,Y
+97,LM05996,W4206031011,random6,C3,,Not place-specific,low,C3:recent,include,Y,C3,B2,Not place-specific,No abstract; title on just digital geographies,Y,Y,Y
+98,LM00034,W2587562756,random6,A1,,Not place-specific,low,A1:landmarks,include,Y,A14,A1,Not place-specific,No abstract; urban governance and climate politics from title.,Y,Y,Y
+99,LM05048,W7216476359,random6,B11,,South Asia,high,B11:india,include,Y,B11,C15 B4,South Asia,Algorithmic management and ride-hailing/delivery workers in Punjab cities,Y,Y,Y
+100,LM00952,W437821785,random6,A6,,Multi-region,high,A6:landmarks,include,Y,A5,A6 A11,Multi-region,"Reader on rural-urban linkages, small towns, peri-urban areas",Y,Y,Y
+101,LM05510,W4409494954,random6,B14,,South Asia,high,B14:india,include,Y,B14,B11 A12,South Asia,"GenAI and work-life balance of women software professionals, Sri Lanka.",Y,Y,Y
+102,LM03622,W4407087968,random6,B4,,Not place-specific,high,B4:landmarks,include,Y,B14,B4,Not place-specific,"Governance challenges of generative AI, special issue introduction",Y,Y,Y
+103,LM01715,W4290039801,stage1_A9,A9,,South Asia,high,A9:india,include,Y,A9,A2,South Asia,Contested park and public space planning in Bangalore,Y,Y,Y
+104,LM01741,W3167123494,random6,A9,,South Asia,low,A9:india,hand,Y,A10,A9,South Asia,"No abstract; street vendors, public space and livelihoods in Mumbai.",Y,Y,Y
+105,LM05871,W7120261736,random6,C2,,Not place-specific,low,C2:recent,include,Y,C2,,Not place-specific,No abstract; introduction to platform urbanism,Y,Y,Y
+106,LM02121,W4402949952,random6,A11,,South Asia,high,A11:india,include,Y,A11,A4,South Asia,Partition refugee resettlement in Delhi and Punjab,Y,Y,Y
+107,LM07435,W4402807011,random6,C15,,Africa,high,C15:recent,include,Y,C15,B11 C9,Africa,Ride-hailing driver resistance and solidarity in Nairobi.,Y,Y,Y
+108,LM05504,W4409856309,random6,B14,,Multi-region,high,B14:india,include,Y,B14,,Multi-region,Comparative national strategies for LLM development,Y,Y,Y
+109,LM04702,W2758039286,random6,B10,,Not place-specific,low,B10:landmarks,include,Y,B10,,Not place-specific,"No abstract; blockchain, cybersecurity, privacy in policy journal; borderline",Y,Y,Y
+110,LM00669,W2263928282,random6,A4,,South Asia,low,A4:india,include,Y,A4,,South Asia,No abstract; development-induced displacement in India.,Y,Y,Y
+111,LM06811,W2113764854,random6,C10,,Not place-specific,low,C10:landmarks,include,Y,C10,B1,Not place-specific,No abstract; discrimination on Airbnb short-term rental platform,Y,Y,Y
+112,LM03393,W7210280154,random6,B2,,Multi-region,high,B2:india,include,Y,B2,B7,South Asia,Digital colonialism of ed-tech in Bangladeshi universities,Y,Y,N
+113,LM02722,W2106132488,random6,A15,,Not place-specific,high,A15:landmarks,include,Y,A15,,Not place-specific,Theoretical essay defining critical urban theory.,Y,Y,Y
+114,LM01731,W4382789181,stage1_A9,A9,,Not place-specific,high,A9:recent,include,Y,A9,A2,Not place-specific,Literature review defining privately owned public spaces,Y,Y,Y
+115,LM06606,W7217280910,random6,C8,,Not place-specific,high,C8:recent,include,Y,C1,C8,Southeast Asia,Smart governance policy implementation in Palopo smart city,Y,Y,N
+116,LM07395,W7161413424,random6,C14,,South Asia,high,C14:india,include,Y,A10,C11,South Asia,PM SVANidhi credit and digital payments for Mumbai street vendors.,Y,N,Y
+117,LM04180,W2241803474,random6,B7,,Global North,high,B7:landmarks,include,Y,B7,B8,Global North,"US internet use: digital divide, social capital, interaction",Y,Y,Y
+118,LM03802,W4296837992,random6,B5,,South Asia,medium,B5:india; S2:india; S2:recent,hand,Y,A10,B5 A12,South Asia,Delhi street traders waiting for documents and welfare,Y,Y,Y
+119,LM02693,W3137163592,random6,A14,,Not place-specific,low,A14:india,include,Y,A14,A3,South Asia,No abstract; building vulnerability to urban flooding in Dhaka; borderline engineering.,Y,Y,N
+120,LM05349,W4387457462,random6,B13,,South Asia,high,B13:recent,include,Y,B13,,South Asia,"Mobile phone use and behaviour of rural youth, Tamil Nadu",Y,Y,Y
+121,LM02543,W2099238871,random6,A14,,Global North,high,A14:landmarks,include,Y,A14,A2,Global North,"Urban climate adaptation planning capacity, Greater Manchester",Y,Y,Y
+122,LM03128,W4315648631,random6,B1,,Multi-region,high,B1:recent,include,Y,B1,,Multi-region,State platform capitalism in US-China geopolitical rivalry.,Y,Y,Y
+123,LM05002,W7106297724,random6,B11,,Global North,medium,B11:recent<-C2,hand,Y,B11,B1,Global North,Platform work regulation in Eastern/Southeastern Europe,Y,Y,Y
+124,LM07637,W4313640965,random6,C17,,Not place-specific,high,C17:landmarks,include,Y,C17,C1,Not place-specific,Overview of smart city cyber threats for policymakers,Y,Y,Y
+125,LM01603,W7162639183,random6,A8,,Africa,low,A8:recent,include,N,,,Africa,No abstract; engineering performance test of electric minibus taxi.,N,N,Y
+126,LM00526,W4285407513,random6,A3,,Not place-specific,high,A3:recent,include,Y,A3,,Multi-region,World Bank review of sites-and-services low-income housing,Y,Y,N
+127,LM05211,W7141773195,random6,B12,,Global North,high,B12:recent,include,N,,,Global North,BECCS imaginaries in Sweden; not urban or digital,N,N,Y
+128,LM00610,W2133505800,random6,A4,,Global North,high,A4:landmarks,include,Y,A4,A3 A12,Global North,Gentrification and class remaking of inner London.,Y,Y,Y
+129,LM05910,W7115571353,random6,C2,,South Asia,high,C2:india,include,Y,B1,B11 C2,South Asia,"Indian quick commerce platforms growth, labour and urban logistics",Y,Y,Y
+130,LM02793,W3112872624,random6,A15,,South Asia,high,A15:india,include,Y,A15,,South Asia,Southern urbanism pedagogy reflections from India lockdown,Y,Y,Y
+131,LM02206,W2075989309,random6,A12,,Not place-specific,low,A12:landmarks,include,Y,A12,,Global North,"No abstract; racial segregation of neighbourhoods and schools, US law.",Y,Y,N
+132,LM04570,W3104758113,random6,B9,,Not place-specific,high,B9:landmarks,include,Y,B9,B8,Global North,Fake news spread on Twitter in 2016 US election,Y,Y,N
+133,LM01658,W3181114874,stage1_A9,A9,,South Asia,high,A9:india,include,Y,A12,A9,South Asia,Women's safety and public space in Kolkata,Y,Y,Y
+134,LM06835,W2972559601,random6,C10,,Not place-specific,low,C10:landmarks,include,Y,C10,,Not place-specific,No abstract; perceived risk and Airbnb adoption.,Y,Y,Y
+135,LM06233,W7117994131,random6,C5,,Not place-specific,low,C5:recent,include,Y,C5,C7,Not place-specific,No abstract; urban data types and digital urban governance,Y,Y,Y
+136,LM07282,W7213298440,random6,C13,,Multi-region,high,C13:india,include,Y,C13,,Not place-specific,"Digital-twin framework incl. urban simulation; largely technical, borderline",Y,Y,N
+137,LM01388,W2140488108,random6,A8,,Global North,high,A8:landmarks,include,Y,A9,A15,Global North,"Urban landscape, social capital and community facilities in Adelaide suburbs.",Y,N,Y
+138,LM05162,W4308426353,random6,B12,,Not place-specific,high,B12:recent,include,Y,B12,,Not place-specific,Sociotechnical sustainability of shared digital (open source) infrastructure,Y,Y,Y
+139,LM02830,W4409545198,random6,A15,,South Asia,high,A15:india,include,Y,A11,A15 A3,South Asia,"Refugee placemaking and planning theory, Delhi and Dhaka",Y,Y,Y
+140,LM01640,W642358081,random6,A9,,Multi-region,high,A9:landmarks,include,Y,A9,,Multi-region,Insurgent public spaces with cases from US and Beijing.,Y,Y,Y
+141,LM02439,W2909894982,random6,A13,,South Asia,high,A13:india,include,Y,A13,,South Asia,"Equity in heritage conservation, Ahmedabad World Heritage City",Y,Y,Y
+142,LM03497,W4404257835,random6,B3,,Not place-specific,low,B3:recent,include,Y,B3,,Not place-specific,No abstract; title on mass surveillance and human rights,Y,Y,Y
+143,LM06353,W7215106211,random6,C6,,Middle East,high,C6:recent,include,Y,C6,B4,Middle East,Dubai Police drone surveillance and emergency response.,Y,Y,Y
+144,LM03800,W2808448383,random6,B5,,South Asia,high,B5:india,include,Y,B5,A11,South Asia,"Identity documents and citizenship in South Asia; largely non-digital, borderline",Y,Y,Y
+145,LM04910,W1538442083,random6,B11,,Not place-specific,high,B11:landmarks,include,Y,B11,B1,Not place-specific,Edited volume on digital labour and playbor,Y,Y,Y
+146,LM06733,W4200595533,random6,C9,,South Asia,high,C9:india,include,Y,C9,B7,South Asia,Blind people's use of ride-hailing in metropolitan India.,Y,Y,Y
+147,LM00276,W4291826378,random6,A2,,Global North,high,A2:recent,include,Y,A2,A3,Global North,"Upzoning effects on housing supply and rents, Zurich",Y,Y,Y
+148,LM07752,W4392912220,random6,C18,,Not place-specific,high,C18:recent,include,Y,C18,C6 B3,Global North,"Nextdoor as neighbourhood watch, urban Colorado",Y,Y,N
+149,LM06476,W7213170439,random6,C7,,South Asia,medium,C7:india,hand,Y,C7,C1 C17,South Asia,AI-enabled metropolitan governance in Pune and Thane.,Y,Y,Y
+150,LM03594,W2770363731,random6,B4,,Not place-specific,high,B4:landmarks,include,Y,B4,B2,Global North,GDPR right to legibility of automated decision-making,Y,Y,N
+151,LM03666,W4402048878,random6,B4,,Not place-specific,high,B4:recent,include,Y,B4,,Global North,Automated decision-making in EU public law,Y,Y,N
+152,LM07410,W3167714685,random6,C15,,Global North,high,C15:landmarks,include,Y,C15,B11,Global North,Place-based working time control of food delivery couriers in Germany.,Y,Y,Y
+153,LM06385,W3121891683,random6,C7,,Global North,high,C7:landmarks,include,N,,,Global North,Clinical CT imaging dataset; biomedical,N,N,Y
+154,LM00199,W2086853082,random6,A2,,Not place-specific,low,A2:landmarks,include,Y,A2,,Not place-specific,No abstract; title on land use regulation and construction,Y,Y,Y
+155,LM05849,W7168355438,random6,C2,,Global North,high,C2:recent,include,Y,C2,,Global North,Platforms restructuring space of Russian urban agglomerations.,Y,Y,Y
+156,LM05377,W3190580201,random6,B13,,Multi-region,low,B13:india,include,Y,B13,B7,Multi-region,"No abstract; mobile internet use patterns, Bangladesh and Ghana",Y,Y,Y
+157,LM06351,W7204190113,random6,C6,,Global North,high,C6:recent,include,Y,C6,B3 B4,Global North,Facial recognition in US city policing,Y,Y,Y
+158,LM03922,W7172521580,random6,B5,,South Asia,medium,B5:recent,hand,Y,B5,C8,South Asia,Aadhaar-enabled PDS biometric authentication assessment in Raigad.,Y,Y,Y
+159,LM02147,W4403819816,random6,A11,,South Asia,high,A11:india,include,Y,A11,,South Asia,Rural-urban migration impacts in Bangladesh and India,Y,Y,Y
+160,LM01111,W1528618327,random6,A6,,Not place-specific,low,A6:india,include,Y,A6,A7,Not place-specific,No abstract; title: infrastructure planning in small towns,Y,Y,Y
+161,LM07338,W4393231899,random6,C14,,Africa,medium,C14:recent,hand,N,,,Africa,Maternal health intervention outcome evaluation; clinical public health.,N,N,Y
+162,LM00840,W4396773855,random6,A5,,Multi-region,high,A5:india,include,Y,A3,A1,Multi-region,"Community-led land and housing delivery, Kerala and Dar es Salaam",Y,N,Y
+163,LM04733,W2099222119,random6,B10,,Not place-specific,high,B10:landmarks,include,Y,B10,,Not place-specific,User preferences for security awareness training; borderline social science,Y,Y,Y
+164,LM07151,W4318827691,random6,C13,,Not place-specific,high,C13:landmarks,include,N,,,Not place-specific,Engineering review of digital twins in power grids.,N,N,Y
+165,LM00147,W2907633963,random6,A1,,South Asia,low,A1:india,hand,Y,A1,,South Asia,No abstract; 74th amendment and Kerala local government,Y,Y,Y
+166,LM06525,W4400907513,random6,C8,C1,South Asia,high,C1:india; C1:recent; C8:india; C8:landmarks; C8:recent,include,Y,C1,C8,South Asia,Smart governance challenges for Smart Bangladesh and cities,Y,Y,Y
+167,LM06608,W7218285307,random6,C8,,Southeast Asia,high,C8:recent,include,Y,C8,C1 B8,Southeast Asia,"Digital local-government communication and smart city branding, Indonesia.",Y,Y,Y
+168,LM02208,W2042375431,random6,A12,,South Asia,low,A12:india,include,Y,A12,A3,South Asia,No abstract; socio-spatial segregation in Delhi,Y,Y,Y
+169,LM04186,W2124049460,random6,B7,,Not place-specific,low,B7:landmarks,include,Y,B7,,Not place-specific,No abstract; e-government complexity and digital divide,Y,Y,Y
+170,LM07576,W4387382261,random6,C16,,Not place-specific,high,C16:recent,include,N,,,Southeast Asia,Generic WebGIS software build; no urban-analytic or social angle.,N,N,N
+171,LM04008,W2990861418,random6,B6,,Africa,low,B6:landmarks,include,N,,,Africa,"No abstract; rural agricultural financial inclusion, no urban or digital angle",N,N,Y
+172,LM07362,W4410475343,random6,C14,,South Asia,low,C14:india,include,Y,C11,C14 A10,South Asia,No abstract; title: mobile payments and Bengaluru street vendors,Y,Y,Y
+173,LM07002,W4413340618,random6,C11,,Africa,high,C11:recent,include,Y,B6,B7,Africa,Mobile money usage and financial inclusion in Ghana.,Y,N,Y
+174,LM05742,W7204832639,random6,C1,,South Asia,low,C1:india,include,Y,C1,,South Asia,No abstract; smart city/digital urbanism in Agartala,Y,Y,Y
+175,LM03456,W2251459166,random6,B3,,Multi-region,high,B3:india,include,Y,B3,,Global North,"Drones and global surveillance architecture, US military",Y,Y,N
+176,LM04978,W4391242348,random6,B11,,Not place-specific,high,B11:recent,include,Y,B11,,Not place-specific,Conceptual overview of digital labour and content production.,Y,Y,Y
+177,LM02953,W4390456885,random6,A16,,Not place-specific,high,A16:recent,include,Y,A16,A9,Global North,"Night-time sidewalk lighting and pedestrian reassurance, Cedar City",Y,Y,N
+178,LM05647,W4210925349,random6,C1,,China & East Asia,high,C1:recent,include,Y,C1,C12,China & East Asia,State-steered smartmentality in Shijiazhuang smart transport,Y,Y,Y
+179,LM04533,W2473555522,random6,B9,,Not place-specific,high,B9:landmarks,include,Y,B9,B8,Not place-specific,Hate speech detection on Twitter using critical race theory criteria.,Y,Y,Y
+180,LM05090,W2159533605,random6,B12,,Not place-specific,low,B12:landmarks,include,Y,B12,,Not place-specific,No abstract; CSCW infrastructuring of ecological data curation,Y,Y,Y
+181,LM01304,W7167808231,random6,A7,,Not place-specific,high,A7:recent,include,Y,C7,A7,Not place-specific,Human-AI governance framework for municipal infrastructure decisions,Y,Y,Y
+182,LM00465,W4312139062,random6,A3,,South Asia,high,A3:recent,include,Y,A3,A2,South Asia,Slum upgrading and redevelopment planning in Jammu.,Y,Y,Y
+183,LM06564,W4409687136,random6,C8,,Not place-specific,low,C8:recent,include,Y,C8,,China & East Asia,"No abstract; Proof-Free City digital government, Chinese policy term",Y,Y,N
+184,LM03988,W3145338225,random6,B6,,Multi-region,high,B6:landmarks,include,Y,B6,,China & East Asia,Digital financial inclusion and provincial growth in China,Y,Y,N
+185,LM07683,W4412338781,random6,C17,,South Asia,high,C17:india,include,Y,C17,C1,South Asia,Cyber security for smart cities in India.,Y,Y,Y
+186,LM02567,W1985127998,random6,A14,,Multi-region,high,A14:landmarks; A14:landmarks<-A7,include,Y,A14,A7,Africa,Urban climate adaptation and water in sub-Saharan Africa,Y,Y,N
+187,LM05905,W7216267893,random6,C2,,South Asia,high,C2:india,include,Y,B11,C15 B1,South Asia,Mental health of platform gig workers in urban Pakistan,Y,N,Y
+188,LM06950,W4403712981,random6,C11,,Not place-specific,high,C11:landmarks,include,N,,,Not place-specific,Environmental science review of green infrastructure physical effects.,N,N,Y
+189,LM05932,W2145919769,random6,C3,C6,Not place-specific,high,C3:landmarks; C6:landmarks,include,Y,C3,C6,Not place-specific,"Software-sorting and code shaping urban inequality, CCTV, GIS",Y,Y,Y
+190,LM06464,W7167281399,random6,C7,,South Asia,high,C7:india,include,Y,C7,A7,South Asia,AI in municipal waste management across Indian cities,Y,Y,Y
+191,LM02880,W2162224850,random6,A16,,Not place-specific,high,A16:landmarks,include,Y,A16,A12,Not place-specific,Masculinity and collective girl hunting in urban nightlife.,Y,Y,Y
+192,LM07759,W4404091085,random6,C18,,Not place-specific,high,C18:recent,include,Y,C18,A12,Global North,"Racial frames on Nextdoor over street renaming, Arlington VA",Y,Y,N
+193,LM00243,W2146175242,random6,A2,,South Asia,high,A2:india,include,Y,A11,A14 A2,South Asia,Climate migration and urban planning in Bangladesh,Y,Y,Y
+194,LM00935,W2132104902,random6,A6,,Multi-region,high,A6:landmarks,include,Y,A14,A5 A2,China & East Asia,Pollution in Chinese city clusters with planning coordination issues; borderline.,Y,N,N
+195,LM00938,W2096037138,random6,A6,,Not place-specific,low,A6:landmarks,include,Y,A9,A6,Global North,"No abstract; children's environments in cities, towns; borderline",Y,Y,N
+196,LM05509,W4324130209,random6,B14,,South Asia,low,B14:india,include,N,,,South Asia,No abstract; pediatrics journal editorial LLM policy; clinical venue,N,N,Y
+197,LM07744,W2990015459,random6,C18,,South Asia,medium,C18:india,hand,Y,B8,,South Asia,Bangladeshi student politicians' Facebook performances in digital public space.,Y,N,Y
+198,LM03853,W3088797986,random6,B5,,South Asia,high,B5:india,include,Y,B5,,South Asia,National ID card modernisation in Digital Bangladesh,Y,Y,Y
+199,LM01837,W106456303,random6,A10,,Multi-region,high,A10:landmarks,include,Y,A10,,Multi-region,OECD on informal employment in developing countries,Y,Y,Y
+200,LM04380,W3213890796,random6,B8,,South Asia,high,B8:india,include,Y,B8,C18 B9,South Asia,"WhatsApp, Hindu right and digital private spaces in urban north India.",Y,Y,Y
+201,LM07046,W2323354180,random6,C12,,Not place-specific,high,C12:landmarks,include,Y,C12,B2,Not place-specific,Civic hacking as data activism and open government data,Y,Y,Y
+202,LM01687,W2567448509,stage1_A9,A9,,South Asia,high,A9:india,include,Y,A12,A13 A9,South Asia,Single women's access and mobility in world-class Delhi,Y,Y,Y
+203,LM03218,W7172430049,random6,B1,,South Asia,high,B1:india,include,Y,B1,B11,South Asia,Economic sociology of India's platform economy.,Y,Y,Y
+204,LM06823,W2950403935,random6,C10,,Global North,high,C10:landmarks,include,Y,C10,B1,Not place-specific,Literature review of Airbnb research incl. regulation and impacts,Y,Y,N
+205,LM01850,W2757416393,random6,A10,,Latin America,high,A10:landmarks,include,Y,A7,A10,Latin America,"Waste picker organisations and urban waste, Argentina and Brazil",Y,Y,Y
+206,LM01803,W2955220964,random6,A9,,South Asia,high,A9:india,include,Y,A9,A2,South Asia,Everyday urbanism and public space design in Chennai.,Y,Y,Y
+207,LM02952,W4377027842,random6,A16,,South Asia,high,A16:india; A16:recent,include,Y,A16,A10 A9,South Asia,Night-time economy planning in Bhubaneswar,Y,Y,Y
+208,LM01829,W2109441424,random6,A10,,Not place-specific,low,A10:landmarks,include,Y,A10,,Multi-region,No abstract; title on informal employment in developing countries,Y,Y,N
+209,LM02364,W2002489115,random6,A13,,Multi-region,medium,A13:landmarks,include,Y,A13,,Multi-region,"Sports mega-events and soft power in Brazil, China, South Africa.",Y,Y,Y
+210,LM02330,W2480957165,random6,A13,,Not place-specific,low,A13:landmarks,include,N,,,Not place-specific,"No abstract; Lancet physical activity, health science",N,N,Y
+211,LM05870,W7119656903,random6,C2,,Not place-specific,low,C2:recent,hand,Y,C2,C12,Not place-specific,No abstract; title on platformisation and rights in the city,Y,Y,Y
+212,LM07621,W4282939159,random6,C17,,Global North,high,C17:landmarks,include,Y,B10,,Global North,Cyber security and digital resilience in UK healthcare.,Y,N,Y
+213,LM07157,W4362514681,random6,C13,,Not place-specific,high,C13:landmarks,include,N,,,Not place-specific,Technical survey of digital twin security; not urban-specific,N,N,Y
+214,LM00606,W2734973016,random6,A4,,Global North,high,A4:landmarks,include,Y,A4,A8,Global North,"Review of gentrification, displacement and transit investment, US",Y,Y,Y
+215,LM00204,W2910698884,random6,A2,,Not place-specific,high,A2:landmarks,include,Y,A2,A15 A3,Not place-specific,UN-Habitat global report on urban planning systems.,Y,Y,Y
+216,LM03033,W7163404670,random6,A16,,South Asia,medium,A16:india,hand,Y,A9,A16,South Asia,"Religious processions and shared streets in Pune, rhythmanalysis",Y,Y,Y
+217,LM01988,W1537901284,random6,A11,,China & East Asia,medium,A11:landmarks,hand,Y,A11,A12 A10,China & East Asia,Migrant women factory workers in Shenzhen,Y,Y,Y
+218,LM03081,W2972706642,random6,B1,,Not place-specific,low,B1:landmarks,include,Y,B1,B11,Not place-specific,No abstract; dependence and precarity in platform economy.,Y,Y,Y
+219,LM04563,W2900471836,random6,B9,,Not place-specific,low,B9:landmarks,include,Y,B9,,Not place-specific,No abstract; health misinformation on social media,Y,Y,Y
+220,LM06782,W3147821219,random6,C9,,South Asia,high,C9:india; S4:india,include,N,,,South Asia,Engineering smart-card ticketing project; no social angle,N,N,Y
+221,LM01081,W4410089803,random6,A6,,South Asia,high,A6:recent,include,Y,A6,A5,South Asia,Emergence of census towns in Ranchi district.,Y,Y,Y
+222,LM05156,W3035593237,random6,B12,,Not place-specific,low,B12:india,include,N,,,South Asia,"No abstract; borderland infrastructure, neither urban nor digital evident",N,N,N
+223,LM00987,W4403682695,random6,A6,,Not place-specific,high,A6:recent,include,Y,A14,,Not place-specific,Review defining urban flooding incl. social dimensions,Y,N,Y
+224,LM07103,W4295781017,random6,C12,,Not place-specific,low,C12:recent,include,Y,C12,C13 A8,Not place-specific,No abstract; digital participation tool for urban air mobility planning.,Y,Y,Y
+225,LM01800,W1924685162,stage1_A9,A9,,South Asia,low,A9:india,hand,Y,A9,,South Asia,No abstract; parks and public spaces in Mumbai,Y,Y,Y
+226,LM04922,W3007153134,random6,B11,,Not place-specific,high,B11:landmarks,include,Y,B11,B1,Multi-region,"Algorithmic management on crowdwork platforms, 27 developing countries",Y,Y,N
+227,LM05941,W3003767648,random6,C3,,Not place-specific,high,C3:landmarks,include,Y,C3,A12,Not place-specific,Feminist and Black/queer code studies in digital geographies.,Y,Y,Y
+228,LM02485,W7128783837,random6,A13,,Global North,high,A13:recent,include,N,,,Global North,Construction blasting engineering for Athens Olympics,N,N,Y
+229,LM01669,W4221060912,random6,A9,,Not place-specific,high,A9:recent,include,Y,A7,A15,Not place-specific,"Everyday urbanism and urban water governance, conceptual",Y,N,Y
+230,LM00905,W7153000186,random6,A5,,Not place-specific,medium,A5:recent,include,Y,A5,A10,Multi-region,Review of Special Economic Zone impacts across countries; land and regional.,Y,Y,N
+231,LM07718,W7128076046,random6,C17,,Not place-specific,high,C17:recent,include,N,,,Not place-specific,Predominantly technical cyber epidemiology modelling for infrastructure,N,N,Y
+232,LM04298,W7212161682,random6,B7,,Global North,high,B7:recent,include,Y,B7,,Global North,Review of US digital divide and socioeconomic outcomes,Y,Y,Y
+233,LM02724,W2212891289,random6,A15,,Not place-specific,high,A15:landmarks,include,Y,A15,,Not place-specific,Comparative urbanism and global urban theory building.,Y,Y,Y
+234,LM06156,W3159022021,random6,C5,,Not place-specific,high,C5:landmarks,include,Y,B2,C5 C8,Not place-specific,Evolution of open government data research incl. smart cities,Y,Y,Y
+235,LM07552,W2050437587,random6,C16,,Africa,high,C16:india,include,N,,,Africa,Rural coastal fishery resource mapping in Kenya; not urban,N,N,Y
+236,LM00072,W1607554412,random6,A1,,Multi-region,high,A1:india,include,Y,A1,A12,South Asia,Training women municipal councillors in Mumbai.,Y,Y,N
+237,LM00003,W2124222250,random6,A1,,Not place-specific,medium,A1:landmarks,include,Y,A1,,Not place-specific,Risks of decentralization and fiscal federalism,Y,Y,Y
+238,LM01796,W7169659753,stage1_A9,A9,,Multi-region,high,A9:recent,include,Y,A9,A13,China & East Asia,"Interview on designing publicness and public space, Macau",Y,Y,N
+239,LM07668,W4226056414,random6,C17,,Not place-specific,low,C17:recent,include,Y,C17,C1,Not place-specific,No abstract; ethics of smart city cyber security.,Y,Y,Y
+240,LM02618,W4400099739,random6,A14,,Not place-specific,medium,A14:recent,hand,Y,A14,,Not place-specific,Scientometric review of urban heat vulnerability research,Y,Y,Y
+241,LM01365,W4240874934,random6,A8,,Not place-specific,medium,A8:landmarks,include,Y,A8,,Not place-specific,Justice-based theory of transport planning,Y,Y,Y
+242,LM07631,W4226144297,random6,C17,,Not place-specific,high,C17:landmarks,include,N,,,Not place-specific,"Industrial IoT cybersecurity review; managerial-technical, no social or urban angle.",N,N,Y
+243,LM01770,W4403014504,stage1_A9,A9,,Not place-specific,low,A9:recent,hand,Y,A9,,Not place-specific,No abstract; grassroots collectives reclaiming public space,Y,Y,Y
+244,LM05740,W7165425715,random6,C1,,South Asia,high,C1:india,include,Y,C1,A13,South Asia,Worlding and New Delhi smart city,Y,Y,Y
+245,LM02492,W7203668205,random6,A13,,South Asia,medium,A13:india,include,N,,,South Asia,Heritagization of weddings in Sri Lanka; not urban or digital.,N,N,Y
+246,LM00623,W1970465826,random6,A4,,Global North,high,A4:landmarks,include,Y,A4,A3,Global North,Systematic review of gentrification impacts and UK urban policy,Y,Y,Y
+247,LM02870,W1510628762,random6,A16,,Global North,medium,A16:landmarks,hand,Y,A16,A12,Global North,Chicago taxi-dance halls and urban nightlife,Y,Y,Y
+248,LM04687,W7155169798,random6,B9,,Not place-specific,low,B9:recent,include,Y,B9,,Not place-specific,No abstract; discourse analysis of fake news and disinformation.,Y,Y,Y
+249,LM04265,W7161244734,random6,B7,,South Asia,high,B7:india,include,Y,B7,,South Asia,Digital access and literacy inequality in India,Y,Y,Y
+250,LM05169,W3048997895,random6,B12,,Multi-region,high,B12:india,include,Y,B12,A7,Not place-specific,"Infrastructure as analytical vantage point; abstract garbled, borderline",Y,Y,N
+251,LM02757,W2898960413,random6,A15,,Not place-specific,high,A15:landmarks,include,Y,A15,A2,Not place-specific,Friedmann's collected essays in planning theory.,Y,Y,Y
+252,LM07003,W4413477721,random6,C11,,South Asia,high,C11:india,include,Y,B6,B7,South Asia,UPI and financial inclusion in rural India,Y,N,Y
+253,LM04113,W7154702555,random6,B6,,South Asia,high,B6:india; B6:india<-C8,include,Y,B6,B5 B7,South Asia,"UPI, DPI and financial inclusion in India",Y,Y,Y
+254,LM07730,W2934027896,random6,C18,,Global North,high,C18:landmarks,include,Y,C18,C6 B3,Global North,Nextdoor as platform for racialised neighbourhood surveillance in US.,Y,Y,Y
+255,LM07309,W3201997818,random6,C14,,Africa,high,C14:landmarks,include,N,,,Africa,Maternal mental health study in Nairobi slums; health focus,N,N,Y
+256,LM01645,W2093331601,stage1_A9,A9,,Multi-region,high,A9:landmarks,include,Y,A1,A9,Latin America,"Public sphere, neighbourhood associations, participatory budgeting; borderline",Y,Y,N
+257,LM06408,W4391817071,random6,C7,,Not place-specific,high,C7:recent,include,Y,C7,C1,Not place-specific,Latourian critique of sustainable AI urbanism.,Y,Y,Y
+258,LM07445,W4415581153,random6,C15,,Global North,high,C15:recent,include,Y,B11,C15 A11,Global North,"Occupational health and social protection of delivery platform workers, France",Y,Y,Y
+259,LM00208,W2896188610,random6,A2,,Not place-specific,low,A2:landmarks,include,Y,A14,C4,Not place-specific,No abstract; title: measuring street greenery for urban planning,Y,N,Y
+260,LM06191,W3110496620,random6,C5,,Global North,high,C5:landmarks,include,Y,C5,C8,Global North,Use and impact of municipal open data in nine US cities.,Y,Y,Y
+261,LM01818,W7207261412,random6,A9,,Global North,high,A9:recent,include,Y,A9,A2,Global North,Policy for privately owned public spaces in Vancouver,Y,Y,Y
+262,LM02102,W4318953868,random6,A11,,Africa,high,A11:recent,include,Y,A11,,Africa,"Rural-urban migration and food security, Nigeria",Y,Y,Y
+263,LM06265,W2102395943,random6,C6,,Not place-specific,high,C6:landmarks,include,Y,C6,B3 C3,Not place-specific,"Digital surveillance, urban political economy and inequality.",Y,Y,Y
+264,LM01768,W4400562152,stage1_A9,A9,,Latin America,high,A9:recent,include,Y,A9,A13 A15,Latin America,"Insurgent heritage, right to the city and public space, Bogota",Y,Y,Y
+265,LM01651,W2113892502,stage1_A9,A9,,Global North,high,A9:landmarks,include,Y,A9,A2 A15,Global North,Urban design process shaping London public space,Y,Y,Y
+266,LM06400,W4387460320,random6,C7,,Not place-specific,high,C7:landmarks,include,Y,C7,C1,Not place-specific,Edited book on AI urbanism and the city.,Y,Y,Y
+267,LM05726,W7160313297,random6,C1,,South Asia,high,C1:india,include,Y,C1,A16 A13,South Asia,"Pune Smart Cities Mission, time enclaves and speculation",Y,Y,Y
+268,LM07036,W7167558203,random6,C11,,Africa,high,C11:recent,include,Y,B13,B3 B8,Africa,"Digital exposure and state surveillance of phones, urban Cameroon",Y,N,Y
+269,LM03519,W7161629625,random6,B3,,South Asia,high,B3:india,include,Y,B3,,South Asia,State internet surveillance and censorship in Pakistan.,Y,Y,Y
+270,LM01349,W2053159337,random6,A8,,Not place-specific,high,A8:landmarks,include,Y,A8,A15,Not place-specific,Theorising urban mobility as meaningful everyday practice,Y,Y,Y
+271,LM06306,W2295365385,random6,C6,,South Asia,high,C6:india,include,N,,,South Asia,"Traffic safety driver observation study; engineering, no policy angle",N,N,Y
+272,LM07060,W2958191092,random6,C12,,Not place-specific,high,C12:landmarks,include,Y,C12,,Not place-specific,Voting method for digital participatory budgeting with city governments.,Y,Y,Y
+273,LM03146,W4221099942,random6,B1,,China & East Asia,high,B1:recent,include,Y,B1,,China & East Asia,Anti-monopoly regulation of digital platforms in China,Y,Y,Y
+274,LM05446,W4321106177,random6,B14,,Not place-specific,high,B14:landmarks,include,Y,B14,B8,Not place-specific,Twitter reactions to ChatGPT,Y,Y,Y
+275,LM05722,W4415721477,random6,C1,,Multi-region,high,C1:recent,include,Y,C1,C12,Multi-region,"Smart cities in Hangzhou, Singapore and Barcelona.",Y,Y,Y
+276,LM01641,W2035829157,stage1_A9,A9,,Not place-specific,medium,A9:landmarks,hand,Y,A13,A9,Not place-specific,"Public monuments, geography and national identity",Y,Y,Y
+277,LM05270,W4283318361,random6,B13,,South Asia,high,B13:india; B13:recent,include,N,,,South Asia,Agricultural productivity effects of mobile internet among farmers,N,N,Y
+278,LM04482,W7143480065,random6,B8,,South Asia,medium,B8:india,hand,Y,B8,,South Asia,Social media-amplified youth protests in Bangladesh and Nepal.,Y,Y,Y
+279,LM07422,W4405829608,random6,C15,,South Asia,high,C15:recent,include,Y,B11,A12,South Asia,Well-being of women gig workers in Indian metro cities,Y,N,Y
+280,LM03202,W4415585421,random6,B1,,Not place-specific,low,B1:recent,include,Y,B11,A11 B1,Not place-specific,No abstract; migrant labour in platform economy,Y,Y,Y
+281,LM06379,W4398194538,random6,C7,,Not place-specific,high,C7:landmarks,include,Y,B14,,Not place-specific,GenAI in design ideation experiment; borderline design pedagogy.,Y,N,Y
+282,LM06797,W7218000368,random6,C9,,South Asia,high,C9:india,include,Y,C9,C15,South Asia,Auto drivers' preferences for ride-hailing firms in Bangalore,Y,Y,Y
+283,LM03334,W4226314256,random6,B2,,Not place-specific,low,B2:india,include,Y,B2,,Not place-specific,No abstract; title: data justice case repository,Y,Y,Y
+284,LM06162,W4253840475,random6,C5,C4,Global North,high,C2:landmarks; C4:landmarks<-C12; C4:landmarks<-C16; C5:landmarks,include,Y,C1,C3 C2 C5,Multi-region,"Urban computational logics across American, European, Asian cities.",Y,Y,N
+285,LM06826,W2795240022,random6,C10,,Not place-specific,low,C10:landmarks,include,Y,C10,,Not place-specific,"No abstract; Airbnb consumer segmentation, sharing economy",Y,Y,Y
+286,LM07561,W4226457949,random6,C16,,Multi-region,high,C16:recent,include,Y,C16,,Multi-region,Soviet city plans vs OSM mapping of cities,Y,Y,Y
+287,LM00568,W2882111539,random6,A3,,South Asia,low,A3:india,include,Y,A3,A2,South Asia,No abstract; housing policy and planning in Afghanistan.,Y,Y,Y
+288,LM06977,W4405670958,random6,C11,,South Asia,high,C11:india,include,Y,B6,A11 C11,South Asia,Mobile money remittances by urban migrants in Bangladesh during COVID,Y,Y,Y
+289,LM06115,W4385951659,random6,C4,,Multi-region,high,C4:india,include,Y,C1,C4,South Asia,Smart cities and urban computing for Nepal,Y,Y,N
+290,LM06135,W4389641379,random6,C4,,Not place-specific,low,C4:recent,include,Y,C4,A3,Not place-specific,No abstract; urban big data and ML for homelessness.,Y,Y,Y
+291,LM07506,W2748337466,random6,C16,,China & East Asia,high,C16:landmarks,include,Y,C4,A2,China & East Asia,"Remote and social sensing for urban land use mapping, Beijing",Y,N,Y
+292,LM04713,W2121377134,random6,B10,,Not place-specific,high,B10:landmarks,include,Y,B10,,Not place-specific,Criminological theory and novelty of cybercrime,Y,Y,Y
+293,LM05392,W4389437528,random6,B14,,Not place-specific,high,B14:landmarks,include,Y,B14,,Not place-specific,ChatGPT benefits and drawbacks in education.,Y,Y,Y
+294,LM04169,W2025747271,random6,B7,,Southeast Asia,high,B7:landmarks,include,Y,B7,,Southeast Asia,Social cognitive model of digital divide among Singapore students,Y,Y,Y
+295,LM04248,W4412117874,random6,B7,,South Asia,high,B7:india,include,Y,B7,A12,South Asia,Gendered digital literacy and usage in Noida,Y,Y,Y
+296,LM01631,W2084995582,stage1_A9,A9,,Latin America,low,A9:landmarks,hand,Y,A9,A14,Latin America,No abstract; green space access in a Latin American city.,Y,Y,Y
+297,LM01612,W2153492338,random6,A9,,Global North,high,A9:landmarks,include,Y,A9,,Not place-specific,Systematic observation of disorder in urban neighbourhood public spaces,Y,Y,N
+298,LM03705,W4410976708,random6,B4,,Not place-specific,low,B4:recent,include,Y,B4,,Not place-specific,No abstract; automated decision-making and government opacity,Y,Y,Y
+299,LM01644,W2013275119,stage1_A9,A9,,Global North,high,A9:landmarks,include,Y,A9,A12,Global North,"Children, teenagers and adult production of public space.",Y,Y,Y
+300,LM07609,W7204185316,random6,C16,,Global North,high,C16:recent,include,Y,C16,C12 A6,Global North,OpenStreetMap participatory multisensory mapping of Polish towns,Y,Y,Y
+301,LM03095,W3194056670,random6,B1,,Not place-specific,high,B1:landmarks,include,Y,B1,,Not place-specific,Management review of digital platform governance,Y,Y,Y
+302,LM01500,W3189731318,random6,A8,,Not place-specific,high,A8:recent,include,Y,A8,A9,Not place-specific,"Mobilities design, hostile architecture and homeless exclusion.",Y,Y,Y
+303,LM05337,W7154132138,random6,B13,,China & East Asia,high,B13:recent,include,Y,B13,B7,China & East Asia,Mobile internet use and rural women's employment in China,Y,Y,Y
+304,LM02306,W2338416723,random6,A12,,South Asia,high,A12:india,include,Y,A12,A10,South Asia,Urban middle class dining culture in Kathmandu,Y,Y,Y
+305,LM06887,W4401366460,random6,C10,,Not place-specific,high,C10:recent,include,Y,C10,,Not place-specific,Barriers to PropTech technology acceptance in real estate.,Y,Y,Y
+306,LM03370,W7126368781,random6,B2,,South Asia,high,B2:india,include,Y,B2,B14,South Asia,AI language-learning tech as digital colonialism in Pakistan,Y,Y,Y

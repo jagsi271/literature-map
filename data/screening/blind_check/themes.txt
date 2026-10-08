@@ -1,0 +1,48 @@
+A1 Urban governance, decentralisation & municipal finance
+A2 Planning, master plans & land-use regulation
+A3 Housing, informality & slums
+A4 Eviction, resettlement & displacement
+A5 Land, peri-urban & extended urbanisation
+A6 Small towns, census towns & secondary cities
+A7 Urban infrastructure (water, sanitation, energy) & infrastructural citizenship
+A8 Mobility & transport (social science)
+A9 Public space, publicness & the street
+A10 Urban economy, informal work & street vending
+A11 Migration & the city
+A12 Gender, caste, class & the city
+A13 Heritage, mega-events & "world-class" city making
+A14 Urban environment, climate & risk
+A15 Urban & planning theory, Southern urbanism
+A16 Night-time city & urban time
+B1 Platforms & platform capitalism
+B2 Datafication, data justice & data colonialism
+B3 Surveillance studies
+B4 Algorithmic governance & AI in the public sector
+B5 Digital identity & digital public infrastructure (DPI)
+B6 Digital finance & payments
+B7 Digital divides & digital inclusion
+B8 Social media, digital publics & political communication
+B9 Misinformation & extreme speech
+B10 Cybercrime, fraud & cybersecurity (social science)
+B11 Digital labour
+B12 Infrastructure studies & STS of digital systems
+B13 Mobile phones & everyday digital life
+B14 Generative AI & society
+C1 Smart cities & smart urbanism
+C2 Platform urbanism
+C3 Digital geographies & code/space
+C4 Urban informatics & urban computing
+C5 Urban data governance & data justice in cities
+C6 Urban surveillance, policing & biometrics in public space
+C7 Algorithmic & automated urban governance, municipal AI / GenAI
+C8 City-level DPI & urban e-government
+C9 Digital mobility (ride-hailing, MaaS, digital ticketing, transit apps)
+C10 Proptech, housing platforms & short-term rentals
+C11 Digital payments in urban economies (QR, UPI, mobile money)
+C12 Civic tech, e-participation & digital urban publics
+C13 Digital twins, simulation & visual rendering of cities
+C14 Digital informality (informal settlements, vendors & digital systems)
+C15 Gig work in the city (urban and spatial focus)
+C16 Digital heritage, mapping & representation of cities
+C17 Urban cybersecurity & cyber-physical infrastructure
+C18 Neighbourhood platforms & digital public space (WhatsApp, Nextdoor, RWA groups)

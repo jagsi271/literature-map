@@ -1,10 +1,13 @@
-"""Resolve a seeded random sample of record DOIs through Crossref and report the match rate.
+"""Resolve a seeded random sample of record DOIs through Crossref (and DataCite) and report
+the match rate.
 
 Usage: python3 scripts/verify_crossref.py N SEED LABEL
-A DOI 'matches' when Crossref returns the work (HTTP 200) and its title agrees with the
-OpenAlex title (normalised similarity >= 0.85, or one contains the other) and the year is
-within ±1. Results: data/screening/crossref_check_{LABEL}.csv. Raw responses are cached in
-data/raw/crossref/ by the shared throttled fetcher (Crossref allows ~1 request/s here).
+Each DOI is looked up in Crossref (api.crossref.org); a DOI Crossref does not know (HTTP 404,
+e.g. Zenodo, figshare or other DataCite DOIs) is looked up in DataCite (api.datacite.org).
+A DOI 'matches' when the registry returns the work and its title agrees with the OpenAlex title
+(normalised similarity >= 0.85, or one contains the other) and the year is within ±1.
+Results: data/screening/crossref_check_{LABEL}.csv. Raw responses are cached in
+data/raw/crossref/ and data/raw/datacite/ by the shared throttled fetcher.
 """
 import csv
 import difflib
@@ -24,31 +27,44 @@ recs.sort(key=lambda r: r["OpenAlex ID"])
 sample = random.Random(seed).sample(recs, min(n, len(recs)))
 f = Fetcher(min_interval=1.1)
 rows, ok = [], 0
+agency = {"Crossref": 0, "DataCite": 0, "neither": 0}
 for r in sample:
     cr = f.crossref_work(r["DOI"])
-    if cr is None:
-        rows.append([r["ID"], r["DOI"], r["Title"], "", "", "not found in Crossref"])
-        continue
-    m = cr["message"]
-    ct = (m.get("title") or [""])[0]
-    cy = None
-    for k in ("published-print", "published-online", "issued", "created"):
-        if m.get(k, {}).get("date-parts", [[None]])[0][0]:
-            cy = m[k]["date-parts"][0][0]
-            break
-    a, b = norm_title(r["Title"]), norm_title(ct)
-    sim = difflib.SequenceMatcher(None, a, b).ratio()
-    tmatch = sim >= 0.85 or (a and b and (a in b or b in a))
+    reg = "Crossref"
+    if cr is not None:
+        m = cr["message"]
+        ct = (m.get("title") or [""])[0]
+        cy = None
+        for k in ("published-print", "published-online", "issued", "created"):
+            if m.get(k, {}).get("date-parts", [[None]])[0][0]:
+                cy = m[k]["date-parts"][0][0]
+                break
+    else:
+        dc = f.datacite_work(r["DOI"])
+        if dc is None:
+            agency["neither"] += 1
+            rows.append([r["ID"], r["DOI"], "neither", r["Title"], "", "", "not found in Crossref or DataCite"])
+            continue
+        reg = "DataCite"
+        a = dc["data"]["attributes"]
+        ct = ((a.get("titles") or [{}])[0]).get("title", "")
+        cy = a.get("publicationYear")
+        cy = int(cy) if cy else None
+    agency[reg] += 1
+    a_, b_ = norm_title(r["Title"]), norm_title(ct)
+    sim = difflib.SequenceMatcher(None, a_, b_).ratio()
+    tmatch = sim >= 0.85 or (a_ and b_ and (a_ in b_ or b_ in a_))
     ymatch = cy is None or r["Year"] is None or abs(cy - r["Year"]) <= 1
     status = "match" if tmatch and ymatch else ("title mismatch" if not tmatch else "year mismatch")
     ok += status == "match"
-    rows.append([r["ID"], r["DOI"], r["Title"], ct, cy, f"{status} (sim {sim:.2f})"])
+    rows.append([r["ID"], r["DOI"], reg, r["Title"], ct, cy, f"{status} (sim {sim:.2f})"])
 out = ROOT / "data" / "screening" / f"crossref_check_{label}.csv"
 with out.open("w", newline="") as fh:
     w = csv.writer(fh)
-    w.writerow(["ID", "DOI", "OpenAlex title", "Crossref title", "Crossref year", "result"])
+    w.writerow(["ID", "DOI", "registry", "OpenAlex title", "registry title", "registry year",
+                "result"])
     w.writerows(rows)
-print(f"{ok}/{len(sample)} matched; network calls {f.network_calls}")
+print(f"{ok}/{len(sample)} matched; registries {agency}; network calls {f.network_calls}")
 for row in rows:
-    if not row[5].startswith("match"):
+    if not row[6].startswith("match"):
         print(row)

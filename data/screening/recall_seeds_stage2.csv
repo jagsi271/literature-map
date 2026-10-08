@@ -1,13 +1,13 @@
 title,year,doi,category,expected_themes,openalex_id,match,status,record_id,primary_theme,detail
 An Appraisal of the 100 Smart Cities' Mission in India: Lessons for the Post-Pandemic Urban Future,2025,10.1080/10630732.2025.2549672,Smart city & digital governance,C1 C5 C7 C8,W4414465090,doi,below cut-off,,,query matches C1
-Command and control governance in the 100 smart cities mission in India: Urban innovation or utopias?,2025,,Smart city & digital governance,C1 C5 C7 C8,W4413885114,title,found,LM05672,C1,
+Command and control governance in the 100 smart cities mission in India: Urban innovation or utopias?,2025,,Smart city & digital governance,C1 C5 C7 C8,W4413885114,title,found,LM05566,C1,
 "Smart Cities, Surveillance and Speed in Imphal, Manipur",2024,10.1080/00856401.2024.2381997,Smart city & digital governance,C1 C5 C7 C8,W4401911643,doi,below cut-off,,,query matches C1
 'Eyes and Ears': Surveillance in the Indian Smart City,,10.1007/978-3-030-15145-4_60-1,Surveillance & security,B3 C6,W3111446090,doi,below cut-off,,,query matches B3 C1 C6
 Let's get digital: Exploring urban governance and management in India,2025,,Smart city & digital governance,C1 C5 C7 C8,,,not in OpenAlex,,,
-"Smart Urbanization in India: Engagement, Participation, and Citizenship in Pune Smart City",,10.1007/978-981-97-7521-7_3,Smart city & digital governance,C1 C5 C7 C8,W4406026675,doi,found,LM05685,C1,
+"Smart Urbanization in India: Engagement, Participation, and Citizenship in Pune Smart City",,10.1007/978-981-97-7521-7_3,Smart city & digital governance,C1 C5 C7 C8,W4406026675,doi,found,LM05579,C1,
 Smart City Control Rooms: The Rewiring of Local Governance Landscapes in India,2026,10.1111/1468-2427.70025,Smart city & digital governance,C1 C5 C7 C8,W4414216775,doi,below cut-off,,,query matches A1 A1 C1
 "Past, present and future of the Smart City in India: An institutional perspective",2023,,Smart city & digital governance,C1 C5 C7 C8,W4390861653,title,below cut-off,,,query matches C1
-Multiscalar Smart City Governance in India,2021,10.1016/j.geoforum.2021.03.001,Smart city & digital governance,C1 C5 C7 C8,W3137203212,doi,found,LM05645,C1,
+Multiscalar Smart City Governance in India,2021,10.1016/j.geoforum.2021.03.001,Smart city & digital governance,C1 C5 C7 C8,W3137203212,doi,found,LM05539,C1,
 A Study Exploring the Status of Governance of Varanasi Smart City,2025,10.20896/cm9mny91,Smart city & digital governance,C1 C5 C7 C8,W4414541227,doi,below cut-off,,,query matches C1
 "Role of Technology in Smart Governance: 'Smart City, Safe City'",2013,10.2139/ssrn.2310465,Surveillance & security,B3 C6,W130347918,doi,below cut-off,,,query matches C1 C6 C8
 WebGIS map for smart city development and decision support system: Dehradun Smart City,2024,10.59400/issc1454,Smart city & digital governance,C1 C5 C7 C8,W4404475725,doi,below cut-off,,,query matches C1 C8
@@ -15,30 +15,30 @@ WebGIS map for smart city development and decision support system: Dehradun Smar
 Why do smart city projects fail to create impact? Understanding decision-making in smart city policy implementation,2025,10.1016/j.ugj.2025.02.004,Smart city & digital governance,C1 C5 C7 C8,W4407479994,doi,below cut-off,,,query matches A1 C1
 One Health Approach through interactive Urban Health Governance Framework in a Smart city,2018,10.5210/ojphi.v10i1.8949,Smart city & digital governance,C1 C5 C7 C8,W2890751842,doi,below cut-off,,,query matches A1 C1
 Drivers and barriers to e-government adoption in Indian cities,2019,,Smart city & digital governance,C1 C5 C7 C8,W3080703323,title,below cut-off,,,query matches A1 C8
-Digital public goods for urban governance: lessons from urban local bodies across India,2026,10.1007/s40012-026-00427-1,Smart city & digital governance,C1 C5 C7 C8,W7167486748,doi,found,LM06580,C8,
+Digital public goods for urban governance: lessons from urban local bodies across India,2026,10.1007/s40012-026-00427-1,Smart city & digital governance,C1 C5 C7 C8,W7167486748,doi,found,LM06468,C8,
 A citizen-centric approach to understand the effectiveness of e-government web portals: Empirical evidence from India,2022,10.3233/ip-220001,Smart city & digital governance,C1 C5 C7 C8,W4309066291,doi,query gap,,,no theme or supplementary query matches
 Responding to information needs of the citizens through e-government portals and online services in India,2010,10.1080/10572317.2010.10762860,Smart city & digital governance,C1 C5 C7 C8,W4253849059,doi,query gap,,,no theme or supplementary query matches
 Dynamics of e-Governance in post COVID era: India,2021,10.1002/isd2.12168,Smart city & digital governance,C1 C5 C7 C8,W3120904271,doi,query gap,,,no theme or supplementary query matches
 Urban E-Governance: A Quest for Pro-citizen Conceptual Model,,10.1007/978-3-030-23796-7_19,Smart city & digital governance,C1 C5 C7 C8,W2985120502,doi,below cut-off,,,query matches A1 C8
-Gig Economy Workers' Livelihood: A Qualitative Study of Ride-Hailing Platforms in Bangalore City,2023,10.21648/opst6018,Platforms & gig economy,B1 B11 C2 C15,W4411194851,doi,found,LM04973,B11,
+Gig Economy Workers' Livelihood: A Qualitative Study of Ride-Hailing Platforms in Bangalore City,2023,10.21648/opst6018,Platforms & gig economy,B1 B11 C2 C15,W4411194851,doi,found,LM04901,B11,
 Problems and Probable Solutions of Platform Based Gig Workers: Andhra Pradesh,2025,10.52783/jisem.v10i26s.4258,Platforms & gig economy,B1 B11 C2 C15,W4409144538,doi,below cut-off,,,query matches B11
 "Gig Economy and Platform Workers in India: Working Conditions, Social Security and Legal Provisions",2025,10.31305/rrjss.2025.v05.n01.046,Platforms & gig economy,B1 B11 C2 C15,W7141800627,doi,below cut-off,,,query matches B11
 Labour Welfare and Social Security Concerns of Gig Workers in India,2026,10.21275/sr26211233658,Platforms & gig economy,B1 B11 C2 C15,W7129230236,doi,below cut-off,,,query matches B11 C10
 Reconceptualizing Challenges and Opportunities for Gig Workers in India: A Conceptual Framework,2026,10.51220/jmr.v21-i1.19,Platforms & gig economy,B1 B11 C2 C15,W7167621545,doi,below cut-off,,,query matches B11
 A Sociological Study on Work Culture and Livelihood Pattern of Gig Workers in Chennai City,2025,10.47772/ijriss.2025.91100014,Platforms & gig economy,B1 B11 C2 C15,W4416757408,doi,below cut-off,,,query matches B11 C15
 Gig Work and Economic Security: A Study on Platform Workers in Vijayawada City,2026,10.36713/epra27530,Platforms & gig economy,B1 B11 C2 C15,W7160766917,doi,below cut-off,,,query matches B11 C15
-Regulating Platform Work and Trust Outcomes among Urban Gig Workers in India,2026,10.33788/rcis.92.12,Platforms & gig economy,B1 B11 C2 C15,W7136090013,doi,found,LM07462,C15,
-Dislike and Survival: Work-Related Dynamics of Gig Platform Workers in India,2025,10.1111/ntwe.12337,Platforms & gig economy,B1 B11 C2 C15,W4409053111,doi,found,LM04986,B11,
+Regulating Platform Work and Trust Outcomes among Urban Gig Workers in India,2026,10.33788/rcis.92.12,Platforms & gig economy,B1 B11 C2 C15,W7136090013,doi,found,LM07340,C15,
+Dislike and Survival: Work-Related Dynamics of Gig Platform Workers in India,2025,10.1111/ntwe.12337,Platforms & gig economy,B1 B11 C2 C15,W4409053111,doi,found,LM04914,B11,
 Committed But Not Connected: Platform-Based Job Design and Organizational Commitment Among Gig Workers in India,2026,10.51483/ijaiml.6.11s.2026.300-314,Platforms & gig economy,B1 B11 C2 C15,W7214959778,doi,below cut-off,,,query matches B11
 "Opportunities and Challenges of Gig Economy from the Perception of Platform Workers, Chennai",2023,10.54368/qijcm.3.1.0011,Platforms & gig economy,B1 B11 C2 C15,W4367850335,doi,below cut-off,,,query matches B11 C15
-Gig Economy in India: Long-Term Employability Among Gig Workers in Bengaluru,2026,10.63680/ijsate0426111.082,Platforms & gig economy,B1 B11 C2 C15,W7154461125,doi,found,LM05027,B11,
-Status of Gig Workers in India: Evidence from Ahmedabad City Post-COVID-19 Pandemic,2025,10.1177/09722661251396653,Platforms & gig economy,B1 B11 C2 C15,W4416459803,doi,found,LM07446,C15,
+Gig Economy in India: Long-Term Employability Among Gig Workers in Bengaluru,2026,10.63680/ijsate0426111.082,Platforms & gig economy,B1 B11 C2 C15,W7154461125,doi,found,LM04955,B11,
+Status of Gig Workers in India: Evidence from Ahmedabad City Post-COVID-19 Pandemic,2025,10.1177/09722661251396653,Platforms & gig economy,B1 B11 C2 C15,W4416459803,doi,found,LM07324,C15,
 Caste out: How social hierarchy and exclusion affect gig workers in India,2024,10.51428/tsr.fqte1515,Platforms & gig economy,B1 B11 C2 C15,W4391312288,doi,below cut-off,,,query matches B11
 Gig Workers: Challenges and Legal Recognition in India,2024,10.36948/ijfmr.2024.v06i02.15836,Platforms & gig economy,B1 B11 C2 C15,W4393355387,doi,below cut-off,,,query matches B11
-Gig Workers in India - a Legal Perspective,2025,10.63363/aijfr.2025.v06i06.1776,Platforms & gig economy,B1 B11 C2 C15,W4416022710,doi,found,LM05865,C2,
-"Platform Urbanism and Culinary Logistics: Mobility, Infrastructure, and Micro-Entrepreneurship in Post-Digital Kolkata",,10.1007/978-981-95-3873-7_11,Platforms & gig economy,B1 B11 C2 C15,W7118006460,doi,found,LM05869,C2,
-Freight patterns and spatial planning requirements of third generation E-commerce in Indian cities,2023,10.1080/21650020.2023.2256817,Platforms & gig economy,B1 B11 C2 C15,W4386597287,doi,found,LM05798,C2,
-Urban freight activity implications from emerging food industry establishments in an on-demand economy: Evidence from India,2025,,Platforms & gig economy,B1 B11 C2 C15,W4409214349,title,found,LM05817,C2,
+Gig Workers in India - a Legal Perspective,2025,10.63363/aijfr.2025.v06i06.1776,Platforms & gig economy,B1 B11 C2 C15,W4416022710,doi,found,LM05757,C2,
+"Platform Urbanism and Culinary Logistics: Mobility, Infrastructure, and Micro-Entrepreneurship in Post-Digital Kolkata",,10.1007/978-981-95-3873-7_11,Platforms & gig economy,B1 B11 C2 C15,W7118006460,doi,found,LM05761,C2,
+Freight patterns and spatial planning requirements of third generation E-commerce in Indian cities,2023,10.1080/21650020.2023.2256817,Platforms & gig economy,B1 B11 C2 C15,W4386597287,doi,found,LM05692,C2,
+Urban freight activity implications from emerging food industry establishments in an on-demand economy: Evidence from India,2025,,Platforms & gig economy,B1 B11 C2 C15,W4409214349,title,found,LM05710,C2,
 Empowering Women Street Vendors: Assessing the Role of Unified Payments Interface in Advancing Financial Inclusion,,10.1007/978-3-032-00343-0_4,Digital finance & payments,B6 C11,W7129208757,doi,below cut-off,,,query matches A10 A10 B6 C11
 Does Unified Payment Interface (UPI) Contribute to Financial Inclusion? The Case of Construction Workers in Andhra Pradesh,,10.1007/978-981-97-6687-1_10,Digital finance & payments,B6 C11,W4405385683,doi,below cut-off,,,query matches C11
 India's DPI Experiment and Digital Finance Revolution,,10.1007/978-3-032-02983-6_27,Digital finance & payments,B6 C11,W4414902793,doi,below cut-off,,,query matches B5 B5 B6
@@ -47,28 +47,28 @@ Evaluation of India's Unified Payments Interface (UPI) through a gender lens: th
 The sound of progress: A case study on merchant adoption of UPI applications and soundboxes,2025,10.1177/20438869251325265,Digital finance & payments,B6 C11,W4408164139,doi,below cut-off,,,query matches B6 C11
 Digital Payment Systems and Business Development of Small and Petty Traders in India,,10.1007/978-3-031-70855-8_2,Digital finance & payments,B6 C11,W4404186066,doi,below cut-off,,,query matches B6
 Penetration of UPI Payment Methods in Indian States: Metropolitan States Versus Other States,,10.1007/978-981-96-3355-5_44,Digital finance & payments,B6 C11,W4412624995,doi,below cut-off,,,query matches A8 B6 B10 C11
-"Grassroots authoritarianism: WhatsApp, middle-class boundary-making and pandemic governance in New Delhi's neighbourhoods",2023,10.1080/21622671.2022.2160372,Digital publics & social media,B8 C12 C18,W4321093349,doi,found,LM07741,C18,
-Enterprise Hindutva and social media in urban India,2018,10.1080/09584935.2018.1545007,Digital publics & social media,B8 C12 C18,W2901346815,doi,found,LM04375,B8,
-"No Room for Dissent: Domesticating WhatsApp, Digital Private Spaces, and Lived Democracy in India",2022,10.1111/anti.12779,Digital publics & social media,B8 C12 C18,W3213890796,doi,found,LM04380,B8,
+"Grassroots authoritarianism: WhatsApp, middle-class boundary-making and pandemic governance in New Delhi's neighbourhoods",2023,10.1080/21622671.2022.2160372,Digital publics & social media,B8 C12 C18,W4321093349,doi,found,LM07619,C18,
+Enterprise Hindutva and social media in urban India,2018,10.1080/09584935.2018.1545007,Digital publics & social media,B8 C12 C18,W2901346815,doi,found,LM04306,B8,
+"No Room for Dissent: Domesticating WhatsApp, Digital Private Spaces, and Lived Democracy in India",2022,10.1111/anti.12779,Digital publics & social media,B8 C12 C18,W3213890796,doi,found,LM04311,B8,
 Political Posters Reveal a Tension in WhatsApp Platform Design: Digital Images From India's 2019 Elections,2022,10.1177/15274764211052997,Digital publics & social media,B8 C12 C18,W3210533735,doi,below cut-off,,,query matches B8
 India Needs a Fresh Strategy to Tackle Online Extreme Speech,2019,,Digital publics & social media,B8 C12 C18,W2985943609,title,below cut-off,,,query matches B9
 'Millennial India': Global Digital Politics in Context,2019,10.1177/1527476419870516,Digital publics & social media,B8 C12 C18,W2972452696,doi,query gap,,,no theme or supplementary query matches
 "Transparency, exclusion and mediation: how digital and biometric technologies are transforming social protection in Tamil Nadu",2021,10.1080/13600818.2021.1904866,Welfare technology & identity,B5 B4,W3147970338,doi,below cut-off,,,query matches B5
 "Aadhaar, Adivasis, and forced migration: Surveillance and exclusion of Gutti Koya in southern India",2026,10.1177/00219096261447225,Welfare technology & identity,B5 B4,W7161296184,doi,below cut-off,,,query matches B5
-Digital Public Services: The Development of Biometric Authentication in India,,10.1007/978-3-030-86065-3_20,Welfare technology & identity,B5 B4,W4295007358,doi,found,LM03812,B5,
-Aadhaar: Governing with Biometrics,2019,10.1080/00856401.2019.1595343,Welfare technology & identity,B5 B4,W2945621989,doi,found,LM03748,B5,
+Digital Public Services: The Development of Biometric Authentication in India,,10.1007/978-3-030-86065-3_20,Welfare technology & identity,B5 B4,W4295007358,doi,found,LM03746,B5,
+Aadhaar: Governing with Biometrics,2019,10.1080/00856401.2019.1595343,Welfare technology & identity,B5 B4,W2945621989,doi,found,LM03683,B5,
 Biometric data's colonial imaginaries continue in Aadhaar's minimal data,2023,,Welfare technology & identity,B5 B4,,,not in OpenAlex,,,
 Becoming data: biometric IDs and the individual in 'Digital India',2021,10.1111/1467-9655.13478,Welfare technology & identity,B5 B4,W3138334323,doi,below cut-off,,,query matches B2 B5
-"Biometric Bodies, Or How to Make Electronic Fingerprinting Work in India",2018,10.1177/1357034x18780983,Welfare technology & identity,B5 B4,W2809295168,doi,found,LM03794,B5,
+"Biometric Bodies, Or How to Make Electronic Fingerprinting Work in India",2018,10.1177/1357034x18780983,Welfare technology & identity,B5 B4,W2809295168,doi,found,LM03728,B5,
 Global research trajectories in the digital transformation of welfare governance and India's specific contribution from 2016 to 2025,2026,10.1007/s44282-026-00542-z,Welfare technology & identity,B5 B4,W7203839933,doi,below cut-off,,,query matches B1 B4
 The Meantime of Development: Aspirational Technology and Future Making in India's Welfare Bureaucracy,2025,10.1177/09717218251336316,Welfare technology & identity,B5 B4,W4410214384,doi,below cut-off,,,query matches B5
 Smartphones for What? Everyday Smartphone Use and Institutional Non-Engagement among Emergent Users in India,2026,10.1007/s10606-026-09546-4,Digital divide & access,B7 B13,W7165114981,doi,below cut-off,,,query matches B13
 A Study on Mobile Phone Technology Adoption & Usage Among Urban Poor Women in Resettlement Sites,2024,10.1177/20563051241237271,Digital divide & access,B7 B13,W4393010390,doi,below cut-off,,,query matches A4 B13
 Rural-Urban Digital Divide: Evidence From Indian States,2026,10.1002/ijfe.70045,Digital divide & access,B7 B13,W4414737996,doi,below cut-off,,,query matches B7
-Mobile and smartphone use in urban and rural India,2012,10.1080/10304312.2012.706458,Digital divide & access,B7 B13,W2006133129,doi,found,LM05282,B13,
+Mobile and smartphone use in urban and rural India,2012,10.1080/10304312.2012.706458,Digital divide & access,B7 B13,W2006133129,doi,found,LM05197,B13,
 Rural-urban digital divide in India: a decomposition analysis,2026,10.1007/s40847-026-00500-0,Digital divide & access,B7 B13,W7131790450,doi,below cut-off,,,query matches B7 B13 B13
-Navigating Technology: Mobile Media Usage and Reticence Among Older Adults in Rural India,2026,10.1177/20501579251378548,Digital divide & access,B7 B13,W4414427302,doi,found,LM05361,B13,
-Understanding Technology as Situated Practice: Everyday use of Voice User Interfaces Among Diverse Groups of Users in Urban India,2020,10.1007/s10796-020-10015-6,Digital divide & access,B7 B13,W3034142844,doi,found,LM05272,B13,
+Navigating Technology: Mobile Media Usage and Reticence Among Older Adults in Rural India,2026,10.1177/20501579251378548,Digital divide & access,B7 B13,W4414427302,doi,found,LM05271,B13,
+Understanding Technology as Situated Practice: Everyday use of Voice User Interfaces Among Diverse Groups of Users in Urban India,2020,10.1007/s10796-020-10015-6,Digital divide & access,B7 B13,W3034142844,doi,found,LM05188,B13,
 Explaining caste-based digital divide in India,2021,,Digital divide & access,B7 B13,W3202145518,title,below cut-off,,,query matches B7
 Cyber fraud risks and the determinants of cybercrime reporting ability in India's cashless transition,2026,10.1007/s44217-026-01918-8,Cybercrime & fraud,B10 C17,W7170095704,doi,below cut-off,,,query matches B6 B10
 Cyber-Financial (Cy-Fi) Fraud in India: A Case Study of COVID-19 Induced Cybercrime in Mewat Region,2026,10.1177/00219096241300444,Cybercrime & fraud,B10 C17,W4404813458,doi,below cut-off,,,query matches B10 B13
@@ -76,12 +76,12 @@ A Questionnaire Based Survey Analysis of Cyber Crime in Rural and Urban Areas,,1
 Unveiling Cybercrime Patterns in Kerala: A Machine Learning Approach,,10.1007/978-981-96-7140-3_8,Cybercrime & fraud,B10 C17,W7117994513,doi,below cut-off,,,query matches B10 C17
 "Cybercrime and cybersecurity in India: causes, consequences and implications for the future",2016,10.1007/s10611-016-9629-3,Cybercrime & fraud,B10 C17,W2513690574,doi,below cut-off,,,query matches B10
 Cybercrime and Cybersecurity in India,,10.1057/9781137021946_5,Cybercrime & fraud,B10 C17,W2460747769,doi,below cut-off,,,query matches B10
-On the Delhi Metro: An Ethnographic View,2010,,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W2251701517,title,found,LM01415,A8,
+On the Delhi Metro: An Ethnographic View,2010,,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W2251701517,title,found,LM01378,A8,
 The Moving City: Scenes from the Delhi Metro and the Social Life of Infrastructure,2024,10.1080/18752160.2024.2302712,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W4392808172,doi,below cut-off,,,query matches A8
 Delhi on the Move: Urban Im/Mobilities in Contemporary Hindi Writings,,10.1007/978-3-031-42798-5_10,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W4391392677,doi,below cut-off,,,query matches A3 A4
-"Infrastructure of life: public address, listening and crowds in the Delhi metro and Kumbh",2022,10.1177/01634437211037017,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W3197043102,doi,found,LM01471,A8,
+"Infrastructure of life: public address, listening and crowds in the Delhi metro and Kumbh",2022,10.1177/01634437211037017,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W3197043102,doi,found,LM01434,A8,
 "Working Women, Delhi Metro and Covid-19: A Case Study in Delhi-NCR",2021,10.1007/s41027-021-00313-1,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W3164172591,doi,below cut-off,,,query matches A8
-Cycling as work: mobility and informality in Indian cities,2023,,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W4311763853,title,found,LM01427,A8,
+Cycling as work: mobility and informality in Indian cities,2023,,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W4311763853,title,found,LM01390,A8,
 Easing Mumbai's Suburban Train Congestion,2019,,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,,,not in OpenAlex,,,
 When transport becomes a destination: deaf spaces and networks on the Mumbai suburban trains,2017,10.1080/08873631.2017.1305525,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W2598841093,doi,below cut-off,,,query matches A8 A12 B13
 "Mobility and transport infrastructure in Mumbai Metropolitan Region: growth, exclusion and modal choices",2023,10.1080/21650020.2023.2212745,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W4377107690,doi,below cut-off,,,query matches A8
@@ -89,11 +89,11 @@ The Crisis of Public Transport in India: Overwhelming Needs but Limited Resource
 Autogestion and competing hierarchies: deaf and other perspectives on diversity and the right to occupy space in the Mumbai suburban trains,2016,10.1080/14649365.2016.1171387,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W2341996283,doi,below cut-off,,,query matches A8
 The Invisible Last Mile of Mumbai's Lifeline,2020,,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,,,not in OpenAlex,,,
 "Infrastructural Care: Repairing Railway Trains, Maintaining Mumbai's Lifeline",2023,10.1080/00141844.2023.2260960,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W4386994292,doi,query gap,,,no theme or supplementary query matches
-"Public Transport Subsidies and Affordability in Mumbai, India",2012,10.1155/2012/865972,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W1980767870,doi,found,LM01405,A8,
+"Public Transport Subsidies and Affordability in Mumbai, India",2012,10.1155/2012/865972,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W1980767870,doi,found,LM01368,A8,
 Evaluating the emission reduction potential of first underground metro rail in Mumbai,,10.1007/s43621-025-01994-0,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W4415728767,doi,query gap,,,no theme or supplementary query matches
 India's new globalization strategy and its consequences for urban development: the impact of the 2010 Commonwealth Games on Delhi's transport system,2015,10.1080/13563475.2015.1114448,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W2199831092,doi,below cut-off,,,query matches A2 A13
 Is fare-free urban transport a path to women's empowerment? Evidence from Delhi's pink pass policy,2026,10.1080/21650020.2026.2658212,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W7154681473,doi,below cut-off,,,query matches A8 A12
-Challenges and barriers for gender-inclusive public transport policies and practice in Delhi,2024,,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W4394935118,title,found,LM01442,A8,
+Challenges and barriers for gender-inclusive public transport policies and practice in Delhi,2024,,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W4394935118,title,found,LM01405,A8,
 Does free travel for women in public transportation make them more inclusive? An investigation of gendered subsidy initiative in India,2026,,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W7127388240,title,below cut-off,,,query matches A9
 How do you travel? A holistic evaluation of public transport journeys of women: Delhi,2024,,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W4402946234,title,below cut-off,,,query matches A8
 Exploring the impact of women's free bus services on women's mobility and quality of life,2026,10.1080/29941849.2026.2712714,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W7204002756,doi,below cut-off,,,query matches A1 A8
@@ -103,18 +103,18 @@ Gender Issues in the Public Transport System of India: Critical Review,,10.1007/
 "Which Sociodemographic, In-Vehicle and Transit-Stop Attributes Influence Indian Women Commuters' Safety and Security Perceptions of Public Transportation?",2026,10.1177/03611981251339176,Mobility & transport,A8 C9 S1 S2 S3 S4 S5 S6,W4412145399,doi,below cut-off,,,query matches A16
 Private Space in Public Transport: Locating Gender in the Delhi Metro,2011,,Gender & public space,A9 A12,,,not in OpenAlex,,,
 Beyond Safety: Gendered Mobility in Karachi and Delhi,2023,10.1080/19428200.2023.2230095,Gender & public space,A9 A12,W4387585528,doi,below cut-off,,,query matches A8
-"Safe in the City? Negotiating safety, public space and the male gaze in Kolkata",2021,,Gender & public space,A9 A12,W3181114874,title,found,LM01658,A9,
+"Safe in the City? Negotiating safety, public space and the male gaze in Kolkata",2021,,Gender & public space,A9 A12,W3181114874,title,found,LM01619,A9,
 Visibility matters: Constructing safe passages on the streets of Kolkata,2022,10.1080/07352166.2022.2105224,Gender & public space,A9 A12,W4304698280,doi,below cut-off,,,query matches A9 A10
 How Do We Help Women Navigate Cities Designed by Men?,,,Gender & public space,A9 A12,,,not in OpenAlex,,,
-Politics of presence: women's safety and respectability at night in Mumbai,2018,10.1080/0966369x.2017.1400951,Gender & public space,A9 A12,W2769573759,doi,found,LM02910,A16,
+Politics of presence: women's safety and respectability at night in Mumbai,2018,10.1080/0966369x.2017.1400951,Gender & public space,A9 A12,W2769573759,doi,found,LM02852,A16,
 What Has Urban Decentralization Meant? A Case Study of Delhi,2013,10.5509/2013864813,"Neighbourhoods, RWAs & civil society",C18 A1,W2324477517,doi,below cut-off,,,query matches A1
-Justice within the new factory gates: how to hold RWAs responsible for workers' welfare,,,"Neighbourhoods, RWAs & civil society",C18 A1,W4406246054,title,found,LM07746,C18,
+Justice within the new factory gates: how to hold RWAs responsible for workers' welfare,,,"Neighbourhoods, RWAs & civil society",C18 A1,W4406246054,title,found,LM07624,C18,
 Gentrifying the State (in Contesting the Indian City),,10.1002/9781118295823.ch7,"Neighbourhoods, RWAs & civil society",C18 A1,W1537889282,doi,below cut-off,,,query matches A1 A3 C18
-Urban governance and health care provision in Delhi,2011,10.1177/0956247811416433,"Neighbourhoods, RWAs & civil society",C18 A1,W2094608600,doi,found,LM07747,C18,
-"Decentralized governance or passing the buck: the case of resident welfare associations at resettlement sites, Ahmedabad",2016,10.1177/0956247815613688,"Neighbourhoods, RWAs & civil society",C18 A1,W2323629725,doi,found,LM07745,C18,
+Urban governance and health care provision in Delhi,2011,10.1177/0956247811416433,"Neighbourhoods, RWAs & civil society",C18 A1,W2094608600,doi,found,LM07625,C18,
+"Decentralized governance or passing the buck: the case of resident welfare associations at resettlement sites, Ahmedabad",2016,10.1177/0956247815613688,"Neighbourhoods, RWAs & civil society",C18 A1,W2323629725,doi,found,LM07623,C18,
 "Class, Property Rights and Citizenship: Affluent Informal Settlements and the Cultural Production of Property in Delhi",2026,10.1111/1468-2427.70002,"Housing, resettlement & informality",A3 A4 C14,W4413337246,doi,below cut-off,,,query matches A3 A3
-Slum-free city planning versus durable slums. Insights from Delhi,2019,10.1080/19463138.2019.1666850,"Housing, resettlement & informality",A3 A4 C14,W2976829130,doi,found,LM00475,A3,
-"'This is no longer the city I once knew'. Evictions, the urban poor and the right to the city in Delhi",2009,10.1177/0956247809103009,"Housing, resettlement & informality",A3 A4 C14,W2093610179,doi,found,LM00607,A4,
+Slum-free city planning versus durable slums. Insights from Delhi,2019,10.1080/19463138.2019.1666850,"Housing, resettlement & informality",A3 A4 C14,W2976829130,doi,found,LM00471,A3,
+"'This is no longer the city I once knew'. Evictions, the urban poor and the right to the city in Delhi",2009,10.1177/0956247809103009,"Housing, resettlement & informality",A3 A4 C14,W2093610179,doi,found,LM00602,A4,
 Urban Negotiations and Small-Scale Gentrification in a Delhi Resettlement Colony,,10.1007/978-81-322-2154-8_5,"Housing, resettlement & informality",A3 A4 C14,W2463347105,doi,below cut-off,,,query matches A3 A4 A13
 The making of a peripheral town in Delhi Metropolis through the displacement of Basti dwellers,2024,10.1080/13604813.2024.2320520,"Housing, resettlement & informality",A3 A4 C14,W4392741053,doi,below cut-off,,,query matches A3 A4
 'Propertied Ambiguity': Negotiating the State in a Delhi Resettlement Colony,,10.1007/978-81-322-2154-8_4,"Housing, resettlement & informality",A3 A4 C14,W2465570617,doi,below cut-off,,,query matches A3 A4
@@ -122,32 +122,32 @@ The Magicians' Ghetto: Moving Slums and Everyday Life in a Postcolonial City,201
 Cosmopolitan imaginaries on the margins: negotiating difference and belonging in a Delhi resettlement colony,2014,10.1080/09584935.2013.870976,"Housing, resettlement & informality",A3 A4 C14,W2062217010,doi,below cut-off,,,query matches A3 A4 A13
 Making the Global City: Urban Citizenship at the Margins of Delhi,2010,10.1080/00141844.2010.532227,"Housing, resettlement & informality",A3 A4 C14,W2042449009,doi,screened out,,,A10:india exclude (core concept mentioned once | manual: urban citizenship at Delhi's margins; informal econo)
 A review of literature on slum redevelopment policies of India: Geographies of dispossessions and caste,2023,10.1111/gec3.12690,"Housing, resettlement & informality",A3 A4 C14,W4379739763,doi,below cut-off,,,query matches A3 A12
-"Planned illegality, permanent temporariness, and strategic philanthropy: tenement towns under extended urbanisation of postmetropolitan Delhi",2021,10.1080/02673037.2021.1992359,"Housing, resettlement & informality",A3 A4 C14,W3209810760,doi,found,LM00821,A5,
+"Planned illegality, permanent temporariness, and strategic philanthropy: tenement towns under extended urbanisation of postmetropolitan Delhi",2021,10.1080/02673037.2021.1992359,"Housing, resettlement & informality",A3 A4 C14,W3209810760,doi,found,LM00801,A5,
 "Unpacking the 'Unauthorized Colony': Policy, Planning and Everyday Lives",,10.1007/978-81-322-2154-8_8,"Housing, resettlement & informality",A3 A4 C14,W2416742348,doi,below cut-off,,,query matches A3
 "Housing, health and energy: a characterisation of risks and priorities across Delhi's diverse settlements",2020,10.1080/23748834.2020.1800161,"Housing, resettlement & informality",A3 A4 C14,W3086541464,doi,below cut-off,,,query matches A3
-Unlocking housing capital: semi-legal titles & informal credit in Delhi's unauthorised colonies,2025,10.1080/00346764.2025.2540103,"Housing, resettlement & informality",A3 A4 C14,W4413032291,doi,found,LM00545,A3,
+Unlocking housing capital: semi-legal titles & informal credit in Delhi's unauthorised colonies,2025,10.1080/00346764.2025.2540103,"Housing, resettlement & informality",A3 A4 C14,W4413032291,doi,found,LM00541,A3,
 Incipient Informality in Delhi's 'Formalized' Suburban Space,,10.1007/978-81-322-2154-8_6,"Housing, resettlement & informality",A3 A4 C14,W2479005609,doi,below cut-off,,,query matches A3
 Governing Gurgaon as a financial investment,2022,10.1080/13604813.2022.2126198,"Land, peri-urban & private cities",A5 A2,W4308203680,doi,below cut-off,,,query matches A1
-Who owns the city? Neoliberal urbanism and land purchases in Gurgaon,2024,10.1177/00420980231184784,"Land, peri-urban & private cities",A5 A2,W4384406893,doi,found,LM00836,A5,
-"The Urban Village, Agrarian Transformation, and Rentier Capitalism in Gurgaon",2018,10.1111/anti.12404,"Land, peri-urban & private cities",A5 A2,W2887848888,doi,found,LM00777,A5,
-Post-liberal urban dynamics in India,2021,,"Land, peri-urban & private cities",A5 A2,W3146342900,title,found,LM00812,A5,
+Who owns the city? Neoliberal urbanism and land purchases in Gurgaon,2024,10.1177/00420980231184784,"Land, peri-urban & private cities",A5 A2,W4384406893,doi,found,LM00814,A5,
+"The Urban Village, Agrarian Transformation, and Rentier Capitalism in Gurgaon",2018,10.1111/anti.12404,"Land, peri-urban & private cities",A5 A2,W2887848888,doi,screened out,,,A5:india exclude (primary topic field Agricultural and Biological Sciences)
+Post-liberal urban dynamics in India,2021,,"Land, peri-urban & private cities",A5 A2,W3146342900,title,found,LM00794,A5,
 Cities in a world of villages: agrarian urbanism and the making of India's urbanizing frontiers,2019,10.1080/02723638.2019.1670569,"Land, peri-urban & private cities",A5 A2,W2981820068,doi,below cut-off,,,query matches A12
 Thinking Through Urban Fragments: The Making of the Millennium City of Gurgaon,2025,10.1080/24694452.2024.2447505,"Land, peri-urban & private cities",A5 A2,W4407873311,doi,below cut-off,,,query matches A5
 "An analysis of land and property development models, and stakeholders: National Capital Region",2022,,"Land, peri-urban & private cities",A5 A2,W4220950355,title,below cut-off,,,query matches A5
-Planning the Millennium City: The politics of place-making in Gurgaon,2016,10.1177/2233865916628798,"Land, peri-urban & private cities",A5 A2,W2340442891,doi,found,LM00797,A5,
+Planning the Millennium City: The politics of place-making in Gurgaon,2016,10.1177/2233865916628798,"Land, peri-urban & private cities",A5 A2,W2340442891,doi,found,LM00781,A5,
 The Micro-Politics of Urban Transformation in the Context of Globalisation: Gurgaon,2012,10.1080/00856401.2012.739272,"Land, peri-urban & private cities",A5 A2,W1546544327,doi,below cut-off,,,query matches A1 A5
 Sustainable Urban Management of the Mainstream and the Margin: Reflecting on Delhi and Its Peri-Urban Transformation,,10.1007/978-3-031-24767-5_6,"Land, peri-urban & private cities",A5 A2,W4377833437,doi,below cut-off,,,query matches A5 A13
 Negotiated urbanism: polychromatic encounters within the world-class restructuring of Delhi,2025,10.1007/s43545-025-01271-x,"Heritage, events & world-class city",A13 C16,W4417197553,doi,below cut-off,,,query matches A14
 "The Tenth Delhi: economy, politics and space in the post-liberalisation metropolis",2017,10.1007/s40622-017-0154-8,"Land, peri-urban & private cities",A5 A2,W2620091758,doi,below cut-off,,,query matches A5
 Introduction: Reclaiming Small Towns (Subaltern Urbanisation in India),,10.1007/978-81-322-3616-0_1,Small towns & census towns,A6 S7,W2593570602,doi,below cut-off,,,query matches A5 A6
 The concept of planetary urbanization applied to India's rural to urban transformation,2022,,Small towns & census towns,A6 S7,,,not in OpenAlex,,,
-Urbanisation as the rise of census towns in India: An outcome of traditional master planning?,2019,,Small towns & census towns,A6 S7,W3005488940,title,found,LM00966,A6,
-Unacknowledged Urbanisation: The New Census Towns in India,,10.1007/978-81-322-3616-0_2,Small towns & census towns,A6 S7,W1910490942,doi,found,LM00961,A6,
-Birth of Census Towns in India: An Economic Analysis,2020,10.1177/2277978720961190,Small towns & census towns,A6 S7,W3092315231,doi,found,LM01005,A6,
+Urbanisation as the rise of census towns in India: An outcome of traditional master planning?,2019,,Small towns & census towns,A6 S7,W3005488940,title,found,LM00939,A6,
+Unacknowledged Urbanisation: The New Census Towns in India,,10.1007/978-81-322-3616-0_2,Small towns & census towns,A6 S7,W1910490942,doi,found,LM00934,A6,
+Birth of Census Towns in India: An Economic Analysis,2020,10.1177/2277978720961190,Small towns & census towns,A6 S7,W3092315231,doi,found,LM00978,A6,
 Shedding Light on Social and Economic Changes in Small Towns Through the Prism of Local Governance: A Case Study of Haryana,,10.1007/978-81-322-3616-0_14,Small towns & census towns,A6 S7,W2594694074,doi,below cut-off,,,query matches A1 A6 A12 S7
-How to transform census towns into economic growth engines: an Indian (Pune) perspective,2024,10.1007/s41685-024-00353-7,Small towns & census towns,A6 S7,W4403843974,doi,found,LM01020,A6,
+How to transform census towns into economic growth engines: an Indian (Pune) perspective,2024,10.1007/s41685-024-00353-7,Small towns & census towns,A6 S7,W4403843974,doi,found,LM00993,A6,
 Shedding light on unnoticed gems in India: A small town's growth perspective,2022,,Small towns & census towns,A6 S7,,,not in OpenAlex,,,
-Missing millions: undercounting urbanization in India,2019,10.1007/s11111-019-00329-2,Small towns & census towns,A6 S7,W2993429231,doi,found,LM00974,A6,
+Missing millions: undercounting urbanization in India,2019,10.1007/s11111-019-00329-2,Small towns & census towns,A6 S7,W2993429231,doi,found,LM00947,A6,
 Expanding urban discourse: a review on the need for comprehensive research on small towns and their unique roles,2026,10.1007/s10708-026-11663-y,Small towns & census towns,A6 S7,W7167785002,doi,below cut-off,,,query matches A5 A6 A9
 "Growth of private reading spaces in Lucknow, India: A case study",2026,10.1177/03400352251412906,Knowledge access & libraries,B7,W7126258587,doi,query gap,,,no theme or supplementary query matches
 Toward reforms: Revisiting public library legislation in Indian states,2026,,Knowledge access & libraries,B7,W4414532074,title,query gap,,,no theme or supplementary query matches
@@ -155,23 +155,23 @@ Investing in Smart Cities: Enhancing Public Libraries for Quality Services in In
 An Overview of Karnataka State's Digital Public Library Initiative,2023,10.18329/09757597/2023/16207,Knowledge access & libraries,B7,,,not in OpenAlex,,,
 A Public Library as a Gateway for Social Work Community Practice: Kerala,2023,10.1080/24750158.2023.2271694,Knowledge access & libraries,B7,W4388115691,doi,query gap,,,no theme or supplementary query matches
 From Cybermohalla to Trickster City: Writing from the margins of Delhi,2018,10.1080/17449855.2018.1461978,Knowledge access & libraries,B7,W2809295637,doi,below cut-off,,,query matches A3 A13 C14
-"Waiting for the state: Gender, citizenship and everyday encounters with bureaucracy in India",2019,10.1177/0263774x18802930,"Bureaucracy, waiting & documents",B5 A1 S2,W2889381623,doi,found,LM02904,A16,Supplementary only
-Waiting for welfare: experiences of street traders from Delhi,2022,10.1080/13691457.2022.2117136,"Bureaucracy, waiting & documents",B5 A1 S2,W4296837992,doi,found,LM03802,B5,
+"Waiting for the state: Gender, citizenship and everyday encounters with bureaucracy in India",2019,10.1177/0263774x18802930,"Bureaucracy, waiting & documents",B5 A1 S2,W2889381623,doi,found,LM02846,A16,Supplementary only
+Waiting for welfare: experiences of street traders from Delhi,2022,10.1080/13691457.2022.2117136,"Bureaucracy, waiting & documents",B5 A1 S2,W4296837992,doi,found,LM03736,B5,
 "Paperwork, patronage, and citizenship: the materiality of everyday interactions with bureaucracy in Tamil Nadu",2020,10.1111/1467-9655.13311,"Bureaucracy, waiting & documents",B5 A1 S2,W2994654530,doi,query gap,,,no theme or supplementary query matches
 "Geographies of Waiting: Politics, Methods, and Praxis - A Case Study of Indian Railway Stations",2023,10.1080/24694452.2023.2209140,"Bureaucracy, waiting & documents",B5 A1 S2,W4380875513,doi,below cut-off,,,query matches A8 S1
 "Paper Tiger: Law, Bureaucracy and the Developmental State in Himalayan India",2016,,"Bureaucracy, waiting & documents",B5 A1 S2,W7073682909,title,expansion corpus only,,,OpenAlex expansion corpus; pipeline searches the core corpus
 Transparent-making Documents and the Crisis of Implementation: A Rural Employment Law and Development Bureaucracy in India,2012,10.1111/j.1555-2934.2012.01197.x,"Bureaucracy, waiting & documents",B5 A1 S2,W2163838432,doi,query gap,,,no theme or supplementary query matches
-'Paused citizens': waiting and negotiating liminality in Assam,2024,10.1080/13621025.2024.2384374,"Bureaucracy, waiting & documents",B5 A1 S2,W4401334352,doi,found,LM02938,A16,Supplementary only
-Dreaming Big: Spectacular Events and the 'World-Class' City: The Commonwealth Games in Delhi,,10.1057/9781137371188_12,"Heritage, events & world-class city",A13 C16,W2442769822,doi,found,LM02403,A13,
+'Paused citizens': waiting and negotiating liminality in Assam,2024,10.1080/13621025.2024.2384374,"Bureaucracy, waiting & documents",B5 A1 S2,W4401334352,doi,found,LM02879,A16,Supplementary only
+Dreaming Big: Spectacular Events and the 'World-Class' City: The Commonwealth Games in Delhi,,10.1057/9781137371188_12,"Heritage, events & world-class city",A13 C16,W2442769822,doi,found,LM02349,A13,
 "Non-place, dispossession, and the 2010 Commonwealth Games: An urban transformation analyzed",2015,,"Heritage, events & world-class city",A13 C16,W2216216016,title,below cut-off,,,query matches A13
-The Dream of Delhi as a Global City,2011,10.1111/j.1468-2427.2010.01027.x,"Heritage, events & world-class city",A13 C16,W2129918224,doi,found,LM02370,A13,
+The Dream of Delhi as a Global City,2011,10.1111/j.1468-2427.2010.01027.x,"Heritage, events & world-class city",A13 C16,W2129918224,doi,found,LM02317,A13,
 Sites to sights: The construction of the 'monument' in modern Delhi,2025,,"Heritage, events & world-class city",A13 C16,W7167284493,title,below cut-off,,,query matches A4 A13
 Delhi: New writings on the megacity,2018,10.1080/17449855.2018.1461977,"Heritage, events & world-class city",A13 C16,W2809416638,doi,query gap,,,no theme or supplementary query matches
 Navigating 'New' Delhi: Moving Between Difference and Belonging in a Globalising City,2010,10.1080/07256868.2010.513084,"Heritage, events & world-class city",A13 C16,W2019659546,doi,below cut-off,,,query matches A13
 Shahjahanabad: A Reality Envisioned,,10.1007/978-981-95-0117-5_12,"Heritage, events & world-class city",A13 C16,W7117993814,doi,below cut-off,,,query matches A13
-Rethinking Tourism Development: Sustainable Architectural Interventions in Shahjahanabad and Beyond,,10.1007/978-981-96-5794-0_11,"Heritage, events & world-class city",A13 C16,W7129076548,doi,found,LM02486,A13,
+Rethinking Tourism Development: Sustainable Architectural Interventions in Shahjahanabad and Beyond,,10.1007/978-981-96-5794-0_11,"Heritage, events & world-class city",A13 C16,W7129076548,doi,found,LM02430,A13,
 "Masjids, monuments and refugees in the Partition city of Delhi, 1947-1959",,,"Heritage, events & world-class city",A13 C16,W4206423843,title,below cut-off,,,query matches A4
-"Delicious Delhi: nostalgia, consumption and the old city",2015,10.1080/1070289x.2015.1034130,"Heritage, events & world-class city",A13 C16,W2054901848,doi,found,LM02407,A13,
+"Delicious Delhi: nostalgia, consumption and the old city",2015,10.1080/1070289x.2015.1034130,"Heritage, events & world-class city",A13 C16,W2054901848,doi,found,LM02353,A13,
 "Between tradition and towers: Westernization, architectural transformation, cultural resilience and the social fabric of Indian cities",2026,,"Heritage, events & world-class city",A13 C16,W7154449242,title,below cut-off,,,query matches A1 A1 A15
 A National Policy for Street Vendors and Its Implication in Delhi,,10.1007/978-981-96-0931-4_15,Street vending & informal economy,A10 C14,W4408676066,doi,below cut-off,,,query matches A10
 Producing and contesting the formal/informal divide: Regulating street hawking in Delhi,2014,10.1177/0042098013510566,Street vending & informal economy,A10 C14,W2105567163,doi,below cut-off,,,query matches A9 A10
