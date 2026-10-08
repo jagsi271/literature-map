@@ -327,3 +327,25 @@ W4416082497,A3,include,"Claude (manual review, Stage 2)",urban informality intro
 W7125515420,A3,include,"Claude (manual review, Stage 2)",urban informality and narrative
 W4292836184,A3,include,"Claude (manual review, Stage 2)",urban informality anthology (review)
 W4296556839,A3,include,"Claude (manual review, Stage 2)",affordable housing policy in England
+W2790239013,A4,exclude,"Claude (manual review, Stage 2)",slum sustainability; eviction in passing
+W1895264394,A4,exclude,"Claude (manual review, Stage 2)",slum development overview; eviction in passing
+W4387975647,A4,exclude,"Claude (manual review, Stage 2)",hypertension survey
+W4393063521,A4,exclude,"Claude (manual review, Stage 2)",metabolic syndrome survey
+W571169363,A4,include,"Claude (manual review, Stage 2)",slum demolition and redevelopment in Mumbai
+W4224298527,A4,exclude,"Claude (manual review, Stage 2)",memory of communal violence; demolition of a mosque
+W2100724899,A4,include,"Claude (manual review, Stage 2)",forced migration and development-induced displacement
+W1515019642,A4,include,"Claude (manual review, Stage 2)",gentrification and displacement in New York
+W2159332089,A4,include,"Claude (manual review, Stage 2)",gray spaces between legality and eviction
+W3008607642,A4,exclude,"Claude (manual review, Stage 2)",climate resilience in informal settlements
+W2129666746,A4,exclude,"Claude (manual review, Stage 2)",tenure security and investment (A3)
+W1509016694,A4,include,"Claude (manual review, Stage 2)",forced displacement from rental housing (flag false positive)
+W2140549225,A4,exclude,"Claude (manual review, Stage 2)",homelessness risk factors (public health)
+W1859341557,A4,include,"Claude (manual review, Stage 2)",residents fighting eviction in China
+W2119786758,A4,exclude,"Claude (manual review, Stage 2)",land titling (A3/A5)
+W2136508577,A4,exclude,"Claude (manual review, Stage 2)",swidden agriculture
+W2138669381,A4,exclude,"Claude (manual review, Stage 2)",shifting cultivation
+W4205675470,A4,include,"Claude (manual review, Stage 2)",evictions during the US moratorium
+W4415395591,A4,exclude,"Claude (manual review, Stage 2)",AI tool for housing rights
+W4413017269,A4,include,"Claude (manual review, Stage 2)",slum resettlement colonies in Mumbai
+W4382775150,A4,exclude,"Claude (manual review, Stage 2)",vaccine coverage survey
+W4290755526,A4,include,"Claude (manual review, Stage 2)",development-induced peri-urban resettlement

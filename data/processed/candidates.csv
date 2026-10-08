@@ -796,8 +796,8 @@ W2074582845,A4,india,A4_india_q1,6,"Fear of Eviction: The Case of Slum and Squat
 W2093610179,A4,india,A4_india_q1,7,"“This is no longer the city I once knew”. Evictions, the urban poor and the right to the city in millennial Delhi",2009,article,461,True,include,6,rules,include
 W145509288,A4,india,A4_india_q1,8,Pro-Poor Housing Rights for Slum Dwellers: The Case Against Evictions in Bangalore,2014,article,1,True,include,6,rules,include
 W2271026799,A4,india,A4_india_q1,9,Green evictions: environmental discourses of a “slum-free” Delhi,2010,book-chapter,29,True,include,3,rules,include
-W2790239013,A4,india,A4_india_q1,10,Assessing urban sustainability of slum settlements in Bangladesh: Evidence from Chittagong city,2018,article,106,True,borderline,1,core concept mentioned once,pending
-W1895264394,A4,india,A4_india_q1,11,Sustainable Urban Development Of Slum Prone Area Of Dhaka City,2013,article,18,True,borderline,1,core concept mentioned once,pending
+W2790239013,A4,india,A4_india_q1,10,Assessing urban sustainability of slum settlements in Bangladesh: Evidence from Chittagong city,2018,article,106,True,borderline,1,core concept mentioned once | manual: slum sustainability; eviction in passing,exclude
+W1895264394,A4,india,A4_india_q1,11,Sustainable Urban Development Of Slum Prone Area Of Dhaka City,2013,article,18,True,borderline,1,core concept mentioned once | manual: slum development overview; eviction in passing,exclude
 W4233593765,A4,india,A4_india_q1,12,Still at risk: Security of tenure and the forced eviction of IDPs and refugee returnees in urban Afghanistan,2016,dataset,1,False,exclude,0,type dataset,exclude
 W4414484367,A4,india,A4_india_q1,13,The Legal Regime of Dispossession in Urban India: a Study of Slum Evictions in Hyderabad and Visakhapatnam,2025,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W2971969971,A4,india,A4_india_q1,14,"Emerging social-spatial polarisation within the housing market in Colombo , Sri Lanka",2017,article,8,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -809,8 +809,8 @@ W1453378964,A4,india,A4_india_q2,1,Sri Lanka - Metro Colombo Urban Development P
 W4380051834,A4,india,A4_india_q2,2,"Acceptance and transformation of the housing “ladder” in slum resettlement projects in Colombo, Sri Lanka",2023,article,1,True,include,6,rules,include
 W2158737150,A4,india,A4_india_q2,3,"Community-led resettlement: From a flood-affected slum to a new society in Pune, India",2011,article,48,True,include,6,rules,include
 W2244595419,A4,india,A4_india_q2,4,India - Mumbai Urban Transport Project : Guidance Note on Urban Resettlement,2009,book,4,True,include,6,rules,include
-W4387975647,A4,india,A4_india_q2,5,"Hypertension care cascade in an urban resettlement colony and slum in Delhi, India: a cross-sectional survey",2023,article,9,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W4393063521,A4,india,A4_india_q2,6,"Metabolic syndrome burden, determinants and treatment status in an urban slum resettlement colony in Delhi, India",2024,article,2,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4387975647,A4,india,A4_india_q2,5,"Hypertension care cascade in an urban resettlement colony and slum in Delhi, India: a cross-sectional survey",2023,article,9,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: hypertension survey,exclude
+W4393063521,A4,india,A4_india_q2,6,"Metabolic syndrome burden, determinants and treatment status in an urban slum resettlement colony in Delhi, India",2024,article,2,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: metabolic syndrome survey,exclude
 W7126147372,A4,india,A4_india_q2,7,"Metabolic syndrome burden, determinants and treatment status in an urban slum resettlement colony in Delhi, India",,article,0,False,include,3,no abstract; core (and context) in title,include
 W2112498671,A4,india,A4_india_q2,8,Mumbai Urban Transport Project : urban resettlement,2012,article,0,True,include,6,rules,include
 W592028129,A4,india,A4_india_q2,9,Gendered perspectives on rehabilitation after involuntary resettlement in urban Sri Lanka,2015,article,4,True,include,6,rules,include
@@ -842,7 +842,7 @@ W2030994145,A4,india,A4_india_q3,16,"Development-Induced Displacement and Women:
 W2914129841,A4,india,A4_india_q3,17,Development-Induced Displacement in India: An Indigenous Perspective,2018,article,11,True,include,6,core in title; context terms missing,include
 W7214639478,A4,india,A4_india_q3,18,Development-Induced Displacement in India and China,2016,book,0,True,include,3,rules,include
 W2074582845,A4,india,A4_india_q4,1,"Fear of Eviction: The Case of Slum and Squatter Dwellers in Dhaka, Bangladesh",2006,article,22,True,include,6,rules,include
-W571169363,A4,india,A4_india_q4,2,Squatters as Developers?: Slum Redevelopment in Mumbai,2003,article,57,True,borderline,1,core concept mentioned once,pending
+W571169363,A4,india,A4_india_q4,2,Squatters as Developers?: Slum Redevelopment in Mumbai,2003,article,57,True,borderline,1,core concept mentioned once | manual: slum demolition and redevelopment in Mumbai,include
 W7167895648,A4,india,A4_india_q4,3,"The Invisible Displaced: Slum Demolition, Resettlement, and Urban Inequality in India",2026,article,0,True,include,6,rules,include
 W7167893318,A4,india,A4_india_q4,4,"The Invisible Displaced: Slum Demolition, Resettlement, and Urban Inequality in India",2026,article,0,True,include,6,rules,include
 W7167939362,A4,india,A4_india_q4,5,"The Invisible Displaced: Slum Demolition, Resettlement, and Urban Inequality in India",2026,article,0,True,include,6,rules,include
@@ -856,7 +856,7 @@ W7134989808,A4,india,A4_india_q4,12,Delhi's Slum Demolition and Judiciary's role
 W4285172088,A4,india,A4_india_q4,13,Judicial discourse on 'slum' and the state practice of demolition and forced eviction in urban India,2022,article,0,False,include,3,no abstract; core (and context) in title,include
 W4383271021,A4,india,A4_india_q4,14,Judicial discourse on 'slum' and the state practice of demolition and forced eviction in urban India,2023,article,0,True,include,6,rules,include
 W2920803782,A4,india,A4_india_q4,15,Causes for Slum Eviction – With special reference to Chennai Slums,2018,article,0,True,include,5,rules,include
-W4224298527,A4,india,A4_india_q4,16,Melancholia of the Past: Remembering Communal Violence in a Mumbai Slum,2022,article,0,True,borderline,1,core concept mentioned once,pending
+W4224298527,A4,india,A4_india_q4,16,Melancholia of the Past: Remembering Communal Violence in a Mumbai Slum,2022,article,0,True,borderline,1,core concept mentioned once | manual: memory of communal violence; demolition of a mosque,exclude
 W3129848035,A4,india,A4_india_q4,17,"Resilience to achieve Urban Transformation: Evidence from Delhi, India",2020,preprint,0,True,include,3,rules,include
 W1490849738,A4,india,A4_india_q4,18,The nuisance of slums: environmental law and the production of slum illegality in India,2013,book-chapter,9,True,include,3,rules,include
 W2054054553,A4,landmarks,A4_landmarks,1,"Urban green space, public health, and environmental justice: The challenge of making cities ‘just green enough’",2014,article,4342,False,exclude,0,core concept missing,exclude
@@ -867,7 +867,7 @@ W2152018728,A4,landmarks,A4_landmarks,5,The Eviction of Critical Perspectives fr
 W4255790530,A4,landmarks,A4_landmarks,6,Natural Disaster Hotspots,2005,book,913,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W4236301267,A4,landmarks,A4_landmarks,7,Informality,2007,book,849,True,include,2,rules,include
 W2023660471,A4,landmarks,A4_landmarks,8,"The Right to Stay Put, Revisited: Gentrification and Resistance to Displacement in New York City",2006,article,839,True,include,6,rules,include
-W2100724899,A4,landmarks,A4_landmarks,9,Towards a Sociology of Forced Migration and Social Transformation,2003,article,765,True,borderline,2,context terms missing,pending
+W2100724899,A4,landmarks,A4_landmarks,9,Towards a Sociology of Forced Migration and Social Transformation,2003,article,765,True,borderline,2,context terms missing | manual: forced migration and development-induced displacement,include
 W2773889238,A4,landmarks,A4_landmarks,10,"Assessment on the urbanization strategy in China: Achievements, challenges and reflections",2017,article,764,False,exclude,0,core concept missing,exclude
 W2026137829,A4,landmarks,A4_landmarks,11,Displacement or Succession?,2005,article,722,True,include,6,rules,include
 W1984383581,A4,landmarks,A4_landmarks,12,Eviction and the Reproduction of Urban Poverty,2012,article,708,True,include,6,rules,include
@@ -877,12 +877,12 @@ W4256168637,A4,landmarks,A4_landmarks,15,Rule By Aesthetics,2015,book,593,True,i
 W2097009770,A4,landmarks,A4_landmarks,16,Gentrification: Culture and Capital in the Urban Core,1987,article,591,True,include,6,rules,include
 W2035259255,A4,landmarks,A4_landmarks,17,Gentrification and Displacement New York City in the 1990s,2004,article,590,True,include,6,rules,include
 W1549193660,A4,landmarks,A4_landmarks,18,Global Political Ecology,2010,book,584,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W1515019642,A4,landmarks,A4_landmarks,19,"Gentrification, Abandonment, and Displacement: Connections, Causes, and Policy Responses in New York City",1985,article,584,True,borderline,5,stub abstract (possible book review),pending
+W1515019642,A4,landmarks,A4_landmarks,19,"Gentrification, Abandonment, and Displacement: Connections, Causes, and Policy Responses in New York City",1985,article,584,True,borderline,5,stub abstract (possible book review) | manual: gentrification and displacement in New York,include
 W2128653300,A4,landmarks,A4_landmarks,20,Extracting Value from the City: Neoliberalism and Urban Redevelopment,2002,article,583,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2036888139,A4,landmarks,A4_landmarks,21,New Retail Capital and Neighborhood Change: Boutiques and Gentrification in New York City,2009,article,573,True,include,5,rules,include
-W2159332089,A4,landmarks,A4_landmarks,22,Theoretical Notes On `Gray Cities': the Coming of Urban Apartheid?,2009,article,563,True,borderline,1,core concept mentioned once,pending
+W2159332089,A4,landmarks,A4_landmarks,22,Theoretical Notes On `Gray Cities': the Coming of Urban Apartheid?,2009,article,563,True,borderline,1,core concept mentioned once | manual: gray spaces between legality and eviction,include
 W3010558769,A4,landmarks,A4_landmarks,23,"Cities for People, Not for Profit",2012,book,561,True,include,2,rules,include
-W3008607642,A4,landmarks,A4_landmarks,24,Building Resilience to Climate Change in Informal Settlements,2020,article,539,True,borderline,1,core concept mentioned once,pending
+W3008607642,A4,landmarks,A4_landmarks,24,Building Resilience to Climate Change in Informal Settlements,2020,article,539,True,borderline,1,core concept mentioned once | manual: climate resilience in informal settlements,exclude
 W2083400701,A4,landmarks,A4_landmarks,25,Ecological Gentrification: A Research Agenda Exploring Justice in the City,2009,article,533,True,include,6,rules,include
 W1846353168,A4,landmarks,A4_landmarks,26,Risks and Reconstruction,2000,book,511,True,include,3,rules,include
 W2969661859,A4,landmarks,A4_landmarks,27,"Airbnb, buy-to-let investment and tourism-driven displacement: A case study in Lisbon",2019,article,500,True,include,6,rules,include
@@ -906,29 +906,29 @@ W2160999442,A4,landmarks,A4_landmarks,44,The Social Epidemiology of Human Immuno
 W1973263796,A4,landmarks,A4_landmarks,45,Incremental infrastructures: material improvisation and social collaboration across post-colonial Accra,2014,article,389,True,include,2,rules,include
 W1994247406,A4,landmarks,A4_landmarks,46,Population study of food allergy in France,2001,article,387,False,exclude,0,core concept missing,exclude
 W3171777526,A4,landmarks,A4_landmarks,47,"Impacts of English language proficiency on healthcare access, use, and outcomes among immigrants: a qualitative study",2021,article,377,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2129666746,A4,landmarks,A4_landmarks,48,Property Rights and Investment in Urban Slums,2005,article,375,True,borderline,1,core concept mentioned once,pending
+W2129666746,A4,landmarks,A4_landmarks,48,Property Rights and Investment in Urban Slums,2005,article,375,True,borderline,1,core concept mentioned once | manual: tenure security and investment (A3),exclude
 W2171799278,A4,landmarks,A4_landmarks,49,Housing instability and health: Findings from the Michigan recession and recovery study,2012,article,370,False,exclude,0,core concept missing,exclude
-W1509016694,A4,landmarks,A4_landmarks,50,Forced Displacement From Rental Housing: Prevalence and Neighborhood Consequences,2015,article,367,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W1509016694,A4,landmarks,A4_landmarks,50,Forced Displacement From Rental Housing: Prevalence and Neighborhood Consequences,2015,article,367,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: forced displacement from rental housing (flag false positive),include
 W2567917072,A4,landmarks,A4_landmarks,51,Dis/possessive collectivism: Property and personhood at city’s end,2017,article,357,False,exclude,0,core concept missing,exclude
 W2735367832,A4,landmarks,A4_landmarks,52,"The Intersection of Planning, Urban Agriculture, and Food Justice: A Review of the Literature",2017,article,354,True,include,3,rules,include
 W2955227598,A4,landmarks,A4_landmarks,53,"Green gentrification or ‘just green enough’: Do park location, size and function affect whether a place gentrifies or not?",2019,article,345,True,include,6,rules,include
 W2124454024,A4,landmarks,A4_landmarks,54,Spoiled Mixture: Where Does State-led `Positive' Gentrification End?,2008,article,343,True,include,6,rules,include
 W2084860803,A4,landmarks,A4_landmarks,55,Urban land tenure policy options: titles or rights?,2001,article,342,False,exclude,0,core concept missing,exclude
 W3121578925,A4,landmarks,A4_landmarks,56,Gentrification and residential mobility in Philadelphia,2016,article,341,False,include,3,no abstract; core (and context) in title,include
-W2140549225,A4,landmarks,A4_landmarks,57,Homelessness in female-headed families: childhood and adult risk and protective factors.,1997,article,338,True,borderline,1,core concept mentioned once,pending
+W2140549225,A4,landmarks,A4_landmarks,57,Homelessness in female-headed families: childhood and adult risk and protective factors.,1997,article,338,True,borderline,1,core concept mentioned once | manual: homelessness risk factors (public health),exclude
 W2467453151,A4,landmarks,A4_landmarks,58,"From Toxic Sites to Parks as (Green) LULUs? New Challenges of Inequity, Privilege, Gentrification, and Exclusion for Urban Environmental Justice",2015,article,335,True,include,6,rules,include
 W2074125099,A4,landmarks,A4_landmarks,59,"Greening the urban frontier: Race, property, and resettlement in Detroit",2014,article,332,False,include,3,no abstract; core (and context) in title,include
 W1970465826,A4,landmarks,A4_landmarks,60,The evidence on the impact of gentrification: new lessons for the urban renaissance?,2004,article,324,True,include,6,rules,include
 W3107094072,A4,landmarks,A4_landmarks,61,"Eviction, Health Inequity, and the Spread of COVID-19: Housing Policy as a Primary Pandemic Mitigation Strategy",2021,article,322,False,include,3,no abstract; core (and context) in title,include
-W1859341557,A4,landmarks,A4_landmarks,62,When infrastructures attack: The workings of disrepair in China,2014,article,320,True,borderline,1,core concept mentioned once,pending
+W1859341557,A4,landmarks,A4_landmarks,62,When infrastructures attack: The workings of disrepair in China,2014,article,320,True,borderline,1,core concept mentioned once | manual: residents fighting eviction in China,include
 W1978689675,A4,landmarks,A4_landmarks,63,‘Gentrification Without Displacement' and the Consequent Loss of Place: The Effects of Class Transition on Low‐income Residents of Secure Housing in Gentrifying Areas,2015,article,319,True,include,6,rules,include
 W4248097901,A4,landmarks,A4_landmarks,64,The New Urban Frontier,2005,book,318,True,include,3,rules,include
 W2327256007,A4,landmarks,A4_landmarks,65,Forced migration and the city,2016,article,315,True,include,2,rules,include
-W2119786758,A4,landmarks,A4_landmarks,66,The limits of land titling and home ownership,2009,article,314,True,borderline,1,core concept mentioned once,pending
+W2119786758,A4,landmarks,A4_landmarks,66,The limits of land titling and home ownership,2009,article,314,True,borderline,1,core concept mentioned once | manual: land titling (A3/A5),exclude
 W2962518526,A4,landmarks,A4_landmarks,67,Housing Disadvantage and Poor Mental Health: A Systematic Review,2019,review,308,False,exclude,0,core concept missing,exclude
 W2409830780,A4,landmarks,A4_landmarks,68,‘Mortgaged lives’: the biopolitics of debt and housing financialisation,2016,article,300,True,include,2,rules,include
 W3122177715,A4,landmarks,A4_landmarks,69,Who gentrifies low-income neighborhoods?,2009,article,300,False,include,3,no abstract; core (and context) in title,include
-W2136508577,A4,landmarks,A4_landmarks,70,"Policies, Political-Economy, and Swidden in Southeast Asia",2009,article,292,True,borderline,1,core concept mentioned once,pending
+W2136508577,A4,landmarks,A4_landmarks,70,"Policies, Political-Economy, and Swidden in Southeast Asia",2009,article,292,True,borderline,1,core concept mentioned once | manual: swidden agriculture,exclude
 W581828651,A4,landmarks,A4_landmarks,71,Informal settlements: A perpetual challenge?,2006,book,281,True,include,2,rules,include
 W2510413987,A4,landmarks,A4_landmarks,72,Street vendors and cities,2016,article,280,True,include,2,rules,include
 W2111349405,A4,landmarks,A4_landmarks,73,"Displacement, Space and Dwelling: Placing Gentrification Debate",2009,article,280,True,include,6,rules,include
@@ -948,7 +948,7 @@ W2586685163,A4,landmarks,A4_landmarks,86,From Occupying Plazas to Recuperating H
 W2027877605,A4,landmarks,A4_landmarks,87,Evictions: The hidden housing problem,2003,article,248,True,include,6,rules,include
 W2599880488,A4,landmarks,A4_landmarks,88,Whose Urban Renaissance?,2009,book,247,True,include,3,rules,include
 W2034875705,A4,landmarks,A4_landmarks,89,"State-Led Urbanization in China: Skyscrapers, Land Revenue and “Concentrated Villages”",2014,article,244,True,include,3,rules,include
-W2138669381,A4,landmarks,A4_landmarks,90,Shifting Cultivation: A New Old Paradigm for Managing Tropical Forests,2000,article,244,True,borderline,3,context terms missing,pending
+W2138669381,A4,landmarks,A4_landmarks,90,Shifting Cultivation: A New Old Paradigm for Managing Tropical Forests,2000,article,244,True,borderline,3,context terms missing | manual: shifting cultivation,exclude
 W2734880387,A4,landmarks,A4_landmarks,91,Contextualizing Walkability: Do Relationships Between Built Environments and Walking Vary by Socioeconomic Context?,2017,article,242,True,include,2,rules,include
 W2065090331,A4,landmarks,A4_landmarks,92,"Gentrification, Social Mix, and Social Polarization: Testing the Linkages in Large Canadian Cities",2008,article,240,True,include,6,rules,include
 W2516993698,A4,landmarks,A4_landmarks,93,"Who gets evicted? Assessing individual, neighborhood, and network factors",2016,article,238,False,include,3,no abstract; core (and context) in title,include
@@ -959,7 +959,7 @@ W3121661689,A4,landmarks,A4_landmarks,97,"How low income neighborhoods change: E
 W622776771,A4,landmarks,A4_landmarks,98,"The near northwest side story: migration, displacement, and Puerto Rican families",2005,book-review,229,True,exclude,0,type book-review,exclude
 W2944508723,A4,landmarks,A4_landmarks,99,Measuring and mapping displacement: The problem of quantification in the battle against gentrification,2019,article,226,True,include,6,rules,include
 W2795689234,A4,landmarks,A4_landmarks,100,Airbnb as an instigator of ‘tourism bubble’ expansion in Utrecht's Lombok neighbourhood,2018,article,224,True,include,2,rules,include
-W4205675470,A4,recent,A4_recent_q1,1,Evictions and tenant‐landlord relationships during the 2020–2021 eviction moratorium in the US,2022,article,20,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4205675470,A4,recent,A4_recent_q1,1,Evictions and tenant‐landlord relationships during the 2020–2021 eviction moratorium in the US,2022,article,20,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: evictions during the US moratorium,include
 W4383549937,A4,recent,A4_recent_q1,2,Protection from forced eviction: what rights do social housing tenants have under human rights charters?,2023,article,6,True,include,4,rules,include
 W4383271021,A4,recent,A4_recent_q1,3,Judicial discourse on 'slum' and the state practice of demolition and forced eviction in urban India,2023,article,0,True,include,6,rules,include
 W4285172088,A4,recent,A4_recent_q1,4,Judicial discourse on 'slum' and the state practice of demolition and forced eviction in urban India,2022,article,0,False,include,3,no abstract; core (and context) in title,include
@@ -974,23 +974,23 @@ W4412824980,A4,recent,A4_recent_q1,12,"Evictions, spatial inequality, and the fi
 W4391872577,A4,recent,A4_recent_q1,13,Eviction and the Rental Housing Crisis in Rural America ☆,2024,article,13,True,include,6,rules,include
 W4388831373,A4,recent,A4_recent_q1,14,FORMATION OF CIVIL JURISDICTION IN CASES ON FORCED EVICTION,2023,article,0,True,include,4,rules,include
 W4221036793,A4,recent,A4_recent_q1,15,Automating gentrification: Landlord technologies and housing justice organizing in New York City homes,2022,article,90,True,include,6,rules,include
-W4415395591,A4,recent,A4_recent_q1,16,Empowering Tenants and Landlords Through Conversational AI for Housing Rights,2025,article,1,True,borderline,1,core concept mentioned once,pending
+W4415395591,A4,recent,A4_recent_q1,16,Empowering Tenants and Landlords Through Conversational AI for Housing Rights,2025,article,1,True,borderline,1,core concept mentioned once | manual: AI tool for housing rights,exclude
 W4405698604,A4,recent,A4_recent_q1,17,Specific features of evidence and proving within forced eviction cases,2024,article,0,True,include,6,rules,include
 W4293553749,A4,recent,A4_recent_q1,18,Which Information Matters? Measuring Landlord Assessment of Tenant Screening Reports,2022,article,47,True,include,3,rules,include
 W7167895648,A4,recent,A4_recent_q2,1,"The Invisible Displaced: Slum Demolition, Resettlement, and Urban Inequality in India",2026,article,0,True,include,6,rules,include
 W7167893318,A4,recent,A4_recent_q2,2,"The Invisible Displaced: Slum Demolition, Resettlement, and Urban Inequality in India",2026,article,0,True,include,6,rules,include
 W7167939362,A4,recent,A4_recent_q2,3,"The Invisible Displaced: Slum Demolition, Resettlement, and Urban Inequality in India",2026,article,0,True,include,6,rules,include
-W4413017269,A4,recent,A4_recent_q2,4,"Slum resettlement, built environment, and socio-spatial dynamics: Lived experiences in Mumbai’s resettlement colonies",2025,article,5,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4413017269,A4,recent,A4_recent_q2,4,"Slum resettlement, built environment, and socio-spatial dynamics: Lived experiences in Mumbai’s resettlement colonies",2025,article,5,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: slum resettlement colonies in Mumbai,include
 W4394015086,A4,recent,A4_recent_q2,5,Making Slum Resettlement More Affordable Through Innovative Techniques,2024,article,0,True,include,6,rules,include
-W4387975647,A4,recent,A4_recent_q2,6,"Hypertension care cascade in an urban resettlement colony and slum in Delhi, India: a cross-sectional survey",2023,article,9,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4387975647,A4,recent,A4_recent_q2,6,"Hypertension care cascade in an urban resettlement colony and slum in Delhi, India: a cross-sectional survey",2023,article,9,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: hypertension survey,exclude
 W7217166611,A4,recent,A4_recent_q2,7,"A Critical Review on Urban Slum Resettlement, Housing Affordability, Livelihood Resilience and Vulnerability Dimensions in Developing Countries",2026,article,0,True,include,5,rules,include
-W4393063521,A4,recent,A4_recent_q2,8,"Metabolic syndrome burden, determinants and treatment status in an urban slum resettlement colony in Delhi, India",2024,article,2,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4393063521,A4,recent,A4_recent_q2,8,"Metabolic syndrome burden, determinants and treatment status in an urban slum resettlement colony in Delhi, India",2024,article,2,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: metabolic syndrome survey,exclude
 W4410704576,A4,recent,A4_recent_q2,9,"Impact of Development-Induced Resettlement on the Occupational Structure of Slum Dwellers: A Case of Cuttack City, India",2025,article,0,True,include,6,rules,include
 W4408963250,A4,recent,A4_recent_q2,10,Slum Resettlement and the Destruction of the Previous Cohesion Practices,2025,article,2,True,include,6,rules,include
 W7203758154,A4,recent,A4_recent_q2,11,Planning formalization and its consequences: The socioeconomic impacts of slum resettlement,2026,article,0,True,include,6,rules,include
-W4382775150,A4,recent,A4_recent_q2,12,"COVID-19 Booster Dose Coverage and Hesitancy among Older Adults in an Urban Slum and Resettlement Colony in Delhi, India",2023,article,15,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4382775150,A4,recent,A4_recent_q2,12,"COVID-19 Booster Dose Coverage and Hesitancy among Older Adults in an Urban Slum and Resettlement Colony in Delhi, India",2023,article,15,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: vaccine coverage survey,exclude
 W4210407330,A4,recent,A4_recent_q2,13,"SLUM UPGRADING TO RESETTLEMENT COLONIES: BUILDING INCLUSIVE, SAFE AND RESILIENT COMMUNITIES",2022,article,0,True,include,6,rules,include
-W4290755526,A4,recent,A4_recent_q2,14,Development-induced peri-urban resettlement,2022,book-chapter,0,True,borderline,4,stub abstract (possible book review),pending
+W4290755526,A4,recent,A4_recent_q2,14,Development-induced peri-urban resettlement,2022,book-chapter,0,True,borderline,4,stub abstract (possible book review) | manual: development-induced peri-urban resettlement,include
 W7171296245,A4,recent,A4_recent_q2,15,Residence and Mobility of Slum Residents in the Making of ‘New India’: Focusing on Cases of Slum Resettlement,2026,article,0,True,include,6,rules,include
 W4390557419,A4,recent,A4_recent_q2,16,"Evaluating Displaced People’s Life Satisfaction in Urban Resettlement Community in Nanjing City, China",2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4399895469,A4,recent,A4_recent_q2,17,Leaving the Slum: International Collaborative Design Initiatives to Shape Capabilities During Resettlement,2024,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
@@ -1029,7 +1029,7 @@ W4408966986,A4,recent,A4_recent_q4,13,When the Palestinian refugee camp became a
 W7203463886,A4,recent,A4_recent_q4,14,Informal Re-Encroachment: the futility of demolition?,2026,article,1,False,include,3,no abstract; core in title; context terms missing,include
 W4401702357,A4,recent,A4_recent_q4,15,Urban Brutalism and Slum Clearance in the United States,2024,preprint,0,False,exclude,0,core concept missing,exclude
 W4409450912,A4,recent,A4_recent_q4,16,Understanding Addis Ababa's urban transition and slum clearance through gentrification theory,2025,article,6,False,include,3,no abstract; core (and context) in title,include
-W4224298527,A4,recent,A4_recent_q4,17,Melancholia of the Past: Remembering Communal Violence in a Mumbai Slum,2022,article,0,True,borderline,1,core concept mentioned once,pending
+W4224298527,A4,recent,A4_recent_q4,17,Melancholia of the Past: Remembering Communal Violence in a Mumbai Slum,2022,article,0,True,borderline,1,core concept mentioned once | manual: memory of communal violence; demolition of a mosque,exclude
 W4403482667,A4,recent,A4_recent_q4,18,"Formalization, Citizenship and the Challenges of Self‐Governance in Mumbai's Slum Relocation Colonies",2024,article,4,True,include,6,rules,include
 W1521768263,A5,india,A5_india_q1,1,"Peri-urban dynamics : case studies in Chennai, Hyderabad and Mumbai",2006,preprint,11,True,include,4,rules,include
 W2119279648,A5,india,A5_india_q1,2,"Growing city, shrinking hinterland: land acquisition, transition and conflict in peri-urban Gurgaon, India",2009,article,168,True,include,6,rules,include
