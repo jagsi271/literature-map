@@ -7686,9 +7686,9 @@ W7217694726,C10,india,C10_india_q1,24,Turizmin Dönüştürücü Gücü: Airbnb 
 W7171665048,C10,india,C10_india_q2,1,Inventory Intelligence and PropTech Infrastructure in Indian Real Estate Brokerage,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W4416574331,C10,india,C10_india_q2,2,An In-Depth Analysis of the Indian & Global Proptech SaaS Industry,2025,article,0,True,include,6,rules,include
 W2010286031,C10,india,C10_india_q2,3,"Intellectual property, technology transfer and manufacture of low-cost HPV vaccines in India",2010,article,53,True,exclude,0,core concept missing,exclude
-W2936241243,C10,india,C10_india_q2,4,PropTech for Proactive Pricing of Houses in Classified Advertisements in the Indian Real Estate Market,2019,preprint,12,True,borderline,5,flag: \b(deep learning|neural network|convolut,pending
+W2936241243,C10,india,C10_india_q2,4,PropTech for Proactive Pricing of Houses in Classified Advertisements in the Indian Real Estate Market,2019,preprint,12,True,borderline,5,flag: \b(deep learning|neural network|convolut | manual: house-price ML model,exclude
 W7220179631,C10,india,C10_india_q2,5,The Evolution of PropTech in India: A Close Examination of NoBroker’s Rise and Challenges,2024,article,0,True,include,6,rules,include
-W4288403868,C10,india,C10_india_q2,6,PropTech for Proactive Pricing of Houses in Classified Advertisements in the Indian Real Estate Market,2019,preprint,0,True,borderline,5,flag: \b(deep learning|neural network|convolut,pending
+W4288403868,C10,india,C10_india_q2,6,PropTech for Proactive Pricing of Houses in Classified Advertisements in the Indian Real Estate Market,2019,preprint,0,True,borderline,5,flag: \b(deep learning|neural network|convolut | manual: house-price ML model (duplicate),exclude
 W4403848098,C10,india,C10_india_q2,7,Exploring PropTech’ s Impact on the Indian Real Estate Market: A Buyer and Seller Perspective,2024,article,0,True,include,5,rules,include
 W2159014514,C10,india,C10_india_q2,8,"The politics of person, property, technology: emergent development practice in semi-arid communities in India",2014,article,8,True,exclude,0,core concept missing,exclude
 W2025196642,C10,india,C10_india_q2,9,"Erratum: Corrigendum: Intellectual property, technology transfer and manufacture of low-cost HPV vaccines in India",2012,erratum,0,False,exclude,0,type erratum,exclude
@@ -7699,14 +7699,14 @@ W7106815636,C10,india,C10_india_q2,13,"Beyond Deadlines at Address Advisors: Cli
 W2800936047,C10,india,C10_india_q2,14,"The Paris Agreement: Intellectual Property, Technology Transfer, and Climate Change",2018,book-chapter,5,False,exclude,0,core concept missing,exclude
 W7212062809,C10,india,C10_india_q2,15,"PropTech and Urban Real-Estate Intelligence for Climate-Risk Valuation, Smart Buildings and Sustainable Property Markets",2026,reference-entry,0,True,include,6,rules,include
 W2380036960,C10,india,C10_india_q2,16,"Trade wars in the TRIPS council: intellectual property, technology transfer and climate change",2016,book-chapter,3,True,exclude,0,core concept missing,exclude
-W4282973398,C10,india,C10_india_q2,17,Nexus Landholdings: Predicting Indian Real Estate Prices,2022,article,0,True,borderline,1,core concept mentioned once,pending
+W4282973398,C10,india,C10_india_q2,17,Nexus Landholdings: Predicting Indian Real Estate Prices,2022,article,0,True,borderline,1,core concept mentioned once | manual: real-estate price prediction,exclude
 W7128606255,C10,india,C10_india_q2,18,The Impact of Globalization on Indian Law,2026,article,0,True,exclude,0,core concept missing,exclude
 W3202305995,C10,india,C10_india_q2,19,A study on automated property management in commercial real estate: a case of India,2021,article,21,True,include,3,rules,include
-W1498835019,C10,india,C10_india_q2,20,"Enclosed waters : property rights, technology and ecology in the management of water resources in Palakkad, Kerala",2007,dissertation,6,True,borderline,1,core concept mentioned once,pending
+W1498835019,C10,india,C10_india_q2,20,"Enclosed waters : property rights, technology and ecology in the management of water resources in Palakkad, Kerala",2007,dissertation,6,True,borderline,1,core concept mentioned once | manual: water property rights (not proptech),exclude
 W4415116139,C10,india,C10_india_q2,21,Digital Transformation in the Indian Real Estate Sector: Opportunities and Challenges,2025,article,0,True,include,2,rules,include
 W7133214716,C10,india,C10_india_q2,22,"India ISIN Database, by Nemo",2026,software,0,True,exclude,0,type software,exclude
 W7131274571,C10,india,C10_india_q2,23,"India ISIN Database, by Nemo",2026,software,0,True,exclude,0,type software,exclude
-W4414803946,C10,india,C10_india_q2,24,High‐resolution property: Drone enclosures in digital India,2025,article,2,True,borderline,1,core concept mentioned once,pending
+W4414803946,C10,india,C10_india_q2,24,High‐resolution property: Drone enclosures in digital India,2025,article,2,True,borderline,1,core concept mentioned once | manual: drone property titling (Svamitva) and property technology in India,include
 W4250722635,C10,india,C10_india_q3,1,"Want it, Rent it: Exploring Attributes Leading to Conversion for Online Furniture Rental Platforms",2020,article,10,True,include,5,rules,include
 W7171635547,C10,india,C10_india_q3,2,Problems of Finding Suitable Accommodation for Students of Dhaka,2026,preprint,0,False,exclude,0,core concept missing,exclude
 W4410077318,C10,india,C10_india_q3,3,Farm Mechanization for Smallholder Farmers in India: Prospects and Challenges,2025,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -7721,14 +7721,14 @@ W3123937330,C10,landmarks,C10_landmarks,2,The Rise of the Sharing Economy: Estim
 W2397558774,C10,landmarks,C10_landmarks,3,Platform Revolution: How Networked Markets Are Transforming the Economy--and How to Make Them Work for You,2016,book,1852,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2028327917,C10,landmarks,C10_landmarks,4,Airbnb: disruptive innovation and the rise of an informal tourism accommodation sector,2013,article,1852,True,include,6,rules,include
 W2193984671,C10,landmarks,C10_landmarks,5,The sharing economy: A pathway to sustainability or a nightmarish form of neoliberal capitalism?,2015,article,1332,False,exclude,0,core concept missing,exclude
-W1550674074,C10,landmarks,C10_landmarks,6,Collaborative consumption: determinants of satisfaction and the likelihood of using a sharing economy option again,2015,article,1316,True,borderline,1,core concept mentioned once,pending
+W1550674074,C10,landmarks,C10_landmarks,6,Collaborative consumption: determinants of satisfaction and the likelihood of using a sharing economy option again,2015,article,1316,True,borderline,1,core concept mentioned once | manual: collaborative consumption satisfaction (marketing),exclude
 W2417849684,C10,landmarks,C10_landmarks,7,Trust and reputation in the sharing economy: The role of personal photos in Airbnb,2016,article,1298,False,include,3,no abstract; core (and context) in title,include
 W2922335598,C10,landmarks,C10_landmarks,8,The Platform Society: Public Values in a Connective World,2018,book,1219,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2809346299,C10,landmarks,C10_landmarks,9,Airbnb and the rent gap: Gentrification through the sharing economy,2018,article,888,True,include,6,rules,include
 W3123029532,C10,landmarks,C10_landmarks,10,Racial Discrimination in the Sharing Economy: Evidence from a Field Experiment,2017,article,884,True,include,2,rules,include
-W3011186445,C10,landmarks,C10_landmarks,11,Innovation and Design in the Age of Artificial Intelligence,2020,article,837,True,borderline,1,core concept mentioned once,pending
-W2511643785,C10,landmarks,C10_landmarks,12,"Pipelines, platforms, and the new rules of strategy",2016,article,819,True,borderline,1,core concept mentioned once,pending
-W2417954757,C10,landmarks,C10_landmarks,13,The Sharing Economy: The End of Employment and the Rise of Crowd-Based Capitalism,2016,article,733,True,borderline,1,core concept mentioned once,pending
+W3011186445,C10,landmarks,C10_landmarks,11,Innovation and Design in the Age of Artificial Intelligence,2020,article,837,True,borderline,1,core concept mentioned once | manual: AI and innovation design,exclude
+W2511643785,C10,landmarks,C10_landmarks,12,"Pipelines, platforms, and the new rules of strategy",2016,article,819,True,borderline,1,core concept mentioned once | manual: platform strategy (business),exclude
+W2417954757,C10,landmarks,C10_landmarks,13,The Sharing Economy: The End of Employment and the Rise of Crowd-Based Capitalism,2016,article,733,True,borderline,1,core concept mentioned once | manual: sharing economy book (B1),exclude
 W2608271941,C10,landmarks,C10_landmarks,14,Why Tourists Choose Airbnb: A Motivation-Based Segmentation Study,2017,article,729,True,include,6,rules,include
 W2475323853,C10,landmarks,C10_landmarks,15,The eruption of Airbnb in tourist cities: Comparing spatial patterns of hotels and peer-to-peer accommodation in Barcelona,2017,article,674,False,include,3,no abstract; core (and context) in title,include
 W2670298746,C10,landmarks,C10_landmarks,16,Understanding platform business models: A mixed methods study of marketplaces,2017,article,606,False,exclude,0,core concept missing,exclude
@@ -7747,7 +7747,7 @@ W2891004579,C10,landmarks,C10_landmarks,28,Consumer adoption of the Uber mobile 
 W2945349807,C10,landmarks,C10_landmarks,29,"Spatiotemporal comparative analysis of scooter-share and bike-share usage patterns in Washington, D.C.",2019,article,469,False,exclude,0,core concept missing,exclude
 W2791009453,C10,landmarks,C10_landmarks,30,Motivations and constraints of Airbnb consumers: Findings from a mixed-methods approach,2018,article,454,False,include,3,no abstract; core (and context) in title,include
 W2113764854,C10,landmarks,C10_landmarks,31,Digital Discrimination: The Case of Airbnb.com,2014,preprint,443,False,include,3,no abstract; core (and context) in title,include
-W2963377100,C10,landmarks,C10_landmarks,32,Emerging Technology and Business Model Innovation: The Case of Artificial Intelligence,2019,article,439,True,borderline,1,core concept mentioned once,pending
+W2963377100,C10,landmarks,C10_landmarks,32,Emerging Technology and Business Model Innovation: The Case of Artificial Intelligence,2019,article,439,True,borderline,1,core concept mentioned once | manual: AI business models,exclude
 W2587840773,C10,landmarks,C10_landmarks,33,"Understanding repurchase intention of Airbnb consumers: perceived authenticity, electronic word-of-mouth, and price sensitivity",2017,article,425,True,include,6,rules,include
 W2587049302,C10,landmarks,C10_landmarks,34,Is home sharing driving up rents? Evidence from Airbnb in Boston,2017,article,422,False,include,3,no abstract; core (and context) in title,include
 W2221016953,C10,landmarks,C10_landmarks,35,Effect of sharing economy on tourism industry employment,2015,article,409,False,exclude,0,core concept missing,exclude
@@ -7755,37 +7755,37 @@ W2966590064,C10,landmarks,C10_landmarks,36,Are e-scooters polluters? The environ
 W2885629929,C10,landmarks,C10_landmarks,37,Regulating Airbnb: how cities deal with perceived negative externalities of short-term rentals,2018,article,404,True,include,6,rules,include
 W2765403633,C10,landmarks,C10_landmarks,38,"Exploring the relationship between satisfaction, trust and switching intention, repurchase intention in the context of Airbnb",2017,article,402,False,include,3,no abstract; core (and context) in title,include
 W1545618741,C10,landmarks,C10_landmarks,39,"A First Look at Online Reputation on Airbnb, Where Every Stay is Above Average",2015,preprint,385,False,include,3,no abstract; core (and context) in title,include
-W2734686021,C10,landmarks,C10_landmarks,40,"The “sharing” economy: labor, inequality, and social connection on for‐profit platforms",2017,article,380,True,borderline,1,core concept mentioned once,pending
-W2618631537,C10,landmarks,C10_landmarks,41,Living like a local: Authentic tourism experiences and the sharing economy,2017,article,379,True,borderline,1,core concept mentioned once,pending
+W2734686021,C10,landmarks,C10_landmarks,40,"The “sharing” economy: labor, inequality, and social connection on for‐profit platforms",2017,article,380,True,borderline,1,core concept mentioned once | manual: sharing economy labour and inequality (B1/B11),exclude
+W2618631537,C10,landmarks,C10_landmarks,41,Living like a local: Authentic tourism experiences and the sharing economy,2017,article,379,True,borderline,1,core concept mentioned once | manual: authentic tourism and the sharing economy,exclude
 W2736568984,C10,landmarks,C10_landmarks,42,The accommodation experiencescape: a comparative assessment of hotels and Airbnb,2017,article,378,True,include,5,rules,include
 W3121369075,C10,landmarks,C10_landmarks,43,The Effect of Home-Sharing on House Prices and Rents: Evidence from Airbnb,2020,article,358,True,include,6,rules,include
 W2138396849,C10,landmarks,C10_landmarks,44,Innovative Approaches to Water Allocation: The Potential for Water Markets,1986,article,355,True,exclude,0,core concept missing,exclude
 W2725114605,C10,landmarks,C10_landmarks,45,Evaluative infrastructures: Accounting for platform organization,2017,article,348,False,exclude,0,core concept missing,exclude
 W2738650269,C10,landmarks,C10_landmarks,46,Value co-creation and co-destruction in the Airbnb sharing economy,2017,article,347,True,include,6,rules,include
-W2732513160,C10,landmarks,C10_landmarks,47,Data‐Driven Business Model Innovation,2017,article,345,True,borderline,1,core concept mentioned once,pending
+W2732513160,C10,landmarks,C10_landmarks,47,Data‐Driven Business Model Innovation,2017,article,345,True,borderline,1,core concept mentioned once | manual: data-driven business models,exclude
 W2194321411,C10,landmarks,C10_landmarks,48,Racial Discrimination in the Sharing Economy: Evidence from a Field Experiment,2015,preprint,340,False,exclude,0,core concept missing,exclude
 W2794681491,C10,landmarks,C10_landmarks,49,"What drives purchase intention on Airbnb? Perspectives of consumer reviews, information quality, and media richness",2018,article,336,False,include,3,no abstract; core (and context) in title,include
-W2901558138,C10,landmarks,C10_landmarks,50,"Social Media data: Challenges, opportunities and limitations in urban studies",2018,article,331,True,borderline,1,core concept mentioned once,pending
+W2901558138,C10,landmarks,C10_landmarks,50,"Social Media data: Challenges, opportunities and limitations in urban studies",2018,article,331,True,borderline,1,core concept mentioned once | manual: social media data in urban studies (C4),exclude
 W2582174585,C10,landmarks,C10_landmarks,51,Be a “Superhost”: The importance of badge systems for peer-to-peer rental accommodations,2017,article,330,False,exclude,0,core concept missing,exclude
 W2738164943,C10,landmarks,C10_landmarks,52,Why travelers use Airbnb again?,2017,article,324,True,include,6,rules,include
-W2598089351,C10,landmarks,C10_landmarks,53,Does the sharing economy increase inequality within the eighty percent?: findings from a qualitative study of platform providers,2016,article,323,True,borderline,1,core concept mentioned once,pending
+W2598089351,C10,landmarks,C10_landmarks,53,Does the sharing economy increase inequality within the eighty percent?: findings from a qualitative study of platform providers,2016,article,323,True,borderline,1,core concept mentioned once | manual: sharing-economy providers and inequality (B1),exclude
 W2966515482,C10,landmarks,C10_landmarks,54,Do short-term rental platforms affect housing markets? Evidence from Airbnb in Barcelona,2020,article,322,True,include,6,rules,include
 W2808787330,C10,landmarks,C10_landmarks,55,Real-time Personalization using Embeddings for Search Ranking at Airbnb,2018,conference-paper,320,True,include,6,rules,include
 W2522434670,C10,landmarks,C10_landmarks,56,The Digital Transformation Playbook: Rethink Your Business for the Digital Age,2016,article,320,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2950403935,C10,landmarks,C10_landmarks,57,Progress on Airbnb: a literature review,2019,article,316,True,include,6,rules,include
 W1550395552,C10,landmarks,C10_landmarks,58,Smart city or smart citizens? The Barcelona case,2015,article,316,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W3121717788,C10,landmarks,C10_landmarks,59,Reducing Discrimination with Reviews in the Sharing Economy: Evidence from Field Experiments on Airbnb,2019,article,311,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3121717788,C10,landmarks,C10_landmarks,59,Reducing Discrimination with Reviews in the Sharing Economy: Evidence from Field Experiments on Airbnb,2019,article,311,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: discrimination and reviews on Airbnb (field experiments),include
 W2606648219,C10,landmarks,C10_landmarks,60,Pricing in the sharing economy: a hedonic pricing model applied to Airbnb listings,2017,article,311,True,include,6,rules,include
-W2909796576,C10,landmarks,C10_landmarks,61,Sharing versus collaborative economy: how to align ICT developments and the SDGs in tourism?,2019,article,309,True,borderline,1,core concept mentioned once,pending
+W2909796576,C10,landmarks,C10_landmarks,61,Sharing versus collaborative economy: how to align ICT developments and the SDGs in tourism?,2019,article,309,True,borderline,1,core concept mentioned once | manual: sharing economy and SDGs in tourism,exclude
 W2795240022,C10,landmarks,C10_landmarks,62,Consumer segmentation within the sharing economy: The case of Airbnb,2018,article,305,False,include,3,no abstract; core (and context) in title,include
 W3027485887,C10,landmarks,C10_landmarks,63,COVID19 and Airbnb – Disrupting the Disruptor,2020,article,302,False,include,3,no abstract; core (and context) in title,include
 W2528110471,C10,landmarks,C10_landmarks,64,"Airbnb: Online targeted advertising, sense of power, and consumer decisions",2016,article,299,False,include,3,no abstract; core (and context) in title,include
 W2043167816,C10,landmarks,C10_landmarks,65,Peeking Beneath the Hood of Uber,2015,conference-paper,298,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2769249128,C10,landmarks,C10_landmarks,66,Understanding and overcoming negative impacts of tourism in city destinations: conceptual model and strategic framework,2017,article,294,True,borderline,1,core concept mentioned once,pending
+W2769249128,C10,landmarks,C10_landmarks,66,Understanding and overcoming negative impacts of tourism in city destinations: conceptual model and strategic framework,2017,article,294,True,borderline,1,core concept mentioned once | manual: tourism impacts in city destinations,exclude
 W3125596464,C10,landmarks,C10_landmarks,67,"A first look at online reputation on Airbnb, where every stay is above average",2020,article,285,False,include,3,no abstract; core (and context) in title,include
-W3019970289,C10,landmarks,C10_landmarks,68,Sharing economy business models for sustainability,2020,article,285,True,borderline,1,core concept mentioned once,pending
+W3019970289,C10,landmarks,C10_landmarks,68,Sharing economy business models for sustainability,2020,article,285,True,borderline,1,core concept mentioned once | manual: sharing economy business models,exclude
 W2601135536,C10,landmarks,C10_landmarks,69,"The Taking Economy: Uber, Information, and Power",2017,preprint,281,False,exclude,0,core concept missing,exclude
-W3034001294,C10,landmarks,C10_landmarks,70,"Transnational gentrification, tourism and the formation of ‘foreign only’ enclaves in Barcelona",2020,article,280,True,borderline,1,core concept mentioned once,pending
+W3034001294,C10,landmarks,C10_landmarks,70,"Transnational gentrification, tourism and the formation of ‘foreign only’ enclaves in Barcelona",2020,article,280,True,borderline,1,core concept mentioned once | manual: transnational gentrification and Airbnb in Barcelona,include
 W2531726695,C10,landmarks,C10_landmarks,71,Sharing and neoliberal discourse: The economic function of sharing in the digital on-demand economy,2016,article,277,False,exclude,0,core concept missing,exclude
 W2221455182,C10,landmarks,C10_landmarks,72,Efficiencies and Regulatory Shortcuts: How Should We Regulate Companies like Airbnb and Uber?,2015,preprint,277,False,include,3,no abstract; core (and context) in title,include
 W2791274945,C10,landmarks,C10_landmarks,73,Platform economies and urban planning: Airbnb and regulated deregulation in London,2018,article,271,True,include,4,rules,include
@@ -7793,18 +7793,18 @@ W2885230923,C10,landmarks,C10_landmarks,74,Exploring Airbnb service quality attr
 W2786061594,C10,landmarks,C10_landmarks,75,When guests trust hosts for their words: Host description and trust in sharing economy,2018,article,263,False,exclude,0,core concept missing,exclude
 W2972559601,C10,landmarks,C10_landmarks,76,The effect of the perceived risk on the adoption of the sharing economy in the tourism industry: The case of Airbnb,2019,article,260,False,include,3,no abstract; core (and context) in title,include
 W2269646235,C10,landmarks,C10_landmarks,77,"Who Benefits from the ""Sharing"" Economy of Airbnb?",2016,conference-paper,255,True,include,6,rules,include
-W2257025724,C10,landmarks,C10_landmarks,78,Adapting to the Sharing Economy,2015,article,247,True,borderline,1,core concept mentioned once,pending
-W2901319768,C10,landmarks,C10_landmarks,79,Introduction To The Forum: From Third To Fifth‐Wave Gentrification,2018,article,245,True,borderline,1,core concept mentioned once,pending
+W2257025724,C10,landmarks,C10_landmarks,78,Adapting to the Sharing Economy,2015,article,247,True,borderline,1,core concept mentioned once | manual: adapting to the sharing economy,exclude
+W2901319768,C10,landmarks,C10_landmarks,79,Introduction To The Forum: From Third To Fifth‐Wave Gentrification,2018,article,245,True,borderline,1,"core concept mentioned once | manual: fifth-wave gentrification forum (Airbnb, platform capitalism)",include
 W2989661412,C10,landmarks,C10_landmarks,80,"Consumers’ value co-creation in sharing economy: The role of social support, consumers’ ethical perceptions and relationship quality",2019,article,244,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2076998355,C10,landmarks,C10_landmarks,81,Monetizing Network Hospitality,2015,conference-paper,242,True,include,2,rules,include
 W2897832366,C10,landmarks,C10_landmarks,82,Platform Real Estate: theory and practice of new urban real estate markets,2018,article,238,True,include,6,rules,include
 W2785457059,C10,landmarks,C10_landmarks,83,The effect of hedonic and utilitarian values on satisfaction and loyalty of Airbnb users,2018,article,235,True,include,6,rules,include
-W2739218969,C10,landmarks,C10_landmarks,84,The impacts of quality and quantity attributes of Airbnb hosts on listing performance,2017,article,235,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2739218969,C10,landmarks,C10_landmarks,84,The impacts of quality and quantity attributes of Airbnb hosts on listing performance,2017,article,235,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: Airbnb host attributes and listing performance, Austin",include
 W2209002011,C10,landmarks,C10_landmarks,85,Transaction costs and the sharing economy,2016,article,235,True,include,2,rules,include
 W2891520355,C10,landmarks,C10_landmarks,86,"A Systematic Review of Smart Real Estate Technology: Drivers of, and Barriers to, the Use of Digital Disruptive Technologies and Online Platforms",2018,review,233,True,include,4,rules,include
 W2965194207,C10,landmarks,C10_landmarks,87,"The platformization of Chinese Society: infrastructure, governance, and practice",2019,article,227,True,exclude,1,"stub abstract, core not in title",exclude
 W2344858549,C10,landmarks,C10_landmarks,88,Freedom from ownership: An exploration of access-based consumption,2016,article,227,False,exclude,0,core concept missing,exclude
-W3009043191,C10,landmarks,C10_landmarks,89,The dark side of the sharing economy: Balancing value co‐creation and value co‐destruction,2020,article,225,True,borderline,1,core concept mentioned once,pending
+W3009043191,C10,landmarks,C10_landmarks,89,The dark side of the sharing economy: Balancing value co‐creation and value co‐destruction,2020,article,225,True,borderline,1,core concept mentioned once | manual: sharing economy value co-destruction,exclude
 W2895447999,C10,landmarks,C10_landmarks,90,Cooperation or competition – When do people contribute more? A field experiment on gamification of crowdsourcing,2018,article,225,False,exclude,0,core concept missing,exclude
 W2584584391,C10,landmarks,C10_landmarks,91,Unraveling the diverse nature of service quality in a sharing economy,2017,article,225,True,include,3,rules,include
 W2899909180,C10,landmarks,C10_landmarks,92,In Airbnb we trust: Understanding consumers’ trust-attachment building mechanisms in the sharing economy,2018,article,224,False,include,3,no abstract; core (and context) in title,include
@@ -7821,7 +7821,7 @@ W4413917881,C10,recent,C10_recent_q1,2,Beyond Airbnb: Exploring Decentralized Sh
 W4221139366,C10,recent,C10_recent_q1,3,“Airbnb in the City”: assessing short-term rental regulation in Bordeaux,2023,article,26,False,include,3,no abstract; core (and context) in title,include
 W4301258363,C10,recent,C10_recent_q1,4,Seasonality of Short Term Rentals: Case Study from Airbnb in Istanbul,2022,conference-paper,0,True,include,6,rules,include
 W4412185416,C10,recent,C10_recent_q1,5,Dynamic Pricing in Short-Term Rentals: An Empirical Examination of Airbnb Listings,2025,article,0,True,include,6,rules,include
-W4304944435,C10,recent,C10_recent_q1,6,The Effect of Short-Term Rentals on Residential Investment,2022,article,46,True,borderline,5,stub abstract (possible book review),pending
+W4304944435,C10,recent,C10_recent_q1,6,The Effect of Short-Term Rentals on Residential Investment,2022,article,46,True,borderline,5,stub abstract (possible book review) | manual: short-term rentals and residential investment,include
 W7117697213,C10,recent,C10_recent_q1,7,Heritage Value and Short-Term Rentals: Spatial Dynamics of Airbnb Prices in Rome,2025,article,4,True,include,6,rules,include
 W4389143249,C10,recent,C10_recent_q1,8,Examining short-term rentals' influence on tourists' well-being using Airbnb reviews,2023,article,5,True,include,6,rules,include
 W4327651146,C10,recent,C10_recent_q1,9,Short-Term Rental Platforms and Homeowner Displacement: Evidence from Airbnb Registration Enforcement,2023,preprint,9,False,include,3,no abstract; core (and context) in title,include
@@ -7856,7 +7856,7 @@ W4285276035,C10,recent,C10_recent_q2,13,Proptech: Issues for the Future,2022,ref
 W4408087068,C10,recent,C10_recent_q2,14,Analisis Manajemen Risiko Pada Perencanaan Bisnis PROPTECH,2024,article,0,True,include,6,rules,include
 W7201864277,C10,recent,C10_recent_q2,15,Development Trends in Property Technology and the Role of Ankara University Property Technology Center in Türkiye,2026,conference-paper,0,True,include,6,rules,include
 W4320154482,C10,recent,C10_recent_q2,16,Proptech: Issues for the Future,2022,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
-W7132491850,C10,recent,C10_recent_q2,17,Proptech und der Einfluss auf die Immobilienwirtschaft,2024,article,0,True,borderline,3,stub abstract (possible book review),pending
+W7132491850,C10,recent,C10_recent_q2,17,Proptech und der Einfluss auf die Immobilienwirtschaft,2024,article,0,True,borderline,3,stub abstract (possible book review) | manual: proptech and the real-estate industry (German),include
 W4388230526,C10,recent,C10_recent_q2,18,Exploring PropTech Investment Capital Pull Factors,2023,conference-paper,0,True,include,6,rules,include
 W4412920237,C10,recent,C10_recent_q2,19,Largo al proptech come leva di crescita,2022,article,0,True,include,6,rules,include
 W4401366460,C10,recent,C10_recent_q2,20,Barriers to technology acceptance faced by PropTech start-ups,2024,article,1,True,include,6,rules,include
@@ -7865,19 +7865,19 @@ W4415690737,C10,recent,C10_recent_q2,22,PropTech in Real Estate Investment and F
 W7214404222,C10,recent,C10_recent_q2,23,From fragmented systems to financial clarity: Rethinking real estate technology in a new era of accountability,2026,article,0,True,include,6,rules,include
 W7117638223,C10,recent,C10_recent_q2,24,Proptech в жилой недвижимости Республики Беларусь,2025,article,0,True,include,5,rules,include
 W4388424359,C10,recent,C10_recent_q3,1,The impact of online rental Platforms,2023,article,0,True,include,4,rules,include
-W7119528594,C10,recent,C10_recent_q3,2,Housing Rental Platforms in Sweden: 2026 Analysis,2026,article,0,True,borderline,3,stub abstract (possible book review),pending
-W7119527213,C10,recent,C10_recent_q3,3,Housing Rental Platforms in Sweden: 2026 Analysis,2026,article,0,True,borderline,3,stub abstract (possible book review),pending
-W7119497539,C10,recent,C10_recent_q3,4,Housing Rental Platforms in Sweden: 2026 Analysis,2026,article,0,True,borderline,3,stub abstract (possible book review),pending
+W7119528594,C10,recent,C10_recent_q3,2,Housing Rental Platforms in Sweden: 2026 Analysis,2026,article,0,True,borderline,3,stub abstract (possible book review) | manual: promotional analysis of Swedish rental platforms,exclude
+W7119527213,C10,recent,C10_recent_q3,3,Housing Rental Platforms in Sweden: 2026 Analysis,2026,article,0,True,borderline,3,stub abstract (possible book review) | manual: promotional analysis (duplicate),exclude
+W7119497539,C10,recent,C10_recent_q3,4,Housing Rental Platforms in Sweden: 2026 Analysis,2026,article,0,True,borderline,3,stub abstract (possible book review) | manual: promotional analysis (duplicate),exclude
 W4386966846,C10,recent,C10_recent_q3,5,Essays on Online Retail and Rental Platforms,2023,dissertation,0,True,include,3,rules,include
-W7119466513,C10,recent,C10_recent_q3,6,Housing Rental Platforms in Sweden: 2026 Analysis,2026,article,0,True,borderline,3,stub abstract (possible book review),pending
+W7119466513,C10,recent,C10_recent_q3,6,Housing Rental Platforms in Sweden: 2026 Analysis,2026,article,0,True,borderline,3,stub abstract (possible book review) | manual: promotional analysis (duplicate),exclude
 W4292649265,C10,recent,C10_recent_q3,7,Overtourism and online short-term rental platforms in Italian cities,2022,book-chapter,17,True,include,6,rules,include
 W4285088860,C10,recent,C10_recent_q3,8,Collaborative Consumption: A Study of Sustainability Presentation in Fashion Rental Platforms,2022,article,23,True,include,3,rules,include
 W7212479747,C10,recent,C10_recent_q3,9,Gendered experiences of sublet housing platforms in Stockholm,2026,article,0,True,include,5,rules,include
-W7160863057,C10,recent,C10_recent_q3,10,AI-Based Property Recommendation System for Smart Rental Platforms,2026,article,0,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
-W7160870249,C10,recent,C10_recent_q3,11,AI-Based Property Recommendation System for Smart Rental Platforms,2026,other,0,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
-W7160838226,C10,recent,C10_recent_q3,12,AI-Based Property Recommendation System for Smart Rental Platforms,2026,article,0,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
-W7160866332,C10,recent,C10_recent_q3,13,AI-Based Property Recommendation System for Smart Rental Platforms,2026,other,0,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
-W7154194961,C10,recent,C10_recent_q3,14,Short-term rental platforms and real estate in Corsica,2026,conference-paper,0,True,borderline,3,stub abstract (possible book review),pending
+W7160863057,C10,recent,C10_recent_q3,10,AI-Based Property Recommendation System for Smart Rental Platforms,2026,article,0,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: property recommendation system,exclude
+W7160870249,C10,recent,C10_recent_q3,11,AI-Based Property Recommendation System for Smart Rental Platforms,2026,other,0,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: property recommendation system (duplicate),exclude
+W7160838226,C10,recent,C10_recent_q3,12,AI-Based Property Recommendation System for Smart Rental Platforms,2026,article,0,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: property recommendation system (duplicate),exclude
+W7160866332,C10,recent,C10_recent_q3,13,AI-Based Property Recommendation System for Smart Rental Platforms,2026,other,0,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: property recommendation system (duplicate),exclude
+W7154194961,C10,recent,C10_recent_q3,14,Short-term rental platforms and real estate in Corsica,2026,conference-paper,0,True,borderline,3,stub abstract (possible book review) | manual: short-term rental platforms in Corsica,include
 W4411005981,C10,recent,C10_recent_q3,15,AI-Powered Fashion Recommendation System for Smart Dress Rental Platforms,2025,article,0,True,include,4,rules,include
 W4406726870,C10,recent,C10_recent_q3,16,Residents’ perspectives on short-term rental platforms through a sustainability lens,2025,article,2,True,include,4,rules,include
 W4415479890,C10,recent,C10_recent_q3,17,INTEGRATING AI RECOMMENDATIONS AND CHATBOT SUPPORT INTO SUSTAINABLE CLOTHING RENTAL PLATFORMS,2025,article,0,True,include,4,rules,include

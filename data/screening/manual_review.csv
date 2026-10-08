@@ -1292,3 +1292,38 @@ W4409671179,C9,exclude,"Claude (manual review, Stage 2)",ride-hailing cancellati
 W7154707697,C9,include,"Claude (manual review, Stage 2)",Mobility as a Service (overview)
 W7204516586,C9,include,"Claude (manual review, Stage 2)",contactless fare payment in rural transit (flag false positive)
 W4410027442,C9,exclude,"Claude (manual review, Stage 2)",NFC fare system engineering
+W2936241243,C10,exclude,"Claude (manual review, Stage 2)",house-price ML model
+W4288403868,C10,exclude,"Claude (manual review, Stage 2)",house-price ML model (duplicate)
+W4282973398,C10,exclude,"Claude (manual review, Stage 2)",real-estate price prediction
+W1498835019,C10,exclude,"Claude (manual review, Stage 2)",water property rights (not proptech)
+W4414803946,C10,include,"Claude (manual review, Stage 2)",drone property titling (Svamitva) and property technology in India
+W1550674074,C10,exclude,"Claude (manual review, Stage 2)",collaborative consumption satisfaction (marketing)
+W3011186445,C10,exclude,"Claude (manual review, Stage 2)",AI and innovation design
+W2511643785,C10,exclude,"Claude (manual review, Stage 2)",platform strategy (business)
+W2417954757,C10,exclude,"Claude (manual review, Stage 2)",sharing economy book (B1)
+W2963377100,C10,exclude,"Claude (manual review, Stage 2)",AI business models
+W2734686021,C10,exclude,"Claude (manual review, Stage 2)",sharing economy labour and inequality (B1/B11)
+W2618631537,C10,exclude,"Claude (manual review, Stage 2)",authentic tourism and the sharing economy
+W2732513160,C10,exclude,"Claude (manual review, Stage 2)",data-driven business models
+W2901558138,C10,exclude,"Claude (manual review, Stage 2)",social media data in urban studies (C4)
+W2598089351,C10,exclude,"Claude (manual review, Stage 2)",sharing-economy providers and inequality (B1)
+W3121717788,C10,include,"Claude (manual review, Stage 2)",discrimination and reviews on Airbnb (field experiments)
+W2909796576,C10,exclude,"Claude (manual review, Stage 2)",sharing economy and SDGs in tourism
+W2769249128,C10,exclude,"Claude (manual review, Stage 2)",tourism impacts in city destinations
+W3019970289,C10,exclude,"Claude (manual review, Stage 2)",sharing economy business models
+W3034001294,C10,include,"Claude (manual review, Stage 2)",transnational gentrification and Airbnb in Barcelona
+W2257025724,C10,exclude,"Claude (manual review, Stage 2)",adapting to the sharing economy
+W2901319768,C10,include,"Claude (manual review, Stage 2)","fifth-wave gentrification forum (Airbnb, platform capitalism)"
+W2739218969,C10,include,"Claude (manual review, Stage 2)","Airbnb host attributes and listing performance, Austin"
+W3009043191,C10,exclude,"Claude (manual review, Stage 2)",sharing economy value co-destruction
+W4304944435,C10,include,"Claude (manual review, Stage 2)",short-term rentals and residential investment
+W7132491850,C10,include,"Claude (manual review, Stage 2)",proptech and the real-estate industry (German)
+W7119528594,C10,exclude,"Claude (manual review, Stage 2)",promotional analysis of Swedish rental platforms
+W7119527213,C10,exclude,"Claude (manual review, Stage 2)",promotional analysis (duplicate)
+W7119497539,C10,exclude,"Claude (manual review, Stage 2)",promotional analysis (duplicate)
+W7119466513,C10,exclude,"Claude (manual review, Stage 2)",promotional analysis (duplicate)
+W7160863057,C10,exclude,"Claude (manual review, Stage 2)",property recommendation system
+W7160870249,C10,exclude,"Claude (manual review, Stage 2)",property recommendation system (duplicate)
+W7160838226,C10,exclude,"Claude (manual review, Stage 2)",property recommendation system (duplicate)
+W7160866332,C10,exclude,"Claude (manual review, Stage 2)",property recommendation system (duplicate)
+W7154194961,C10,include,"Claude (manual review, Stage 2)",short-term rental platforms in Corsica
