@@ -463,3 +463,25 @@ W4251489845,A9,exclude,"Claude (manual review, Stage 2)",monument critics; priva
 W2518252974,A9,exclude,"Claude (manual review, Stage 2)",street vendors and local politics (A10)
 W7126086761,A9,exclude,"Claude (manual review, Stage 2)",intergroup dialogue (garbled abstract)
 W4403315529,A9,include,"Claude (manual review, Stage 2)",expressive activity and access to privately owned public space
+W587186091,A10,exclude,"Claude (manual review, Stage 2)",urban policy and housing in Dhaka; informal economy in passing
+W2560723274,A10,exclude,"Claude (manual review, Stage 2)",megacity governance review essay
+W2042449009,A10,exclude,"Claude (manual review, Stage 2)",urban citizenship at Delhi's margins; informal economy in passing
+W7126339321,A10,include,"Claude (manual review, Stage 2)","informal-sector workers and urban migration, Delhi"
+W562115475,A10,exclude,"Claude (manual review, Stage 2)",transnationalism
+W2164896019,A10,exclude,"Claude (manual review, Stage 2)",food-safety microbiology
+W1539764041,A10,exclude,"Claude (manual review, Stage 2)",development studies companion
+W2491906188,A10,exclude,"Claude (manual review, Stage 2)",early-modern press
+W4248449115,A10,include,"Claude (manual review, Stage 2)",forbearance towards street vending and squatting
+W3096348260,A10,include,"Claude (manual review, Stage 2)","forbearance as redistribution (street vending, squatting)"
+W1964571117,A10,exclude,"Claude (manual review, Stage 2)",informal networks in Cairo
+W3022831664,A10,exclude,"Claude (manual review, Stage 2)",COVID in informal settlements
+W2187038052,A10,exclude,"Claude (manual review, Stage 2)",medicinal plant trade survey
+W1557748257,A10,include,"Claude (manual review, Stage 2)",informal-sector workers and opposition voting in Africa
+W2024789835,A10,include,"Claude (manual review, Stage 2)",hawkers and everyday corruption in Mumbai
+W2735631134,A10,include,"Claude (manual review, Stage 2)",street vendors in Asia
+W560103532,A10,exclude,"Claude (manual review, Stage 2)",security in Guatemala City
+W596310785,A10,exclude,"Claude (manual review, Stage 2)",legal geography
+W1850541179,A10,include,"Claude (manual review, Stage 2)",enforcement against street vending in Latin American capitals
+W2073323190,A10,include,"Claude (manual review, Stage 2)",Operation Murambatsvina and the urban informal economy
+W4294350053,A10,exclude,"Claude (manual review, Stage 2)",planning and informality debates (A15/A3)
+W4390971439,A10,include,"Claude (manual review, Stage 2)",women in the urban informal economy (flag false positive)

@@ -22,16 +22,16 @@ W3175136200,A10,india,A10_india_q2,5,"COVID-19 Crisis and the Informal Economy: 
 W7204456615,A10,india,A10_india_q2,6,Vulnerabilities of Migrant Women in the Informal Economy of Dhaka City,2026,book-chapter,0,True,include,5,rules,include
 W3176111899,A10,india,A10_india_q2,7,"COVID-19 Crisis and the Informal Economy: Informal Workers in Delhi, India",2020,other,3,True,include,6,rules,include
 W7115901205,A10,india,A10_india_q2,8,WOMEN IN URBAN INFORMAL ECONOMY: CASE STUDY OF DOMESTIC WORKERS AND STREET VENDORS IN GURUGRAM,2025,article,0,True,include,6,rules,include
-W587186091,A10,india,A10_india_q2,9,"Urban policy in Bangladesh: the state, inequality and housing crises in Dhaka city",2003,dissertation,2,True,borderline,1,core concept mentioned once,pending
-W2560723274,A10,india,A10_india_q2,10,Exploring Governance in South Asian Mega Cities: A Review Essay,2004,review,2,True,borderline,1,core concept mentioned once,pending
+W587186091,A10,india,A10_india_q2,9,"Urban policy in Bangladesh: the state, inequality and housing crises in Dhaka city",2003,dissertation,2,True,borderline,1,core concept mentioned once | manual: urban policy and housing in Dhaka; informal economy in passing,exclude
+W2560723274,A10,india,A10_india_q2,10,Exploring Governance in South Asian Mega Cities: A Review Essay,2004,review,2,True,borderline,1,core concept mentioned once | manual: megacity governance review essay,exclude
 W7212027446,A10,india,A10_india_q2,11,A Comprehensive Understanding the Informal Economy: Income Determinants of Street Hawkers in Dhaka City,2026,article,0,True,include,6,rules,include
-W2042449009,A10,india,A10_india_q2,12,Making the Global City: Urban Citizenship at the Margins of Delhi,2010,article,91,True,borderline,1,core concept mentioned once,pending
+W2042449009,A10,india,A10_india_q2,12,Making the Global City: Urban Citizenship at the Margins of Delhi,2010,article,91,True,borderline,1,core concept mentioned once | manual: urban citizenship at Delhi's margins; informal economy in passing,exclude
 W4401840255,A10,india,A10_india_q2,13,FEMALE DOMESTIC LABORERS IN THE URBAN INFORMAL ECONOMY: A CASE ANALYSIS OF DELHI,2024,article,2,True,include,5,rules,include
 W7214289272,A10,india,A10_india_q2,14,"Estimating Informal-Economy Gross Value Added for Bengaluru, 2025–26",2026,article,0,True,include,3,rules,include
 W4410169273,A10,india,A10_india_q2,15,"Resilience in the informal economy amidst the COVID-19 crisis: the experience of street vendors in Dhaka, Bangladesh",2025,article,11,True,include,6,rules,include
 W90919661,A10,india,A10_india_q3,1,"A New Institutional Economics (NIE) Framework for the Urban Informal Sector in Colombo, Sri Lanka",2007,dissertation,1,True,include,6,rules,include
 W3125578386,A10,india,A10_india_q3,2,Social Protection in the Urban Informal Sector in Sri Lanka,2020,book-chapter,1,True,include,5,rules,include
-W7126339321,A10,india,A10_india_q3,3,Determinants of Urban Migration Among Informal Sector Workers in India — Evidence from Delhi,2025,other,0,True,borderline,3,stub abstract (possible book review),pending
+W7126339321,A10,india,A10_india_q3,3,Determinants of Urban Migration Among Informal Sector Workers in India — Evidence from Delhi,2025,other,0,True,borderline,3,"stub abstract (possible book review) | manual: informal-sector workers and urban migration, Delhi",include
 W2993208286,A10,india,A10_india_q3,4,"Fruit and Vegetable Street Vendors in Urban Informal Sector in Hyderabad, India",2019,article,5,True,include,6,rules,include
 W2888978635,A10,india,A10_india_q3,5,Dynamics of Employment in the Urban Informal Sector in Bangladesh,2018,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W3125006064,A10,india,A10_india_q3,6,Urban Informal Sector in Selected Cities of South Asia,2020,book-chapter,1,True,include,5,rules,include
@@ -78,34 +78,34 @@ W2004056710,A10,landmarks,A10_landmarks,1,A Meta-Analysis of Global Urban Land E
 W3022390072,A10,landmarks,A10_landmarks,2,Women and men in the informal economy: a statistical picture,2018,article,1584,True,include,6,rules,include
 W4236301267,A10,landmarks,A10_landmarks,3,Informality,2007,book,849,True,include,3,rules,include
 W2170050404,A10,landmarks,A10_landmarks,4,Does Informality Imply Segmentation in Urban Labor Markets? Evidence from Sectoral Transitions in Mexico,1999,article,746,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W562115475,A10,landmarks,A10_landmarks,5,Transnationalism From Below,2017,book,658,True,borderline,1,core concept mentioned once,pending
+W562115475,A10,landmarks,A10_landmarks,5,Transnationalism From Below,2017,book,658,True,borderline,1,core concept mentioned once | manual: transnationalism,exclude
 W569500510,A10,landmarks,A10_landmarks,6,"Good intentions, bad outcomes: social policy, informality, and economic growth in Mexico",2008,book-review,634,True,exclude,0,type book-review,exclude
 W2110235569,A10,landmarks,A10_landmarks,7,Tools of the trade: the socio-technology of arbitrage in a Wall Street trading room,2004,article,571,True,include,3,rules,include
 W2058753237,A10,landmarks,A10_landmarks,8,Informal sector or petty commodity production: Dualism or dependence in urban development?,1978,article,551,False,include,3,no abstract; core (and context) in title,include
 W1846353168,A10,landmarks,A10_landmarks,9,Risks and Reconstruction,2000,book,511,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2164896019,A10,landmarks,A10_landmarks,10,"Street foods in Accra, Ghana: how safe are they?",2002,article,473,True,borderline,1,core concept mentioned once,pending
-W1539764041,A10,landmarks,A10_landmarks,11,The Companion to Development Studies,2014,book,421,True,borderline,1,core concept mentioned once,pending
+W2164896019,A10,landmarks,A10_landmarks,10,"Street foods in Accra, Ghana: how safe are they?",2002,article,473,True,borderline,1,core concept mentioned once | manual: food-safety microbiology,exclude
+W1539764041,A10,landmarks,A10_landmarks,11,The Companion to Development Studies,2014,book,421,True,borderline,1,core concept mentioned once | manual: development studies companion,exclude
 W422207833,A10,landmarks,A10_landmarks,12,Welfare consequences of selling public enterprises,1994,book,405,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W1985023119,A10,landmarks,A10_landmarks,13,Street vending and public policy: a global review,2000,article,404,True,include,5,rules,include
 W2482129546,A10,landmarks,A10_landmarks,14,Is Informal Normal ?,2009,book,400,True,include,3,rules,include
 W2292824068,A10,landmarks,A10_landmarks,15,Experiential value in branding food tourism,2016,article,374,False,exclude,0,core concept missing,exclude
 W2109441424,A10,landmarks,A10_landmarks,16,Informal employment in developing countries,2011,article,370,False,include,3,no abstract; core in title; context terms missing,include
 W1506884483,A10,landmarks,A10_landmarks,17,A Market-Oriented Strategy for Small and Medium Scale Enterprises,2000,book,367,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2491906188,A10,landmarks,A10_landmarks,18,The Women of Grub Street,1998,book,367,True,borderline,1,core concept mentioned once,pending
+W2491906188,A10,landmarks,A10_landmarks,18,The Women of Grub Street,1998,book,367,True,borderline,1,core concept mentioned once | manual: early-modern press,exclude
 W2032622934,A10,landmarks,A10_landmarks,19,Competing Perspectives on the Latin American Informal Sector,1993,article,359,True,include,6,rules,include
-W4248449115,A10,landmarks,A10_landmarks,20,Forbearance,2016,article,357,True,borderline,1,core concept mentioned once,pending
+W4248449115,A10,landmarks,A10_landmarks,20,Forbearance,2016,article,357,True,borderline,1,core concept mentioned once | manual: forbearance towards street vending and squatting,include
 W1995616198,A10,landmarks,A10_landmarks,21,The urban informal sector,1976,article,350,False,include,3,no abstract; core (and context) in title,include
-W3096348260,A10,landmarks,A10_landmarks,22,Forbearance as Redistribution,2017,book,347,True,borderline,1,core concept mentioned once,pending
-W1964571117,A10,landmarks,A10_landmarks,23,"Avenues of Participation: Family, Politics, and Networks in Urban Quarters of Cairo",1995,article,345,True,borderline,1,core concept mentioned once,pending
+W3096348260,A10,landmarks,A10_landmarks,22,Forbearance as Redistribution,2017,book,347,True,borderline,1,"core concept mentioned once | manual: forbearance as redistribution (street vending, squatting)",include
+W1964571117,A10,landmarks,A10_landmarks,23,"Avenues of Participation: Family, Politics, and Networks in Urban Quarters of Cairo",1995,article,345,True,borderline,1,core concept mentioned once | manual: informal networks in Cairo,exclude
 W1788648224,A10,landmarks,A10_landmarks,24,Urban Livelihoods: A People-centred Approach to Reducing Poverty,2014,article,344,True,include,4,rules,include
 W4249548800,A10,landmarks,A10_landmarks,25,Targeting of Transfers in Developing Countries,2004,book,337,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2576329833,A10,landmarks,A10_landmarks,26,Urban groundwater quality in sub-Saharan Africa: current status and implications for water security and public health,2017,article,328,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2142245535,A10,landmarks,A10_landmarks,27,"Risk Factors for Typhoid and Paratyphoid Fever in Jakarta, Indonesia",2004,article,323,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W1971308760,A10,landmarks,A10_landmarks,28,Onions Are My Husband: Survival and Accumulation by West African Market Women,1996,article,310,True,exclude,1,"context terms missing, core mentioned once",exclude
-W3022831664,A10,landmarks,A10_landmarks,29,Local response in health emergencies: key considerations for addressing the COVID-19 pandemic in informal urban settlements,2020,article,308,True,borderline,1,core concept mentioned once,pending
+W3022831664,A10,landmarks,A10_landmarks,29,Local response in health emergencies: key considerations for addressing the COVID-19 pandemic in informal urban settlements,2020,article,308,True,borderline,1,core concept mentioned once | manual: COVID in informal settlements,exclude
 W3016560194,A10,landmarks,A10_landmarks,30,Sex and Gender Disparities in the COVID-19 Pandemic,2020,article,306,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W106456303,A10,landmarks,A10_landmarks,31,Is informal normal? : towards more and better jobs in developing countries,2009,book,299,True,include,3,rules,include
-W2187038052,A10,landmarks,A10_landmarks,32,"The trade in medicinal plants in the Eastern Cape Province, South Africa",2002,article,295,True,borderline,1,core concept mentioned once,pending
+W2187038052,A10,landmarks,A10_landmarks,32,"The trade in medicinal plants in the Eastern Cape Province, South Africa",2002,article,295,True,borderline,1,core concept mentioned once | manual: medicinal plant trade survey,exclude
 W1836282985,A10,landmarks,A10_landmarks,33,Footloose Labour; Working in India's Informal Economy,1996,book,294,True,include,3,rules,include
 W2136508577,A10,landmarks,A10_landmarks,34,"Policies, Political-Economy, and Swidden in Southeast Asia",2009,article,292,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2048862107,A10,landmarks,A10_landmarks,35,"Street vendors, and postmodernity: conflict and compromise in the global economy",2000,article,288,True,include,6,rules,include
@@ -128,20 +128,20 @@ W2095412402,A10,landmarks,A10_landmarks,51,"Practices, knowledge and risk factor
 W3125678814,A10,landmarks,A10_landmarks,52,Wage differentials and mobility in the urban labour market: a panel data analysis for Mexico,2002,article,225,False,exclude,0,core concept missing,exclude
 W1990586626,A10,landmarks,A10_landmarks,53,"Prevalence and growth of pathogens on salad vegetables, fruits and sprouts",2001,article,225,False,exclude,0,core concept missing,exclude
 W2049435044,A10,landmarks,A10_landmarks,54,The slowing of sub-Saharan Africa's urbanization: evidence and implications for urban livelihoods,2009,article,224,True,include,3,rules,include
-W1557748257,A10,landmarks,A10_landmarks,55,Urban Poverty and Party Populism in African Democracies,2013,book,219,True,borderline,1,core concept mentioned once,pending
-W2024789835,A10,landmarks,A10_landmarks,56,Ordinary states: Everyday corruption and the politics of space in Mumbai,2011,article,217,True,borderline,1,core concept mentioned once,pending
+W1557748257,A10,landmarks,A10_landmarks,55,Urban Poverty and Party Populism in African Democracies,2013,book,219,True,borderline,1,core concept mentioned once | manual: informal-sector workers and opposition voting in Africa,include
+W2024789835,A10,landmarks,A10_landmarks,56,Ordinary states: Everyday corruption and the politics of space in Mumbai,2011,article,217,True,borderline,1,core concept mentioned once | manual: hawkers and everyday corruption in Mumbai,include
 W1039167164,A10,landmarks,A10_landmarks,57,Bureaucratic form and the informal economy,2006,book-chapter,217,True,include,4,rules,include
 W1997762739,A10,landmarks,A10_landmarks,58,Informal politics: street vendors and the state in Mexico City,1999,book-review,217,False,exclude,0,type book-review,exclude
 W2031738174,A10,landmarks,A10_landmarks,59,The Latin American City,1994,book,216,True,exclude,0,core concept missing,exclude
 W2488654753,A10,landmarks,A10_landmarks,60,The Context of Medicines in Developing Countries,1988,book,214,False,exclude,0,core concept missing,exclude
-W2735631134,A10,landmarks,A10_landmarks,61,Street vendors in Asia: A review,2005,conference-abstract,212,True,borderline,3,stub abstract (possible book review),pending
+W2735631134,A10,landmarks,A10_landmarks,61,Street vendors in Asia: A review,2005,conference-abstract,212,True,borderline,3,stub abstract (possible book review) | manual: street vendors in Asia,include
 W2107186565,A10,landmarks,A10_landmarks,62,The Double Engagement: Transnationalism and Integration. Ghanaian Migrants’ Lives Between Ghana and The Netherlands,2008,article,211,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W560103532,A10,landmarks,A10_landmarks,63,Securing the City,2011,book,209,True,borderline,1,core concept mentioned once,pending
+W560103532,A10,landmarks,A10_landmarks,63,Securing the City,2011,book,209,True,borderline,1,core concept mentioned once | manual: security in Guatemala City,exclude
 W2086445555,A10,landmarks,A10_landmarks,64,Religion and politics in Sub-Saharan Africa,1998,article,208,True,exclude,1,"context terms missing, core mentioned once",exclude
 W2156521766,A10,landmarks,A10_landmarks,65,Skills Development in Sub-Saharan Africa,2004,book,205,True,include,2,rules,include
 W1547879188,A10,landmarks,A10_landmarks,66,Labour Market Modelling and the Urban Informal Sector: Theory and Evidence,1990,article,205,True,include,6,rules,include
 W2064027332,A10,landmarks,A10_landmarks,67,Responsible Entrepreneurship in Developing Countries: Understanding the Realities and Complexities,2009,article,201,False,exclude,0,core concept missing,exclude
-W596310785,A10,landmarks,A10_landmarks,68,The Expanding Spaces of Law,2014,book,199,True,borderline,1,core concept mentioned once,pending
+W596310785,A10,landmarks,A10_landmarks,68,The Expanding Spaces of Law,2014,book,199,True,borderline,1,core concept mentioned once | manual: legal geography,exclude
 W2018312498,A10,landmarks,A10_landmarks,69,"Urbanization and Underdevelopment: A Global Study of Modernization, Urban Bias, and Economic Dependency",1987,article,199,True,include,2,rules,include
 W1592805102,A10,landmarks,A10_landmarks,70,"Labor Regulations, Unions, and Social Protection in Developing Countries: Market distortions or Efficient Institutions?",2009,report,196,True,include,3,rules,include
 W2096340934,A10,landmarks,A10_landmarks,71,"Hannah More Meets Simple Simon: Tracts, Chapbooks, and Popular Culture in Late Eighteenth-Century England",1986,article,196,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -169,10 +169,10 @@ W2020231781,A10,landmarks,A10_landmarks,92,Small books and pleasant histories: P
 W3033901694,A10,landmarks,A10_landmarks,93,Policy opportunities and challenges from the COVID-19 pandemic for economies with large informal sectors,2020,article,169,False,include,3,no abstract; core in title; context terms missing,include
 W1505108172,A10,landmarks,A10_landmarks,94,"The urban informal sector in developing countries : employment, poverty and environment",1981,book,169,False,include,3,no abstract; core (and context) in title,include
 W2119279648,A10,landmarks,A10_landmarks,95,"Growing city, shrinking hinterland: land acquisition, transition and conflict in peri-urban Gurgaon, India",2009,article,168,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W1850541179,A10,landmarks,A10_landmarks,96,The Distributive Politics of Enforcement,2014,article,167,True,borderline,1,core concept mentioned once,pending
-W2073323190,A10,landmarks,A10_landmarks,97,Popular Reactions to State Repression: Operation Murambatsvina in Zimbabwe,2006,article,167,True,borderline,1,core concept mentioned once,pending
+W1850541179,A10,landmarks,A10_landmarks,96,The Distributive Politics of Enforcement,2014,article,167,True,borderline,1,core concept mentioned once | manual: enforcement against street vending in Latin American capitals,include
+W2073323190,A10,landmarks,A10_landmarks,97,Popular Reactions to State Repression: Operation Murambatsvina in Zimbabwe,2006,article,167,True,borderline,1,core concept mentioned once | manual: Operation Murambatsvina and the urban informal economy,include
 W1977480170,A10,landmarks,A10_landmarks,98,Between marriage and the market: intimate politics and survival in Cairo,1998,book-review,164,True,exclude,0,type book-review,exclude
-W4294350053,A10,landmarks,A10_landmarks,99,"Informality, the Commons and the Paradoxes for Planning: Concepts and Debates for Informality and Planning Self-Made Cities: Ordinary Informality? The Reordering of a Romany Neighbourhood The Land Formalisation Process and the Peri-Urban Zone of Dar es Salaam, Tanzania Street Vendors and Planning in Indonesian Cities Informal Urbanism in the USA: New Challenges for Theory and Practice Engaging with Citizenship and Urban Struggle Through an Informality Lens",2011,article,163,True,borderline,3,stub abstract (possible book review),pending
+W4294350053,A10,landmarks,A10_landmarks,99,"Informality, the Commons and the Paradoxes for Planning: Concepts and Debates for Informality and Planning Self-Made Cities: Ordinary Informality? The Reordering of a Romany Neighbourhood The Land Formalisation Process and the Peri-Urban Zone of Dar es Salaam, Tanzania Street Vendors and Planning in Indonesian Cities Informal Urbanism in the USA: New Challenges for Theory and Practice Engaging with Citizenship and Urban Struggle Through an Informality Lens",2011,article,163,True,borderline,3,stub abstract (possible book review) | manual: planning and informality debates (A15/A3),exclude
 W2020847088,A10,landmarks,A10_landmarks,100,Selling to tourists,1997,article,163,False,exclude,0,core concept missing,exclude
 W4300427614,A10,recent,A10_recent_q1,1,CONTRIBUTION OF STREET HAWKERS TOWARD ECONOMY AND PROBLEMS FACED BY THEM DURING STREET VENDING,2022,article,6,True,include,6,rules,include
 W4416855893,A10,recent,A10_recent_q1,2,From Street Hawkers to Public Markets,2025,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
@@ -189,7 +189,7 @@ W4321376316,A10,recent,A10_recent_q1,12,Street Vendors,2023,reference-entry,1,Tr
 W4396525732,A10,recent,A10_recent_q1,13,"Effect of Relocating Street Hawkers on Urban Vitality in the Malioboro Tourism Area, Yogyakarta",2023,article,0,True,include,6,rules,include
 W4389504559,A10,recent,A10_recent_q1,14,Street Vendors’ Perception on the Status of Street Vending Legalisation in Tanzania before and after the 5th Government,2023,article,1,True,include,6,rules,include
 W4416439510,A10,recent,A10_recent_q1,15,Unlicensed Street Vending,2025,book-chapter,0,True,include,6,rules,include
-W4390971439,A10,recent,A10_recent_q2,1,Women in the urban informal economy and pathways towards inclusive cities,2024,book-chapter,1,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4390971439,A10,recent,A10_recent_q2,1,Women in the urban informal economy and pathways towards inclusive cities,2024,book-chapter,1,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: women in the urban informal economy (flag false positive),include
 W4417234401,A10,recent,A10_recent_q2,2,The Informal Economy and Urban Design,2025,book-chapter,0,True,include,5,rules,include
 W7115177336,A10,recent,A10_recent_q2,3,"Informal economy in Ho Chi Minh City, Vietnam: urban livelihoods and policy issues",2025,article,0,True,include,6,rules,include
 W4388107757,A10,recent,A10_recent_q2,4,The informal economy in the postpandemic city,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
@@ -209,7 +209,7 @@ W4214752575,A10,recent,A10_recent_q3,2,Migrants and Their Livelihoods in the Urb
 W4312778226,A10,recent,A10_recent_q3,3,"Resilience Amid Uncertainty: COVID-19 Pandemic, the Urban Informal Sector, and Livelihoods in Sub-Saharan Africa",2022,book-chapter,4,True,include,4,rules,include
 W7215072115,A10,recent,A10_recent_q3,4,A Model on Urban Migration of Informal Sector Workers: with Reference to India,2026,article,0,True,include,5,rules,include
 W4415226044,A10,recent,A10_recent_q3,5,The Role of Labour Law in Protecting Informal Sector Workers in Urban India,2025,preprint,0,False,include,3,no abstract; core (and context) in title,include
-W7126339321,A10,recent,A10_recent_q3,6,Determinants of Urban Migration Among Informal Sector Workers in India — Evidence from Delhi,2025,other,0,True,borderline,3,stub abstract (possible book review),pending
+W7126339321,A10,recent,A10_recent_q3,6,Determinants of Urban Migration Among Informal Sector Workers in India — Evidence from Delhi,2025,other,0,True,borderline,3,"stub abstract (possible book review) | manual: informal-sector workers and urban migration, Delhi",include
 W7164801889,A10,recent,A10_recent_q3,7,Informal Sector Employment and Legal Invisibilization of Migrant Labour,2026,book-chapter,0,True,include,5,rules,include
 W4387462506,A10,recent,A10_recent_q3,8,Resilience and Productivity: Keys to a Better Future for Urban Informal Sector Workers in Côte d’Ivoire,2023,book,1,True,include,6,rules,include
 W4408082758,A10,recent,A10_recent_q3,9,Role of the Informal Sector in Employment Generation: A Comparative Study of Urban and Rural Areas,2025,article,0,True,include,6,rules,include
@@ -237,7 +237,7 @@ W4383554824,A10,recent,A10_recent_q4,15,"Social security for urban informal work
 W4398161114,A10,recent,A10_recent_q5,1,Urban livelihoods,2024,book-chapter,0,True,include,5,rules,include
 W7156253702,A10,recent,A10_recent_q5,2,GENDERED LINGUISTICS IN THE URBAN INFORMAL ECONOMY OF ZAMBIA,2026,conference-paper,0,True,include,5,rules,include
 W4409394702,A10,recent,A10_recent_q5,3,Ghost Kitchens And The Digitalization Of Indonesia’s Urban Informal Economy,2025,article,0,True,include,3,rules,include
-W4390971439,A10,recent,A10_recent_q5,4,Women in the urban informal economy and pathways towards inclusive cities,2024,book-chapter,1,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4390971439,A10,recent,A10_recent_q5,4,Women in the urban informal economy and pathways towards inclusive cities,2024,book-chapter,1,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: women in the urban informal economy (flag false positive),include
 W4306786620,A10,recent,A10_recent_q5,5,A Growing Connection between Rural Society and the Urban Informal Economy,2022,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4321497178,A10,recent,A10_recent_q5,6,"Urban informal economy and vulnerabilities of domestic waste-pickers: A case of Chandigarh, India",2023,article,22,True,include,3,rules,include
 W4410604159,A10,recent,A10_recent_q5,7,Confronting COVID-19: Policy Insights and Voices from Ghana’s Urban Informal Economy,2025,article,0,True,include,6,rules,include
