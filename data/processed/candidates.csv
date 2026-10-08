@@ -1634,7 +1634,7 @@ W4200040393,A7,india,A7_india_q1,6,"Advancing Urban Water Security in the Indus 
 W2038862099,A7,india,A7_india_q1,7,"What drives the urban water regime? An analysis of water governance arrangements in Hyderabad, India",2014,article,44,True,include,6,rules,include
 W2111506170,A7,india,A7_india_q1,8,"Pipe Dreams? The Governance of Urban Water Supply in Informal Settlements, New Delhi",2012,article,25,True,include,5,rules,include
 W1513439351,A7,india,A7_india_q1,9,"A hydrologic‐economic modeling approach for analysis of urban water supply dynamics in Chennai, India",2010,article,58,True,include,6,rules,include
-W2028625711,A7,india,A7_india_q1,10,"Climate Change and Urban Water Supply: Adaptive Capacity Local Government in Kathmandu City, Nepal",2013,article,11,True,borderline,3,stub abstract (possible book review),pending
+W2028625711,A7,india,A7_india_q1,10,"Climate Change and Urban Water Supply: Adaptive Capacity Local Government in Kathmandu City, Nepal",2013,article,11,True,borderline,3,"stub abstract (possible book review) | manual: urban water supply and local government adaptive capacity, Kathmandu",include
 W4220875297,A7,india,A7_india_q1,11,"Urban Water Security: Geospatial Assessment For Water Supply Services In Pune, India",2022,article,6,True,include,6,rules,include
 W2912883445,A7,india,A7_india_q1,12,India - SOUTH ASIA- P130544- IN Karnataka Urban Water Supply Modernization Project - Procurement Plan,2019,article,0,False,include,3,no abstract; core (and context) in title,include
 W2751249083,A7,india,A7_india_q1,13,India/SOUTH ASIA- P130544- IN Karnataka Urban Water Supply Modernization Project - Procurement Plan,2017,article,0,False,include,3,no abstract; core (and context) in title,include
@@ -1644,11 +1644,11 @@ W4231959608,A7,india,A7_india_q2,1,"A Comparative Overview of Urban Governance i
 W2762405724,A7,india,A7_india_q2,2,"Transforming Urban Dichotomies and Challenges of South Asian Megacities: Rethinking Sustainable Growth of Dhaka, Bangladesh",2017,article,138,True,include,3,rules,include
 W3198836228,A7,india,A7_india_q2,3,"From Polarisation to Urban De-integration: Water and Sanitation in Delhi, Kolkata and Hyderabad",2012,book-chapter,1,True,include,5,rules,include
 W1992413249,A7,india,A7_india_q2,4,Electricity access in urban slum households of Bangladesh: A case of Dhaka,2014,article,12,True,include,6,rules,include
-W4403821726,A7,india,A7_india_q2,5,Access to Clean Water and Sanitation in Rural South Asia: A Study of Bangladesh and Afghanistan,2024,preprint,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4403821726,A7,india,A7_india_q2,5,Access to Clean Water and Sanitation in Rural South Asia: A Study of Bangladesh and Afghanistan,2024,preprint,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: rural water and sanitation (not urban),exclude
 W2317788435,A7,india,A7_india_q2,6,Factors affecting slum sanitation projects in Dhaka City: learning from the dynamics of social-technological-governance systems,2014,article,13,True,include,6,rules,include
 W2790239013,A7,india,A7_india_q2,7,Assessing urban sustainability of slum settlements in Bangladesh: Evidence from Chittagong city,2018,article,106,True,include,2,rules,include
 W4403718677,A7,india,A7_india_q2,8,"Health Disparities in Urban Slums of South Asia: Public Health Challenges in India, Pakistan, and Bangladesh",2024,preprint,2,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W7212857194,A7,india,A7_india_q2,9,"Circular labour migration and urban service pressure in India: A comparative analysis of Delhi, Mumbai and Bengaluru",2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7212857194,A7,india,A7_india_q2,9,"Circular labour migration and urban service pressure in India: A comparative analysis of Delhi, Mumbai and Bengaluru",2026,article,0,True,borderline,1,core concept mentioned once | manual: circular migration and service pressure (A11),exclude
 W4403821747,A7,india,A7_india_q2,10,"Educational Inequality in Rural South Asia: Barriers to Quality Education in Bangladesh, Bhutan, and Nepal",2024,preprint,1,True,include,3,rules,include
 W7131130420,A7,india,A7_india_q2,11,"Socioeconomic and Gender Inequalities in Urban Water, Sanitation, and Hygiene Access: Evidence from Dhaka, Bangladesh",2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W2906957395,A7,india,A7_india_q2,12,Urban Water Governance: Pricing of Water for the Slum Dwellers of Dhaka Metropolis,2018,book-chapter,13,False,include,3,no abstract; core (and context) in title,include
@@ -1679,7 +1679,7 @@ W4387686755,A7,india,A7_india_q4,6,'Mafias' in the waterscape : Urban informalit
 W4385875123,A7,india,A7_india_q4,7,"Governance of Urban Infrastructure in India: Exploring the Approaches, Attributes, and Opportunities Towards Sustainability",2023,article,5,False,include,3,no abstract; core (and context) in title,include
 W4416333658,A7,india,A7_india_q4,8,Urban Infrastructure Vulnerability to Resilience Through Urban Governance,2025,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
 W2890460659,A7,india,A7_india_q4,9,New Claims to the City: Women's Interventions in the Politics of Urban Infrastructure in Pakistan,2018,article,0,False,include,3,no abstract; core (and context) in title,include
-W2620068598,A7,india,A7_india_q4,10,Urban governance in India,2017,article,137,True,borderline,1,core concept mentioned once,pending
+W2620068598,A7,india,A7_india_q4,10,Urban governance in India,2017,article,137,True,borderline,1,core concept mentioned once | manual: urban governance in India (A1); infrastructure deficit in passing,exclude
 W4285120821,A7,india,A7_india_q4,11,Role of Heritage Building Information Management in Indian Urban Infrastructure,2022,conference-paper,0,True,include,3,rules,include
 W2784605369,A7,india,A7_india_q4,12,Financing Sustainable Urbanization in Sri Lanka,2017,book-chapter,0,True,include,3,rules,include
 W3194780406,A7,india,A7_india_q4,13,"Bodies as urban infrastructure: Gender, intimate infrastructures and slow infrastructural violence",2021,article,152,True,include,6,rules,include
@@ -1711,18 +1711,18 @@ W2158012362,A7,landmarks,A7_landmarks,8,Ferroelectricity and Antiferroelectricit
 W2080578930,A7,landmarks,A7_landmarks,9,Economic growth and the environment: Whose growth? whose environment?,1992,article,1156,False,exclude,0,core concept missing,exclude
 W2944034133,A7,landmarks,A7_landmarks,10,Strategies for enhancing the heterogeneous Fenton catalytic reactivity: A review,2019,article,1151,False,exclude,0,core concept missing,exclude
 W2018247434,A7,landmarks,A7_landmarks,11,Hydrogen the fuel for 21st century,2009,article,1113,False,exclude,0,core concept missing,exclude
-W2037386668,A7,landmarks,A7_landmarks,12,A survey of urban climate change experiments in 100 cities,2012,article,1086,True,borderline,1,core concept mentioned once,pending
+W2037386668,A7,landmarks,A7_landmarks,12,A survey of urban climate change experiments in 100 cities,2012,article,1086,True,borderline,1,core concept mentioned once | manual: urban climate experiments (A14),exclude
 W1158182481,A7,landmarks,A7_landmarks,13,Long-life Li/polysulphide batteries with high sulphur loading enabled by lightweight three-dimensional nitrogen/sulphur-codoped graphene sponge,2015,article,1061,True,include,2,rules,include
 W4241750556,A7,landmarks,A7_landmarks,14,World Development Report 1993,1993,book,1037,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2973074650,A7,landmarks,A7_landmarks,15,The hydrogen evolution reaction: from material to interfacial descriptors,2019,article,976,True,exclude,1,"flag, core not in title: \b(wastewater treatment plant|membrane|p",exclude
 W1494416504,A7,landmarks,A7_landmarks,16,The Political Economy of Democratic Decentralization,1999,book,967,True,include,3,rules,include
-W4247934567,A7,landmarks,A7_landmarks,17,Social Power and the Urbanization of Water,2004,book,962,True,borderline,1,core concept mentioned once,pending
+W4247934567,A7,landmarks,A7_landmarks,17,Social Power and the Urbanization of Water,2004,book,962,True,borderline,1,core concept mentioned once | manual: social power and the urbanisation of water (Swyngedouw),include
 W2781795355,A7,landmarks,A7_landmarks,18,Water competition between cities and agriculture driven by climate change and urban growth,2018,article,942,False,exclude,0,core concept missing,exclude
 W4235431033,A7,landmarks,A7_landmarks,19,World Development Report 1992,1992,book,937,True,include,3,rules,include
 W646871639,A7,landmarks,A7_landmarks,20,Can Anyone Hear Us?,2000,book,936,True,include,2,rules,include
 W4236301267,A7,landmarks,A7_landmarks,21,Informality,2007,book,849,True,exclude,0,core concept missing,exclude
 W1489810909,A7,landmarks,A7_landmarks,22,An uncertain glory: India and its contradictions,2014,book-review,812,True,exclude,0,type book-review,exclude
-W2776990447,A7,landmarks,A7_landmarks,23,Wide and Deep Convolutional Neural Networks for Electricity-Theft Detection to Secure Smart Grids,2017,article,796,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W2776990447,A7,landmarks,A7_landmarks,23,Wide and Deep Convolutional Neural Networks for Electricity-Theft Detection to Secure Smart Grids,2017,article,796,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: electricity theft detection (deep learning),exclude
 W2058568474,A7,landmarks,A7_landmarks,24,Above-room-temperature ferroelectricity in a single-component molecular crystal,2010,article,792,False,include,3,no abstract; core (and context) in title,include
 W2084556987,A7,landmarks,A7_landmarks,25,The implications of chlorine-associated corrosion on the operation of biomass-fired boilers,2000,article,787,False,exclude,0,core concept missing,exclude
 W2290501245,A7,landmarks,A7_landmarks,26,Climate Change and Water,2009,article,785,True,include,3,rules,include
@@ -1737,7 +1737,7 @@ W2097570904,A7,landmarks,A7_landmarks,34,Infrastructural violence: Introduction 
 W4238054955,A7,landmarks,A7_landmarks,35,Lively Infrastructure,2014,article,624,True,include,6,rules,include
 W2564783998,A7,landmarks,A7_landmarks,36,Desert dust hazards: A global review,2016,article,618,False,exclude,0,core concept missing,exclude
 W2179900211,A7,landmarks,A7_landmarks,37,“Plastic” Solar Cells: Self-Assembly of Bulk Heterojunction Nanomaterials by Spontaneous Phase Separation,2009,article,618,True,exclude,2,"flag, core not in title: \b(wastewater treatment plant|membrane|p",exclude
-W2030702018,A7,landmarks,A7_landmarks,38,Processes of social learning in integrated resources management,2004,article,612,True,borderline,1,core concept mentioned once,pending
+W2030702018,A7,landmarks,A7_landmarks,38,Processes of social learning in integrated resources management,2004,article,612,True,borderline,1,core concept mentioned once | manual: social learning in resource management,exclude
 W1964252424,A7,landmarks,A7_landmarks,39,Global urbanization and impact on health,2003,article,607,False,exclude,0,core concept missing,exclude
 W4294351233,A7,landmarks,A7_landmarks,40,"Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence",2022,article,589,True,include,3,rules,include
 W2059334032,A7,landmarks,A7_landmarks,41,Groundwater: the processes and global significance of aquifer degradation,2003,article,582,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -1745,11 +1745,11 @@ W1966510008,A7,landmarks,A7_landmarks,42,Health in South Africa: changes and cha
 W2901645227,A7,landmarks,A7_landmarks,43,Livestock and climate change: impact of livestock on climate and mitigation strategies,2018,article,554,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2099588925,A7,landmarks,A7_landmarks,44,A study of storage tank accidents,2005,article,554,False,exclude,0,core concept missing,exclude
 W2083623988,A7,landmarks,A7_landmarks,45,The water sensitive city: principles for practice,2009,article,551,True,include,3,rules,include
-W2165200330,A7,landmarks,A7_landmarks,46,Energy and sustainable development in Nigeria: the way forward,2012,article,550,True,borderline,1,core concept mentioned once,pending
+W2165200330,A7,landmarks,A7_landmarks,46,Energy and sustainable development in Nigeria: the way forward,2012,article,550,True,borderline,1,"core concept mentioned once | manual: national energy policy, Nigeria",exclude
 W1997155867,A7,landmarks,A7_landmarks,47,Decentralized systems for potable water and the potential of membrane technology,2008,article,550,False,exclude,0,core concept missing,exclude
 W3099865851,A7,landmarks,A7_landmarks,48,Urban water resource management for sustainable environment planning using artificial intelligence techniques,2020,article,535,False,include,3,no abstract; core (and context) in title,include
 W2195800524,A7,landmarks,A7_landmarks,49,"Managing the food, water, and energy nexus for achieving the Sustainable Development Goals in South Asia",2015,article,524,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W1562904705,A7,landmarks,A7_landmarks,50,Decision scaling: Linking bottom‐up vulnerability analysis with climate projections in the water sector,2012,article,515,True,borderline,1,core concept mentioned once,pending
+W1562904705,A7,landmarks,A7_landmarks,50,Decision scaling: Linking bottom‐up vulnerability analysis with climate projections in the water sector,2012,article,515,True,borderline,1,core concept mentioned once | manual: water-sector decision scaling,exclude
 W1795503089,A7,landmarks,A7_landmarks,51,Political Infrastructures: Governing and Experiencing the Fabric of the City,2008,article,509,True,include,6,rules,include
 W2941122945,A7,landmarks,A7_landmarks,52,Shape Conformal and Thermal Insulative Organic Solar Absorber Sponge for Photothermal Water Evaporation and Thermoelectric Power Generation,2019,article,507,True,include,6,rules,include
 W3146346131,A7,landmarks,A7_landmarks,53,Why Has Critique Run out of Steam? From Matters of Fact to Matters of Concern,2004,article,504,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -1757,9 +1757,9 @@ W2117375201,A7,landmarks,A7_landmarks,54,Microstructure and mechanical propertie
 W1995967240,A7,landmarks,A7_landmarks,55,Emerging infectious diseases in southeast Asia: regional challenges to control,2011,article,498,False,exclude,0,core concept missing,exclude
 W2020444376,A7,landmarks,A7_landmarks,56,Energy services and energy poverty for sustainable rural development,2010,article,498,False,exclude,0,core concept missing,exclude
 W1548926106,A7,landmarks,A7_landmarks,57,"Splintering urbanism: Networked infrastructures, technological mobilities and the urban condition",2002,article,497,False,include,3,no abstract; core (and context) in title,include
-W2081670007,A7,landmarks,A7_landmarks,58,"Comparison of multiple linear and nonlinear regression, autoregressive integrated moving average, artificial neural network, and wavelet artificial neural network methods for urban water demand forecasting in Montreal, Canada",2011,article,495,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
-W2148008845,A7,landmarks,A7_landmarks,59,Social power and the urbanization of water flows of power,2004,article,493,True,borderline,1,core concept mentioned once,pending
-W1985127998,A7,landmarks,A7_landmarks,60,Adapting to climate change,2007,article,480,True,borderline,1,core concept mentioned once,pending
+W2081670007,A7,landmarks,A7_landmarks,58,"Comparison of multiple linear and nonlinear regression, autoregressive integrated moving average, artificial neural network, and wavelet artificial neural network methods for urban water demand forecasting in Montreal, Canada",2011,article,495,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: water demand forecasting,exclude
+W2148008845,A7,landmarks,A7_landmarks,59,Social power and the urbanization of water flows of power,2004,article,493,True,borderline,1,core concept mentioned once | manual: social power and the urbanisation of water (chapter),include
+W1985127998,A7,landmarks,A7_landmarks,60,Adapting to climate change,2007,article,480,True,borderline,1,core concept mentioned once | manual: climate adaptation in settlements (A14),exclude
 W1501456187,A7,landmarks,A7_landmarks,61,Privatizing water: governance failure and the world's urban water crisis,2011,book-review,478,True,exclude,0,type book-review,exclude
 W2086037283,A7,landmarks,A7_landmarks,62,"(Re-)Conceptualizing water inequality in Delhi, India through a feminist political ecology framework",2011,article,478,False,exclude,0,core concept missing,exclude
 W2123407739,A7,landmarks,A7_landmarks,63,Environmental health in China: progress towards clean air and safe water,2010,article,475,False,exclude,0,core concept missing,exclude
@@ -1782,12 +1782,12 @@ W2581060618,A7,landmarks,A7_landmarks,79,Mini-review: Anode modification for imp
 W1746692855,A7,landmarks,A7_landmarks,80,Inequality in Latin America: Breaking with History?,2004,preprint,419,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2140083708,A7,landmarks,A7_landmarks,81,Cohort Profile: Africa Centre Demographic Information System (ACDIS) and population-based HIV survey,2007,article,417,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2070768982,A7,landmarks,A7_landmarks,82,Public–Private Partnerships in Urban Infrastructures: Reconciling Private Sector Participation and Sustainability,2009,article,411,True,include,6,rules,include
-W1503263161,A7,landmarks,A7_landmarks,83,"Resilience, ecology and adaptation in the experimental city",2011,article,410,True,borderline,1,core concept mentioned once,pending
+W1503263161,A7,landmarks,A7_landmarks,83,"Resilience, ecology and adaptation in the experimental city",2011,article,410,True,borderline,1,core concept mentioned once | manual: experimental resilient urban infrastructure,include
 W1982098908,A7,landmarks,A7_landmarks,84,Evaluation of energy-conversion efficiencies in microbial fuel cells (MFCs) utilizing fermentable and non-fermentable substrates,2007,article,410,False,exclude,0,core concept missing,exclude
 W1971059542,A7,landmarks,A7_landmarks,85,Electricity use and economic development,2000,article,410,False,include,3,no abstract; core (and context) in title,include
 W422207833,A7,landmarks,A7_landmarks,86,Welfare consequences of selling public enterprises,1994,book,405,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2118396576,A7,landmarks,A7_landmarks,87,How Will Energy Demand Develop in the Developing World?,2012,article,400,True,borderline,1,core concept mentioned once,pending
-W1995299836,A7,landmarks,A7_landmarks,88,How Should Robustness Be Defined for Water Systems Planning under Change?,2015,article,388,True,borderline,1,core concept mentioned once,pending
+W2118396576,A7,landmarks,A7_landmarks,87,How Will Energy Demand Develop in the Developing World?,2012,article,400,True,borderline,1,core concept mentioned once | manual: energy demand forecasts,exclude
+W1995299836,A7,landmarks,A7_landmarks,88,How Should Robustness Be Defined for Water Systems Planning under Change?,2015,article,388,True,borderline,1,core concept mentioned once | manual: water-systems robustness modelling,exclude
 W3205673351,A7,landmarks,A7_landmarks,89,Estimating a social cost of carbon for global energy consumption,2021,article,386,False,exclude,0,core concept missing,exclude
 W2033528287,A7,landmarks,A7_landmarks,90,The sanitary city: urban infrastructure in America from Colonial times to the present,2000,book-review,386,True,exclude,0,type book-review,exclude
 W2076884878,A7,landmarks,A7_landmarks,91,Street politics: poor people's movements in Iran,1998,book-review,382,True,exclude,0,type book-review,exclude
@@ -1803,8 +1803,8 @@ W2123160841,A7,landmarks,A7_landmarks,100,Applying Integrated Urban Water Manage
 W4285272994,A7,recent,A7_recent_q1,1,Urban Water Supply and Governance in India,2022,book,4,False,include,3,no abstract; core (and context) in title,include
 W4283749521,A7,recent,A7_recent_q1,2,Urban water governance,2022,book-chapter,3,True,include,6,rules,include
 W4293202106,A7,recent,A7_recent_q1,3,Urban Water Governance,2022,book-chapter,0,True,include,5,rules,include
-W4283760702,A7,recent,A7_recent_q1,4,Routledge Handbook of Urban Water Governance,2022,book,26,True,borderline,3,stub abstract (possible book review),pending
-W4413464675,A7,recent,A7_recent_q1,5,Urban Water Supply Systems,2025,book-chapter,0,True,borderline,6,flag: \b(wastewater treatment plant|membrane|p,pending
+W4283760702,A7,recent,A7_recent_q1,4,Routledge Handbook of Urban Water Governance,2022,book,26,True,borderline,3,stub abstract (possible book review) | manual: handbook of urban water governance,include
+W4413464675,A7,recent,A7_recent_q1,5,Urban Water Supply Systems,2025,book-chapter,0,True,borderline,6,flag: \b(wastewater treatment plant|membrane|p | manual: engineering chapter on water supply systems,exclude
 W7132838974,A7,recent,A7_recent_q1,6,A narrative review of local ecological knowledge in urban water supply governance,2026,review,0,True,include,6,rules,include
 W4404395142,A7,recent,A7_recent_q1,7,Hydrology and Urban Water Supply,2024,book,6,False,include,3,no abstract; core (and context) in title,include
 W4283751544,A7,recent,A7_recent_q1,8,Fragmentation in Urban Water Governance,2022,book-chapter,0,True,include,6,rules,include
@@ -1819,20 +1819,20 @@ W4402223482,A7,recent,A7_recent_q2,1,Vulnerability of slum households in access 
 W7203993808,A7,recent,A7_recent_q2,2,The urban imagination and the politics of sanitation,2026,article,0,True,include,5,rules,include
 W4396669835,A7,recent,A7_recent_q2,3,"Sanitation politics, legacies, and change in urban South Africa",2024,article,4,True,include,6,rules,include
 W7167411135,A7,recent,A7_recent_q2,4,"Environmental Justice in Urban Sanitation Policy: Assessing Access, Governance, and Infrastructure Gaps in Rio de Janeiro",2026,article,0,True,include,6,rules,include
-W7130409681,A7,recent,A7_recent_q2,5,Governance and Financing Barriers in Scaling Urban Sanitation Infrastructure,2025,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7130409681,A7,recent,A7_recent_q2,5,Governance and Financing Barriers in Scaling Urban Sanitation Infrastructure,2025,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: governance and finance barriers to urban sanitation (flag false positive),include
 W4392474311,A7,recent,A7_recent_q2,6,"“FRUITY” SMELLS, CITY STREETS, AND THE POLITICS OF SANITATION",2024,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W7202168873,A7,recent,A7_recent_q2,7,SANITATION CHALLENGES IN URBAN SLUMS: A GEOGRAPHICAL STUDY OF BHOPAL CITY,2026,article,0,True,include,6,rules,include
 W7160059643,A7,recent,A7_recent_q2,8,"Assessing Sustainability for Shared Sanitation Facilities in Peri-Urban Slum (Case Study of Ciwalengke, Indonesia)",2024,article,0,True,include,6,rules,include
 W7154163691,A7,recent,A7_recent_q2,9,"Water and Sanitation Access: Inequality, Financing, and Urban-Rural Disparities",2023,article,0,True,include,4,rules,include
 W7153777805,A7,recent,A7_recent_q2,10,"Water and Sanitation Access: Inequality, Financing, and Urban-Rural Disparities",2026,article,0,True,include,4,rules,include
 W4410382083,A7,recent,A7_recent_q2,11,City brand and urban environmental sanitation: evidence from the national civilized city in China,2025,article,3,True,include,6,rules,include
-W4417076036,A7,recent,A7_recent_q2,12,Urban Governance and Service Delivery Mechanism: A Slum Based Study of Dhaka Metropolitan,2025,article,0,True,borderline,1,core concept mentioned once,pending
+W4417076036,A7,recent,A7_recent_q2,12,Urban Governance and Service Delivery Mechanism: A Slum Based Study of Dhaka Metropolitan,2025,article,0,True,borderline,1,core concept mentioned once | manual: service delivery in Dhaka slums,include
 W4321178688,A7,recent,A7_recent_q2,13,"Costs and benefits of improving water and sanitation in slums and non-slum neighborhoods in Dhaka, a fast-growing mega-city",2023,article,38,True,include,6,rules,include
 W7166349297,A7,recent,A7_recent_q2,14,Digital Governance in Urban Sanitation: Conceptual Insights from Swachh Bharat Mission - Urban in Telangana,2026,article,0,True,include,5,rules,include
 W4385999648,A7,recent,A7_recent_q2,15,Women In Slum Risking Their Safety To Access And Usage Of Basic Water And Sanitation Facilities,2023,preprint,2,True,include,6,rules,include
 W4206382266,A7,recent,A7_recent_q3,1,The Times of Splintering Urbanism,2022,article,19,True,include,6,rules,include
 W4315588085,A7,recent,A7_recent_q3,2,Splintering Urbanism at 20,2022,other,0,False,include,3,no abstract; core (and context) in title,include
-W4206267073,A7,recent,A7_recent_q3,3,Splintering Urbanism at 20 and the “Infrastructural Turn”,2022,article,99,True,borderline,4,stub abstract (possible book review),pending
+W4206267073,A7,recent,A7_recent_q3,3,Splintering Urbanism at 20 and the “Infrastructural Turn”,2022,article,99,True,borderline,4,stub abstract (possible book review) | manual: Splintering Urbanism at 20 and the infrastructural turn,include
 W4394601709,A7,recent,A7_recent_q3,4,Infrastructural citizenship,2024,book-chapter,0,True,include,6,rules,include
 W4205903018,A7,recent,A7_recent_q3,5,"Splintering, Specificity, Unsettlement: A Commentary on Splintering Urbanism",2022,article,9,True,include,6,rules,include
 W4415432505,A7,recent,A7_recent_q3,6,Interrogating splintering urbanism in the slums of Patna,2025,article,1,False,include,3,no abstract; core (and context) in title,include
@@ -1853,7 +1853,7 @@ W4416333658,A7,recent,A7_recent_q4,5,Urban Infrastructure Vulnerability to Resil
 W7139367023,A7,recent,A7_recent_q4,6,Mobilizing Citizenship: Navigating Urban Infrastructure and Planning Advocacy Among Palestinian Citizens of Israel,2025,dissertation,0,True,include,6,rules,include
 W4294579465,A7,recent,A7_recent_q4,7,Community Governance of Green Urban Infrastructure: Lessons from the Australian Context,2022,article,10,True,include,6,rules,include
 W7170607967,A7,recent,A7_recent_q4,8,Financialisation of urban infrastructure: state and the politics of risks,2026,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W4414880026,A7,recent,A7_recent_q4,9,Governing the smart city and smart governance: re-examining digital urban infrastructure,2025,article,7,True,borderline,4,stub abstract (possible book review),pending
+W4414880026,A7,recent,A7_recent_q4,9,Governing the smart city and smart governance: re-examining digital urban infrastructure,2025,article,7,True,borderline,4,stub abstract (possible book review) | manual: smart governance special issue (C1),exclude
 W4280588054,A7,recent,A7_recent_q4,10,Central-metropolitan government relations over urban infrastructure governance: The case of Istanbul,2022,book-chapter,0,True,include,6,rules,include
 W4416230830,A7,recent,A7_recent_q4,11,Urban Infrastructure Challenges,2025,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W7167467049,A7,recent,A7_recent_q4,12,Smart City Governance Through IoT-Enabled Urban Infrastructure and Centralised Data Management,2026,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
@@ -1874,7 +1874,7 @@ W4403438451,A7,recent,A7_recent_q5,11,"Urban slum housing quality, and its publi
 W4413064264,A7,recent,A7_recent_q5,12,"Assessing technical aspects and vulnerabilities from Tswaing informal settlement in Hammanskraal, South Africa",2025,article,1,True,include,2,rules,include
 W4382367274,A7,recent,A7_recent_q5,13,Urban Slum Upgrading: A Model for Expeditious Estimation of the Cost of Interventions,2023,conference-paper,2,False,exclude,0,core concept missing,exclude
 W4285891100,A7,recent,A7_recent_q5,14,Shockingly cold and electricity-dependent in a rich context: Energy poor households in Norway,2022,article,44,False,include,3,no abstract; core (and context) in title,include
-W4407163765,A7,recent,A7_recent_q5,15,An Informal Settlement Case Study - A Systems Thinking Logic Applied to Energy Poverty Situations,2024,article,0,True,borderline,1,core concept mentioned once,pending
+W4407163765,A7,recent,A7_recent_q5,15,An Informal Settlement Case Study - A Systems Thinking Logic Applied to Energy Poverty Situations,2024,article,0,True,borderline,1,core concept mentioned once | manual: energy poverty in an informal settlement,include
 W4403819653,A8,india,A8_india_q1,1,Youth Entrepreneurship in South Asia: Opportunities and Challenges in Pakistan and Sri Lanka,2024,preprint,0,True,include,2,rules,include
 W4410391823,A8,india,A8_india_q1,2,Youth Entrepreneurship in South Asia: Structural Constraints and Strategic Pathways in Pakistan and Sri Lanka,2025,preprint,0,True,include,2,rules,include
 W4412381666,A8,india,A8_india_q1,3,"Modelling the accessibility to on-demand taxi services in Colombo, Sri Lanka",2025,conference-paper,0,True,include,3,rules,include

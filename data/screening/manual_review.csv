@@ -405,3 +405,26 @@ W2084353467,A6,exclude,"Claude (manual review, Stage 2)",street-light control sy
 W2314212472,A6,exclude,"Claude (manual review, Stage 2)",social geography of Canadian cities
 W2032242778,A6,exclude,"Claude (manual review, Stage 2)",rural place branding
 W2989750926,A6,exclude,"Claude (manual review, Stage 2)",student housing financialisation
+W2028625711,A7,include,"Claude (manual review, Stage 2)","urban water supply and local government adaptive capacity, Kathmandu"
+W4403821726,A7,exclude,"Claude (manual review, Stage 2)",rural water and sanitation (not urban)
+W7212857194,A7,exclude,"Claude (manual review, Stage 2)",circular migration and service pressure (A11)
+W2620068598,A7,exclude,"Claude (manual review, Stage 2)",urban governance in India (A1); infrastructure deficit in passing
+W2037386668,A7,exclude,"Claude (manual review, Stage 2)",urban climate experiments (A14)
+W4247934567,A7,include,"Claude (manual review, Stage 2)",social power and the urbanisation of water (Swyngedouw)
+W2776990447,A7,exclude,"Claude (manual review, Stage 2)",electricity theft detection (deep learning)
+W2030702018,A7,exclude,"Claude (manual review, Stage 2)",social learning in resource management
+W2165200330,A7,exclude,"Claude (manual review, Stage 2)","national energy policy, Nigeria"
+W1562904705,A7,exclude,"Claude (manual review, Stage 2)",water-sector decision scaling
+W2081670007,A7,exclude,"Claude (manual review, Stage 2)",water demand forecasting
+W2148008845,A7,include,"Claude (manual review, Stage 2)",social power and the urbanisation of water (chapter)
+W1985127998,A7,exclude,"Claude (manual review, Stage 2)",climate adaptation in settlements (A14)
+W1503263161,A7,include,"Claude (manual review, Stage 2)",experimental resilient urban infrastructure
+W2118396576,A7,exclude,"Claude (manual review, Stage 2)",energy demand forecasts
+W1995299836,A7,exclude,"Claude (manual review, Stage 2)",water-systems robustness modelling
+W4283760702,A7,include,"Claude (manual review, Stage 2)",handbook of urban water governance
+W4413464675,A7,exclude,"Claude (manual review, Stage 2)",engineering chapter on water supply systems
+W7130409681,A7,include,"Claude (manual review, Stage 2)",governance and finance barriers to urban sanitation (flag false positive)
+W4417076036,A7,include,"Claude (manual review, Stage 2)",service delivery in Dhaka slums
+W4206267073,A7,include,"Claude (manual review, Stage 2)",Splintering Urbanism at 20 and the infrastructural turn
+W4414880026,A7,exclude,"Claude (manual review, Stage 2)",smart governance special issue (C1)
+W4407163765,A7,include,"Claude (manual review, Stage 2)",energy poverty in an informal settlement
