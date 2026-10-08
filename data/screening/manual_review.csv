@@ -377,3 +377,31 @@ W7127654475,A5,exclude,"Claude (manual review, Stage 2)",London regeneration; la
 W7161283898,A5,include,"Claude (manual review, Stage 2)",green space protection at the rural-urban fringe
 W4416631761,A5,exclude,"Claude (manual review, Stage 2)",soil contamination
 W7217246640,A5,include,"Claude (manual review, Stage 2)","rural-urban fringe land-use change, Hisar (Haryana)"
+W2990043273,A6,include,"Claude (manual review, Stage 2)",small-town dynamics in post-liberalisation India
+W4303953726,A6,include,"Claude (manual review, Stage 2)",urban sprawl in four Indian medium-sized cities (flag false positive)
+W609569278,A6,include,"Claude (manual review, Stage 2)","public transport in medium-sized Indian cities (Jaipur, Patna)"
+W2309061720,A6,include,"Claude (manual review, Stage 2)",subaltern urbanisation in India (presentation)
+W3006622238,A6,include,"Claude (manual review, Stage 2)","financing small and medium towns, India"
+W2015432217,A6,exclude,"Claude (manual review, Stage 2)",bullet trains and megacity growth
+W2056803221,A6,exclude,"Claude (manual review, Stage 2)",economic performance of European city regions
+W2134891722,A6,exclude,"Claude (manual review, Stage 2)",urban climate resilience lessons
+W17388224,A6,exclude,"Claude (manual review, Stage 2)",nonmetropolitan population growth (US)
+W2174376136,A6,exclude,"Claude (manual review, Stage 2)",climate plans in European cities
+W2014514401,A6,exclude,"Claude (manual review, Stage 2)",exurbs and planning policy
+W2917191364,A6,exclude,"Claude (manual review, Stage 2)",cultural vitality of European cities
+W2167528001,A6,exclude,"Claude (manual review, Stage 2)",rural non-farm income
+W4295009057,A6,include,"Claude (manual review, Stage 2)",why small towns matter (rural-urban linkages)
+W4389469582,A6,include,"Claude (manual review, Stage 2)",carbon peaks in small and medium-sized Chinese cities
+W7117349603,A6,include,"Claude (manual review, Stage 2)",subaltern urbanisation and tourism in mountain areas
+W2406721074,A6,exclude,"Claude (manual review, Stage 2)",urban food governance in Africa; secondary cities in passing
+W2134202874,A6,exclude,"Claude (manual review, Stage 2)",helping behaviour experiments
+W2735066883,A6,include,"Claude (manual review, Stage 2)",small-town entrepreneurial ecosystems (flag false positive)
+W2033480871,A6,include,"Claude (manual review, Stage 2)",small and medium-sized cities in rural-urban territories
+W2035827198,A6,exclude,"Claude (manual review, Stage 2)",fertility differentials
+W1981582015,A6,exclude,"Claude (manual review, Stage 2)",social preservation
+W2062252415,A6,include,"Claude (manual review, Stage 2)",spread and backwash across China's urban hierarchy (medium-sized cities)
+W2027151128,A6,exclude,"Claude (manual review, Stage 2)",substance use survey
+W2084353467,A6,exclude,"Claude (manual review, Stage 2)",street-light control system
+W2314212472,A6,exclude,"Claude (manual review, Stage 2)",social geography of Canadian cities
+W2032242778,A6,exclude,"Claude (manual review, Stage 2)",rural place branding
+W2989750926,A6,exclude,"Claude (manual review, Stage 2)",student housing financialisation

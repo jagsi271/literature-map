@@ -50,10 +50,13 @@ def plan(cfg, theme, slice_name, qcfg=None):
     qs = t["queries"]
     s2 = cfg["slices_stage2"]
     out = []
-    if slice_name == "landmarks":
+    if slice_name in ("landmarks", "landmarks_p2"):
+        # landmarks_p2: the next 100 by citations, pulled when fewer than 25 landmark
+        # records survive screening and review on page 1
         q = " OR ".join(f"({x})" for x in qs)
-        out.append((f"{theme}_landmarks", q, {"sort": "cited_by_count:desc",
-                                              "per_page": s2["landmarks"]["per_page"]}))
+        page = 2 if slice_name == "landmarks_p2" else 1
+        out.append((f"{theme}_{slice_name}", q, {"sort": "cited_by_count:desc", "page": page,
+                                                 "per_page": s2["landmarks"]["per_page"]}))
     elif slice_name in ("recent", "india"):
         n = s2[slice_name]
         per = max(n["min_per_query"], min(n["max_per_query"], math.ceil(n["target"] / len(qs))))
@@ -71,6 +74,8 @@ def run_one(f, theme, slice_name, name, query, p, stage="stage2", extra=None):
     if "years" in p:
         filt += f",publication_year:{p['years']}"
     params = {"filter": filt, "sort": p["sort"], "per_page": p["per_page"], "select": SELECT}
+    if p.get("page", 1) > 1:
+        params["page"] = p["page"]
     resp = f.openalex_list(params, f"search_{name}")
     index_response(f"data/raw/api/search_{name}.json.gz", resp)
     results = [[w["id"].rsplit("/", 1)[-1], w.get("publication_year") or 0]
@@ -88,7 +93,7 @@ def run_one(f, theme, slice_name, name, query, p, stage="stage2", extra=None):
         "sort": p["sort"],
         "per_page": p["per_page"],
         "oql": (meta.get("x_query") or {}).get("oql"),
-        "page": 1,
+        "page": p.get("page", 1),
         "total_results": meta["count"],
         "retrieved": dt.date.today().isoformat(),
         "cache": f"data/raw/api/search_{name}.json.gz",
@@ -104,7 +109,7 @@ def main(theme, slices):
     f = Fetcher(min_interval=0.5, label=theme)
     for sl in slices:
         for name, q, p in plan(cfg, theme, sl):
-            m = run_one(f, theme, sl, name, q, p)
+            m = run_one(f, theme, sl.replace("_p2", ""), name, q, p)
             print(f"{name}: total {m['total_results']}, got {len(m['results'])}", flush=True)
     print(f"network calls {f.network_calls}, cache hits {f.cache_hits}, credits remaining "
           f"{f.remaining}")

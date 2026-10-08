@@ -1298,7 +1298,7 @@ W2992522511,A6,india,A6_india_q1,14,"THE STUDY OF HEAT ISLAND AND ITS RELATION W
 W589990486,A6,india,A6_india_q1,15,TRANSPORTATION PLANNING AND MANAGEMENT IN SMALL TOWNS IN A DEVELOPING COUNTRY: CASE STUDY FOR SRI LANKA,1992,article,1,True,include,4,rules,include
 W2918186542,A6,india,A6_india_q1,16,Contemporary perspectives of small towns in India: A review,2019,article,33,False,include,3,no abstract; core (and context) in title,include
 W4415932306,A6,india,A6_india_q1,17,"Vulnerable Urbanization in Western Himalayas: A Case Study of Three Small Towns in Uttarakhand, India",2025,article,0,True,include,3,rules,include
-W2990043273,A6,india,A6_india_q1,18,Urban Growth and Change in Post-Liberalized India: Small Town Dynamics,2019,article,4,True,borderline,3,stub abstract (possible book review),pending
+W2990043273,A6,india,A6_india_q1,18,Urban Growth and Change in Post-Liberalized India: Small Town Dynamics,2019,article,4,True,borderline,3,stub abstract (possible book review) | manual: small-town dynamics in post-liberalisation India,include
 W1910490942,A6,india,A6_india_q2,1,Unacknowledged Urbanisation: The New Census Towns in India,2017,book-chapter,118,False,include,3,no abstract; core (and context) in title,include
 W4403843974,A6,india,A6_india_q2,2,How to transform census towns into economic growth engines: an Indian (Pune) perspective,2024,article,2,False,include,3,no abstract; core (and context) in title,include
 W2186991247,A6,india,A6_india_q2,3,New Census Towns of India,2013,preprint,0,True,include,3,rules,include
@@ -1328,18 +1328,18 @@ W7112591526,A6,india,A6_india_q3,8,Urban Transport Focus - Small and Medium Size
 W2380886677,A6,india,A6_india_q3,9,Analysis on the Large and Medium-sized Cities' Urban Expansion Patterns in China and India,2015,article,0,True,include,6,rules,include
 W7160849876,A6,india,A6_india_q3,10,Analyzing the Spatial Trend of Urban Sprawl in the Secondary Cities of Pakistan: A Case Study of Hyderabad,2023,article,0,True,include,5,rules,include
 W4414261217,A6,india,A6_india_q3,11,Impact of Land Use Land Cover Change on Land Surface Temperature in Small and Medium Sized Cities in South Asia: A Remote Sensing Approach,2025,preprint,0,False,exclude,0,core concept missing,exclude
-W4303953726,A6,india,A6_india_q3,12,Geospatial measurement of urban sprawl using multi-temporal datasets from 1991 to 2021: case studies of four Indian medium-sized cities,2022,article,53,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4303953726,A6,india,A6_india_q3,12,Geospatial measurement of urban sprawl using multi-temporal datasets from 1991 to 2021: case studies of four Indian medium-sized cities,2022,article,53,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: urban sprawl in four Indian medium-sized cities (flag false positive),include
 W2772811097,A6,india,A6_india_q3,13,"Scoping for the Operation of Agile Urban Adaptation for Secondary Cities of the Global South: Possibilities in Pune, India",2017,article,9,True,include,3,rules,include
 W632033019,A6,india,A6_india_q3,14,"Secondary cities and urban networking in the Indian Ocean Realm, c. 1400-1800",2008,article,71,True,include,5,rules,include
 W2568872586,A6,india,A6_india_q3,15,Evaluation of determinants influence for consumption of livestock products in second-tier cities of Tamil Nadu in India,2017,article,2,True,include,4,rules,include
 W2885615218,A6,india,A6_india_q3,16,Inclusive Visions for Urban Transitions: Lessons from stakeholder dialogues in Asian medium sized cities,2018,article,19,False,exclude,0,core concept missing,exclude
-W609569278,A6,india,A6_india_q3,17,COST ASSESSMENT OF VARIOUS OPTIONS OF PUBLIC TRANSPORT IN MEDIUM SIZED CITIES,1999,article,0,True,borderline,1,core concept mentioned once,pending
+W609569278,A6,india,A6_india_q3,17,COST ASSESSMENT OF VARIOUS OPTIONS OF PUBLIC TRANSPORT IN MEDIUM SIZED CITIES,1999,article,0,True,borderline,1,"core concept mentioned once | manual: public transport in medium-sized Indian cities (Jaipur, Patna)",include
 W4366957880,A6,india,A6_india_q3,18,Strategies for Improving Municipal Solid Waste Management: A Comparative Assessment for Medium-Sized Cities,2023,conference-paper,2,False,include,3,no abstract; core (and context) in title,include
 W2288730658,A6,india,A6_india_q4,1,Subaltern Urbanisation in India,2017,book,194,False,include,3,no abstract; core (and context) in title,include
 W4377028253,A6,india,A6_india_q4,2,"Subaltern Urbanisation in the State of Haryana, India",2023,book-chapter,0,True,include,6,rules,include
 W3034493827,A6,india,A6_india_q4,3,Subaltern Urbanization: Indian Insights for Urban Theory,2020,article,96,True,include,4,rules,include
 W2609601743,A6,india,A6_india_q4,4,Construction of Heritage: Small and Medium Towns of Gurgaon District,2016,article,3,True,include,5,rules,include
-W2309061720,A6,india,A6_india_q4,5,Subaltern Urbanization in India,2013,other,20,True,borderline,4,stub abstract (possible book review),pending
+W2309061720,A6,india,A6_india_q4,5,Subaltern Urbanization in India,2013,other,20,True,borderline,4,stub abstract (possible book review) | manual: subaltern urbanisation in India (presentation),include
 W4250507733,A6,india,A6_india_q4,6,Integrating Built Heritage in Development Planning: Small and medium towns of Gurgaon District,2020,article,1,True,include,4,rules,include
 W3211504130,A6,india,A6_india_q4,7,Measuring urban sprawl of small and medium towns using GIS and remote sensing techniques: A case study of Sri Lanka,2021,article,49,True,include,6,rules,include
 W2481244336,A6,india,A6_india_q4,8,Integrated Development of Small and Medium Towns in India,1997,book-chapter,6,True,include,5,rules,include
@@ -1350,7 +1350,7 @@ W2281373321,A6,india,A6_india_q4,12,"Size,functions and infrastructural developm
 W2489450978,A6,india,A6_india_q4,13,12. The Integrated Development of Small and Medium Towns Programme in India,1996,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W652360465,A6,india,A6_india_q4,14,TRANSPORT STRATEGY FOR SMALL AND MEDIUM TOWNS IN INDIA CASE STUDY: SAHARANPUR DISTRICT,1998,article,0,True,include,6,rules,include
 W1528618327,A6,india,A6_india_q4,15,Infrastructure Planning Problems in Small and Medium Towns,2013,preprint,0,False,include,3,no abstract; core (and context) in title,include
-W3006622238,A6,india,A6_india_q4,16,Financing Small and Medium Towns: An Action Research Study from Bemetara Town in India,2018,preprint,0,True,borderline,4,stub abstract (possible book review),pending
+W3006622238,A6,india,A6_india_q4,16,Financing Small and Medium Towns: An Action Research Study from Bemetara Town in India,2018,preprint,0,True,borderline,4,"stub abstract (possible book review) | manual: financing small and medium towns, India",include
 W2792765153,A6,india,A6_india_q4,17,"Book Review: Eric Denis and Marie-Hélène Zérah (Eds), Subaltern Urbanisation in India: An Introduction to the Dynamics of Ordinary Towns, Exploring Urban Change in South Asia",2018,book-review,0,False,exclude,0,type book-review,exclude
 W2906237929,A6,india,A6_india_q4,18,Book review: Subaltern Urbanisation in India: An Introduction to the Dynamics of Ordinary Towns,2018,book-review,2,False,exclude,0,type book-review,exclude
 W4213060883,A6,landmarks,A6_landmarks,1,Maximal Flow Through a Network,1956,article,2414,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -1370,7 +1370,7 @@ W2029688250,A6,landmarks,A6_landmarks,14,A closer look at United States and glob
 W4211179209,A6,landmarks,A6_landmarks,15,Urban sprawl and public health,2002,article,545,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2064914401,A6,landmarks,A6_landmarks,16,The Extended Metropolis: Settlement Transition in Asia,1991,book,496,True,exclude,0,core concept missing,exclude
 W2112504744,A6,landmarks,A6_landmarks,17,Music as a technology of the self,1999,article,483,False,exclude,0,core concept missing,exclude
-W2015432217,A6,landmarks,A6_landmarks,18,China’s bullet trains facilitate market integration and mitigate the cost of megacity growth,2013,article,461,True,borderline,1,core concept mentioned once,pending
+W2015432217,A6,landmarks,A6_landmarks,18,China’s bullet trains facilitate market integration and mitigate the cost of megacity growth,2013,article,461,True,borderline,1,core concept mentioned once | manual: bullet trains and megacity growth,exclude
 W2270275974,A6,landmarks,A6_landmarks,19,Housing Enabling Markets to Work,1993,book,432,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3009191608,A6,landmarks,A6_landmarks,20,The impact of low-carbon city construction on ecological efficiency: Empirical evidence from quasi-natural experiments,2020,article,415,False,exclude,0,core concept missing,exclude
 W3040664270,A6,landmarks,A6_landmarks,21,City-ranking of European Medium-Sized Cities,2008,article,413,True,include,6,rules,include
@@ -1389,7 +1389,7 @@ W4283067863,A6,landmarks,A6_landmarks,33,Climate policy and low-carbon innovatio
 W2028874033,A6,landmarks,A6_landmarks,34,Barriers to care among persons living with HIV/AIDS in urban and rural areas,1998,article,313,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2339063938,A6,landmarks,A6_landmarks,35,Heavy Metals Contamination and what are the Impacts on Living Organisms,2013,article,311,True,exclude,0,core concept missing,exclude
 W2888345420,A6,landmarks,A6_landmarks,36,"Trend analysis and forecast of PM2.5 in Fuzhou, China using the ARIMA model",2018,article,309,False,exclude,0,core concept missing,exclude
-W2056803221,A6,landmarks,A6_landmarks,37,The Economic Performance of European Cities and City Regions: Myths and Realities,2012,article,301,True,borderline,1,core concept mentioned once,pending
+W2056803221,A6,landmarks,A6_landmarks,37,The Economic Performance of European Cities and City Regions: Myths and Realities,2012,article,301,True,borderline,1,core concept mentioned once | manual: economic performance of European city regions,exclude
 W2126504987,A6,landmarks,A6_landmarks,38,Older people and transport: coping without a car,2006,article,300,True,exclude,0,core concept missing,exclude
 W1985451578,A6,landmarks,A6_landmarks,39,A New Phase of Urban Development in Western Europe? The Evidence for the 1980s,1995,article,284,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2900902279,A6,landmarks,A6_landmarks,40,The footprint of urban heat island effect in 302 Chinese cities: Temporal trends and associated factors,2018,article,281,False,exclude,0,core concept missing,exclude
@@ -1405,11 +1405,11 @@ W2800766264,A6,landmarks,A6_landmarks,49,Does growth follow the rail? The potent
 W2290697761,A6,landmarks,A6_landmarks,50,Developing and testing the Urban Sustainable Development Goal’s targets and indicators – a five-city study,2015,article,243,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2061165378,A6,landmarks,A6_landmarks,51,Exploring the dynamics of migration to mega-delta cities in Asia and Africa: Contemporary drivers and future scenarios,2011,article,242,False,exclude,0,core concept missing,exclude
 W2991484980,A6,landmarks,A6_landmarks,52,How do population inflow and social infrastructure affect urban vitality? Evidence from 35 large- and medium-sized cities in China,2019,article,241,False,include,3,no abstract; core (and context) in title,include
-W2134891722,A6,landmarks,A6_landmarks,53,From practice to theory: emerging lessons from Asia for building urban climate change resilience,2012,article,235,True,borderline,1,core concept mentioned once,pending
+W2134891722,A6,landmarks,A6_landmarks,53,From practice to theory: emerging lessons from Asia for building urban climate change resilience,2012,article,235,True,borderline,1,core concept mentioned once | manual: urban climate resilience lessons,exclude
 W2015345986,A6,landmarks,A6_landmarks,54,An Urban-Rural Happiness Gradient,2011,article,230,True,exclude,0,core concept missing,exclude
 W2947222784,A6,landmarks,A6_landmarks,55,Measuring the efficiency and driving factors of urban land use based on the DEA method and the PLS-SEM model—A case study of 35 large and medium-sized cities in China,2019,article,228,False,include,3,no abstract; core (and context) in title,include
 W3036171071,A6,landmarks,A6_landmarks,56,Urban-Rural Inequities in Acute Stroke Care and In-Hospital Mortality,2020,article,224,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W17388224,A6,landmarks,A6_landmarks,57,The Revival of Population Growth in Nonmetropolitan America,1975,preprint,223,True,borderline,1,core concept mentioned once,pending
+W17388224,A6,landmarks,A6_landmarks,57,The Revival of Population Growth in Nonmetropolitan America,1975,preprint,223,True,borderline,1,core concept mentioned once | manual: nonmetropolitan population growth (US),exclude
 W2102617839,A6,landmarks,A6_landmarks,58,"Cities, urbanization and health",2008,editorial,217,True,exclude,0,type editorial,exclude
 W4220732588,A6,landmarks,A6_landmarks,59,Can low-carbon city pilot policies significantly improve carbon emission efficiency? Empirical evidence from China,2022,article,210,False,exclude,0,core concept missing,exclude
 W3022112232,A6,landmarks,A6_landmarks,60,Food price volatility in sub-Saharan Africa,2014,article,209,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -1420,12 +1420,12 @@ W2763608525,A6,landmarks,A6_landmarks,64,Large Uncertainties in Urban‐Scale Ca
 W2566970311,A6,landmarks,A6_landmarks,65,Day-ahead natural gas demand forecasting based on the combination of wavelet transform and ANFIS/genetic algorithm/neural network model,2016,article,203,False,exclude,0,core concept missing,exclude
 W1972380895,A6,landmarks,A6_landmarks,66,Trends in Childhood Obesity in Japan over the Last 25 Years from the National Nutrition Survey,2004,article,202,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2101461827,A6,landmarks,A6_landmarks,67,Why doctors choose small towns: A developmental model of rural physician recruitment and retention,2009,article,201,False,include,3,no abstract; core (and context) in title,include
-W2174376136,A6,landmarks,A6_landmarks,68,The Influence of Drivers and Barriers on Urban Adaptation and Mitigation Plans—An Empirical Analysis of European Cities,2015,article,200,True,borderline,1,core concept mentioned once,pending
+W2174376136,A6,landmarks,A6_landmarks,68,The Influence of Drivers and Barriers on Urban Adaptation and Mitigation Plans—An Empirical Analysis of European Cities,2015,article,200,True,borderline,1,core concept mentioned once | manual: climate plans in European cities,exclude
 W2063941473,A6,landmarks,A6_landmarks,69,"Breast and cervical carcinoma screening practices among women in rural and nonrural areas of the United States, 1998–1999",2002,article,200,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2062602770,A6,landmarks,A6_landmarks,70,Interrelations between travel mode choice and trip distance: trends in Germany 1976–2002,2009,article,199,False,exclude,0,core concept missing,exclude
 W2288730658,A6,landmarks,A6_landmarks,71,Subaltern Urbanisation in India,2017,book,194,False,include,3,no abstract; core (and context) in title,include
 W2321162153,A6,landmarks,A6_landmarks,72,"Archaeology and the ""Twenty Cities"" of Byzantine Asia",1977,article,193,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2014514401,A6,landmarks,A6_landmarks,73,The New' Burbs The Exurbs and Their Implications for Planning Policy,1994,article,190,True,borderline,1,core concept mentioned once,pending
+W2014514401,A6,landmarks,A6_landmarks,73,The New' Burbs The Exurbs and Their Implications for Planning Policy,1994,article,190,True,borderline,1,core concept mentioned once | manual: exurbs and planning policy,exclude
 W2011347336,A6,landmarks,A6_landmarks,74,Age at menarche and the menstrual pattern of secondary school adolescents in northwest Ethiopia,2009,article,189,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2345769774,A6,landmarks,A6_landmarks,75,Revisiting a Hegemonic Concept: Long-term ‘Mediterranean Urbanization’ in Between City Re-polarization and Metropolitan Decline,2016,article,186,False,exclude,0,core concept missing,exclude
 W2994857560,A6,landmarks,A6_landmarks,76,Urban Food Systems Governance and Poverty in African Cities,2018,book,183,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -1438,7 +1438,7 @@ W2135061090,A6,landmarks,A6_landmarks,82,Community Policing in Small Town and Ru
 W1580670247,A6,landmarks,A6_landmarks,83,An evolutionary theory for interpreting urban scaling laws,2011,article,175,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2908293457,A6,landmarks,A6_landmarks,84,A quantitative analysis of Hukou reform in Chinese cities: 2000–2016,2018,article,173,True,exclude,0,core concept missing,exclude
 W1748099399,A6,landmarks,A6_landmarks,85,Small cities urban experience beyond the metropolis,2006,book,173,True,include,6,rules,include
-W2917191364,A6,landmarks,A6_landmarks,86,Culture counts: An empirical approach to measure the cultural and creative vitality of European cities,2019,article,172,True,borderline,1,core concept mentioned once,pending
+W2917191364,A6,landmarks,A6_landmarks,86,Culture counts: An empirical approach to measure the cultural and creative vitality of European cities,2019,article,172,True,borderline,1,core concept mentioned once | manual: cultural vitality of European cities,exclude
 W2107138976,A6,landmarks,A6_landmarks,87,An analysis of public bus transit performance in Indian cities,2007,article,172,False,exclude,0,core concept missing,exclude
 W4389766687,A6,landmarks,A6_landmarks,88,Does the digital economy enhance green total factor productivity in China? The evidence from a national big data comprehensive pilot zone,2023,article,170,False,exclude,0,core concept missing,exclude
 W3190726203,A6,landmarks,A6_landmarks,89,The effect of innovation-driven development on pollution reduction: Empirical evidence from a quasi-natural experiment in China,2021,article,169,False,exclude,0,core concept missing,exclude
@@ -1449,10 +1449,110 @@ W2096430759,A6,landmarks,A6_landmarks,93,Alleviating urban traffic congestion,20
 W2096181237,A6,landmarks,A6_landmarks,94,Cities and villages: infection hierarchies in a measles metapopulation,1998,article,168,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2611472057,A6,landmarks,A6_landmarks,95,"Goodbye Text, Hello Emoji",2017,conference-paper,167,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W625441801,A6,landmarks,A6_landmarks,96,Second Tier Cities: Rapid Growth beyond the Metropolis,1999,book,167,False,exclude,0,core concept missing,exclude
-W2167528001,A6,landmarks,A6_landmarks,97,"Rural‐Urban Relations, Household Income Diversification and Agricultural Productivity",1991,article,167,True,borderline,1,core concept mentioned once,pending
+W2167528001,A6,landmarks,A6_landmarks,97,"Rural‐Urban Relations, Household Income Diversification and Agricultural Productivity",1991,article,167,True,borderline,1,core concept mentioned once | manual: rural non-farm income,exclude
 W2096061551,A6,landmarks,A6_landmarks,98,Neighbourhood food environment and area deprivation: spatial accessibility to grocery stores selling fresh fruit and vegetables in urban and rural settings,2009,article,166,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2129339200,A6,landmarks,A6_landmarks,99,[NO TITLE AVAILABLE],2002,article,166,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2801526240,A6,landmarks,A6_landmarks,100,The effect of infrastructure on worker mobility: evidence from high-speed rail expansion in Germany,2018,article,164,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2572287399,A6,landmarks,A6_landmarks_p2,1,Estimating the contribution of regional transport to PM 2.5 air pollution in a rural area on the North China Plain,2017,article,164,False,exclude,0,core concept missing,exclude
+W2406721074,A6,landmarks,A6_landmarks_p2,2,Urban governance and urban food systems in Africa: Examining the linkages,2016,article,164,True,borderline,1,core concept mentioned once | manual: urban food governance in Africa; secondary cities in passing,exclude
+W3128978812,A6,landmarks,A6_landmarks_p2,3,Urban-rural differences in COVID-19 exposures and outcomes in the South: A preliminary analysis of South Carolina,2021,article,163,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2097365328,A6,landmarks,A6_landmarks_p2,4,Mapping potential foodsheds in New York State: A spatial model for evaluating the capacity to localize food production,2009,article,163,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2106117743,A6,landmarks,A6_landmarks_p2,5,Morning glories: municipal reform in the Southwest,1997,book-review,163,True,exclude,0,type book-review,exclude
+W2134202874,A6,landmarks,A6_landmarks_p2,6,Helping in 36 U.S. cities.,1994,article,161,True,borderline,1,core concept mentioned once | manual: helping behaviour experiments,exclude
+W2810184983,A6,landmarks,A6_landmarks_p2,7,Consumer preferences for electric vehicles in lower tier cities of China: Evidences from south Jiangsu region,2018,article,159,False,exclude,0,core concept missing,exclude
+W2162535625,A6,landmarks,A6_landmarks_p2,8,"Region, Social Identities, and Disclosure Practices as Predictors of Heterosexist Discrimination Against Sexual Minorities in the United States",2013,article,159,True,include,2,rules,include
+W639939825,A6,landmarks,A6_landmarks_p2,9,The Nature of Cities: Ecocriticism and Urban Environments,1999,book,159,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2180127412,A6,landmarks,A6_landmarks_p2,10,New Resilience Index for Urban Water Distribution Networks,2015,article,158,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2465501549,A6,landmarks,A6_landmarks_p2,11,A Multilayer perspective for the analysis of urban transportation systems,2017,article,157,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2119166951,A6,landmarks,A6_landmarks_p2,12,Urban Indicators of China from Radiance-Calibrated Digital DMSP-OLS Nighttime Images,2002,article,157,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2999598182,A6,landmarks,A6_landmarks_p2,13,Are smart cities more ecologically efficient? Evidence from China,2020,article,156,False,exclude,0,core concept missing,exclude
+W2046315956,A6,landmarks,A6_landmarks_p2,14,Review of World Urban Heat Islands: Many Linked to Increased Mortality,2013,article,156,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2097058718,A6,landmarks,A6_landmarks_p2,15,National estimates of racial segregation in rural and small-town America,2007,article,156,True,include,2,rules,include
+W2418428134,A6,landmarks,A6_landmarks_p2,16,Determinants of urban mobility in India: Lessons for promoting sustainable and inclusive urban transportation in developing countries,2016,article,153,False,exclude,0,core concept missing,exclude
+W2996915344,A6,landmarks,A6_landmarks_p2,17,Linking climate change and socioeconomic development to urban land use simulation: Analysis of their concurrent effects on carbon storage,2020,article,152,False,exclude,0,core concept missing,exclude
+W2735066883,A6,landmarks,A6_landmarks_p2,18,“Small town” entrepreneurial ecosystems,2017,article,150,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: small-town entrepreneurial ecosystems (flag false positive),include
+W4392482851,A6,landmarks,A6_landmarks_p2,19,The Experience of Latin America and the Caribbean in Urbanization: Knowledge Sharing Forum on Development Experiences: Comparative Experiences of Korea and Latin America and the Caribbean,2015,report,150,True,include,2,rules,include
+W1766007428,A6,landmarks,A6_landmarks_p2,20,Living Islam: Muslim Religious Experience in Pakistan's North-West Frontier,2005,book,150,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2012633664,A6,landmarks,A6_landmarks_p2,21,"A World Destroyed, A Nation Imposed: The 1937 Haitian Massacre in the Dominican Republic",2002,article,150,True,exclude,0,core concept missing,exclude
+W2121108045,A6,landmarks,A6_landmarks_p2,22,Physical growth of children and adolescents in China over the past 35 years,2014,article,149,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2085066721,A6,landmarks,A6_landmarks_p2,23,The energy transition in action: urban domestic fuel choices in a changing Zimbabwe,2003,article,149,False,exclude,0,core concept missing,exclude
+W2143725290,A6,landmarks,A6_landmarks_p2,24,Ambiguous Empowerment: The Work Narratives of Women School Superintendents.,1997,article,149,True,exclude,0,core concept missing,exclude
+W3047258797,A6,landmarks,A6_landmarks_p2,25,Reexamining the relationship between urbanization and pollutant emissions in China based on the STIRPAT model,2020,article,148,False,exclude,0,core concept missing,exclude
+W1991977698,A6,landmarks,A6_landmarks_p2,26,"Race, class and the stigma of place: Moving to “opportunity” in Eastern Iowa",2010,article,148,False,exclude,0,core concept missing,exclude
+W2028493590,A6,landmarks,A6_landmarks_p2,27,Economic assessment of the health effects related to particulate matter pollution in 111 Chinese cities by using economic burden of disease analysis,2007,article,148,False,exclude,0,core concept missing,exclude
+W2121884952,A6,landmarks,A6_landmarks_p2,28,Survival of the Fittest in Cities: Urbanisation and Inequality,2013,article,147,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W1991014872,A6,landmarks,A6_landmarks_p2,29,Distribution of generalist and specialist predators along urban gradients,2008,article,147,False,exclude,0,core concept missing,exclude
+W2093424405,A6,landmarks,A6_landmarks_p2,30,EXPOSURE TO FELINE AND CANINE PATHOGENS IN BOBCATS AND GRAY FOXES IN URBAN AND RURAL ZONES OF A NATIONAL PARK IN CALIFORNIA,2004,article,147,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2033480871,A6,landmarks,A6_landmarks_p2,31,"Cities, Territories, and Inclusive Growth: Unraveling Urban–Rural Linkages in Chile, Colombia, and Mexico",2015,article,145,True,borderline,1,core concept mentioned once | manual: small and medium-sized cities in rural-urban territories,include
+W3036466998,A6,landmarks,A6_landmarks_p2,32,Does China’s high-speed rail development lead to regional disparities? A network perspective,2020,article,144,False,exclude,0,core concept missing,exclude
+W2922566762,A6,landmarks,A6_landmarks_p2,33,Willingness to pay and preferences for alternative incentives to EV purchase subsidies: An empirical study in China,2019,article,144,False,exclude,0,core concept missing,exclude
+W1988234401,A6,landmarks,A6_landmarks_p2,34,Satellite remote sensing of changes in NO x emissions over China during 1996–2010,2012,article,144,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2035827198,A6,landmarks,A6_landmarks_p2,35,Why Do Fertility Levels Vary between Urban and Rural Areas?,2011,article,144,True,borderline,1,core concept mentioned once | manual: fertility differentials,exclude
+W2053139123,A6,landmarks,A6_landmarks_p2,36,Outdoor air pollution and lung cancer: Recent epidemiologic evidence,2004,article,144,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W4224324778,A6,landmarks,A6_landmarks_p2,37,Changing Dietary Habits: The Impact of Urbanization and Rising Socio-Economic Status in Families from Burkina Faso in Sub-Saharan Africa,2022,article,143,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2297841112,A6,landmarks,A6_landmarks_p2,38,Tourism and high speed rail in Spain: Does the AVE increase local visitors?,2017,article,142,False,exclude,0,core concept missing,exclude
+W1981582015,A6,landmarks,A6_landmarks_p2,39,Social Preservationists and the Quest for Authentic Community,2004,article,142,True,borderline,1,core concept mentioned once | manual: social preservation,exclude
+W2021427570,A6,landmarks,A6_landmarks_p2,40,"On relationships between heat island and sky view factor in the cities of Tama River basin, Japan",1986,article,142,False,exclude,0,core concept missing,exclude
+W2161284854,A6,landmarks,A6_landmarks_p2,41,"Potential Accessibility, Travel Time, and Consumer Choice: Geographical Variations in General Medical Practice Registrations in Eastern England",2003,article,141,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2062252415,A6,landmarks,A6_landmarks_p2,42,When are Cities Engines of Growth in China? Spread and Backwash Effects across the Urban Hierarchy,2011,article,140,True,borderline,1,core concept mentioned once | manual: spread and backwash across China's urban hierarchy (medium-sized cities),include
+W2027151128,A6,landmarks,A6_landmarks_p2,43,"Alcohol, tobacco, and other drug use among rural/small town and urban youth: a secondary analysis of the monitoring the future data set.",1997,article,140,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: substance use survey,exclude
+W1979782902,A6,landmarks,A6_landmarks_p2,44,"Language, Speech Sound Production, and Cognition in Three-Year-Old Children in Relation to Otitis Media in Their First Three Years of Life",2000,article,139,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W4312516080,A6,landmarks,A6_landmarks_p2,45,The Extended Metropolis,1991,book,139,True,exclude,0,core concept missing,exclude
+W3176948150,A6,landmarks,A6_landmarks_p2,46,The Impact of Multiple Dimensions of Urbanization on CO2 Emissions: A Spatial and Threshold Analysis of Panel Data on China's Prefecture-Level Cities,2021,article,138,False,exclude,0,core concept missing,exclude
+W3006842164,A6,landmarks,A6_landmarks_p2,47,Effects of urban forms on CO2 emissions in China from a multi-perspective analysis,2020,article,138,False,exclude,0,core concept missing,exclude
+W437821785,A6,landmarks,A6_landmarks_p2,48,The Earthscan Reader in Rural–Urban Linkages,2018,book,137,True,include,2,rules,include
+W2084353467,A6,landmarks,A6_landmarks_p2,49,Design of new intelligent street light control system,2010,conference-paper,137,True,borderline,1,core concept mentioned once | manual: street-light control system,exclude
+W2042163022,A6,landmarks,A6_landmarks_p2,50,Capturing the social demographics of hidden sexual minorities: An internet study of the transgender population in the United States,2007,article,137,False,exclude,0,core concept missing,exclude
+W2060418561,A6,landmarks,A6_landmarks_p2,51,"Otorrhea in Young Children After Tympanostomy-Tube Placement for Persistent Middle-Ear Effusion: Prevalence, Incidence, and Duration",2001,article,137,True,exclude,0,core concept missing,exclude
+W2027954910,A6,landmarks,A6_landmarks_p2,52,Rural location and exposure to minority stress among sexual minorities in the United States,2012,article,135,True,include,3,rules,include
+W4200182719,A6,landmarks,A6_landmarks_p2,53,Impact and mechanism analysis of smart city policy on urban innovation: Evidence from China,2021,article,133,False,exclude,0,core concept missing,exclude
+W2014369535,A6,landmarks,A6_landmarks_p2,54,Physical activity levels of children living in different built environments,2010,article,133,False,exclude,0,core concept missing,exclude
+W2000332151,A6,landmarks,A6_landmarks_p2,55,Beyond the Metropolis: Small Town Case Studies of Urban and Peri-urban Agriculture in South Africa,2008,article,133,False,include,3,no abstract; core (and context) in title,include
+W2149695179,A6,landmarks,A6_landmarks_p2,56,From Pi to Pie,2005,article,133,True,exclude,0,core concept missing,exclude
+W627169188,A6,landmarks,A6_landmarks_p2,57,Radicals in power : the Workers' Party (PT) and experiments in urban democracy in Brazil,2003,article,133,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2609298386,A6,landmarks,A6_landmarks_p2,58,Age and gender differences in the association between social participation and instrumental activities of daily living among community-dwelling elderly,2017,article,132,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W1879208233,A6,landmarks,A6_landmarks_p2,59,"Comprehensive evaluation of different scale cities' sustainable development for economy, society, and ecological infrastructure in China",2015,article,132,False,exclude,0,core concept missing,exclude
+W2086549738,A6,landmarks,A6_landmarks_p2,60,The Response to Prostitution in the Progressive Era,1981,article,132,True,exclude,0,core concept missing,exclude
+W2054286670,A6,landmarks,A6_landmarks_p2,61,Kenya’s Secondary Cities Growth Strategy at a Crossroads: Which Way Forward?,2005,article,131,False,include,3,no abstract; core (and context) in title,include
+W2316561749,A6,landmarks,A6_landmarks_p2,62,Hg Speciation and Stable Isotope Signatures in Human Hair As a Tracer for Dietary and Occupational Exposure to Mercury,2011,article,130,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W3028652260,A6,landmarks,A6_landmarks_p2,63,City size and the spreading of COVID-19 in Brazil,2020,article,128,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2015369063,A6,landmarks,A6_landmarks_p2,64,Supermarkets and food consumption patterns: The case of small towns in Kenya,2015,article,128,False,include,3,no abstract; core (and context) in title,include
+W3008303152,A6,landmarks,A6_landmarks_p2,65,Impact of urbanization on energy demand: An empirical study of the Yangtze River Economic Belt in China,2020,article,125,False,exclude,0,core concept missing,exclude
+W2148207779,A6,landmarks,A6_landmarks_p2,66,Industrial Location in Developing Countries,2008,article,125,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2314212472,A6,landmarks,A6_landmarks_p2,67,The Changing Social Geography of Canadian Cities,1994,article,125,True,borderline,1,core concept mentioned once | manual: social geography of Canadian cities,exclude
+W4383227964,A6,landmarks,A6_landmarks_p2,68,Impact of digital economy on urban sustainable development: Evidence from Chinese cities,2023,article,124,True,exclude,0,core concept missing,exclude
+W2026309857,A6,landmarks,A6_landmarks_p2,69,Spaceborne SAR data for global urban mapping at 30 m resolution using a robust urban extractor,2014,article,124,False,exclude,0,core concept missing,exclude
+W2064971918,A6,landmarks,A6_landmarks_p2,70,Mental disorder and comorbidity among runaway and homeless adolescents,2004,article,123,False,exclude,0,core concept missing,exclude
+W2075648588,A6,landmarks,A6_landmarks_p2,71,"Atopy, asthma, and antibodies to Ascaris among rural and urban children in Kenya",2002,article,123,False,exclude,0,core concept missing,exclude
+W2027359367,A6,landmarks,A6_landmarks_p2,72,A particular place: urban restructuring and religious ecology in a southern exurb,2000,book-review,123,True,exclude,0,type book-review,exclude
+W2809445783,A6,landmarks,A6_landmarks_p2,73,A neural network and landscape metrics to propose a flexible urban growth boundary: A case study,2018,article,122,False,exclude,0,core concept missing,exclude
+W2802746288,A6,landmarks,A6_landmarks_p2,74,The effect of traffic density on smog pollution: Evidence from Chinese cities,2018,article,122,False,exclude,0,core concept missing,exclude
+W2065961675,A6,landmarks,A6_landmarks_p2,75,Reduced complexity strategies for modelling urban floodplain inundation,2007,article,122,False,exclude,0,core concept missing,exclude
+W4210598865,A6,landmarks,A6_landmarks_p2,76,Rural Identity as a Contributing Factor to Anti-Intellectualism in the U.S.,2022,article,121,False,exclude,0,core concept missing,exclude
+W3214190026,A6,landmarks,A6_landmarks_p2,77,"Geographic, racial/ethnic, and socioeconomic inequities in broadband access",2021,article,121,True,include,2,rules,include
+W2811201002,A6,landmarks,A6_landmarks_p2,78,Does urban cluster promote the increase of urban eco-efficiency? Evidence from Chinese cities,2018,article,121,False,exclude,0,core concept missing,exclude
+W1981142953,A6,landmarks,A6_landmarks_p2,79,"Women and survival in Mexican cities: perspectives on gender, labour markets, and low-income households",1991,book-review,121,True,exclude,0,type book-review,exclude
+W3027012821,A6,landmarks,A6_landmarks_p2,80,Measuring urban road network vulnerability to extreme events: An application for urban floods,2021,article,120,False,exclude,0,core concept missing,exclude
+W2032242778,A6,landmarks,A6_landmarks_p2,81,"Mussels, Tourism and Community Development: A Case Study of Place Branding Through Food Festivals in Rural North Jutland, Denmark",2013,article,120,True,borderline,1,core concept mentioned once | manual: rural place branding,exclude
+W2008731491,A6,landmarks,A6_landmarks_p2,82,"Eczema, respiratory allergies, and traffic-related air pollution in birth cohorts from small-town areas",2009,article,120,False,exclude,0,core concept missing,exclude
+W2116832772,A6,landmarks,A6_landmarks_p2,83,Intermediate cities in Latin America risk and opportunities of coherent urban development,2004,article,120,False,include,3,no abstract; core (and context) in title,include
+W2000131443,A6,landmarks,A6_landmarks_p2,84,Secondary Cities in Developing Countries: Policies for Diffusing Urbanization,1983,article,120,True,include,6,rules,include
+W1985573404,A6,landmarks,A6_landmarks_p2,85,Rapid Assessment of Clinical Information Systems in the Healthcare Setting,2010,article,119,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
+W2109944418,A6,landmarks,A6_landmarks_p2,86,Mass Media as an HIV-Prevention Strategy: Using Culturally Sensitive Messages to Reduce HIV-Associated Sexual Behavior of At-Risk African American Youth,2009,article,119,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2097699812,A6,landmarks,A6_landmarks_p2,87,Small Towns and Regional Development: Major Findings and Policy Implications from Comparative Research,2002,article,119,True,include,6,rules,include
+W1910490942,A6,landmarks,A6_landmarks_p2,88,Unacknowledged Urbanisation: The New Census Towns in India,2017,book-chapter,118,False,include,3,no abstract; core (and context) in title,include
+W2996771772,A6,landmarks,A6_landmarks_p2,89,"How does urban form influence PM2.5 concentrations: Insights from 350 different-sized cities in the rapidly urbanizing Yangtze River Delta region of China, 1998–2015",2019,article,116,False,exclude,0,core concept missing,exclude
+W2890233008,A6,landmarks,A6_landmarks_p2,90,Urban green infrastructure as a strategy of climate change mitigation. A case study in northern Spain,2018,article,116,False,exclude,0,core concept missing,exclude
+W2787881761,A6,landmarks,A6_landmarks_p2,91,Addressing the rural in situ urbanization (RISU) in the Beijing–Tianjin–Hebei region: Spatio-temporal pattern and driving mechanism,2018,article,115,False,exclude,0,core concept missing,exclude
+W2075192232,A6,landmarks,A6_landmarks_p2,92,Frozen chicken for wild fish: Nutritional transition in the Brazilian Amazon region determined by carbon and nitrogen stable isotope ratios in fingernails,2011,article,115,True,include,2,rules,include
+W1937170796,A6,landmarks,A6_landmarks_p2,93,Use of untreated wastewater in peri-urban agriculture in Pakistan: risks and opportunities,2002,preprint,115,True,exclude,0,core concept missing,exclude
+W4386609594,A6,landmarks,A6_landmarks_p2,94,Does China's low-carbon city pilot policy improve energy efficiency?,2023,article,114,False,exclude,0,core concept missing,exclude
+W2972698694,A6,landmarks,A6_landmarks_p2,95,Effects of urban sprawl on haze pollution in China based on dynamic spatial Durbin model during 2003–2016,2019,article,114,False,exclude,0,core concept missing,exclude
+W2790959153,A6,landmarks,A6_landmarks_p2,96,"The evolving structure of the Southeast Asian air transport network through the lens of complex networks, 1979–2012",2018,article,114,False,exclude,0,core concept missing,exclude
+W2586092860,A6,landmarks,A6_landmarks_p2,97,Housing First in Canada: Supporting Communities to End Homelessness,2013,book,114,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W1014695640,A6,landmarks,A6_landmarks_p2,98,Cinematic Urbanism: A History of the Modern from Reel to Real,2006,article,114,True,exclude,1,"core mentioned once, not in keyword tags",exclude
+W2989750926,A6,landmarks,A6_landmarks_p2,99,Making a market for itself: The emergent financialization of student housing in Canada,2019,article,113,True,borderline,1,core concept mentioned once | manual: student housing financialisation,exclude
+W2968465582,A6,landmarks,A6_landmarks_p2,100,Spatiotemporal characteristics and driving forces of urban sprawl in China during 2003–2017,2019,article,113,False,exclude,0,core concept missing,exclude
 W7131105058,A6,recent,A6_recent_q1,1,“Small town feel” in Utah: not just for small towns,2026,article,0,True,include,6,rules,include
 W7167479829,A6,recent,A6_recent_q1,2,Small Towns and Urbanization in Medieval England,2026,book-chapter,0,True,include,6,rules,include
 W4415120026,A6,recent,A6_recent_q1,3,Translocality and Inclusive Urbanisation in Small Towns in Tanzania,2025,article,1,True,include,6,rules,include
@@ -1468,7 +1568,7 @@ W7125427948,A6,recent,A6_recent_q1,12,Taking stock of urban data governance in G
 W4417261631,A6,recent,A6_recent_q1,13,Urbanization and landscape effects on taxonomic and functional wild bee diversity in small towns and rural areas,2025,article,1,True,include,6,rules,include
 W7124958616,A6,recent,A6_recent_q1,14,Urbanization and landscape effects on taxonomic and functional wild bee diversity in small towns and rural areas,2026,other,0,True,include,6,rules,include
 W7124891412,A6,recent,A6_recent_q1,15,Urbanization and landscape effects on taxonomic and functional wild bee diversity in small towns and rural areas,2026,other,0,True,include,6,rules,include
-W4295009057,A6,recent,A6_recent_q1,16,Why Small Towns Matter,2022,book-chapter,2,True,borderline,4,stub abstract (possible book review),pending
+W4295009057,A6,recent,A6_recent_q1,16,Why Small Towns Matter,2022,book-chapter,2,True,borderline,4,stub abstract (possible book review) | manual: why small towns matter (rural-urban linkages),include
 W4283260539,A6,recent,A6_recent_q1,17,Small-Town Pride,2022,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4292202181,A6,recent,A6_recent_q1,18,Niševljanka as a small town originated urban folk dance,2022,article,0,True,include,4,rules,include
 W4320837171,A6,recent,A6_recent_q2,1,Transformation from Village to City: A Study on Census Town,2023,article,0,True,include,6,rules,include
@@ -1505,7 +1605,7 @@ W4214590784,A6,recent,A6_recent_q3,13,Modern Development of Small and Medium-Siz
 W4392881184,A6,recent,A6_recent_q3,14,Seniors' housing preferences in medium-sized cities in Poland,2023,article,0,True,include,3,rules,include
 W4296784304,A6,recent,A6_recent_q3,15,Processes of globalisation and small and medium-sized cities,2022,article,0,True,include,5,rules,include
 W4229367466,A6,recent,A6_recent_q3,16,The geography of public transport competitiveness in thirteen medium sized cities,2022,article,16,True,exclude,0,core concept missing,exclude
-W4389469582,A6,recent,A6_recent_q3,17,How can small and medium-sized cities differentiate their carbon peaks?,2023,article,13,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W4389469582,A6,recent,A6_recent_q3,17,How can small and medium-sized cities differentiate their carbon peaks?,2023,article,13,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: carbon peaks in small and medium-sized Chinese cities,include
 W4387518335,A6,recent,A6_recent_q3,18,Classifications of “second-tier” cities in the context of creative reindustrialisation,2023,conference-paper,2,True,include,3,rules,include
 W4381125971,A6,recent,A6_recent_q4,1,METHODOLOGICAL ASPECTS OF CLASSIFICATION FOR SMALL AND MEDIUM TOWNS,2023,article,1,True,include,5,rules,include
 W4386883009,A6,recent,A6_recent_q4,2,Theoretical Foundations in Support of Small and Medium Towns,2023,other,0,True,include,6,rules,include
@@ -1518,7 +1618,7 @@ W7215647139,A6,recent,A6_recent_q4,8,RESEARCH METHODOLOGY AND CONSTRUCTION FEATU
 W4385732421,A6,recent,A6_recent_q4,9,Subaltern Urbanization: The Birth of Census Towns in West Bengal,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4391104475,A6,recent,A6_recent_q4,10,Small and medium towns of Nizhegorodskoe Povolzhie region: in search of the lost harmony. Part 1,2024,article,4,True,include,4,rules,include
 W4399884264,A6,recent,A6_recent_q4,11,Small and medium towns of nizhegorodskoe povolzhie region: in search of the lost harmony. Part 2,2024,article,4,True,include,4,rules,include
-W7117349603,A6,recent,A6_recent_q4,12,Subaltern Urbanization and Tourism in the Mountainous Areas of South and Southeast Asia,2022,other,0,True,borderline,3,stub abstract (possible book review),pending
+W7117349603,A6,recent,A6_recent_q4,12,Subaltern Urbanization and Tourism in the Mountainous Areas of South and Southeast Asia,2022,other,0,True,borderline,3,stub abstract (possible book review) | manual: subaltern urbanisation and tourism in mountain areas,include
 W4388526929,A6,recent,A6_recent_q4,13,"Emerging Challenges of Labour in Small and Medium Towns in India, A Case Study of Betamcherla, Andhra Pradesh",2023,article,0,True,include,5,rules,include
 W4402852075,A6,recent,A6_recent_q4,14,Impacts Of Urbanisation On Rural Areas Exploring The Role Of Small And Medium Towns In Urbanisation. - A Comprehensive Review.,2024,article,0,True,include,3,rules,include
 W7203787523,A6,recent,A6_recent_q4,15,A weather-dependent analytical framework for multi-pollutant urban air pollution exposure in small and medium towns of the UK,2026,conference-abstract,0,True,include,3,rules,include

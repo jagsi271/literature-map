@@ -89,3 +89,4 @@ utc,label,status,cost_usd,credits_used_today,credits_remaining,cache_file
 2026-10-08T09:49:38+00:00,A2,200,0.001,10,8720,data/raw/api/search_A2_landmarks.json.gz
 2026-10-08T09:49:38+00:00,A2,200,0.001,10,8710,data/raw/api/search_A2_recent_q3.json.gz
 2026-10-08T09:49:40+00:00,A2,200,0.001,10,8700,data/raw/api/search_A2_india_q3.json.gz
+2026-10-08T09:51:29+00:00,A6,200,0.001,10,8690,data/raw/api/search_A6_landmarks_p2.json.gz

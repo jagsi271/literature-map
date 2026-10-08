@@ -41,21 +41,21 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | A3 | Housing, informality & slums | 238 | 152 | 42 (18%) | 14 / 28 | 149 | 144 |
 | A4 | Eviction, resettlement & displacement | 219 | 170 | 22 (10%) | 9 / 13 | 170 | 167 |
 | A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 12 / 16 | 147 | 146 |
-| A6 | Small towns, census towns & secondary cities | 237 | 125 | 16 (7%) | 0 / 0 (+16 pending) | 118 | 118 |
+| A6 | Small towns, census towns & secondary cities | 336 | 138 | 28 (8%) | 11 / 17 | 142 | 142 |
 | A7 | Urban infrastructure (water, sanitation, ener | 242 | 160 | 23 (10%) | 0 / 0 (+23 pending) | 153 | 147 |
 | A8 | Mobility & transport (social science) | 246 | 174 | 27 (11%) | 0 / 0 (+27 pending) | 167 | 165 |
 | A9 | Public space, publicness & the street | 196 | 114 | 28 (14%) | 17 / 11 | 130 | 129 |
 | B5 | Digital identity & digital public infrastruct | 177 | 114 | 28 (16%) | 7 / 21 | 117 | 117 |
 | C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 126 |
 
-Total deduplicated records: 1619.
+Total deduplicated records: 1643.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
 <!-- AUTO:API -->
 | UTC day | Calls by this pipeline | Cost (USD) | ≈ searches | Credits left at last call |
 |---|---|---|---|---|
-| 2026-10-08 | 90 | 0.090 | 90 | 8700 |
+| 2026-10-08 | 91 | 0.091 | 91 | 8690 |
 <!-- /AUTO:API -->
 
 ## Stage 1 (pilot) — approved
