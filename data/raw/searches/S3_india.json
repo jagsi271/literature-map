@@ -1,0 +1,99 @@
+{
+ "theme": "S3",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"night bus\" OR \"night buses\" OR \"night-time transport\" OR \"nighttime transport\" OR \"night transit\" OR \"late-night transit\" OR \"night-time mobility\" OR \"nighttime mobility\" OR \"night mobility\" OR \"night-time travel\" OR \"nighttime travel\" OR \"24-hour transit\" OR ((\"service hours\" OR \"operating hours\") AND (\"public transport\" OR transit OR metro OR bus)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"night bus\" OR \"night buses\" OR \"night-time transport\" OR \"nighttime transport\" OR \"night transit\" OR \"late-night transit\" OR \"night-time mobility\" OR \"nighttime mobility\" OR \"night mobility\" OR \"night-time travel\" OR \"nighttime travel\" OR \"24-hour transit\" OR ((\"service hours\" OR \"operating hours\") AND (\"public transport\" OR transit OR metro OR bus)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"24-hour transit\" OR \"late-night transit\" OR \"night bus\" OR \"night buses\" OR \"night mobility\" OR \"night transit\" OR \"night-time mobility\" OR \"night-time transport\" OR \"night-time travel\" OR \"nighttime mobility\" OR \"nighttime transport\" OR \"nighttime travel\" OR ((\"operating hours\" OR \"service hours\") AND (\"public transport\" OR \"bus\" OR \"metro\" OR \"transit\"))))",
+ "page": 1,
+ "total_results": 20,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_S3_india.json.gz",
+ "results": [
+  [
+   "W3004159685",
+   2019
+  ],
+  [
+   "W4386548619",
+   2023
+  ],
+  [
+   "W7166562242",
+   2026
+  ],
+  [
+   "W2569286665",
+   2016
+  ],
+  [
+   "W3194166525",
+   2021
+  ],
+  [
+   "W4226147345",
+   2022
+  ],
+  [
+   "W4206980420",
+   2022
+  ],
+  [
+   "W4324030280",
+   2023
+  ],
+  [
+   "W7170154295",
+   2026
+  ],
+  [
+   "W4399207851",
+   2024
+  ],
+  [
+   "W4402784103",
+   2024
+  ],
+  [
+   "W2770873541",
+   2017
+  ],
+  [
+   "W1497670525",
+   1998
+  ],
+  [
+   "W7118008216",
+   2026
+  ],
+  [
+   "W2981553760",
+   2019
+  ],
+  [
+   "W4406937093",
+   2025
+  ],
+  [
+   "W4416859747",
+   2025
+  ],
+  [
+   "W4240471408",
+   2020
+  ],
+  [
+   "W4408645018",
+   2025
+  ],
+  [
+   "W2993388610",
+   1998
+  ]
+ ]
+}

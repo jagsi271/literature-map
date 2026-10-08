@@ -37,13 +37,13 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | Theme | Name | Candidates | Rule incl. | Borderline (share) | Hand kept / dropped | Records found | Primary here |
 |---|---|---|---|---|---|---|---|
 | A1 | Urban governance, decentralisation & municipa | 289 | 211 | 33 (11%) | 16 / 17 | 206 | 202 |
-| A2 | Planning, master plans & land-use regulation | 239 | 160 | 12 (5%) | 3 / 9 | 156 | 151 |
+| A2 | Planning, master plans & land-use regulation | 239 | 160 | 12 (5%) | 3 / 9 | 156 | 242 |
 | A3 | Housing, informality & slums | 238 | 152 | 42 (18%) | 14 / 28 | 149 | 144 |
 | A4 | Eviction, resettlement & displacement | 219 | 170 | 20 (9%) | 8 / 12 | 170 | 164 |
 | A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 12 / 16 | 147 | 145 |
-| A6 | Small towns, census towns & secondary cities | 336 | 138 | 28 (8%) | 11 / 17 | 142 | 142 |
-| A7 | Urban infrastructure (water, sanitation, ener | 242 | 159 | 23 (10%) | 9 / 14 | 161 | 153 |
-| A8 | Mobility & transport (social science) | 246 | 174 | 23 (9%) | 6 / 17 | 174 | 169 |
+| A6 | Small towns, census towns & secondary cities | 336 | 138 | 28 (8%) | 11 / 17 | 142 | 191 |
+| A7 | Urban infrastructure (water, sanitation, ener | 242 | 159 | 23 (10%) | 9 / 14 | 161 | 187 |
+| A8 | Mobility & transport (social science) | 246 | 174 | 23 (9%) | 6 / 17 | 174 | 248 |
 | A9 | Public space, publicness & the street | 287 | 188 | 36 (12%) | 21 / 15 | 208 | 207 |
 | A10 | Urban economy, informal work & street vending | 221 | 154 | 22 (10%) | 9 / 13 | 162 | 159 |
 | A11 | Migration & the city | 234 | 192 | 22 (9%) | 6 / 16 | 188 | 184 |
@@ -51,7 +51,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | A13 | Heritage, mega-events & "world-class" city ma | 211 | 146 | 13 (6%) | 7 / 6 | 152 | 149 |
 | A14 | Urban environment, climate & risk | 246 | 195 | 29 (12%) | 10 / 19 | 192 | 189 |
 | A15 | Urban & planning theory, Southern urbanism | 233 | 144 | 39 (17%) | 24 / 15 | 158 | 154 |
-| A16 | Night-time city & urban time | 241 | 122 | 31 (13%) | 18 / 13 | 135 | 135 |
+| A16 | Night-time city & urban time | 241 | 122 | 31 (13%) | 18 / 13 | 135 | 213 |
 | B1 | Platforms & platform capitalism | 239 | 177 | 33 (14%) | 16 / 17 | 183 | 166 |
 | B2 | Datafication, data justice & data colonialism | 240 | 149 | 38 (16%) | 21 / 17 | 161 | 157 |
 | B3 | Surveillance studies | 229 | 156 | 34 (15%) | 11 / 23 | 158 | 149 |
@@ -74,7 +74,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | C6 | Urban surveillance, policing & biometrics in  | 240 | 104 | 38 (16%) | 12 / 26 | 115 | 112 |
 | C7 | Algorithmic & automated urban governance, mun | 226 | 124 | 39 (17%) | 6 / 33 | 125 | 117 |
 | C8 | City-level DPI & urban e-government | 217 | 113 | 32 (15%) | 13 / 19 | 125 | 117 |
-| C9 | Digital mobility (ride-hailing, MaaS, digital | 228 | 140 | 21 (9%) | 6 / 15 | 144 | 142 |
+| C9 | Digital mobility (ride-hailing, MaaS, digital | 228 | 140 | 21 (9%) | 6 / 15 | 144 | 212 |
 | C10 | Proptech, housing platforms & short-term rent | 226 | 144 | 35 (16%) | 8 / 27 | 145 | 142 |
 | C11 | Digital payments in urban economies (QR, UPI, | 218 | 111 | 13 (6%) | 3 / 10 | 109 | 101 |
 | C12 | Civic tech, e-participation & digital urban p | 239 | 87 | 28 (12%) | 13 / 15 | 96 | 90 |
@@ -84,15 +84,22 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | C16 | Digital heritage, mapping & representation of | 213 | 120 | 51 (24%) | 16 / 35 | 128 | 126 |
 | C17 | Urban cybersecurity & cyber-physical infrastr | 228 | 110 | 40 (18%) | 13 / 27 | 122 | 117 |
 | C18 | Neighbourhood platforms & digital public spac | 217 | 56 | 32 (15%) | 6 / 26 | 61 | 60 |
+| S1 | Railway stations | 126 | 75 | 13 (10%) | 4 / 9 | 79 | 0 |
+| S2 | Waiting and waiting rooms | 129 | 32 | 8 (6%) | 3 / 5 | 31 | 0 |
+| S3 | Night-time transit and transit operating hour | 105 | 47 | 7 (7%) | 2 / 5 | 48 | 0 |
+| S4 | Fare integration and transit cards (incl. NCM | 90 | 71 | 7 (8%) | 3 / 4 | 72 | 0 |
+| S5 | Rail-led urbanism and transit-oriented develo | 119 | 89 | 10 (8%) | 6 / 4 | 94 | 0 |
+| S6 | Elevated rail and infrastructure undersides | 118 | 32 | 3 (2%) | 3 / 0 | 34 | 0 |
+| S7 | Haryana secondary cities (excluding Gurugram  | 109 | 45 | 2 (2%) | 1 / 1 | 51 | 0 |
 
-Total deduplicated records: 7116.
+Total deduplicated records: 7517.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
 <!-- AUTO:API -->
 | UTC day | Calls by this pipeline | Cost (USD) | ≈ searches | Credits left at last call |
 |---|---|---|---|---|
-| 2026-10-08 | 443 | 0.443 | 443 | 5170 |
+| 2026-10-08 | 464 | 0.464 | 464 | 4960 |
 <!-- /AUTO:API -->
 
 ## Stage 1 (pilot) — approved

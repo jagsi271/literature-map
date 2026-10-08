@@ -30,7 +30,8 @@
 #              e.g. Elsevier, and the search matched text we cannot see: in A1/A2 landmarks 35
 #              of 35 such records were off-topic); flag match without core in title; core once in the abstract and
 #              not in keyword tags; stub abstract without core in title
-# Per-theme tightening (strict_once: true) when a theme's borderline share exceeds 25%: a single
+# Supplementary sets S6/S7 use flag_excludes: true (a flag match excludes even with the core
+# term in the title). Per-theme tightening (strict_once: true) when a theme's borderline share exceeds 25%: a single
 # core mention is reviewed only if it is in the abstract's first two sentences or in a sentence
 # stating the work's aim (Stage 1 calibration: 12/25 such records kept vs 15/50 elsewhere).
 # Borderline records are decided by hand in data/screening/manual_review.csv; a hand decision
@@ -665,3 +666,76 @@ themes:
       # v3b: 'residents'/'community' matched medical residents and classroom/health WhatsApp groups
       require: ['nextdoor|neighbou?rhood (platforms?|apps?|social media|groups?|watch|forums?)|whatsapp|residents?.? welfare associations?|\brwas?\b|hyperlocal|digital public spaces?|facebook groups?|community (apps?|platforms?|groups?)', 'neighbou?rhoods?|residential|residents?.? (welfare )?associations?|housing (societ\w*|estates?|complex\w*|colon\w*)|gated communit\w*|apartment\w*|condominium\w*|local communit\w*|city|cities|urban|street|civic']
       flag: ['\b(medical|clinical|patients?|students?|teachers?|teaching|e-?learning|classroom|nursing|dental|rainfall|forecast\w*|pm2\.5|air temperature)\b']
+
+# ------------------------------------------------------------------ Supplementary (Stage 2)
+# The researcher's current leads (BRIEF §4 shortlist), searched separately so they do not bias
+# the theme map. Records found ONLY by these queries are tagged Supplementary = Y, get the
+# query's home theme as primary theme, and are left out of the Gap matrix counts.
+# Slices: landmarks (top 50 by citations), recent (2022-26, top 40 by relevance), india (top 40
+# by relevance with south_asia_terms; S7 is India-only, so its india slice has no extra terms).
+supplementary:
+  S1:
+    name: Railway stations
+    home_theme: A8
+    queries:
+      - '("railway station" OR "railway stations" OR "train station" OR "train stations" OR "metro station" OR "metro stations" OR "railway terminus") AND (urban OR city OR social OR everyday OR public OR space OR passengers)'
+    screen:
+      require: ['railway stations?|train stations?|metro stations?|rail(way)? termin\w*|station (areas?|precincts?|squares?|forecourts?)', 'urban|city|cities|social|everyday|public|space|passengers?|commut\w*|travell?ers?']
+      flag: ['\b(earthquake|seismic|ventilation|fire evacuation|structural|vibration|crowd simulation|pm2\.5|air quality)\b']
+  S2:
+    name: Waiting and waiting rooms
+    home_theme: A16
+    queries:
+      - '"politics of waiting" OR waithood OR (("waiting room" OR "waiting rooms" OR "waiting time" OR "waiting times") AND (station OR railway OR "public transport" OR transit OR bus OR bureaucracy OR state OR citizens))'
+    screen:
+      # v2 (Stage 2 review): v1 let physics, engineering and clinical works through
+      require: ['politics of waiting|waithood|waiting rooms?|(passenger|commuter)s?.{0,20}waiting|waiting (time|times)? ?(at|for|in) (the )?(bus|buses|transit|stations?|stops?|terminals?|metro|trains?)|time spent waiting|(bus|transit|metro|railway|train) (stations?|stops?|terminals?)', 'station|railway|transport|transit|bus\w*|bureaucra\w*|state\b|citizens?|queue\w*|youth|everyday']
+      flag: ['\b(emergency department|hospital|clinic\w*|patients?|surgery|surgical|outpatients?|queueing model|queuing model|markov|polymer|particles?|random walk|scattering|molecular|scheduling|timetabl\w*|optimi[sz]\w*|battery|charging station|algorithm\w*|simulation model|headway|estimation method)\b']
+
+  S3:
+    name: Night-time transit and transit operating hours
+    home_theme: A16
+    queries:
+      - '"night bus" OR "night buses" OR "night-time transport" OR "nighttime transport" OR "night transit" OR "late-night transit" OR "night-time mobility" OR "nighttime mobility" OR "night mobility" OR "night-time travel" OR "nighttime travel" OR "24-hour transit" OR (("service hours" OR "operating hours") AND ("public transport" OR transit OR metro OR bus))'
+    screen:
+      require: ['night\w*|late-night|after dark|24-hour|service hours|operating hours', 'transport|transit|travel\w*|mobilit\w*|bus\w*|metro|rail\w*|commut\w*']
+      flag: ['\b(night-?time lights?|viirs|dmsp|sleep quality|melatonin|shift work disorder)\b']
+  S4:
+    name: Fare integration and transit cards (incl. NCMC)
+    home_theme: C9
+    queries:
+      - '"fare integration" OR "integrated ticketing" OR "integrated fare" OR "fare policy" AND transit OR "transit card" OR "transit cards" OR "National Common Mobility Card" OR NCMC OR (("smart card" OR "smart cards" OR "contactless") AND ("public transport" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment))'
+    screen:
+      require: ['fare\w*|ticket\w*|transit cards?|smart ?cards?|ncmc|common mobility card|contactless', 'transport|transit|metro|bus\w*|rail\w*|passengers?|commut\w*']
+      flag: ['\b(smart card data|travel pattern mining|origin-destination estimation|clustering algorithm|trip chaining)\b']
+  S5:
+    name: Rail-led urbanism and transit-oriented development
+    home_theme: A2
+    queries:
+      - '"rail-led" OR "rail-led urbanism" OR "rail-led urbanization" OR "rail-led urbanisation" OR ("transit-oriented development" AND (urbanism OR politics OR "land value" OR "value capture" OR India OR "global south")) OR (("metro rail" OR "high-speed rail" OR "mass rapid transit") AND ("real estate" OR "land value" OR "urban development" OR "value capture"))'
+    screen:
+      require: ['rail-led|transit-oriented development|\btod\b|metro rail|high-speed rail|mass rapid transit|rail (corridors?|stations?|transit)', 'urban\w*|city|cities|land|real estate|value capture|property|development']
+      flag: ['\b(timetabl\w*|train scheduling|track geometry|signalling)\b']
+  S6:
+    name: Elevated rail and infrastructure undersides
+    home_theme: A7
+    queries:
+      - '"elevated rail" OR "elevated railway" OR "elevated railways" OR "elevated metro" OR "elevated highway" OR "elevated expressway" OR "infrastructural undersides" OR "under the flyover" OR (flyover AND (urban OR city OR space OR informal)) OR (viaduct AND (urban OR city) AND (space OR social OR public))'
+    screen:
+      # v2 (Stage 2 review): v1 let physics, engineering and clinical works through
+      require: ['elevated (rail\w*|metro|highways?|expressways?|roads?|corridors?)|undersides?|flyovers?|viaducts?|underpass\w*', 'urban|city|cities|space|social|public|informal|street|livelihood\w*|inhabit\w*|everyday']
+      flag: ['\b(seismic|bridge deck|girder|finite element|vibration\w*|noise|acoustic\w*|pollutants?|black carbon|particulate|pm2?\.?5?|prefabricat\w*|tunnel\w*|base isolation|photovoltaic|life cycle|energy consumption|satellite|wavebands?|aircrafts?|microsimulation|traffic flow|collapse|risk assessment|iot platform|asset management)\b']
+      # borderline was 39% (S6) / 28% (S7) with v2 flags: a flag match now excludes outright
+      flag_excludes: true
+
+  S7:
+    name: Haryana secondary cities (excluding Gurugram and Faridabad)
+    home_theme: A6
+    queries:
+      - '(Panipat OR Sonipat OR Sonepat OR Rohtak OR Hisar OR Hissar OR Karnal OR Ambala OR Yamunanagar OR Kurukshetra OR Thanesar OR Rewari OR Bahadurgarh OR Bhiwani OR Sirsa OR Jind OR Kaithal OR Palwal OR Panchkula OR Jhajjar OR Narnaul OR Fatehabad OR (Haryana AND ("small town" OR "small towns" OR "census town" OR "census towns" OR "secondary city" OR "medium-sized"))) AND (urban OR city OR town OR municipal OR urbanisation OR urbanization OR "peri-urban")'
+    screen:
+      # v2 (Stage 2 review): v1 let physics, engineering and clinical works through
+      require: ['panipat|sonipat|sonepat|rohtak|hisar|hissar|karnal|ambala|yamunanagar|kurukshetra|thanesar|rewari|bahadurgarh|bhiwani|sirsa|jind|kaithal|palwal|panchkula|jhajjar|narnaul|fatehabad|kalanaur|haryana', 'urban\w*|city|cities|towns?\b|municipal\w*|peri-urban|settlements?|planning|housing|governance|migra\w*|land']
+      flag: ['\b(groundwater|heavy metals?|physicochemical|hydro-?chemical|soil|crop|wheat|rice|seroprevalence|hospital|tertiary care|students?|dental|aerosols?|milk|vegetables?|aflatoxin|adolescents?|drug|alcohol|water quality|rabies|menstruation|sexual orientation|buffalo|fodder|leachate|monkey|polycyclic)\b']
+      # borderline was 39% (S6) / 28% (S7) with v2 flags: a flag match now excludes outright
+      flag_excludes: true

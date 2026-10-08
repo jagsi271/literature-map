@@ -1,0 +1,179 @@
+{
+ "theme": "S1",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"railway station\" OR \"railway stations\" OR \"train station\" OR \"train stations\" OR \"metro station\" OR \"metro stations\" OR \"railway terminus\") AND (urban OR city OR social OR everyday OR public OR space OR passengers))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"railway station\" OR \"railway stations\" OR \"train station\" OR \"train stations\" OR \"metro station\" OR \"metro stations\" OR \"railway terminus\") AND (urban OR city OR social OR everyday OR public OR space OR passengers)),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"metro station\" OR \"metro stations\" OR \"railway station\" OR \"railway stations\" OR \"railway terminus\" OR \"train station\" OR \"train stations\") AND (\"city\" OR \"everyday\" OR \"passengers\" OR \"public\" OR \"social\" OR \"space\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 4811,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_S1_recent.json.gz",
+ "results": [
+  [
+   "W4224433826",
+   2022
+  ],
+  [
+   "W4402097454",
+   2024
+  ],
+  [
+   "W7160136472",
+   2026
+  ],
+  [
+   "W4402607844",
+   2024
+  ],
+  [
+   "W4386267052",
+   2023
+  ],
+  [
+   "W4388283744",
+   2023
+  ],
+  [
+   "W7203683199",
+   2026
+  ],
+  [
+   "W7199946433",
+   2024
+  ],
+  [
+   "W4406768819",
+   2024
+  ],
+  [
+   "W4319019995",
+   2023
+  ],
+  [
+   "W4388740001",
+   2023
+  ],
+  [
+   "W4389691614",
+   2023
+  ],
+  [
+   "W4412578105",
+   2025
+  ],
+  [
+   "W4224250296",
+   2022
+  ],
+  [
+   "W4323313909",
+   2023
+  ],
+  [
+   "W4387317165",
+   2023
+  ],
+  [
+   "W4392010688",
+   2024
+  ],
+  [
+   "W4402003096",
+   2024
+  ],
+  [
+   "W4210722001",
+   2022
+  ],
+  [
+   "W4385246297",
+   2023
+  ],
+  [
+   "W7124317596",
+   2026
+  ],
+  [
+   "W4401432136",
+   2024
+  ],
+  [
+   "W4289921045",
+   2022
+  ],
+  [
+   "W7114809323",
+   2025
+  ],
+  [
+   "W4388471347",
+   2023
+  ],
+  [
+   "W4408996098",
+   2025
+  ],
+  [
+   "W4318969516",
+   2022
+  ],
+  [
+   "W4206974665",
+   2022
+  ],
+  [
+   "W4411698909",
+   2025
+  ],
+  [
+   "W7219518572",
+   2025
+  ],
+  [
+   "W4283361971",
+   2022
+  ],
+  [
+   "W7164787545",
+   2026
+  ],
+  [
+   "W4398203530",
+   2024
+  ],
+  [
+   "W7120689034",
+   2023
+  ],
+  [
+   "W4384519086",
+   2023
+  ],
+  [
+   "W7160771267",
+   2026
+  ],
+  [
+   "W4390913850",
+   2024
+  ],
+  [
+   "W4391681250",
+   2024
+  ],
+  [
+   "W4311170278",
+   2022
+  ],
+  [
+   "W4392369681",
+   2024
+  ]
+ ]
+}

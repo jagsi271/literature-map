@@ -1,0 +1,179 @@
+{
+ "theme": "S1",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(((\"railway station\" OR \"railway stations\" OR \"train station\" OR \"train stations\" OR \"metro station\" OR \"metro stations\" OR \"railway terminus\") AND (urban OR city OR social OR everyday OR public OR space OR passengers))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(((\"railway station\" OR \"railway stations\" OR \"train station\" OR \"train stations\" OR \"metro station\" OR \"metro stations\" OR \"railway terminus\") AND (urban OR city OR social OR everyday OR public OR space OR passengers))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"metro station\" OR \"metro stations\" OR \"railway station\" OR \"railway stations\" OR \"railway terminus\" OR \"train station\" OR \"train stations\") AND (\"city\" OR \"everyday\" OR \"passengers\" OR \"public\" OR \"social\" OR \"space\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 963,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_S1_india.json.gz",
+ "results": [
+  [
+   "W3211113480",
+   2018
+  ],
+  [
+   "W4402607844",
+   2024
+  ],
+  [
+   "W4388740001",
+   2023
+  ],
+  [
+   "W4231953785",
+   2020
+  ],
+  [
+   "W4224433826",
+   2022
+  ],
+  [
+   "W4406768819",
+   2024
+  ],
+  [
+   "W4290098613",
+   2022
+  ],
+  [
+   "W3164109794",
+   2021
+  ],
+  [
+   "W4295780627",
+   2022
+  ],
+  [
+   "W4404017640",
+   2024
+  ],
+  [
+   "W7166356212",
+   2026
+  ],
+  [
+   "W7155179475",
+   2026
+  ],
+  [
+   "W4315874522",
+   2023
+  ],
+  [
+   "W2003051229",
+   2014
+  ],
+  [
+   "W7216735644",
+   2022
+  ],
+  [
+   "W4416747066",
+   2025
+  ],
+  [
+   "W2592194865",
+   2017
+  ],
+  [
+   "W4294308497",
+   2022
+  ],
+  [
+   "W4313221300",
+   2022
+  ],
+  [
+   "W3193675826",
+   2021
+  ],
+  [
+   "W7215043922",
+   2026
+  ],
+  [
+   "W4403476584",
+   2024
+  ],
+  [
+   "W2751459206",
+   2014
+  ],
+  [
+   "W2901160788",
+   2015
+  ],
+  [
+   "W2783338568",
+   2018
+  ],
+  [
+   "W2619586930",
+   2017
+  ],
+  [
+   "W3173194717",
+   2019
+  ],
+  [
+   "W2919714328",
+   2018
+  ],
+  [
+   "W4410209476",
+   2025
+  ],
+  [
+   "W4319779747",
+   2022
+  ],
+  [
+   "W2965485064",
+   2018
+  ],
+  [
+   "W2008614374",
+   2012
+  ],
+  [
+   "W4396950641",
+   2024
+  ],
+  [
+   "W3036448214",
+   2020
+  ],
+  [
+   "W2176302018",
+   2015
+  ],
+  [
+   "W326353816",
+   2009
+  ],
+  [
+   "W3108583791",
+   2020
+  ],
+  [
+   "W4414772442",
+   2025
+  ],
+  [
+   "W7117964565",
+   2026
+  ],
+  [
+   "W4412071748",
+   2025
+  ]
+ ]
+}

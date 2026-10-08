@@ -1,0 +1,179 @@
+{
+ "theme": "S2",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"politics of waiting\" OR waithood OR ((\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\") AND (station OR railway OR \"public transport\" OR transit OR bus OR bureaucracy OR state OR citizens)))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"politics of waiting\" OR waithood OR ((\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\") AND (station OR railway OR \"public transport\" OR transit OR bus OR bureaucracy OR state OR citizens))),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"politics of waiting\" OR \"waithood\" OR ((\"public transport\" OR \"bureaucracy\" OR \"bus\" OR \"citizens\" OR \"railway\" OR \"state\" OR \"station\" OR \"transit\") AND (\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\")))",
+ "page": 1,
+ "total_results": 5296,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_S2_recent.json.gz",
+ "results": [
+  [
+   "W4391843073",
+   2024
+  ],
+  [
+   "W4311167001",
+   2022
+  ],
+  [
+   "W4214589346",
+   2022
+  ],
+  [
+   "W4410328145",
+   2025
+  ],
+  [
+   "W4225473860",
+   2022
+  ],
+  [
+   "W4379143439",
+   2023
+  ],
+  [
+   "W4206757943",
+   2022
+  ],
+  [
+   "W4401855988",
+   2024
+  ],
+  [
+   "W4410347785",
+   2025
+  ],
+  [
+   "W7167904598",
+   2026
+  ],
+  [
+   "W4375956094",
+   2023
+  ],
+  [
+   "W4293447349",
+   2022
+  ],
+  [
+   "W7162894371",
+   2026
+  ],
+  [
+   "W4390699090",
+   2024
+  ],
+  [
+   "W4366779841",
+   2023
+  ],
+  [
+   "W4410017134",
+   2025
+  ],
+  [
+   "W4408428278",
+   2025
+  ],
+  [
+   "W7214559109",
+   2026
+  ],
+  [
+   "W7214549677",
+   2026
+  ],
+  [
+   "W3171984561",
+   2022
+  ],
+  [
+   "W4310482818",
+   2022
+  ],
+  [
+   "W7116728302",
+   2025
+  ],
+  [
+   "W4389961684",
+   2023
+  ],
+  [
+   "W7120578508",
+   2025
+  ],
+  [
+   "W4386257440",
+   2023
+  ],
+  [
+   "W4402532576",
+   2024
+  ],
+  [
+   "W4413807011",
+   2025
+  ],
+  [
+   "W4392569004",
+   2023
+  ],
+  [
+   "W4285066590",
+   2022
+  ],
+  [
+   "W4410346571",
+   2025
+  ],
+  [
+   "W4297860671",
+   2022
+  ],
+  [
+   "W4391512659",
+   2024
+  ],
+  [
+   "W4392103163",
+   2024
+  ],
+  [
+   "W4412018690",
+   2025
+  ],
+  [
+   "W7161559490",
+   2026
+  ],
+  [
+   "W4407899052",
+   2025
+  ],
+  [
+   "W4406584568",
+   2025
+  ],
+  [
+   "W4416213010",
+   2025
+  ],
+  [
+   "W4411067513",
+   2025
+  ],
+  [
+   "W4386041855",
+   2023
+  ]
+ ]
+}

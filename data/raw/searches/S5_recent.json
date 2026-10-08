@@ -1,0 +1,179 @@
+{
+ "theme": "S5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"rail-led\" OR \"rail-led urbanism\" OR \"rail-led urbanization\" OR \"rail-led urbanisation\" OR (\"transit-oriented development\" AND (urbanism OR politics OR \"land value\" OR \"value capture\" OR India OR \"global south\")) OR ((\"metro rail\" OR \"high-speed rail\" OR \"mass rapid transit\") AND (\"real estate\" OR \"land value\" OR \"urban development\" OR \"value capture\")))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"rail-led\" OR \"rail-led urbanism\" OR \"rail-led urbanization\" OR \"rail-led urbanisation\" OR (\"transit-oriented development\" AND (urbanism OR politics OR \"land value\" OR \"value capture\" OR India OR \"global south\")) OR ((\"metro rail\" OR \"high-speed rail\" OR \"mass rapid transit\") AND (\"real estate\" OR \"land value\" OR \"urban development\" OR \"value capture\"))),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"rail-led urbanisation\" OR \"rail-led urbanism\" OR \"rail-led urbanization\" OR \"rail-led\" OR (\"transit-oriented development\" AND (\"India\" OR \"global south\" OR \"land value\" OR \"value capture\" OR \"politics\" OR \"urbanism\")) OR ((\"high-speed rail\" OR \"mass rapid transit\" OR \"metro rail\") AND (\"land value\" OR \"real estate\" OR \"urban development\" OR \"value capture\")))",
+ "page": 1,
+ "total_results": 403,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_S5_recent.json.gz",
+ "results": [
+  [
+   "W4287845139",
+   2022
+  ],
+  [
+   "W4409395198",
+   2025
+  ],
+  [
+   "W4416974564",
+   2025
+  ],
+  [
+   "W7168040465",
+   2026
+  ],
+  [
+   "W4312223264",
+   2022
+  ],
+  [
+   "W7117485788",
+   2025
+  ],
+  [
+   "W4415428781",
+   2025
+  ],
+  [
+   "W7213293404",
+   2026
+  ],
+  [
+   "W4221054121",
+   2022
+  ],
+  [
+   "W4405877533",
+   2024
+  ],
+  [
+   "W7164578969",
+   2026
+  ],
+  [
+   "W7164558435",
+   2026
+  ],
+  [
+   "W4309047131",
+   2022
+  ],
+  [
+   "W4386414810",
+   2023
+  ],
+  [
+   "W4292813931",
+   2022
+  ],
+  [
+   "W4229072883",
+   2022
+  ],
+  [
+   "W4400990367",
+   2023
+  ],
+  [
+   "W4415759078",
+   2025
+  ],
+  [
+   "W4316345106",
+   2023
+  ],
+  [
+   "W7200215739",
+   2026
+  ],
+  [
+   "W4401241216",
+   2024
+  ],
+  [
+   "W4283398758",
+   2022
+  ],
+  [
+   "W7131115430",
+   2026
+  ],
+  [
+   "W7204972097",
+   2026
+  ],
+  [
+   "W4389279429",
+   2023
+  ],
+  [
+   "W4411520530",
+   2025
+  ],
+  [
+   "W4211004574",
+   2022
+  ],
+  [
+   "W4321440769",
+   2023
+  ],
+  [
+   "W4402842261",
+   2024
+  ],
+  [
+   "W4205278207",
+   2022
+  ],
+  [
+   "W4387860138",
+   2023
+  ],
+  [
+   "W7218633406",
+   2026
+  ],
+  [
+   "W7172017413",
+   2026
+  ],
+  [
+   "W4403474613",
+   2024
+  ],
+  [
+   "W4409253388",
+   2025
+  ],
+  [
+   "W4311660570",
+   2022
+  ],
+  [
+   "W7127323734",
+   2026
+  ],
+  [
+   "W4400786367",
+   2024
+  ],
+  [
+   "W7135260469",
+   2023
+  ],
+  [
+   "W4392059849",
+   2024
+  ]
+ ]
+}

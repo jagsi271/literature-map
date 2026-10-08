@@ -147,7 +147,8 @@ def shortlist_tag(text, haryana):
 
 
 # --------------------------------------------------------------------------- screening
-def screen(title, abstract, kw_text, req, flags, domain, slice_name="", strict_once=False):
+def screen(title, abstract, kw_text, req, flags, domain, slice_name="", strict_once=False,
+           flag_excludes=False):
     """Return (decision, score, reason). Rules v3 (Stage 2), calibrated on the 202 Stage 1
     manual decisions so that borderline cases stay under 25% per theme.
 
@@ -170,7 +171,7 @@ def screen(title, abstract, kw_text, req, flags, domain, slice_name="", strict_o
         ctx_ok = all(r.search(full) for r in context[1:])
     flagged = [f.pattern[:40] for f in flags if f.search(full)]
     if flagged:
-        if core_title:
+        if core_title and not flag_excludes:
             return "borderline", score, "flag: " + flagged[0]
         return "exclude", score, "flag, core not in title: " + flagged[0]
     if not has_abs:
@@ -322,8 +323,10 @@ def main(themes_wanted):
                 # OpenAlex keyword tags are not used as evidence of relevance on their own: in
                 # testing they attached e.g. "digital identity" to education papers. They only
                 # decide whether a single core mention goes to review or is excluded.
+                sc_cfg = theme_cfg(cfg, t)["screen"]
                 d, sc_, r = screen(title, abstract, kw, req, flags, domain, m["slice"],
-                                   theme_cfg(cfg, t)["screen"].get("strict_once", False))
+                                   sc_cfg.get("strict_once", False),
+                                   sc_cfg.get("flag_excludes", False))
                 c.update(decision=d, score=sc_, reason=r)
             c["final"] = c["decision"]
             c["rule_reason"] = c["reason"]

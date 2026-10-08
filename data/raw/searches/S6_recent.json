@@ -1,0 +1,179 @@
+{
+ "theme": "S6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"elevated rail\" OR \"elevated railway\" OR \"elevated railways\" OR \"elevated metro\" OR \"elevated highway\" OR \"elevated expressway\" OR \"infrastructural undersides\" OR \"under the flyover\" OR (flyover AND (urban OR city OR space OR informal)) OR (viaduct AND (urban OR city) AND (space OR social OR public)))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"elevated rail\" OR \"elevated railway\" OR \"elevated railways\" OR \"elevated metro\" OR \"elevated highway\" OR \"elevated expressway\" OR \"infrastructural undersides\" OR \"under the flyover\" OR (flyover AND (urban OR city OR space OR informal)) OR (viaduct AND (urban OR city) AND (space OR social OR public))),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"elevated expressway\" OR \"elevated highway\" OR \"elevated metro\" OR \"elevated rail\" OR \"elevated railway\" OR \"elevated railways\" OR \"infrastructural undersides\" OR \"under the flyover\" OR (\"flyover\" AND (\"city\" OR \"informal\" OR \"space\" OR \"urban\")) OR (\"viaduct\" AND (\"city\" OR \"urban\") AND (\"public\" OR \"social\" OR \"space\")))",
+ "page": 1,
+ "total_results": 554,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_S6_recent.json.gz",
+ "results": [
+  [
+   "W4411596557",
+   2025
+  ],
+  [
+   "W7116074893",
+   2025
+  ],
+  [
+   "W7166476497",
+   2026
+  ],
+  [
+   "W4413895947",
+   2025
+  ],
+  [
+   "W7166443371",
+   2026
+  ],
+  [
+   "W4413896064",
+   2025
+  ],
+  [
+   "W4283774393",
+   2022
+  ],
+  [
+   "W4220877894",
+   2022
+  ],
+  [
+   "W4280494869",
+   2022
+  ],
+  [
+   "W4393256129",
+   2024
+  ],
+  [
+   "W4415050077",
+   2025
+  ],
+  [
+   "W7128567533",
+   2025
+  ],
+  [
+   "W4391624335",
+   2023
+  ],
+  [
+   "W4412946722",
+   2025
+  ],
+  [
+   "W7134966728",
+   2025
+  ],
+  [
+   "W4415342084",
+   2025
+  ],
+  [
+   "W7127143590",
+   2025
+  ],
+  [
+   "W4409291132",
+   2025
+  ],
+  [
+   "W4409577856",
+   2025
+  ],
+  [
+   "W7213483389",
+   2026
+  ],
+  [
+   "W7169806102",
+   2026
+  ],
+  [
+   "W4312771091",
+   2022
+  ],
+  [
+   "W7116097838",
+   2025
+  ],
+  [
+   "W4386779148",
+   2023
+  ],
+  [
+   "W7216876009",
+   2026
+  ],
+  [
+   "W7160642595",
+   2026
+  ],
+  [
+   "W4309452647",
+   2022
+  ],
+  [
+   "W7203870213",
+   2026
+  ],
+  [
+   "W7164998984",
+   2026
+  ],
+  [
+   "W4389082219",
+   2023
+  ],
+  [
+   "W7218145159",
+   2024
+  ],
+  [
+   "W4416769119",
+   2025
+  ],
+  [
+   "W4415339440",
+   2025
+  ],
+  [
+   "W4365935212",
+   2022
+  ],
+  [
+   "W4404868654",
+   2024
+  ],
+  [
+   "W4399247118",
+   2024
+  ],
+  [
+   "W4280634983",
+   2022
+  ],
+  [
+   "W4387787503",
+   2023
+  ],
+  [
+   "W4392949734",
+   2024
+  ],
+  [
+   "W7214210764",
+   2026
+  ]
+ ]
+}

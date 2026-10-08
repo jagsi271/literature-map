@@ -1,0 +1,179 @@
+{
+ "theme": "S5",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"rail-led\" OR \"rail-led urbanism\" OR \"rail-led urbanization\" OR \"rail-led urbanisation\" OR (\"transit-oriented development\" AND (urbanism OR politics OR \"land value\" OR \"value capture\" OR India OR \"global south\")) OR ((\"metro rail\" OR \"high-speed rail\" OR \"mass rapid transit\") AND (\"real estate\" OR \"land value\" OR \"urban development\" OR \"value capture\")))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"rail-led\" OR \"rail-led urbanism\" OR \"rail-led urbanization\" OR \"rail-led urbanisation\" OR (\"transit-oriented development\" AND (urbanism OR politics OR \"land value\" OR \"value capture\" OR India OR \"global south\")) OR ((\"metro rail\" OR \"high-speed rail\" OR \"mass rapid transit\") AND (\"real estate\" OR \"land value\" OR \"urban development\" OR \"value capture\")))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"rail-led urbanisation\" OR \"rail-led urbanism\" OR \"rail-led urbanization\" OR \"rail-led\" OR (\"transit-oriented development\" AND (\"India\" OR \"global south\" OR \"land value\" OR \"value capture\" OR \"politics\" OR \"urbanism\")) OR ((\"high-speed rail\" OR \"mass rapid transit\" OR \"metro rail\") AND (\"land value\" OR \"real estate\" OR \"urban development\" OR \"value capture\"))))",
+ "page": 1,
+ "total_results": 220,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_S5_india.json.gz",
+ "results": [
+  [
+   "W3169291997",
+   2021
+  ],
+  [
+   "W4287845139",
+   2022
+  ],
+  [
+   "W4409395198",
+   2025
+  ],
+  [
+   "W2945970557",
+   2019
+  ],
+  [
+   "W4416974564",
+   2025
+  ],
+  [
+   "W7168040465",
+   2026
+  ],
+  [
+   "W4410125120",
+   2020
+  ],
+  [
+   "W1892601992",
+   2014
+  ],
+  [
+   "W7212252161",
+   2026
+  ],
+  [
+   "W4221054121",
+   2022
+  ],
+  [
+   "W7117485788",
+   2025
+  ],
+  [
+   "W2272707184",
+   2012
+  ],
+  [
+   "W7113073944",
+   2014
+  ],
+  [
+   "W3194029065",
+   2021
+  ],
+  [
+   "W4249261375",
+   2018
+  ],
+  [
+   "W4416974574",
+   2025
+  ],
+  [
+   "W2944118476",
+   2019
+  ],
+  [
+   "W7167590951",
+   2026
+  ],
+  [
+   "W3158782782",
+   2019
+  ],
+  [
+   "W4411520530",
+   2025
+  ],
+  [
+   "W4413988556",
+   2025
+  ],
+  [
+   "W2741492766",
+   2011
+  ],
+  [
+   "W7145051173",
+   2019
+  ],
+  [
+   "W2976045738",
+   2019
+  ],
+  [
+   "W7172017413",
+   2026
+  ],
+  [
+   "W3160581572",
+   2021
+  ],
+  [
+   "W4315874522",
+   2023
+  ],
+  [
+   "W2271644698",
+   2012
+  ],
+  [
+   "W4409253388",
+   2025
+  ],
+  [
+   "W4220777355",
+   2022
+  ],
+  [
+   "W3185609336",
+   2021
+  ],
+  [
+   "W4366270271",
+   2023
+  ],
+  [
+   "W3002269847",
+   2020
+  ],
+  [
+   "W4313644166",
+   2023
+  ],
+  [
+   "W3131456353",
+   2021
+  ],
+  [
+   "W3015764322",
+   2020
+  ],
+  [
+   "W4403474613",
+   2024
+  ],
+  [
+   "W2605443802",
+   2013
+  ],
+  [
+   "W4410002334",
+   2025
+  ],
+  [
+   "W4412897881",
+   2025
+  ]
+ ]
+}

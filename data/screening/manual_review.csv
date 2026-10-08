@@ -1551,3 +1551,109 @@ W4223580029,C18,include,"Claude (manual review, Stage 2)",residents' association
 W7216657443,C18,include,"Claude (manual review, Stage 2)",residents' associations using WhatsApp (second record)
 W4411909432,C18,include,"Claude (manual review, Stage 2)",neighbourhood association financial transparency via WhatsApp
 W4411951691,C18,exclude,"Claude (manual review, Stage 2)",student online community
+W4402607844,S1,include,"Claude (manual review, Stage 2)","metro station integration with urban fabric, Dhaka (flag false positive)"
+W3164109794,S1,exclude,"Claude (manual review, Stage 2)",station engineering
+W2901160788,S1,exclude,"Claude (manual review, Stage 2)",station air-particle chemistry
+W2919714328,S1,exclude,"Claude (manual review, Stage 2)",station indoor air quality
+W2965485064,S1,include,"Claude (manual review, Stage 2)",homeless women living in a Dhaka train station (flag false positive)
+W4396950641,S1,include,"Claude (manual review, Stage 2)",paratransit access to Delhi metro stations
+W2015171947,S1,exclude,"Claude (manual review, Stage 2)",walking and cycling interventions review
+W2099729899,S1,exclude,"Claude (manual review, Stage 2)",walking distance to public transport
+W1844972300,S1,exclude,"Claude (manual review, Stage 2)",exercise patterns
+W2140492377,S1,exclude,"Claude (manual review, Stage 2)",cardiac arrest locations
+W4401432136,S1,include,"Claude (manual review, Stage 2)",linguistic landscape of a train station as public space
+W4318969516,S1,exclude,"Claude (manual review, Stage 2)",station video analytics
+W4384519086,S1,exclude,"Claude (manual review, Stage 2)",station evacuation optimisation
+W578884324,S2,include,"Claude (manual review, Stage 2)",bus service and waiting in Dhaka
+W7167924381,S2,include,"Claude (manual review, Stage 2)","BMTC bus services and commuter waiting, Bengaluru"
+W3009172980,S2,exclude,"Claude (manual review, Stage 2)",ITS framework for BRTS
+W4229079974,S2,exclude,"Claude (manual review, Stage 2)",bus passenger satisfaction survey (waiting in passing)
+W2993787459,S2,include,"Claude (manual review, Stage 2)",city bus service and waiting in Gurgaon
+W3036634009,S2,exclude,"Claude (manual review, Stage 2)",bus tracking system
+W2911318922,S2,exclude,"Claude (manual review, Stage 2)",passenger satisfaction choice model
+W2183404361,S2,include,"Claude (manual review, Stage 2)",bus users' experiences and waiting in Dhaka
+W4311938753,S2,exclude,"Claude (manual review, Stage 2)",demand experiment (waiting as attribute)
+W2775528046,S2,exclude,"Claude (manual review, Stage 2)",hospital waiting time
+W4411457196,S2,exclude,"Claude (manual review, Stage 2)",feeder mode choice model
+W2890871721,S2,exclude,"Claude (manual review, Stage 2)",mode choice city bus vs informal transit
+W163454401,S2,exclude,"Claude (manual review, Stage 2)",hospital news
+W2004120281,S2,exclude,"Claude (manual review, Stage 2)",physics
+W2322446792,S2,include,"Claude (manual review, Stage 2)",Patients of the State: the politics of waiting (review of Auyero)
+W2062228041,S2,exclude,"Claude (manual review, Stage 2)",transit assignment model
+W1977093441,S2,exclude,"Claude (manual review, Stage 2)",bus arrival prediction
+W2071131107,S2,exclude,"Claude (manual review, Stage 2)",molecular motors
+W119116990,S2,exclude,"Claude (manual review, Stage 2)",health system review
+W4311167001,S2,exclude,"Claude (manual review, Stage 2)",bus waiting-time estimation system
+W4310482818,S2,exclude,"Claude (manual review, Stage 2)",waiting time in accessibility indicators (method)
+W4386257440,S2,exclude,"Claude (manual review, Stage 2)",BRT scheduling model
+W4392103163,S2,exclude,"Claude (manual review, Stage 2)",waiting-time detection
+W4411067513,S2,exclude,"Claude (manual review, Stage 2)",demand-responsive transit optimisation
+W7166562242,S3,exclude,"Claude (manual review, Stage 2)",mass-gathering health services
+W4324030280,S3,include,"Claude (manual review, Stage 2)","students' night-time travel mode preferences, India"
+W2124729726,S3,exclude,"Claude (manual review, Stage 2)",night-vision device
+W3194404569,S3,exclude,"Claude (manual review, Stage 2)",transit service quality incl. service hours (European comparison)
+W4388940153,S3,exclude,"Claude (manual review, Stage 2)",Parkinson's night-time mobility
+W4412398194,S3,exclude,"Claude (manual review, Stage 2)",BRT timetable design
+W4382135398,S3,include,"Claude (manual review, Stage 2)",passenger preferences incl. service hours (BRT)
+W4229370673,S4,exclude,"Claude (manual review, Stage 2)",urban air mobility
+W2070768934,S4,exclude,"Claude (manual review, Stage 2)",transit ridership variation
+W2605268134,S4,include,"Claude (manual review, Stage 2)",passengers' response to a fare change (smart-card data)
+W4236436059,S4,exclude,"Claude (manual review, Stage 2)",transit ridership variation (duplicate)
+W220367035,S4,exclude,"Claude (manual review, Stage 2)",car ownership and bus use panel
+W2948674847,S4,include,"Claude (manual review, Stage 2)","passenger responses to pre-peak discount fares, Beijing"
+W1554380720,S4,include,"Claude (manual review, Stage 2)",fare policy analysis for public transport (thesis)
+W7145051173,S5,include,"Claude (manual review, Stage 2)","TOD influence area and multimodal accessibility, New Delhi"
+W7172017413,S5,include,"Claude (manual review, Stage 2)",Hyderabad Metro Rail and real-estate markets
+W4366270271,S5,include,"Claude (manual review, Stage 2)",BRT and transit-oriented development in Ahmedabad
+W2036236050,S5,exclude,"Claude (manual review, Stage 2)",new urbanism and traffic
+W2528172375,S5,exclude,"Claude (manual review, Stage 2)",planning textbook
+W2339579809,S5,include,"Claude (manual review, Stage 2)",rapid transit land value uplift (review)
+W2127261162,S5,exclude,"Claude (manual review, Stage 2)",green urbanism principles
+W2013295234,S5,exclude,"Claude (manual review, Stage 2)",industry and the smart city
+W4229072883,S5,include,"Claude (manual review, Stage 2)",land value capture for transport infrastructure (OECD)
+W7127323734,S5,include,"Claude (manual review, Stage 2)",data-driven TOD decision support (thesis)
+W7166476497,S6,include,"Claude (manual review, Stage 2)","space appropriation below Mohakhali flyover, Dhaka"
+W7166443371,S6,include,"Claude (manual review, Stage 2)","space appropriation below Mohakhali flyover, Dhaka (duplicate deposit)"
+W4413895947,S6,exclude,"Claude (manual review, Stage 2)",expressway engineering design
+W4413896064,S6,exclude,"Claude (manual review, Stage 2)",expressway engineering design (duplicate)
+W648936534,S6,exclude,"Claude (manual review, Stage 2)",flyover construction
+W2333042945,S6,exclude,"Claude (manual review, Stage 2)",viaduct construction
+W4391624335,S6,exclude,"Claude (manual review, Stage 2)",seismic assessment
+W3014857263,S6,exclude,"Claude (manual review, Stage 2)",project risk analysis
+W4283774393,S6,exclude,"Claude (manual review, Stage 2)",seismic analysis
+W4405785983,S6,include,"Claude (manual review, Stage 2)",public sentiment on Dhaka Elevated Expressway (computational)
+W2189481534,S6,include,"Claude (manual review, Stage 2)","urban development, flyover construction and livelihoods of the poor in Dhaka"
+W2499618585,S6,exclude,"Claude (manual review, Stage 2)",construction contract (Panipat elevated corridor)
+W2033512995,S6,exclude,"Claude (manual review, Stage 2)",seismic engineering
+W2010887495,S6,exclude,"Claude (manual review, Stage 2)",seismic engineering
+W2783062516,S6,exclude,"Claude (manual review, Stage 2)",aerodynamics
+W1992836535,S6,exclude,"Claude (manual review, Stage 2)",ground vibration
+W7213483389,S6,exclude,"Claude (manual review, Stage 2)",earthquake risk
+W7216876009,S6,exclude,"Claude (manual review, Stage 2)",metro bridge engineering
+W4389082219,S6,exclude,"Claude (manual review, Stage 2)",structure-borne noise
+W7214210764,S6,exclude,"Claude (manual review, Stage 2)",excavation engineering
+W7216955455,S7,include,"Claude (manual review, Stage 2)",urban sprawl and agricultural land transformation at Hisar's fringe
+W4416227470,S7,include,"Claude (manual review, Stage 2)",waste management in Rewari City (medium-sized town)
+W4386537232,S7,include,"Claude (manual review, Stage 2)","urbanisation and air pollution, Bahadurgarh"
+W2992389443,S7,exclude,"Claude (manual review, Stage 2)",heavy metals in peri-urban soil
+W245440286,S7,exclude,"Claude (manual review, Stage 2)",malaria report 1920
+W3120109672,S7,exclude,"Claude (manual review, Stage 2)",parasitic infestation study
+W141568231,S7,exclude,"Claude (manual review, Stage 2)",poisoning profile
+W2184885999,S7,exclude,"Claude (manual review, Stage 2)",groundwater chemistry
+W1967431314,S7,exclude,"Claude (manual review, Stage 2)",urban heat island over NCR (climatology)
+W2164682370,S7,exclude,"Claude (manual review, Stage 2)",diabetes prevalence
+W2621200399,S7,exclude,"Claude (manual review, Stage 2)",soil radioactivity
+W2079811648,S7,exclude,"Claude (manual review, Stage 2)",fluoride in groundwater
+W3009373930,S7,exclude,"Claude (manual review, Stage 2)",anaemia study
+W4206747959,S7,include,"Claude (manual review, Stage 2)","urbanisation impacts, Panchkula district (geospatial)"
+W2325009827,S7,exclude,"Claude (manual review, Stage 2)",malnutrition survey
+W2162203887,S7,exclude,"Claude (manual review, Stage 2)",aerosol study
+W2538740386,S7,exclude,"Claude (manual review, Stage 2)",fluorosis study
+W1969696483,S7,exclude,"Claude (manual review, Stage 2)",crop residue burning
+W7215303612,S7,include,"Claude (manual review, Stage 2)",child sex ratio in small towns of Haryana
+W4406003084,S7,include,"Claude (manual review, Stage 2)",solid waste management in Jind City
+W3016070546,S2,include,"Claude (manual review, Stage 2)",passengers' critical waiting time at transit stops (behavioural)
+W2068341557,S2,exclude,"Claude (manual review, Stage 2)",train-scheduling optimisation
+W4366779841,S2,exclude,"Claude (manual review, Stage 2)",timetable optimisation
+W4410017134,S2,exclude,"Claude (manual review, Stage 2)",transfer-optimisation models
+W4402532576,S2,exclude,"Claude (manual review, Stage 2)",timetable optimisation

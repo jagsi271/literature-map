@@ -1,0 +1,179 @@
+{
+ "theme": "S7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((Panipat OR Sonipat OR Sonepat OR Rohtak OR Hisar OR Hissar OR Karnal OR Ambala OR Yamunanagar OR Kurukshetra OR Thanesar OR Rewari OR Bahadurgarh OR Bhiwani OR Sirsa OR Jind OR Kaithal OR Palwal OR Panchkula OR Jhajjar OR Narnaul OR Fatehabad OR (Haryana AND (\"small town\" OR \"small towns\" OR \"census town\" OR \"census towns\" OR \"secondary city\" OR \"medium-sized\"))) AND (urban OR city OR town OR municipal OR urbanisation OR urbanization OR \"peri-urban\"))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((Panipat OR Sonipat OR Sonepat OR Rohtak OR Hisar OR Hissar OR Karnal OR Ambala OR Yamunanagar OR Kurukshetra OR Thanesar OR Rewari OR Bahadurgarh OR Bhiwani OR Sirsa OR Jind OR Kaithal OR Palwal OR Panchkula OR Jhajjar OR Narnaul OR Fatehabad OR (Haryana AND (\"small town\" OR \"small towns\" OR \"census town\" OR \"census towns\" OR \"secondary city\" OR \"medium-sized\"))) AND (urban OR city OR town OR municipal OR urbanisation OR urbanization OR \"peri-urban\")),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"Ambala\" OR \"Bahadurgarh\" OR \"Bhiwani\" OR \"Fatehabad\" OR \"Hisar\" OR \"Hissar\" OR \"Jhajjar\" OR \"Jind\" OR \"Kaithal\" OR \"Karnal\" OR \"Kurukshetra\" OR \"Narnaul\" OR \"Palwal\" OR \"Panchkula\" OR \"Panipat\" OR \"Rewari\" OR \"Rohtak\" OR \"Sirsa\" OR \"Sonepat\" OR \"Sonipat\" OR \"Thanesar\" OR \"Yamunanagar\" OR (\"Haryana\" AND (\"census town\" OR \"census towns\" OR \"secondary city\" OR \"small town\" OR \"small towns\" OR \"medium-sized\"))) AND (\"city\" OR \"municipal\" OR \"peri-urban\" OR \"town\" OR \"urban\" OR \"urbanisation\" OR \"urbanization\"))",
+ "page": 1,
+ "total_results": 657,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_S7_recent.json.gz",
+ "results": [
+  [
+   "W4407671816",
+   2024
+  ],
+  [
+   "W7216955455",
+   2026
+  ],
+  [
+   "W4395693890",
+   2024
+  ],
+  [
+   "W7204656232",
+   2026
+  ],
+  [
+   "W4416227470",
+   2025
+  ],
+  [
+   "W4387595528",
+   2023
+  ],
+  [
+   "W7156224843",
+   2026
+  ],
+  [
+   "W7216447311",
+   2024
+  ],
+  [
+   "W7215435709",
+   2023
+  ],
+  [
+   "W7127294845",
+   2026
+  ],
+  [
+   "W4399084735",
+   2024
+  ],
+  [
+   "W7204638052",
+   2026
+  ],
+  [
+   "W7217759701",
+   2024
+  ],
+  [
+   "W4385316962",
+   2023
+  ],
+  [
+   "W7204635541",
+   2026
+  ],
+  [
+   "W4415487901",
+   2025
+  ],
+  [
+   "W4403486264",
+   2024
+  ],
+  [
+   "W4225813898",
+   2022
+  ],
+  [
+   "W4407795303",
+   2024
+  ],
+  [
+   "W4317813374",
+   2023
+  ],
+  [
+   "W7117982779",
+   2026
+  ],
+  [
+   "W7156607649",
+   2026
+  ],
+  [
+   "W7218191815",
+   2023
+  ],
+  [
+   "W4400964564",
+   2024
+  ],
+  [
+   "W4403145733",
+   2024
+  ],
+  [
+   "W7163647325",
+   2024
+  ],
+  [
+   "W4391860015",
+   2023
+  ],
+  [
+   "W4386363518",
+   2023
+  ],
+  [
+   "W7215303612",
+   2022
+  ],
+  [
+   "W7220221250",
+   2025
+  ],
+  [
+   "W7160117554",
+   2026
+  ],
+  [
+   "W4401734500",
+   2024
+  ],
+  [
+   "W7155001413",
+   2026
+  ],
+  [
+   "W7130384952",
+   2026
+  ],
+  [
+   "W7220406494",
+   2026
+  ],
+  [
+   "W4409613873",
+   2024
+  ],
+  [
+   "W7215121142",
+   2025
+  ],
+  [
+   "W4406003084",
+   2024
+  ],
+  [
+   "W7216046805",
+   2026
+  ],
+  [
+   "W7217246640",
+   2025
+  ]
+ ]
+}

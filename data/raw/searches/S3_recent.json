@@ -1,0 +1,179 @@
+{
+ "theme": "S3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"night bus\" OR \"night buses\" OR \"night-time transport\" OR \"nighttime transport\" OR \"night transit\" OR \"late-night transit\" OR \"night-time mobility\" OR \"nighttime mobility\" OR \"night mobility\" OR \"night-time travel\" OR \"nighttime travel\" OR \"24-hour transit\" OR ((\"service hours\" OR \"operating hours\") AND (\"public transport\" OR transit OR metro OR bus)))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"night bus\" OR \"night buses\" OR \"night-time transport\" OR \"nighttime transport\" OR \"night transit\" OR \"late-night transit\" OR \"night-time mobility\" OR \"nighttime mobility\" OR \"night mobility\" OR \"night-time travel\" OR \"nighttime travel\" OR \"24-hour transit\" OR ((\"service hours\" OR \"operating hours\") AND (\"public transport\" OR transit OR metro OR bus))),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"24-hour transit\" OR \"late-night transit\" OR \"night bus\" OR \"night buses\" OR \"night mobility\" OR \"night transit\" OR \"night-time mobility\" OR \"night-time transport\" OR \"night-time travel\" OR \"nighttime mobility\" OR \"nighttime transport\" OR \"nighttime travel\" OR ((\"operating hours\" OR \"service hours\") AND (\"public transport\" OR \"bus\" OR \"metro\" OR \"transit\")))",
+ "page": 1,
+ "total_results": 224,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_S3_recent.json.gz",
+ "results": [
+  [
+   "W7123336453",
+   2026
+  ],
+  [
+   "W7112704961",
+   2025
+  ],
+  [
+   "W4415978050",
+   2025
+  ],
+  [
+   "W4214694615",
+   2022
+  ],
+  [
+   "W7172454725",
+   2026
+  ],
+  [
+   "W4388940153",
+   2023
+  ],
+  [
+   "W7155390135",
+   2026
+  ],
+  [
+   "W4408914677",
+   2025
+  ],
+  [
+   "W7124923582",
+   2026
+  ],
+  [
+   "W7124980798",
+   2026
+  ],
+  [
+   "W7160194504",
+   2026
+  ],
+  [
+   "W4390736422",
+   2024
+  ],
+  [
+   "W7167688840",
+   2026
+  ],
+  [
+   "W7154721439",
+   2026
+  ],
+  [
+   "W7167729818",
+   2026
+  ],
+  [
+   "W7152426197",
+   2026
+  ],
+  [
+   "W7135304332",
+   2024
+  ],
+  [
+   "W4206146160",
+   2022
+  ],
+  [
+   "W7128791205",
+   2026
+  ],
+  [
+   "W7160266205",
+   2026
+  ],
+  [
+   "W4410480664",
+   2025
+  ],
+  [
+   "W7159689558",
+   2026
+  ],
+  [
+   "W4406471979",
+   2025
+  ],
+  [
+   "W4297626293",
+   2022
+  ],
+  [
+   "W4386548619",
+   2023
+  ],
+  [
+   "W7165356744",
+   2026
+  ],
+  [
+   "W7167831190",
+   2026
+  ],
+  [
+   "W4285685238",
+   2022
+  ],
+  [
+   "W4412398194",
+   2025
+  ],
+  [
+   "W4382135398",
+   2023
+  ],
+  [
+   "W4408128841",
+   2025
+  ],
+  [
+   "W4403532689",
+   2024
+  ],
+  [
+   "W4280573557",
+   2022
+  ],
+  [
+   "W4394603079",
+   2024
+  ],
+  [
+   "W7216390894",
+   2026
+  ],
+  [
+   "W7166562242",
+   2026
+  ],
+  [
+   "W4379210552",
+   2023
+  ],
+  [
+   "W7166527906",
+   2026
+  ],
+  [
+   "W7167343085",
+   2026
+  ],
+  [
+   "W4387918082",
+   2023
+  ]
+ ]
+}

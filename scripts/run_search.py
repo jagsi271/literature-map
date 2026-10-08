@@ -44,8 +44,27 @@ def sa_terms(cfg):
     return " ".join(cfg["south_asia_terms"].split())
 
 
+def plan_supplementary(cfg, theme, slice_name):
+    """Supplementary query sets (queries.yaml `supplementary`): one combined query per slice;
+    landmarks top 50 by citations, recent (2022-26) and india top 40 by relevance."""
+    t = cfg["supplementary"][theme]
+    q = " OR ".join(f"({x})" for x in t["queries"])
+    if slice_name == "landmarks":
+        return [(f"{theme}_landmarks", q, {"sort": "cited_by_count:desc", "per_page": 50})]
+    if slice_name == "recent":
+        return [(f"{theme}_recent", q, {"sort": "relevance_score:desc", "per_page": 40,
+                                         "years": "2022-2026"})]
+    if slice_name == "india":
+        if theme != "S7":  # S7 (Haryana cities) is India-specific already
+            q = f"({q}) AND ({sa_terms(cfg)})"
+        return [(f"{theme}_india", q, {"sort": "relevance_score:desc", "per_page": 40})]
+    return []
+
+
 def plan(cfg, theme, slice_name, qcfg=None):
     """List of (manifest name, query, params) for one theme and slice."""
+    if theme.startswith("S"):
+        return plan_supplementary(cfg, theme, slice_name)
     t = qcfg or cfg["themes"][theme]
     qs = t["queries"]
     s2 = cfg["slices_stage2"]
