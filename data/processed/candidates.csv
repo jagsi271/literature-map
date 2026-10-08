@@ -11439,7 +11439,7 @@ W4400890167,C7,recent,C7_recent_q4,18,Leveraging Generative AI Models in Urban S
 W4311436847,C8,india,C8_india_q1,1,State of E-Governance at Urban Local Government in Bangladesh: A Paradigm of Rajshahi City Corporation,2022,preprint,4,True,include,6,rules,include
 W4396804810,C8,india,C8_india_q1,2,State of E-Governance at Urban Local Government in Bangladesh: A Paradigm of Rajshahi City Corporation,2024,article,0,True,include,6,rules,include
 W2269487991,C8,india,C8_india_q1,3,E-Governance and Smart Cities: Cases of Ahmedabad and Hyderabad,2014,book-chapter,2,False,include,3,no abstract; core (and context) in title,include
-W2233541935,C8,india,C8_india_q1,4,Strengthening local government institutions of Bangladesh through e-governance,2009,dissertation,0,True,borderline,3,stub abstract (possible book review),pending
+W2233541935,C8,india,C8_india_q1,4,Strengthening local government institutions of Bangladesh through e-governance,2009,dissertation,0,True,borderline,3,"stub abstract (possible book review) | manual: e-governance and local government institutions, Bangladesh",include
 W4283733924,C8,india,C8_india_q1,5,Why the Utilization of E-Government Services is Poor? – A study with the Citizens in Colombo Municipal Council Area in Sri Lanka,2022,article,3,True,include,6,rules,include
 W7125417715,C8,india,C8_india_q1,6,"Transparency without inclusion: Civil society experience of e-Governance in local government institutions in Ratnapura district, Sri Lanka",2025,article,0,True,include,6,rules,include
 W2296172305,C8,india,C8_india_q1,7,"Esuvidha @ initiatives of implementation of E-governance by pimpri chinchwad municipal Corporation (PCMC), Pune, India",2012,article,0,True,include,5,rules,include
@@ -11447,8 +11447,8 @@ W7216458684,C8,india,C8_india_q1,8,A Study of E-Governance Service in Haryana Mu
 W7211924025,C8,india,C8_india_q1,9,Digitalization and E-Governance in Kathmandu Metropolitan City,2026,article,0,False,include,3,no abstract; core (and context) in title,include
 W4251253085,C8,india,C8_india_q1,10,Electronic government services value creation from artificial intelligence: AI-based e-government services for Pakistan,2021,article,16,True,include,5,rules,include
 W2491505590,C8,india,C8_india_q1,11,"E-Governance vs. E-Readiness in Urban Municipal Governments in Tamil Nadu, India",2011,book-chapter,1,True,include,6,rules,include
-W2586890017,C8,india,C8_india_q1,12,"Spatial knowledge management in urban local government: e-governance in India, Brazil, South Africa, and Peru: WP5 fieldwork reports",2013,report,1,True,borderline,3,stub abstract (possible book review),pending
-W2883355091,C8,india,C8_india_q1,13,Smart City and E-Governance in India. Mapping a New Urban Landscape,2018,preprint,0,True,borderline,3,stub abstract (possible book review),pending
+W2586890017,C8,india,C8_india_q1,12,"Spatial knowledge management in urban local government: e-governance in India, Brazil, South Africa, and Peru: WP5 fieldwork reports",2013,report,1,True,borderline,3,stub abstract (possible book review) | manual: spatial knowledge management and e-governance in urban local government,include
+W2883355091,C8,india,C8_india_q1,13,Smart City and E-Governance in India. Mapping a New Urban Landscape,2018,preprint,0,True,borderline,3,stub abstract (possible book review) | manual: smart city and e-governance in India,include
 W4395702938,C8,india,C8_india_q1,14,Application of E-Services in the Urban Local Government in Bangladesh: A Study on Rajshahi City Corporation,2024,article,0,True,include,6,rules,include
 W4411189079,C8,india,C8_india_q1,15,E-Government in Bangladesh,2025,book,0,True,include,4,rules,include
 W3088796503,C8,india,C8_india_q1,16,Electronic Government Services (EGS) value creation from artificial intelligence: AI-based e-government services for Pakistan,2020,article,2,True,include,5,rules,include
@@ -11456,7 +11456,7 @@ W3134898755,C8,india,C8_india_q1,17,UDC and e-Service Delivery at Local Governme
 W7215983375,C8,india,C8_india_q1,18,"E-Governance and Citizen Participation in Local Government: An Assessment of Citizens’ Knowledge, Attitudes, and Practices in Khulna City Corporation, Bangladesh",2026,article,0,True,include,6,rules,include
 W7216613104,C8,india,C8_india_q2,1,Influence Of Financial Inclusion Via Digital Mode On Economic Empowerment Of Shg Members In Bengaluru City,2024,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4205625344,C8,india,C8_india_q2,2,Does Digitalization Matter for Grievance Redress Mechanism? An Analysis of the E-Government Procurement in the Local Government,2022,article,4,True,include,5,rules,include
-W7220291169,C8,india,C8_india_q2,3,Analiza nevoilor de continut a unui website municipal,2025,article,0,True,borderline,1,core concept mentioned once,pending
+W7220291169,C8,india,C8_india_q2,3,Analiza nevoilor de continut a unui website municipal,2025,article,0,True,borderline,1,core concept mentioned once | manual: content needs of municipal websites,include
 W4213436924,C8,india,C8_india_q2,4,Smart City,2022,reference-entry,0,False,exclude,0,core concept missing,exclude
 W7147107193,C8,india,C8_india_q2,5,"Human-AI Collaboration in State E-Governance Systems: A Research-in-Progress Study of Usability, Trust, and Adoption in e-Office and Scholarship Portals",2026,preprint,0,False,exclude,3,no abstract; no urban context (C theme),exclude
 W7214448363,C8,india,C8_india_q2,6,Impact of Artificial Intelligence on Different Countries in Asia,2026,report,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -11472,15 +11472,15 @@ W7165371021,C8,india,C8_india_q3,6,Bridging India’s generational digital divid
 W7213789236,C8,india,C8_india_q3,7,From Pioneering to Prosaic: A repeatable building-block model for Data Digital Public Infrastructure,2026,preprint,0,False,exclude,3,no abstract; no urban context (C theme),exclude
 W7139975953,C8,india,C8_india_q3,8,"Digidhan Dashboard: A Digital Public Infrastructure for Monitoring, Analysis, and Promotion of India’s Digital Payment Ecosystem",2026,preprint,0,False,exclude,3,no abstract; no urban context (C theme),exclude
 W7167486748,C8,india,C8_india_q3,9,Digital public goods for urban governance: lessons from urban local bodies across India,2026,article,0,False,exclude,0,core concept missing,exclude
-W7220260751,C8,india,C8_india_q3,10,"Evaluating the Role of India Stack in Enhancing Financial Inclusion: A Case Study of UPI and Aadhaar-enabled Services in Delhi, India",2026,dissertation,0,True,borderline,1,core concept mentioned once,pending
+W7220260751,C8,india,C8_india_q3,10,"Evaluating the Role of India Stack in Enhancing Financial Inclusion: A Case Study of UPI and Aadhaar-enabled Services in Delhi, India",2026,dissertation,0,True,borderline,1,core concept mentioned once | manual: India Stack and financial inclusion in Delhi (B5/B6),exclude
 W4415260750,C8,india,C8_india_q3,11,Municipal Digitisation and E-governance in North-Western India: Emerging Issues and Alternatives (Some Evidences from Recent Studies),2025,article,0,True,include,6,rules,include
 W4410189729,C8,india,C8_india_q3,12,"Increasing Water Stress in Urban India: Impact of AI, LLMs and High-powered Infrastructures",2025,preprint,0,False,exclude,0,core concept missing,exclude
-W7154702555,C8,india,C8_india_q3,13,"Digital Economy, FinTech and Financial Inclusion: An Indian Perspective",2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7154702555,C8,india,C8_india_q3,13,"Digital Economy, FinTech and Financial Inclusion: An Indian Perspective",2026,article,0,True,borderline,1,core concept mentioned once | manual: digital economy and fintech (B6),exclude
 W7169665312,C8,india,C8_india_q3,14,"Smart Governance, Innovation and Sustainable Urban Development: Bengaluru's Contribution to Viksit Bharat @2047",2026,article,0,True,include,6,rules,include
-W7154846820,C8,india,C8_india_q3,15,Smart City Governance and Management: Towards a Best Practices Blueprint,2025,article,0,True,borderline,1,core concept mentioned once,pending
+W7154846820,C8,india,C8_india_q3,15,Smart City Governance and Management: Towards a Best Practices Blueprint,2025,article,0,True,borderline,1,core concept mentioned once | manual: smart city governance blueprint (C1),exclude
 W7217850516,C8,india,C8_india_q3,16,ANALYTICAL STUDY OF TRANSFORMATION OF INDIAN ECONOMY INTO DIGITALIZED ECONOMY,2026,article,0,True,include,2,rules,include
-W7127073485,C8,india,C8_india_q3,17,Digital Health and Artificial Intelligence: A Strategic Framework for India,2026,article,2,True,borderline,1,core concept mentioned once,pending
-W4407893837,C8,india,C8_india_q3,18,Embracing Complexity in Smart City Services: A Case of Waste Management,2025,article,9,True,borderline,1,core concept mentioned once,pending
+W7127073485,C8,india,C8_india_q3,17,Digital Health and Artificial Intelligence: A Strategic Framework for India,2026,article,2,True,borderline,1,core concept mentioned once | manual: digital health AI framework,exclude
+W4407893837,C8,india,C8_india_q3,18,Embracing Complexity in Smart City Services: A Case of Waste Management,2025,article,9,True,borderline,1,core concept mentioned once | manual: last-mile smart-city service delivery (waste management),include
 W7131362493,C8,india,C8_india_q4,1,Law – A Neglected but Necessary Element of Smart Governance: A Case Study of South Asia,2026,article,0,True,include,4,rules,include
 W4406026675,C8,india,C8_india_q4,2,"Smart Urbanization in India: Engagement, Participation, and Citizenship in Pune Smart City",2025,book-chapter,3,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4400907513,C8,india,C8_india_q4,3,Smart governance for smart cities and nations,2024,article,99,True,include,6,rules,include
@@ -11493,15 +11493,15 @@ W7169665312,C8,india,C8_india_q4,9,"Smart Governance, Innovation and Sustainable
 W3121939952,C8,india,C8_india_q4,10,Smart City- Far and Near Dream in Indian Context,2021,article,1,True,include,2,rules,include
 W4404764061,C8,india,C8_india_q4,11,Exploring an ICT-Enabled participative smart city governance system: an Indian context,2024,article,9,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7220096232,C8,india,C8_india_q4,12,AI-Driven IoT Systems for Sustainable Development: A Framework for Smart Governance,2025,article,0,True,include,4,rules,include
-W7166825066,C8,india,C8_india_q4,13,"Building Viksit Bharat through Urban Innovation: Evidence from Bengaluru's Smart Governance, Startup Ecosystem and Sustainable Development",2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7166825066,C8,india,C8_india_q4,13,"Building Viksit Bharat through Urban Innovation: Evidence from Bengaluru's Smart Governance, Startup Ecosystem and Sustainable Development",2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: Bengaluru innovation and startups,exclude
 W7214904931,C8,india,C8_india_q4,14,The digital sweep: transforming sanitation through smart governance for contemporary urban resilience and sustainability,2026,article,0,True,include,4,rules,include
 W314485165,C8,india,C8_india_q4,15,Bangalore One: A One Stop Shop for Government Services,2007,article,2,True,include,3,rules,include
 W2732477510,C8,india,C8_india_q4,16,Smart city and E-Governance: Exploring the connect in the context of local development in India,2017,conference-paper,16,True,include,6,rules,include
 W3159405449,C8,india,C8_india_q4,17,"Contextualizing Electronic Governance, Smart City Governance and Sustainable Infrastructure in India: A Study and Framework",2021,other,6,True,exclude,2,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W7204027467,C8,india,C8_india_q4,18,Environmental Justice and Smart Environmental Governance: Reimagining Urban Ecological Commons in Bengaluru,2026,article,0,True,include,2,rules,include
 W2161965672,C8,landmarks,C8_landmarks,1,Financial Development and Economic Growth: Views and Agenda,1999,report,3028,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2150929043,C8,landmarks,C8_landmarks,2,The Evolution of E‐Government among Municipalities: Rhetoric or Reality?,2002,article,1967,True,borderline,1,core concept mentioned once,pending
-W2163043615,C8,landmarks,C8_landmarks,3,Governing the smart city: a review of the literature on smart urban governance,2015,article,1774,True,borderline,1,core concept mentioned once,pending
+W2150929043,C8,landmarks,C8_landmarks,2,The Evolution of E‐Government among Municipalities: Rhetoric or Reality?,2002,article,1967,True,borderline,1,core concept mentioned once | manual: evolution of municipal e-government,include
+W2163043615,C8,landmarks,C8_landmarks,3,Governing the smart city: a review of the literature on smart urban governance,2015,article,1774,True,borderline,1,core concept mentioned once | manual: smart urban governance review (C1),exclude
 W2092585742,C8,landmarks,C8_landmarks,4,Reinventing Local Governments and the E‐Government Initiative,2002,article,1172,True,exclude,0,core concept missing,exclude
 W2035669333,C8,landmarks,C8_landmarks,5,The Effects of E‐Government on Trust and Confidence in Government,2006,article,1085,True,exclude,0,core concept missing,exclude
 W1494416504,C8,landmarks,C8_landmarks,6,The Political Economy of Democratic Decentralization,1999,book,967,True,exclude,0,core concept missing,exclude
@@ -11512,7 +11512,7 @@ W3022124280,C8,landmarks,C8_landmarks,10,Future Trends and Current State of Smar
 W2068098306,C8,landmarks,C8_landmarks,11,Does managerial orientation matter? The adoption of reinventing government and e‐government at the municipal level*,2005,article,433,True,exclude,0,core concept missing,exclude
 W1970394590,C8,landmarks,C8_landmarks,12,An institutional analysis of an e-government system for anti-corruption: The case of OPEN,2008,article,411,False,exclude,3,no abstract; no urban context (C theme),exclude
 W2998428295,C8,landmarks,C8_landmarks,13,Governance and quality of life in smart cities: Towards sustainable development goals,2019,article,403,False,exclude,0,core concept missing,exclude
-W2738510157,C8,landmarks,C8_landmarks,14,Increasing collaboration and participation in smart city governance: a cross-case analysis of smart city initiatives,2017,article,379,True,borderline,1,core concept mentioned once,pending
+W2738510157,C8,landmarks,C8_landmarks,14,Increasing collaboration and participation in smart city governance: a cross-case analysis of smart city initiatives,2017,article,379,True,borderline,1,core concept mentioned once | manual: smart governance collaboration (C1/C12),exclude
 W2077985988,C8,landmarks,C8_landmarks,15,Information and communication technology and local governance: understanding the difference between cities in developed and emerging economies,2003,article,366,False,exclude,0,core concept missing,exclude
 W2094745488,C8,landmarks,C8_landmarks,16,Information centric services in Smart Cities,2013,article,351,False,exclude,0,core concept missing,exclude
 W2742101884,C8,landmarks,C8_landmarks,17,How smart growth and green infrastructure can mutually support each other — A conceptual framework for compact and green cities,2017,article,343,False,exclude,0,core concept missing,exclude
@@ -11527,8 +11527,8 @@ W655626130,C8,landmarks,C8_landmarks,25,Secure Multiparty Computation,2011,refer
 W1975385385,C8,landmarks,C8_landmarks,26,Gauging e-government: A report on implementing services among American cities,2001,article,286,False,include,3,no abstract; core (and context) in title,include
 W2606713462,C8,landmarks,C8_landmarks,27,Understanding Smart Cities: A Tool for Smart Government or an Industrial Trick?,2017,book,280,False,exclude,0,core concept missing,exclude
 W2000735747,C8,landmarks,C8_landmarks,28,Evaluating e‐government: learning from the experiences of two UK local authorities,2005,article,280,True,exclude,0,core concept missing,exclude
-W3170077347,C8,landmarks,C8_landmarks,29,"Conceptualizing smart city applications: Requirements, architecture, security issues, and emerging trends",2021,article,271,True,borderline,1,core concept mentioned once,pending
-W2105801173,C8,landmarks,C8_landmarks,30,Enabling the smart city: the progress of city e-governance in Europe,2009,article,236,True,borderline,3,stub abstract (possible book review),pending
+W3170077347,C8,landmarks,C8_landmarks,29,"Conceptualizing smart city applications: Requirements, architecture, security issues, and emerging trends",2021,article,271,True,borderline,1,core concept mentioned once | manual: smart city applications architecture,exclude
+W2105801173,C8,landmarks,C8_landmarks,30,Enabling the smart city: the progress of city e-governance in Europe,2009,article,236,True,borderline,3,stub abstract (possible book review) | manual: city e-governance in Europe,include
 W2053255899,C8,landmarks,C8_landmarks,31,Examining the influence of intermediaries in facilitating e-government adoption: An empirical investigation,2013,article,234,False,exclude,3,no abstract; no urban context (C theme),exclude
 W2769352809,C8,landmarks,C8_landmarks,32,"Toward a typology of government social media communication: Democratic goals, symbolic acts and self-presentation",2017,article,215,False,exclude,0,core concept missing,exclude
 W2101511882,C8,landmarks,C8_landmarks,33,Politics of E‐Government: E‐Government and the Political Control of Bureaucracy,2011,article,205,True,exclude,0,core concept missing,exclude
@@ -11537,13 +11537,13 @@ W1519799056,C8,landmarks,C8_landmarks,35,E‐government and the transformation o
 W4205936453,C8,landmarks,C8_landmarks,36,Governance,1994,book,192,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W3120200594,C8,landmarks,C8_landmarks,37,Development of integrated sustainability performance indicators for better management of smart cities,2021,article,189,False,exclude,0,core concept missing,exclude
 W3007685049,C8,landmarks,C8_landmarks,38,"Improving service quality, accountability and transparency of local government: The intervening role of information technology governance",2020,article,185,True,include,2,rules,include
-W1981192547,C8,landmarks,C8_landmarks,39,Public Participation in Local Policy Decision-making: The Role of Web-based Mapping,2007,article,184,True,borderline,1,core concept mentioned once,pending
+W1981192547,C8,landmarks,C8_landmarks,39,Public Participation in Local Policy Decision-making: The Role of Web-based Mapping,2007,article,184,True,borderline,1,core concept mentioned once | manual: web-based mapping for participation in local e-government,include
 W2117207770,C8,landmarks,C8_landmarks,40,Is E-Government Promoting Convergence Towards More Accountable Local Governments?,2010,article,182,True,include,4,rules,include
-W2560316343,C8,landmarks,C8_landmarks,41,"A literature review on Smart Cities: Paradigms, opportunities and open problems",2016,conference-paper,180,True,borderline,1,core concept mentioned once,pending
+W2560316343,C8,landmarks,C8_landmarks,41,"A literature review on Smart Cities: Paradigms, opportunities and open problems",2016,conference-paper,180,True,borderline,1,core concept mentioned once | manual: smart cities literature review,exclude
 W3179713855,C8,landmarks,C8_landmarks,42,UAVs in Disaster Management: Application of Integrated Aerial Imagery and Convolutional Neural Network for Flood Detection,2021,article,179,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2753689584,C8,landmarks,C8_landmarks,43,Government affairs service platform for smart city,2017,article,177,False,exclude,0,core concept missing,exclude
-W4220832941,C8,landmarks,C8_landmarks,44,Implementing Data-Driven Smart City Applications for Future Cities,2022,article,168,True,borderline,1,core concept mentioned once,pending
-W2106781262,C8,landmarks,C8_landmarks,45,Factors Influencing E-Disclosure in Local Public Administrations,2009,article,166,True,borderline,1,core concept mentioned once,pending
+W4220832941,C8,landmarks,C8_landmarks,44,Implementing Data-Driven Smart City Applications for Future Cities,2022,article,168,True,borderline,1,core concept mentioned once | manual: data-driven smart city applications,exclude
+W2106781262,C8,landmarks,C8_landmarks,45,Factors Influencing E-Disclosure in Local Public Administrations,2009,article,166,True,borderline,1,core concept mentioned once | manual: e-disclosure by local public administrations,include
 W1973930969,C8,landmarks,C8_landmarks,46,E-Participation in Planning: An Analysis of Cities Adopting On-Line Citizen Participation Tools,2006,article,165,True,include,3,rules,include
 W2093569856,C8,landmarks,C8_landmarks,47,"Evaluating leadership, IT quality, and net benefits in an e-government environment",2008,article,164,False,exclude,3,no abstract; no urban context (C theme),exclude
 W1500801596,C8,landmarks,C8_landmarks,48,DIGITAL GOVERNMENT AND ITS EFFECTIVENESS IN PUBLIC MANAGEMENT REFORM,2005,article,164,True,include,6,rules,include
@@ -11553,7 +11553,7 @@ W3013624511,C8,landmarks,C8_landmarks,51,Biodegradable and non-biodegradable fra
 W2066013707,C8,landmarks,C8_landmarks,52,E‐government: a new route to public sector quality,2002,article,161,True,exclude,0,core concept missing,exclude
 W2168071823,C8,landmarks,C8_landmarks,53,E-Government to Combat Corruption: The Case of Seoul Metropolitan Government,2004,article,160,True,include,4,rules,include
 W2050116784,C8,landmarks,C8_landmarks,54,Moving from E-Government to T-Government,2008,article,159,True,include,6,rules,include
-W637811286,C8,landmarks,C8_landmarks,55,Smart Cities,2013,book,157,True,borderline,1,core concept mentioned once,pending
+W637811286,C8,landmarks,C8_landmarks,55,Smart Cities,2013,book,157,True,borderline,1,core concept mentioned once | manual: smart cities book (C1),exclude
 W2485890024,C8,landmarks,C8_landmarks,56,Enacting Electronic Government Success,2012,book,153,False,exclude,3,no abstract; no urban context (C theme),exclude
 W2026080222,C8,landmarks,C8_landmarks,57,Critical issues pertaining to the planning and implementation of E-Government initiatives,2009,article,149,False,exclude,3,no abstract; no urban context (C theme),exclude
 W2048626030,C8,landmarks,C8_landmarks,58,E-government and citizen's engagement with local affairs through e-websites: The case of Spanish municipalities,2012,article,145,False,include,3,no abstract; core (and context) in title,include
@@ -11566,11 +11566,11 @@ W2767980865,C8,landmarks,C8_landmarks,64,Promoting smart cities in developing co
 W2104449875,C8,landmarks,C8_landmarks,65,Citizens as customers: Exploring the future of CRM in UK local government,2006,article,134,False,exclude,0,core concept missing,exclude
 W1983636876,C8,landmarks,C8_landmarks,66,A usability analysis of municipal government website home pages in Alabama,2012,article,132,False,exclude,0,core concept missing,exclude
 W2010365697,C8,landmarks,C8_landmarks,67,IS E‐GOVERNMENT LEADING TO MORE ACCOUNTABLE AND TRANSPARENT LOCAL GOVERNMENTS? AN OVERALL VIEW,2010,article,130,True,exclude,0,core concept missing,exclude
-W2109543686,C8,landmarks,C8_landmarks,68,Form of Government Still Matters,2011,article,129,True,borderline,1,core concept mentioned once,pending
+W2109543686,C8,landmarks,C8_landmarks,68,Form of Government Still Matters,2011,article,129,True,borderline,1,core concept mentioned once | manual: form of municipal government and e-government adoption,include
 W4225136139,C8,landmarks,C8_landmarks,69,E-government mechanisms to enhance the participation of citizens and society: Exploratory analysis through the dimension of municipalities,2022,article,126,True,include,5,rules,include
 W2001766537,C8,landmarks,C8_landmarks,70,Social media adoption at the American grass roots: Web 2.0 or 1.5?,2013,article,125,False,exclude,0,core concept missing,exclude
 W2167511680,C8,landmarks,C8_landmarks,71,Are determining factors of municipal E-government common to a worldwide municipal view? An intra-country comparison,2010,article,123,False,include,3,no abstract; core (and context) in title,include
-W3089204850,C8,landmarks,C8_landmarks,72,Artificial Intelligence in the Urban Environment: Smart Cities as Models for Developing Innovation and Sustainability,2020,article,122,True,borderline,1,core concept mentioned once,pending
+W3089204850,C8,landmarks,C8_landmarks,72,Artificial Intelligence in the Urban Environment: Smart Cities as Models for Developing Innovation and Sustainability,2020,article,122,True,borderline,1,core concept mentioned once | manual: AI in smart cities (Granada),exclude
 W2074540080,C8,landmarks,C8_landmarks,73,E‐government evolution in EU local governments: a comparative perspective,2009,article,122,True,exclude,0,core concept missing,exclude
 W1967828881,C8,landmarks,C8_landmarks,74,Information quality and community municipal portal use,2012,article,119,False,exclude,0,core concept missing,exclude
 W1451159090,C8,landmarks,C8_landmarks,75,Potential dimensions for a local e-Government services quality model,2015,article,117,False,exclude,3,no abstract; no urban context (C theme),exclude
@@ -11580,13 +11580,13 @@ W2033268430,C8,landmarks,C8_landmarks,78,E-governance in Cities: A Comparison of
 W2806838180,C8,landmarks,C8_landmarks,79,Stages and Determinants of E-Government Development: A Twelve-Year Longitudinal Study of Global Cities,2018,article,114,True,include,6,rules,include
 W3039573027,C8,landmarks,C8_landmarks,80,What Makes Indian Cities Smart? A Policy Analysis of Smart Cities Mission,2020,article,113,False,exclude,0,core concept missing,exclude
 W2886834536,C8,landmarks,C8_landmarks,81,Privacy and Security Aspects of E-Government in Smart Cities,2018,book-chapter,113,False,include,3,no abstract; core (and context) in title,include
-W4307905101,C8,landmarks,C8_landmarks,82,Evaluation on new first-tier smart cities in China based on entropy method and TOPSIS,2022,article,112,True,borderline,1,core concept mentioned once,pending
-W3116187314,C8,landmarks,C8_landmarks,83,Understanding the Determinants in the Different Government AI Adoption Stages: Evidence of Local Government Chatbots in China,2020,article,109,True,borderline,1,core concept mentioned once,pending
-W2943728081,C8,landmarks,C8_landmarks,84,"Leadership in, of, and for smart cities – case studies from Europe, America, and Australia",2020,article,107,True,borderline,1,core concept mentioned once,pending
+W4307905101,C8,landmarks,C8_landmarks,82,Evaluation on new first-tier smart cities in China based on entropy method and TOPSIS,2022,article,112,True,borderline,1,core concept mentioned once | manual: smart city evaluation index,exclude
+W3116187314,C8,landmarks,C8_landmarks,83,Understanding the Determinants in the Different Government AI Adoption Stages: Evidence of Local Government Chatbots in China,2020,article,109,True,borderline,1,core concept mentioned once | manual: local-government AI chatbots in China (also C7),include
+W2943728081,C8,landmarks,C8_landmarks,84,"Leadership in, of, and for smart cities – case studies from Europe, America, and Australia",2020,article,107,True,borderline,1,core concept mentioned once | manual: smart city leadership (C1),exclude
 W1988428575,C8,landmarks,C8_landmarks,85,Realising e‐government in the UK: rural and urban challenges,2005,article,106,True,exclude,0,core concept missing,exclude
 W1610651915,C8,landmarks,C8_landmarks,86,Understanding electronic government research and smart city: A framework and empirical evidence,2016,article,104,True,include,6,rules,include
-W1996569289,C8,landmarks,C8_landmarks,87,"The governance of urban shrinkage in cities of post-socialist Europe: policies, strategies and actors",2014,article,104,True,borderline,1,core concept mentioned once,pending
-W2034520580,C8,landmarks,C8_landmarks,88,Informational cities: Analysis and construction of cities in the knowledge society,2011,article,104,True,borderline,1,core concept mentioned once,pending
+W1996569289,C8,landmarks,C8_landmarks,87,"The governance of urban shrinkage in cities of post-socialist Europe: policies, strategies and actors",2014,article,104,True,borderline,1,core concept mentioned once | manual: governance of urban shrinkage,exclude
+W2034520580,C8,landmarks,C8_landmarks,88,Informational cities: Analysis and construction of cities in the knowledge society,2011,article,104,True,borderline,1,core concept mentioned once | manual: informational cities,exclude
 W2065372272,C8,landmarks,C8_landmarks,89,The Diffusion of Government Microblogging,2012,article,103,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W1973209717,C8,landmarks,C8_landmarks,90,Evaluating Electronic Local Government in the Uk,2003,article,103,True,include,2,rules,include
 W2344131301,C8,landmarks,C8_landmarks,91,Citizen adoption of e-government: a literature review and conceptual framework,2016,article,102,True,include,6,rules,include
@@ -11613,10 +11613,10 @@ W4390055983,C8,recent,C8_recent_q1,11,THE EFFECT OF E-GOVERNMENT QUALITY (E-GOVQ
 W4402192994,C8,recent,C8_recent_q1,12,A review of E-Governance of Municipal Corporation in Urban Local Bodies,2024,article,1,True,include,5,rules,include
 W7105628881,C8,recent,C8_recent_q1,13,Strategies and Mechanisms of Local Government Units for E-Governance,2025,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W4375851483,C8,recent,C8_recent_q1,14,Application Regarding E-Government Use in Local Government of Nigeria,2023,preprint,1,True,include,3,rules,include
-W4380683726,C8,recent,C8_recent_q1,15,SOME PROBLEMS OF IMPLEMENTING ELECTRONIC GOVERNMENT IN THE LOCAL GOVERNMENT SYSTEM IN UKRAINE,2023,article,2,True,borderline,3,stub abstract (possible book review),pending
+W4380683726,C8,recent,C8_recent_q1,15,SOME PROBLEMS OF IMPLEMENTING ELECTRONIC GOVERNMENT IN THE LOCAL GOVERNMENT SYSTEM IN UKRAINE,2023,article,2,True,borderline,3,stub abstract (possible book review) | manual: electronic government in Ukrainian local government,include
 W4362645308,C8,recent,C8_recent_q1,16,Municipal E-Governance in Asia,2022,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4388416837,C8,recent,C8_recent_q1,17,Enhancing User Satisfaction with Local Government E-Government: The Influence of E-Government Quality (E-GovQual),2023,article,1,True,include,6,rules,include
-W4408406681,C8,recent,C8_recent_q1,18,The Role of E-Government and E-Governance in Modern Societies,2025,book-chapter,17,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4408406681,C8,recent,C8_recent_q1,18,The Role of E-Government and E-Governance in Modern Societies,2025,book-chapter,17,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: e-government in modern societies (general),exclude
 W4394834712,C8,recent,C8_recent_q2,1,Digital Government in the US Local Government,2024,book-chapter,0,True,include,6,rules,include
 W7161145801,C8,recent,C8_recent_q2,2,Local Government Under the Background of Digital Government Construction,2026,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
 W7218285307,C8,recent,C8_recent_q2,3,Digital Government Communication For Smart Branding: Evidence From Indonesian Local Government,2026,article,0,True,include,5,rules,include
@@ -11648,16 +11648,16 @@ W7162573878,C8,recent,C8_recent_q3,10,"Digital Public Infrastructure and Economi
 W7139975953,C8,recent,C8_recent_q3,11,"Digidhan Dashboard: A Digital Public Infrastructure for Monitoring, Analysis, and Promotion of India’s Digital Payment Ecosystem",2026,preprint,0,False,exclude,3,no abstract; no urban context (C theme),exclude
 W7204833810,C8,recent,C8_recent_q3,12,"PLANETARY SR XVI — INDIA: High-Growth Federal Heterogeneity, Digital Public Infrastructure, Informal Compensation, and Capacity Expansion",2026,preprint,0,True,include,4,rules,include
 W7170252359,C8,recent,C8_recent_q3,13,"From Cash to Code: FinTech Adoption, Digital Public Infrastructure, and Economic Inclusion Among Tribal Communities in India",2026,preprint,0,False,exclude,3,no abstract; no urban context (C theme),exclude
-W7154892982,C8,recent,C8_recent_q3,14,"Public Infrastructure for Urban Digital Transformation and Social Innovation: The Transition Toward a Zero-Waste City in Florianópolis, Brazil",2026,preprint,0,True,borderline,1,core concept mentioned once,pending
+W7154892982,C8,recent,C8_recent_q3,14,"Public Infrastructure for Urban Digital Transformation and Social Innovation: The Transition Toward a Zero-Waste City in Florianópolis, Brazil",2026,preprint,0,True,borderline,1,"core concept mentioned once | manual: municipal digital public infrastructure for zero-waste, Florianopolis",include
 W7167486748,C8,recent,C8_recent_q3,15,Digital public goods for urban governance: lessons from urban local bodies across India,2026,article,0,False,exclude,0,core concept missing,exclude
-W7154846820,C8,recent,C8_recent_q3,16,Smart City Governance and Management: Towards a Best Practices Blueprint,2025,article,0,True,borderline,1,core concept mentioned once,pending
+W7154846820,C8,recent,C8_recent_q3,16,Smart City Governance and Management: Towards a Best Practices Blueprint,2025,article,0,True,borderline,1,core concept mentioned once | manual: smart city governance blueprint (C1),exclude
 W4415260750,C8,recent,C8_recent_q3,17,Municipal Digitisation and E-governance in North-Western India: Emerging Issues and Alternatives (Some Evidences from Recent Studies),2025,article,0,True,include,6,rules,include
-W4407893837,C8,recent,C8_recent_q3,18,Embracing Complexity in Smart City Services: A Case of Waste Management,2025,article,9,True,borderline,1,core concept mentioned once,pending
+W4407893837,C8,recent,C8_recent_q3,18,Embracing Complexity in Smart City Services: A Case of Waste Management,2025,article,9,True,borderline,1,core concept mentioned once | manual: last-mile smart-city service delivery (waste management),include
 W7218325160,C8,recent,C8_recent_q4,1,Inovasi Smart Governance di Kota Palu: Smart Governance Innovation in Palu City,2025,article,0,True,include,4,rules,include
 W7216834637,C8,recent,C8_recent_q4,2,ANALISIS SMART GOVERNANCE DI KOTA MAKASSAR = ANALISYS OF SMART GOVERNANCE IN MAKASSAR CITY,2022,dissertation,0,True,include,6,rules,include
 W4410754966,C8,recent,C8_recent_q4,3,Holistic Evaluation of Smart Governance Implementation in Pontianak City,2025,conference-paper,0,True,include,4,rules,include
 W7134177411,C8,recent,C8_recent_q4,4,CIVIBOT Enabling Smart Governance and Smart City Monitoring Robot,2026,article,0,False,include,3,no abstract; core (and context) in title,include
-W4225296411,C8,recent,C8_recent_q4,5,Smart City Assessment for Sustainable City Development on Smart Governance: A Systematic Literature Review,2022,review,10,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4225296411,C8,recent,C8_recent_q4,5,Smart City Assessment for Sustainable City Development on Smart Governance: A Systematic Literature Review,2022,review,10,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: smart governance assessment review (C1),exclude
 W4312775702,C8,recent,C8_recent_q4,6,Development of smart governance in Croatian cities - the size of a city as a determinant of smart governance,2022,article,1,True,include,6,rules,include
 W4412928071,C8,recent,C8_recent_q4,7,What does it take to turns into Smart Governance City? Jambi City experiences,2025,article,0,True,include,6,rules,include
 W4400907513,C8,recent,C8_recent_q4,8,Smart governance for smart cities and nations,2024,article,99,True,include,6,rules,include
@@ -11668,7 +11668,7 @@ W4399996696,C8,recent,C8_recent_q4,12,Success Factors Model for Smart Governance
 W4413684436,C8,recent,C8_recent_q4,13,"Analysis of Smart Governance Implementation In Ternate City, North Maluku Province",2024,article,0,True,include,6,rules,include
 W7217229432,C8,recent,C8_recent_q4,14,Optimizing Smart Governance to Enhance Smart City Implementation and Employee Productivity,2024,article,0,True,include,6,rules,include
 W7132705482,C8,recent,C8_recent_q4,15,Smart City Administrasi Publik: Perspektif Sosiologi dan Digitalisasi dalam Smart Governance,2025,book,0,True,include,4,rules,include
-W4414880026,C8,recent,C8_recent_q4,16,Governing the smart city and smart governance: re-examining digital urban infrastructure,2025,article,7,True,borderline,3,stub abstract (possible book review),pending
+W4414880026,C8,recent,C8_recent_q4,16,Governing the smart city and smart governance: re-examining digital urban infrastructure,2025,article,7,True,borderline,3,stub abstract (possible book review) | manual: smart governance special issue (C1),exclude
 W4377012897,C8,recent,C8_recent_q4,17,Determinants of Smart City Technology Acceptance: Role of Smart Governance as Moderator,2023,article,6,True,include,6,rules,include
 W4323846274,C8,recent,C8_recent_q4,18,Smart Governance Toolbox: A Systematic Literature Review,2023,review,42,True,include,6,rules,include
 W4411199837,C9,india,C9_india_q1,1,Navigating urban mobility: Mobility attitudes and travel mode choices in Dubai and Lahore,2025,article,4,True,include,3,rules,include

@@ -1239,3 +1239,35 @@ W2412393926,C7,exclude,"Claude (manual review, Stage 2)",waste-generation foreca
 W3148451833,C7,exclude,"Claude (manual review, Stage 2)",robotic waste sorting
 W4295532849,C7,exclude,"Claude (manual review, Stage 2)",wastewater treatment review
 W4413329989,C7,exclude,"Claude (manual review, Stage 2)",bioremediation review
+W2233541935,C8,include,"Claude (manual review, Stage 2)","e-governance and local government institutions, Bangladesh"
+W2586890017,C8,include,"Claude (manual review, Stage 2)",spatial knowledge management and e-governance in urban local government
+W2883355091,C8,include,"Claude (manual review, Stage 2)",smart city and e-governance in India
+W7220291169,C8,include,"Claude (manual review, Stage 2)",content needs of municipal websites
+W7220260751,C8,exclude,"Claude (manual review, Stage 2)",India Stack and financial inclusion in Delhi (B5/B6)
+W7154702555,C8,exclude,"Claude (manual review, Stage 2)",digital economy and fintech (B6)
+W7154846820,C8,exclude,"Claude (manual review, Stage 2)",smart city governance blueprint (C1)
+W7127073485,C8,exclude,"Claude (manual review, Stage 2)",digital health AI framework
+W4407893837,C8,include,"Claude (manual review, Stage 2)",last-mile smart-city service delivery (waste management)
+W7166825066,C8,exclude,"Claude (manual review, Stage 2)",Bengaluru innovation and startups
+W2150929043,C8,include,"Claude (manual review, Stage 2)",evolution of municipal e-government
+W2163043615,C8,exclude,"Claude (manual review, Stage 2)",smart urban governance review (C1)
+W2738510157,C8,exclude,"Claude (manual review, Stage 2)",smart governance collaboration (C1/C12)
+W3170077347,C8,exclude,"Claude (manual review, Stage 2)",smart city applications architecture
+W2105801173,C8,include,"Claude (manual review, Stage 2)",city e-governance in Europe
+W1981192547,C8,include,"Claude (manual review, Stage 2)",web-based mapping for participation in local e-government
+W2560316343,C8,exclude,"Claude (manual review, Stage 2)",smart cities literature review
+W4220832941,C8,exclude,"Claude (manual review, Stage 2)",data-driven smart city applications
+W2106781262,C8,include,"Claude (manual review, Stage 2)",e-disclosure by local public administrations
+W637811286,C8,exclude,"Claude (manual review, Stage 2)",smart cities book (C1)
+W2109543686,C8,include,"Claude (manual review, Stage 2)",form of municipal government and e-government adoption
+W3089204850,C8,exclude,"Claude (manual review, Stage 2)",AI in smart cities (Granada)
+W4307905101,C8,exclude,"Claude (manual review, Stage 2)",smart city evaluation index
+W3116187314,C8,include,"Claude (manual review, Stage 2)",local-government AI chatbots in China (also C7)
+W2943728081,C8,exclude,"Claude (manual review, Stage 2)",smart city leadership (C1)
+W1996569289,C8,exclude,"Claude (manual review, Stage 2)",governance of urban shrinkage
+W2034520580,C8,exclude,"Claude (manual review, Stage 2)",informational cities
+W4380683726,C8,include,"Claude (manual review, Stage 2)",electronic government in Ukrainian local government
+W4408406681,C8,exclude,"Claude (manual review, Stage 2)",e-government in modern societies (general)
+W7154892982,C8,include,"Claude (manual review, Stage 2)","municipal digital public infrastructure for zero-waste, Florianopolis"
+W4225296411,C8,exclude,"Claude (manual review, Stage 2)",smart governance assessment review (C1)
+W4414880026,C8,exclude,"Claude (manual review, Stage 2)",smart governance special issue (C1)
