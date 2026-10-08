@@ -1,0 +1,1 @@
+{"meta": {"count": 0, "db_response_time_ms": 2, "page": 1, "per_page": 8, "groups_count": null, "x_query": {"oql": "get sources where ISSN is (0037-1947)", "oqo": {"get_rows": "sources", "filter_rows": [{"column_id": "issn", "value": "0037-1947"}]}, "url": "/sources?filter=issn:0037-1947&per_page=8"}, "cost_usd": 0.0001}, "results": [], "group_by": []}

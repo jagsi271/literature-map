@@ -265,7 +265,7 @@ Total deduplicated records: 7625.
 <!-- AUTO:API -->
 | UTC day | Calls by this pipeline | Cost (USD) | ≈ searches | Credits left at last call |
 |---|---|---|---|---|
-| 2026-10-08 | 873 | 0.858 | 858 | 1019 |
+| 2026-10-08 | 903 | 0.869 | 869 | 898 |
 <!-- /AUTO:API -->
 
 ## Stage 1 (pilot) — approved

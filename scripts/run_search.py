@@ -61,8 +61,25 @@ def plan_supplementary(cfg, theme, slice_name):
     return []
 
 
+def plan_india_p2(theme):
+    """Stage 2b: page 2 of every India search of the theme (same query and per_page as the
+    page-1 manifest, so the two pages are contiguous in the relevance ranking)."""
+    out = []
+    for man in sorted((RAW / "searches").glob(f"{theme}_india*.json")):
+        if man.stem.endswith("_p2"):
+            continue
+        m = json.loads(man.read_text())
+        if m.get("stage") != "stage2" or m.get("page", 1) != 1:
+            continue
+        p = {"sort": m["sort"], "per_page": m["per_page"], "page": 2}
+        out.append((f"{man.stem}_p2", m["query"], p))
+    return out
+
+
 def plan(cfg, theme, slice_name, qcfg=None):
     """List of (manifest name, query, params) for one theme and slice."""
+    if slice_name == "india_p2":
+        return plan_india_p2(theme)
     if theme.startswith("S"):
         return plan_supplementary(cfg, theme, slice_name)
     t = qcfg or cfg["themes"][theme]
@@ -128,7 +145,8 @@ def main(theme, slices):
     f = Fetcher(min_interval=0.5, label=theme)
     for sl in slices:
         for name, q, p in plan(cfg, theme, sl):
-            m = run_one(f, theme, sl.replace("_p2", ""), name, q, p)
+            m = run_one(f, theme, sl.replace("_p2", ""), name, q, p,
+                        extra={"stage": "stage2b"} if sl == "india_p2" else None)
             print(f"{name}: total {m['total_results']}, got {len(m['results'])}", flush=True)
     print(f"network calls {f.network_calls}, cache hits {f.cache_hits}, credits remaining "
           f"{f.remaining}")
