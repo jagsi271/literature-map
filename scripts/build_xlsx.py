@@ -297,7 +297,7 @@ lines = [
     ("Known limits", "h"),
     ("Blind check of 6 random records per theme (data/screening/precision_check_stage2.csv): "
      "about 88–91% in scope, 81–83% with a correct primary theme; weakest in technical-leaning C "
-     "themes. Recall against 176 researcher-chosen seeds: 52 of the 165 resolvable seeds are in "
+     "themes. Recall against 176 researcher-chosen seeds: 51 of the 165 resolvable seeds are in "
      "the map; most misses match a theme query but rank below the per-query cut-off of the "
      "recent/India slices. See PROGRESS.md.", ""),
     ("Extra columns", "h"),

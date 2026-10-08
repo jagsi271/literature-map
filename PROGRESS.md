@@ -59,8 +59,8 @@ undercounted urbanisation, metro/suburban-rail ethnographies and fares, old-city
 biometric enrolment, WhatsApp/Hindutva politics, mobile use in India, e-commerce freight;
 "waiting for the state" in S2), and the affected slices were re-run. A second flaw: hand
 exclusions noted "belongs to theme X" dropped works that theme X never retrieved; such works
-(126 candidates) now move to theme X. Result: found 28 → 52, query gaps 42 → 12, screened out
-3 → 1. The 12 remaining gaps are mostly outside the brief's theme list (national e-government
+(126 candidates) now move to theme X. Result: found 28 → 51, query gaps 42 → 12, screened out
+3 → 2 (after the later primary-topic-field rule; 52 before it). The 12 remaining gaps are mostly outside the brief's theme list (national e-government
 portals 3, public libraries 3, paper bureaucracy 2) plus 4 single works. **100 seeds match a
 theme query but rank below the per-query cut-off** of the recent/India slices (top 15–25 by
 relevance): recall of these niche India works is limited by sampling depth, not by the
