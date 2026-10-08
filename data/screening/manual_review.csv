@@ -1386,3 +1386,34 @@ W4313291084,C13,exclude,"Claude (manual review, Stage 2)",IoT and metaverse
 W2143115928,C13,include,"Claude (manual review, Stage 2)","agents, cells and urban simulation models (Batty)"
 W4282967568,C13,exclude,"Claude (manual review, Stage 2)",road extraction survey
 W7134156255,C13,include,"Claude (manual review, Stage 2)",urban digital twins for inclusive cities
+W3133726510,C14,exclude,"Claude (manual review, Stage 2)",immunisation barriers
+W4380204781,C14,exclude,"Claude (manual review, Stage 2)",health surveillance cohort
+W4245926586,C14,exclude,"Claude (manual review, Stage 2)",immunisation barriers (preprint)
+W2137993262,C14,exclude,"Claude (manual review, Stage 2)",slum census and mapping (not digital systems)
+W7204098881,C14,include,"Claude (manual review, Stage 2)","digital payments among street vendors, Delhi-NCR (flag false positive)"
+W4306902646,C14,include,"Claude (manual review, Stage 2)",digital payment apps among auto-rickshaw drivers and vendors
+W4414776765,C14,exclude,"Claude (manual review, Stage 2)",digital payments and financial inclusion (B6)
+W1539764041,C14,exclude,"Claude (manual review, Stage 2)",development studies companion
+W603560121,C14,exclude,"Claude (manual review, Stage 2)",human economy guide
+W3128951738,C14,include,"Claude (manual review, Stage 2)",mobile money and financial inclusion of Nairobi women in the informal economy
+W3004603131,C14,include,"Claude (manual review, Stage 2)","fintech and refugees in camps and informal settlements, Kenya"
+W4249729174,C14,exclude,"Claude (manual review, Stage 2)",informal sector in Francophone Africa (not digital)
+W3048116308,C14,exclude,"Claude (manual review, Stage 2)",COVID lockdown in informal settlements (not digital)
+W3119535227,C14,exclude,"Claude (manual review, Stage 2)",sharing economy accounting
+W3117791707,C14,exclude,"Claude (manual review, Stage 2)",future of work in Africa report
+W3093158203,C14,exclude,"Claude (manual review, Stage 2)",food systems in COVID
+W2972372281,C14,include,"Claude (manual review, Stage 2)",smart-city platforms and informal improvisation in Indonesian cities
+W2149067752,C14,exclude,"Claude (manual review, Stage 2)",geo-information for informal settlement management (A3)
+W4285726376,C14,include,"Claude (manual review, Stage 2)",fintech and informal businesses (mobile money)
+W2963736536,C14,exclude,"Claude (manual review, Stage 2)",future of work in Africa (World Bank)
+W4306399619,C14,exclude,"Claude (manual review, Stage 2)",informal settlement mapping (remote sensing)
+W4286278010,C14,exclude,"Claude (manual review, Stage 2)",CBDC adoption
+W2316836208,C14,exclude,"Claude (manual review, Stage 2)",helminth prevalence
+W2137346760,C14,exclude,"Claude (manual review, Stage 2)",briquette emissions
+W2073391545,C14,include,"Claude (manual review, Stage 2)","mobile phone ownership among slum youth, Kampala (flag false positive)"
+W1574219210,C14,exclude,"Claude (manual review, Stage 2)",transnational urbanism
+W3185388813,C14,include,"Claude (manual review, Stage 2)",informality and digital infrastructures of inclusion
+W3128487342,C14,exclude,"Claude (manual review, Stage 2)",worker organising in African cities (A10)
+W2118209896,C14,exclude,"Claude (manual review, Stage 2)",market women in Kumasi (A10)
+W2407144841,C14,exclude,"Claude (manual review, Stage 2)",innovation indicators handbook
+W4393231899,C14,include,"Claude (manual review, Stage 2)",SMS digital health tool in Nairobi informal settlements
