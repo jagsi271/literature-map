@@ -1207,37 +1207,37 @@ W4400099739,A14,recent,A14_recent_q5,15,Understanding urban heat vulnerability: 
 W3184508149,A15,india,A15_india_q1,1,"Ordinary Cities, Extraordinary Geographies",2021,book,6,True,include,6,rules,include
 W2794017937,A15,india,A15_india_q1,2,Ordinary Cities and Milieus of Innovation,2017,article,6,True,include,3,rules,include
 W3119411536,A15,india,A15_india_q1,3,The Accommodation City : Private Low-income Housing and Urban Space in Dhaka and Mumbai,2020,dissertation,0,True,include,3,rules,include
-W7119150781,A15,india,A15_india_q1,4,"Street vending as urban inhabitation: materialities, epistemes, and city-making in Karachi and Mumbai",2026,article,1,True,borderline,1,core concept mentioned once,pending
+W7119150781,A15,india,A15_india_q1,4,"Street vending as urban inhabitation: materialities, epistemes, and city-making in Karachi and Mumbai",2026,article,1,True,borderline,1,core concept mentioned once | manual: street vending as inhabitation through Southern urbanism (also A10),include
 W4411872566,A15,india,A15_india_q1,5,"Book symposium: men, masculinities and Southern urbanism",2025,article,0,True,include,3,rules,include
 W4388823774,A15,india,A15_india_q1,6,Consolidation: From Southern Urbanism to Southern e-Governance,2023,conference-paper,0,True,include,5,rules,include
 W4385806634,A15,india,A15_india_q1,7,"Archipelagic Thinking, Southern Urbanism and Experimental Comparisons",2023,book-chapter,1,True,include,3,rules,include
 W3112872624,A15,india,A15_india_q1,8,Seizing the Day for Southern Urbanism: Reflections from the Lockdown,2020,article,6,True,include,5,rules,include
 W4411698739,A15,india,A15_india_q1,9,Revisiting the Housing Question at the India-Pakistan border,2025,book-chapter,0,False,exclude,0,core concept missing,exclude
-W7169610343,A15,india,A15_india_q1,10,The Blue and Green Infrastructure Management for Bengaluru,2026,book-chapter,0,True,borderline,1,core concept mentioned once,pending
+W7169610343,A15,india,A15_india_q1,10,The Blue and Green Infrastructure Management for Bengaluru,2026,book-chapter,0,True,borderline,1,core concept mentioned once | manual: Bengaluru green-blue infrastructure history,exclude
 W4407373101,A15,india,A15_india_q1,11,The Politics of Heritage Conservation in Karachi,2025,reference-entry,0,False,exclude,0,core concept missing,exclude
-W4407776657,A15,india,A15_india_q1,12,"EXPERT FIXERS : Bureaucratic Informality, Brokerage and the Politics of Land in Mumbai",2025,article,2,True,borderline,1,core concept mentioned once,pending
-W7126800127,A15,india,A15_india_q1,13,"BETWEEN INFORMAL LOGICS AND FORMAL LOGISTICS: STREET VENDING PRACTICES IN LAW GARDEN, AHMEDABAD",2025,dissertation,0,True,borderline,1,core concept mentioned once,pending
+W4407776657,A15,india,A15_india_q1,12,"EXPERT FIXERS : Bureaucratic Informality, Brokerage and the Politics of Land in Mumbai",2025,article,2,True,borderline,1,"core concept mentioned once | manual: bureaucratic informality and brokerage in Mumbai, framed by Southern urbanism",include
+W7126800127,A15,india,A15_india_q1,13,"BETWEEN INFORMAL LOGICS AND FORMAL LOGISTICS: STREET VENDING PRACTICES IN LAW GARDEN, AHMEDABAD",2025,dissertation,0,True,borderline,1,core concept mentioned once | manual: vending practices thesis; theory in passing,exclude
 W4415622542,A15,india,A15_india_q1,14,Platformization in the southern city: Entrepreneurial volunteering and the suturing of collective life in Hyderabad,2025,article,1,True,include,3,rules,include
-W4399393793,A15,india,A15_india_q1,15,"Stabilization and change under planning and everyday practices – the politics of becoming public space in Dharavi, Mumbai",2024,article,2,True,borderline,1,core concept mentioned once,pending
+W4399393793,A15,india,A15_india_q1,15,"Stabilization and change under planning and everyday practices – the politics of becoming public space in Dharavi, Mumbai",2024,article,2,True,borderline,1,"core concept mentioned once | manual: decolonising public space within Southern urbanism, Dharavi",include
 W7199792159,A15,india,A15_india_q1,16,Heritage movements in the postcolonial city: Contestations between middle-class activisms and urbanisation processes in Kolkata,2024,dissertation,0,True,include,3,rules,include
 W3084230256,A15,india,A15_india_q1,17,Southern Theory without a North: City Conceptualization as the Theoretical Metropolis,2020,article,29,True,include,6,rules,include
-W7169567543,A15,india,A15_india_q1,18,The Knowledges That Rububiyah Breathes,2026,book-chapter,0,True,borderline,1,core concept mentioned once,pending
+W7169567543,A15,india,A15_india_q1,18,The Knowledges That Rububiyah Breathes,2026,book-chapter,0,True,borderline,1,core concept mentioned once | manual: Southern urbanisms through rububiyah,include
 W2895495017,A15,india,A15_india_q2,1,Neo Delhi and the Politics of Postcolonial Urbanism,2017,book,22,True,include,5,rules,include
-W2914096540,A15,india,A15_india_q2,2,Postcolonial Urban Outcasts: City Margins in South Asian Literature,2019,article,7,True,borderline,3,stub abstract (possible book review),pending
+W2914096540,A15,india,A15_india_q2,2,Postcolonial Urban Outcasts: City Margins in South Asian Literature,2019,article,7,True,borderline,3,stub abstract (possible book review) | manual: literary study of city margins,exclude
 W4403486587,A15,india,A15_india_q2,3,Postcolonial Urbanism,2024,book-chapter,7,True,include,4,rules,include
 W2903507627,A15,india,A15_india_q2,4,Garbage as fuel: pursuing incineration to counter stigma in postcolonial urban India,2018,article,32,True,include,3,rules,include
 W2895379305,A15,india,A15_india_q2,5,Postcolonial urban futures: Imagining and governing India’s smart urban age,2018,article,162,True,include,6,rules,include
 W4247808021,A15,india,A15_india_q2,6,Comparative Urbanism,2020,reference-entry,0,True,include,6,rules,include
 W2967868417,A15,india,A15_india_q2,7,Oscillations in housing policy: Comparative urbanism across Delhi and Rio de Janeiro,2019,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W2919257515,A15,india,A15_india_q2,8,"Crossing boundaries: bras, lingerie and rape myths in postcolonial urban middle-class India",2019,article,18,True,include,3,rules,include
-W2547479744,A15,india,A15_india_q2,9,"Cities within cities: intra-urban comparison of infrastructure in Mumbai, Delhi and Cape Town",2016,article,98,True,borderline,1,core concept mentioned once,pending
+W2547479744,A15,india,A15_india_q2,9,"Cities within cities: intra-urban comparison of infrastructure in Mumbai, Delhi and Cape Town",2016,article,98,True,borderline,1,core concept mentioned once | manual: intra-urban comparison and comparative urbanism,include
 W2791005044,A15,india,A15_india_q2,10,The digital turn in postcolonial urbanism: Smart citizenship in the making of India's 100 smart cities,2018,article,255,True,include,4,rules,include
 W2101066790,A15,india,A15_india_q2,11,Dutch Burghers and Portuguese Mechanics: Eurasian Ethnicity in Sri Lanka,1982,article,46,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2024289094,A15,india,A15_india_q2,12,"Home, city and diaspora: Anglo–Indian and Chinese attachments to Calcutta",2013,article,60,True,borderline,1,core concept mentioned once,pending
+W2024289094,A15,india,A15_india_q2,12,"Home, city and diaspora: Anglo–Indian and Chinese attachments to Calcutta",2013,article,60,True,borderline,1,core concept mentioned once | manual: diaspora attachments to Calcutta,exclude
 W4250271001,A15,india,A15_india_q2,13,Mumbai Fables,2010,book,126,True,include,2,rules,include
 W794924951,A15,india,A15_india_q2,14,Relational infrastructure in postcolonial urban worlds,2014,other,7,True,include,3,rules,include
-W2077244082,A15,india,A15_india_q2,15,The Theoretical Imperative of Comparative Urbanism: A Commentary on ‘Cities beyond Compare?’ by Jamie Peck,2014,article,31,True,borderline,3,stub abstract (possible book review),pending
-W4210449842,A15,india,A15_india_q2,16,Socio-Political Imaginings of the Kolkata Maidan,2021,preprint,0,True,borderline,1,core concept mentioned once,pending
+W2077244082,A15,india,A15_india_q2,15,The Theoretical Imperative of Comparative Urbanism: A Commentary on ‘Cities beyond Compare?’ by Jamie Peck,2014,article,31,True,borderline,3,stub abstract (possible book review) | manual: theoretical imperative of comparative urbanism (commentary),include
+W4210449842,A15,india,A15_india_q2,16,Socio-Political Imaginings of the Kolkata Maidan,2021,preprint,0,True,borderline,1,core concept mentioned once | manual: Kolkata Maidan public space,exclude
 W4413681396,A15,india,A15_india_q2,17,"Territorial governance in South Asia: associations, informality, and exclusion",2025,book-chapter,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7105079548,A15,india,A15_india_q2,18,"Bangalore: A Colonial Dream, A Postcolonial Memory",2025,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7143941726,A15,india,A15_india_q3,1,Housing Policy of Slum Dwellers in Chennai and Occupancy Urbanism,2018,article,0,False,include,3,no abstract; core (and context) in title,include
@@ -1246,7 +1246,7 @@ W2134673191,A15,india,A15_india_q3,3,ClaimingInvitedandInventedSpaces: Contingen
 W1849162044,A15,india,A15_india_q3,4,Canadian Indian policy and development planning theory,2009,dissertation,4,True,include,6,rules,include
 W4409545198,A15,india,A15_india_q3,5,Refugeescapes in planning theory,2025,book-chapter,0,True,include,6,rules,include
 W88702055,A15,india,A15_india_q3,6,Communicative Planning and Democratic Decentralisation in India- Case of Kolkata City,2008,dissertation,0,True,include,3,rules,include
-W7171819851,A15,india,A15_india_q3,7,"Insurgent coproduction towards reparative urban ecologies: dwellers-led wetland infrastructure in Dhaka, Bangladesh",2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7171819851,A15,india,A15_india_q3,7,"Insurgent coproduction towards reparative urban ecologies: dwellers-led wetland infrastructure in Dhaka, Bangladesh",2026,article,0,True,borderline,1,"core concept mentioned once | manual: insurgent coproduction, Dhaka wetlands",include
 W2158618025,A15,india,A15_india_q3,8,Will Bombay have a plan?,1992,article,7,False,exclude,0,core concept missing,exclude
 W4411698739,A15,india,A15_india_q3,9,Revisiting the Housing Question at the India-Pakistan border,2025,book-chapter,0,False,exclude,0,core concept missing,exclude
 W786884812,A15,india,A15_india_q3,10,Urban risk communication in Ahmedabad - India: between slum dwellers and the municipal corporation.,2007,dissertation,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -1269,16 +1269,16 @@ W1851173060,A15,india,A15_india_q4,8,Dispatches - - Decentering Urban Theory,200
 W1979793474,A15,india,A15_india_q4,9,Urban Theory and Public Health,2011,article,2,False,include,3,no abstract; core (and context) in title,include
 W3002250668,A15,india,A15_india_q4,10,Changing the geographies of sub/urban theory: Asian perspectives,2020,article,23,True,include,3,rules,include
 W2469575626,A15,india,A15_india_q4,11,Politics of Urbanscape: Transfiguring the Image of Kolkata,2016,article,5,True,include,2,rules,include
-W4392519179,A15,india,A15_india_q4,12,"A ‘South within the South’: writing from more-than-human entanglements in Guwahati, India",2024,article,4,True,borderline,1,core concept mentioned once,pending
-W4412800213,A15,india,A15_india_q4,13,"L’ingombrate lascito dell’urbanistica modernista sulle geografie del Global South. Riflessioni a partire dal progetto di città utopica per Auroville, Tamil Nadu, India",2025,article,0,True,borderline,1,core concept mentioned once,pending
-W2078333782,A15,india,A15_india_q4,14,Introduction: Why Chinese and Indian Megacities?,2009,article,16,True,borderline,1,core concept mentioned once,pending
-W2119332934,A15,india,A15_india_q4,15,Navigating Troubled Waters. An analysis of how urban water regimes in the global South reproduce inequality,2014,dissertation,3,True,borderline,1,core concept mentioned once,pending
+W4392519179,A15,india,A15_india_q4,12,"A ‘South within the South’: writing from more-than-human entanglements in Guwahati, India",2024,article,4,True,borderline,1,"core concept mentioned once | manual: theorising a ""South within the South"", Guwahati",include
+W4412800213,A15,india,A15_india_q4,13,"L’ingombrate lascito dell’urbanistica modernista sulle geografie del Global South. Riflessioni a partire dal progetto di città utopica per Auroville, Tamil Nadu, India",2025,article,0,True,borderline,1,core concept mentioned once | manual: modernist planning legacy in Auroville,exclude
+W2078333782,A15,india,A15_india_q4,14,Introduction: Why Chinese and Indian Megacities?,2009,article,16,True,borderline,1,core concept mentioned once | manual: Chinese and Indian megacities and urban theory,include
+W2119332934,A15,india,A15_india_q4,15,Navigating Troubled Waters. An analysis of how urban water regimes in the global South reproduce inequality,2014,dissertation,3,True,borderline,1,core concept mentioned once | manual: urban water regimes and inequality (A7),exclude
 W4415144533,A15,india,A15_india_q4,16,Writing/Righting the Indian City,2025,book-chapter,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7215185305,A15,india,A15_india_q4,17,Regional Religious Commonalities and Sustainable Urbanism: Lessons for Pakistan,2025,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W4283466102,A15,india,A15_india_q4,18,"Itinerant urbanization: On circles, fractals and the critique of segmented space",2022,article,9,True,borderline,1,core concept mentioned once,pending
-W2056245254,A15,landmarks,A15_landmarks,1,"Intention, Plans, and Practical Reason.",1991,article,2415,True,borderline,1,core concept mentioned once,pending
+W4283466102,A15,india,A15_india_q4,18,"Itinerant urbanization: On circles, fractals and the critique of segmented space",2022,article,9,True,borderline,1,core concept mentioned once | manual: itinerant urbanisation and Indian urban theory,include
+W2056245254,A15,landmarks,A15_landmarks,1,"Intention, Plans, and Practical Reason.",1991,article,2415,True,borderline,1,core concept mentioned once | manual: philosophy of intention,exclude
 W2050765165,A15,landmarks,A15_landmarks,2,The Argumentative Turn in Policy Analysis and Planning,1993,book,1996,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2160085528,A15,landmarks,A15_landmarks,3,Resilience: A Bridging Concept or a Dead End?“Reframing” Resilience: Challenges for Planning Theory and PracticeInteracting Traps: Resilience Assessment of a Pasture Management System in Northern AfghanistanUrban Resilience: What Does it Mean in Planning Practice?Resilience as a Useful Concept for Climate Change Adaptation?The Politics of Resilience for Planning: A Cautionary Note,2012,article,1862,True,borderline,3,stub abstract (possible book review),pending
+W2160085528,A15,landmarks,A15_landmarks,3,Resilience: A Bridging Concept or a Dead End?“Reframing” Resilience: Challenges for Planning Theory and PracticeInteracting Traps: Resilience Assessment of a Pasture Management System in Northern AfghanistanUrban Resilience: What Does it Mean in Planning Practice?Resilience as a Useful Concept for Climate Change Adaptation?The Politics of Resilience for Planning: A Cautionary Note,2012,article,1862,True,borderline,3,stub abstract (possible book review) | manual: resilience and planning theory (interface),include
 W1489183362,A15,landmarks,A15_landmarks,4,Automated Planning: Theory and Practice,2004,book,1519,False,exclude,0,core concept missing,exclude
 W275850004,A15,landmarks,A15_landmarks,5,Seeing Like a State,2017,book,1515,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2029935015,A15,landmarks,A15_landmarks,6,Ordinary cities: between modernity and development,2007,article,1477,False,include,3,no abstract; core (and context) in title,include
@@ -1288,19 +1288,19 @@ W2771248358,A15,landmarks,A15_landmarks,9,The Death and Life of Great American C
 W1792611288,A15,landmarks,A15_landmarks,10,Planning through debate: the communicative turn in planning theory,1992,article,1099,True,include,4,rules,include
 W2152768411,A15,landmarks,A15_landmarks,11,Seeing from the South: Refocusing Urban Planning on the Globe’s Central Urban Issues,2009,article,1009,True,include,2,rules,include
 W2029880576,A15,landmarks,A15_landmarks,12,Smart cities as corporate storytelling,2014,article,1005,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W595951519,A15,landmarks,A15_landmarks,13,Worlding Cities,2011,book,971,True,borderline,1,core concept mentioned once,pending
+W595951519,A15,landmarks,A15_landmarks,13,Worlding Cities,2011,book,971,True,borderline,1,core concept mentioned once | manual: Worlding Cities (postcolonial urbanism),include
 W2029319904,A15,landmarks,A15_landmarks,14,Applying landscape ecological concepts and metrics in sustainable landscape planning,2002,article,964,False,exclude,0,core concept missing,exclude
 W125541279,A15,landmarks,A15_landmarks,15,Automated Planning: Theory & Practice,2004,book,953,False,exclude,0,core concept missing,exclude
-W1534227670,A15,landmarks,A15_landmarks,16,One Place after Another,2002,book,941,True,borderline,1,core concept mentioned once,pending
+W1534227670,A15,landmarks,A15_landmarks,16,One Place after Another,2002,book,941,True,borderline,1,core concept mentioned once | manual: site-specific art,exclude
 W1583867420,A15,landmarks,A15_landmarks,17,Ordinary Cities: Between Modernity and Development,2006,book,935,True,include,6,rules,include
 W2107839191,A15,landmarks,A15_landmarks,18,Insurgent Planning: Situating Radical Planning in the Global South,2009,article,897,True,include,6,rules,include
 W1526030864,A15,landmarks,A15_landmarks,19,The Routledge Handbook on Cities of the Global South,2014,book,875,True,include,3,rules,include
 W1823460342,A15,landmarks,A15_landmarks,20,The Nature of Cities: The Scope and Limits of Urban Theory,2014,article,872,True,include,6,rules,include
 W1564462625,A15,landmarks,A15_landmarks,21,Transnational urbanism: locating globalization,2001,book-review,858,True,exclude,0,type book-review,exclude
-W2485345520,A15,landmarks,A15_landmarks,22,"Peripheral urbanization: Autoconstruction, transversal logics, and politics in cities of the global south",2016,article,776,True,borderline,1,core concept mentioned once,pending
+W2485345520,A15,landmarks,A15_landmarks,22,"Peripheral urbanization: Autoconstruction, transversal logics, and politics in cities of the global south",2016,article,776,True,borderline,1,core concept mentioned once | manual: peripheral urbanisation and de-centring urban theory,include
 W2531381606,A15,landmarks,A15_landmarks,23,Cities and Low Carbon Transitions,2010,book,723,True,include,2,rules,include
 W2046337511,A15,landmarks,A15_landmarks,24,New Directions in Planning Theory,2000,article,692,True,include,4,rules,include
-W1525164557,A15,landmarks,A15_landmarks,25,Urban Planning Theory Since 1945,1998,book,607,True,borderline,3,stub abstract (possible book review),pending
+W1525164557,A15,landmarks,A15_landmarks,25,Urban Planning Theory Since 1945,1998,book,607,True,borderline,3,stub abstract (possible book review) | manual: urban planning theory since 1945,include
 W1495513294,A15,landmarks,A15_landmarks,26,The City: Los Angeles and urban theory at the end of the twentieth century,1997,book-review,602,True,exclude,0,type book-review,exclude
 W2001783052,A15,landmarks,A15_landmarks,27,The Communicative Turn in Planning Theory and its Implications for Spatial Strategy Formation,1996,article,594,True,include,4,rules,include
 W2101621439,A15,landmarks,A15_landmarks,28,Assemblage urbanism and the challenges of critical urban theory,2011,article,573,True,include,6,rules,include
@@ -1323,15 +1323,15 @@ W1970381411,A15,landmarks,A15_landmarks,44,"Institutionalist Analysis, Communica
 W2326218793,A15,landmarks,A15_landmarks,45,Current debates in urban theory: A critical assessment,2016,article,397,True,include,6,rules,include
 W2060308617,A15,landmarks,A15_landmarks,46,"The Urban Question: Reflections on Henri Lefebvre, Urban Theory and the Politics of scale",2000,article,394,True,include,3,rules,include
 W1974994817,A15,landmarks,A15_landmarks,47,Relational concepts of space and place: Issues for planning theory and practice,1999,article,389,True,include,5,rules,include
-W2145103558,A15,landmarks,A15_landmarks,48,The geography of gentrification,2011,article,384,True,borderline,1,core concept mentioned once,pending
-W2001688598,A15,landmarks,A15_landmarks,49,Co-production and collaboration in planning – The difference,2014,article,381,True,borderline,1,core concept mentioned once,pending
+W2145103558,A15,landmarks,A15_landmarks,48,The geography of gentrification,2011,article,384,True,borderline,1,core concept mentioned once | manual: geography of gentrification and comparative urbanism,include
+W2001688598,A15,landmarks,A15_landmarks,49,Co-production and collaboration in planning – The difference,2014,article,381,True,borderline,1,core concept mentioned once | manual: co-production and collaboration in planning theory,include
 W2078793116,A15,landmarks,A15_landmarks,50,`Agon'izing Over Consensus: Why Habermasian Ideals cannot be `Real',2003,article,370,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W1554855526,A15,landmarks,A15_landmarks,51,Communicative Planning Theory,2020,reference-entry,365,False,include,3,no abstract; core (and context) in title,include
 W1566880717,A15,landmarks,A15_landmarks,52,Readings in Planning Theory,2003,article,363,True,include,6,rules,include
 W2000850815,A15,landmarks,A15_landmarks,53,Planning With Complexity: An Introduction to Collaborative Rationality for Public Policy,2010,book-review,356,True,exclude,0,type book-review,exclude
-W1968971132,A15,landmarks,A15_landmarks,54,The City and the Bottom Line: Urban Megaprojects and the Privatization of Planning in Southeast Asia,2007,article,355,True,borderline,1,core concept mentioned once,pending
+W1968971132,A15,landmarks,A15_landmarks,54,The City and the Bottom Line: Urban Megaprojects and the Privatization of Planning in Southeast Asia,2007,article,355,True,borderline,1,core concept mentioned once | manual: megaprojects and privatised planning (A2),exclude
 W2502367234,A15,landmarks,A15_landmarks,55,Structures of Agency,2007,book,354,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W80443375,A15,landmarks,A15_landmarks,56,Johannesburg: The Elusive Metropolis,2008,article,347,True,borderline,1,core concept mentioned once,pending
+W80443375,A15,landmarks,A15_landmarks,56,Johannesburg: The Elusive Metropolis,2008,article,347,True,borderline,1,core concept mentioned once | manual: Johannesburg in urban theory,include
 W2151025788,A15,landmarks,A15_landmarks,57,Re-Examining the Role of Knowledge Within Planning Theory,2007,article,345,True,include,5,rules,include
 W2884640675,A15,landmarks,A15_landmarks,58,Planning Futures: New Directions for Planning Theory,2002,book-chapter,344,False,include,3,no abstract; core (and context) in title,include
 W624299134,A15,landmarks,A15_landmarks,59,Explorations in Planning Theory,2017,book,339,True,include,5,rules,include
@@ -1344,8 +1344,8 @@ W1533863269,A15,landmarks,A15_landmarks,65,Environmental Land Use Planning and M
 W2191172613,A15,landmarks,A15_landmarks,66,What is urban about critical urban theory?,2015,article,305,True,include,6,rules,include
 W577990156,A15,landmarks,A15_landmarks,67,Shared agency: a planning theory of acting together,2014,book-review,303,True,exclude,0,type book-review,exclude
 W2587755033,A15,landmarks,A15_landmarks,68,Towards a paradigm of Southern urbanism,2017,article,294,True,include,6,rules,include
-W2046405140,A15,landmarks,A15_landmarks,69,Critical Theory and Planning Practice,1980,article,292,True,borderline,1,core concept mentioned once,pending
-W2097560953,A15,landmarks,A15_landmarks,70,Postcolonialising Geography: Tactics and Pitfalls,2003,article,284,True,borderline,1,core concept mentioned once,pending
+W2046405140,A15,landmarks,A15_landmarks,69,Critical Theory and Planning Practice,1980,article,292,True,borderline,1,core concept mentioned once | manual: critical theory and planning practice,include
+W2097560953,A15,landmarks,A15_landmarks,70,Postcolonialising Geography: Tactics and Pitfalls,2003,article,284,True,borderline,1,core concept mentioned once | manual: postcolonialising geography via comparative urbanism,include
 W2109804931,A15,landmarks,A15_landmarks,71,Comparison of Current Planning Theories: Counterparts and Contradictions,1979,article,278,True,include,4,rules,include
 W2009763824,A15,landmarks,A15_landmarks,72,Planning Theory and the City,2005,article,270,True,include,5,rules,include
 W2787219887,A15,landmarks,A15_landmarks,73,The Routledge Handbook of Planning Theory,2017,book,265,False,include,3,no abstract; core (and context) in title,include
@@ -1353,27 +1353,27 @@ W2791005044,A15,landmarks,A15_landmarks,74,The digital turn in postcolonial urba
 W2043313983,A15,landmarks,A15_landmarks,75,The New Economy of the Inner City,2004,article,255,False,exclude,0,core concept missing,exclude
 W2490398898,A15,landmarks,A15_landmarks,76,The Implementation of Corpus Planning: Theory and Practice,1982,book-chapter,254,False,exclude,0,core concept missing,exclude
 W54666790,A15,landmarks,A15_landmarks,77,"Drought Assessment, Management, and Planning: Theory and Case Studies",1993,book,253,False,exclude,0,core concept missing,exclude
-W2016242043,A15,landmarks,A15_landmarks,78,Introduction—Experiments in Comparative Urbanism,2012,article,248,True,borderline,5,stub abstract (possible book review),pending
+W2016242043,A15,landmarks,A15_landmarks,78,Introduction—Experiments in Comparative Urbanism,2012,article,248,True,borderline,5,stub abstract (possible book review) | manual: experiments in comparative urbanism (introduction),include
 W2004284053,A15,landmarks,A15_landmarks,79,Readings in Planning Theory,2012,book-review,247,True,exclude,0,type book-review,exclude
 W2143323764,A15,landmarks,A15_landmarks,80,THE ANTHROPOLOGY OF CITIES: Imagining and Theorizing the City,1996,review,242,True,include,6,rules,include
-W2124773298,A15,landmarks,A15_landmarks,81,The Pragmatic Tradition in Planning Thought,2008,article,241,True,borderline,1,core concept mentioned once,pending
+W2124773298,A15,landmarks,A15_landmarks,81,The Pragmatic Tradition in Planning Thought,2008,article,241,True,borderline,1,core concept mentioned once | manual: pragmatist tradition in planning thought,include
 W2553913089,A15,landmarks,A15_landmarks,82,"Transatlantic city, part 1: Conjunctural urbanism",2016,article,240,True,include,2,rules,include
 W2898960413,A15,landmarks,A15_landmarks,83,Insurgencies: Essays in Planning Theory,2011,book,239,True,include,4,rules,include
-W637729848,A15,landmarks,A15_landmarks,84,Planning the Good Community: New Urbanism in Theory and Practice,2005,article,239,True,borderline,1,core concept mentioned once,pending
+W637729848,A15,landmarks,A15_landmarks,84,Planning the Good Community: New Urbanism in Theory and Practice,2005,article,239,True,borderline,1,core concept mentioned once | manual: new urbanism,exclude
 W597479956,A15,landmarks,A15_landmarks,85,Theorizing the City : The New Urban Anthropology Reader,1999,article,237,True,include,6,rules,include
-W2004139702,A15,landmarks,A15_landmarks,86,Constructing ordinary places: Place-making in urban informal settlements in Mexico,2014,article,233,True,borderline,1,core concept mentioned once,pending
+W2004139702,A15,landmarks,A15_landmarks,86,Constructing ordinary places: Place-making in urban informal settlements in Mexico,2014,article,233,True,borderline,1,core concept mentioned once | manual: place-making in informal settlements (A3),exclude
 W2070555560,A15,landmarks,A15_landmarks,87,On the theory and practice of critical pragmatism: Deliberative practice and creative negotiations,2012,article,232,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2086460363,A15,landmarks,A15_landmarks,88,"Environmental assessment and planning theory: four short stories about power, multiple rationality, and ethics",2004,article,230,False,include,3,no abstract; core (and context) in title,include
 W578937719,A15,landmarks,A15_landmarks,89,The Politics of the Encounter: Urban Theory and Protest under Planetary Urbanization,2013,book,225,True,include,4,rules,include
 W2333014266,A15,landmarks,A15_landmarks,90,Agonism and institutional ambiguity: Ideas on democracy and the role of participation in the development of planning theory and practice - the case of Finland,2010,article,225,True,include,6,rules,include
-W2083534349,A15,landmarks,A15_landmarks,91,Introduction—Comparative Urbanism,2007,article,225,True,borderline,5,stub abstract (possible book review),pending
+W2083534349,A15,landmarks,A15_landmarks,91,Introduction—Comparative Urbanism,2007,article,225,True,borderline,5,stub abstract (possible book review) | manual: comparative urbanism (introduction),include
 W2000347064,A15,landmarks,A15_landmarks,92,"Situating Communicative Planning Theory: Context, Power, and Knowledge",2001,article,220,True,include,4,rules,include
 W2129710368,A15,landmarks,A15_landmarks,93,"Accumulation by urban dispossession: struggles over urban space in Accra, Ghana",2015,article,217,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W1546361249,A15,landmarks,A15_landmarks,94,‘Creative Cities’ and the Rise of the Dealer Class: A Critique of Richard Florida's Approach to Urban Theory,2010,article,217,True,include,3,rules,include
 W2163701843,A15,landmarks,A15_landmarks,95,"Urbanisms, worlding practices and the theory of planning",2011,article,215,True,include,3,rules,include
 W4241994822,A15,landmarks,A15_landmarks,96,New Directions in Planning Theory,2000,article,215,False,include,3,no abstract; core (and context) in title,include
 W2904375188,A15,landmarks,A15_landmarks,97,Planning Theory and Practice,2017,book-chapter,209,True,include,4,rules,include
-W2502359397,A15,landmarks,A15_landmarks,98,A Planner's Encounter with Complexity,2016,book,209,True,borderline,1,core concept mentioned once,pending
+W2502359397,A15,landmarks,A15_landmarks,98,A Planner's Encounter with Complexity,2016,book,209,True,borderline,1,core concept mentioned once | manual: planning theory and complexity,include
 W614431840,A15,landmarks,A15_landmarks,99,Evolutionary Governance Theory: An Introduction,2013,book,208,False,exclude,0,core concept missing,exclude
 W2085383496,A15,landmarks,A15_landmarks,100,"The adaptive efficiency of land use planning measured by the control of urban sprawl. The cases of the Netherlands, Belgium and Poland",2012,article,208,False,exclude,0,core concept missing,exclude
 W7160763758,A15,recent,A15_recent_q1,1,Southern Urbanism,2026,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
@@ -1381,7 +1381,7 @@ W4402534173,A15,recent,A15_recent_q1,2,Southern Urbanism,2024,book-chapter,0,Fal
 W7169568240,A15,recent,A15_recent_q1,3,Southern Urbanism(s),2026,book-chapter,0,True,include,6,rules,include
 W7125494656,A15,recent,A15_recent_q1,4,Ordinary Cities I,2026,book-chapter,0,True,include,3,rules,include
 W7125500349,A15,recent,A15_recent_q1,5,Ordinary Cities II,2026,book-chapter,0,True,include,3,rules,include
-W7164802044,A15,recent,A15_recent_q1,6,"COVID-19, Density and Southern Urbanism",2026,book-chapter,0,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7164802044,A15,recent,A15_recent_q1,6,"COVID-19, Density and Southern Urbanism",2026,book-chapter,0,True,borderline,3,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: COVID-19, density and Southern urbanism (flag false positive)",include
 W4410515407,A15,recent,A15_recent_q1,7,Rethinking Southern Urbanism from the Periphery,2025,article,1,True,include,6,rules,include
 W4388823774,A15,recent,A15_recent_q1,8,Consolidation: From Southern Urbanism to Southern e-Governance,2023,conference-paper,0,True,include,5,rules,include
 W4385806634,A15,recent,A15_recent_q1,9,"Archipelagic Thinking, Southern Urbanism and Experimental Comparisons",2023,book-chapter,1,True,include,3,rules,include
@@ -1398,7 +1398,7 @@ W4284966750,A15,recent,A15_recent_q2,1,Comparative Urbanism,2022,book,175,False,
 W4403486587,A15,recent,A15_recent_q2,2,Postcolonial Urbanism,2024,book-chapter,7,True,include,4,rules,include
 W4416327103,A15,recent,A15_recent_q2,3,Postcolonial Urban Studies,2025,book,0,False,include,3,no abstract; core (and context) in title,include
 W4394619675,A15,recent,A15_recent_q2,4,Studies in comparative urbanism,2024,book-chapter,0,True,include,4,rules,include
-W4372319719,A15,recent,A15_recent_q2,5,Comparative Urbanism: Tactics for Global Urban Studies,2023,article,34,True,borderline,5,stub abstract (possible book review),pending
+W4372319719,A15,recent,A15_recent_q2,5,Comparative Urbanism: Tactics for Global Urban Studies,2023,article,34,True,borderline,5,stub abstract (possible book review) | manual: book review (Comparative Urbanism),exclude
 W4293230397,A15,recent,A15_recent_q2,6,Comparative urbanism and collective methodologies,2022,article,2,True,include,3,rules,include
 W4284958278,A15,recent,A15_recent_q2,7,Comparative Urbanism in the Archives,2022,other,0,True,include,6,rules,include
 W4410651995,A15,recent,A15_recent_q2,8,Comparative urbanism in gentrification studies,2023,other,0,False,include,3,no abstract; core (and context) in title,include
@@ -1426,7 +1426,7 @@ W4405532647,A15,recent,A15_recent_q3,11,Conclusion: insurgent planning practice 
 W4393964978,A15,recent,A15_recent_q3,12,INSURGENT PLANNING IN A STATE OF EXCEPTION:,2024,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4402065777,A15,recent,A15_recent_q3,13,Contesting elite capture: Repositioning insurgent planning for mass movements,2024,article,4,True,include,6,rules,include
 W7128787757,A15,recent,A15_recent_q3,14,"Book Review: Insurgent Planning Practice RoccoRobertoSilvestreGabriel (eds) Insurgent Planning Practice, Newcastle: Agenda Publishing, 2024. 242 pages. ISBN 978-1-78821-676-0.",2026,book-review,0,False,exclude,0,type book-review,exclude
-W4404242193,A15,recent,A15_recent_q3,15,"Roberto Rocco and Gabriel Silvestre (eds), Insurgent Planning Practice",2024,article,0,True,borderline,3,stub abstract (possible book review),pending
+W4404242193,A15,recent,A15_recent_q3,15,"Roberto Rocco and Gabriel Silvestre (eds), Insurgent Planning Practice",2024,article,0,True,borderline,3,stub abstract (possible book review) | manual: book review (Insurgent Planning Practice),exclude
 W4393933103,A15,recent,A15_recent_q3,16,INSURGENT PLANNING PRACTICES AND UNIVERSITY– COMMUNITY ENGAGEMENT IN POPULAR URBANIZATION:,2024,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W7127989924,A15,recent,A15_recent_q3,17,Conclusion: Between the Right to the City and Insurgent Planning,2026,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4405532586,A15,recent,A15_recent_q3,18,Insurgent planning and the negotiated position of democratic political practice in Antwerp,2024,other,0,True,include,6,rules,include
@@ -1446,7 +1446,7 @@ W7130651669,A15,recent,A15_recent_q4,13,The Right to (S)place: From Inclusion to
 W4410909021,A15,recent,A15_recent_q4,14,"Sustainability Worlding in the Global South – Worlding and environmentalities in Kakapir Fishing Village, Pakistan",2025,article,0,False,exclude,0,core concept missing,exclude
 W7124735433,A15,recent,A15_recent_q4,15,Who talks for Chinese urban studies? Assessing urban theory in a rapidly evolving field,2026,article,4,True,include,6,rules,include
 W7140082429,A15,recent,A15_recent_q4,16,Bridging urban theory and artificial intelligence: a multi-agent recommendation system for sustainable city development,2026,article,2,True,include,5,rules,include
-W4214619730,A15,recent,A15_recent_q4,17,Co-designing publics: [re]producing the public realm via informal urbanisms in cities of the global south,2022,article,3,True,borderline,1,core concept mentioned once,pending
+W4214619730,A15,recent,A15_recent_q4,17,Co-designing publics: [re]producing the public realm via informal urbanisms in cities of the global south,2022,article,3,True,borderline,1,core concept mentioned once | manual: co-designing publics viewpoint (A9),exclude
 W4309836410,A15,recent,A15_recent_q4,18,Hybrid gentrification in South Africa,2022,book-chapter,1,True,include,3,rules,include
 W2808939803,A16,india,A16_india_q1,1,"A Study on Consumers’ Attitude towards Night Time Economy in Kochi, Kerala",2017,article,1,True,include,6,rules,include
 W7217796028,A16,india,A16_india_q1,2,"Deciphering and Validation of Urbanization of Metropolitan Region in South Asia using Urban Night Lights (UNL): A Case Study of Kolkata Metropolitan Area (KMA), West Bengal, India",2024,article,0,True,borderline,6,flag: night-?time lights?|night lights?|lumino,pending
