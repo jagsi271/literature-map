@@ -531,7 +531,8 @@ themes:
     screen:
       # v3 (Stage 2)
       require: ['algorithmic (governance|management|decision\w*)|artificial intelligence|\bai\b|automated decision\w*|city brain|machine learning|generative ai|algorithm\w*|automation', 'city|cities|urban|municipal|local governments?']
-      flag: []
+      # v3b: 'AI' matched AI/AN (American Indian/Alaska Native); waste-engineering ML passed v3
+      flag: ['\b(solid waste|wastewater|leachate|ai/an|american indian|alaska native|nano\w*|spectroscopy|radiograph\w*|retina\w*)\b']
   C8:
     domain: C
     name: City-level DPI & urban e-government

@@ -1198,3 +1198,44 @@ W4408048185,C6,exclude,"Claude (manual review, Stage 2)",AI video-surveillance s
 W2756012011,C6,exclude,"Claude (manual review, Stage 2)",vehicle re-identification
 W2111710640,C6,exclude,"Claude (manual review, Stage 2)",urban surveillance systems engineering
 W7111564569,C6,exclude,"Claude (manual review, Stage 2)",UAV/CCTV vehicle tracking
+W7213430257,C7,exclude,"Claude (manual review, Stage 2)",municipal autonomy and participation in Bengaluru (A1)
+W4406026753,C7,exclude,"Claude (manual review, Stage 2)",urban ecologies and resilience
+W3208418845,C7,include,"Claude (manual review, Stage 2)",materiality of algorithmic governance in Indian smart policing
+W7125489955,C7,exclude,"Claude (manual review, Stage 2)",smart urbanism and sustainability (C4)
+W7213170439,C7,include,"Claude (manual review, Stage 2)",algorithmic metropolitanism (data-driven metropolitan governance)
+W7208831298,C7,exclude,"Claude (manual review, Stage 2)",local self-governance in the digital era (constitutional)
+W4417507365,C7,exclude,"Claude (manual review, Stage 2)",deep-learning walkability assessment
+W7105024486,C7,exclude,"Claude (manual review, Stage 2)",deep-learning walkability assessment (duplicate)
+W7143481378,C7,exclude,"Claude (manual review, Stage 2)",AI for animal birth control deployment
+W2968617104,C7,exclude,"Claude (manual review, Stage 2)",retinal screening AI
+W7124434001,C7,exclude,"Claude (manual review, Stage 2)",AI/AN (American Indian) substance-use programmes
+W4414433790,C7,exclude,"Claude (manual review, Stage 2)",generative AI for health among youth
+W7108228099,C7,exclude,"Claude (manual review, Stage 2)",same study (preprint)
+W4415452257,C7,include,"Claude (manual review, Stage 2)",AI in urban planning (bibliometric review)
+W7166807570,C7,exclude,"Claude (manual review, Stage 2)",green marketing
+W2894665398,C7,exclude,"Claude (manual review, Stage 2)",building energy ML review
+W4361292570,C7,include,"Claude (manual review, Stage 2)",algorithmic urban planning review
+W4403371192,C7,exclude,"Claude (manual review, Stage 2)",generative AI for urban digital twins (C13)
+W4389888995,C7,exclude,"Claude (manual review, Stage 2)",textile waste
+W3037042751,C7,exclude,"Claude (manual review, Stage 2)",waste-generation neural network
+W4405235079,C7,exclude,"Claude (manual review, Stage 2)",AI metaverse for smart cities
+W4407584988,C7,exclude,"Claude (manual review, Stage 2)",nursing students and GenAI
+W4383312806,C7,exclude,"Claude (manual review, Stage 2)",chest radiograph model
+W2972503947,C7,exclude,"Claude (manual review, Stage 2)",wastewater nanotechnology
+W4401392884,C7,exclude,"Claude (manual review, Stage 2)",IoT/digital-twin governance review (technical)
+W4389312266,C7,exclude,"Claude (manual review, Stage 2)",landfill leachate
+W2963437685,C7,exclude,"Claude (manual review, Stage 2)",recycling robots
+W7114944003,C7,include,"Claude (manual review, Stage 2)",algorithmic governance and AI in public transport decisions
+W7166706470,C7,exclude,"Claude (manual review, Stage 2)",digital and smart city governance (C1/C8)
+W4415618089,C7,include,"Claude (manual review, Stage 2)","AI models in municipal solid waste management policy, Kolkata (municipal AI)"
+W2909358758,C7,exclude,"Claude (manual review, Stage 2)",waste-generation forecasting model
+W4411902804,C7,exclude,"Claude (manual review, Stage 2)",AQI estimation model
+W4412363873,C7,exclude,"Claude (manual review, Stage 2)",waste-generation prediction model
+W4414149985,C7,exclude,"Claude (manual review, Stage 2)",AI in organic waste management (technical assessment)
+W3128072636,C7,exclude,"Claude (manual review, Stage 2)",urban American Indian/Alaska Native communities (not AI)
+W4210730850,C7,exclude,"Claude (manual review, Stage 2)",urban AI/AN families (not AI)
+W2161117493,C7,exclude,"Claude (manual review, Stage 2)",urban American Indian youth (not AI)
+W2412393926,C7,exclude,"Claude (manual review, Stage 2)",waste-generation forecasting model
+W3148451833,C7,exclude,"Claude (manual review, Stage 2)",robotic waste sorting
+W4295532849,C7,exclude,"Claude (manual review, Stage 2)",wastewater treatment review
+W4413329989,C7,exclude,"Claude (manual review, Stage 2)",bioremediation review
