@@ -754,20 +754,20 @@ W4297724745,A13,india,A13_india_q1,13,City Symphony,2022,article,1,True,include,
 W7109774929,A13,india,A13_india_q1,14,The Indian Olympics Game Model: Lessons from Global Precedents for a 2036 Bid,2025,article,0,True,include,6,rules,include
 W4415609354,A13,india,A13_india_q1,15,The Indian Olympic Game Model: Lessons from Global Precedents for a 2036 Bid,2025,preprint,0,False,include,3,no abstract; core in title; context terms missing,include
 W2765530576,A13,india,A13_india_q1,16,Smart Cities and the Idea of Smartness in Urban Development – A Critical Review,2017,conference-paper,38,True,include,2,rules,include
-W3033998819,A13,india,A13_india_q1,17,Modern Athens: Migration Processes and Paradigms of Urban Development,2020,article,2,True,borderline,1,core concept mentioned once,pending
+W3033998819,A13,india,A13_india_q1,17,Modern Athens: Migration Processes and Paradigms of Urban Development,2020,article,2,True,borderline,1,core concept mentioned once | manual: migration and urban development of Athens; Olympics in passing,exclude
 W7208741372,A13,india,A13_india_q1,18,Women Empowerment through Decision-Making in Sport: An Analysis of the Indian Scenario,2026,article,0,True,include,3,rules,include
 W2138239395,A13,india,A13_india_q2,1,Rule by Aesthetics: World‐Class City Making in Delhi,2011,other,296,True,exclude,0,core concept missing,exclude
-W2527447499,A13,india,A13_india_q2,2,Rule by aesthetics: world-class city making in Delhi,2016,article,93,True,borderline,3,stub abstract (possible book review),pending
+W2527447499,A13,india,A13_india_q2,2,Rule by aesthetics: world-class city making in Delhi,2016,article,93,True,borderline,3,stub abstract (possible book review) | manual: book review (Rule by Aesthetics),exclude
 W2025705713,A13,india,A13_india_q2,3,"“A World Class City of Your Own!”: Civic Governmentality in Chennai, India",2011,article,41,True,include,3,rules,include
 W1548321183,A13,india,A13_india_q2,4,The Blockade of the World‐Class City: Dialectical Images of Indian Urbanism,2011,other,119,False,exclude,0,core concept missing,exclude
 W595951519,A13,india,A13_india_q2,5,Worlding Cities,2011,book,971,True,include,6,rules,include
 W2967493961,A13,india,A13_india_q2,6,Rule by Aesthetics: World-Class City Making in Delhi,2010,book-chapter,0,True,include,4,rules,include
-W2770436386,A13,india,A13_india_q2,7,"Rule by Aesthetics: World-Class City Making in Delhi, by D. Asher Ghertner",2017,article,0,True,borderline,4,stub abstract (possible book review),pending
+W2770436386,A13,india,A13_india_q2,7,"Rule by Aesthetics: World-Class City Making in Delhi, by D. Asher Ghertner",2017,article,0,True,borderline,4,stub abstract (possible book review) | manual: book review (Rule by Aesthetics),exclude
 W2442769822,A13,india,A13_india_q2,8,Dreaming Big: Spectacular Events and the ‘World-Class’ City: The Commonwealth Games in Delhi,2014,book-chapter,15,True,include,4,rules,include
 W2789396155,A13,india,A13_india_q2,9,"Review: Asher Ghertner, Rule by Aesthetics: World-Class City Making in Delhi",2018,book-review,0,False,exclude,0,type book-review,exclude
 W1526789854,A13,india,A13_india_q2,10,"The politics of world class city-zenship: Corporate agents and new civil society formations in Bangalore, India",2007,conference-paper,0,True,include,3,rules,include
 W2567448509,A13,india,A13_india_q2,11,"Regulating Access and Mobility of Single Women in a “World Class”-city: Gender and Inequality in Delhi, India",2016,book-chapter,7,True,exclude,0,core concept missing,exclude
-W4402126224,A13,india,A13_india_q2,12,Toward a “Freedom Life”: Notes on Transmasculine Placemaking in the “World-Class” City of New Delhi,2024,article,4,True,borderline,1,core concept mentioned once,pending
+W4402126224,A13,india,A13_india_q2,12,Toward a “Freedom Life”: Notes on Transmasculine Placemaking in the “World-Class” City of New Delhi,2024,article,4,True,borderline,1,"core concept mentioned once | manual: transmasculine placemaking in ""world-class"" New Delhi",include
 W319965729,A13,india,A13_india_q2,13,Between hierarchies and networks in local governance: institutional arrangements in making Mumbai a ‘world class city’,2009,article,0,True,include,3,rules,include
 W2330959218,A13,india,A13_india_q2,14,Remaking the ‘World-Class City’: The Commonwealth Games as a media event in ‘Emerging India’,2014,article,6,True,include,6,rules,include
 W2625869177,A13,india,A13_india_q2,15,Asher D. Ghertner 2015: Rule By Aesthetics: World‐class City Making in Delhi. Oxford: Oxford University Press,2017,article,0,False,exclude,0,core concept missing,exclude
@@ -802,7 +802,7 @@ W2211205654,A13,landmarks,A13_landmarks,5,Urban underground space: Solving the p
 W4256168637,A13,landmarks,A13_landmarks,6,Rule By Aesthetics,2015,book,593,True,include,2,rules,include
 W2335273735,A13,landmarks,A13_landmarks,7,Worlding Cities. Asian Experiments and the Art of Being Global,2013,article,517,False,include,3,no abstract; core (and context) in title,include
 W2765084630,A13,landmarks,A13_landmarks,8,The Role of Cultural Heritage in Sustainable Development: Multidimensional Indicators as Decision-Making Tool,2017,article,491,True,include,3,rules,include
-W1605911680,A13,landmarks,A13_landmarks,9,"Introduction: Worlding Cities, or the Art of being Global",2011,other,436,True,borderline,4,stub abstract (possible book review),pending
+W1605911680,A13,landmarks,A13_landmarks,9,"Introduction: Worlding Cities, or the Art of being Global",2011,other,436,True,borderline,4,stub abstract (possible book review) | manual: worlding cities (introduction),include
 W1971471966,A13,landmarks,A13_landmarks,10,Olympic Games: catalyst of urban change,1998,article,410,True,include,5,rules,include
 W2109167176,A13,landmarks,A13_landmarks,11,Highly time-resolved chemical characterization of atmospheric submicron particles during 2008 Beijing Olympic Games using an Aerodyne High-Resolution Aerosol Mass Spectrometer,2010,article,406,True,include,5,rules,include
 W2082727009,A13,landmarks,A13_landmarks,12,Urban development through hosting international events: a history of the Olympic Games,1999,article,346,True,include,6,rules,include
@@ -816,7 +816,7 @@ W1974404546,A13,landmarks,A13_landmarks,19,"Planning, competitiveness and sprawl
 W2138239395,A13,landmarks,A13_landmarks,20,Rule by Aesthetics: World‐Class City Making in Delhi,2011,other,296,True,exclude,0,core concept missing,exclude
 W2096710737,A13,landmarks,A13_landmarks,21,"Olympic Cities: Regeneration, City Rebranding and Changing Urban Agendas",2008,article,289,True,include,6,rules,include
 W2285819763,A13,landmarks,A13_landmarks,22,"Revisiting the host city: An empirical examination of sport involvement, place attachment, event satisfaction and spectator intentions at the London Olympics",2016,article,276,True,include,5,rules,include
-W2208440899,A13,landmarks,A13_landmarks,23,Events and Urban Regeneration,2012,book,271,True,borderline,1,core concept mentioned once,pending
+W2208440899,A13,landmarks,A13_landmarks,23,Events and Urban Regeneration,2012,book,271,True,borderline,1,core concept mentioned once | manual: events and urban regeneration,include
 W2127127032,A13,landmarks,A13_landmarks,24,Resident Perceptions of Mega-Sporting Events: A Non-Host City Perspective of the 2012 London Olympic Games,2009,article,268,True,include,5,rules,include
 W2155815384,A13,landmarks,A13_landmarks,25,Provocation by eucapnic voluntary hyperpnoea to identify exercise induced bronchoconstriction,2001,article,264,True,include,2,rules,include
 W2144293475,A13,landmarks,A13_landmarks,26,"URBAN REGENERATION, ARTS PROGRAMMING AND MAJOR EVENTS",2004,article,247,True,include,2,rules,include
@@ -825,14 +825,14 @@ W3156572856,A13,landmarks,A13_landmarks,28,An evaluation of the sustainability o
 W175343377,A13,landmarks,A13_landmarks,29,"The economics of staging the Olympics: a comparison of the Games, 1972-2008",2005,book-review,224,True,exclude,0,type book-review,exclude
 W2099731426,A13,landmarks,A13_landmarks,30,Security Governance and Sport Mega-events: Toward an Interdisciplinary Research Agenda,2009,article,223,True,include,5,rules,include
 W2143217476,A13,landmarks,A13_landmarks,31,Access for all: the rise of the Paralympic Games,2007,article,217,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2146474448,A13,landmarks,A13_landmarks,32,"THE GLOBAL CIRCUS: INTERNATIONAL SPORT, TOURISM, AND THE MARKETING OF CITIES",1996,article,215,True,borderline,1,core concept mentioned once,pending
+W2146474448,A13,landmarks,A13_landmarks,32,"THE GLOBAL CIRCUS: INTERNATIONAL SPORT, TOURISM, AND THE MARKETING OF CITIES",1996,article,215,True,borderline,1,core concept mentioned once | manual: international sport events and city marketing,include
 W2062587020,A13,landmarks,A13_landmarks,33,Tropospheric NO 2 vertical column densities over Beijing: results of the first three years of ground-based MAX-DOAS measurements (2008–2011) and satellite validation,2013,article,213,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2133174034,A13,landmarks,A13_landmarks,34,Ozone air quality during the 2008 Beijing Olympics: effectiveness of emission restrictions,2009,article,213,True,include,6,rules,include
 W2074788517,A13,landmarks,A13_landmarks,35,Mega-events and urban regeneration in Rio de Janeiro: planning in a state of emergency,2013,article,203,True,include,6,rules,include
 W2038009595,A13,landmarks,A13_landmarks,36,An Olympic legacy for all? The non-infrastructural outcomes of the Olympic Games for socially excluded groups (Atlanta 1996–Beijing 2008),2011,article,203,False,include,3,no abstract; core in title; context terms missing,include
 W2962920357,A13,landmarks,A13_landmarks,37,"Where, When, and How mmWave is Used in 5G and Beyond",2017,article,198,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W2047751270,A13,landmarks,A13_landmarks,38,"On-Road Vehicle Emission Control in Beijing: Past, Present, and Future",2010,other,196,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2176568290,A13,landmarks,A13_landmarks,39,"Estimating Rapidity of Change in Complex Urban Systems: A Multidimensional, Local‐Scale Approach",2015,article,194,True,borderline,1,core concept mentioned once,pending
+W2176568290,A13,landmarks,A13_landmarks,39,"Estimating Rapidity of Change in Complex Urban Systems: A Multidimensional, Local‐Scale Approach",2015,article,194,True,borderline,1,core concept mentioned once | manual: rapidity of change in urban systems,exclude
 W2002788245,A13,landmarks,A13_landmarks,40,The health and socioeconomic impacts of major multi-sport events: systematic review (1978-2008),2010,review,193,True,include,2,rules,include
 W2056792249,A13,landmarks,A13_landmarks,41,Mega‐sporting events in urban and regional policy: a history of the Winter Olympics,2004,article,192,True,include,5,rules,include
 W4205936453,A13,landmarks,A13_landmarks,42,Governance,1994,book,192,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
@@ -852,7 +852,7 @@ W1989091922,A13,landmarks,A13_landmarks,55,Impact of biomass burning on urban ai
 W2034799075,A13,landmarks,A13_landmarks,56,The Barcelona model: and an original formula? From ‘reconstruction’ to strategic urban projects (1979–2004),2003,article,159,True,include,2,rules,include
 W2034102785,A13,landmarks,A13_landmarks,57,"‘Art in capital’: Shaping distinctiveness in a culture-led urban regeneration project in Red Town, Shanghai",2009,article,156,False,exclude,0,core concept missing,exclude
 W1858921014,A13,landmarks,A13_landmarks,58,Olympic Proportions: Cost and Cost Overrun at the Olympics 1960-2012,2012,preprint,153,False,include,3,no abstract; core in title; context terms missing,include
-W1562845591,A13,landmarks,A13_landmarks,59,Olympic Dreams: The Impact of Mega-Events on Local Politics,2001,book,153,True,borderline,6,stub abstract (possible book review),pending
+W1562845591,A13,landmarks,A13_landmarks,59,Olympic Dreams: The Impact of Mega-Events on Local Politics,2001,book,153,True,borderline,6,stub abstract (possible book review) | manual: mega-events and local politics,include
 W2144161889,A13,landmarks,A13_landmarks,60,Governing Post Apartheid Spatiality: Implementing City Improvement Districts in Cape Town,2007,article,152,True,exclude,0,core concept missing,exclude
 W2110929697,A13,landmarks,A13_landmarks,61,A Contingent Valuation of the 2012 London Olympic Games,2007,article,151,True,include,5,rules,include
 W3122874754,A13,landmarks,A13_landmarks,62,The globalized city economic restructuring and social polarization in European cities,2003,article,151,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -862,7 +862,7 @@ W1987269772,A13,landmarks,A13_landmarks,65,Assembling/Worlding Cities,2013,artic
 W4301515452,A13,landmarks,A13_landmarks,66,Olympic Dreams,2001,book,142,True,include,6,rules,include
 W2540620773,A13,landmarks,A13_landmarks,67,Luxury and Rubble: Civility and Dispossession in the New Saigon,2016,book,141,True,include,3,rules,include
 W2021226850,A13,landmarks,A13_landmarks,68,Configuring the Field of Play: How Hosting the Olympic Games Impacts Civic Community,2008,article,141,True,include,6,rules,include
-W1546789574,A13,landmarks,A13_landmarks,69,Events and Urban Regeneration: The Strategic Use of Events to Revitalise Cities,2012,book,140,True,borderline,1,core concept mentioned once,pending
+W1546789574,A13,landmarks,A13_landmarks,69,Events and Urban Regeneration: The Strategic Use of Events to Revitalise Cities,2012,book,140,True,borderline,1,core concept mentioned once | manual: events and urban regeneration (repository copy),include
 W2055505948,A13,landmarks,A13_landmarks,70,Assessment of traffic-related air pollution in the urban streets before and during the 2008 Beijing Olympic Games traffic control period,2009,article,140,False,include,3,no abstract; core (and context) in title,include
 W2060253568,A13,landmarks,A13_landmarks,71,Optimal vehicle control strategy of a fuel cell/battery hybrid city bus,2009,article,138,False,exclude,0,core concept missing,exclude
 W2312294667,A13,landmarks,A13_landmarks,72,Achieving Economic Benefits at Local Events: A Case Study of a Local Sports Event,1996,article,137,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -886,7 +886,7 @@ W4254776357,A13,landmarks,A13_landmarks,89,Proceedings of the 2011 ACM SIGMOD In
 W2147802288,A13,landmarks,A13_landmarks,90,"Two Waves of Gentrification and Emerging Rights Issues in Guangzhou, China",2012,article,119,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W1548321183,A13,landmarks,A13_landmarks,91,The Blockade of the World‐Class City: Dialectical Images of Indian Urbanism,2011,other,119,False,exclude,0,core concept missing,exclude
 W2738667766,A13,landmarks,A13_landmarks,92,"Class diversification, economic growth and urban sprawl: evidences from a pre-crisis European city",2017,article,118,False,exclude,0,core concept missing,exclude
-W2061402540,A13,landmarks,A13_landmarks,93,Staging The Nation,2003,article,118,True,borderline,1,core concept mentioned once,pending
+W2061402540,A13,landmarks,A13_landmarks,93,Staging The Nation,2003,article,118,True,borderline,1,core concept mentioned once | manual: national identity in Olympic ceremonies,exclude
 W2146963518,A13,landmarks,A13_landmarks,94,Comparative genomics tools applied to bioterrorism defence,2003,article,116,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2111296405,A13,landmarks,A13_landmarks,95,Quantitative evaluation of emission controls on primary and secondary organic aerosol sources during Beijing 2008 Olympics,2013,article,115,True,include,6,rules,include
 W1997499652,A13,landmarks,A13_landmarks,96,Regional Income and Employment Effects of the 1972 Munich Summer Olympic Games,2008,article,115,True,include,6,rules,include
@@ -915,9 +915,9 @@ W4281922079,A13,recent,A13_recent_q1,18,The Evolution of Olympic Games Governanc
 W4386971751,A13,recent,A13_recent_q2,1,World-Class City,2023,book-chapter,0,True,include,5,rules,include
 W4361977775,A13,recent,A13_recent_q2,2,6 WORLD-CLASS CITY,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4310538487,A13,recent,A13_recent_q2,3,Questing for a Vibrant World-Class City Cluster,2022,book-chapter,0,True,include,3,rules,include
-W4393201757,A13,recent,A13_recent_q2,4,Tensions of the world-class city in a working-class neighborhood of Casablanca,2022,conference-paper,0,True,borderline,3,stub abstract (possible book review),pending
+W4393201757,A13,recent,A13_recent_q2,4,Tensions of the world-class city in a working-class neighborhood of Casablanca,2022,conference-paper,0,True,borderline,3,"stub abstract (possible book review) | manual: world-class city tensions, Casablanca",include
 W4389278820,A13,recent,A13_recent_q2,5,Gleaming metropolis: Who is swept aside in Delhi's quest to become a world-class city?,2023,article,1,False,include,3,no abstract; core (and context) in title,include
-W4402126224,A13,recent,A13_recent_q2,6,Toward a “Freedom Life”: Notes on Transmasculine Placemaking in the “World-Class” City of New Delhi,2024,article,4,True,borderline,1,core concept mentioned once,pending
+W4402126224,A13,recent,A13_recent_q2,6,Toward a “Freedom Life”: Notes on Transmasculine Placemaking in the “World-Class” City of New Delhi,2024,article,4,True,borderline,1,"core concept mentioned once | manual: transmasculine placemaking in ""world-class"" New Delhi",include
 W4412834388,A13,recent,A13_recent_q2,7,A tale of two Harare(s): Contested narratives of world class city ideals and everyday urbanism in an informalizing city,2025,article,20,True,include,5,rules,include
 W4297502249,A13,recent,A13_recent_q2,8,"Urban Reimaging, Heritage and the Making of a World-class City: The Commonwealth Walkway as Mega-event Legacy Project",2022,article,4,True,include,6,rules,include
 W4390445757,A13,recent,A13_recent_q2,9,Proceedings of The HKIE Geotechnical Division 43rd Annual Seminar: Towards a Smart-Green-Resilient Geo-Future for World-class City,2023,paratext,0,True,exclude,0,type paratext,exclude
@@ -945,7 +945,7 @@ W7215047310,A13,recent,A13_recent_q3,12,"Heritage Conservation, Gentrification, 
 W7215063669,A13,recent,A13_recent_q3,13,"Heritage Conservation, Gentrification, and Heritagisation in China: a comparison of Langzhong against the classic case of Lijiang",2026,dissertation,0,True,include,6,rules,include
 W4319158914,A13,recent,A13_recent_q3,14,"Analysis of the Influencing Factors of Social Participation Awareness on Urban Heritage Conservation: The Example of Suzhou, China",2023,article,6,True,include,6,rules,include
 W4295854488,A13,recent,A13_recent_q3,15,Interconnections and continuity among planning documents of Kota Lama Semarang development within the context of urban heritage conservation,2022,article,3,True,include,5,rules,include
-W7105811361,A13,recent,A13_recent_q3,16,"Historic Building Information Modeling (HBIM) Supported Material Passport for Sustainable Urban Heritage Conservation: Case Study of Massawa, Eritrea",2025,conference-paper,0,False,borderline,3,flag: \b(laser scanning|photogrammetry|hbim|po,pending
+W7105811361,A13,recent,A13_recent_q3,16,"Historic Building Information Modeling (HBIM) Supported Material Passport for Sustainable Urban Heritage Conservation: Case Study of Massawa, Eritrea",2025,conference-paper,0,False,borderline,3,flag: \b(laser scanning|photogrammetry|hbim|po | manual: HBIM engineering,exclude
 W4409140579,A13,recent,A13_recent_q3,17,Conceptual Differentiation of City Spatial from the Heritage Conservation Perspective,2024,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
 W4412884514,A13,recent,A13_recent_q3,18,"Cultural Heritage Conservation Strategy in Singaraja City, Bali: Strengthening City Identity Through Historical and Architectural Approaches",2025,article,0,True,include,6,rules,include
 W7124860224,A13,recent,A13_recent_q4,1,Residential Exclusion Mechanisms of Architectural Rehabilitation as an Urban Renewal Tool in the Old City of Barcelona,2026,article,0,True,include,5,rules,include
