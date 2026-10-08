@@ -1479,3 +1479,43 @@ W7169796459,C16,exclude,"Claude (manual review, Stage 2)",flood mapping
 W4390922162,C16,include,"Claude (manual review, Stage 2)",verbal city image in social media
 W4320492873,C16,include,"Claude (manual review, Stage 2)",city image perception from social media (Zhongshan)
 W4401691950,C16,include,"Claude (manual review, Stage 2)",city image hotspots from social media (Nanjing)
+W4405703214,C17,include,"Claude (manual review, Stage 2)","smart-city cybersecurity standards and 5G, India (policy)"
+W7155191924,C17,include,"Claude (manual review, Stage 2)","legal framework for Indian smart cities (cybersecurity, data protection)"
+W7167230430,C17,exclude,"Claude (manual review, Stage 2)",LSTM cyber-defence model
+W4386134811,C17,exclude,"Claude (manual review, Stage 2)",agricultural supply chain
+W4225716729,C17,exclude,"Claude (manual review, Stage 2)",AI modelling review
+W4362514681,C17,exclude,"Claude (manual review, Stage 2)",digital twin security survey (technical)
+W3108419517,C17,exclude,"Claude (manual review, Stage 2)",smart grid review
+W2922140331,C17,exclude,"Claude (manual review, Stage 2)",IoT anomaly detection
+W2829366072,C17,include,"Claude (manual review, Stage 2)",security and privacy challenges in smart cities (review)
+W2527386436,C17,include,"Claude (manual review, Stage 2)","drones in smart cities: cybersecurity, privacy and public safety"
+W3206186094,C17,exclude,"Claude (manual review, Stage 2)",transport network resilience review
+W3113223415,C17,exclude,"Claude (manual review, Stage 2)",deep-learning cyber applications review
+W4312773161,C17,exclude,"Claude (manual review, Stage 2)",power-system resilience
+W2307544986,C17,exclude,"Claude (manual review, Stage 2)",building energy management systems
+W3197810240,C17,include,"Claude (manual review, Stage 2)",smart city and cyber-security challenges (review; flag false positive)
+W3112343206,C17,exclude,"Claude (manual review, Stage 2)",ML cyberattack detection
+W3203062970,C17,exclude,"Claude (manual review, Stage 2)",IoT/AI adoption challenges
+W3196539257,C17,exclude,"Claude (manual review, Stage 2)",sensors review
+W2980573810,C17,exclude,"Claude (manual review, Stage 2)",autonomous vehicle ethics (C7/C9)
+W4396769045,C17,exclude,"Claude (manual review, Stage 2)",AI and blockchain convergence
+W3140933240,C17,include,"Claude (manual review, Stage 2)",cybersecurity risk assessment of smart-city infrastructures
+W3113471021,C17,include,"Claude (manual review, Stage 2)",IoT cybersecurity maturity model for smart cities
+W2985534647,C17,include,"Claude (manual review, Stage 2)",targeted cyber-physical attacks and urban transport network resilience
+W3025563795,C17,exclude,"Claude (manual review, Stage 2)",COVID-era cyber threats (general)
+W4405754402,C17,exclude,"Claude (manual review, Stage 2)",CNN cybersecurity framework
+W4415917794,C17,include,"Claude (manual review, Stage 2)",cybersecurity in smart cities: protecting IoT networks (chapter)
+W4399776323,C17,include,"Claude (manual review, Stage 2)",cyber resilience of Ukraine's critical infrastructure
+W7112901066,C17,include,"Claude (manual review, Stage 2)",smart city cyber-physical security (S4AllCities)
+W4283647202,C17,exclude,"Claude (manual review, Stage 2)",socio-cyber-physical systems concept (technical)
+W7116360528,C17,exclude,"Claude (manual review, Stage 2)",urban cyber-physical power systems monitoring (technical)
+W4379981122,C17,exclude,"Claude (manual review, Stage 2)",cyber-physical-social systems (technical)
+W7220469312,C17,exclude,"Claude (manual review, Stage 2)",IoT flood framework
+W4406955414,C17,exclude,"Claude (manual review, Stage 2)",connected vehicle disruptions simulation
+W7214885799,C17,exclude,"Claude (manual review, Stage 2)",connected vehicle disruptions simulation (duplicate)
+W4296439338,C17,exclude,"Claude (manual review, Stage 2)",CPS security management model
+W7127433203,C17,exclude,"Claude (manual review, Stage 2)",federated-learning smart grid security
+W7135170632,C17,exclude,"Claude (manual review, Stage 2)",quantum encryption framework
+W4295951922,C17,include,"Claude (manual review, Stage 2)",ransomware in local government
+W4409059847,C17,exclude,"Claude (manual review, Stage 2)",ransomware detection model
+W4412147876,C17,include,"Claude (manual review, Stage 2)",local government cybersecurity approaches
