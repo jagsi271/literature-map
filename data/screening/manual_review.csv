@@ -507,3 +507,26 @@ W7214987591,A11,include,"Claude (manual review, Stage 2)",urban refugees in Maur
 W7214940134,A11,include,"Claude (manual review, Stage 2)",urban refugees in Mauritania (duplicate deposit)
 W7214956692,A11,include,"Claude (manual review, Stage 2)",research guide on urban refugees
 W7214914425,A11,include,"Claude (manual review, Stage 2)",research guide on urban refugees (duplicate deposit)
+W2893298996,A12,include,"Claude (manual review, Stage 2)","sexual harassment in public transport, Kathmandu (survey)"
+W4280515091,A12,include,"Claude (manual review, Stage 2)","sexual harassment on public transport, Rawalpindi"
+W3210247104,A12,include,"Claude (manual review, Stage 2)",street sexual harassment in Delhi
+W2793612667,A12,exclude,"Claude (manual review, Stage 2)",religious movements and urban sprawl; middle class in passing
+W4294660296,A12,include,"Claude (manual review, Stage 2)",racial segregation and the urban underclass (flag false positive)
+W4237078488,A12,exclude,"Claude (manual review, Stage 2)",footloose labour (A10/A11); caste in passing
+W3045745783,A12,exclude,"Claude (manual review, Stage 2)",modernity essays
+W2064600320,A12,include,"Claude (manual review, Stage 2)",race and neighbourhood preferences / residential segregation
+W1956162175,A12,include,"Claude (manual review, Stage 2)","youth, class and caste among unemployed men in an Indian city"
+W1590189231,A12,exclude,"Claude (manual review, Stage 2)",national class structure textbook
+W4248097901,A12,exclude,"Claude (manual review, Stage 2)",gentrification (A4/A13); middle class in passing
+W1836282985,A12,exclude,"Claude (manual review, Stage 2)",footloose labour (duplicate record)
+W2168087170,A12,exclude,"Claude (manual review, Stage 2)",violence co-occurrence clinical study
+W2163357513,A12,exclude,"Claude (manual review, Stage 2)",randomised trial
+W2002047260,A12,include,"Claude (manual review, Stage 2)",racism and spatial segregation in Sweden
+W4389896348,A12,include,"Claude (manual review, Stage 2)",feminist and queer geographies of housing and the right to the city
+W4390052357,A12,include,"Claude (manual review, Stage 2)","domestic workers' commutes, feminist geography and the right to the city"
+W4412818473,A12,include,"Claude (manual review, Stage 2)",sexual harassment on public transport
+W7220721483,A12,include,"Claude (manual review, Stage 2)",spatial segregation and caste (literary)
+W4417278572,A12,include,"Claude (manual review, Stage 2)",class-based spatial segregation in 19th-century Paris
+W4212885006,A12,exclude,"Claude (manual review, Stage 2)",crime film and Toronto
+W4312236511,A12,exclude,"Claude (manual review, Stage 2)",Dickens and industrial London
+W7207664510,A12,exclude,"Claude (manual review, Stage 2)",learning activities of Japanese housing-estate residents

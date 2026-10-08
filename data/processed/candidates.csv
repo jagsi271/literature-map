@@ -506,10 +506,10 @@ W4251055683,A12,india,A12_india_q1,10,About the Contributors,2019,paratext,0,Tru
 W4323049922,A12,india,A12_india_q2,1,Sexual Harassment in Public Transport in Dhaka City: A Socio-legal Assessment,2023,article,5,True,include,6,rules,include
 W2900200077,A12,india,A12_india_q2,2,WOMEN VICTIMS OF SEXUAL HARASSMENT IN PUBLIC TRANSPORT SYSTEM IN BANGLADESH: A SOCIOLOGICAL SURVEY AT DHAKA CITY,2018,article,1,True,include,6,rules,include
 W4409200419,A12,india,A12_india_q2,3,A Study on Sexual Harassment against Women in Public Transport: Dhaka City Badda Area,2025,article,0,True,include,6,rules,include
-W2893298996,A12,india,A12_india_q2,4,"Experience of sexual harassment in public transport among female health science students: A cross sectional study of Kathmandu, Nepal",2018,article,18,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2893298996,A12,india,A12_india_q2,4,"Experience of sexual harassment in public transport among female health science students: A cross sectional study of Kathmandu, Nepal",2018,article,18,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: sexual harassment in public transport, Kathmandu (survey)",include
 W2751255578,A12,india,A12_india_q2,5,"Sexual harassment of students on public transport: an exploratory study in Lucknow, India",2017,article,80,False,include,3,no abstract; core in title; context terms missing,include
 W3023205069,A12,india,A12_india_q2,6,Public sexual harassment mayhem on public transport in megacities - Karachi and London: A comparative review,2020,article,45,False,include,3,no abstract; core (and context) in title,include
-W4280515091,A12,india,A12_india_q2,7,"Sexual harassment on public transport: a survey study of Rawalpindi, Pakistan",2022,article,13,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4280515091,A12,india,A12_india_q2,7,"Sexual harassment on public transport: a survey study of Rawalpindi, Pakistan",2022,article,13,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: sexual harassment on public transport, Rawalpindi",include
 W2094728798,A12,india,A12_india_q2,8,Violence against women on public transport in Nepal: sexual harassment and the spatial expression of male privilege,2013,article,99,True,include,6,rules,include
 W7161021118,A12,india,A12_india_q2,9,"‘Teasing-eve’: diverse perspectives on the sexual harassment of women in Dhaka city, Bangladesh",2026,dissertation,0,True,include,6,rules,include
 W1994429905,A12,india,A12_india_q2,10,"Homeless in Dhaka: Violence, Sexual Harassment, and Drug-abuse",2009,article,36,False,include,3,no abstract; core in title; context terms missing,include
@@ -517,7 +517,7 @@ W4366829359,A12,india,A12_india_q2,11,"Sexual Harassment in the Information Tech
 W4243364665,A12,india,A12_india_q2,12,"Sexual harassment of students on public transport: An exploratory study in Lucknow, India",2017,preprint,16,False,include,3,no abstract; core in title; context terms missing,include
 W4297239601,A12,india,A12_india_q2,13,"Online sexual harassment among young female students in Ward 10, Baneshwor, Kathmandu, Nepal",2022,preprint,1,True,include,6,rules,include
 W4295792104,A12,india,A12_india_q2,14,"Online sexual harassment among young female students in Ward 10, Baneshwor, Kathmandu, Nepal",2022,preprint,2,True,include,6,rules,include
-W3210247104,A12,india,A12_india_q2,15,PREVALENCE OF INCIDENTS OF STREET SEXUAL HARASSMENT AGAINST WOMEN IN DELHI.,2021,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W3210247104,A12,india,A12_india_q2,15,PREVALENCE OF INCIDENTS OF STREET SEXUAL HARASSMENT AGAINST WOMEN IN DELHI.,2021,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: street sexual harassment in Delhi,include
 W3156862387,A12,india,A12_india_q3,1,Towards an Enhanced Understanding of Caste-Based Residential Segregation in Indian Cities: Reflections from Kolkata and Bengaluru,2021,article,12,False,include,3,no abstract; core (and context) in title,include
 W2033254534,A12,india,A12_india_q3,2,Caste discrimination in the Indian urban labour market,1985,article,229,False,include,3,no abstract; core (and context) in title,include
 W4410127926,A12,india,A12_india_q3,3,"Dalit Caste Discrimination in Urban Areas of Nepal: A Case Study of Kirtipur, Kathmandu, Nepal",2025,article,1,True,include,6,rules,include
@@ -556,7 +556,7 @@ W7160466968,A12,india,A12_india_q5,5,An examination of the consumption practices
 W4415724698,A12,india,A12_india_q5,6,"From an ‘organic city’ to a ‘commercial hub’: Symbolic capital, place‐making and the new middle class in Rajarhat",2025,article,0,True,include,3,rules,include
 W2092591686,A12,india,A12_india_q5,7,"Networked ecological citizenship, the new middle classes and the provisioning of sustainable waste management in Bangalore, India",2013,article,67,False,include,3,no abstract; core in title; context terms missing,include
 W3082835838,A12,india,A12_india_q5,8,"Caste, gender, and “global Indian-ness”: spaces of safety in stand-up comedy in global Mumbai",2020,article,14,True,include,6,rules,include
-W2793612667,A12,india,A12_india_q5,9,Highways for Healing: Contemporaneous ‘Temples’ and Religious Movements in an Indian City,2017,article,13,True,borderline,1,core concept mentioned once,pending
+W2793612667,A12,india,A12_india_q5,9,Highways for Healing: Contemporaneous ‘Temples’ and Religious Movements in an Indian City,2017,article,13,True,borderline,1,core concept mentioned once | manual: religious movements and urban sprawl; middle class in passing,exclude
 W823248537,A12,india,A12_india_q5,10,"Housing for construction workers in Ahmedabad, India : is it possible to design sufficient housing for construction workers?",2015,dissertation,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4414525684,A12,india,A12_india_q5,11,"Assessing the Affordability Challenges of Rental Housing for the Middle-Income Group in Nayatola, Dhaka City",2025,article,1,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2297543630,A12,india,A12_india_q5,12,"Along the Bolivian Highway: Social Mobility and Political Culture in a New Middle Class ‐ by Shakow, Miriam",2016,article,0,True,include,6,rules,include
@@ -566,7 +566,7 @@ W2148077238,A12,india,A12_india_q5,15,From the slum to the house: towards a less
 W2111628008,A12,landmarks,A12_landmarks,1,Theories for social epidemiology in the 21st century: an ecosocial perspective,2001,article,2163,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2143538052,A12,landmarks,A12_landmarks,2,Deadly Symbiosis,2001,article,1219,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4388314589,A12,landmarks,A12_landmarks,3,The New Middle Class and the Remaking of the Central City,1997,book,959,True,include,5,rules,include
-W4294660296,A12,landmarks,A12_landmarks,4,American Apartheid: Segregation and the Making of the Underclass,1990,article,792,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4294660296,A12,landmarks,A12_landmarks,4,American Apartheid: Segregation and the Making of the Underclass,1990,article,792,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: racial segregation and the urban underclass (flag false positive),include
 W2605510553,A12,landmarks,A12_landmarks,5,National mental health survey of India 2015–2016,2017,article,683,True,exclude,3,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W2026482366,A12,landmarks,A12_landmarks,6,The new middle class and the remaking of the central city,1998,book-review,655,True,exclude,0,type book-review,exclude
 W4240078079,A12,landmarks,A12_landmarks,7,World Development Report 1990,1990,book,643,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -575,7 +575,7 @@ W2047416507,A12,landmarks,A12_landmarks,9,"Screening culture, viewing politics: 
 W1495304277,A12,landmarks,A12_landmarks,10,Poverty Lines in Theory and Practice,1998,book,554,True,include,3,rules,include
 W2804573503,A12,landmarks,A12_landmarks,11,Ore-forming processes within granitic pegmatites,2018,article,552,False,exclude,0,core concept missing,exclude
 W2053919327,A12,landmarks,A12_landmarks,12,The Edge and the Center: Gated Communities and the Discourse of Urban Fear,2001,article,550,True,include,2,rules,include
-W4237078488,A12,landmarks,A12_landmarks,13,Footloose Labour,1996,book,532,True,borderline,1,core concept mentioned once,pending
+W4237078488,A12,landmarks,A12_landmarks,13,Footloose Labour,1996,book,532,True,borderline,1,core concept mentioned once | manual: footloose labour (A10/A11); caste in passing,exclude
 W68028625,A12,landmarks,A12_landmarks,14,"Economic, social, and environmental sustainability in development theory and urban planning practice",1998,article,522,False,exclude,0,core concept missing,exclude
 W2013369049,A12,landmarks,A12_landmarks,15,"Attitudes on Residential Integration: Perceived Status Differences, Mere In-Group Preference, or Racial Prejudice?",1996,article,505,True,include,3,rules,include
 W2312799581,A12,landmarks,A12_landmarks,16,"The limits of racial domination: plebeian society in colonial Mexico City, 1660-1720",1994,book-review,501,True,exclude,0,type book-review,exclude
@@ -590,22 +590,22 @@ W1565021332,A12,landmarks,A12_landmarks,24,"Toxic communities: environmental rac
 W2148132360,A12,landmarks,A12_landmarks,25,"Does Socioeconomic Status Matter? Race, Class, and Residential Segregation",2006,article,353,True,include,6,rules,include
 W2049529547,A12,landmarks,A12_landmarks,26,Shifting Boundaries: An Experimental Evaluation of a Dating Violence Prevention Program in Middle Schools,2012,article,348,False,exclude,0,core concept missing,exclude
 W2884694394,A12,landmarks,A12_landmarks,27,Neurodevelopmental disorders in children aged 2–9 years: Population-based burden estimates across five regions in India,2018,article,347,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W3045745783,A12,landmarks,A12_landmarks,28,"Enchantments of Modernity: Empire, Nation, Globalization",2009,book,343,True,borderline,1,core concept mentioned once,pending
+W3045745783,A12,landmarks,A12_landmarks,28,"Enchantments of Modernity: Empire, Nation, Globalization",2009,book,343,True,borderline,1,core concept mentioned once | manual: modernity essays,exclude
 W1495823048,A12,landmarks,A12_landmarks,29,Business Ethics: Readings and Cases in Corporate Morality,1989,book,338,True,include,2,rules,include
 W4385362789,A12,landmarks,A12_landmarks,30,The Sum of Us: What Racism Costs Everyone and How We Can Prosper Together,2021,article,336,True,include,3,rules,include
-W2064600320,A12,landmarks,A12_landmarks,31,Does Race Matter in Neighborhood Preferences? Results from a Video Experiment,2009,article,332,True,borderline,1,core concept mentioned once,pending
+W2064600320,A12,landmarks,A12_landmarks,31,Does Race Matter in Neighborhood Preferences? Results from a Video Experiment,2009,article,332,True,borderline,1,core concept mentioned once | manual: race and neighbourhood preferences / residential segregation,include
 W2157302262,A12,landmarks,A12_landmarks,32,"Distinguishing the geographic levels and social dimensions of U.S. metropolitan segregation, 1960–2000",2004,article,327,True,include,6,rules,include
-W1956162175,A12,landmarks,A12_landmarks,33,"Timepass: Youth, class, and time among unemployed young men in India",2010,article,326,True,borderline,1,core concept mentioned once,pending
-W1590189231,A12,landmarks,A12_landmarks,34,The American Class Structure in an Age of Growing Inequality,1997,book,326,True,borderline,1,core concept mentioned once,pending
+W1956162175,A12,landmarks,A12_landmarks,33,"Timepass: Youth, class, and time among unemployed young men in India",2010,article,326,True,borderline,1,"core concept mentioned once | manual: youth, class and caste among unemployed men in an Indian city",include
+W1590189231,A12,landmarks,A12_landmarks,34,The American Class Structure in an Age of Growing Inequality,1997,book,326,True,borderline,1,core concept mentioned once | manual: national class structure textbook,exclude
 W2132751289,A12,landmarks,A12_landmarks,35,Morbidity profile and its relationship with disability and psychological distress among elderly people in Northern India,2003,article,325,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W4248097901,A12,landmarks,A12_landmarks,36,The New Urban Frontier,2005,book,318,True,borderline,1,core concept mentioned once,pending
+W4248097901,A12,landmarks,A12_landmarks,36,The New Urban Frontier,2005,book,318,True,borderline,1,core concept mentioned once | manual: gentrification (A4/A13); middle class in passing,exclude
 W2038979068,A12,landmarks,A12_landmarks,37,The Politics of the Urban Poor in Early Twentieth-Century India,2001,book,311,True,include,2,rules,include
 W2129072441,A12,landmarks,A12_landmarks,38,How segregation concentrates poverty,2000,article,300,True,include,6,core in title; context terms missing,include
 W2120180362,A12,landmarks,A12_landmarks,39,Peer to peer sexual harassment in early adolescence: A developmental perspective,2002,article,299,True,include,6,rules,include
 W1484484240,A12,landmarks,A12_landmarks,40,Educational governance and administration,1980,book,299,True,include,3,rules,include
 W2044786401,A12,landmarks,A12_landmarks,41,Gendered harassment in secondary schools: understanding teachers’ (non) interventions,2008,article,295,True,include,6,rules,include
-W1836282985,A12,landmarks,A12_landmarks,42,Footloose Labour; Working in India's Informal Economy,1996,book,294,True,borderline,1,core concept mentioned once,pending
-W2168087170,A12,landmarks,A12_landmarks,43,"The co-occurrence of childhood sexual abuse, adult sexual assault, intimate partner violence, and sexual harassment: A mediational model of posttraumatic stress disorder and physical health outcomes.",2008,article,291,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W1836282985,A12,landmarks,A12_landmarks,42,Footloose Labour; Working in India's Informal Economy,1996,book,294,True,borderline,1,core concept mentioned once | manual: footloose labour (duplicate record),exclude
+W2168087170,A12,landmarks,A12_landmarks,43,"The co-occurrence of childhood sexual abuse, adult sexual assault, intimate partner violence, and sexual harassment: A mediational model of posttraumatic stress disorder and physical health outcomes.",2008,article,291,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: violence co-occurrence clinical study,exclude
 W2140695475,A12,landmarks,A12_landmarks,44,Neighborhood Racial-Composition Preferences: Evidence from a Multiethnic Metropolis,2000,article,286,True,include,3,rules,include
 W4247780009,A12,landmarks,A12_landmarks,45,"Attitudes on Residential Integration: Perceived Status Differences, Mere In-Group Preference, or Racial Prejudice?",1996,article,283,True,include,3,rules,include
 W2169735527,A12,landmarks,A12_landmarks,46,Toward a New Macro-Segregation? Decomposing Segregation within and between Metropolitan Cities and Suburbs,2015,article,280,True,include,6,rules,include
@@ -624,7 +624,7 @@ W2033254534,A12,landmarks,A12_landmarks,58,Caste discrimination in the Indian ur
 W2138652680,A12,landmarks,A12_landmarks,59,Prevalence of β-thalassemia and other haemoglobinopathies in six cities in India: a multicentre study,2012,article,227,False,exclude,0,core concept missing,exclude
 W2900180634,A12,landmarks,A12_landmarks,60,"Getting Played: African American Girls, Urban Inequality, and Gendered Violence",2008,article,227,True,include,6,rules,include
 W2081038826,A12,landmarks,A12_landmarks,61,Rethinking urban South Africa,1995,article,227,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2163357513,A12,landmarks,A12_landmarks,62,Screening and counselling in the primary care setting for women who have experienced intimate partner violence (WEAVE): a cluster randomised controlled trial,2013,article,225,False,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2163357513,A12,landmarks,A12_landmarks,62,Screening and counselling in the primary care setting for women who have experienced intimate partner violence (WEAVE): a cluster randomised controlled trial,2013,article,225,False,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: randomised trial,exclude
 W2126082773,A12,landmarks,A12_landmarks,63,Fetal experience and good adult designa,2001,article,216,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2023302848,A12,landmarks,A12_landmarks,64,Overcoming Obstacles: Academic Achievement as a Response to Racism and Discrimination,1997,article,216,True,include,2,rules,include
 W2134956637,A12,landmarks,A12_landmarks,65,Microgeographies of Retailing and Gentrification,2001,article,215,True,include,2,rules,include
@@ -638,7 +638,7 @@ W2750976723,A12,landmarks,A12_landmarks,72,The Health Gap: The Challenge of an U
 W2039700324,A12,landmarks,A12_landmarks,73,"Neighborhood Opportunities, Race, and Class: The Black Middle Class and Residential Segregation",2004,article,204,True,include,6,rules,include
 W2001808793,A12,landmarks,A12_landmarks,74,Inequity in childhood immunization in India: A systematic review,2012,review,203,False,exclude,0,core concept missing,exclude
 W1977459440,A12,landmarks,A12_landmarks,75,Labor market discrimination in Delhi: Evidence from a field experiment,2008,article,200,False,exclude,0,core concept missing,exclude
-W2002047260,A12,landmarks,A12_landmarks,76,Even in Sweden,2000,book,200,True,borderline,2,context terms missing,pending
+W2002047260,A12,landmarks,A12_landmarks,76,Even in Sweden,2000,book,200,True,borderline,2,context terms missing | manual: racism and spatial segregation in Sweden,include
 W2089558073,A12,landmarks,A12_landmarks,77,Discrimination by design: a feminist critique of the man-made environment,1992,book-review,199,True,exclude,0,type book-review,exclude
 W2075989309,A12,landmarks,A12_landmarks,78,"The Racial Achievement Gap, Segregated Schools, and Segregated Neighborhoods: A Constitutional Insult",2014,article,195,False,include,3,no abstract; core (and context) in title,include
 W2040796081,A12,landmarks,A12_landmarks,79,China and the Knowledge Economy,2001,book,195,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
@@ -673,8 +673,8 @@ W7164666942,A12,recent,A12_recent_q1,7,Reclaiming the city: more-than-human soli
 W7132345700,A12,recent,A12_recent_q1,8,The invisible labour of belonging : uncovering gendered barriers to the right to the city through critical design,2025,dissertation,0,True,include,6,rules,include
 W7164052483,A12,recent,A12_recent_q1,9,The Night City and Female Existence Gendered Spatial Inequality and the Question of Spatial Justice in Urban India,2026,article,0,True,include,6,rules,include
 W7200722863,A12,recent,A12_recent_q1,10,"The Affective Right to the City: Young Female Immigrants’ Navigation of Fear, Difference and (Un-)Belonging in Berlin",2026,article,0,True,include,3,rules,include
-W4389896348,A12,recent,A12_recent_q1,11,Housing with care: queer geographies and the right to the city of LGBTQ+ urban communities. The Co-housing Queerinale/Agapanto project (Rome),2023,article,2,True,borderline,1,core concept mentioned once,pending
-W4390052357,A12,recent,A12_recent_q1,12,“That is why users do not understand the maps we make for them”: Cartographic gaps between experts and domestic workers and the Right to the City,2023,article,2,True,borderline,1,core concept mentioned once,pending
+W4389896348,A12,recent,A12_recent_q1,11,Housing with care: queer geographies and the right to the city of LGBTQ+ urban communities. The Co-housing Queerinale/Agapanto project (Rome),2023,article,2,True,borderline,1,core concept mentioned once | manual: feminist and queer geographies of housing and the right to the city,include
+W4390052357,A12,recent,A12_recent_q1,12,“That is why users do not understand the maps we make for them”: Cartographic gaps between experts and domestic workers and the Right to the City,2023,article,2,True,borderline,1,"core concept mentioned once | manual: domestic workers' commutes, feminist geography and the right to the city",include
 W7117713823,A12,recent,A12_recent_q1,13,"Identity Construction and Daily Life Practices of Females in Cross-Border Marriages: A Case Study of Vietnamese Brides in Pingxiang City, Guangxi, China",2025,article,0,True,include,3,rules,include
 W4409075339,A12,recent,A12_recent_q1,14,Publiskā telpa un dzimte. Teorētiskie un pētnieciskie aspekti. Uzvaras parka pārstāstīšanas piemērs,2024,article,0,True,include,3,rules,include
 W7163414948,A12,recent,A12_recent_q1,15,Imagined Feminist Cartographies,2026,article,0,True,include,6,rules,include
@@ -682,12 +682,12 @@ W4366364662,A12,recent,A12_recent_q2,1,Women's access to urban public transport:
 W4323049922,A12,recent,A12_recent_q2,2,Sexual Harassment in Public Transport in Dhaka City: A Socio-legal Assessment,2023,article,5,True,include,6,rules,include
 W4409200419,A12,recent,A12_recent_q2,3,A Study on Sexual Harassment against Women in Public Transport: Dhaka City Badda Area,2025,article,0,True,include,6,rules,include
 W4309623106,A12,recent,A12_recent_q2,4,Gendered Interactions Mediated by Design: Sexual Harassment on Public Transport,2022,article,8,True,include,6,core in title; context terms missing,include
-W4280515091,A12,recent,A12_recent_q2,5,"Sexual harassment on public transport: a survey study of Rawalpindi, Pakistan",2022,article,13,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4280515091,A12,recent,A12_recent_q2,5,"Sexual harassment on public transport: a survey study of Rawalpindi, Pakistan",2022,article,13,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: sexual harassment on public transport, Rawalpindi",include
 W4405234565,A12,recent,A12_recent_q2,6,Mobility Injustice: Women's Safety on Public Transport,2024,preprint,1,False,include,3,no abstract; core in title; context terms missing,include
 W7135624343,A12,recent,A12_recent_q2,7,Strategic plan for communication of sexual harassment in public transport,2025,dissertation,0,True,include,5,rules,include
 W7217639599,A12,recent,A12_recent_q2,8,Women’s Experiences of Sexual Harassment in Makassar’s Public Transport System,2026,article,0,True,include,6,rules,include
 W4389724223,A12,recent,A12_recent_q2,9,Ruang Bersama: Monitoring Application for Sexual Harassment in Public Transport,2023,conference-paper,3,True,include,5,core in title; context terms missing,include
-W4412818473,A12,recent,A12_recent_q2,10,Sexual harassment on public transport and its impact on women,2024,article,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4412818473,A12,recent,A12_recent_q2,10,Sexual harassment on public transport and its impact on women,2024,article,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: sexual harassment on public transport,include
 W7115738387,A12,recent,A12_recent_q2,11,Street Sexual Harassment and Victim Responses,2025,preprint,0,True,include,5,rules,include
 W4288384510,A12,recent,A12_recent_q2,12,Development of a framework for addressing sexual harassment in public transport,2022,preprint,1,True,include,6,core in title; context terms missing,include
 W7135861793,A12,recent,A12_recent_q2,13,Public sector communication campaign: Campaign against sexual harassment in public transport,2025,dissertation,0,True,include,6,core in title; context terms missing,include
@@ -709,7 +709,7 @@ W4316591222,A12,recent,A12_recent_q3,13,"Gender, Caste, and Class in Transnation
 W7154422388,A12,recent,A12_recent_q3,14,Caste-ized Cities: Sweepers in Early Twentieth-Century United Provinces,2026,article,0,True,include,6,rules,include
 W4399053459,A12,recent,A12_recent_q3,15,Impact of Urban Migration on Caste: Rohinton Mistry’s A Fine Balance and Rural-to-Urban Caste Migration in India,2024,article,2,True,include,6,rules,include
 W4396765865,A12,recent,A12_recent_q4,1,"Negotiating class, religion, and residential segregation: Aspirations of Muslim middle‐class women in Delhi",2024,article,2,True,include,6,rules,include
-W7220721483,A12,recent,A12_recent_q4,2,Spatial Segregation and Caste in Imayam’s Beasts of Burden,2026,article,0,True,borderline,3,stub abstract (possible book review),pending
+W7220721483,A12,recent,A12_recent_q4,2,Spatial Segregation and Caste in Imayam’s Beasts of Burden,2026,article,0,True,borderline,3,stub abstract (possible book review) | manual: spatial segregation and caste (literary),include
 W4388040717,A12,recent,A12_recent_q4,3,Residential Segregation,2023,reference-entry,5,True,include,6,rules,include
 W4396632192,A12,recent,A12_recent_q4,4,Ethnic closure and immigrant residential segregation in Spanish working-class neighbourhoods,2024,article,12,True,include,5,rules,include
 W7169859794,A12,recent,A12_recent_q4,5,Residential Segregation in an Urbanizing India,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
@@ -720,21 +720,21 @@ W7130507931,A12,recent,A12_recent_q4,9,"Caste, class, city and choice: Unravelli
 W7140990417,A12,recent,A12_recent_q4,10,Socio-Spatial Segregation in Indian Cities: Legal Violence and the Marginalization of Muslim Communities,2025,article,0,True,include,6,rules,include
 W7202070593,A12,recent,A12_recent_q4,11,Socio-Spatial Segregation in Indian Cities: Legal Violence and the Marginalization of Muslim Communities,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W7167938841,A12,recent,A12_recent_q4,12,Partnership Formation Within Fiqh Muamalah of Toleration: Religious Residential Segregation in Muslim Minority Communities in France,2026,article,0,True,include,6,rules,include
-W4417278572,A12,recent,A12_recent_q4,13,The Atmospheric Cost of Class-Based Spatial Segregation in Nineteenth-Century Paris,2025,article,0,True,borderline,3,stub abstract (possible book review),pending
+W4417278572,A12,recent,A12_recent_q4,13,The Atmospheric Cost of Class-Based Spatial Segregation in Nineteenth-Century Paris,2025,article,0,True,borderline,3,stub abstract (possible book review) | manual: class-based spatial segregation in 19th-century Paris,include
 W4316372428,A12,recent,A12_recent_q4,14,"Ethnic residential segregation in the city of Milan at the interplay between social class, housing and labour market",2023,article,24,True,include,5,rules,include
 W4409257093,A12,recent,A12_recent_q4,15,Spatial segregation and neighbourhood change,2024,preprint,3,True,include,6,rules,include
 W4388098547,A12,recent,A12_recent_q5,1,The new middle class in the global South,2023,book-chapter,0,True,include,4,rules,include
 W4415724698,A12,recent,A12_recent_q5,2,"From an ‘organic city’ to a ‘commercial hub’: Symbolic capital, place‐making and the new middle class in Rajarhat",2025,article,0,True,include,3,rules,include
 W7201831791,A12,recent,A12_recent_q5,3,India's New Middle Class and the Crisis of Conscience in Aravind Adiga's Fiction,2026,article,0,True,include,5,rules,include
 W4323057833,A12,recent,A12_recent_q5,4,Episode 9: Outsiders and the City,2023,book-chapter,0,False,exclude,0,core concept missing,exclude
-W4212885006,A12,recent,A12_recent_q5,5,"Crime Film and the City: Imagining Toronto through Entanglements of Place, Culture, and Crime",2022,article,1,True,borderline,1,core concept mentioned once,pending
+W4212885006,A12,recent,A12_recent_q5,5,"Crime Film and the City: Imagining Toronto through Entanglements of Place, Culture, and Crime",2022,article,1,True,borderline,1,core concept mentioned once | manual: crime film and Toronto,exclude
 W4414525684,A12,recent,A12_recent_q5,6,"Assessing the Affordability Challenges of Rental Housing for the Middle-Income Group in Nayatola, Dhaka City",2025,article,1,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7215451123,A12,recent,A12_recent_q5,7,"EFFECT OF ENTREPRENEURIAL ORIENTATION ON THE PERFORMANCE OF SMALL AND MEDIUM SIZE ORGANIZATIONS IN NAIROBI CITY COUNTY, KENYA",2024,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7212010226,A12,recent,A12_recent_q5,8,The Transformation of Women’s Residential Space in the Gentrification Process of Wuhan’s Old City: A Case Study of Hankou Historic District,2026,article,0,True,include,6,rules,include
 W4379057755,A12,recent,A12_recent_q5,9,The Spatial Dimension of Social Stratification in Germany—Are Social Class Differentials in Place of Residence Increasing?,2023,article,8,True,include,3,rules,include
-W4312236511,A12,recent,A12_recent_q5,10,La obra de Dickens y las representaciones de la ciudad industrial de Londres en el siglo XIX,2022,book-chapter,0,True,borderline,1,core concept mentioned once,pending
+W4312236511,A12,recent,A12_recent_q5,10,La obra de Dickens y las representaciones de la ciudad industrial de Londres en el siglo XIX,2022,book-chapter,0,True,borderline,1,core concept mentioned once | manual: Dickens and industrial London,exclude
 W7143299468,A12,recent,A12_recent_q5,11,Filtering for purity: middle-class attitudes to water in urban India,2026,article,1,True,include,4,rules,include
-W7207664510,A12,recent,A12_recent_q5,12,新中間層の学習活動と社会教育行政による支援の両価的関係 : 高度経済成長期における西武庫団地を事例として,2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7207664510,A12,recent,A12_recent_q5,12,新中間層の学習活動と社会教育行政による支援の両価的関係 : 高度経済成長期における西武庫団地を事例として,2026,article,0,True,borderline,1,core concept mentioned once | manual: learning activities of Japanese housing-estate residents,exclude
 W4386839243,A12,recent,A12_recent_q5,13,The Middle Class in Neo-Urban India,2023,book,1,True,include,6,rules,include
 W4411973620,A12,recent,A12_recent_q5,14,The enlightenment self as ‘subject to’ King and Divinity,2025,book-chapter,0,True,include,3,rules,include
 W4308735335,A12,recent,A12_recent_q5,15,"Constructing a Classed Community in Kiryat Eilon (H-300) in Holon: A ""Popular-Class"" Community on Mizrahi ""Building Blocks""",2022,article,3,True,include,3,rules,include
