@@ -1,0 +1,79 @@
+{
+ "theme": "A8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"transport equity\" OR \"transport justice\" OR \"transport disadvantage\" OR \"mobility justice\" OR \"transport poverty\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"transport equity\" OR \"transport justice\" OR \"transport disadvantage\" OR \"mobility justice\" OR \"transport poverty\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"mobility justice\" OR \"transport disadvantage\" OR \"transport equity\" OR \"transport justice\" OR \"transport poverty\")",
+ "page": 1,
+ "total_results": 1028,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A8_recent_q2.json.gz",
+ "results": [
+  [
+   "W4401605440",
+   2024
+  ],
+  [
+   "W4401605397",
+   2024
+  ],
+  [
+   "W4401605594",
+   2024
+  ],
+  [
+   "W7163022325",
+   2026
+  ],
+  [
+   "W7169556154",
+   2026
+  ],
+  [
+   "W4414587821",
+   2025
+  ],
+  [
+   "W4413640574",
+   2025
+  ],
+  [
+   "W4416020890",
+   2025
+  ],
+  [
+   "W7163036914",
+   2026
+  ],
+  [
+   "W4406713822",
+   2025
+  ],
+  [
+   "W4387971836",
+   2023
+  ],
+  [
+   "W7171740636",
+   2026
+  ],
+  [
+   "W4385997913",
+   2023
+  ],
+  [
+   "W4388940975",
+   2023
+  ],
+  [
+   "W4388941086",
+   2023
+  ]
+ ]
+}

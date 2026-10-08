@@ -147,7 +147,7 @@ def shortlist_tag(text, haryana):
 
 
 # --------------------------------------------------------------------------- screening
-def screen(title, abstract, kw_text, req, flags, domain):
+def screen(title, abstract, kw_text, req, flags, domain, slice_name=""):
     """Return (decision, score, reason). Rules v3 (Stage 2), calibrated on the 202 Stage 1
     manual decisions so that borderline cases stay under 25% per theme.
 
@@ -160,8 +160,9 @@ def screen(title, abstract, kw_text, req, flags, domain):
     kw_core = bool(core.search(kw_text))
     score = 3 * core_title + min(core_rest, 3)
     if not core_title and core_rest == 0:
-        if not has_abs and kw_core:
-            return "borderline", 0, "no abstract; core only in OpenAlex keyword tags"
+        # (a record without an abstract in the API record matched an abstract OpenAlex holds but
+        # does not distribute, e.g. Elsevier; in A1/A2 landmarks 35 of 35 such records were
+        # off-topic, so they are excluded too)
         return "exclude", 0, "core concept missing"
     ctx_ok = all(r.search(full) for r in context)
     flagged = [f.pattern[:40] for f in flags if f.search(full)]
@@ -172,6 +173,8 @@ def screen(title, abstract, kw_text, req, flags, domain):
     if not has_abs:
         if ctx_ok:
             return "include", score, "no abstract; core (and context) in title"
+        if domain != "C":
+            return "include", score, "no abstract; core in title; context terms missing"
         return "borderline", score, "no abstract; context terms missing"
     if len(abstract) < 250 or re.search(r"^\W*\"?[^.]{5,200}\"?\s*,?\s*\d+\s*\(\d+\),?\s*pp?\.", abstract):
         if core_title:
@@ -277,7 +280,7 @@ def main(themes_wanted):
                 # OpenAlex keyword tags are not used as evidence of relevance on their own: in
                 # testing they attached e.g. "digital identity" to education papers. They only
                 # decide whether a single core mention goes to review or is excluded.
-                d, sc_, r = screen(title, abstract, kw, req, flags, domain)
+                d, sc_, r = screen(title, abstract, kw, req, flags, domain, m["slice"])
                 c.update(decision=d, score=sc_, reason=r)
             c["final"] = c["decision"]
             c["rule_reason"] = c["reason"]

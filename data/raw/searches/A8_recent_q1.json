@@ -1,0 +1,79 @@
+{
+ "theme": "A8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban mobility\" AND (social OR equity OR justice OR everyday OR politics)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban mobility\" AND (social OR equity OR justice OR everyday OR politics),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban mobility\" AND (\"equity\" OR \"everyday\" OR \"justice\" OR \"politics\" OR \"social\"))",
+ "page": 1,
+ "total_results": 2379,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A8_recent_q1.json.gz",
+ "results": [
+  [
+   "W4410222370",
+   2025
+  ],
+  [
+   "W7128377137",
+   2024
+  ],
+  [
+   "W4410899828",
+   2025
+  ],
+  [
+   "W7153305377",
+   2025
+  ],
+  [
+   "W4414036410",
+   2023
+  ],
+  [
+   "W4386336813",
+   2023
+  ],
+  [
+   "W7213597315",
+   2026
+  ],
+  [
+   "W4414652324",
+   2025
+  ],
+  [
+   "W4398178193",
+   2024
+  ],
+  [
+   "W4412807784",
+   2025
+  ],
+  [
+   "W7131318306",
+   2026
+  ],
+  [
+   "W7202343205",
+   2026
+  ],
+  [
+   "W7214256564",
+   2022
+  ],
+  [
+   "W4393366541",
+   2022
+  ],
+  [
+   "W4411342780",
+   2025
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "A3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban informality\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban informality\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban informality\")",
+ "page": 1,
+ "total_results": 502,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A3_recent_q2.json.gz",
+ "results": [
+  [
+   "W4399843891",
+   2024
+  ],
+  [
+   "W4362665773",
+   2023
+  ],
+  [
+   "W4399934691",
+   2024
+  ],
+  [
+   "W7140298490",
+   2026
+  ],
+  [
+   "W4378677709",
+   2023
+  ],
+  [
+   "W4399843855",
+   2024
+  ],
+  [
+   "W4399934661",
+   2024
+  ],
+  [
+   "W4416082497",
+   2025
+  ],
+  [
+   "W7208142133",
+   2024
+  ],
+  [
+   "W7203566943",
+   2026
+  ],
+  [
+   "W7125515420",
+   2026
+  ],
+  [
+   "W4317103859",
+   2023
+  ],
+  [
+   "W4412109968",
+   2025
+  ],
+  [
+   "W4292836184",
+   2022
+  ],
+  [
+   "W4381337418",
+   2023
+  ],
+  [
+   "W4391547069",
+   2024
+  ],
+  [
+   "W7211959503",
+   2026
+  ],
+  [
+   "W4392691835",
+   2024
+  ]
+ ]
+}

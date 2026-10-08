@@ -1,0 +1,79 @@
+{
+ "theme": "A5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR \"land grab\" AND urban",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR \"land grab\" AND urban,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR (\"land grab\" AND \"urban\"))",
+ "page": 1,
+ "total_results": 20,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A5_recent_q4.json.gz",
+ "results": [
+  [
+   "W4225660536",
+   2022
+  ],
+  [
+   "W4312067694",
+   2022
+  ],
+  [
+   "W4401710594",
+   2024
+  ],
+  [
+   "W4220675660",
+   2022
+  ],
+  [
+   "W4379230393",
+   2023
+  ],
+  [
+   "W7124123274",
+   2025
+  ],
+  [
+   "W7123390409",
+   2026
+  ],
+  [
+   "W3213344128",
+   2026
+  ],
+  [
+   "W4392807126",
+   2024
+  ],
+  [
+   "W4408703522",
+   2025
+  ],
+  [
+   "W4391956229",
+   2024
+  ],
+  [
+   "W4409654576",
+   2025
+  ],
+  [
+   "W4388020069",
+   2023
+  ],
+  [
+   "W7127654475",
+   2025
+  ],
+  [
+   "W4224864733",
+   2022
+  ]
+ ]
+}

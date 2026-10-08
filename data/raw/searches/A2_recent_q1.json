@@ -1,0 +1,91 @@
+{
+ "theme": "A2",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"master plan\" AND (city OR urban)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"master plan\" AND (city OR urban),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"master plan\" AND (\"city\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 1904,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A2_recent_q1.json.gz",
+ "results": [
+  [
+   "W7161487767",
+   2026
+  ],
+  [
+   "W4388427029",
+   2023
+  ],
+  [
+   "W4302299225",
+   2022
+  ],
+  [
+   "W4220699165",
+   2022
+  ],
+  [
+   "W4404834194",
+   2024
+  ],
+  [
+   "W4386028696",
+   2023
+  ],
+  [
+   "W7213651793",
+   2026
+  ],
+  [
+   "W7135049094",
+   2026
+  ],
+  [
+   "W7135034477",
+   2026
+  ],
+  [
+   "W7154657704",
+   2024
+  ],
+  [
+   "W4416126708",
+   2025
+  ],
+  [
+   "W7162210129",
+   2026
+  ],
+  [
+   "W7208790202",
+   2026
+  ],
+  [
+   "W7159911008",
+   2026
+  ],
+  [
+   "W4413651307",
+   2025
+  ],
+  [
+   "W4406244314",
+   2024
+  ],
+  [
+   "W4387776303",
+   2023
+  ],
+  [
+   "W7120787242",
+   2024
+  ]
+ ]
+}

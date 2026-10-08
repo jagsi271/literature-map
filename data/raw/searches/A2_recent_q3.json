@@ -1,0 +1,91 @@
+{
+ "theme": "A2",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban planning\" AND (planners OR \"planning system\" OR \"planning systems\" OR \"planning practice\" OR \"planning policy\" OR \"planning politics\" OR \"politics of planning\" OR \"planning regime\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban planning\" AND (planners OR \"planning system\" OR \"planning systems\" OR \"planning practice\" OR \"planning policy\" OR \"planning politics\" OR \"politics of planning\" OR \"planning regime\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban planning\" AND (\"planning policy\" OR \"planning politics\" OR \"planning practice\" OR \"planning regime\" OR \"planning system\" OR \"planning systems\" OR \"politics of planning\" OR \"planners\"))",
+ "page": 1,
+ "total_results": 5247,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A2_recent_q3.json.gz",
+ "results": [
+  [
+   "W4281927149",
+   2022
+  ],
+  [
+   "W4283813587",
+   2022
+  ],
+  [
+   "W4328017632",
+   2022
+  ],
+  [
+   "W4417442299",
+   2025
+  ],
+  [
+   "W4391495191",
+   2023
+  ],
+  [
+   "W4409150295",
+   2025
+  ],
+  [
+   "W7160195181",
+   2026
+  ],
+  [
+   "W7160755569",
+   2026
+  ],
+  [
+   "W4366178216",
+   2023
+  ],
+  [
+   "W4293052160",
+   2022
+  ],
+  [
+   "W7161482392",
+   2026
+  ],
+  [
+   "W4377822983",
+   2023
+  ],
+  [
+   "W4312524808",
+   2022
+  ],
+  [
+   "W7204062267",
+   2026
+  ],
+  [
+   "W4409819733",
+   2025
+  ],
+  [
+   "W7151977251",
+   2023
+  ],
+  [
+   "W7207634521",
+   2026
+  ],
+  [
+   "W7168353082",
+   2026
+  ]
+ ]
+}

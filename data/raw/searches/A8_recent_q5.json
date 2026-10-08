@@ -1,0 +1,79 @@
+{
+ "theme": "A8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"mobilities\" AND (urban OR city) AND (social OR everyday)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"mobilities\" AND (urban OR city) AND (social OR everyday),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"mobilities\" AND (\"city\" OR \"urban\") AND (\"everyday\" OR \"social\"))",
+ "page": 1,
+ "total_results": 541,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A8_recent_q5.json.gz",
+ "results": [
+  [
+   "W3189731318",
+   2022
+  ],
+  [
+   "W4310439327",
+   2022
+  ],
+  [
+   "W4386745620",
+   2023
+  ],
+  [
+   "W4411474609",
+   2025
+  ],
+  [
+   "W7162759201",
+   2026
+  ],
+  [
+   "W7109563240",
+   2025
+  ],
+  [
+   "W4317888252",
+   2023
+  ],
+  [
+   "W4319831744",
+   2023
+  ],
+  [
+   "W4360619061",
+   2023
+  ],
+  [
+   "W4415475859",
+   2025
+  ],
+  [
+   "W4376138593",
+   2023
+  ],
+  [
+   "W4399488825",
+   2024
+  ],
+  [
+   "W7170171203",
+   2026
+  ],
+  [
+   "W4366518153",
+   2023
+  ],
+  [
+   "W4401101618",
+   2024
+  ]
+ ]
+}

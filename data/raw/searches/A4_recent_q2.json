@@ -1,0 +1,91 @@
+{
+ "theme": "A4",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "resettlement AND (urban OR slum OR city OR \"informal settlement\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:resettlement AND (urban OR slum OR city OR \"informal settlement\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"resettlement\" AND (\"informal settlement\" OR \"city\" OR \"slum\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 1482,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A4_recent_q2.json.gz",
+ "results": [
+  [
+   "W7167895648",
+   2026
+  ],
+  [
+   "W7167893318",
+   2026
+  ],
+  [
+   "W7167939362",
+   2026
+  ],
+  [
+   "W4413017269",
+   2025
+  ],
+  [
+   "W4394015086",
+   2024
+  ],
+  [
+   "W4387975647",
+   2023
+  ],
+  [
+   "W7217166611",
+   2026
+  ],
+  [
+   "W4393063521",
+   2024
+  ],
+  [
+   "W4410704576",
+   2025
+  ],
+  [
+   "W4408963250",
+   2025
+  ],
+  [
+   "W7203758154",
+   2026
+  ],
+  [
+   "W4382775150",
+   2023
+  ],
+  [
+   "W4210407330",
+   2022
+  ],
+  [
+   "W4290755526",
+   2022
+  ],
+  [
+   "W7171296245",
+   2026
+  ],
+  [
+   "W4390557419",
+   2023
+  ],
+  [
+   "W4399895469",
+   2024
+  ],
+  [
+   "W4297582552",
+   2022
+  ]
+ ]
+}

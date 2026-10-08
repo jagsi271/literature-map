@@ -205,6 +205,16 @@ def index_response(cache_rel: str, resp: dict):
     (RAW / "works_index.json").write_text(json.dumps(idx, indent=0, sort_keys=True))
 
 
+def rebuild_index():
+    """Rebuild data/raw/works_index.json from every cached search response (use after deleting
+    a cached response, e.g. when a query is revised)."""
+    global _INDEX
+    _INDEX = {}
+    for p in sorted((RAW / "api").glob("search_*.json.gz")):
+        index_response(str(p.relative_to(ROOT)), _read_cache(p))
+    return len(_INDEX)
+
+
 def load_work(wid: str):
     """Cached OpenAlex work record: Stage 1 single lookups (data/raw/works/{id}.json) or the
     Stage 2 search response that returned it (via data/raw/works_index.json)."""
@@ -218,3 +228,8 @@ def load_work(wid: str):
         body = _read_cache(ROOT / rel)
         _FILE_CACHE[rel] = {w["id"].rsplit("/", 1)[-1]: w for w in body["results"]}
     return _FILE_CACHE[rel][wid]
+
+
+if __name__ == "__main__":
+    if sys.argv[1:] == ["rebuild-index"]:
+        print("indexed works:", rebuild_index())

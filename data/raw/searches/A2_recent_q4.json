@@ -1,0 +1,91 @@
+{
+ "theme": "A2",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"development control\" OR \"planning regulation\" OR \"building regulations\" OR \"planning law\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"development control\" OR \"planning regulation\" OR \"building regulations\" OR \"planning law\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"building regulations\" OR \"development control\" OR \"planning law\" OR \"planning regulation\")",
+ "page": 1,
+ "total_results": 2767,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A2_recent_q4.json.gz",
+ "results": [
+  [
+   "W7162553458",
+   2026
+  ],
+  [
+   "W4417438198",
+   2025
+  ],
+  [
+   "W4310914468",
+   2022
+  ],
+  [
+   "W7137471778",
+   2026
+  ],
+  [
+   "W4412945810",
+   2025
+  ],
+  [
+   "W7116091286",
+   2025
+  ],
+  [
+   "W4286210801",
+   2022
+  ],
+  [
+   "W2886247788",
+   2022
+  ],
+  [
+   "W4398166957",
+   2024
+  ],
+  [
+   "W4407610764",
+   2025
+  ],
+  [
+   "W4223959960",
+   2022
+  ],
+  [
+   "W7119269444",
+   2025
+  ],
+  [
+   "W4415160281",
+   2025
+  ],
+  [
+   "W4295345371",
+   2022
+  ],
+  [
+   "W7118259256",
+   2026
+  ],
+  [
+   "W7199555196",
+   2024
+  ],
+  [
+   "W4417435445",
+   2025
+  ],
+  [
+   "W4407610598",
+   2025
+  ]
+ ]
+}

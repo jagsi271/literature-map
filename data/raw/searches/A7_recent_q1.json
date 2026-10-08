@@ -1,0 +1,79 @@
+{
+ "theme": "A7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban water\" AND (governance OR politics OR access OR supply OR inequality)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban water\" AND (governance OR politics OR access OR supply OR inequality),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban water\" AND (\"access\" OR \"governance\" OR \"inequality\" OR \"politics\" OR \"supply\"))",
+ "page": 1,
+ "total_results": 2831,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A7_recent_q1.json.gz",
+ "results": [
+  [
+   "W4285272994",
+   2022
+  ],
+  [
+   "W4283749521",
+   2022
+  ],
+  [
+   "W4293202106",
+   2022
+  ],
+  [
+   "W4283760702",
+   2022
+  ],
+  [
+   "W4413464675",
+   2025
+  ],
+  [
+   "W7132838974",
+   2026
+  ],
+  [
+   "W4404395142",
+   2024
+  ],
+  [
+   "W4283751544",
+   2022
+  ],
+  [
+   "W4282961753",
+   2022
+  ],
+  [
+   "W4412151944",
+   2025
+  ],
+  [
+   "W4285160742",
+   2022
+  ],
+  [
+   "W4403381826",
+   2024
+  ],
+  [
+   "W4413758338",
+   2025
+  ],
+  [
+   "W4414005261",
+   2025
+  ],
+  [
+   "W7132568619",
+   2024
+  ]
+ ]
+}

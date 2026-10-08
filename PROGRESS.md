@@ -36,19 +36,26 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 <!-- AUTO:SCREENING -->
 | Theme | Name | Candidates | Rule incl. | Borderline (share) | Hand kept / dropped | Records found | Primary here |
 |---|---|---|---|---|---|---|---|
-| A1 | Urban governance, decentralisation & municipa | 289 | 196 | 67 (23%) | 28 / 39 | 207 | 207 |
-| A9 | Public space, publicness & the street | 196 | 110 | 43 (22%) | 27 / 16 | 130 | 130 |
-| B5 | Digital identity & digital public infrastruct | 177 | 110 | 40 (23%) | 14 / 26 | 117 | 117 |
-| C2 | Platform urbanism | 142 | 118 | 19 (13%) | 12 / 7 | 127 | 127 |
+| A1 | Urban governance, decentralisation & municipa | 289 | 212 | 39 (14%) | 17 / 22 | 207 | 206 |
+| A2 | Planning, master plans & land-use regulation | 239 | 160 | 12 (5%) | 3 / 9 | 156 | 154 |
+| A3 | Housing, informality & slums | 238 | 152 | 42 (18%) | 0 / 0 (+42 pending) | 136 | 133 |
+| A4 | Eviction, resettlement & displacement | 219 | 170 | 22 (10%) | 0 / 0 (+22 pending) | 161 | 159 |
+| A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 0 / 0 (+28 pending) | 135 | 135 |
+| A6 | Small towns, census towns & secondary cities | 237 | 125 | 16 (7%) | 0 / 0 (+16 pending) | 118 | 118 |
+| A7 | Urban infrastructure (water, sanitation, ener | 242 | 160 | 23 (10%) | 0 / 0 (+23 pending) | 153 | 147 |
+| A8 | Mobility & transport (social science) | 246 | 174 | 27 (11%) | 0 / 0 (+27 pending) | 167 | 165 |
+| A9 | Public space, publicness & the street | 196 | 114 | 28 (14%) | 17 / 11 | 130 | 129 |
+| B5 | Digital identity & digital public infrastruct | 177 | 114 | 28 (16%) | 7 / 21 | 117 | 117 |
+| C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 126 |
 
-Total deduplicated records: 581.
+Total deduplicated records: 1589.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
 <!-- AUTO:API -->
 | UTC day | Calls by this pipeline | Cost (USD) | ≈ searches | Credits left at last call |
 |---|---|---|---|---|
-| 2026-10-08 | 18 | 0.018 | 18 | 9420 |
+| 2026-10-08 | 90 | 0.090 | 90 | 8700 |
 <!-- /AUTO:API -->
 
 ## Stage 1 (pilot) — approved

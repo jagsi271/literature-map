@@ -1,0 +1,91 @@
+{
+ "theme": "A3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"affordable housing\" OR \"housing policy\" OR \"public housing\" OR \"social housing\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"affordable housing\" OR \"housing policy\" OR \"public housing\" OR \"social housing\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"affordable housing\" OR \"housing policy\" OR \"public housing\" OR \"social housing\")",
+ "page": 1,
+ "total_results": 16667,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A3_recent_q3.json.gz",
+ "results": [
+  [
+   "W4309450752",
+   2022
+  ],
+  [
+   "W4311511340",
+   2022
+  ],
+  [
+   "W4400914716",
+   2024
+  ],
+  [
+   "W4390608899",
+   2024
+  ],
+  [
+   "W4362646397",
+   2022
+  ],
+  [
+   "W4402422341",
+   2024
+  ],
+  [
+   "W4212922036",
+   2022
+  ],
+  [
+   "W4388565034",
+   2023
+  ],
+  [
+   "W4225787833",
+   2022
+  ],
+  [
+   "W7138948124",
+   2026
+  ],
+  [
+   "W4407884376",
+   2025
+  ],
+  [
+   "W7203911973",
+   2026
+  ],
+  [
+   "W4385187994",
+   2023
+  ],
+  [
+   "W4296556839",
+   2022
+  ],
+  [
+   "W4390671481",
+   2024
+  ],
+  [
+   "W7154130684",
+   2025
+  ],
+  [
+   "W7168341973",
+   2026
+  ],
+  [
+   "W7121320550",
+   2025
+  ]
+ ]
+}

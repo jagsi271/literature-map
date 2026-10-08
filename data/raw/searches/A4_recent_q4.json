@@ -1,0 +1,91 @@
+{
+ "theme": "A4",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "demolition AND (slum OR \"informal settlement\" OR squatter)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:demolition AND (slum OR \"informal settlement\" OR squatter),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"demolition\" AND (\"informal settlement\" OR \"slum\" OR \"squatter\"))",
+ "page": 1,
+ "total_results": 84,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A4_recent_q4.json.gz",
+ "results": [
+  [
+   "W7163332641",
+   2026
+  ],
+  [
+   "W7134989808",
+   2026
+  ],
+  [
+   "W7167895648",
+   2026
+  ],
+  [
+   "W7167893318",
+   2026
+  ],
+  [
+   "W7167939362",
+   2026
+  ],
+  [
+   "W7203759628",
+   2026
+  ],
+  [
+   "W4410244475",
+   2025
+  ],
+  [
+   "W4285172088",
+   2022
+  ],
+  [
+   "W4383271021",
+   2023
+  ],
+  [
+   "W4410383620",
+   2025
+  ],
+  [
+   "W7204460259",
+   2026
+  ],
+  [
+   "W4394828573",
+   2024
+  ],
+  [
+   "W4408966986",
+   2025
+  ],
+  [
+   "W7203463886",
+   2026
+  ],
+  [
+   "W4401702357",
+   2024
+  ],
+  [
+   "W4409450912",
+   2025
+  ],
+  [
+   "W4224298527",
+   2022
+  ],
+  [
+   "W4403482667",
+   2024
+  ]
+ ]
+}

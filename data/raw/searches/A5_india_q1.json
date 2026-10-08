@@ -1,0 +1,79 @@
+{
+ "theme": "A5",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"peri-urban\" OR periurban OR \"peri-urbanisation\" OR \"peri-urbanization\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"peri-urban\" OR periurban OR \"peri-urbanisation\" OR \"peri-urbanization\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"peri-urban\" OR \"peri-urbanisation\" OR \"peri-urbanization\" OR \"periurban\"))",
+ "page": 1,
+ "total_results": 4009,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A5_india_q1.json.gz",
+ "results": [
+  [
+   "W1521768263",
+   2006
+  ],
+  [
+   "W2119279648",
+   2009
+  ],
+  [
+   "W1826657996",
+   2016
+  ],
+  [
+   "W3186515553",
+   2021
+  ],
+  [
+   "W1998442380",
+   2007
+  ],
+  [
+   "W4200509827",
+   2021
+  ],
+  [
+   "W1980938050",
+   2003
+  ],
+  [
+   "W2769601555",
+   2017
+  ],
+  [
+   "W1480567212",
+   2005
+  ],
+  [
+   "W1531453666",
+   2002
+  ],
+  [
+   "W2069995083",
+   2007
+  ],
+  [
+   "W2070727702",
+   2002
+  ],
+  [
+   "W1762391685",
+   2015
+  ],
+  [
+   "W3012410829",
+   2012
+  ],
+  [
+   "W3109275930",
+   2020
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "A3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "slum OR slums OR \"informal settlement\" OR \"informal settlements\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:slum OR slums OR \"informal settlement\" OR \"informal settlements\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"informal settlement\" OR \"informal settlements\" OR \"slum\" OR \"slums\")",
+ "page": 1,
+ "total_results": 14684,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A3_recent_q1.json.gz",
+ "results": [
+  [
+   "W4316088449",
+   2022
+  ],
+  [
+   "W4407508174",
+   2025
+  ],
+  [
+   "W4316088545",
+   2022
+  ],
+  [
+   "W4297990572",
+   2022
+  ],
+  [
+   "W7214883152",
+   2024
+  ],
+  [
+   "W4308456716",
+   2022
+  ],
+  [
+   "W7159118425",
+   2025
+  ],
+  [
+   "W7107971735",
+   2025
+  ],
+  [
+   "W7203831272",
+   2026
+  ],
+  [
+   "W4211029623",
+   2022
+  ],
+  [
+   "W4406758488",
+   2025
+  ],
+  [
+   "W7131114038",
+   2025
+  ],
+  [
+   "W4316089774",
+   2022
+  ],
+  [
+   "W4401406257",
+   2024
+  ],
+  [
+   "W4390592173",
+   2023
+  ],
+  [
+   "W4395029646",
+   2024
+  ],
+  [
+   "W7155497084",
+   2026
+  ],
+  [
+   "W4409217973",
+   2025
+  ]
+ ]
+}

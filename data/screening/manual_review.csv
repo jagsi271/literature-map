@@ -268,3 +268,20 @@ W4323545716,A1,exclude,"Claude (manual review, Stage 2)",fiscal decentralisation
 W4408333749,A1,include,"Claude (manual review, Stage 2)",local government and decentralisation concepts
 W4414478924,A1,exclude,"Claude (manual review, Stage 2)",fiscal decentralisation and environmental efficiency
 W1971398141,A1,exclude,"Claude (manual review, Stage 2)",voter information experiment; decentralisation only as referendum topic
+W2149686728,A1,exclude,"Claude (manual review, Stage 2)","e-government evaluation framework (C8), no abstract"
+W3031802354,A1,exclude,"Claude (manual review, Stage 2)",blockchain 5G survey
+W2072800432,A1,exclude,"Claude (manual review, Stage 2)",city branding and the Olympics (A13)
+W2041421969,A1,exclude,"Claude (manual review, Stage 2)",soil contamination
+W2076628299,A1,exclude,"Claude (manual review, Stage 2)","shrinking cities, no governance focus visible"
+W2923263636,A2,include,"Claude (manual review, Stage 2)",master plan and urban green space in New Town Kolkata and Gurgaon
+W4232774776,A2,exclude,"Claude (manual review, Stage 2)",design of a single neighbourhood project
+W7212252161,A2,include,"Claude (manual review, Stage 2)",transit-oriented development policy and planning in Indian cities
+W2076611869,A2,exclude,"Claude (manual review, Stage 2)",flood vulnerability mapping (remote sensing)
+W2584823719,A2,exclude,"Claude (manual review, Stage 2)",urban heat island mitigation
+W2129004125,A2,exclude,"Claude (manual review, Stage 2)",sprawl and public health; zoning in passing
+W2110446249,A2,exclude,"Claude (manual review, Stage 2)",segregation and foreclosure
+W4211179209,A2,exclude,"Claude (manual review, Stage 2)",sprawl and public health
+W2159893857,A2,exclude,"Claude (manual review, Stage 2)",waste siting and race; zoning in passing
+W2121605199,A2,exclude,"Claude (manual review, Stage 2)",flood risk adaptation
+W2055616671,A2,exclude,"Claude (manual review, Stage 2)",urban economics of sprawl
+W4416126708,A2,include,"Claude (manual review, Stage 2)",effectiveness of the Varanasi master plan

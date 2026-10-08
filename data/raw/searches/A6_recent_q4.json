@@ -1,0 +1,91 @@
+{
+ "theme": "A6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"subaltern urbanization\" OR \"subaltern urbanisation\" OR \"small and medium towns\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"subaltern urbanization\" OR \"subaltern urbanisation\" OR \"small and medium towns\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"small and medium towns\" OR \"subaltern urbanisation\" OR \"subaltern urbanization\")",
+ "page": 1,
+ "total_results": 58,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A6_recent_q4.json.gz",
+ "results": [
+  [
+   "W4381125971",
+   2023
+  ],
+  [
+   "W4386883009",
+   2023
+  ],
+  [
+   "W7208714347",
+   2026
+  ],
+  [
+   "W4386884422",
+   2023
+  ],
+  [
+   "W4377028253",
+   2023
+  ],
+  [
+   "W4407952816",
+   2025
+  ],
+  [
+   "W4393159646",
+   2024
+  ],
+  [
+   "W7215647139",
+   2025
+  ],
+  [
+   "W4385732421",
+   2023
+  ],
+  [
+   "W4391104475",
+   2024
+  ],
+  [
+   "W4399884264",
+   2024
+  ],
+  [
+   "W7117349603",
+   2022
+  ],
+  [
+   "W4388526929",
+   2023
+  ],
+  [
+   "W4402852075",
+   2024
+  ],
+  [
+   "W7203787523",
+   2026
+  ],
+  [
+   "W7170650371",
+   2026
+  ],
+  [
+   "W7203786913",
+   2026
+  ],
+  [
+   "W7214214025",
+   2026
+  ]
+ ]
+}

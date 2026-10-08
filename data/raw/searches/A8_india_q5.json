@@ -1,0 +1,79 @@
+{
+ "theme": "A8",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"mobilities\" AND (urban OR city) AND (social OR everyday)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"mobilities\" AND (urban OR city) AND (social OR everyday)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"mobilities\" AND (\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"city\" OR \"urban\") AND (\"everyday\" OR \"social\"))",
+ "page": 1,
+ "total_results": 118,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A8_india_q5.json.gz",
+ "results": [
+  [
+   "W2981384515",
+   2019
+  ],
+  [
+   "W4401101618",
+   2024
+  ],
+  [
+   "W4308145596",
+   2022
+  ],
+  [
+   "W1565006939",
+   2015
+  ],
+  [
+   "W2102566515",
+   2015
+  ],
+  [
+   "W2794059229",
+   2018
+  ],
+  [
+   "W4415788678",
+   2025
+  ],
+  [
+   "W4363676552",
+   2023
+  ],
+  [
+   "W4366518153",
+   2023
+  ],
+  [
+   "W4220737526",
+   2022
+  ],
+  [
+   "W4407251252",
+   2025
+  ],
+  [
+   "W4361196055",
+   2023
+  ],
+  [
+   "W4415775678",
+   2025
+  ],
+  [
+   "W7140100857",
+   2026
+  ],
+  [
+   "W2904399505",
+   2018
+  ]
+ ]
+}

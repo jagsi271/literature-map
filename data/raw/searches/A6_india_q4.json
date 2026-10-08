@@ -1,0 +1,91 @@
+{
+ "theme": "A6",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"subaltern urbanization\" OR \"subaltern urbanisation\" OR \"small and medium towns\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"subaltern urbanization\" OR \"subaltern urbanisation\" OR \"small and medium towns\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"small and medium towns\" OR \"subaltern urbanisation\" OR \"subaltern urbanization\"))",
+ "page": 1,
+ "total_results": 107,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A6_india_q4.json.gz",
+ "results": [
+  [
+   "W2288730658",
+   2017
+  ],
+  [
+   "W4377028253",
+   2023
+  ],
+  [
+   "W3034493827",
+   2020
+  ],
+  [
+   "W2609601743",
+   2016
+  ],
+  [
+   "W2309061720",
+   2013
+  ],
+  [
+   "W4250507733",
+   2020
+  ],
+  [
+   "W3211504130",
+   2021
+  ],
+  [
+   "W2481244336",
+   1997
+  ],
+  [
+   "W7208714347",
+   2026
+  ],
+  [
+   "W3210889143",
+   2021
+  ],
+  [
+   "W4407952816",
+   2025
+  ],
+  [
+   "W2281373321",
+   1999
+  ],
+  [
+   "W2489450978",
+   1996
+  ],
+  [
+   "W652360465",
+   1998
+  ],
+  [
+   "W1528618327",
+   2013
+  ],
+  [
+   "W3006622238",
+   2018
+  ],
+  [
+   "W2792765153",
+   2018
+  ],
+  [
+   "W2906237929",
+   2018
+  ]
+ ]
+}

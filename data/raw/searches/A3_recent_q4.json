@@ -1,0 +1,91 @@
+{
+ "theme": "A3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"self-help housing\" OR \"slum upgrading\" OR \"slum redevelopment\" OR \"sites and services\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"self-help housing\" OR \"slum upgrading\" OR \"slum redevelopment\" OR \"sites and services\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"self-help housing\" OR \"sites and services\" OR \"slum redevelopment\" OR \"slum upgrading\")",
+ "page": 1,
+ "total_results": 513,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A3_recent_q4.json.gz",
+ "results": [
+  [
+   "W4395667162",
+   2024
+  ],
+  [
+   "W4409594223",
+   2023
+  ],
+  [
+   "W4380080817",
+   2023
+  ],
+  [
+   "W4320916552",
+   2023
+  ],
+  [
+   "W4411282870",
+   2025
+  ],
+  [
+   "W4386364447",
+   2023
+  ],
+  [
+   "W4312139062",
+   2022
+  ],
+  [
+   "W4210811234",
+   2022
+  ],
+  [
+   "W7170181873",
+   2024
+  ],
+  [
+   "W7170276920",
+   2026
+  ],
+  [
+   "W2920888380",
+   2025
+  ],
+  [
+   "W4307903611",
+   2022
+  ],
+  [
+   "W4210765331",
+   2022
+  ],
+  [
+   "W7214883152",
+   2024
+  ],
+  [
+   "W4283212945",
+   2022
+  ],
+  [
+   "W4285407513",
+   2022
+  ],
+  [
+   "W7216113744",
+   2025
+  ],
+  [
+   "W4213101586",
+   2022
+  ]
+ ]
+}

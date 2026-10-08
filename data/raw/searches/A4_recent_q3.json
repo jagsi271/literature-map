@@ -1,0 +1,91 @@
+{
+ "theme": "A4",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"development-induced displacement\" OR (displacement AND gentrification)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"development-induced displacement\" OR (displacement AND gentrification),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"development-induced displacement\" OR (\"displacement\" AND \"gentrification\"))",
+ "page": 1,
+ "total_results": 1580,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A4_recent_q3.json.gz",
+ "results": [
+  [
+   "W7204554617",
+   2026
+  ],
+  [
+   "W4292937703",
+   2022
+  ],
+  [
+   "W4412395076",
+   2025
+  ],
+  [
+   "W4393377817",
+   2024
+  ],
+  [
+   "W4220962030",
+   2022
+  ],
+  [
+   "W4298201593",
+   2022
+  ],
+  [
+   "W4323266735",
+   2023
+  ],
+  [
+   "W4402523023",
+   2024
+  ],
+  [
+   "W7159821289",
+   2026
+  ],
+  [
+   "W4417373746",
+   2025
+  ],
+  [
+   "W4417373762",
+   2025
+  ],
+  [
+   "W4403152890",
+   2024
+  ],
+  [
+   "W4417373750",
+   2025
+  ],
+  [
+   "W7148281248",
+   2026
+  ],
+  [
+   "W4417373767",
+   2025
+  ],
+  [
+   "W4417373760",
+   2025
+  ],
+  [
+   "W4379649121",
+   2023
+  ],
+  [
+   "W4392926576",
+   2024
+  ]
+ ]
+}

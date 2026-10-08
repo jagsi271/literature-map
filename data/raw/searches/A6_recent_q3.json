@@ -1,0 +1,91 @@
+{
+ "theme": "A6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"secondary cities\" OR \"secondary city\" OR \"intermediate cities\" OR \"medium-sized cities\" OR \"second-tier cities\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"secondary cities\" OR \"secondary city\" OR \"intermediate cities\" OR \"medium-sized cities\" OR \"second-tier cities\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"intermediate cities\" OR \"medium-sized cities\" OR \"second-tier cities\" OR \"secondary cities\" OR \"secondary city\")",
+ "page": 1,
+ "total_results": 3592,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A6_recent_q3.json.gz",
+ "results": [
+  [
+   "W4377197048",
+   2023
+  ],
+  [
+   "W4392284460",
+   2024
+  ],
+  [
+   "W4389481740",
+   2023
+  ],
+  [
+   "W4410557614",
+   2025
+  ],
+  [
+   "W4383684334",
+   2023
+  ],
+  [
+   "W4283787961",
+   2022
+  ],
+  [
+   "W7217713774",
+   2025
+  ],
+  [
+   "W4377822250",
+   2023
+  ],
+  [
+   "W4313249493",
+   2022
+  ],
+  [
+   "W4402732332",
+   2024
+  ],
+  [
+   "W4391489473",
+   2024
+  ],
+  [
+   "W4313887462",
+   2023
+  ],
+  [
+   "W4214590784",
+   2022
+  ],
+  [
+   "W4392881184",
+   2023
+  ],
+  [
+   "W4296784304",
+   2022
+  ],
+  [
+   "W4229367466",
+   2022
+  ],
+  [
+   "W4389469582",
+   2023
+  ],
+  [
+   "W4387518335",
+   2023
+  ]
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "theme": "A7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"infrastructural citizenship\" OR \"hydraulic citizenship\" OR \"infrastructural violence\" OR \"splintering urbanism\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"infrastructural citizenship\" OR \"hydraulic citizenship\" OR \"infrastructural violence\" OR \"splintering urbanism\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"hydraulic citizenship\" OR \"infrastructural citizenship\" OR \"infrastructural violence\" OR \"splintering urbanism\")",
+ "page": 1,
+ "total_results": 237,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A7_recent_q3.json.gz",
+ "results": [
+  [
+   "W4206382266",
+   2022
+  ],
+  [
+   "W4315588085",
+   2022
+  ],
+  [
+   "W4206267073",
+   2022
+  ],
+  [
+   "W4394601709",
+   2024
+  ],
+  [
+   "W4205903018",
+   2022
+  ],
+  [
+   "W4415432505",
+   2025
+  ],
+  [
+   "W4205927942",
+   2022
+  ],
+  [
+   "W4399830219",
+   2024
+  ],
+  [
+   "W4206713382",
+   2022
+  ],
+  [
+   "W4390140831",
+   2023
+  ],
+  [
+   "W4393133080",
+   2024
+  ],
+  [
+   "W4394933611",
+   2024
+  ],
+  [
+   "W7166522149",
+   2026
+  ],
+  [
+   "W4301765629",
+   2022
+  ],
+  [
+   "W4417147076",
+   2025
+  ]
+ ]
+}

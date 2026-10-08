@@ -1,0 +1,91 @@
+{
+ "theme": "A2",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"urban planning\" AND (planners OR \"planning system\" OR \"planning systems\" OR \"planning practice\" OR \"planning policy\" OR \"planning politics\" OR \"politics of planning\" OR \"planning regime\")) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"urban planning\" AND (planners OR \"planning system\" OR \"planning systems\" OR \"planning practice\" OR \"planning policy\" OR \"planning politics\" OR \"politics of planning\" OR \"planning regime\")) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"urban planning\" AND (\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"planning policy\" OR \"planning politics\" OR \"planning practice\" OR \"planning regime\" OR \"planning system\" OR \"planning systems\" OR \"politics of planning\" OR \"planners\"))",
+ "page": 1,
+ "total_results": 732,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A2_india_q3.json.gz",
+ "results": [
+  [
+   "W2558738920",
+   2016
+  ],
+  [
+   "W2146175242",
+   2011
+  ],
+  [
+   "W4221028099",
+   2022
+  ],
+  [
+   "W2033815807",
+   2010
+  ],
+  [
+   "W2766953410",
+   2017
+  ],
+  [
+   "W68028625",
+   1998
+  ],
+  [
+   "W637684067",
+   1982
+  ],
+  [
+   "W7112602321",
+   2012
+  ],
+  [
+   "W2741917482",
+   2012
+  ],
+  [
+   "W4285243416",
+   2022
+  ],
+  [
+   "W4214911112",
+   2022
+  ],
+  [
+   "W3216604036",
+   2021
+  ],
+  [
+   "W2397879283",
+   2015
+  ],
+  [
+   "W2801439946",
+   2018
+  ],
+  [
+   "W2792471154",
+   2018
+  ],
+  [
+   "W399326032",
+   2007
+  ],
+  [
+   "W4297541999",
+   2022
+  ],
+  [
+   "W1608498980",
+   2014
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "A3",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(slum OR slums OR \"informal settlement\" OR \"informal settlements\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(slum OR slums OR \"informal settlement\" OR \"informal settlements\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"informal settlement\" OR \"informal settlements\" OR \"slum\" OR \"slums\"))",
+ "page": 1,
+ "total_results": 13079,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A3_india_q1.json.gz",
+ "results": [
+  [
+   "W2464646353",
+   2016
+  ],
+  [
+   "W2031759645",
+   2012
+  ],
+  [
+   "W4318323145",
+   2017
+  ],
+  [
+   "W2155675895",
+   2013
+  ],
+  [
+   "W2106931646",
+   2007
+  ],
+  [
+   "W2995131368",
+   2019
+  ],
+  [
+   "W3107277123",
+   2020
+  ],
+  [
+   "W4403718677",
+   2024
+  ],
+  [
+   "W2976829130",
+   2019
+  ],
+  [
+   "W3031017101",
+   2020
+  ],
+  [
+   "W3102376298",
+   2020
+  ],
+  [
+   "W2154850139",
+   2011
+  ],
+  [
+   "W2412497702",
+   2016
+  ],
+  [
+   "W7203831272",
+   2026
+  ],
+  [
+   "W1626483305",
+   2000
+  ],
+  [
+   "W7128806552",
+   2026
+  ],
+  [
+   "W3159262631",
+   2019
+  ],
+  [
+   "W7128675083",
+   2025
+  ]
+ ]
+}

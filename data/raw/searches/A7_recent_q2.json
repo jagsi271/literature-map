@@ -1,0 +1,79 @@
+{
+ "theme": "A7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "sanitation AND (urban OR city OR slum) AND (politics OR governance OR access)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:sanitation AND (urban OR city OR slum) AND (politics OR governance OR access),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"sanitation\" AND (\"access\" OR \"governance\" OR \"politics\") AND (\"city\" OR \"slum\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 3448,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A7_recent_q2.json.gz",
+ "results": [
+  [
+   "W4402223482",
+   2024
+  ],
+  [
+   "W7203993808",
+   2026
+  ],
+  [
+   "W4396669835",
+   2024
+  ],
+  [
+   "W7167411135",
+   2026
+  ],
+  [
+   "W7130409681",
+   2025
+  ],
+  [
+   "W4392474311",
+   2024
+  ],
+  [
+   "W7202168873",
+   2026
+  ],
+  [
+   "W7160059643",
+   2024
+  ],
+  [
+   "W7154163691",
+   2023
+  ],
+  [
+   "W7153777805",
+   2026
+  ],
+  [
+   "W4410382083",
+   2025
+  ],
+  [
+   "W4417076036",
+   2025
+  ],
+  [
+   "W4321178688",
+   2023
+  ],
+  [
+   "W7166349297",
+   2026
+  ],
+  [
+   "W4385999648",
+   2023
+  ]
+ ]
+}

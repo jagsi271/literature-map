@@ -1,0 +1,79 @@
+{
+ "theme": "A5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban land\" AND (acquisition OR market OR conversion OR speculation)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban land\" AND (acquisition OR market OR conversion OR speculation),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban land\" AND (\"acquisition\" OR \"conversion\" OR \"market\" OR \"speculation\"))",
+ "page": 1,
+ "total_results": 1306,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A5_recent_q3.json.gz",
+ "results": [
+  [
+   "W4289532129",
+   2022
+  ],
+  [
+   "W4407507812",
+   2025
+  ],
+  [
+   "W7116759641",
+   2025
+  ],
+  [
+   "W7116923428",
+   2025
+  ],
+  [
+   "W4400680505",
+   2024
+  ],
+  [
+   "W4297541286",
+   2022
+  ],
+  [
+   "W4319927150",
+   2023
+  ],
+  [
+   "W4392080261",
+   2024
+  ],
+  [
+   "W7125487164",
+   2026
+  ],
+  [
+   "W4412371866",
+   2025
+  ],
+  [
+   "W7141114647",
+   2024
+  ],
+  [
+   "W7220138288",
+   2024
+  ],
+  [
+   "W4391176274",
+   2024
+  ],
+  [
+   "W4317934019",
+   2023
+  ],
+  [
+   "W4416842090",
+   2025
+  ]
+ ]
+}

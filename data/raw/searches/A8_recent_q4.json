@@ -1,0 +1,79 @@
+{
+ "theme": "A8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "paratransit OR \"informal transport\" OR \"auto-rickshaw\" OR \"minibus taxi\" OR matatu",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:paratransit OR \"informal transport\" OR \"auto-rickshaw\" OR \"minibus taxi\" OR matatu,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"informal transport\" OR \"minibus taxi\" OR \"auto-rickshaw\" OR \"matatu\" OR \"paratransit\")",
+ "page": 1,
+ "total_results": 1175,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A8_recent_q4.json.gz",
+ "results": [
+  [
+   "W4283587358",
+   2022
+  ],
+  [
+   "W4398178606",
+   2024
+  ],
+  [
+   "W4405299761",
+   2024
+  ],
+  [
+   "W4302292917",
+   2022
+  ],
+  [
+   "W7166847442",
+   2026
+  ],
+  [
+   "W4388440517",
+   2023
+  ],
+  [
+   "W7166863372",
+   2026
+  ],
+  [
+   "W7214017573",
+   2026
+  ],
+  [
+   "W4292543025",
+   2022
+  ],
+  [
+   "W4407082367",
+   2025
+  ],
+  [
+   "W4293796167",
+   2022
+  ],
+  [
+   "W4404304170",
+   2024
+  ],
+  [
+   "W4410977193",
+   2025
+  ],
+  [
+   "W7162639183",
+   2026
+  ],
+  [
+   "W4409216663",
+   2025
+  ]
+ ]
+}

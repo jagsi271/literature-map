@@ -1,0 +1,91 @@
+{
+ "theme": "A4",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(eviction OR evictions OR \"forced eviction\") AND (housing OR tenants OR tenant OR rental OR landlord OR landlords OR urban OR city OR slum)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(eviction OR evictions OR \"forced eviction\") AND (housing OR tenants OR tenant OR rental OR landlord OR landlords OR urban OR city OR slum),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"forced eviction\" OR \"eviction\" OR \"evictions\") AND (\"city\" OR \"housing\" OR \"landlord\" OR \"landlords\" OR \"rental\" OR \"slum\" OR \"tenant\" OR \"tenants\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 2310,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A4_recent_q1.json.gz",
+ "results": [
+  [
+   "W4205675470",
+   2022
+  ],
+  [
+   "W4383549937",
+   2023
+  ],
+  [
+   "W4383271021",
+   2023
+  ],
+  [
+   "W4285172088",
+   2022
+  ],
+  [
+   "W4408184911",
+   2025
+  ],
+  [
+   "W4285212542",
+   2022
+  ],
+  [
+   "W4404472252",
+   2024
+  ],
+  [
+   "W4405092700",
+   2024
+  ],
+  [
+   "W4404498587",
+   2024
+  ],
+  [
+   "W4395470470",
+   2024
+  ],
+  [
+   "W4407997744",
+   2025
+  ],
+  [
+   "W4412824980",
+   2025
+  ],
+  [
+   "W4391872577",
+   2024
+  ],
+  [
+   "W4388831373",
+   2023
+  ],
+  [
+   "W4221036793",
+   2022
+  ],
+  [
+   "W4415395591",
+   2025
+  ],
+  [
+   "W4405698604",
+   2024
+  ],
+  [
+   "W4293553749",
+   2022
+  ]
+ ]
+}

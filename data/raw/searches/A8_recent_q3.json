@@ -1,0 +1,79 @@
+{
+ "theme": "A8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"public transport\" AND (gender OR women OR informal OR everyday OR politics)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"public transport\" AND (gender OR women OR informal OR everyday OR politics),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"public transport\" AND (\"everyday\" OR \"gender\" OR \"informal\" OR \"politics\" OR \"women\"))",
+ "page": 1,
+ "total_results": 2023,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A8_recent_q3.json.gz",
+ "results": [
+  [
+   "W4214929795",
+   2022
+  ],
+  [
+   "W4399459199",
+   2024
+  ],
+  [
+   "W7133610183",
+   2026
+  ],
+  [
+   "W4226208715",
+   2022
+  ],
+  [
+   "W4412446973",
+   2025
+  ],
+  [
+   "W4382500948",
+   2022
+  ],
+  [
+   "W4400002783",
+   2024
+  ],
+  [
+   "W4384663074",
+   2023
+  ],
+  [
+   "W4396665508",
+   2024
+  ],
+  [
+   "W7140296200",
+   2026
+  ],
+  [
+   "W4205146243",
+   2022
+  ],
+  [
+   "W7164851838",
+   2026
+  ],
+  [
+   "W4409214185",
+   2025
+  ],
+  [
+   "W7204797254",
+   2026
+  ],
+  [
+   "W4405525508",
+   2024
+  ]
+ ]
+}

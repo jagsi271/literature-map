@@ -1,0 +1,79 @@
+{
+ "theme": "A7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(electricity OR \"energy access\") AND (slum OR \"informal settlement\" OR urban poor)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(electricity OR \"energy access\") AND (slum OR \"informal settlement\" OR urban poor),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"energy access\" OR \"electricity\") AND (\"informal settlement\" OR \"slum\" OR (\"poor\" AND \"urban\")))",
+ "page": 1,
+ "total_results": 4678,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A7_recent_q5.json.gz",
+ "results": [
+  [
+   "W4404591638",
+   2024
+  ],
+  [
+   "W4403842206",
+   2024
+  ],
+  [
+   "W7162080901",
+   2024
+  ],
+  [
+   "W4405011622",
+   2024
+  ],
+  [
+   "W7215387731",
+   2026
+  ],
+  [
+   "W4400432626",
+   2024
+  ],
+  [
+   "W4392974465",
+   2024
+  ],
+  [
+   "W4404563341",
+   2024
+  ],
+  [
+   "W4416237431",
+   2025
+  ],
+  [
+   "W4317831188",
+   2023
+  ],
+  [
+   "W4403438451",
+   2024
+  ],
+  [
+   "W4413064264",
+   2025
+  ],
+  [
+   "W4382367274",
+   2023
+  ],
+  [
+   "W4285891100",
+   2022
+  ],
+  [
+   "W4407163765",
+   2024
+  ]
+ ]
+}

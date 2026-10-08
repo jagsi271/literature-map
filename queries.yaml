@@ -20,13 +20,14 @@
 # cases stay under 25% per theme):
 #   include    core in title, or core twice in the abstract, with every context term present;
 #              core in title of a record without abstract (confidence low); core in title with
-#              context missing, for A and B themes only (in C themes the context term is what
-#              makes a work urban x digital)
+#              context missing (with or without abstract), for A and B themes only (in C themes
+#              the context term is what makes a work urban x digital)
 #   borderline core mentioned once in the abstract AND named by an OpenAlex keyword tag;
 #              flag match with core in title; stub abstract with core in title; C-theme record
-#              with core in title (or twice in abstract) but no urban context; no abstract and
-#              core only in keyword tags
-#   exclude    core absent; flag match without core in title; core once in the abstract and
+#              with core in title (or twice in abstract) but no urban context
+#   exclude    core absent from title and abstract (also when OpenAlex withholds the abstract,
+#              e.g. Elsevier, and the search matched text we cannot see: in A1/A2 landmarks 35
+#              of 35 such records were off-topic); flag match without core in title; core once in the abstract and
 #              not in keyword tags; stub abstract without core in title
 # Borderline records are decided by hand in data/screening/manual_review.csv; a hand decision
 # on a work-theme pair overrides the rules. v2 core terms were revised for the pilot themes
@@ -86,7 +87,9 @@ themes:
     queries:
       - '"master plan" AND (city OR urban)'
       - '"land use regulation" OR "land-use regulation" OR zoning AND (urban OR city OR housing)'
-      - '"urban planning" AND (policy OR regulation OR state OR politics)'
+      # v3: v2 ('"urban planning" AND (policy OR regulation OR state OR politics)') let any
+      # abstract that mentions urban planning in passing into the landmark slice
+      - '"urban planning" AND (planners OR "planning system" OR "planning systems" OR "planning practice" OR "planning policy" OR "planning politics" OR "politics of planning" OR "planning regime")'
       - '"development control" OR "planning regulation" OR "building regulations" OR "planning law"'
     screen:
       # v3 (Stage 2)

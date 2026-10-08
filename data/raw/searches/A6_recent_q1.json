@@ -1,0 +1,91 @@
+{
+ "theme": "A6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"small towns\" OR \"small town\") AND (urban OR urbanisation OR urbanization)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"small towns\" OR \"small town\") AND (urban OR urbanisation OR urbanization),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"small town\" OR \"small towns\") AND (\"urban\" OR \"urbanisation\" OR \"urbanization\"))",
+ "page": 1,
+ "total_results": 2066,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A6_recent_q1.json.gz",
+ "results": [
+  [
+   "W7131105058",
+   2026
+  ],
+  [
+   "W7167479829",
+   2026
+  ],
+  [
+   "W4415120026",
+   2025
+  ],
+  [
+   "W4413961703",
+   2025
+  ],
+  [
+   "W4283785302",
+   2022
+  ],
+  [
+   "W4403310894",
+   2024
+  ],
+  [
+   "W4316075662",
+   2022
+  ],
+  [
+   "W4385063267",
+   2023
+  ],
+  [
+   "W4391615952",
+   2024
+  ],
+  [
+   "W4315698683",
+   2022
+  ],
+  [
+   "W7164838270",
+   2026
+  ],
+  [
+   "W7125427948",
+   2026
+  ],
+  [
+   "W4417261631",
+   2025
+  ],
+  [
+   "W7124958616",
+   2026
+  ],
+  [
+   "W7124891412",
+   2026
+  ],
+  [
+   "W4295009057",
+   2022
+  ],
+  [
+   "W4283260539",
+   2022
+  ],
+  [
+   "W4292202181",
+   2022
+  ]
+ ]
+}

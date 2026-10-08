@@ -1,0 +1,79 @@
+{
+ "theme": "A5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"peri-urban\" OR periurban OR \"peri-urbanisation\" OR \"peri-urbanization\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"peri-urban\" OR periurban OR \"peri-urbanisation\" OR \"peri-urbanization\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"peri-urban\" OR \"peri-urbanisation\" OR \"peri-urbanization\" OR \"periurban\")",
+ "page": 1,
+ "total_results": 13407,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A5_recent_q1.json.gz",
+ "results": [
+  [
+   "W4407952779",
+   2025
+  ],
+  [
+   "W4402732310",
+   2024
+  ],
+  [
+   "W4405563682",
+   2024
+  ],
+  [
+   "W4414037831",
+   2025
+  ],
+  [
+   "W4414378694",
+   2025
+  ],
+  [
+   "W4320926388",
+   2022
+  ],
+  [
+   "W4316088745",
+   2022
+  ],
+  [
+   "W4283713273",
+   2022
+  ],
+  [
+   "W4205935871",
+   2022
+  ],
+  [
+   "W4399457027",
+   2024
+  ],
+  [
+   "W4287092235",
+   2022
+  ],
+  [
+   "W7167030347",
+   2026
+  ],
+  [
+   "W7131116548",
+   2025
+  ],
+  [
+   "W4300819215",
+   2022
+  ],
+  [
+   "W4393308860",
+   2024
+  ]
+ ]
+}

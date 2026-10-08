@@ -1,0 +1,79 @@
+{
+ "theme": "A5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"extended urbanization\" OR \"extended urbanisation\" OR \"planetary urbanization\" OR \"planetary urbanisation\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"extended urbanization\" OR \"extended urbanisation\" OR \"planetary urbanization\" OR \"planetary urbanisation\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"extended urbanisation\" OR \"extended urbanization\" OR \"planetary urbanisation\" OR \"planetary urbanization\")",
+ "page": 1,
+ "total_results": 341,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A5_recent_q2.json.gz",
+ "results": [
+  [
+   "W4387542485",
+   2023
+  ],
+  [
+   "W7170160176",
+   2023
+  ],
+  [
+   "W4316088580",
+   2022
+  ],
+  [
+   "W4293079504",
+   2022
+  ],
+  [
+   "W7160306368",
+   2026
+  ],
+  [
+   "W4392042770",
+   2023
+  ],
+  [
+   "W4411387870",
+   2025
+  ],
+  [
+   "W4316089562",
+   2022
+  ],
+  [
+   "W7127340326",
+   2025
+  ],
+  [
+   "W4210413911",
+   2022
+  ],
+  [
+   "W4416911205",
+   2025
+  ],
+  [
+   "W7167996536",
+   2025
+  ],
+  [
+   "W4283799688",
+   2022
+  ],
+  [
+   "W4387519140",
+   2023
+  ],
+  [
+   "W4413763473",
+   2025
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "A4",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"development-induced displacement\" OR (displacement AND gentrification)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"development-induced displacement\" OR (displacement AND gentrification)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"development-induced displacement\" OR (\"displacement\" AND \"gentrification\")))",
+ "page": 1,
+ "total_results": 269,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A4_india_q3.json.gz",
+ "results": [
+  [
+   "W4413475980",
+   2025
+  ],
+  [
+   "W2097037082",
+   2015
+  ],
+  [
+   "W2263928282",
+   2013
+  ],
+  [
+   "W2908077984",
+   2018
+  ],
+  [
+   "W4381327972",
+   2023
+  ],
+  [
+   "W1555320334",
+   2009
+  ],
+  [
+   "W3116361739",
+   2020
+  ],
+  [
+   "W3205534016",
+   2021
+  ],
+  [
+   "W7212904171",
+   2026
+  ],
+  [
+   "W2147017710",
+   2014
+  ],
+  [
+   "W2963465671",
+   2019
+  ],
+  [
+   "W2231026166",
+   2015
+  ],
+  [
+   "W1596809767",
+   2011
+  ],
+  [
+   "W2783624470",
+   2017
+  ],
+  [
+   "W4242382040",
+   2018
+  ],
+  [
+   "W2030994145",
+   2009
+  ],
+  [
+   "W2914129841",
+   2018
+  ],
+  [
+   "W7214639478",
+   2016
+  ]
+ ]
+}

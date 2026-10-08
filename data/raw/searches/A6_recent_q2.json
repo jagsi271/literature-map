@@ -1,0 +1,91 @@
+{
+ "theme": "A6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"census towns\" OR \"census town\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"census towns\" OR \"census town\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"census town\" OR \"census towns\")",
+ "page": 1,
+ "total_results": 68,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A6_recent_q2.json.gz",
+ "results": [
+  [
+   "W4320837171",
+   2023
+  ],
+  [
+   "W4385732421",
+   2023
+  ],
+  [
+   "W4206174750",
+   2022
+  ],
+  [
+   "W4403843974",
+   2024
+  ],
+  [
+   "W7162643180",
+   2026
+  ],
+  [
+   "W7128244289",
+   2024
+  ],
+  [
+   "W4410089803",
+   2025
+  ],
+  [
+   "W4396875264",
+   2024
+  ],
+  [
+   "W4403229082",
+   2024
+  ],
+  [
+   "W4377823055",
+   2023
+  ],
+  [
+   "W4367023052",
+   2023
+  ],
+  [
+   "W7116923490",
+   2025
+  ],
+  [
+   "W4404006013",
+   2024
+  ],
+  [
+   "W4405560862",
+   2024
+  ],
+  [
+   "W7148465602",
+   2026
+  ],
+  [
+   "W4404817919",
+   2024
+  ],
+  [
+   "W4381736209",
+   2023
+  ],
+  [
+   "W4297360181",
+   2022
+  ]
+ ]
+}

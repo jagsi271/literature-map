@@ -1,0 +1,79 @@
+{
+ "theme": "A7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban infrastructure\" AND (politics OR governance OR everyday OR citizenship)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban infrastructure\" AND (politics OR governance OR everyday OR citizenship),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban infrastructure\" AND (\"citizenship\" OR \"everyday\" OR \"governance\" OR \"politics\"))",
+ "page": 1,
+ "total_results": 1082,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A7_recent_q4.json.gz",
+ "results": [
+  [
+   "W4317885436",
+   2023
+  ],
+  [
+   "W4280633226",
+   2022
+  ],
+  [
+   "W4409554698",
+   2025
+  ],
+  [
+   "W4391850805",
+   2024
+  ],
+  [
+   "W4416333658",
+   2025
+  ],
+  [
+   "W7139367023",
+   2025
+  ],
+  [
+   "W4294579465",
+   2022
+  ],
+  [
+   "W7170607967",
+   2026
+  ],
+  [
+   "W4414880026",
+   2025
+  ],
+  [
+   "W4280588054",
+   2022
+  ],
+  [
+   "W4416230830",
+   2025
+  ],
+  [
+   "W7167467049",
+   2026
+  ],
+  [
+   "W4409440990",
+   2025
+  ],
+  [
+   "W7167808231",
+   2026
+  ],
+  [
+   "W4385875123",
+   2023
+  ]
+ ]
+}

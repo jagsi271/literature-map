@@ -1,0 +1,79 @@
+{
+ "theme": "A5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban fringe\" OR \"rural-urban fringe\" OR desakota",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban fringe\" OR \"rural-urban fringe\" OR desakota,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"rural-urban fringe\" OR \"urban fringe\" OR \"desakota\")",
+ "page": 1,
+ "total_results": 817,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A5_recent_q5.json.gz",
+ "results": [
+  [
+   "W4386761006",
+   2022
+  ],
+  [
+   "W4408206098",
+   2025
+  ],
+  [
+   "W4361006803",
+   2023
+  ],
+  [
+   "W4366506706",
+   2023
+  ],
+  [
+   "W7115062616",
+   2025
+  ],
+  [
+   "W4414062071",
+   2025
+  ],
+  [
+   "W4206998494",
+   2022
+  ],
+  [
+   "W4411075078",
+   2025
+  ],
+  [
+   "W7167680543",
+   2025
+  ],
+  [
+   "W7220339173",
+   2026
+  ],
+  [
+   "W4212889331",
+   2022
+  ],
+  [
+   "W7161283898",
+   2026
+  ],
+  [
+   "W4387418198",
+   2023
+  ],
+  [
+   "W4416631761",
+   2023
+  ],
+  [
+   "W7217246640",
+   2025
+  ]
+ ]
+}
