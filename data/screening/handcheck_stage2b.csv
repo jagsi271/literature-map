@@ -1,0 +1,135 @@
+openalex_id,theme,decision,new_theme,note
+W643058322,C9,drop,,RFID engineering handbook
+W2133731173,C9,keep,,
+W2732194751,C9,keep,,
+W2966429551,C9,keep,,
+W2461992254,C9,keep,,
+W2987370842,C9,keep,,
+W2785316371,C9,keep,,
+W2586236042,C9,keep,,
+W2760547950,C9,keep,,
+W2889412060,C9,keep,,
+W2946715324,C9,keep,,
+W3092737526,C9,keep,,
+W2992692439,C9,keep,,
+W2980176521,C9,keep,,
+W2602441310,C9,keep,,
+W3107425836,C9,keep,,
+W2793369443,C9,keep,,
+W2949732208,C9,drop,,OD-matrix prediction model
+W2976077326,C9,keep,,
+W2015569667,C9,drop,,differential-privacy data publication method
+W2947691164,C9,keep,,
+W2963858235,C9,keep,,
+W2886864340,C9,keep,,
+W2909392949,C9,keep,,
+W2917342162,C9,keep,,
+W3017338266,C9,keep,,
+W3041053832,C9,keep,,
+W2975321582,C9,keep,,
+W2988986279,C9,keep,,
+W2209775912,C9,keep,,
+W2949545642,C9,keep,,
+W3046050222,C9,keep,,
+W1923372423,C9,drop,,ridesharing matching algorithm
+W3026452568,C9,keep,,
+W2916868346,C9,drop,,ridesharing assignment algorithm
+W2980694152,C9,keep,,
+W2111336263,C9,drop,,smart-card cryptanalysis
+W4285384024,C9,drop,,machine-learning survey for ride-hailing operations
+W4316035482,C9,keep,,
+W4286434171,C9,keep,,
+W4210894120,C9,keep,,
+W4317243206,C9,keep,,
+W4212984913,C9,drop,,MaaS design optimisation models
+W4285732647,C9,drop,,transport system models for MaaS
+W4365513578,C9,keep,,
+W2990531393,C9,keep,,
+W2977464096,C9,keep,,
+W4319773755,C9,keep,,
+W2546512417,C9,drop,,RFID ticketing system build
+W4395676629,C9,drop,,shared-ride operations model
+W4200201855,C9,keep,,
+W2586888086,C9,drop,,demand-responsive system design
+W4395456176,C9,drop,,RFID fare collection system build
+W4386073403,C9,keep,,
+W4411043242,C9,keep,,
+W103764049,C9,keep,,
+W4307269039,C9,keep,,
+W3210964045,C9,drop,,bus ticketing system build
+W2781751491,C9,keep,,
+W3195817124,C9,drop,,biometric metro ticketing build
+W4399528612,C9,keep,,
+W2110581938,C9,drop,,smart-card ticketing app build
+W4229589811,C9,drop,,microcontroller ticketing build
+W4407361041,C9,drop,,RFID/IoT ticketing build
+W4410842181,C9,keep,,
+W2146725032,C9,drop,,smart-card ticketing project
+W3183595666,C9,keep,,
+W4309640140,C9,drop,,IoT transit service system
+W4316193145,C9,keep,,
+W4382059422,C9,keep,,
+W4384565122,C9,keep,,
+W4391830461,C9,keep,,
+W3011406520,C9,keep,,
+W4396751677,C9,keep,,
+W7128594012,C9,keep,,
+W4308002662,C9,drop,,face-recognition fare payment system
+W2928611806,C9,drop,,face-recognition fare calculation
+W4295555272,C9,drop,,privacy credential scheme
+W4383822376,C9,keep,,
+W4390353477,C9,drop,,BRT payment information system
+W4392026125,C9,drop,,Aadhaar ticketing system build
+W4392623322,C9,keep,,
+W4406900151,C9,keep,,
+W4411260005,C9,keep,,
+W4413741397,C9,keep,,
+W4415033905,C9,drop,,NFC ticketing system build
+W4417063109,C9,keep,,
+W4417337242,C9,drop,,RFID ticketing system build
+W7117475349,C9,keep,,
+W7118020754,C9,drop,,RFID ticketing and accident detection build
+W7133299691,C9,drop,,digital ticketing controller
+W7154707697,C9,keep,,
+W7155711307,C9,keep,,
+W7160951278,C9,keep,,
+W7163359690,C9,drop,,bus passenger analytics platform
+W7166827998,C9,drop,,e-micromobility injury review (public health)
+W7167941268,C9,drop,,embedded ticketing system
+W7213361687,C9,keep,,
+W7220408786,C9,keep,,
+W3147821219,C9,drop,,smart-card ticketing project
+W4416328158,C9,keep,,
+W7125986341,C9,keep,,
+W7160445103,C9,drop,,bus tracking and fare system build
+W7164456815,C9,keep,,
+W7166512129,C9,keep,,
+W7218169106,C9,drop,,FPGA ticketing system
+W4312647181,C11,keep,,
+W3128123757,C14,keep,,
+W2888799501,C14,move,A3,topology of slum neighbourhoods; not digital
+W3188429821,C14,keep,,
+W2972372281,C14,keep,,
+W2149066553,C14,keep,,
+W3030212368,C14,keep,,
+W2073391545,C14,keep,,
+W2018492565,C14,drop,,image sources for settlement mapping (remote sensing)
+W2511544477,C14,drop,,aerial change detection of settlements
+W2995299793,C14,keep,,
+W4315781416,C14,move,A14,heat stress adaptation in informal settlements; not digital
+W4388210800,C14,drop,,water-usage sensor platform
+W4404522248,C14,keep,,
+W2291610935,C14,keep,,
+W4405467176,C14,keep,,
+W4416302306,C14,drop,,vendor app build
+W4417450557,C14,keep,,
+W7171787061,C14,keep,,
+W4232488768,C14,keep,,
+W7106497320,C14,keep,,
+W2608394281,C18,drop,,spatial crowdsourcing task-assignment algorithm
+W2136342698,C18,keep,,
+W4380302058,C18,keep,,
+W4365211498,C18,keep,,
+W4312814816,C18,keep,,
+W4399161516,C18,keep,,
+W7151788053,C18,drop,,digital forensics of neighbourhood apps

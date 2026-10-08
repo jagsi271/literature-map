@@ -204,7 +204,7 @@ Found seeds by the map's primary theme: A3 2, A4 1, A5 4, A6 5, A8 5, A9 1, A13 
 |---|---|---|---|---|---|---|---|
 | A1 | Urban governance, decentralisation & municipa | 264 | 187 | 30 (11%) | 12 / 18 | 176 | 170 |
 | A2 | Planning, master plans & land-use regulation | 239 | 165 | 11 (5%) | 3 / 8 | 161 | 243 |
-| A3 | Housing, informality & slums | 265 | 171 | 43 (16%) | 17 / 26 | 175 | 170 |
+| A3 | Housing, informality & slums | 265 | 171 | 43 (16%) | 17 / 26 | 175 | 171 |
 | A4 | Eviction, resettlement & displacement | 219 | 165 | 16 (7%) | 8 / 8 | 165 | 158 |
 | A5 | Land, peri-urban & extended urbanisation | 277 | 162 | 21 (8%) | 10 / 11 | 169 | 166 |
 | A6 | Small towns, census towns & secondary cities | 364 | 150 | 23 (6%) | 11 / 12 | 157 | 205 |
@@ -215,7 +215,7 @@ Found seeds by the map's primary theme: A3 2, A4 1, A5 4, A6 5, A8 5, A9 1, A13 
 | A11 | Migration & the city | 236 | 173 | 19 (8%) | 8 / 11 | 169 | 165 |
 | A12 | Gender, caste, class & the city | 233 | 160 | 21 (9%) | 11 / 10 | 169 | 164 |
 | A13 | Heritage, mega-events & "world-class" city ma | 246 | 176 | 21 (8%) | 11 / 10 | 184 | 182 |
-| A14 | Urban environment, climate & risk | 246 | 193 | 29 (12%) | 10 / 19 | 192 | 189 |
+| A14 | Urban environment, climate & risk | 246 | 193 | 29 (12%) | 10 / 19 | 192 | 190 |
 | A15 | Urban & planning theory, Southern urbanism | 233 | 144 | 39 (17%) | 24 / 15 | 159 | 155 |
 | A16 | Night-time city & urban time | 241 | 121 | 29 (12%) | 17 / 12 | 134 | 211 |
 | B1 | Platforms & platform capitalism | 239 | 177 | 33 (14%) | 16 / 17 | 186 | 167 |
@@ -240,25 +240,25 @@ Found seeds by the map's primary theme: A3 2, A4 1, A5 4, A6 5, A8 5, A9 1, A13 
 | C6 | Urban surveillance, policing & biometrics in  | 240 | 104 | 37 (15%) | 12 / 25 | 115 | 112 |
 | C7 | Algorithmic & automated urban governance, mun | 226 | 123 | 33 (15%) | 6 / 27 | 127 | 120 |
 | C8 | City-level DPI & urban e-government | 217 | 114 | 31 (14%) | 13 / 18 | 129 | 121 |
-| C9 | Digital mobility (ride-hailing, MaaS, digital | 227 | 126 | 19 (8%) | 6 / 13 | 130 | 186 |
+| C9 | Digital mobility (ride-hailing, MaaS, digital | 227 | 126 | 19 (8%) | 6 / 13 | 116 | 151 |
 | C10 | Proptech, housing platforms & short-term rent | 226 | 144 | 34 (15%) | 7 / 27 | 146 | 144 |
 | C11 | Digital payments in urban economies (QR, UPI, | 218 | 110 | 13 (6%) | 3 / 10 | 108 | 100 |
 | C12 | Civic tech, e-participation & digital urban p | 239 | 87 | 28 (12%) | 13 / 15 | 98 | 92 |
 | C13 | Digital twins, simulation & visual rendering  | 228 | 151 | 18 (8%) | 7 / 11 | 157 | 153 |
-| C14 | Digital informality (informal settlements, ve | 191 | 113 | 29 (15%) | 9 / 20 | 112 | 103 |
+| C14 | Digital informality (informal settlements, ve | 191 | 113 | 29 (15%) | 9 / 20 | 108 | 97 |
 | C15 | Gig work in the city (urban and spatial focus | 222 | 108 | 10 (4%) | 7 / 3 | 107 | 85 |
 | C16 | Digital heritage, mapping & representation of | 213 | 120 | 49 (23%) | 15 / 34 | 128 | 126 |
 | C17 | Urban cybersecurity & cyber-physical infrastr | 228 | 110 | 40 (18%) | 13 / 27 | 123 | 118 |
-| C18 | Neighbourhood platforms & digital public spac | 217 | 56 | 30 (14%) | 6 / 24 | 61 | 60 |
+| C18 | Neighbourhood platforms & digital public spac | 217 | 56 | 30 (14%) | 6 / 24 | 59 | 58 |
 | S1 | Railway stations | 126 | 75 | 11 (9%) | 4 / 7 | 79 | 0 |
 | S2 | Waiting and waiting rooms | 127 | 30 | 11 (9%) | 5 / 6 | 32 | 0 |
 | S3 | Night-time transit and transit operating hour | 105 | 46 | 5 (5%) | 2 / 3 | 47 | 0 |
-| S4 | Fare integration and transit cards (incl. NCM | 127 | 66 | 24 (19%) | 7 / 17 | 70 | 0 |
+| S4 | Fare integration and transit cards (incl. NCM | 127 | 66 | 24 (19%) | 7 / 17 | 46 | 0 |
 | S5 | Rail-led urbanism and transit-oriented develo | 119 | 89 | 10 (8%) | 6 / 4 | 94 | 0 |
 | S6 | Elevated rail and infrastructure undersides | 118 | 32 | 3 (2%) | 3 / 0 | 34 | 0 |
 | S7 | Haryana secondary cities (excluding Gurugram  | 109 | 44 | 2 (2%) | 1 / 1 | 50 | 0 |
 
-Total deduplicated records: 7666.
+Total deduplicated records: 7625.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)

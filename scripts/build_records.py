@@ -552,6 +552,24 @@ def main(themes_wanted):
             "FWCI": w.get("fwci"),
         }
         records.append(rec)
+    # Stage 2b hand-check of Engineering / Computer Science records in C9, C11, C14, C18
+    # (data/screening/handcheck_stage2b.csv): 'drop' removes the record from the map, 'move'
+    # sets its primary theme
+    hc = SCREEN / "handcheck_stage2b.csv"
+    if hc.exists():
+        hcd = {r_["openalex_id"]: r_ for r_ in csv.DictReader(hc.open())}
+        kept_recs = []
+        for rec in records:
+            h = hcd.get(rec["OpenAlex ID"])
+            if h and h["decision"] == "drop":
+                continue
+            if h and h["decision"] == "move":
+                if rec["Primary theme"] != h["new_theme"]:
+                    rec["Secondary theme"] = rec["Primary theme"]
+                rec["Primary theme"], rec["Domain"] = h["new_theme"], h["new_theme"][0]
+            kept_recs.append(rec)
+        print(f"hand-check: {len(records) - len(kept_recs)} records dropped")
+        records = kept_recs
     records.sort(key=lambda r: (r["Primary theme"][0], int(r["Primary theme"][1:]),
                                 -(r["Cited-by count"] or 0)))
     for i, r in enumerate(records, 1):
