@@ -8390,7 +8390,7 @@ W7163828211,C13,india,C13_india_q1,14,Quantum-Enhanced Digital Twins for Critica
 W4401719570,C13,india,C13_india_q1,15,Architecting Digital Twin for Smart City Systems: A Case Study,2024,conference-paper,6,True,include,6,rules,include
 W4411023353,C13,india,C13_india_q1,16,Machine learning assisted predictive urban digital twin for intelligent monitoring of air quality index for smart city environment,2025,article,16,True,include,4,rules,include
 W4409176161,C13,india,C13_india_q1,17,Digital Twins for Inclusive Urban Planning to Empowering Communities in a Data-Driven Future,2025,book-chapter,3,True,include,6,rules,include
-W4413143331,C13,india,C13_india_q1,18,"GeoAI-Driven mapping of urban rooftop Photovoltaics: A sustainable energy framework for Karachi, Pakistan",2025,article,1,True,borderline,1,core concept mentioned once,pending
+W4413143331,C13,india,C13_india_q1,18,"GeoAI-Driven mapping of urban rooftop Photovoltaics: A sustainable energy framework for Karachi, Pakistan",2025,article,1,True,borderline,1,core concept mentioned once | manual: rooftop PV mapping,exclude
 W7168163652,C13,india,C13_india_q1,19,"Geometric Digital Twins for Real Estate, Smart Cities, Fashion Technology and Immersive Media",2026,reference-entry,0,True,include,6,rules,include
 W4396781048,C13,india,C13_india_q1,20,Architecting Digital Twin for Smart City Systems: A Case Study,2024,preprint,0,True,include,6,rules,include
 W7160187208,C13,india,C13_india_q1,21,Digital Twin for Climate-Resilient Urban Planning: Modeling and Mitigation of Urban Heat Islands,2026,article,0,True,include,5,rules,include
@@ -8408,19 +8408,19 @@ W3092596539,C13,india,C13_india_q2,8,A Novel Approach for Generation and Visuali
 W4396559035,C13,india,C13_india_q2,9,CityGML Grotto ADE for modelling niches in 3D with semantic information,2024,article,9,True,include,6,rules,include
 W4286356121,C13,india,C13_india_q2,10,"Smart Master Plan and 3D GIS Planning Support system—A Case of Chennai City, Tamil Nadu, India",2022,book-chapter,1,False,exclude,0,core concept missing,exclude
 W4213433347,C13,india,C13_india_q2,11,"Urban Simulation Model and Urban Growth, Agglomeration, Gentrification",2022,book-chapter,0,True,include,3,rules,include
-W2902430539,C13,india,C13_india_q2,12,"Exploring 3D Cadastres in India: Evaluating the Potential for Land Planning, Development and Management in Delhi",2018,conference-paper,0,True,borderline,1,core concept mentioned once,pending
+W2902430539,C13,india,C13_india_q2,12,"Exploring 3D Cadastres in India: Evaluating the Potential for Land Planning, Development and Management in Delhi",2018,conference-paper,0,True,borderline,1,core concept mentioned once | manual: 3D cadastres for land planning in Delhi,include
 W7213298440,C13,india,C13_india_q2,13,"Digital-Twin Gaming Environments for Education, Urban Simulation, Healthcare and Behavioral Research",2026,reference-entry,0,True,include,5,rules,include
-W3204678738,C13,india,C13_india_q2,14,ASSESSMENT OF URBAN UTILITIES FOR MUMBAI CITY USING 3D MODELING TECHNIQUES,2020,article,2,True,borderline,1,core concept mentioned once,pending
+W3204678738,C13,india,C13_india_q2,14,ASSESSMENT OF URBAN UTILITIES FOR MUMBAI CITY USING 3D MODELING TECHNIQUES,2020,article,2,True,borderline,1,"core concept mentioned once | manual: 3D modelling of urban utilities, Mumbai",include
 W2599953629,C13,india,C13_india_q2,15,"3D City Models for Extracting Urban Environmental Quality Indicators in Greater Hyderabad, Telangana",2017,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
 W4285816767,C13,india,C13_india_q2,16,Performance evaluation of 2×2 and massive 8×8 MIMO at 28 GHz and 60 GHz for Dhaka City,2022,conference-paper,2,True,exclude,0,core concept missing,exclude
 W3170431956,C13,india,C13_india_q2,17,Developing a 3D geometry for Urban energy modelling of Indian cities,2020,conference-paper,1,True,include,2,rules,include
 W4328112165,C13,india,C13_india_q2,18,Parametric Studies on a Two-Stage Evaporative Cooler During Tropical Climates in India,2023,article,2,True,exclude,0,core concept missing,exclude
-W4401037965,C13,india,C13_india_q2,19,The emerging role of Artificial Intelligence (AI) in urban and regional planning in India,2024,article,6,True,borderline,1,core concept mentioned once,pending
-W4415725921,C13,india,C13_india_q2,20,"Urban Land Use Dynamics in India (1981–2024): A Bibliometric Review of Trends, Patterns, Gaps, and Future Research Trajectories",2025,article,0,True,borderline,1,core concept mentioned once,pending
+W4401037965,C13,india,C13_india_q2,19,The emerging role of Artificial Intelligence (AI) in urban and regional planning in India,2024,article,6,True,borderline,1,core concept mentioned once | manual: AI in Indian urban planning overview (C7),exclude
+W4415725921,C13,india,C13_india_q2,20,"Urban Land Use Dynamics in India (1981–2024): A Bibliometric Review of Trends, Patterns, Gaps, and Future Research Trajectories",2025,article,0,True,borderline,1,core concept mentioned once | manual: land-use dynamics bibliometrics,exclude
 W2020883241,C13,india,C13_india_q2,21,Analyzing building-height restrictions: predicted impacts and welfare costs,2004,article,293,False,exclude,0,core concept missing,exclude
 W7117324021,C13,india,C13_india_q2,22,How do Urban Interactions Influence Flood Resilience in Cities? A Land Use Simulation Framework for Flood Risk Regions,2025,preprint,0,False,exclude,0,core concept missing,exclude
 W2050819311,C13,india,C13_india_q2,23,Generation of 3D Model for Urban area using Ikonos and Cartosat-1 Satellite Imageries with RS and GIS Techniques,2014,article,9,True,include,3,rules,include
-W2182317564,C13,india,C13_india_q2,24,Automatic Extraction of Building foot prints from CARTOSAT–II,2015,article,0,True,borderline,1,core concept mentioned once,pending
+W2182317564,C13,india,C13_india_q2,24,Automatic Extraction of Building foot prints from CARTOSAT–II,2015,article,0,True,borderline,1,core concept mentioned once | manual: building footprint extraction,exclude
 W2567448509,C13,india,C13_india_q3,1,"Regulating Access and Mobility of Single Women in a “World Class”-city: Gender and Inequality in Delhi, India",2016,book-chapter,7,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7171671810,C13,india,C13_india_q3,2,Measuring urban morphological transformation in Kolkata using landscape metrics,2026,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3092596539,C13,india,C13_india_q3,3,A Novel Approach for Generation and Visualization of Virtual 3D City Model Using Open Source Libraries,2020,article,24,False,include,3,no abstract; core (and context) in title,include
@@ -8438,16 +8438,16 @@ W4245767931,C13,india,C13_india_q3,14,Papers Delivered in the Thematic Sessions 
 W4417087883,C13,india,C13_india_q3,15,Utah's Monuments and Markers: An Audit of Public Memory,2025,article,0,True,exclude,0,core concept missing,exclude
 W4405505218,C13,india,C13_india_q3,16,Publishing academic books in emerging fields: Strategies for success and overcoming challenges,2024,book-chapter,1,True,exclude,0,core concept missing,exclude
 W2982936646,C13,landmarks,C13_landmarks,1,"Digital Twin: Enabling Technologies, Challenges and Open Research",2020,article,2901,True,include,6,rules,include
-W1969085745,C13,landmarks,C13_landmarks,2,Smart cities of the future,2012,article,2287,True,borderline,1,core concept mentioned once,pending
+W1969085745,C13,landmarks,C13_landmarks,2,Smart cities of the future,2012,article,2287,True,borderline,1,core concept mentioned once | manual: smart cities vision,exclude
 W3013120860,C13,landmarks,C13_landmarks,3,Towards a semantic Construction Digital Twin: Directions for future research,2020,article,1326,True,include,5,rules,include
 W4220831070,C13,landmarks,C13_landmarks,4,Digital Twin Technology Challenges and Applications: A Comprehensive Review,2022,article,884,True,include,4,rules,include
 W3163246710,C13,landmarks,C13_landmarks,5,Digital Twin Networks: A Survey,2021,article,850,True,include,5,rules,include
 W4309484364,C13,landmarks,C13_landmarks,6,Artificial intelligence for the metaverse: A survey,2022,article,687,False,exclude,0,core concept missing,exclude
-W4285004952,C13,landmarks,C13_landmarks,7,"The Metaverse as a Virtual Form of Smart Cities: Opportunities and Challenges for Environmental, Economic, and Social Sustainability in Urban Futures",2022,article,684,True,borderline,1,core concept mentioned once,pending
+W4285004952,C13,landmarks,C13_landmarks,7,"The Metaverse as a Virtual Form of Smart Cities: Opportunities and Challenges for Environmental, Economic, and Social Sustainability in Urban Futures",2022,article,684,True,borderline,1,core concept mentioned once | manual: metaverse and smart cities,exclude
 W2035184119,C13,landmarks,C13_landmarks,8,CityGML – Interoperable semantic 3D city models,2012,article,679,False,include,3,no abstract; core (and context) in title,include
-W2127059652,C13,landmarks,C13_landmarks,9,Modelling sustainable urban development by the integration of constrained cellular automata and GIS,2000,article,640,True,borderline,1,core concept mentioned once,pending
+W2127059652,C13,landmarks,C13_landmarks,9,Modelling sustainable urban development by the integration of constrained cellular automata and GIS,2000,article,640,True,borderline,1,core concept mentioned once | manual: constrained cellular automata urban simulation,include
 W3011950450,C13,landmarks,C13_landmarks,10,"Urban Digital Twins for Smart Cities and Citizens: The Case Study of Herrenberg, Germany",2020,article,626,True,include,6,rules,include
-W3183660758,C13,landmarks,C13_landmarks,11,Machine learning and structural health monitoring overview with emerging technology and high-dimensional data source highlights,2021,article,604,True,borderline,1,core concept mentioned once,pending
+W3183660758,C13,landmarks,C13_landmarks,11,Machine learning and structural health monitoring overview with emerging technology and high-dimensional data source highlights,2021,article,604,True,borderline,1,core concept mentioned once | manual: structural health monitoring,exclude
 W2138730910,C13,landmarks,C13_landmarks,12,From Cells to Cities,1994,article,576,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3120064844,C13,landmarks,C13_landmarks,13,A digital twin smart city for citizen feedback,2021,article,544,False,include,3,no abstract; core (and context) in title,include
 W3136881915,C13,landmarks,C13_landmarks,14,A systematic review of a digital twin city: A new pattern of urban governance toward smart cities,2021,review,538,True,include,5,rules,include
@@ -8460,12 +8460,12 @@ W3139158806,C13,landmarks,C13_landmarks,20,City Digital Twin Potentials: A Revie
 W98076215,C13,landmarks,C13_landmarks,21,Representing and Exchanging 3D City Models with CityGML,2008,book-chapter,460,False,include,3,no abstract; core (and context) in title,include
 W2997072997,C13,landmarks,C13_landmarks,22,Disaster City Digital Twin: A vision for integrating artificial and human intelligence for disaster management,2019,article,436,False,include,3,no abstract; core (and context) in title,include
 W1543691249,C13,landmarks,C13_landmarks,23,Geosimulation: Automata-based Modeling of Urban Phenomena,2004,article,436,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W4293180257,C13,landmarks,C13_landmarks,24,The role of deep learning in urban water management: A critical review,2022,article,434,True,borderline,1,core concept mentioned once,pending
+W4293180257,C13,landmarks,C13_landmarks,24,The role of deep learning in urban water management: A critical review,2022,article,434,True,borderline,1,core concept mentioned once | manual: deep learning in urban water management,exclude
 W3004802603,C13,landmarks,C13_landmarks,25,The Digital Twin of the City of Zurich for Urban Planning,2020,article,421,True,include,6,rules,include
 W4318827691,C13,landmarks,C13_landmarks,26,"A Review on Digital Twin Technology in Smart Grid, Transportation System and Smart City: Challenges and Future",2023,article,409,True,include,4,rules,include
 W3195402235,C13,landmarks,C13_landmarks,27,Industrial applications of digital twins,2021,article,399,True,include,4,rules,include
 W3207740732,C13,landmarks,C13_landmarks,28,Big data analysis of the Internet of Things in the digital twins of smart city based on deep learning,2021,article,398,False,include,3,no abstract; core (and context) in title,include
-W4362636969,C13,landmarks,C13_landmarks,29,"Building energy simulation and its application for building performance optimization: A review of methods, tools, and case studies",2023,article,369,True,borderline,1,core concept mentioned once,pending
+W4362636969,C13,landmarks,C13_landmarks,29,"Building energy simulation and its application for building performance optimization: A review of methods, tools, and case studies",2023,article,369,True,borderline,1,core concept mentioned once | manual: building energy simulation review,exclude
 W3150590266,C13,landmarks,C13_landmarks,30,"Differentiating Digital Twin from Digital Shadow: Elucidating a Paradigm Shift to Expedite a Smart, Sustainable Built Environment",2021,article,365,True,include,4,rules,include
 W1567536124,C13,landmarks,C13_landmarks,31,Microsimulation of Urban Development and Location Choices: Design and Implementation of UrbanSim,2003,article,356,False,exclude,0,core concept missing,exclude
 W4283068318,C13,landmarks,C13_landmarks,32,Study on city digital twin technologies for sustainable smart city design: A review and bibliometric analysis of geographic information system and building information modeling integration,2022,article,343,False,include,3,no abstract; core (and context) in title,include
@@ -8486,11 +8486,11 @@ W2014916692,C13,landmarks,C13_landmarks,46,Cellular Automata and Urban Simulatio
 W3114654707,C13,landmarks,C13_landmarks,47,Digital Twins for Cities: A State of the Art Review,2020,article,270,True,include,6,rules,include
 W2033176844,C13,landmarks,C13_landmarks,48,Simulating urban growth by integrating landscape expansion index (LEI) and cellular automata,2013,article,265,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2787688993,C13,landmarks,C13_landmarks,49,Smart city digital twins,2017,conference-paper,262,True,include,5,rules,include
-W3085224744,C13,landmarks,C13_landmarks,50,From concept to application: A review of use cases in urban building energy modeling,2020,article,261,True,borderline,1,core concept mentioned once,pending
+W3085224744,C13,landmarks,C13_landmarks,50,From concept to application: A review of use cases in urban building energy modeling,2020,article,261,True,borderline,1,core concept mentioned once | manual: urban building energy modelling (CityGML-based city models),include
 W4402864351,C13,landmarks,C13_landmarks,51,"A Review of Urban Digital Twins Integration, Challenges, and Future Directions in Smart City Development",2024,article,260,True,include,4,rules,include
 W2156570722,C13,landmarks,C13_landmarks,52,Integration of BIM and GIS: The Development of the CityGML GeoBIM Extension,2010,book-chapter,258,False,include,3,no abstract; core (and context) in title,include
-W2127999366,C13,landmarks,C13_landmarks,53,Geographic Automata Systems,2005,article,256,True,borderline,1,core concept mentioned once,pending
-W4313291084,C13,landmarks,C13_landmarks,54,When Internet of Things Meets Metaverse: Convergence of Physical and Cyber Worlds,2022,article,253,True,borderline,1,core concept mentioned once,pending
+W2127999366,C13,landmarks,C13_landmarks,53,Geographic Automata Systems,2005,article,256,True,borderline,1,core concept mentioned once | manual: geographic automata systems for urban simulation,include
+W4313291084,C13,landmarks,C13_landmarks,54,When Internet of Things Meets Metaverse: Convergence of Physical and Cyber Worlds,2022,article,253,True,borderline,1,core concept mentioned once | manual: IoT and metaverse,exclude
 W2046560804,C13,landmarks,C13_landmarks,55,Integration of Historic Building Information Modeling (HBIM) and 3D GIS for recording and managing cultural heritage sites,2012,conference-paper,253,True,include,3,rules,include
 W3165735421,C13,landmarks,C13_landmarks,56,Digital Twin-Assisted Real-Time Traffic Data Prediction Method for 5G-Enabled Internet of Vehicles,2021,article,248,True,include,6,rules,include
 W4292084222,C13,landmarks,C13_landmarks,57,The adoption of urban digital twins,2022,article,247,True,include,6,rules,include
@@ -8499,7 +8499,7 @@ W4294531745,C13,landmarks,C13_landmarks,59,"Umi – An Urban Simulation Environm
 W3047921508,C13,landmarks,C13_landmarks,60,A Socio-Technical Perspective on Urban Analytics: The Case of City-Scale Digital Twins,2020,article,243,True,include,5,rules,include
 W4397008103,C13,landmarks,C13_landmarks,61,The synergistic interplay of artificial intelligence and digital twin in environmentally planning sustainable smart cities: A comprehensive systematic review,2024,review,242,True,include,4,rules,include
 W3096818947,C13,landmarks,C13_landmarks,62,A Smart Campus’ Digital Twin for Sustainable Comfort Monitoring,2020,article,233,True,include,3,rules,include
-W2143115928,C13,landmarks,C13_landmarks,63,"Agents, Cells, and Cities: New Representational Models for Simulating Multiscale Urban Dynamics",2005,article,230,True,borderline,1,core concept mentioned once,pending
+W2143115928,C13,landmarks,C13_landmarks,63,"Agents, Cells, and Cities: New Representational Models for Simulating Multiscale Urban Dynamics",2005,article,230,True,borderline,1,"core concept mentioned once | manual: agents, cells and urban simulation models (Batty)",include
 W2755546965,C13,landmarks,C13_landmarks,64,"OpenGIS City Geography Markup Language (CityGML) Encoding Standard, Version 1.0.0",2008,article,223,True,include,6,rules,include
 W2151992422,C13,landmarks,C13_landmarks,65,3D Urban Scene Modeling Integrating Recognition and Reconstruction,2007,article,220,False,exclude,0,core concept missing,exclude
 W2084249538,C13,landmarks,C13_landmarks,66,Challenges of emergency logistics management,2007,editorial,219,False,exclude,0,type editorial,exclude
@@ -8534,7 +8534,7 @@ W3016010635,C13,landmarks,C13_landmarks,94,Digital Twin and CyberGIS for Improvi
 W4311041347,C13,landmarks,C13_landmarks,95,Developing Human-Centered Urban Digital Twins for Community Infrastructure Resilience: A Research Agenda,2022,article,178,True,include,4,rules,include
 W2101733285,C13,landmarks,C13_landmarks,96,Multi‐Scale Geometric‐Semantic Modeling of Shield Tunnels for GIS and BIM Applications,2014,article,176,True,include,3,rules,include
 W4403371192,C13,landmarks,C13_landmarks,97,"Leveraging generative AI for urban digital twins: a scoping review on the autonomous generation of urban data, scenarios, designs, and 3D city models for smart city advancement",2024,article,173,True,include,5,rules,include
-W4282967568,C13,landmarks,C13_landmarks,98,Road extraction in remote sensing data: A survey,2022,article,172,True,borderline,1,core concept mentioned once,pending
+W4282967568,C13,landmarks,C13_landmarks,98,Road extraction in remote sensing data: A survey,2022,article,172,True,borderline,1,core concept mentioned once | manual: road extraction survey,exclude
 W3107642408,C13,landmarks,C13_landmarks,99,Roads Infrastructure Digital Twin: A Step Toward Smarter Cities Realization,2020,article,171,True,include,6,rules,include
 W2571712648,C13,landmarks,C13_landmarks,100,Generating 3D city models without elevation data,2017,article,170,False,include,3,no abstract; core (and context) in title,include
 W4387459697,C13,recent,C13_recent_q1,1,City digital twins for urban resilience,2023,article,64,True,include,5,rules,include
@@ -8548,7 +8548,7 @@ W4368232273,C13,recent,C13_recent_q1,8,MetaOmniCity: Toward Immersive Urban Meta
 W4385989283,C13,recent,C13_recent_q1,9,Urban Digital Twin Challenges: A Systematic Review and Perspectives for Sustainable Smart Cities,2023,review,304,False,include,3,no abstract; core (and context) in title,include
 W4281776391,C13,recent,C13_recent_q1,10,ENABLING CITY DIGITAL TWINS THROUGH URBAN LIVING LABS,2022,article,18,True,include,6,rules,include
 W4387501102,C13,recent,C13_recent_q1,11,Optimize urban shade using digital twins of cities,2023,article,12,False,include,3,no abstract; core (and context) in title,include
-W7134156255,C13,recent,C13_recent_q1,12,Urban Digital Twins for Inclusive Sustainable Cities,2025,conference-paper,0,True,borderline,3,stub abstract (possible book review),pending
+W7134156255,C13,recent,C13_recent_q1,12,Urban Digital Twins for Inclusive Sustainable Cities,2025,conference-paper,0,True,borderline,3,stub abstract (possible book review) | manual: urban digital twins for inclusive cities,include
 W4402864351,C13,recent,C13_recent_q1,13,"A Review of Urban Digital Twins Integration, Challenges, and Future Directions in Smart City Development",2024,article,260,True,include,4,rules,include
 W4404836392,C13,recent,C13_recent_q1,14,Urban “Digital Twins” for Smart Cities and Citizens,2024,conference-paper,1,True,include,6,rules,include
 W4392910463,C13,recent,C13_recent_q1,15,On the Integration of Digital Twin Networks into City Digital Twins: Benefits and Challenges,2024,conference-paper,8,True,include,6,rules,include

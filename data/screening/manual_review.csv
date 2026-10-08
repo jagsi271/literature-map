@@ -1368,3 +1368,21 @@ W1533637910,C12,include,"Claude (manual review, Stage 2)",Government 2.0 interne
 W2768359962,C12,include,"Claude (manual review, Stage 2)",digital tools for inclusive data-informed urban planning
 W4391089300,C12,include,"Claude (manual review, Stage 2)",civic tech and cyber-citizenship
 W7155558526,C12,exclude,"Claude (manual review, Stage 2)","civic tech expert survey (Taiwan, not urban)"
+W4413143331,C13,exclude,"Claude (manual review, Stage 2)",rooftop PV mapping
+W2902430539,C13,include,"Claude (manual review, Stage 2)",3D cadastres for land planning in Delhi
+W3204678738,C13,include,"Claude (manual review, Stage 2)","3D modelling of urban utilities, Mumbai"
+W4401037965,C13,exclude,"Claude (manual review, Stage 2)",AI in Indian urban planning overview (C7)
+W4415725921,C13,exclude,"Claude (manual review, Stage 2)",land-use dynamics bibliometrics
+W2182317564,C13,exclude,"Claude (manual review, Stage 2)",building footprint extraction
+W1969085745,C13,exclude,"Claude (manual review, Stage 2)",smart cities vision
+W4285004952,C13,exclude,"Claude (manual review, Stage 2)",metaverse and smart cities
+W2127059652,C13,include,"Claude (manual review, Stage 2)",constrained cellular automata urban simulation
+W3183660758,C13,exclude,"Claude (manual review, Stage 2)",structural health monitoring
+W4293180257,C13,exclude,"Claude (manual review, Stage 2)",deep learning in urban water management
+W4362636969,C13,exclude,"Claude (manual review, Stage 2)",building energy simulation review
+W3085224744,C13,include,"Claude (manual review, Stage 2)",urban building energy modelling (CityGML-based city models)
+W2127999366,C13,include,"Claude (manual review, Stage 2)",geographic automata systems for urban simulation
+W4313291084,C13,exclude,"Claude (manual review, Stage 2)",IoT and metaverse
+W2143115928,C13,include,"Claude (manual review, Stage 2)","agents, cells and urban simulation models (Batty)"
+W4282967568,C13,exclude,"Claude (manual review, Stage 2)",road extraction survey
+W7134156255,C13,include,"Claude (manual review, Stage 2)",urban digital twins for inclusive cities
