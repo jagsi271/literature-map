@@ -70,7 +70,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | C2 | Platform urbanism | 213 | 166 | 19 (9%) | 10 / 9 | 169 | 155 |
 | C3 | Digital geographies & code/space | 199 | 82 | 23 (12%) | 11 / 12 | 91 | 88 |
 | C4 | Urban informatics & urban computing | 225 | 123 | 22 (10%) | 10 / 12 | 128 | 123 |
-| C5 | Urban data governance & data justice in citie | 230 | 118 | 45 (20%) | 0 / 0 (+45 pending) | 114 | 108 |
+| C5 | Urban data governance & data justice in citie | 230 | 118 | 45 (20%) | 11 / 34 | 125 | 116 |
 | C6 | Urban surveillance, policing & biometrics in  | 240 | 110 | 36 (15%) | 0 / 0 (+36 pending) | 109 | 107 |
 | C7 | Algorithmic & automated urban governance, mun | 226 | 147 | 29 (13%) | 0 / 0 (+29 pending) | 142 | 135 |
 | C8 | City-level DPI & urban e-government | 217 | 113 | 32 (15%) | 0 / 0 (+32 pending) | 112 | 105 |
@@ -85,7 +85,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | C17 | Urban cybersecurity & cyber-physical infrastr | 228 | 110 | 40 (18%) | 0 / 0 (+40 pending) | 109 | 104 |
 | C18 | Neighbourhood platforms & digital public spac | 217 | 98 | 30 (14%) | 0 / 0 (+30 pending) | 97 | 96 |
 
-Total deduplicated records: 7069.
+Total deduplicated records: 7077.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)

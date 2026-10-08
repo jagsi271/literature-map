@@ -1112,3 +1112,48 @@ W2109360361,C4,exclude,"Claude (manual review, Stage 2)",RDF stream query langua
 W4311238919,C4,include,"Claude (manual review, Stage 2)",smart urban computing applications (book)
 W7117115112,C4,include,"Claude (manual review, Stage 2)",the science of urban informatics
 W7220756095,C4,include,"Claude (manual review, Stage 2)","urban science, planning support systems and open data (thesis)"
+W4210537749,C5,exclude,"Claude (manual review, Stage 2)",infrastructure deficits and COVID
+W7167724713,C5,exclude,"Claude (manual review, Stage 2)",autonomous e-mobility framework
+W7113129928,C5,exclude,"Claude (manual review, Stage 2)",urban health e-governance abstract
+W7154975950,C5,exclude,"Claude (manual review, Stage 2)",big data and AI in pedestrian planning
+W7123769186,C5,exclude,"Claude (manual review, Stage 2)",smart-city models overview
+W4414949649,C5,include,"Claude (manual review, Stage 2)",open data and local-government transparency
+W7203836973,C5,exclude,"Claude (manual review, Stage 2)",GIS e-governance (C8)
+W7166521708,C5,exclude,"Claude (manual review, Stage 2)",AI data centres and water security
+W4396919987,C5,exclude,"Claude (manual review, Stage 2)",nutrition dashboard data use
+W4376150159,C5,exclude,"Claude (manual review, Stage 2)",nutrition dashboard data use (preprint)
+W3094080533,C5,exclude,"Claude (manual review, Stage 2)",Aadhaar and data justice among informal workers (B5/C14)
+W4413865866,C5,exclude,"Claude (manual review, Stage 2)",blockchain land tenure model
+W1969085745,C5,exclude,"Claude (manual review, Stage 2)",smart cities vision
+W1979279430,C5,include,"Claude (manual review, Stage 2)",citizen sensing and environmentality in the smart city
+W4403530914,C5,exclude,"Claude (manual review, Stage 2)",AI environmental monitoring
+W2154733731,C5,exclude,"Claude (manual review, Stage 2)",cloud analytics of Bristol open data (technical)
+W2883861872,C5,exclude,"Claude (manual review, Stage 2)",smart city planning evolution
+W2730157627,C5,exclude,"Claude (manual review, Stage 2)",participatory PM2.5 monitoring framework
+W4281385902,C5,include,"Claude (manual review, Stage 2)",data governance principles and inclusive smart cities (Portland etc.)
+W1981438525,C5,include,"Claude (manual review, Stage 2)",open data and citizen apps for urban problems
+W4290998746,C5,exclude,"Claude (manual review, Stage 2)",metaverse and smart urbanism
+W2979957882,C5,include,"Claude (manual review, Stage 2)",Barcelona's technological sovereignty and digital democracy
+W4311377231,C5,exclude,"Claude (manual review, Stage 2)",digital twins review (C13)
+W2805172877,C5,exclude,"Claude (manual review, Stage 2)",participatory urban informatics (C12)
+W3021879216,C5,include,"Claude (manual review, Stage 2)",data ecosystems and citizens' digital rights (European cities)
+W3119938775,C5,exclude,"Claude (manual review, Stage 2)",city-as-a-platform (C2)
+W2906145534,C5,include,"Claude (manual review, Stage 2)",data standards and data governance adoption in Flemish smart cities
+W2204744663,C5,include,"Claude (manual review, Stage 2)",open data hackathons in the Ghent living lab
+W2954061405,C5,exclude,"Claude (manual review, Stage 2)",civic technology and planning (C12)
+W3094337448,C5,exclude,"Claude (manual review, Stage 2)",smart-grid justice (energy)
+W4412369249,C5,exclude,"Claude (manual review, Stage 2)",smart governance review
+W4399303145,C5,exclude,"Claude (manual review, Stage 2)","AI, blockchain, IoT for sustainability"
+W4362456460,C5,exclude,"Claude (manual review, Stage 2)",walkability deep learning
+W2789867414,C5,exclude,"Claude (manual review, Stage 2)",smart governance indicators in Indonesia
+W2316936627,C5,exclude,"Claude (manual review, Stage 2)",city information modelling for planners
+W4210464848,C5,exclude,"Claude (manual review, Stage 2)",grassroots digital urbanism (C12)
+W3088418561,C5,include,"Claude (manual review, Stage 2)",sensor deserts and data justice in the smart city
+W2467549660,C5,include,"Claude (manual review, Stage 2)",civic technology and open government data in US cities
+W2787064613,C5,exclude,"Claude (manual review, Stage 2)",creative citizenship in smart cities
+W4226229122,C5,exclude,"Claude (manual review, Stage 2)",air-quality big-data framework (technical)
+W7170187445,C5,exclude,"Claude (manual review, Stage 2)",AI big-data governance architecture (technical)
+W4410326502,C5,exclude,"Claude (manual review, Stage 2)",AI and government transparency in Chinese cities (C7)
+W4415684824,C5,exclude,"Claude (manual review, Stage 2)",local government information systems (C8)
+W7204234601,C5,exclude,"Claude (manual review, Stage 2)",serverless e-participation architecture
+W4412128780,C5,include,"Claude (manual review, Stage 2)","bibliometric review of urban inequality, smart cities and data justice"
