@@ -80,12 +80,12 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | C12 | Civic tech, e-participation & digital urban p | 239 | 87 | 28 (12%) | 13 / 15 | 96 | 90 |
 | C13 | Digital twins, simulation & visual rendering  | 228 | 153 | 18 (8%) | 7 / 11 | 158 | 154 |
 | C14 | Digital informality (informal settlements, ve | 191 | 118 | 31 (16%) | 9 / 22 | 117 | 108 |
-| C15 | Gig work in the city (urban and spatial focus | 222 | 109 | 11 (5%) | 0 / 0 (+11 pending) | 101 | 80 |
-| C16 | Digital heritage, mapping & representation of | 213 | 120 | 51 (24%) | 0 / 0 (+51 pending) | 112 | 111 |
+| C15 | Gig work in the city (urban and spatial focus | 222 | 109 | 11 (5%) | 7 / 4 | 108 | 85 |
+| C16 | Digital heritage, mapping & representation of | 213 | 120 | 51 (24%) | 16 / 35 | 128 | 126 |
 | C17 | Urban cybersecurity & cyber-physical infrastr | 228 | 110 | 40 (18%) | 0 / 0 (+40 pending) | 109 | 104 |
 | C18 | Neighbourhood platforms & digital public spac | 217 | 98 | 30 (14%) | 0 / 0 (+30 pending) | 97 | 96 |
 
-Total deduplicated records: 7118.
+Total deduplicated records: 7138.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)

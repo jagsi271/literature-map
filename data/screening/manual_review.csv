@@ -1417,3 +1417,65 @@ W3128487342,C14,exclude,"Claude (manual review, Stage 2)",worker organising in A
 W2118209896,C14,exclude,"Claude (manual review, Stage 2)",market women in Kumasi (A10)
 W2407144841,C14,exclude,"Claude (manual review, Stage 2)",innovation indicators handbook
 W4393231899,C14,include,"Claude (manual review, Stage 2)",SMS digital health tool in Nairobi informal settlements
+W4407340993,C15,include,"Claude (manual review, Stage 2)","musculoskeletal pain among app-based delivery riders, Tamil Nadu (flag false positive)"
+W7211949094,C15,include,"Claude (manual review, Stage 2)",platformisation of mobility labour in smaller Indian cities
+W4235204989,C15,include,"Claude (manual review, Stage 2)",Uberland: drivers and algorithmic work
+W3093272061,C15,exclude,"Claude (manual review, Stage 2)",book review (The Gig Economy)
+W2953476188,C15,include,"Claude (manual review, Stage 2)",Uberland (second record)
+W2592430679,C15,exclude,"Claude (manual review, Stage 2)",gig economy and contingent work (B11; occupational health)
+W3091813245,C15,exclude,"Claude (manual review, Stage 2)",nutrition of delivery menus
+W3048720049,C15,include,"Claude (manual review, Stage 2)","socio-spatial driver organising in the Uber workplace, Washington DC"
+W3201671082,C15,exclude,"Claude (manual review, Stage 2)",consumer intentions for food-delivery apps
+W3154347224,C15,include,"Claude (manual review, Stage 2)",biopolitical platforms and Deliveroo food-delivery workers
+W7171963885,C15,include,"Claude (manual review, Stage 2)","depression and anxiety among delivery riders and couriers, China (flag false positive)"
+W2883545711,C16,include,"Claude (manual review, Stage 2)","digital heritage interpretation, Diu town"
+W2077982852,C16,include,"Claude (manual review, Stage 2)",virtual heritage (cities and sites)
+W4405992067,C16,include,"Claude (manual review, Stage 2)",digitisation of built heritage and visitor experience
+W7218103274,C16,exclude,"Claude (manual review, Stage 2)",cultural heritage communication workflow (not urban)
+W4391699659,C16,include,"Claude (manual review, Stage 2)",participatory mapping in a Delhi slum
+W7167588661,C16,exclude,"Claude (manual review, Stage 2)",wetland restoration DRR (A14)
+W4391322628,C16,include,"Claude (manual review, Stage 2)",participatory mapping of Bengaluru food stories
+W7154892516,C16,exclude,"Claude (manual review, Stage 2)",public spaces and climate migrant women (A9/A12)
+W4311189575,C16,exclude,"Claude (manual review, Stage 2)",East Kolkata wetlands adaptation (A14)
+W7204176385,C16,exclude,"Claude (manual review, Stage 2)",OSM slum detection method
+W2609578799,C16,exclude,"Claude (manual review, Stage 2)",OSM land-cover mapping
+W4408430201,C16,exclude,"Claude (manual review, Stage 2)",power-sector emissions mapping
+W2801804293,C16,include,"Claude (manual review, Stage 2)","discourses of urban filth in social-media campaigns (Swachh Bharat, Ugly Indian)"
+W1567944857,C16,exclude,"Claude (manual review, Stage 2)",development inquiry methods
+W2964378914,C16,exclude,"Claude (manual review, Stage 2)",air-quality mapping
+W2139961816,C16,include,"Claude (manual review, Stage 2)",volunteered geographic information contributions across world regions
+W3184750000,C16,exclude,"Claude (manual review, Stage 2)",outdoor recreation well-being
+W2303032091,C16,include,"Claude (manual review, Stage 2)",participatory visual and digital research (mapping)
+W3120912804,C16,exclude,"Claude (manual review, Stage 2)",game-engine 3D environments
+W3007165087,C16,include,"Claude (manual review, Stage 2)",platform methods: counter-mapping platform urbanism
+W3137256305,C16,exclude,"Claude (manual review, Stage 2)",tree mapping with street-level imagery
+W2808779211,C16,exclude,"Claude (manual review, Stage 2)",OSM land-use mapping
+W3187059854,C16,exclude,"Claude (manual review, Stage 2)",land-use mapping with open big data
+W2921479043,C16,include,"Claude (manual review, Stage 2)",deep mapping gentrification with Google Street View
+W1996517959,C16,exclude,"Claude (manual review, Stage 2)",CityGML from OSM
+W2116949570,C16,exclude,"Claude (manual review, Stage 2)",mosquito habitat mapping
+W3014792131,C16,exclude,"Claude (manual review, Stage 2)",outdoor recreation preferences
+W4327596006,C16,exclude,"Claude (manual review, Stage 2)",street-view graph neural network
+W4253840475,C16,exclude,"Claude (manual review, Stage 2)",urban operating systems (C4)
+W2269036835,C16,exclude,"Claude (manual review, Stage 2)",urban sprawl index
+W2625259639,C16,exclude,"Claude (manual review, Stage 2)",GSV land-use retrieval
+W4385582973,C16,exclude,"Claude (manual review, Stage 2)",GSV greening measurement
+W3011868305,C16,exclude,"Claude (manual review, Stage 2)",settlement extent mapping
+W3005855805,C16,exclude,"Claude (manual review, Stage 2)",falls and the built environment
+W2154367940,C16,include,"Claude (manual review, Stage 2)","data, legitimacy and participatory mapping practices"
+W2513659211,C16,include,"Claude (manual review, Stage 2)",digital peripheries and transparency in Nairobi (mapping settlements)
+W2024884115,C16,include,"Claude (manual review, Stage 2)","participatory mapping, e-mail lists and contested public space"
+W3043501028,C16,exclude,"Claude (manual review, Stage 2)",population grid from building footprints
+W2347036094,C16,exclude,"Claude (manual review, Stage 2)",land-cover map validation
+W3172790954,C16,exclude,"Claude (manual review, Stage 2)",topsoil zinc mapping
+W3208791698,C16,exclude,"Claude (manual review, Stage 2)",nature-based solutions co-creation
+W2148724168,C16,exclude,"Claude (manual review, Stage 2)",community garden education
+W2593288830,C16,exclude,"Claude (manual review, Stage 2)",community severance tools
+W3127055881,C16,exclude,"Claude (manual review, Stage 2)",urban expansion mapping
+W4410831375,C16,exclude,"Claude (manual review, Stage 2)",pest monitoring with GSV
+W7117866325,C16,exclude,"Claude (manual review, Stage 2)",air-pollution removal modelling
+W7124175028,C16,exclude,"Claude (manual review, Stage 2)",green-space mapping
+W7169796459,C16,exclude,"Claude (manual review, Stage 2)",flood mapping
+W4390922162,C16,include,"Claude (manual review, Stage 2)",verbal city image in social media
+W4320492873,C16,include,"Claude (manual review, Stage 2)",city image perception from social media (Zhongshan)
+W4401691950,C16,include,"Claude (manual review, Stage 2)",city image hotspots from social media (Nanjing)

@@ -97015,7 +97015,7 @@
   "Supplementary": "",
   "Supplementary query": "",
   "C4 orientation": "",
-  "Found in": "B1:india; C2:india; C2:recent",
+  "Found in": "B1:india; C15:india; C2:india; C2:recent",
   "Duplicates merged": "",
   "FWCI": 0.0
  },
@@ -181348,7 +181348,7 @@
   "Cited-by count": 122,
   "Domain": "C",
   "Primary theme": "C2",
-  "Secondary theme": "",
+  "Secondary theme": "C16",
   "Places studied": "",
   "Region": "Not place-specific",
   "India flag": "",
@@ -181365,7 +181365,7 @@
   "Supplementary": "",
   "Supplementary query": "",
   "C4 orientation": "",
-  "Found in": "C2:landmarks",
+  "Found in": "C16:landmarks; C2:landmarks",
   "Duplicates merged": "",
   "FWCI": 8.8276
  },
@@ -181663,7 +181663,7 @@
   "Cited-by count": 85,
   "Domain": "C",
   "Primary theme": "C2",
-  "Secondary theme": "",
+  "Secondary theme": "C15",
   "Places studied": "",
   "Region": "Not place-specific",
   "India flag": "",
@@ -181680,7 +181680,7 @@
   "Supplementary": "",
   "Supplementary query": "",
   "C4 orientation": "",
-  "Found in": "C2:landmarks",
+  "Found in": "C15:landmarks; C2:landmarks",
   "Duplicates merged": "",
   "FWCI": 18.7134
  },
@@ -235446,6 +235446,76 @@
  },
  {
   "ID": "LM06728",
+  "Title": "Uberland",
+  "Year": 2018,
+  "Authors": "Alex Rosenblat",
+  "Venue": "University of California Press eBooks",
+  "Document type": "book",
+  "DOI": "10.1525/9780520970632",
+  "OpenAlex ID": "W4235204989",
+  "Link": "https://doi.org/10.1525/9780520970632",
+  "Open-access link": "",
+  "Cited-by count": 685,
+  "Domain": "C",
+  "Primary theme": "C15",
+  "Secondary theme": "",
+  "Places studied": "Canada; United States",
+  "Region": "Global North",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "qualitative",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: Silicon Valley technology is transforming the way we work, and Uber is leading the charge.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C15:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 57.4727
+ },
+ {
+  "ID": "LM06729",
+  "Title": "Uberland: How Algorithms Are Rewriting the Rules of Work",
+  "Year": 2018,
+  "Authors": "Alex Rosenblat",
+  "Venue": "",
+  "Document type": "article",
+  "DOI": "",
+  "OpenAlex ID": "W2953476188",
+  "Link": "https://bvbr.bib-bvb.de:443/F?func=service&doc_library=BVB01&local_base=BVB01&doc_number=030681684&sequence=000001&line_number=0001&func_code=DB_RECORDS&service_type=MEDIA",
+  "Open-access link": "",
+  "Cited-by count": 307,
+  "Domain": "C",
+  "Primary theme": "C15",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "qualitative",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: \"A silent cultural revolution is reshaping how we will work for generations to come...and Uber is leading it.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C15:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 76.6068
+ },
+ {
+  "ID": "LM06730",
   "Title": "Uber happy? Work and well-being in the ‘Gig Economy’",
   "Year": 2019,
   "Authors": "Thor Berger; Carl Benedikt Frey; Guy Levin; Santosh Rao Danda",
@@ -235480,7 +235550,7 @@
   "FWCI": 39.1601
  },
  {
-  "ID": "LM06729",
+  "ID": "LM06731",
   "Title": "Migration and Migrant Labour in the Gig Economy: An Intervention",
   "Year": 2022,
   "Authors": "Niels van Doorn; Fabian Ferrari; Mark J Graham",
@@ -235515,7 +235585,7 @@
   "FWCI": 64.1233
  },
  {
-  "ID": "LM06730",
+  "ID": "LM06732",
   "Title": "Postcapitalist precarious work and those in the ‘drivers’ seat: Exploring the motivations and lived experiences of Uber drivers in Canada",
   "Year": 2018,
   "Authors": "Amanda Peticca‐Harris; Nadia C. DeGama; M. N. Ravishankar",
@@ -235550,7 +235620,7 @@
   "FWCI": 39.722
  },
  {
-  "ID": "LM06731",
+  "ID": "LM06733",
   "Title": "The global gig economy: Towards a planetary labour market?",
   "Year": 2019,
   "Authors": "Mark J Graham; Mohammad Amir Anwar",
@@ -235585,7 +235655,7 @@
   "FWCI": 59.3661
  },
  {
-  "ID": "LM06732",
+  "ID": "LM06734",
   "Title": "‘My Life Is More Valuable Than This’: Understanding Risk among On-Demand Food Couriers in Edinburgh",
   "Year": 2020,
   "Authors": "Karen Gregory",
@@ -235620,7 +235690,7 @@
   "FWCI": 30.9088
  },
  {
-  "ID": "LM06733",
+  "ID": "LM06735",
   "Title": "Controlling space, controlling labour? Contested space in food delivery gig work",
   "Year": 2021,
   "Authors": "Heiner Heiland",
@@ -235655,7 +235725,7 @@
   "FWCI": 41.9318
  },
  {
-  "ID": "LM06734",
+  "ID": "LM06736",
   "Title": "Theorising the gig economy and home-based service work",
   "Year": 2018,
   "Authors": "Frances Flanagan",
@@ -235690,7 +235760,42 @@
   "FWCI": 16.4563
  },
  {
-  "ID": "LM06735",
+  "ID": "LM06737",
+  "Title": "“Just-in-Place” labor: Driver organizing in the Uber workplace",
+  "Year": 2020,
+  "Authors": "Katie J. Wells; Kafui Ablode Attoh; Declan Cullen",
+  "Venue": "Environment and Planning A Economy and Space",
+  "Document type": "article",
+  "DOI": "10.1177/0308518x20949266",
+  "OpenAlex ID": "W3048720049",
+  "Link": "https://doi.org/10.1177/0308518x20949266",
+  "Open-access link": "",
+  "Cited-by count": 143,
+  "Domain": "C",
+  "Primary theme": "C15",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: This paper examines the socio-spatial dynamics of worker agency in the platform economy in the Washington, D.C. region.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C15:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 20.7552
+ },
+ {
+  "ID": "LM06738",
   "Title": "Odds stacked against workers: datafied gamification on Chinese and American food delivery platforms",
   "Year": 2021,
   "Authors": "Niels van Doorn; Yu-Jie Chen",
@@ -235725,7 +235830,7 @@
   "FWCI": 26.0388
  },
  {
-  "ID": "LM06736",
+  "ID": "LM06739",
   "Title": "Neither timeless, nor placeless: Control of food delivery gig work via place-based working time regimes",
   "Year": 2021,
   "Authors": "Heiner Heiland",
@@ -235760,7 +235865,7 @@
   "FWCI": 25.3444
  },
  {
-  "ID": "LM06737",
+  "ID": "LM06740",
   "Title": "The Side Hustle Safety Net: Precarious Workers and Gig Work during COVID-19",
   "Year": 2021,
   "Authors": "Alexandrea J. Ravenelle; Ken Cai Kowalski; Erica Janko",
@@ -235795,7 +235900,7 @@
   "FWCI": 16.7416
  },
  {
-  "ID": "LM06738",
+  "ID": "LM06741",
   "Title": "Embodied Precariat and Digital Control in the “Gig Economy”: The Mobile Labor of Food Delivery Workers",
   "Year": 2021,
   "Authors": "Cosmin Popan",
@@ -235830,7 +235935,7 @@
   "FWCI": 19.0599
  },
  {
-  "ID": "LM06739",
+  "ID": "LM06742",
   "Title": "“We’re building their data”: Labor, alienation, and idiocy in the smart city",
   "Year": 2019,
   "Authors": "Kafui Ablode Attoh; Katie J. Wells; Declan Cullen",
@@ -235865,7 +235970,7 @@
   "FWCI": 7.2828
  },
  {
-  "ID": "LM06740",
+  "ID": "LM06743",
   "Title": "Acceptability, energy consumption, and costs of electric vehicle for ride-hailing drivers in Beijing",
   "Year": 2019,
   "Authors": "Wei Tu; Paolo Santi; Tianhong Zhao; Xiaoyi He; Qingquan Li; Lei Dong; Timothy J. Wallington; Carlo Ratti",
@@ -235900,7 +236005,7 @@
   "FWCI": 4.4337
  },
  {
-  "ID": "LM06741",
+  "ID": "LM06744",
   "Title": "The sharing economy and the job market: the case of ride-hailing drivers in Chile",
   "Year": 2020,
   "Authors": "Andrés Fielbaum; Alejandro Tirachini",
@@ -235935,7 +236040,7 @@
   "FWCI": 14.4957
  },
  {
-  "ID": "LM06742",
+  "ID": "LM06745",
   "Title": "Digital food environment of a Brazilian metropolis: food availability and marketing strategies used by delivery apps",
   "Year": 2020,
   "Authors": "Paula Martins Horta; Juliana de Paula Matos; Luana Lara Rocha; Larissa Loures Mendes",
@@ -235970,7 +236075,7 @@
   "FWCI": 6.6085
  },
  {
-  "ID": "LM06743",
+  "ID": "LM06746",
   "Title": "The emergence of algorithmic solidarity: unveiling mutual aid practices and resistance among Chinese delivery workers",
   "Year": 2022,
   "Authors": "Zizheng Yu; Emiliano Treré; Tiziano Bonini",
@@ -236005,7 +236110,7 @@
   "FWCI": 24.2946
  },
  {
-  "ID": "LM06744",
+  "ID": "LM06747",
   "Title": "Geographic reach and nutritional quality of foods available from mobile online food delivery service applications: novel opportunities for retail food environment surveillance",
   "Year": 2021,
   "Authors": "Keshbir Brar; Leia Michelle Minaker",
@@ -236040,7 +236145,7 @@
   "FWCI": 13.1904
  },
  {
-  "ID": "LM06745",
+  "ID": "LM06748",
   "Title": "Uber versus Taxi: A Driver’s Eye View",
   "Year": 2021,
   "Authors": "Joshua D. Angrist; Sydnee Caldwell; Jonathan V. Hall",
@@ -236075,7 +236180,7 @@
   "FWCI": 17.012
  },
  {
-  "ID": "LM06746",
+  "ID": "LM06749",
   "Title": "Agency and servitude in platform labour: a feminist analysis of blended cultures",
   "Year": 2021,
   "Authors": "Sai Amulya Komarraju; Payal Arora; Usha Raman",
@@ -236110,7 +236215,7 @@
   "FWCI": 6.9437
  },
  {
-  "ID": "LM06747",
+  "ID": "LM06750",
   "Title": "Learning to Strike in the Gig Economy: Mobilization Efforts by Food Delivery Workers in Hyderabad, India",
   "Year": 2023,
   "Authors": "Mohammad Sajjad Hussain",
@@ -236145,7 +236250,7 @@
   "FWCI": 9.9131
  },
  {
-  "ID": "LM06748",
+  "ID": "LM06751",
   "Title": "Anxiety, mental health, job insecurity and workplace challenges: exploring the well-being of women gig workers in the gig economy",
   "Year": 2024,
   "Authors": "Ramya Singh; Archana Sharma; Nimit Gupta; Manish Kumar Mishra; Rohit Kushwaha",
@@ -236180,7 +236285,7 @@
   "FWCI": 11.7583
  },
  {
-  "ID": "LM06749",
+  "ID": "LM06752",
   "Title": "Algorithmic control and resistance in the gig economy: A case of Uber drivers in Dhaka",
   "Year": 2025,
   "Authors": "Lutfun Nahar Lata",
@@ -236215,7 +236320,7 @@
   "FWCI": 36.7293
  },
  {
-  "ID": "LM06750",
+  "ID": "LM06753",
   "Title": "Technolegal Expulsions: Platform Food Delivery Workers and Work Regulations in Colombia",
   "Year": 2022,
   "Authors": "Derly Yohanna Sánchez Vargas; Óscar Javier Maldonado Castañeda; Mabel Rocío Hernández Díaz",
@@ -236250,7 +236355,7 @@
   "FWCI": 5.0765
  },
  {
-  "ID": "LM06751",
+  "ID": "LM06754",
   "Title": "Weaving the algorithm: participatory subjectivities amongst food delivery riders",
   "Year": 2023,
   "Authors": "Diego Allen-Perkins; Montserrat Cañedo Rodríguez",
@@ -236285,7 +236390,7 @@
   "FWCI": 5.8578
  },
  {
-  "ID": "LM06752",
+  "ID": "LM06755",
   "Title": "The Moral Economy of Platform Work",
   "Year": 2022,
   "Authors": "Noopur Raval; Simiran Lalvani",
@@ -236320,7 +236425,7 @@
   "FWCI": 3.6261
  },
  {
-  "ID": "LM06753",
+  "ID": "LM06756",
   "Title": "Assessing the economic sustainability of gig work: A case of hyper-local food delivery workers in Kolkata, India",
   "Year": 2023,
   "Authors": "Dipyaman Sinha; Debapratim Pandit",
@@ -236355,7 +236460,7 @@
   "FWCI": 3.6048
  },
  {
-  "ID": "LM06754",
+  "ID": "LM06757",
   "Title": "Ride-hailing Drivers Left Alone at the Wheel: Reflections from South Africa and Kenya",
   "Year": 2020,
   "Authors": "Elly Otieno; Malte Stein; Mohammad Amir Anwar",
@@ -236390,7 +236495,42 @@
   "FWCI": null
  },
  {
-  "ID": "LM06755",
+  "ID": "LM06758",
+  "Title": "Factors and prevalence of musculoskeletal pain among the App-based food delivery riders in Tamil Nadu: a cross-sectional study",
+  "Year": 2025,
+  "Authors": "Thomas M. Benson; Narrain Shree Sathiyarajeswaran; R. Radhakrishnan; A. Abdul Gaffoor; M. Krupalakshme; Janmejaya Samal",
+  "Venue": "Discover Social Science and Health",
+  "Document type": "article",
+  "DOI": "10.1007/s44155-025-00162-z",
+  "OpenAlex ID": "W4407340993",
+  "Link": "https://doi.org/10.1007/s44155-025-00162-z",
+  "Open-access link": "https://link.springer.com/content/pdf/10.1007/s44155-025-00162-z.pdf",
+  "Cited-by count": 4,
+  "Domain": "C",
+  "Primary theme": "C15",
+  "Secondary theme": "",
+  "Places studied": "Chennai; Coimbatore; Nordic; Tamil Nadu",
+  "Region": "Multi-region",
+  "India flag": "Y",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "quantitative",
+  "Landmark flag": "",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: The main objectives of this study were to estimate the prevalence of pain, discomfort, and injuries among app-based food delivery riders in Tamil Nadu and identify its associated factors.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C15:india",
+  "Duplicates merged": "",
+  "FWCI": 7.5995
+ },
+ {
+  "ID": "LM06759",
   "Title": "Role of Gig Economy in Generating Urban Employment- A Study on the City of Hyderabad",
   "Year": 2023,
   "Authors": "Suresh Nakka; Vani Chintha",
@@ -236425,7 +236565,7 @@
   "FWCI": 1.3518
  },
  {
-  "ID": "LM06756",
+  "ID": "LM06760",
   "Title": "Motivational Strategies for Gig Workers at Bengaluru Urban",
   "Year": 2024,
   "Authors": "S. Sriranjani Mokshagundam; Prof. Nivedita S Hattikal",
@@ -236460,7 +236600,7 @@
   "FWCI": 2.2986
  },
  {
-  "ID": "LM06757",
+  "ID": "LM06761",
   "Title": "Platform work in Russia: employment features and precarization risks",
   "Year": 2024,
   "Authors": "Galina V. Leonidova",
@@ -236495,7 +236635,7 @@
   "FWCI": 2.2986
  },
  {
-  "ID": "LM06758",
+  "ID": "LM06762",
   "Title": "Gig Economy",
   "Year": 2025,
   "Authors": "Răzvan Hoinaru",
@@ -236530,7 +236670,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06759",
+  "ID": "LM06763",
   "Title": "Navigating platform work through solidarity and hustling: the case of ride-hailing drivers in Nairobi, Kenya",
   "Year": 2024,
   "Authors": "Brian Ekdale; Ebenezer Ato Kwamena Aidoo",
@@ -236565,7 +236705,7 @@
   "FWCI": 1.5324
  },
  {
-  "ID": "LM06760",
+  "ID": "LM06764",
   "Title": "The Role of AI in Shaping the Future of the Gig Economy: A Study of Gig Workers in Urban India",
   "Year": 2025,
   "Authors": "Abhijeet Dawle; Pradeep Kumar Mishra; Amol Dapkekar; Sanjay Waychal; Jitendra Sharma",
@@ -236600,7 +236740,7 @@
   "FWCI": 3.8662
  },
  {
-  "ID": "LM06761",
+  "ID": "LM06765",
   "Title": "Platform Work in a High‐Crime City: Navigating Violence and Gendered Safety Strategies Among Uber Drivers in Johannesburg",
   "Year": 2025,
   "Authors": "Percyval Bayane",
@@ -236635,7 +236775,7 @@
   "FWCI": 3.8662
  },
  {
-  "ID": "LM06762",
+  "ID": "LM06766",
   "Title": "Informal governance from below: Ride-hailing drivers and platform autonomy in Bogotá's gig economy",
   "Year": 2025,
   "Authors": "Luis Hernando Lozano Paredes",
@@ -236670,7 +236810,7 @@
   "FWCI": 3.8662
  },
  {
-  "ID": "LM06763",
+  "ID": "LM06767",
   "Title": "Invisible burdens of platform work: a qualitative study of food-delivery riders’ lived experiences in urban India",
   "Year": 2026,
   "Authors": "Ashifa Kariveliparambil; Rasi R A; M. Munir Ahmad; Snega Ramesh; Alen Kuriakose",
@@ -236705,7 +236845,7 @@
   "FWCI": 28.1578
  },
  {
-  "ID": "LM06764",
+  "ID": "LM06768",
   "Title": "Ride-hailing Drivers Left Alone at the Wheel",
   "Year": 2020,
   "Authors": "Elly Otieno; Malte Stein; Mohammad Amir Anwar",
@@ -236740,7 +236880,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06765",
+  "ID": "LM06769",
   "Title": "The Gig Economy and Urban Logistics",
   "Year": 2023,
   "Authors": "Geraint Harvey; Naveena Prakasam; Refat Shakirzhanov",
@@ -236775,7 +236915,7 @@
   "FWCI": 2.4727
  },
  {
-  "ID": "LM06766",
+  "ID": "LM06770",
   "Title": "Unveiling Two-Fold Gamification: Exploring the Agency Of DeliveryWorkers in Urban India",
   "Year": 2024,
   "Authors": "Tanmay Goyal; Nimmi Rangaswamy",
@@ -236810,7 +236950,7 @@
   "FWCI": 1.4426
  },
  {
-  "ID": "LM06767",
+  "ID": "LM06771",
   "Title": "DigitALL for Her: Futurecasting Platform Work for Women in Rural Philippines",
   "Year": 2022,
   "Authors": "Paul John PeÃ±a; Vince Eisen Yao",
@@ -236845,7 +236985,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06768",
+  "ID": "LM06772",
   "Title": "Securitizing the technoplatformized City: How delivery workers construct urban safe spaces in Chile's gig economy",
   "Year": 2025,
   "Authors": "Iván Ojeda Pereira",
@@ -236880,7 +237020,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM06769",
+  "ID": "LM06773",
   "Title": "The health of platform-based food delivery workers in France",
   "Year": 2025,
   "Authors": "Marwân‐al‐Qays Bousmah; Kevin Poperl; Anne Gosselin; Solène Delorme; Circé Lienart; Annabel Desgrées du Loû; F Gubert",
@@ -236915,7 +237055,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM06770",
+  "ID": "LM06774",
   "Title": "Status of Gig Workers in India: Evidence from Ahmedabad City Post-COVID-19 Pandemic",
   "Year": 2025,
   "Authors": "Amrita Ghatak",
@@ -236950,7 +237090,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM06771",
+  "ID": "LM06775",
   "Title": "Algorithmic Management and the New Digital Panopticon: A Study of Food Delivery Workers in Urban India",
   "Year": 2024,
   "Authors": "Vipin Gupta",
@@ -236985,7 +237125,7 @@
   "FWCI": 0.7662
  },
  {
-  "ID": "LM06772",
+  "ID": "LM06776",
   "Title": "Digital Platform Transformation and Socio-economic Resilience Among Indonesia’s Motorcycle Ride-hailing Drivers",
   "Year": 2025,
   "Authors": "Hannin Pradita Nur Soulthoni; Ambo Upe; Shingirai Mugambiwa; Siti Sarawati Johar",
@@ -237020,7 +237160,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM06773",
+  "ID": "LM06777",
   "Title": "Provincializing Algorithmic Management: Platform Labour and Informal Economies in Accra, Ghana",
   "Year": 2026,
   "Authors": "Joseph Opoku Mensah; Joshua Ofoeda; Edward Entee; Zillah Boye-Doe; George Kwabena Asamoah",
@@ -237055,7 +237195,7 @@
   "FWCI": 14.0789
  },
  {
-  "ID": "LM06774",
+  "ID": "LM06778",
   "Title": "Gig Jobs, Full-Time Lives: A Socio-Economic Exploration of Uber Drivers in Delhi",
   "Year": 2024,
   "Authors": "Aditi Rawat; Prashant Kandari",
@@ -237090,7 +237230,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06775",
+  "ID": "LM06779",
   "Title": "Effectively Relocating Ride-Hailing Drivers Using A Markov Decision Process with Dynamic Sharding",
   "Year": 2022,
   "Authors": "Keru Chen; Wentong Li; Michael Chirico; Tenindra Abeywickrama",
@@ -237125,7 +237265,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06776",
+  "ID": "LM06780",
   "Title": "TECHNOLOGICAL CHALLENGES IN LAST MILE ON DEMAND FOOD DELIVERY : PERSPECTIVE FROM FOOD DELIVERY RIDERS WITH SPECIAL REFERENCE TO COIMBATORE CITY, TAMILNADU, INDIA",
   "Year": 2023,
   "Authors": "K S Sumina; M. Gomathi",
@@ -237160,7 +237300,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06777",
+  "ID": "LM06781",
   "Title": "Lived Experiences of Gig Workers and Side Hustlers in Platform-based Food Delivery Gig Work",
   "Year": 2023,
   "Authors": "Nadia K. Kougiannou; Pedro Mendonça",
@@ -237195,7 +237335,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06778",
+  "ID": "LM06782",
   "Title": "Engaging Stakeholders with Platform Labour: The Social Lab Approach",
   "Year": 2024,
   "Authors": "Raúl Tabarés; Tatiana Bartolomé; Jorge García Valbuena",
@@ -237230,7 +237370,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06779",
+  "ID": "LM06783",
   "Title": "From Flexibility to Precarity: A Theoretical Examination of the Food Delivery Workers in Delhi",
   "Year": 2024,
   "Authors": "Nandani Kumari",
@@ -237265,7 +237405,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06780",
+  "ID": "LM06784",
   "Title": "6. Transformers of the Urban Night: Platform Work, Migration and Smart City",
   "Year": 2025,
   "Authors": "Laura-Solmaz Litschel",
@@ -237300,7 +237440,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06781",
+  "ID": "LM06785",
   "Title": "Transformers of the Urban Night: Platform Work, Migration and Smart City",
   "Year": 2025,
   "Authors": "Laura-Solmaz Litschel",
@@ -237335,7 +237475,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06782",
+  "ID": "LM06786",
   "Title": "Engage-wl-2561-Gig Work, Climate Crisis, and Urban Infrastructures: Insights from the City of Hyderabad",
   "Year": 2025,
   "Authors": "T. Hazeena",
@@ -237370,7 +237510,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06783",
+  "ID": "LM06787",
   "Title": "Unravelling Urban Transformation: Integrating Economic, Social, and Spatial Perspectives on the Gig Economy",
   "Year": 2025,
   "Authors": "M N Manu; Anitha Jose",
@@ -237405,7 +237545,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06784",
+  "ID": "LM06788",
   "Title": "THE GIG ECONOMY AND URBAN INDIA: OPPORTUNITIES AND CHALLENGES FOR YOUNG WORKERS",
   "Year": 2025,
   "Authors": "Bablu Solanki saini -",
@@ -237440,7 +237580,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06785",
+  "ID": "LM06789",
   "Title": "Perceived platform surveillance, mental health and road risk among couriers and food delivery workers: Evidence from Wuhan, China",
   "Year": 2026,
   "Authors": "Lijuan Chen; Ruolin Wang",
@@ -237475,7 +237615,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06786",
+  "ID": "LM06790",
   "Title": "Regulating Platform Work and Trust Outcomes among Urban Gig Workers in India",
   "Year": 2026,
   "Authors": "Kannu Rajamani KUMAR; Srinivasan MADHIVANAN; Bellan Nanjaundan SIVAKUMAR",
@@ -237510,7 +237650,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06787",
+  "ID": "LM06791",
   "Title": "‘Platform Precarity’: Exploring the Labor Conditions of Food Delivery Riders in Dhaka City",
   "Year": 2026,
   "Authors": "Mahira Nazniba Rodoshee; Md. Zahidur Rahman",
@@ -237545,7 +237685,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06788",
+  "ID": "LM06792",
   "Title": "Strategic flexibility in platform work: How Chinese ride-hailing drivers evaluate regulatory trade-offs",
   "Year": 2026,
   "Authors": "Xihan Dong; Xun Wu",
@@ -237580,7 +237720,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06789",
+  "ID": "LM06793",
   "Title": "Platform Work, Informality, and Statecraft in Vietnam: A Three-Body Problem",
   "Year": 2026,
   "Authors": "Marie Gibert‐Flutre",
@@ -237615,7 +237755,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06790",
+  "ID": "LM06794",
   "Title": "Education, Employment, and Domesticity: Job Satisfaction and Social Experiences of Platform Delivery Workers in Dhaka City",
   "Year": 2026,
   "Authors": "Sashwati Sanyal Sreya; Mohammad Mahbub Quaisar",
@@ -237650,7 +237790,42 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06791",
+  "ID": "LM06795",
+  "Title": "Differences in Depression and Anxiety Symptom Networks Between Food Delivery Riders and Goods Couriers — China, 2022",
+  "Year": 2026,
+  "Authors": "Du Jingjing; Sun Yanyan; Wang Jin; Li Shuang",
+  "Venue": "China CDC Weekly",
+  "Document type": "article",
+  "DOI": "10.46234/ccdcw2026.160",
+  "OpenAlex ID": "W7171963885",
+  "Link": "https://doi.org/10.46234/ccdcw2026.160",
+  "Open-access link": "https://weekly.chinacdc.cn/en/article/pdf/preview/10.46234/ccdcw2026.160.pdf",
+  "Cited-by count": 0,
+  "Domain": "C",
+  "Primary theme": "C15",
+  "Secondary theme": "",
+  "Places studied": "China",
+  "Region": "China & East Asia",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "computational",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: What is added by this report?The prevalence of depressive and anxiety symptoms among platform-delivery workers was 22.7% [95% confidence interval (CI): 22.3%, 23.1%] and 10.4% (95% CI: 10.1%, 10.8%), respectively.Food delivery riders had significantly higher depression and anxiety symptoms preval…",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C15:recent",
+  "Duplicates merged": "",
+  "FWCI": 0.0
+ },
+ {
+  "ID": "LM06796",
   "Title": "A STUDY ON GIG WORKERS THROUGH A SOCIOLOGICAL LENS IN WAZIRABAD, NORTH DELHI, INDIA",
   "Year": 2026,
   "Authors": "Rishit Kumar Singh",
@@ -237685,7 +237860,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06792",
+  "ID": "LM06797",
   "Title": "HEALTHCARE GIG WORKERS IN CHENNAI TRANSFORMING URBAN HEALTHCARE THROUGH FLEXIBLE EMPLOYMENT",
   "Year": 2026,
   "Authors": "Dr. R. BHAGYALAKSHMI Dr. R. BHAGYALAKSHMI",
@@ -237720,7 +237895,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06793",
+  "ID": "LM06798",
   "Title": "Earnings volatility and worker well-being in Dhaka’s gig economy: Precarity, platform governance, and urban livelihoods in Bangladesh",
   "Year": 2026,
   "Authors": "Md Asad Noor; Md Sabbir Hossain; Md Sharukh Jaman Khan",
@@ -237755,7 +237930,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06794",
+  "ID": "LM06799",
   "Title": "A perfect storm: how app-based food delivery workers navigate climate-related occupational hazards",
   "Year": 2026,
   "Authors": "Anelyse Margaret Weiler; Jen Kostuchuk",
@@ -237790,7 +237965,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06795",
+  "ID": "LM06800",
   "Title": "FinTech Innovation and Financial Inclusion in the Gig Economy: Theoretical Study of GIG Workers in Coimbatore District",
   "Year": 2026,
   "Authors": "Dr. T. Mohana Sundari",
@@ -237825,7 +238000,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06796",
+  "ID": "LM06801",
   "Title": "Frictions of Movement: Platform Work and the Urban Experience in Copenhagen",
   "Year": 2026,
   "Authors": "Agustín Müller",
@@ -237860,7 +238035,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06797",
+  "ID": "LM06802",
   "Title": "DETERMINANTS OF RIDE-HAILING DRIVERS’ JOB ATTITUDES: THE MEDIATING ROLE OF JOB SATISFACTION",
   "Year": 2026,
   "Authors": "Pham Do Van Trung; Trương Nhân Minh",
@@ -237895,7 +238070,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06798",
+  "ID": "LM06803",
   "Title": "EMPLOYMENT CONDITIONS AND QUALITY OF LIFE OF GIG WORKERS: A STUDY OF FOOD DELIVERY WORKERS IN AHMEDABAD",
   "Year": 2026,
   "Authors": "Vardaan Parashar; Dr. Dipti Sethi; Dr Richa Verma",
@@ -237930,7 +238105,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06799",
+  "ID": "LM06804",
   "Title": "Platform Labour, Gig Economy Precarity, and the Demand for Social Protection: An Empirical Study of Ride-Hailing and Delivery Workers in Urban Pakistan",
   "Year": 2026,
   "Authors": "Basit Ali; Sadia Nasreen; Shehla Akram; Baber Nawaz",
@@ -237965,7 +238140,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06800",
+  "ID": "LM06805",
   "Title": "Precarity and Well-Being in Platform Work: A Study of Income, Job Security, and Social Protection among Delivery Partners in Urban India",
   "Year": 2025,
   "Authors": "Synthia Krishnaraj, Ramana.R, Jessica.T, Prabakaran. A, Joseph jestin.Y, Gayathri .G, Anushya.P, Sathyapriya B and Dr. K. Sathyamurthi",
@@ -238000,7 +238175,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06801",
+  "ID": "LM06806",
   "Title": "Gig Economy Growth, Platform Worker Well-being and Social Protection Gaps in Urban India",
   "Year": 2025,
   "Authors": "Kavitha Iyer Arjun Seshadri",
@@ -238035,7 +238210,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06802",
+  "ID": "LM06807",
   "Title": "ARTIFICAL INTELLIGENCE AND ITS EFFECT ON GIG WORKERS IN DHULE CITY",
   "Year": 2026,
   "Authors": "Miss. Nisha Guruprasad Kulkarni",
@@ -238070,7 +238245,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06803",
+  "ID": "LM06808",
   "Title": "Fragmented Lives and Labour : Uneven Incorporation of Platform Work in Sweden",
   "Year": 2026,
   "Authors": "Olivia Butler",
@@ -238105,7 +238280,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06804",
+  "ID": "LM06809",
   "Title": "Coding labour: algorithms and the politics of production in platform economy",
   "Year": 2026,
   "Authors": "Kanikka Sersia",
@@ -238140,7 +238315,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06805",
+  "ID": "LM06810",
   "Title": "THE GIG ECONOMY AND THE TRANSFORMATION OF URBAN EMPLOYMENT: A SOCIOLOGICAL STUDY OF GIG WORKERS IN MYSURU CITY",
   "Year": 2026,
   "Authors": "Nagendrakumar P. M.",
@@ -238175,7 +238350,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06806",
+  "ID": "LM06811",
   "Title": "A STUDY ON THE GIG ECONOMY AND URBAN LABOUR FREELANCE WORKERS' EXPERIENCES IN CHENNAI CITY",
   "Year": 2025,
   "Authors": "Mrs.Gowthami.S Dr. R. Bhagyalakshmi",
@@ -238210,7 +238385,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06807",
+  "ID": "LM06812",
   "Title": "Fintech Adoption of Gig Economy Workers in Chennai City: An Empirical Study",
   "Year": 2026,
   "Authors": "Ms. S Subbulakshmi; Dr. (Mrs.) Amthul Thawab",
@@ -238245,7 +238420,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06808",
+  "ID": "LM06813",
   "Title": "High-Resolution Air Pollution Mapping with Google Street View Cars: Exploiting Big Data",
   "Year": 2017,
   "Authors": "Joshua Schulz Apte; Kyle P. Messier; Shahzad Gani; Michael D Brauer; Thomas W. Kirchstetter; Melissa M. Lunden; Julian  D. Marshall; Christopher J. Portier; Roel C.H. Vermeulen; Steven P. Hamburg",
@@ -238280,7 +238455,7 @@
   "FWCI": 31.1478
  },
  {
-  "ID": "LM06809",
+  "ID": "LM06814",
   "Title": "What makes Paris look like Paris?",
   "Year": 2012,
   "Authors": "Carl Doersch; Saurabh Singh; Abhinav Gupta; Josef Šivic; Alexei A. Efros",
@@ -238315,7 +238490,7 @@
   "FWCI": 46.866
  },
  {
-  "ID": "LM06810",
+  "ID": "LM06815",
   "Title": "Mapping sky, tree, and building view factors of street canyons in a high-density urban environment",
   "Year": 2018,
   "Authors": "Fang-Ying Gong; Zhao‐Cheng Zeng; Fan Zhang; Xiaojiang Li; Edward Ng; Leslie Keith Norford",
@@ -238350,7 +238525,7 @@
   "FWCI": 12.3745
  },
  {
-  "ID": "LM06811",
+  "ID": "LM06816",
   "Title": "Green streets − Quantifying and mapping urban trees with street-level imagery and computer vision",
   "Year": 2017,
   "Authors": "Ian Seiferling; Nikhil Naik; Carlo Ratti; Raphaël Proulx",
@@ -238385,7 +238560,7 @@
   "FWCI": 39.8578
  },
  {
-  "ID": "LM06812",
+  "ID": "LM06817",
   "Title": "A spatio-temporal analysis investigating completeness and inequalities of global urban building data in OpenStreetMap",
   "Year": 2023,
   "Authors": "Benjamin Herfort; Sven Lautenbach; João Porto de Albuquerque; Jennings Anderson; Alexander Zipf",
@@ -238420,7 +238595,7 @@
   "FWCI": 287.9911
  },
  {
-  "ID": "LM06813",
+  "ID": "LM06818",
   "Title": "Fine-resolution population mapping using OpenStreetMap points-of-interest",
   "Year": 2014,
   "Authors": "Mohamed Bakillah; Steve H. L. Liang; Amin Mobasheri; Jamal Jokar Arsanjani; Alexander Zipf",
@@ -238455,7 +238630,7 @@
   "FWCI": 113.8313
  },
  {
-  "ID": "LM06814",
+  "ID": "LM06819",
   "Title": "Mapping place values: 10 lessons from two decades of public participation GIS empirical research",
   "Year": 2020,
   "Authors": "Greg Brown; Pat Reed; Christopher Mark Raymond",
@@ -238490,7 +238665,7 @@
   "FWCI": 41.5104
  },
  {
-  "ID": "LM06815",
+  "ID": "LM06820",
   "Title": "City image, city brand personality and generation Z residents' life satisfaction under economic crisis: Predictors of city-related social media engagement",
   "Year": 2019,
   "Authors": "Constantinos‐Vasilios Priporas; Nikolaos D. Stylos; Irene Eirini Kamenidou",
@@ -238525,7 +238700,7 @@
   "FWCI": 28.617
  },
  {
-  "ID": "LM06816",
+  "ID": "LM06821",
   "Title": "Decolonizing geographies of power: indigenous digital counter-mapping practices on turtle Island",
   "Year": 2016,
   "Authors": "Dallas Hunt; Shaun Stevenson",
@@ -238560,7 +238735,42 @@
   "FWCI": 27.4414
  },
  {
-  "ID": "LM06817",
+  "ID": "LM06822",
+  "Title": "Comparison of Volunteered Geographic Information Data Contributions and Community Development for Selected World Regions",
+  "Year": 2013,
+  "Authors": "Pascal Neis; Dennis Zielstra; Alexander Zipf",
+  "Venue": "Future Internet",
+  "Document type": "article",
+  "DOI": "10.3390/fi5020282",
+  "OpenAlex ID": "W2139961816",
+  "Link": "https://doi.org/10.3390/fi5020282",
+  "Open-access link": "https://www.mdpi.com/1999-5903/5/2/282/pdf?version=1370245286",
+  "Cited-by count": 166,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "European",
+  "Region": "Global North",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "quantitative",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: In this article, we conduct an analysis to determine similarities and differences in data contributions and community development in OSM between 12 selected urban areas of the world.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 123.8204
+ },
+ {
+  "ID": "LM06823",
   "Title": "The image of the City on social media: A comparative study using “Big Data” and “Small Data” methods in the Tri-City Region in Poland",
   "Year": 2020,
   "Authors": "Jianxiang Huang; Hanna Obracht‐Prondzyńska; Dorota Kamrowska‐Załuska; Yiming Sun; Lishuai Li",
@@ -238595,7 +238805,7 @@
   "FWCI": 8.9507
  },
  {
-  "ID": "LM06818",
+  "ID": "LM06824",
   "Title": "Quality of crowdsourced geospatial building information: A global assessment of OpenStreetMap attributes",
   "Year": 2023,
   "Authors": "Filip Biljecki; Yoong Shin Chow; Kay Lee",
@@ -238630,7 +238840,7 @@
   "FWCI": 161.1254
  },
  {
-  "ID": "LM06819",
+  "ID": "LM06825",
   "Title": "Counter-Mapping the Neighborhood on Bicycles: Mobilizing Youth to Reimagine the City",
   "Year": 2013,
   "Authors": "Katie Headrick Taylor; Rogers P. Hall",
@@ -238665,7 +238875,7 @@
   "FWCI": 36.5372
  },
  {
-  "ID": "LM06820",
+  "ID": "LM06826",
   "Title": "Mapping the intangible: Using geolocated social media data to examine landscape aesthetics",
   "Year": 2018,
   "Authors": "Johannes Langemeyer; Fulvia Calcagni; Francesc Baró",
@@ -238700,7 +238910,7 @@
   "FWCI": 8.2464
  },
  {
-  "ID": "LM06821",
+  "ID": "LM06827",
   "Title": "Toward mapping land-use patterns from volunteered geographic information",
   "Year": 2013,
   "Authors": "Jamal Jokar Arsanjani; Marco Helbich; Mohamed Bakillah; Julian Hagenauer; Alexander Zipf",
@@ -238735,7 +238945,7 @@
   "FWCI": 83.2235
  },
  {
-  "ID": "LM06822",
+  "ID": "LM06828",
   "Title": "Exploring cultural ecosystem service hotspots: Linking multiple urban forest features with public participation mapping data",
   "Year": 2019,
   "Authors": "Christoph F. Baumeister; Tina Gerstenberg; Tobías Plieninger; Ulrich Schraml",
@@ -238770,7 +238980,7 @@
   "FWCI": 5.1333
  },
  {
-  "ID": "LM06823",
+  "ID": "LM06829",
   "Title": "Social functional mapping of urban green space using remote sensing and social sensing data",
   "Year": 2018,
   "Authors": "Wei Chen; Huiping Huang; Jinwei Dong; Yuan Zhang; Yichen Tian; Zhiqi Yang",
@@ -238805,7 +239015,7 @@
   "FWCI": 5.0594
  },
  {
-  "ID": "LM06824",
+  "ID": "LM06830",
   "Title": "Classification and mapping of urban canyon geometry using Google Street View images and deep multitask learning",
   "Year": 2019,
   "Authors": "Chuanbo Hu; Fan Zhang; Fang-Ying Gong; Carlo Ratti; Xin Li",
@@ -238840,7 +239050,7 @@
   "FWCI": 7.0089
  },
  {
-  "ID": "LM06825",
+  "ID": "LM06831",
   "Title": "Mapping the spatial distribution of shade provision of street trees in Boston using Google Street View panoramas",
   "Year": 2018,
   "Authors": "Xiaojiang Li; Carlo Ratti",
@@ -238875,7 +239085,42 @@
   "FWCI": 5.0735
  },
  {
-  "ID": "LM06826",
+  "ID": "LM06832",
+  "Title": "Participatory Visual and Digital Research in Action",
+  "Year": 2016,
+  "Authors": "Aline Gubrium; Krista M. Harper; Marty Otañez",
+  "Venue": "Routledge eBooks",
+  "Document type": "book",
+  "DOI": "10.4324/9781315422978",
+  "OpenAlex ID": "W2303032091",
+  "Link": "https://doi.org/10.4324/9781315422978",
+  "Open-access link": "http://content.ub.hu-berlin.de/monographs/toc/ethnologie/BV042767706.pdf",
+  "Cited-by count": 134,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "computational",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: This collection of original articles, a companion to the authors’ Participatory Visual and Digital Methods, illustrates how innovative visual and digital research techniques are being used in various field projects in health care, environmental policy, urban planning, education and youth developm…",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 17.4417
+ },
+ {
+  "ID": "LM06833",
   "Title": "Annual large-scale urban land mapping based on Landsat time series in Google Earth Engine and OpenStreetMap data: A case study in the middle Yangtze River basin",
   "Year": 2019,
   "Authors": "Dandan Liu; Nengcheng Chen; Xiang Zhang; Chao Wang; Wenying Du",
@@ -238910,7 +239155,7 @@
   "FWCI": 10.3314
  },
  {
-  "ID": "LM06827",
+  "ID": "LM06834",
   "Title": "The Combined Use of Remote Sensing and Social Sensing Data in Fine-Grained Urban Land Use Mapping: A Case Study in Beijing, China",
   "Year": 2017,
   "Authors": "Yuan Zhang; Qiangzi Li; Huiping Huang; Wei Wu; Xin Du; Hongyan Wang",
@@ -238945,7 +239190,7 @@
   "FWCI": 9.4542
  },
  {
-  "ID": "LM06828",
+  "ID": "LM06835",
   "Title": "Open-source data-driven urban land-use mapping integrating point-line-polygon semantic objects: A case study of Chinese cities",
   "Year": 2020,
   "Authors": "Yanfei Zhong; Yu Su; Siqi Wu; Zhendong Zheng; Ji Jun Zhao; Ailong Ma; Qiqi Zhu; Richen Ye; Xiaoman Li; Petri Pellikka et al.",
@@ -238980,7 +239225,7 @@
   "FWCI": 9.6065
  },
  {
-  "ID": "LM06829",
+  "ID": "LM06836",
   "Title": "An evaluation of participatory mapping methods to assess urban park benefits",
   "Year": 2018,
   "Authors": "Greg Brown; Jonathan R. Rhodes; Marie C. Dade",
@@ -239015,7 +239260,42 @@
   "FWCI": 3.3307
  },
  {
-  "ID": "LM06830",
+  "ID": "LM06837",
+  "Title": "Deep mapping gentrification in a large Canadian city using deep learning and Google Street View",
+  "Year": 2019,
+  "Authors": "Lazar Ilic; Michael Sawada; Amaury Zarzelli",
+  "Venue": "PLoS ONE",
+  "Document type": "article",
+  "DOI": "10.1371/journal.pone.0212814",
+  "OpenAlex ID": "W2921479043",
+  "Link": "https://doi.org/10.1371/journal.pone.0212814",
+  "Open-access link": "https://doi.org/10.1371/journal.pone.0212814",
+  "Cited-by count": 108,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "Canada",
+  "Region": "Global North",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "computational",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: Our approach differs from previous works because we examine the atomic unit of gentrification, namely, the individual property, for visual property improvements over time and we rely on KDE to describe regions of high spatial intensity that are indicative of gentrification processes.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 29.9025
+ },
+ {
+  "ID": "LM06838",
   "Title": "Critical spatial learning: participatory mapping, spatial histories, and youth civic engagement",
   "Year": 2016,
   "Authors": "Elyse Gordon; Sarah A. Elwood; Katharyne Mitchell",
@@ -239050,7 +239330,7 @@
   "FWCI": 49.8801
  },
  {
-  "ID": "LM06831",
+  "ID": "LM06839",
   "Title": "On Combining Crowdsourcing, Sensing and Open Data for an Accessible Smart City",
   "Year": 2014,
   "Authors": "Silvia Mirri; Catia Prandi; Paola Salomoni; Franco Callegati; Aldo Campi",
@@ -239085,7 +239365,7 @@
   "FWCI": 42.8964
  },
  {
-  "ID": "LM06832",
+  "ID": "LM06840",
   "Title": "Emotional mapping and its participatory potential: Opinions about cycling conditions in Reykjavík, Iceland",
   "Year": 2016,
   "Authors": "Jiří Pánek; Karl Benediktsson",
@@ -239120,7 +239400,7 @@
   "FWCI": 42.2063
  },
  {
-  "ID": "LM06833",
+  "ID": "LM06841",
   "Title": "History, modernity, and city branding in China: a multimodal critical discourse analysis of Xi’an’s promotional videos on social media",
   "Year": 2021,
   "Authors": "Yilei Wang; Dezheng William Feng",
@@ -239155,7 +239435,7 @@
   "FWCI": 13.8874
  },
  {
-  "ID": "LM06834",
+  "ID": "LM06842",
   "Title": "Mapping Urban Landscapes Along Streets Using Google Street View",
   "Year": 2017,
   "Authors": "Xiaojiang Li; Carlo Ratti; Ian Seiferling",
@@ -239190,7 +239470,7 @@
   "FWCI": 49.273
  },
  {
-  "ID": "LM06835",
+  "ID": "LM06843",
   "Title": "Exploring semantic elements for urban scene recognition: Deep integration of high-resolution imagery and OpenStreetMap (OSM)",
   "Year": 2019,
   "Authors": "Wenzhi Zhao; Yanchen Bo; Jiage Chen; Dirk Tiede; Thomas Blaschke; William J. Emery",
@@ -239225,7 +239505,7 @@
   "FWCI": 6.944
  },
  {
-  "ID": "LM06836",
+  "ID": "LM06844",
   "Title": "Aerial image geolocalization from recognition and matching of roads and intersections",
   "Year": 2016,
   "Authors": "Dragoş Costea; Marius Leordeanu",
@@ -239260,7 +239540,42 @@
   "FWCI": 15.3273
  },
  {
-  "ID": "LM06837",
+  "ID": "LM06845",
+  "Title": "Data Matter(s): Legitimacy, Coding, and Qualifications-of-Life",
+  "Year": 2011,
+  "Authors": "Matthew W. Wilson",
+  "Venue": "Environment and Planning D Society and Space",
+  "Document type": "article",
+  "DOI": "10.1068/d7910",
+  "OpenAlex ID": "W2154367940",
+  "Link": "https://doi.org/10.1068/d7910",
+  "Open-access link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2181095",
+  "Cited-by count": 81,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "Seattle; United States",
+  "Region": "Global North",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "quantitative",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: This paper understands ‘mattering’ both in the material sense, that data are products resulting from specific practices, and in the affective sense, that data are imaginative, generative, and evocative.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 58.2163
+ },
+ {
+  "ID": "LM06846",
   "Title": "Combining participatory and socioeconomic approaches to map fishing effort in small-scale fisheries",
   "Year": 2017,
   "Authors": "Lauric Thiault; Antoine Collin; Frédérique Chlous; Stefan Gelcich; Joachim Claudet",
@@ -239295,7 +239610,7 @@
   "FWCI": 5.5857
  },
  {
-  "ID": "LM06838",
+  "ID": "LM06847",
   "Title": "An instagram content analysis for city branding in London and Florence",
   "Year": 2018,
   "Authors": "Diletta Acuti; Valentina Mazzoli; Raffaele Donvito; Priscilla Y. L. Chan",
@@ -239330,7 +239645,7 @@
   "FWCI": 9.6468
  },
  {
-  "ID": "LM06839",
+  "ID": "LM06848",
   "Title": "Mapping non-native invasive species and accessibility in an urban forest: A case study of participatory mapping and citizen science in Atlanta, Georgia",
   "Year": 2014,
   "Authors": "Timothy L. Hawthorne; V. Elmore; Aaron Strong; Paulita Bennett-Martin; J. Finnie; J. Parkman; Trevor A. Le V. Harris; J. Singh; L. Edwards; J. Reed",
@@ -239365,7 +239680,7 @@
   "FWCI": 34.8463
  },
  {
-  "ID": "LM06840",
+  "ID": "LM06849",
   "Title": "Mapping Public Urban Green Spaces Based on OpenStreetMap and Sentinel-2 Imagery Using Belief Functions",
   "Year": 2021,
   "Authors": "Christina Ludwig; Robert Hecht; Sven Lautenbach; Martin Schorcht; Alexander Zipf",
@@ -239400,7 +239715,77 @@
   "FWCI": 5.4869
  },
  {
-  "ID": "LM06841",
+  "ID": "LM06850",
+  "Title": "Contesting Public Space and Citizenship",
+  "Year": 2005,
+  "Authors": "Susanna F. Schaller; Gabriella Gahlia Modan",
+  "Venue": "Journal of Planning Education and Research",
+  "Document type": "article",
+  "DOI": "10.1177/0739456x04270124",
+  "OpenAlex ID": "W2024884115",
+  "Link": "https://doi.org/10.1177/0739456x04270124",
+  "Open-access link": "",
+  "Cited-by count": 76,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "unclear",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: This article analyzes a participatory mapping project and messages on a neighborhood e-mail list to compare the visions of place expressed by disempowered community members and by an NBID proposal.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 32.7142
+ },
+ {
+  "ID": "LM06851",
+  "Title": "Seeing (from) Digital Peripheries: Technology and Transparency in Kenya’s Silicon Savannah",
+  "Year": 2016,
+  "Authors": "Lisa Poggiali",
+  "Venue": "Cultural Anthropology",
+  "Document type": "article",
+  "DOI": "10.14506/ca31.3.07",
+  "OpenAlex ID": "W2513659211",
+  "Link": "https://doi.org/10.14506/ca31.3.07",
+  "Open-access link": "https://journal.culanth.org/index.php/ca/article/download/ca31.3.07/380",
+  "Cited-by count": 76,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "Kenya; Nairobi",
+  "Region": "Africa",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "computational",
+  "Landmark flag": "Y",
+  "Emerging flag": "",
+  "One-line summary": "auto: This article focuses on how the recent proliferation of digital technologies in Nairobi, Kenya—a place many refer to as Silicon Savannah—is shaping the aspirations and anxieties of the city’s poor.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:landmarks",
+  "Duplicates merged": "",
+  "FWCI": 32.6139
+ },
+ {
+  "ID": "LM06852",
   "Title": "Public Participatory Mapping of Cultural Ecosystem Services: Citizen Perception and Park Management in the Parco Nord of Milan (Italy)",
   "Year": 2017,
   "Authors": "Claudia Canedoli; Craig Bullock; Marcus John Collier; Deirdre Joyce; Emilio Padoa‐Schioppa",
@@ -239435,7 +239820,7 @@
   "FWCI": 2.9791
  },
  {
-  "ID": "LM06842",
+  "ID": "LM06853",
   "Title": "SENTINEL-2 IMAGERY FOR MAPPING AND MONITORING IMPERVIOUSNESS IN URBAN AREAS",
   "Year": 2019,
   "Authors": "G. Kuc; Jarosław Chormański",
@@ -239470,7 +239855,7 @@
   "FWCI": 3.1338
  },
  {
-  "ID": "LM06843",
+  "ID": "LM06854",
   "Title": "Mapping 10 m global impervious surface area (GISA-10m) using multi-source geospatial data",
   "Year": 2022,
   "Authors": "Xin Huang; Jie Yang; Wenrui Wang; Zhengrong Liu",
@@ -239505,7 +239890,7 @@
   "FWCI": 6.066
  },
  {
-  "ID": "LM06844",
+  "ID": "LM06855",
   "Title": "Participatory mapping with urban youth: the visual elicitation of socio-spatial research data",
   "Year": 2013,
   "Authors": "Ioana Literat",
@@ -239540,7 +239925,7 @@
   "FWCI": 17.5439
  },
  {
-  "ID": "LM06845",
+  "ID": "LM06856",
   "Title": "Sensitivity of measuring the urban form and greenery using street-level imagery: A comparative study of approaches and visual perspectives",
   "Year": 2023,
   "Authors": "Filip Biljecki; Tianhong Zhao; Xiucheng Liang; Yujun Hou",
@@ -239575,7 +239960,7 @@
   "FWCI": 8.7854
  },
  {
-  "ID": "LM06846",
+  "ID": "LM06857",
   "Title": "Participatory Mapping of Cultural Ecosystem Services in Madrid: Insights for Landscape Planning",
   "Year": 2020,
   "Authors": "Víctor García-Díez; Marina García‐Llorente; José A. González",
@@ -239610,7 +239995,7 @@
   "FWCI": 2.5485
  },
  {
-  "ID": "LM06847",
+  "ID": "LM06858",
   "Title": "Coverage and bias of street view imagery in mapping the urban environment",
   "Year": 2025,
   "Authors": "Zicheng Fan; Chen‐Chieh Feng; Filip Biljecki",
@@ -239645,7 +240030,7 @@
   "FWCI": 307.6643
  },
  {
-  "ID": "LM06848",
+  "ID": "LM06859",
   "Title": "User Contribution Patterns and Completeness Evaluation of Mapillary, a Crowdsourced Street Level Photo Service",
   "Year": 2016,
   "Authors": "Levente Juhász; Hartwig Henry Hochmair",
@@ -239680,7 +240065,7 @@
   "FWCI": 30.6955
  },
  {
-  "ID": "LM06849",
+  "ID": "LM06860",
   "Title": "A place‐based participatory mapping approach for assessing cultural ecosystem services in urban green space",
   "Year": 2019,
   "Authors": "Lizzie P. Jones; Robert Alan Holland; Jennifer Ball; Tim Sykes; Gail Taylor; Lisa Ingwall‐King; Jake L. Snaddon; Kelvin S.‐H. Peh",
@@ -239715,7 +240100,42 @@
   "FWCI": 3.0049
  },
  {
-  "ID": "LM06850",
+  "ID": "LM06861",
+  "Title": "Virtual heritage",
+  "Year": 2001,
+  "Authors": "Alonzo C. Addison",
+  "Venue": "",
+  "Document type": "conference-paper",
+  "DOI": "10.1145/584993.585055",
+  "OpenAlex ID": "W2077982852",
+  "Link": "https://doi.org/10.1145/584993.585055",
+  "Open-access link": "",
+  "Cited-by count": 46,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "Afghanistan; New York; Rome",
+  "Region": "Multi-region",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "unclear",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: From the Coliseum in Rome to the verdant landscape of the Loire Valley, the world's cultural heritage has withstood the text of time.",
+  "Stated gaps": "auto: Coupled with this, early 'digital heritage' failed to live up to expectations, whether due to limited tools, questionable research, or lack of visual realism.",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:india",
+  "Duplicates merged": "",
+  "FWCI": 1.6056
+ },
+ {
+  "ID": "LM06862",
   "Title": "Urban Region Representation Learning with OpenStreetMap Building Footprints",
   "Year": 2023,
   "Authors": "Yi Li; Weiming Huang; Gao Cong; Hao Wang; Zheng Wang",
@@ -239750,7 +240170,42 @@
   "FWCI": 103.941
  },
  {
-  "ID": "LM06851",
+  "ID": "LM06863",
+  "Title": "Exploring City Image Perception in Social Media Big Data through Deep Learning: A Case Study of Zhongshan City",
+  "Year": 2023,
+  "Authors": "Lei Su; Weifeng Chen; Yan Zhou; Lei Fan",
+  "Venue": "Sustainability",
+  "Document type": "article",
+  "DOI": "10.3390/su15043311",
+  "OpenAlex ID": "W4320492873",
+  "Link": "https://doi.org/10.3390/su15043311",
+  "Open-access link": "https://www.mdpi.com/2071-1050/15/4/3311/pdf?version=1676285523",
+  "Cited-by count": 41,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "computational",
+  "Landmark flag": "",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: Based on Kevin Lynch’s cognitive method of urban image and Weibo’s review data, this study constructs a research framework with three modules as the core: city image structure, city image types, and cultural service evaluation.",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:recent",
+  "Duplicates merged": "",
+  "FWCI": 5.1457
+ },
+ {
+  "ID": "LM06864",
   "Title": "Advancing equitable ‘resilience imaginaries’ in the Global South through dialogical participatory mapping: Experiences from informal communities in Brazil",
   "Year": 2024,
   "Authors": "Vangelis Pitidis; Jon Coaffee; Fernanda Lima‐Silva",
@@ -239785,7 +240240,7 @@
   "FWCI": 20.6873
  },
  {
-  "ID": "LM06852",
+  "ID": "LM06865",
   "Title": "Geopolitics of Digital Heritage",
   "Year": 2024,
   "Authors": "Natalia Grincheva; Elizabeth Stainforth",
@@ -239820,7 +240275,42 @@
   "FWCI": 86.9297
  },
  {
-  "ID": "LM06853",
+  "ID": "LM06866",
+  "Title": "‘Old habits die hard’: discourses of urban filth in Swachh Bharat Mission and The Ugly Indian",
+  "Year": 2018,
+  "Authors": "Aman Luthra",
+  "Venue": "Journal of Multicultural Discourses",
+  "Document type": "article",
+  "DOI": "10.1080/17447143.2018.1467917",
+  "OpenAlex ID": "W2801804293",
+  "Link": "https://doi.org/10.1080/17447143.2018.1467917",
+  "Open-access link": "",
+  "Cited-by count": 21,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "India",
+  "Region": "South Asia",
+  "India flag": "Y",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "qualitative",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: This article provides an exploratory study of the ideology and work of two social media campaigns – Swachh Bharat (Clean India) Mission and The Ugly Indian, a social media group – which emphasize the need for inculcating ‘modern’ civic behaviors of not littering, and volunteering to clean up publ…",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:india",
+  "Duplicates merged": "",
+  "FWCI": 1.3254
+ },
+ {
+  "ID": "LM06867",
   "Title": "Three narrative patterns of the city image visually presented on Instagram under the influence of self-presentation",
   "Year": 2022,
   "Authors": "Xiao Qian",
@@ -239855,7 +240345,42 @@
   "FWCI": 68.6896
  },
  {
-  "ID": "LM06854",
+  "ID": "LM06868",
+  "Title": "Public Perception of City Image Hotspots Based on Social Media: A Case Study of Nanjing, China",
+  "Year": 2024,
+  "Authors": "Xuefeng Bai; Xinyu Jiao; Peiyuan Zhang; Takeru Sakai; Hao Xu",
+  "Venue": "IEEE Access",
+  "Document type": "article",
+  "DOI": "10.1109/access.2024.3445995",
+  "OpenAlex ID": "W4401691950",
+  "Link": "https://doi.org/10.1109/access.2024.3445995",
+  "Open-access link": "https://doi.org/10.1109/access.2024.3445995",
+  "Cited-by count": 15,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "China; Nanjing",
+  "Region": "China & East Asia",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "mixed",
+  "Landmark flag": "",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: City image is an important element in the design of urban features.",
+  "Stated gaps": "auto: This approach bridges the gap that traditional city image research focuses only on objective environment descriptions and lacks subject-object relationship analysis, which can provide scientific value for decision makers in urban design management.",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:recent",
+  "Duplicates merged": "",
+  "FWCI": 2.9226
+ },
+ {
+  "ID": "LM06869",
   "Title": "Using Crowd-Sourced Data to Quantify the Complex Urban Fabric—OpenStreetMap and the Urban–Rural Index",
   "Year": 2015,
   "Authors": "Johannes Schlesinger",
@@ -239890,7 +240415,7 @@
   "FWCI": 14.8377
  },
  {
-  "ID": "LM06855",
+  "ID": "LM06870",
   "Title": "UHI drivers and mapping the urban thermal environment",
   "Year": 2021,
   "Authors": "Ansar Khan; Soumendu Chatterjee; Yupeng Weng",
@@ -239925,7 +240450,7 @@
   "FWCI": 5.9702
  },
  {
-  "ID": "LM06856",
+  "ID": "LM06871",
   "Title": "Using Google Street View photographs to assess long-term outdoor thermal perception and thermal comfort in the urban environment during heatwaves",
   "Year": 2022,
   "Authors": "Ján Urban; Miroslav Pikl; František Zemek; Jan Novotný",
@@ -239960,7 +240485,7 @@
   "FWCI": 0.6867
  },
  {
-  "ID": "LM06857",
+  "ID": "LM06872",
   "Title": "‘London is avocado on toast’: The urban imaginaries of the #LondonIsOpen campaign",
   "Year": 2023,
   "Authors": "Edanur Yazici; Karim Murji; Michael Keith; Steve Pile; John Solomos; Ying Wang",
@@ -239995,7 +240520,7 @@
   "FWCI": 6.6849
  },
  {
-  "ID": "LM06858",
+  "ID": "LM06873",
   "Title": "Ideology, obsolescence and preservation in digital mapping and locative art",
   "Year": 2013,
   "Authors": "Suneel Jethani; Dale Leorke",
@@ -240030,7 +240555,7 @@
   "FWCI": 4.2707
  },
  {
-  "ID": "LM06859",
+  "ID": "LM06874",
   "Title": "Assessing and Mapping Seismic Liquefaction Hazard, Vulnerability, and Risk of the Transportation Infrastructure of Mumbai City, India",
   "Year": 2018,
   "Authors": "Reshma R. Phule; Deepankar Choudhury",
@@ -240065,7 +240590,7 @@
   "FWCI": 1.6531
  },
  {
-  "ID": "LM06860",
+  "ID": "LM06875",
   "Title": "Automatic Understanding and Mapping of Regions in Cities Using Google Street View Images",
   "Year": 2022,
   "Authors": "José Carlos Rangel; Edmanuel Cruz; Miguel Cazorla",
@@ -240100,7 +240625,7 @@
   "FWCI": 0.6664
  },
  {
-  "ID": "LM06861",
+  "ID": "LM06876",
   "Title": "Counter-mapping Surabaya: Designing ‘cities within the city’",
   "Year": 2023,
   "Authors": "Alexandra Lara Crosby; Anitha Silvia; Celcea Tifani; Mikael Edo Imantaka",
@@ -240135,7 +240660,42 @@
   "FWCI": 4.8617
  },
  {
-  "ID": "LM06862",
+  "ID": "LM06877",
+  "Title": "Towards a digital heritage: Evaluating methods of heritage interpretation, diu town – a case study",
+  "Year": 2017,
+  "Authors": "Anisha Meggi",
+  "Venue": "International Journal of Heritage Architecture Studies Repairs and Maintence",
+  "Document type": "article",
+  "DOI": "10.2495/ha-v2-n3-406-416",
+  "OpenAlex ID": "W2883545711",
+  "Link": "https://doi.org/10.2495/ha-v2-n3-406-416",
+  "Open-access link": "http://www.witpress.com/Secure/ejournals/papers/HA020303f.pdf",
+  "Cited-by count": 7,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "India",
+  "Region": "South Asia",
+  "India flag": "Y",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "mixed",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: The process of heritage interpretation through the digital simulation method has been tested as an environment required for the process of restoration, conservation and design for the future of a heritage site.However, this paper questions whether the digitally collected data and heritage interpr…",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:india",
+  "Duplicates merged": "",
+  "FWCI": 0.6684
+ },
+ {
+  "ID": "LM06878",
   "Title": "Evaluating Soil Variability in District Mirpurkhas, Sindh, Pakistan through Digital Mapping",
   "Year": 2023,
   "Authors": "Rashid Saraz; Saiqa Amur; Z. A. Hassan; Naheed Akhter Talpur; İnayatullah Rajpar; Muhammad Sohail Memon; Muhammad Nawaz Kandhro; Khalid Hussain Talpur; Nizamuddin Depar",
@@ -240170,7 +240730,7 @@
   "FWCI": 0.4329
  },
  {
-  "ID": "LM06863",
+  "ID": "LM06879",
   "Title": "Identification of Spatial and Symbolic City Image Elements Through Social Media Data: A Case Study of Hangzhou",
   "Year": 2024,
   "Authors": "Jiaqi Wang; Yu Shi; Weishun Xu; Yue Zhang Wu",
@@ -240205,7 +240765,7 @@
   "FWCI": 0.7794
  },
  {
-  "ID": "LM06864",
+  "ID": "LM06880",
   "Title": "Participatory Mapping of Terrestrial Fishery Resources in Kwale District, Kenya",
   "Year": 2007,
   "Authors": "P Kimani; David O. Obura",
@@ -240240,7 +240800,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06865",
+  "ID": "LM06881",
   "Title": "5. Future Urban Imaginaries: Placemaking and Digital Visualizations",
   "Year": 2022,
   "Authors": "Mónica Degen; Isobel Ward",
@@ -240275,7 +240835,7 @@
   "FWCI": 7.1613
  },
  {
-  "ID": "LM06866",
+  "ID": "LM06882",
   "Title": "Urban morphology of informally built dwellings: counter-mapping coastal cities of Montenegro",
   "Year": 2022,
   "Authors": "Goran Ivo Marinovic",
@@ -240310,7 +240870,7 @@
   "FWCI": 0.9901
  },
  {
-  "ID": "LM06867",
+  "ID": "LM06883",
   "Title": "Gentrification and changing visual landscapes: a Google Street View analysis of residential upgrading and class aesthetics in Hamilton’s Lower City",
   "Year": 2023,
   "Authors": "Caleb Babin; Brian Doucet",
@@ -240345,7 +240905,42 @@
   "FWCI": 1.8231
  },
  {
-  "ID": "LM06868",
+  "ID": "LM06884",
+  "Title": "Urban – media – verbal: a theoretical model of the verbal city image in social media",
+  "Year": 2023,
+  "Authors": "",
+  "Venue": "RESEARCH RESULT Theoretical and Applied Linguistics",
+  "Document type": "article",
+  "DOI": "10.18413/2313-8912-2023-9-4-0-1",
+  "OpenAlex ID": "W4390922162",
+  "Link": "https://doi.org/10.18413/2313-8912-2023-9-4-0-1",
+  "Open-access link": "https://rrlinguistics.ru/journal/download/3305",
+  "Cited-by count": 3,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "conceptual",
+  "Landmark flag": "",
+  "Emerging flag": "Y",
+  "One-line summary": "auto: Информация об источниках финансирования или грантах.Исследование выполнено за счёт гранта Российского научного фонда, проект № 23-28-10074, https://rscf",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:recent",
+  "Duplicates merged": "",
+  "FWCI": 3.6804
+ },
+ {
+  "ID": "LM06885",
   "Title": "A Participatory Mapping for Planning a Circular City",
   "Year": 2024,
   "Authors": "Federica Paoli; Francesca Pirlone; Ilenia Spadaro",
@@ -240380,7 +240975,7 @@
   "FWCI": 2.3339
  },
  {
-  "ID": "LM06869",
+  "ID": "LM06886",
   "Title": "Illuminating radical spatial imaginaries: Counter-mapping urban environmental justice struggles for the city yet to come",
   "Year": 2024,
   "Authors": "Austin Matheney; Isabelle Anguelovski; Panagiota Kotsila; Filka Sekulova; Emilia Oscilowicz",
@@ -240415,7 +241010,7 @@
   "FWCI": 2.2986
  },
  {
-  "ID": "LM06870",
+  "ID": "LM06887",
   "Title": "Global Energy Transition Influence in Urban Development: Digital Heritage Preservation Methods Approaches",
   "Year": 2025,
   "Authors": "Sadaf Alikhani; Tahmures Ghiyasi",
@@ -240450,7 +241045,7 @@
   "FWCI": 85.1935
  },
  {
-  "ID": "LM06871",
+  "ID": "LM06888",
   "Title": "A flood risk assessment based on an OpenStreetMap application: a case study in Manmunai North Divisional Secretariat of Batticaloa, Sri Lanka",
   "Year": 2020,
   "Authors": "S. Suthakaran; Amila Withanage; M. Gunawardhane; Jagath Gunatilake",
@@ -240485,7 +241080,7 @@
   "FWCI": 0.0923
  },
  {
-  "ID": "LM06872",
+  "ID": "LM06889",
   "Title": "Soviet City Plans and OpenStreetMap: a comparative analysis",
   "Year": 2022,
   "Authors": "Martin D. Davis; Alexander J. Kent",
@@ -240520,7 +241115,7 @@
   "FWCI": 0.8104
  },
  {
-  "ID": "LM06873",
+  "ID": "LM06890",
   "Title": "Embodied counter-mapping of gendered urban violence and resistance across body-community–city territories in Rio de Janeiro",
   "Year": 2024,
   "Authors": "Rosa dos Ventos Lopes Heimer; Cathy McIlwaine; Moniza Rizzini Ansari; Renata Peppl; Julia Gonçalves Leal; Andreza Dionisio; Fernanda Mikaelle Santos Vieira; Joelma Souza dos Santos; Natália Silva Trindade",
@@ -240555,7 +241150,7 @@
   "FWCI": 1.5324
  },
  {
-  "ID": "LM06874",
+  "ID": "LM06891",
   "Title": "Participatory Mapping as a Tool for Social Justice and Mobilization in Brazilian Informal Settlements",
   "Year": 2026,
   "Authors": "Carolina Monteiro de Carvalho",
@@ -240590,7 +241185,7 @@
   "FWCI": 56.1944
  },
  {
-  "ID": "LM06875",
+  "ID": "LM06892",
   "Title": "Mapping Institutional Landscape for Integrated Urban Water Management in Haldwani City, Uttarakhand",
   "Year": 2020,
   "Authors": "Anvita Pandey; Manya Singh; Riyan Habeeb; Vishal Singh",
@@ -240625,7 +241220,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06876",
+  "ID": "LM06893",
   "Title": "Research on International Communication of Chongqing City Image in Social Media",
   "Year": 2023,
   "Authors": "Zhouyao Jiang; Sheng Zhang",
@@ -240660,7 +241255,7 @@
   "FWCI": 0.4506
  },
  {
-  "ID": "LM06877",
+  "ID": "LM06894",
   "Title": "Image of a Sacred City: Portraying Sacred values of Historic Urban Landscape of Sylhet city, Bangladesh",
   "Year": 2023,
   "Authors": "Ferdous Rahman; Kawshik Saha; Sneha Maliat Haque",
@@ -240695,7 +241290,7 @@
   "FWCI": 2.6461
  },
  {
-  "ID": "LM06878",
+  "ID": "LM06895",
   "Title": "Digital Heritage and Data Infrastructures in the Cities",
   "Year": 2023,
   "Authors": "Katarina Stojanović; Zoran S. Radosavljevic",
@@ -240730,7 +241325,7 @@
   "FWCI": 0.65
  },
  {
-  "ID": "LM06879",
+  "ID": "LM06896",
   "Title": "Impact of Government Social Media on the City Image Communication Effect During a Sudden Public Health Crisis: Qualitative Comparative Analysis",
   "Year": 2024,
   "Authors": "He Yan Kang; Kie Su Kim",
@@ -240765,7 +241360,7 @@
   "FWCI": 0.8884
  },
  {
-  "ID": "LM06880",
+  "ID": "LM06897",
   "Title": "Metaphors for the Study of Digital Heritage Cultures",
   "Year": 2024,
   "Authors": "Payal Arora",
@@ -240800,7 +241395,7 @@
   "FWCI": 6.6369
  },
  {
-  "ID": "LM06881",
+  "ID": "LM06898",
   "Title": "Multimodal Communication and City Branding on the Xiaohongshu Platform: An Analysis of Quanzhou’s Digital Heritage Tourism",
   "Year": 2024,
   "Authors": "Yajun Huang",
@@ -240835,7 +241430,7 @@
   "FWCI": 0.7662
  },
  {
-  "ID": "LM06882",
+  "ID": "LM06899",
   "Title": "An Analysis of City Image by Exploiting Social Media: Toward a Deeper Understanding of Multiple Characteristics and Their Temporal Changes Using Machine Learning",
   "Year": 2025,
   "Authors": "Hyeonchoel Jeong; Bumsu Cho; Susik Yoon; Yun Wook Choo; Dookie Kim; Jungeun Kim",
@@ -240870,7 +241465,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM06883",
+  "ID": "LM06900",
   "Title": "China’s City Image Built by Others: Effects of Western Social Media Influencers on Cognition, Affect, and Behavior of Overseas Audiences",
   "Year": 2025,
   "Authors": "Shengnan Fan",
@@ -240905,7 +241500,7 @@
   "FWCI": 1.9331
  },
  {
-  "ID": "LM06884",
+  "ID": "LM06901",
   "Title": "Towards mapping road network patterns from volunteered geographic information: a case of openstreetmap in developing cities",
   "Year": 2025,
   "Authors": "Farzana Ahad; Huma Rashid; Shamim Ahmad Shah; Mohammad Shafi Bhat; Peer Jeelani",
@@ -240940,7 +241535,7 @@
   "FWCI": 4.6616
  },
  {
-  "ID": "LM06885",
+  "ID": "LM06902",
   "Title": "Counter-mapping place ballet for urban design: Informal Yu opera practices among elderly rural migrants at Youran Pavilion, Jinan, China",
   "Year": 2026,
   "Authors": "Xiaohui Zhang; Dr.lr. Willemijn Wilms Floet",
@@ -240975,7 +241570,7 @@
   "FWCI": 13.804
  },
  {
-  "ID": "LM06886",
+  "ID": "LM06903",
   "Title": "A QGIS-based approach of developing gridded population data for the Kathmandu Valley using OpenStreetMap building data",
   "Year": 2026,
   "Authors": "Lalit Pathak",
@@ -241010,7 +241605,7 @@
   "FWCI": 3.8332
  },
  {
-  "ID": "LM06887",
+  "ID": "LM06904",
   "Title": "WEBGIS OF MAPPING PASURUAN CITY FURNITURE INDUSTRY USING LEAFLET AND OPENSTREETMAP",
   "Year": 2023,
   "Authors": "Allin Junikhah; Khadijah Fahmi Hayati Holle",
@@ -241045,7 +241640,42 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06888",
+  "ID": "LM06905",
+  "Title": "Oota Kathegalu: Tracing the food stories of Bengaluru, India",
+  "Year": 2024,
+  "Authors": "Marthe L. Derkzen; Maitreyi Koduganti; Sheetal Patil; Parama Roy",
+  "Venue": "Routledge eBooks",
+  "Document type": "book-chapter",
+  "DOI": "10.4324/9781003352280-21",
+  "OpenAlex ID": "W4391322628",
+  "Link": "https://doi.org/10.4324/9781003352280-21",
+  "Open-access link": "https://research.wur.nl/en/publications/oota-kathegalu-tracing-the-food-stories-of-bengaluru-india",
+  "Cited-by count": 0,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "Bengaluru; India",
+  "Region": "South Asia",
+  "India flag": "Y",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "qualitative",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: Using a combination of participatory mapping, interviews, film and photography, this chapter will visually map how Bengalurueans from different socio-economic, demographic and geographic backgrounds make sense of food not just as an edible product but also as an expression of cultural connections…",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:india",
+  "Duplicates merged": "",
+  "FWCI": 0.0
+ },
+ {
+  "ID": "LM06906",
   "Title": "Digital Heritage and Mapping Renaissance Tours. Recent Research from the CESR",
   "Year": 2024,
   "Authors": "Margriet Hoogvliet; Marion Boudon-Machuel; Pascale Charron; David Rivaud",
@@ -241080,7 +241710,42 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06889",
+  "ID": "LM06907",
+  "Title": "PARTICIPATORY MAPPING RESEARCH IN URBAN SLUM OF DELHI",
+  "Year": 2023,
+  "Authors": "Garima Borwal",
+  "Venue": "Noble Science Press eBooks",
+  "Document type": "book-chapter",
+  "DOI": "10.52458/9788196897475.2023.eb.ch-18",
+  "OpenAlex ID": "W4391699659",
+  "Link": "https://doi.org/10.52458/9788196897475.2023.eb.ch-18",
+  "Open-access link": "https://mohua.gov.in/upload/uploadfiles/files/9Slum_Report_NBO(2).pdf",
+  "Cited-by count": 0,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "",
+  "Region": "Not place-specific",
+  "India flag": "",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "unclear",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "",
+  "Stated gaps": "",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:india; C16:recent",
+  "Duplicates merged": "",
+  "FWCI": 0.0
+ },
+ {
+  "ID": "LM06908",
   "Title": "9 Counter- mapping the divided city",
   "Year": 2023,
   "Authors": "Christian Laheij",
@@ -241115,7 +241780,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06890",
+  "ID": "LM06909",
   "Title": "Community Perception Regarding the City Image Using Social Media Hastags. Case Study: Banjarmasin City",
   "Year": 2023,
   "Authors": "Fathimah Az Zahra Abdul",
@@ -241150,7 +241815,42 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06891",
+  "ID": "LM06910",
+  "Title": "Digitization as a Tool for Conservation and Sustainability of the Built Heritages: A Distant Dream or an Existing Reality?",
+  "Year": 2025,
+  "Authors": "J. Hadi Salim; Anubha; Sarah Hussain; Nusrat Yasmeen; Priyakrushna Mohanty",
+  "Venue": "Apple Academic Press eBooks",
+  "Document type": "book-chapter",
+  "DOI": "10.1201/9781003592266-5",
+  "OpenAlex ID": "W4405992067",
+  "Link": "https://doi.org/10.1201/9781003592266-5",
+  "Open-access link": "",
+  "Cited-by count": 0,
+  "Domain": "C",
+  "Primary theme": "C16",
+  "Secondary theme": "",
+  "Places studied": "India",
+  "Region": "South Asia",
+  "India flag": "Y",
+  "Delhi/NCR flag": "",
+  "Haryana flag": "",
+  "Method": "qualitative",
+  "Landmark flag": "",
+  "Emerging flag": "",
+  "One-line summary": "auto: The study aims to reveal the opinions of the tourists visiting the various built heritage sites and understand their experiences with digital heritage and its influence on the tourist experience while visiting a built heritage monument.",
+  "Stated gaps": "auto: Therefore, there has been a growing interest in and calls for the conservation and protection of these built heritages.",
+  "Shortlist tag": "",
+  "Screening confidence": "medium",
+  "Repository-only": "",
+  "Supplementary": "",
+  "Supplementary query": "",
+  "C4 orientation": "",
+  "Found in": "C16:india",
+  "Duplicates merged": "",
+  "FWCI": 0.0
+ },
+ {
+  "ID": "LM06911",
   "Title": "Digital participatory mapping in urban research",
   "Year": 2024,
   "Authors": "Anna Kajosaari",
@@ -241185,7 +241885,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06892",
+  "ID": "LM06912",
   "Title": "Content and Genres of City Image Development in Social Media: The City of Arkhangelsk",
   "Year": 2025,
   "Authors": "Larisa Schipicina",
@@ -241220,7 +241920,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06893",
+  "ID": "LM06913",
   "Title": "Participatory Mapping of Urban Green Spaces in Lomé and Kara (Togo)",
   "Year": 2025,
   "Authors": "Yetondé Deton; Hodabalo Kamou; Abalo Atato; Joseph Yoka; Marra Dourma; Kudzo Atsu Guelly; Komlan Batawila; Koffi Akpagana",
@@ -241255,7 +241955,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06894",
+  "ID": "LM06914",
   "Title": "Revitalizing Goa's Heritage Landscapes: A Multidisciplinary Approach",
   "Year": 2025,
   "Authors": "Gautam V Desai; Shashikant Kumar",
@@ -241290,7 +241990,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06895",
+  "ID": "LM06915",
   "Title": "Digital mapping of the ancient port city of Kaverippumpattinam and its trade routes",
   "Year": 2025,
   "Authors": "R. Neelakantan; Veerasamy Selvakumar; S. Rajavelu; S. Thamarai Kannan; Matthew Wesley",
@@ -241325,7 +242025,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06896",
+  "ID": "LM06916",
   "Title": "Community Counter-Mapping for Urban Upgrading in Fortaleza, Brazil",
   "Year": 2025,
   "Authors": "Clarissa Figueiredo Sampaio Freitas; Cícera Sarah Moura Farias; Eugênio Moreira",
@@ -241360,7 +242060,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06897",
+  "ID": "LM06917",
   "Title": "How social media influencers impact tourism and city image: a cross-cultural comparison of TikTok users in the United States and Saudi Arabia",
   "Year": 2025,
   "Authors": "Ping Yang; Chin‐Chung Chao; Afnan Qutub; Osama Mohammed Bahassan",
@@ -241395,7 +242095,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06898",
+  "ID": "LM06918",
   "Title": "Future Urban Imaginaries: Placemaking and Digital Visualizations",
   "Year": 2025,
   "Authors": "Mónica Degen; Isobel Ward",
@@ -241430,7 +242130,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06899",
+  "ID": "LM06919",
   "Title": "Enhancing Urban Accessibility: Participatory Mapping and Technology for Inclusive Digital Maps",
   "Year": 2025,
   "Authors": "Hoda Allahbakhshi",
@@ -241465,7 +242165,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06900",
+  "ID": "LM06920",
   "Title": "Communication of City Image through Urban Symbols on Social Media: Take Nanjing as an Example",
   "Year": 2026,
   "Authors": "Hui Zhang",
@@ -241500,7 +242200,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06901",
+  "ID": "LM06921",
   "Title": "Archiving Erasure: Countermaps from Delhi",
   "Year": 2026,
   "Authors": "Swati Janu",
@@ -241535,7 +242235,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06902",
+  "ID": "LM06922",
   "Title": "Wildland–Urban Interface Planning: Lessons From a Participatory Mapping Exercise",
   "Year": 2026,
   "Authors": "Clara E. Mosso; Stephanie Kampf; Andrea Baudoin Farah",
@@ -241570,7 +242270,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06903",
+  "ID": "LM06923",
   "Title": "Slum mapping toward SDG 11 using Urban Morphology and Topology:An Open-Source approach to detect informal settlements",
   "Year": 2026,
   "Authors": "Lucia Mabel Van der Heijden",
@@ -241605,7 +242305,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06904",
+  "ID": "LM06924",
   "Title": "Quantifying the accuracy of OpenStreetMap for longitudinal cycling-infrastructure change: A reproducible validation framework using Google Street View",
   "Year": 2026,
   "Authors": "Eugeni Vidal-Tortosa; Víctor González-Parrà; Oriol Marquet",
@@ -241640,7 +242340,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06905",
+  "ID": "LM06925",
   "Title": "Expanding the urban design toolbox: Counter-mapping for gender inclusion",
   "Year": 2026,
   "Authors": "Hawjin Falahatkar; Victoria Fast",
@@ -241675,7 +242375,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06906",
+  "ID": "LM06926",
   "Title": "Integrating Microsoft Building Footprints and OpenStreetMap to Improve Building Representation",
   "Year": 2026,
   "Authors": "Cidália C. Fonte; Joaquim Patriarca; Diogo Duarte",
@@ -241710,7 +242410,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06907",
+  "ID": "LM06927",
   "Title": "Navigating Urban Informalities: Participatory Mapping in Kampung Dupak Magersari and Tambak Bayan, Surabaya",
   "Year": 2026,
   "Authors": "Khusnul Hanifati; Puspitaningtyas Sulistyowati",
@@ -241745,7 +242445,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06908",
+  "ID": "LM06928",
   "Title": "An integrated multi-temporal urban digital heritage model based on HBIM–GIS for urban morphology analysis and conservation planning: Old Rusafa, Baghdad, as a case study",
   "Year": 2026,
   "Authors": "Mohanad M. Al Taweel; Mohammed Q. Abdul Ghafoor Al Ani",
@@ -241780,7 +242480,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06909",
+  "ID": "LM06929",
   "Title": "From Urban Meanings to Personality: The Construction of Destination Personality and Gendered Urban Imaginaries through Social Media UGC",
   "Year": 2026,
   "Authors": "Chuangxin Li; Shuyan Chen; Fan Zhou",
@@ -241815,7 +242515,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06910",
+  "ID": "LM06930",
   "Title": "Unveiling Urban Complexity: Research note on integrating OpenStreetMap to enhance representation of fine-scale landscape heterogeneity",
   "Year": 2023,
   "Authors": "Tiziana A. Gelmi‐Candusso; Peter S. Rodriguez; Marie‐Josée Fortin",
@@ -241850,7 +242550,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06911",
+  "ID": "LM06931",
   "Title": "A Kua Monuments Digital Heritage Collection",
   "Year": 2025,
   "Authors": "Heinz Rüther; Ralph Schröder; Roshan Bhurtha; Stephen Wessels; Bruce McDonald",
@@ -241885,7 +242585,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06912",
+  "ID": "LM06932",
   "Title": "A Gede Ruins Digital Heritage Collection",
   "Year": 2025,
   "Authors": "Heinz Rüther; Ralph Schröder; Roshan Bhurtha; Bruce McDonald; Stephen Wessels; Christoph Held",
@@ -241920,7 +242620,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06913",
+  "ID": "LM06933",
   "Title": "Towards Human-AI Accessibility Mapping in India: VLM-Guided Annotations and POI-Centric Analysis in Chandigarh",
   "Year": 2026,
   "Authors": "Varchita Lalwani; Utkarsh Agarwal; Michael Saugstad; Manish Kumar; Jon E. Froehlich; Anupam Sobti",
@@ -241955,7 +242655,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06914",
+  "ID": "LM06934",
   "Title": "Creating sticky places: occupy urbanism, digital heritage and decolonisation",
   "Year": 2026,
   "Authors": "Human Sciences Research Council",
@@ -241990,7 +242690,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06915",
+  "ID": "LM06935",
   "Title": "A Digital Heritage Collection of Bagan",
   "Year": 2026,
   "Authors": "Heinz Rüther; Ralph Schröder; Roshan Bhurtha; Stephen Wessels; Bruce McDonald",
@@ -242025,7 +242725,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06916",
+  "ID": "LM06936",
   "Title": "A Digital Heritage Collection of Petra",
   "Year": 2026,
   "Authors": "Heinz Rüther; Ralph Schröder; Roshan Bhurtha; Stephen Wessels; Christoph Held; Bruce McDonald",
@@ -242060,7 +242760,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06917",
+  "ID": "LM06937",
   "Title": "Mapping the City in the Rhythm of Colours and Sounds: OpenStreetMap as a Basis for Multisensory Civic Cartography",
   "Year": 2026,
   "Authors": "Paweł Struś; Gabriela Jurowaty; Kamila Kuźma; Dominika Płaszczyca; Magdalena Pustoszkin; Andrzej Skoczek; Gabriela Stańczyk; Anna Zajchowska",
@@ -242095,7 +242795,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06918",
+  "ID": "LM06938",
   "Title": "Research on the Impact of Social Media on the Shaping and Communication of City Image",
   "Year": 2025,
   "Authors": "Wang Ruixue; Wang Jingang",
@@ -242130,7 +242830,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06919",
+  "ID": "LM06939",
   "Title": "Secure Estimation and Control for Cyber-Physical Systems Under Adversarial Attacks",
   "Year": 2014,
   "Authors": "Hamza Fawzi; Paulo Tabuada; Suhas N. Diggavi",
@@ -242165,7 +242865,7 @@
   "FWCI": 94.7572
  },
  {
-  "ID": "LM06920",
+  "ID": "LM06940",
   "Title": "Future challenges for smart cities: Cyber-security and digital forensics",
   "Year": 2017,
   "Authors": "Zubair Ahmed Baig; Patryk Szewczyk; Craig Valli; Priya Rabadia; Peter Hannay; Maxim Chernyshev; Mike Johnstone; Paresh Kerai; Ahmed Jamal Ibrahim; Krishnun Sansurooah et al.",
@@ -242200,7 +242900,7 @@
   "FWCI": 39.0099
  },
  {
-  "ID": "LM06921",
+  "ID": "LM06941",
   "Title": "Smart Cities as Cyber-Physical Social Systems",
   "Year": 2016,
   "Authors": "Christos G. Cassandras",
@@ -242235,7 +242935,7 @@
   "FWCI": 22.4012
  },
  {
-  "ID": "LM06922",
+  "ID": "LM06942",
   "Title": "Quantum-Inspired Blockchain-Based Cybersecurity: Securing Smart Edge Utilities in IoT-Based Smart Cities",
   "Year": 2021,
   "Authors": "Ahmed A. Abd El‐Latif; Bassem Abd-El-Atty; Irfan Mehmood; Khan Muhammad; Salvador Elías Venegas-Andraca; Jialiang Peng",
@@ -242270,7 +242970,7 @@
   "FWCI": 38.5692
  },
  {
-  "ID": "LM06923",
+  "ID": "LM06943",
   "Title": "Cyber threats confronting the digital built environment",
   "Year": 2019,
   "Authors": "Erika Anneli Parn; David John Edwards",
@@ -242305,7 +243005,7 @@
   "FWCI": 30.9007
  },
  {
-  "ID": "LM06924",
+  "ID": "LM06944",
   "Title": "Robust and resilient control design for cyber-physical systems with an application to power systems",
   "Year": 2011,
   "Authors": "Quanyan Zhu; Tamer Başar",
@@ -242340,7 +243040,7 @@
   "FWCI": 16.0521
  },
  {
-  "ID": "LM06925",
+  "ID": "LM06945",
   "Title": "Exploring expert perceptions about the cyber security and privacy of Connected and Autonomous Vehicles: A thematic analysis approach",
   "Year": 2020,
   "Authors": "Na Liu; Alexandros Nikitas; Simon Parkinson",
@@ -242375,7 +243075,7 @@
   "FWCI": 21.8074
  },
  {
-  "ID": "LM06926",
+  "ID": "LM06946",
   "Title": "Resilience in healthcare systems: Cyber security and digital transformation",
   "Year": 2022,
   "Authors": "Alexeis García-Pérez; Juan‐Gabriel Cegarra‐Navarro; Mark Paul Sallos; Eva Martínez; Anitha Chinnaswamy",
@@ -242410,7 +243110,7 @@
   "FWCI": 35.9594
  },
  {
-  "ID": "LM06927",
+  "ID": "LM06947",
   "Title": "Cybersecurity and Privacy Solutions in Smart Cities",
   "Year": 2017,
   "Authors": "Rida Khatoun; Sherali Zeadally",
@@ -242445,7 +243145,7 @@
   "FWCI": 13.3687
  },
  {
-  "ID": "LM06928",
+  "ID": "LM06948",
   "Title": "Autonomous Vehicles for Smart and Sustainable Cities: An In-Depth Exploration of Privacy and Cybersecurity Implications",
   "Year": 2018,
   "Authors": "Hazel Si Min Lim; Araz Taeihagh",
@@ -242480,7 +243180,7 @@
   "FWCI": 156.7573
  },
  {
-  "ID": "LM06929",
+  "ID": "LM06949",
   "Title": "Cyber Security Attacks on Smart Cities and Associated Mobile Technologies",
   "Year": 2017,
   "Authors": "Anwaar AlDairi; Lo’ai Tawalbeh",
@@ -242515,7 +243215,7 @@
   "FWCI": 21.6023
  },
  {
-  "ID": "LM06930",
+  "ID": "LM06950",
   "Title": "Smart cities and cyber security: Are we there yet?A comparative study on the role of standards, third party risk management and security ownership",
   "Year": 2019,
   "Authors": "Morta Vitunskaite; Ying He; Thomas Brandstetter; Helge Janicke",
@@ -242550,7 +243250,7 @@
   "FWCI": 10.162
  },
  {
-  "ID": "LM06931",
+  "ID": "LM06951",
   "Title": "IIoT Cybersecurity Risk Modeling for SCADA Systems",
   "Year": 2018,
   "Authors": "Gregory J. Falco; Carlos Caldera; Howard E. Shrobe",
@@ -242585,7 +243285,7 @@
   "FWCI": 20.2168
  },
  {
-  "ID": "LM06932",
+  "ID": "LM06952",
   "Title": "AI-Powered Digital Twins and Internet of Things for Smart Cities and Sustainable Building Environment",
   "Year": 2024,
   "Authors": "Aljawharah A. Alnaser; Mina Maxi; Haytham H. Elmousalami",
@@ -242620,7 +243320,7 @@
   "FWCI": 21.2717
  },
  {
-  "ID": "LM06933",
+  "ID": "LM06953",
   "Title": "Cybersecurity in the Internet of Things in Industrial Management",
   "Year": 2022,
   "Authors": "Ricardo Jorge Gomes Raimundo; Albérico Travassos Rosário",
@@ -242655,7 +243355,7 @@
   "FWCI": 11.3737
  },
  {
-  "ID": "LM06934",
+  "ID": "LM06954",
   "Title": "A Survey on Information Communication Technologies in Modern Demand-Side Management for Smart Grids: Challenges, Solutions, and Opportunities",
   "Year": 2022,
   "Authors": "Dhaou Said",
@@ -242690,7 +243390,7 @@
   "FWCI": 6.381
  },
  {
-  "ID": "LM06935",
+  "ID": "LM06955",
   "Title": "A review on electric vehicle: Technologies, energy trading, and cyber security",
   "Year": 2022,
   "Authors": "Mohan Bharathidasan; Vairavasundaram Indragandhi; Vishnu Suresh; Michał Jasiński; Zbigniew M. Leonowicz",
@@ -242725,7 +243425,7 @@
   "FWCI": 6.2452
  },
  {
-  "ID": "LM06936",
+  "ID": "LM06956",
   "Title": "Enhancing cyber–physical systems with hybrid smart city cyber security architecture for secure public data-smart network",
   "Year": 2020,
   "Authors": "Sudhakar Sengan; V. Subramaniyaswamy; S. K. Sreenivasan Nair; Vairavasundaram Indragandhi; J. Manikandan; Logesh Ravi",
@@ -242760,7 +243460,7 @@
   "FWCI": 9.3469
  },
  {
-  "ID": "LM06937",
+  "ID": "LM06957",
   "Title": "Artificial intelligence enabled cyber security defense for smart cities: A novel attack detection framework based on the MDATA model",
   "Year": 2023,
   "Authors": "Yan Jia; Zhaoquan Gu; Lei Du; Yu Long; Ye Wang; Jianxin Li; Yanchun Zhang",
@@ -242795,7 +243495,7 @@
   "FWCI": 13.2508
  },
  {
-  "ID": "LM06938",
+  "ID": "LM06958",
   "Title": "Cyber-Physical System Security of a Power Grid: State-of-the-Art",
   "Year": 2016,
   "Authors": "Chih‐Che Sun; Chen‐Ching Liu; Jing Xie",
@@ -242830,7 +243530,7 @@
   "FWCI": 9.2706
  },
  {
-  "ID": "LM06939",
+  "ID": "LM06959",
   "Title": "An Overview of Cyber Threats, Attacks and Countermeasures on the Primary Domains of Smart Cities",
   "Year": 2023,
   "Authors": "Vasiliki Demertzi; Stavros Demertzis; Konstantinos Demertzis",
@@ -242865,7 +243565,7 @@
   "FWCI": 12.765
  },
  {
-  "ID": "LM06940",
+  "ID": "LM06960",
   "Title": "Routledge Handbook of Sustainable and Resilient Infrastructure",
   "Year": 2018,
   "Authors": "Dias, N; Amaratunga, D; Keraminiyage, KP; Haigh, R",
@@ -242900,7 +243600,7 @@
   "FWCI": 12.9191
  },
  {
-  "ID": "LM06941",
+  "ID": "LM06961",
   "Title": "Smart Cities Cybersecurity and Privacy",
   "Year": 2018,
   "Authors": "Yang, Longzhi; Elisa, Noe; Eliot, Neil",
@@ -242935,7 +243635,7 @@
   "FWCI": 14.1273
  },
  {
-  "ID": "LM06942",
+  "ID": "LM06962",
   "Title": "Toward a Sustainable Cybersecurity Ecosystem",
   "Year": 2020,
   "Authors": "Shahrin Sadik; Mohiuddin Ahmed; Leslie F. Sikos; A.K.M. Najmul Islam",
@@ -242970,7 +243670,7 @@
   "FWCI": 8.1262
  },
  {
-  "ID": "LM06943",
+  "ID": "LM06963",
   "Title": "A Comprehensive Review of Multimodal XR Applications, Risks, and Ethical Challenges in the Metaverse",
   "Year": 2024,
   "Authors": "Panagiotis Kourtesis",
@@ -243005,7 +243705,7 @@
   "FWCI": 32.5421
  },
  {
-  "ID": "LM06944",
+  "ID": "LM06964",
   "Title": "Enhancing Autonomous System Security and Resilience With Generative AI: A Comprehensive Survey",
   "Year": 2024,
   "Authors": "Martin Andreoni Lopez; Willian T. Lunardi; George Lawton; Shreekant Thakkar",
@@ -243040,7 +243740,7 @@
   "FWCI": 16.1357
  },
  {
-  "ID": "LM06945",
+  "ID": "LM06965",
   "Title": "Cyber Security Issues and Challenges for Smart Cities: A survey",
   "Year": 2019,
   "Authors": "Bushra Hamid; Noor Zaman Jhanjhi; Mamoona Humayun; Azeem Khan; Ahmed Alsayat",
@@ -243075,7 +243775,7 @@
   "FWCI": 15.0061
  },
  {
-  "ID": "LM06946",
+  "ID": "LM06966",
   "Title": "Augmented Reality (AR) and Cyber-Security for Smart Cities—A Systematic Literature Review",
   "Year": 2022,
   "Authors": "Nouf Matar Alzahrani; Faisal Abdulaziz Alfouzan",
@@ -243110,7 +243810,7 @@
   "FWCI": 2.4969
  },
  {
-  "ID": "LM06947",
+  "ID": "LM06967",
   "Title": "Creating Smart Cities",
   "Year": 2018,
   "Authors": "Rob Kitchin; Claudio Coletta; Leighton Evans; Liam James Heaphy",
@@ -243145,7 +243845,7 @@
   "FWCI": 7.1092
  },
  {
-  "ID": "LM06948",
+  "ID": "LM06968",
   "Title": "Security and Privacy Challenges in the Deployment of Cyber-Physical Systems in Smart City Applications: State-of-Art Work",
   "Year": 2022,
   "Authors": "Sita Rani; Aman Kataria; Meetali Chauhan; Punam Rattan; Raman Kumar; Arun Kumar Sivaraman",
@@ -243180,7 +243880,7 @@
   "FWCI": 4.4749
  },
  {
-  "ID": "LM06949",
+  "ID": "LM06969",
   "Title": "Prospects of Cybersecurity in Smart Cities",
   "Year": 2023,
   "Authors": "Fernando Luís Almeida",
@@ -243215,7 +243915,7 @@
   "FWCI": 5.2984
  },
  {
-  "ID": "LM06950",
+  "ID": "LM06970",
   "Title": "Ransomware-based Cyber Attacks: A Comprehensive Survey",
   "Year": 2022,
   "Authors": "Jin Ho Park Jin Ho Park; Sushil Kumar Singh Jin Ho Park; Mikail Mohammed Salim Sushil Kumar Singh; Abir EL Azzaoui Mikail Mohammed Salim; Jong Hyuk Park Abir EL Azzaoui",
@@ -243250,7 +243950,7 @@
   "FWCI": 2.9851
  },
  {
-  "ID": "LM06951",
+  "ID": "LM06971",
   "Title": "Cyber-Physical Systems for Smart City Applications: A Comparative Study",
   "Year": 2023,
   "Authors": "Kiran Deep Singh; Prabhdeep Singh; Rishu Chhabra; Gaganpreet Kaur; Ankit Bansal; Vikas Tripathi",
@@ -243285,7 +243985,7 @@
   "FWCI": 12.7301
  },
  {
-  "ID": "LM06952",
+  "ID": "LM06972",
   "Title": "Cyber-Physical Systems and Smart Cities in India: Opportunities, Issues, and Challenges",
   "Year": 2021,
   "Authors": "Md. Onais Ahmad; Mohd Abdul Ahad; M. Afshar Alam; Farheen Siddiqui; Gabriella Casalino",
@@ -243320,7 +244020,7 @@
   "FWCI": 1.7916
  },
  {
-  "ID": "LM06953",
+  "ID": "LM06973",
   "Title": "Securing Critical Infrastructure with Blockchain Technology: An Approach to Cyber-Resilience",
   "Year": 2024,
   "Authors": "Jaime Govea; Walter Gaibor-Naranjo; William Eduardo Villegas-Ch",
@@ -243355,7 +244055,7 @@
   "FWCI": 9.6367
  },
  {
-  "ID": "LM06954",
+  "ID": "LM06974",
   "Title": "Cyber–Physical–Social Model of Community Resilience by Considering Critical Infrastructure Interdependencies",
   "Year": 2023,
   "Authors": "Jaber Valinejad; Lamine Mili",
@@ -243390,7 +244090,7 @@
   "FWCI": 9.0119
  },
  {
-  "ID": "LM06955",
+  "ID": "LM06975",
   "Title": "Innovative solutions for critical infrastructure resilience against cyber-physical attacks",
   "Year": 2024,
   "Authors": "Bright Ojo; Justine Chilenovu Ogborigbo; Maureen Oluchukwuamaka Okafor",
@@ -243425,7 +244125,7 @@
   "FWCI": 2.8027
  },
  {
-  "ID": "LM06956",
+  "ID": "LM06976",
   "Title": "Guarding Our Vital Systems: A Metric for Critical Infrastructure Cyber Resilience",
   "Year": 2025,
   "Authors": "Muharman Lubis; Muhammad Fakhrul Safitra; Hanif Fakhrurroja; Alif Noorachmad Muttaqin",
@@ -243460,7 +244160,7 @@
   "FWCI": 16.1397
  },
  {
-  "ID": "LM06957",
+  "ID": "LM06977",
   "Title": "Cyber Security Challenges in Distributed Energy Resources for Smart Cities",
   "Year": 2022,
   "Authors": "Tarik Himdi; Mohammed Ishaque; Muhammed Jawad Ikram",
@@ -243495,7 +244195,7 @@
   "FWCI": 4.8903
  },
  {
-  "ID": "LM06958",
+  "ID": "LM06978",
   "Title": "Colonial Pipeline Cyberattack Drives Urgent Reforms in Cybersecurity and Critical Infrastructure Resilience",
   "Year": 2024,
   "Authors": "Manav Mittal",
@@ -243530,7 +244230,7 @@
   "FWCI": 3.7709
  },
  {
-  "ID": "LM06959",
+  "ID": "LM06979",
   "Title": "Cybersecurity for Smart Cities",
   "Year": 2024,
   "Authors": "Om Prakash Mahela; Nisha Jain; Chandresh Bakliwal; Baseem Khan",
@@ -243565,7 +244265,7 @@
   "FWCI": 3.4262
  },
  {
-  "ID": "LM06960",
+  "ID": "LM06980",
   "Title": "NAS-ransomware: hoe ransomware-aanvallen tegen NAS-apparaten verschillen van reguliere ransomware-aanvallen",
   "Year": 2022,
   "Authors": "Tom Meurs; Marianne Junger; Erik Tews; Abhishta Abhishta",
@@ -243600,7 +244300,7 @@
   "FWCI": 0.4776
  },
  {
-  "ID": "LM06961",
+  "ID": "LM06981",
   "Title": "Recent Advancement of Cyber Security: Challenges and Future Trends in Bangladesh",
   "Year": 2022,
   "Authors": "Major Muhammad Masudur Rahaman",
@@ -243635,7 +244335,7 @@
   "FWCI": 1.0348
  },
  {
-  "ID": "LM06962",
+  "ID": "LM06982",
   "Title": "Blockchain Technology In Healthcare Services",
   "Year": 2023,
   "Authors": "Adesh Mukati",
@@ -243670,7 +244370,7 @@
   "FWCI": 1.0325
  },
  {
-  "ID": "LM06963",
+  "ID": "LM06983",
   "Title": "Cyber Security Risks in Emerging South African Smart Cities: Towards a Cyber Security Framework",
   "Year": 2023,
   "Authors": "François Paul Cornelius; Shandré Kim Jansen van Rensburg; Sarika Kader",
@@ -243705,7 +244405,7 @@
   "FWCI": 0.4607
  },
  {
-  "ID": "LM06964",
+  "ID": "LM06984",
   "Title": "Smart Cities: Cybersecurity Concerns",
   "Year": 2024,
   "Authors": "Md Ismail Hossain; Ragib Hasan",
@@ -243740,7 +244440,7 @@
   "FWCI": 3.4262
  },
  {
-  "ID": "LM06965",
+  "ID": "LM06985",
   "Title": "Future challenges for cyber-security in a smart city environment in Indian context",
   "Year": 2021,
   "Authors": "M. A. Jabbar; K. M. V. V. Prasad; Rajanikanth Aluvalu",
@@ -243775,7 +244475,7 @@
   "FWCI": 0.3908
  },
  {
-  "ID": "LM06966",
+  "ID": "LM06986",
   "Title": "Securing India in the Cyber Era",
   "Year": 2021,
   "Authors": "Sameer Suryakant Patil",
@@ -243810,7 +244510,7 @@
   "FWCI": 1.1155
  },
  {
-  "ID": "LM06967",
+  "ID": "LM06987",
   "Title": "Ransomware: A Threat to Cyber Smart Cities",
   "Year": 2023,
   "Authors": "Cole Lamers; Eric Spoerl; Garrit Levey; Nazim Choudhury; Mohiuddin Ahmed",
@@ -243845,7 +244545,7 @@
   "FWCI": 2.4846
  },
  {
-  "ID": "LM06968",
+  "ID": "LM06988",
   "Title": "Cyber Resilience in Critical Infrastructure",
   "Year": 2023,
   "Authors": "Sinan Küfeoğlu; Abdullah Talip Akgün",
@@ -243880,7 +244580,7 @@
   "FWCI": 16.9082
  },
  {
-  "ID": "LM06969",
+  "ID": "LM06989",
   "Title": "Smart Cities and Cyber Security Ethical and Anticipated Ethical Concerns",
   "Year": 2022,
   "Authors": "Richard L. Wilson",
@@ -243915,7 +244615,7 @@
   "FWCI": 0.7493
  },
  {
-  "ID": "LM06970",
+  "ID": "LM06990",
   "Title": "Cyber security chalenges of protecting smart cities sustainability",
   "Year": 2024,
   "Authors": "Красимир Шишманов; Iskren Tairov",
@@ -243950,7 +244650,7 @@
   "FWCI": 1.5223
  },
  {
-  "ID": "LM06971",
+  "ID": "LM06991",
   "Title": "Science of Cyber Physical Security in Smart Living CPS Applications",
   "Year": 2024,
   "Authors": "Sajal Kumar Das; Shameek Bhattacharjee",
@@ -243985,7 +244685,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06972",
+  "ID": "LM06992",
   "Title": "Optimizing Cyber-Resilience in Critical Infrastructure Networks",
   "Year": 2024,
   "Authors": "Ranjan Pal; Rohan Xavier Sequeira; Sander Zeijlmaker; Michael D. Siegel",
@@ -244020,7 +244720,7 @@
   "FWCI": 0.8179
  },
  {
-  "ID": "LM06973",
+  "ID": "LM06993",
   "Title": "Integrating smart cyber-physical systems into urban planning",
   "Year": 2025,
   "Authors": "Rituraj Jain; Sitesh Kumar Singh; Damodharan Palaniappan; Kumar J. Parmar; T. Premavathi",
@@ -244055,7 +244755,7 @@
   "FWCI": 4.3617
  },
  {
-  "ID": "LM06974",
+  "ID": "LM06994",
   "Title": "Machine Learning-Driven Cyber Defense: Enhancing U.S. Critical Infrastructure Resilience",
   "Year": 2026,
   "Authors": "Mohammad Majharul Islam Jabed; Jawad Sarwar; Sadiya Afrin; Amit Banwari Gupta",
@@ -244090,7 +244790,7 @@
   "FWCI": 10.1757
  },
  {
-  "ID": "LM06975",
+  "ID": "LM06995",
   "Title": "Comparative assessment of cyber-physical threats to megacities",
   "Year": 2021,
   "Authors": "J. Britto Dennis; Caitlin  A. Grady; Sarah Michele Rajtmajer",
@@ -244125,7 +244825,7 @@
   "FWCI": 1.632
  },
  {
-  "ID": "LM06976",
+  "ID": "LM06996",
   "Title": "Teenagers, Cyberbullying and Cyber Security Measures: An Insight in Urban India",
   "Year": 2023,
   "Authors": "Sucharita Pramanick; Shovan Ghosh",
@@ -244160,7 +244860,7 @@
   "FWCI": 1.9513
  },
  {
-  "ID": "LM06977",
+  "ID": "LM06997",
   "Title": "Critical infrastructure and cyber resilience frameworks",
   "Year": 2023,
   "Authors": "Sinan Küfeoğlu; Abdullah Talip Akgün",
@@ -244195,7 +244895,7 @@
   "FWCI": 0.7063
  },
  {
-  "ID": "LM06978",
+  "ID": "LM06998",
   "Title": "Mitigating fiscal risk through municipal cybersecurity",
   "Year": 2023,
   "Authors": "Douglas A. Carr",
@@ -244230,7 +244930,7 @@
   "FWCI": 0.7063
  },
  {
-  "ID": "LM06979",
+  "ID": "LM06999",
   "Title": "Prospects of Cyber Security in Smart Cities",
   "Year": 2024,
   "Authors": "K. Asimithaa; Aishwarya R I; Tanish Milind Salunkhe; Eunice J",
@@ -244265,7 +244965,7 @@
   "FWCI": 0.1788
  },
  {
-  "ID": "LM06980",
+  "ID": "LM07000",
   "Title": "Cybersecurity Strategies for Smart Cities",
   "Year": 2024,
   "Authors": "M. Sindhuja; K. Alice; A. Maria Nancy; N. A. S. Vinoth",
@@ -244300,7 +245000,7 @@
   "FWCI": 0.8566
  },
  {
-  "ID": "LM06981",
+  "ID": "LM07001",
   "Title": "An Indigenous AI-Driven Cybersecurity Framework for Securing India’s Critical Infrastructure: ASTHA",
   "Year": 2025,
   "Authors": "Neha Goel; Sandeep Bhatia; R. K. Yadav; Arun Kumar; Yashwant Soni",
@@ -244335,7 +245035,7 @@
   "FWCI": 1.3837
  },
  {
-  "ID": "LM06982",
+  "ID": "LM07002",
   "Title": "Resilience analysis of urban cyber-physical-social systems: Insights from the 2023 Beijing rainstorm",
   "Year": 2026,
   "Authors": "Wenxin Ma; Baichuan Mo; Ruimin Li",
@@ -244370,7 +245070,7 @@
   "FWCI": 2.6782
  },
  {
-  "ID": "LM06983",
+  "ID": "LM07003",
   "Title": "Role and importance of the cyber security for developing smart cities in India",
   "Year": 2017,
   "Authors": "Vandana Milind Rohokale; Ramjee Prasad",
@@ -244405,7 +245105,7 @@
   "FWCI": 0.8396
  },
  {
-  "ID": "LM06984",
+  "ID": "LM07004",
   "Title": "A Solution Paper on Cyber Security Awareness Campaign Lacking in Rural and Urban Area of India",
   "Year": 2021,
   "Authors": "R Gupta",
@@ -244440,7 +245140,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06985",
+  "ID": "LM07005",
   "Title": "Cyber Security Challenges for Smart Cities",
   "Year": 2022,
   "Authors": "Arunima Sharma; Ramesh Babu Battula",
@@ -244475,7 +245175,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06986",
+  "ID": "LM07006",
   "Title": "The Future of Local Government Cybersecurity",
   "Year": 2022,
   "Authors": "Donald F. Norris; Laura K. Mateczun; Richard F. Forno",
@@ -244510,7 +245210,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06987",
+  "ID": "LM07007",
   "Title": "Future Trends for Cyber Security for Smart Cities and Homes",
   "Year": 2024,
   "Authors": "Richard J. Chasdi",
@@ -244545,7 +245245,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06988",
+  "ID": "LM07008",
   "Title": "Recent trends of cyber security threats in India",
   "Year": 2024,
   "Authors": "",
@@ -244580,7 +245280,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06989",
+  "ID": "LM07009",
   "Title": "Cyber Resilience in Cloud-Based Critical Infrastructure",
   "Year": 2023,
   "Authors": "Pavan Nutalapati",
@@ -244615,7 +245315,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06990",
+  "ID": "LM07010",
   "Title": "Cyberattacks on the Financial Sector of Critical Infrastructure",
   "Year": 2024,
   "Authors": "Јована Брајовић; Дејана Јовановић-Поповић",
@@ -244650,7 +245350,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06991",
+  "ID": "LM07011",
   "Title": "Study of Cyber Security Initiatives in Smart City",
   "Year": 2024,
   "Authors": "Darp K. Desai; Kaushal Shah; Harshal A. Sanghvi",
@@ -244685,7 +245385,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06992",
+  "ID": "LM07012",
   "Title": "AI Driven Cyber Warfare Between China and India and Its Impact on Pakistan’s National Security",
   "Year": 2025,
   "Authors": "Hafiza Ayesha Aslam",
@@ -244720,7 +245420,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06993",
+  "ID": "LM07013",
   "Title": "Regional Critical Infrastructure: A Cyber-Physical Resilience Assessment Methodology",
   "Year": 2025,
   "Authors": "Nathaniel Evans; Logan D. Sturm",
@@ -244755,7 +245455,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06994",
+  "ID": "LM07014",
   "Title": "Digital Crime in Bihar: Trends, Case Studies, and District-Wise Vulnerability Analysis in the Age of Expanding Connectivity",
   "Year": 2025,
   "Authors": "Ajit Kumar; Prof. (Dr.) Om Prakash Roy",
@@ -244790,7 +245490,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06995",
+  "ID": "LM07015",
   "Title": "Modular Security Engine Cyber-Physical Resiliency Approach Using Digital Replication",
   "Year": 2025,
   "Authors": "Jean G. V. Etibou; Samuel Pierre",
@@ -244825,7 +245525,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06996",
+  "ID": "LM07016",
   "Title": "Quantum-Safe Cyber Governance: Standards, Compliance, and Systemic Resilience",
   "Year": 2026,
   "Authors": "Murali Krishna Pasupuleti",
@@ -244860,7 +245560,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM06997",
+  "ID": "LM07017",
   "Title": "Analysing cybersecurity challenges: a case of Indian smart city context",
   "Year": 2026,
   "Authors": "Anu Rao; Amit Kumar Singh",
@@ -244895,7 +245595,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06998",
+  "ID": "LM07018",
   "Title": "Database Vulnerabilities and Cyber Resilience in Critical Infrastructure: A Case Study of the 2025 UNFI Cyberattack",
   "Year": 2026,
   "Authors": "Kapil Chakravarthy Sanubala",
@@ -244930,7 +245630,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM06999",
+  "ID": "LM07019",
   "Title": "Drones and Autonomous Systems Report",
   "Year": 2026,
   "Authors": "Murali Krishna Pasupuleti",
@@ -244965,7 +245665,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07000",
+  "ID": "LM07020",
   "Title": "Topological-Spectral Cybersecurity Models for Detecting Network Anomalies in Critical Infrastructure",
   "Year": 2026,
   "Authors": "Murali Krishna Pasupuleti",
@@ -245000,7 +245700,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07001",
+  "ID": "LM07021",
   "Title": "AI-Powered Cyber Defense Architectures for Proactive Security in Metaverse Ecosystems and Urban Cyber-Physical Networks",
   "Year": 2025,
   "Authors": "K. Bhanu Rekha; Simran Raj; M.S. Gowtham; Yuvraj Parmar; Vivek Saraswat; Karthikeyan S",
@@ -245035,7 +245735,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07002",
+  "ID": "LM07022",
   "Title": "Filling the Gaps in Pakistan’s National Cyber Security Framework: A Case for a Comprehensive Cybersecurity Act in Pakistan",
   "Year": 2026,
   "Authors": "Agha Zain ul Abdin",
@@ -245070,7 +245770,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07003",
+  "ID": "LM07023",
   "Title": "Modeling Cyber Security in Smart Cities: A Knowledge-Based Approach",
   "Year": 2026,
   "Authors": "Andrea Žváčková; Daniela Ponce; Peter Mikulecký; Pavel Čech; Karel Mls; Tereza Otčenášková; Petr Tučník",
@@ -245105,7 +245805,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07004",
+  "ID": "LM07024",
   "Title": "A Cybersecurity Framework for Traffic Management in Indian Smart Cities",
   "Year": 2026,
   "Authors": "Priyankakumari M. Surati; Chaitanya Singh",
@@ -245140,7 +245840,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07005",
+  "ID": "LM07025",
   "Title": "CYBERSECURITY CHALLENGES AND SOLUTIONS FOR PROTECTING CRITICAL INFRASTRUCTURE IN PAKISTAN",
   "Year": 2023,
   "Authors": "Dr. Kashan Tariq",
@@ -245175,7 +245875,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07006",
+  "ID": "LM07026",
   "Title": "Strategic framework for cyber intelligence requirement identification and performance quantification in local government",
   "Year": 2026,
   "Authors": "Mark Brett",
@@ -245210,7 +245910,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07007",
+  "ID": "LM07027",
   "Title": "Cyber Security: Security in the Age of Digital India",
   "Year": 2017,
   "Authors": "Kulbir Singh",
@@ -245245,7 +245945,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07008",
+  "ID": "LM07028",
   "Title": "A COMPARATIVE STUDY ON PREVENTIVE MEASURES OF CYBER CRIMES IN DIGITAL PAYMENTS AMONG PUBLIC AND PRIVATE SECTOR BANKS WITH REFERENCE TO VELLORE BRANCHES",
   "Year": 2018,
   "Authors": "S Shrilatha; R Gayathiri",
@@ -245280,7 +245980,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07009",
+  "ID": "LM07029",
   "Title": "Municipal Cyber Risk",
   "Year": 2023,
   "Authors": "Jonathan Jensen; Fiona Paine",
@@ -245315,7 +246015,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07010",
+  "ID": "LM07030",
   "Title": "Enhancing Cyber Resilience in Critical Infrastructure through Advanced Risk Assessment Models",
   "Year": 2025,
   "Authors": "Babafunke Olaonipekun",
@@ -245350,7 +246050,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07011",
+  "ID": "LM07031",
   "Title": "CYBER-READY COMMUNITIES: SECURING LOCAL GOVERNMENT AGENCIES IN THE DIGITAL AGE",
   "Year": 2024,
   "Authors": "Smoot, Thomas M., Jr.",
@@ -245385,7 +246085,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07012",
+  "ID": "LM07032",
   "Title": "Cyber Resilience in Bharat: Safeguarding the Pillars of Indian Democracy and National Security",
   "Year": 2025,
   "Authors": "Rawat, Dr Deepa Mehra; Bora, Aman",
@@ -245420,7 +246120,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07013",
+  "ID": "LM07033",
   "Title": "Shared Fate: Operationalising Cyber Epidemiology for Critical Infrastructure Resilience",
   "Year": 2026,
   "Authors": "Jessemyn Modini",
@@ -245455,7 +246155,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07014",
+  "ID": "LM07034",
   "Title": "CYBER SECURITY AS A PILLAR OF SUSTAINABLE SMART ENERGY INFRASTRUCTURE: A CASE STUDY OF THE 2020 MUMBAI POWER OUTAGE AND IMPLICATIONS FOR INDIA'S CLEAN ENERGY TRANSITION",
   "Year": 2026,
   "Authors": "Manasi Salunkhe",
@@ -245490,7 +246190,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07015",
+  "ID": "LM07035",
   "Title": "IOT-BASED SMART CITIES IN INDIA: CHALLENGES, AND SUSTAINABLE DEVELOPMENT BY 2050",
   "Year": 2026,
   "Authors": "Rohit Ashok Vaishnav and Asst. Prof. Dineshwari Bisen",
@@ -245525,7 +246225,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07016",
+  "ID": "LM07036",
   "Title": "Ransomware in the Pacific: A Case Study of the 2024 Suva City Council Attack",
   "Year": 2026,
   "Authors": "Rahul Singh",
@@ -245560,7 +246260,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07017",
+  "ID": "LM07037",
   "Title": "Ransomware Resilience for Municipal Infrastructure",
   "Year": 2026,
   "Authors": "Venkata Kartheek Reddy Somasani",
@@ -245595,7 +246295,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07018",
+  "ID": "LM07038",
   "Title": "Defending the Digital Battlefield: Indian Army Role in Cybersecurity and Cyber Law",
   "Year": 2025,
   "Authors": "Basil Raju & Jyotirmoy Banerjee",
@@ -245630,7 +246330,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07019",
+  "ID": "LM07039",
   "Title": "Cyber Security Analyis of Smart Cities",
   "Year": 2025,
   "Authors": "Simona Laníková",
@@ -245665,7 +246365,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07020",
+  "ID": "LM07040",
   "Title": "Cyber Terrorism against National Security of Pakistan: Emerging Threats and Response Strategies",
   "Year": 2026,
   "Authors": "Ali Zeb",
@@ -245700,7 +246400,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07021",
+  "ID": "LM07041",
   "Title": "Pakistan's National Cyber Security Strategy: A Critical Analysis, Gap Assessment, and Recommendations for Strengthening Cyber Resilience: https://doi.org/10.5281/zenodo.20772416",
   "Year": 2026,
   "Authors": "Arsalan Rajper; Mairaj Nabi; Baby Marina; Rahila Parveen; Maqsood Ahmed Dero; Muhammad Asif Ali; Mah Saba Maheen",
@@ -245735,7 +246435,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07022",
+  "ID": "LM07042",
   "Title": "A strategy for the implementation of effective IT security controls within local government",
   "Year": 2023,
   "Authors": "LD Soncasa",
@@ -245770,7 +246470,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07023",
+  "ID": "LM07043",
   "Title": "What's up with whatsapp?",
   "Year": 2013,
   "Authors": "Karen Church; Rodrigo Cardoso de Oliveira",
@@ -245805,7 +246505,7 @@
   "FWCI": 29.4495
  },
  {
-  "ID": "LM07024",
+  "ID": "LM07044",
   "Title": "Use of Smart Phones and Social Media in Medical Education: Trends, Advantages, Challenges and Barriers",
   "Year": 2019,
   "Authors": "Muhammad Zahid Latif; Intzar Hussain; Rizwan Saeed; Muhammad Qureshi; Umer Maqsood",
@@ -245840,7 +246540,7 @@
   "FWCI": 24.4559
  },
  {
-  "ID": "LM07025",
+  "ID": "LM07045",
   "Title": "Defining hyperlocal media: Proposing a framework for discussion",
   "Year": 2011,
   "Authors": "Emily T. Metzgar; David D. Kurpius; Karen M. Rowley",
@@ -245875,7 +246575,7 @@
   "FWCI": 21.2408
  },
  {
-  "ID": "LM07026",
+  "ID": "LM07046",
   "Title": "The Value of UK Hyperlocal Community News",
   "Year": 2014,
   "Authors": "Andy Williams; David Harte; Jerome Turner",
@@ -245910,7 +246610,7 @@
   "FWCI": 25.7002
  },
  {
-  "ID": "LM07027",
+  "ID": "LM07047",
   "Title": "Building the Digitally Gated Community: The Case of Nextdoor",
   "Year": 2019,
   "Authors": "Rahim Kurwa",
@@ -245945,7 +246645,7 @@
   "FWCI": 20.1241
  },
  {
-  "ID": "LM07028",
+  "ID": "LM07048",
   "Title": "Real-time task assignment in hyperlocal spatial crowdsourcing under budget constraints",
   "Year": 2016,
   "Authors": "Hien To; Liyue Fan; Luan Tran; Cyrus Shahabi",
@@ -245980,7 +246680,7 @@
   "FWCI": 15.7238
  },
  {
-  "ID": "LM07029",
+  "ID": "LM07049",
   "Title": "WHATSAPP MESSENGER DALAM TINJAUAN MANFAAT DAN ADAB",
   "Year": 2016,
   "Authors": "Jumiatmoko Jumiatmoko",
@@ -246015,7 +246715,7 @@
   "FWCI": 2.0313
  },
  {
-  "ID": "LM07030",
+  "ID": "LM07050",
   "Title": "Plurality, Policy and the Local",
   "Year": 2014,
   "Authors": "Steven Barnett; Judith Townend",
@@ -246050,7 +246750,7 @@
   "FWCI": 22.7348
  },
  {
-  "ID": "LM07031",
+  "ID": "LM07051",
   "Title": "Eksistensi Media Sosial,Youtube, Instagram dan Whatsapp Ditengah Pandemi Covid-19 Dikalangan Masyarakat Virtual Indonesia",
   "Year": 2020,
   "Authors": "Hendra Junawan; Nurdin Laugu",
@@ -246085,7 +246785,7 @@
   "FWCI": 9.319
  },
  {
-  "ID": "LM07032",
+  "ID": "LM07052",
   "Title": "Mobile witnessing on WhatsApp: Vigilante virality and the anatomy of mob lynching",
   "Year": 2020,
   "Authors": "Rahul Mukherjee",
@@ -246120,7 +246820,7 @@
   "FWCI": 53.3673
  },
  {
-  "ID": "LM07033",
+  "ID": "LM07053",
   "Title": "Hyperlocals and Legacy Media",
   "Year": 2018,
   "Authors": "Gunnar Nygren; Sara Leckner; Carina Tenor",
@@ -246155,7 +246855,7 @@
   "FWCI": 18.3441
  },
  {
-  "ID": "LM07034",
+  "ID": "LM07054",
   "Title": "SUSTAINING HYPERLOCAL MEDIA",
   "Year": 2009,
   "Authors": "David D. Kurpius; Emily T. Metzgar; Karen M. Rowley",
@@ -246190,7 +246890,7 @@
   "FWCI": 9.1424
  },
  {
-  "ID": "LM07035",
+  "ID": "LM07055",
   "Title": "Finding Your People in the Digital Age: Virtual Communities of Practice to Promote Education Scholarship",
   "Year": 2019,
   "Authors": "Lalena M. Yarris; Teresa M. Chan; Michael A. Gottlieb; Amy Miller Juvé",
@@ -246225,7 +246925,7 @@
   "FWCI": 8.137
  },
  {
-  "ID": "LM07036",
+  "ID": "LM07056",
   "Title": "Reflections on adapting group model building scripts into online workshops",
   "Year": 2020,
   "Authors": "Brooke Wilkerson; Anaely Aguiar; Christina Gkini; Igor Czermainski de Oliveira; Lars‐Kristian Lunde Trellevik; Birgit Kopainsky",
@@ -246260,7 +246960,7 @@
   "FWCI": 6.6302
  },
  {
-  "ID": "LM07037",
+  "ID": "LM07057",
   "Title": "Facebook and Whatsapp as disaster management tools during the Chennai (India) floods of 2015",
   "Year": 2019,
   "Authors": "N. Bhuvana; I. Arul Aram",
@@ -246295,7 +246995,7 @@
   "FWCI": 19.5789
  },
  {
-  "ID": "LM07038",
+  "ID": "LM07058",
   "Title": "Migrants and Service Providers’ Perspectives of Barriers to Accessing Mental Health Services in South Australia: A Case of African Migrants with a Refugee Background in South Australia",
   "Year": 2021,
   "Authors": "Nelsensius Klau Fauk; Anna M. Ziersch; Hailay Abrha Gesesew; Paul Ward; Erin Green; Enaam Oudih; Roheena Tahir; Lillian Mwanri",
@@ -246330,7 +247030,7 @@
   "FWCI": 7.082
  },
  {
-  "ID": "LM07039",
+  "ID": "LM07059",
   "Title": "USING CITIZENS FOR COMMUNITY JOURNALISM",
   "Year": 2013,
   "Authors": "Steve Paulussen; Evelien D’heer",
@@ -246365,7 +247065,7 @@
   "FWCI": 20.0297
  },
  {
-  "ID": "LM07040",
+  "ID": "LM07060",
   "Title": "A Real-Time Framework for Task Assignment in Hyperlocal Spatial Crowdsourcing",
   "Year": 2018,
   "Authors": "Luan Tran; Hien To; Liyue Fan; Cyrus Shahabi",
@@ -246400,7 +247100,7 @@
   "FWCI": 14.2931
  },
  {
-  "ID": "LM07041",
+  "ID": "LM07061",
   "Title": "Mobile instant messaging for rural community health workers: a case from Malawi",
   "Year": 2017,
   "Authors": "Christoph Pimmer; Susan Mhango; Alfred Mzumara; Francis Mbvundula",
@@ -246435,7 +247135,7 @@
   "FWCI": 10.6147
  },
  {
-  "ID": "LM07042",
+  "ID": "LM07062",
   "Title": "The Hyperlocal In Practice",
   "Year": 2014,
   "Authors": "Marco van Kerkhoven; Piet Bakker",
@@ -246470,7 +247170,7 @@
   "FWCI": 18.7809
  },
  {
-  "ID": "LM07043",
+  "ID": "LM07063",
   "Title": "Urban Acupuncture: Hybrid Social and Technological Practices for Hyperlocal Placemaking",
   "Year": 2015,
   "Authors": "Kirralie Houghton; Marcus Foth; Evonne Miller",
@@ -246505,7 +247205,7 @@
   "FWCI": 9.6514
  },
  {
-  "ID": "LM07044",
+  "ID": "LM07064",
   "Title": "Aversive racism and community-instigated policing: The spatial politics of Nextdoor",
   "Year": 2021,
   "Authors": "Stefano Bloch",
@@ -246540,7 +247240,7 @@
   "FWCI": 17.8867
  },
  {
-  "ID": "LM07045",
+  "ID": "LM07065",
   "Title": "Tensions in scaling-up community social media",
   "Year": 2014,
   "Authors": "Christina A. Masden; Catherine Grevet; Rebecca E. Grinter; Éric Gilbert; W. Keith Edwards",
@@ -246575,7 +247275,7 @@
   "FWCI": 5.4459
  },
  {
-  "ID": "LM07046",
+  "ID": "LM07066",
   "Title": "Assessing the feasibility of hyperlocal delivery model as an effective distribution channel",
   "Year": 2023,
   "Authors": "Sunita Guru; Subir Verma; Pratibha Baheti; Vishal Dagar",
@@ -246610,7 +247310,7 @@
   "FWCI": 18.332
  },
  {
-  "ID": "LM07047",
+  "ID": "LM07067",
   "Title": "Reciprocity and The Hyperlocal Journalist",
   "Year": 2016,
   "Authors": "David Harte; Andy Williams; Jerome Turner",
@@ -246645,7 +247345,7 @@
   "FWCI": 16.2326
  },
  {
-  "ID": "LM07048",
+  "ID": "LM07068",
   "Title": "Sustained journalist–audience reciprocity in a meso news-space: The case of a journalistic WhatsApp group",
   "Year": 2020,
   "Authors": "Neta Kligler-Vilenchik; Ori Tenenboim",
@@ -246680,7 +247380,7 @@
   "FWCI": 13.8575
  },
  {
-  "ID": "LM07049",
+  "ID": "LM07069",
   "Title": "Legitimating falsehood in social media: A discourse analysis of political fake news",
   "Year": 2020,
   "Authors": "Ebuka Elias Igwebuike; Lily Chimuanya",
@@ -246715,7 +247415,7 @@
   "FWCI": 8.5656
  },
  {
-  "ID": "LM07050",
+  "ID": "LM07070",
   "Title": "“Short is the Road that Leads from Fear to Hate”: Fear Speech in Indian WhatsApp Groups",
   "Year": 2021,
   "Authors": "Punyajoy Saha; Binny Mathew; Kiran V. Garimella; Animesh Mukherjee",
@@ -246750,7 +247450,7 @@
   "FWCI": 5.0488
  },
  {
-  "ID": "LM07051",
+  "ID": "LM07071",
   "Title": "Grassroots authoritarianism: WhatsApp, middle-class boundary-making and pandemic governance in New Delhi’s neighbourhoods",
   "Year": 2023,
   "Authors": "Lipika Kamra; Philippa Williams; Pushpendra Johar",
@@ -246785,7 +247485,7 @@
   "FWCI": 23.9014
  },
  {
-  "ID": "LM07052",
+  "ID": "LM07072",
   "Title": "WhatsApp as a tool for Building a Learning Community",
   "Year": 2022,
   "Authors": "Johannes C. Cronjé; Izak van Zyl",
@@ -246820,7 +247520,7 @@
   "FWCI": 10.1729
  },
  {
-  "ID": "LM07053",
+  "ID": "LM07073",
   "Title": "Digital literation of citizens neighborhood association’s WhatsApp group in response Covid-19 information",
   "Year": 2022,
   "Authors": "Indah Wenerda",
@@ -246855,7 +247555,7 @@
   "FWCI": 5.0765
  },
  {
-  "ID": "LM07054",
+  "ID": "LM07074",
   "Title": "Under the (neighbor)hood: Hyperlocal Surveillance on Nextdoor",
   "Year": 2024,
   "Authors": "Madiha Zahrah Choksi; Marianne Aubin Le Quéré; Travis Lloyd; Ruojia Tao; James Grimmelmann; Mor Naaman",
@@ -246890,7 +247590,7 @@
   "FWCI": 7.0764
  },
  {
-  "ID": "LM07055",
+  "ID": "LM07075",
   "Title": "How to Be Visible in Student Politics: Performativity and the Digital Public Space in Bangladesh",
   "Year": 2020,
   "Authors": "Julian Kuttig; Bert Suykens",
@@ -246925,7 +247625,7 @@
   "FWCI": 6.0947
  },
  {
-  "ID": "LM07056",
+  "ID": "LM07076",
   "Title": "Decentralized governance or passing the buck: the case of resident welfare associations at resettlement sites, Ahmedabad, India",
   "Year": 2015,
   "Authors": "Darshini Mahadevia; Neha Bhatia; Bijal Bhatt",
@@ -246960,7 +247660,7 @@
   "FWCI": 4.1363
  },
  {
-  "ID": "LM07057",
+  "ID": "LM07077",
   "Title": "“The emergence of the Indian hyperlocal grocery delivery industry: Dunzo v/s Blinkit”",
   "Year": 2023,
   "Authors": "Nirmit Sanghi; Krishna Chandra Balodi; Vivek Gupta",
@@ -246995,7 +247695,7 @@
   "FWCI": 2.4746
  },
  {
-  "ID": "LM07058",
+  "ID": "LM07078",
   "Title": "Justice within the new factory gates: how to hold RWAs responsible for workers’ welfare",
   "Year": 2025,
   "Authors": "Shardha Rajam; Prabha Kotiswaran",
@@ -247030,7 +247730,7 @@
   "FWCI": 42.1341
  },
  {
-  "ID": "LM07059",
+  "ID": "LM07079",
   "Title": "Urban governance and health care provision in Delhi",
   "Year": 2011,
   "Authors": "Stéphanie Tawa Lama‐Rewal",
@@ -247065,7 +247765,7 @@
   "FWCI": 4.6305
  },
  {
-  "ID": "LM07060",
+  "ID": "LM07080",
   "Title": "Hyperlocal Organizing",
   "Year": 2022,
   "Authors": "Jack L. Harris",
@@ -247100,7 +247800,7 @@
   "FWCI": 1.2139
  },
  {
-  "ID": "LM07061",
+  "ID": "LM07081",
   "Title": "Colonizers in the neighborhood: a critical discourse analysis of Nextdoor users’ postracial strategies",
   "Year": 2023,
   "Authors": "Jenny J. Lee; Chloe Ahn",
@@ -247135,7 +247835,7 @@
   "FWCI": 5.5274
  },
  {
-  "ID": "LM07062",
+  "ID": "LM07082",
   "Title": "Crime in your area: Use of neighborhood apps is associated with inaccurate perceptions of higher local crime rates.",
   "Year": 2023,
   "Authors": "Adam Kent Fetterman; Carter D. Baker; Brian P. Meier",
@@ -247170,7 +247870,7 @@
   "FWCI": 2.253
  },
  {
-  "ID": "LM07063",
+  "ID": "LM07083",
   "Title": "Lady and the Tramp Nextdoor: Online Manifestations of Real-World Inequalities in the Nextdoor Social Network",
   "Year": 2023,
   "Authors": "Waleed Iqbal; Vahid Ghafouri; Gareth Tyson; Guillermo Suárez‐Tangil; Ignacio Castro",
@@ -247205,7 +247905,7 @@
   "FWCI": 1.0053
  },
  {
-  "ID": "LM07064",
+  "ID": "LM07084",
   "Title": "The New Neighborhood Watch: An Exploratory Study of the Nextdoor App and Crime Narratives",
   "Year": 2024,
   "Authors": "Megan Jean Parker; Mary Dodge",
@@ -247240,7 +247940,7 @@
   "FWCI": 3.831
  },
  {
-  "ID": "LM07065",
+  "ID": "LM07085",
   "Title": "Nextdoor v. the community network literature: Do Nextdoor’s uses match the potential envisioned for ComNets",
   "Year": 2023,
   "Authors": "Jonathan W. Lillie; Matthew Achhammer",
@@ -247275,7 +247975,7 @@
   "FWCI": 1.8024
  },
  {
-  "ID": "LM07066",
+  "ID": "LM07086",
   "Title": "Social media security: the impact of AI-generated Whatsapp scams on the security and privacy of Whatsapp community groups",
   "Year": 2025,
   "Authors": "Giddeon Njamngang Angafor",
@@ -247310,7 +248010,7 @@
   "FWCI": 3.7246
  },
  {
-  "ID": "LM07067",
+  "ID": "LM07087",
   "Title": "Group Communication Patterns of Universitas Terbuka Students’ Online Community on WhatsApp",
   "Year": 2025,
   "Authors": "Amelia Yeza Pradhipta; Isma Dwi Fiani",
@@ -247345,7 +248045,7 @@
   "FWCI": 6.2618
  },
  {
-  "ID": "LM07068",
+  "ID": "LM07088",
   "Title": "Local platformized utopias? corporate discourse, community groups, and volunteer moderation on Facebook, Reddit, and NextDoor",
   "Year": 2025,
   "Authors": "Nicholas Proferes; Kelley Cotter; Kjerstin Thorson; Ankolika De; Chia-Fang Chang; Ava Francesca Battocchio",
@@ -247380,7 +248080,7 @@
   "FWCI": 6.3253
  },
  {
-  "ID": "LM07069",
+  "ID": "LM07089",
   "Title": "RWAs and the Political Process in Delhi",
   "Year": 2020,
   "Authors": "Diya Mehra",
@@ -247415,7 +248115,7 @@
   "FWCI": 1.7575
  },
  {
-  "ID": "LM07070",
+  "ID": "LM07090",
   "Title": "Contradictions of Neoliberal Urbanism: The Case of Paid Domestic Workers in Indian Cities",
   "Year": 2022,
   "Authors": "Sonal Sharma",
@@ -247450,7 +248150,7 @@
   "FWCI": 0.4951
  },
  {
-  "ID": "LM07071",
+  "ID": "LM07091",
   "Title": "Governing pandemics: Resilience and community responses for COVID-19 in Bengaluru and Shanghai",
   "Year": 2024,
   "Authors": "Zhumin Xu; Kala Seetharam Sridhar; Qingwen Xu; Vishal Ravi",
@@ -247485,7 +248185,7 @@
   "FWCI": 0.7662
  },
  {
-  "ID": "LM07072",
+  "ID": "LM07092",
   "Title": "“Who Cancelled Lee Highway?”: Expressions of White Racial Frames and Counterframes on Nextdoor",
   "Year": 2024,
   "Authors": "Shayna L. Maskell",
@@ -247520,7 +248220,7 @@
   "FWCI": 0.7562
  },
  {
-  "ID": "LM07073",
+  "ID": "LM07093",
   "Title": "The wildlife nextdoor: Socioeconomics and race predict social media carnivore reports",
   "Year": 2025,
   "Authors": "Wilson C. Sherman; Christopher J. Schell; Christine E. Wilkinson",
@@ -247555,7 +248255,7 @@
   "FWCI": 0.5921
  },
  {
-  "ID": "LM07074",
+  "ID": "LM07094",
   "Title": "Syndicating the Hyperlocal",
   "Year": 2025,
   "Authors": "Bridget Backhaus; Heather Anderson",
@@ -247590,7 +248290,7 @@
   "FWCI": 2.8185
  },
  {
-  "ID": "LM07075",
+  "ID": "LM07095",
   "Title": "Insights from sensor-based hyperlocal air pollution measurements over Bhubaneswar, India",
   "Year": 2025,
   "Authors": "Monalin Mishra; Acharya Asutosh; Ramasamy Boopathy; Rajasekhar Reddy; Vamsi Krishna; Trupti Das",
@@ -247625,7 +248325,7 @@
   "FWCI": 0.3064
  },
  {
-  "ID": "LM07076",
+  "ID": "LM07096",
   "Title": "Examining the Response of Resident Welfare Associations During the Covid–19 Pandemic and its Ramifications for Urban Governance in India",
   "Year": 2022,
   "Authors": "Chitrakshi Jain",
@@ -247660,7 +248360,7 @@
   "FWCI": 0.4951
  },
  {
-  "ID": "LM07077",
+  "ID": "LM07097",
   "Title": "What’s up with WhatsApp? a case study among Vaalachanai residents in Batticaloa district, Sri Lanka",
   "Year": 2019,
   "Authors": "A. M. F. Roshan; Abdul Cader Mohamed Nafrees",
@@ -247695,7 +248395,7 @@
   "FWCI": 0.3219
  },
  {
-  "ID": "LM07078",
+  "ID": "LM07098",
   "Title": "Lady and the Tramp Nextdoor: Online Manifestations of Economic Inequalities in the Nextdoor Social Network",
   "Year": 2023,
   "Authors": "Iqbal, Waleed; Vahid Ghafouri; Gareth Tyson; Guillermo Suárez‐Tangil; Ignacio Castro",
@@ -247730,7 +248430,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07079",
+  "ID": "LM07099",
   "Title": "The First Large-Scale Wastewater Surveillance of AMR to inform Hyperlocal Antibiotic prescribing: A Study from Bengaluru, India",
   "Year": 2024,
   "Authors": "Imon Roy; N Gowthami; Shoa Shamsi; Nikhilesh Unnikrishnan; Prerak Shah; R.O.S. Prasad; Maneesh Paul Satyaseela; Varsha Shridhar",
@@ -247765,7 +248465,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07080",
+  "ID": "LM07100",
   "Title": "The Role of Resident Welfare Associations in Neighbourhood-Level Solid Waste Management and Composting : New Delhi, India",
   "Year": 2017,
   "Authors": "Chitra S. Jain",
@@ -247800,7 +248500,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07081",
+  "ID": "LM07101",
   "Title": "Hyperlocal Journalism",
   "Year": 2022,
   "Authors": "David Harte",
@@ -247835,7 +248535,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07082",
+  "ID": "LM07102",
   "Title": "Social, Ethical & Legal aspect of RWA (Resident Welfare Association) Management.",
   "Year": 2022,
   "Authors": "Soma Mitra; Dhananjaya Sarangi; Rajendra Bhanj; Srikanta Patnaik",
@@ -247870,7 +248570,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07083",
+  "ID": "LM07103",
   "Title": "Hyperlocal Radio",
   "Year": 2023,
   "Authors": "Lucia Scazzocchio",
@@ -247905,7 +248605,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07084",
+  "ID": "LM07104",
   "Title": "Perception of WhatsApp-based Learning among Medical Students in Delhi, India",
   "Year": 2023,
   "Authors": "Priya Arora; Samar R Hossain; Nidhi Budh",
@@ -247940,7 +248640,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07085",
+  "ID": "LM07105",
   "Title": "COLONIZERS IN THE NEIGHBORHOOD: A CONTENT ANALYSIS OF NEXTDOOR USERS’ “POSTRACIAL” SURVEILLANCE",
   "Year": 2023,
   "Authors": "Jenny Lee; Chloe Ahn",
@@ -247975,7 +248675,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07086",
+  "ID": "LM07106",
   "Title": "RESPONSIBILITIES AND LIMITATIONS OF THE RESIDENT WELFARE ASSOCIATIONS (RWA) IN INDIA.",
   "Year": 2023,
   "Authors": "Asha Devi. J; K. S. Chandrasekar",
@@ -248010,7 +248710,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07087",
+  "ID": "LM07107",
   "Title": "hyperlocal, adj.",
   "Year": 2023,
   "Authors": "",
@@ -248045,7 +248745,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07088",
+  "ID": "LM07108",
   "Title": "Impact of Gst On Resident Welfare Associations - An Outlook",
   "Year": 2023,
   "Authors": "Palash Garani",
@@ -248080,7 +248780,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07089",
+  "ID": "LM07109",
   "Title": "Co-creating and evaluating the potential of digital neighborhood platforms for healthcare and social professionals.",
   "Year": 2023,
   "Authors": "Sam Pless; Tine Vynckier; Jasmine Buntinx",
@@ -248115,7 +248815,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07090",
+  "ID": "LM07110",
   "Title": "Hyperlocal Marketing in India: Swiggy’s Strategy for Targeted Delivery",
   "Year": 2024,
   "Authors": "Shriram Joshi",
@@ -248150,7 +248850,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07091",
+  "ID": "LM07111",
   "Title": "Examining Smart Neighborhood Platforms: A Qualitative Exploration of Features and Applications",
   "Year": 2024,
   "Authors": "Sabrina Hölzer; Christian Erfurth",
@@ -248185,7 +248885,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07092",
+  "ID": "LM07112",
   "Title": "Teachers' Discourse on WhatsApp In a Virtual Professional Learning Community",
   "Year": 2024,
   "Authors": "Iris Saban; Linor Lea Hadar",
@@ -248220,7 +248920,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07093",
+  "ID": "LM07113",
   "Title": "Self Disclosure Between Community Members Connect Group Via Whatsapp Media",
   "Year": 2024,
   "Authors": "Lea Martinez; Nur Maghfirah Aesthetika",
@@ -248255,7 +248955,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07094",
+  "ID": "LM07114",
   "Title": "Digital Co-Parenting in a Suburban Neighbourhood: A Netnographic Study of Whatsapp Group Communication",
   "Year": 2025,
   "Authors": "Nina Afria Damayanti; Ririn Syahriani; Nurul Isra Fauziah; Woro Endah Sitoresmi",
@@ -248290,7 +248990,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07095",
+  "ID": "LM07115",
   "Title": "Hyperlocal Knitting",
   "Year": 2025,
   "Authors": "Patricia Chircop",
@@ -248325,7 +249025,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07096",
+  "ID": "LM07116",
   "Title": "How a neighbourhood watch WhatsApp group shaped fears in a Cape Town suburb",
   "Year": 2022,
   "Authors": "Leah Junck",
@@ -248360,7 +249060,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07097",
+  "ID": "LM07117",
   "Title": "Landfill Reduction In The Context Of Sustainable Waste Management: A Case Study Of Bengaluru",
   "Year": 2025,
   "Authors": "Sangeetha Kolala K; P.Shanmayi Manasi",
@@ -248395,7 +249095,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07098",
+  "ID": "LM07118",
   "Title": "Disciplining the Digital Public Space: The Yandex.News Aggregator",
   "Year": 2025,
   "Authors": "Françoise Daucé; Benjamin Loveluck",
@@ -248430,7 +249130,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07099",
+  "ID": "LM07119",
   "Title": "AKTIVITAS MEREK OLEH REALFOOD MOM COMMUNITY MELALUI WHATSAPP & INSTAGRAM",
   "Year": 2025,
   "Authors": "Rizki Henggar Nastiti Subiono; Sofia Primalisanti Devi",
@@ -248465,7 +249165,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07100",
+  "ID": "LM07120",
   "Title": "HYPERLOCAL NOISE DETECTOR",
   "Year": 2024,
   "Authors": "Rajabhau Thombare",
@@ -248500,7 +249200,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07101",
+  "ID": "LM07121",
   "Title": "Barriers to ISO 9001 Implementation in Indian RWAs: A Multidimensional Analysis with special reference to Delhi NCR region.",
   "Year": 2026,
   "Authors": "Sudha Singh; Himanshu Srivastava",
@@ -248535,7 +249235,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07102",
+  "ID": "LM07122",
   "Title": "Urban Heat–Health Risk assessment over Ahmedabad city, India: A Hyperlocal approach using WRF Model and Satellite Data",
   "Year": 2026,
   "Authors": "Viral A. Patel; Anurag Kandya; Shubham Kela; Shruti Uphale; Kaivalya Gadekar",
@@ -248570,7 +249270,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07103",
+  "ID": "LM07123",
   "Title": "WhatsApp as a Knowledge-Sharing Platform: Insights from Postgraduate Students at the University of Kelaniya, Sri Lanka",
   "Year": 2025,
   "Authors": "G.H. Inoka Dilhani",
@@ -248605,7 +249305,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07104",
+  "ID": "LM07124",
   "Title": "The URL NextDoor: A Digital Forensic Analysis of Neighborhood Apps",
   "Year": 2026,
   "Authors": "Joseph Brown; Abdur Rahman Onik; Ibrahim Baggili",
@@ -248640,7 +249340,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07105",
+  "ID": "LM07125",
   "Title": "LocalLink- Hyperlocal Services Marketplace",
   "Year": 2026,
   "Authors": "Suvarna R. Bhagwat; Mandeep Kumar; Khushboo Kumari; Ayan Mulani; Jyoti Choure",
@@ -248675,7 +249375,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07106",
+  "ID": "LM07126",
   "Title": "The effect of WhatsApp-based leadership communication on neighborhood security",
   "Year": 2026,
   "Authors": "Nelson Avdisius Nengo; Mustofa Abdul Azis; Veranus Sidharta; Anisti",
@@ -248710,7 +249410,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07107",
+  "ID": "LM07127",
   "Title": "Class, Sustainability and Activism: Examining Socio-economic Dimensions of Urban Green Movements in Bengaluru, India",
   "Year": 2026,
   "Authors": "Dipak Mandal",
@@ -248745,7 +249445,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07108",
+  "ID": "LM07128",
   "Title": "Stored, Forgotten and Unrecycled",
   "Year": 2026,
   "Authors": "Shaurya Srivastava",
@@ -248780,7 +249480,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07109",
+  "ID": "LM07129",
   "Title": "A media ecology of hyperlocal resistance-the Indian farmers’ movement",
   "Year": 2026,
   "Authors": "Vineeta Dwivedi; Sunny Vijay Arora; Varun Nagaraj",
@@ -248815,7 +249515,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07110",
+  "ID": "LM07130",
   "Title": "Hyperlocal referent systems in indian television advertising",
   "Year": 2010,
   "Authors": "Manjula D. Sharma",
@@ -248850,7 +249550,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07111",
+  "ID": "LM07131",
   "Title": "Maintenance of Neighbourhood Parks. : Perspective from Resident Welfare Association Presidents in East Delhi, India.",
   "Year": 2019,
   "Authors": "Shikha Ranjha",
@@ -248885,7 +249585,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07112",
+  "ID": "LM07132",
   "Title": "Analysis and Visualization of Hyperlocal Emissions Data in New Delhi and Mumbai",
   "Year": 2023,
   "Authors": "Maya Anandan; Anirban Mondal",
@@ -248920,7 +249620,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07113",
+  "ID": "LM07133",
   "Title": "Self Disclosure Between Connect Group Community Members Via WhatsApp Media",
   "Year": 2024,
   "Authors": "Lea Martinez; Nur Maghfirah Aesthetika",
@@ -248955,7 +249655,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07114",
+  "ID": "LM07134",
   "Title": "Neighborhood Apps & Crime",
   "Year": 2023,
   "Authors": "Adam Fetterman",
@@ -248990,7 +249690,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07115",
+  "ID": "LM07135",
   "Title": "Hyperlocal Real Estate Price Forecasting: A Case Study of the Noida Market",
   "Year": 2026,
   "Authors": "Kavya Sharma",
@@ -249025,7 +249725,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07116",
+  "ID": "LM07136",
   "Title": "An Exploration of the Determinants of WhatsApp-Based Maternal Health Messaging Interventions in Rural South Asia",
   "Year": 2025,
   "Authors": "Shahreen Rahman",
@@ -249060,7 +249760,7 @@
   "FWCI": null
  },
  {
-  "ID": "LM07117",
+  "ID": "LM07137",
   "Title": "A study on Facebook and WhatsApp during Chennai floods 2015",
   "Year": 2023,
   "Authors": "N. Bhuvana; I. Arul Aram",
@@ -249095,7 +249795,7 @@
   "FWCI": 0.0
  },
  {
-  "ID": "LM07118",
+  "ID": "LM07138",
   "Title": "Online parenting whatsapp group virtual ethnographic study child friendly community",
   "Year": 2023,
   "Authors": "Diki Wibowo; Pupu Wasngadiredja",
