@@ -1067,3 +1067,26 @@ W7163517261,C2,exclude,"Claude (manual review, Stage 2)",cafés as third places 
 W7115094432,C2,include,"Claude (manual review, Stage 2)",platform urbanism (lecture record)
 W4225271012,C2,include,"Claude (manual review, Stage 2)","platform urbanism, urban HCI and digital civics"
 W7106297724,C2,exclude,"Claude (manual review, Stage 2)",platform labour regulation (B11)
+W7125511853,C3,include,"Claude (manual review, Stage 2)",digital geographies of One Health (flag false positive)
+W3111999199,C3,include,"Claude (manual review, Stage 2)",IT infrastructure and urban politics in Pune (digital geographies)
+W4380265026,C3,include,"Claude (manual review, Stage 2)",digital sociospatial relations in Asia
+W2900765190,C3,exclude,"Claude (manual review, Stage 2)",gender-coded space and NGOs (not digital)
+W3199167294,C3,include,"Claude (manual review, Stage 2)",networked photography and locative media in Mumbai
+W2776625130,C3,exclude,"Claude (manual review, Stage 2)",volunteer GIS waste-management design
+W4249295933,C3,include,"Claude (manual review, Stage 2)",Code/Space (Kitchin and Dodge; flag false positive)
+W1967591232,C3,exclude,"Claude (manual review, Stage 2)",book review (Code/Space)
+W2113877376,C3,include,"Claude (manual review, Stage 2)",cartography and the geoweb (progress report)
+W2293651793,C3,exclude,"Claude (manual review, Stage 2)",urban informatics lab (C4)
+W2770114489,C3,exclude,"Claude (manual review, Stage 2)",dating-app data cultures
+W2098233302,C3,include,"Claude (manual review, Stage 2)",augmented realities and uneven geographies of the geoweb
+W4312179679,C3,include,"Claude (manual review, Stage 2)",digital ecologies (digital geographies)
+W644579044,C3,exclude,"Claude (manual review, Stage 2)",GIS textbook
+W2989643998,C3,exclude,"Claude (manual review, Stage 2)",smart cities companion (C1)
+W2062126424,C3,exclude,"Claude (manual review, Stage 2)",online street-level maps (technical)
+W3138153056,C3,exclude,"Claude (manual review, Stage 2)",language education
+W1965678969,C3,include,"Claude (manual review, Stage 2)",geomedia and locative media
+W2304209366,C3,include,"Claude (manual review, Stage 2)",selfie as locative media
+W2890620150,C3,include,"Claude (manual review, Stage 2)",queer male spaces brokered through digital and locative media
+W4285132863,C3,exclude,"Claude (manual review, Stage 2)",OFDM wireless
+W7165435430,C3,exclude,"Claude (manual review, Stage 2)",geoweb system software record
+W4392105910,C3,exclude,"Claude (manual review, Stage 2)",dark tourism geographies

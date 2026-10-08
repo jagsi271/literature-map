@@ -10274,18 +10274,18 @@ W4205608017,C2,recent,C2_recent_q3,21,Communal sharing within and beyond digital
 W7220139056,C2,recent,C2_recent_q3,22,Digital Platforms and Technological Innovations for Sustainable Urban Development,2025,article,0,True,include,3,rules,include
 W4405256662,C2,recent,C2_recent_q3,23,Smart city governance and digital platforms: A framework for inclusive community engagement and real-time decision-making,2023,article,2,True,include,5,rules,include
 W7168355438,C2,recent,C2_recent_q3,24,"Platform Urbanization: How Digital Platforms (Avito, Yandex, Wildberries) Restructure the Space of Urban Agglomerations",2026,article,1,True,include,6,rules,include
-W7125511853,C3,india,C3_india_q1,1,"Digital Disease Ecologies: Encounter, Datafication and the Digital Geographies of One Health",2026,article,0,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W3111999199,C3,india,C3_india_q1,2,"IT-Oriented Infrastructural Development, Urban Co-Dependencies, and the Reconfiguration of Everyday Politics in Pune, India",2020,article,4,True,borderline,1,core concept mentioned once,pending
+W7125511853,C3,india,C3_india_q1,1,"Digital Disease Ecologies: Encounter, Datafication and the Digital Geographies of One Health",2026,article,0,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: digital geographies of One Health (flag false positive),include
+W3111999199,C3,india,C3_india_q1,2,"IT-Oriented Infrastructural Development, Urban Co-Dependencies, and the Reconfiguration of Everyday Politics in Pune, India",2020,article,4,True,borderline,1,core concept mentioned once | manual: IT infrastructure and urban politics in Pune (digital geographies),include
 W4226129107,C3,india,C3_india_q1,3,Digital geography-rural literacy and internet usage among rural men and women in india via national family health survey-5 (2019–2021),2022,article,1,True,include,4,rules,include
 W4401544491,C3,india,C3_india_q1,4,"Space Dynamics and Rise of Digital Geographies: A Study in Spatialities of Emergent Technologies, Communications Patterns and Digital-population Interface",2024,article,0,True,include,3,rules,include
 W4385722880,C3,india,C3_india_q1,5,"Self-regulation, internet domains and Indian Ocean territories",2023,article,0,True,include,2,rules,include
 W3127692414,C3,india,C3_india_q1,6,"Anxious postcolonial masculinity in online video games: race, gender and colonialism in Indian digital spaces",2021,article,7,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2153800088,C3,india,C3_india_q1,7,Integrating web services and agent technology with DIGIGEO agent,2010,conference-paper,0,True,include,3,rules,include
 W7154834587,C3,india,C3_india_q1,8,Influence of Social Media Advertising On Consumer Behavior,2026,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W4380265026,C3,india,C3_india_q1,9,Seeing Digital Asia Spatially: Vignettes of Digital Sociospatial Relations,2023,article,2,True,borderline,1,core concept mentioned once,pending
+W4380265026,C3,india,C3_india_q1,9,Seeing Digital Asia Spatially: Vignettes of Digital Sociospatial Relations,2023,article,2,True,borderline,1,core concept mentioned once | manual: digital sociospatial relations in Asia,include
 W7163031221,C3,india,C3_india_q1,10,Privacy Techtonics,2026,book-chapter,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4213436924,C3,india,C3_india_q1,11,Smart City,2022,reference-entry,0,False,exclude,0,core concept missing,exclude
-W2900765190,C3,india,C3_india_q2,1,The gender-coded space and society and its effect on women developement groups - a study of four NGOs and their connected local womens developement groups in Varanasi India,2003,article,0,True,borderline,4,stub abstract (possible book review),pending
+W2900765190,C3,india,C3_india_q2,1,The gender-coded space and society and its effect on women developement groups - a study of four NGOs and their connected local womens developement groups in Varanasi India,2003,article,0,True,borderline,4,stub abstract (possible book review) | manual: gender-coded space and NGOs (not digital),exclude
 W7128378670,C3,india,C3_india_q2,2,Sovereign Intelligence: The Strategic Architecture of Synaptic AI Lab and the Future of Indian AI Infrastructure,2026,report,0,True,exclude,0,core concept missing,exclude
 W2942774745,C3,india,C3_india_q2,3,"“Space” and Identity Creation of Thai Siam People in Kelantan, Malaysia",2019,article,1,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2739731399,C3,india,C3_india_q2,4,Issue 29 Introduction: Computing the City,2017,article,3,True,exclude,2,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
@@ -10293,10 +10293,10 @@ W2903245709,C3,india,C3_india_q2,5,"Introduction: From Orientalism to Postcoloni
 W3129403545,C3,india,C3_india_q3,1,Geoweb application for species association with vegetation type and climatic regimes in western Himalaya of Indian landscape,2016,dissertation,0,False,include,3,no abstract; core (and context) in title,include
 W2953434425,C3,india,C3_india_q3,2,Developing of Geoweb Application for Urban Planning,2019,conference-paper,3,False,include,3,no abstract; core (and context) in title,include
 W4285157475,C3,india,C3_india_q3,3,"Online Geodata Repositories, Geoweb Services and Emerging Geospatial Technologies for Smart City Planning",2022,book-chapter,4,False,include,3,no abstract; core (and context) in title,include
-W3199167294,C3,india,C3_india_q3,4,"""IT LOOKS BETTER ON INSTAGRAM"": NETWORKED PHOTOGRAPHY AND PUBLIC ART IN MUMBAI",2021,article,0,True,borderline,1,core concept mentioned once,pending
+W3199167294,C3,india,C3_india_q3,4,"""IT LOOKS BETTER ON INSTAGRAM"": NETWORKED PHOTOGRAPHY AND PUBLIC ART IN MUMBAI",2021,article,0,True,borderline,1,core concept mentioned once | manual: networked photography and locative media in Mumbai,include
 W4236058780,C3,india,C3_india_q3,5,SPATIAL-TEMPORAL ANALYSIS OF SOCIAL MEDIA DATA RELATED TO NEPAL EARTHQUAKE 2015,2016,article,7,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2409802652,C3,india,C3_india_q3,6,SPATIAL-TEMPORAL ANALYSIS OF SOCIAL MEDIA DATA RELATED TO NEPAL EARTHQUAKE 2015,2016,article,5,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2776625130,C3,india,C3_india_q3,7,Volunteer GIS (VGIS) based waste management: A conceptual design and use of web 2.0 for smart waste management in Dhaka City,2017,conference-paper,17,True,borderline,1,core concept mentioned once,pending
+W2776625130,C3,india,C3_india_q3,7,Volunteer GIS (VGIS) based waste management: A conceptual design and use of web 2.0 for smart waste management in Dhaka City,2017,conference-paper,17,True,borderline,1,core concept mentioned once | manual: volunteer GIS waste-management design,exclude
 W630353923,C3,india,C3_india_q3,8,The Routledge Companion to Mobile Media,2014,book,110,True,exclude,0,core concept missing,exclude
 W4233855471,C3,india,C3_india_q3,9,Introduction,2019,book-chapter,1,False,exclude,0,core concept missing,exclude
 W2110195516,C3,india,C3_india_q3,10,"Ideology, obsolescence and preservation in digital mapping and locative art",2013,article,9,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -10309,7 +10309,7 @@ W2040810017,C3,landmarks,C3_landmarks,1,A new approach to clustering,1969,articl
 W1984125696,C3,landmarks,C3_landmarks,2,Encoding a qubit in an oscillator,2001,article,1530,True,exclude,0,core concept missing,exclude
 W2158126684,C3,landmarks,C3_landmarks,3,JFlow,1999,conference-paper,1039,True,exclude,0,core concept missing,exclude
 W2945121003,C3,landmarks,C3_landmarks,4,Entanglement wedge reconstruction and the information paradox,2020,article,971,True,exclude,0,core concept missing,exclude
-W4249295933,C3,landmarks,C3_landmarks,5,Code/Space,2011,book,963,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4249295933,C3,landmarks,C3_landmarks,5,Code/Space,2011,book,963,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: Code/Space (Kitchin and Dodge; flag false positive),include
 W2206900261,C3,landmarks,C3_landmarks,6,"Digital turn, digital geographies?",2016,article,768,True,include,6,rules,include
 W1495551960,C3,landmarks,C3_landmarks,7,Fundamentals of geographic information systems,1997,book-review,608,True,exclude,0,type book-review,exclude
 W1995786487,C3,landmarks,C3_landmarks,8,Perceptual awareness and its loss in unilateral neglect and extinction,2001,article,602,False,exclude,0,core concept missing,exclude
@@ -10320,7 +10320,7 @@ W2029568264,C3,landmarks,C3_landmarks,12,Theory of decoherence-free fault-tolera
 W2145919769,C3,landmarks,C3_landmarks,13,Software-sorted geographies,2005,article,491,True,include,4,rules,include
 W2142881874,C3,landmarks,C3_landmarks,14,Discrete Graph Hashing,2014,article,482,True,exclude,0,core concept missing,exclude
 W350593307,C3,landmarks,C3_landmarks,15,Mobile Interface Theory: Embodied Space and Locative Media,2011,article,417,True,include,3,rules,include
-W1967591232,C3,landmarks,C3_landmarks,16,Code/Space: Software and Everyday Life,2012,article,392,True,borderline,4,stub abstract (possible book review),pending
+W1967591232,C3,landmarks,C3_landmarks,16,Code/Space: Software and Everyday Life,2012,article,392,True,borderline,4,stub abstract (possible book review) | manual: book review (Code/Space),exclude
 W3125448378,C3,landmarks,C3_landmarks,17,Beyond the geotag: situating ‘big data’ and leveraging the potential of the geoweb,2013,article,362,True,include,6,rules,include
 W2005985523,C3,landmarks,C3_landmarks,18,Optimizing for reduced code space using genetic algorithms,1999,conference-paper,318,True,exclude,0,core concept missing,exclude
 W2156980630,C3,landmarks,C3_landmarks,19,Cartography: maps 2.0,2008,article,291,True,include,3,rules,include
@@ -10329,7 +10329,7 @@ W2804556936,C3,landmarks,C3_landmarks,21,Feminist digital geographies,2018,artic
 W2791005044,C3,landmarks,C3_landmarks,22,The digital turn in postcolonial urbanism: Smart citizenship in the making of India's 100 smart cities,2018,article,255,True,include,4,rules,include
 W3033331243,C3,landmarks,C3_landmarks,23,Quantum Error Correction,2020,reference-entry,246,True,exclude,0,core concept missing,exclude
 W1993701174,C3,landmarks,C3_landmarks,24,GeoWeb and crisis management: issues and perspectives of volunteered geographic information,2011,article,243,False,include,3,no abstract; core (and context) in title,include
-W2113877376,C3,landmarks,C3_landmarks,25,Cartography I,2011,article,240,True,borderline,1,core concept mentioned once,pending
+W2113877376,C3,landmarks,C3_landmarks,25,Cartography I,2011,article,240,True,borderline,1,core concept mentioned once | manual: cartography and the geoweb (progress report),include
 W2138603521,C3,landmarks,C3_landmarks,26,Geographic information science: emerging research on the societal implications of the geospatial web,2009,article,237,True,include,6,rules,include
 W3003767648,C3,landmarks,C3_landmarks,27,"Digital geographies, feminist relationality, Black and queer code studies: Thriving otherwise",2020,article,227,True,include,5,rules,include
 W136679497,C3,landmarks,C3_landmarks,28,Mapping: A Critical Introduction to Cartography and GIS,2010,article,226,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -10341,11 +10341,11 @@ W1999978255,C3,landmarks,C3_landmarks,33,Efficient implementation of lattice ope
 W2135590790,C3,landmarks,C3_landmarks,34,Situating the geoweb in political economy,2011,article,195,True,include,6,rules,include
 W2047372053,C3,landmarks,C3_landmarks,35,New visualities and the digital wayfarer: Reconceptualizing camera phone photography and locative media,2013,article,193,True,include,4,rules,include
 W2079813853,C3,landmarks,C3_landmarks,36,Trading data space for reduced time and code space in real-time garbage collection on stock hardware,1984,conference-paper,176,True,exclude,0,core concept missing,exclude
-W2293651793,C3,landmarks,C3_landmarks,37,Urban informatics,2011,conference-paper,173,True,borderline,1,core concept mentioned once,pending
-W2770114489,C3,landmarks,C3_landmarks,38,Data cultures of mobile dating and hook-up apps: Emerging issues for critical social science research,2017,article,172,True,borderline,1,core concept mentioned once,pending
+W2293651793,C3,landmarks,C3_landmarks,37,Urban informatics,2011,conference-paper,173,True,borderline,1,core concept mentioned once | manual: urban informatics lab (C4),exclude
+W2770114489,C3,landmarks,C3_landmarks,38,Data cultures of mobile dating and hook-up apps: Emerging issues for critical social science research,2017,article,172,True,borderline,1,core concept mentioned once | manual: dating-app data cultures,exclude
 W3017092406,C3,landmarks,C3_landmarks,39,Code-Aligned Autoencoders for Unsupervised Change Detection in Multimodal Remote Sensing Images,2022,article,170,True,exclude,0,core concept missing,exclude
 W607782565,C3,landmarks,C3_landmarks,40,Smartphones as locative media,2015,book-review,167,True,exclude,0,type book-review,exclude
-W2098233302,C3,landmarks,C3_landmarks,41,Augmented Realities and Uneven Geographies: Exploring the Geolinguistic Contours of the Web,2013,article,161,True,borderline,1,core concept mentioned once,pending
+W2098233302,C3,landmarks,C3_landmarks,41,Augmented Realities and Uneven Geographies: Exploring the Geolinguistic Contours of the Web,2013,article,161,True,borderline,1,core concept mentioned once | manual: augmented realities and uneven geographies of the geoweb,include
 W2987231025,C3,landmarks,C3_landmarks,42,Robust Encoding of a Qubit in a Molecule,2020,article,156,True,exclude,0,core concept missing,exclude
 W196051986,C3,landmarks,C3_landmarks,43,Second person: role-playing and story in games and playable media,2007,book-review,154,True,exclude,0,type book-review,exclude
 W2142113413,C3,landmarks,C3_landmarks,44,"New Digital Geographies: Information, Communication, and Place",2004,book-chapter,149,False,include,3,no abstract; core (and context) in title,include
@@ -10365,15 +10365,15 @@ W2118547657,C3,landmarks,C3_landmarks,57,"Design, implementation and evaluation 
 W2119699877,C3,landmarks,C3_landmarks,58,Architectures of Affect: Anticipating and Manipulating the Event in Processes of Videogame Design and Testing,2010,article,126,True,exclude,0,core concept missing,exclude
 W1972018751,C3,landmarks,C3_landmarks,59,Quantum computation with Turaev–Viro codes,2010,article,125,False,exclude,0,core concept missing,exclude
 W2718343603,C3,landmarks,C3_landmarks,60,Sex in the digital city: location-based dating apps and queer urban life,2017,article,124,True,include,2,rules,include
-W4312179679,C3,landmarks,C3_landmarks,61,"Digital ecologies: Materialities, encounters, governance",2022,article,122,True,borderline,1,core concept mentioned once,pending
+W4312179679,C3,landmarks,C3_landmarks,61,"Digital ecologies: Materialities, encounters, governance",2022,article,122,True,borderline,1,core concept mentioned once | manual: digital ecologies (digital geographies),include
 W2529420967,C3,landmarks,C3_landmarks,62,"Holding together logistical worlds: Friction, seams and circulation in the emerging ‘global warehouse’",2016,article,114,True,exclude,0,core concept missing,exclude
 W630353923,C3,landmarks,C3_landmarks,63,The Routledge Companion to Mobile Media,2014,book,110,True,exclude,0,core concept missing,exclude
-W644579044,C3,landmarks,C3_landmarks,64,Geographic information systems & science,2011,book,110,True,borderline,1,core concept mentioned once,pending
+W644579044,C3,landmarks,C3_landmarks,64,Geographic information systems & science,2011,book,110,True,borderline,1,core concept mentioned once | manual: GIS textbook,exclude
 W2162434844,C3,landmarks,C3_landmarks,65,Data Embedding in JPEG Bitstream by Code Mapping,2009,article,110,True,exclude,0,core concept missing,exclude
 W1971014792,C3,landmarks,C3_landmarks,66,Selective specialization for object-oriented languages,1995,conference-paper,108,True,exclude,0,core concept missing,exclude
-W2989643998,C3,landmarks,C3_landmarks,67,The Routledge Companion to Smart Cities,2020,book,107,True,borderline,1,core concept mentioned once,pending
+W2989643998,C3,landmarks,C3_landmarks,67,The Routledge Companion to Smart Cities,2020,book,107,True,borderline,1,core concept mentioned once | manual: smart cities companion (C1),exclude
 W2089817597,C3,landmarks,C3_landmarks,68,Moments of closure in the knowledge politics of digital humanitarianism,2014,article,106,False,exclude,0,core concept missing,exclude
-W2062126424,C3,landmarks,C3_landmarks,69,Taking Online Maps Down to Street Level,2007,article,104,True,borderline,1,core concept mentioned once,pending
+W2062126424,C3,landmarks,C3_landmarks,69,Taking Online Maps Down to Street Level,2007,article,104,True,borderline,1,core concept mentioned once | manual: online street-level maps (technical),exclude
 W2117736940,C3,landmarks,C3_landmarks,70,Boundary coding in the rat subiculum,2013,article,102,True,exclude,0,core concept missing,exclude
 W3105646305,C3,landmarks,C3_landmarks,71,Compact fermion to qubit mappings,2021,article,100,True,exclude,0,core concept missing,exclude
 W2065167755,C3,landmarks,C3_landmarks,72,Virtual Interpretation of Earth Web-Interface Tool (VIEW-IT) for Collecting Land-Use/Land-Cover Reference Data,2011,article,100,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -10382,9 +10382,9 @@ W2142783231,C3,landmarks,C3_landmarks,74,Code space,2011,conference-paper,99,Tru
 W3040708241,C3,landmarks,C3_landmarks,75,Deep learning of thermodynamics-aware reduced-order models from data,2021,article,98,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W4246202470,C3,landmarks,C3_landmarks,76,Changing Digital Geographies,2019,book,95,False,include,3,no abstract; core (and context) in title,include
 W2945744913,C3,landmarks,C3_landmarks,77,Mobile Augmented Reality and Language‐Related Episodes,2019,article,95,True,include,2,rules,include
-W3138153056,C3,landmarks,C3_landmarks,78,Rewilding Language Education: Emergent Assemblages and Entangled Actions,2021,article,91,True,borderline,1,core concept mentioned once,pending
+W3138153056,C3,landmarks,C3_landmarks,78,Rewilding Language Education: Emergent Assemblages and Entangled Actions,2021,article,91,True,borderline,1,core concept mentioned once | manual: language education,exclude
 W2995984407,C3,landmarks,C3_landmarks,79,"Comparative analysis of IoT based products, technology and integration of IoT with cloud computing",2019,article,91,True,exclude,0,core concept missing,exclude
-W1965678969,C3,landmarks,C3_landmarks,80,"Geomedia: on location-based media, the changing status of collective image production and the emergence of social navigation systems",2011,article,91,True,borderline,1,core concept mentioned once,pending
+W1965678969,C3,landmarks,C3_landmarks,80,"Geomedia: on location-based media, the changing status of collective image production and the emergence of social navigation systems",2011,article,91,True,borderline,1,core concept mentioned once | manual: geomedia and locative media,include
 W3194689913,C3,landmarks,C3_landmarks,81,Framing Borders in Literature and Other Media,2006,book,91,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2959650448,C3,landmarks,C3_landmarks,82,Rural digital geographies and new landscapes of social resilience,2019,article,90,False,include,3,no abstract; core (and context) in title,include
 W2470933167,C3,landmarks,C3_landmarks,83,Doing Public Participation on the Geospatial Web,2016,article,89,True,include,6,rules,include
@@ -10393,7 +10393,7 @@ W1872067896,C3,landmarks,C3_landmarks,85,Emplaced Cartographies: Reconceptualisi
 W3014578089,C3,landmarks,C3_landmarks,86,Learning Content-Weighted Deep Image Compression,2020,article,86,True,exclude,0,core concept missing,exclude
 W2132615898,C3,landmarks,C3_landmarks,87,Achievable rates for the Gaussian quantum channel,2001,article,85,True,exclude,0,core concept missing,exclude
 W3000480515,C3,landmarks,C3_landmarks,88,Discriminative Local Sparse Representation by Robust Adaptive Dictionary Pair Learning,2020,article,84,True,exclude,0,core concept missing,exclude
-W2304209366,C3,landmarks,C3_landmarks,89,The Selfie Assemblage,2015,article,83,True,borderline,1,core concept mentioned once,pending
+W2304209366,C3,landmarks,C3_landmarks,89,The Selfie Assemblage,2015,article,83,True,borderline,1,core concept mentioned once | manual: selfie as locative media,include
 W3122847208,C3,landmarks,C3_landmarks,90,"Collect it all: national security, Big Data and governance",2014,article,82,False,exclude,0,core concept missing,exclude
 W2791401419,C3,landmarks,C3_landmarks,91,Digital territories: Google maps as a political technique in the re-making of urban informality,2018,article,81,True,include,2,rules,include
 W402283491,C3,landmarks,C3_landmarks,92,Theories of the Mobile Internet: Materialities and Imaginaries,2014,article,81,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
@@ -10402,7 +10402,7 @@ W2152784430,C3,landmarks,C3_landmarks,94,"Geographic Information Science: Visual
 W2118419739,C3,landmarks,C3_landmarks,95,Combined turbo coding and unitary space-time modulation,2002,article,81,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W116160373,C3,landmarks,C3_landmarks,96,LARGE-SCALE MODEL TESTS OF GEOCOMPOSITE MATTRESSES OVER PEAT SUBGRADES,1988,article,81,True,include,3,rules,include
 W2123102520,C3,landmarks,C3_landmarks,97,An orthogonal space-time coded CPM system with fast decoding for two transmit antennas,2004,article,80,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2890620150,C3,landmarks,C3_landmarks,98,Still getting it on online: Thirty years of queer male spaces brokered through digital technologies,2018,article,78,True,borderline,1,core concept mentioned once,pending
+W2890620150,C3,landmarks,C3_landmarks,98,Still getting it on online: Thirty years of queer male spaces brokered through digital technologies,2018,article,78,True,borderline,1,core concept mentioned once | manual: queer male spaces brokered through digital and locative media,include
 W2318524243,C3,landmarks,C3_landmarks,99,Mobility and locative media: Mobile communication in hybrid spaces,2016,book-review,78,False,exclude,0,type book-review,exclude
 W2914224456,C3,landmarks,C3_landmarks,100,AHCM: Adaptive Huffman Code Mapping for Audio Steganography Based on Psychoacoustic Model,2019,article,73,True,exclude,0,core concept missing,exclude
 W4321464723,C3,recent,C3_recent_q1,1,Digital geographies,2023,reference-entry,0,True,include,3,rules,include
@@ -10429,7 +10429,7 @@ W3203288988,C3,recent,C3_recent_q2,3,Spatial Data in Urban Informatics: Contenti
 W4415224659,C3,recent,C3_recent_q2,4,Ballet: Spatial Narrative and Encoded Movement Within a Coded Space,2025,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4410229404,C3,recent,C3_recent_q2,5,Machine Learning-Based Tail Sequence Detection in LDPC-Coded Space Transmissions,2025,conference-paper,2,True,include,3,rules,include
 W4317826934,C3,recent,C3_recent_q2,6,Code-Space Quality Evaluation for Information Visualization,2022,conference-paper,0,True,exclude,0,core concept missing,exclude
-W4285132863,C3,recent,C3_recent_q2,7,BER Performance of Pre-Coded Space-Time Conjugate Two-Path OFDM Systems,2022,article,1,True,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4285132863,C3,recent,C3_recent_q2,7,BER Performance of Pre-Coded Space-Time Conjugate Two-Path OFDM Systems,2022,article,1,True,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co | manual: OFDM wireless,exclude
 W4406158033,C3,recent,C3_recent_q2,8,Telecommand Rejection Probability in CCSDS-Compliant LDPC-Coded Space Transmissions With Tail Sequence,2025,article,4,True,include,3,rules,include
 W4404388941,C3,recent,C3_recent_q2,9,Scattered Forest Search: Smarter Code Space Exploration with LLMs,2024,preprint,0,True,exclude,0,core concept missing,exclude
 W7165914168,C3,recent,C3_recent_q2,10,RevengeBench: Reverse Engineering Code-Space Policies from Behavioral Experiments,2026,preprint,0,True,exclude,0,core concept missing,exclude
@@ -10452,7 +10452,7 @@ W4392730684,C3,recent,C3_recent_q3,8,Trans/Locatability: Performing Public Appea
 W4210334412,C3,recent,C3_recent_q3,9,"Locative media communities, social media and cultures of enthusiasm",2022,article,3,True,include,6,rules,include
 W4390102560,C3,recent,C3_recent_q3,10,Cartographic Communication on the Geoweb,2023,other,0,True,include,6,rules,include
 W4390102533,C3,recent,C3_recent_q3,11,Rethinking Cartography on the Geoweb,2023,other,1,True,include,6,rules,include
-W7165435430,C3,recent,C3_recent_q3,12,SISTEMA GEOWEB / DIEGO ALEJANDRO GUERRERO.,2026,article,0,True,borderline,4,stub abstract (possible book review),pending
+W7165435430,C3,recent,C3_recent_q3,12,SISTEMA GEOWEB / DIEGO ALEJANDRO GUERRERO.,2026,article,0,True,borderline,4,stub abstract (possible book review) | manual: geoweb system software record,exclude
 W7160244013,C3,recent,C3_recent_q3,13,FAIRsharing record for: GEOweb Data Portal,2026,dataset,0,True,exclude,0,type dataset,exclude
 W7118356716,C3,recent,C3_recent_q3,14,Locative media in children´s digital books: designing new narratives on space,2026,article,0,True,include,6,rules,include
 W4412227850,C3,recent,C3_recent_q3,15,Making Sense of Audiowalks: Methodological Considerations for the Study of Locative Media,2024,article,0,True,include,5,rules,include
@@ -10463,7 +10463,7 @@ W4377824328,C3,recent,C3_recent_q4,1,Reckoning with the digital turn in electora
 W4402826769,C3,recent,C3_recent_q4,2,"Developing a Reflexive Spatial Analysis Model for Video Games: Exploring Digital Spatial Construction and Reflexivity in Geography Education Through a Bilingual Case Study of ‘That Dragon, Cancer’",2024,book-chapter,0,False,exclude,0,core concept missing,exclude
 W4280548682,C3,recent,C3_recent_q4,3,Welcome to the Digital Village: Networking Geographies of Agrarian Change,2022,article,44,True,include,3,rules,include
 W4406592690,C3,recent,C3_recent_q4,4,Espace géographique et environnement numérique : implications de l'hybridation fidigitale dans la praxis de la Géographie Humaine.,2024,dissertation,0,True,include,3,rules,include
-W4392105910,C3,recent,C3_recent_q4,5,"Dark tourism geographies: ontological, epistemological and axiological perspectives",2024,article,18,True,borderline,1,core concept mentioned once,pending
+W4392105910,C3,recent,C3_recent_q4,5,"Dark tourism geographies: ontological, epistemological and axiological perspectives",2024,article,18,True,borderline,1,core concept mentioned once | manual: dark tourism geographies,exclude
 W4283016326,C3,recent,C3_recent_q4,6,From brick-and-mortar to location-less restaurant: The spatial fixing of on-demand food delivery platformization,2022,article,68,False,exclude,0,core concept missing,exclude
 W4312544940,C3,recent,C3_recent_q4,7,Surveying 3D Data as Basis of a HBIM for the Management of Cultural Heritage Objects,2022,article,1,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4405501336,C3,recent,C3_recent_q4,8,Mediated natures,2024,book-chapter,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
