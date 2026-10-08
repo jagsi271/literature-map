@@ -563,7 +563,7 @@ themes:
       - '"smart governance" AND (municipal OR city)'
     screen:
       # v3 (Stage 2)
-      require: ['e-?govern\w*|electronic government|digital government|digital public infrastructure|smart governance|online (public )?services|e-?services|digital service delivery|govtech|digital governance', 'city|cities|urban|municipal\w*|local governments?|local bod\w*']
+      require: ['digital public goods?|e-?govern\w*|electronic government|digital government|digital public infrastructure|smart governance|online (public )?services|e-?services|digital service delivery|govtech|digital governance', 'city|cities|urban|municipal\w*|local governments?|local bod\w*']
       flag: []
   C9:
     domain: C

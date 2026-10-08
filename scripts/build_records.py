@@ -342,6 +342,23 @@ def main(themes_wanted):
             c["_w"], c["_abs"], c["_full"] = w, abstract, full
             cands.append(c)
 
+    # hand exclusions whose note names the theme a work belongs to ("... (C1)") move the work to
+    # that theme instead of dropping it: in Stage 2 such works were otherwise lost whenever the
+    # named theme's own searches had not retrieved them
+    moved = []
+    for c in cands:
+        mr = manual.get((c["openalex_id"], c["theme"]))
+        if not mr or c["final"] != "exclude" or mr["decision"] != "exclude":
+            continue
+        m_ = re.search(r"\(([ABC]\d{1,2})\b", mr.get("note") or "")
+        if m_ and m_.group(1) in cfg["themes"] and m_.group(1) != c["theme"]:
+            c2 = dict(c, theme=m_.group(1), final="include", decision="borderline",
+                      reason=f"moved by hand from {c['theme']}: {mr['note']}",
+                      rule_reason=f"moved by hand from {c['theme']}",
+                      slice=c["slice"] + "<-" + c["theme"])
+            moved.append(c2)
+    cands_all = cands + moved
+
     OUT.mkdir(parents=True, exist_ok=True)
     cols = ["openalex_id", "theme", "slice", "manifest", "rank", "title", "year", "type",
             "cited_by", "has_abstract", "decision", "score", "reason", "final"]
@@ -383,7 +400,7 @@ def main(themes_wanted):
                          st["manual_exclude"], st["manual_pending"]])
 
     # ---- merge kept candidates by work, then deduplicate by DOI and normalised title
-    kept = [c for c in cands if c["final"] == "include"]
+    kept = [c for c in cands_all if c["final"] == "include"]
     by_work = defaultdict(list)
     for c in kept:
         by_work[c["openalex_id"]].append(c)
@@ -472,7 +489,7 @@ def main(themes_wanted):
             "Delhi/NCR flag": "Y" if delhi else "",
             "Haryana flag": "Y" if haryana else "",
             "Method": method(text) if abstract else "unclear",
-            "Landmark flag": "Y" if any(c["slice"] == "landmarks" for c in mainc)
+            "Landmark flag": "Y" if any(c["slice"].startswith("landmarks") for c in mainc)
                                     and not repo_only else "",
             "Emerging flag": "Y" if (w.get("publication_year") or 0) >= 2022
                                     and (w.get("fwci") or 0) >= 1.5 else "",
@@ -505,7 +522,8 @@ def main(themes_wanted):
           f"{sum(c['decision']=='include' for c in cands)} | borderline "
           f"{sum(c['decision']=='borderline' for c in cands)} | exclude "
           f"{sum(c['decision']=='exclude' for c in cands)} | pending manual {len(seen)}")
-    print(f"kept candidates {len(kept)} -> unique works {len(by_work)} -> records {len(records)}")
+    print(f"kept candidates {len(kept)} (incl. {len(moved)} moved to another theme by hand) -> "
+          f"unique works {len(by_work)} -> records {len(records)}")
 
 
 C4_CRITICAL = re.compile(r"\b(critic\w*|critique|politic\w*|power|governance|epistem\w*|social|"
