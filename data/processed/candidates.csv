@@ -7908,7 +7908,7 @@ W3135454597,C11,india,C11_india_q1,17,Impacts of Financial and Digital Inclusion
 W7220092151,C11,india,C11_india_q1,18,IMPACT OF DIGITALIZATION ON FINANCIAL RESILIENCE IN PAKISTAN AND INDIA: MICRO-LEVEL EVIDENCE FROM THE GLOBAL FINDEX DATABASE,2025,article,0,True,include,2,rules,include
 W7155071928,C11,india,C11_india_q2,1,UPI ( Unified Payments Interface ),2026,article,0,True,exclude,6,context terms missing,exclude
 W4399497305,C11,india,C11_india_q2,2,UNIFIED PAYMENTS INTERFACE (UPI) REVOLUTION: TRANSFORMING DIGITAL PAYMENTS IN INDIA,2023,book-chapter,0,True,exclude,6,context terms missing,exclude
-W4412042309,C11,india,C11_india_q2,3,The role of UPI (Unified Payments Interface) in Financial Interoperability in India,2025,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4412042309,C11,india,C11_india_q2,3,The role of UPI (Unified Payments Interface) in Financial Interoperability in India,2025,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: UPI interoperability (B6; no urban focus),exclude
 W7105695309,C11,india,C11_india_q2,4,Unified Payments Interface (UPI): Driving the Digital Payment Revolution in India,2025,standard,0,False,exclude,0,type standard,exclude
 W4412346619,C11,india,C11_india_q2,5,Unified Payments Interface (UPI): Fraud and Prevention Strategies,2025,conference-paper,5,True,exclude,6,context terms missing,exclude
 W4415114932,C11,india,C11_india_q2,6,The Impact of the Unified Payments Interface (UPI) on the Indian Economy,2025,article,0,True,include,6,rules,include
@@ -7960,7 +7960,7 @@ W4236501677,C11,india,C11_india_q4,15,"Demonetisation, digitalisation in India: 
 W2773002558,C11,india,C11_india_q4,16,Impact of Demonetization on Indian Healthcare System,2017,article,0,True,include,4,rules,include
 W4381835178,C11,india,C11_india_q4,17,Influence of demonetization on various sectors of the Indian economy,2023,article,4,True,include,6,rules,include
 W2701472306,C11,india,C11_india_q4,18,IMPACTS OF DEMONETIZATION ON INDIA – A STUDY,2017,article,0,True,include,4,rules,include
-W2064155941,C11,landmarks,C11_landmarks,1,Uncertain Transition: Ethnographies of Change in the Postsocialist World,2000,article,624,True,borderline,1,core concept mentioned once,pending
+W2064155941,C11,landmarks,C11_landmarks,1,Uncertain Transition: Ethnographies of Change in the Postsocialist World,2000,article,624,True,borderline,1,core concept mentioned once | manual: postsocialist ethnographies,exclude
 W3060315371,C11,landmarks,C11_landmarks,2,On the linkage between urban heat island and urban pollution island: Three-decade literature review towards a conceptual framework,2020,article,567,False,exclude,0,core concept missing,exclude
 W2154375899,C11,landmarks,C11_landmarks,3,Impact of Obesity and Smoking on Psoriasis Presentation and Management,2005,article,504,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W3000449764,C11,landmarks,C11_landmarks,4,The Global Findex Database 2017: Measuring Financial Inclusion and Opportunities to Expand Access to and Use of Financial Services*,2019,article,456,True,include,3,rules,include
@@ -7990,7 +7990,7 @@ W3157082035,C11,landmarks,C11_landmarks,27,Kurikulum Berbasis Teknologi Informas
 W2943644807,C11,landmarks,C11_landmarks,28,"What explains low adoption of digital payment technologies? Evidence from small-scale merchants in Jaipur, India",2019,article,128,True,include,6,rules,include
 W2001374136,C11,landmarks,C11_landmarks,29,Spatiotemporal heterogeneity of urban planning implementation effectiveness: Evidence from five urban master plans of Beijing,2012,article,127,False,exclude,0,core concept missing,exclude
 W2971583615,C11,landmarks,C11_landmarks,30,Internalisasi Nilai Moderasi Melalui Pendidikan Agama Islam di Perguruan Tinggi Umum,2019,article,126,True,include,3,rules,include
-W2807645154,C11,landmarks,C11_landmarks,31,Financial inclusion and socioeconomic development: gaps and solution,2018,article,119,True,borderline,1,core concept mentioned once,pending
+W2807645154,C11,landmarks,C11_landmarks,31,Financial inclusion and socioeconomic development: gaps and solution,2018,article,119,True,borderline,1,core concept mentioned once | manual: financial inclusion model (B6),exclude
 W1983603043,C11,landmarks,C11_landmarks,32,Particle clouds in homogeneous and stratified environments,2003,article,117,True,exclude,1,context terms missing,exclude
 W2066511025,C11,landmarks,C11_landmarks,33,A Fully Non-Contact Ultrasonic Propagation Imaging System for Closed Surface Crack Evaluation,2011,article,116,False,exclude,0,core concept missing,exclude
 W4220980777,C11,landmarks,C11_landmarks,34,Sapphire Rapids: The Next-Generation Intel Xeon Scalable Processor,2022,conference-paper,114,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
@@ -8001,19 +8001,19 @@ W4225143248,C11,landmarks,C11_landmarks,38,Mobile money and entrepreneurship in 
 W2094260460,C11,landmarks,C11_landmarks,39,Magnetic resonance imaging of the normal placenta,2006,article,103,False,exclude,0,core concept missing,exclude
 W1990705137,C11,landmarks,C11_landmarks,40,Reversible Activation Defect of the Platelet Glycoprotein IIb-IIIa Complex in Patients With Uremia,1993,article,102,False,exclude,0,core concept missing,exclude
 W2042655931,C11,landmarks,C11_landmarks,41,The Slavery Hypertension Hypothesis: Dissemination and Appeal of a Modern Race Theory,2003,article,99,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W4205639903,C11,landmarks,C11_landmarks,42,The Gender-Differential Effect of Financial Inclusion on Household Financial Resilience,2022,article,98,True,borderline,1,core concept mentioned once,pending
+W4205639903,C11,landmarks,C11_landmarks,42,The Gender-Differential Effect of Financial Inclusion on Household Financial Resilience,2022,article,98,True,borderline,1,core concept mentioned once | manual: gender and financial inclusion (B6),exclude
 W3206923410,C11,landmarks,C11_landmarks,43,Unified Payment Interface (UPI): A Digital Innovation and Its Impact on Financial Inclusion and Economic Development,2021,article,97,True,exclude,6,context terms missing,exclude
 W2082252833,C11,landmarks,C11_landmarks,44,Learning for Autonomous Navigation,2010,article,96,True,exclude,3,context terms missing,exclude
 W4403712981,C11,landmarks,C11_landmarks,45,Synergistic control of urban heat island and urban pollution island effects using green infrastructure,2024,article,93,True,include,3,rules,include
 W3039495098,C11,landmarks,C11_landmarks,46,Implementasi Metode Pendekatan Design Thinking dalam Pembuatan Aplikasi Happy Class Di Kampus UPI Cibiru,2020,article,92,True,exclude,6,context terms missing,exclude
 W2765595533,C11,landmarks,C11_landmarks,47,Unified Payment Interface—An Advancement in Payment Systems,2017,article,92,True,include,3,rules,include
 W2088490734,C11,landmarks,C11_landmarks,48,"Magma evolution in the Purico ignimbrite complex, northern Chile: evidence for zoning of a dacitic magma by injection of rhyolitic melts following mafic recharge",2001,article,92,False,exclude,0,core concept missing,exclude
-W2889097110,C11,landmarks,C11_landmarks,49,"Decoding Alipay: Mobile Payments, a Cashless Society and Regulatory Challenges",2018,article,90,True,borderline,5,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W2889097110,C11,landmarks,C11_landmarks,49,"Decoding Alipay: Mobile Payments, a Cashless Society and Regulatory Challenges",2018,article,90,True,borderline,5,flag: \b(sensor network|wireless|5g|6g|edge co | manual: Alipay regulation (B6),exclude
 W2115178115,C11,landmarks,C11_landmarks,50,On the generation mechanisms of short-scale unbalanced modes in rotating two-layer flows with vertical shear,2005,article,90,True,exclude,1,context terms missing,exclude
 W2906888929,C11,landmarks,C11_landmarks,51,Pay-As-You-Go financing: A model for viable and widespread deployment of solar home systems in rural India,2018,article,89,False,exclude,0,core concept missing,exclude
 W2089683183,C11,landmarks,C11_landmarks,52,"NECK LEAF 1, a GATA type transcription factor, modulates organogenesis by regulating the expression of multiple regulatory genes during reproductive development in rice",2009,article,89,False,exclude,0,core concept missing,exclude
 W2057748953,C11,landmarks,C11_landmarks,53,The pathophysiology of the insulin‐like growth factor axis in fetal growth failure: a basis for programming by undernutrition?,1994,article,88,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W3109986161,C11,landmarks,C11_landmarks,54,Perceived eWallet security: impact of COVID-19 pandemic,2020,article,83,True,borderline,1,core concept mentioned once,pending
+W3109986161,C11,landmarks,C11_landmarks,54,Perceived eWallet security: impact of COVID-19 pandemic,2020,article,83,True,borderline,1,core concept mentioned once | manual: eWallet security perceptions (B6),exclude
 W2733610643,C11,landmarks,C11_landmarks,55,Tourist Satisfaction Enhancement Using Mobile QR Code Payment: An Empirical Investigation,2017,article,82,True,exclude,5,context terms missing,exclude
 W3042555282,C11,landmarks,C11_landmarks,56,Can technology bridge the gap between rural development and financial inclusions?,2020,article,81,True,include,2,rules,include
 W1979298728,C11,landmarks,C11_landmarks,57,Estimating Latent Variable Interactions With Nonnormal Observed Data: A Comparison of Four Approaches,2012,article,80,True,exclude,2,context terms missing,exclude
@@ -8045,7 +8045,7 @@ W2061909273,C11,landmarks,C11_landmarks,82,Comparative evaluation of markers of 
 W2077434354,C11,landmarks,C11_landmarks,83,"Serum insulin-like growth factor-binding protein-3 (IGFBP-3) levels and IGFBP-3 protease activity in normal, abnormal, and multiple human pregnancy.",1995,article,63,True,exclude,3,context terms missing,exclude
 W4395666976,C11,landmarks,C11_landmarks,84,Mitigating urban heat and air pollution considering green and transportation infrastructure,2024,article,62,False,exclude,0,core concept missing,exclude
 W3135454597,C11,landmarks,C11_landmarks,85,Impacts of Financial and Digital Inclusion on Poverty in South Asia and Sub-Saharan Africa,2020,preprint,62,False,exclude,0,core concept missing,exclude
-W2884032069,C11,landmarks,C11_landmarks,86,Measuring Districts' Monthly Economic Activity from Outer Space,2018,report,62,True,borderline,1,core concept mentioned once,pending
+W2884032069,C11,landmarks,C11_landmarks,86,Measuring Districts' Monthly Economic Activity from Outer Space,2018,report,62,True,borderline,1,core concept mentioned once | manual: night-lights economic activity,exclude
 W2007300653,C11,landmarks,C11_landmarks,87,Soft tissue changes of the upper lip associated with maxillary advancement in obstructive sleep apnea patients,2001,article,62,False,exclude,0,core concept missing,exclude
 W3211722077,C11,landmarks,C11_landmarks,88,Assessment of air pollution at Greater Cairo in relation to the spatial variability of surface urban heat island,2021,article,61,False,exclude,0,core concept missing,exclude
 W1984523844,C11,landmarks,C11_landmarks,89,Normal Human Pregnancy Results in Maternal Immune Activation in the Periphery and at the Uteroplacental Interface,2014,article,61,True,exclude,2,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
@@ -8059,17 +8059,17 @@ W2034335404,C11,landmarks,C11_landmarks,96,A procedure to quantify the impact of
 W3033289572,C11,landmarks,C11_landmarks,97,Does mobile money promote financial inclusion in Eswatini?,2020,article,55,True,include,6,rules,include
 W3170434963,C11,landmarks,C11_landmarks,98,Effect of Financial Inclusion on Poverty and Vulnerability to Poverty: Evidence Using a Multi-Dimensional Measure of Financial Inclusion,2020,preprint,55,False,exclude,0,core concept missing,exclude
 W2123585085,C11,landmarks,C11_landmarks,99,Cysteinylation of maternal plasma albumin and its association with intrauterine growth restriction,2005,article,54,True,exclude,3,context terms missing,exclude
-W4212899332,C11,landmarks,C11_landmarks,100,The Adoption of QR Code Mobile Payment Technology During COVID-19: A Social Learning Perspective,2022,article,53,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4212899332,C11,landmarks,C11_landmarks,100,The Adoption of QR Code Mobile Payment Technology During COVID-19: A Social Learning Perspective,2022,article,53,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: QR payment adoption (psychology; B6),exclude
 W4205816835,C11,recent,C11_recent_q1,1,A model for Ugandan traders' use of mobile money services,2022,article,0,True,include,6,rules,include
 W4416933955,C11,recent,C11_recent_q1,2,Mobile Money and Financial Inclusion: Evidence From Petty Traders in Ghana's Informal Sector,2025,article,1,True,include,6,rules,include
-W4414923387,C11,recent,C11_recent_q1,3,The Paradox of Mobile Money Adoption among Ghana’s PETTY Traders: A Two-Stage PLS-SEM-ANN Approach,2025,article,4,True,borderline,5,flag: \b(deep learning|neural network|convolut,pending
+W4414923387,C11,recent,C11_recent_q1,3,The Paradox of Mobile Money Adoption among Ghana’s PETTY Traders: A Two-Stage PLS-SEM-ANN Approach,2025,article,4,True,borderline,5,"flag: \b(deep learning|neural network|convolut | manual: mobile-money adoption among Makola market traders, Accra",include
 W4404627512,C11,recent,C11_recent_q1,4,"The Effects of Mobile Money Systems on Business Performance among Informal Traders in Dar es Salaam, Tanzania",2024,article,0,True,include,6,rules,include
 W4310344689,C11,recent,C11_recent_q1,5,Does mobile money contribute to reducing multidimensional poverty?,2022,article,43,False,exclude,3,no abstract; no urban context (C theme),exclude
 W4366004209,C11,recent,C11_recent_q1,6,"""I Have to Use My Son's QR Code to Run the Business"": Unpacking Senior Street Vendors' Challenges in Mobile Money Collection in China",2023,article,29,True,include,5,rules,include
 W4226124520,C11,recent,C11_recent_q1,7,Mobile Money and Economic Activity: Evidence from Kenya,2022,article,26,True,include,6,rules,include
 W7167558203,C11,recent,C11_recent_q1,8,Media identities and risks: Mobile Money and the Dilemmas of Digital Exposure in Urban Cameroon.,2026,book-chapter,0,True,include,3,rules,include
-W7106166998,C11,recent,C11_recent_q1,9,"FACTORS AFFECTING ADOPTION OF TELEBIRR MOBILE MONEY SERVICE: THE CASE OF DEBREMARKOS CITY, AMHARA, ETHIOPIA",2025,article,0,True,borderline,4,stub abstract (possible book review),pending
-W7106154034,C11,recent,C11_recent_q1,10,"FACTORS AFFECTING ADOPTION OF TELEBIRR MOBILE MONEY SERVICE: THE CASE OF DEBREMARKOS CITY, AMHARA, ETHIOPIA",2025,article,0,True,borderline,4,stub abstract (possible book review),pending
+W7106166998,C11,recent,C11_recent_q1,9,"FACTORS AFFECTING ADOPTION OF TELEBIRR MOBILE MONEY SERVICE: THE CASE OF DEBREMARKOS CITY, AMHARA, ETHIOPIA",2025,article,0,True,borderline,4,stub abstract (possible book review) | manual: mobile-money adoption in Debre Markos city,include
+W7106154034,C11,recent,C11_recent_q1,10,"FACTORS AFFECTING ADOPTION OF TELEBIRR MOBILE MONEY SERVICE: THE CASE OF DEBREMARKOS CITY, AMHARA, ETHIOPIA",2025,article,0,True,borderline,4,stub abstract (possible book review) | manual: mobile-money adoption in Debre Markos city (duplicate deposit),include
 W4229334530,C11,recent,C11_recent_q1,11,Using mobile money data and call detail records to explore the risks of urban migration in Tanzania,2022,article,3,True,include,5,rules,include
 W4386692706,C11,recent,C11_recent_q1,12,Mobile Money Services and the Income-Earning of Women Second-hand Cloth Entrepreneurs in Dodoma City,2023,article,3,True,include,6,rules,include
 W4413340618,C11,recent,C11_recent_q1,13,Mobile Money Usage Pattern Analysis in Ghana,2025,article,0,True,include,6,rules,include
@@ -8083,12 +8083,12 @@ W4412346619,C11,recent,C11_recent_q2,2,Unified Payments Interface (UPI): Fraud a
 W4410866341,C11,recent,C11_recent_q2,3,A Study on Unified Payments Interface (UPI) Applications,2025,article,1,True,exclude,6,context terms missing,exclude
 W7131648425,C11,recent,C11_recent_q2,4,"Unified Payments Interface (UPI): inception, evolution, and future",2026,book-chapter,0,False,exclude,3,no abstract; no urban context (C theme),exclude
 W4399497305,C11,recent,C11_recent_q2,5,UNIFIED PAYMENTS INTERFACE (UPI) REVOLUTION: TRANSFORMING DIGITAL PAYMENTS IN INDIA,2023,book-chapter,0,True,exclude,6,context terms missing,exclude
-W4412042309,C11,recent,C11_recent_q2,6,The role of UPI (Unified Payments Interface) in Financial Interoperability in India,2025,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4412042309,C11,recent,C11_recent_q2,6,The role of UPI (Unified Payments Interface) in Financial Interoperability in India,2025,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: UPI interoperability (B6; no urban focus),exclude
 W4400099954,C11,recent,C11_recent_q2,7,Unified Payments Interface,2024,article,3,True,include,6,rules,include
 W4324098407,C11,recent,C11_recent_q2,8,Unified Payments Interface,2023,book-chapter,2,True,include,6,rules,include
 W4323927481,C11,recent,C11_recent_q2,9,"An Overview of India's Unified Payments Interface (UPI): Benefits, Challenges, and Opportunities",2023,article,13,True,exclude,6,context terms missing,exclude
 W4414372482,C11,recent,C11_recent_q2,10,ASSESSMENT OF FACTORS INFLUENCING VENDORS’ ADOPTION OF UNIFIED PAYMENTS INTERFACE (UPI),2025,article,0,True,include,6,rules,include
-W7167804875,C11,recent,C11_recent_q2,11,Secure UPI for Web3: Integration of Solana with Unified Payments Interface,2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7167804875,C11,recent,C11_recent_q2,11,Secure UPI for Web3: Integration of Solana with Unified Payments Interface,2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: UPI blockchain integration,exclude
 W7105695309,C11,recent,C11_recent_q2,12,Unified Payments Interface (UPI): Driving the Digital Payment Revolution in India,2025,standard,0,False,exclude,0,type standard,exclude
 W7164168688,C11,recent,C11_recent_q2,13,Impact of Unified Payments Interface (UPI) on Consumer Payment Behaviour in India,2026,article,0,False,exclude,3,no abstract; no urban context (C theme),exclude
 W7164334261,C11,recent,C11_recent_q2,14,Impact of Unified Payments Interface (UPI) on Consumer Payment Behaviour in India,2026,article,0,True,include,6,rules,include
@@ -8113,7 +8113,7 @@ W7133340221,C11,recent,C11_recent_q3,14,Digital transformation at the grassroots
 W7116913537,C11,recent,C11_recent_q3,15,Challenges in Embracing Digital Payments: Insights From Street Vendors Across Different Tourists’ Destinations of Odisha,2025,book-chapter,0,True,include,6,rules,include
 W4379469883,C11,recent,C11_recent_q3,16,"Relationship Between Digital Payments Platforms, Merchants and Banks in India Using Social Network Analysis",2023,article,1,True,include,6,rules,include
 W7162750390,C11,recent,C11_recent_q3,17,Digital Payments as a Driving Force of Business Transformation: A Study on Street Vendors in Vijayawada,2026,conference-abstract,1,True,include,6,rules,include
-W4382631053,C11,recent,C11_recent_q3,18,Demonstration of quantum-digital payments,2023,article,41,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4382631053,C11,recent,C11_recent_q3,18,Demonstration of quantum-digital payments,2023,article,41,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: quantum payments,exclude
 W4312647181,C11,recent,C11_recent_q4,1,Building agency: women vendors and gendered technology in informal markets in Assam,2022,article,4,True,include,3,rules,include
 W7163136624,C11,recent,C11_recent_q4,2,"A Study on Adoption of Digital Payments in Informal Sectors: Post-Demonetization in District Bilaspur, Himachal Pradesh",2026,article,0,True,include,6,rules,include
 W7163157348,C11,recent,C11_recent_q4,3,"A Study on Adoption of Digital Payments in Informal Sectors: Post-Demonetization in District Bilaspur, Himachal Pradesh",2026,article,0,True,include,6,rules,include

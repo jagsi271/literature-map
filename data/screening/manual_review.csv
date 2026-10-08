@@ -1327,3 +1327,16 @@ W7160870249,C10,exclude,"Claude (manual review, Stage 2)",property recommendatio
 W7160838226,C10,exclude,"Claude (manual review, Stage 2)",property recommendation system (duplicate)
 W7160866332,C10,exclude,"Claude (manual review, Stage 2)",property recommendation system (duplicate)
 W7154194961,C10,include,"Claude (manual review, Stage 2)",short-term rental platforms in Corsica
+W4412042309,C11,exclude,"Claude (manual review, Stage 2)",UPI interoperability (B6; no urban focus)
+W2064155941,C11,exclude,"Claude (manual review, Stage 2)",postsocialist ethnographies
+W2807645154,C11,exclude,"Claude (manual review, Stage 2)",financial inclusion model (B6)
+W4205639903,C11,exclude,"Claude (manual review, Stage 2)",gender and financial inclusion (B6)
+W2889097110,C11,exclude,"Claude (manual review, Stage 2)",Alipay regulation (B6)
+W3109986161,C11,exclude,"Claude (manual review, Stage 2)",eWallet security perceptions (B6)
+W2884032069,C11,exclude,"Claude (manual review, Stage 2)",night-lights economic activity
+W4212899332,C11,exclude,"Claude (manual review, Stage 2)",QR payment adoption (psychology; B6)
+W4414923387,C11,include,"Claude (manual review, Stage 2)","mobile-money adoption among Makola market traders, Accra"
+W7106166998,C11,include,"Claude (manual review, Stage 2)",mobile-money adoption in Debre Markos city
+W7106154034,C11,include,"Claude (manual review, Stage 2)",mobile-money adoption in Debre Markos city (duplicate deposit)
+W7167804875,C11,exclude,"Claude (manual review, Stage 2)",UPI blockchain integration
+W4382631053,C11,exclude,"Claude (manual review, Stage 2)",quantum payments
