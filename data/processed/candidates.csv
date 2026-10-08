@@ -272,9 +272,9 @@ W4405107072,A11,india,A11_india_q2,2,"Assessing Housing Preferences and Living C
 W1519052168,A11,india,A11_india_q2,3,"Rural migrant workers in the construction industry, New Delhi, India",2013,reference-entry,1,True,include,6,rules,include
 W4386755670,A11,india,A11_india_q2,4,Living Condition of Migrant Workers in the Hospitality Sector of Bengaluru City,2023,article,0,True,include,6,rules,include
 W2794331992,A11,india,A11_india_q2,5,A cross sectional study on health seeking behavior of migrant workers: Bangalore city,2018,article,4,True,include,6,rules,include
-W2236242316,A11,india,A11_india_q2,6,"High Prevalence of Tobacco Use and Associated Oral Mucosal Lesion Among Interstate Male Migrant Workers in Urban Kerala, India",2015,article,28,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2236242316,A11,india,A11_india_q2,6,"High Prevalence of Tobacco Use and Associated Oral Mucosal Lesion Among Interstate Male Migrant Workers in Urban Kerala, India",2015,article,28,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: oral lesions survey,exclude
 W7220769992,A11,india,A11_india_q2,7,Urban Survival and Health Inequality: Understanding precariat among Migrant Workers in Lahore,2025,article,0,True,include,6,rules,include
-W7170036757,A11,india,A11_india_q2,8,Oral health inequities among preschool children of migrant workers in Bangalore city,2026,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7170036757,A11,india,A11_india_q2,8,Oral health inequities among preschool children of migrant workers in Bangalore city,2026,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: dental caries survey,exclude
 W4224127297,A11,india,A11_india_q2,9,"An Economy of Lies: Informal Income, Phone-Banking and Female Migrant Workers in Kolkata, India",2022,article,6,True,include,6,rules,include
 W2554880654,A11,india,A11_india_q2,10,LIFE IN THE INDIAN CITY: A CASE STUDY ON FEMALE MIGRANT WORKERS IN UPSCALE RETAIL SECTORS IN DELHI,2015,article,0,True,include,4,rules,include
 W4319761760,A11,india,A11_india_q2,11,"A STUDY OF COVID-19 IMPACT ON MIGRANT WORKERS OF PIPLAJ AND KATHWADA INDUSTRIAL AREA - (AHMEDABAD CITY, GUJARAT, INDIA)",2022,article,0,True,include,6,rules,include
@@ -284,7 +284,7 @@ W7208705183,A11,india,A11_india_q2,14,"A Study on Inter-State Migrant Workers in
 W1946284464,A11,india,A11_india_q2,15,"Seasonal Migration and Circular Turmoil: A Geographic Narrative of Brick Factory Migrant Workers in the Kathmandu Valley, Nepal",2015,article,0,True,include,6,rules,include
 W2782724209,A11,india,A11_india_q2,16,A STUDY OF SOCIO ECONOMIC STATUS OF INTER–STATE MIGRANT WORKERS IN CHENNAI CITY,2017,article,0,False,include,3,no abstract; core (and context) in title,include
 W2908797146,A11,india,A11_india_q2,17,The Influence of ‘Smart City’ on the Wage Labor of Internal Migrant Workers in India - A Case on the Autorickshaw-walla of Gurgaon -,2018,article,0,True,include,3,rules,include
-W4313439733,A11,india,A11_india_q2,18,Morbidity profile of migrant workers attending health camps in Bangalore urban during the Covid-19 pandemic,2023,article,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4313439733,A11,india,A11_india_q2,18,Morbidity profile of migrant workers attending health camps in Bangalore urban during the Covid-19 pandemic,2023,article,2,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: morbidity profile,exclude
 W7212857194,A11,india,A11_india_q3,1,"Circular labour migration and urban service pressure in India: A comparative analysis of Delhi, Mumbai and Bengaluru",2026,article,0,True,include,6,rules,include
 W4410391812,A11,india,A11_india_q3,2,"Demographic and Economic Transformations in South Asia: A Comparative Analysis of India, Pakistan, and Bangladesh",2025,preprint,0,True,include,3,rules,include
 W1946284464,A11,india,A11_india_q3,3,"Seasonal Migration and Circular Turmoil: A Geographic Narrative of Brick Factory Migrant Workers in the Kathmandu Valley, Nepal",2015,article,0,True,include,6,rules,include
@@ -299,8 +299,8 @@ W3092908179,A11,india,A11_india_q3,11,Seasonal Migration and Unfree Labour in Gl
 W2898462808,A11,india,A11_india_q3,12,Opportunistic Migration: A Collateral Promise For Development In Seasonal Migration Of Southwest Coastal Bangladesh,2018,preprint,2,True,include,6,rules,include
 W3211645137,A11,india,A11_india_q3,13,Opportunistic Migration: A Collateral Promise for Development in Seasonal Migration of Southwest Coastal Bangladesh,2018,preprint,1,False,include,3,no abstract; core in title; context terms missing,include
 W3102262575,A11,india,A11_india_q3,14,Circular Migration and Precarity: Perspectives from Rural Bihar,2020,article,55,False,include,3,no abstract; core in title; context terms missing,include
-W7204459152,A11,india,A11_india_q3,15,"Circular migration, food insecurity and undernutrition among under 5 migrant children at urban construction sites in western India: A mediation analysis",2026,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W3010790549,A11,india,A11_india_q3,16,Seasonal Poverty and Seasonal Migration in Asia,2020,article,21,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7204459152,A11,india,A11_india_q3,15,"Circular migration, food insecurity and undernutrition among under 5 migrant children at urban construction sites in western India: A mediation analysis",2026,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: child undernutrition study,exclude
+W3010790549,A11,india,A11_india_q3,16,Seasonal Poverty and Seasonal Migration in Asia,2020,article,21,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: seasonal rural-urban migration and poverty (flag false positive),include
 W4402222725,A11,india,A11_india_q3,17,Intensity of Seasonal Migration and Its Impact on Household Consumption: Analysis of East Indian Villages,2024,article,0,True,include,6,rules,include
 W7171739427,A11,india,A11_india_q3,18,"Labour Problems in Indian MSME Manufacturing Labour Problems in Indian MSME Manufacturing: Gig Economy, Seasonal Migration, and the Cost of Living Crisis",2026,preprint,0,False,include,3,no abstract; core in title; context terms missing,include
 W2984042117,A11,india,A11_india_q4,1,"Self-reliance as a Concept and a Spatial Practice for Urban Refugees: Reflections from Delhi, India",2019,article,30,True,include,6,rules,include
@@ -320,16 +320,16 @@ W4307439218,A11,india,A11_india_q4,14,Resilience of refugees displaced in the de
 W2981432036,A11,india,A11_india_q4,15,Stratified membership: health care access for urban refugees in Turkey,2019,article,11,True,include,6,rules,include
 W4402949952,A11,india,A11_india_q4,16,PARTITION OF INDIA 1947: CHALLENGES AND SOLUTIONS OF REFUGEES IN DELHI AND PUNJAB,2024,article,0,True,include,6,rules,include
 W4412814645,A11,india,A11_india_q4,17,"EXAMINING HOUSING EXPERIENCES OF URBAN REFUGEES IN KLANG VALLEY, MALAYSIA",2025,article,1,True,include,6,rules,include
-W2920803782,A11,india,A11_india_q4,18,Causes for Slum Eviction – With special reference to Chennai Slums,2018,article,0,True,borderline,1,core concept mentioned once,pending
+W2920803782,A11,india,A11_india_q4,18,Causes for Slum Eviction – With special reference to Chennai Slums,2018,article,0,True,borderline,1,core concept mentioned once | manual: slum eviction (A4); urban refugees as metaphor,exclude
 W4235431033,A11,landmarks,A11_landmarks,1,World Development Report 1992,1992,book,937,True,exclude,1,"flag, core not in title: \b(cell migration|ion migration|metastas",exclude
-W1537901284,A11,landmarks,A11_landmarks,2,Made in China: Women Factory Workers in a Global Workplace,2005,article,914,True,borderline,1,core concept mentioned once,pending
+W1537901284,A11,landmarks,A11_landmarks,2,Made in China: Women Factory Workers in a Global Workplace,2005,article,914,True,borderline,1,core concept mentioned once | manual: migrant women factory workers in China,include
 W4236301267,A11,landmarks,A11_landmarks,3,Informality,2007,book,849,True,include,3,rules,include
 W1865206509,A11,landmarks,A11_landmarks,4,The Dual Imperative in Refugee Research: Some Methodological and Ethical Considerations in Social Science Research on Forced Migration,2003,article,602,True,include,6,rules,include
 W2018094088,A11,landmarks,A11_landmarks,5,The Household Registration System and Migrant Labor in China: Notes on a Debate,2010,article,525,True,include,6,rules,include
 W1625772672,A11,landmarks,A11_landmarks,6,Rural migrant workers in urban China: living a marginalised life,2006,article,520,True,include,6,rules,include
 W2046206407,A11,landmarks,A11_landmarks,7,"The Elite, the Natives, and the Outsiders: Migration and Labor Market Segmentation in Urban China",2002,article,449,True,include,6,rules,include
 W2160999442,A11,landmarks,A11_landmarks,8,The Social Epidemiology of Human Immunodeficiency Virus/Acquired Immunodeficiency Syndrome,2004,article,393,True,exclude,0,core concept missing,exclude
-W2601271009,A11,landmarks,A11_landmarks,9,Urban growth and decline: Europe’s shrinking cities in a comparative perspective 1990–2010,2017,article,376,True,borderline,1,core concept mentioned once,pending
+W2601271009,A11,landmarks,A11_landmarks,9,Urban growth and decline: Europe’s shrinking cities in a comparative perspective 1990–2010,2017,article,376,True,borderline,1,core concept mentioned once | manual: shrinking cities,exclude
 W2158879586,A11,landmarks,A11_landmarks,10,"Mental Disorders in Megacities: Findings from the São Paulo Megacity Mental Health Survey, Brazil",2012,article,374,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2050482884,A11,landmarks,A11_landmarks,11,Internal migration and health in China,2008,article,371,False,include,3,no abstract; core in title; context terms missing,include
 W1598456579,A11,landmarks,A11_landmarks,12,City of Strangers : Gulf Migration and the Indian Community in Bahrain,2010,book,351,True,include,6,rules,include
@@ -355,12 +355,12 @@ W2029496443,A11,landmarks,A11_landmarks,31,"Circular migration, or permanent sta
 W4283831628,A11,landmarks,A11_landmarks,32,Migration and Migrant Labour in the Gig Economy: An Intervention,2022,article,237,True,include,6,rules,include
 W2135868906,A11,landmarks,A11_landmarks,33,Urban Villages in China: A 2008 Survey of Migrant Settlements in Beijing,2009,article,237,True,include,6,rules,include
 W2153042387,A11,landmarks,A11_landmarks,34,University students and city centres – the formation of exclusive geographies,1999,article,235,False,exclude,0,core concept missing,exclude
-W4206522660,A11,landmarks,A11_landmarks,35,COVID-19 Crisis Through a Migration Lens,2020,book,233,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4206522660,A11,landmarks,A11_landmarks,35,COVID-19 Crisis Through a Migration Lens,2020,book,233,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: COVID and international migration (not urban),exclude
 W2055599153,A11,landmarks,A11_landmarks,36,Reaching Migrants in Survey Research: The Use of the Global Positioning System to Reduce Coverage Bias in China,2004,article,231,True,include,5,rules,include
 W1575750805,A11,landmarks,A11_landmarks,37,Interlinkages between internal and international migration and development in the Asian region,2005,article,230,True,include,6,rules,include
 W2049435044,A11,landmarks,A11_landmarks,38,The slowing of sub-Saharan Africa's urbanization: evidence and implications for urban livelihoods,2009,article,224,True,include,2,rules,include
 W1997413838,A11,landmarks,A11_landmarks,39,From Coping Strategies to Tactics: London's Low‐Pay Economy and Migrant Labour,2007,article,222,True,include,6,rules,include
-W4252405957,A11,landmarks,A11_landmarks,40,"Urban China: Toward Efficient, Inclusive, and Sustainable Urbanization",2014,book,218,True,borderline,1,core concept mentioned once,pending
+W4252405957,A11,landmarks,A11_landmarks,40,"Urban China: Toward Efficient, Inclusive, and Sustainable Urbanization",2014,book,218,True,borderline,1,core concept mentioned once | manual: China urbanisation report,exclude
 W2120320088,A11,landmarks,A11_landmarks,41,China’s 2008 Labor Contract Law: Implementation and implications for China’s workers,2014,article,216,True,include,2,rules,include
 W2125471220,A11,landmarks,A11_landmarks,42,From Organized Dependence to Disorganized Despotism: Changing Labour Regimes in Chinese Factories,1999,article,215,True,include,3,rules,include
 W2163346871,A11,landmarks,A11_landmarks,43,"Urban Refugees in Nairobi: Problems of Protection, Mechanisms of Survival, and Possibilities for Integration",2006,article,208,True,include,6,rules,include
@@ -368,7 +368,7 @@ W1524211451,A11,landmarks,A11_landmarks,44,Chapter 13 Internal migration in deve
 W1967199934,A11,landmarks,A11_landmarks,45,"Keeping London working: global cities, the British state and London's new migrant division of labour",2007,article,203,True,include,6,rules,include
 W2790886567,A11,landmarks,A11_landmarks,46,The morphology of the Arrival City - A global categorization based on literature surveys and remotely sensed data,2018,article,202,True,include,6,rules,include
 W2132521060,A11,landmarks,A11_landmarks,47,Clean fake: Authenticating documents and persons in migrant Moscow,2013,article,200,True,include,5,rules,include
-W1826423938,A11,landmarks,A11_landmarks,48,Health Status and Access to Health Care of Migrant Workers in China,2008,article,200,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W1826423938,A11,landmarks,A11_landmarks,48,Health Status and Access to Health Care of Migrant Workers in China,2008,article,200,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: health-care access survey,exclude
 W2063588581,A11,landmarks,A11_landmarks,49,Refugees and Asylum Seekers in Urban Areas: A Livelihoods Perspective,2006,article,197,True,include,6,rules,include
 W2064590206,A11,landmarks,A11_landmarks,50,"Factors associated with health-seeking behavior among migrant workers in Beijing, China",2010,article,193,True,include,6,rules,include
 W2050190693,A11,landmarks,A11_landmarks,51,China's “Tidal Wave” of Migrant Labor: What Can we Learn from Mexican Undocumented Migration to the United States?,1997,article,187,True,include,6,rules,include
@@ -378,7 +378,7 @@ W4234488171,A11,landmarks,A11_landmarks,54,Cities and Stability,2014,book,182,Tr
 W2103330162,A11,landmarks,A11_landmarks,55,Depression and associated factors in internal migrant workers in China,2011,article,182,False,include,3,no abstract; core in title; context terms missing,include
 W805500976,A11,landmarks,A11_landmarks,56,The Economics of Immigration,2015,book,179,True,include,6,rules,include
 W1535613758,A11,landmarks,A11_landmarks,57,China: internal migration,2013,reference-entry,179,True,include,6,rules,include
-W2470194203,A11,landmarks,A11_landmarks,58,Migration and Global Environmental Change: Future Challenges and Opportunities,2011,book,179,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2470194203,A11,landmarks,A11_landmarks,58,Migration and Global Environmental Change: Future Challenges and Opportunities,2011,book,179,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: environmental change and migration (not urban),exclude
 W1993377802,A11,landmarks,A11_landmarks,59,The mental health status of Chinese rural–urban migrant workers,2007,article,179,False,include,3,no abstract; core (and context) in title,include
 W2109598283,A11,landmarks,A11_landmarks,60,Sharing Rising Incomes: Disparities in China,1997,book,179,True,include,2,rules,include
 W2136247194,A11,landmarks,A11_landmarks,61,Dwindling U.S. internal migration: Evidence of spatial equilibrium or structural shifts in local labor markets?,2011,article,178,False,include,3,no abstract; core in title; context terms missing,include
@@ -389,7 +389,7 @@ W2171176967,A11,landmarks,A11_landmarks,65,"Migration, settlement change and hea
 W2137165658,A11,landmarks,A11_landmarks,66,Marginalization in Urban Spaces of the Global South: Urban Refugees in Cairo,2006,article,168,True,include,6,rules,include
 W2789393606,A11,landmarks,A11_landmarks,67,Editorial introduction: Putting rural stayers in the spotlight,2018,editorial,167,True,exclude,0,type editorial,exclude
 W2038502613,A11,landmarks,A11_landmarks,68,Housing Migrant Workers in Rapidly Urbanizing Regions: A Study of the Chinese Model in Shenzhen,2009,article,167,True,include,6,rules,include
-W2164132840,A11,landmarks,A11_landmarks,69,Noncommunicable diseases among urban refugees and asylum-seekers in developing countries: a neglected health care need,2014,article,165,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2164132840,A11,landmarks,A11_landmarks,69,Noncommunicable diseases among urban refugees and asylum-seekers in developing countries: a neglected health care need,2014,article,165,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: noncommunicable disease among urban refugees (health review),exclude
 W640929507,A11,landmarks,A11_landmarks,70,China's toxic informal e-waste recycling: local approaches to a global environmental problem,2015,article,160,False,exclude,0,core concept missing,exclude
 W2142014861,A11,landmarks,A11_landmarks,71,"The Village in the City, the City in the Village: Migrants in Lilongwe",2002,article,160,True,include,6,rules,include
 W2147487929,A11,landmarks,A11_landmarks,72,Building China: precarious employment among migrant construction workers,2014,article,157,True,include,6,rules,include
@@ -404,22 +404,22 @@ W2027094367,A11,landmarks,A11_landmarks,80,MIGRANT WORKERS AND THE MANY STATES O
 W2051625177,A11,landmarks,A11_landmarks,81,Migrant Intra-urban Residential Mobility in Urban China,2006,article,144,True,include,6,rules,include
 W1511669331,A11,landmarks,A11_landmarks,82,Globalization and Language Learning in Rural Japan: The Role of English in the Local Linguistic Ecology,2009,article,143,True,include,2,rules,include
 W2142920952,A11,landmarks,A11_landmarks,83,Screening for Iron Deficiency,2002,article,142,True,exclude,0,core concept missing,exclude
-W2800559610,A11,landmarks,A11_landmarks,84,"Internal migration and transmission dynamics of tuberculosis in Shanghai, China: an epidemiological, spatial, genomic analysis",2018,article,141,False,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2800559610,A11,landmarks,A11_landmarks,84,"Internal migration and transmission dynamics of tuberculosis in Shanghai, China: an epidemiological, spatial, genomic analysis",2018,article,141,False,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: tuberculosis genomics,exclude
 W4302768399,A11,landmarks,A11_landmarks,85,"Rural Women in Urban China: Gender, Migration, and Social Change",2014,book,140,True,include,6,rules,include
 W2000749020,A11,landmarks,A11_landmarks,86,Internal migration and left-behind populations in China,2013,article,140,True,include,6,rules,include
 W412745768,A11,landmarks,A11_landmarks,87,Circular Migration in Zimbabwe and Contemporary Sub-Saharan Africa,2010,book,140,True,include,6,rules,include
 W2090431183,A11,landmarks,A11_landmarks,88,Migrant worker acculturation in China,2011,article,139,False,include,3,no abstract; core in title; context terms missing,include
-W4309775510,A11,landmarks,A11_landmarks,89,Rural revival? The rise in internal migration to rural areas during the COVID-19 pandemic. Who moved and Where?,2022,article,137,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4309775510,A11,landmarks,A11_landmarks,89,Rural revival? The rise in internal migration to rural areas during the COVID-19 pandemic. Who moved and Where?,2022,article,137,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: counterurbanisation to rural areas,exclude
 W2161047098,A11,landmarks,A11_landmarks,90,Spatial patterns of internal migration: evidence for ethnic groups in Britain,2008,article,137,True,include,6,rules,include
 W3185157788,A11,landmarks,A11_landmarks,91,Changing livelihoods at India’s rural–urban transition,2021,article,136,True,include,3,rules,include
 W2087455945,A11,landmarks,A11_landmarks,92,Embodied experiences of environmental and climatic changes in landscapes of everyday life in Ghana,2011,article,136,False,exclude,0,core concept missing,exclude
-W2020682874,A11,landmarks,A11_landmarks,93,Polycentric Urban Development: The Case of Hangzhou,2010,article,136,True,borderline,1,core concept mentioned once,pending
-W2032614023,A11,landmarks,A11_landmarks,94,Transition from Birth to Ten to Birth to Twenty: the South African cohort reaches 13 years of age,2004,article,136,True,borderline,1,core concept mentioned once,pending
+W2020682874,A11,landmarks,A11_landmarks,93,Polycentric Urban Development: The Case of Hangzhou,2010,article,136,True,borderline,1,core concept mentioned once | manual: polycentric development,exclude
+W2032614023,A11,landmarks,A11_landmarks,94,Transition from Birth to Ten to Birth to Twenty: the South African cohort reaches 13 years of age,2004,article,136,True,borderline,1,core concept mentioned once | manual: birth cohort,exclude
 W2039906233,A11,landmarks,A11_landmarks,95,The new rural-urban labor mobility in China: Causes and implications,2000,article,136,False,exclude,0,core concept missing,exclude
 W2014315396,A11,landmarks,A11_landmarks,96,Citizenship Issues in China’s Internal Migration: Comparisons with Germany and Japan,1999,article,136,True,include,4,rules,include
 W1974108761,A11,landmarks,A11_landmarks,97,"Invisible migrant enclaves in Chinese cities: Underground living in Beijing, China",2014,article,134,True,include,6,rules,include
 W1977821547,A11,landmarks,A11_landmarks,98,"Space, scale and accents: Constructing migrant identity in Beijing",2009,article,134,True,include,6,rules,include
-W2031961827,A11,landmarks,A11_landmarks,99,"Work stress, life stress, and smoking among rural–urban migrant workers in China",2012,article,133,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2031961827,A11,landmarks,A11_landmarks,99,"Work stress, life stress, and smoking among rural–urban migrant workers in China",2012,article,133,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: smoking and stress survey,exclude
 W2792127450,A11,landmarks,A11_landmarks,100,Experimentalist Governance with Interactive Central–Local Relations: Making New Pension Policies in China,2018,article,132,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4283523116,A11,recent,A11_recent_q1,1,Rural-Urban Migration,2022,reference-entry,1,True,include,6,rules,include
 W7128034621,A11,recent,A11_recent_q1,2,Rural-Urban Migration and Development,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
@@ -460,7 +460,7 @@ W4365503231,A11,recent,A11_recent_q2,18,SPACE FOR MIGRANT WORKERS,2023,article,0
 W4409684043,A11,recent,A11_recent_q3,1,Circular Migration,2025,book-chapter,0,True,include,6,rules,include
 W4381112720,A11,recent,A11_recent_q3,2,Smart age-friendly city in the context of seasonal migration of senior residents. The case of Benidorm,2023,article,2,True,include,6,rules,include
 W7164829050,A11,recent,A11_recent_q3,3,A Geographical Analysis of Seasonal Migration Among Tribal Communities in Maharashtra,2026,book-chapter,0,True,include,6,rules,include
-W7204459152,A11,recent,A11_recent_q3,4,"Circular migration, food insecurity and undernutrition among under 5 migrant children at urban construction sites in western India: A mediation analysis",2026,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7204459152,A11,recent,A11_recent_q3,4,"Circular migration, food insecurity and undernutrition among under 5 migrant children at urban construction sites in western India: A mediation analysis",2026,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: child undernutrition study,exclude
 W4283023899,A11,recent,A11_recent_q3,5,Seasonal migration and household food security status in the drought-prone areas of Northeast Ethiopia,2022,article,24,True,include,6,rules,include
 W7124689541,A11,recent,A11_recent_q3,6,Returning to My Roots: Hometown Housing and Ontological Security Amid China's Circular Migration,2026,article,0,True,include,6,rules,include
 W4388859535,A11,recent,A11_recent_q3,7,Causes and Consequences of Circular Migration in Odisha: Evidence from a Study of Four Underdeveloped Districts,2023,book-chapter,3,False,include,3,no abstract; core in title; context terms missing,include
@@ -478,12 +478,12 @@ W3150214992,A11,recent,A11_recent_q3,18,The Welfare Effects of Encouraging Rural
 W4313457704,A11,recent,A11_recent_q4,1,URBAN REFUGEES,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4415716972,A11,recent,A11_recent_q4,2,Migrant City,2025,book-chapter,0,True,include,6,rules,include
 W4311541334,A11,recent,A11_recent_q4,3,Arrival cities and the mobility of concepts,2022,article,12,True,include,6,rules,include
-W7214987591,A11,recent,A11_recent_q4,4,Urban refugees in Mauritania,2026,other,0,True,borderline,3,stub abstract (possible book review),pending
-W7214940134,A11,recent,A11_recent_q4,5,Urban refugees in Mauritania,2026,other,0,True,borderline,3,stub abstract (possible book review),pending
+W7214987591,A11,recent,A11_recent_q4,4,Urban refugees in Mauritania,2026,other,0,True,borderline,3,stub abstract (possible book review) | manual: urban refugees in Mauritania (repository record),include
+W7214940134,A11,recent,A11_recent_q4,5,Urban refugees in Mauritania,2026,other,0,True,borderline,3,stub abstract (possible book review) | manual: urban refugees in Mauritania (duplicate deposit),include
 W4391707855,A11,recent,A11_recent_q4,6,Syrian Self-Settlement in Lebanon’s ‘Arrival Cities’:,2024,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W7214956692,A11,recent,A11_recent_q4,7,FMO Research guide: urban refugees,2026,other,0,True,borderline,5,stub abstract (possible book review),pending
+W7214956692,A11,recent,A11_recent_q4,7,FMO Research guide: urban refugees,2026,other,0,True,borderline,5,stub abstract (possible book review) | manual: research guide on urban refugees,include
 W4380205201,A11,recent,A11_recent_q4,8,6 UNHCR and Urban Refugees,2022,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W7214914425,A11,recent,A11_recent_q4,9,FMO Research guide: urban refugees,2026,other,0,True,borderline,5,stub abstract (possible book review),pending
+W7214914425,A11,recent,A11_recent_q4,9,FMO Research guide: urban refugees,2026,other,0,True,borderline,5,stub abstract (possible book review) | manual: research guide on urban refugees (duplicate deposit),include
 W4395477840,A11,recent,A11_recent_q4,10,Urban Refugees and Digital Technology,2024,book,0,True,include,6,rules,include
 W4380237065,A11,recent,A11_recent_q4,11,5 UNHCR and Urban Refugees,2022,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4302338729,A11,recent,A11_recent_q4,12,Urban Refugees and Education Advocacy,2022,book-chapter,0,True,include,6,rules,include

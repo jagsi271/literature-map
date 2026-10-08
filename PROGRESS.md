@@ -46,7 +46,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | A8 | Mobility & transport (social science) | 246 | 174 | 27 (11%) | 7 / 20 | 174 | 172 |
 | A9 | Public space, publicness & the street | 287 | 188 | 36 (12%) | 21 / 15 | 208 | 207 |
 | A10 | Urban economy, informal work & street vending | 221 | 154 | 22 (10%) | 9 / 13 | 162 | 159 |
-| A11 | Migration & the city | 234 | 194 | 22 (9%) | 0 / 0 (+22 pending) | 186 | 183 |
+| A11 | Migration & the city | 234 | 194 | 22 (9%) | 6 / 16 | 190 | 187 |
 | A12 | Gender, caste, class & the city | 229 | 157 | 23 (10%) | 0 / 0 (+23 pending) | 152 | 149 |
 | A13 | Heritage, mega-events & "world-class" city ma | 211 | 146 | 13 (6%) | 0 / 0 (+13 pending) | 145 | 142 |
 | A14 | Urban environment, climate & risk | 246 | 195 | 29 (12%) | 0 / 0 (+29 pending) | 182 | 179 |
@@ -55,7 +55,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | B5 | Digital identity & digital public infrastruct | 177 | 114 | 28 (16%) | 7 / 21 | 117 | 117 |
 | C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 125 |
 
-Total deduplicated records: 2787.
+Total deduplicated records: 2791.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)

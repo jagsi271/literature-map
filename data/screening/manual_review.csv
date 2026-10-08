@@ -485,3 +485,25 @@ W1850541179,A10,include,"Claude (manual review, Stage 2)",enforcement against st
 W2073323190,A10,include,"Claude (manual review, Stage 2)",Operation Murambatsvina and the urban informal economy
 W4294350053,A10,exclude,"Claude (manual review, Stage 2)",planning and informality debates (A15/A3)
 W4390971439,A10,include,"Claude (manual review, Stage 2)",women in the urban informal economy (flag false positive)
+W2236242316,A11,exclude,"Claude (manual review, Stage 2)",oral lesions survey
+W7170036757,A11,exclude,"Claude (manual review, Stage 2)",dental caries survey
+W4313439733,A11,exclude,"Claude (manual review, Stage 2)",morbidity profile
+W7204459152,A11,exclude,"Claude (manual review, Stage 2)",child undernutrition study
+W3010790549,A11,include,"Claude (manual review, Stage 2)",seasonal rural-urban migration and poverty (flag false positive)
+W2920803782,A11,exclude,"Claude (manual review, Stage 2)",slum eviction (A4); urban refugees as metaphor
+W1537901284,A11,include,"Claude (manual review, Stage 2)",migrant women factory workers in China
+W2601271009,A11,exclude,"Claude (manual review, Stage 2)",shrinking cities
+W4206522660,A11,exclude,"Claude (manual review, Stage 2)",COVID and international migration (not urban)
+W4252405957,A11,exclude,"Claude (manual review, Stage 2)",China urbanisation report
+W1826423938,A11,exclude,"Claude (manual review, Stage 2)",health-care access survey
+W2470194203,A11,exclude,"Claude (manual review, Stage 2)",environmental change and migration (not urban)
+W2164132840,A11,exclude,"Claude (manual review, Stage 2)",noncommunicable disease among urban refugees (health review)
+W2800559610,A11,exclude,"Claude (manual review, Stage 2)",tuberculosis genomics
+W4309775510,A11,exclude,"Claude (manual review, Stage 2)",counterurbanisation to rural areas
+W2020682874,A11,exclude,"Claude (manual review, Stage 2)",polycentric development
+W2032614023,A11,exclude,"Claude (manual review, Stage 2)",birth cohort
+W2031961827,A11,exclude,"Claude (manual review, Stage 2)",smoking and stress survey
+W7214987591,A11,include,"Claude (manual review, Stage 2)",urban refugees in Mauritania (repository record)
+W7214940134,A11,include,"Claude (manual review, Stage 2)",urban refugees in Mauritania (duplicate deposit)
+W7214956692,A11,include,"Claude (manual review, Stage 2)",research guide on urban refugees
+W7214914425,A11,include,"Claude (manual review, Stage 2)",research guide on urban refugees (duplicate deposit)
