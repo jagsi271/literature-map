@@ -4221,7 +4221,7 @@ W2796170486,B10,india,B10_india_q4,4,CYBERCRIME VICTIMIZATION A STUDY AMONG WOME
 W7104049152,B10,india,B10_india_q4,5,Cyber Legislation and Cyber-Victimization in Pakistan,2025,article,0,True,include,5,rules,include
 W7104034255,B10,india,B10_india_q4,6,Cyber Legislation and Cyber-Victimization in Pakistan,2025,dataset,0,False,exclude,0,type dataset,exclude
 W2604755208,B10,india,B10_india_q4,7,An analysis of the Attitude Towards Cyberbullying and Cyber Victimization Among the University Students of Sri Lanka,2017,article,9,True,include,6,rules,include
-W7163835412,B10,india,B10_india_q4,8,Cyber victimization patterns among Dhaka University students: an exploratory analysis,2025,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7163835412,B10,india,B10_india_q4,8,Cyber victimization patterns among Dhaka University students: an exploratory analysis,2025,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: cyber-victimisation among Dhaka University students (flag false positive),include
 W1585273255,B10,india,B10_india_q4,9,Cyber Victimization in India: A Baseline Survey Report (2010),2011,preprint,17,False,include,3,no abstract; core (and context) in title,include
 W2291520797,B10,india,B10_india_q4,10,Internet Usage and Cyber-Victimization in Indian Society,2012,article,1,True,include,5,rules,include
 W2977563993,B10,india,B10_india_q4,11,Cyber Victimization of Women and Cyber Laws in India,2013,book-chapter,1,True,include,6,rules,include
@@ -4231,12 +4231,12 @@ W4254409861,B10,india,B10_india_q4,14,Cyber Victimization of Women and Cyber Law
 W7124535775,B10,india,B10_india_q4,15,Understanding Cyber Victimization: Risk Patterns Among University Students in Pakistan,2026,article,0,False,include,3,no abstract; core (and context) in title,include
 W7117408585,B10,india,B10_india_q4,16,CYBERCRIME VICTIMIZATION OF WOMEN: A CRITICAL STUDY,2025,article,1,True,include,6,rules,include
 W7164517860,B10,india,B10_india_q4,17,A STUDY ON AWARENESS ABOUT CYBER VICTIMIZATION AMONG COLLEGE STUDENTS IN RURAL AREAS NEARBY CHENNAI,2026,article,0,True,include,6,rules,include
-W4388411327,B10,india,B10_india_q4,18,Influence of cyber-victimization and other factors on depression and anxiety among university students in Bangladesh,2023,article,19,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4388411327,B10,india,B10_india_q4,18,Influence of cyber-victimization and other factors on depression and anxiety among university students in Bangladesh,2023,article,19,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: cyber-victimisation and mental health of students, Bangladesh",include
 W2926701059,B10,landmarks,B10_landmarks,1,Deep Learning Approach for Intelligent Intrusion Detection System,2019,article,1941,True,exclude,3,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2125363721,B10,landmarks,B10_landmarks,2,The Nucleolus of a Characteristic Function Game,1969,article,1904,True,exclude,0,core concept missing,exclude
 W3046539507,B10,landmarks,B10_landmarks,3,"Impact of COVID-19 pandemic on information management research and practice: Transforming education, work and life",2020,article,1246,False,exclude,0,core concept missing,exclude
 W3020807179,B10,landmarks,B10_landmarks,4,"Artificial intelligence for sustainability: Challenges, opportunities, and a research agenda",2020,article,1190,False,exclude,0,core concept missing,exclude
-W4225716729,B10,landmarks,B10_landmarks,5,"AI-Based Modeling: Techniques, Applications and Research Issues Towards Automation, Intelligent and Smart Systems",2022,article,1183,True,borderline,1,core concept mentioned once,pending
+W4225716729,B10,landmarks,B10_landmarks,5,"AI-Based Modeling: Techniques, Applications and Research Issues Towards Automation, Intelligent and Smart Systems",2022,article,1183,True,borderline,1,core concept mentioned once | manual: AI modelling review,exclude
 W3033915435,B10,landmarks,B10_landmarks,6,Impact of digital surge during Covid-19 pandemic: A viewpoint on research and practice,2020,article,1136,False,exclude,0,core concept missing,exclude
 W2157078218,B10,landmarks,B10_landmarks,7,Cyber–Physical Security of a Smart Grid Infrastructure,2011,article,1118,True,include,5,rules,include
 W2002356434,B10,landmarks,B10_landmarks,8,From information security to cyber security,2013,article,1071,False,include,3,no abstract; core (and context) in title,include
@@ -4249,12 +4249,12 @@ W2888505697,B10,landmarks,B10_landmarks,14,Classifying IoT Devices in Smart Envi
 W3009311085,B10,landmarks,B10_landmarks,15,Applications of Artificial Intelligence and Machine learning in smart cities,2020,article,758,False,exclude,0,core concept missing,exclude
 W3036035276,B10,landmarks,B10_landmarks,16,Cyber security in the age of COVID-19: A timeline and analysis of cyber-crime and cyber-attacks during the pandemic,2021,article,678,False,include,3,no abstract; core (and context) in title,include
 W2125408374,B10,landmarks,B10_landmarks,17,"Associations among bullying, cyberbullying, and suicide in high school students",2013,article,671,True,include,5,rules,include
-W2900470550,B10,landmarks,B10_landmarks,18,Multimodal Temporal Graph Neural Networks for Detecting and Disrupting Dark-Web Cybercrime Communities: A Vendor-Disjoint Inductive Evaluation Finding No Measurable Benefit from the Graph,2018,preprint,623,True,borderline,5,flag: \b(deep learning|neural network|convolut,pending
+W2900470550,B10,landmarks,B10_landmarks,18,Multimodal Temporal Graph Neural Networks for Detecting and Disrupting Dark-Web Cybercrime Communities: A Vendor-Disjoint Inductive Evaluation Finding No Measurable Benefit from the Graph,2018,preprint,623,True,borderline,5,flag: \b(deep learning|neural network|convolut | manual: dark-web detection model,exclude
 W2742329683,B10,landmarks,B10_landmarks,19,Blockchain technology innovations,2017,conference-paper,592,True,include,3,rules,include
 W2135746613,B10,landmarks,B10_landmarks,20,Perils of Internet fraud: an empirical investigation of deception and trust with experienced Internet consumers,2000,article,582,True,include,6,rules,include
 W1412796528,B10,landmarks,B10_landmarks,21,Measuring the Cost of Cybercrime,2013,book-chapter,559,False,include,3,no abstract; core (and context) in title,include
 W3082636531,B10,landmarks,B10_landmarks,22,Paradoxes of artificial intelligence in consumer markets: Ethical challenges and opportunities,2020,article,555,False,exclude,0,core concept missing,exclude
-W2162357792,B10,landmarks,B10_landmarks,23,Crime data mining: a general framework and some examples,2004,article,545,True,borderline,1,core concept mentioned once,pending
+W2162357792,B10,landmarks,B10_landmarks,23,Crime data mining: a general framework and some examples,2004,article,545,True,borderline,1,core concept mentioned once | manual: crime data mining framework (technical),exclude
 W369775116,B10,landmarks,B10_landmarks,24,The Routledge Handbook of Terrorism Research,2011,book,543,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2026538728,B10,landmarks,B10_landmarks,25,"Peer and cyber aggression in secondary school students: the role of moral disengagement, hostile attribution bias, and outcome expectancies",2009,article,541,True,include,6,rules,include
 W2022101016,B10,landmarks,B10_landmarks,26,Risk Factors in Coronary Heart Disease,1964,article,538,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
@@ -4262,10 +4262,10 @@ W2111444247,B10,landmarks,B10_landmarks,27,The Overlap Between Cyberbullying and
 W2076744904,B10,landmarks,B10_landmarks,28,"Digital Disaster, Cyber Security, and the Copenhagen School",2009,article,531,True,include,6,rules,include
 W3133843004,B10,landmarks,B10_landmarks,29,Phishing Attacks: A Recent Comprehensive Study and a New Anatomy,2021,article,530,True,include,6,rules,include
 W2121377134,B10,landmarks,B10_landmarks,30,The Novelty of ‘Cybercrime’,2005,article,516,True,include,6,rules,include
-W4285042965,B10,landmarks,B10_landmarks,31,"A Review on Autonomous Vehicles: Progress, Methods and Challenges",2022,article,515,True,borderline,1,core concept mentioned once,pending
+W4285042965,B10,landmarks,B10_landmarks,31,"A Review on Autonomous Vehicles: Progress, Methods and Challenges",2022,article,515,True,borderline,1,core concept mentioned once | manual: autonomous vehicles review,exclude
 W4302417921,B10,landmarks,B10_landmarks,32,Cybersecurity and Cyberwar,2014,book,511,True,include,6,rules,include
 W2800111293,B10,landmarks,B10_landmarks,33,"Cybersecurity in healthcare: A narrative review of trends, threats and ways forward",2018,review,493,False,include,3,no abstract; core (and context) in title,include
-W2053774863,B10,landmarks,B10_landmarks,34,A framework for detection and measurement of phishing attacks,2007,conference-paper,492,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2053774863,B10,landmarks,B10_landmarks,34,A framework for detection and measurement of phishing attacks,2007,conference-paper,492,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: phishing URL detection,exclude
 W2781662152,B10,landmarks,B10_landmarks,35,Cyber security of a power grid: State-of-the-art,2018,article,487,False,include,3,no abstract; core (and context) in title,include
 W3100548141,B10,landmarks,B10_landmarks,36,The Internet of Things: Impact and Implications for Health Care Delivery,2020,article,481,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W2964756323,B10,landmarks,B10_landmarks,37,"Computational pathology definitions, best practices, and recommendations for regulatory guidance: a white paper from the Digital Pathology Association",2019,article,476,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
@@ -4274,25 +4274,25 @@ W642279375,B10,landmarks,B10_landmarks,39,The Politics of Possibility: Risk and 
 W3121480663,B10,landmarks,B10_landmarks,40,The cyber threat landscape: Challenges and future research directions,2011,article,455,False,include,3,no abstract; core (and context) in title,include
 W2089112285,B10,landmarks,B10_landmarks,41,Examining the Applicability of Lifestyle-Routine Activities Theory for Cybercrime Victimization,2008,article,454,True,include,6,rules,include
 W2156366051,B10,landmarks,B10_landmarks,42,Bullying in school and cyberspace: Associations with depressive symptoms in Swiss and Australian adolescents,2010,article,445,True,include,6,rules,include
-W2615109355,B10,landmarks,B10_landmarks,43,Combating Sale of Counterfeit and Falsified Medicines Online: A Losing Battle,2017,article,440,True,borderline,1,core concept mentioned once,pending
+W2615109355,B10,landmarks,B10_landmarks,43,Combating Sale of Counterfeit and Falsified Medicines Online: A Losing Battle,2017,article,440,True,borderline,1,core concept mentioned once | manual: online sale of counterfeit medicines (pharmacology),exclude
 W2282632211,B10,landmarks,B10_landmarks,44,Applying Routine Activity Theory to Cybercrime: A Theoretical and Empirical Analysis,2016,article,430,True,include,6,rules,include
 W3006556904,B10,landmarks,B10_landmarks,45,"Cyber Security Awareness, Knowledge and Behavior: A Comparative Study",2020,article,426,True,include,6,rules,include
-W4205963488,B10,landmarks,B10_landmarks,46,Networks and States,2010,book,420,True,borderline,1,core concept mentioned once,pending
+W4205963488,B10,landmarks,B10_landmarks,46,Networks and States,2010,book,420,True,borderline,1,"core concept mentioned once | manual: internet governance, states and cybersecurity",include
 W2161881360,B10,landmarks,B10_landmarks,47,Routine Online Activity and Internet Fraud Targeting: Extending the Generality of Routine Activity Theory,2010,article,412,True,include,6,rules,include
 W2092475127,B10,landmarks,B10_landmarks,48,Writeprints,2008,article,407,True,exclude,2,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2115656617,B10,landmarks,B10_landmarks,49,Cyber security analysis of state estimators in electric power systems,2010,conference-paper,406,True,include,5,rules,include
-W1567294475,B10,landmarks,B10_landmarks,50,Cybercrime and Society,2006,book,402,True,borderline,5,stub abstract (possible book review),pending
+W1567294475,B10,landmarks,B10_landmarks,50,Cybercrime and Society,2006,book,402,True,borderline,5,stub abstract (possible book review) | manual: cybercrime and society,include
 W2167582195,B10,landmarks,B10_landmarks,51,Structural validation and cross-cultural robustness of the European Cyberbullying Intervention Project Questionnaire,2015,article,395,False,include,3,no abstract; core (and context) in title,include
-W2039858940,B10,landmarks,B10_landmarks,52,Advanced Persistent threats and how to monitor and deter them,2011,article,393,True,borderline,1,core concept mentioned once,pending
+W2039858940,B10,landmarks,B10_landmarks,52,Advanced Persistent threats and how to monitor and deter them,2011,article,393,True,borderline,1,core concept mentioned once | manual: advanced persistent threats (technical),exclude
 W3028444949,B10,landmarks,B10_landmarks,53,Social Media Use and Cyber-Bullying: A Cross-National Analysis of Young People in 42 Countries,2020,article,387,True,include,6,rules,include
 W2013820082,B10,landmarks,B10_landmarks,54,Bullying beyond the schoolyard: Preventing and responding to cyberbullying,2012,article,386,False,include,3,no abstract; core (and context) in title,include
 W1517174171,B10,landmarks,B10_landmarks,55,Doing research on crime and justice,2001,book-review,386,True,exclude,0,type book-review,exclude
-W2526986942,B10,landmarks,B10_landmarks,56,Constructing Norms for Global Cybersecurity,2016,article,384,True,borderline,4,flag: \b(intrusion detection|malware detection,pending
+W2526986942,B10,landmarks,B10_landmarks,56,Constructing Norms for Global Cybersecurity,2016,article,384,True,borderline,4,flag: \b(intrusion detection|malware detection | manual: norms for global cybersecurity (law),include
 W2154874878,B10,landmarks,B10_landmarks,57,A Survey of Botnet and Botnet Detection,2009,conference-paper,384,True,include,3,rules,include
-W4200553326,B10,landmarks,B10_landmarks,58,"Machine learning-based approach: global trends, research directions, and regulatory standpoints",2021,article,378,True,borderline,1,core concept mentioned once,pending
-W1526398216,B10,landmarks,B10_landmarks,59,Gridlock: Why Global Cooperation is Failing When We Need it Most,2014,article,373,True,borderline,1,core concept mentioned once,pending
+W4200553326,B10,landmarks,B10_landmarks,58,"Machine learning-based approach: global trends, research directions, and regulatory standpoints",2021,article,378,True,borderline,1,core concept mentioned once | manual: machine learning trends,exclude
+W1526398216,B10,landmarks,B10_landmarks,59,Gridlock: Why Global Cooperation is Failing When We Need it Most,2014,article,373,True,borderline,1,core concept mentioned once | manual: global governance gridlock,exclude
 W2099222119,B10,landmarks,B10_landmarks,60,User preference of cyber security awareness delivery methods,2012,article,363,True,include,5,rules,include
-W2977621210,B10,landmarks,B10_landmarks,61,Blockchain and its implications for accounting and auditing,2019,article,360,True,borderline,1,core concept mentioned once,pending
+W2977621210,B10,landmarks,B10_landmarks,61,Blockchain and its implications for accounting and auditing,2019,article,360,True,borderline,1,core concept mentioned once | manual: blockchain in accounting,exclude
 W3168771234,B10,landmarks,B10_landmarks,62,Network Intrusion Detection System using Deep Learning,2021,conference-paper,358,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W4213292645,B10,landmarks,B10_landmarks,63,Cyber risk and cybersecurity: a systematic review of data availability,2022,review,356,True,include,6,rules,include
 W2416164492,B10,landmarks,B10_landmarks,64,Cybercrime detection in online communications: The experimental case of cyberbullying detection in the Twitter network,2016,article,355,False,include,3,no abstract; core (and context) in title,include
@@ -4310,19 +4310,19 @@ W3121453273,B10,landmarks,B10_landmarks,75,Explainable Artificial Intelligence (
 W3048335295,B10,landmarks,B10_landmarks,76,Out of the laboratory and into the classroom: the future of artificial intelligence in education,2020,article,326,False,exclude,0,core concept missing,exclude
 W2903872466,B10,landmarks,B10_landmarks,77,Chained Anomaly Detection Models for Federated Learning: An Intrusion Detection Case Study,2018,article,324,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2157174429,B10,landmarks,B10_landmarks,78,On the definition and classification of cybercrime,2006,article,323,False,include,3,no abstract; core (and context) in title,include
-W4229007983,B10,landmarks,B10_landmarks,79,A literature review of Artificial Intelligence applications in railway systems,2022,article,322,True,borderline,1,core concept mentioned once,pending
+W4229007983,B10,landmarks,B10_landmarks,79,A literature review of Artificial Intelligence applications in railway systems,2022,article,322,True,borderline,1,core concept mentioned once | manual: AI in railways,exclude
 W4384827671,B10,landmarks,B10_landmarks,80,Artificial intelligence governance: Ethical considerations and implications for social responsibility,2023,article,315,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2303537644,B10,landmarks,B10_landmarks,81,Evaluar el bullying y el cyberbullying validación española del EBIP-Q y del ECIP-Q,2016,article,315,True,include,6,rules,include
 W2339215865,B10,landmarks,B10_landmarks,82,Sexual Violence in the Digital Age,2016,article,314,True,include,3,rules,include
 W3124630490,B10,landmarks,B10_landmarks,83,"Cyber-Physical Energy Systems Security: Threat Modeling, Risk Assessment, Resources, Metrics, and Case Studies",2021,article,312,True,include,6,rules,include
-W80155331,B10,landmarks,B10_landmarks,84,Measuring and Detecting Fast-Flux Service Networks,2008,article,312,True,borderline,1,core concept mentioned once,pending
+W80155331,B10,landmarks,B10_landmarks,84,Measuring and Detecting Fast-Flux Service Networks,2008,article,312,True,borderline,1,core concept mentioned once | manual: fast-flux networks measurement,exclude
 W3046795846,B10,landmarks,B10_landmarks,85,"REVISITING HEALTH INFORMATION TECHNOLOGY ETHICAL, LEGAL, and SOCIAL ISSUES and EVALUATION: TELEHEALTH/TELEMEDICINE and COVID-19",2020,article,311,False,exclude,0,core concept missing,exclude
 W2098202740,B10,landmarks,B10_landmarks,86,Traditional bullying as a potential warning sign of cyberbullying,2012,article,311,True,include,6,rules,include
 W2793402936,B10,landmarks,B10_landmarks,87,National Initiative for Cybersecurity Education (NICE) Cybersecurity Workforce Framework,2017,report,310,True,include,3,rules,include
 W3094345499,B10,landmarks,B10_landmarks,88,Smart anomaly detection in sensor systems: A multi-perspective review,2020,article,309,False,exclude,0,core concept missing,exclude
 W2949193783,B10,landmarks,B10_landmarks,89,"A survey on cybersecurity, data privacy, and policy issues in cyber-physical system deployments in smart cities",2019,article,308,False,include,3,no abstract; core (and context) in title,include
 W2793130454,B10,landmarks,B10_landmarks,90,A Self-Adaptive Deep Learning-Based System for Anomaly Detection in 5G Networks,2018,article,305,True,exclude,3,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
-W2527386436,B10,landmarks,B10_landmarks,91,"Drones for smart cities: Issues in cybersecurity, privacy, and public safety",2016,conference-paper,305,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W2527386436,B10,landmarks,B10_landmarks,91,"Drones for smart cities: Issues in cybersecurity, privacy, and public safety",2016,conference-paper,305,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: drones for smart cities (C17),exclude
 W3136603773,B10,landmarks,B10_landmarks,92,"Artificial intelligence in cyber security: research advances, challenges, and opportunities",2021,article,304,False,include,3,no abstract; core (and context) in title,include
 W1492832459,B10,landmarks,B10_landmarks,93,Rootkits: Subverting the Windows Kernel,2005,article,303,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4392029839,B10,landmarks,B10_landmarks,94,"Machine learning-based network intrusion detection for big and imbalanced data using oversampling, stacking feature embedding and feature extraction",2024,article,299,True,exclude,2,"flag, core not in title: \b(intrusion detection|malware detection",exclude
@@ -4339,9 +4339,9 @@ W4406271523,B10,recent,B10_recent_q1,4,Cyber Crime,2025,reference-entry,0,False,
 W4312371522,B10,recent,B10_recent_q1,5,Cyber Crime,2022,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4281668342,B10,recent,B10_recent_q1,6,Cyber Crime Forensics,2022,article,0,True,include,6,rules,include
 W4393976450,B10,recent,B10_recent_q1,7,Cyber Crime Effects,2024,other,1,True,include,6,rules,include
-W4281681992,B10,recent,B10_recent_q1,8,Cyber Crime Education,2022,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4281681992,B10,recent,B10_recent_q1,8,Cyber Crime Education,2022,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: cybercrime education,include
 W2481619157,B10,recent,B10_recent_q1,9,Cyber Crime Investigator's Field Guide,2022,book,18,True,include,6,rules,include
-W4409269084,B10,recent,B10_recent_q1,10,Cyber Crime Education,2023,article,0,True,borderline,3,stub abstract (possible book review),pending
+W4409269084,B10,recent,B10_recent_q1,10,Cyber Crime Education,2023,article,0,True,borderline,3,stub abstract (possible book review) | manual: cybercrime education (duplicate),include
 W4397037555,B10,recent,B10_recent_q1,11,Cyber Crime in India,2023,article,0,True,include,6,rules,include
 W4415548307,B10,recent,B10_recent_q1,12,Transnational Cyber Crime: Challenges of International Cooperation in Combating Cybercrime,2025,article,3,True,include,6,rules,include
 W7135207552,B10,recent,B10_recent_q1,13,Cyber Crime Management System,2026,article,0,True,include,6,rules,include
@@ -4355,11 +4355,11 @@ W7140099358,B10,recent,B10_recent_q2,2,On-line romance scam,2026,article,0,True,
 W7165173079,B10,recent,B10_recent_q2,3,FedHeartShield Reviewed Romance Scam Corpus,2026,dataset,0,True,exclude,0,type dataset,exclude
 W7165142222,B10,recent,B10_recent_q2,4,FedHeartShield Reviewed Romance Scam Corpus,2026,dataset,0,True,exclude,0,type dataset,exclude
 W4405473629,B10,recent,B10_recent_q2,5,HeartGuard VR: Immersive Romance Scam Education,2024,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
-W4392880346,B10,recent,B10_recent_q2,6,Romance Scam and Legal Interpreting/Translation,2024,conference-paper,0,True,borderline,3,stub abstract (possible book review),pending
+W4392880346,B10,recent,B10_recent_q2,6,Romance Scam and Legal Interpreting/Translation,2024,conference-paper,0,True,borderline,3,stub abstract (possible book review) | manual: romance scams and legal interpreting,include
 W7156909909,B10,recent,B10_recent_q2,7,Synthetic Dialogue Dataset for Romance Scam Detection,2026,dataset,0,True,exclude,0,type dataset,exclude
 W4388014937,B10,recent,B10_recent_q2,8,Tainted Love: a Systematic Literature Review of Online Romance Scam Research,2023,review,61,True,include,6,rules,include
 W4386508356,B10,recent,B10_recent_q2,9,Romance scam crimes examined through legal statements,2023,article,0,True,include,3,rules,include
-W4405909195,B10,recent,B10_recent_q2,10,Strategies for Identifying Online Scams,2024,conference-paper,2,True,borderline,6,flag: \b(intrusion detection|malware detection,pending
+W4405909195,B10,recent,B10_recent_q2,10,Strategies for Identifying Online Scams,2024,conference-paper,2,True,borderline,6,flag: \b(intrusion detection|malware detection | manual: scam detection review (technical),exclude
 W4388191864,B10,recent,B10_recent_q2,11,Internet fraud,2023,article,0,True,include,6,rules,include
 W4406254891,B10,recent,B10_recent_q2,12,Internet Fraud,2025,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W4376624240,B10,recent,B10_recent_q2,13,Online Fraud,2023,book-chapter,5,False,include,3,no abstract; core (and context) in title,include
@@ -4389,10 +4389,10 @@ W7117420676,B10,recent,B10_recent_q3,18,An Analytical Study of Human Factors in 
 W4402770099,B10,recent,B10_recent_q4,1,Cybercrime Victimization,2024,conference-paper,0,True,include,6,rules,include
 W7212289263,B10,recent,B10_recent_q4,2,Cyber Victimisation,2026,reference-entry,0,False,include,3,no abstract; core (and context) in title,include
 W7166561057,B10,recent,B10_recent_q4,3,Cyber Victimization,2026,reference-entry,1,True,include,6,rules,include
-W4387343573,B10,recent,B10_recent_q4,4,Neuropsychological Impact of Cyber Victimisation in Females,2023,book-chapter,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4387343573,B10,recent,B10_recent_q4,4,Neuropsychological Impact of Cyber Victimisation in Females,2023,book-chapter,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: cyber-victimisation of women (flag false positive),include
 W7117408585,B10,recent,B10_recent_q4,5,CYBERCRIME VICTIMIZATION OF WOMEN: A CRITICAL STUDY,2025,article,1,True,include,6,rules,include
 W4321214091,B10,recent,B10_recent_q4,6,"Cyber Victimisation, Restorative Justice and Victim-Offender Panels",2023,article,21,False,include,3,no abstract; core (and context) in title,include
-W7128314699,B10,recent,B10_recent_q4,7,Teens and cyber victimization,2026,article,0,True,borderline,3,stub abstract (possible book review),pending
+W7128314699,B10,recent,B10_recent_q4,7,Teens and cyber victimization,2026,article,0,True,borderline,3,stub abstract (possible book review) | manual: nursing note on teen cyber-victimisation,exclude
 W7203539880,B10,recent,B10_recent_q4,8,CYBER-VICTIMIZATION AND COPING STYLE,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W4415555364,B10,recent,B10_recent_q4,9,Digital footprints and cyber victimization,2025,article,0,True,include,6,rules,include
 W4206107372,B10,recent,B10_recent_q4,10,Research trends in cybercrime victimization during 2010–2020: a bibliometric analysis,2022,article,34,False,include,3,no abstract; core (and context) in title,include
@@ -4400,7 +4400,7 @@ W7140962947,B10,recent,B10_recent_q4,11,Cyber-victimisation et personnes LGBTIQ+
 W4311006481,B10,recent,B10_recent_q4,12,Cyberbullying: Common Predictors to Cyber-Victimisation and Bystanding,2022,article,2,True,include,6,rules,include
 W4297347410,B10,recent,B10_recent_q4,13,"Sex, age and cyber-victimization: A meta-analysis.",2022,review,29,True,include,6,rules,include
 W4296713237,B10,recent,B10_recent_q4,14,Typology of Cybercrime Victimization in Europe: A Multilevel Latent Class Analysis,2022,article,19,True,include,6,rules,include
-W4380483419,B10,recent,B10_recent_q4,15,"Explaining cybercrime victimization using a longitudinal population-based survey experiment. Are personal characteristics, online routine activities, and actual self-protective online behavior related to future cybercrime victimization?",2023,article,17,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4380483419,B10,recent,B10_recent_q4,15,"Explaining cybercrime victimization using a longitudinal population-based survey experiment. Are personal characteristics, online routine activities, and actual self-protective online behavior related to future cybercrime victimization?",2023,article,17,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: cybercrime victimisation survey experiment,include
 W4401116326,B10,recent,B10_recent_q4,16,Cybercrime and Cyber-Victimization: A Caribbean Perspective,2024,book-chapter,2,False,include,3,no abstract; core (and context) in title,include
 W4412696165,B10,recent,B10_recent_q4,17,Unveiling the Dimensions of Cybercrime Victimization: An Exploratory Factor Analysis,2025,article,0,True,include,6,rules,include
 W7125967022,B10,recent,B10_recent_q4,18,Social interaction and cyber victimisation among secondary school students,2025,article,0,True,include,6,rules,include

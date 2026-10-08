@@ -891,3 +891,28 @@ W7167583633,B9,include,"Claude (manual review, Stage 2)",social-media mindsets a
 W4312052513,B9,include,"Claude (manual review, Stage 2)",moralised language and online hate speech
 W7120346084,B9,exclude,"Claude (manual review, Stage 2)",hate-speech detection thesis
 W4226158522,B9,include,"Claude (manual review, Stage 2)",social debunking of misinformation on WhatsApp
+W7163835412,B10,include,"Claude (manual review, Stage 2)",cyber-victimisation among Dhaka University students (flag false positive)
+W4388411327,B10,include,"Claude (manual review, Stage 2)","cyber-victimisation and mental health of students, Bangladesh"
+W4225716729,B10,exclude,"Claude (manual review, Stage 2)",AI modelling review
+W2900470550,B10,exclude,"Claude (manual review, Stage 2)",dark-web detection model
+W2162357792,B10,exclude,"Claude (manual review, Stage 2)",crime data mining framework (technical)
+W4285042965,B10,exclude,"Claude (manual review, Stage 2)",autonomous vehicles review
+W2053774863,B10,exclude,"Claude (manual review, Stage 2)",phishing URL detection
+W2615109355,B10,exclude,"Claude (manual review, Stage 2)",online sale of counterfeit medicines (pharmacology)
+W4205963488,B10,include,"Claude (manual review, Stage 2)","internet governance, states and cybersecurity"
+W1567294475,B10,include,"Claude (manual review, Stage 2)",cybercrime and society
+W2039858940,B10,exclude,"Claude (manual review, Stage 2)",advanced persistent threats (technical)
+W2526986942,B10,include,"Claude (manual review, Stage 2)",norms for global cybersecurity (law)
+W4200553326,B10,exclude,"Claude (manual review, Stage 2)",machine learning trends
+W1526398216,B10,exclude,"Claude (manual review, Stage 2)",global governance gridlock
+W2977621210,B10,exclude,"Claude (manual review, Stage 2)",blockchain in accounting
+W4229007983,B10,exclude,"Claude (manual review, Stage 2)",AI in railways
+W80155331,B10,exclude,"Claude (manual review, Stage 2)",fast-flux networks measurement
+W2527386436,B10,exclude,"Claude (manual review, Stage 2)",drones for smart cities (C17)
+W4281681992,B10,include,"Claude (manual review, Stage 2)",cybercrime education
+W4409269084,B10,include,"Claude (manual review, Stage 2)",cybercrime education (duplicate)
+W4392880346,B10,include,"Claude (manual review, Stage 2)",romance scams and legal interpreting
+W4405909195,B10,exclude,"Claude (manual review, Stage 2)",scam detection review (technical)
+W4387343573,B10,include,"Claude (manual review, Stage 2)",cyber-victimisation of women (flag false positive)
+W7128314699,B10,exclude,"Claude (manual review, Stage 2)",nursing note on teen cyber-victimisation
+W4380483419,B10,include,"Claude (manual review, Stage 2)",cybercrime victimisation survey experiment

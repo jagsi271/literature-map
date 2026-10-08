@@ -61,14 +61,14 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | B7 | Digital divides & digital inclusion | 236 | 183 | 29 (12%) | 17 / 12 | 181 | 179 |
 | B8 | Social media, digital publics & political com | 241 | 193 | 17 (7%) | 12 / 5 | 191 | 188 |
 | B9 | Misinformation & extreme speech | 238 | 161 | 44 (18%) | 29 / 15 | 181 | 180 |
-| B10 | Cybercrime, fraud & cybersecurity (social sci | 240 | 173 | 25 (10%) | 0 / 0 (+25 pending) | 164 | 164 |
+| B10 | Cybercrime, fraud & cybersecurity (social sci | 240 | 173 | 25 (10%) | 10 / 15 | 173 | 173 |
 | B11 | Digital labour | 238 | 203 | 16 (7%) | 0 / 0 (+16 pending) | 194 | 189 |
 | B12 | Infrastructure studies & STS of digital syste | 221 | 131 | 39 (18%) | 0 / 0 (+39 pending) | 127 | 126 |
 | B13 | Mobile phones & everyday digital life | 239 | 142 | 26 (11%) | 0 / 0 (+26 pending) | 135 | 132 |
 | B14 | Generative AI & society | 237 | 161 | 46 (19%) | 0 / 0 (+46 pending) | 151 | 151 |
 | C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 115 |
 
-Total deduplicated records: 5071.
+Total deduplicated records: 5080.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
