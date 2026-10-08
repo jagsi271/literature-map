@@ -1519,3 +1519,35 @@ W7135170632,C17,exclude,"Claude (manual review, Stage 2)",quantum encryption fra
 W4295951922,C17,include,"Claude (manual review, Stage 2)",ransomware in local government
 W4409059847,C17,exclude,"Claude (manual review, Stage 2)",ransomware detection model
 W4412147876,C17,include,"Claude (manual review, Stage 2)",local government cybersecurity approaches
+W4321454422,C18,exclude,"Claude (manual review, Stage 2)",WhatsApp learning among medical students
+W4312759973,C18,exclude,"Claude (manual review, Stage 2)",diaspora WhatsApp misinformation (B9)
+W4225307960,C18,exclude,"Claude (manual review, Stage 2)",same (preprint)
+W7127571901,C18,exclude,"Claude (manual review, Stage 2)",WhatsApp health intervention
+W7136625384,C18,exclude,"Claude (manual review, Stage 2)",WhatsApp knowledge-sharing among students
+W7214819293,C18,include,"Claude (manual review, Stage 2)",Facebook and WhatsApp during the 2015 Chennai floods (city as digital public)
+W4413974001,C18,exclude,"Claude (manual review, Stage 2)",health-literacy communication
+W7158978155,C18,exclude,"Claude (manual review, Stage 2)",hyperlocal house-price model
+W7135246541,C18,exclude,"Claude (manual review, Stage 2)",heat-health modelling
+W2990015459,C18,include,"Claude (manual review, Stage 2)",digital public space and student politics in Bangladesh
+W3129298133,C18,exclude,"Claude (manual review, Stage 2)",digital marketing
+W4407914707,C18,exclude,"Claude (manual review, Stage 2)",rainfall forecasting
+W4408446486,C18,exclude,"Claude (manual review, Stage 2)",rainfall forecasting
+W4408422428,C18,exclude,"Claude (manual review, Stage 2)",PM2.5 monitoring
+W2183837840,C18,exclude,"Claude (manual review, Stage 2)",WhatsApp in schools
+W3014089499,C18,exclude,"Claude (manual review, Stage 2)",air-temperature mapping
+W2537815520,C18,exclude,"Claude (manual review, Stage 2)",WhatsApp in clinical practice
+W2395484904,C18,exclude,"Claude (manual review, Stage 2)",community health worker supervision
+W1975515838,C18,exclude,"Claude (manual review, Stage 2)",surgical staff communication
+W2074380569,C18,exclude,"Claude (manual review, Stage 2)",orthopaedic care
+W2607467537,C18,exclude,"Claude (manual review, Stage 2)",student WhatsApp etiquette
+W3028590961,C18,exclude,"Claude (manual review, Stage 2)",COVID response in Syria
+W2915499290,C18,exclude,"Claude (manual review, Stage 2)",medical residents e-learning trial
+W4409720085,C18,include,"Claude (manual review, Stage 2)",recruiting at-risk users on Nextdoor
+W4399983293,C18,exclude,"Claude (manual review, Stage 2)",anaesthesia residents' education
+W4220743906,C18,exclude,"Claude (manual review, Stage 2)",WhatsApp learning community
+W4399488301,C18,exclude,"Claude (manual review, Stage 2)",teachers' WhatsApp community
+W7220310646,C18,exclude,"Claude (manual review, Stage 2)",parenting WhatsApp group (school)
+W4223580029,C18,include,"Claude (manual review, Stage 2)",residents' associations using WhatsApp in guarded neighbourhoods
+W7216657443,C18,include,"Claude (manual review, Stage 2)",residents' associations using WhatsApp (second record)
+W4411909432,C18,include,"Claude (manual review, Stage 2)",neighbourhood association financial transparency via WhatsApp
+W4411951691,C18,exclude,"Claude (manual review, Stage 2)",student online community

@@ -662,6 +662,6 @@ themes:
       - '"resident welfare association" OR "residents'' welfare association" OR "resident welfare associations"'
       - '(hyperlocal OR "neighborhood social media" OR "neighbourhood Facebook groups" OR "digital public space")'
     screen:
-      # v3 (Stage 2)
-      require: ['nextdoor|neighbou?rhood (platforms?|apps?|social media|groups?|watch|forums?)|whatsapp|residents?.? welfare associations?|\brwas?\b|hyperlocal|digital public spaces?|facebook groups?|community (apps?|platforms?|groups?)', 'neighbou?rhoods?|residents?|communit\w*|housing|local|city|cities|urban']
-      flag: []
+      # v3b: 'residents'/'community' matched medical residents and classroom/health WhatsApp groups
+      require: ['nextdoor|neighbou?rhood (platforms?|apps?|social media|groups?|watch|forums?)|whatsapp|residents?.? welfare associations?|\brwas?\b|hyperlocal|digital public spaces?|facebook groups?|community (apps?|platforms?|groups?)', 'neighbou?rhoods?|residential|residents?.? (welfare )?associations?|housing (societ\w*|estates?|complex\w*|colon\w*)|gated communit\w*|apartment\w*|condominium\w*|local communit\w*|city|cities|urban|street|civic']
+      flag: ['\b(medical|clinical|patients?|students?|teachers?|teaching|e-?learning|classroom|nursing|dental|rainfall|forecast\w*|pm2\.5|air temperature)\b']

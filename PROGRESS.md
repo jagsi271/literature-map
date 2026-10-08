@@ -60,7 +60,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | B6 | Digital finance & payments | 217 | 182 | 14 (6%) | 8 / 6 | 180 | 180 |
 | B7 | Digital divides & digital inclusion | 236 | 184 | 28 (12%) | 16 / 12 | 181 | 179 |
 | B8 | Social media, digital publics & political com | 241 | 193 | 17 (7%) | 12 / 5 | 191 | 188 |
-| B9 | Misinformation & extreme speech | 238 | 161 | 44 (18%) | 29 / 15 | 181 | 179 |
+| B9 | Misinformation & extreme speech | 238 | 161 | 44 (18%) | 29 / 15 | 181 | 180 |
 | B10 | Cybercrime, fraud & cybersecurity (social sci | 240 | 173 | 25 (10%) | 10 / 15 | 173 | 173 |
 | B11 | Digital labour | 238 | 203 | 12 (5%) | 8 / 4 | 202 | 194 |
 | B12 | Infrastructure studies & STS of digital syste | 221 | 131 | 39 (18%) | 10 / 29 | 137 | 136 |
@@ -83,9 +83,9 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | C15 | Gig work in the city (urban and spatial focus | 222 | 109 | 11 (5%) | 7 / 4 | 108 | 85 |
 | C16 | Digital heritage, mapping & representation of | 213 | 120 | 51 (24%) | 16 / 35 | 128 | 126 |
 | C17 | Urban cybersecurity & cyber-physical infrastr | 228 | 110 | 40 (18%) | 13 / 27 | 122 | 117 |
-| C18 | Neighbourhood platforms & digital public spac | 217 | 98 | 30 (14%) | 0 / 0 (+30 pending) | 97 | 96 |
+| C18 | Neighbourhood platforms & digital public spac | 217 | 56 | 32 (15%) | 6 / 26 | 61 | 60 |
 
-Total deduplicated records: 7151.
+Total deduplicated records: 7116.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
