@@ -1,0 +1,51 @@
+OpenAlex ID,Title,Primary theme,Region,Places studied,Screening confidence,relevant,theme_ok,region_ok,note
+W3201984000,Digital Identity in India,B5,South Asia,India,low,Y,Y,Y,
+W1982083802,The Right to the City: Social Justice and the Fight for Public Space,A9,Not place-specific,,high,N,N,NA,"book review (Annals) of Mitchell 2003, not an original work"
+W4390505542,Platforms in the city and cities at the service of platforms: An urban perspective on the platform economy and workers’ responses,C2,Not place-specific,,medium,Y,Y,N,European PLUS project; tagged Not place-specific (continent words not in gazetteer)
+W3045097095,"Infrastructuralization of Tik Tok: transformation, power relationships, and platformization of video entertainment in China",C2,China & East Asia,China,high,Y,N,Y,"platformisation of a media platform, not urban: belongs to B1"
+W2899752787,"India: Aadhaar Unmasked - The UID Number and Threat of exclusion, and of surveillance – South Asia Citizens Web",B5,South Asia,India,low,Y,Y,Y,
+W3154347224,Biopolitical platforms: the perverse virtues of digital labour,C2,Not place-specific,,medium,Y,N,Y,"platform capitalism/digital labour, not urban: B1/B11"
+W2113892502,The Place-shaping Continuum: A Theory of Urban Design Process,A9,Global North,London,high,Y,Y,Y,
+W7214944612,From Informal Labour to Digital Platforms: The Sustainability of Assam's Emerging Gig Economy,C2,South Asia,Assam; India,high,Y,N,Y,regional gig economy: B11/C15 rather than C2
+W3003033094,Self-Sovereign Identity in a Globalized World: Credentials-Based Identity Systems as a Driver for Economic Inclusion,B5,Multi-region,Jordan; Sierra Leone,medium,Y,Y,Y,
+W4210854233,Is the COVID‐19 pandemic accelerating the platformisation of the urban economy?,C2,Global North,Lisbon,high,Y,Y,Y,
+W7169659753,Designing Publicness,A9,Multi-region,Barcelona; Macau,high,Y,Y,Y,interview piece
+W7213176381,Planning for platform urbanism,C2,Global North,Canada,high,Y,Y,Y,
+W3005598257,Platform mobilities and the production of urban space: Toward a typology of platformization trajectories,C2,Not place-specific,,high,Y,Y,N,North America/Europe/East Asia in abstract; tagged Not place-specific
+W4382789181,Urban Planning Criteria for Defining Privately Owned Public Spaces (POPS),A9,Not place-specific,,high,Y,Y,Y,
+W2520015019,City-as-a-Platform: The Rise of Participatory Innovation Platforms in Finnish Cities,C2,Global North,Finland; Helsinki,high,Y,Y,Y,
+W7119150781,"Street vending as urban inhabitation: materialities, epistemes, and city-making in Karachi and Mumbai",A9,South Asia,India; Karachi; Mumbai; Pakistan,medium,Y,Y,Y,also A10
+W4403014504,Grassroots Collectives Recover Public Space,A9,Not place-specific,,low,Y,Y,N,no abstract; place not detectable
+W1924685162,Spaces for engagement in the city of Mumbai : rethinking parks and public spaces in congested cities,A9,South Asia,Mumbai,low,Y,Y,Y,
+W4368340770,Creative digipreneurs: Artistic entrepreneurial practices in platform-mediated space,C2,Multi-region,Bengaluru; Berlin; Germany; India,medium,Y,Y,Y,
+W4296311543,"Protest, pandemic, & platformisation in Hong Kong: Towards cities of alternatives",C2,China & East Asia,Hong Kong,high,Y,Y,Y,
+W3012058390,Mapping Platform Urbanism: Charting the Nuance of the Platform Pivot,C2,Not place-specific,,medium,Y,Y,Y,
+W3043305912,Affective platform urbanism: Changing habits of digital on-demand consumption,C2,Not place-specific,,low,Y,Y,N,no abstract; Melbourne study not detectable
+W3181114874,"Safe in the City? Negotiating safety, public space and the male gaze in Kolkata, India",A9,South Asia,India; Kolkata,high,Y,Y,Y,
+W4393871037,Platform Urbanism and “Splintering Amenitization”: An Analysis of Canadian Cities,C2,Global North,Canada; Montreal; Toronto; Vancouver,high,Y,Y,Y,
+W2035829157,"Cast in Stone: Monuments, Geography, and Nationalism",A9,Not place-specific,,medium,Y,N,Y,monuments and nationalism: A13 rather than A9
+W2964659322,Negotiating the platform pivot: From participatory digital ecosystems to infrastructures of everyday life,C2,Not place-specific,,high,Y,Y,Y,
+W2132599261,"‘The body does not lie’: Identity, risk and trust in technoculture",B5,Not place-specific,,high,Y,Y,Y,overlaps B3
+W7106823810,"Platform Urbanism and the Fractal City: Deconstructing Gentrification, Megacity Hypertrophy, and the Algorithmic Periphery",C2,Not place-specific,,high,Y,Y,Y,low-quality Zenodo deposit
+W3199210739,"PLATFORMISATION OF RIDE HAILING, FOOD DELIVERY AND DOMESTIC WORK SERVICES IN URBAN INDIA",C2,South Asia,Bangalore; Delhi; India; Mumbai,high,Y,Y,Y,
+W7165404341,ID4D Global Dataset 2025: Trends in Identification for Development,B5,Not place-specific,,high,Y,Y,Y,global dataset
+W4380051391,The Platformization of Student Housing and the Rise of Mid‐Term Rentals. The Case of Uniplaces in Lisbon,C2,Global North,Lisbon,high,Y,Y,Y,also C10
+W4408462960,Decoding the Indian data governance model: Relooking at Aadhaar,B5,Multi-region,Brazil; Estonia; India,medium,Y,Y,Y,
+W4401101618,Urban mobilities in Mumbai: Towards worker-centric platformisation beyond ‘urban solutionism’,C2,South Asia,India; Mumbai,high,Y,Y,Y,
+W4400562152,Beyond the public space tableau: Insurgent heritage and the right to the city in Bogotá,A9,Latin America,Bogotá; Colombia,high,Y,Y,Y,
+W2031542882,The Future of Public Space:Beyond Invented Streets and Reinvented Places,A9,Global North,New York; United States,high,Y,Y,Y,
+W1487646227,Beyond Fear: Thinking Sensibly About Security in an Uncertain World,B5,Not place-specific,,medium,N,N,NA,general security book; ID cards marginal
+W4290998746,"The Metaverse as a virtual form of data-driven smart urbanism: platformization and its underlying processes, institutional dimensions, and disruptive impacts",C2,Not place-specific,,high,Y,Y,Y,
+W2084995582,"Accessibility and usability: Green space preferences, perceptions, and barriers in a rapidly urbanizing city in Latin America",A9,Not place-specific,,low,Y,Y,N,'Latin America' in title stripped by false-positive rule
+W4407904345,Cities and Digital Platforms,C2,Multi-region,Amsterdam; Auckland; Singapore; Sydney,high,Y,Y,Y,
+W2049763581,Dhaka and the contestation over the public space,A9,South Asia,Bangladesh; Dhaka,high,Y,Y,Y,
+W4235487284,Platform Urbanism,C2,Not place-specific,,low,Y,Y,Y,
+W7126063301,"Digital Public Infrastructure and Digital Financial Services: Convergence, Landscape and Regulatory Considerations",B5,Not place-specific,,low,Y,Y,Y,
+W4415043189,A ‘space-order’ publicness model: interpreting public space development in Shanghai’s people-oriented urban regeneration,A9,China & East Asia,Shanghai,high,Y,Y,Y,
+W7140141488,Household platforms as transactional infrastructures: the case of Urban Company,C2,South Asia,India,medium,Y,Y,Y,also C15
+W2055153148,'Bold Walk and Breakings': Women's spatial confidence versus fear of violence,A9,Global North,Finland,medium,Y,N,Y,women's fear of violence: A12 rather than A9
+W4220722580,Beyond the smart city: a typology of platform urbanism,C2,Not place-specific,,high,Y,Y,Y,
+W2567448509,"Regulating Access and Mobility of Single Women in a “World Class”-city: Gender and Inequality in Delhi, India",A9,South Asia,Delhi; India,medium,Y,N,Y,gendered access in Delhi: A12/A13 rather than A9
+W4290039801,Park Politics in a Postcolonial Indian City: Planning (and) Public Space in Bangalore,A9,South Asia,Bangalore; India,high,Y,Y,Y,
+W2013275119,CHILDREN SHOULD BE SEEN AND NOT HEARD: THE PRODUCTION AND TRANSGRESSION OF ADULTS' PUBLIC SPACE,A9,Not place-specific,,high,Y,Y,N,North America and Europe in abstract; tagged Not place-specific
+W2093331601,Democracy and the Public Space in Latin America,A9,Latin America,Argentina; Brazil; Mexico,high,N,N,NA,"'public space' as public sphere in democratisation theory, not urban"

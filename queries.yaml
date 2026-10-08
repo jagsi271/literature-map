@@ -11,10 +11,14 @@
 #   recent    : same, publication year 2022–2026         sort = relevance (reranked), top 50
 #   india     : ((q1) OR (q2) ...) AND (south_asia_terms) sort = relevance (reranked), top 50
 #
-# `screen` holds the rule-based relevance filter applied to title + abstract + keywords
-# (scripts/screen.py): every regex group in `require` must match; a match on any
-# `flag` regex (plus the global flags below) sends the record to manual review.
-# Regexes are case-insensitive Python syntax.
+# `screen` holds the rule-based relevance filter applied to title + abstract (not keyword tags)
+# (scripts/build_records.py). `require[0]` is the theme's core concept, `require[1:]` are
+# context terms. Auto-include needs the core concept in the title or at least twice in the
+# abstract, plus every context term somewhere; a single core mention, a missing
+# abstract, or a `flag` match (theme flags + the global flags below) sends the record to manual
+# review; no core mention excludes it. Regexes are case-insensitive Python syntax.
+# The pilot themes (C2, A9, B5) have revised (v2) core terms; the others will be revised the
+# same way in Stage 2.
 
 version: 1
 
@@ -144,7 +148,7 @@ themes:
       - '"privatization of public space" OR "privatisation of public space" OR "privately owned public space" OR "privately owned public spaces" OR "pseudo-public"'
       - '"right to the city" AND ("public space" OR street OR streets)'
     screen:
-      require: ['public space|publicness|street|sidewalk|plaza|square|park|public realm']
+      require: ['public spaces?|publicness|public realm|public life|street life|everyday urbanism|privately owned public|pseudo-public|sidewalks?|right to the city|streets? as', 'urban|city|cities|street|neighbou?rhood|town']
       flag: ['\b(thermal comfort|microclimate|air quality|pm2\.5|noise level|obesity|physical activity)\b']
   A10:
     domain: A
@@ -281,7 +285,7 @@ themes:
       - '("digital identity" OR "digital ID" OR "digital identification" OR "national ID" OR "national identity card" OR "national identity cards" OR "foundational ID" OR "identity cards" OR "ID cards" OR "identity documents") AND (citizenship OR welfare OR "social protection" OR surveillance OR "public services" OR "financial inclusion" OR government)'
       - '("biometric identification" OR "biometric registration" OR "biometric ID" OR "biometric authentication" OR biometrics) AND (citizenship OR "social protection" OR "public distribution system" OR welfare OR "cash transfers" OR "state capacity" OR "voter registration" OR NREGA OR MGNREGA OR pensions)'
     screen:
-      require: ['aadhaar|\buid\b|digital id|digital identi|national id|identity card|id card|identity document|identification|biometric|public infrastructure|india stack|digital public goods|id4d']
+      require: ['aadhaar|\buid\b|unique identi\w+|digital id\w*|digital identit\w*|national id\w*|identity cards?|\bid cards?|identity documents?|identification (systems?|cards?|numbers?|documents?|programmes?|programs?|projects?)|biometric\w*|digital public (infrastructure|goods)|india stack|id4d|identification for development|self-sovereign identit\w*', 'state|citizen\w*|welfare|government|public|polic\w*|social protection|surveillance|governance|inclusion|exclusion|rights?|india|migra\w*|border']
       flag: ['\b(fingerprint recognition|iris recognition|finger-?vein|palmprint|gait recognition|liveness detection|presentation attack|zero-knowledge|blockchain-based|forensic odontology|denture)\b']
   B6:
     domain: B
@@ -400,7 +404,7 @@ themes:
       - '(platformization OR platformisation) AND (city OR cities OR urban)'
       - '"digital platforms" AND (city OR cities OR urban) AND (governance OR space OR labour OR labor OR housing OR regulation)'
     screen:
-      require: ['platform|airbnb|uber|ride-?hail|delivery app', 'urban|city|cities|municipal|neighbou?rhood|street|metropol']
+      require: ['platform urbanism|platform urbani[sz]ation|platform cit(y|ies)|platformi[sz]\w*|digital platforms?|(urban|city|cities|municipal) platforms?|city[- ]as[- ]a[- ]platform|airbnb|\buber\b|ride-?hail\w*|short-term rentals?|on-demand|food[- ]deliver\w*|gig (economy|work)', 'urban|city|cities|municipal|neighbou?rhood|street|metropol']
       flag: ['\b(urban data platform|iot platform|platform architecture|middleware|interoperab)\w*']
   C3:
     domain: C

@@ -6,7 +6,7 @@ with the exact query, parameters, canonical OQL and total count from the respons
 are then fetched one by one from the public API by scripts/fetch_works.py and the fetched year
 is checked against the year recorded here.
 
-Usage: python3 scripts/record_search.py THEME SLICE TOTAL "OQL" "W1:2019 W2:2020 ..."
+Usage: python3 scripts/record_search.py THEME SLICE TOTAL "OQL" "W1:2019 W2:2020 ..." [PAGE]
 (use year 0 for a work the response listed without a year)
 """
 import datetime as dt
@@ -20,6 +20,7 @@ from build_search import load, search_string  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 
 theme, sl, total, oql, ids = sys.argv[1:6]
+page = int(sys.argv[6]) if len(sys.argv) > 6 else 1
 cfg = load()
 results = []
 for tok in ids.split():
@@ -36,10 +37,11 @@ out = {
     "search_in": "title_abstract_keywords",
     **cfg["slices"][sl],
     "oql": oql,
+    "page": page,
     "total_results": int(total),
     "retrieved": dt.date.today().isoformat(),
     "results": results,
 }
-p = ROOT / "data" / "raw" / "searches" / f"{theme}_{sl}.json"
+p = ROOT / "data" / "raw" / "searches" / (f"{theme}_{sl}.json" if page == 1 else f"{theme}_{sl}_p{page}.json")
 p.write_text(json.dumps(out, indent=1))
 print(p.name, len(results), "ids; total", total)

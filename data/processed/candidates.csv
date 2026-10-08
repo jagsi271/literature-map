@@ -1,0 +1,551 @@
+openalex_id,theme,slice,rank,title,year,type,cited_by,has_abstract,decision,score,reason,final
+W4312514990,A9,india,1,"PUBLICNESS OF PUBLIC SPACES IN METROPOLITAN CITY OF A DEVELOPING COUNTRY: THE CASE OF LAHORE, PAKISTAN",2022,article,1,True,include,6,rules,include
+W2955220964,A9,india,2,"Everyday Urbanism, An Alternate Approach to Urban Public Space : Promoting Sustainable Lifestyles in Chennai, India",2012,dissertation,0,True,include,6,rules,include
+W3181114874,A9,india,3,"Safe in the City? Negotiating safety, public space and the male gaze in Kolkata, India",2021,article,55,True,include,6,rules,include
+W2955343688,A9,india,4,"Streets as Public Spaces: Lessons from Street Vending in Ahmedabad, India",2019,article,45,True,include,6,rules,include
+W4299993025,A9,india,5,Public Space and Life in an Indian City: The Politics of Space in Bangalore.,2014,dissertation,5,True,include,6,rules,include
+W4281643606,A9,india,6,Publicness of Newly Redeveloped Public Spaces of Dhaka South City Corporation Area,2022,article,1,True,include,6,rules,include
+W2049763581,A9,india,7,Dhaka and the contestation over the public space,2009,article,7,True,include,5,rules,include
+W4366270278,A9,india,8,Access to Public Spaces in Indian Cities: An Opportunistic Model,2023,book-chapter,0,True,include,6,rules,include
+W2766546903,A9,india,9,Ruptured space and spatial estrangement: (Un)making of public space in Kathmandu,2017,article,11,True,include,6,rules,include
+W2891408190,A9,india,10,The Street Vendors Act and the right to public space in Mumbai,2018,article,17,True,include,5,rules,include
+W4285415740,A9,india,11,The Mundane and (Extra)Ordinary Public Spaces in India: Examining the Impact of the COVID-19 Pandemic Through an Everyday Lens in Chennai City,2021,book-chapter,0,True,include,6,rules,include
+W2964393930,A9,india,12,Public space and citizenship in Mumbai,2019,article,4,True,include,5,rules,include
+W3215464889,A9,india,13,PUBLIC VS PRIVATE SECTOR OWNED URBAN PUBLIC SPACE PERFORMANCE IN TERMS OF USER PERCEPTION IN CITY OF COLOMBO,2021,conference-paper,2,True,include,6,rules,include
+W2954324003,A9,india,14,"Women’s Safety and Public Spaces: Lessons from the Sabarmati Riverfront, India",2019,article,55,True,include,6,rules,include
+W4312836576,A9,india,15,Informality and the Production of Publicness in India,2022,book-chapter,1,False,borderline,3,context terms missing | manual: publicness in India,include
+W1584679655,A9,india,16,Designing Indian streets as social public spaces : contextual design and planning in Bangalore,2014,dissertation,0,True,borderline,3,stub abstract (possible book review) | manual: thesis on Indian streets as public space,include
+W4383816347,A9,india,17,"Unpacking Urban Environmental Visions and Contestations of Street Vendors in Kolkata, West Bengal",2023,article,2,False,borderline,0,core concept missing | manual: street vendors' contestation of urban space (also A10),include
+W2901390278,A9,india,18,"The Politics of Illegality: Mumbai Hawkers, Public Space and the Everyday Life of the Law",2012,book-chapter,10,True,borderline,4,"stub abstract (possible book review) | manual: hawkers and public space, Mumbai",include
+W4290039801,A9,india,19,Park Politics in a Postcolonial Indian City: Planning (and) Public Space in Bangalore,2022,article,2,True,include,5,rules,include
+W3167123494,A9,india,20,Public space and livelihood security in the urban economy: the case of street vendors in Mumbai,2014,article,0,False,borderline,3,no abstract | manual: public space and street vending,include
+W2170388076,A9,india,21,"Guardians of the Bourgeois City: Citizenship, Public Space, and Middle–Class Activism in Mumbai",2009,article,142,True,include,5,rules,include
+W2890816948,A9,india,22,"The Slow Boil: Street Food, Rights and Public Space in Mumbai",2018,article,4,True,borderline,4,"stub abstract (possible book review) | manual: book review (South Asia, pp. 685-686) of Anjaria 2016; the book itself is W2971954793",exclude
+W4413581285,A9,india,23,"Rethinking ‘Aesthetic Environments’ in Cities: Politics, Resistance, and Informal Street Vending in Kolkata, West Bengal",2025,conference-paper,0,True,borderline,1,"core concept mentioned once | manual: streets, vending and urban aesthetics",include
+W4399441939,A9,india,24,CRAFTING INDIAN MARKETS: THE ART OF BLURRING THE BOUNDARIES OF PUBLICNESS CASE OF DELHI,2024,article,0,True,include,6,rules,include
+W7160870685,A9,india,25,Public Spaces and Street Vendors in Mumbai A Theoretical Understanding of Urban Reciprocity,2024,conference-paper,0,True,include,6,rules,include
+W4224253765,A9,india,26,Simulating the “city of joy”: state choreography and the re-appropriation of public spaces in Kolkata,2022,article,8,True,include,4,rules,include
+W7119150781,A9,india,27,"Street vending as urban inhabitation: materialities, epistemes, and city-making in Karachi and Mumbai",2026,article,1,True,borderline,1,core concept mentioned once | manual: street vending as urban inhabitation,include
+W7165162535,A9,india,28,"Hawkers, Footpaths and the City: Informality, Urban Space, and Life in Kolkata",2026,article,0,True,include,3,rules,include
+W3047234866,A9,india,29,To Whom Does the City Belong? Obstacles to Right to the City for the Urban Poor in Bangladesh,2020,article,35,True,include,6,rules,include
+W4392164286,A9,india,30,"Reclaiming Public Spaces in Post-pandemic India (Kolkata): Activist Theatre, Gender and a Resurgence of the Marginal",2024,article,0,True,include,3,rules,include
+W2971954793,A9,india,31,"The Slow Boil: Street Food, Rights and Public Space in Mumbai",2016,article,69,False,borderline,3,no abstract | manual: street food and public space,include
+W7219447621,A9,india,32,ENTRE CALLES Y RASCACIELOS: ESTUDIO DEL ESPACIO PÚBLICO EN MUMBAI,2025,dissertation,0,True,exclude,0,core concept missing,exclude
+W4382120162,A9,india,33,"Commoning and Territoriality in the Public Space “Plasma” of Historical Cities: Investigating Emplaced Network Dynamics in Bhaktapur, Kathmandu Valley, Nepal",2023,conference-paper,0,False,borderline,3,"no abstract | manual: public space commoning, Kathmandu",include
+W2596810273,A9,india,34,"Reclaiming Traffic Influenced Urban Residual Spaces for the Public in Colombo, Sri Lanka",2017,article,6,True,exclude,0,core concept missing,exclude
+W4386155199,A9,india,35,Understanding vitality of public space: A review with an example of capital city Kathmandu in Nepal,2023,article,14,False,borderline,3,no abstract | manual: public space vitality,include
+W1924685162,A9,india,36,Spaces for engagement in the city of Mumbai : rethinking parks and public spaces in congested cities,2015,dissertation,0,False,borderline,3,"no abstract | manual: parks and public spaces, Mumbai",include
+W3007872607,A9,india,37,Defending Frivolous Fun: Feminist Acts of Claiming Public Spaces in South Asia,2020,article,36,True,include,4,rules,include
+W7213349494,A9,india,38,The City Through Her Eyes: Gender-Based Harassment in Public Spaces in Urban India,2026,preprint,0,False,borderline,3,no abstract | manual: harassment in public spaces,include
+W2182975348,A9,india,39,"Global Flows or Rural–Urban Connections? Temporality, Public Spaces and Heterotopias in Globalising Mumbai",2017,book-chapter,4,False,borderline,3,"no abstract | manual: public spaces, Mumbai",include
+W4317036532,A9,india,40,"Space, the right to the city and informality",2023,book-chapter,0,True,include,6,rules,include
+W7213122096,A9,india,41,The City Through Her Eyes: Gender-Based Harassment in Public Spaces in Urban India,2026,report,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: harassment in public spaces (flag was 'victimization' wording),include
+W4401181410,A9,india,42,Assessing the Degree of Publicness in Streets,2024,conference-paper,1,True,include,6,rules,include
+W3086011530,A9,india,43,Informal laneway encroachment: Reassessing public/private interface transformation in urban villages,2020,article,30,False,borderline,0,core concept missing | manual: public/private interface of lanes,include
+W4296834042,A9,india,44,'Delhi is a hopeful place for me!': young middle-class women reclaiming the Indian city,2022,article,2,True,borderline,1,"core concept mentioned once | manual: women's claims to public space, Delhi",include
+W4414399574,A9,india,45,‘No Place for us on Footpaths’: Exploring Walkability Challenges of Older Men in India and Bangladesh,2025,article,1,True,borderline,1,core concept mentioned once | manual: footpaths as public space,include
+W1238650037,A9,india,46,On Design and Politics of Co-producing Public Space: The Long Marches and the Reincarnation of the ‘Forecourt’ of the Pakistani Nation,2013,article,5,True,include,6,rules,include
+W7168385685,A9,india,47,"Decoding the role of graffiti and street art as a safety tool in public spaces of Bengaluru, India",2026,conference-paper,0,True,include,3,rules,include
+W7131298314,A9,india,48,Street Vending and the Right to the City,2026,book,0,True,include,6,rules,include
+W4401767863,A9,india,49,"Streets in Motion: The Making of Infrastructure, Property, and Political Culture in Twentieth‐century Calcutta. Ritajyoti Bandyopadhyay. Cambridge University Press, Cambridge, UK, 2022, pp. xiv + 305. ISBN 978‐1‐009‐10011‐3 (hbk).",2024,book-review,0,True,exclude,0,type book-review,exclude
+W2567448509,A9,india,50,"Regulating Access and Mobility of Single Women in a “World Class”-city: Gender and Inequality in Delhi, India",2016,book-chapter,7,True,include,2,rules,include
+W2049844255,A9,landmarks,1,"Code of the Street: Decency, Violence, and the Moral Life of the Inner City",2001,article,3634,True,borderline,1,"core concept mentioned once | manual: street-culture criminology, not public space as such",exclude
+W4230180911,A9,landmarks,2,Notes Toward a Performative Theory of Assembly,2015,book,2667,True,borderline,1,core concept mentioned once | manual: public assembly and public space (theory),include
+W2153492338,A9,landmarks,3,Systematic Social Observation of Public Spaces: A New Look at Disorder in Urban Neighborhoods,1999,article,2500,True,include,5,rules,include
+W1978289341,A9,landmarks,4,Sex in Public,1998,article,2012,False,borderline,0,core concept missing | manual: queer publics and publicness,include
+W1538435250,A9,landmarks,5,The social life of small urban spaces,1980,book,1947,False,borderline,0,core concept missing | manual: classic study of small urban public spaces,include
+W1573302411,A9,landmarks,6,The right to the city: social justice and the fight for public space,2003,book-review,1521,True,exclude,0,type book-review,exclude
+W4206913056,A9,landmarks,7,Present Pasts,2003,book,1372,True,borderline,1,"core concept mentioned once | manual: urban memory/heritage, not public space (A13)",exclude
+W1599035031,A9,landmarks,8,Fixing broken windows: restoring order and reducing crime in our communities,1997,book-review,1314,True,exclude,0,type book-review,exclude
+W2016802582,A9,landmarks,9,"Making a city: Urbanity, vitality and urban design",1998,article,1291,True,borderline,1,core concept mentioned once | manual: urban vitality and design of public life,include
+W1533737351,A9,landmarks,10,Present Pasts: Urban Palimpsests and the Politics of Memory,2003,article,1283,True,borderline,1,"core concept mentioned once | manual: urban memory/heritage, not public space (A13)",exclude
+W2145688382,A9,landmarks,11,The Global Epidemic of Obesity: An Overview,2007,article,1258,True,borderline,2,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: obesity epidemiology,exclude
+W1975406400,A9,landmarks,12,Rethinking Civil Society: Toward Democratic Consolidation,1994,article,1203,True,borderline,1,core concept mentioned once | manual: civil society/democratisation,exclude
+W1551116468,A9,landmarks,13,Life between buildings: Using public space,1980,article,1152,True,include,6,rules,include
+W2164067400,A9,landmarks,14,"Boots of Leather, Slippers of Gold: The History of a Lesbian Community.",1994,article,1028,True,borderline,1,"core concept mentioned once | manual: community history, public space marginal",exclude
+W2111255034,A9,landmarks,15,"Streetscape greenery and health: Stress, social cohesion and physical activity as mediators",2013,article,1004,False,borderline,0,core concept missing | manual: health study of streetscape greenery,exclude
+W4280596958,A9,landmarks,16,Public places urban spaces: the dimensions of urban design,2022,book-review,979,True,exclude,0,type book-review,exclude
+W4247994973,A9,landmarks,17,Variations on a Theme Park: The New American City and the End of Public Space,1994,article,903,False,borderline,3,"no abstract | manual: end of public space, theme-park city",include
+W2127262410,A9,landmarks,18,"Semiotic Landscapes: Language, Image, Space",2010,article,894,True,include,2,rules,include
+W3157547930,A9,landmarks,19,Urban planning and quality of life: A review of pathways linking the built environment to subjective well-being,2021,article,886,True,include,2,rules,include
+W2089285733,A9,landmarks,20,Linguistic Landscape as Symbolic Construction of the Public Space: The Case of Israel,2006,article,882,True,include,5,rules,include
+W1982083802,A9,landmarks,21,The Right to the City: Social Justice and the Fight for Public Space,2004,article,860,True,borderline,5,"stub abstract (possible book review) | manual: book review (Annals, pp. 427-428) of Mitchell 2003",exclude
+W2098247491,A9,landmarks,22,The City and the Car,2000,article,851,True,borderline,1,core concept mentioned once | manual: automobility (A8),exclude
+W1981970169,A9,landmarks,23,"City of Walls: Crime, Segregation, and Citizenship in São Paulo",2000,book,846,True,include,3,rules,include
+W2076362506,A9,landmarks,24,The Right to the City: Social Justice and the Fight for Public Space,2004,article,791,False,borderline,3,no abstract | manual: book review (Contemporary Sociology) of Mitchell 2003,exclude
+W1971165965,A9,landmarks,25,Variations on a Theme Park: The New American City and the End of Public Space,1994,book-review,759,False,exclude,0,type book-review,exclude
+W2063046680,A9,landmarks,26,The Annihilation of Space by Law: The Roots and Implications of Anti‐Homeless Laws in the United States,1997,article,699,True,include,2,rules,include
+W2170523061,A9,landmarks,27,Urban open space in the 21st century,2002,article,698,False,borderline,0,core concept missing | manual: urban open space use,include
+W1979558360,A9,landmarks,28,Collective culture and urban public space,2008,article,688,True,include,6,rules,include
+W1497153616,A9,landmarks,29,The new urbanism: toward an architecture of community,1994,book-review,681,True,exclude,0,type book-review,exclude
+W1559689324,A9,landmarks,30,How To Study Public Life,2013,book,659,True,include,5,rules,include
+W2098229919,A9,landmarks,31,"How to make a city climate-proof, addressing the urban heat island effect",2011,article,659,False,borderline,0,core concept missing | manual: urban heat island technical,exclude
+W2033146706,A9,landmarks,32,"Gender, Identity and Place: Understanding Feminist Geographies",2001,article,641,True,exclude,0,core concept missing,exclude
+W3046368070,A9,landmarks,33,"The impact of COVID-19 on public space: an early review of the emerging questions – design, perceptions and inequities",2020,article,637,True,include,6,rules,include
+W2554047350,A9,landmarks,34,Vulnerability in Resistance,2016,book,613,True,borderline,1,"core concept mentioned once | manual: protest, vulnerability and public assembly",include
+W2096584907,A9,landmarks,35,Linguistic Landscape,2008,book,606,True,borderline,1,core concept mentioned once | manual: linguistic landscape (sociolinguistics),exclude
+W2165770116,A9,landmarks,36,A World of Strangers: Order and Action in Urban Public Space.,1975,article,601,False,borderline,3,no abstract | manual: book review (Contemporary Sociology) of Lofland 1973,exclude
+W1980237393,A9,landmarks,37,Concrete and Clay,2002,book,600,True,borderline,1,core concept mentioned once | manual: urban nature/infrastructure (A7/A14),exclude
+W1999627027,A9,landmarks,38,Writing Rome: textual approaches to the city,1997,book-review,581,True,exclude,0,type book-review,exclude
+W1978035589,A9,landmarks,39,Advancing sustainable urban transformation,2013,article,577,False,borderline,0,core concept missing | manual: sustainability transitions,exclude
+W1966331280,A9,landmarks,40,Zoning and Property Taxation in a System of Local Governments,1975,article,574,True,borderline,1,core concept mentioned once | manual: local public finance model (A1),exclude
+W3173584553,A9,landmarks,41,How can vegetation protect us from air pollution? A critical review on green spaces' mitigation abilities for air-borne particles from a public health perspective - with implications for urban planning,2021,article,568,True,borderline,1,flag: \b(thermal comfort|microclimate|air qual | manual: air-pollution vegetation review,exclude
+W2113795003,A9,landmarks,42,It all used to be better? Different generations on continuity and change in urban children's daily use of space,2005,article,550,True,borderline,1,core concept mentioned once | manual: children's use of urban public space,include
+W4211179209,A9,landmarks,43,Urban sprawl and public health,2002,article,545,True,borderline,1,core concept mentioned once | manual: public health and sprawl,exclude
+W2950589030,A9,landmarks,44,Social infrastructure and the public life of cities: Studying urban sociality and public spaces,2019,article,539,True,include,6,rules,include
+W2137042736,A9,landmarks,45,Where Does Community Grow?,1997,article,530,True,borderline,1,core concept mentioned once | manual: use of outdoor public spaces in public housing,include
+W2084995582,A9,landmarks,46,"Accessibility and usability: Green space preferences, perceptions, and barriers in a rapidly urbanizing city in Latin America",2012,article,518,False,borderline,0,core concept missing | manual: access to and use of green public space,include
+W2115195350,A9,landmarks,47,Acoustic comfort evaluation in urban open public spaces,2004,article,516,False,borderline,3,no abstract | manual: acoustic engineering,exclude
+W1993029256,A9,landmarks,48,The conscience of the eye: the design and social life of cities,1991,book-review,513,True,exclude,0,type book-review,exclude
+W2156544967,A9,landmarks,49,Healthy Places: Exploring the Evidence,2003,article,505,True,borderline,1,core concept mentioned once | manual: public health and place,exclude
+W571814998,A9,landmarks,50,The Cultural Geography Reader,2008,book,474,True,borderline,1,core concept mentioned once | manual: general reader,exclude
+W1943640755,A9,landmarks,1,Cities within the City: Do‐It‐Yourself Urbanism and the Right to the City,2013,article,471,True,include,4,rules,include
+W2067524849,A9,landmarks,2,ROUTINE ACTIVITIES AND CRIME PREVENTION IN THE DEVELOPINGMETROPOLIS*,1987,article,465,True,exclude,0,core concept missing,exclude
+W2106223989,A9,landmarks,3,"It's Mine, Don't Touch!",2008,conference-paper,461,True,borderline,1,core concept mentioned once | manual: interactive display use in public space (HCI),include
+W2124465616,A9,landmarks,4,The Public Realm,2017,book,460,True,include,6,rules,include
+W2973100169,A9,landmarks,5,Changing the urban design of cities for health: The superblock model,2019,article,457,True,borderline,1,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: health impact model of superblocks,exclude
+W1519651309,A9,landmarks,6,Defensible Space: People and Design in the Violent City,1973,book,455,False,borderline,0,"core concept missing | manual: crime-prevention design (defensible space), not public space per se",exclude
+W2056589086,A9,landmarks,7,City: Rediscovering the Center,1991,article,452,True,exclude,0,core concept missing,exclude
+W2416178186,A9,landmarks,8,Car free cities: Pathway to healthy urban living,2016,article,450,False,borderline,0,core concept missing | manual: health and car-free cities,exclude
+W2054295250,A9,landmarks,9,Racial and Socioeconomic Disparities in Heat-Related Health Effects and Their Mechanisms: a Review,2014,article,447,False,borderline,0,core concept missing | manual: heat-health epidemiology,exclude
+W417234214,A9,landmarks,10,The ugly laws: disability in public,2010,book-review,444,True,exclude,0,type book-review,exclude
+W2031542882,A9,landmarks,11,The Future of Public Space:Beyond Invented Streets and Reinvented Places,2001,article,440,True,include,6,rules,include
+W608927256,A9,landmarks,12,The one and the many: contemporary collaborative art in a global context,2012,book-review,429,True,exclude,0,type book-review,exclude
+W8604946,A9,landmarks,13,Loose Space : Possibility and Diversity in Urban Life,2006,article,423,True,include,3,rules,include
+W2052535574,A9,landmarks,14,Children's Independent Spatial Mobility in the Urban Public Realm,2000,article,423,True,include,6,rules,include
+W2169254203,A9,landmarks,15,Evaluating restoration in urban green spaces: Does setting type make a difference?,2014,article,422,False,borderline,0,core concept missing | manual: restorative green space psychology,exclude
+W624303654,A9,landmarks,16,"Walkable City: How Downtown Can Save America, One Step at a Time",2012,book,420,True,borderline,1,core concept mentioned once | manual: walkability and street life (practitioner book),include
+W2888403634,A9,landmarks,17,"Principles for public space design, planning to do better",2018,article,403,True,include,6,rules,include
+W2402984290,A9,landmarks,18,"Living in cities, naturally",2016,article,403,True,borderline,1,core concept mentioned once | manual: urban nature and stress,exclude
+W642358081,A9,landmarks,19,Insurgent Public Space,2010,book,401,True,include,6,rules,include
+W2162134050,A9,landmarks,20,Requirements and design space for interactive public displays,2010,conference-paper,399,True,include,3,rules,include
+W2035829157,A9,landmarks,21,"Cast in Stone: Monuments, Geography, and Nationalism",1995,article,399,True,borderline,1,core concept mentioned once | manual: monuments and public space politics,include
+W609001872,A9,landmarks,22,The sustainable development paradox : urban political economy in the United States and Europe,2007,article,396,True,borderline,1,core concept mentioned once | manual: urban sustainability politics,exclude
+W2163232119,A9,landmarks,23,Domestication by Cappuccino or a Revenge on Urban Space? Control and Empowerment in the Management of Public Spaces,2003,article,391,True,include,6,rules,include
+W2013275119,A9,landmarks,24,CHILDREN SHOULD BE SEEN AND NOT HEARD: THE PRODUCTION AND TRANSGRESSION OF ADULTS' PUBLIC SPACE,1996,article,377,True,include,6,rules,include
+W3047122769,A9,landmarks,25,Senses of place: architectural design for the multisensory mind,2020,article,376,True,borderline,1,flag: \b(thermal comfort|microclimate|air qual | manual: multisensory architecture,exclude
+W2118286956,A9,landmarks,26,Semantic differential analysis of the soundscape in urban open public spaces,2009,article,376,False,borderline,3,no abstract | manual: soundscape engineering,exclude
+W4248051342,A9,landmarks,27,The Public Realm: Exploring the City's Quintessential Social Territory,1999,article,371,False,borderline,3,no abstract | manual: book review (Contemporary Sociology) of Lofland 1998,exclude
+W92216486,A9,landmarks,28,Exploring the effect of the environment on physical activity,2002,article,368,False,borderline,0,core concept missing | manual: physical-activity epidemiology,exclude
+W588878060,A9,landmarks,29,"Celebrating the third place : inspiring stories about the ""great good places"" at the heart of our communities",2001,article,367,True,exclude,0,core concept missing,exclude
+W1514599418,A9,landmarks,30,On the plaza: the politics of public space and culture,2000,book-review,366,True,exclude,0,type book-review,exclude
+W2093331601,A9,landmarks,31,Democracy and the Public Space in Latin America,2009,book,363,True,include,4,rules,include
+W2055153148,A9,landmarks,32,'Bold Walk and Breakings': Women's spatial confidence versus fear of violence,1997,article,357,True,borderline,1,core concept mentioned once | manual: women's fear and use of urban space,include
+W275667357,A9,landmarks,33,Children's Geographies,2004,book,355,True,borderline,1,core concept mentioned once | manual: general children's geographies reader,exclude
+W2004616576,A9,landmarks,34,Prevalence and structural correlates of gender based violence among a prospective cohort of female sex workers,2009,article,353,True,borderline,1,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: epidemiology of violence,exclude
+W2012689303,A9,landmarks,35,Policing and public health: Law enforcement and harm minimization in a street-level drug market,1999,article,352,True,borderline,1,core concept mentioned once | manual: drug-market policing,exclude
+W4292199346,A9,landmarks,36,Situating Legal Consciousness: Experiences and Attitudes of Ordinary Citizens about Law and Street Harassment,2000,article,350,True,borderline,1,core concept mentioned once | manual: street harassment and public speech,include
+W1983624504,A9,landmarks,37,Medicinal and magic plants from a public market in northeastern Brazil,2006,article,348,False,borderline,0,core concept missing | manual: ethnobotany,exclude
+W204012524,A9,landmarks,38,"Out in the Country: Youth, Media, and Queer Visibility in Rural America",2009,article,345,True,borderline,1,core concept mentioned once | manual: rural queer media,exclude
+W3199144102,A9,landmarks,39,"New urban models for more sustainable, liveable and healthier cities post covid19; reducing air pollution, noise and heat island effects and increasing green space and physical activity",2021,article,343,True,borderline,1,flag: \b(thermal comfort|microclimate|air qual | manual: environmental-health planning models,exclude
+W139139059,A9,landmarks,40,"Space, Difference, Everyday Life",2008,book,342,True,include,2,rules,include
+W1495156805,A9,landmarks,41,White flight: Atlanta and the making of modern conservatism,2006,book-review,342,True,exclude,0,type book-review,exclude
+W1506843591,A9,landmarks,42,Maximum City: Bombay Lost and Found,2004,book,338,True,exclude,0,core concept missing,exclude
+W1514552622,A9,landmarks,43,"Hopeful girls, troubled boys: race and gender disparity in urban education",2004,book-review,335,True,exclude,0,type book-review,exclude
+W4232701806,A9,landmarks,44,Pervasive Games,2009,reference-entry,333,True,borderline,1,flag: \b(sensor network|wireless|5g|6g|edge co | manual: pervasive games,exclude
+W2024354472,A9,landmarks,45,The spatial syntax of urban segregation,2007,article,333,False,borderline,0,core concept missing | manual: space syntax of segregation (A12),exclude
+W1528174827,A9,landmarks,46,Publics and the City,2007,book,333,True,borderline,1,core concept mentioned once | manual: publics and the city,include
+W4212829170,A9,landmarks,47,On the Plaza,2000,book,333,True,borderline,1,core concept mentioned once | manual: plaza as public space,include
+W2113892502,A9,landmarks,48,The Place-shaping Continuum: A Theory of Urban Design Process,2013,article,327,True,include,3,rules,include
+W1567386205,A9,landmarks,49,Ambient television: visual culture and public space,2001,book-review,327,True,exclude,0,type book-review,exclude
+W1967972384,A9,landmarks,50,Lively Streets,2007,article,324,True,include,2,rules,include
+W4389094097,A9,recent,1,How public are hybrid public spaces? Assessing publicness of privately owned public spaces in Hamburg,2023,article,11,True,include,6,rules,include
+W4410565988,A9,recent,2,"The end of publicness in Yorubaland? Exploring the privatisation of public space in Ile-Ife, Nigeria",2025,article,1,False,borderline,3,context terms missing | manual: privatisation of public space,include
+W4412436323,A9,recent,3,Managing and navigating Manchester's Privately Owned Public Spaces: Understanding publicness,2025,article,3,True,include,6,rules,include
+W7165138768,A9,recent,4,"How public are they? Privately owned public spaces in Shanghai, China",2026,article,0,True,borderline,6,"context terms missing | manual: POPS, Shanghai",include
+W7167074488,A9,recent,5,Public spaces in an industrial town: what the Covid-19 lockdowns tell us about publicness and everyday urbanism in Vietnam,2026,article,0,True,include,6,rules,include
+W4390105957,A9,recent,6,"PRIVATISATION OF PUBLIC SPACE – CASE STUDY ZAGREB, CROATIA",2023,article,0,True,include,4,rules,include
+W7167128156,A9,recent,7,Public spaces in an industrial town: what the Covid-19 lockdowns tell us about publicness and everyday urbanism in Vietnam,2026,article,0,True,include,6,rules,include
+W4416950495,A9,recent,8,A Critical Review of the Literature on Privately Owned Public Spaces: From Intrinsic Critiques to Systematic Assessment,2025,article,2,True,include,5,rules,include
+W7171348847,A9,recent,9,"Interpreting public space through a publicness–typology approach: An exploratory study of public spaces in Shanghai, China",2026,article,0,True,include,6,rules,include
+W4391507970,A9,recent,10,Assessing the publicness of three streets in ethnically-diverse neighbourhoods,2024,article,2,True,include,6,rules,include
+W4388862193,A9,recent,11,Public space and its publicness in people-oriented urban regeneration: A case study of Shanghai,2023,article,21,True,include,6,rules,include
+W4415043189,A9,recent,12,A ‘space-order’ publicness model: interpreting public space development in Shanghai’s people-oriented urban regeneration,2025,article,2,True,include,6,rules,include
+W7124159641,A9,recent,13,"Private developments, public edges: intermediary spaces and privately-owned public spaces in urban megaprojects in Bangkok",2026,article,0,True,include,5,rules,include
+W7167098793,A9,recent,14,Public spaces in an industrial town: what the Covid-19 lockdowns tell us about publicness and everyday urbanism in Vietnam,2026,article,0,True,include,6,rules,include
+W7207261412,A9,recent,15,Public Space for Public Good: Making Privately Owned Public Spaces in Vancouver More Inclusive and Supportive,2023,article,0,True,include,6,rules,include
+W4387972348,A9,recent,16,"Elton Chan. The Last Urban Frontier. Commodification of Public Space and the Right to the City in Insurgent Hong Kong. Lund University, 2023. PhD Thesis.",2023,article,0,True,include,6,rules,include
+W4396571345,A9,recent,17,Insights about the publicness of public space from the Kamppi area of Helsinki,2024,article,2,True,include,6,rules,include
+W4406099941,A9,recent,18,Exploring the Impact of the Publicness of Public Space in Hong Kong: A Structural Equation Modelling Approach,2025,article,7,True,include,6,rules,include
+W7126896309,A9,recent,19,Reimagining Privately Owned Public Spaces in NYC vs Auckland,2024,dissertation,0,True,include,3,rules,include
+W4226371194,A9,recent,20,"Privatization of public space: stakeholder analysis in shifting the function of public space case study in Kediri city, Indonesia",2022,article,1,True,include,6,rules,include
+W4312514990,A9,recent,21,"PUBLICNESS OF PUBLIC SPACES IN METROPOLITAN CITY OF A DEVELOPING COUNTRY: THE CASE OF LAHORE, PAKISTAN",2022,article,1,True,include,6,rules,include
+W4390942946,A9,recent,22,Post-Public: Contextualizing the Privatization of Public Space,2022,conference-paper,1,True,borderline,6,context terms missing | manual: privatisation of public space,include
+W7135001818,A9,recent,23,Morphological Influence On Publicness In Bandung’s Public Spaces: A Case Study Of Alun-Alun And Cihampelas Walk Mall,2025,dissertation,0,True,include,6,rules,include
+W4401181410,A9,recent,24,Assessing the Degree of Publicness in Streets,2024,conference-paper,1,True,include,6,rules,include
+W7126708936,A9,recent,25,Digital Perceptions: Comparing the Perceptional Difference between Public Spaces and POPS (Privately Owned Public Spaces) Through Online Reviews,2023,dissertation,0,True,include,4,rules,include
+W4416177029,A9,recent,26,Mending Privately Owned Public Spaces,2025,book,0,True,include,4,rules,include
+W4407721118,A9,recent,27,Designing for sociability and the erosion of publicness: how COVID-19 changed public space,2025,article,2,True,include,5,rules,include
+W4405883846,A9,recent,28,Evaluating publicness of public space and its transforming pattern: A case of the inner courtyard at Khulna new market,2024,article,2,True,include,6,rules,include
+W4210910760,A9,recent,29,Do welfare states need privately owned public spaces? The relevance of and need for such spaces in German cities,2022,article,11,True,include,6,rules,include
+W4405123552,A9,recent,30,Citizen Oversight of Public Spaces: Evaluating Public Participation in Managing Privately Owned Public Spaces,2024,article,4,True,include,6,rules,include
+W4388772695,A9,recent,31,Chapter 5. Segregated Public Space and the Right to the City,2023,book-chapter,0,True,include,6,rules,include
+W4281643606,A9,recent,32,Publicness of Newly Redeveloped Public Spaces of Dhaka South City Corporation Area,2022,article,1,True,include,6,rules,include
+W7127045585,A9,recent,33,Public Space Privatization: A Catalyst for Urban Spaces Gentrification,2026,article,1,True,include,6,rules,include
+W4385626213,A9,recent,34,Segregated Public Space and the Right to the City,2023,book-chapter,0,False,borderline,3,no abstract | manual: segregated public space,include
+W4382813902,A9,recent,35,Use or Misuse of Urban Streets? Exploration of Everyday Urbanism in Traditional City Centres,2023,article,5,True,include,6,rules,include
+W4382789181,A9,recent,36,Urban Planning Criteria for Defining Privately Owned Public Spaces (POPS),2023,article,1,True,include,6,rules,include
+W4311260560,A9,recent,37,Compendium of Dimensions for Evaluating Publicness of Public Spaces,2022,article,0,True,include,6,rules,include
+W7128427833,A9,recent,38,Publicness and the City,2026,book-chapter,0,False,borderline,3,no abstract | manual: publicness and the city,include
+W4387718849,A9,recent,39,Evaluating the Publicness Dimension of Public Space with Bibliometric Analysis,2023,article,6,True,include,6,rules,include
+W7141683532,A9,recent,40,Defining the ideal public space: A perspective from the publicness,2026,article,0,False,borderline,3,context terms missing | manual: ideal public space/publicness,include
+W7164205373,A9,recent,41,The digital city and the struggle for urban public spaces: A pragmatic rethinking of public space and digital rights in a postliberal urban future,2026,article,1,True,include,6,rules,include
+W4225625903,A9,recent,42,Evolution of city squares and transformation of publicness,2022,article,4,True,include,6,rules,include
+W4296371893,A9,recent,43,Defining the ideal public space: A perspective from the publicness,2022,article,75,True,include,6,rules,include
+W4400562152,A9,recent,44,Beyond the public space tableau: Insurgent heritage and the right to the city in Bogotá,2023,article,0,True,include,6,rules,include
+W7169659753,A9,recent,45,Designing Publicness,2026,article,0,True,include,6,rules,include
+W4414457694,A9,recent,46,Urban park commercialization and the transformation of public space in Cairo,2025,article,4,True,include,5,rules,include
+W7135337675,A9,recent,47,"Privately Owned Public Places - the Good, the Bad, & the Ugly!",2026,conference-abstract,0,True,include,6,rules,include
+W4318619317,A9,recent,48,Urban mobility infrastructures as public spaces: The uses of Sé subway station in downtown São Paulo,2023,article,20,True,include,6,rules,include
+W4403014504,A9,recent,49,Grassroots Collectives Recover Public Space,2024,book-chapter,0,False,borderline,3,context terms missing | manual: grassroots recovery of public space,include
+W4399441939,A9,recent,50,CRAFTING INDIAN MARKETS: THE ART OF BLURRING THE BOUNDARIES OF PUBLICNESS CASE OF DELHI,2024,article,0,True,include,6,rules,include
+W7204175336,B5,india,1,Digital Public Infrastructure and Evidence-Based Governance: Aadhaar and Direct Benefit Transfer (DBT) in Contemporary India,2026,article,0,True,include,6,rules,include
+W7167943279,B5,india,2,India Stack as Digital Public Infrastructure: A Strategic and Empirical Analysis of Financial Inclusion,2026,article,0,True,include,6,rules,include
+W2568118306,B5,india,3,India’s Aadhaar scheme and the promise of inclusive social protection,2017,article,85,True,include,6,rules,include
+W2771451103,B5,india,4,Impact of Aadhaar in Welfare Programmes,2017,preprint,66,False,borderline,3,no abstract | manual: Aadhaar and welfare,include
+W3132295091,B5,india,5,Biometric Identification Systems for Welfare Distributions: A Case Study of Aadhaar,2020,dissertation,0,True,include,6,rules,include
+W3085619039,B5,india,6,Biometric Infrastructures and the Indian Public Distribution System,2020,article,27,True,include,6,rules,include
+W7204199979,B5,india,7,Digital Public Infrastructure and Evidence-Based Governance: Aadhaar and Direct Benefit Transfer (DBT) in Contemporary India,2026,article,0,True,include,6,rules,include
+W1972431889,B5,india,8,"The Unique Identity (UID) Project, Biometrics and Re-Imagining Governance in India",2014,article,54,True,include,6,rules,include
+W3094080533,B5,india,9,"Digital identity, datafication and social justice: understanding Aadhaar use among informal workers in south India",2020,article,35,True,include,6,rules,include
+W3089366762,B5,india,10,Biometric IDs and the remaking of the Indian (welfare) state,2019,article,2,True,borderline,5,stub abstract (possible book review) | manual: Aadhaar and the welfare state,include
+W3207819680,B5,india,11,Seeing Like an Infrastructure: Low-resolution Citizens and the Aadhaar Identification Project,2021,article,56,True,include,6,rules,include
+W7164888938,B5,india,12,"The Legal Status of Digital Identity in India: Aadhaar, Digital Citizenship, and the Future of Governance",2026,book-chapter,0,True,include,6,rules,include
+W7164596685,B5,india,13,"The Legal Status of Digital Identity in India: Aadhaar, Digital Citizenship, and the Future of Governance",2026,book-chapter,0,True,include,6,rules,include
+W7164587177,B5,india,14,"The Legal Status of Digital Identity in India: Aadhaar, Digital Citizenship, and the Future of Governance",2026,book-chapter,0,True,include,6,rules,include
+W7220260751,B5,india,15,"Evaluating the Role of India Stack in Enhancing Financial Inclusion: A Case Study of UPI and Aadhaar-enabled Services in Delhi, India",2026,dissertation,0,True,include,6,rules,include
+W3084791339,B5,india,16,"Grappling with Aadhaar: Biometrics, Social Identity and the Indian State",2020,article,20,True,include,6,rules,include
+W7154405996,B5,india,17,"Biopolitical Technologies of Control: Aadhaar, NRC, and the Redefinition of Citizenship and State Power in Contemporary India",2026,preprint,0,False,borderline,3,"no abstract | manual: Aadhaar, NRC, citizenship",include
+W2979994823,B5,india,18,Aadhaar and data privacy: biometric identification and anxieties of recognition in India,2019,article,48,True,include,6,rules,include
+W3191631685,B5,india,19,Institutional and Technology Architecture Interplay in the National Identity System of India (Aadhaar) and Implications for an Effective Privacy Regime,2018,preprint,0,True,include,6,rules,include
+W2263409961,B5,india,20,Technochange and the historical bloc: Aadhaar and the computerisation of the Indian public distribution system,2015,conference-paper,0,False,borderline,3,no abstract | manual: Aadhaar and PDS computerisation,include
+W2981899549,B5,india,21,India stack---digital infrastructure as public good,2019,article,48,True,include,4,rules,include
+W7162573878,B5,india,22,"Digital Public Infrastructure and Economic Stability in India: Evidence from UPI, Aadhaar and Direct Benefit Transfers",2026,article,0,True,include,6,rules,include
+W7110600304,B5,india,23,Integrating Biometric Authentication in India's Welfare Programs: Lessons from a Decade of Reforms,,article,0,True,include,6,rules,include
+W3109664060,B5,india,24,"‘Without an Aadhaar card nothing could be done’: a mixed methods study of biometric identification and birth registration for children in Varanasi, India",2020,article,19,True,include,6,rules,include
+W2998300106,B5,india,25,Realizing digital identity in government: Prioritizing design and implementation objectives for Aadhaar in India,2019,article,94,False,borderline,3,no abstract | manual: digital identity in government,include
+W2894173933,B5,india,26,Explaining trust in large biometric infrastructures: A critical realist case study of India's Aadhaar project,2018,article,18,True,include,6,rules,include
+W2946412855,B5,india,27,"Population Meets Database: Aligning Personal, Documentary and Digital Identity in Aadhaar-Enabled India",2019,article,27,True,include,6,rules,include
+W7129387030,B5,india,28,Digital innovation in welfare delivery: a qualitative case study-based assessment of Aadhaar-based automation and rural exclusion in India,2026,book-chapter,0,True,include,6,rules,include
+W2551389452,B5,india,29,India: Unique Identification Authority,2016,book-chapter,1,False,borderline,3,no abstract | manual: UIDAI,include
+W7212031922,B5,india,30,Artificial Intelligence in India's Digital Public Infrastructure: An Economic Analysis of Aadhaar and UPI-Based Financial Inclusion,2026,article,0,True,include,6,rules,include
+W3134944164,B5,india,31,Aadhaar in a Box? Legitimizing Digital Identity in Times of Crisis,2021,article,23,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: digital identity legitimation (flag was 'crisis/health' wording),include
+W2899752787,B5,india,32,"India: Aadhaar Unmasked - The UID Number and Threat of exclusion, and of surveillance – South Asia Citizens Web",2020,article,0,False,borderline,3,no abstract | manual: Aadhaar exclusion and surveillance,include
+W2940830251,B5,india,33,Sinking Under Its Own Weight: Case of Aadhaar Mediated Entitlements in India,2019,conference-paper,1,False,borderline,3,no abstract | manual: Aadhaar-mediated entitlements,include
+W7117454912,B5,india,34,Digital public infrastructure as a driver of financial inclusion in India,2025,article,5,True,include,6,rules,include
+W2971834657,B5,india,35,“Governtrepreneurism” for good governance: The case of Aadhaar and the India Stack,2019,article,40,True,include,6,rules,include
+W2269673929,B5,india,36,"Power, panopticism and surveillance: A panoptic perspective on aadhaar",2014,article,1,True,include,6,rules,include
+W4408462960,B5,india,37,Decoding the Indian data governance model: Relooking at Aadhaar,2025,article,6,True,include,6,rules,include
+W7206209136,B5,india,38,Privacy vs protection : mapping crucial challenges in implementing the ICT4D agenda in Global South - Case analysis of India's Aadhaar program,2021,dissertation,0,True,include,6,rules,include
+W3036785804,B5,india,39,Digital Identity and Exclusion in Welfare,2020,conference-paper,11,True,include,6,rules,include
+W2945288081,B5,india,40,Technologies of Disintermediation in a Mediated State: Civil Society Organisations and India’s Aadhaar Project,2019,article,20,True,include,6,rules,include
+W4404738986,B5,india,41,Decoding the Indian Data Governance Model: Relooking at Aadhaar,2024,preprint,0,False,borderline,3,no abstract | manual: Aadhaar data governance,include
+W7125971017,B5,india,42,What India's Digital Public Infrastructure does Not Yet do: A Comparative Policy Review of Missing Governance Layers,2026,preprint,0,False,borderline,3,no abstract | manual: India DPI governance,include
+W7117969054,B5,india,43,Digital Public Infrastructure as a Driver of Innovation: Global Lessons from the India Stack Experience,2026,conference-paper,0,False,borderline,3,no abstract | manual: India Stack / DPI,include
+W4403510403,B5,india,44,Citizenship in India: Parsing the Complexity of Digital Identity Systems,2024,article,2,True,include,6,rules,include
+W4386951108,B5,india,45,"The digital delivery of welfare services in India: Achievements, anomalies and lessons learnt",2023,book-chapter,2,True,borderline,1,"core concept mentioned once | manual: digital welfare delivery, India",include
+W4295007358,B5,india,46,Digital Public Services: The Development of Biometric Authentication in India,2022,book-chapter,6,True,include,6,rules,include
+W7202163507,B5,india,47,Digital Public Infrastructure and Economic Growth: A Case Study of UPI and DBT in India,2026,article,0,True,include,6,rules,include
+W4365813954,B5,india,48,Stacking up the Benefits: Lessons from India’s Digital Journey,2023,article,52,True,include,3,rules,include
+W4411259158,B5,india,49,"HyperVerge, Aadhaar, and Surveillance Capitalism in India",2025,preprint,2,False,borderline,3,no abstract | manual: Aadhaar and surveillance capitalism,include
+W3201984000,B5,india,50,Digital Identity in India,2021,book-chapter,5,False,borderline,3,no abstract | manual: digital identity in India,include
+W2137295153,B5,landmarks,1,Non-Parametric Estimation of a Multivariate Probability Density,1969,article,1860,True,borderline,1,flag: \b(deep learning|neural network|convolut | manual: statistics paper (keyword-tag noise),exclude
+W584600887,B5,landmarks,2,"Surveillance as social sorting : privacy, risk, and digital discrimination",2003,article,875,True,include,2,rules,include
+W3123192212,B5,landmarks,3,"Sustainability, FinTech and Financial Inclusion",2020,article,729,False,borderline,0,core concept missing | manual: fintech and inclusion (B6),exclude
+W1590591717,B5,landmarks,4,Documenting individual identity : the development of state practices in the modern world,2001,article,656,True,include,2,rules,include
+W235149501,B5,landmarks,5,Fear: Critical Geopolitics and Everyday Life,2016,book,379,True,borderline,1,core concept mentioned once | manual: geopolitics of fear,exclude
+W1487646227,B5,landmarks,6,Beyond Fear: Thinking Sensibly About Security in an Uncertain World,2003,article,372,True,include,2,rules,include
+W89782422,B5,landmarks,7,Cartographic Anxiety: Mapping the Body Politic in India,1994,article,337,True,include,2,rules,include
+W1485497075,B5,landmarks,8,Security and Privacy Issues in E-passports,2006,conference-paper,309,True,include,3,rules,include
+W2924436737,B5,landmarks,9,Cohort Profile: The Henan Rural Cohort: a prospective study of chronic non-communicable diseases,2019,article,283,True,borderline,1,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: epidemiological cohort,exclude
+W2327198637,B5,landmarks,10,E-residency and blockchain,2017,article,271,False,borderline,0,core concept missing | manual: e-residency digital identity (Estonia),include
+W1965629544,B5,landmarks,11,"When Seeing should not be Believing: Photographs, Credit Cards and Fraud",1997,article,271,True,borderline,1,core concept mentioned once | manual: psychology of photo-ID verification,exclude
+W2009404140,B5,landmarks,12,"Digital Epidermalization: Race, Identity and Biometrics",2010,article,254,True,include,6,rules,include
+W2809278515,B5,landmarks,13,Development of Digital Competence in Secondary Education Teachers’ Training,2018,article,233,True,borderline,1,core concept mentioned once | manual: digital competence in education,exclude
+W2132599261,B5,landmarks,14,"‘The body does not lie’: Identity, risk and trust in technoculture",2006,article,222,True,include,3,rules,include
+W3033403581,B5,landmarks,15,A study of higher education students' self-perceived digital competences for learning and everyday life online participation,2020,article,219,True,borderline,1,core concept mentioned once | manual: digital competence in education,exclude
+W2482717051,B5,landmarks,16,"When Biometrics Fail: Gender, Race, and the Technology of Identity",2011,article,197,True,include,6,rules,include
+W2158915143,B5,landmarks,17,Identifying Citizens: ID Cards as Surveillance,2010,article,197,False,borderline,3,no abstract | manual: book review (Contemporary Sociology) of Lyon 2009,exclude
+W2073749353,B5,landmarks,18,"(Dis)qualified bodies: securitization, citizenship and ‘identity management’",2004,article,197,True,include,3,rules,include
+W642710574,B5,landmarks,19,"Global surveillance and policing : borders, security, identity",2005,article,192,True,include,3,rules,include
+W1549851572,B5,landmarks,20,The humanitarian intervention debate,2003,book-chapter,192,True,include,2,rules,include
+W1861271473,B5,landmarks,21,The Contested Politics of Mobility,2010,book,179,True,borderline,1,core concept mentioned once | manual: migration politics,exclude
+W3035522863,B5,landmarks,22,Visual identification of individual Holstein-Friesian cattle via deep metric learning,2021,article,176,False,borderline,0,core concept missing | manual: cattle identification (computer vision),exclude
+W1755767712,B5,landmarks,23,Identification for Development: The Biometrics Revolution,2013,preprint,174,False,borderline,3,"context terms missing | manual: identification for development, biometrics",include
+W2089204780,B5,landmarks,24,"Between Longing and Despair: State, Space, and Subjectivity in Turkey",2007,article,169,True,borderline,1,"core concept mentioned once | manual: state and subjectivity, Turkey",exclude
+W2798307029,B5,landmarks,25,We Are Data: Algorithms and the Making of Our Digital Selves,2017,article,168,True,exclude,0,core concept missing,exclude
+W2205834647,B5,landmarks,26,Patients of the State: The Politics of Waiting in Argentina,2012,article,167,True,borderline,1,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: politics of waiting at state offices (not B5; noted as shortlist-relevant lead),exclude
+W2911794780,B5,landmarks,27,Cohort Profile: Ravansar Non-Communicable Disease cohort study: the first cohort study in a Kurdish population,2019,article,163,True,borderline,2,flag: \b(sensor network|wireless|5g|6g|edge co | manual: epidemiological cohort,exclude
+W613945323,B5,landmarks,28,The privacy advocates: resisting the spread of surveillance,2009,book-review,163,True,exclude,0,type book-review,exclude
+W2773945611,B5,landmarks,29,Tangible Information and Citizen Empowerment: Identification Cards and Food Subsidy Programs in Indonesia,2017,article,161,True,include,3,rules,include
+W2148898778,B5,landmarks,30,Biometric Recognition: An Overview,2012,book-chapter,161,False,borderline,3,context terms missing | manual: biometric recognition engineering overview,exclude
+W2945621989,B5,landmarks,31,Aadhaar: Governing with Biometrics,2019,article,156,True,borderline,5,stub abstract (possible book review) | manual: Aadhaar special-issue introduction,include
+W2012633664,B5,landmarks,32,"A World Destroyed, A Nation Imposed: The 1937 Haitian Massacre in the Dominican Republic",2002,article,150,True,borderline,1,core concept mentioned once | manual: history of massacre,exclude
+W3003033094,B5,landmarks,33,Self-Sovereign Identity in a Globalized World: Credentials-Based Identity Systems as a Driver for Economic Inclusion,2020,article,143,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: self-sovereign identity and inclusion,include
+W2013988101,B5,landmarks,34,Ocular biometrics: A survey of modalities and fusion approaches,2015,article,137,False,borderline,3,context terms missing | manual: ocular biometrics engineering,exclude
+W4234136487,B5,landmarks,35,Autonomy of Migration?,2019,book,129,True,include,3,rules,include
+W4281785662,B5,landmarks,36,The livestock farming digital transformation: implementation of new and emerging technologies using artificial intelligence,2022,article,122,True,borderline,3,flag: \b(deep learning|neural network|convolut | manual: livestock technology,exclude
+W3025611933,B5,landmarks,37,"Digital Resilience Tactics of Syrian Refugees in the Netherlands: Social Media for Social Support, Health, and Identity",2020,article,122,True,borderline,1,core concept mentioned once | manual: refugees' social media use,exclude
+W4206832536,B5,landmarks,38,CattleFaceNet: A cattle face identification approach based on RetinaFace and ArcFace loss,2022,article,117,True,borderline,1,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: cattle face identification,exclude
+W2743557879,B5,landmarks,39,Blockchain Technology as s Support Infrastructure in e-Government,2017,conference-paper,117,False,borderline,0,core concept missing | manual: blockchain e-government (not ID),exclude
+W1968641244,B5,landmarks,40,"Israeli Biopolitics: Closure, Territorialisation and Governmentality in the Occupied Palestinian Territories",2008,article,117,True,borderline,1,"core concept mentioned once | manual: biopolitics of mobility, Palestine",exclude
+W2997320510,B5,landmarks,41,The Rise of Digital Financialisation: The Case of India,2020,article,116,True,borderline,1,core concept mentioned once | manual: digital financialisation built on India Stack (also B6),include
+W2019326222,B5,landmarks,42,User acceptance of Malaysian government multipurpose smartcard applications,2009,article,116,False,borderline,0,core concept missing | manual: national multipurpose smartcard (MyKad),include
+W4232627113,B5,landmarks,43,Making Immigrant Rights Real,2016,book,115,True,borderline,1,core concept mentioned once | manual: immigrant rights,exclude
+W2147766752,B5,landmarks,44,"Surveillance, Security and Social Sorting",2007,article,111,True,borderline,1,core concept mentioned once | manual: surveillance and security (B3),exclude
+W2504351250,B5,landmarks,45,Nationality and Citizenship in Revolutionary France,2000,book,111,True,include,2,rules,include
+W2904942818,B5,landmarks,46,Fintech for Financial Inclusion: A Framework for Digital Financial Transformation,2018,preprint,110,False,borderline,0,core concept missing | manual: fintech framework built on digital ID/e-KYC (also B6),include
+W3019465543,B5,landmarks,47,Livestock classification and counting in quadcopter aerial images using Mask R-CNN,2020,article,109,True,borderline,1,core concept mentioned once | manual: livestock imaging,exclude
+W567840274,B5,landmarks,48,Identifying Citizens: ID Cards as Surveillance,2009,article,108,True,include,4,rules,include
+W2062484215,B5,landmarks,49,Henry Fielding: A Life,1989,book,107,True,exclude,0,core concept missing,exclude
+W2326644835,B5,landmarks,50,"The Invention of the Passport: Surveillance, Citizenship, and the State",2002,article,106,False,borderline,0,core concept missing | manual: book review (Contemporary Sociology) of Torpey 2000,exclude
+W97603265,B5,landmarks,1,Picture password :,2003,report,104,True,exclude,0,core concept missing,exclude
+W2946326213,B5,landmarks,2,Datafying anti-poverty programmes: implications for data justice,2019,article,101,True,include,3,rules,include
+W2152036754,B5,landmarks,3,Municipal ID Cards for Undocumented Immigrants,2014,article,100,True,include,6,rules,include
+W4248279805,B5,landmarks,4,The Privacy Advocates,2008,book,99,True,include,2,rules,include
+W2056981813,B5,landmarks,5,The birth of biometric security,2009,article,98,True,include,6,rules,include
+W1538856014,B5,landmarks,6,India's public distribution system,1997,book,98,True,borderline,1,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: PDS history, no ID content",exclude
+W4239453362,B5,landmarks,7,"Security, Risk and the Biometric State",2010,book,97,True,include,6,rules,include
+W2800197349,B5,landmarks,8,Blockchain for Business: Next-Generation Enterprise Artificial Intelligence Systems,2018,book-chapter,96,False,borderline,0,core concept missing | manual: blockchain business,exclude
+W2998300106,B5,landmarks,9,Realizing digital identity in government: Prioritizing design and implementation objectives for Aadhaar in India,2019,article,94,False,borderline,3,no abstract | manual: digital identity in government,include
+W2955090878,B5,landmarks,10,Give Me a Database and I Will Raise the Nation-State,2019,article,94,True,include,3,rules,include
+W4362466505,B5,landmarks,11,The Ayushman Bharat Digital Mission (ABDM): making of India’s Digital Health Story,2023,article,93,True,borderline,1,core concept mentioned once | manual: digital health ID within India's DPI (ABDM),include
+W3141649780,B5,landmarks,12,Between surveillance and recognition: Rethinking digital identity in aid,2021,editorial,93,True,exclude,0,type editorial,exclude
+W3121307771,B5,landmarks,13,The Identity Challenge in Finance: From Analogue Identity to Digitized Identification to Digital KYC Utilities,2019,article,93,False,borderline,0,core concept missing | manual: digital identity/KYC in finance (also B6),include
+W1930528582,B5,landmarks,14,"Blown to Bits: Your Life, Liberty, and Happiness After the Digital Explosion",2008,article,93,True,exclude,0,core concept missing,exclude
+W2036079615,B5,landmarks,15,The New Front Line: Estonia under Cyberassault,2007,article,93,True,borderline,1,core concept mentioned once | manual: cyberattack on Estonia (B10),exclude
+W2052177397,B5,landmarks,16,On Generalized Tournament Matrices,1970,article,90,True,borderline,1,core concept mentioned once | manual: mathematics (keyword-tag noise),exclude
+W562875555,B5,landmarks,17,Digital Media and Society: An Introduction,2013,article,89,True,exclude,0,core concept missing,exclude
+W2575439008,B5,landmarks,18,"Playing the Identity Card: Surveillance, Security and Identification in Global Perspective",2009,article,89,False,borderline,3,no abstract | manual: book review (Contemporary Sociology) of Bennett & Lyon 2008,exclude
+W2060267793,B5,landmarks,19,Physician Response Rates to Mail and Personal Interview Surveys,1979,article,89,True,borderline,1,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: survey methodology,exclude
+W3207344912,B5,landmarks,20,Data protection regulation,2021,book-chapter,88,True,include,2,rules,include
+W2125817698,B5,landmarks,21,Profile: The Ouagadougou Health and Demographic Surveillance System,2012,article,88,True,borderline,1,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: demographic surveillance site,exclude
+W2952426787,B5,landmarks,22,Unraveling Transparency and Accountability in Blockchain,2019,conference-paper,87,True,borderline,1,core concept mentioned once | manual: blockchain accountability,exclude
+W2204426813,B5,landmarks,23,Bird Station Manual,2002,article,87,True,borderline,1,core concept mentioned once | manual: ornithology,exclude
+W1983215829,B5,landmarks,24,Effects of Food Stamp and TANF Policies on Food Stamp Receipt,2008,article,86,True,borderline,1,"core concept mentioned once | manual: food-stamp policy, no ID content",exclude
+W2568118306,B5,landmarks,25,India’s Aadhaar scheme and the promise of inclusive social protection,2017,article,85,True,include,6,rules,include
+W2944888592,B5,landmarks,26,The ‘Social’ De-Duplicated: On the Aadhaar Platform and the Engineering of Service,2019,article,84,True,include,6,rules,include
+W563896710,B5,landmarks,27,"Security, Insecurity and Migration in Europe",2016,book,82,True,borderline,1,core concept mentioned once | manual: migration securitisation,exclude
+W2048771990,B5,landmarks,28,"BIOMETRICS, IDENTIFICATION AND SURVEILLANCE",2008,article,82,True,include,6,rules,include
+W2000641258,B5,landmarks,29,Privacy features of European eID card specifications,2008,article,82,True,include,3,rules,include
+W1981701827,B5,landmarks,30,Coming to the UK: What do Asylum-Seekers Know About the UK before Arrival?,2006,article,81,True,borderline,1,core concept mentioned once | manual: asylum knowledge,exclude
+W3000889656,B5,landmarks,31,Constraints and benefits of the blockchain use for real estate and property rights,2020,article,78,True,borderline,1,core concept mentioned once | manual: blockchain property registries,exclude
+W4236876610,B5,landmarks,32,Immigration and the War on Crime: Law and Order Politics and the Illegal Immigration Reform and Immigrant Responsibility Act of 1996,2018,article,78,True,borderline,1,core concept mentioned once | manual: immigration law,exclude
+W2542232302,B5,landmarks,33,Online voting system for India based on AADHAAR ID,2013,conference-paper,78,True,include,3,rules,include
+W3121489355,B5,landmarks,34,Advancing E-governance for development: Digital identification and its link to socioeconomic inclusion,2021,article,76,False,borderline,3,no abstract | manual: digital identification and inclusion,include
+W2912673594,B5,landmarks,35,Hacking the Cis-tem,2019,article,76,True,borderline,1,core concept mentioned once | manual: gender markers on government ID,include
+W2069912383,B5,landmarks,36,"Surveillance and identity: discourse, subjectivity and the state",2013,book-review,76,True,exclude,0,type book-review,exclude
+W433868518,B5,landmarks,37,The passport in America: the history of a document,2011,book-review,76,True,exclude,0,type book-review,exclude
+W1969638554,B5,landmarks,38,Electronic identity management in Estonia between market and state governance,2010,article,76,True,include,3,rules,include
+W3129482,B5,landmarks,39,International Migration Law: Developing Paradigms and Key Challenges,2007,book,76,True,borderline,1,core concept mentioned once | manual: migration law,exclude
+W2057950190,B5,landmarks,40,Ethnicising Afghanistan?: inclusion and exclusion in post‐Bonn institution building,2004,article,76,True,borderline,1,core concept mentioned once | manual: Afghan ethnic politics,exclude
+W3216213780,B5,landmarks,41,Automated Muzzle Detection and Biometric Identification via Few-Shot Deep Transfer Learning of Mixed Breed Cattle,2021,article,75,True,include,6,rules,include
+W2618714981,B5,landmarks,42,Citizenship Law in Africa. a Comparative Study,2012,book,75,True,borderline,1,core concept mentioned once | manual: citizenship law (documents marginal),exclude
+W1481199963,B5,landmarks,43,"Security, Risk and the Biometric State: Governing Borders and Bodies",2010,other,75,True,include,6,rules,include
+W2983526922,B5,landmarks,44,Educators’ Perceptions of Student Digital Citizenship Practices,2019,article,74,True,borderline,1,core concept mentioned once | manual: digital citizenship education,exclude
+W2508086296,B5,landmarks,45,"“Money Is Your Government”: Refugees, Mobility, and Unstable Documents in Kenya’s Operation Usalama Watch",2016,article,74,True,include,2,rules,include
+W4366414836,B5,landmarks,46,Verification of Education Credentials on European Blockchain Services Infrastructure (EBSI): Action Research in a Cross-Border Use Case between Belgium and Italy,2023,article,73,True,borderline,1,core concept mentioned once | manual: blockchain credentials,exclude
+W3158400898,B5,landmarks,47,Conceptual and normative approaches to AI governance for a global digital ecosystem supportive of the UN Sustainable Development Goals (SDGs),2021,article,73,True,borderline,1,core concept mentioned once | manual: AI governance,exclude
+W3095849054,B5,landmarks,48,"Fixing State Vision: Interoperability, Biometrics, and Identity Management in the EU",2020,article,72,True,include,5,rules,include
+W1574475636,B5,landmarks,49,Aiding Surveillance: An Exploration of How Development and Humanitarian Aid Initiatives are Enabling Surveillance in Developing Countries,2013,preprint,71,False,borderline,0,core concept missing | manual: aid-funded ID/biometric surveillance,include
+W2080485807,B5,landmarks,50,"Uneven Borders, Coloured (Im)mobilities: ID Cards in Palestine/Israel",2012,article,71,True,include,6,rules,include
+W7167943279,B5,recent,1,India Stack as Digital Public Infrastructure: A Strategic and Empirical Analysis of Financial Inclusion,2026,article,0,True,include,6,rules,include
+W7204175336,B5,recent,2,Digital Public Infrastructure and Evidence-Based Governance: Aadhaar and Direct Benefit Transfer (DBT) in Contemporary India,2026,article,0,True,include,6,rules,include
+W7164888938,B5,recent,3,"The Legal Status of Digital Identity in India: Aadhaar, Digital Citizenship, and the Future of Governance",2026,book-chapter,0,True,include,6,rules,include
+W7164596685,B5,recent,4,"The Legal Status of Digital Identity in India: Aadhaar, Digital Citizenship, and the Future of Governance",2026,book-chapter,0,True,include,6,rules,include
+W7164587177,B5,recent,5,"The Legal Status of Digital Identity in India: Aadhaar, Digital Citizenship, and the Future of Governance",2026,book-chapter,0,True,include,6,rules,include
+W7204199979,B5,recent,6,Digital Public Infrastructure and Evidence-Based Governance: Aadhaar and Direct Benefit Transfer (DBT) in Contemporary India,2026,article,0,True,include,6,rules,include
+W4404558200,B5,recent,7,Marginalized Aadhaar: How the World’s Largest Digital Identification Programme Led to the Exclusion of Marginalized Communities,2022,preprint,2,False,borderline,3,no abstract | manual: Aadhaar exclusion,include
+W7154405996,B5,recent,8,"Biopolitical Technologies of Control: Aadhaar, NRC, and the Redefinition of Citizenship and State Power in Contemporary India",2026,preprint,0,False,borderline,3,"no abstract | manual: Aadhaar, NRC, citizenship",include
+W4408462960,B5,recent,9,Decoding the Indian data governance model: Relooking at Aadhaar,2025,article,6,True,include,6,rules,include
+W7129387030,B5,recent,10,Digital innovation in welfare delivery: a qualitative case study-based assessment of Aadhaar-based automation and rural exclusion in India,2026,book-chapter,0,True,include,6,rules,include
+W7117969054,B5,recent,11,Digital Public Infrastructure as a Driver of Innovation: Global Lessons from the India Stack Experience,2026,conference-paper,0,False,borderline,3,no abstract | manual: India Stack / DPI,include
+W7117454912,B5,recent,12,Digital public infrastructure as a driver of financial inclusion in India,2025,article,5,True,include,6,rules,include
+W4404738986,B5,recent,13,Decoding the Indian Data Governance Model: Relooking at Aadhaar,2024,preprint,0,False,borderline,3,no abstract | manual: Aadhaar data governance,include
+W7125971017,B5,recent,14,What India's Digital Public Infrastructure does Not Yet do: A Comparative Policy Review of Missing Governance Layers,2026,preprint,0,False,borderline,3,no abstract | manual: India DPI governance,include
+W4365813954,B5,recent,15,Stacking up the Benefits: Lessons from India’s Digital Journey,2023,article,52,True,include,3,rules,include
+W7220260751,B5,recent,16,"Evaluating the Role of India Stack in Enhancing Financial Inclusion: A Case Study of UPI and Aadhaar-enabled Services in Delhi, India",2026,dissertation,0,True,include,6,rules,include
+W7155009575,B5,recent,17,"Legal Identity or Digital Control? National Digital ID Systems, Exclusion, and Digital Authoritarian Practices in Uganda",2026,preprint,0,False,borderline,3,"no abstract | manual: national digital ID and exclusion, Uganda",include
+W7128688752,B5,recent,18,The Architecture of Influence: India’s Digital Public Infrastructure and Its Significance,2026,article,0,True,include,6,rules,include
+W4403510403,B5,recent,19,Citizenship in India: Parsing the Complexity of Digital Identity Systems,2024,article,2,True,include,6,rules,include
+W7212031922,B5,recent,20,Artificial Intelligence in India's Digital Public Infrastructure: An Economic Analysis of Aadhaar and UPI-Based Financial Inclusion,2026,article,0,True,include,6,rules,include
+W4386951108,B5,recent,21,"The digital delivery of welfare services in India: Achievements, anomalies and lessons learnt",2023,book-chapter,2,True,borderline,1,"core concept mentioned once | manual: digital welfare delivery, India",include
+W4295007358,B5,recent,22,Digital Public Services: The Development of Biometric Authentication in India,2022,book-chapter,6,True,include,6,rules,include
+W7161638914,B5,recent,23,TRUST: DUAL-FALLBACK BIOMETRIC AUTHENTICATION FOR INCLUSIVE WELFARE DELIVERY IN INDIA'S PUBLIC DISTRIBUTION SYSTEM,2026,article,0,False,borderline,3,"no abstract | manual: biometric authentication in PDS (technical design, welfare context)",include
+W4396897636,B5,recent,24,Debunking the Idea of a Single (Digital) Identifier: The Case of Identification Documents for Transgender Persons in India,2024,article,1,True,include,6,rules,include
+W7165404341,B5,recent,25,ID4D Global Dataset 2025: Trends in Identification for Development,2026,book,0,True,include,6,rules,include
+W4412572483,B5,recent,26,"Digital ID as a governance game-changer in African democracies: A comparative analysis of Ghana, Nigeria, and India",2025,article,1,True,include,6,rules,include
+W7204131863,B5,recent,27,India's Digital Public Infrastructure (DPI) and Digital Sovereignty in the Global Political Economy,2025,article,0,True,include,6,rules,include
+W7171831690,B5,recent,28,Dreams of a Digital India: Imaginaries of the India Stack project,2024,dissertation,0,True,include,6,rules,include
+W4414749976,B5,recent,29,Indirect Discrimination: Huduma Namba (Digital Identification) and the Plight of the Nubian Community in Kenya,2025,preprint,0,False,borderline,3,"context terms missing | manual: digital ID discrimination, Kenya",include
+W4411259158,B5,recent,30,"HyperVerge, Aadhaar, and Surveillance Capitalism in India",2025,preprint,2,False,borderline,3,no abstract | manual: Aadhaar and surveillance capitalism,include
+W7214330276,B5,recent,31,"Digital Public Infrastructure as a Convergence Accelerator for Emerging Economies: Identity, payments, and data rails compressing decades of institutional development",2026,preprint,0,True,include,6,rules,include
+W7163350741,B5,recent,32,"Digital identity, algorithmic-administrative governance and the transformation of social policy provisioning in Ghana: a political economy analysis of digitally mediated welfare systems",2026,article,0,True,include,6,rules,include
+W4391187801,B5,recent,33,Identification for Development (ID4D): Diagnostic of ID Systems in Cameroon,2024,book,0,True,include,6,rules,include
+W7202163507,B5,recent,34,Digital Public Infrastructure and Economic Growth: A Case Study of UPI and DBT in India,2026,article,0,True,include,6,rules,include
+W4412203698,B5,recent,35,Infrastructures of excess: Politics of biometric and data-based citizenship in Pakistan’s cash transfers program,2025,article,0,True,include,3,rules,include
+W7167787818,B5,recent,36,"From Identification to Infrastructure: Digital Identity, Sector Transgressions, and the Governance of Access to Services in Uganda",2026,preprint,0,False,borderline,3,"no abstract | manual: digital identity infrastructure, Uganda",include
+W7157549018,B5,recent,37,Biometrics and Surveillance as a Tool of Tracing Citizenship,2026,article,0,True,include,6,rules,include
+W4415011675,B5,recent,38,India’s digital public infrastructure: Analyzing UPI and Aadhaar in GDP growth and cost optimization,2025,article,0,True,include,6,rules,include
+W7217995035,B5,recent,39,"Legal And Ethical Considerations of Managing Identities, Ranging from Aadhaar to Global Digital Ids",2023,article,0,True,include,6,rules,include
+W4409623556,B5,recent,40,Scalable Digital Solutions from India’s Aadhaar and UPI Frameworks,2025,article,2,True,include,6,rules,include
+W7214320601,B5,recent,41,"Digital Public Infrastructure as a Convergence Accelerator for Emerging Economies: Identity, payments, and data rails compressing decades of institutional development",2026,preprint,0,True,include,6,rules,include
+W7204933344,B5,recent,42,Digital Public Infrastructure and Inclusive Digital Transformation in Indonesia: Insights from India Stack,2026,book-chapter,0,False,borderline,3,"no abstract | manual: DPI, Indonesia",include
+W4307629470,B5,recent,43,Indirect Discrimination: Huduma Namba (Digital Identification) and the Plight of the Nubian Community in Kenya,2022,article,2,True,include,5,rules,include
+W7126063301,B5,recent,44,"Digital Public Infrastructure and Digital Financial Services: Convergence, Landscape and Regulatory Considerations",2026,preprint,1,False,borderline,3,no abstract | manual: DPI and digital financial services,include
+W7155007188,B5,recent,45,Administrative Reach and State Capacity: Interoperability Failures in Nigeria's Digital Identification Infrastructure,2026,preprint,0,False,borderline,3,"no abstract | manual: digital ID and state capacity, Nigeria",include
+W4385413873,B5,recent,46,Biometric Turn and the Quest of Public Interest. Assessing the National Identification Policy in Cameroon,2023,book-chapter,1,False,borderline,3,"no abstract | manual: biometric national ID policy, Cameroon",include
+W7169619394,B5,recent,47,Brokers of citizenship. Justices of the peace as intermediaries in Sierra Leone’s digital identification project,2026,article,0,True,include,5,rules,include
+W7159773702,B5,recent,48,"Digital Identity, Conditional Access, and Human Dignity: A Christian Policy Analysis of Biometric Governance, Surveillance Infrastructure, and Data Justice",2026,article,0,True,include,6,rules,include
+W4403108657,B5,recent,49,Wallet wars or digital public infrastructure? Orchestrating a digital identity data ecosystem from a government perspective,2024,article,28,True,include,6,rules,include
+W7202126283,B5,recent,50,Closing the Last Mile: Building Accountability into AI Driven Public Service Delivery What India's Digital Public Infrastructure Can Teach the Global South,2026,article,0,True,include,5,rules,include
+W3199210739,C2,india,1,"PLATFORMISATION OF RIDE HAILING, FOOD DELIVERY AND DOMESTIC WORK SERVICES IN URBAN INDIA",2021,article,1,True,include,6,rules,include
+W4388581296,C2,india,2,The spatial politics of platformization: Negotiating platform power in everyday taxi driving in Mumbai,2023,article,13,False,borderline,3,"context terms missing | manual: platformisation of taxi driving, Mumbai",include
+W4401101618,C2,india,3,Urban mobilities in Mumbai: Towards worker-centric platformisation beyond ‘urban solutionism’,2024,article,8,True,include,5,rules,include
+W4415064905,C2,india,4,"Unequal taxi geographies: Antagonisms in platform-driven urban restructuring in Delhi, India",2025,article,1,True,include,3,rules,include
+W4408523117,C2,india,5,Parasitic platform urbanism in Dhaka and Melbourne,2025,article,3,True,include,5,rules,include
+W4328050993,C2,india,6,Dispossession by platformization: The rise of on-demand recycling in urban India,2023,article,14,False,borderline,3,"no abstract | manual: platformised recycling, urban India",include
+W4308145596,C2,india,7,Going on a ride with Lefebvre: everyday contestation of platform mobilities in Mumbai,2022,article,2,True,include,3,rules,include
+W4415622542,C2,india,8,Platformization in the southern city: Entrepreneurial volunteering and the suturing of collective life in Hyderabad,2025,article,1,True,include,5,rules,include
+W7211949094,C2,india,9,"Platformisation in Smaller Indian Cities: Informal Institutions, Labour and Technology Adoption in Urban Mobility",2026,article,0,True,include,4,rules,include
+W7154984835,C2,india,10,"Delivering food, navigating stigma: the social experience of gig workers in urban India",2026,article,0,True,include,6,rules,include
+W7118006460,C2,india,11,"Platform Urbanism and Culinary Logistics: Mobility, Infrastructure, and Micro-Entrepreneurship in Post-Digital Kolkata",2026,conference-paper,0,False,borderline,3,"no abstract | manual: platform urbanism and food logistics, Kolkata",include
+W7202174809,C2,india,12,"Algorithmic Governance, Local Government Regulation, And Sustainable Labour Policy: A Structural Equation Modelling Approach To Gig Delivery Workers In South India",2026,article,0,True,include,3,rules,include
+W7203512664,C2,india,13,From subordination to freedom? An ethnography of Bangalore’s auto- rickshaw drivers and ride-hailing economy,2026,dissertation,0,True,include,6,rules,include
+W7159795220,C2,india,14,"Delivering food, navigating stigma: the social experience of gig workers in urban India",2026,preprint,0,False,borderline,3,no abstract | manual: gig workers in urban India (also C15),include
+W7164383969,C2,india,15,"Converging Platforms: Media, Precarity and Everyday Resistance among Urban Gig Workers – A Case Study of Delhi",2026,article,0,True,include,6,rules,include
+W7152371429,C2,india,16,"The digitalization of urban governance in India : platforms, processes and people in Bhubaneswar",2025,dissertation,0,True,borderline,1,"core concept mentioned once | manual: platforms in urban governance, Bhubaneswar (thesis)",include
+W7160061079,C2,india,17,"Delivering food, navigating stigma: the social experience of gig workers in urban India",2026,preprint,0,False,borderline,3,no abstract | manual: gig workers in urban India (preprint version),include
+W3107039429,C2,india,18,Spatiotemporal (In)justice in Digital Platforms: An Analysis of Food-Delivery Platforms in South India,2020,conference-paper,10,False,borderline,3,"context terms missing | manual: food-delivery platforms, spatiotemporal justice",include
+W4413617258,C2,india,19,Design in the ‘hybrid city’: DIY meets platform urbanism in Dhaka’s informal settlements,2016,other,0,False,borderline,3,"no abstract | manual: platform urbanism in informal settlements, Dhaka",include
+W7140141488,C2,india,20,Household platforms as transactional infrastructures: the case of Urban Company,2026,article,1,True,include,2,rules,include
+W7162671924,C2,india,21,From unpaid care work to gig labour: Women and the platform economy in India,2026,article,0,True,borderline,1,"core concept mentioned once | manual: platform economy and women's work, urban India",include
+W4403718723,C2,india,22,"The Rise of Digital Labor Platforms in India: Gig Economy, Labor Rights, and Economic Inequality",2024,preprint,0,True,include,6,rules,include
+W4291824657,C2,india,23,Sustaining urban labour markets: Situating migration and domestic work in India's ‘gig’ economy,2022,article,28,True,include,2,rules,include
+W7128493135,C2,india,24,Informal service labour and digital platforms in India’s marriage economy,2026,article,2,True,include,6,rules,include
+W7154996303,C2,india,25,"India's Shift to the Instant Service Economy: Platform Growth, Urban Consumption, and Socioeconomic Impact",2026,article,0,True,include,3,rules,include
+W7125483078,C2,india,26,Participatory Governance through AI-Powered Digital Platforms: A Comparative Study of Indian States,2026,article,0,True,include,4,rules,include
+W7214944612,C2,india,27,From Informal Labour to Digital Platforms: The Sustainability of Assam's Emerging Gig Economy,2026,article,0,True,include,6,rules,include
+W7208794325,C2,india,28,Learning from the Margin in Platform Urbanism,2026,book-chapter,0,True,include,6,rules,include
+W7167247647,C2,india,29,GIG ECONOMY WORKERS AND LABOUR PROTECTION IN INDIA: REIMAGINING EMPLOYMENT RIGHTS IN THE DIGITAL AGE,2026,article,0,True,include,6,rules,include
+W7167923807,C2,india,30,Socio-Economic and Career Dynamics of Gig Economy Workers in Karnataka: A Conceptual Review of Platform-Based Employment,2026,article,0,True,include,6,rules,include
+W7154062576,C2,india,31,Exploring the Socio - Economic Conditions of Gig Workers in Hyderabad,2026,article,0,True,include,6,rules,include
+W7134130263,C2,india,32,ANALYSIS OF GIG WORKERS IN THE INDIAN LABOUR MARKET WITH SPECIAL REFERENCE TO BENGALURU URBAN,2025,article,0,True,include,6,rules,include
+W3093740643,C2,india,33,Between algorithms and the streets,2020,book-chapter,4,True,include,3,rules,include
+W4413885114,C2,india,34,Command and control governance in the 100 smart cities mission in India: Urban innovation or utopias?,2025,article,10,False,borderline,0,core concept missing | manual: Smart Cities Mission governance (C1),exclude
+W7111788257,C2,india,35,Fairwork India Ratings 2020:Labour Standards in the Gig Economy,2020,other,0,True,include,6,rules,include
+W7134250700,C2,india,36,Youth Participation and Work Experience in India’s Gig Economy: Evidence from Bengaluru,2026,article,0,True,include,6,rules,include
+W4368340770,C2,india,37,Creative digipreneurs: Artistic entrepreneurial practices in platform-mediated space,2023,article,25,True,include,2,rules,include
+W4411750796,C2,india,38,The Gig Economy in India: Economic Empowerment or Precarious Employment?,2025,article,0,True,include,6,rules,include
+W7217542778,C2,india,39,The Penetration of the Gig Economy in Post-Pandemic India: Transforming the Traditional Economic Landscape,2025,article,0,True,include,6,rules,include
+W4410700110,C2,india,40,Platform co-operatives in the age of gig economy: A case study of SEWA cooperative federation,2025,article,0,True,include,6,rules,include
+W2785383861,C2,india,41,Digital Tools for Low-Income Housing in Indian Cities,2017,article,2,True,borderline,1,core concept mentioned once | manual: digital platforms for low-income housing,include
+W7216267893,C2,india,42,"The Mental Health Toll of Gig Work in Pakistan: A Structural Equation Modeling Analysis of Work Intensity, Financial Uncertainty, And Algorithmic Control",2026,article,0,True,include,6,rules,include
+W7160600572,C2,india,43,"Decent Work, Inclusion, and Growth in Gig Workers of India: The Viksit Bharat Vision",2026,article,0,True,include,6,rules,include
+W4403819665,C2,india,44,Social Media and Youth Activism in South Asia: Examining the Role of Digital Platforms in Social Movements in Bangladesh and India,2024,preprint,0,True,include,6,rules,include
+W4416022710,C2,india,45,Gig Workers in India- a Legal Perspective,2025,article,0,True,include,6,rules,include
+W7203723732,C2,india,46,AN ANALYTICAL STUDY OF THE PROBLEMS AND CHALLENGES FACED BY GIG ECONOMY WORKERS AND THEIR IMPACT ON JOB SATISFACTION IN BANGALORE CITY,2026,article,0,True,include,6,rules,include
+W4417043517,C2,india,47,Labor Productivity and Wage Inequality in the Gig Economy: Evidence from Bangladesh and Canada,2025,article,1,True,include,6,rules,include
+W7130941463,C2,india,48,GIG ECONOMY IN INDIA: OPPORTUNITIES AND CHALLENGES,2026,article,0,True,include,6,rules,include
+W7162469001,C2,india,49,"The Platformisation of Performance Traditions: Archiving Nachni Performances on Digital Platforms and the Parallel Economy of YouTubers in Purulia, West Bengal",2026,article,0,True,include,4,rules,include
+W7162301726,C2,india,50,"Digital platforms for micro and small enterprises in India: performance, future of work and sustainability implications",2026,article,0,True,include,6,rules,include
+W4249673087,C2,landmarks,1,The Platform Society,2018,book,2865,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: platform society (urban sectors included); landmark,include
+W2922335598,C2,landmarks,2,The Platform Society: Public Values in a Connective World,2018,book,1219,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: platform society (same DOI as W4249673087),include
+W4234432948,C2,landmarks,3,"Design, When Everybody Designs",2015,book,1218,True,borderline,1,core concept mentioned once | manual: design for social innovation,exclude
+W1149633979,C2,landmarks,4,"Design, When Everybody Designs: An Introduction to Design for Social Innovation",2015,book,837,True,borderline,1,core concept mentioned once | manual: design for social innovation,exclude
+W4285004952,C2,landmarks,5,"The Metaverse as a Virtual Form of Smart Cities: Opportunities and Challenges for Environmental, Economic, and Social Sustainability in Urban Futures",2022,article,684,True,include,3,rules,include
+W2997772599,C2,landmarks,6,Circular ecosystem innovation: An initial set of principles,2019,article,532,False,borderline,0,core concept missing | manual: circular-economy ecosystems,exclude
+W2978834101,C2,landmarks,7,Glitchy vignettes of platform urbanism,2019,article,322,True,include,6,rules,include
+W2946715324,C2,landmarks,8,Questioning mobility as a service: Unanticipated implications for society and governance,2019,article,304,True,borderline,1,core concept mentioned once | manual: MaaS platforms and urban governance (also C9),include
+W4235487284,C2,landmarks,9,Platform Urbanism,2019,book,260,False,borderline,3,no abstract | manual: platform urbanism book,include
+W3002251334,C2,landmarks,10,"Regulate, replicate, and resist – the conjunctural geographies of platform urbanism",2020,article,250,True,include,3,rules,include
+W2755229219,C2,landmarks,11,The rise of on-demand ‘Instant Deliveries’ in European cities,2017,article,232,True,include,6,rules,include
+W2991063027,C2,landmarks,12,Platformization of the Unlikely Creative Class: Kuaishou and Chinese Digital Cultural Production,2019,article,219,True,include,4,rules,include
+W3045097095,C2,landmarks,13,"Infrastructuralization of Tik Tok: transformation, power relationships, and platformization of video entertainment in China",2020,article,215,True,include,3,rules,include
+W2592430679,C2,landmarks,14,The Gig Economy and Contingent Work,2017,article,209,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: occupational-health view of gig work, not urban",exclude
+W2520015019,C2,landmarks,15,City-as-a-Platform: The Rise of Participatory Innovation Platforms in Finnish Cities,2016,article,209,True,include,6,rules,include
+W2964659322,C2,landmarks,16,Negotiating the platform pivot: From participatory digital ecosystems to infrastructures of everyday life,2019,article,199,True,include,3,rules,include
+W4200318025,C2,landmarks,17,Gig work as migrant work: The platformization of migration infrastructure,2021,article,198,True,include,6,rules,include
+W3003313551,C2,landmarks,18,Cyberspace and cityscapes: on the emergence of platform urbanism,2020,article,191,True,include,6,rules,include
+W3212665405,C2,landmarks,19,"Mobile workers, contingent labour: Migration, the gig economy and the multiplication of labour",2021,article,184,True,include,6,rules,include
+W2993701489,C2,landmarks,20,Platform Urbanism: Negotiating Platform Ecosystems in Connected Cities,2019,report,182,True,include,5,rules,include
+W1938174871,C2,landmarks,21,Does Sharing Mean Caring? Regulating Innovation in the Sharing Economy,2015,article,175,True,include,2,rules,include
+W2982535524,C2,landmarks,22,A new institution on the block: On platform urbanism and Airbnb citizenship,2019,article,161,True,include,6,rules,include
+W3005598257,C2,landmarks,23,Platform mobilities and the production of urban space: Toward a typology of platformization trajectories,2020,article,155,True,include,6,rules,include
+W3083379431,C2,landmarks,24,"Temporal arbitrage, fragmented rush, and opportunistic behaviors: The labor politics of time in the platform economy",2020,article,152,True,include,3,rules,include
+W3026200982,C2,landmarks,25,"Cultivating open government data platform ecosystems through governance: Lessons from Buenos Aires, Mexico City and Montevideo",2020,article,149,True,borderline,1,core concept mentioned once | manual: open government data platforms (C5),exclude
+W4288077582,C2,landmarks,26,"The Metaverse as a virtual form of data-driven smart cities: the ethics of the hyper-connectivity, datafication, algorithmization, and platformization of urban society",2022,article,147,True,include,4,rules,include
+W4210399324,C2,landmarks,27,"Platform urbanism in a pandemic: Dark stores, ghost kitchens, and the logistical-urban frontier",2022,article,135,True,include,4,rules,include
+W4290998746,C2,landmarks,28,"The Metaverse as a virtual form of data-driven smart urbanism: platformization and its underlying processes, institutional dimensions, and disruptive impacts",2022,article,132,True,include,6,rules,include
+W2947815373,C2,landmarks,29,"Digital utility: Datafication, regulation, labor, and DiDi’s platformization of urban transport in China",2019,article,129,True,include,6,rules,include
+W3093678459,C2,landmarks,30,Platform urbanism and the Chinese smart city: the co-production and territorialisation of Hangzhou City Brain,2020,article,128,False,borderline,3,"no abstract | manual: platform urbanism, City Brain",include
+W4220722580,C2,landmarks,31,Beyond the smart city: a typology of platform urbanism,2022,article,127,True,include,6,rules,include
+W3007165087,C2,landmarks,32,Platform methods: studying platform urbanism outside the black box,2020,article,122,True,include,4,rules,include
+W3031832953,C2,landmarks,33,Who owns the future city? Phases of technological urbanism and shifts in sovereignty,2020,article,115,True,borderline,1,core concept mentioned once | manual: technological urbanism and platform sovereignty,include
+W4396768445,C2,landmarks,34,"Artificial intelligence of things for synergizing smarter eco-city brain, metabolism, and platform: Pioneering data-driven environmental governance",2024,article,109,True,include,3,rules,include
+W3043305912,C2,landmarks,35,Affective platform urbanism: Changing habits of digital on-demand consumption,2020,article,102,False,borderline,3,no abstract | manual: affective platform urbanism,include
+W4253840475,C2,landmarks,36,Urban Operating Systems,2020,book,97,True,borderline,1,core concept mentioned once | manual: urban operating systems (also C1/C4),include
+W3119938775,C2,landmarks,37,The Evolution of City-as-a-Platform: Smart Urban Development Governance with Collective Knowledge-Based Platform Urbanism,2021,article,94,True,include,6,rules,include
+W3111677101,C2,landmarks,38,Platform governance and the rural–urban divide: Sellers' responses to design change,2020,article,92,True,include,2,rules,include
+W2884655586,C2,landmarks,39,Navigating platform urbanism,2018,article,92,False,borderline,3,no abstract | manual: platform urbanism,include
+W2947538565,C2,landmarks,40,Urbanism Under Google: Lessons from Sidewalk Toronto,2019,preprint,91,False,borderline,0,core concept missing | manual: Sidewalk Toronto (also C1),include
+W2959650448,C2,landmarks,41,Rural digital geographies and new landscapes of social resilience,2019,article,90,False,borderline,0,core concept missing | manual: rural digital geographies,exclude
+W3047087365,C2,landmarks,42,Understanding Sensor Cities: Insights from Technology Giant Company Driven Smart Urbanism Practices,2020,article,88,True,borderline,1,flag: \b(sensor network|wireless|5g|6g|edge co | manual: tech-giant platform urbanism,include
+W3039732243,C2,landmarks,43,"Platform urbanism, smartphone applications and valuing data in a smart city",2020,article,86,True,include,4,rules,include
+W3154347224,C2,landmarks,44,Biopolitical platforms: the perverse virtues of digital labour,2021,article,85,True,include,2,rules,include
+W3027354750,C2,landmarks,45,# BlockSidewalk to Barcelona: Technological sovereignty and the social license to operate smart cities,2020,article,84,True,borderline,1,"core concept mentioned once | manual: technological sovereignty, platform urbanism",include
+W3035564473,C2,landmarks,46,Platform-mediated short-term rentals and gentrification in Madrid,2020,article,77,True,include,5,rules,include
+W3025377650,C2,landmarks,47,Short-term rentals as digitally-mediated tourism gentrification: impacts on housing in New Orleans,2020,article,76,True,include,6,rules,include
+W3012058390,C2,landmarks,48,Mapping Platform Urbanism: Charting the Nuance of the Platform Pivot,2020,article,75,True,borderline,6,flag: \b(urban data platform|iot platform|plat | manual: mapping platform urbanism,include
+W4220839486,C2,landmarks,49,Platform ruralism: Digital platforms and the techno-spatial fix,2022,article,74,False,borderline,3,context terms missing | manual: platform ruralism (explicitly rural),exclude
+W2954329179,C2,landmarks,50,"Emerging platform urbanism in China: Reconfigurations of data, citizenship and materialities",2019,article,72,True,include,6,rules,include
+W4296182860,C2,recent,1,Platformization of Urban Life,2022,book,5,True,include,5,rules,include
+W4393871037,C2,recent,2,Platform Urbanism and “Splintering Amenitization”: An Analysis of Canadian Cities,2024,article,1,True,include,6,rules,include
+W4367680010,C2,recent,3,Silicon Savannahs and motorcycle taxis: A Southern perspective on the frontiers of platform urbanism,2023,article,46,True,include,6,rules,include
+W4220722580,C2,recent,4,Beyond the smart city: a typology of platform urbanism,2022,article,127,True,include,6,rules,include
+W7119772929,C2,recent,5,Handbook of Platform Urbanism,2025,book,3,True,include,4,rules,include
+W7213949144,C2,recent,6,Accumulation by platformization: Digital platforms in urban space as a form of governance and enclosure,2026,article,0,True,include,6,rules,include
+W4297859249,C2,recent,7,Platformization of Urban Life,2022,book,9,True,include,3,rules,include
+W7155501689,C2,recent,8,Spaces of Urban Platformisation,2026,book,0,True,include,6,rules,include
+W7164204273,C2,recent,9,Rethinking Platform Urbanization from the Perspective of Latin American Cities: Theoretical Insights and Empirical Contributions of Regional Research on Airbnb,2026,article,0,True,include,6,rules,include
+W4296177871,C2,recent,10,Platformized Cities and Urban Life,2022,book-chapter,3,False,borderline,3,no abstract | manual: platformised cities,include
+W4210481755,C2,recent,11,Splintering by Proxy: A Reflection on the Spatial Impacts and Distributed Agency of Platform Urbanism,2022,article,17,True,include,6,rules,include
+W7116204708,C2,recent,12,Platform Urbanism and Land-Use Transformation in Shanghai: Dual Neighborhood Impacts of E-Commerce Logistics in Relation to the 2017–2035 Master Plan,2025,article,0,True,include,4,rules,include
+W7106823810,C2,recent,13,"Platform Urbanism and the Fractal City: Deconstructing Gentrification, Megacity Hypertrophy, and the Algorithmic Periphery",2025,article,0,True,include,5,rules,include
+W7168355438,C2,recent,14,"Platform Urbanization: How Digital Platforms (Avito, Yandex, Wildberries) Restructure the Space of Urban Agglomerations",2026,article,1,True,include,6,rules,include
+W4297869793,C2,recent,15,Platformized Cities and Urban Life,2022,book-chapter,2,False,borderline,3,no abstract | manual: platformised cities (second DOI),include
+W7213176381,C2,recent,16,Planning for platform urbanism,2026,article,0,True,include,6,rules,include
+W4403946247,C2,recent,17,"UBER IN EXURBIA : Peripheral Platformization, Post‐Suburbanization and the Public–Private Ridehail Partnership in the Toronto City Region",2024,article,0,True,include,6,rules,include
+W4388581296,C2,recent,18,The spatial politics of platformization: Negotiating platform power in everyday taxi driving in Mumbai,2023,article,13,False,borderline,3,"context terms missing | manual: platformisation of taxi driving, Mumbai",include
+W4213368224,C2,recent,19,Towards alternative platform futures in post-pandemic cities? A case study on platformization and changing socio-spatial relations in on-demand food delivery,2022,article,43,True,include,6,rules,include
+W7128306890,C2,recent,20,"Opportunities or challenges? Upgrading of periphery space with the rise of platform urbanism: Live streaming commerce in Yangtze River Delta, China",2026,article,3,False,borderline,3,"no abstract | manual: platform urbanism, live-streaming commerce",include
+W4390505542,C2,recent,21,Platforms in the city and cities at the service of platforms: An urban perspective on the platform economy and workers’ responses,2023,article,10,True,include,2,rules,include
+W4405023965,C2,recent,22,"Counter-mapping platformization. Rethinking the spatial differentiation of platform control, labor relations and restaurant virtualization in proprietary markets for food-delivery",2024,article,2,True,include,6,rules,include
+W4415622542,C2,recent,23,Platformization in the southern city: Entrepreneurial volunteering and the suturing of collective life in Hyderabad,2025,article,1,True,include,5,rules,include
+W4400084617,C2,recent,24,Digital platforms and the spatial transformation of urban villages in southern China: a case for platform-urban villagism?,2024,article,9,True,include,6,rules,include
+W4380051391,C2,recent,25,The Platformization of Student Housing and the Rise of Mid‐Term Rentals. The Case of Uniplaces in Lisbon,2023,article,23,True,include,5,rules,include
+W4283016326,C2,recent,26,From brick-and-mortar to location-less restaurant: The spatial fixing of on-demand food delivery platformization,2022,article,68,False,borderline,3,context terms missing | manual: spatial fix of food-delivery platforms,include
+W7217234418,C2,recent,27,La plataformización como problema urbano: limitaciones y desafíos en la gobernanza de plataformas,2024,article,0,True,include,2,rules,include
+W7119656903,C2,recent,28,"Platformisation, technical citizenship and making space for rights in the city",2025,book-chapter,0,False,borderline,3,no abstract | manual: platformisation and rights in the city,include
+W7204802596,C2,recent,29,From crisis to governmental fix: platformisation-as-negotiation in authoritarian Vietnam,2026,article,0,True,include,6,rules,include
+W4410311984,C2,recent,30,Localized processes of platformization: The example of Surabaya,2025,article,5,True,include,6,rules,include
+W4296311543,C2,recent,31,"Protest, pandemic, & platformisation in Hong Kong: Towards cities of alternatives",2022,article,18,True,include,4,rules,include
+W7155507327,C2,recent,32,"Platformisation, technical citizenship and making space for rights in the city",2025,book-chapter,0,True,include,6,rules,include
+W4413202214,C2,recent,33,From platform capitalism to strategic place-based platformisation?,2025,article,6,True,include,6,rules,include
+W4292840629,C2,recent,34,"Ciudades, comunicación digital y pospandemia: de las smart cities al urbanismo de plataformas",2022,article,1,True,include,2,rules,include
+W4290998746,C2,recent,35,"The Metaverse as a virtual form of data-driven smart urbanism: platformization and its underlying processes, institutional dimensions, and disruptive impacts",2022,article,132,True,include,6,rules,include
+W4411061774,C2,recent,36,"Conceptualising urban informality in the platform economy: regulation, legitimisation, value extraction and collective agency",2025,article,3,True,include,2,rules,include
+W4407904345,C2,recent,37,Cities and Digital Platforms,2025,book,0,True,include,6,rules,include
+W4288077582,C2,recent,38,"The Metaverse as a virtual form of data-driven smart cities: the ethics of the hyper-connectivity, datafication, algorithmization, and platformization of urban society",2022,article,147,True,include,4,rules,include
+W4210854233,C2,recent,39,Is the COVID‐19 pandemic accelerating the platformisation of the urban economy?,2022,article,12,True,include,6,rules,include
+W4328050993,C2,recent,40,Dispossession by platformization: The rise of on-demand recycling in urban India,2023,article,14,False,borderline,3,"no abstract | manual: platformised recycling, urban India",include
+W4379177110,C2,recent,41,The Platformization of Public Participation: Considerations for Urban Planners Navigating New Engagement Tools,2023,conference-paper,15,False,borderline,3,no abstract | manual: platformisation of public participation (also C12),include
+W7211949094,C2,recent,42,"Platformisation in Smaller Indian Cities: Informal Institutions, Labour and Technology Adoption in Urban Mobility",2026,article,0,True,include,4,rules,include
+W4391501417,C2,recent,43,Urban infrastructure reconfiguration and digital platforms: Who is in control?,2024,article,21,True,include,5,rules,include
+W4386924388,C2,recent,44,Conclusion: On Understanding Situated Platform Urbanism,2023,book-chapter,0,True,include,5,rules,include
+W7166979040,C2,recent,45,"La numérisation de la gouvernance urbaine en Inde : plateformes, processus et personnes, à Bhubaneswar",2025,dissertation,0,True,borderline,1,core concept mentioned once | manual: French-language record of the same thesis as W7152371429,exclude
+W7152371429,C2,recent,46,"The digitalization of urban governance in India : platforms, processes and people in Bhubaneswar",2025,dissertation,0,True,borderline,1,"core concept mentioned once | manual: platforms in urban governance, Bhubaneswar (thesis)",include
+W7216113425,C2,recent,47,Platform Politics and Silicon Savannahs: The rise of on-demand logistics and mobility in Nairobi and Kigali,2022,other,1,True,include,6,rules,include
+W4376137186,C2,recent,48,"The Metaverse as a Virtual Model of Platform Urbanism: Its Converging AIoT, XReality, Neurotech, and Nanobiotech and Their Applications, Challenges, and Risks",2023,article,56,True,include,6,rules,include
+W4308087287,C2,recent,49,Smart City Governance and the challenge of digital platforms within the public sector,2022,conference-paper,7,True,include,5,rules,include
+W4416240257,C2,recent,50,The Virtual City in the Twenty-First Century: Exploring the Role of Digital Platforms in Urban Evolution,2025,book-chapter,0,False,borderline,3,no abstract | manual: digital platforms in urban evolution,include

@@ -1,0 +1,203 @@
+openalex_id,theme,decision,reviewer,note
+W4312836576,A9,include,"Claude (manual review, Stage 1)",publicness in India
+W4383816347,A9,include,"Claude (manual review, Stage 1)",street vendors' contestation of urban space (also A10)
+W3167123494,A9,include,"Claude (manual review, Stage 1)",public space and street vending
+W4413581285,A9,include,"Claude (manual review, Stage 1)","streets, vending and urban aesthetics"
+W7119150781,A9,include,"Claude (manual review, Stage 1)",street vending as urban inhabitation
+W2971954793,A9,include,"Claude (manual review, Stage 1)",street food and public space
+W4382120162,A9,include,"Claude (manual review, Stage 1)","public space commoning, Kathmandu"
+W4386155199,A9,include,"Claude (manual review, Stage 1)",public space vitality
+W1924685162,A9,include,"Claude (manual review, Stage 1)","parks and public spaces, Mumbai"
+W7213349494,A9,include,"Claude (manual review, Stage 1)",harassment in public spaces
+W2182975348,A9,include,"Claude (manual review, Stage 1)","public spaces, Mumbai"
+W7213122096,A9,include,"Claude (manual review, Stage 1)",harassment in public spaces (flag was 'victimization' wording)
+W3086011530,A9,include,"Claude (manual review, Stage 1)",public/private interface of lanes
+W4296834042,A9,include,"Claude (manual review, Stage 1)","women's claims to public space, Delhi"
+W4414399574,A9,include,"Claude (manual review, Stage 1)",footpaths as public space
+W2049844255,A9,exclude,"Claude (manual review, Stage 1)","street-culture criminology, not public space as such"
+W4230180911,A9,include,"Claude (manual review, Stage 1)",public assembly and public space (theory)
+W1978289341,A9,include,"Claude (manual review, Stage 1)",queer publics and publicness
+W1538435250,A9,include,"Claude (manual review, Stage 1)",classic study of small urban public spaces
+W4206913056,A9,exclude,"Claude (manual review, Stage 1)","urban memory/heritage, not public space (A13)"
+W2016802582,A9,include,"Claude (manual review, Stage 1)",urban vitality and design of public life
+W1533737351,A9,exclude,"Claude (manual review, Stage 1)","urban memory/heritage, not public space (A13)"
+W2145688382,A9,exclude,"Claude (manual review, Stage 1)",obesity epidemiology
+W1975406400,A9,exclude,"Claude (manual review, Stage 1)",civil society/democratisation
+W2164067400,A9,exclude,"Claude (manual review, Stage 1)","community history, public space marginal"
+W2111255034,A9,exclude,"Claude (manual review, Stage 1)",health study of streetscape greenery
+W4247994973,A9,include,"Claude (manual review, Stage 1)","end of public space, theme-park city"
+W2098247491,A9,exclude,"Claude (manual review, Stage 1)",automobility (A8)
+W2076362506,A9,exclude,"Claude (manual review, Stage 1)",book review (Contemporary Sociology) of Mitchell 2003
+W2170523061,A9,include,"Claude (manual review, Stage 1)",urban open space use
+W2098229919,A9,exclude,"Claude (manual review, Stage 1)",urban heat island technical
+W2554047350,A9,include,"Claude (manual review, Stage 1)","protest, vulnerability and public assembly"
+W2096584907,A9,exclude,"Claude (manual review, Stage 1)",linguistic landscape (sociolinguistics)
+W2165770116,A9,exclude,"Claude (manual review, Stage 1)",book review (Contemporary Sociology) of Lofland 1973
+W1980237393,A9,exclude,"Claude (manual review, Stage 1)",urban nature/infrastructure (A7/A14)
+W1978035589,A9,exclude,"Claude (manual review, Stage 1)",sustainability transitions
+W1966331280,A9,exclude,"Claude (manual review, Stage 1)",local public finance model (A1)
+W3173584553,A9,exclude,"Claude (manual review, Stage 1)",air-pollution vegetation review
+W2113795003,A9,include,"Claude (manual review, Stage 1)",children's use of urban public space
+W4211179209,A9,exclude,"Claude (manual review, Stage 1)",public health and sprawl
+W2137042736,A9,include,"Claude (manual review, Stage 1)",use of outdoor public spaces in public housing
+W2084995582,A9,include,"Claude (manual review, Stage 1)",access to and use of green public space
+W2115195350,A9,exclude,"Claude (manual review, Stage 1)",acoustic engineering
+W2156544967,A9,exclude,"Claude (manual review, Stage 1)",public health and place
+W571814998,A9,exclude,"Claude (manual review, Stage 1)",general reader
+W4410565988,A9,include,"Claude (manual review, Stage 1)",privatisation of public space
+W7165138768,A9,include,"Claude (manual review, Stage 1)","POPS, Shanghai"
+W4390942946,A9,include,"Claude (manual review, Stage 1)",privatisation of public space
+W4385626213,A9,include,"Claude (manual review, Stage 1)",segregated public space
+W7128427833,A9,include,"Claude (manual review, Stage 1)",publicness and the city
+W7141683532,A9,include,"Claude (manual review, Stage 1)",ideal public space/publicness
+W4403014504,A9,include,"Claude (manual review, Stage 1)",grassroots recovery of public space
+W2771451103,B5,include,"Claude (manual review, Stage 1)",Aadhaar and welfare
+W7154405996,B5,include,"Claude (manual review, Stage 1)","Aadhaar, NRC, citizenship"
+W2263409961,B5,include,"Claude (manual review, Stage 1)",Aadhaar and PDS computerisation
+W2998300106,B5,include,"Claude (manual review, Stage 1)",digital identity in government
+W2551389452,B5,include,"Claude (manual review, Stage 1)",UIDAI
+W3134944164,B5,include,"Claude (manual review, Stage 1)",digital identity legitimation (flag was 'crisis/health' wording)
+W2899752787,B5,include,"Claude (manual review, Stage 1)",Aadhaar exclusion and surveillance
+W2940830251,B5,include,"Claude (manual review, Stage 1)",Aadhaar-mediated entitlements
+W4404738986,B5,include,"Claude (manual review, Stage 1)",Aadhaar data governance
+W7125971017,B5,include,"Claude (manual review, Stage 1)",India DPI governance
+W7117969054,B5,include,"Claude (manual review, Stage 1)",India Stack / DPI
+W4386951108,B5,include,"Claude (manual review, Stage 1)","digital welfare delivery, India"
+W4411259158,B5,include,"Claude (manual review, Stage 1)",Aadhaar and surveillance capitalism
+W3201984000,B5,include,"Claude (manual review, Stage 1)",digital identity in India
+W2137295153,B5,exclude,"Claude (manual review, Stage 1)",statistics paper (keyword-tag noise)
+W3123192212,B5,exclude,"Claude (manual review, Stage 1)",fintech and inclusion (B6)
+W235149501,B5,exclude,"Claude (manual review, Stage 1)",geopolitics of fear
+W2924436737,B5,exclude,"Claude (manual review, Stage 1)",epidemiological cohort
+W2327198637,B5,include,"Claude (manual review, Stage 1)",e-residency digital identity (Estonia)
+W1965629544,B5,exclude,"Claude (manual review, Stage 1)",psychology of photo-ID verification
+W2809278515,B5,exclude,"Claude (manual review, Stage 1)",digital competence in education
+W3033403581,B5,exclude,"Claude (manual review, Stage 1)",digital competence in education
+W2158915143,B5,exclude,"Claude (manual review, Stage 1)",book review (Contemporary Sociology) of Lyon 2009
+W1861271473,B5,exclude,"Claude (manual review, Stage 1)",migration politics
+W3035522863,B5,exclude,"Claude (manual review, Stage 1)",cattle identification (computer vision)
+W1755767712,B5,include,"Claude (manual review, Stage 1)","identification for development, biometrics"
+W2089204780,B5,exclude,"Claude (manual review, Stage 1)","state and subjectivity, Turkey"
+W2205834647,B5,exclude,"Claude (manual review, Stage 1)",politics of waiting at state offices (not B5; noted as shortlist-relevant lead)
+W2911794780,B5,exclude,"Claude (manual review, Stage 1)",epidemiological cohort
+W2148898778,B5,exclude,"Claude (manual review, Stage 1)",biometric recognition engineering overview
+W2012633664,B5,exclude,"Claude (manual review, Stage 1)",history of massacre
+W3003033094,B5,include,"Claude (manual review, Stage 1)",self-sovereign identity and inclusion
+W2013988101,B5,exclude,"Claude (manual review, Stage 1)",ocular biometrics engineering
+W4281785662,B5,exclude,"Claude (manual review, Stage 1)",livestock technology
+W3025611933,B5,exclude,"Claude (manual review, Stage 1)",refugees' social media use
+W4206832536,B5,exclude,"Claude (manual review, Stage 1)",cattle face identification
+W2743557879,B5,exclude,"Claude (manual review, Stage 1)",blockchain e-government (not ID)
+W1968641244,B5,exclude,"Claude (manual review, Stage 1)","biopolitics of mobility, Palestine"
+W2997320510,B5,include,"Claude (manual review, Stage 1)",digital financialisation built on India Stack (also B6)
+W2019326222,B5,include,"Claude (manual review, Stage 1)",national multipurpose smartcard (MyKad)
+W4232627113,B5,exclude,"Claude (manual review, Stage 1)",immigrant rights
+W2147766752,B5,exclude,"Claude (manual review, Stage 1)",surveillance and security (B3)
+W2904942818,B5,include,"Claude (manual review, Stage 1)",fintech framework built on digital ID/e-KYC (also B6)
+W3019465543,B5,exclude,"Claude (manual review, Stage 1)",livestock imaging
+W2326644835,B5,exclude,"Claude (manual review, Stage 1)",book review (Contemporary Sociology) of Torpey 2000
+W4404558200,B5,include,"Claude (manual review, Stage 1)",Aadhaar exclusion
+W7155009575,B5,include,"Claude (manual review, Stage 1)","national digital ID and exclusion, Uganda"
+W7161638914,B5,include,"Claude (manual review, Stage 1)","biometric authentication in PDS (technical design, welfare context)"
+W4414749976,B5,include,"Claude (manual review, Stage 1)","digital ID discrimination, Kenya"
+W7167787818,B5,include,"Claude (manual review, Stage 1)","digital identity infrastructure, Uganda"
+W7204933344,B5,include,"Claude (manual review, Stage 1)","DPI, Indonesia"
+W7126063301,B5,include,"Claude (manual review, Stage 1)",DPI and digital financial services
+W7155007188,B5,include,"Claude (manual review, Stage 1)","digital ID and state capacity, Nigeria"
+W4385413873,B5,include,"Claude (manual review, Stage 1)","biometric national ID policy, Cameroon"
+W4388581296,C2,include,"Claude (manual review, Stage 1)","platformisation of taxi driving, Mumbai"
+W4328050993,C2,include,"Claude (manual review, Stage 1)","platformised recycling, urban India"
+W7118006460,C2,include,"Claude (manual review, Stage 1)","platform urbanism and food logistics, Kolkata"
+W7159795220,C2,include,"Claude (manual review, Stage 1)",gig workers in urban India (also C15)
+W7152371429,C2,include,"Claude (manual review, Stage 1)","platforms in urban governance, Bhubaneswar (thesis)"
+W7160061079,C2,include,"Claude (manual review, Stage 1)",gig workers in urban India (preprint version)
+W3107039429,C2,include,"Claude (manual review, Stage 1)","food-delivery platforms, spatiotemporal justice"
+W4413617258,C2,include,"Claude (manual review, Stage 1)","platform urbanism in informal settlements, Dhaka"
+W7162671924,C2,include,"Claude (manual review, Stage 1)","platform economy and women's work, urban India"
+W4413885114,C2,exclude,"Claude (manual review, Stage 1)",Smart Cities Mission governance (C1)
+W2785383861,C2,include,"Claude (manual review, Stage 1)",digital platforms for low-income housing
+W4249673087,C2,include,"Claude (manual review, Stage 1)",platform society (urban sectors included); landmark
+W2922335598,C2,include,"Claude (manual review, Stage 1)",platform society (same DOI as W4249673087)
+W4234432948,C2,exclude,"Claude (manual review, Stage 1)",design for social innovation
+W1149633979,C2,exclude,"Claude (manual review, Stage 1)",design for social innovation
+W2997772599,C2,exclude,"Claude (manual review, Stage 1)",circular-economy ecosystems
+W2946715324,C2,include,"Claude (manual review, Stage 1)",MaaS platforms and urban governance (also C9)
+W4235487284,C2,include,"Claude (manual review, Stage 1)",platform urbanism book
+W2592430679,C2,exclude,"Claude (manual review, Stage 1)","occupational-health view of gig work, not urban"
+W3026200982,C2,exclude,"Claude (manual review, Stage 1)",open government data platforms (C5)
+W3093678459,C2,include,"Claude (manual review, Stage 1)","platform urbanism, City Brain"
+W3031832953,C2,include,"Claude (manual review, Stage 1)",technological urbanism and platform sovereignty
+W3043305912,C2,include,"Claude (manual review, Stage 1)",affective platform urbanism
+W4253840475,C2,include,"Claude (manual review, Stage 1)",urban operating systems (also C1/C4)
+W2884655586,C2,include,"Claude (manual review, Stage 1)",platform urbanism
+W2947538565,C2,include,"Claude (manual review, Stage 1)",Sidewalk Toronto (also C1)
+W2959650448,C2,exclude,"Claude (manual review, Stage 1)",rural digital geographies
+W3047087365,C2,include,"Claude (manual review, Stage 1)",tech-giant platform urbanism
+W3027354750,C2,include,"Claude (manual review, Stage 1)","technological sovereignty, platform urbanism"
+W3012058390,C2,include,"Claude (manual review, Stage 1)",mapping platform urbanism
+W4220839486,C2,exclude,"Claude (manual review, Stage 1)",platform ruralism (explicitly rural)
+W4296177871,C2,include,"Claude (manual review, Stage 1)",platformised cities
+W4297869793,C2,include,"Claude (manual review, Stage 1)",platformised cities (second DOI)
+W7128306890,C2,include,"Claude (manual review, Stage 1)","platform urbanism, live-streaming commerce"
+W4283016326,C2,include,"Claude (manual review, Stage 1)",spatial fix of food-delivery platforms
+W7119656903,C2,include,"Claude (manual review, Stage 1)",platformisation and rights in the city
+W4379177110,C2,include,"Claude (manual review, Stage 1)",platformisation of public participation (also C12)
+W7166979040,C2,exclude,"Claude (manual review, Stage 1)",French-language record of the same thesis as W7152371429
+W4416240257,C2,include,"Claude (manual review, Stage 1)",digital platforms in urban evolution
+W2106223989,A9,include,"Claude (manual review, Stage 1)",interactive display use in public space (HCI)
+W2973100169,A9,exclude,"Claude (manual review, Stage 1)",health impact model of superblocks
+W1519651309,A9,exclude,"Claude (manual review, Stage 1)","crime-prevention design (defensible space), not public space per se"
+W2416178186,A9,exclude,"Claude (manual review, Stage 1)",health and car-free cities
+W2054295250,A9,exclude,"Claude (manual review, Stage 1)",heat-health epidemiology
+W2169254203,A9,exclude,"Claude (manual review, Stage 1)",restorative green space psychology
+W624303654,A9,include,"Claude (manual review, Stage 1)",walkability and street life (practitioner book)
+W2402984290,A9,exclude,"Claude (manual review, Stage 1)",urban nature and stress
+W2035829157,A9,include,"Claude (manual review, Stage 1)",monuments and public space politics
+W609001872,A9,exclude,"Claude (manual review, Stage 1)",urban sustainability politics
+W3047122769,A9,exclude,"Claude (manual review, Stage 1)",multisensory architecture
+W2118286956,A9,exclude,"Claude (manual review, Stage 1)",soundscape engineering
+W4248051342,A9,exclude,"Claude (manual review, Stage 1)",book review (Contemporary Sociology) of Lofland 1998
+W92216486,A9,exclude,"Claude (manual review, Stage 1)",physical-activity epidemiology
+W2055153148,A9,include,"Claude (manual review, Stage 1)",women's fear and use of urban space
+W275667357,A9,exclude,"Claude (manual review, Stage 1)",general children's geographies reader
+W2004616576,A9,exclude,"Claude (manual review, Stage 1)",epidemiology of violence
+W2012689303,A9,exclude,"Claude (manual review, Stage 1)",drug-market policing
+W4292199346,A9,include,"Claude (manual review, Stage 1)",street harassment and public speech
+W1983624504,A9,exclude,"Claude (manual review, Stage 1)",ethnobotany
+W204012524,A9,exclude,"Claude (manual review, Stage 1)",rural queer media
+W3199144102,A9,exclude,"Claude (manual review, Stage 1)",environmental-health planning models
+W4232701806,A9,exclude,"Claude (manual review, Stage 1)",pervasive games
+W2024354472,A9,exclude,"Claude (manual review, Stage 1)",space syntax of segregation (A12)
+W1528174827,A9,include,"Claude (manual review, Stage 1)",publics and the city
+W4212829170,A9,include,"Claude (manual review, Stage 1)",plaza as public space
+W1538856014,B5,exclude,"Claude (manual review, Stage 1)","PDS history, no ID content"
+W2800197349,B5,exclude,"Claude (manual review, Stage 1)",blockchain business
+W4362466505,B5,include,"Claude (manual review, Stage 1)",digital health ID within India's DPI (ABDM)
+W3121307771,B5,include,"Claude (manual review, Stage 1)",digital identity/KYC in finance (also B6)
+W2036079615,B5,exclude,"Claude (manual review, Stage 1)",cyberattack on Estonia (B10)
+W2052177397,B5,exclude,"Claude (manual review, Stage 1)",mathematics (keyword-tag noise)
+W2575439008,B5,exclude,"Claude (manual review, Stage 1)",book review (Contemporary Sociology) of Bennett & Lyon 2008
+W2060267793,B5,exclude,"Claude (manual review, Stage 1)",survey methodology
+W2125817698,B5,exclude,"Claude (manual review, Stage 1)",demographic surveillance site
+W2952426787,B5,exclude,"Claude (manual review, Stage 1)",blockchain accountability
+W2204426813,B5,exclude,"Claude (manual review, Stage 1)",ornithology
+W1983215829,B5,exclude,"Claude (manual review, Stage 1)","food-stamp policy, no ID content"
+W563896710,B5,exclude,"Claude (manual review, Stage 1)",migration securitisation
+W1981701827,B5,exclude,"Claude (manual review, Stage 1)",asylum knowledge
+W3000889656,B5,exclude,"Claude (manual review, Stage 1)",blockchain property registries
+W4236876610,B5,exclude,"Claude (manual review, Stage 1)",immigration law
+W3121489355,B5,include,"Claude (manual review, Stage 1)",digital identification and inclusion
+W2912673594,B5,include,"Claude (manual review, Stage 1)",gender markers on government ID
+W3129482,B5,exclude,"Claude (manual review, Stage 1)",migration law
+W2057950190,B5,exclude,"Claude (manual review, Stage 1)",Afghan ethnic politics
+W2618714981,B5,exclude,"Claude (manual review, Stage 1)",citizenship law (documents marginal)
+W2983526922,B5,exclude,"Claude (manual review, Stage 1)",digital citizenship education
+W4366414836,B5,exclude,"Claude (manual review, Stage 1)",blockchain credentials
+W3158400898,B5,exclude,"Claude (manual review, Stage 1)",AI governance
+W1574475636,B5,include,"Claude (manual review, Stage 1)",aid-funded ID/biometric surveillance
+W1584679655,A9,include,"Claude (manual review, Stage 1)",thesis on Indian streets as public space
+W2901390278,A9,include,"Claude (manual review, Stage 1)","hawkers and public space, Mumbai"
+W2890816948,A9,exclude,"Claude (manual review, Stage 1)","book review (South Asia, pp. 685-686) of Anjaria 2016; the book itself is W2971954793"
+W1982083802,A9,exclude,"Claude (manual review, Stage 1)","book review (Annals, pp. 427-428) of Mitchell 2003"
+W3089366762,B5,include,"Claude (manual review, Stage 1)",Aadhaar and the welfare state
+W2945621989,B5,include,"Claude (manual review, Stage 1)",Aadhaar special-issue introduction
