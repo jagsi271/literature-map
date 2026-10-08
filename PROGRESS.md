@@ -30,8 +30,12 @@ Read BRIEF.md first. This file says what is done, what is next, and what went wr
   public-management and generic sociology; v2 requires an urban co-term → 63,280). Landmarks
   (63,280), recent (21,102), India (2,060); 50 IDs each, all fetched, 0 ID problems.
 
+- **B5 digital identity & DPI**: queries revised once (v1 matched "state" in "state of the art"
+  and bare "development": 12,035 hits, ~5/50 top results relevant; v2 uses policy co-terms →
+  8,877). Landmarks (8,877), recent (5,271), India (2,833); 50 IDs each, all fetched, 0 ID
+  problems (one work has no year in OpenAlex; recorded as year 0).
+
 ### Next
-- B5 digital identity & DPI: three slices, fetch, commit.
 - Screening (`scripts/screen.py`): rule-based filter + manual review of borderline records.
 - Tagging/record building (`scripts/build_records.py`), spreadsheet structure
   (`scripts/build_xlsx.py`), 50-record precision sample, Stage 1 report. Then stop for approval.
@@ -42,5 +46,10 @@ Read BRIEF.md first. This file says what is done, what is next, and what went wr
   recent and India slices per query string (≈15 each) instead of one OR-combined search.
 - Landmarks sorted by citations pull in highly cited works that only mention the terms
   (e.g. obesity, linguistic landscapes in A9); left for screening to remove.
+- B5 landmarks by citation are still mixed (surveillance classics, fintech, livestock and
+  cohort studies pulled in via keyword tags); B5 recent/India slices contain several Zenodo
+  self-deposits, some posted 2–3 times under different DOIs (deduplicated by title).
+- Random samples of the full B5 result set (not just top 50) are mostly off-topic: total hit
+  counts overstate theme size. Matters for Stage 3 growth figures; see report.
 - OpenAlex lists some books as "book-review" records (Choice Reviews) with the book's
   citations; these are excluded by document type in screening.

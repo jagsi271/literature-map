@@ -272,14 +272,17 @@ themes:
   B5:
     domain: B
     name: Digital identity & digital public infrastructure (DPI)
+    # v2 (pilot): v1 matched "state" in "state of the art" and bare "development", pulling in
+    # biometrics engineering and DNA barcoding (12k hits, ~5/50 relevant in the top 50).
+    # Co-terms are now policy-specific phrases; "national identification" and "legal identity"
+    # dropped (they match national-identity psychology and legal theory).
     queries:
-      - 'Aadhaar OR "India Stack" OR "digital public infrastructure" OR "digital public goods"'
-      - '("digital identity" OR "digital ID" OR "national ID" OR "foundational identity") AND (state OR citizenship OR welfare OR development OR government)'
-      - 'biometric AND (welfare OR citizenship OR identification OR "social protection") AND (state OR government)'
-      - '"identification systems" AND (development OR inclusion OR exclusion)'
+      - 'Aadhaar OR "India Stack" OR "digital public infrastructure" OR "digital public goods" OR "Unique Identification Authority" OR "identification for development" OR ID4D'
+      - '("digital identity" OR "digital ID" OR "digital identification" OR "national ID" OR "national identity card" OR "national identity cards" OR "foundational ID" OR "identity cards" OR "ID cards" OR "identity documents") AND (citizenship OR welfare OR "social protection" OR surveillance OR "public services" OR "financial inclusion" OR government)'
+      - '("biometric identification" OR "biometric registration" OR "biometric ID" OR "biometric authentication" OR biometrics) AND (citizenship OR "social protection" OR "public distribution system" OR welfare OR "cash transfers" OR "state capacity" OR "voter registration" OR NREGA OR MGNREGA OR pensions)'
     screen:
-      require: ['aadhaar|digital id|digital identit|national id|identification|biometric|public infrastructure|india stack|public goods|e-?id\b']
-      flag: ['\b(fingerprint recognition|iris recognition algorithm|liveness detection|self-sovereign identity scheme|zero-knowledge)\b']
+      require: ['aadhaar|\buid\b|digital id|digital identi|national id|identity card|id card|identity document|identification|biometric|public infrastructure|india stack|digital public goods|id4d']
+      flag: ['\b(fingerprint recognition|iris recognition|finger-?vein|palmprint|gait recognition|liveness detection|presentation attack|zero-knowledge|blockchain-based|forensic odontology|denture)\b']
   B6:
     domain: B
     name: Digital finance & payments

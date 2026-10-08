@@ -29,6 +29,8 @@ for man in sorted((RAW / "searches").glob("*_*.json")):
         w = f.openalex_work(wid)
         if w is None:
             status = "not_found"
+        elif year == 0 and w.get("publication_year") is None:
+            status = "ok"  # no year in the search response (recorded as 0) nor in the record
         elif w.get("publication_year") != year:
             status = f"year_mismatch:{w.get('publication_year')}"
         else:

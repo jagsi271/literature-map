@@ -7,6 +7,7 @@ are then fetched one by one from the public API by scripts/fetch_works.py and th
 is checked against the year recorded here.
 
 Usage: python3 scripts/record_search.py THEME SLICE TOTAL "OQL" "W1:2019 W2:2020 ..."
+(use year 0 for a work the response listed without a year)
 """
 import datetime as dt
 import json
