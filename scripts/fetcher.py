@@ -164,6 +164,11 @@ class Fetcher:
         return self.get_json(f"https://api.openalex.org/works/{wid}", None,
                              plain if plain.exists() else gz)
 
+    def openalex_source(self, sid: str):
+        """Single source record (free); cached in data/raw/sources/."""
+        return self.get_json(f"https://api.openalex.org/sources/{sid}", None,
+                             RAW / "sources" / f"{sid}.json")
+
     def openalex_list(self, params: dict, cache_name: str):
         """A /works list or search request; the raw response is cached gzipped."""
         return self.get_json("https://api.openalex.org/works", params,

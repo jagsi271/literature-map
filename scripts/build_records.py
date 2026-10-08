@@ -139,6 +139,12 @@ SHORTLIST = re.compile(
     r"infrastructur\w* undersides?|viaducts?)\b", re.I)
 
 
+# construction / structural-engineering / materials works (and a few off-topic matches) whose
+# shortlist tag was removed by hand (Stage 2b): data/screening/shortlist_exclusions.csv
+_SX = SCREEN / "shortlist_exclusions.csv"
+SHORTLIST_OUT = ({r["openalex_id"] for r in csv.DictReader(_SX.open())} if _SX.exists() else set())
+
+
 def shortlist_tag(text, haryana):
     tags = sorted({m.group(0).lower() for m in SHORTLIST.finditer(text)})
     if haryana and re.search(r"\b(secondary|small|medium|census|satellite) (cit|town)", text, re.I):
@@ -257,6 +263,26 @@ OFF_FIELDS = {
 
 def primary_field(w):
     return (((w.get("primary_topic") or {}).get("field")) or {}).get("display_name", "")
+
+
+_SRC_FETCHER = None
+
+
+def core_venue(w):
+    """'Y'/'N' from the primary source's is_core flag (OpenAlex/CWTS core sources); looked up
+    once per source (free single lookup, cached) when the cached work lacks the flag."""
+    global _SRC_FETCHER
+    src = (w.get("primary_location") or {}).get("source") or {}
+    if not src.get("id"):
+        return ""
+    if "is_core" not in src:
+        sid = src["id"].rsplit("/", 1)[-1]
+        if _SRC_FETCHER is None:
+            from fetcher import Fetcher
+            _SRC_FETCHER = Fetcher(min_interval=0.3, label="sources")
+        full = _SRC_FETCHER.openalex_source(sid) or {}
+        return "Y" if full.get("is_core") else "N"
+    return "Y" if src["is_core"] else "N"
 
 
 def theme_cfg(cfg, t):
@@ -513,9 +539,10 @@ def main(themes_wanted):
                                     and (w.get("fwci") or 0) >= 1.5 else "",
             "One-line summary": summary(abstract),
             "Stated gaps": stated_gaps(abstract),
-            "Shortlist tag": shortlist_tag(text, haryana),
+            "Shortlist tag": "" if k in SHORTLIST_OUT else shortlist_tag(text, haryana),
             "Screening confidence": conf,
             "Repository-only": "Y" if repo_only else "",
+            "Core venue": core_venue(w),
             "Supplementary": "Y" if not mainc else "",
             "Supplementary query": "; ".join(sorted({f"{c['theme']} {supp_names[c['theme']]}"
                                                      for c in suppc})),
