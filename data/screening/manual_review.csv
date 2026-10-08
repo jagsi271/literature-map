@@ -1157,3 +1157,44 @@ W4410326502,C5,exclude,"Claude (manual review, Stage 2)",AI and government trans
 W4415684824,C5,exclude,"Claude (manual review, Stage 2)",local government information systems (C8)
 W7204234601,C5,exclude,"Claude (manual review, Stage 2)",serverless e-participation architecture
 W4412128780,C5,include,"Claude (manual review, Stage 2)","bibliometric review of urban inequality, smart cities and data justice"
+W2896080517,C6,exclude,"Claude (manual review, Stage 2)",neonatal mortality prediction
+W4392622335,C6,exclude,"Claude (manual review, Stage 2)",religious processions and public space (A9)
+W7155385041,C6,exclude,"Claude (manual review, Stage 2)",public toilets survey
+W7163005298,C6,exclude,"Claude (manual review, Stage 2)",AI CCTV system proposal (technical)
+W4291693790,C6,include,"Claude (manual review, Stage 2)",facial recognition technology and voter turnout (flag false positive)
+W4411272405,C6,exclude,"Claude (manual review, Stage 2)",neural-network crime forecasting (technical)
+W2519904008,C6,exclude,"Claude (manual review, Stage 2)",vehicle re-identification
+W2512434173,C6,exclude,"Claude (manual review, Stage 2)",vehicle re-identification
+W2145919769,C6,include,"Claude (manual review, Stage 2)",software-sorted geographies (face-recognition CCTV)
+W2776879428,C6,exclude,"Claude (manual review, Stage 2)",vehicle re-identification
+W2232870322,C6,include,"Claude (manual review, Stage 2)",randomised field trials of predictive policing
+W1987835821,C6,exclude,"Claude (manual review, Stage 2)",image parsing to text
+W2151065677,C6,exclude,"Claude (manual review, Stage 2)",multi-camera activity analysis
+W2158979073,C6,exclude,"Claude (manual review, Stage 2)",subway monitoring algorithm
+W4205161126,C6,exclude,"Claude (manual review, Stage 2)",multi-UAV surveillance control
+W3111401847,C6,include,"Claude (manual review, Stage 2)","fear, privatised space and security in the 21st-century city"
+W2565786726,C6,exclude,"Claude (manual review, Stage 2)",algorithmic security and sovereignty (B3/B4)
+W2904426259,C6,exclude,"Claude (manual review, Stage 2)",air pollution and crime
+W2512201415,C6,exclude,"Claude (manual review, Stage 2)",video stream processing
+W3180664244,C6,exclude,"Claude (manual review, Stage 2)",anomaly detection review
+W1898484762,C6,include,"Claude (manual review, Stage 2)","big data, predictive policing and criminology"
+W4313061731,C6,exclude,"Claude (manual review, Stage 2)",violence detection model
+W2128570505,C6,include,"Claude (manual review, Stage 2)",counter-surveillance against urban CCTV (flag false positive)
+W2788588291,C6,include,"Claude (manual review, Stage 2)",predictive policing and biased arrests (Los Angeles trial)
+W3209806402,C6,exclude,"Claude (manual review, Stage 2)",abnormal event detection
+W2616644355,C6,exclude,"Claude (manual review, Stage 2)",object detection for urban surveillance
+W2766234523,C6,exclude,"Claude (manual review, Stage 2)",flying ad-hoc networks
+W2016316334,C6,exclude,"Claude (manual review, Stage 2)",robot teams
+W2286190111,C6,exclude,"Claude (manual review, Stage 2)",architecture office ethnography
+W399694243,C6,include,"Claude (manual review, Stage 2)",contesting architecture and social space; urban video surveillance
+W2964532074,C6,include,"Claude (manual review, Stage 2)",report on the Met Police live facial recognition trial
+W4414093281,C6,exclude,"Claude (manual review, Stage 2)",women-friendly public space planning (A12)
+W4386141924,C6,exclude,"Claude (manual review, Stage 2)",video surveillance systems survey (technical)
+W4408897281,C6,exclude,"Claude (manual review, Stage 2)",CCTV anomaly detection model
+W7152044816,C6,include,"Claude (manual review, Stage 2)",facial recognition technology in UK policing (report)
+W7212412914,C6,include,"Claude (manual review, Stage 2)","predictive policing (conference paper, no abstract)"
+W2416978280,C6,include,"Claude (manual review, Stage 2)",drones and urban surveillance (Foucauldian boomerangs)
+W4408048185,C6,exclude,"Claude (manual review, Stage 2)",AI video-surveillance system design
+W2756012011,C6,exclude,"Claude (manual review, Stage 2)",vehicle re-identification
+W2111710640,C6,exclude,"Claude (manual review, Stage 2)",urban surveillance systems engineering
+W7111564569,C6,exclude,"Claude (manual review, Stage 2)",UAV/CCTV vehicle tracking

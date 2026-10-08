@@ -518,7 +518,8 @@ themes:
     screen:
       # v3 (Stage 2)
       require: ['surveil\w*|cctv|video surveillance|facial recognition|predictive policing|smart policing|safe cit\w*|policing|biometric\w*|cameras?', 'city|cities|urban|public spaces?|streets?|municipal|neighbou?rhoods?']
-      flag: ['\b(object detection|yolo|person re-identification|tracking algorithm|anomaly detection|deep learning)\b']
+      # v3b: computer-vision surveillance engineering (vehicle re-identification, video stream processing, UAVs) passed v3
+      flag: ['\b(object detection|yolo|person re-identification|vehicle re-identification|re-?id\b|tracking algorithm|anomaly detection|deep learning|video stream|video analytics|computer vision|uavs?|unmanned aerial|image parsing|feature embedding)\b']
   C7:
     domain: C
     name: Algorithmic & automated urban governance, municipal AI / GenAI

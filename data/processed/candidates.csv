@@ -10954,8 +10954,8 @@ W4281661177,C6,india,C6_india_q1,3,"“No city for lovers:” anti-Romeo squads,
 W7204801242,C6,india,C6_india_q1,4,"Webs, walls, watchmen: counterinsurgency policing and digital authoritarianism in Pakistan",2026,article,0,True,include,6,rules,include
 W7117127372,C6,india,C6_india_q1,5,Reproductive Autonomy in Rural India and Tier-2 Cities Amid Digital Patriarchy and Honour Policing,2025,book-chapter,0,True,include,4,rules,include
 W7168208175,C6,india,C6_india_q1,6,Police Drone Surveillance in Smart Cities: Privacy Concerns under Article 21 of The Indian Constitution,2026,article,0,True,include,6,rules,include
-W2416978280,C6,india,C6_india_q1,7,New ‘Foucauldian Boomerangs’: Drones and Urban Surveillance,2016,article,41,True,include,5,rules,include
-W2896080517,C6,india,C6_india_q1,8,"A prediction model for neonatal mortality in low- and middle-income countries: an analysis of data from population surveillance sites in India, Nepal and Bangladesh",2018,article,60,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2416978280,C6,india,C6_india_q1,7,New ‘Foucauldian Boomerangs’: Drones and Urban Surveillance,2016,article,41,True,borderline,5,flag: \b(object detection|yolo|person re-ident | manual: drones and urban surveillance (Foucauldian boomerangs),include
+W2896080517,C6,india,C6_india_q1,8,"A prediction model for neonatal mortality in low- and middle-income countries: an analysis of data from population surveillance sites in India, Nepal and Bangladesh",2018,article,60,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: neonatal mortality prediction,exclude
 W7203714796,C6,india,C6_india_q1,9,"AI-Driven Policing in Pakistan: Potential Pitfalls, and Privacy Concerns",2025,article,0,True,include,6,rules,include
 W4414477912,C6,india,C6_india_q1,10,"Cinematic Geographies of Fear: Women, Public Space, and Urban Imaginaries in Indian Cinema",2025,article,2,True,include,2,rules,include
 W4412648994,C6,india,C6_india_q1,11,"Spatio-temporal study of urban dynamics with implications on land surface temperature of Gurugram City, India",2025,article,9,False,exclude,0,core concept missing,exclude
@@ -10964,20 +10964,20 @@ W4396217462,C6,india,C6_india_q1,13,The social life of illegality: Suspicion and
 W7165186130,C6,india,C6_india_q1,14,"The Role of Crime Mapping and Predictive Policing in Modern Law Enforcement: Evidence from Sindh, Pakistan (2015–2025)",2026,article,0,True,include,6,rules,include
 W7172536281,C6,india,C6_india_q1,15,"Smart city governance and sustainable urban transformation in Srinagar, India",2026,preprint,0,False,exclude,0,core concept missing,exclude
 W7134074129,C6,india,C6_india_q1,16,"Smart city initiatives, practices and technologies: surveillance in breach of fundamental human rights",2026,article,0,True,include,6,rules,include
-W4392622335,C6,india,C6_india_q1,17,"Religiosity, Space-making, Exclusion: ‘Kanwar Yatra’ Celebrations in a North Indian City",2024,article,2,True,borderline,1,core concept mentioned once,pending
+W4392622335,C6,india,C6_india_q1,17,"Religiosity, Space-making, Exclusion: ‘Kanwar Yatra’ Celebrations in a North Indian City",2024,article,2,True,borderline,1,core concept mentioned once | manual: religious processions and public space (A9),exclude
 W2498910178,C6,india,C6_india_q1,18,"Warrior Goddess Versus Bipedal Cow: Sport, Space, Performance and Planning in an Indian City",2012,book-chapter,2,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3216259330,C6,india,C6_india_q2,1,Smart Urban Parking Solution in Sri Lanka,2021,article,0,True,include,2,rules,include
 W4409730556,C6,india,C6_india_q2,2,"Analyzing key determinants of pedestrian risky behaviors at urban signalized intersections: insights from Kolkata City, India",2025,article,5,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W4408048185,C6,india,C6_india_q2,3,Sentinel AI: Revolutionizing Urban Security through Intelligent Video Surveillance in Indian Metropolises,2024,conference-paper,0,True,include,5,rules,include
+W4408048185,C6,india,C6_india_q2,3,Sentinel AI: Revolutionizing Urban Security through Intelligent Video Surveillance in Indian Metropolises,2024,conference-paper,0,True,borderline,5,flag: \b(object detection|yolo|person re-ident | manual: AI video-surveillance system design,exclude
 W3042760834,C6,india,C6_india_q2,4,Psychological Foundations of the Cleanliness Initiative in Ahmedabad City of India,2020,article,0,True,include,2,rules,include
 W4391956992,C6,india,C6_india_q2,5,"Analysing Plastic Pollution: A Case Study of Coastal Pollution from Inland Urban Waterways in Galle City, Sri Lanka",2024,conference-paper,0,True,include,2,rules,include
 W4388223825,C6,india,C6_india_q2,6,Role of Closed-Circuit Television Surveillance in Maintaining Law and Order in Rural Areas,2023,article,2,True,include,6,rules,include
 W7127829837,C6,india,C6_india_q2,7,AI-powered video surveillance for safe urban spaces: by whom and for whom?,2023,conference-paper,0,True,include,6,rules,include
 W2952117964,C6,india,C6_india_q2,8,"Sustainable urban infrastructural development for smart city in Guwahati, India",2018,article,7,True,include,2,rules,include
-W7155385041,C6,india,C6_india_q2,9,Public Toilet Status in Dhaka City Corporations,2018,article,0,True,borderline,1,core concept mentioned once,pending
+W7155385041,C6,india,C6_india_q2,9,Public Toilet Status in Dhaka City Corporations,2018,article,0,True,borderline,1,core concept mentioned once | manual: public toilets survey,exclude
 W4404481539,C6,india,C6_india_q2,10,Safety in the Techno-Mediated City: Insights from Bengaluru's AI-Powered CCTV Network,2024,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W7126270364,C6,india,C6_india_q2,11,Safety in the Techno-Mediated City: Insights from Bengaluru's AI-Powered CCTV Network,2026,article,0,True,include,6,rules,include
-W7163005298,C6,india,C6_india_q2,12,"AI-Based Smart CCTV System for Urban India: Civic Violation Detection, Stray Animal Health Monitoring and Hazardous Waste Identification",2026,article,0,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W7163005298,C6,india,C6_india_q2,12,"AI-Based Smart CCTV System for Urban India: Civic Violation Detection, Stray Animal Health Monitoring and Hazardous Waste Identification",2026,article,0,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: AI CCTV system proposal (technical),exclude
 W4403564182,C6,india,C6_india_q2,13,"Finetuning YOLOv9 for Vehicle Detection: Deep Learning for Intelligent Transportation Systems in Dhaka, Bangladesh",2024,preprint,1,True,exclude,2,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2295365385,C6,india,C6_india_q2,14,Driver's Behaviour Monitoring on Urban Roads of a Tier 2 City in India,2015,conference-paper,5,True,include,2,rules,include
 W4412095183,C6,india,C6_india_q2,15,"Stigmatized buses, world-class metro: how gendered surveillance shapes public transport in Karachi and Delhi",2025,article,1,True,include,6,rules,include
@@ -10989,7 +10989,7 @@ W3194112986,C6,india,C6_india_q3,2,"Management of The Dead and Missing People in
 W4396976214,C6,india,C6_india_q3,3,Facial Recognition? An Analysis of Facial Recognition and Criminal Justice in India,2024,book-chapter,0,True,exclude,6,context terms missing,exclude
 W7164941296,C6,india,C6_india_q3,4,Unquestioned Use of AI-Based Facial Recognition Technology in Criminal Investigations: Delhi Riots Lessons on Rights and Reliability,2026,conference-paper,0,True,include,6,rules,include
 W4404187464,C6,india,C6_india_q3,5,Bias in the Algorithm: Issues Raised Due to Use of Facial Recognition in India,2024,article,3,True,exclude,5,context terms missing,exclude
-W4291693790,C6,india,C6_india_q3,6,Facial Recognition Technology and Voter Turnout,2022,article,8,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4291693790,C6,india,C6_india_q3,6,Facial Recognition Technology and Voter Turnout,2022,article,8,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: facial recognition technology and voter turnout (flag false positive),include
 W4417203563,C6,india,C6_india_q3,7,"Facial Recognition, Civil Rights, and AI",2025,book-chapter,0,True,exclude,6,context terms missing,exclude
 W7202069872,C6,india,C6_india_q3,8,A First Look into Users’ Perceptions of Facial Recognition in the Physical World in India,2026,article,0,True,include,6,rules,include
 W7202175777,C6,india,C6_india_q3,9,"HUMAN RIGHTS IMPLICATIONS OF FACIAL RECOGNITION TECHNOLOGY IN INDIA: LEGAL, ETHICAL AND POLICY PERSPECTIVES",2026,article,0,True,exclude,5,context terms missing,exclude
@@ -11004,7 +11004,7 @@ W7111415961,C6,india,C6_india_q3,17,Impacts and ethics of using Artificial Intel
 W7216641931,C6,india,C6_india_q3,18,CONTRIBUTION OF TECHNOLOGY IN SMART POLICING AND MODERN OPERATIONS IN INDIA: GLIMPSES,2022,article,0,True,include,6,rules,include
 W4403479195,C6,india,C6_india_q4,1,"E-Governance and Smart Policing in Kerala, India: Towards a Kerala Model of Algorithmic Governance?",2024,book-chapter,5,False,include,3,no abstract; core (and context) in title,include
 W2596518861,C6,india,C6_india_q4,2,"Safe city: Analysis of services for gender-based violence in Bengaluru, India",2017,article,11,True,include,3,rules,include
-W4411272405,C6,india,C6_india_q4,3,Predictive Policing with Neural Networks: A Big Data Approach to Crime Forecasting in Sri Lanka,2025,conference-paper,0,True,borderline,5,flag: \b(deep learning|neural network|convolut,pending
+W4411272405,C6,india,C6_india_q4,3,Predictive Policing with Neural Networks: A Big Data Approach to Crime Forecasting in Sri Lanka,2025,conference-paper,0,True,borderline,5,flag: \b(deep learning|neural network|convolut | manual: neural-network crime forecasting (technical),exclude
 W4301372557,C6,india,C6_india_q4,4,Data Biases and Predictive Policing System in New Delhi,2022,book-chapter,0,True,include,6,rules,include
 W3208418845,C6,india,C6_india_q4,5,What Ails Smart Policing In India?,2017,article,0,True,include,5,rules,include
 W3002427919,C6,india,C6_india_q4,6,Data in New Delhi's predictive policing system,2020,conference-paper,55,True,include,5,rules,include
@@ -11025,54 +11025,54 @@ W3162173425,C6,landmarks,C6_landmarks,2,AI Ethics,2020,book,861,True,exclude,1,c
 W2753845591,C6,landmarks,C6_landmarks,3,Counterfactual Fairness,2017,preprint,841,True,exclude,1,context terms missing,exclude
 W2510508396,C6,landmarks,C6_landmarks,4,Algorithmic Transparency via Quantitative Input Influence: Theory and Experiments with Learning Systems,2016,conference-paper,722,True,exclude,1,context terms missing,exclude
 W2791059564,C6,landmarks,C6_landmarks,5,Predictive Policing: The Role of Crime Forecasting in Law Enforcement Operations,2013,book,695,True,exclude,5,context terms missing,exclude
-W2519904008,C6,landmarks,C6_landmarks,6,A Deep Learning-Based Approach to Progressive Vehicle Re-identification for Urban Surveillance,2016,conference-paper,662,False,borderline,3,flag: \b(deep learning|neural network|convolut,pending
-W2134576786,C6,landmarks,C6_landmarks,7,A Review of Computer Vision Techniques for the Analysis of Urban Traffic,2011,article,658,True,include,3,rules,include
+W2519904008,C6,landmarks,C6_landmarks,6,A Deep Learning-Based Approach to Progressive Vehicle Re-identification for Urban Surveillance,2016,conference-paper,662,False,borderline,3,flag: \b(deep learning|neural network|convolut | manual: vehicle re-identification,exclude
+W2134576786,C6,landmarks,C6_landmarks,7,A Review of Computer Vision Techniques for the Analysis of Urban Traffic,2011,article,658,True,exclude,3,"flag, core not in title: \b(object detection|yolo|person re-ident",exclude
 W2729018917,C6,landmarks,C6_landmarks,8,A survey of recent advances in CNN-based single image crowd counting and density estimation,2017,article,643,False,exclude,0,core concept missing,exclude
 W2529251251,C6,landmarks,C6_landmarks,9,To Predict and Serve?,2016,article,611,True,exclude,1,context terms missing,exclude
-W2512434173,C6,landmarks,C6_landmarks,10,Large-scale vehicle re-identification in urban surveillance videos,2016,conference-paper,523,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
-W2145919769,C6,landmarks,C6_landmarks,11,Software-sorted geographies,2005,article,491,True,borderline,1,core concept mentioned once,pending
-W2756012011,C6,landmarks,C6_landmarks,12,PROVID: Progressive and Multimodal Vehicle Reidentification for Large-Scale Urban Surveillance,2017,article,459,True,include,6,rules,include
+W2512434173,C6,landmarks,C6_landmarks,10,Large-scale vehicle re-identification in urban surveillance videos,2016,conference-paper,523,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: vehicle re-identification,exclude
+W2145919769,C6,landmarks,C6_landmarks,11,Software-sorted geographies,2005,article,491,True,borderline,1,core concept mentioned once | manual: software-sorted geographies (face-recognition CCTV),include
+W2756012011,C6,landmarks,C6_landmarks,12,PROVID: Progressive and Multimodal Vehicle Reidentification for Large-Scale Urban Surveillance,2017,article,459,True,borderline,6,flag: \b(object detection|yolo|person re-ident | manual: vehicle re-identification,exclude
 W3007140447,C6,landmarks,C6_landmarks,13,On the Coronavirus (COVID-19) Outbreak and the Smart City Network: Universal Data Sharing Standards Coupled with Artificial Intelligence (AI) to Benefit Urban Health Monitoring and Management,2020,article,456,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2765811634,C6,landmarks,C6_landmarks,14,Accountability of AI Under the Law: The Role of Explanation,2017,preprint,440,False,exclude,0,core concept missing,exclude
 W3208914105,C6,landmarks,C6_landmarks,15,Discriminating Data,2021,book,427,True,include,2,rules,include
 W4234293868,C6,landmarks,C6_landmarks,16,Spatializing Blackness,2015,book,405,True,include,2,rules,include
 W1973057208,C6,landmarks,C6_landmarks,17,Public Area CCTV and Crime Prevention: An Updated Systematic Review and Meta‐Analysis,2009,review,401,True,include,6,rules,include
 W2318722150,C6,landmarks,C6_landmarks,18,On the Run: Fugitive Life in an American City,2015,article,386,True,include,2,rules,include
-W2776879428,C6,landmarks,C6_landmarks,19,Orientation Invariant Feature Embedding and Spatial Temporal Regularization for Vehicle Re-identification,2017,conference-paper,385,True,borderline,1,core concept mentioned once,pending
-W2232870322,C6,landmarks,C6_landmarks,20,Randomized Controlled Field Trials of Predictive Policing,2015,article,379,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2776879428,C6,landmarks,C6_landmarks,19,Orientation Invariant Feature Embedding and Spatial Temporal Regularization for Vehicle Re-identification,2017,conference-paper,385,True,exclude,1,"flag, core not in title: \b(object detection|yolo|person re-ident | manual override: vehicle re-identification",exclude
+W2232870322,C6,landmarks,C6_landmarks,20,Randomized Controlled Field Trials of Predictive Policing,2015,article,379,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: randomised field trials of predictive policing,include
 W2913346170,C6,landmarks,C6_landmarks,21,Predictive Policing: Review of Benefits and Drawbacks,2019,article,377,True,exclude,6,context terms missing,exclude
 W2598912916,C6,landmarks,C6_landmarks,22,Ten simple rules for responsible big data research,2017,article,347,True,exclude,1,context terms missing,exclude
 W2552390328,C6,landmarks,C6_landmarks,23,"Algorithmic prediction in policing: assumptions, evaluation, and accountability",2016,article,346,True,exclude,6,context terms missing,exclude
 W1967988963,C6,landmarks,C6_landmarks,24,Person Re-identification by Attributes,2012,conference-paper,345,True,exclude,3,"flag, core not in title: \b(object detection|yolo|person re-ident",exclude
-W3198062544,C6,landmarks,C6_landmarks,25,GMNet: Graded-Feature Multilabel-Learning Network for RGB-Thermal Urban Scene Semantic Segmentation,2021,article,340,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W1987835821,C6,landmarks,C6_landmarks,26,I2T: Image Parsing to Text Description,2010,article,321,True,borderline,1,core concept mentioned once,pending
+W3198062544,C6,landmarks,C6_landmarks,25,GMNet: Graded-Feature Multilabel-Learning Network for RGB-Thermal Urban Scene Semantic Segmentation,2021,article,340,True,exclude,1,"flag, core not in title: \b(object detection|yolo|person re-ident",exclude
+W1987835821,C6,landmarks,C6_landmarks,26,I2T: Image Parsing to Text Description,2010,article,321,True,exclude,1,"flag, core not in title: \b(object detection|yolo|person re-ident | manual override: image parsing to text",exclude
 W3107664750,C6,landmarks,C6_landmarks,27,A comprehensive review on deep learning-based methods for video anomaly detection,2020,article,319,False,exclude,0,core concept missing,exclude
 W2046352413,C6,landmarks,C6_landmarks,28,‘The gaze without eyes’: video-surveillance and the changing nature of urban space,2000,article,314,True,include,6,rules,include
 W2955854238,C6,landmarks,C6_landmarks,29,Part-Regularized Near-Duplicate Vehicle Re-Identification,2019,conference-paper,313,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2102395943,C6,landmarks,C6_landmarks,30,"Digitizing Surveillance: Categorization, Space, Inequality",2003,article,295,True,include,6,rules,include
-W2151065677,C6,landmarks,C6_landmarks,31,Multi-camera activity correlation analysis,2009,conference-paper,294,True,borderline,6,flag: \b(object detection|yolo|person re-ident,pending
+W2151065677,C6,landmarks,C6_landmarks,31,Multi-camera activity correlation analysis,2009,conference-paper,294,True,borderline,6,flag: \b(object detection|yolo|person re-ident | manual: multi-camera activity analysis,exclude
 W2999989552,C6,landmarks,C6_landmarks,32,"Blockchain envisioned UAV networks: Challenges, solutions, and comparisons",2020,article,269,False,exclude,0,core concept missing,exclude
 W3013557734,C6,landmarks,C6_landmarks,33,Deep Learning for Edge Computing Applications: A State-of-the-Art Survey,2020,article,263,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2766922025,C6,landmarks,C6_landmarks,34,Temporal dynamics of land use/land cover change and its prediction using CA-ANN model for southwestern coastal Bangladesh,2017,article,262,False,exclude,0,core concept missing,exclude
-W2158979073,C6,landmarks,C6_landmarks,35,A MRF-based approach for real-time subway monitoring,2005,conference-paper,257,True,borderline,1,core concept mentioned once,pending
-W4205161126,C6,landmarks,C6_landmarks,36,Cooperative Multiagent Deep Reinforcement Learning for Reliable Surveillance via Autonomous Multi-UAV Control,2022,article,253,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W2158979073,C6,landmarks,C6_landmarks,35,A MRF-based approach for real-time subway monitoring,2005,conference-paper,257,True,borderline,1,core concept mentioned once | manual: subway monitoring algorithm,exclude
+W4205161126,C6,landmarks,C6_landmarks,36,Cooperative Multiagent Deep Reinforcement Learning for Reliable Surveillance via Autonomous Multi-UAV Control,2022,article,253,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: multi-UAV surveillance control,exclude
 W2307544986,C6,landmarks,C6_landmarks,37,Building Energy Management Systems: The Age of Intelligent and Adaptive Buildings,2016,article,247,True,exclude,0,core concept missing,exclude
 W2026070736,C6,landmarks,C6_landmarks,38,"The Geography of Survival and the Right to the City: Speculations on Surveillance, Legal Innovation, and the Criminalization of Intervention",2009,article,245,True,include,5,rules,include
 W2336632514,C6,landmarks,C6_landmarks,39,"Living under surveillance: Gender, psychological distress, and stop-question-and-frisk policing in New York City",2016,article,243,False,include,3,no abstract; core (and context) in title,include
-W3111401847,C6,landmarks,C6_landmarks,40,Ground Control: Fear and Happiness in the Twenty-First-Century City,2009,book,237,True,borderline,1,core concept mentioned once,pending
+W3111401847,C6,landmarks,C6_landmarks,40,Ground Control: Fear and Happiness in the Twenty-First-Century City,2009,book,237,True,borderline,1,"core concept mentioned once | manual: fear, privatised space and security in the 21st-century city",include
 W2806282362,C6,landmarks,C6_landmarks,41,Deep Spatio-Temporal Representation for Detection of Road Accidents Using Stacked Autoencoder,2018,article,227,True,include,3,rules,include
 W1573130468,C6,landmarks,C6_landmarks,42,The spectrum of control: A social theory of the smart city,2015,article,224,True,include,3,rules,include
 W3094795122,C6,landmarks,C6_landmarks,43,Towards the sustainable development of smart cities through mass video surveillance: A response to the COVID-19 pandemic,2020,article,218,False,include,3,no abstract; core (and context) in title,include
-W2565786726,C6,landmarks,C6_landmarks,44,"Securing with algorithms: Knowledge, decision, sovereignty",2016,article,216,True,borderline,1,core concept mentioned once,pending
+W2565786726,C6,landmarks,C6_landmarks,44,"Securing with algorithms: Knowledge, decision, sovereignty",2016,article,216,True,borderline,1,core concept mentioned once | manual: algorithmic security and sovereignty (B3/B4),exclude
 W3091895534,C6,landmarks,C6_landmarks,45,An Automated System to Limit COVID-19 Using Facial Mask Detection in Smart City Network,2020,conference-paper,212,True,exclude,2,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2600172076,C6,landmarks,C6_landmarks,46,Prediction of electric vehicle charging-power demand in realistic urban traffic networks,2017,article,210,False,exclude,0,core concept missing,exclude
 W4394770855,C6,landmarks,C6_landmarks,47,Cooperative motion planning and control for aerial-ground autonomous systems: Methods and applications,2024,article,209,False,exclude,0,core concept missing,exclude
 W3100801413,C6,landmarks,C6_landmarks,48,"Artificial Intelligence, Predictive Policing, and Risk Assessment for Law Enforcement",2020,review,207,True,exclude,6,context terms missing,exclude
-W2904426259,C6,landmarks,C6_landmarks,49,Crime Is in the Air: The Contemporaneous Relationship between Air Pollution and Crime,2019,article,205,True,borderline,1,core concept mentioned once,pending
+W2904426259,C6,landmarks,C6_landmarks,49,Crime Is in the Air: The Contemporaneous Relationship between Air Pollution and Crime,2019,article,205,True,borderline,1,core concept mentioned once | manual: air pollution and crime,exclude
 W1942258795,C6,landmarks,C6_landmarks,50,Selling Security: The Private Policing of Public Space,2003,dissertation,205,True,include,5,rules,include
 W4248990199,C6,landmarks,C6_landmarks,51,Transforming Cities: Contested Governance and New Spatial Divisions,2000,article,205,True,include,2,rules,include
 W2695067545,C6,landmarks,C6_landmarks,52,"Smart City, Safety and Security",2017,conference-paper,203,True,include,2,rules,include
-W2111710640,C6,landmarks,C6_landmarks,53,Urban surveillance systems: from the laboratory to the commercial world,2001,article,200,True,include,6,rules,include
+W2111710640,C6,landmarks,C6_landmarks,53,Urban surveillance systems: from the laboratory to the commercial world,2001,article,200,True,borderline,6,flag: \b(object detection|yolo|person re-ident | manual: urban surveillance systems engineering,exclude
 W2048611242,C6,landmarks,C6_landmarks,54,A study of evacuation from large retail stores,2000,article,198,False,exclude,0,core concept missing,exclude
 W2808519136,C6,landmarks,C6_landmarks,55,Crowd Counting using Deep Recurrent Spatial-Aware Network,2018,conference-paper,195,True,exclude,2,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2529670628,C6,landmarks,C6_landmarks,56,Disparate Impact in Big Data Policing,2017,preprint,194,False,exclude,3,no abstract; no urban context (C theme),exclude
@@ -11081,43 +11081,43 @@ W2887292260,C6,landmarks,C6_landmarks,58,"Will the Internet fragment?: Sovereign
 W2164891102,C6,landmarks,C6_landmarks,59,Marked point process hotspot maps for homicide and gun crime prediction in Chicago,2014,article,186,False,exclude,0,core concept missing,exclude
 W2006121548,C6,landmarks,C6_landmarks,60,Face-to-face confrontation: Effects of closed-circuit technology on children's eyewitness testimony and jurors' decisions.,1998,article,184,True,exclude,0,core concept missing,exclude
 W2168296665,C6,landmarks,C6_landmarks,61,"Vehicle detection, tracking and classification in urban traffic",2012,conference-paper,182,True,exclude,2,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
-W2512201415,C6,landmarks,C6_landmarks,62,Dynamic Urban Surveillance Video Stream Processing Using Fog Computing,2016,conference-paper,181,True,borderline,5,flag: \b(sensor network|wireless|5g|6g|edge co,pending
-W3180664244,C6,landmarks,C6_landmarks,63,Anomaly detection using edge computing in video surveillance system: review,2022,article,178,False,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W2512201415,C6,landmarks,C6_landmarks,62,Dynamic Urban Surveillance Video Stream Processing Using Fog Computing,2016,conference-paper,181,True,borderline,5,flag: \b(sensor network|wireless|5g|6g|edge co | manual: video stream processing,exclude
+W3180664244,C6,landmarks,C6_landmarks,63,Anomaly detection using edge computing in video surveillance system: review,2022,article,178,False,borderline,3,flag: \b(sensor network|wireless|5g|6g|edge co | manual: anomaly detection review,exclude
 W2021054213,C6,landmarks,C6_landmarks,64,"Fear of crime, mobility and mental health in inner-city London, UK",2005,article,176,False,exclude,0,core concept missing,exclude
 W3154262560,C6,landmarks,C6_landmarks,65,Algorithmization of Bureaucratic Organizations: Using a Practice Lens to Study How Context Shapes Predictive Policing Systems,2021,article,174,True,include,4,rules,include
-W1898484762,C6,landmarks,C6_landmarks,66,Is Big Data challenging criminology?,2015,article,173,True,borderline,1,core concept mentioned once,pending
+W1898484762,C6,landmarks,C6_landmarks,66,Is Big Data challenging criminology?,2015,article,173,True,borderline,1,"core concept mentioned once | manual: big data, predictive policing and criminology",include
 W1998237016,C6,landmarks,C6_landmarks,67,Living with infertility: Experiences among urban slum populations in Bangladesh,2000,article,173,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2145908099,C6,landmarks,C6_landmarks,68,‘Cam Era’ — the contemporary urban Panopticon.,2002,article,171,True,include,3,rules,include
 W3189849087,C6,landmarks,C6_landmarks,69,Do Datasets Have Politics? Disciplinary Values in Computer Vision Dataset Development,2021,article,169,True,exclude,2,"flag, core not in title: \b(object detection|yolo|person re-ident",exclude
 W2904032123,C6,landmarks,C6_landmarks,70,Predictive Policing and the Politics of Patterns,2018,article,169,True,exclude,6,context terms missing,exclude
 W3155016818,C6,landmarks,C6_landmarks,71,A review of predictive policing from the perspective of fairness,2021,article,168,False,exclude,3,no abstract; no urban context (C theme),exclude
-W4313061731,C6,landmarks,C6_landmarks,72,Real-time based Violence Detection from CCTV Camera using Machine Learning Method,2022,conference-paper,166,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W4313061731,C6,landmarks,C6_landmarks,72,Real-time based Violence Detection from CCTV Camera using Machine Learning Method,2022,conference-paper,166,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: violence detection model,exclude
 W3173253524,C6,landmarks,C6_landmarks,73,Real‐time automatic helmet detection of motorcyclists in urban traffic using improved YOLOv5 detector,2021,article,163,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
-W2128570505,C6,landmarks,C6_landmarks,74,Counter-surveillance as Political Intervention?,2006,article,163,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
-W2788588291,C6,landmarks,C6_landmarks,75,Does Predictive Policing Lead to Biased Arrests? Results From a Randomized Controlled Trial,2018,article,160,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2128570505,C6,landmarks,C6_landmarks,74,Counter-surveillance as Political Intervention?,2006,article,163,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: counter-surveillance against urban CCTV (flag false positive),include
+W2788588291,C6,landmarks,C6_landmarks,75,Does Predictive Policing Lead to Biased Arrests? Results From a Randomized Controlled Trial,2018,article,160,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: predictive policing and biased arrests (Los Angeles trial),include
 W610669766,C6,landmarks,C6_landmarks,76,"Surveillance, Closed Circuit Television and Social Control",2016,book,160,True,include,6,rules,include
-W3209806402,C6,landmarks,C6_landmarks,77,Abnormal Event Detection Using Deep Contrastive Learning for Intelligent Video Surveillance System,2021,article,159,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
-W2616644355,C6,landmarks,C6_landmarks,78,IoT-Driven Automated Object Detection Algorithm for Urban Surveillance Systems in Smart Cities,2017,article,158,True,borderline,6,flag: \b(object detection|yolo|person re-ident,pending
+W3209806402,C6,landmarks,C6_landmarks,77,Abnormal Event Detection Using Deep Contrastive Learning for Intelligent Video Surveillance System,2021,article,159,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: abnormal event detection,exclude
+W2616644355,C6,landmarks,C6_landmarks,78,IoT-Driven Automated Object Detection Algorithm for Urban Surveillance Systems in Smart Cities,2017,article,158,True,borderline,6,flag: \b(object detection|yolo|person re-ident | manual: object detection for urban surveillance,exclude
 W2122479987,C6,landmarks,C6_landmarks,79,The Crime Reduction Effects of Public CCTV Cameras: A Multi‐Method Spatial Approach,2009,article,157,True,include,6,rules,include
 W2121453810,C6,landmarks,C6_landmarks,80,Surveilling the City,1998,article,157,True,include,5,rules,include
-W2766234523,C6,landmarks,C6_landmarks,81,Flying ad-hoc network application scenarios and mobility models,2017,article,155,True,borderline,1,core concept mentioned once,pending
+W2766234523,C6,landmarks,C6_landmarks,81,Flying ad-hoc network application scenarios and mobility models,2017,article,155,True,exclude,1,"flag, core not in title: \b(object detection|yolo|person re-ident | manual override: flying ad-hoc networks",exclude
 W2058621822,C6,landmarks,C6_landmarks,82,The Local Role in Homeland Security,2005,article,155,True,include,3,rules,include
 W2105254635,C6,landmarks,C6_landmarks,83,"‘You'll never walk alone’: CCTV surveillance, order and neo‐liberal rule in Liverpool city centre1",2000,article,155,True,include,6,rules,include
 W2964933785,C6,landmarks,C6_landmarks,84,Traffic flow estimation with data from a video surveillance camera,2019,article,153,True,include,5,rules,include
 W2615568047,C6,landmarks,C6_landmarks,85,"Privacy, Poverty, and Big Data: A Matrix of Vulnerabilities for Poor Americans",2017,article,152,True,exclude,2,context terms missing,exclude
 W3110232229,C6,landmarks,C6_landmarks,86,Machine Vision Based Fire Detection Techniques: A Survey,2020,article,150,False,exclude,0,core concept missing,exclude
 W2081261200,C6,landmarks,C6_landmarks,87,"When Rio was Black: Soul Music, National Culture, and the Politics of Racial Comparison in 1970s Brazil",2009,article,149,True,exclude,0,core concept missing,exclude
-W2016316334,C6,landmarks,C6_landmarks,88,Adaptive teams of autonomous aerial and ground robots for situational awareness,2007,article,149,True,borderline,1,core concept mentioned once,pending
+W2016316334,C6,landmarks,C6_landmarks,88,Adaptive teams of autonomous aerial and ground robots for situational awareness,2007,article,149,True,borderline,1,core concept mentioned once | manual: robot teams,exclude
 W2910464045,C6,landmarks,C6_landmarks,89,How Artificial Intelligence is Reshaping Repression,2019,article,148,True,exclude,3,context terms missing,exclude
-W2286190111,C6,landmarks,C6_landmarks,90,Made by the Office for Metropolitan Architecture: An Ethnography of Design,2009,book,148,True,borderline,1,core concept mentioned once,pending
+W2286190111,C6,landmarks,C6_landmarks,90,Made by the Office for Metropolitan Architecture: An Ethnography of Design,2009,book,148,True,borderline,1,core concept mentioned once | manual: architecture office ethnography,exclude
 W2618754780,C6,landmarks,C6_landmarks,91,"“Nobody Sees It, Nobody Gets Mad”: Social Media, Privacy, and Personal Responsibility Among Low-SES Youth",2017,article,147,True,include,2,rules,include
 W2033125001,C6,landmarks,C6_landmarks,92,Quantification of groundwater infiltration and surface water inflows in urban sewer networks based on a multiple model approach,2011,article,146,False,exclude,0,core concept missing,exclude
-W399694243,C6,landmarks,C6_landmarks,93,The unknown city : contesting architecture and social space,2001,article,145,True,borderline,1,core concept mentioned once,pending
+W399694243,C6,landmarks,C6_landmarks,93,The unknown city : contesting architecture and social space,2001,article,145,True,borderline,1,core concept mentioned once | manual: contesting architecture and social space; urban video surveillance,include
 W3012401767,C6,landmarks,C6_landmarks,94,A Data Verification System for CCTV Surveillance Cameras Using Blockchain Technology in Smart Cities,2020,article,143,True,include,6,rules,include
 W2943165950,C6,landmarks,C6_landmarks,95,"Predictive policing: not yet, but soon preemptive?",2019,article,143,True,exclude,6,context terms missing,exclude
 W1522314437,C6,landmarks,C6_landmarks,96,"Surveillance of Public Space: Cctv, Street Lighting and Crime Prevention",1999,book,142,False,include,3,no abstract; core (and context) in title,include
 W3106928028,C6,landmarks,C6_landmarks,97,‘Assisted’ facial recognition and the reinvention of suspicion and discretion in digital policing,2020,article,140,True,exclude,6,context terms missing,exclude
-W2964532074,C6,landmarks,C6_landmarks,98,Independent Report on the London Metropolitan Police Service’s Trial of Live Facial Recognition Technology,2019,book,140,True,borderline,3,stub abstract (possible book review),pending
+W2964532074,C6,landmarks,C6_landmarks,98,Independent Report on the London Metropolitan Police Service’s Trial of Live Facial Recognition Technology,2019,book,140,True,borderline,3,stub abstract (possible book review) | manual: report on the Met Police live facial recognition trial,include
 W2091616391,C6,landmarks,C6_landmarks,99,The effects of closed-circuit television on crime: meta-analysis of an English national quasi-experimental multi-site evaluation,2007,review,140,False,exclude,0,core concept missing,exclude
 W2066928987,C6,landmarks,C6_landmarks,100,Changing patterns of urban public space,1999,article,140,False,exclude,0,core concept missing,exclude
 W4298395823,C6,recent,C6_recent_q1,1,Urban surveillance and crime governance in Bogotá,2022,article,2,False,include,3,no abstract; core (and context) in title,include
@@ -11128,7 +11128,7 @@ W4409990462,C6,recent,C6_recent_q1,5,"Crime control in the smart city: the nexus
 W4389938846,C6,recent,C6_recent_q1,6,Gender and appropriation of public space in Harare’s contested central city area,2023,article,13,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4409307281,C6,recent,C6_recent_q1,7,Which Factors Affect Acceptance of Public Space Surveillance? A Systematic Literature Review,2025,review,5,True,include,6,rules,include
 W7140118513,C6,recent,C6_recent_q1,8,Smart City Surveillance in Kenya,2026,report,0,True,include,6,rules,include
-W4414093281,C6,recent,C6_recent_q1,9,Gender Equality in Public Space Planning: The Women-Friendly City Approach,2025,article,2,True,borderline,1,core concept mentioned once,pending
+W4414093281,C6,recent,C6_recent_q1,9,Gender Equality in Public Space Planning: The Women-Friendly City Approach,2025,article,2,True,borderline,1,core concept mentioned once | manual: women-friendly public space planning (A12),exclude
 W7140138328,C6,recent,C6_recent_q1,10,Smart City Surveillance in Mauritius,2026,report,0,True,include,6,rules,include
 W7140079717,C6,recent,C6_recent_q1,11,Smart City Surveillance in Mozambique,2026,report,0,True,include,5,rules,include
 W7140603286,C6,recent,C6_recent_q1,12,Smart City Surveillance in Zimbabwe,2026,report,0,True,include,6,rules,include
@@ -11144,21 +11144,21 @@ W7218190999,C6,recent,C6_recent_q2,3,TINJAUAN SOSIOLOGI HUKUM TERHADAP PENEGAKAN
 W7162545117,C6,recent,C6_recent_q2,4,The Impact of Closed-Circuit Television (CCTV) Installation in Crime Reduction and Suppression: A Qualitative Study,2026,article,0,True,include,6,rules,include
 W4416020789,C6,recent,C6_recent_q2,5,Analysis of the Effectiveness the use of Closed-Circuit Television (CCTV) for Control of Road Code Crime,2025,article,0,True,include,6,rules,include
 W4386800969,C6,recent,C6_recent_q2,6,"CHALLENGES IN USING CLOSED-CIRCUIT TELEVISION IN POLICE OPERATIONS IN NAIROBI CITY COUNTY, KENYA",2023,article,0,True,include,3,rules,include
-W4386141924,C6,recent,C6_recent_q2,7,A Survey of Video Surveillance Systems in Smart City,2023,article,127,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W4386141924,C6,recent,C6_recent_q2,7,A Survey of Video Surveillance Systems in Smart City,2023,article,127,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: video surveillance systems survey (technical),exclude
 W4312905492,C6,recent,C6_recent_q2,8,Video Surveillance and Public Space: Surveillance Society Vs. Security State,2022,book-chapter,6,True,include,6,rules,include
 W4320019421,C6,recent,C6_recent_q2,9,Risk Management for Analytic Closed Circuit Television based on Internet of Things in Semarang City,2022,article,1,True,include,3,rules,include
-W4408897281,C6,recent,C6_recent_q2,10,Hybrid Deep Learning Models for Anomaly Detection in CCTV Video Surveillance,2025,conference-paper,5,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W4408897281,C6,recent,C6_recent_q2,10,Hybrid Deep Learning Models for Anomaly Detection in CCTV Video Surveillance,2025,conference-paper,5,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: CCTV anomaly detection model,exclude
 W4226451107,C6,recent,C6_recent_q2,11,Level of Effectiveness of Installed Closed Circuit Television Cameras in Bagong Caloocan City: Basis for Crime Suppression,2022,preprint,1,False,include,3,no abstract; core (and context) in title,include
 W4393097734,C6,recent,C6_recent_q2,12,Fortress television: closed circuit television in the American home,2024,article,0,True,include,3,rules,include
 W7216858007,C6,recent,C6_recent_q2,13,IMPLEMENTASI CLOSED CIRCUIT TELEVISION UNTUK PENINGKATAN KEAMANAN PERUMAHAN GRIYA SALAK MADIUN,2026,article,0,True,include,3,rules,include
 W4401915204,C6,recent,C6_recent_q2,14,Formulation of a Robust Closed-Circuit Television Design For Owerri Municipality,2024,article,0,True,include,2,rules,include
 W4387349366,C6,recent,C6_recent_q2,15,The Role of Closed Circuit Television in Institutional Artwork Protection as a Subsystem of Smart City,2023,article,2,True,exclude,0,core concept missing,exclude
-W7111564569,C6,recent,C6_recent_q2,16,Using Unmanned Aerial Vehicles (UAV) and Closed-Circuit Television (CCTV) Video for Multi-Object Multi-Camera Vehicle Tracking (MOMCMVT) in Traffic Monitoring,2025,article,0,True,include,6,rules,include
+W7111564569,C6,recent,C6_recent_q2,16,Using Unmanned Aerial Vehicles (UAV) and Closed-Circuit Television (CCTV) Video for Multi-Object Multi-Camera Vehicle Tracking (MOMCMVT) in Traffic Monitoring,2025,article,0,True,borderline,6,flag: \b(object detection|yolo|person re-ident | manual: UAV/CCTV vehicle tracking,exclude
 W4392165466,C6,recent,C6_recent_q2,17,Multimodal Deep Learning for Estimating Lane-Level Urban Traffic by Fusing Closed-Circuit Television and Dedicated Short-Range Communication Data,2024,article,4,True,exclude,3,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W4414240571,C6,recent,C6_recent_q2,18,"A Novel Multimodal Large Language Model-Based Approach for Urban Flood Detection Using Open-Access Closed Circuit Television in Bandung, Indonesia",2025,article,2,True,include,2,rules,include
 W4296295652,C6,recent,C6_recent_q3,1,Policing based on automatic facial recognition,2022,article,20,False,exclude,3,no abstract; no urban context (C theme),exclude
 W7155202804,C6,recent,C6_recent_q3,2,Facial Recognition in Policing,2026,book-chapter,0,True,exclude,6,context terms missing,exclude
-W7152044816,C6,recent,C6_recent_q3,3,Facial recognition technology in policing,2026,report,0,True,borderline,4,stub abstract (possible book review),pending
+W7152044816,C6,recent,C6_recent_q3,3,Facial recognition technology in policing,2026,report,0,True,borderline,4,stub abstract (possible book review) | manual: facial recognition technology in UK policing (report),include
 W7204190113,C6,recent,C6_recent_q3,4,Facial Recognition Technology in US Policing,2026,book-chapter,0,True,include,6,rules,include
 W4290722812,C6,recent,C6_recent_q3,5,Facial recognition systems in policing and racial disparities in arrests,2022,article,56,False,exclude,3,no abstract; no urban context (C theme),exclude
 W4391682093,C6,recent,C6_recent_q3,6,Facial recognition surveillance and public space: protecting protest movements,2024,article,6,True,include,6,rules,include
@@ -11175,7 +11175,7 @@ W7113233119,C6,recent,C6_recent_q3,16,Legal Study on Police Using Facial Recogni
 W7170093350,C6,recent,C6_recent_q3,17,What’s (Been) Stopping the Police Using Facial Recognition?,2026,book-chapter,0,False,exclude,3,no abstract; no urban context (C theme),exclude
 W7162211611,C6,recent,C6_recent_q3,18,Plainclothes Police vs Facial Recognition: Inside London's Protest Ops,2026,other,0,True,include,6,rules,include
 W4386959967,C6,recent,C6_recent_q4,1,PREDICTIVE POLICING,2023,conference-paper,2,True,exclude,6,context terms missing,exclude
-W7212412914,C6,recent,C6_recent_q4,2,Predictive Policing,2026,conference-paper,0,True,borderline,3,stub abstract (possible book review),pending
+W7212412914,C6,recent,C6_recent_q4,2,Predictive Policing,2026,conference-paper,0,True,borderline,3,"stub abstract (possible book review) | manual: predictive policing (conference paper, no abstract)",include
 W4410696520,C6,recent,C6_recent_q4,3,Predictive Policing,2025,book-chapter,0,True,exclude,6,context terms missing,exclude
 W7202186051,C6,recent,C6_recent_q4,4,Predictive Policing,2026,book-chapter,0,True,exclude,6,context terms missing,exclude
 W7118193048,C6,recent,C6_recent_q4,5,Predictive policing,2025,reference-entry,0,False,exclude,3,no abstract; no urban context (C theme),exclude
