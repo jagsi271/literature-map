@@ -1,0 +1,115 @@
+{
+ "theme": "A16",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban rhythms\" OR rhythmanalysis OR \"urban time\" OR \"urban temporalities\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban rhythms\" OR rhythmanalysis OR \"urban time\" OR \"urban temporalities\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban rhythms\" OR \"urban temporalities\" OR \"urban time\" OR \"rhythmanalysis\")",
+ "page": 1,
+ "total_results": 408,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A16_recent_q2.json.gz",
+ "results": [
+  [
+   "W4306411770",
+   2022
+  ],
+  [
+   "W4386771192",
+   2023
+  ],
+  [
+   "W4414429849",
+   2025
+  ],
+  [
+   "W4319074031",
+   2022
+  ],
+  [
+   "W4390592203",
+   2023
+  ],
+  [
+   "W4413398018",
+   2025
+  ],
+  [
+   "W4410890757",
+   2024
+  ],
+  [
+   "W4400651410",
+   2024
+  ],
+  [
+   "W4389204491",
+   2023
+  ],
+  [
+   "W7161178208",
+   2026
+  ],
+  [
+   "W4224217216",
+   2022
+  ],
+  [
+   "W4205887263",
+   2022
+  ],
+  [
+   "W4401310697",
+   2024
+  ],
+  [
+   "W7162505013",
+   2026
+  ],
+  [
+   "W7155056081",
+   2026
+  ],
+  [
+   "W4312771581",
+   2022
+  ],
+  [
+   "W4399500536",
+   2024
+  ],
+  [
+   "W7163740693",
+   2026
+  ],
+  [
+   "W7155096589",
+   2026
+  ],
+  [
+   "W7128981949",
+   2026
+  ],
+  [
+   "W7128985152",
+   2025
+  ],
+  [
+   "W7148862282",
+   2026
+  ],
+  [
+   "W7155097565",
+   2026
+  ],
+  [
+   "W7135972095",
+   2026
+  ]
+ ]
+}

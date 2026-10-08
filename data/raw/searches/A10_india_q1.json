@@ -1,0 +1,79 @@
+{
+ "theme": "A10",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"street vending\" OR \"street vendors\" OR \"street hawkers\" OR hawkers OR \"street trading\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"street vending\" OR \"street vendors\" OR \"street hawkers\" OR hawkers OR \"street trading\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"street hawkers\" OR \"street trading\" OR \"street vending\" OR \"street vendors\" OR \"hawkers\"))",
+ "page": 1,
+ "total_results": 1532,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A10_india_q1.json.gz",
+ "results": [
+  [
+   "W4300427614",
+   2022
+  ],
+  [
+   "W4312419122",
+   2022
+  ],
+  [
+   "W2141368856",
+   2013
+  ],
+  [
+   "W2913457664",
+   2019
+  ],
+  [
+   "W2955343688",
+   2019
+  ],
+  [
+   "W7212027446",
+   2026
+  ],
+  [
+   "W2888533347",
+   2018
+  ],
+  [
+   "W4390814538",
+   2023
+  ],
+  [
+   "W4399921017",
+   2024
+  ],
+  [
+   "W3205316836",
+   2012
+  ],
+  [
+   "W2970479610",
+   2019
+  ],
+  [
+   "W2344823760",
+   2011
+  ],
+  [
+   "W7159551277",
+   2014
+  ],
+  [
+   "W2470853144",
+   2016
+  ],
+  [
+   "W1807816915",
+   2015
+  ]
+ ]
+}

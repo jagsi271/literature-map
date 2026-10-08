@@ -1,0 +1,79 @@
+{
+ "theme": "A9",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban publicness\" OR (publicness AND (\"public space\" OR \"public spaces\" OR urban OR city))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban publicness\" OR (publicness AND (\"public space\" OR \"public spaces\" OR urban OR city)),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban publicness\" OR (\"publicness\" AND (\"public space\" OR \"public spaces\" OR \"city\" OR \"urban\")))",
+ "page": 1,
+ "total_results": 414,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A9_recent_q2.json.gz",
+ "results": [
+  [
+   "W7154119204",
+   2026
+  ],
+  [
+   "W4281643606",
+   2022
+  ],
+  [
+   "W4296371893",
+   2022
+  ],
+  [
+   "W4388862193",
+   2023
+  ],
+  [
+   "W4406160814",
+   2025
+  ],
+  [
+   "W7171348847",
+   2026
+  ],
+  [
+   "W4414647520",
+   2025
+  ],
+  [
+   "W4389094097",
+   2023
+  ],
+  [
+   "W4311260560",
+   2022
+  ],
+  [
+   "W4312514990",
+   2022
+  ],
+  [
+   "W7134155133",
+   2024
+  ],
+  [
+   "W4387718849",
+   2023
+  ],
+  [
+   "W7128427833",
+   2026
+  ],
+  [
+   "W4412436323",
+   2025
+  ],
+  [
+   "W4415043189",
+   2025
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "A11",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"circular migration\" OR \"seasonal migration\") AND (urban OR city)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"circular migration\" OR \"seasonal migration\") AND (urban OR city),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"circular migration\" OR \"seasonal migration\") AND (\"city\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 141,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A11_recent_q3.json.gz",
+ "results": [
+  [
+   "W4409684043",
+   2025
+  ],
+  [
+   "W4381112720",
+   2023
+  ],
+  [
+   "W7164829050",
+   2026
+  ],
+  [
+   "W7204459152",
+   2026
+  ],
+  [
+   "W4283023899",
+   2022
+  ],
+  [
+   "W7124689541",
+   2026
+  ],
+  [
+   "W4388859535",
+   2023
+  ],
+  [
+   "W4405699212",
+   2024
+  ],
+  [
+   "W7147138516",
+   2026
+  ],
+  [
+   "W4391388413",
+   2024
+  ],
+  [
+   "W4402222725",
+   2024
+  ],
+  [
+   "W4412795038",
+   2025
+  ],
+  [
+   "W4403778297",
+   2024
+  ],
+  [
+   "W7171739427",
+   2026
+  ],
+  [
+   "W3124178563",
+   2023
+  ],
+  [
+   "W4280531107",
+   2022
+  ],
+  [
+   "W7147438201",
+   2026
+  ],
+  [
+   "W3150214992",
+   2022
+  ]
+ ]
+}

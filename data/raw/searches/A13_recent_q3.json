@@ -1,0 +1,91 @@
+{
+ "theme": "A13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban heritage\" OR heritagization OR heritagisation OR \"heritage conservation\" AND city",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban heritage\" OR heritagization OR heritagisation OR \"heritage conservation\" AND city,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban heritage\" OR \"heritagisation\" OR \"heritagization\" OR (\"heritage conservation\" AND \"city\"))",
+ "page": 1,
+ "total_results": 690,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A13_recent_q3.json.gz",
+ "results": [
+  [
+   "W4205234211",
+   2022
+  ],
+  [
+   "W4404183923",
+   2024
+  ],
+  [
+   "W4285493114",
+   2022
+  ],
+  [
+   "W7214211711",
+   2026
+  ],
+  [
+   "W4413064516",
+   2025
+  ],
+  [
+   "W4409302570",
+   2024
+  ],
+  [
+   "W4392006930",
+   2024
+  ],
+  [
+   "W7162035825",
+   2026
+  ],
+  [
+   "W4399886150",
+   2024
+  ],
+  [
+   "W4290508112",
+   2022
+  ],
+  [
+   "W7128541241",
+   2026
+  ],
+  [
+   "W7215047310",
+   2026
+  ],
+  [
+   "W7215063669",
+   2026
+  ],
+  [
+   "W4319158914",
+   2023
+  ],
+  [
+   "W4295854488",
+   2022
+  ],
+  [
+   "W7105811361",
+   2025
+  ],
+  [
+   "W4409140579",
+   2024
+  ],
+  [
+   "W4412884514",
+   2025
+  ]
+ ]
+}

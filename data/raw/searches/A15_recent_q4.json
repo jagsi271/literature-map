@@ -1,0 +1,91 @@
+{
+ "theme": "A15",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban theory\" AND (global OR south OR critique)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban theory\" AND (global OR south OR critique),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban theory\" AND (\"critique\" OR \"global\" OR \"south\"))",
+ "page": 1,
+ "total_results": 198,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A15_recent_q4.json.gz",
+ "results": [
+  [
+   "W4382009995",
+   2023
+  ],
+  [
+   "W4383553389",
+   2023
+  ],
+  [
+   "W7133361548",
+   2026
+  ],
+  [
+   "W4283713273",
+   2022
+  ],
+  [
+   "W4411353770",
+   2025
+  ],
+  [
+   "W4386442073",
+   2023
+  ],
+  [
+   "W7214322440",
+   2026
+  ],
+  [
+   "W4292377855",
+   2022
+  ],
+  [
+   "W7168369010",
+   2026
+  ],
+  [
+   "W4391103804",
+   2024
+  ],
+  [
+   "W4391497108",
+   2023
+  ],
+  [
+   "W4413879625",
+   2025
+  ],
+  [
+   "W7130651669",
+   2026
+  ],
+  [
+   "W4410909021",
+   2025
+  ],
+  [
+   "W7124735433",
+   2026
+  ],
+  [
+   "W7140082429",
+   2026
+  ],
+  [
+   "W4214619730",
+   2022
+  ],
+  [
+   "W4309836410",
+   2022
+  ]
+ ]
+}

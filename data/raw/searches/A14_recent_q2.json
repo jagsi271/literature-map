@@ -1,0 +1,79 @@
+{
+ "theme": "A14",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban resilience\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban resilience\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban resilience\")",
+ "page": 1,
+ "total_results": 6405,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A14_recent_q2.json.gz",
+ "results": [
+  [
+   "W4385163337",
+   2023
+  ],
+  [
+   "W4309683219",
+   2022
+  ],
+  [
+   "W4220973783",
+   2022
+  ],
+  [
+   "W4311446120",
+   2022
+  ],
+  [
+   "W4398221730",
+   2024
+  ],
+  [
+   "W4309179897",
+   2022
+  ],
+  [
+   "W4381853520",
+   2023
+  ],
+  [
+   "W4408384753",
+   2025
+  ],
+  [
+   "W4321465498",
+   2023
+  ],
+  [
+   "W4316089146",
+   2022
+  ],
+  [
+   "W4214688262",
+   2022
+  ],
+  [
+   "W4379882117",
+   2023
+  ],
+  [
+   "W4387459697",
+   2023
+  ],
+  [
+   "W4386221174",
+   2023
+  ],
+  [
+   "W4415475831",
+   2025
+  ]
+ ]
+}

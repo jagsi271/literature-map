@@ -1,0 +1,79 @@
+{
+ "theme": "A12",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban middle class\" OR \"new middle class\" AND city",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban middle class\" OR \"new middle class\" AND city,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban middle class\" OR (\"new middle class\" AND \"city\"))",
+ "page": 1,
+ "total_results": 27,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A12_recent_q5.json.gz",
+ "results": [
+  [
+   "W4388098547",
+   2023
+  ],
+  [
+   "W4415724698",
+   2025
+  ],
+  [
+   "W7201831791",
+   2026
+  ],
+  [
+   "W4323057833",
+   2023
+  ],
+  [
+   "W4212885006",
+   2022
+  ],
+  [
+   "W4414525684",
+   2025
+  ],
+  [
+   "W7215451123",
+   2024
+  ],
+  [
+   "W7212010226",
+   2026
+  ],
+  [
+   "W4379057755",
+   2023
+  ],
+  [
+   "W4312236511",
+   2022
+  ],
+  [
+   "W7143299468",
+   2026
+  ],
+  [
+   "W7207664510",
+   2026
+  ],
+  [
+   "W4386839243",
+   2023
+  ],
+  [
+   "W4411973620",
+   2025
+  ],
+  [
+   "W4308735335",
+   2022
+  ]
+ ]
+}

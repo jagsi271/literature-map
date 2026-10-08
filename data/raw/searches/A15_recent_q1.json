@@ -1,0 +1,91 @@
+{
+ "theme": "A15",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"southern urbanism\" OR \"southern urban theory\" OR \"urban theory from the South\" OR \"ordinary cities\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"southern urbanism\" OR \"southern urban theory\" OR \"urban theory from the South\" OR \"ordinary cities\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"ordinary cities\" OR \"southern urban theory\" OR \"southern urbanism\" OR \"urban theory from the South\")",
+ "page": 1,
+ "total_results": 173,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A15_recent_q1.json.gz",
+ "results": [
+  [
+   "W7160763758",
+   2026
+  ],
+  [
+   "W4402534173",
+   2024
+  ],
+  [
+   "W7169568240",
+   2026
+  ],
+  [
+   "W7125494656",
+   2026
+  ],
+  [
+   "W7125500349",
+   2026
+  ],
+  [
+   "W7164802044",
+   2026
+  ],
+  [
+   "W4410515407",
+   2025
+  ],
+  [
+   "W4388823774",
+   2023
+  ],
+  [
+   "W4385806634",
+   2023
+  ],
+  [
+   "W4411872566",
+   2025
+  ],
+  [
+   "W4417047843",
+   2025
+  ],
+  [
+   "W7169580570",
+   2026
+  ],
+  [
+   "W4298394427",
+   2022
+  ],
+  [
+   "W4285090302",
+   2022
+  ],
+  [
+   "W4214889009",
+   2022
+  ],
+  [
+   "W7219411091",
+   2026
+  ],
+  [
+   "W7113676141",
+   2025
+  ],
+  [
+   "W4407670659",
+   2025
+  ]
+ ]
+}

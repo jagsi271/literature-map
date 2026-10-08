@@ -36,26 +36,33 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 <!-- AUTO:SCREENING -->
 | Theme | Name | Candidates | Rule incl. | Borderline (share) | Hand kept / dropped | Records found | Primary here |
 |---|---|---|---|---|---|---|---|
-| A1 | Urban governance, decentralisation & municipa | 289 | 212 | 39 (14%) | 17 / 22 | 207 | 206 |
-| A2 | Planning, master plans & land-use regulation | 239 | 160 | 12 (5%) | 3 / 9 | 156 | 154 |
+| A1 | Urban governance, decentralisation & municipa | 289 | 212 | 39 (14%) | 17 / 22 | 207 | 203 |
+| A2 | Planning, master plans & land-use regulation | 239 | 160 | 12 (5%) | 3 / 9 | 156 | 153 |
 | A3 | Housing, informality & slums | 238 | 152 | 42 (18%) | 14 / 28 | 149 | 144 |
-| A4 | Eviction, resettlement & displacement | 219 | 170 | 22 (10%) | 9 / 13 | 170 | 167 |
-| A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 12 / 16 | 147 | 146 |
+| A4 | Eviction, resettlement & displacement | 219 | 170 | 22 (10%) | 9 / 13 | 170 | 165 |
+| A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 12 / 16 | 147 | 145 |
 | A6 | Small towns, census towns & secondary cities | 336 | 138 | 28 (8%) | 11 / 17 | 142 | 142 |
-| A7 | Urban infrastructure (water, sanitation, ener | 242 | 160 | 23 (10%) | 9 / 14 | 162 | 155 |
+| A7 | Urban infrastructure (water, sanitation, ener | 242 | 160 | 23 (10%) | 9 / 14 | 162 | 154 |
 | A8 | Mobility & transport (social science) | 246 | 174 | 27 (11%) | 7 / 20 | 174 | 172 |
-| A9 | Public space, publicness & the street | 196 | 114 | 28 (14%) | 17 / 11 | 130 | 129 |
+| A9 | Public space, publicness & the street | 287 | 188 | 36 (12%) | 21 / 15 | 208 | 207 |
+| A10 | Urban economy, informal work & street vending | 221 | 154 | 22 (10%) | 0 / 0 (+22 pending) | 153 | 150 |
+| A11 | Migration & the city | 234 | 194 | 22 (9%) | 0 / 0 (+22 pending) | 186 | 183 |
+| A12 | Gender, caste, class & the city | 229 | 157 | 23 (10%) | 0 / 0 (+23 pending) | 152 | 149 |
+| A13 | Heritage, mega-events & "world-class" city ma | 211 | 146 | 13 (6%) | 0 / 0 (+13 pending) | 145 | 142 |
+| A14 | Urban environment, climate & risk | 246 | 195 | 29 (12%) | 0 / 0 (+29 pending) | 182 | 179 |
+| A15 | Urban & planning theory, Southern urbanism | 233 | 144 | 39 (17%) | 0 / 0 (+39 pending) | 134 | 132 |
+| A16 | Night-time city & urban time | 241 | 122 | 33 (14%) | 0 / 0 (+33 pending) | 116 | 116 |
 | B5 | Digital identity & digital public infrastruct | 177 | 114 | 28 (16%) | 7 / 21 | 117 | 117 |
-| C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 126 |
+| C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 125 |
 
-Total deduplicated records: 1658.
+Total deduplicated records: 2778.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
 <!-- AUTO:API -->
 | UTC day | Calls by this pipeline | Cost (USD) | ≈ searches | Credits left at last call |
 |---|---|---|---|---|
-| 2026-10-08 | 91 | 0.091 | 91 | 8690 |
+| 2026-10-08 | 168 | 0.168 | 168 | 7920 |
 <!-- /AUTO:API -->
 
 ## Stage 1 (pilot) — approved

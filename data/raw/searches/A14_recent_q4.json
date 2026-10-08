@@ -1,0 +1,79 @@
+{
+ "theme": "A14",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban political ecology\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban political ecology\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban political ecology\")",
+ "page": 1,
+ "total_results": 366,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A14_recent_q4.json.gz",
+ "results": [
+  [
+   "W4399123483",
+   2024
+  ],
+  [
+   "W4403418314",
+   2024
+  ],
+  [
+   "W4226229487",
+   2022
+  ],
+  [
+   "W4400110883",
+   2024
+  ],
+  [
+   "W4379398007",
+   2023
+  ],
+  [
+   "W7140170727",
+   2026
+  ],
+  [
+   "W7162537666",
+   2026
+  ],
+  [
+   "W4226209124",
+   2022
+  ],
+  [
+   "W4410777371",
+   2025
+  ],
+  [
+   "W4400652089",
+   2024
+  ],
+  [
+   "W4389187430",
+   2023
+  ],
+  [
+   "W4205941558",
+   2022
+  ],
+  [
+   "W4280509926",
+   2022
+  ],
+  [
+   "W7154696777",
+   2026
+  ],
+  [
+   "W7215047047",
+   2026
+  ]
+ ]
+}

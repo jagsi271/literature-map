@@ -1,0 +1,91 @@
+{
+ "theme": "A15",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"planning theory\" OR \"insurgent planning\" OR \"occupancy urbanism\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"planning theory\" OR \"insurgent planning\" OR \"occupancy urbanism\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"insurgent planning\" OR \"occupancy urbanism\" OR \"planning theory\"))",
+ "page": 1,
+ "total_results": 81,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A15_india_q3.json.gz",
+ "results": [
+  [
+   "W7143941726",
+   2018
+  ],
+  [
+   "W1915460725",
+   2008
+  ],
+  [
+   "W2134673191",
+   2015
+  ],
+  [
+   "W1849162044",
+   2009
+  ],
+  [
+   "W4409545198",
+   2025
+  ],
+  [
+   "W88702055",
+   2008
+  ],
+  [
+   "W7171819851",
+   2026
+  ],
+  [
+   "W2158618025",
+   1992
+  ],
+  [
+   "W4411698739",
+   2025
+  ],
+  [
+   "W786884812",
+   2007
+  ],
+  [
+   "W2052354776",
+   2014
+  ],
+  [
+   "W7133101388",
+   2025
+  ],
+  [
+   "W757428969",
+   2009
+  ],
+  [
+   "W2979989981",
+   2019
+  ],
+  [
+   "W7135247326",
+   2025
+  ],
+  [
+   "W7154913155",
+   2026
+  ],
+  [
+   "W3107313327",
+   2020
+  ],
+  [
+   "W2589455823",
+   2017
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "A11",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban refugees\" OR \"arrival city\" OR \"arrival cities\" OR \"migrant city\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban refugees\" OR \"arrival city\" OR \"arrival cities\" OR \"migrant city\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"arrival cities\" OR \"arrival city\" OR \"migrant city\" OR \"urban refugees\")",
+ "page": 1,
+ "total_results": 301,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A11_recent_q4.json.gz",
+ "results": [
+  [
+   "W4313457704",
+   2023
+  ],
+  [
+   "W4415716972",
+   2025
+  ],
+  [
+   "W4311541334",
+   2022
+  ],
+  [
+   "W7214987591",
+   2026
+  ],
+  [
+   "W7214940134",
+   2026
+  ],
+  [
+   "W4391707855",
+   2024
+  ],
+  [
+   "W7214956692",
+   2026
+  ],
+  [
+   "W4380205201",
+   2022
+  ],
+  [
+   "W7214914425",
+   2026
+  ],
+  [
+   "W4395477840",
+   2024
+  ],
+  [
+   "W4380237065",
+   2022
+  ],
+  [
+   "W4302338729",
+   2022
+  ],
+  [
+   "W4380205200",
+   2022
+  ],
+  [
+   "W4394937025",
+   2024
+  ],
+  [
+   "W4394937055",
+   2024
+  ],
+  [
+   "W7214952106",
+   2026
+  ],
+  [
+   "W7214952182",
+   2026
+  ],
+  [
+   "W4283274961",
+   2022
+  ]
+ ]
+}

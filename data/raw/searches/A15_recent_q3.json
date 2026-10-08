@@ -1,0 +1,91 @@
+{
+ "theme": "A15",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"planning theory\" OR \"insurgent planning\" OR \"occupancy urbanism\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"planning theory\" OR \"insurgent planning\" OR \"occupancy urbanism\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"insurgent planning\" OR \"occupancy urbanism\" OR \"planning theory\")",
+ "page": 1,
+ "total_results": 983,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A15_recent_q3.json.gz",
+ "results": [
+  [
+   "W4391727706",
+   2023
+  ],
+  [
+   "W4390592458",
+   2023
+  ],
+  [
+   "W7165726907",
+   2026
+  ],
+  [
+   "W4405532625",
+   2024
+  ],
+  [
+   "W4410345794",
+   2025
+  ],
+  [
+   "W4393964950",
+   2024
+  ],
+  [
+   "W4376270699",
+   2023
+  ],
+  [
+   "W4294636661",
+   2022
+  ],
+  [
+   "W7215780893",
+   2025
+  ],
+  [
+   "W4409120815",
+   2025
+  ],
+  [
+   "W4405532647",
+   2024
+  ],
+  [
+   "W4393964978",
+   2024
+  ],
+  [
+   "W4402065777",
+   2024
+  ],
+  [
+   "W7128787757",
+   2026
+  ],
+  [
+   "W4404242193",
+   2024
+  ],
+  [
+   "W4393933103",
+   2024
+  ],
+  [
+   "W7127989924",
+   2026
+  ],
+  [
+   "W4405532586",
+   2024
+  ]
+ ]
+}

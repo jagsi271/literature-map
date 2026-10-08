@@ -1,0 +1,79 @@
+{
+ "theme": "A10",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"informal economy\" AND (urban OR city OR cities)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"informal economy\" AND (urban OR city OR cities),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"informal economy\" AND (\"cities\" OR \"city\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 764,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A10_recent_q2.json.gz",
+ "results": [
+  [
+   "W4390971439",
+   2024
+  ],
+  [
+   "W4417234401",
+   2025
+  ],
+  [
+   "W7115177336",
+   2025
+  ],
+  [
+   "W4388107757",
+   2023
+  ],
+  [
+   "W7134062582",
+   2026
+  ],
+  [
+   "W7161144359",
+   2026
+  ],
+  [
+   "W7156253702",
+   2026
+  ],
+  [
+   "W4416225836",
+   2025
+  ],
+  [
+   "W4409394702",
+   2025
+  ],
+  [
+   "W7125224129",
+   2026
+  ],
+  [
+   "W4285600563",
+   2022
+  ],
+  [
+   "W4321497178",
+   2023
+  ],
+  [
+   "W7218435405",
+   2026
+  ],
+  [
+   "W7204456615",
+   2026
+  ],
+  [
+   "W4306786620",
+   2022
+  ]
+ ]
+}

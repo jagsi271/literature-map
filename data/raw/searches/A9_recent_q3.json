@@ -1,0 +1,79 @@
+{
+ "theme": "A9",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"everyday urbanism\" OR (\"street life\" AND (urban OR city)) OR (sidewalk AND \"public space\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"everyday urbanism\" OR (\"street life\" AND (urban OR city)) OR (sidewalk AND \"public space\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"everyday urbanism\" OR (\"public space\" AND \"sidewalk\") OR (\"street life\" AND (\"city\" OR \"urban\")))",
+ "page": 1,
+ "total_results": 377,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A9_recent_q3.json.gz",
+ "results": [
+  [
+   "W4410652006",
+   2023
+  ],
+  [
+   "W4416915258",
+   2025
+  ],
+  [
+   "W4399429007",
+   2024
+  ],
+  [
+   "W7164720830",
+   2026
+  ],
+  [
+   "W4220967430",
+   2022
+  ],
+  [
+   "W7130406621",
+   2026
+  ],
+  [
+   "W4394613680",
+   2024
+  ],
+  [
+   "W4387363286",
+   2023
+  ],
+  [
+   "W4281759327",
+   2022
+  ],
+  [
+   "W4221060912",
+   2022
+  ],
+  [
+   "W4310490688",
+   2022
+  ],
+  [
+   "W4401673280",
+   2024
+  ],
+  [
+   "W7153693830",
+   2026
+  ],
+  [
+   "W7131409393",
+   2026
+  ],
+  [
+   "W4387773333",
+   2023
+  ]
+ ]
+}

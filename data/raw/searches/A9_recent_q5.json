@@ -1,0 +1,79 @@
+{
+ "theme": "A9",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"right to the city\" AND (\"public space\" OR street OR streets)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"right to the city\" AND (\"public space\" OR street OR streets),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"right to the city\" AND (\"public space\" OR \"street\" OR \"streets\"))",
+ "page": 1,
+ "total_results": 323,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A9_recent_q5.json.gz",
+ "results": [
+  [
+   "W4408406228",
+   2025
+  ],
+  [
+   "W4385626213",
+   2023
+  ],
+  [
+   "W7131298314",
+   2026
+  ],
+  [
+   "W4388772695",
+   2023
+  ],
+  [
+   "W7149931755",
+   2026
+  ],
+  [
+   "W4416855883",
+   2025
+  ],
+  [
+   "W4283753549",
+   2022
+  ],
+  [
+   "W4400562152",
+   2023
+  ],
+  [
+   "W7197639646",
+   2025
+  ],
+  [
+   "W4282826550",
+   2022
+  ],
+  [
+   "W4225870260",
+   2022
+  ],
+  [
+   "W3047629747",
+   2022
+  ],
+  [
+   "W7131296387",
+   2026
+  ],
+  [
+   "W4415475835",
+   2025
+  ],
+  [
+   "W4306862023",
+   2022
+  ]
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "theme": "A10",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban informal economy\" OR \"urban livelihoods\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban informal economy\" OR \"urban livelihoods\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban informal economy\" OR \"urban livelihoods\")",
+ "page": 1,
+ "total_results": 256,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A10_recent_q5.json.gz",
+ "results": [
+  [
+   "W4398161114",
+   2024
+  ],
+  [
+   "W7156253702",
+   2026
+  ],
+  [
+   "W4409394702",
+   2025
+  ],
+  [
+   "W4390971439",
+   2024
+  ],
+  [
+   "W4306786620",
+   2022
+  ],
+  [
+   "W4321497178",
+   2023
+  ],
+  [
+   "W4410604159",
+   2025
+  ],
+  [
+   "W4401840255",
+   2024
+  ],
+  [
+   "W4295180205",
+   2022
+  ],
+  [
+   "W4210875419",
+   2022
+  ],
+  [
+   "W7166742894",
+   2026
+  ],
+  [
+   "W4411176754",
+   2025
+  ],
+  [
+   "W3192383081",
+   2022
+  ],
+  [
+   "W4412796267",
+   2025
+  ],
+  [
+   "W7167683352",
+   2026
+  ]
+ ]
+}

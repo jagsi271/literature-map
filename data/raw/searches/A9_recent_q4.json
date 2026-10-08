@@ -1,0 +1,79 @@
+{
+ "theme": "A9",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"privatization of public space\" OR \"privatisation of public space\" OR \"privately owned public space\" OR \"privately owned public spaces\" OR \"pseudo-public\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"privatization of public space\" OR \"privatisation of public space\" OR \"privately owned public space\" OR \"privately owned public spaces\" OR \"pseudo-public\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"privately owned public space\" OR \"privately owned public spaces\" OR \"privatisation of public space\" OR \"privatization of public space\" OR \"pseudo-public\")",
+ "page": 1,
+ "total_results": 139,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A9_recent_q4.json.gz",
+ "results": [
+  [
+   "W4416177029",
+   2025
+  ],
+  [
+   "W4403315529",
+   2024
+  ],
+  [
+   "W4213157493",
+   2022
+  ],
+  [
+   "W7126896309",
+   2024
+  ],
+  [
+   "W4412436323",
+   2025
+  ],
+  [
+   "W4382789181",
+   2023
+  ],
+  [
+   "W7165138768",
+   2026
+  ],
+  [
+   "W4391293334",
+   2023
+  ],
+  [
+   "W4391316523",
+   2024
+  ],
+  [
+   "W4389094097",
+   2023
+  ],
+  [
+   "W4405152152",
+   2024
+  ],
+  [
+   "W4405123552",
+   2024
+  ],
+  [
+   "W7207261412",
+   2023
+  ],
+  [
+   "W4390942946",
+   2022
+  ],
+  [
+   "W4416950495",
+   2025
+  ]
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "theme": "A12",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"residential segregation\" OR \"spatial segregation\") AND (class OR caste OR religion OR Muslim)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"residential segregation\" OR \"spatial segregation\") AND (class OR caste OR religion OR Muslim),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"Muslim\" OR \"caste\" OR \"class\" OR \"religion\") AND (\"residential segregation\" OR \"spatial segregation\"))",
+ "page": 1,
+ "total_results": 371,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A12_recent_q4.json.gz",
+ "results": [
+  [
+   "W4396765865",
+   2024
+  ],
+  [
+   "W7220721483",
+   2026
+  ],
+  [
+   "W4388040717",
+   2023
+  ],
+  [
+   "W4396632192",
+   2024
+  ],
+  [
+   "W7169859794",
+   2026
+  ],
+  [
+   "W4211007618",
+   2022
+  ],
+  [
+   "W7124152986",
+   2026
+  ],
+  [
+   "W4394465620",
+   2023
+  ],
+  [
+   "W7130507931",
+   2026
+  ],
+  [
+   "W7140990417",
+   2025
+  ],
+  [
+   "W7202070593",
+   2026
+  ],
+  [
+   "W7167938841",
+   2026
+  ],
+  [
+   "W4417278572",
+   2025
+  ],
+  [
+   "W4316372428",
+   2023
+  ],
+  [
+   "W4409257093",
+   2024
+  ]
+ ]
+}

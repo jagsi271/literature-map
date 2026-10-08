@@ -1,0 +1,79 @@
+{
+ "theme": "A10",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"informal sector\" AND urban AND (workers OR livelihoods OR employment)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"informal sector\" AND urban AND (workers OR livelihoods OR employment),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"informal sector\" AND \"urban\" AND (\"employment\" OR \"livelihoods\" OR \"workers\"))",
+ "page": 1,
+ "total_results": 597,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A10_recent_q3.json.gz",
+ "results": [
+  [
+   "W4205592994",
+   2022
+  ],
+  [
+   "W4214752575",
+   2022
+  ],
+  [
+   "W4312778226",
+   2022
+  ],
+  [
+   "W7215072115",
+   2026
+  ],
+  [
+   "W4415226044",
+   2025
+  ],
+  [
+   "W7126339321",
+   2025
+  ],
+  [
+   "W7164801889",
+   2026
+  ],
+  [
+   "W4387462506",
+   2023
+  ],
+  [
+   "W4408082758",
+   2025
+  ],
+  [
+   "W4401167955",
+   2024
+  ],
+  [
+   "W4388412567",
+   2023
+  ],
+  [
+   "W7220491136",
+   2025
+  ],
+  [
+   "W4220945920",
+   2022
+  ],
+  [
+   "W7219367262",
+   2024
+  ],
+  [
+   "W7127997607",
+   2026
+  ]
+ ]
+}

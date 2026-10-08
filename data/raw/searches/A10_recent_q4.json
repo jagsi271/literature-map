@@ -1,0 +1,79 @@
+{
+ "theme": "A10",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"waste pickers\" OR \"home-based workers\" OR \"informal workers\" AND city",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"waste pickers\" OR \"home-based workers\" OR \"informal workers\" AND city,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"home-based workers\" OR \"waste pickers\" OR (\"informal workers\" AND \"city\"))",
+ "page": 1,
+ "total_results": 230,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A10_recent_q4.json.gz",
+ "results": [
+  [
+   "W7134940463",
+   2025
+  ],
+  [
+   "W4304185600",
+   2022
+  ],
+  [
+   "W7218048463",
+   2025
+  ],
+  [
+   "W7134978127",
+   2025
+  ],
+  [
+   "W7212257118",
+   2026
+  ],
+  [
+   "W7218193632",
+   2026
+  ],
+  [
+   "W4406281569",
+   2025
+  ],
+  [
+   "W7160148833",
+   2026
+  ],
+  [
+   "W4409178560",
+   2025
+  ],
+  [
+   "W7167698545",
+   2026
+  ],
+  [
+   "W7169556605",
+   2026
+  ],
+  [
+   "W7133646113",
+   2026
+  ],
+  [
+   "W4388380305",
+   2023
+  ],
+  [
+   "W4285149524",
+   2022
+  ],
+  [
+   "W4383554824",
+   2023
+  ]
+ ]
+}

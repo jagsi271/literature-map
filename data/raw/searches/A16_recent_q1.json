@@ -1,0 +1,115 @@
+{
+ "theme": "A16",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"night-time economy\" OR \"nighttime economy\" OR \"night-time city\" OR \"urban night\" OR nightlife) NOT (\"nighttime light\" OR \"night-time light\" OR \"night light\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"night-time economy\" OR \"nighttime economy\" OR \"night-time city\" OR \"urban night\" OR nightlife) NOT (\"nighttime light\" OR \"night-time light\" OR \"night light\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"night-time city\" OR \"night-time economy\" OR \"nighttime economy\" OR \"urban night\" OR \"nightlife\") NOT (\"night light\" OR \"night-time light\" OR \"nighttime light\"))",
+ "page": 1,
+ "total_results": 1761,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A16_recent_q1.json.gz",
+ "results": [
+  [
+   "W4415645899",
+   2025
+  ],
+  [
+   "W7138945063",
+   2025
+  ],
+  [
+   "W4404183956",
+   2024
+  ],
+  [
+   "W4402923160",
+   2024
+  ],
+  [
+   "W4414143140",
+   2025
+  ],
+  [
+   "W7207379341",
+   2024
+  ],
+  [
+   "W7169556808",
+   2026
+  ],
+  [
+   "W4406112219",
+   2024
+  ],
+  [
+   "W4406958215",
+   2025
+  ],
+  [
+   "W7169630580",
+   2026
+  ],
+  [
+   "W4389494231",
+   2023
+  ],
+  [
+   "W7206812634",
+   2023
+  ],
+  [
+   "W4412729022",
+   2025
+  ],
+  [
+   "W7165332031",
+   2025
+  ],
+  [
+   "W7199801895",
+   2024
+  ],
+  [
+   "W4313124494",
+   2022
+  ],
+  [
+   "W4377027842",
+   2023
+  ],
+  [
+   "W4307794315",
+   2022
+  ],
+  [
+   "W3000232276",
+   2024
+  ],
+  [
+   "W7212336265",
+   2026
+  ],
+  [
+   "W7160140980",
+   2026
+  ],
+  [
+   "W4408246918",
+   2025
+  ],
+  [
+   "W7154757320",
+   2026
+  ],
+  [
+   "W4409047817",
+   2025
+  ]
+ ]
+}

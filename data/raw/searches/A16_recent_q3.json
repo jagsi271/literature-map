@@ -1,0 +1,115 @@
+{
+ "theme": "A16",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(night OR nighttime OR \"after dark\") AND (women OR safety OR mobility) AND (city OR street OR transport) NOT (\"nighttime light\" OR \"night-time light\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(night OR nighttime OR \"after dark\") AND (women OR safety OR mobility) AND (city OR street OR transport) NOT (\"nighttime light\" OR \"night-time light\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"after dark\" OR \"night\" OR \"nighttime\") AND (\"city\" OR \"street\" OR \"transport\") AND (\"mobility\" OR \"safety\" OR \"women\") NOT (\"night-time light\" OR \"nighttime light\"))",
+ "page": 1,
+ "total_results": 2383,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A16_recent_q3.json.gz",
+ "results": [
+  [
+   "W4324137352",
+   2023
+  ],
+  [
+   "W4389559518",
+   2023
+  ],
+  [
+   "W4415454712",
+   2025
+  ],
+  [
+   "W4402121873",
+   2024
+  ],
+  [
+   "W7163744603",
+   2026
+  ],
+  [
+   "W4404832062",
+   2024
+  ],
+  [
+   "W7219929383",
+   2024
+  ],
+  [
+   "W7115186287",
+   2025
+  ],
+  [
+   "W4403388467",
+   2024
+  ],
+  [
+   "W7212188633",
+   2026
+  ],
+  [
+   "W7171404669",
+   2026
+  ],
+  [
+   "W4413141586",
+   2024
+  ],
+  [
+   "W7216390894",
+   2026
+  ],
+  [
+   "W7165187721",
+   2026
+  ],
+  [
+   "W4410361081",
+   2025
+  ],
+  [
+   "W7129077564",
+   2026
+  ],
+  [
+   "W7219548475",
+   2025
+  ],
+  [
+   "W4411152638",
+   2025
+  ],
+  [
+   "W4403057358",
+   2024
+  ],
+  [
+   "W4415652550",
+   2025
+  ],
+  [
+   "W7220515739",
+   2025
+  ],
+  [
+   "W4416703108",
+   2025
+  ],
+  [
+   "W4407798572",
+   2024
+  ],
+  [
+   "W4390456885",
+   2023
+  ]
+ ]
+}

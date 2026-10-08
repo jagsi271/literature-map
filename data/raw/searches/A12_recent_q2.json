@@ -1,0 +1,79 @@
+{
+ "theme": "A12",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"women's safety\" OR \"sexual harassment\") AND (urban OR city OR \"public transport\" OR street)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"women's safety\" OR \"sexual harassment\") AND (urban OR city OR \"public transport\" OR street),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"public transport\" OR \"city\" OR \"street\" OR \"urban\") AND (\"sexual harassment\" OR \"women's safety\"))",
+ "page": 1,
+ "total_results": 816,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A12_recent_q2.json.gz",
+ "results": [
+  [
+   "W4366364662",
+   2023
+  ],
+  [
+   "W4323049922",
+   2023
+  ],
+  [
+   "W4409200419",
+   2025
+  ],
+  [
+   "W4309623106",
+   2022
+  ],
+  [
+   "W4280515091",
+   2022
+  ],
+  [
+   "W4405234565",
+   2024
+  ],
+  [
+   "W7135624343",
+   2025
+  ],
+  [
+   "W7217639599",
+   2026
+  ],
+  [
+   "W4389724223",
+   2023
+  ],
+  [
+   "W4412818473",
+   2024
+  ],
+  [
+   "W7115738387",
+   2025
+  ],
+  [
+   "W4288384510",
+   2022
+  ],
+  [
+   "W7135861793",
+   2025
+  ],
+  [
+   "W4401332058",
+   2024
+  ],
+  [
+   "W7163360873",
+   2026
+  ]
+ ]
+}

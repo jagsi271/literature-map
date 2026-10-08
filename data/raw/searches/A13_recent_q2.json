@@ -1,0 +1,91 @@
+{
+ "theme": "A13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"world-class city\" OR \"world class city\" OR \"worlding cities\" OR \"global city making\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"world-class city\" OR \"world class city\" OR \"worlding cities\" OR \"global city making\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"global city making\" OR \"world class city\" OR \"world-class city\" OR \"worlding cities\")",
+ "page": 1,
+ "total_results": 96,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A13_recent_q2.json.gz",
+ "results": [
+  [
+   "W4386971751",
+   2023
+  ],
+  [
+   "W4361977775",
+   2023
+  ],
+  [
+   "W4310538487",
+   2022
+  ],
+  [
+   "W4393201757",
+   2022
+  ],
+  [
+   "W4389278820",
+   2023
+  ],
+  [
+   "W4402126224",
+   2024
+  ],
+  [
+   "W4412834388",
+   2025
+  ],
+  [
+   "W4297502249",
+   2022
+  ],
+  [
+   "W4390445757",
+   2023
+  ],
+  [
+   "W4387498922",
+   2023
+  ],
+  [
+   "W4365146595",
+   2022
+  ],
+  [
+   "W4409933303",
+   2022
+  ],
+  [
+   "W4404052258",
+   2024
+  ],
+  [
+   "W4223896403",
+   2022
+  ],
+  [
+   "W4411847382",
+   2025
+  ],
+  [
+   "W4280623973",
+   2022
+  ],
+  [
+   "W4285120113",
+   2022
+  ],
+  [
+   "W4383816347",
+   2023
+  ]
+ ]
+}

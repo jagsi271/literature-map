@@ -1,0 +1,79 @@
+{
+ "theme": "A12",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"feminist urbanism\" OR \"gendered city\" OR \"women and the city\" OR \"feminist geography\" AND city",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"feminist urbanism\" OR \"gendered city\" OR \"women and the city\" OR \"feminist geography\" AND city,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"feminist urbanism\" OR \"gendered city\" OR \"women and the city\" OR (\"feminist geography\" AND \"city\"))",
+ "page": 1,
+ "total_results": 38,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A12_recent_q1.json.gz",
+ "results": [
+  [
+   "W4313001541",
+   2022
+  ],
+  [
+   "W4390439236",
+   2023
+  ],
+  [
+   "W4307689780",
+   2022
+  ],
+  [
+   "W4408065965",
+   2025
+  ],
+  [
+   "W7135089462",
+   2026
+  ],
+  [
+   "W4389337825",
+   2023
+  ],
+  [
+   "W7164666942",
+   2026
+  ],
+  [
+   "W7132345700",
+   2025
+  ],
+  [
+   "W7164052483",
+   2026
+  ],
+  [
+   "W7200722863",
+   2026
+  ],
+  [
+   "W4389896348",
+   2023
+  ],
+  [
+   "W4390052357",
+   2023
+  ],
+  [
+   "W7117713823",
+   2025
+  ],
+  [
+   "W4409075339",
+   2024
+  ],
+  [
+   "W7163414948",
+   2026
+  ]
+ ]
+}

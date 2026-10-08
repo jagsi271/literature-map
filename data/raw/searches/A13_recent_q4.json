@@ -1,0 +1,43 @@
+{
+ "theme": "A13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban beautification\" OR \"city branding\" OR \"urban spectacle\" OR \"urban renewal\" AND spectacle",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban beautification\" OR \"city branding\" OR \"urban spectacle\" OR \"urban renewal\" AND spectacle,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"city branding\" OR \"urban beautification\" OR \"urban spectacle\" OR (\"urban renewal\" AND \"spectacle\"))",
+ "page": 1,
+ "total_results": 6,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A13_recent_q4.json.gz",
+ "results": [
+  [
+   "W7124860224",
+   2026
+  ],
+  [
+   "W7220806683",
+   2026
+  ],
+  [
+   "W7115609016",
+   2025
+  ],
+  [
+   "W7161709486",
+   2026
+  ],
+  [
+   "W4224263215",
+   2022
+  ],
+  [
+   "W7215996353",
+   2025
+  ]
+ ]
+}

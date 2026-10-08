@@ -1,0 +1,79 @@
+{
+ "theme": "A10",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"street vending\" OR \"street vendors\" OR \"street hawkers\" OR hawkers OR \"street trading\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"street vending\" OR \"street vendors\" OR \"street hawkers\" OR hawkers OR \"street trading\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"street hawkers\" OR \"street trading\" OR \"street vending\" OR \"street vendors\" OR \"hawkers\")",
+ "page": 1,
+ "total_results": 4043,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A10_recent_q1.json.gz",
+ "results": [
+  [
+   "W4300427614",
+   2022
+  ],
+  [
+   "W4416855893",
+   2025
+  ],
+  [
+   "W4402730001",
+   2024
+  ],
+  [
+   "W7212027446",
+   2026
+  ],
+  [
+   "W7203734638",
+   2026
+  ],
+  [
+   "W7170080319",
+   2024
+  ],
+  [
+   "W4312419122",
+   2022
+  ],
+  [
+   "W4390814538",
+   2023
+  ],
+  [
+   "W4220785782",
+   2022
+  ],
+  [
+   "W7170078024",
+   2024
+  ],
+  [
+   "W7135427616",
+   2026
+  ],
+  [
+   "W4321376316",
+   2023
+  ],
+  [
+   "W4396525732",
+   2023
+  ],
+  [
+   "W4389504559",
+   2023
+  ],
+  [
+   "W4416439510",
+   2025
+  ]
+ ]
+}

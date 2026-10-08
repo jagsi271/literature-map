@@ -1,0 +1,79 @@
+{
+ "theme": "A14",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban climate governance\" OR (\"climate change\" AND (city OR cities) AND (adaptation OR governance OR justice))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban climate governance\" OR (\"climate change\" AND (city OR cities) AND (adaptation OR governance OR justice)),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban climate governance\" OR (\"climate change\" AND (\"adaptation\" OR \"governance\" OR \"justice\") AND (\"cities\" OR \"city\")))",
+ "page": 1,
+ "total_results": 8450,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A14_recent_q1.json.gz",
+ "results": [
+  [
+   "W4396617844",
+   2024
+  ],
+  [
+   "W7203614270",
+   2026
+  ],
+  [
+   "W4403770208",
+   2024
+  ],
+  [
+   "W4382516500",
+   2023
+  ],
+  [
+   "W7200008483",
+   2022
+  ],
+  [
+   "W4313201492",
+   2022
+  ],
+  [
+   "W4388875820",
+   2023
+  ],
+  [
+   "W4320001249",
+   2023
+  ],
+  [
+   "W4401882436",
+   2024
+  ],
+  [
+   "W4297547703",
+   2022
+  ],
+  [
+   "W7118014528",
+   2025
+  ],
+  [
+   "W7165785582",
+   2026
+  ],
+  [
+   "W4402782833",
+   2024
+  ],
+  [
+   "W4285235645",
+   2022
+  ],
+  [
+   "W4226161604",
+   2022
+  ]
+ ]
+}

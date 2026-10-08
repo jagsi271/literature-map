@@ -1,0 +1,91 @@
+{
+ "theme": "A15",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"comparative urbanism\" OR \"postcolonial urbanism\" OR \"postcolonial urban\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"comparative urbanism\" OR \"postcolonial urbanism\" OR \"postcolonial urban\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"comparative urbanism\" OR \"postcolonial urban\" OR \"postcolonial urbanism\")",
+ "page": 1,
+ "total_results": 232,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A15_recent_q2.json.gz",
+ "results": [
+  [
+   "W4284966750",
+   2022
+  ],
+  [
+   "W4403486587",
+   2024
+  ],
+  [
+   "W4416327103",
+   2025
+  ],
+  [
+   "W4394619675",
+   2024
+  ],
+  [
+   "W4372319719",
+   2023
+  ],
+  [
+   "W4293230397",
+   2022
+  ],
+  [
+   "W4284958278",
+   2022
+  ],
+  [
+   "W4410651995",
+   2023
+  ],
+  [
+   "W4401228559",
+   2024
+  ],
+  [
+   "W4224254701",
+   2022
+  ],
+  [
+   "W7154243505",
+   2025
+  ],
+  [
+   "W7160030484",
+   2026
+  ],
+  [
+   "W4383909029",
+   2023
+  ],
+  [
+   "W7212000107",
+   2022
+  ],
+  [
+   "W4308451269",
+   2022
+  ],
+  [
+   "W7211959660",
+   2026
+  ],
+  [
+   "W7211960353",
+   2026
+  ],
+  [
+   "W7211947106",
+   2026
+  ]
+ ]
+}

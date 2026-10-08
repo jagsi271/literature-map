@@ -1,0 +1,91 @@
+{
+ "theme": "A13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"mega-events\" OR \"mega-event\" OR \"Commonwealth Games\" OR \"Olympic Games\" AND (city OR urban)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"mega-events\" OR \"mega-event\" OR \"Commonwealth Games\" OR \"Olympic Games\" AND (city OR urban),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"Commonwealth Games\" OR \"mega-event\" OR \"mega-events\" OR (\"Olympic Games\" AND (\"city\" OR \"urban\")))",
+ "page": 1,
+ "total_results": 627,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A13_recent_q1.json.gz",
+ "results": [
+  [
+   "W4309902988",
+   2022
+  ],
+  [
+   "W4388018252",
+   2023
+  ],
+  [
+   "W4281750597",
+   2022
+  ],
+  [
+   "W7172482884",
+   2026
+  ],
+  [
+   "W4376851508",
+   2023
+  ],
+  [
+   "W4378419819",
+   2023
+  ],
+  [
+   "W4409001853",
+   2025
+  ],
+  [
+   "W4401626272",
+   2024
+  ],
+  [
+   "W4313466040",
+   2022
+  ],
+  [
+   "W7128783837",
+   2026
+  ],
+  [
+   "W7120436690",
+   2024
+  ],
+  [
+   "W4416585297",
+   2025
+  ],
+  [
+   "W2808033509",
+   2022
+  ],
+  [
+   "W7115034709",
+   2025
+  ],
+  [
+   "W4407171594",
+   2024
+  ],
+  [
+   "W7160412147",
+   2026
+  ],
+  [
+   "W4210826326",
+   2022
+  ],
+  [
+   "W4281922079",
+   2022
+  ]
+ ]
+}

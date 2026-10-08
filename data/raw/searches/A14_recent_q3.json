@@ -1,0 +1,79 @@
+{
+ "theme": "A14",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"urban flooding\" OR \"urban floods\") AND (governance OR vulnerability OR politics)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"urban flooding\" OR \"urban floods\") AND (governance OR vulnerability OR politics),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"urban flooding\" OR \"urban floods\") AND (\"governance\" OR \"politics\" OR \"vulnerability\"))",
+ "page": 1,
+ "total_results": 686,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A14_recent_q3.json.gz",
+ "results": [
+  [
+   "W4408153743",
+   2024
+  ],
+  [
+   "W4412981400",
+   2025
+  ],
+  [
+   "W4388342520",
+   2023
+  ],
+  [
+   "W4226203363",
+   2022
+  ],
+  [
+   "W4213305277",
+   2022
+  ],
+  [
+   "W4385267006",
+   2023
+  ],
+  [
+   "W4389736274",
+   2023
+  ],
+  [
+   "W4394958527",
+   2024
+  ],
+  [
+   "W7152694563",
+   2026
+  ],
+  [
+   "W4306796191",
+   2022
+  ],
+  [
+   "W4393227458",
+   2024
+  ],
+  [
+   "W4407892125",
+   2025
+  ],
+  [
+   "W4413544221",
+   2025
+  ],
+  [
+   "W4407932035",
+   2025
+  ],
+  [
+   "W4414183036",
+   2025
+  ]
+ ]
+}
