@@ -74,7 +74,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | C6 | Urban surveillance, policing & biometrics in  | 240 | 104 | 38 (16%) | 12 / 26 | 115 | 112 |
 | C7 | Algorithmic & automated urban governance, mun | 226 | 124 | 39 (17%) | 6 / 33 | 125 | 117 |
 | C8 | City-level DPI & urban e-government | 217 | 113 | 32 (15%) | 13 / 19 | 125 | 117 |
-| C9 | Digital mobility (ride-hailing, MaaS, digital | 228 | 140 | 21 (9%) | 0 / 0 (+21 pending) | 138 | 136 |
+| C9 | Digital mobility (ride-hailing, MaaS, digital | 228 | 140 | 21 (9%) | 6 / 15 | 144 | 142 |
 | C10 | Proptech, housing platforms & short-term rent | 226 | 144 | 35 (16%) | 0 / 0 (+35 pending) | 137 | 134 |
 | C11 | Digital payments in urban economies (QR, UPI, | 218 | 111 | 13 (6%) | 0 / 0 (+13 pending) | 107 | 99 |
 | C12 | Civic tech, e-participation & digital urban p | 239 | 87 | 28 (12%) | 0 / 0 (+28 pending) | 83 | 79 |
@@ -85,7 +85,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | C17 | Urban cybersecurity & cyber-physical infrastr | 228 | 110 | 40 (18%) | 0 / 0 (+40 pending) | 109 | 104 |
 | C18 | Neighbourhood platforms & digital public spac | 217 | 98 | 30 (14%) | 0 / 0 (+30 pending) | 97 | 96 |
 
-Total deduplicated records: 7075.
+Total deduplicated records: 7081.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)

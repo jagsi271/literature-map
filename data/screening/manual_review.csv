@@ -1271,3 +1271,24 @@ W4408406681,C8,exclude,"Claude (manual review, Stage 2)",e-government in modern 
 W7154892982,C8,include,"Claude (manual review, Stage 2)","municipal digital public infrastructure for zero-waste, Florianopolis"
 W4225296411,C8,exclude,"Claude (manual review, Stage 2)",smart governance assessment review (C1)
 W4414880026,C8,exclude,"Claude (manual review, Stage 2)",smart governance special issue (C1)
+W4414086906,C9,exclude,"Claude (manual review, Stage 2)",fuel prices and mode choice simulation
+W7201974009,C9,exclude,"Claude (manual review, Stage 2)",gig and platform economy in Ahmedabad (B11/C15)
+W3177459575,C9,exclude,"Claude (manual review, Stage 2)",mode-choice modelling
+W4206066341,C9,exclude,"Claude (manual review, Stage 2)",COVID risk perception by mode
+W4307269039,C9,include,"Claude (manual review, Stage 2)",mobility-app users in Delhi
+W7148997692,C9,include,"Claude (manual review, Stage 2)","digital financial readiness and MaaS adoption, India"
+W2944158788,C9,include,"Claude (manual review, Stage 2)","integrated MRTS with common smart card, Western India"
+W4292790991,C9,exclude,"Claude (manual review, Stage 2)",gender-equitable transport post-COVID (A8/A12)
+W1560868062,C9,exclude,"Claude (manual review, Stage 2)",BRT-rickshaw integration design
+W3160041148,C9,include,"Claude (manual review, Stage 2)",multimodal planning and fare integration in Indian cities
+W7216525282,C9,exclude,"Claude (manual review, Stage 2)",low-emission transport bibliometrics
+W2631081867,C9,exclude,"Claude (manual review, Stage 2)",shared self-driving fleet model
+W3046677190,C9,exclude,"Claude (manual review, Stage 2)",future urban transport review
+W2475458100,C9,exclude,"Claude (manual review, Stage 2)",transport cost-benefit guide
+W2544770515,C9,exclude,"Claude (manual review, Stage 2)",subway ridership prediction
+W2944507549,C9,exclude,"Claude (manual review, Stage 2)",big data in public transport review (methods)
+W2810648485,C9,exclude,"Claude (manual review, Stage 2)",smart-card data and urban vitality (computational)
+W4409671179,C9,exclude,"Claude (manual review, Stage 2)",ride-hailing cancellation prediction model
+W7154707697,C9,include,"Claude (manual review, Stage 2)",Mobility as a Service (overview)
+W7204516586,C9,include,"Claude (manual review, Stage 2)",contactless fare payment in rural transit (flag false positive)
+W4410027442,C9,exclude,"Claude (manual review, Stage 2)",NFC fare system engineering

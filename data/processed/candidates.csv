@@ -11674,16 +11674,16 @@ W4323846274,C8,recent,C8_recent_q4,18,Smart Governance Toolbox: A Systematic Lit
 W4411199837,C9,india,C9_india_q1,1,Navigating urban mobility: Mobility attitudes and travel mode choices in Dubai and Lahore,2025,article,4,True,include,3,rules,include
 W7208706967,C9,india,C9_india_q1,2,Emerging Paradigms in Urban Mobility in India,2026,book-chapter,0,True,include,3,rules,include
 W3158890363,C9,india,C9_india_q1,3,Exploring the Tensions between the Owners and the Drivers of Uber Cars in Urban Bangladesh,2021,article,16,True,include,6,rules,include
-W4414086906,C9,india,C9_india_q1,4,MATLAB-BASED SIMULATION AND STATISTICAL ANALYSIS OF FUEL PRICE IMPACT ON URBAN MOBILITY: A STUDY IN LAHORE,2025,article,0,True,borderline,1,core concept mentioned once,pending
-W7201974009,C9,india,C9_india_q1,5,A Study on the Scope and Impact of Gig and Platform Economy in Ahmedabad,2025,article,0,True,borderline,1,core concept mentioned once,pending
+W4414086906,C9,india,C9_india_q1,4,MATLAB-BASED SIMULATION AND STATISTICAL ANALYSIS OF FUEL PRICE IMPACT ON URBAN MOBILITY: A STUDY IN LAHORE,2025,article,0,True,borderline,1,core concept mentioned once | manual: fuel prices and mode choice simulation,exclude
+W7201974009,C9,india,C9_india_q1,5,A Study on the Scope and Impact of Gig and Platform Economy in Ahmedabad,2025,article,0,True,borderline,1,core concept mentioned once | manual: gig and platform economy in Ahmedabad (B11/C15),exclude
 W4386932370,C9,india,C9_india_q1,6,Enhancing Urban Mobility: Exploring the Potential of Exclusive Motorcycle Lane Using VISSIM,2023,article,10,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
-W3177459575,C9,india,C9_india_q1,7,Challenges in Behaviour Modelling of Mode Choice Model - A Peek into Indian Scenario,2021,article,0,True,borderline,1,core concept mentioned once,pending
+W3177459575,C9,india,C9_india_q1,7,Challenges in Behaviour Modelling of Mode Choice Model - A Peek into Indian Scenario,2021,article,0,True,borderline,1,core concept mentioned once | manual: mode-choice modelling,exclude
 W7155352344,C9,india,C9_india_q1,8,Mobility attitudes in the context of urban form and shared mobility modes,2026,dissertation,0,True,include,6,rules,include
 W7118191634,C9,india,C9_india_q1,9,Analysis of Heterogenous Motorcycle Risk Perception and Crash Exposure in Developing Country's Urban Driving Environment: Precursors and Policy Implications Using Structural Equation Modeling,2026,preprint,0,False,exclude,0,core concept missing,exclude
 W4416666352,C9,india,C9_india_q1,10,Analysis of Heterogenous Motorcycle Risk Perception and Crash Exposure in Developing Country’s Urban Driving Environment: Precursors and Policy Implications Using Structural Equation Modeling,2025,preprint,0,True,include,2,rules,include
 W4360924293,C9,india,C9_india_q1,11,Gen Y: Ride-Sharing Attitude & Usage Trends,2022,article,0,True,include,6,rules,include
 W2788708183,C9,india,C9_india_q1,12,A Dynamic Carpooling System with Social Network Based Filtering,2017,article,3,True,include,3,rules,include
-W4206066341,C9,india,C9_india_q1,13,Risk perceptions of COVID-19 transmission in different travel modes,2022,article,55,True,borderline,1,core concept mentioned once,pending
+W4206066341,C9,india,C9_india_q1,13,Risk perceptions of COVID-19 transmission in different travel modes,2022,article,55,True,borderline,1,core concept mentioned once | manual: COVID risk perception by mode,exclude
 W4319844651,C9,india,C9_india_q1,14,Mode Choice Preferences of Female University Students and Impacts of Ride-Sharing Thereon,2023,article,2,True,include,6,rules,include
 W2119864813,C9,india,C9_india_q1,15,Perspectives : academic reading skills and practice,2015,book,2,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2586888086,C9,india,C9_india_q2,1,Demand Responsive Mobility as a Service,2016,conference-paper,27,True,include,6,rules,include
@@ -11691,12 +11691,12 @@ W4386073403,C9,india,C9_india_q2,2,"Assessment of drivers and barriers in the ad
 W4416328158,C9,india,C9_india_q2,3,Pathway to Mobility as a Service (MaaS) through electrification of Micro-Mobility,2025,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W7166512129,C9,india,C9_india_q2,4,Assessing the Adaptability of Mobility-as-a-Service (MaaS) in Emerging Cities: Integrating Informal Transport within Multimodal Urban Mobility Framework: A Case Study of Delhi,2026,article,0,False,include,3,no abstract; core (and context) in title,include
 W4399528612,C9,india,C9_india_q2,5,Smart Mobility for Smart Cities: Analyzing MaaS Adoption in Chennai,2024,conference-paper,4,True,include,6,rules,include
-W4307269039,C9,india,C9_india_q2,6,"Assessing the Factors Impacting Transport Usage of Mobility App Users in the National Capital Territory of Delhi, India",2022,article,7,True,borderline,1,core concept mentioned once,pending
+W4307269039,C9,india,C9_india_q2,6,"Assessing the Factors Impacting Transport Usage of Mobility App Users in the National Capital Territory of Delhi, India",2022,article,7,True,borderline,1,core concept mentioned once | manual: mobility-app users in Delhi,include
 W7155711307,C9,india,C9_india_q2,7,Unlocking the Path to MaaS in Indian Cities: Qualitative Exploration of Supply-Side Challenges in Kochi,2026,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
 W3011406520,C9,india,C9_india_q2,8,MaaS: Opportunities for Improving Mobility Services,2020,article,1,True,include,6,rules,include
 W7117475349,C9,india,C9_india_q2,9,"Exploring the role of reasoned and unreasoned influences on MaaS adoption: insights from Kochi, India",2025,article,0,True,include,6,rules,include
 W2977464096,C9,india,C9_india_q2,10,India’s shift from mass transit to MaaS transit: Insights from Kochi,2019,article,43,False,include,3,no abstract; core (and context) in title,include
-W7148997692,C9,india,C9_india_q2,11,Digital Financial Readiness as a Behavioural Enabler of MaaS Adoption in Rural India: A Hybrid PLS-SEM–ANN Approach,2026,article,0,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W7148997692,C9,india,C9_india_q2,11,Digital Financial Readiness as a Behavioural Enabler of MaaS Adoption in Rural India: A Hybrid PLS-SEM–ANN Approach,2026,article,0,True,borderline,6,"flag: \b(deep learning|neural network|convolut | manual: digital financial readiness and MaaS adoption, India",include
 W4246003143,C9,india,C9_india_q2,12,Novozymes to enter Indian biotech market,2012,article,0,False,exclude,0,core concept missing,exclude
 W4408262309,C9,india,C9_india_q2,13,Factors Influencing MaaS Uptake in the Context of Developing Countries Based on the Unified Theory of Acceptance and Use of Technology 2 (UTAUT2) Framework,2025,conference-paper,1,False,exclude,3,no abstract; no urban context (C theme),exclude
 W2111787909,C9,india,C9_india_q2,14,"Photoheterotrophic growth unprecedentedly increases the biosynthesis of mycosporine-like amino acid shinorine in the cyanobacterium Anabaena sp., isolated from hot springs of Rajgir (India)",2013,article,18,False,exclude,0,core concept missing,exclude
@@ -11707,8 +11707,8 @@ W3147821219,C9,india,C9_india_q3,3,Train Ticketing System using Smart Card,2014,
 W4254724188,C9,india,C9_india_q3,4,Rationalizing Urban Transportation using Smart Card Data,2019,article,0,True,include,6,rules,include
 W4386073403,C9,india,C9_india_q3,5,"Assessment of drivers and barriers in the adoption of Mobility as a Service (MaaS): a case study of Noida, India",2023,article,10,True,include,6,rules,include
 W4309640140,C9,india,C9_india_q3,6,An Approach of Enhancing the Quality of Public Transportation Service in Sri Lanka using IoT,2022,conference-paper,2,True,include,3,rules,include
-W2944158788,C9,india,C9_india_q3,7,Integrated Mass Rapid Transit System For Smart City Project In Western India,2018,article,0,True,borderline,1,core concept mentioned once,pending
-W4292790991,C9,india,C9_india_q3,8,Moving Toward Gender-Equitable Transportation in Post-COVID-19 Urban South Asia,2022,article,15,True,borderline,1,core concept mentioned once,pending
+W2944158788,C9,india,C9_india_q3,7,Integrated Mass Rapid Transit System For Smart City Project In Western India,2018,article,0,True,borderline,1,"core concept mentioned once | manual: integrated MRTS with common smart card, Western India",include
+W4292790991,C9,india,C9_india_q3,8,Moving Toward Gender-Equitable Transportation in Post-COVID-19 Urban South Asia,2022,article,15,True,borderline,1,core concept mentioned once | manual: gender-equitable transport post-COVID (A8/A12),exclude
 W2810805266,C9,india,C9_india_q3,9,Smart Bus System in Mumbai,2018,article,0,True,exclude,0,core concept missing,exclude
 W4229589811,C9,india,C9_india_q3,10,Development of Microcontroller based Automated Public Transport Ticketing System,2019,article,3,True,include,6,rules,include
 W4296232817,C9,india,C9_india_q3,11,Potential of Electronic Ticketing Machine Data in Public Transport Planning,2022,conference-paper,1,False,include,3,no abstract; core (and context) in title,include
@@ -11717,14 +11717,14 @@ W4386692370,C9,india,C9_india_q3,13,Smart E-Ticketing and Payment System using W
 W2990531393,C9,india,C9_india_q3,14,Leveraging innovation for last-mile connectivity to mass transit,2019,article,48,True,include,2,rules,include
 W4415926081,C9,india,C9_india_q3,15,Strategic Implementation of First and Last Mile Solutions for Urban Public Transit in India: An ISM-MICMAC Multi-Criteria Decision Making Analysis,2025,preprint,0,False,exclude,0,core concept missing,exclude
 W4408738973,C9,india,C9_india_q4,1,SmartBRT: Digital Ticketing for a Greener Future,2025,article,0,True,include,6,rules,include
-W1560868062,C9,india,C9_india_q4,2,"Integrating BRT with Rickshaws in Developing Cities: A Case Study on Dhaka City, Bangladesh",2013,dissertation,5,True,borderline,1,core concept mentioned once,pending
+W1560868062,C9,india,C9_india_q4,2,"Integrating BRT with Rickshaws in Developing Cities: A Case Study on Dhaka City, Bangladesh",2013,dissertation,5,True,borderline,1,core concept mentioned once | manual: BRT-rickshaw integration design,exclude
 W7117451522,C9,india,C9_india_q4,3,Evaluating and ranking service quality attributes for optimizing metro rail transit services in Dhaka using advanced analytics,2025,article,0,True,exclude,2,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W7148375313,C9,india,C9_india_q4,4,Modeling the Impact of Demographic Variables on Metro Commuting Patterns in Bengaluru,2026,article,0,True,include,2,rules,include
 W7204626500,C9,india,C9_india_q4,5,Planning Urban Mobility in Transition: Transportation Futures in Major Indian Cities and Their Parallels on the United States East Coast,2026,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W3160041148,C9,india,C9_india_q4,6,Synthesizing the Evolution of Multimodal Transportation Planning milestones in Indian Cities,2021,conference-paper,8,True,borderline,1,core concept mentioned once,pending
+W3160041148,C9,india,C9_india_q4,6,Synthesizing the Evolution of Multimodal Transportation Planning milestones in Indian Cities,2021,conference-paper,8,True,borderline,1,core concept mentioned once | manual: multimodal planning and fare integration in Indian cities,include
 W7118006460,C9,india,C9_india_q5,1,"Platform Urbanism and Culinary Logistics: Mobility, Infrastructure, and Micro-Entrepreneurship in Post-Digital Kolkata",2026,conference-paper,0,False,exclude,0,core concept missing,exclude
 W7166827998,C9,india,C9_india_q5,2,"The accelerating scars of electric micromobility: Review of global injury patterns, electrical hazards and regulatory imperatives",2026,article,0,True,include,6,rules,include
-W7216525282,C9,india,C9_india_q5,3,Emerging Trends In Low-Emission Urban Transport: A Bibliometric Analysis Of Sustainable Mobility Technologies,2025,article,0,True,borderline,1,core concept mentioned once,pending
+W7216525282,C9,india,C9_india_q5,3,Emerging Trends In Low-Emission Urban Transport: A Bibliometric Analysis Of Sustainable Mobility Technologies,2025,article,0,True,borderline,1,core concept mentioned once | manual: low-emission transport bibliometrics,exclude
 W4416914743,C9,india,C9_india_q5,4,Guest editorial: Sustainability management from a behavioral perspective in hospitality and tourism,2025,editorial,0,True,exclude,0,type editorial,exclude
 W2125363721,C9,landmarks,C9_landmarks,1,The Nucleolus of a Characteristic Function Game,1969,article,1904,True,include,3,rules,include
 W2044985623,C9,landmarks,C9_landmarks,2,Smart card data use in public transit: A literature review,2011,article,934,False,include,3,no abstract; core (and context) in title,include
@@ -11739,7 +11739,7 @@ W572279269,C9,landmarks,C9_landmarks,10,Where Is My Bus? Impact of mobile real-t
 W2560603808,C9,landmarks,C9_landmarks,11,Understanding commuting patterns using transit smart card data,2016,article,352,False,include,3,no abstract; core (and context) in title,include
 W2586236042,C9,landmarks,C9_landmarks,12,Future bus transport contracts under a mobility as a service (MaaS) regime in the digital age: Are they likely to change?,2017,article,348,False,include,3,no abstract; core (and context) in title,include
 W2792803029,C9,landmarks,C9_landmarks,13,A geographically and temporally weighted regression model to explore the spatiotemporal influence of built environment on transit ridership,2018,article,339,False,exclude,0,core concept missing,exclude
-W2631081867,C9,landmarks,C9_landmarks,14,"Assessing the impacts of deploying a shared self-driving urban mobility system: An agent-based model applied to the city of Lisbon, Portugal",2017,article,321,True,borderline,1,core concept mentioned once,pending
+W2631081867,C9,landmarks,C9_landmarks,14,"Assessing the impacts of deploying a shared self-driving urban mobility system: An agent-based model applied to the city of Lisbon, Portugal",2017,article,321,True,borderline,1,core concept mentioned once | manual: shared self-driving fleet model,exclude
 W2889412060,C9,landmarks,C9_landmarks,15,Potential uptake and willingness-to-pay for Mobility as a Service (MaaS): A stated choice study,2018,article,312,False,include,3,no abstract; core (and context) in title,include
 W2001553466,C9,landmarks,C9_landmarks,16,On Stochastic Processes Defined by Differential Equations with a Small Parameter,1966,article,305,True,exclude,0,core concept missing,exclude
 W2946715324,C9,landmarks,C9_landmarks,17,Questioning mobility as a service: Unanticipated implications for society and governance,2019,article,304,True,include,6,rules,include
@@ -11752,7 +11752,7 @@ W3107425836,C9,landmarks,C9_landmarks,23,Barriers and risks of Mobility-as-a-Ser
 W2165783061,C9,landmarks,C9_landmarks,24,Measuring transit use variability with smart-card data,2007,article,272,False,exclude,0,core concept missing,exclude
 W2793369443,C9,landmarks,C9_landmarks,25,The potential of mobility as a service bundles as a mobility management tool,2018,article,269,True,include,6,rules,include
 W2999815819,C9,landmarks,C9_landmarks,26,Dockless bike-sharing systems: what are the implications?,2020,article,268,True,include,6,rules,include
-W3046677190,C9,landmarks,C9_landmarks,27,Urban mobility and public transport: future perspectives and review,2020,article,264,True,borderline,1,core concept mentioned once,pending
+W3046677190,C9,landmarks,C9_landmarks,27,Urban mobility and public transport: future perspectives and review,2020,article,264,True,borderline,1,core concept mentioned once | manual: future urban transport review,exclude
 W2027526029,C9,landmarks,C9_landmarks,28,Dynamic at-stop real-time information displays for public transport: effects on customers,2007,article,254,False,include,3,no abstract; core (and context) in title,include
 W2803025171,C9,landmarks,C9_landmarks,29,Spatial variations in urban public ridership derived from GPS trajectories and smart card data,2018,article,253,False,include,3,no abstract; core (and context) in title,include
 W2015569667,C9,landmarks,C9_landmarks,30,Differentially private transit data publication,2012,conference-paper,253,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -11761,7 +11761,7 @@ W3042483072,C9,landmarks,C9_landmarks,32,A comparison in travel patterns and det
 W2947691164,C9,landmarks,C9_landmarks,33,Assessing the welfare impacts of Shared Mobility and Mobility as a Service (MaaS),2019,article,240,False,include,3,no abstract; core (and context) in title,include
 W2900693998,C9,landmarks,C9_landmarks,34,Shared versus private mobility: Modeling public interest in autonomous vehicles accounting for latent attitudes,2018,article,238,False,exclude,0,core concept missing,exclude
 W2914285535,C9,landmarks,C9_landmarks,35,Exploring the spatial variation of ridesourcing demand and its relationship to built environment and socioeconomic factors with the geographically weighted Poisson regression,2019,article,236,False,exclude,3,no abstract; no urban context (C theme),exclude
-W2475458100,C9,landmarks,C9_landmarks,36,"Transportation Cost and Benefit Analysis Techniques, Estimates and Implications",2003,article,233,True,borderline,1,core concept mentioned once,pending
+W2475458100,C9,landmarks,C9_landmarks,36,"Transportation Cost and Benefit Analysis Techniques, Estimates and Implications",2003,article,233,True,borderline,1,core concept mentioned once | manual: transport cost-benefit guide,exclude
 W3045845471,C9,landmarks,C9_landmarks,37,The role of shared autonomous vehicle systems in delivering smart urban mobility: A systematic review of the literature,2020,review,230,True,include,2,rules,include
 W2909392949,C9,landmarks,C9_landmarks,38,The importance of user perspective in the evolution of MaaS,2019,article,228,True,include,6,rules,include
 W2809433071,C9,landmarks,C9_landmarks,39,Challenges of collaborative governance in the sharing economy: The case of free-floating bike sharing in Shanghai,2018,article,226,False,exclude,0,core concept missing,exclude
@@ -11797,7 +11797,7 @@ W4313435862,C9,landmarks,C9_landmarks,68,Time-varying and non-linear association
 W1983025701,C9,landmarks,C9_landmarks,69,Performance Evaluation of Short-Term Time-Series Traffic Prediction Model,2002,article,184,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3001137607,C9,landmarks,C9_landmarks,70,Towards a framework for Mobility-as-a-Service policies,2020,article,183,False,include,3,no abstract; core (and context) in title,include
 W2975747882,C9,landmarks,C9_landmarks,71,Prototype business models for Mobility-as-a-Service,2019,article,182,False,include,3,no abstract; core (and context) in title,include
-W2544770515,C9,landmarks,C9_landmarks,72,Predicting Short-Term Subway Ridership and Prioritizing Its Influential Factors Using Gradient Boosting Decision Trees,2016,article,182,True,borderline,1,core concept mentioned once,pending
+W2544770515,C9,landmarks,C9_landmarks,72,Predicting Short-Term Subway Ridership and Prioritizing Its Influential Factors Using Gradient Boosting Decision Trees,2016,article,182,True,borderline,1,core concept mentioned once | manual: subway ridership prediction,exclude
 W2061934519,C9,landmarks,C9_landmarks,73,A-to-I RNA Editing: Recent News and Residual Mysteries,2003,article,182,True,include,3,rules,include
 W2605048719,C9,landmarks,C9_landmarks,74,Analyzing year-to-year changes in public transport passenger behaviour using smart card data,2017,article,181,False,include,3,no abstract; core (and context) in title,include
 W2273232783,C9,landmarks,C9_landmarks,75,"Variability in Regularity: Mining Temporal Mobility Patterns in London, Singapore and Beijing Using Smart-Card Data",2016,article,181,True,exclude,0,core concept missing,exclude
@@ -11812,14 +11812,14 @@ W1987598692,C9,landmarks,C9_landmarks,83,The impact of fare integration on trave
 W2767613278,C9,landmarks,C9_landmarks,84,Crowding valuation in urban tram and bus transportation based on smart card data,2018,article,165,True,include,3,rules,include
 W2782547620,C9,landmarks,C9_landmarks,85,Public transport trip purpose inference using smart card fare data,2018,article,163,False,include,3,no abstract; core (and context) in title,include
 W2946964936,C9,landmarks,C9_landmarks,86,Subway Passenger Flow Prediction for Special Events Using Smart Card Data,2019,article,162,True,include,4,rules,include
-W2944507549,C9,landmarks,C9_landmarks,87,Big data in public transportation: a review of sources and methods,2019,article,161,True,borderline,1,core concept mentioned once,pending
+W2944507549,C9,landmarks,C9_landmarks,87,Big data in public transportation: a review of sources and methods,2019,article,161,True,borderline,1,core concept mentioned once | manual: big data in public transport review (methods),exclude
 W2117989646,C9,landmarks,C9_landmarks,88,Exploring bikesharing travel time and trip chain by gender and day of the week,2015,article,161,False,exclude,3,no abstract; no urban context (C theme),exclude
 W3040051351,C9,landmarks,C9_landmarks,89,Consumer preferences for Mobility-as-a-Service (MaaS) in Australia,2020,article,160,False,include,3,no abstract; core (and context) in title,include
 W2813197863,C9,landmarks,C9_landmarks,90,Future implementation of mobility as a service (MaaS): Results of an international Delphi study,2018,article,159,True,include,6,rules,include
 W2949407720,C9,landmarks,C9_landmarks,91,Shared autonomous vehicle simulation and service design,2019,article,156,False,exclude,0,core concept missing,exclude
 W1993418585,C9,landmarks,C9_landmarks,92,Travel Time and Transfer Analysis Using Transit Smart Card Data,2010,article,155,True,include,5,rules,include
 W2902882062,C9,landmarks,C9_landmarks,93,Ready for Mobility as a Service? Insights from stakeholders and end-users,2018,article,153,False,include,3,no abstract; core (and context) in title,include
-W2810648485,C9,landmarks,C9_landmarks,94,Using mobility data as proxy for measuring urban vitality,2018,article,153,True,borderline,1,core concept mentioned once,pending
+W2810648485,C9,landmarks,C9_landmarks,94,Using mobility data as proxy for measuring urban vitality,2018,article,153,True,borderline,1,core concept mentioned once | manual: smart-card data and urban vitality (computational),exclude
 W2028536332,C9,landmarks,C9_landmarks,95,The impact of real-time information on bus ridership in New York City,2015,article,153,False,include,3,no abstract; core (and context) in title,include
 W2004131532,C9,landmarks,C9_landmarks,96,Enriching Archived Smart Card Transaction Data for Transit Demand Modeling,2008,article,152,True,include,6,rules,include
 W2067942114,C9,landmarks,C9_landmarks,97,Estimation method for railway passengers’ train choice behavior with smart card transaction data,2010,article,149,False,exclude,3,no abstract; no urban context (C theme),exclude
@@ -11827,7 +11827,7 @@ W2031318626,C9,landmarks,C9_landmarks,98,The ambivalence of ridesharing,2006,art
 W3047711291,C9,landmarks,C9_landmarks,99,Early adopters of Mobility-as-a-Service in the Netherlands,2020,article,148,True,include,6,rules,include
 W2794935472,C9,landmarks,C9_landmarks,100,Passenger arrival and waiting time distributions dependent on train service frequency and station characteristics: A smart card data analysis,2018,article,148,False,exclude,3,no abstract; no urban context (C theme),exclude
 W4386718320,C9,recent,C9_recent_q1,1,Optimal matching for coexisting ride-hailing and ridesharing services considering pricing fairness and user choices,2023,article,37,True,include,6,rules,include
-W4409671179,C9,recent,C9_recent_q1,2,Predictive modelling and customer accommodation strategies in ride-hailing services,2025,book-chapter,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4409671179,C9,recent,C9_recent_q1,2,Predictive modelling and customer accommodation strategies in ride-hailing services,2025,book-chapter,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: ride-hailing cancellation prediction model,exclude
 W7115101442,C9,recent,C9_recent_q1,3,Connecting People and Spreading Ideas: Unravelling the Impact of Ride-Hailing on Local Knowledge Flows,2025,article,0,True,include,6,rules,include
 W4280593352,C9,recent,C9_recent_q1,4,A joint demand modeling framework for ride-sourcing and dynamic ridesharing services: a geo-additive Markov random field based heterogeneous copula framework,2022,article,15,True,include,6,rules,include
 W4214761749,C9,recent,C9_recent_q1,5,Simulation-Based Modelling of the Impact of Ridesharing on Urban System,2022,article,3,True,include,6,rules,include
@@ -11842,7 +11842,7 @@ W4387093737,C9,recent,C9_recent_q1,13,A pairing ridesharing model to reduce cong
 W4389125015,C9,recent,C9_recent_q1,14,Elasticities and Tax Incidence in Urban Ridesharing Markets: Evidence from Chicago,2023,preprint,2,False,include,3,no abstract; core (and context) in title,include
 W4293777136,C9,recent,C9_recent_q1,15,A Framework for Assessing Resilience in Urban Mobility: Incorporating Impact of Ridesharing,2022,article,6,True,include,6,rules,include
 W4212984913,C9,recent,C9_recent_q2,1,Models for Supporting Mobility as a Service (MaaS) Design,2022,article,69,True,include,6,rules,include
-W7154707697,C9,recent,C9_recent_q2,2,Mobility as a Service (MaaS),2026,other,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7154707697,C9,recent,C9_recent_q2,2,Mobility as a Service (MaaS),2026,other,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: Mobility as a Service (overview),include
 W4319773755,C9,recent,C9_recent_q2,3,MaaS (Mobility as a Service) market futures explored,2023,article,40,True,include,6,rules,include
 W4316193145,C9,recent,C9_recent_q2,4,MAAS-MOBILITY AS A SERVICE. DEVELOPMENT PROSPECTS,2022,article,2,True,include,6,rules,include
 W4286434171,C9,recent,C9_recent_q2,5,Literature Review of Mobility as a Service,2022,article,100,True,include,6,rules,include
@@ -11872,7 +11872,7 @@ W4386913061,C9,recent,C9_recent_q3,13,Spatio-temporal analysis of carbon footpri
 W7116061339,C9,recent,C9_recent_q3,14,Attempt at building a transit app in Africa,2024,other,0,False,include,3,no abstract; core (and context) in title,include
 W4366306861,C9,recent,C9_recent_q3,15,Real-Time Information for Transit Arrivals: A Review,2022,conference-paper,1,True,include,3,rules,include
 W7117877225,C9,recent,C9_recent_q4,1,Clustering-Based Behavioral Analysis of Transit Agency Mobile Ticketing Data,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
-W7204516586,C9,recent,C9_recent_q4,2,Western Minnesota Contactless Payment,2026,report,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7204516586,C9,recent,C9_recent_q4,2,Western Minnesota Contactless Payment,2026,report,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: contactless fare payment in rural transit (flag false positive),include
 W7133299691,C9,recent,C9_recent_q4,3,Modeling and Implementation of a Digital Ticketing Controller for Urban Transit,2025,conference-paper,0,True,include,4,rules,include
 W4408738973,C9,recent,C9_recent_q4,4,SmartBRT: Digital Ticketing for a Greener Future,2025,article,0,True,include,6,rules,include
 W4386742994,C9,recent,C9_recent_q4,5,Extracting Spatiotemporal Bus Passenger Trip Typologies from Noisy Mobile Ticketing Boarding Data,2023,article,5,False,exclude,3,no abstract; no urban context (C theme),exclude
@@ -11881,7 +11881,7 @@ W4392623322,C9,recent,C9_recent_q4,7,MaaS and mass transit,2024,book-chapter,0,T
 W7212377231,C9,recent,C9_recent_q4,8,Study on the Multimodal Urban Transit System Design,2026,article,0,True,include,3,rules,include
 W4382059422,C9,recent,C9_recent_q4,9,Transit Agency Assessment of Their Capability to Adopt New Mobility Strategies,2023,article,2,True,include,3,rules,include
 W4285247074,C9,recent,C9_recent_q4,10,Spatiotemporal Trip Pattern Typologies in the Pioneer Valley Bus Transit System,2022,preprint,0,False,exclude,0,core concept missing,exclude
-W4410027442,C9,recent,C9_recent_q4,11,Smart Bus Fare Payment System for Urban Transit Using NFC Technology,2025,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W4410027442,C9,recent,C9_recent_q4,11,Smart Bus Fare Payment System for Urban Transit Using NFC Technology,2025,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: NFC fare system engineering,exclude
 W4285110325,C9,recent,C9_recent_q4,12,Spatiotemporal Trip Pattern Typologies in the Pioneer Valley Bus Transit System,2022,preprint,0,False,exclude,0,core concept missing,exclude
 W7126619692,C9,recent,C9_recent_q4,13,Connecting Intercity Rail With Intracity Transit: The Promise of Through-Ticketing,2024,article,0,True,include,6,rules,include
 W4402320807,C9,recent,C9_recent_q4,14,Enhanced Seasonal Typology-Informed Transit Trip Chaining via Mobile Boarding and Survey Data,2024,article,0,False,exclude,0,core concept missing,exclude
