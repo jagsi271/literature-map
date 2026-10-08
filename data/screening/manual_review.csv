@@ -543,3 +543,32 @@ W1546789574,A13,include,"Claude (manual review, Stage 2)",events and urban regen
 W2061402540,A13,exclude,"Claude (manual review, Stage 2)",national identity in Olympic ceremonies
 W4393201757,A13,include,"Claude (manual review, Stage 2)","world-class city tensions, Casablanca"
 W7105811361,A13,exclude,"Claude (manual review, Stage 2)",HBIM engineering
+W2944393582,A14,include,"Claude (manual review, Stage 2)","flood-risk adaptation measures, Colombo"
+W4211081634,A14,exclude,"Claude (manual review, Stage 2)",local climate zone mapping
+W4293059586,A14,include,"Claude (manual review, Stage 2)","wetlands and urban resilience, Sri Lanka"
+W7163523962,A14,exclude,"Claude (manual review, Stage 2)",SAR flood mapping
+W3157658149,A14,include,"Claude (manual review, Stage 2)",climate justice: heat and greenspace inequities in Delhi
+W4412478450,A14,exclude,"Claude (manual review, Stage 2)",SAR-based heat vulnerability modelling
+W7138279513,A14,exclude,"Claude (manual review, Stage 2)",remote-sensing heat mapping
+W7171310397,A14,exclude,"Claude (manual review, Stage 2)",UHI remote-sensing assessment
+W7204568274,A14,exclude,"Claude (manual review, Stage 2)",remote-sensing heat stress mapping
+W7135246541,A14,exclude,"Claude (manual review, Stage 2)",WRF heat-health modelling
+W4321108611,A14,exclude,"Claude (manual review, Stage 2)",surface UHI analysis
+W7127356382,A14,exclude,"Claude (manual review, Stage 2)",geospatial UHI analysis
+W4292609470,A14,include,"Claude (manual review, Stage 2)","heat vulnerability index for urban heatwave adaptation, Akola"
+W2150828799,A14,include,"Claude (manual review, Stage 2)",adapting cities for climate change through green infrastructure
+W2769759576,A14,exclude,"Claude (manual review, Stage 2)",temperature mortality projections
+W4303696390,A14,exclude,"Claude (manual review, Stage 2)",solid waste management (A7)
+W2795308205,A14,include,"Claude (manual review, Stage 2)",local climate plans in 885 EU cities (flag false positive)
+W2084285632,A14,exclude,"Claude (manual review, Stage 2)",flood modelling
+W2106326464,A14,exclude,"Claude (manual review, Stage 2)",heat-wave mortality
+W4239810616,A14,exclude,"Claude (manual review, Stage 2)",urban design textbook
+W2504430526,A14,exclude,"Claude (manual review, Stage 2)",global climate governance (not urban)
+W2139531445,A14,exclude,"Claude (manual review, Stage 2)",green space and land surface temperature
+W2144395796,A14,include,"Claude (manual review, Stage 2)",neighbourhood social vulnerability to heat deaths
+W2099149233,A14,exclude,"Claude (manual review, Stage 2)",urban climate modelling
+W2166458857,A14,exclude,"Claude (manual review, Stage 2)",municipal solid waste review
+W4413544221,A14,exclude,"Claude (manual review, Stage 2)",flood simulation risk assessment
+W4399123483,A14,include,"Claude (manual review, Stage 2)",urban political ecology of concrete
+W4392246610,A14,include,"Claude (manual review, Stage 2)",inequalities in urban heat vulnerability (environmental justice)
+W4400099739,A14,include,"Claude (manual review, Stage 2)",scientometric review of urban heat vulnerability research
