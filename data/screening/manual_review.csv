@@ -349,3 +349,31 @@ W4415395591,A4,exclude,"Claude (manual review, Stage 2)",AI tool for housing rig
 W4413017269,A4,include,"Claude (manual review, Stage 2)",slum resettlement colonies in Mumbai
 W4382775150,A4,exclude,"Claude (manual review, Stage 2)",vaccine coverage survey
 W4290755526,A4,include,"Claude (manual review, Stage 2)",development-induced peri-urban resettlement
+W1480567212,A5,include,"Claude (manual review, Stage 2)","peri-urban aquaculture livelihoods, Kolkata (flag false positive)"
+W2069995083,A5,exclude,"Claude (manual review, Stage 2)",tuberculosis prevalence
+W3034493827,A5,include,"Claude (manual review, Stage 2)",subaltern urbanisation vs planetary urbanisation (also A6/A15)
+W2559995782,A5,include,"Claude (manual review, Stage 2)",urban land market and housing speculation in colonial Calcutta
+W2940870762,A5,include,"Claude (manual review, Stage 2)","land acquisition and land grab (coalfield, India)"
+W3216224196,A5,include,"Claude (manual review, Stage 2)",rural-urban fringe of Sargodha
+W2072253941,A5,exclude,"Claude (manual review, Stage 2)",ARDS clinical study
+W2017568810,A5,include,"Claude (manual review, Stage 2)",new epistemology of the urban / planetary urbanisation
+W2312334696,A5,exclude,"Claude (manual review, Stage 2)",European Landscape Convention
+W3034880358,A5,exclude,"Claude (manual review, Stage 2)",mapping urban boundaries
+W1508404391,A5,exclude,"Claude (manual review, Stage 2)",real estate economics textbook
+W1972477301,A5,exclude,"Claude (manual review, Stage 2)",remote-sensing land-use metrics
+W3202634119,A5,exclude,"Claude (manual review, Stage 2)",agricultural land systems review
+W1500554404,A5,include,"Claude (manual review, Stage 2)",planetary urbanisation and urban political ecology (also A14)
+W2130282650,A5,exclude,"Claude (manual review, Stage 2)",ticks
+W2150773205,A5,exclude,"Claude (manual review, Stage 2)",carbon cycle
+W1781101400,A5,exclude,"Claude (manual review, Stage 2)",econometric land-use change model
+W2165443402,A5,include,"Claude (manual review, Stage 2)",theses on urbanisation / extended urbanisation
+W2014970225,A5,exclude,"Claude (manual review, Stage 2)",land-cover monitoring
+W2137332485,A5,exclude,"Claude (manual review, Stage 2)",postpartum depression
+W2010732260,A5,include,"Claude (manual review, Stage 2)",land conversion at the rural-urban fringe (model)
+W4411387870,A5,include,"Claude (manual review, Stage 2)",planetary urbanisation (review essay)
+W4297541286,A5,exclude,"Claude (manual review, Stage 2)",soil carbon
+W4401710594,A5,exclude,"Claude (manual review, Stage 2)",illegal luxury architecture in Hong Kong
+W7127654475,A5,exclude,"Claude (manual review, Stage 2)",London regeneration; land grab as metaphor
+W7161283898,A5,include,"Claude (manual review, Stage 2)",green space protection at the rural-urban fringe
+W4416631761,A5,exclude,"Claude (manual review, Stage 2)",soil contamination
+W7217246640,A5,include,"Claude (manual review, Stage 2)","rural-urban fringe land-use change, Hisar (Haryana)"

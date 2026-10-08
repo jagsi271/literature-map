@@ -1039,9 +1039,9 @@ W1998442380,A5,india,A5_india_q1,5,"Regional industrial policies driving peri-ur
 W4200509827,A5,india,A5_india_q1,6,"Changing Agriculture and Climate Variability in Peri-Urban Gurugram, India",2021,book-chapter,6,True,include,6,rules,include
 W1980938050,A5,india,A5_india_q1,7,"Peri-urban environments and community driven development: Chennai, India",2003,article,33,False,include,3,no abstract; core (and context) in title,include
 W2769601555,A5,india,A5_india_q1,8,"Drinking Water Contamination from Peri-Urban Bengaluru, India",2017,article,12,True,include,4,rules,include
-W1480567212,A5,india,A5_india_q1,9,"Peri-urban aquaculture and poor livelihoods in Kolkata, India.",2005,book-chapter,26,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W1480567212,A5,india,A5_india_q1,9,"Peri-urban aquaculture and poor livelihoods in Kolkata, India.",2005,book-chapter,26,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: peri-urban aquaculture livelihoods, Kolkata (flag false positive)",include
 W1531453666,A5,india,A5_india_q1,10,"Peri-urban agriculture in Delhi, India.",2002,article,6,True,include,6,rules,include
-W2069995083,A5,india,A5_india_q1,11,"Hyperendemic pulmonary tuberculosis in peri-urban areas of Karachi, Pakistan",2007,article,35,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2069995083,A5,india,A5_india_q1,11,"Hyperendemic pulmonary tuberculosis in peri-urban areas of Karachi, Pakistan",2007,article,35,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: tuberculosis prevalence,exclude
 W2070727702,A5,india,A5_india_q1,12,"Breastfeeding, Wage Labor, and insufficient milk in peri-urban Kathmandu, Nepal",2002,article,24,True,include,5,rules,include
 W1762391685,A5,india,A5_india_q1,13,"Land, water & power: The demise of common property resources in periurban Gurgaon, India",2015,article,93,False,include,3,no abstract; core (and context) in title,include
 W3012410829,A5,india,A5_india_q1,14,"Peri-Urban Development in Gampaha District, Sri Lanka",2012,article,6,True,include,6,rules,include
@@ -1060,7 +1060,7 @@ W4413580015,A5,india,A5_india_q2,11,"Subaltern urbanisation, shifting periphery 
 W4382120162,A5,india,A5_india_q2,12,"Commoning and Territoriality in the Public Space “Plasma” of Historical Cities: Investigating Emplaced Network Dynamics in Bhaktapur, Kathmandu Valley, Nepal",2023,conference-paper,0,False,exclude,0,core concept missing,exclude
 W4402951919,A5,india,A5_india_q2,13,Inhabiting more-than-human ecologies of Extended urbanization: Unruly leopards amidst urban-wild enmeshment in the Northern Aravalli region,2024,article,14,True,include,6,rules,include
 W3009276203,A5,india,A5_india_q2,14,"Sindh in Karachi: A topography of separateness, connectivity, and juxtaposition",2020,article,1,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W3034493827,A5,india,A5_india_q2,15,Subaltern Urbanization: Indian Insights for Urban Theory,2020,article,96,True,borderline,1,core concept mentioned once,pending
+W3034493827,A5,india,A5_india_q2,15,Subaltern Urbanization: Indian Insights for Urban Theory,2020,article,96,True,borderline,1,core concept mentioned once | manual: subaltern urbanisation vs planetary urbanisation (also A6/A15),include
 W3031670954,A5,india,A5_india_q3,1,"Characteristics of urban land market in Kathmandu, Nepal",2011,dissertation,0,False,include,3,no abstract; core (and context) in title,include
 W313466913,A5,india,A5_india_q3,2,Chennai Urban Land Market Assessment,2007,report,2,True,include,6,rules,include
 W3198134632,A5,india,A5_india_q3,3,"Understanding Peri-urban land market : A changing perspective of urbanism in Bengaluru, India",2021,article,0,True,include,6,rules,include
@@ -1068,7 +1068,7 @@ W4406758499,A5,india,A5_india_q3,4,The Politics of Urban Land in South Asia,2025
 W2113130348,A5,india,A5_india_q3,5,Re-Thinking the Role of Compensation in Urban Land Acquisition: Empirical Evidence from South Asia,2013,article,13,True,include,6,rules,include
 W4319927150,A5,india,A5_india_q3,6,Land Transactions in Peri-Urban Land Market of Bangalore,2023,book-chapter,0,True,include,6,rules,include
 W2049052575,A5,india,A5_india_q3,7,"Characteristics of land value variation and the urban land market in Kathmandu, Nepal1",2012,article,3,True,include,6,rules,include
-W2559995782,A5,india,A5_india_q3,8,Interwar Housing Speculation and Rent Profiteering in Colonial Calcutta,2016,article,21,True,borderline,1,core concept mentioned once,pending
+W2559995782,A5,india,A5_india_q3,8,Interwar Housing Speculation and Rent Profiteering in Colonial Calcutta,2016,article,21,True,borderline,1,core concept mentioned once | manual: urban land market and housing speculation in colonial Calcutta,include
 W208034786,A5,india,A5_india_q3,9,URBAN LAND MARKET IN THE CITY OF COLOMBO: DEVELOPMENT AND CHANGE 1965 – 2005,2012,conference-paper,0,True,include,6,rules,include
 W2154716153,A5,india,A5_india_q3,10,"Urban Land and Housing Markets in the Punjab, Pakistan",2009,article,50,True,include,6,rules,include
 W1619090422,A5,india,A5_india_q3,11,Urban land expansion in India 1992–2012,2015,article,51,False,include,3,no abstract; core (and context) in title,include
@@ -1078,7 +1078,7 @@ W2921196047,A5,india,A5_india_q3,14,"Rising cost of urban land : a report on the
 W4396773855,A5,india,A5_india_q3,15,Community Participation in Urban Land and Housing Delivery: Evidence from Kerala (India) and Dar es Salaam (Tanzania),2024,article,4,True,include,3,rules,include
 W2950276125,A5,india,A5_india_q4,1,Land Acquisition and Dispossession in India,2019,reference-entry,3,True,include,6,rules,include
 W2498246606,A5,india,A5_india_q4,2,Enter the Land-Grab Riot?,2014,book-chapter,0,True,exclude,0,core concept missing,exclude
-W2940870762,A5,india,A5_india_q4,3,From Incremental Dispossession to a Cumulative Land Grab: Understanding Territorial Transformation in India's North Karanpura Coalfield,2019,article,30,True,borderline,6,flag: \b(soil|crop yields?|remote sensing|land,pending
+W2940870762,A5,india,A5_india_q4,3,From Incremental Dispossession to a Cumulative Land Grab: Understanding Territorial Transformation in India's North Karanpura Coalfield,2019,article,30,True,borderline,6,"flag: \b(soil|crop yields?|remote sensing|land | manual: land acquisition and land grab (coalfield, India)",include
 W2604935882,A5,india,A5_india_q4,4,"Country Politics and Agrarian Systems: Land grab on Bengal frontiers, 1750–1800",2017,article,1,True,include,6,rules,include
 W4225660536,A5,india,A5_india_q4,5,"Regulation, Corruption, and Land Grab: A Tale of Illegal Private Housing Societies in Islamabad",2022,preprint,6,False,include,3,no abstract; core in title; context terms missing,include
 W652521960,A5,india,A5_india_q4,6,Studies in Indian Sociology,2012,book,0,True,exclude,0,core concept missing,exclude
@@ -1094,10 +1094,10 @@ W1846353168,A5,india,A5_india_q4,15,Risks and Reconstruction,2000,book,511,True,
 W2065447246,A5,india,A5_india_q5,1,"Landscapes of power: local struggles and national stakes at the rural-urban fringe of Kabul, Afghanistan",2014,article,35,True,include,4,rules,include
 W3141433561,A5,india,A5_india_q5,2,Rural-Urban Fringe in Delhi-NCR: A Conceptual Approach,2018,article,0,True,include,4,rules,include
 W2927238845,A5,india,A5_india_q5,3,The Rural-urban Fringe of Colombo- A Zone in Transition,1984,article,0,False,include,3,no abstract; core (and context) in title,include
-W3216224196,A5,india,A5_india_q5,4,"Study of Rural-Urban Fringe Patterns of Sargodha City, Pakistan",2021,article,0,True,borderline,6,flag: \b(soil|crop yields?|remote sensing|land,pending
+W3216224196,A5,india,A5_india_q5,4,"Study of Rural-Urban Fringe Patterns of Sargodha City, Pakistan",2021,article,0,True,borderline,6,flag: \b(soil|crop yields?|remote sensing|land | manual: rural-urban fringe of Sargodha,include
 W2042249049,A5,india,A5_india_q5,5,Modeling mineral phase change chemistry of groundwater in a rural-urban fringe,2012,article,49,True,include,4,rules,include
 W2654864092,A5,india,A5_india_q5,6,"GIS Integrated Spatio-Temporal Urban Growth Modelling: Colombo Urban Fringe, Sri Lanka",2017,article,5,True,include,4,rules,include
-W2072253941,A5,india,A5_india_q5,7,Etiology and Outcomes of ARDS in a Rural-Urban Fringe Hospital of South India,2014,article,13,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2072253941,A5,india,A5_india_q5,7,Etiology and Outcomes of ARDS in a Rural-Urban Fringe Hospital of South India,2014,article,13,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: ARDS clinical study,exclude
 W2908713153,A5,india,A5_india_q5,8,"Modelling Urban Growth in the Colombo Urban Fringe, Sri Lanka (Session 2A)",2018,article,0,False,include,3,no abstract; core (and context) in title,include
 W2220576074,A5,india,A5_india_q5,9,CHANGING ECONOMIC & COMMERCIAL ACTIVITIES IN RESPONSE TO URBANIZATION IN THE RURAL URBAN FRINGE OF DELHI,2015,article,0,True,include,5,rules,include
 W3192553793,A5,india,A5_india_q5,10,"Spatio-Temporal Urban Growth Patterns In The Colombo Urban Fringe, Sri Lanka",2017,dissertation,0,True,include,3,rules,include
@@ -1112,7 +1112,7 @@ W2021057500,A5,landmarks,A5_landmarks,3,GLOBAL SURFACE TEMPERATURE CHANGE,2010,a
 W2044609898,A5,landmarks,A5_landmarks,4,Use of normalized difference built-up index in automatically mapping urban areas from TM imagery,2003,article,2946,True,exclude,2,"flag, core not in title: \b(soil|crop yields?|remote sensing|land",exclude
 W2097935015,A5,landmarks,A5_landmarks,5,Promoting ecosystem and human health in urban areas using Green Infrastructure: A literature review,2007,article,2843,False,exclude,0,core concept missing,exclude
 W2004056710,A5,landmarks,A5_landmarks,6,A Meta-Analysis of Global Urban Land Expansion,2011,review,2379,True,include,6,rules,include
-W2017568810,A5,landmarks,A5_landmarks,7,Towards a new epistemology of the urban?,2015,article,1532,True,borderline,1,core concept mentioned once,pending
+W2017568810,A5,landmarks,A5_landmarks,7,Towards a new epistemology of the urban?,2015,article,1532,True,borderline,1,core concept mentioned once | manual: new epistemology of the urban / planetary urbanisation,include
 W1981939599,A5,landmarks,A5_landmarks,8,Remote sensing of the urban heat island effect across biomes in the continental USA,2009,article,1531,False,exclude,0,core concept missing,exclude
 W1981574592,A5,landmarks,A5_landmarks,9,"Long-term impact of irrigation with sewage effluents on heavy metal content in soils, crops and groundwater—a case study",2005,article,1126,False,exclude,0,core concept missing,exclude
 W2097833259,A5,landmarks,A5_landmarks,10,Centuries of Human-Driven Change in Salt Marsh Ecosystems,2008,review,1044,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -1124,10 +1124,10 @@ W3037505531,A5,landmarks,A5_landmarks,15,Worldwide Effect of COVID-19 on Physica
 W2163335622,A5,landmarks,A5_landmarks,16,The challenges of wastewater irrigation in developing countries,2008,article,837,False,exclude,0,core concept missing,exclude
 W1977271773,A5,landmarks,A5_landmarks,17,"Go greener, feel better? The positive effects of biodiversity on the well-being of individuals visiting urban and peri-urban green areas",2014,article,836,False,include,3,no abstract; core (and context) in title,include
 W2135985984,A5,landmarks,A5_landmarks,18,"Efficacy of pentavalent rotavirus vaccine against severe rotavirus gastroenteritis in infants in developing countries in Asia: a randomised, double-blind, placebo-controlled trial",2010,article,832,False,exclude,0,core concept missing,exclude
-W2312334696,A5,landmarks,A5_landmarks,19,The European Landscape Convention,2006,article,821,True,borderline,1,core concept mentioned once,pending
-W3034880358,A5,landmarks,A5_landmarks,20,Mapping global urban boundaries from the global artificial impervious area (GAIA) data,2020,article,816,True,borderline,1,core concept mentioned once,pending
+W2312334696,A5,landmarks,A5_landmarks,19,The European Landscape Convention,2006,article,821,True,borderline,1,core concept mentioned once | manual: European Landscape Convention,exclude
+W3034880358,A5,landmarks,A5_landmarks,20,Mapping global urban boundaries from the global artificial impervious area (GAIA) data,2020,article,816,True,borderline,1,core concept mentioned once | manual: mapping urban boundaries,exclude
 W2003025911,A5,landmarks,A5_landmarks,21,Urban agriculture in the developing world: a review,2013,article,804,False,exclude,0,core concept missing,exclude
-W1508404391,A5,landmarks,A5_landmarks,22,Urban Economics and Real Estate Markets,1995,article,785,True,borderline,1,core concept mentioned once,pending
+W1508404391,A5,landmarks,A5_landmarks,22,Urban Economics and Real Estate Markets,1995,article,785,True,borderline,1,core concept mentioned once | manual: real estate economics textbook,exclude
 W3082422933,A5,landmarks,A5_landmarks,23,"Urban nature in a time of crisis: recreational use of green space increases during the COVID-19 outbreak in Oslo, Norway",2020,article,765,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2145346369,A5,landmarks,A5_landmarks,24,"RURAL LAND-USE TRENDS IN THE CONTERMINOUS UNITED STATES, 1950–2000",2005,article,764,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2000192806,A5,landmarks,A5_landmarks,25,Causes of Sprawl: A Portrait from Space,2006,article,748,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -1145,16 +1145,16 @@ W2741739411,A5,landmarks,A5_landmarks,36,Ecosystem services response to urbaniza
 W2077556080,A5,landmarks,A5_landmarks,37,"Total coliforms, arsenic and cadmium exposure through drinking water in the Western Region of Ghana: application of multivariate statistical technique to groundwater quality",2015,article,653,False,exclude,0,core concept missing,exclude
 W1980807334,A5,landmarks,A5_landmarks,38,"The Sanitation Syndrome: Bubonic Plague and Urban Native Policy in the Cape Colony, 1900–1909",1977,article,645,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W4240078079,A5,landmarks,A5_landmarks,39,World Development Report 1990,1990,book,643,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W1972477301,A5,landmarks,A5_landmarks,40,The Use of Remote Sensing and Landscape Metrics to Describe Structures and Changes in Urban Land Uses,2002,article,636,True,borderline,6,flag: \b(soil|crop yields?|remote sensing|land,pending
+W1972477301,A5,landmarks,A5_landmarks,40,The Use of Remote Sensing and Landscape Metrics to Describe Structures and Changes in Urban Land Uses,2002,article,636,True,borderline,6,flag: \b(soil|crop yields?|remote sensing|land | manual: remote-sensing land-use metrics,exclude
 W2137842132,A5,landmarks,A5_landmarks,41,Environmental planning and management of the peri-urban interface: perspectives on an emerging field,2003,article,629,True,include,6,rules,include
 W1531456640,A5,landmarks,A5_landmarks,42,What drives tropical deforestation?: a meta-analysis of proximate and underlying causes of deforestation based on subnational case study evidence,2001,review,598,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2809991666,A5,landmarks,A5_landmarks,43,Tropospheric Ozone Assessment Report: Present-day tropospheric ozone distribution and trends relevant to vegetation,2018,article,597,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W3202634119,A5,landmarks,A5_landmarks,44,Agricultural land systems importance for supporting food security and sustainable development goals: A systematic review,2021,review,592,True,borderline,1,core concept mentioned once,pending
+W3202634119,A5,landmarks,A5_landmarks,44,Agricultural land systems importance for supporting food security and sustainable development goals: A systematic review,2021,review,592,True,borderline,1,core concept mentioned once | manual: agricultural land systems review,exclude
 W1212601590,A5,landmarks,A5_landmarks,45,Predicting land-cover and land-use change in the urban fringe,2001,article,587,True,include,3,rules,include
 W2769829450,A5,landmarks,A5_landmarks,46,Heavy metal pollution and health risk assessment of agricultural soils in a typical peri-urban area in southeast China,2017,article,573,False,include,3,no abstract; core (and context) in title,include
 W2266902344,A5,landmarks,A5_landmarks,47,A time series analysis of urbanization induced land use and land cover change and its impact on land surface temperature with Landsat imagery,2016,article,553,False,exclude,0,core concept missing,exclude
-W1500554404,A5,landmarks,A5_landmarks,48,Urbanizing Urban Political Ecology: A Critique of Methodological Cityism,2014,article,548,True,borderline,1,core concept mentioned once,pending
-W2130282650,A5,landmarks,A5_landmarks,49,Ixodes ricinus and Its Transmitted Pathogens in Urban and Peri-Urban Areas in Europe: New Hazards and Relevance for Public Health,2014,article,525,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W1500554404,A5,landmarks,A5_landmarks,48,Urbanizing Urban Political Ecology: A Critique of Methodological Cityism,2014,article,548,True,borderline,1,core concept mentioned once | manual: planetary urbanisation and urban political ecology (also A14),include
+W2130282650,A5,landmarks,A5_landmarks,49,Ixodes ricinus and Its Transmitted Pathogens in Urban and Peri-Urban Areas in Europe: New Hazards and Relevance for Public Health,2014,article,525,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: ticks,exclude
 W2008482616,A5,landmarks,A5_landmarks,50,A THEORY OF THE URBAN LAND MARKET,1960,article,525,False,include,3,no abstract; core (and context) in title,include
 W4220943807,A5,landmarks,A5_landmarks,51,Global impacts of future urban expansion on terrestrial vertebrate diversity,2022,article,521,True,include,6,rules,include
 W1846353168,A5,landmarks,A5_landmarks,52,Risks and Reconstruction,2000,book,511,True,include,3,rules,include
@@ -1169,16 +1169,16 @@ W2133393555,A5,landmarks,A5_landmarks,60,MALARIA TRANSMISSION IN URBAN SUB-SAHAR
 W2112935959,A5,landmarks,A5_landmarks,61,HPV DNA Testing of Self-collected Vaginal Samples Compared With Cytologic Screening to Detect Cervical Cancer,2000,article,473,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W1977480665,A5,landmarks,A5_landmarks,62,Hypertension in Sub-Saharan African Populations,2005,article,463,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W1501883994,A5,landmarks,A5_landmarks,63,Waste treatment and disposal,2002,article,459,False,exclude,0,core concept missing,exclude
-W2150773205,A5,landmarks,A5_landmarks,64,Urban ecosystems and the North American carbon cycle,2006,article,458,True,borderline,1,core concept mentioned once,pending
-W1781101400,A5,landmarks,A5_landmarks,65,"Modeling the Drivers of Urban Land Use Change in the Pearl River Delta, China: Integrating Remote Sensing with Socioeconomic Data",2003,article,454,True,borderline,6,flag: \b(soil|crop yields?|remote sensing|land,pending
+W2150773205,A5,landmarks,A5_landmarks,64,Urban ecosystems and the North American carbon cycle,2006,article,458,True,borderline,1,core concept mentioned once | manual: carbon cycle,exclude
+W1781101400,A5,landmarks,A5_landmarks,65,"Modeling the Drivers of Urban Land Use Change in the Pearl River Delta, China: Integrating Remote Sensing with Socioeconomic Data",2003,article,454,True,borderline,6,flag: \b(soil|crop yields?|remote sensing|land | manual: econometric land-use change model,exclude
 W2126663794,A5,landmarks,A5_landmarks,66,Critical geography of urban agriculture,2014,article,453,True,include,2,rules,include
 W2061103987,A5,landmarks,A5_landmarks,67,The process and driving forces of rural hollowing in China under rapid urbanization,2010,article,453,False,exclude,0,core concept missing,exclude
 W2424666459,A5,landmarks,A5_landmarks,68,"Mapping ecosystem service capacity, flow and demand for landscape and urban planning: A case study in the Barcelona metropolitan region",2016,article,452,False,exclude,0,core concept missing,exclude
 W887434953,A5,landmarks,A5_landmarks,69,Contributing to food security in urban areas: differences between urban agriculture and peri-urban agriculture in the Global North,2015,article,450,True,include,6,rules,include
 W2124855025,A5,landmarks,A5_landmarks,70,Informality and the Development and Demolition of Urban Villages in the Chinese Peri-urban Area,2012,article,448,True,include,4,rules,include
 W2100322684,A5,landmarks,A5_landmarks,71,Carbon Storage by Urban Soils in the United States,2006,article,448,True,exclude,1,"flag, core not in title: \b(soil|crop yields?|remote sensing|land",exclude
-W2165443402,A5,landmarks,A5_landmarks,72,Theses on Urbanization,2013,article,447,True,borderline,1,core concept mentioned once,pending
-W2014970225,A5,landmarks,A5_landmarks,73,Monitoring land cover change in urban and peri-urban areas using dense time stacks of Landsat satellite data and a data mining approach,2012,article,447,False,borderline,3,flag: \b(soil|crop yields?|remote sensing|land,pending
+W2165443402,A5,landmarks,A5_landmarks,72,Theses on Urbanization,2013,article,447,True,borderline,1,core concept mentioned once | manual: theses on urbanisation / extended urbanisation,include
+W2014970225,A5,landmarks,A5_landmarks,73,Monitoring land cover change in urban and peri-urban areas using dense time stacks of Landsat satellite data and a data mining approach,2012,article,447,False,borderline,3,flag: \b(soil|crop yields?|remote sensing|land | manual: land-cover monitoring,exclude
 W2025051877,A5,landmarks,A5_landmarks,74,Strawberry fields forever? Urban agriculture in developed countries: a review,2013,article,442,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3014435055,A5,landmarks,A5_landmarks,75,9 The Emergence of Desakota Regions in Asia: Expanding a Hypothesis,2021,book-chapter,441,False,include,3,no abstract; core in title; context terms missing,include
 W2102429823,A5,landmarks,A5_landmarks,76,Urban Environments: Issues on the Peri-Urban Fringe,2008,review,437,True,include,6,rules,include
@@ -1187,7 +1187,7 @@ W2624779149,A5,landmarks,A5_landmarks,78,Breaking new ground in mapping human se
 W2013009626,A5,landmarks,A5_landmarks,79,Barriers to modern contraceptive methods uptake among young women in Kenya: a qualitative study,2015,article,432,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2270275974,A5,landmarks,A5_landmarks,80,Housing Enabling Markets to Work,1993,book,432,True,include,3,rules,include
 W1968922970,A5,landmarks,A5_landmarks,81,Improving quality of mother-infant relationship and infant attachment in socioeconomically deprived community in South Africa: randomised controlled trial,2009,article,431,True,exclude,2,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W2137332485,A5,landmarks,A5_landmarks,82,Post-partum depression and the mother-infant relationship in a South African peri-urban settlement,1999,article,431,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2137332485,A5,landmarks,A5_landmarks,82,Post-partum depression and the mother-infant relationship in a South African peri-urban settlement,1999,article,431,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: postpartum depression,exclude
 W2076320853,A5,landmarks,A5_landmarks,83,Urban hydrology and water management – present and future challenges,1999,article,428,False,exclude,0,core concept missing,exclude
 W2913797325,A5,landmarks,A5_landmarks,84,A multiscale analysis of urbanization effects on ecosystem services supply in an urban megaregion,2019,article,425,False,exclude,0,core concept missing,exclude
 W2051796399,A5,landmarks,A5_landmarks,85,Efficacy of home-based peer counselling to promote exclusive breastfeeding: a randomised controlled trial,1999,article,424,False,exclude,0,core concept missing,exclude
@@ -1199,7 +1199,7 @@ W2163084903,A5,landmarks,A5_landmarks,90,Deforestation: effects on vector-borne 
 W2028791173,A5,landmarks,A5_landmarks,91,"Agroindustrialization through institutional innovation Transaction costs, cooperatives and milk‐market development in the east‐African highlands",2000,article,405,True,exclude,0,core concept missing,exclude
 W2057988335,A5,landmarks,A5_landmarks,92,The transition from tourism on farms to farm tourism,2000,article,402,False,exclude,0,core concept missing,exclude
 W3127156490,A5,landmarks,A5_landmarks,93,Urbanization impacts on flood risks based on urban growth data and coupled flood models,2021,article,400,True,include,2,rules,include
-W2010732260,A5,landmarks,A5_landmarks,94,"Interacting agents, spatial externalities and the evolution of residential land use patterns",2002,article,399,True,borderline,1,core concept mentioned once,pending
+W2010732260,A5,landmarks,A5_landmarks,94,"Interacting agents, spatial externalities and the evolution of residential land use patterns",2002,article,399,True,borderline,1,core concept mentioned once | manual: land conversion at the rural-urban fringe (model),include
 W2790855506,A5,landmarks,A5_landmarks,95,Source identification of heavy metals in peri-urban agricultural soils of southeast China: An integrated approach,2018,article,398,False,include,3,no abstract; core (and context) in title,include
 W2095466094,A5,landmarks,A5_landmarks,96,"Analysis of land use/land cover change, population shift, and their effects on spatiotemporal patterns of urban heat islands in metropolitan Shanghai, China",2013,article,389,False,exclude,0,core concept missing,exclude
 W2993562141,A5,landmarks,A5_landmarks,97,The Role of Constructed Wetlands as Green Infrastructure for Sustainable Urban Water Management,2019,article,386,True,include,2,rules,include
@@ -1227,7 +1227,7 @@ W4316088580,A5,recent,A5_recent_q2,3,Planetary Urbanization,2022,reference-entry
 W4293079504,A5,recent,A5_recent_q2,4,The landscape approach to planetary urbanization: beyond the planetary urbanization approach,2022,article,12,True,include,6,rules,include
 W7160306368,A5,recent,A5_recent_q2,5,Planetary Urbanization,2026,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4392042770,A5,recent,A5_recent_q2,6,I Extended urbanisation,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W4411387870,A5,recent,A5_recent_q2,7,Geopolitical Interstices in Planetary Urbanisation,2025,article,1,True,borderline,3,stub abstract (possible book review),pending
+W4411387870,A5,recent,A5_recent_q2,7,Geopolitical Interstices in Planetary Urbanisation,2025,article,1,True,borderline,3,stub abstract (possible book review) | manual: planetary urbanisation (review essay),include
 W4316089562,A5,recent,A5_recent_q2,8,Extended Urbanization,2022,reference-entry,1,False,include,3,no abstract; core (and context) in title,include
 W7127340326,A5,recent,A5_recent_q2,9,Environments of Planetary Urbanization,2025,book,0,True,include,5,rules,include
 W4210413911,A5,recent,A5_recent_q2,10,Planetary Urbanization and Contemporary Fiction,2022,reference-entry,1,True,include,6,rules,include
@@ -1241,7 +1241,7 @@ W4407507812,A5,recent,A5_recent_q3,2,"Urban Land Market, Housing, and Transport"
 W7116759641,A5,recent,A5_recent_q3,3,The Making of an Urban Land Market,2025,book-chapter,0,True,include,3,rules,include
 W7116923428,A5,recent,A5_recent_q3,4,THE MAKING OF AN URBAN LAND MARKET:,2025,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4400680505,A5,recent,A5_recent_q3,5,Urban land management under rapid urbanization: Exploring the link between urban land policies and urban land use efficiency in Ethiopia,2024,article,88,True,include,6,rules,include
-W4297541286,A5,recent,A5_recent_q3,6,Urban Land Conversion Reduces Soil Organic Carbon Density Under Impervious Surfaces,2022,article,21,True,borderline,5,flag: \b(soil|crop yields?|remote sensing|land,pending
+W4297541286,A5,recent,A5_recent_q3,6,Urban Land Conversion Reduces Soil Organic Carbon Density Under Impervious Surfaces,2022,article,21,True,borderline,5,flag: \b(soil|crop yields?|remote sensing|land | manual: soil carbon,exclude
 W4319927150,A5,recent,A5_recent_q3,7,Land Transactions in Peri-Urban Land Market of Bangalore,2023,book-chapter,0,True,include,6,rules,include
 W4392080261,A5,recent,A5_recent_q3,8,Land-grabbing mafias and dispossession in the Brazilian Amazon: rural–urban land speculation and deforestation in the Santarém region,2024,article,18,True,include,5,rules,include
 W7125487164,A5,recent,A5_recent_q3,9,Dynamics of rural land conversion to urban land. Territorial analysis and prospective,2026,article,0,True,include,3,rules,include
@@ -1253,7 +1253,7 @@ W4317934019,A5,recent,A5_recent_q3,14,Preserving peri-urban land through biodive
 W4416842090,A5,recent,A5_recent_q3,15,"Property valuation in peri-urban land acquisition for cooperative housing development in Woldia, Ethiopia",2025,article,0,True,include,6,rules,include
 W4225660536,A5,recent,A5_recent_q4,1,"Regulation, Corruption, and Land Grab: A Tale of Illegal Private Housing Societies in Islamabad",2022,preprint,6,False,include,3,no abstract; core in title; context terms missing,include
 W4312067694,A5,recent,A5_recent_q4,2,Performance or Progress? The Physical and Rhetorical Removal of Indigenous Peoples in Settler Land Acknowledgments at Land-Grab Universities,2022,article,27,True,exclude,0,core concept missing,exclude
-W4401710594,A5,recent,A5_recent_q4,3,Illegal luxuritecture: How the super-rich in Hong Kong land grab and unlawfully expand their luxury living spaces,2024,article,6,True,borderline,4,flag: \b(soil|crop yields?|remote sensing|land,pending
+W4401710594,A5,recent,A5_recent_q4,3,Illegal luxuritecture: How the super-rich in Hong Kong land grab and unlawfully expand their luxury living spaces,2024,article,6,True,borderline,4,flag: \b(soil|crop yields?|remote sensing|land | manual: illegal luxury architecture in Hong Kong,exclude
 W4220675660,A5,recent,A5_recent_q4,4,Urbanization in China and the role of social and natural capital in land acquisition and transfer arrangements,2022,article,0,True,include,6,rules,include
 W4379230393,A5,recent,A5_recent_q4,5,Urban Land Grabs,2023,book-chapter,1,True,include,6,rules,include
 W7124123274,A5,recent,A5_recent_q4,6,Port Sunlight and Leverville: Teleported Urban scapes of Oil Palm in a Colonial Europe of the19th Century,2025,conference-paper,0,True,include,2,rules,include
@@ -1264,7 +1264,7 @@ W4408703522,A5,recent,A5_recent_q4,10,Multi-Model AI-Driven Satellite Image Segm
 W4391956229,A5,recent,A5_recent_q4,11,Land for urbanization: Shifting policies and variegated accumulation strategies in a fast-growing city in eastern India,2024,article,5,False,exclude,0,core concept missing,exclude
 W4409654576,A5,recent,A5_recent_q4,12,Emerging migrant workers and aspiring capitalist farmers in the aftermath of the land rush in Ethiopia,2025,article,1,True,include,2,rules,include
 W4388020069,A5,recent,A5_recent_q4,13,"Tourism and Environment: Ecology, Management, Economics, Climate, Health, and Politics",2023,article,12,True,include,2,rules,include
-W7127654475,A5,recent,A5_recent_q4,14,Confronting the Developers,2025,other,0,True,borderline,1,core concept mentioned once,pending
+W7127654475,A5,recent,A5_recent_q4,14,Confronting the Developers,2025,other,0,True,borderline,1,core concept mentioned once | manual: London regeneration; land grab as metaphor,exclude
 W4224864733,A5,recent,A5_recent_q4,15,The Difficult Quest for Solidarity and Citizenship,2022,book-chapter,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4386761006,A5,recent,A5_recent_q5,1,Disaster Reconstruction and Social Changes in Rural-urban Fringe,2022,article,0,True,include,4,rules,include
 W4408206098,A5,recent,A5_recent_q5,2,Climate Compatible Planning Approach in Rural-Urban Fringe: The Case of Denizli,2025,article,3,False,include,3,no abstract; core (and context) in title,include
@@ -1277,10 +1277,10 @@ W4411075078,A5,recent,A5_recent_q5,8,Optimizing Vocabulary Acquisition for Chine
 W7167680543,A5,recent,A5_recent_q5,9,Rural Urban Fringe Transition Using Nightlight Data and Machine Learning Techniques- A Case Study,2025,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
 W7220339173,A5,recent,A5_recent_q5,10,Ketidakamanan Tenurial dan Strategi Nafkah Rumah Tangga Petani Penggarap di Kawasan Rural–Urban Fringe,2026,article,0,True,include,5,rules,include
 W4212889331,A5,recent,A5_recent_q5,11,Land Use Change and Its Driving Factors in the Rural–Urban Fringe of Beijing: A Production–Living–Ecological Perspective,2022,article,48,True,include,4,rules,include
-W7161283898,A5,recent,A5_recent_q5,12,Four City Ideals: Perspectives on Protecting and Integrating Green Space at the Rural–Urban Fringe,2026,article,0,True,borderline,6,flag: \b(soil|crop yields?|remote sensing|land,pending
+W7161283898,A5,recent,A5_recent_q5,12,Four City Ideals: Perspectives on Protecting and Integrating Green Space at the Rural–Urban Fringe,2026,article,0,True,borderline,6,flag: \b(soil|crop yields?|remote sensing|land | manual: green space protection at the rural-urban fringe,include
 W4387418198,A5,recent,A5_recent_q5,13,"Water challenges in rural–urban fringe villages: A case of Potheri village near Chennai, Tamil Nadu",2023,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
-W4416631761,A5,recent,A5_recent_q5,14,"Soil Potentially Toxic Elements Contamination in different Rural - Urban Fringe Land Uses in Edo State, Nigeria",2023,article,0,False,borderline,3,flag: \b(soil|crop yields?|remote sensing|land,pending
-W7217246640,A5,recent,A5_recent_q5,15,Assessment of Land Use and Land Cover Dynamics in the Rural-Urban Fringe of Hisar City,2025,article,0,True,borderline,4,flag: \b(soil|crop yields?|remote sensing|land,pending
+W4416631761,A5,recent,A5_recent_q5,14,"Soil Potentially Toxic Elements Contamination in different Rural - Urban Fringe Land Uses in Edo State, Nigeria",2023,article,0,False,borderline,3,flag: \b(soil|crop yields?|remote sensing|land | manual: soil contamination,exclude
+W7217246640,A5,recent,A5_recent_q5,15,Assessment of Land Use and Land Cover Dynamics in the Rural-Urban Fringe of Hisar City,2025,article,0,True,borderline,4,"flag: \b(soil|crop yields?|remote sensing|land | manual: rural-urban fringe land-use change, Hisar (Haryana)",include
 W631402175,A6,india,A6_india_q1,1,"Urbanization and the growth of small towns in Sri Lanka, 1901-71",1980,book,1,False,include,3,no abstract; core (and context) in title,include
 W2953559872,A6,india,A6_india_q1,2,PLANNING AND SELF-ORGANIZING: The case of small towns in Sri Lanka,2012,book-chapter,1,True,include,4,rules,include
 W2165619094,A6,india,A6_india_q1,3,"Migration, small towns and social transformations in Pakistan",2010,article,41,True,include,4,rules,include

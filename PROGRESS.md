@@ -40,7 +40,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | A2 | Planning, master plans & land-use regulation | 239 | 160 | 12 (5%) | 3 / 9 | 156 | 154 |
 | A3 | Housing, informality & slums | 238 | 152 | 42 (18%) | 14 / 28 | 149 | 144 |
 | A4 | Eviction, resettlement & displacement | 219 | 170 | 22 (10%) | 9 / 13 | 170 | 167 |
-| A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 0 / 0 (+28 pending) | 135 | 135 |
+| A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 12 / 16 | 147 | 146 |
 | A6 | Small towns, census towns & secondary cities | 237 | 125 | 16 (7%) | 0 / 0 (+16 pending) | 118 | 118 |
 | A7 | Urban infrastructure (water, sanitation, ener | 242 | 160 | 23 (10%) | 0 / 0 (+23 pending) | 153 | 147 |
 | A8 | Mobility & transport (social science) | 246 | 174 | 27 (11%) | 0 / 0 (+27 pending) | 167 | 165 |
@@ -48,7 +48,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | B5 | Digital identity & digital public infrastruct | 177 | 114 | 28 (16%) | 7 / 21 | 117 | 117 |
 | C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 126 |
 
-Total deduplicated records: 1608.
+Total deduplicated records: 1619.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
