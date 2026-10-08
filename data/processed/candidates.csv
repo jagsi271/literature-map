@@ -7201,8 +7201,8 @@ W3145711628,B8,india,B8_india_q2,9,Religious Communication in Digital Public Sph
 W7162306345,B8,india,B8_india_q2,10,Motivational Framing in Networked Publics on Indian Social Media: A Case Study of #HindusUnderAttack,2026,conference-paper,0,True,include,6,rules,include
 W4252284587,B8,india,B8_india_q2,11,Digital Diasporas: Labor and Affect in Gendered Indian Digital Publics,2020,article,23,True,include,4,rules,include
 W3215658684,B8,india,B8_india_q2,12,"Islam, Religious Confrontation and Hoaxes in the Digital Public Sphere: Comparison of Bangladesh and Indonesia",2021,article,5,True,include,6,rules,include
-W4310128827,B8,india,B8_india_q2,13,Gendered Indian Digital Publics Along Matrices of Domination/Oppression,2022,article,4,True,borderline,3,stub abstract (possible book review),pending
-W3082130525,B8,india,B8_india_q2,14,Digital Diasporas: Labor and Affect in Gendered Indian Digital Publics,2020,article,2,True,borderline,3,stub abstract (possible book review),pending
+W4310128827,B8,india,B8_india_q2,13,Gendered Indian Digital Publics Along Matrices of Domination/Oppression,2022,article,4,True,borderline,3,stub abstract (possible book review) | manual: gendered Indian digital publics,include
+W3082130525,B8,india,B8_india_q2,14,Digital Diasporas: Labor and Affect in Gendered Indian Digital Publics,2020,article,2,True,borderline,3,stub abstract (possible book review) | manual: digital diasporas and gendered Indian digital publics,include
 W2973110008,B8,india,B8_india_q2,15,Digital Diasporas: Labor and Affect in Gendered Indian Digital Publics,2019,article,9,False,include,3,no abstract; core (and context) in title,include
 W3025100708,B8,india,B8_india_q2,16,Digital diasporas: labor and affect in gendered Indian digital publics,2020,editorial,2,True,exclude,0,type editorial,exclude
 W7131068581,B8,india,B8_india_q2,17,Poetry and Performance in the Digital Public Sphere,2026,article,0,True,include,6,rules,include
@@ -7214,7 +7214,7 @@ W2956204418,B8,india,B8_india_q3,4,The Use of Social Media on Political Particip
 W2735970932,B8,india,B8_india_q3,5,Predictors of Online Political Participation among Youth in Pakistan,2017,article,10,True,include,6,rules,include
 W7153264608,B8,india,B8_india_q3,6,Youth Voting and Social Media: Transforming Political Participation in India,2026,article,0,True,include,6,rules,include
 W3030512304,B8,india,B8_india_q3,7,"Can government’s presence on social media stimulate citizens’ online political participation? Investigating the influence of transparency, trust, and responsiveness",2020,article,176,False,include,3,no abstract; core (and context) in title,include
-W7129068243,B8,india,B8_india_q3,8,"Online Education and Students’ Politics: Collective bargaining and Political Participation of Students in Kerala, India",2024,article,0,True,borderline,1,core concept mentioned once,pending
+W7129068243,B8,india,B8_india_q3,8,"Online Education and Students’ Politics: Collective bargaining and Political Participation of Students in Kerala, India",2024,article,0,True,borderline,1,"core concept mentioned once | manual: social media and student political participation, Kerala",include
 W3138947719,B8,india,B8_india_q3,9,"RELATIONSHIP AMONG SOCIAL MEDIA USES, INTERNET MEDIATION AND POLITICAL PARTICIPATION IN PAKISTAN",2021,article,4,True,include,6,rules,include
 W7163635858,B8,india,B8_india_q3,10,GENDER DIFFERENCES AND ONLINE POLITICAL PARTICIPATION IN PAKISTAN,2026,article,0,False,include,3,no abstract; core (and context) in title,include
 W3088870696,B8,india,B8_india_q3,11,Survey Dataset on Government's Provision of Quality Information on Social Media and Citizens' Online Political Participation in Pakistan,2020,dataset,1,True,exclude,0,type dataset,exclude
@@ -7226,7 +7226,7 @@ W2955150878,B8,india,B8_india_q3,16,Survey Dataset on debating role of Social Me
 W4403819665,B8,india,B8_india_q3,17,Social Media and Youth Activism in South Asia: Examining the Role of Digital Platforms in Social Movements in Bangladesh and India,2024,preprint,0,True,include,6,rules,include
 W7151796761,B8,india,B8_india_q3,18,Digital democracy in India: Reconfiguring political participation in the Age of social media,2026,article,1,True,include,6,rules,include
 W7126268699,B8,india,B8_india_q4,1,The South Asian Spring: flash Social Movements from Sri Lanka to Nepal,2026,article,2,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W7143480065,B8,india,B8_india_q4,2,"Amplified Anger, Protest Cultures, and Digital Activism in South Asia",2026,article,0,True,borderline,4,stub abstract (possible book review),pending
+W7143480065,B8,india,B8_india_q4,2,"Amplified Anger, Protest Cultures, and Digital Activism in South Asia",2026,article,0,True,borderline,4,stub abstract (possible book review) | manual: digital activism and protest in South Asia,include
 W4413783617,B8,india,B8_india_q4,3,HASHTAG ACTIVISM AND GENDER: A CRITICAL DISCOURSE ANALYSIS OF #AURATMARCH TWEETS IN PAKISTAN,2025,article,0,True,include,6,rules,include
 W4414512906,B8,india,B8_india_q4,4,Hashtag Activism and Women's Rights,2025,book,0,True,include,6,rules,include
 W2716116507,B8,india,B8_india_q4,5,A Study of Hashtag Activism for Raising Awareness about Riverbank Erosion in Bangladesh,2017,conference-paper,7,True,include,6,rules,include
@@ -7250,10 +7250,10 @@ W2146307317,B8,landmarks,B8_landmarks,4,"Social Media Use for News and Individua
 W2891966433,B8,landmarks,B8_landmarks,5,"Social Network Sites as Networked Publics: Affordances, Dynamics, and Implications",2010,book-chapter,1728,True,include,6,rules,include
 W618228702,B8,landmarks,B8_landmarks,6,The Myth of Digital Democracy,2008,book,1693,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2072322795,B8,landmarks,B8_landmarks,7,Emotions and Information Diffusion in Social Media—Sentiment of Microblogs and Sharing Behavior,2013,article,1629,True,include,6,rules,include
-W2796536780,B8,landmarks,B8_landmarks,8,The disinformation order: Disruptive communication and the decline of democratic institutions,2018,article,1565,True,borderline,1,core concept mentioned once,pending
+W2796536780,B8,landmarks,B8_landmarks,8,The disinformation order: Disruptive communication and the decline of democratic institutions,2018,article,1565,True,borderline,1,core concept mentioned once | manual: disinformation order (B9),exclude
 W4213327489,B8,landmarks,B8_landmarks,9,Network Propaganda,2018,book,1466,True,include,3,rules,include
 W1689991769,B8,landmarks,B8_landmarks,10,Why Youth Heart Social Network Sites: The Role of Networked Publics in Teenage Social Life,2017,preprint,1408,True,include,6,rules,include
-W2970785670,B8,landmarks,B8_landmarks,11,The Logic of Connective Action: Digital Media and the Personalization of Contentious Politics,2016,book-chapter,1223,True,borderline,3,stub abstract (possible book review),pending
+W2970785670,B8,landmarks,B8_landmarks,11,The Logic of Connective Action: Digital Media and the Personalization of Contentious Politics,2016,book-chapter,1223,True,borderline,3,stub abstract (possible book review) | manual: logic of connective action,include
 W2124137536,B8,landmarks,B8_landmarks,12,"Democracy online: civility, politeness, and the democratic potential of online political discussion groups",2004,article,1169,True,include,4,rules,include
 W2021905382,B8,landmarks,B8_landmarks,13,"#Ferguson: Digital protest, hashtag ethnography, and the racial politics of social media in the United States",2015,article,1117,True,include,6,rules,include
 W2550819555,B8,landmarks,B8_landmarks,14,Social bots distort the 2016 U.S. Presidential election online discussion,2016,article,1017,True,include,3,rules,include
@@ -7274,7 +7274,7 @@ W2068950776,B8,landmarks,B8_landmarks,28,It's Complicated: Facebook Users' Polit
 W1604653286,B8,landmarks,B8_landmarks,29,An Introduction to Political Communication,2011,book,654,True,include,3,rules,include
 W1989343098,B8,landmarks,B8_landmarks,30,Social media and political communication: a social media analytics framework,2012,article,652,False,include,3,no abstract; core (and context) in title,include
 W560468598,B8,landmarks,B8_landmarks,31,A Networked Self,2010,book,645,True,include,3,rules,include
-W4211044565,B8,landmarks,B8_landmarks,32,Democracy’s Fourth Wave?,2013,book,642,True,borderline,1,core concept mentioned once,pending
+W4211044565,B8,landmarks,B8_landmarks,32,Democracy’s Fourth Wave?,2013,book,642,True,borderline,1,core concept mentioned once | manual: social media and the Arab Spring,include
 W2611885487,B8,landmarks,B8_landmarks,33,Twitter as arena for the authentic outsider: exploring the social media campaigns of Trump and Clinton in the 2016 US presidential election,2017,article,638,True,include,6,rules,include
 W4312820073,B8,landmarks,B8_landmarks,34,Political Polarization on Twitter,2021,conference-paper,637,True,include,6,rules,include
 W4251102464,B8,landmarks,B8_landmarks,35,#HashtagActivism,2020,book,634,True,include,6,rules,include
@@ -7283,7 +7283,7 @@ W2322636197,B8,landmarks,B8_landmarks,37,Unpacking the Use of Social Media for P
 W2099016599,B8,landmarks,B8_landmarks,38,Studying political microblogging: Twitter users in the 2010 Swedish election campaign,2011,article,600,True,include,6,rules,include
 W2091919924,B8,landmarks,B8_landmarks,39,The emergence of network media logic in political communication: A theoretical approach,2014,article,598,True,include,3,rules,include
 W2166812798,B8,landmarks,B8_landmarks,40,"Good News for the Future? Young People, Internet Use, and Political Participation",2011,article,597,True,exclude,0,core concept missing,exclude
-W2538660910,B8,landmarks,B8_landmarks,41,Predicting the Political Alignment of Twitter Users,2011,conference-paper,593,True,borderline,5,flag: \b(deep learning|neural network|convolut,pending
+W2538660910,B8,landmarks,B8_landmarks,41,Predicting the Political Alignment of Twitter Users,2011,conference-paper,593,True,borderline,5,flag: \b(deep learning|neural network|convolut | manual: predicting political alignment of Twitter users (computational),include
 W202178741,B8,landmarks,B8_landmarks,42,Detecting and Tracking Political Abuse in Social Media,2021,conference-paper,586,True,include,4,rules,include
 W4299798445,B8,landmarks,B8_landmarks,43,The logic of connective action: digital media and the personalization of contentious politics,2014,book-review,581,False,exclude,0,type book-review,exclude
 W1486900434,B8,landmarks,B8_landmarks,44,"SHARE, LIKE, RECOMMEND",2012,article,575,True,include,3,rules,include
@@ -7301,14 +7301,14 @@ W2787296320,B8,landmarks,B8_landmarks,55,Deep neural networks for bot detection,
 W1987561338,B8,landmarks,B8_landmarks,56,"Using Twitter to mobilize protest action: online mobilization patterns and action repertoires in the Occupy Wall Street, Indignados, and Aganaktismenoi movements",2014,article,507,True,include,6,rules,include
 W2514696358,B8,landmarks,B8_landmarks,57,Narrative Agency in Hashtag Activism: The Case of #BlackLivesMatter,2016,article,500,True,include,6,rules,include
 W2796871000,B8,landmarks,B8_landmarks,58,"How Social Media Facilitates Political Protest: Information, Motivation, and Social Networks",2018,article,495,True,include,6,rules,include
-W3122961667,B8,landmarks,B8_landmarks,59,The Political Economy of Populism,2022,article,489,True,borderline,1,core concept mentioned once,pending
-W2911026890,B8,landmarks,B8_landmarks,60,Bolsonaro and Brazil's Illiberal Backlash,2019,article,480,True,borderline,1,core concept mentioned once,pending
+W3122961667,B8,landmarks,B8_landmarks,59,The Political Economy of Populism,2022,article,489,True,borderline,1,core concept mentioned once | manual: political economy of populism (social media one strand),exclude
+W2911026890,B8,landmarks,B8_landmarks,60,Bolsonaro and Brazil's Illiberal Backlash,2019,article,480,True,borderline,1,core concept mentioned once | manual: Brazilian illiberal backlash,exclude
 W1585710142,B8,landmarks,B8_landmarks,61,The Unheavenly Chorus: Unequal Political Voice and the Broken Promise of American Democracy,2012,article,478,True,exclude,0,core concept missing,exclude
 W2963992782,B8,landmarks,B8_landmarks,62,Robust Image Sentiment Analysis Using Progressively Trained and Domain Transferred Deep Networks,2015,conference-paper,475,True,exclude,3,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2173085103,B8,landmarks,B8_landmarks,63,"Redoing feminism: digital activism, body politics, and neoliberalism",2015,article,465,True,include,4,rules,include
-W2792883466,B8,landmarks,B8_landmarks,64,Machine Learning-Based Sentiment Analysis for Twitter Accounts,2018,article,453,True,borderline,4,flag: \b(deep learning|neural network|convolut,pending
-W2977845363,B8,landmarks,B8_landmarks,65,Narrative Economics: How Stories Go Viral and Drive Major Economic Events,2019,article,452,True,borderline,1,core concept mentioned once,pending
-W2019287449,B8,landmarks,B8_landmarks,66,"The networked young citizen: social media, political participation and civic engagement",2014,article,438,True,borderline,3,stub abstract (possible book review),pending
+W2792883466,B8,landmarks,B8_landmarks,64,Machine Learning-Based Sentiment Analysis for Twitter Accounts,2018,article,453,True,borderline,4,flag: \b(deep learning|neural network|convolut | manual: sentiment-analysis method,exclude
+W2977845363,B8,landmarks,B8_landmarks,65,Narrative Economics: How Stories Go Viral and Drive Major Economic Events,2019,article,452,True,borderline,1,core concept mentioned once | manual: narrative economics,exclude
+W2019287449,B8,landmarks,B8_landmarks,66,"The networked young citizen: social media, political participation and civic engagement",2014,article,438,True,borderline,3,stub abstract (possible book review) | manual: networked young citizens and political participation,include
 W2095065410,B8,landmarks,B8_landmarks,67,Is There an Elite Hold? Traditional Media to Social Media Agenda Setting Influence in Blog Networks,2009,article,436,True,include,6,rules,include
 W3111430045,B8,landmarks,B8_landmarks,68,"Fake news, social media and marketing: A systematic review",2020,review,435,False,include,3,no abstract; core in title; context terms missing,include
 W2617346885,B8,landmarks,B8_landmarks,69,Populist online communication: introduction to the special issue,2017,editorial,430,True,exclude,0,type editorial,exclude
@@ -7325,17 +7325,17 @@ W2154321364,B8,landmarks,B8_landmarks,79,Understanding the Political Representat
 W2044547964,B8,landmarks,B8_landmarks,80,From Networked Nominee to Networked Nation: Examining the Impact of Web 2.0 and Social Media on Political Participation and Civic Engagement in the 2008 Obama Campaign,2011,article,389,True,include,6,rules,include
 W2142127789,B8,landmarks,B8_landmarks,81,Digital Democracy: Reimagining Pathways to Political Participation,2010,article,387,True,exclude,0,core concept missing,exclude
 W137217113,B8,landmarks,B8_landmarks,82,On Using Twitter to Monitor Political Sentiment and Predict Election Results,2011,conference-paper,384,True,include,5,rules,include
-W2898534870,B8,landmarks,B8_landmarks,83,Twenty Years of Digital Media Effects on Civic and Political Participation,2018,article,382,True,borderline,1,core concept mentioned once,pending
+W2898534870,B8,landmarks,B8_landmarks,83,Twenty Years of Digital Media Effects on Civic and Political Participation,2018,article,382,True,borderline,1,core concept mentioned once | manual: digital media effects on participation (meta-analysis),include
 W2094976461,B8,landmarks,B8_landmarks,84,Facebook and political engagement: A study of online political group membership and offline political engagement,2012,article,381,False,include,3,no abstract; core (and context) in title,include
 W2125086802,B8,landmarks,B8_landmarks,85,Age and the effects of news media attention and social media use on political interest and participation: Do social media function as leveller?,2013,article,375,True,include,6,rules,include
 W2466146218,B8,landmarks,B8_landmarks,86,"Bots, #Strongerin, and #Brexit: Computational Propaganda During the UK-EU Referendum",2016,preprint,374,False,exclude,0,core concept missing,exclude
 W2278427776,B8,landmarks,B8_landmarks,87,"Accidental exposure to politics on social media as online participation equalizer in Germany, Italy, and the United Kingdom",2015,article,374,True,include,6,rules,include
-W3037197190,B8,landmarks,B8_landmarks,88,Are Filter Bubbles Real,2019,article,372,True,borderline,1,core concept mentioned once,pending
+W3037197190,B8,landmarks,B8_landmarks,88,Are Filter Bubbles Real,2019,article,372,True,borderline,1,core concept mentioned once | manual: filter bubbles and public debate,include
 W1542344929,B8,landmarks,B8_landmarks,89,SOCIAL MEDIA AS BEAT,2012,article,371,True,include,6,rules,include
 W2079445663,B8,landmarks,B8_landmarks,90,Is Online Participation Distinct from Offline Participation? A Latent Class Analysis of Participation Types and Their Stratification,2012,article,366,True,include,5,rules,include
 W2153653987,B8,landmarks,B8_landmarks,91,"Campaigns, Reflection, and Deliberation: Advancing an O-S-R-O-R Model of Communication Effects",2009,article,363,True,include,2,rules,include
 W2787037992,B8,landmarks,B8_landmarks,92,Analyzing the Digital Traces of Political Manipulation: The 2016 Russian Interference Twitter Campaign,2018,conference-paper,362,True,include,6,rules,include
-W2015368323,B8,landmarks,B8_landmarks,93,Digital Media in the Obama Campaigns of 2008 and 2012: Adaptation to the Personalized Political Communication Environment,2014,article,362,True,borderline,1,core concept mentioned once,pending
+W2015368323,B8,landmarks,B8_landmarks,93,Digital Media in the Obama Campaigns of 2008 and 2012: Adaptation to the Personalized Political Communication Environment,2014,article,362,True,borderline,1,core concept mentioned once | manual: digital media in the Obama campaigns,include
 W2003125370,B8,landmarks,B8_landmarks,94,Stumbling upon news on the Internet: Effects of incidental news exposure and relative entertainment use on political engagement,2013,article,359,False,exclude,0,core concept missing,exclude
 W2147038444,B8,landmarks,B8_landmarks,95,Towards more systematic Twitter analysis: metrics for tweeting activities,2013,article,359,True,include,6,rules,include
 W2462319741,B8,landmarks,B8_landmarks,96,A Media Sociology for the Networked Public Sphere: The Hierarchy of Influences Model,2016,article,355,True,include,4,rules,include
@@ -7344,7 +7344,7 @@ W4213259118,B8,landmarks,B8_landmarks,98,The disaster of misinformation: a revie
 W2099762866,B8,landmarks,B8_landmarks,99,"Weblogs, traditional sources online and political participation: an assessment of how the internet is changing the political environment",2009,article,353,True,exclude,0,core concept missing,exclude
 W1549767159,B8,landmarks,B8_landmarks,100,Democracy's fourth wave?: digital media and the Arab Spring,2013,book-review,343,True,exclude,0,type book-review,exclude
 W4381929465,B8,recent,B8_recent_q1,1,Social Media Election Campaign,2023,article,2,True,include,6,rules,include
-W4414426096,B8,recent,B8_recent_q1,2,Visual Political Communication of Competing Leadership: Italy’s 2024 European Election Campaign on Social Media,2025,article,4,True,borderline,6,flag: \b(deep learning|neural network|convolut,pending
+W4414426096,B8,recent,B8_recent_q1,2,Visual Political Communication of Competing Leadership: Italy’s 2024 European Election Campaign on Social Media,2025,article,4,True,borderline,6,flag: \b(deep learning|neural network|convolut | manual: visual political communication on social media (flag false positive),include
 W4323778146,B8,recent,B8_recent_q1,3,SOCIAL MEDIA AS POLITICAL COMMUNICATION IN THE REGIONAL ELECTIONS,2023,article,0,True,include,6,rules,include
 W4385298751,B8,recent,B8_recent_q1,4,How do social media feed algorithms affect attitudes and behavior in an election campaign?,2023,article,353,True,include,6,rules,include
 W4310416894,B8,recent,B8_recent_q1,5,Social Media in the 2021 Election Campaign,2022,book-chapter,2,False,include,3,no abstract; core (and context) in title,include
