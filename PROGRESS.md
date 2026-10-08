@@ -57,7 +57,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | B3 | Surveillance studies | 229 | 156 | 34 (15%) | 11 / 23 | 158 | 151 |
 | B4 | Algorithmic governance & AI in the public sec | 238 | 205 | 18 (8%) | 6 / 12 | 187 | 187 |
 | B5 | Digital identity & digital public infrastruct | 272 | 184 | 47 (17%) | 12 / 35 | 182 | 179 |
-| B6 | Digital finance & payments | 217 | 182 | 14 (6%) | 0 / 0 (+14 pending) | 172 | 172 |
+| B6 | Digital finance & payments | 217 | 182 | 14 (6%) | 8 / 6 | 180 | 180 |
 | B7 | Digital divides & digital inclusion | 236 | 183 | 29 (12%) | 0 / 0 (+29 pending) | 166 | 164 |
 | B8 | Social media, digital publics & political com | 241 | 193 | 17 (7%) | 0 / 0 (+17 pending) | 180 | 177 |
 | B9 | Misinformation & extreme speech | 238 | 161 | 44 (18%) | 0 / 0 (+44 pending) | 153 | 152 |
@@ -68,7 +68,7 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | B14 | Generative AI & society | 237 | 161 | 46 (19%) | 0 / 0 (+46 pending) | 151 | 151 |
 | C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 115 |
 
-Total deduplicated records: 5009.
+Total deduplicated records: 5017.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)

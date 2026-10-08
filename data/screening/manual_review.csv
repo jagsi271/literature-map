@@ -787,3 +787,17 @@ W4407407947,B5,exclude,"Claude (manual review, Stage 2)",biometric voting system
 W4403676989,B5,exclude,"Claude (manual review, Stage 2)",face-biometric e-voting design
 W7172521580,B5,include,"Claude (manual review, Stage 2)",Aadhaar-enabled PDS beneficiary survey
 W4387547120,B5,exclude,"Claude (manual review, Stage 2)",health-records security algorithm
+W7220789017,B6,include,"Claude (manual review, Stage 2)",fintech adoption and financial inclusion in South Asia
+W3044902155,B6,exclude,"Claude (manual review, Stage 2)",financial literacy review
+W2141092795,B6,exclude,"Claude (manual review, Stage 2)",ICT for agricultural extension
+W2064155941,B6,exclude,"Claude (manual review, Stage 2)",postsocialist ethnographies
+W4252261040,B6,include,"Claude (manual review, Stage 2)",decentralised finance (DeFi) regulation
+W2951385604,B6,include,"Claude (manual review, Stage 2)",mobile-wallet adoption in India
+W2514542987,B6,include,"Claude (manual review, Stage 2)","mobile-money cash transfers experiment, Niger (flag false positive)"
+W3122159891,B6,exclude,"Claude (manual review, Stage 2)",central bank digital currency model
+W253920946,B6,exclude,"Claude (manual review, Stage 2)",social life of money (general)
+W2997409352,B6,include,"Claude (manual review, Stage 2)",fintech and BigTech disruption in banking (review)
+W4220882123,B6,exclude,"Claude (manual review, Stage 2)",digital-only banking experience
+W4414366822,B6,include,"Claude (manual review, Stage 2)",demonetisation and digital payments
+W4405421045,B6,include,"Claude (manual review, Stage 2)",digital payments in Jharkhand after demonetisation
+W7220321977,B6,include,"Claude (manual review, Stage 2)","fintech, mobile banking and financial inclusion"

@@ -6722,7 +6722,7 @@ W4309429504,B6,india,B6_india_q2,18,ACCEPTABILITY OF CASHLESS ECONOMY AFTER DEMO
 W3210148656,B6,india,B6_india_q3,1,Bangladesh toward Digital Financial Inclusion: FinTech Experience,2021,article,5,True,include,6,rules,include
 W3119773245,B6,india,B6_india_q3,2,Rethinking digital financial inclusion: Evidence from Bangladesh,2021,article,351,False,include,3,no abstract; core (and context) in title,include
 W4320917341,B6,india,B6_india_q3,3,The Impact of Fintech and Digital Financial Services on Financial Inclusion in India,2023,article,181,True,include,6,rules,include
-W7220789017,B6,india,B6_india_q3,4,Fintech Adoption and Financial Inclusion in South Asia,2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7220789017,B6,india,B6_india_q3,4,Fintech Adoption and Financial Inclusion in South Asia,2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: fintech adoption and financial inclusion in South Asia,include
 W4210387315,B6,india,B6_india_q3,5,Fintech and Financial Inclusion in Southeast Asia and India,2022,article,138,True,include,6,rules,include
 W4392928470,B6,india,B6_india_q3,6,Fintech-Based Financial Inclusion in Bangladesh,2024,article,11,True,include,6,rules,include
 W3128956973,B6,india,B6_india_q3,7,Financial Inclusion: The Role of Fintech and Digital Financial Services in India,2019,preprint,62,True,include,6,rules,include
@@ -6737,7 +6737,7 @@ W4406994582,B6,india,B6_india_q3,15,Influence of FinTech on Financial Inclusion 
 W4411211163,B6,india,B6_india_q3,16,Factors Affecting Digital Financial Inclusion in South Asia,2025,other,1,True,include,6,rules,include
 W2187794003,B6,india,B6_india_q3,17,Financial Inclusion through Mobile Banking: A Case of Bangladesh,2014,article,74,True,include,6,rules,include
 W7217116869,B6,india,B6_india_q3,18,"Factors Affecting Financial Inclusion: An Empirical Study of the Gurugram District, Haryana",2024,article,0,True,include,6,rules,include
-W7220789017,B6,india,B6_india_q4,1,Fintech Adoption and Financial Inclusion in South Asia,2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
+W7220789017,B6,india,B6_india_q4,1,Fintech Adoption and Financial Inclusion in South Asia,2026,article,0,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: fintech adoption and financial inclusion in South Asia,include
 W4210387315,B6,india,B6_india_q4,2,Fintech and Financial Inclusion in Southeast Asia and India,2022,article,138,True,include,6,rules,include
 W4392928470,B6,india,B6_india_q4,3,Fintech-Based Financial Inclusion in Bangladesh,2024,article,11,True,include,6,rules,include
 W7203486337,B6,india,B6_india_q4,4,"The FinTech Revolution in India: Innovation, Inclusion, and Regulation",2026,article,0,True,include,6,rules,include
@@ -6764,9 +6764,9 @@ W2559928430,B6,landmarks,B6_landmarks,6,The long-run poverty and gender impacts 
 W2032874557,B6,landmarks,B6_landmarks,7,Risk Sharing and Transactions Costs: Evidence from Kenya's Mobile Money Revolution,2013,article,1428,True,include,5,rules,include
 W1755880734,B6,landmarks,B6_landmarks,8,The Evolution of Fintech: A New Post-Crisis Paradigm?,2015,preprint,1418,False,include,3,no abstract; core (and context) in title,include
 W4289321244,B6,landmarks,B6_landmarks,9,The Global Findex Database 2021,2022,book,1398,True,include,2,rules,include
-W3044902155,B6,landmarks,B6_landmarks,10,Financial literacy: A systematic review and bibliometric analysis,2020,review,1139,True,borderline,1,core concept mentioned once,pending
+W3044902155,B6,landmarks,B6_landmarks,10,Financial literacy: A systematic review and bibliometric analysis,2020,review,1139,True,borderline,1,core concept mentioned once | manual: financial literacy review,exclude
 W1856117400,B6,landmarks,B6_landmarks,11,The Global Findex Database 2014: Measuring Financial Inclusion around the World,2015,report,961,True,include,6,rules,include
-W2141092795,B6,landmarks,B6_landmarks,12,Dial “A” for agriculture: a review of information and communication technologies for agricultural extension in developing countries,2011,article,960,True,borderline,1,core concept mentioned once,pending
+W2141092795,B6,landmarks,B6_landmarks,12,Dial “A” for agriculture: a review of information and communication technologies for agricultural extension in developing countries,2011,article,960,True,borderline,1,core concept mentioned once | manual: ICT for agricultural extension,exclude
 W2973338680,B6,landmarks,B6_landmarks,13,The impact of digital finance on household consumption: Evidence from China,2019,article,954,False,include,3,no abstract; core (and context) in title,include
 W646871639,B6,landmarks,B6_landmarks,14,Can Anyone Hear Us?,2000,book,936,True,exclude,0,core concept missing,exclude
 W3025096376,B6,landmarks,B6_landmarks,15,"Understanding consumer adoption of mobile payment in India: Extending Meta-UTAUT model with personal innovativeness, anxiety, trust, and grievance redressal",2020,article,824,False,exclude,0,core concept missing,exclude
@@ -6778,35 +6778,35 @@ W3123192212,B6,landmarks,B6_landmarks,20,"Sustainability, FinTech and Financial 
 W4220968399,B6,landmarks,B6_landmarks,21,The impact of the FinTech revolution on the future of banking: Opportunities and risks,2022,article,692,True,include,6,rules,include
 W1454642304,B6,landmarks,B6_landmarks,22,Evaluating User Privacy in Bitcoin,2013,conference-paper,686,False,exclude,0,core concept missing,exclude
 W2883964862,B6,landmarks,B6_landmarks,23,Fintech and regtech: Impact on regulators and banks,2018,article,665,False,include,3,no abstract; core (and context) in title,include
-W2064155941,B6,landmarks,B6_landmarks,24,Uncertain Transition: Ethnographies of Change in the Postsocialist World,2000,article,624,True,borderline,1,core concept mentioned once,pending
+W2064155941,B6,landmarks,B6_landmarks,24,Uncertain Transition: Ethnographies of Change in the Postsocialist World,2000,article,624,True,borderline,1,core concept mentioned once | manual: postsocialist ethnographies,exclude
 W2483525606,B6,landmarks,B6_landmarks,25,"The Blockchain and Kudos: A Distributed System for Educational Record, Reputation and Reward",2016,conference-paper,617,True,exclude,1,"flag, core not in title: \b(blockchain consensus|smart contracts?",exclude
-W4252261040,B6,landmarks,B6_landmarks,26,Decentralized Finance,2020,article,606,True,borderline,1,core concept mentioned once,pending
+W4252261040,B6,landmarks,B6_landmarks,26,Decentralized Finance,2020,article,606,True,borderline,1,core concept mentioned once | manual: decentralised finance (DeFi) regulation,include
 W3200546041,B6,landmarks,B6_landmarks,27,Can digital financial inclusion promote China's economic growth?,2021,article,581,False,include,3,no abstract; core (and context) in title,include
 W3045742910,B6,landmarks,B6_landmarks,28,Industry 4.0 in Finance: The Impact of Artificial Intelligence (AI) on Digital Financial Inclusion,2020,article,571,True,include,6,rules,include
-W2951385604,B6,landmarks,B6_landmarks,29,Consumer attitude and intention to adopt mobile wallet in India – An empirical study,2019,article,520,True,borderline,1,core concept mentioned once,pending
+W2951385604,B6,landmarks,B6_landmarks,29,Consumer attitude and intention to adopt mobile wallet in India – An empirical study,2019,article,520,True,borderline,1,core concept mentioned once | manual: mobile-wallet adoption in India,include
 W2912364678,B6,landmarks,B6_landmarks,30,Fintechs: A literature review and research agenda,2019,article,506,True,include,6,rules,include
 W2069005704,B6,landmarks,B6_landmarks,31,M-PESA: Mobile Money for the “Unbanked” Turning Cellphones into 24-Hour Tellers in Kenya,2007,article,485,True,include,6,rules,include
 W4283453639,B6,landmarks,B6_landmarks,32,Does digital financial inclusion matter for economic growth and environmental sustainability in OBRI economies? An empirical analysis,2022,article,480,False,include,3,no abstract; core (and context) in title,include
 W3000449764,B6,landmarks,B6_landmarks,33,The Global Findex Database 2017: Measuring Financial Inclusion and Opportunities to Expand Access to and Use of Financial Services*,2019,article,456,True,include,6,rules,include
 W2213574772,B6,landmarks,B6_landmarks,34,"Mobile Money, Remittances, and Household Welfare: Panel Evidence from Rural Uganda",2015,article,449,False,include,3,no abstract; core (and context) in title,include
 W4200584086,B6,landmarks,B6_landmarks,35,The rise of digital finance: Financial inclusion or debt trap?,2021,article,438,True,include,6,rules,include
-W2514542987,B6,landmarks,B6_landmarks,36,Payment Mechanisms and Antipoverty Programs: Evidence from a Mobile Money Cash Transfer Experiment in Niger,2016,article,430,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2514542987,B6,landmarks,B6_landmarks,36,Payment Mechanisms and Antipoverty Programs: Evidence from a Mobile Money Cash Transfer Experiment in Niger,2016,article,430,True,borderline,5,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: mobile-money cash transfers experiment, Niger (flag false positive)",include
 W1520534012,B6,landmarks,B6_landmarks,37,Mobile Banking: The Impact of M-Pesa in Kenya,2011,report,429,True,include,6,rules,include
 W4283378686,B6,landmarks,B6_landmarks,38,Digital financial inclusion: A gateway to sustainable development,2022,article,426,True,include,6,rules,include
 W2956680720,B6,landmarks,B6_landmarks,39,"Microfinance, financial inclusion and ICT: Implications for poverty and inequality",2019,article,425,False,include,3,no abstract; core (and context) in title,include
 W3206950101,B6,landmarks,B6_landmarks,40,Can Fintech development pave the way for a transition towards low-carbon economy: A global perspective,2021,article,416,False,include,3,no abstract; core (and context) in title,include
 W3084157653,B6,landmarks,B6_landmarks,41,How should we understand the digital economy in Asia? Critical assessment and research agenda,2020,article,407,False,exclude,0,core concept missing,exclude
-W3122159891,B6,landmarks,B6_landmarks,42,Assessing the Impact of Central Bank Digital Currency on Private Banks,2020,article,405,True,borderline,1,core concept mentioned once,pending
+W3122159891,B6,landmarks,B6_landmarks,42,Assessing the Impact of Central Bank Digital Currency on Private Banks,2020,article,405,True,borderline,1,core concept mentioned once | manual: central bank digital currency model,exclude
 W3160917934,B6,landmarks,B6_landmarks,43,COVID-19 pandemic digitization lessons for sustainable development of micro-and small- enterprises,2021,article,394,False,exclude,0,core concept missing,exclude
 W2897862648,B6,landmarks,B6_landmarks,44,Heterogeneous Graph Neural Networks for Malicious Account Detection,2018,conference-paper,386,True,exclude,2,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2789152355,B6,landmarks,B6_landmarks,45,"Payment instruments, finance and development",2018,article,379,True,include,3,rules,include
 W3036791764,B6,landmarks,B6_landmarks,46,Unearthing antecedents to financial inclusion through FinTech innovations,2020,article,377,False,include,3,no abstract; core (and context) in title,include
-W253920946,B6,landmarks,B6_landmarks,47,The Social Life of Money,2014,book,373,True,borderline,1,core concept mentioned once,pending
+W253920946,B6,landmarks,B6_landmarks,47,The Social Life of Money,2014,book,373,True,borderline,1,core concept mentioned once | manual: social life of money (general),exclude
 W3009901425,B6,landmarks,B6_landmarks,48,A Semi-Supervised Graph Attentive Network for Financial Fraud Detection,2019,conference-paper,372,True,exclude,2,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2998326865,B6,landmarks,B6_landmarks,49,Effect of Financial Inclusion on Poverty and Vulnerability to Poverty: Evidence Using a Multidimensional Measure of Financial Inclusion,2020,article,370,False,include,3,no abstract; core (and context) in title,include
 W3125508849,B6,landmarks,B6_landmarks,50,Banking goes digital: The adoption of FinTech services by German households,2019,article,370,False,include,3,no abstract; core (and context) in title,include
 W3010789203,B6,landmarks,B6_landmarks,51,Digital payment and banking adoption research in Gulf countries: A systematic literature review,2020,review,366,False,include,3,no abstract; core (and context) in title,include
-W2997409352,B6,landmarks,B6_landmarks,52,Digital Disruption in Banking,2019,review,364,True,borderline,1,core concept mentioned once,pending
+W2997409352,B6,landmarks,B6_landmarks,52,Digital Disruption in Banking,2019,review,364,True,borderline,1,core concept mentioned once | manual: fintech and BigTech disruption in banking (review),include
 W3125677287,B6,landmarks,B6_landmarks,53,Role of Government to Enhance Digital Transformation in Small Service Business,2021,article,361,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2890880008,B6,landmarks,B6_landmarks,54,Mobile-banking adoption: empirical evidence from the banking sector in Pakistan,2018,article,361,True,include,3,rules,include
 W2592924460,B6,landmarks,B6_landmarks,55,Mobile financial services and financial inclusion: Is it a boon for savings mobilization?,2017,article,361,True,include,3,rules,include
@@ -6834,7 +6834,7 @@ W4400154384,B6,landmarks,B6_landmarks,76,OECD/INFE Toolkit for Measuring Financi
 W3036998917,B6,landmarks,B6_landmarks,77,Tiered Governance and Demonetization: The Shifting Terms of Labor and Compensation in the Platform Economy,2020,article,282,True,include,4,rules,include
 W2891091038,B6,landmarks,B6_landmarks,78,"Fintech Credit Markets Around the World: Size, Drivers and Policy Issues",2018,article,281,True,include,6,rules,include
 W4311775738,B6,landmarks,B6_landmarks,79,Digital financial inclusion and poverty alleviation: Evidence from the sustainable development of China,2022,article,278,False,include,3,no abstract; core (and context) in title,include
-W4220882123,B6,landmarks,B6_landmarks,80,Digital-only banking experience: Insights from gen Y and gen Z,2022,article,278,True,borderline,1,core concept mentioned once,pending
+W4220882123,B6,landmarks,B6_landmarks,80,Digital-only banking experience: Insights from gen Y and gen Z,2022,article,278,True,borderline,1,core concept mentioned once | manual: digital-only banking experience,exclude
 W2527884804,B6,landmarks,B6_landmarks,81,"FinTech, RegTech and the Reconceptualization of Financial Regulation",2016,preprint,278,True,include,3,rules,include
 W4294958198,B6,landmarks,B6_landmarks,82,FinTech adoption and financial inclusion: Evidence from household consumption in China,2022,article,277,False,include,3,no abstract; core (and context) in title,include
 W3162109049,B6,landmarks,B6_landmarks,83,"Local Bank, Digital Financial Inclusion and SME Financing Constraints: Empirical Evidence from China",2021,article,275,True,include,6,rules,include
@@ -6873,7 +6873,7 @@ W7125519022,B6,recent,B6_recent_q1,15,"Mobile Money Integration and Financial Se
 W7171871077,B6,recent,B6_recent_q1,16,Mobile money,2026,dataset,0,True,exclude,0,type dataset,exclude
 W4390705639,B6,recent,B6_recent_q1,17,M-PESA MATURES: The Price of Success,2024,reference-entry,1,False,include,3,no abstract; core (and context) in title,include
 W4417064392,B6,recent,B6_recent_q1,18,Taxing Mobile Money,2025,article,4,True,include,6,rules,include
-W4414366822,B6,recent,B6_recent_q2,1,"Demonetization, Digital Payments, and the Hidden Costs of Going Cashless",2025,other,0,True,borderline,4,stub abstract (possible book review),pending
+W4414366822,B6,recent,B6_recent_q2,1,"Demonetization, Digital Payments, and the Hidden Costs of Going Cashless",2025,other,0,True,borderline,4,stub abstract (possible book review) | manual: demonetisation and digital payments,include
 W4406368186,B6,recent,B6_recent_q2,2,Demonetisation: Stepping Towards Cashless Economy,2025,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W4411608750,B6,recent,B6_recent_q2,3,Digital Payments and the Cashless Economy,2025,book,0,True,include,6,rules,include
 W7217840604,B6,recent,B6_recent_q2,4,EVOLUTION OF DIGITAL PAYMENTS POST DEMONETISATION TEMPORARY OR PERMANENT?,2025,article,0,True,include,6,rules,include
@@ -6882,7 +6882,7 @@ W4294310842,B6,recent,B6_recent_q2,6,DIGITAL PAYMENT SYSTEM IN RURAL INDIA AFTER
 W4402008186,B6,recent,B6_recent_q2,7,Demonetization and its Impact on Digital Payments,2024,book-chapter,0,True,include,5,rules,include
 W4408158204,B6,recent,B6_recent_q2,8,Impact of demonetization on digital payment system,2025,article,0,True,include,6,rules,include
 W4397037687,B6,recent,B6_recent_q2,9,Impact of Demonetisation and Pandemic on Digital Payments Usage,2023,article,2,True,include,6,rules,include
-W4405421045,B6,recent,B6_recent_q2,10,Status and Trends of Digital Payments in Jharkhand Post-Demonetization,2024,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4405421045,B6,recent,B6_recent_q2,10,Status and Trends of Digital Payments in Jharkhand Post-Demonetization,2024,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: digital payments in Jharkhand after demonetisation,include
 W4403763508,B6,recent,B6_recent_q2,11,Cashless Convenience: Exploring Young India’s Satisfaction with Digital Payment,2024,article,0,True,include,6,rules,include
 W4404646189,B6,recent,B6_recent_q2,12,Digital payments in India — How demonetization and COVID-19 shaped adoption?,2024,article,8,False,include,3,no abstract; core (and context) in title,include
 W4407743767,B6,recent,B6_recent_q2,13,Impact of Demonetization (2016) on Digital Payment Growth in India,2025,article,0,True,include,6,rules,include
@@ -6904,7 +6904,7 @@ W4210387315,B6,recent,B6_recent_q3,10,Fintech and Financial Inclusion in Southea
 W4388036991,B6,recent,B6_recent_q3,11,Measuring fintech-driven financial inclusion for developing countries: Comprehensive Digital Financial Inclusion Index (CDFII),2023,article,12,True,include,6,rules,include
 W7167117028,B6,recent,B6_recent_q3,12,"Digital banking, fintech and financial inclusion in India",2026,article,0,True,include,6,rules,include
 W4407582493,B6,recent,B6_recent_q3,13,FinTech and Financial Inclusion,2025,book,5,False,include,3,no abstract; core (and context) in title,include
-W7220321977,B6,recent,B6_recent_q3,14,"Fintech, Mobile Banking, and Financial Inclusion in Emerging Markets",2026,article,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7220321977,B6,recent,B6_recent_q3,14,"Fintech, Mobile Banking, and Financial Inclusion in Emerging Markets",2026,article,0,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: fintech, mobile banking and financial inclusion",include
 W4312592393,B6,recent,B6_recent_q3,15,Fintech for Financial Inclusion,2022,book-chapter,4,False,include,3,no abstract; core (and context) in title,include
 W7123341301,B6,recent,B6_recent_q3,16,Digital financial inclusion and fintech: a bibliometric analysis,2026,article,0,True,include,6,rules,include
 W4407582488,B6,recent,B6_recent_q3,17,Fintech and Financial Inclusion,2025,book-chapter,2,True,include,6,rules,include
