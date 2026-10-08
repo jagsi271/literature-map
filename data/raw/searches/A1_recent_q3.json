@@ -1,0 +1,119 @@
+{
+ "theme": "A1",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(decentralization OR decentralisation) AND (municipal OR \"urban local bodies\" OR \"local government\" OR city)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(decentralization OR decentralisation) AND (municipal OR \"urban local bodies\" OR \"local government\" OR city),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 25,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"local government\" OR \"urban local bodies\" OR \"city\" OR \"municipal\") AND (\"decentralisation\" OR \"decentralization\"))",
+ "page": 1,
+ "total_results": 4380,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A1_recent_q3.json.gz",
+ "results": [
+  [
+   "W4213190465",
+   2022
+  ],
+  [
+   "W4224437461",
+   2022
+  ],
+  [
+   "W4403490714",
+   2024
+  ],
+  [
+   "W7218141094",
+   2024
+  ],
+  [
+   "W4410127389",
+   2025
+  ],
+  [
+   "W4226053298",
+   2022
+  ],
+  [
+   "W4323545716",
+   2023
+  ],
+  [
+   "W4400832319",
+   2024
+  ],
+  [
+   "W7103899129",
+   2025
+  ],
+  [
+   "W4392235070",
+   2024
+  ],
+  [
+   "W4321225743",
+   2023
+  ],
+  [
+   "W4408333749",
+   2025
+  ],
+  [
+   "W4362646541",
+   2022
+  ],
+  [
+   "W4385768665",
+   2023
+  ],
+  [
+   "W4391841824",
+   2024
+  ],
+  [
+   "W4413901581",
+   2025
+  ],
+  [
+   "W4380318499",
+   2023
+  ],
+  [
+   "W4365457796",
+   2023
+  ],
+  [
+   "W4319788952",
+   2023
+  ],
+  [
+   "W7220283226",
+   2024
+  ],
+  [
+   "W4403846036",
+   2024
+  ],
+  [
+   "W4403490713",
+   2024
+  ],
+  [
+   "W4414478924",
+   2025
+  ],
+  [
+   "W4414241040",
+   2025
+  ],
+  [
+   "W4412870682",
+   2025
+  ]
+ ]
+}

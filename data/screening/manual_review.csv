@@ -201,3 +201,70 @@ W2890816948,A9,exclude,"Claude (manual review, Stage 1)","book review (South Asi
 W1982083802,A9,exclude,"Claude (manual review, Stage 1)","book review (Annals, pp. 427-428) of Mitchell 2003"
 W3089366762,B5,include,"Claude (manual review, Stage 1)",Aadhaar and the welfare state
 W2945621989,B5,include,"Claude (manual review, Stage 1)",Aadhaar special-issue introduction
+W2625073173,A1,include,"Claude (manual review, Stage 2)",comparative urban governance in four Indian metros
+W1596009649,A1,exclude,"Claude (manual review, Stage 2)",education service governance; urban governance only as framing
+W7118831997,A1,include,"Claude (manual review, Stage 2)","rural vs urban governance and water services, Mumbai/Chennai"
+W2586314883,A1,include,"Claude (manual review, Stage 2)","property tax as municipal own-source revenue, Nepal"
+W2168020096,A1,include,"Claude (manual review, Stage 2)",property tax reform in Bangalore
+W4298198794,A1,include,"Claude (manual review, Stage 2)",property tax in India (municipal finance)
+W3123242944,A1,include,"Claude (manual review, Stage 2)","property tax capitalisation, Greater Mumbai (flag is a false positive)"
+W2217054908,A1,include,"Claude (manual review, Stage 2)","same paper, repository copy (merged by title)"
+W209260259,A1,exclude,"Claude (manual review, Stage 2)",ICT platform for public administration reform (C8 rather than A1)
+W4206292611,A1,include,"Claude (manual review, Stage 2)","decentralisation and local government, Bangladesh"
+W4362646541,A1,include,"Claude (manual review, Stage 2)","decentralisation and local government, Bangladesh (second edition entry)"
+W2765966533,A1,include,"Claude (manual review, Stage 2)",decentralisation and local government reform in India
+W2756226481,A1,include,"Claude (manual review, Stage 2)",local government units in Sri Lanka
+W4234455940,A1,include,"Claude (manual review, Stage 2)",decentralisation and local government in Bangladesh
+W1977851888,A1,exclude,"Claude (manual review, Stage 2)",tuberculosis clinical study; municipal corporation only as location
+W4386947020,A1,exclude,"Claude (manual review, Stage 2)",tuberculosis mortality; municipal corporation only as location
+W4298418445,A1,include,"Claude (manual review, Stage 2)",women councillors in the Calcutta Municipal Corporation
+W2907633963,A1,include,"Claude (manual review, Stage 2)",74th Amendment and Kerala local government
+W3125866593,A1,exclude,"Claude (manual review, Stage 2)",smart urbanism / big data (C1/C4)
+W2477465903,A1,include,"Claude (manual review, Stage 2)",rescaling of urban governance (Brenner)
+W1969085745,A1,exclude,"Claude (manual review, Stage 2)",smart city technical vision
+W2027882651,A1,exclude,"Claude (manual review, Stage 2)","provincial federalism in China, not local/urban governance"
+W2016802582,A1,exclude,"Claude (manual review, Stage 2)",urban design
+W2002115192,A1,include,"Claude (manual review, Stage 2)",multilevel urban governance of climate change
+W1482339355,A1,include,"Claude (manual review, Stage 2)",urban climate governance (also A14)
+W245352281,A1,include,"Claude (manual review, Stage 2)",neoliberal urban governance (edited volume)
+W2099436484,A1,exclude,"Claude (manual review, Stage 2)",personal review of collaborative planning
+W4211158020,A1,exclude,"Claude (manual review, Stage 2)","environmental decentralisation and green innovation, firm level"
+W2914374206,A1,exclude,"Claude (manual review, Stage 2)",blockchain for smart cities
+W1134140799,A1,exclude,"Claude (manual review, Stage 2)","urban living labs, no abstract"
+W4243459145,A1,exclude,"Claude (manual review, Stage 2)","policy mobility, not urban governance"
+W1983137693,A1,include,"Claude (manual review, Stage 2)",urban governance capacity and collaborative planning
+W4234721561,A1,exclude,"Claude (manual review, Stage 2)",climate adaptation (generic)
+W2049142303,A1,exclude,"Claude (manual review, Stage 2)",European national government textbook
+W2148226521,A1,exclude,"Claude (manual review, Stage 2)",urban resilience ecology
+W2000093815,A1,exclude,"Claude (manual review, Stage 2)",place branding
+W2045832720,A1,exclude,"Claude (manual review, Stage 2)",ecosystem services
+W1995980461,A1,include,"Claude (manual review, Stage 2)",decentralisation and local government responsiveness (Bolivia)
+W3136881915,A1,exclude,"Claude (manual review, Stage 2)",digital twin city review (C13)
+W3082431408,A1,exclude,"Claude (manual review, Stage 2)",blockchain big data survey
+W2110613307,A1,exclude,"Claude (manual review, Stage 2)",health-system decentralisation
+W2596195754,A1,exclude,"Claude (manual review, Stage 2)",urban living labs and sustainability transitions
+W2991061618,A1,exclude,"Claude (manual review, Stage 2)","environmental decentralisation, regional green development"
+W2053364086,A1,exclude,"Claude (manual review, Stage 2)",relational urban theory (A15)
+W2135146089,A1,include,"Claude (manual review, Stage 2)",partisanship and city government in US cities
+W2146830943,A1,exclude,"Claude (manual review, Stage 2)",China urbanisation review
+W2133166304,A1,exclude,"Claude (manual review, Stage 2)",civil society in China
+W3121266168,A1,exclude,"Claude (manual review, Stage 2)",organisational law
+W2048179989,A1,exclude,"Claude (manual review, Stage 2)",queer space
+W2920981382,A1,exclude,"Claude (manual review, Stage 2)",BIM and GIS
+W2513207166,A1,exclude,"Claude (manual review, Stage 2)",corporate cash holdings
+W2123448714,A1,include,"Claude (manual review, Stage 2)",governance capacity in urban governance transformation
+W3040649972,A1,exclude,"Claude (manual review, Stage 2)",blockchain smart cities
+W2011916953,A1,exclude,"Claude (manual review, Stage 2)",strategic planning for organisations
+W1511299198,A1,exclude,"Claude (manual review, Stage 2)",IT-enabled public sector reform (generic)
+W2512938266,A1,include,"Claude (manual review, Stage 2)",local autonomy index (decentralisation)
+W2098583604,A1,include,"Claude (manual review, Stage 2)",urban regime theory
+W2169814542,A1,include,"Claude (manual review, Stage 2)",urban politics and governance
+W3108852469,A1,exclude,"Claude (manual review, Stage 2)",urban analytics (C4)
+W7214111280,A1,exclude,"Claude (manual review, Stage 2)",stub record without content
+W7161360379,A1,include,"Claude (manual review, Stage 2)","municipal property tax rates, Poland"
+W4224437461,A1,include,"Claude (manual review, Stage 2)",local government and decentralisation
+W4403490714,A1,exclude,"Claude (manual review, Stage 2)",abstract belongs to another book (bad metadata)
+W4323545716,A1,exclude,"Claude (manual review, Stage 2)",fiscal decentralisation and corporate innovation
+W4408333749,A1,include,"Claude (manual review, Stage 2)",local government and decentralisation concepts
+W4414478924,A1,exclude,"Claude (manual review, Stage 2)",fiscal decentralisation and environmental efficiency
+W1971398141,A1,exclude,"Claude (manual review, Stage 2)",voter information experiment; decentralisation only as referendum topic

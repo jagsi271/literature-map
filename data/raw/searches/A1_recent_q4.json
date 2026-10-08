@@ -1,0 +1,119 @@
+{
+ "theme": "A1",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"74th Amendment\" OR \"urban local bodies\" OR \"municipal corporation\" OR \"city government\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"74th Amendment\" OR \"urban local bodies\" OR \"municipal corporation\" OR \"city government\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 25,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"74th Amendment\" OR \"city government\" OR \"municipal corporation\" OR \"urban local bodies\")",
+ "page": 1,
+ "total_results": 8118,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A1_recent_q4.json.gz",
+ "results": [
+  [
+   "W4402192994",
+   2024
+  ],
+  [
+   "W7204446077",
+   2026
+  ],
+  [
+   "W7212042208",
+   2026
+  ],
+  [
+   "W7107856778",
+   2025
+  ],
+  [
+   "W4382887046",
+   2023
+  ],
+  [
+   "W4391312695",
+   2024
+  ],
+  [
+   "W7171849095",
+   2026
+  ],
+  [
+   "W7153737646",
+   2026
+  ],
+  [
+   "W7218126228",
+   2024
+  ],
+  [
+   "W4382887092",
+   2023
+  ],
+  [
+   "W7217688836",
+   2026
+  ],
+  [
+   "W4376650182",
+   2023
+  ],
+  [
+   "W4404903402",
+   2024
+  ],
+  [
+   "W4392652122",
+   2024
+  ],
+  [
+   "W7124957471",
+   2026
+  ],
+  [
+   "W7220597502",
+   2025
+  ],
+  [
+   "W4293548317",
+   2022
+  ],
+  [
+   "W4321274833",
+   2023
+  ],
+  [
+   "W323831373",
+   2023
+  ],
+  [
+   "W4392235070",
+   2024
+  ],
+  [
+   "W4401388725",
+   2024
+  ],
+  [
+   "W7129049977",
+   2026
+  ],
+  [
+   "W7117247072",
+   2025
+  ],
+  [
+   "W4400048247",
+   2023
+  ],
+  [
+   "W4214879893",
+   2022
+  ]
+ ]
+}

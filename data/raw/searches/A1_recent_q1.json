@@ -1,0 +1,119 @@
+{
+ "theme": "A1",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban governance\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban governance\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 25,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban governance\")",
+ "page": 1,
+ "total_results": 5268,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A1_recent_q1.json.gz",
+ "results": [
+  [
+   "W4318938565",
+   2023
+  ],
+  [
+   "W4376503498",
+   2023
+  ],
+  [
+   "W4407509168",
+   2025
+  ],
+  [
+   "W4410431306",
+   2024
+  ],
+  [
+   "W7213975458",
+   2026
+  ],
+  [
+   "W4316089097",
+   2022
+  ],
+  [
+   "W7160761409",
+   2026
+  ],
+  [
+   "W4382248938",
+   2023
+  ],
+  [
+   "W7213973270",
+   2026
+  ],
+  [
+   "W7213977578",
+   2026
+  ],
+  [
+   "W4410239445",
+   2025
+  ],
+  [
+   "W7128300326",
+   2026
+  ],
+  [
+   "W4297236445",
+   2022
+  ],
+  [
+   "W4410427078",
+   2025
+  ],
+  [
+   "W7214111280",
+   2024
+  ],
+  [
+   "W7131084071",
+   2025
+  ],
+  [
+   "W4385416688",
+   2023
+  ],
+  [
+   "W4403417609",
+   2024
+  ],
+  [
+   "W7128993934",
+   2026
+  ],
+  [
+   "W4400906880",
+   2024
+  ],
+  [
+   "W4410427310",
+   2025
+  ],
+  [
+   "W4388859724",
+   2023
+  ],
+  [
+   "W7163696959",
+   2026
+  ],
+  [
+   "W4307852355",
+   2022
+  ],
+  [
+   "W7208758689",
+   2026
+  ]
+ ]
+}

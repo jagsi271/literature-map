@@ -11,16 +11,29 @@
 #   recent    : same, publication year 2022–2026         sort = relevance (reranked), top 50
 #   india     : ((q1) OR (q2) ...) AND (south_asia_terms) sort = relevance (reranked), top 50
 #
-# `screen` holds the rule-based relevance filter applied to title + abstract (not keyword tags)
+# `screen` holds the rule-based relevance filter applied to title + abstract
 # (scripts/build_records.py). `require[0]` is the theme's core concept, `require[1:]` are
-# context terms. Auto-include needs the core concept in the title or at least twice in the
-# abstract, plus every context term somewhere; a single core mention, a missing
-# abstract, or a `flag` match (theme flags + the global flags below) sends the record to manual
-# review; no core mention excludes it. Regexes are case-insensitive Python syntax.
-# The pilot themes (C2, A9, B5) have revised (v2) core terms; the others will be revised the
-# same way in Stage 2.
+# context terms; `flag` (+ global_flags unless skip_global_flags) marks technical/biomedical
+# noise. Regexes are case-insensitive Python syntax.
+#
+# Screening rules v3 (Stage 2; calibrated on the 202 Stage 1 hand decisions so that borderline
+# cases stay under 25% per theme):
+#   include    core in title, or core twice in the abstract, with every context term present;
+#              core in title of a record without abstract (confidence low); core in title with
+#              context missing, for A and B themes only (in C themes the context term is what
+#              makes a work urban x digital)
+#   borderline core mentioned once in the abstract AND named by an OpenAlex keyword tag;
+#              flag match with core in title; stub abstract with core in title; C-theme record
+#              with core in title (or twice in abstract) but no urban context; no abstract and
+#              core only in keyword tags
+#   exclude    core absent; flag match without core in title; core once in the abstract and
+#              not in keyword tags; stub abstract without core in title
+# Borderline records are decided by hand in data/screening/manual_review.csv; a hand decision
+# on a work-theme pair overrides the rules. v2 core terms were revised for the pilot themes
+# (C2, A9, B5); v3 core terms for all other themes are theme-specific phrases instead of
+# single generic words (e.g. A2 'plan' -> master plan / zoning / planning regulation ...).
 
-version: 1
+version: 2
 
 mode: exact
 
@@ -28,6 +41,16 @@ slices:
   landmarks: {sort: cited_by_count, limit: 50}
   recent: {sort: relevance, from_year: 2022, to_year: 2026, limit: 50}
   india: {sort: relevance, limit: 50}
+
+# Stage 2 (direct API, scripts/run_search.py). Landmarks: one OR-combined search, top 100 by
+# citations. Recent / India: one search per query string (so rare phrases cannot dominate an
+# OR-combined relevance ranking), per_page = ceil(target / number of queries) within bounds.
+slices_stage2:
+  landmarks: {per_page: 100}
+# A1 ran with target 100 (25 per query); from A2 on the target is 70 to keep the map near the
+# brief's 3,000-5,000 records.
+  recent: {target: 70, min_per_query: 15, max_per_query: 30}
+  india: {target: 70, min_per_query: 15, max_per_query: 30}
 
 south_asia_terms: >-
   India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR
@@ -54,7 +77,8 @@ themes:
       - '(decentralization OR decentralisation) AND (municipal OR "urban local bodies" OR "local government" OR city)'
       - '"74th Amendment" OR "urban local bodies" OR "municipal corporation" OR "city government"'
     screen:
-      require: ['urban|city|cities|municipal|metropolitan|local government|local bodies']
+      # v3 (Stage 2)
+      require: ['urban governance|municipal\w* (finance|fiscal|bonds?|revenues?|budget\w*|government|corporations?|councils?|governance|reform\w*)|local governments?|urban local bodies|decentrali[sz]\w*|property tax\w*|city governments?|74th (constitutional )?amendment|metropolitan governance|intergovernmental (fiscal )?transfers?|local (state|democracy|councils?)', 'urban|city|cities|municipal|metropol\w*|towns?\b|local bod\w*', 'govern\w*|municipal\w*|fiscal|politic\w*|democra\w*|administrat\w*|council\w*|financ\w*|tax\w*|budget\w*|polic(y|ies)|state']
       flag: []
   A2:
     domain: A
@@ -65,8 +89,9 @@ themes:
       - '"urban planning" AND (policy OR regulation OR state OR politics)'
       - '"development control" OR "planning regulation" OR "building regulations" OR "planning law"'
     screen:
-      require: ['plan|zoning|land[- ]use|regulat|development control']
-      flag: []
+      # v3 (Stage 2)
+      require: ['master ?plans?|urban planning|land[- ]use (regulation|planning|plans?|controls?|zoning)|zoning|development (control|plans?|regulations?)|planning (regulations?|law|systems?|polic\w*|practices?|permission|authorit\w*|process\w*)|building (regulations?|codes?|bye?-?laws?)|spatial planning|town planning|city planning|planners', 'urban|city|cities|municipal|metropol\w*|towns?\b|housing|land']
+      flag: ['\b(cellular automata|land[- ]use change model\w*|landsat|remote sensing|markov chain|sleuth|flus model|land surface temperature)\b']
   A3:
     domain: A
     name: Housing, informality & slums
@@ -76,19 +101,22 @@ themes:
       - '"affordable housing" OR "housing policy" OR "public housing" OR "social housing"'
       - '"self-help housing" OR "slum upgrading" OR "slum redevelopment" OR "sites and services"'
     screen:
-      require: ['hous|slum|informal settlement|informality|shelter|tenure']
+      # v3 (Stage 2)
+      require: ['slums?\b|informal settlements?|urban informality|squatt\w*|shanty ?towns?|favelas?|affordable housing|housing polic\w*|public housing|social housing|self-help housing|sites and services|bastis?\b|jhuggi\w*|chawls?|housing (informality|tenure|rights|markets?|crisis|affordability|provision|programmes?|programs?|schemes?)|tenure security|rental housing|low-income housing', 'urban|city|cities|municipal|metropol\w*|towns?\b|slums?|settlements?|housing']
       flag: []
   A4:
     domain: A
     name: Eviction, resettlement & displacement
     queries:
-      - 'eviction OR evictions OR "forced eviction"'
+      # v3: bare 'eviction' also matched cache eviction (computing); now needs a housing co-term
+      - '(eviction OR evictions OR "forced eviction") AND (housing OR tenants OR tenant OR rental OR landlord OR landlords OR urban OR city OR slum)'
       - 'resettlement AND (urban OR slum OR city OR "informal settlement")'
       - '"development-induced displacement" OR (displacement AND gentrification)'
       - 'demolition AND (slum OR "informal settlement" OR squatter)'
     screen:
-      require: ['evict|resettle|displace|demoli|relocat']
-      flag: ['\b(refugee camp|conflict-induced|internally displaced persons)\b']
+      # v3 (Stage 2)
+      require: ['evict\w*|resettle\w*|displace\w*|demoli\w*|relocat\w*|gentrif\w*|dispossess\w*', 'urban|city|cities|slums?|informal settlements?|housing|neighbou?rhoods?|tenants?|squatt\w*|gentrif\w*|municipal|metropol\w*']
+      flag: ['\b(refugee camps?|conflict-induced|internally displaced persons|displacement (sensor|field|transducer)|seismic|landslides?|structural displacement|displacement ventilation)\b']
   A5:
     domain: A
     name: Land, peri-urban & extended urbanisation
@@ -99,8 +127,9 @@ themes:
       - '"land acquisition" OR "land pooling" OR "special economic zone" OR "land grab" AND urban'
       - '"urban fringe" OR "rural-urban fringe" OR desakota'
     screen:
-      require: ['peri-?urban|extended urbani|planetary urbani|land|fringe|desakota']
-      flag: ['\b(soil|crop yield|remote sensing|land surface temperature|ndvi)\b']
+      # v3 (Stage 2)
+      require: ['peri-?urban\w*|extended urbani[sz]ation|planetary urbani[sz]ation|urban fringes?|rural[- ]urban fringe|desakota|urban land|land acquisition|land pooling|special economic zones?|land grab\w*|urban expansion|urban (frontiers?|edges?)|land speculation|land markets?|land conversion|urbani[sz]ing villages?', 'urban|city|cities|municipal|metropol\w*|towns?\b']
+      flag: ['\b(soil|crop yields?|remote sensing|land surface temperature|ndvi|landsat|cellular automata)\b']
   A6:
     domain: A
     name: Small towns, census towns & secondary cities
@@ -110,7 +139,8 @@ themes:
       - '"secondary cities" OR "secondary city" OR "intermediate cities" OR "medium-sized cities" OR "second-tier cities"'
       - '"subaltern urbanization" OR "subaltern urbanisation" OR "small and medium towns"'
     screen:
-      require: ['small towns?|census towns?|secondary cit|intermediate cit|medium-sized cit|second-tier|subaltern urbani|small and medium']
+      # v3 (Stage 2)
+      require: ['small towns?|census towns?|secondary cit\w*|intermediate cit\w*|medium-sized (cit\w*|towns?)|second-tier cit\w*|tier-?(2|ii|3|iii) cit\w*|subaltern urbani[sz]ation|small and medium(-sized)? (towns?|cit\w*)|small cit(y|ies)|small urban (centres?|centers?)']
       flag: []
   A7:
     domain: A
@@ -122,8 +152,9 @@ themes:
       - '"urban infrastructure" AND (politics OR governance OR everyday OR citizenship)'
       - '(electricity OR "energy access") AND (slum OR "informal settlement" OR urban poor)'
     screen:
-      require: ['water|sanitation|toilet|sewer|electric|energy|infrastructur', 'urban|city|cities|slum|settlement|municipal']
-      flag: ['\b(wastewater treatment plant|membrane|pipe network model|hydraulic model)\b']
+      # v3 (Stage 2)
+      require: ['water (supply|access|governance|politics|infrastructures?|utilit\w*|provision|services?|pipes?|tankers?)|urban water|sanitation|toilets?|sewer\w*|sewage|drainage|electri\w*|energy access|infrastructur\w*|hydraulic citizenship|splintering urbanism|solid waste|waste management', 'urban|city|cities|municipal|metropol\w*|towns?\b|slums?|informal settlements?']
+      flag: ['\b(wastewater treatment plant|membrane|pipe network model|hydraulic model\w*|water quality index|heavy metals?|physicochemical|pathogens?|e\. coli|photovoltaic|load forecasting|power flow|smart grid)\b']
   A8:
     domain: A
     name: Mobility & transport (social science)
@@ -134,8 +165,9 @@ themes:
       - 'paratransit OR "informal transport" OR "auto-rickshaw" OR "minibus taxi" OR matatu'
       - '"mobilities" AND (urban OR city) AND (social OR everyday)'
     screen:
-      require: ['mobilit|transport|transit|commut|travel|paratransit|rickshaw|bus\b|metro|rail']
-      flag: ['\b(traffic flow|vehicle routing|optimi[sz]ation model|signal control|demand forecasting)\b']
+      # v3 (Stage 2)
+      require: ['urban mobilit\w*|mobility justice|transport(ation)? (equity|justice|disadvantage|poverty|polic\w*|planning|inequalit\w*|exclusion)|public (transport|transit)|mass transit|paratransit|informal transport|auto-?rickshaws?|rickshaws?|minibus\w*|matatus?|commut\w*|buses\b|bus (services?|rapid transit|routes?)|\bbrt\b|metro (rail|systems?|lines?)|walking|cycling|daily mobilit\w*|everyday mobilit\w*|mobilities|accessibility to (jobs|opportunities)', 'urban|city|cities|municipal|metropol\w*|towns?\b|street']
+      flag: ['\b(traffic flow|vehicle routing|optimi[sz]ation model|signal control|demand forecasting|traffic simulation|emission model\w*|crash|injur\w*)\b']
   A9:
     domain: A
     name: Public space, publicness & the street
@@ -160,7 +192,8 @@ themes:
       - '"waste pickers" OR "home-based workers" OR "informal workers" AND city'
       - '"urban informal economy" OR "urban livelihoods"'
     screen:
-      require: ['vend|hawker|street trad|informal (economy|sector|work|employment)|waste picker|home-based|livelihood']
+      # v3 (Stage 2)
+      require: ['street vend\w*|street hawk\w*|hawkers?|street trad\w*|informal (economy|sector|work\w*|employment|traders?|enterprises?|livelihoods?)|waste pickers?|home-based work\w*|urban livelihoods?', 'urban|city|cities|municipal|metropol\w*|towns?\b|street']
       flag: []
   A11:
     domain: A
@@ -171,8 +204,9 @@ themes:
       - '("circular migration" OR "seasonal migration") AND (urban OR city)'
       - '"urban refugees" OR "arrival city" OR "arrival cities" OR "migrant city"'
     screen:
-      require: ['migra|refugee|arrival cit', 'urban|city|cities|metropol']
-      flag: []
+      # v3 (Stage 2)
+      require: ['migra\w*|refugee\w*|arrival cit\w*|newcomers?|displaced', 'urban|city|cities|municipal|metropol\w*|towns?\b']
+      flag: ['\b(cell migration|ion migration|metastas\w*|birds?|species|larva\w*|seed dispersal|bird migration|migration of (ions|cells))\b']
   A12:
     domain: A
     name: Gender, caste, class & the city
@@ -183,7 +217,8 @@ themes:
       - '("residential segregation" OR "spatial segregation") AND (class OR caste OR religion OR Muslim)'
       - '"urban middle class" OR "new middle class" AND city'
     screen:
-      require: ['gender|women|feminis|caste|class|segregat|dalit|muslim', 'urban|city|cities|street|transport|neighbou?rhood']
+      # v3 (Stage 2)
+      require: ['gender\w*|women|feminis\w*|caste\w*|dalits?|(middle|working)[- ]class\w*|class (relations|formation|identit\w*|divides?|inequalit\w*)|segregat\w*|muslims?|sexual harassment|women.s safety', 'urban|city|cities|municipal|metropol\w*|towns?\b|streets?|neighbou?rhoods?|public spaces?']
       flag: []
   A13:
     domain: A
@@ -194,8 +229,9 @@ themes:
       - '"urban heritage" OR heritagization OR heritagisation OR "heritage conservation" AND city'
       - '"urban beautification" OR "city branding" OR "urban spectacle" OR "urban renewal" AND spectacle'
     screen:
-      require: ['mega-?event|olympic|commonwealth games|world[- ]class|worlding|heritage|beautif|branding|spectacle']
-      flag: ['\b(laser scanning|photogrammetry|hbim|point cloud)\b']
+      # v3 (Stage 2)
+      require: ['mega-?events?|olympic\w*|commonwealth games|world cups?|world[- ]class cit\w*|worlding|urban heritage|heritage (conservation|cit\w*|zones?|management|tourism|sites?|precincts?|walks?)|heritagi[sz]ation|beautif\w*|city branding|place branding|urban spectacle|urban renewal|global city', 'urban|city|cities|municipal|metropol\w*|towns?\b']
+      flag: ['\b(laser scanning|photogrammetry|hbim|point clouds?|seismic retrofit\w*|mortar|masonry)\b']
   A14:
     domain: A
     name: Urban environment, climate & risk
@@ -206,8 +242,9 @@ themes:
       - '"urban political ecology"'
       - '"urban heat" AND (vulnerability OR justice OR inequality)'
     screen:
-      require: ['climat|resilien|flood|heat|political ecology|environment|risk|disaster']
-      flag: ['\b(remote sensing|land surface temperature|landsat|hydrological model|swmm)\b']
+      # v3 (Stage 2)
+      require: ['climate (change|adaptation|governance|justice|action|risks?|mitigation|plans?)|urban resilience|resilien\w*|flood\w*|urban heat|heat ?waves?|heat islands?|political ecology|disaster risk\w*|environmental (justice|governance)|vulnerabilit\w*', 'urban|city|cities|municipal|metropol\w*|towns?\b']
+      flag: ['\b(remote sensing|land surface temperature|landsat|hydrological model\w*|swmm|hydrodynamic|wrf model|cfd|machine learning model)\b']
   A15:
     domain: A
     name: Urban & planning theory, Southern urbanism
@@ -217,7 +254,8 @@ themes:
       - '"planning theory" OR "insurgent planning" OR "occupancy urbanism"'
       - '"urban theory" AND (global OR south OR critique)'
     screen:
-      require: ['theor|southern|postcolonial|comparative|ordinary cit|insurgent|occupancy']
+      # v3 (Stage 2)
+      require: ['southern urban\w*|urban theor\w*|planning theor\w*|comparative urbanism|comparative urban\w* (research|studies|theory)|postcolonial urban\w*|ordinary cit\w*|insurgent planning|occupancy urbanism|theori[sz]\w* (the )?(urban|cit\w*)|southern theor\w*|subaltern urbanism|global (south|southern) (cit\w*|urbanism)|planetary urbani[sz]ation|urban studies']
       flag: []
   A16:
     domain: A
@@ -227,8 +265,9 @@ themes:
       - '"urban rhythms" OR rhythmanalysis OR "urban time" OR "urban temporalities"'
       - '(night OR nighttime OR "after dark") AND (women OR safety OR mobility) AND (city OR street OR transport) NOT ("nighttime light" OR "night-time light")'
     screen:
-      require: ['night|rhythm|tempora|time']
-      flag: ['night-?time lights?|luminosity|viirs|dmsp|sleep']
+      # v3 (Stage 2)
+      require: ['night\w*|nocturnal|after dark|urban rhythms?|rhythmanalys\w*|urban times?\b|temporalit\w*|chronotop\w*|24-hour cit\w*', 'urban|city|cities|municipal|metropol\w*|towns?\b|streets?|transport|transit']
+      flag: ['night-?time lights?|night lights?|luminosity|viirs|dmsp|sleep\w*|nocturia|light pollution|nighttime light']
 
   # ------------------------------------------------------------------ B. Digital society
   B1:
@@ -239,8 +278,9 @@ themes:
       - 'platformization OR platformisation'
       - '"digital platforms" AND (power OR governance OR capitalism OR regulation OR monopoly)'
     screen:
-      require: ['platform']
-      flag: []
+      # v3 (Stage 2)
+      require: ['platform capitalism|platform econom\w*|platform society|platformi[sz]\w*|digital platforms?|platform (power|governance|regulation|companies|firms|ecosystems?|monopol\w*|labou?r|work)|big tech']
+      flag: ['\b(platform trials?|drug delivery|biomarker|sequencing platform|technology platform for|proteomic)\b']
   B2:
     domain: B
     name: Datafication, data justice & data colonialism
@@ -250,7 +290,8 @@ themes:
       - '"data colonialism" OR "digital colonialism" OR "data extractivism"'
       - '"surveillance capitalism" OR "critical data studies"'
     screen:
-      require: ['datafi|data justice|colonialism|extractiv|surveillance capitalism|critical data']
+      # v3 (Stage 2)
+      require: ['datafi\w*|data justice|data colonialism|digital colonialism|data extractiv\w*|surveillance capitalism|critical data studies|data activism|data power|big data (and|&) society|data subjects?|dataism']
       flag: []
   B3:
     domain: B
@@ -260,8 +301,9 @@ themes:
       - 'dataveillance OR "lateral surveillance" OR "social sorting" OR "state surveillance" OR "mass surveillance"'
       - 'surveillance AND privacy AND (digital OR technology) AND (power OR state OR citizens)'
     screen:
-      require: ['surveil|dataveillance|social sorting']
-      flag: ['\b(disease surveillance|epidemiolog|syndromic|public health surveillance|sentinel)\b']
+      # v3 (Stage 2)
+      require: ['surveil\w*|dataveillance|social sorting|panoptic\w*']
+      flag: ['\b(disease surveillance|epidemiolog\w*|syndromic|public health surveillance|sentinel|genomic surveillance|wastewater surveillance|antimicrobial|serosurvey|surveillance system for (influenza|covid))\b']
   B4:
     domain: B
     name: Algorithmic governance & AI in the public sector
@@ -271,7 +313,8 @@ themes:
       - '"artificial intelligence" AND ("public sector" OR "public administration" OR "public services")'
       - '"digital welfare state" OR "algorithmic accountability"'
     screen:
-      require: ['algorithm|automat|artificial intelligence|\bai\b|machine learning', 'govern|public|welfare|state|administration|policy']
+      # v3 (Stage 2)
+      require: ['algorithmic (governance|governmentality|regulation|decision\w*|accountability|management|bureaucra\w*|state)|automated decision\w*|artificial intelligence|\bai\b|machine learning|digital welfare state|algorithms?\b|automation', 'govern\w*|public (sector|administration|services?|polic\w*|authorit\w*|management)|welfare|state\b|bureaucra\w*|polic(y|ies)']
       flag: []
   B5:
     domain: B
@@ -296,8 +339,9 @@ themes:
       - '"financial inclusion" AND (digital OR mobile OR fintech)'
       - 'fintech AND (inclusion OR society OR regulation OR households OR poor)'
     screen:
-      require: ['mobile money|m-?pesa|payment|cashless|demoneti|financial inclusion|fintech']
-      flag: []
+      # v3 (Stage 2)
+      require: ['mobile money|m-?pesa|digital payments?|payments? (systems?|apps?|platforms?)|cashless|demoneti[sz]ation|financial inclusion|fintech|digital (finance|financial services|lending|credit)|\bupi\b|mobile banking']
+      flag: ['\b(blockchain consensus|smart contracts?|credit scoring model|stock (prices?|returns?)|deep learning)\b']
   B7:
     domain: B
     name: Digital divides & digital inclusion
@@ -307,7 +351,8 @@ themes:
       - '"digital literacy" AND (inequality OR inclusion OR exclusion)'
       - '"internet access" AND (inequality OR gap OR rural)'
     screen:
-      require: ['divide|inequalit|inclusion|exclusion|literacy|access']
+      # v3 (Stage 2)
+      require: ['digital (divides?|inequalit\w*|inclusion|exclusion|literacy|skills|gaps?|disadvantage)|internet (access|use|adoption)|e-?inclusion|connectivity|second-level divide|grey divide|gray divide']
       flag: []
   B8:
     domain: B
@@ -318,7 +363,8 @@ themes:
       - '"political participation" AND (online OR "social media")'
       - '"hashtag activism" OR "connective action" OR "digital activism"'
     screen:
-      require: ['social media|twitter|facebook|whatsapp|online|digital|networked|hashtag|internet']
+      # v3 (Stage 2)
+      require: ['social media|twitter|facebook|whatsapp|youtube|instagram|tiktok|weibo|digital public\w*|networked public\w*|public spheres?|hashtag\w*|connective action|digital activism|online (participation|activism|political\w*|campaign\w*)', 'politic\w*|elections?|electoral|campaign\w*|populis\w*|activis\w*|protests?|public spheres?|democra\w*|participation|citizens?|publics']
       flag: []
   B9:
     domain: B
@@ -329,8 +375,9 @@ themes:
       - '"computational propaganda" OR "information disorder"'
       - 'WhatsApp AND (misinformation OR rumours OR rumors OR lynching)'
     screen:
-      require: ['misinformation|disinformation|fake news|hate speech|extreme speech|propaganda|rumou?r|information disorder']
-      flag: ['\b(detection model|classifier|bert|f1[- ]score|dataset for)\b']
+      # v3 (Stage 2)
+      require: ['misinformation|disinformation|fake news|hate speech|extreme speech|propaganda|rumou?rs?|information disorder|conspiracy theor\w*']
+      flag: ['\b(detection model|classifiers?|bert|f1[- ]score|dataset for|transformer|deep learning)\b']
   B10:
     domain: B
     name: Cybercrime, fraud & cybersecurity (social science)
@@ -340,8 +387,9 @@ themes:
       - '(cybersecurity OR "cyber security") AND (policy OR governance OR "human factors" OR behaviour OR behavior OR society)'
       - '"cyber victimization" OR "cyber victimisation" OR "cybercrime victimization"'
     screen:
-      require: ['cyber|fraud|scam|phishing']
-      flag: ['\b(intrusion detection|malware detection|anomaly detection|attack graph)\b']
+      # v3 (Stage 2)
+      require: ['cyber\w*|online fraud|internet fraud|scam\w*|phishing|fraud\w*|ransomware|identity theft']
+      flag: ['\b(intrusion detection|malware detection|anomaly detection|attack graph|encryption|federated learning|deep learning)\b']
   B11:
     domain: B
     name: Digital labour
@@ -351,7 +399,8 @@ themes:
       - '"platform work" OR "platform workers" OR "platform labour" OR "platform labor"'
       - 'crowdwork OR "crowd work" OR microwork OR "online labour" OR "algorithmic management"'
     screen:
-      require: ['labou?r|work|gig|crowd|employment']
+      # v3 (Stage 2)
+      require: ['digital labou?r|gig (econom\w*|work\w*)|platform (work\w*|labou?r)|crowd ?work\w*|micro-?work\w*|online labou?r|algorithmic management|click ?work\w*|on-demand (work|economy)']
       flag: []
   B12:
     domain: B
@@ -362,7 +411,8 @@ themes:
       - '"sociotechnical imaginaries" OR "socio-technical imaginaries"'
       - '"science and technology studies" AND digital AND infrastructure'
     screen:
-      require: ['infrastructur|imaginar|sociotechnical|socio-technical']
+      # v3 (Stage 2)
+      require: ['infrastructure studies|infrastructuring|information infrastructures?|digital infrastructures?|socio-?technical imaginar\w*|science and technology studies|\bsts\b|infrastructural (politics|power|turn)|sociotechnical|socio-technical']
       flag: []
   B13:
     domain: B
@@ -372,8 +422,9 @@ themes:
       - 'ICT4D OR ICTD OR ("mobile communication" AND development)'
       - '"mobile internet" AND (users OR everyday OR rural OR women)'
     screen:
-      require: ['mobile|phone|smartphone|ict4d|ictd']
-      flag: ['\b(addiction|problematic use|nomophobia|app for (diabetes|hiv))\b']
+      # v3 (Stage 2)
+      require: ['mobile phones?|cell ?phones?|smartphones?|ict4d|\bictd\b|mobile (communication|internet|technolog\w*|telephony)|feature phones?|mobile media']
+      flag: ['\b(addiction|problematic (smartphone )?use|nomophobia|app for (diabetes|hiv)|mhealth intervention)\b']
   B14:
     domain: B
     name: Generative AI & society
@@ -382,7 +433,8 @@ themes:
       - '(ChatGPT OR "large language models" OR "large language model") AND (society OR labour OR labor OR policy OR ethics OR governance)'
       - '"foundation models" AND (society OR power OR governance)'
     screen:
-      require: ['generative|chatgpt|large language model|llm|foundation model|gpt']
+      # v3 (Stage 2)
+      require: ['generative (ai|artificial)|chatgpt|large language models?|\bllms?\b|foundation models?|gpt-?\d']
       flag: []
 
   # ------------------------------------------------------------------ C. Urban × digital
@@ -394,7 +446,8 @@ themes:
       - '("smart city" OR "smart cities") AND (critical OR governance OR citizens OR citizenship OR neoliberal OR corporate)'
       - '"smart city" AND (policy OR politics OR urbanism)'
     screen:
-      require: ['smart cit|smart urbanism']
+      # v3 (Stage 2)
+      require: ['smart cit\w*|smart urbanism|smart cities mission']
       flag: []
   C2:
     domain: C
@@ -415,7 +468,8 @@ themes:
       - '"spatial media" OR geoweb OR "locative media"'
       - '"digital turn" AND geography'
     screen:
-      require: ['digital geograph|code/space|software|spatial media|geoweb|locative|digital turn']
+      # v3 (Stage 2)
+      require: ['digital geograph\w*|code/space|software[- ]sorted|software and space|coded spaces?|spatial media|geoweb|locative media|digital turn|geospatial web|volunteered geographic information|digital spatialit\w*']
       flag: []
   C4:
     domain: C
@@ -426,8 +480,10 @@ themes:
       - '"urban big data" OR ("big data" AND (city OR urban) AND (planning OR mobility OR governance))'
       - '"city dashboards" OR "urban dashboards" OR "city dashboard"'
     screen:
-      require: ['informatics|urban computing|analytics|urban science|big data|dashboard|data']
+      # v3 (Stage 2)
+      require: ['urban informatics|urban computing|urban analytics|urban science|urban big data|big data|city dashboards?|urban dashboards?|data-driven (urbanism|cit\w*|planning|urban\w*)|urban data science|smart city data', 'urban|city|cities|municipal|metropol\w*|towns?\b']
       flag: []
+      skip_global_flags: true
   C5:
     domain: C
     name: Urban data governance & data justice in cities
@@ -438,7 +494,8 @@ themes:
       - '("data commons" OR "data trust" OR "technological sovereignty" OR "digital sovereignty") AND (city OR urban)'
       - '"data justice" AND (city OR urban)'
     screen:
-      require: ['data', 'city|cities|urban|municipal']
+      # v3 (Stage 2)
+      require: ['urban data|data governance|open (government )?data|data commons|data trusts?|technological sovereignty|digital sovereignty|data justice|data ownership|data sharing|data sovereignty', 'city|cities|urban|municipal|local governments?']
       flag: []
   C6:
     domain: C
@@ -449,8 +506,9 @@ themes:
       - '"facial recognition" AND (police OR policing OR "public space" OR city)'
       - '"predictive policing" OR "smart policing" OR "safe city"'
     screen:
-      require: ['surveil|cctv|camera|facial recognition|policing|police|biometric|safe cit']
-      flag: ['\b(object detection|yolo|person re-identification|tracking algorithm)\b']
+      # v3 (Stage 2)
+      require: ['surveil\w*|cctv|video surveillance|facial recognition|predictive policing|smart policing|safe cit\w*|policing|biometric\w*|cameras?', 'city|cities|urban|public spaces?|streets?|municipal|neighbou?rhoods?']
+      flag: ['\b(object detection|yolo|person re-identification|tracking algorithm|anomaly detection|deep learning)\b']
   C7:
     domain: C
     name: Algorithmic & automated urban governance, municipal AI / GenAI
@@ -460,7 +518,8 @@ themes:
       - '"urban artificial intelligence" OR "urban AI" OR "AI urbanism" OR "city brain"'
       - '"generative AI" AND (city OR urban OR "urban planning")'
     screen:
-      require: ['algorithm|artificial intelligence|\bai\b|automat|city brain|machine learning|generative', 'city|cities|urban|municipal|local government']
+      # v3 (Stage 2)
+      require: ['algorithmic (governance|management|decision\w*)|artificial intelligence|\bai\b|automated decision\w*|city brain|machine learning|generative ai|algorithm\w*|automation', 'city|cities|urban|municipal|local governments?']
       flag: []
   C8:
     domain: C
@@ -471,7 +530,8 @@ themes:
       - '"digital public infrastructure" AND (city OR urban OR municipal)'
       - '"smart governance" AND (municipal OR city)'
     screen:
-      require: ['e-?govern|electronic government|digital government|public infrastructure|smart governance|online services', 'city|cities|urban|municipal|local government']
+      # v3 (Stage 2)
+      require: ['e-?govern\w*|electronic government|digital government|digital public infrastructure|smart governance|online (public )?services|e-?services|digital service delivery|govtech|digital governance', 'city|cities|urban|municipal\w*|local governments?|local bod\w*']
       flag: []
   C9:
     domain: C
@@ -483,8 +543,9 @@ themes:
       - '("digital ticketing" OR "mobile ticketing" OR "fare integration" OR "contactless payment") AND transit'
       - '(micromobility OR "e-scooter" OR "bike-sharing" OR dockless) AND (urban OR city) AND (equity OR governance OR regulation)'
     screen:
-      require: ['ride-?hail|ride-?sourc|ride-?shar|uber|mobility[- ]as[- ]a[- ]service|maas|transit|ticket|smart card|scooter|micromobil|bike-?shar|dockless|app']
-      flag: []
+      # v3 (Stage 2)
+      require: ['ride-?hail\w*|ride-?sourc\w*|ride-?shar\w*|\buber\b|\bola\b|\bdidi\b|mobility[- ]as[- ]a[- ]service|\bmaas\b|transit apps?|journey planner\w*|real-time (passenger |transit )?information|smart ?cards?|ticketing|fare (integration|payments?)|contactless|micro-?mobility|e-?scooters?|bike-?shar\w*|dockless|shared mobility', 'urban|city|cities|transport|transit|mobility|metropol\w*']
+      flag: ['\b(vehicle routing|optimi[sz]ation model|dispatch algorithm|pricing algorithm|reinforcement learning|battery|charging station placement)\b']
   C10:
     domain: C
     name: Proptech, housing platforms & short-term rentals
@@ -493,7 +554,8 @@ themes:
       - 'proptech OR "property technology" OR "real estate technology"'
       - '"housing platforms" OR "rental platforms" OR "digital housing" OR "platform real estate" OR "digital landlord"'
     screen:
-      require: ['airbnb|short-term rent|home sharing|proptech|property technolog|real estate tech|housing platform|rental platform|digital hous|landlord']
+      # v3 (Stage 2)
+      require: ['airbnb|short-term rent\w*|home sharing|proptech|property technolog\w*|real estate tech\w*|housing platforms?|rental platforms?|digital hous\w*|platform real estate|digital landlord\w*|vacation rentals?']
       flag: []
   C11:
     domain: C
@@ -504,7 +566,8 @@ themes:
       - '"digital payments" AND (vendors OR merchants OR "small businesses" OR informal OR urban)'
       - '(demonetisation OR demonetization) AND (traders OR vendors OR urban OR informal)'
     screen:
-      require: ['payment|mobile money|upi|qr|demoneti|cashless']
+      # v3 (Stage 2)
+      require: ['mobile money|digital payments?|\bupi\b|unified payments interface|qr[- ]?(code )?payments?|qr codes?|demoneti[sz]ation|cashless|paytm|m-?pesa', 'urban|city|cities|vendors?|merchants?|traders?|small business\w*|informal|shop\w*|retail\w*|kirana']
       flag: []
   C12:
     domain: C
@@ -515,7 +578,8 @@ themes:
       - '"participatory budgeting" AND (online OR digital)'
       - '"smart citizens" OR "citizen sensing" OR "civic apps" OR FixMyStreet'
     screen:
-      require: ['civic|participat|citizen|crowdsourc']
+      # v3 (Stage 2)
+      require: ['civic tech\w*|civic hack\w*|e-?participation|digital participation|online participation|participatory budgeting|smart citizens?|citizen sensing|civic apps?|fixmystreet|crowdsourc\w*|e-?democracy|participatory platforms?', 'city|cities|urban|municipal|planning|local governments?|neighbou?rhoods?']
       flag: []
   C13:
     domain: C
@@ -523,10 +587,12 @@ themes:
     queries:
       - '("digital twin" OR "digital twins") AND (city OR cities OR urban)'
       - '"urban simulation" OR "city simulation" OR "3D city model" OR CityGML'
-      - '(renderings OR "computer-generated images" OR visualisation OR visualization) AND (urban development OR "real estate") AND (imaginaries OR images OR representation)'
+      - '(renderings OR "computer-generated images" OR visualisation OR visualization) AND ("urban development" OR "real estate") AND (imaginaries OR images OR representation)'
     screen:
-      require: ['digital twin|simulat|3d city|citygml|render|visuali|image']
+      # v3 (Stage 2)
+      require: ['digital twins?|urban simulation|city simulation|3d city models?|citygml|renderings?|computer-generated images?|visuali[sz]ations?|\bcgi\b', 'city|cities|urban|real estate|metropol\w*']
       flag: []
+      skip_global_flags: true
   C14:
     domain: C
     name: Digital informality (informal settlements, vendors & digital systems)
@@ -536,8 +602,9 @@ themes:
       - '("street vendors" OR "informal traders" OR "informal workers") AND (digital OR app OR platform OR "digital payment")'
       - '"informal economy" AND (digital OR platform OR "mobile money")'
     screen:
-      require: ['informal|slum|vendor', 'digital|mobile|phone|platform|app\b|data|online|internet']
-      flag: ['\b(satellite imagery|segmentation|deep learning|remote sensing)\b']
+      # v3 (Stage 2)
+      require: ['digital informality|informal (settlements?|economy|sector|work\w*|traders?|vendors?|enterprises?)|slums?\b|street vendors?', 'digital|mobile (phones?|money|internet)|smartphones?|platforms?|\bapps?\b|online|internet|e-?commerce']
+      flag: ['\b(satellite imagery|segmentation|deep learning|remote sensing|convolutional)\b']
   C15:
     domain: C
     name: Gig work in the city (urban and spatial focus)
@@ -547,7 +614,8 @@ themes:
       - '("Uber drivers" OR "ride-hailing drivers" OR "app-based drivers") AND (work OR labour OR labor)'
       - '("platform labour" OR "platform labor" OR "platform work") AND (city OR urban OR street)'
     screen:
-      require: ['gig|platform|delivery|courier|driver|rider', 'city|cities|urban|street|spatial|geograph|neighbou?rhood']
+      # v3 (Stage 2)
+      require: ['gig (work\w*|econom\w*)|platform (work\w*|labou?r)|delivery (riders?|workers?|drivers?|platforms?)|food delivery|couriers?|ride-?hail\w* drivers?|uber drivers?|app-based (drivers?|workers?)', 'city|cities|urban|streets?|spatial\w*|geograph\w*|neighbou?rhoods?|metropol\w*']
       flag: []
   C16:
     domain: C
@@ -558,8 +626,9 @@ themes:
       - '("Google Street View" OR OpenStreetMap) AND (city OR urban) AND (representation OR politics OR mapping)'
       - '(Instagram OR "social media") AND ("urban imaginaries" OR "representation of the city" OR "city image")'
     screen:
-      require: ['heritage|mapping|map\b|street view|openstreetmap|instagram|representation|imaginar|image']
-      flag: ['\b(point cloud|photogrammetry|laser scanning|segmentation)\b']
+      # v3 (Stage 2)
+      require: ['digital heritage|counter-?mapping|participatory mapping|digital mapping|street view|openstreetmap|instagram|urban imaginar\w*|city images?|representations? of (the )?cit\w*|digital maps?|mapping', 'city|cities|urban|neighbou?rhoods?|informal settlements?']
+      flag: ['\b(point clouds?|photogrammetry|laser scanning|segmentation|deep learning|land cover)\b']
   C17:
     domain: C
     name: Urban cybersecurity & cyber-physical infrastructure
@@ -569,7 +638,8 @@ themes:
       - '"cyber-physical" AND (city OR urban) AND (security OR resilience)'
       - 'ransomware AND (municipal OR city OR "local government")'
     screen:
-      require: ['cyber|ransomware|security', 'city|cities|urban|municipal|infrastructur']
+      # v3 (Stage 2)
+      require: ['cyber\w*|ransomware', 'city|cities|urban|municipal|critical infrastructures?|smart grids?|local governments?']
       flag: []
   C18:
     domain: C
@@ -580,5 +650,6 @@ themes:
       - '"resident welfare association" OR "residents'' welfare association" OR "resident welfare associations"'
       - '(hyperlocal OR "neighborhood social media" OR "neighbourhood Facebook groups" OR "digital public space")'
     screen:
-      require: ['nextdoor|neighbou?rhood|whatsapp|resident|hyperlocal|digital public space|facebook group']
+      # v3 (Stage 2)
+      require: ['nextdoor|neighbou?rhood (platforms?|apps?|social media|groups?|watch|forums?)|whatsapp|residents?.? welfare associations?|\brwas?\b|hyperlocal|digital public spaces?|facebook groups?|community (apps?|platforms?|groups?)', 'neighbou?rhoods?|residents?|communit\w*|housing|local|city|cities|urban']
       flag: []
