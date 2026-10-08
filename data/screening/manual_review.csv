@@ -932,3 +932,42 @@ W2903975937,B11,include,"Claude (manual review, Stage 2)",heteromation and unpai
 W2156942300,B11,exclude,"Claude (manual review, Stage 2)",wrong abstract attached (1984 Annual Review article)
 W4292505973,B11,exclude,"Claude (manual review, Stage 2)",Great Resignation in hospitality
 W4407099405,B11,include,"Claude (manual review, Stage 2)",algorithmic management in the workplace (OECD; flag false positive)
+W7161634926,B12,exclude,"Claude (manual review, Stage 2)",digital diplomacy
+W4407037410,B12,exclude,"Claude (manual review, Stage 2)",India-Africa politics
+W4319345579,B12,include,"Claude (manual review, Stage 2)",national digital infrastructure and Indian healthcare (flag false positive)
+W2923870583,B12,include,"Claude (manual review, Stage 2)","national digital infrastructure and healthcare, India (preprint)"
+W2885904173,B12,exclude,"Claude (manual review, Stage 2)",book review
+W4210621595,B12,exclude,"Claude (manual review, Stage 2)",climate adaptation imaginaries (not digital)
+W3179143844,B12,include,"Claude (manual review, Stage 2)",imaginaries of national AI strategies
+W2165315713,B12,exclude,"Claude (manual review, Stage 2)",energy-policy imaginaries (not digital)
+W3082258125,B12,exclude,"Claude (manual review, Stage 2)",data governance models (B2)
+W3022190140,B12,exclude,"Claude (manual review, Stage 2)",education under COVID
+W3135573933,B12,include,"Claude (manual review, Stage 2)",future imaginaries in governing digital technology
+W2620652927,B12,exclude,"Claude (manual review, Stage 2)",innovation-model imaginaries (not digital)
+W3211388830,B12,exclude,"Claude (manual review, Stage 2)",inequalities in digital agriculture review
+W2731960952,B12,exclude,"Claude (manual review, Stage 2)",renewable energy imaginaries
+W4386751792,B12,exclude,"Claude (manual review, Stage 2)",digital product passports
+W3023793666,B12,exclude,"Claude (manual review, Stage 2)",circular economy discourse
+W3044038462,B12,exclude,"Claude (manual review, Stage 2)",Fridays for Future imaginaries
+W3082665892,B12,exclude,"Claude (manual review, Stage 2)",spatial implications of digitisation (C3)
+W2999024564,B12,exclude,"Claude (manual review, Stage 2)",circular-economy indicators
+W4393312777,B12,exclude,"Claude (manual review, Stage 2)",online learning
+W3168231648,B12,include,"Claude (manual review, Stage 2)",socio-technical imaginaries of automated decision-making in public services
+W2088502221,B12,include,"Claude (manual review, Stage 2)",scaling information infrastructure (internet IP)
+W4206750941,B12,exclude,"Claude (manual review, Stage 2)",climate movement energy futures
+W2560135308,B12,exclude,"Claude (manual review, Stage 2)",low-carbon housing imaginaries
+W3010431451,B12,exclude,"Claude (manual review, Stage 2)",island energy imaginaries
+W4403911801,B12,exclude,"Claude (manual review, Stage 2)",AI policy framework
+W2267984311,B12,exclude,"Claude (manual review, Stage 2)",smart-grid imaginaries in EU policy (energy)
+W2416835341,B12,exclude,"Claude (manual review, Stage 2)",learning health system workshop
+W4362696837,B12,exclude,"Claude (manual review, Stage 2)",megaproject governance
+W1805678138,B12,include,"Claude (manual review, Stage 2)",materiality and ecological cost of digital media hardware
+W2479043778,B12,exclude,"Claude (manual review, Stage 2)",electric vehicles as grid infrastructure (energy)
+W4410248233,B12,exclude,"Claude (manual review, Stage 2)",information infrastructure in primary care survey
+W7153070399,B12,include,"Claude (manual review, Stage 2)",digital infrastructure diplomacy in the Indo-Pacific
+W7172406090,B12,exclude,"Claude (manual review, Stage 2)",cyberattacks on city infrastructure (C17)
+W4226053296,B12,include,"Claude (manual review, Stage 2)",sociotechnical imaginaries of the automated municipality (also C7)
+W7154490736,B12,exclude,"Claude (manual review, Stage 2)",imaginaries in biomedicine
+W7204863957,B12,include,"Claude (manual review, Stage 2)","data flows in education through STS (infrastructure, power)"
+W4393317822,B12,exclude,"Claude (manual review, Stage 2)",digital participatory biodiversity science
+W7128589810,B12,exclude,"Claude (manual review, Stage 2)",digital participatory biodiversity science (duplicate)

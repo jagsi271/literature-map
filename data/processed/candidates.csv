@@ -4652,17 +4652,17 @@ W4256156033,B12,india,B12_india_q1,1,Index,2019,paratext,0,True,exclude,0,type p
 W4403819653,B12,india,B12_india_q2,1,Youth Entrepreneurship in South Asia: Opportunities and Challenges in Pakistan and Sri Lanka,2024,preprint,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4410391823,B12,india,B12_india_q2,2,Youth Entrepreneurship in South Asia: Structural Constraints and Strategic Pathways in Pakistan and Sri Lanka,2025,preprint,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7172535264,B12,india,B12_india_q2,3,India turns digital infrastructure into soft power,2026,report,0,False,include,3,no abstract; core (and context) in title,include
-W7161634926,B12,india,B12_india_q2,4,Digital Diplomacy in South Asia,2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7161634926,B12,india,B12_india_q2,4,Digital Diplomacy in South Asia,2026,article,0,True,borderline,1,core concept mentioned once | manual: digital diplomacy,exclude
 W7164015438,B12,india,B12_india_q2,5,"The Politics of Artificial Intelligence in Pakistan: Sovereignty, Systemic Fragility and the Battle for Digital Infrastructure",2026,article,0,True,include,3,rules,include
-W4407037410,B12,india,B12_india_q2,6,New Aspects in Indian African Politics,2025,article,0,True,borderline,1,core concept mentioned once,pending
+W4407037410,B12,india,B12_india_q2,6,New Aspects in Indian African Politics,2025,article,0,True,borderline,1,core concept mentioned once | manual: India-Africa politics,exclude
 W7220217769,B12,india,B12_india_q2,7,The Strategic Implications of CPEC for South Asian Geopolitics,2026,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3168131245,B12,india,B12_india_q2,8,Digital Pitfalls: The Politics of Digitalization in Bangladesh,2021,article,6,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4225999986,B12,india,B12_india_q2,9,Digital Pitfalls: The Politics of Digitalization in Bangladesh,2021,preprint,1,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7127591011,B12,india,B12_india_q2,10,Aerogel Insulation for Smart Buildings and Digital Infrastructure,2026,other,0,True,include,5,rules,include
-W4319345579,B12,india,B12_india_q2,11,National Digital Infrastructure and India’s Healthcare Sector: Physician’s Perspectives,2023,article,6,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4319345579,B12,india,B12_india_q2,11,National Digital Infrastructure and India’s Healthcare Sector: Physician’s Perspectives,2023,article,6,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: national digital infrastructure and Indian healthcare (flag false positive),include
 W7212297928,B12,india,B12_india_q2,12,"Legislating the Nanosecond- India's ""One Nation, One Time"" Initiative and the Institutionalisation of Indian Standard Time as Critical Digital Infrastructure",2026,article,0,True,include,4,rules,include
 W7116704531,B12,india,B12_india_q2,13,Who reforms? The political economy of digital infrastructure,2022,dissertation,0,True,include,6,rules,include
-W2923870583,B12,india,B12_india_q2,14,Whose Empowerment? national digital infrastructure and India’s healthcare sector,2019,preprint,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2923870583,B12,india,B12_india_q2,14,Whose Empowerment? national digital infrastructure and India’s healthcare sector,2019,preprint,0,True,borderline,6,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: national digital infrastructure and healthcare, India (preprint)",include
 W4415763067,B12,india,B12_india_q2,15,The Invisible Grids-Gendered Access to Digital Infrastructure in Marginalized Urban Spaces,2025,article,1,True,include,6,rules,include
 W7219980619,B12,india,B12_india_q2,16,CPEC and Data Sovereignty: Legal and Cybersecurity Implications of Chinese Digital Infrastructure Projects,2025,article,0,True,include,6,rules,include
 W7166568704,B12,india,B12_india_q2,17,Digital Infrastructure in Thin Markets: Evidence from a Tribal-Led Broadband Rollout,2026,preprint,0,False,include,3,no abstract; core (and context) in title,include
@@ -4675,7 +4675,7 @@ W4409379723,B12,india,B12_india_q3,5,"Mapping the sociotechnical imaginaries of 
 W4225160856,B12,india,B12_india_q3,6,Afghanistan's energy sociotechnical imaginaries: Alternative visions in a conflict zone,2022,article,10,True,include,3,rules,include
 W4405319706,B12,india,B12_india_q3,7,Competing or complementary?: Socio-technical imaginaries of a bio-based construction sector,2024,article,2,True,include,4,rules,include
 W2955926075,B12,india,B12_india_q3,8,The Elephant Observing the Dragon: Sociotechnical Imaginaries of Satellite Technology and the Sino-Indian Security Dilemma,2014,article,0,True,include,4,rules,include
-W2885904173,B12,india,B12_india_q3,9,"«Sociotechnical imaginaries» von Lernen, Regieren und Forschen mit datenbasierten Bildungstechnologien",2018,article,0,True,borderline,3,stub abstract (possible book review),pending
+W2885904173,B12,india,B12_india_q3,9,"«Sociotechnical imaginaries» von Lernen, Regieren und Forschen mit datenbasierten Bildungstechnologien",2018,article,0,True,borderline,3,stub abstract (possible book review) | manual: book review,exclude
 W7214125792,B12,india,B12_india_q3,10,Strengthening Pakistan’s Emergency Vehicle Alert System (EVAS) and Socio-Technical Imaginaries Regarding Its Adaptation,2026,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W4414714319,B12,india,B12_india_q3,11,Sociotechnical imaginaries and digital orientalism in social media discourses about Asian “tech nations”,2025,article,1,True,include,6,rules,include
 W7134125378,B12,india,B12_india_q3,12,A critical examination of blockchain in education: A hybrid bibliometric and content analysis of sociotechnical imaginaries and pedagogical marginality,2026,article,2,False,include,3,no abstract; core (and context) in title,include
@@ -4684,7 +4684,7 @@ W7164790313,B12,india,B12_india_q3,14,"Sustainability at Crosswinds: Justice, Po
 W4392788574,B12,india,B12_india_q3,15,Energizing dissensus: Socio-technical (counter) imaginaries along the China–Pakistan Economic Corridor,2024,article,4,True,include,6,rules,include
 W4405900543,B12,india,B12_india_q3,16,"Digital Sovereignty in China, Russia, and India",2024,book-chapter,6,True,include,2,rules,include
 W4415782290,B12,india,B12_india_q3,17,Geopolitics of the Fictional: Vernacular and Neocolonial Imaginaries in Colombian and Indian Science Fiction,2025,book-chapter,5,False,exclude,0,core concept missing,exclude
-W4210621595,B12,india,B12_india_q3,18,"Coproductive Imaginaries for Climate Change Adaptation: A Case of Adaptation Initiatives in the Gandaki River Basin, Western Nepal",2022,article,10,True,borderline,1,core concept mentioned once,pending
+W4210621595,B12,india,B12_india_q3,18,"Coproductive Imaginaries for Climate Change Adaptation: A Case of Adaptation Initiatives in the Gandaki River Basin, Western Nepal",2022,article,10,True,borderline,1,core concept mentioned once | manual: climate adaptation imaginaries (not digital),exclude
 W7217526796,B12,india,B12_india_q4,1,Digital Public Infrastructure and Sustainable Transformation: A Socio-Quantitative Assessment of India’s Governance Architecture,2026,article,0,True,include,3,rules,include
 W3048997895,B12,india,B12_india_q4,2,The Location of Infrastructure,2020,article,0,True,include,2,rules,include
 W7160899769,B12,india,B12_india_q4,3,Is Digital Learning Truly Inclusive? A Critical Examination,2026,article,0,True,include,3,rules,include
@@ -4707,14 +4707,14 @@ W2140463603,B12,landmarks,B12_landmarks,1,Containing the Atom: Sociotechnical Im
 W2116132371,B12,landmarks,B12_landmarks,2,Research Commentary —Digital Infrastructures: The Missing IS Research Agenda,2010,article,1364,True,include,6,rules,include
 W4244528778,B12,landmarks,B12_landmarks,3,Dreamscapes of modernity: sociotechnical imaginaries and the fabrication of power,2016,book-review,806,False,exclude,0,type book-review,exclude
 W2696589634,B12,landmarks,B12_landmarks,4,Ordering theories: Typologies and conceptual frameworks for sociotechnical change,2017,article,514,True,include,5,rules,include
-W3179143844,B12,landmarks,B12_landmarks,5,Talking AI into Being: The Narratives and Imaginaries of National AI Strategies and Their Performative Politics,2021,article,481,True,borderline,1,core concept mentioned once,pending
-W2165315713,B12,landmarks,B12_landmarks,6,Sociotechnical Imaginaries and National Energy Policies,2013,article,481,True,borderline,3,stub abstract (possible book review),pending
+W3179143844,B12,landmarks,B12_landmarks,5,Talking AI into Being: The Narratives and Imaginaries of National AI Strategies and Their Performative Politics,2021,article,481,True,borderline,1,core concept mentioned once | manual: imaginaries of national AI strategies,include
+W2165315713,B12,landmarks,B12_landmarks,6,Sociotechnical Imaginaries and National Energy Policies,2013,article,481,True,borderline,3,stub abstract (possible book review) | manual: energy-policy imaginaries (not digital),exclude
 W4246848029,B12,landmarks,B12_landmarks,7,Program Earth,2016,book,410,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W3082258125,B12,landmarks,B12_landmarks,8,Emerging models of data governance in the age of datafication,2020,article,335,True,borderline,1,core concept mentioned once,pending
+W3082258125,B12,landmarks,B12_landmarks,8,Emerging models of data governance in the age of datafication,2020,article,335,True,borderline,1,core concept mentioned once | manual: data governance models (B2),exclude
 W2802578972,B12,landmarks,B12_landmarks,9,Down the black hole: Sustaining national socio-technical imaginaries of coal in Poland,2018,article,290,True,include,6,rules,include
 W2937471939,B12,landmarks,B12_landmarks,10,The Security of Big Data in Fog-Enabled IoT Applications Including Blockchain: A Survey,2019,article,273,True,exclude,1,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
-W3022190140,B12,landmarks,B12_landmarks,11,Against All Odds: Education in Germany Coping with Covid-19,2020,article,258,True,borderline,1,core concept mentioned once,pending
-W3135573933,B12,landmarks,B12_landmarks,12,"Future imaginaries in the making and governing of digital technology: Multiple, contested, commodified",2021,article,256,True,borderline,1,core concept mentioned once,pending
+W3022190140,B12,landmarks,B12_landmarks,11,Against All Odds: Education in Germany Coping with Covid-19,2020,article,258,True,borderline,1,core concept mentioned once | manual: education under COVID,exclude
+W3135573933,B12,landmarks,B12_landmarks,12,"Future imaginaries in the making and governing of digital technology: Multiple, contested, commodified",2021,article,256,True,borderline,1,core concept mentioned once | manual: future imaginaries in governing digital technology,include
 W4321019034,B12,landmarks,B12_landmarks,13,How does digital infrastructure construction affect low-carbon development? A multidimensional interpretation of evidence from China,2023,article,251,False,include,3,no abstract; core (and context) in title,include
 W3010102191,B12,landmarks,B12_landmarks,14,Complexity and Information Systems Research in the Emerging Digital World,2020,article,250,True,include,3,rules,include
 W3008265652,B12,landmarks,B12_landmarks,15,Sociotechnical matters: Reviewing and integrating science and technology studies with energy social science,2020,article,240,True,include,6,rules,include
@@ -4722,21 +4722,21 @@ W2894613248,B12,landmarks,B12_landmarks,16,"Lithium and development imaginaries 
 W4288720373,B12,landmarks,B12_landmarks,17,"The Social Shaping of the Metaverse as an Alternative to the Imaginaries of Data-Driven Smart Cities: A Study in Science, Technology, and Society",2022,article,226,True,include,3,rules,include
 W1648236975,B12,landmarks,B12_landmarks,18,Imagining energy futures: Sociotechnical imaginaries of the future Smart Grid in Norway,2015,article,226,True,include,4,rules,include
 W4221079296,B12,landmarks,B12_landmarks,19,Minding the gap(s): public perceptions of AI and socio-technical imaginaries,2022,article,215,True,include,5,rules,include
-W2620652927,B12,landmarks,B12_landmarks,20,Panacea or diagnosis? Imaginaries of innovation and the ‘MIT model’ in three political cultures,2017,article,208,True,borderline,1,core concept mentioned once,pending
+W2620652927,B12,landmarks,B12_landmarks,20,Panacea or diagnosis? Imaginaries of innovation and the ‘MIT model’ in three political cultures,2017,article,208,True,borderline,1,core concept mentioned once | manual: innovation-model imaginaries (not digital),exclude
 W4309756426,B12,landmarks,B12_landmarks,21,Surveillance Capitalism or Democracy? The Death Match of Institutional Orders and the Politics of Knowledge in Our Information Civilization,2022,article,201,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W1532801775,B12,landmarks,B12_landmarks,22,Science and Democracy,2015,book,194,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W3211388830,B12,landmarks,B12_landmarks,23,Patterns of Inequalities in Digital Agriculture: A Systematic Literature Review,2021,review,188,True,borderline,1,core concept mentioned once,pending
+W3211388830,B12,landmarks,B12_landmarks,23,Patterns of Inequalities in Digital Agriculture: A Systematic Literature Review,2021,review,188,True,borderline,1,core concept mentioned once | manual: inequalities in digital agriculture review,exclude
 W2792519630,B12,landmarks,B12_landmarks,24,On Digital Passages and Borders: Refugees and the New Infrastructure for Movement and Control,2018,article,183,True,include,3,rules,include
-W2731960952,B12,landmarks,B12_landmarks,25,Imagining renewable energy: Towards a Social Energy Systems approach to community renewable energy projects in the Global South,2017,article,181,True,borderline,1,core concept mentioned once,pending
+W2731960952,B12,landmarks,B12_landmarks,25,Imagining renewable energy: Towards a Social Energy Systems approach to community renewable energy projects in the Global South,2017,article,181,True,borderline,1,core concept mentioned once | manual: renewable energy imaginaries,exclude
 W2765625822,B12,landmarks,B12_landmarks,26,Discourses of carbon neutrality and imaginaries of urban futures,2017,article,179,False,exclude,0,core concept missing,exclude
-W4386751792,B12,landmarks,B12_landmarks,27,Orchestrating a smart circular economy: Guiding principles for digital product passports,2023,article,176,True,borderline,1,core concept mentioned once,pending
+W4386751792,B12,landmarks,B12_landmarks,27,Orchestrating a smart circular economy: Guiding principles for digital product passports,2023,article,176,True,borderline,1,core concept mentioned once | manual: digital product passports,exclude
 W3169157822,B12,landmarks,B12_landmarks,28,The governance of sociotechnical transformations to sustainability,2021,review,174,True,include,5,rules,include
-W3023793666,B12,landmarks,B12_landmarks,29,From elite folk science to the policy legend of the circular economy,2020,article,172,True,borderline,1,core concept mentioned once,pending
+W3023793666,B12,landmarks,B12_landmarks,29,From elite folk science to the policy legend of the circular economy,2020,article,172,True,borderline,1,core concept mentioned once | manual: circular economy discourse,exclude
 W4301344253,B12,landmarks,B12_landmarks,30,From Snapshots to Social Media - The Changing Picture of Domestic Photography,2011,book,172,False,exclude,0,core concept missing,exclude
 W2465396127,B12,landmarks,B12_landmarks,31,The everyday lives of energy transitions: Contested sociotechnical imaginaries in the American West,2016,article,169,True,include,6,rules,include
-W3044038462,B12,landmarks,B12_landmarks,32,Fridays for Future's Disruptive Potential: An Inconvenient Youth Between Moderate and Radical Ideas,2020,article,157,True,borderline,1,core concept mentioned once,pending
+W3044038462,B12,landmarks,B12_landmarks,32,Fridays for Future's Disruptive Potential: An Inconvenient Youth Between Moderate and Radical Ideas,2020,article,157,True,borderline,1,core concept mentioned once | manual: Fridays for Future imaginaries,exclude
 W2950014323,B12,landmarks,B12_landmarks,33,Mapping diverse visions of energy transitions: co-producing sociotechnical imaginaries,2019,article,153,True,include,6,rules,include
-W3082665892,B12,landmarks,B12_landmarks,34,Spatial implications of digitization: State of the field and research agenda,2020,article,130,True,borderline,1,core concept mentioned once,pending
+W3082665892,B12,landmarks,B12_landmarks,34,Spatial implications of digitization: State of the field and research agenda,2020,article,130,True,borderline,1,core concept mentioned once | manual: spatial implications of digitisation (C3),exclude
 W2993752321,B12,landmarks,B12_landmarks,35,Social Movements and Governments in the Digital Age: Evaluating a Complex Landscape,2014,article,128,True,include,3,rules,include
 W2769465662,B12,landmarks,B12_landmarks,36,Whose and what futures? Navigating the contested coproduction of Thailand’s energy sociotechnical imaginaries,2017,article,126,False,include,3,no abstract; core (and context) in title,include
 W1987711124,B12,landmarks,B12_landmarks,37,State imaginaries of the public good: shaping UK innovation priorities for bioenergy,2012,article,126,False,exclude,0,core concept missing,exclude
@@ -4748,10 +4748,10 @@ W4393216547,B12,landmarks,B12_landmarks,42,Why and how is the power of Big Tech 
 W3201280674,B12,landmarks,B12_landmarks,43,An archive of whose own? White feminism and racial justice in fan fiction’s digital infrastructure,2021,article,117,True,include,3,rules,include
 W1938406685,B12,landmarks,B12_landmarks,44,Bioenergy Futures: Framing Sociotechnical Imaginaries in Local Places,2013,article,114,True,include,5,rules,include
 W2770992500,B12,landmarks,B12_landmarks,45,"Energy ideals, visions, narratives, and rhetoric: Examining sociotechnical imaginaries theory and methodology in energy research",2017,article,113,False,include,3,no abstract; core (and context) in title,include
-W2999024564,B12,landmarks,B12_landmarks,46,Indicator development as a site of collective imagination? The case of European Commission policies on the circular economy,2020,article,110,True,borderline,1,core concept mentioned once,pending
+W2999024564,B12,landmarks,B12_landmarks,46,Indicator development as a site of collective imagination? The case of European Commission policies on the circular economy,2020,article,110,True,borderline,1,core concept mentioned once | manual: circular-economy indicators,exclude
 W3198890387,B12,landmarks,B12_landmarks,47,Educational imaginaries: governance at the intersection of technology and education,2021,article,106,True,include,2,rules,include
 W3186079039,B12,landmarks,B12_landmarks,48,Renewing the future: Excluded imaginaries in the global energy transition,2021,article,106,False,exclude,0,core concept missing,exclude
-W4393312777,B12,landmarks,B12_landmarks,49,"Digital transformation of education, the limitations and prospects of introducing the fourth industrial revolution asynchronous online learning in emerging markets",2024,article,104,True,borderline,1,core concept mentioned once,pending
+W4393312777,B12,landmarks,B12_landmarks,49,"Digital transformation of education, the limitations and prospects of introducing the fourth industrial revolution asynchronous online learning in emerging markets",2024,article,104,True,borderline,1,core concept mentioned once | manual: online learning,exclude
 W3214928535,B12,landmarks,B12_landmarks,50,Capturing the invisible. Sociotechnical imaginaries of energy. The critical overview,2021,article,102,True,include,6,rules,include
 W3095685260,B12,landmarks,B12_landmarks,51,Sociotechnical Imaginaries and Techno-Optimism: Examining Outer Space Utopias of Silicon Valley,2020,article,101,True,include,4,rules,include
 W2901466865,B12,landmarks,B12_landmarks,52,Reimagining energy futures: Contributions from community sustainable energy transitions in Thailand and the Philippines,2018,article,100,False,exclude,0,core concept missing,exclude
@@ -4759,13 +4759,13 @@ W2793011535,B12,landmarks,B12_landmarks,53,Digital Campaigning: The Rise of Face
 W2884304319,B12,landmarks,B12_landmarks,54,"Participatory energy: Research, imaginaries and practices on people' contribute to energy systems in the smart city",2018,article,98,False,exclude,0,core concept missing,exclude
 W2136110742,B12,landmarks,B12_landmarks,55,Digital citizenship? Narrative exchange and the changing terms of civic culture,2014,article,98,True,include,2,rules,include
 W4223646338,B12,landmarks,B12_landmarks,56,Constraining context: Situating datafication in public administration,2022,article,97,True,include,2,rules,include
-W3168231648,B12,landmarks,B12_landmarks,57,Suing the algorithm: the mundanization of automated decision-making in public services through litigation,2021,article,97,True,borderline,1,core concept mentioned once,pending
+W3168231648,B12,landmarks,B12_landmarks,57,Suing the algorithm: the mundanization of automated decision-making in public services through litigation,2021,article,97,True,borderline,1,core concept mentioned once | manual: socio-technical imaginaries of automated decision-making in public services,include
 W2805572334,B12,landmarks,B12_landmarks,58,Free Speech is a Triangle,2018,preprint,94,True,include,3,rules,include
 W2808285734,B12,landmarks,B12_landmarks,59,From health to wealth: The future of personalized medicine in the making,2018,article,93,False,exclude,0,core concept missing,exclude
 W2902432252,B12,landmarks,B12_landmarks,60,Contradictory but also complementary: National and local imaginaries in Japan and Fukushima around transitions to hydrogen and renewables,2018,article,92,False,exclude,0,core concept missing,exclude
 W2548559800,B12,landmarks,B12_landmarks,61,New narratives for innovation,2016,article,91,False,exclude,0,core concept missing,exclude
-W2088502221,B12,landmarks,B12_landmarks,62,Scaling Information Infrastructure: The Case of Next-Generation IP in the Internet,1998,article,90,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co,pending
-W4206750941,B12,landmarks,B12_landmarks,63,Framing different energy futures? Comparing Fridays for Future and Extinction Rebellion in Germany,2022,article,89,True,borderline,1,core concept mentioned once,pending
+W2088502221,B12,landmarks,B12_landmarks,62,Scaling Information Infrastructure: The Case of Next-Generation IP in the Internet,1998,article,90,True,borderline,6,flag: \b(sensor network|wireless|5g|6g|edge co | manual: scaling information infrastructure (internet IP),include
+W4206750941,B12,landmarks,B12_landmarks,63,Framing different energy futures? Comparing Fridays for Future and Extinction Rebellion in Germany,2022,article,89,True,borderline,1,core concept mentioned once | manual: climate movement energy futures,exclude
 W4245248492,B12,landmarks,B12_landmarks,64,Social Media in Disaster Response,2013,book,88,True,include,2,rules,include
 W3193241110,B12,landmarks,B12_landmarks,65,Integrating sociotechnical and spatial imaginaries in researching energy futures,2021,article,87,False,include,3,no abstract; core (and context) in title,include
 W2884641831,B12,landmarks,B12_landmarks,66,The Digital Architecture of Time Management,2018,article,87,True,include,2,rules,include
@@ -4778,34 +4778,34 @@ W2794047060,B12,landmarks,B12_landmarks,72,Regional sociotechnical imaginaries a
 W2746255713,B12,landmarks,B12_landmarks,73,"Culture, values, lifestyles, and power in energy futures: A critical peer-to-peer vision for renewable energy",2017,article,81,False,exclude,0,core concept missing,exclude
 W2994672541,B12,landmarks,B12_landmarks,74,Imaginaries of Sustainability: The Techno-Politics of Smart Cities,2019,article,80,True,include,2,rules,include
 W2778471180,B12,landmarks,B12_landmarks,75,“Lighting a dark continent”: Imaginaries of energy transition in Senegal,2017,article,75,False,exclude,0,core concept missing,exclude
-W2560135308,B12,landmarks,B12_landmarks,76,Homes as machines: Exploring expert and public imaginaries of low carbon housing futures in the United Kingdom,2016,article,75,True,borderline,1,core concept mentioned once,pending
+W2560135308,B12,landmarks,B12_landmarks,76,Homes as machines: Exploring expert and public imaginaries of low carbon housing futures in the United Kingdom,2016,article,75,True,borderline,1,core concept mentioned once | manual: low-carbon housing imaginaries,exclude
 W3045792942,B12,landmarks,B12_landmarks,77,Sociotechnical imaginaries: An accidental themed issue,2020,article,74,False,include,3,no abstract; core (and context) in title,include
 W3007082803,B12,landmarks,B12_landmarks,78,Sociotechnical imaginaries of low-carbon waste-energy futures: UK techno-market fixes displacing public accountability,2020,article,71,True,include,6,rules,include
 W4289754691,B12,landmarks,B12_landmarks,79,"Socio-technical imaginaries of a circular economy in governmental discourse and among science, technology, and innovation actors: A Norwegian case study",2022,article,70,True,include,5,rules,include
-W3010431451,B12,landmarks,B12_landmarks,80,"European island imaginaries: Examining the actors, innovations, and renewable energy transitions of 8 islands",2020,article,70,True,borderline,1,core concept mentioned once,pending
+W3010431451,B12,landmarks,B12_landmarks,80,"European island imaginaries: Examining the actors, innovations, and renewable energy transitions of 8 islands",2020,article,70,True,borderline,1,core concept mentioned once | manual: island energy imaginaries,exclude
 W3130316293,B12,landmarks,B12_landmarks,81,Sociotechnical Imaginaries of EU Defence: The Past and the Future in the European Defence Fund,2021,article,69,True,include,5,rules,include
-W4403911801,B12,landmarks,B12_landmarks,82,A policy framework on AI usage in developing countries and its impact,2024,article,68,True,borderline,1,core concept mentioned once,pending
+W4403911801,B12,landmarks,B12_landmarks,82,A policy framework on AI usage in developing countries and its impact,2024,article,68,True,borderline,1,core concept mentioned once | manual: AI policy framework,exclude
 W4285025028,B12,landmarks,B12_landmarks,83,Amazon and the New Global Connective Architectures of Education Governance,2022,article,68,True,include,2,rules,include
 W2801799858,B12,landmarks,B12_landmarks,84,India’s energy future: Contested narratives of change,2018,article,68,False,exclude,0,core concept missing,exclude
 W4210347062,B12,landmarks,B12_landmarks,85,Sociotechnical imaginaries of energy transition: The case of the Portuguese Roadmap for Carbon Neutrality 2050,2022,article,67,True,include,6,rules,include
 W1991928248,B12,landmarks,B12_landmarks,86,Connecting neuroscience and law: anticipatory discourse and the role of sociotechnical imaginaries,2011,article,66,True,include,5,rules,include
 W2811478928,B12,landmarks,B12_landmarks,87,Urban configurations of carbon neutrality: Insights from the Carbon Neutral Cities Alliance,2018,article,64,True,include,3,rules,include
 W2746619590,B12,landmarks,B12_landmarks,88,‘Download to delicious’: Promissory themes and sociotechnical imaginaries in coverage of 3D printed food in online news sources,2017,article,64,False,include,3,no abstract; core (and context) in title,include
-W2267984311,B12,landmarks,B12_landmarks,89,"What smart grids tell about innovation narratives in the European Union: Hopes, imaginaries and policy",2015,article,64,True,borderline,1,core concept mentioned once,pending
-W2416835341,B12,landmarks,B12_landmarks,90,Digital Infrastructure for the Learning Health System,2011,book,64,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W2267984311,B12,landmarks,B12_landmarks,89,"What smart grids tell about innovation narratives in the European Union: Hopes, imaginaries and policy",2015,article,64,True,borderline,1,core concept mentioned once | manual: smart-grid imaginaries in EU policy (energy),exclude
+W2416835341,B12,landmarks,B12_landmarks,90,Digital Infrastructure for the Learning Health System,2011,book,64,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: learning health system workshop,exclude
 W2043847830,B12,landmarks,B12_landmarks,91,The politics of wire service photography: Infrastructures of representation in a digital newsroom,2012,article,63,True,exclude,0,core concept missing,exclude
 W3134399740,B12,landmarks,B12_landmarks,92,Hot air and corporate sociotechnical imaginaries: Performing and translating digital futures in the Danish tech scene,2021,article,61,True,include,6,rules,include
 W4391418350,B12,landmarks,B12_landmarks,93,Unravelling the ‘collective’ in sociotechnical imaginaries: A literature review,2024,article,60,True,include,4,rules,include
-W4362696837,B12,landmarks,B12_landmarks,94,Governing wickedness in megaprojects: discursive and institutional perspectives,2023,article,60,True,borderline,1,core concept mentioned once,pending
+W4362696837,B12,landmarks,B12_landmarks,94,Governing wickedness in megaprojects: discursive and institutional perspectives,2023,article,60,True,borderline,1,core concept mentioned once | manual: megaproject governance,exclude
 W2899385257,B12,landmarks,B12_landmarks,95,Attaining carbon neutrality in Finnish parliamentary and city council debates,2018,article,60,True,include,2,rules,include
 W2106942866,B12,landmarks,B12_landmarks,96,Sweet dreams (are made of cellulose): Sociotechnical imaginaries of second-generation bioenergy in the global debate,2014,article,60,False,include,3,no abstract; core (and context) in title,include
-W1805678138,B12,landmarks,B12_landmarks,97,"ESCAPING ATTENTION: DIGITAL MEDIA HARDWARE, MATERIALITY AND ECOLOGICAL COST",2012,article,58,True,borderline,1,core concept mentioned once,pending
+W1805678138,B12,landmarks,B12_landmarks,97,"ESCAPING ATTENTION: DIGITAL MEDIA HARDWARE, MATERIALITY AND ECOLOGICAL COST",2012,article,58,True,borderline,1,core concept mentioned once | manual: materiality and ecological cost of digital media hardware,include
 W2982863408,B12,landmarks,B12_landmarks,98,"Responsibility, rationality, and acceptance: How future users of autonomous driving are constructed in stakeholders’ sociotechnical imaginaries",2019,article,57,True,include,4,rules,include
 W2740330763,B12,landmarks,B12_landmarks,99,Sociotechnical Imaginaries and the Globalization of Converging Technology Policy: Technological Developmentalism in South Korea,2017,article,56,True,include,6,rules,include
-W2479043778,B12,landmarks,B12_landmarks,100,Imagining and enacting the future of the German energy transition: electric vehicles as grid infrastructure,2016,article,56,True,borderline,1,core concept mentioned once,pending
+W2479043778,B12,landmarks,B12_landmarks,100,Imagining and enacting the future of the German energy transition: electric vehicles as grid infrastructure,2016,article,56,True,borderline,1,core concept mentioned once | manual: electric vehicles as grid infrastructure (energy),exclude
 W7130587862,B12,recent,B12_recent_q1,1,Critical Sociotechnical Barriers to Cyber Crisis Management in a Critical Information Infrastructure Sector in Indonesia,2025,conference-paper,0,True,include,6,rules,include
 W7216115484,B12,recent,B12_recent_q1,2,"AURA-T AS AN INFORMATION INFRASTRUCTURE FOR ORIENTATIVE TELE-SCREENING IN NEURODEVELOPMENT: A Quadripolar Analysis of Data, Theory, and Governance",2026,conference-paper,0,True,include,5,rules,include
-W4410248233,B12,recent,B12_recent_q1,3,The development of information infrastructure and technological capabilities used to manage social care and address quality in primary care settings,2025,article,1,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4410248233,B12,recent,B12_recent_q1,3,The development of information infrastructure and technological capabilities used to manage social care and address quality in primary care settings,2025,article,1,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: information infrastructure in primary care survey,exclude
 W4317528864,B12,recent,B12_recent_q1,4,Using Actor-Network Theory to Understand Intelligent Systems: the Case of Intelligent IS for Logistics,2023,conference-paper,1,False,exclude,0,core concept missing,exclude
 W4352978549,B12,recent,B12_recent_q1,5,Procurement of artificial intelligence for radiology practice,2023,conference-paper,7,True,include,2,rules,include
 W4226519321,B12,recent,B12_recent_q1,6,Disinformation as Infrastructure: Making and Maintaining the QAnon Conspiracy on Italian Digital Media,2022,article,31,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
@@ -4830,7 +4830,7 @@ W4317347336,B12,recent,B12_recent_q2,6,Sociotechnical reality of the digital spa
 W7167495995,B12,recent,B12_recent_q2,7,Data-Centre Power Demand and Southeast Asia's Digital-Infrastructure FDI,2026,article,0,False,exclude,0,core concept missing,exclude
 W7171661626,B12,recent,B12_recent_q2,8,Data-Centre Power Demand and Southeast Asia's Digital-Infrastructure FDI,2026,preprint,0,False,exclude,0,core concept missing,exclude
 W7167478667,B12,recent,B12_recent_q2,9,Data-Centre Power Demand and Southeast Asia's Digital-Infrastructure FDI,2026,preprint,0,True,exclude,0,core concept missing,exclude
-W7153070399,B12,recent,B12_recent_q2,10,The politics of network governance: digital infrastructure diplomacy in the Indo-Pacific,2026,article,0,True,borderline,3,stub abstract (possible book review),pending
+W7153070399,B12,recent,B12_recent_q2,10,The politics of network governance: digital infrastructure diplomacy in the Indo-Pacific,2026,article,0,True,borderline,3,stub abstract (possible book review) | manual: digital infrastructure diplomacy in the Indo-Pacific,include
 W7204557371,B12,recent,B12_recent_q2,11,Digital infrastructure system,2026,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
 W7171961397,B12,recent,B12_recent_q2,12,"Cities, not rural areas, power the digital infrastructure of the USA",2026,article,0,False,include,3,no abstract; core (and context) in title,include
 W4366145835,B12,recent,B12_recent_q2,13,Digital infrastructure development for semiconductor devices controlling for electric power complex,2023,conference-paper,0,True,include,5,rules,include
@@ -4838,13 +4838,13 @@ W4386505692,B12,recent,B12_recent_q2,14,"China’s digital infrastructure: Netwo
 W7171478940,B12,recent,B12_recent_q2,15,Brokered Power: The UAE's Strategic Use of Logistical and Digital Infrastructure in Global Power Competition,2026,dissertation,0,False,include,3,no abstract; core (and context) in title,include
 W4367459227,B12,recent,B12_recent_q2,16,The Development of Power Grid Digital Infrastructure Based on Fuzzy Comprehensive Evaluation,2023,conference-paper,0,False,include,3,no abstract; core (and context) in title,include
 W7160566841,B12,recent,B12_recent_q2,17,Energy and digital infrastructure complementarities,2026,report,0,True,include,5,rules,include
-W7172406090,B12,recent,B12_recent_q2,18,Cybersecurity and Digital Infrastructure Vulnerabilities,2026,book-chapter,0,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7172406090,B12,recent,B12_recent_q2,18,Cybersecurity and Digital Infrastructure Vulnerabilities,2026,book-chapter,0,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: cyberattacks on city infrastructure (C17),exclude
 W4221079296,B12,recent,B12_recent_q3,1,Minding the gap(s): public perceptions of AI and socio-technical imaginaries,2022,article,215,True,include,5,rules,include
 W4399202278,B12,recent,B12_recent_q3,2,Socio-technical imaginaries of climate-neutral aviation,2024,article,25,True,include,6,rules,include
 W4410260656,B12,recent,B12_recent_q3,3,Exploring socio-technical imaginaries on smart city sustainability,2025,article,2,True,include,6,rules,include
 W7141773195,B12,recent,B12_recent_q3,4,Socio-technical imaginaries of BECCS in Sweden,2026,dissertation,0,True,include,6,rules,include
 W7125102661,B12,recent,B12_recent_q3,5,Socio-technical imaginaries of climate-neutral aviation,2024,article,0,False,include,3,no abstract; core (and context) in title,include
-W4226053296,B12,recent,B12_recent_q3,6,SOCIOTECHNICAL IMAGINARIES OF THE AUTOMATED MUNICIPALITY,2022,book,10,True,borderline,3,stub abstract (possible book review),pending
+W4226053296,B12,recent,B12_recent_q3,6,SOCIOTECHNICAL IMAGINARIES OF THE AUTOMATED MUNICIPALITY,2022,book,10,True,borderline,3,stub abstract (possible book review) | manual: sociotechnical imaginaries of the automated municipality (also C7),include
 W7171935212,B12,recent,B12_recent_q3,7,Sociotechnical imaginaries of the museum,2026,book-chapter,0,True,include,4,rules,include
 W4391418350,B12,recent,B12_recent_q3,8,Unravelling the ‘collective’ in sociotechnical imaginaries: A literature review,2024,article,60,True,include,4,rules,include
 W7154891174,B12,recent,B12_recent_q3,9,Sociotechnical Imaginaries of Energy Data,2026,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
@@ -4853,7 +4853,7 @@ W7141004058,B12,recent,B12_recent_q3,11,Socio-technical Imaginaries of Social Ro
 W4409382522,B12,recent,B12_recent_q3,12,Shaping the future: A conceptual review of sociotechnical imaginaries,2025,article,47,True,include,6,rules,include
 W7160931605,B12,recent,B12_recent_q3,13,Introduction: Towards Geographies of Sociotechnical Imaginaries,2026,book-chapter,0,True,include,6,rules,include
 W4389783966,B12,recent,B12_recent_q3,14,Socio-Technical Imaginaries of Cultural Transformation Toward Sustainable Development,2023,book-chapter,0,False,include,3,no abstract; core (and context) in title,include
-W7154490736,B12,recent,B12_recent_q3,15,Sociotechnical Imaginaries in Health and Biomedicine,2026,reference-entry,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7154490736,B12,recent,B12_recent_q3,15,Sociotechnical Imaginaries in Health and Biomedicine,2026,reference-entry,0,True,borderline,6,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: imaginaries in biomedicine,exclude
 W4396833254,B12,recent,B12_recent_q3,16,Socio-technical Imaginaries: Envisioning and Understanding AI Parenting Supports through Design Fiction,2024,conference-paper,34,True,include,3,rules,include
 W4408531120,B12,recent,B12_recent_q3,17,Sociotechnical Imaginaries of the Internet of Things,2025,book-chapter,0,True,include,5,rules,include
 W4366547474,B12,recent,B12_recent_q3,18,"HCI Research on Agriculture: Competing Sociotechnical Imaginaries, Definitions, and Opportunities",2023,conference-paper,34,True,include,4,rules,include
@@ -4861,15 +4861,15 @@ W4376954331,B12,recent,B12_recent_q4,1,Digital Platforms and Infrastructure in t
 W4408315889,B12,recent,B12_recent_q4,2,Reassessing “infrastructuring digital sovereignty”: digital self-determination as a set of infrastructure-embedded practices,2025,article,5,True,include,6,rules,include
 W4361236314,B12,recent,B12_recent_q4,3,Know(ing) Infrastructure: The Wayback Machine as object and instrument of digital research,2023,article,20,True,include,3,rules,include
 W7217526796,B12,recent,B12_recent_q4,4,Digital Public Infrastructure and Sustainable Transformation: A Socio-Quantitative Assessment of India’s Governance Architecture,2026,article,0,True,include,3,rules,include
-W7204863957,B12,recent,B12_recent_q4,5,"Data Flows in Education: Infrastructure, Power, and Practice",2026,book-chapter,0,True,borderline,1,core concept mentioned once,pending
+W7204863957,B12,recent,B12_recent_q4,5,"Data Flows in Education: Infrastructure, Power, and Practice",2026,book-chapter,0,True,borderline,1,"core concept mentioned once | manual: data flows in education through STS (infrastructure, power)",include
 W4391735551,B12,recent,B12_recent_q4,6,Notes towards infrastructure governance for large language models,2024,article,4,True,include,3,rules,include
 W7147510064,B12,recent,B12_recent_q4,7,Digital Modernity,2026,book,0,True,include,3,rules,include
 W7155275805,B12,recent,B12_recent_q4,8,Digital Modernity,2026,article,0,True,include,3,rules,include
 W7162492357,B12,recent,B12_recent_q4,9,3. The Internet Infrastructure Has Never Been Open,2026,book-chapter,0,True,exclude,3,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
 W7158427630,B12,recent,B12_recent_q4,10,Digital Modernity,2026,article,0,True,include,3,rules,include
 W4414921286,B12,recent,B12_recent_q4,11,"Materiality and governance of the very high-speed socio-technical system in Dakar (Senegal) : Strategic vision of digital infrastructure, metropolitan planning and construction sites",2025,dissertation,0,True,include,5,rules,include
-W4393317822,B12,recent,B12_recent_q4,12,Introduction: digital participatory biodiversity science,2024,article,1,True,borderline,1,core concept mentioned once,pending
-W7128589810,B12,recent,B12_recent_q4,13,Introduction: digital participatory biodiversity science,2026,book-chapter,0,True,borderline,1,core concept mentioned once,pending
+W4393317822,B12,recent,B12_recent_q4,12,Introduction: digital participatory biodiversity science,2024,article,1,True,borderline,1,core concept mentioned once | manual: digital participatory biodiversity science,exclude
+W7128589810,B12,recent,B12_recent_q4,13,Introduction: digital participatory biodiversity science,2026,book-chapter,0,True,borderline,1,core concept mentioned once | manual: digital participatory biodiversity science (duplicate),exclude
 W4404686217,B12,recent,B12_recent_q4,14,Global digital political economy and its concerns: is digital imperialism the elephant in the room?,2024,article,6,True,include,2,rules,include
 W4402326132,B12,recent,B12_recent_q4,15,Brokering New York City: The Enclave Infrastructure of a New Chinatown,2024,dissertation,0,True,include,3,rules,include
 W4415329846,B12,recent,B12_recent_q4,16,Digital Legacies: Humanity's Technological Imprint,2024,reference-entry,0,True,include,3,rules,include
