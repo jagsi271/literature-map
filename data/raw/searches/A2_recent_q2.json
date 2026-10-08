@@ -3,15 +3,15 @@
  "slice": "recent",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "\"land use regulation\" OR \"land-use regulation\" OR zoning AND (urban OR city OR housing)",
+ "query": "\"land use regulation\" OR \"land-use regulation\" OR (zoning AND (urban OR city OR housing))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:\"land use regulation\" OR \"land-use regulation\" OR zoning AND (urban OR city OR housing),is_retracted:false,publication_year:2022-2026",
+ "filter": "title_and_abstract.search.exact:\"land use regulation\" OR \"land-use regulation\" OR (zoning AND (urban OR city OR housing)),is_retracted:false,publication_year:2022-2026",
  "sort": "relevance_score:desc",
  "per_page": 18,
  "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"land use regulation\" OR \"land-use regulation\" OR (\"zoning\" AND (\"city\" OR \"housing\" OR \"urban\")))",
  "page": 1,
- "total_results": 6935,
+ "total_results": 7374,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A2_recent_q2.json.gz",
  "results": [
@@ -20,71 +20,71 @@
    2026
   ],
   [
+   "W7161990757",
+   2026
+  ],
+  [
+   "W4316088507",
+   2022
+  ],
+  [
    "W4401828922",
    2024
+  ],
+  [
+   "W4389662252",
+   2023
+  ],
+  [
+   "W7165072974",
+   2025
   ],
   [
    "W4312477489",
    2022
   ],
   [
+   "W7214062337",
+   2026
+  ],
+  [
+   "W4389547803",
+   2023
+  ],
+  [
+   "W4377943156",
+   2023
+  ],
+  [
    "W4291826378",
    2022
+  ],
+  [
+   "W4388408047",
+   2023
+  ],
+  [
+   "W4406988602",
+   2026
+  ],
+  [
+   "W4225533045",
+   2022
+  ],
+  [
+   "W4408186540",
+   2025
   ],
   [
    "W4392308381",
    2024
   ],
   [
+   "W4396563605",
+   2024
+  ],
+  [
    "W4394676291",
-   2024
-  ],
-  [
-   "W4391687069",
-   2024
-  ],
-  [
-   "W4299478675",
-   2022
-  ],
-  [
-   "W4414286055",
-   2025
-  ],
-  [
-   "W4298291774",
-   2022
-  ],
-  [
-   "W4281381629",
-   2022
-  ],
-  [
-   "W4405074431",
-   2024
-  ],
-  [
-   "W4394922724",
-   2024
-  ],
-  [
-   "W4399105661",
-   2024
-  ],
-  [
-   "W4388989606",
-   2023
-  ],
-  [
-   "W7131238753",
-   2026
-  ],
-  [
-   "W7119815754",
-   2025
-  ],
-  [
-   "W4394769444",
    2024
   ]
  ]

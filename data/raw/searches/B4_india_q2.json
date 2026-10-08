@@ -3,15 +3,15 @@
  "slice": "india",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"automated decision-making\" OR \"automated decision making\" AND (government OR public OR welfare)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "query": "(\"automated decision-making\" OR (\"automated decision making\" AND (government OR public OR welfare))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"automated decision-making\" OR \"automated decision making\" AND (government OR public OR welfare)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"automated decision-making\" OR (\"automated decision making\" AND (government OR public OR welfare))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
  "sort": "relevance_score:desc",
  "per_page": 18,
  "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"automated decision-making\" OR (\"automated decision making\" AND (\"government\" OR \"public\" OR \"welfare\"))))",
  "page": 1,
- "total_results": 82,
+ "total_results": 189,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_B4_india_q2.json.gz",
  "results": [
@@ -52,39 +52,39 @@
    2025
   ],
   [
+   "W4318318941",
+   2023
+  ],
+  [
+   "W7127969102",
+   2026
+  ],
+  [
+   "W3127227691",
+   2020
+  ],
+  [
+   "W7204159845",
+   2026
+  ],
+  [
+   "W7133965254",
+   2026
+  ],
+  [
+   "W4407691210",
+   2024
+  ],
+  [
+   "W7133882844",
+   2026
+  ],
+  [
    "W7132069099",
    2021
   ],
   [
-   "W7220517511",
-   2025
-  ],
-  [
-   "W7119509766",
-   2026
-  ],
-  [
-   "W7114775645",
-   2025
-  ],
-  [
-   "W7211995654",
-   2025
-  ],
-  [
-   "W7212999528",
-   2026
-  ],
-  [
-   "W3136098537",
-   2021
-  ],
-  [
-   "W7213420831",
-   2026
-  ],
-  [
-   "W7202056964",
+   "W7161772898",
    2026
   ]
  ]

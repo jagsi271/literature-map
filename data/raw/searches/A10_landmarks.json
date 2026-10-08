@@ -3,21 +3,25 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"street vending\" OR \"street vendors\" OR \"street hawkers\" OR hawkers OR \"street trading\") OR (\"informal economy\" AND (urban OR city OR cities)) OR (\"informal sector\" AND urban AND (workers OR livelihoods OR employment)) OR (\"waste pickers\" OR \"home-based workers\" OR \"informal workers\" AND city) OR (\"urban informal economy\" OR \"urban livelihoods\")",
+ "query": "(\"street vending\" OR \"street vendors\" OR \"street hawkers\" OR hawkers OR \"street trading\") OR (\"informal economy\" AND (urban OR city OR cities)) OR (\"informal sector\" AND urban AND (workers OR livelihoods OR employment)) OR (\"waste pickers\" OR \"home-based workers\" OR (\"informal workers\" AND city)) OR (\"urban informal economy\" OR \"urban livelihoods\")",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"street vending\" OR \"street vendors\" OR \"street hawkers\" OR hawkers OR \"street trading\") OR (\"informal economy\" AND (urban OR city OR cities)) OR (\"informal sector\" AND urban AND (workers OR livelihoods OR employment)) OR (\"waste pickers\" OR \"home-based workers\" OR \"informal workers\" AND city) OR (\"urban informal economy\" OR \"urban livelihoods\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"street vending\" OR \"street vendors\" OR \"street hawkers\" OR hawkers OR \"street trading\") OR (\"informal economy\" AND (urban OR city OR cities)) OR (\"informal sector\" AND urban AND (workers OR livelihoods OR employment)) OR (\"waste pickers\" OR \"home-based workers\" OR (\"informal workers\" AND city)) OR (\"urban informal economy\" OR \"urban livelihoods\"),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
  "oql": "get works where retracted is (false)\n  and title-abstract has (\"home-based workers\" OR \"street hawkers\" OR \"street trading\" OR \"street vending\" OR \"street vendors\" OR \"urban informal economy\" OR \"urban livelihoods\" OR \"waste pickers\" OR \"hawkers\" OR (\"informal economy\" AND (\"cities\" OR \"city\" OR \"urban\")) OR (\"informal sector\" AND \"urban\" AND (\"employment\" OR \"livelihoods\" OR \"workers\")) OR (\"informal workers\" AND \"city\"))",
  "page": 1,
- "total_results": 15394,
+ "total_results": 17639,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A10_landmarks.json.gz",
  "results": [
   [
    "W2004056710",
    2011
+  ],
+  [
+   "W2923879367",
+   2019
   ],
   [
    "W3022390072",
@@ -48,8 +52,16 @@
    1978
   ],
   [
+   "W3191104535",
+   2021
+  ],
+  [
    "W1846353168",
    2000
+  ],
+  [
+   "W1987835520",
+   2001
   ],
   [
    "W2164896019",
@@ -70,6 +82,10 @@
   [
    "W2482129546",
    2009
+  ],
+  [
+   "W3135511249",
+   2021
   ],
   [
    "W2292824068",
@@ -104,6 +120,10 @@
    2017
   ],
   [
+   "W2466932642",
+   2016
+  ],
+  [
    "W1964571117",
    1995
   ],
@@ -116,12 +136,20 @@
    2004
   ],
   [
+   "W1550294132",
+   2010
+  ],
+  [
    "W2576329833",
    2017
   ],
   [
    "W2142245535",
    2004
+  ],
+  [
+   "W1990753661",
+   2013
   ],
   [
    "W1971308760",
@@ -138,6 +166,10 @@
   [
    "W106456303",
    2009
+  ],
+  [
+   "W3163705252",
+   2021
   ],
   [
    "W2187038052",
@@ -200,6 +232,10 @@
    2007
   ],
   [
+   "W2808842256",
+   2017
+  ],
+  [
    "W4206976523",
    1998
   ],
@@ -208,12 +244,28 @@
    1995
   ],
   [
+   "W2979321259",
+   2019
+  ],
+  [
+   "W1518569771",
+   2003
+  ],
+  [
    "W2086516216",
    2004
   ],
   [
    "W2014139915",
    1989
+  ],
+  [
+   "W2994172713",
+   1998
+  ],
+  [
+   "W2757416393",
+   2017
   ],
   [
    "W2095412402",
@@ -232,8 +284,20 @@
    2009
   ],
   [
+   "W2037563283",
+   2010
+  ],
+  [
    "W1557748257",
    2013
+  ],
+  [
+   "W3003190546",
+   2020
+  ],
+  [
+   "W2306790755",
+   2012
   ],
   [
    "W2024789835",
@@ -256,6 +320,10 @@
    1988
   ],
   [
+   "W2040866977",
+   2012
+  ],
+  [
    "W2735631134",
    2005
   ],
@@ -272,8 +340,16 @@
    1998
   ],
   [
+   "W2765164944",
+   2017
+  ],
+  [
    "W2156521766",
    2004
+  ],
+  [
+   "W2043366532",
+   2000
   ],
   [
    "W1547879188",
@@ -308,6 +384,10 @@
    2024
   ],
   [
+   "W192333889",
+   2008
+  ],
+  [
    "W1836733525",
    2015
   ],
@@ -320,100 +400,20 @@
    2016
   ],
   [
+   "W2604411268",
+   2017
+  ],
+  [
    "W410428212",
    2004
   ],
   [
+   "W2945901249",
+   2019
+  ],
+  [
    "W2147524434",
    2010
-  ],
-  [
-   "W2064159768",
-   1999
-  ],
-  [
-   "W2014700542",
-   2015
-  ],
-  [
-   "W2095753332",
-   2007
-  ],
-  [
-   "W1504037711",
-   1994
-  ],
-  [
-   "W2099531606",
-   2012
-  ],
-  [
-   "W2015205102",
-   2008
-  ],
-  [
-   "W296454016",
-   2002
-  ],
-  [
-   "W2073533605",
-   2001
-  ],
-  [
-   "W4231660641",
-   2004
-  ],
-  [
-   "W2151945946",
-   1993
-  ],
-  [
-   "W2093755628",
-   1998
-  ],
-  [
-   "W3122265027",
-   2004
-  ],
-  [
-   "W2003898290",
-   1996
-  ],
-  [
-   "W2020231781",
-   1981
-  ],
-  [
-   "W3033901694",
-   2020
-  ],
-  [
-   "W1505108172",
-   1981
-  ],
-  [
-   "W2119279648",
-   2009
-  ],
-  [
-   "W1850541179",
-   2014
-  ],
-  [
-   "W2073323190",
-   2006
-  ],
-  [
-   "W1977480170",
-   1998
-  ],
-  [
-   "W4294350053",
-   2011
-  ],
-  [
-   "W2020847088",
-   1997
   ]
  ]
 }

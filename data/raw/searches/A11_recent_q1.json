@@ -3,15 +3,15 @@
  "slice": "recent",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "\"rural-urban migration\" OR \"rural\u2013urban migration\" OR \"internal migration\" AND (city OR urban)",
+ "query": "\"rural-urban migration\" OR \"rural\u2013urban migration\" OR (\"internal migration\" AND (city OR urban))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:\"rural-urban migration\" OR \"rural\u2013urban migration\" OR \"internal migration\" AND (city OR urban),is_retracted:false,publication_year:2022-2026",
+ "filter": "title_and_abstract.search.exact:\"rural-urban migration\" OR \"rural\u2013urban migration\" OR (\"internal migration\" AND (city OR urban)),is_retracted:false,publication_year:2022-2026",
  "sort": "relevance_score:desc",
  "per_page": 18,
  "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"rural-urban migration\" OR \"rural\u2013urban migration\" OR (\"internal migration\" AND (\"city\" OR \"urban\")))",
  "page": 1,
- "total_results": 1019,
+ "total_results": 2222,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A11_recent_q1.json.gz",
  "results": [
@@ -28,12 +28,28 @@
    2025
   ],
   [
+   "W4394898328",
+   2023
+  ],
+  [
+   "W3124178563",
+   2023
+  ],
+  [
    "W4241615268",
+   2022
+  ],
+  [
+   "W4311486380",
    2022
   ],
   [
    "W4312961613",
    2022
+  ],
+  [
+   "W4391097468",
+   2024
   ],
   [
    "W7214032441",
@@ -52,40 +68,24 @@
    2025
   ],
   [
-   "W4411871924",
+   "W4412938629",
    2025
   ],
   [
-   "W7164508995",
-   2026
-  ],
-  [
-   "W4416203280",
-   2025
-  ],
-  [
-   "W7135342808",
-   2025
-  ],
-  [
-   "W4387677061",
+   "W4399406961",
    2023
   ],
   [
-   "W7220333256",
+   "W4367043379",
+   2023
+  ],
+  [
+   "W4318953868",
+   2023
+  ],
+  [
+   "W4300807942",
    2022
-  ],
-  [
-   "W7203602380",
-   2026
-  ],
-  [
-   "W4297905668",
-   2022
-  ],
-  [
-   "W4409074468",
-   2025
   ]
  ]
 }

@@ -3,89 +3,89 @@
  "slice": "recent",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "\"infrastructure studies\" OR infrastructuring OR \"information infrastructure\" AND sociotechnical",
+ "query": "\"infrastructure studies\" OR infrastructuring OR (\"information infrastructure\" AND sociotechnical)",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:\"infrastructure studies\" OR infrastructuring OR \"information infrastructure\" AND sociotechnical,is_retracted:false,publication_year:2022-2026",
+ "filter": "title_and_abstract.search.exact:\"infrastructure studies\" OR infrastructuring OR (\"information infrastructure\" AND sociotechnical),is_retracted:false,publication_year:2022-2026",
  "sort": "relevance_score:desc",
  "per_page": 18,
  "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"infrastructure studies\" OR \"infrastructuring\" OR (\"information infrastructure\" AND \"sociotechnical\"))",
  "page": 1,
- "total_results": 18,
+ "total_results": 1208,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_B12_recent_q1.json.gz",
  "results": [
+  [
+   "W4225774562",
+   2022
+  ],
+  [
+   "W4385614479",
+   2023
+  ],
   [
    "W7130587862",
    2025
   ],
   [
-   "W7216115484",
+   "W4386872484",
+   2023
+  ],
+  [
+   "W4324026229",
+   2023
+  ],
+  [
+   "W7167530005",
    2026
   ],
   [
-   "W4410248233",
-   2025
+   "W7220726839",
+   2026
   ],
   [
-   "W4317528864",
-   2023
+   "W7162530979",
+   2026
   ],
   [
-   "W4352978549",
-   2023
-  ],
-  [
-   "W4226519321",
+   "W4312132909",
    2022
   ],
   [
-   "W4213106618",
+   "W4393126987",
+   2023
+  ],
+  [
+   "W4383505510",
+   2023
+  ],
+  [
+   "W7162336941",
+   2026
+  ],
+  [
+   "W7220665115",
+   2023
+  ],
+  [
+   "W4362631080",
+   2023
+  ],
+  [
+   "W4394333424",
+   2023
+  ],
+  [
+   "W4376155012",
+   2023
+  ],
+  [
+   "W4378192936",
+   2023
+  ],
+  [
+   "W4206996369",
    2022
-  ],
-  [
-   "W4403393019",
-   2024
-  ],
-  [
-   "W4406068087",
-   2025
-  ],
-  [
-   "W7214207058",
-   2026
-  ],
-  [
-   "W7213461193",
-   2026
-  ],
-  [
-   "W4387942962",
-   2023
-  ],
-  [
-   "W7164866687",
-   2026
-  ],
-  [
-   "W7149271536",
-   2026
-  ],
-  [
-   "W7149628486",
-   2026
-  ],
-  [
-   "W4403548561",
-   2023
-  ],
-  [
-   "W7220725458",
-   2026
-  ],
-  [
-   "W7216801684",
-   2023
   ]
  ]
 }

@@ -36,70 +36,70 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 <!-- AUTO:SCREENING -->
 | Theme | Name | Candidates | Rule incl. | Borderline (share) | Hand kept / dropped | Records found | Primary here |
 |---|---|---|---|---|---|---|---|
-| A1 | Urban governance, decentralisation & municipa | 289 | 211 | 33 (11%) | 16 / 17 | 206 | 202 |
-| A2 | Planning, master plans & land-use regulation | 239 | 160 | 12 (5%) | 3 / 9 | 156 | 242 |
-| A3 | Housing, informality & slums | 238 | 152 | 42 (18%) | 14 / 28 | 149 | 144 |
-| A4 | Eviction, resettlement & displacement | 219 | 170 | 20 (9%) | 8 / 12 | 170 | 164 |
-| A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 12 / 16 | 147 | 145 |
-| A6 | Small towns, census towns & secondary cities | 336 | 138 | 28 (8%) | 11 / 17 | 142 | 191 |
+| A1 | Urban governance, decentralisation & municipa | 264 | 189 | 32 (12%) | 12 / 20 | 176 | 172 |
+| A2 | Planning, master plans & land-use regulation | 239 | 165 | 11 (5%) | 3 / 8 | 160 | 242 |
+| A3 | Housing, informality & slums | 265 | 173 | 48 (18%) | 17 / 31 | 173 | 169 |
+| A4 | Eviction, resettlement & displacement | 219 | 170 | 20 (9%) | 8 / 12 | 170 | 163 |
+| A5 | Land, peri-urban & extended urbanisation | 277 | 179 | 29 (10%) | 11 / 18 | 186 | 183 |
+| A6 | Small towns, census towns & secondary cities | 364 | 154 | 29 (8%) | 12 / 17 | 159 | 208 |
 | A7 | Urban infrastructure (water, sanitation, ener | 242 | 159 | 23 (10%) | 9 / 14 | 161 | 187 |
-| A8 | Mobility & transport (social science) | 246 | 174 | 23 (9%) | 6 / 17 | 174 | 248 |
+| A8 | Mobility & transport (social science) | 274 | 201 | 23 (8%) | 7 / 16 | 201 | 276 |
 | A9 | Public space, publicness & the street | 287 | 188 | 36 (12%) | 21 / 15 | 208 | 207 |
-| A10 | Urban economy, informal work & street vending | 221 | 154 | 22 (10%) | 9 / 13 | 162 | 159 |
-| A11 | Migration & the city | 234 | 192 | 22 (9%) | 6 / 16 | 188 | 184 |
-| A12 | Gender, caste, class & the city | 229 | 156 | 22 (10%) | 11 / 11 | 163 | 161 |
-| A13 | Heritage, mega-events & "world-class" city ma | 211 | 146 | 13 (6%) | 7 / 6 | 152 | 149 |
+| A10 | Urban economy, informal work & street vending | 228 | 153 | 26 (11%) | 11 / 15 | 163 | 160 |
+| A11 | Migration & the city | 236 | 178 | 25 (11%) | 8 / 17 | 174 | 170 |
+| A12 | Gender, caste, class & the city | 233 | 167 | 22 (9%) | 11 / 11 | 173 | 168 |
+| A13 | Heritage, mega-events & "world-class" city ma | 246 | 180 | 22 (9%) | 11 / 11 | 185 | 183 |
 | A14 | Urban environment, climate & risk | 246 | 195 | 29 (12%) | 10 / 19 | 192 | 189 |
 | A15 | Urban & planning theory, Southern urbanism | 233 | 144 | 39 (17%) | 24 / 15 | 158 | 154 |
 | A16 | Night-time city & urban time | 241 | 122 | 31 (13%) | 18 / 13 | 135 | 213 |
-| B1 | Platforms & platform capitalism | 239 | 177 | 33 (14%) | 16 / 17 | 183 | 166 |
+| B1 | Platforms & platform capitalism | 239 | 177 | 33 (14%) | 16 / 17 | 183 | 165 |
 | B2 | Datafication, data justice & data colonialism | 240 | 149 | 38 (16%) | 21 / 17 | 161 | 157 |
 | B3 | Surveillance studies | 229 | 156 | 34 (15%) | 11 / 23 | 158 | 149 |
-| B4 | Algorithmic governance & AI in the public sec | 238 | 205 | 17 (7%) | 5 / 12 | 187 | 187 |
-| B5 | Digital identity & digital public infrastruct | 272 | 184 | 47 (17%) | 12 / 35 | 182 | 179 |
+| B4 | Algorithmic governance & AI in the public sec | 240 | 201 | 16 (7%) | 4 / 12 | 182 | 182 |
+| B5 | Digital identity & digital public infrastruct | 298 | 205 | 51 (17%) | 16 / 35 | 205 | 201 |
 | B6 | Digital finance & payments | 217 | 182 | 14 (6%) | 8 / 6 | 180 | 180 |
-| B7 | Digital divides & digital inclusion | 236 | 184 | 28 (12%) | 16 / 12 | 181 | 179 |
-| B8 | Social media, digital publics & political com | 241 | 193 | 17 (7%) | 12 / 5 | 191 | 188 |
+| B7 | Digital divides & digital inclusion | 236 | 184 | 28 (12%) | 16 / 12 | 181 | 177 |
+| B8 | Social media, digital publics & political com | 272 | 217 | 22 (8%) | 16 / 6 | 217 | 214 |
 | B9 | Misinformation & extreme speech | 238 | 161 | 44 (18%) | 29 / 15 | 181 | 180 |
 | B10 | Cybercrime, fraud & cybersecurity (social sci | 240 | 173 | 25 (10%) | 10 / 15 | 173 | 173 |
 | B11 | Digital labour | 238 | 203 | 12 (5%) | 8 / 4 | 202 | 194 |
-| B12 | Infrastructure studies & STS of digital syste | 221 | 131 | 39 (18%) | 10 / 29 | 137 | 136 |
-| B13 | Mobile phones & everyday digital life | 239 | 142 | 26 (11%) | 5 / 21 | 140 | 137 |
+| B12 | Infrastructure studies & STS of digital syste | 239 | 145 | 41 (17%) | 17 / 24 | 156 | 153 |
+| B13 | Mobile phones & everyday digital life | 269 | 166 | 30 (11%) | 7 / 23 | 166 | 163 |
 | B14 | Generative AI & society | 237 | 161 | 46 (19%) | 18 / 28 | 168 | 168 |
 | C1 | Smart cities & smart urbanism | 219 | 187 | 16 (7%) | 3 / 13 | 188 | 183 |
-| C2 | Platform urbanism | 213 | 166 | 19 (9%) | 10 / 9 | 169 | 155 |
+| C2 | Platform urbanism | 246 | 193 | 21 (8%) | 12 / 9 | 197 | 183 |
 | C3 | Digital geographies & code/space | 199 | 82 | 23 (12%) | 11 / 12 | 91 | 88 |
-| C4 | Urban informatics & urban computing | 225 | 123 | 22 (10%) | 10 / 12 | 128 | 122 |
+| C4 | Urban informatics & urban computing | 227 | 127 | 20 (9%) | 9 / 11 | 131 | 124 |
 | C5 | Urban data governance & data justice in citie | 230 | 118 | 45 (20%) | 11 / 34 | 125 | 116 |
 | C6 | Urban surveillance, policing & biometrics in  | 240 | 104 | 38 (16%) | 12 / 26 | 115 | 112 |
-| C7 | Algorithmic & automated urban governance, mun | 226 | 124 | 39 (17%) | 6 / 33 | 125 | 117 |
+| C7 | Algorithmic & automated urban governance, mun | 226 | 124 | 39 (17%) | 6 / 33 | 125 | 118 |
 | C8 | City-level DPI & urban e-government | 217 | 113 | 32 (15%) | 13 / 19 | 125 | 117 |
-| C9 | Digital mobility (ride-hailing, MaaS, digital | 228 | 140 | 21 (9%) | 6 / 15 | 144 | 212 |
+| C9 | Digital mobility (ride-hailing, MaaS, digital | 227 | 126 | 19 (8%) | 6 / 13 | 130 | 187 |
 | C10 | Proptech, housing platforms & short-term rent | 226 | 144 | 35 (16%) | 8 / 27 | 145 | 142 |
 | C11 | Digital payments in urban economies (QR, UPI, | 218 | 111 | 13 (6%) | 3 / 10 | 109 | 101 |
 | C12 | Civic tech, e-participation & digital urban p | 239 | 87 | 28 (12%) | 13 / 15 | 96 | 90 |
 | C13 | Digital twins, simulation & visual rendering  | 228 | 153 | 18 (8%) | 7 / 11 | 158 | 154 |
 | C14 | Digital informality (informal settlements, ve | 191 | 118 | 31 (16%) | 9 / 22 | 117 | 108 |
-| C15 | Gig work in the city (urban and spatial focus | 222 | 109 | 11 (5%) | 7 / 4 | 108 | 85 |
+| C15 | Gig work in the city (urban and spatial focus | 222 | 109 | 11 (5%) | 7 / 4 | 108 | 86 |
 | C16 | Digital heritage, mapping & representation of | 213 | 120 | 51 (24%) | 16 / 35 | 128 | 126 |
 | C17 | Urban cybersecurity & cyber-physical infrastr | 228 | 110 | 40 (18%) | 13 / 27 | 122 | 117 |
 | C18 | Neighbourhood platforms & digital public spac | 217 | 56 | 32 (15%) | 6 / 26 | 61 | 60 |
 | S1 | Railway stations | 126 | 75 | 13 (10%) | 4 / 9 | 79 | 0 |
-| S2 | Waiting and waiting rooms | 129 | 32 | 8 (6%) | 3 / 5 | 31 | 0 |
+| S2 | Waiting and waiting rooms | 127 | 30 | 11 (9%) | 5 / 6 | 32 | 0 |
 | S3 | Night-time transit and transit operating hour | 105 | 47 | 7 (7%) | 2 / 5 | 48 | 0 |
-| S4 | Fare integration and transit cards (incl. NCM | 90 | 71 | 7 (8%) | 3 / 4 | 72 | 0 |
+| S4 | Fare integration and transit cards (incl. NCM | 127 | 67 | 25 (20%) | 7 / 18 | 71 | 0 |
 | S5 | Rail-led urbanism and transit-oriented develo | 119 | 89 | 10 (8%) | 6 / 4 | 94 | 0 |
 | S6 | Elevated rail and infrastructure undersides | 118 | 32 | 3 (2%) | 3 / 0 | 34 | 0 |
 | S7 | Haryana secondary cities (excluding Gurugram  | 109 | 45 | 2 (2%) | 1 / 1 | 51 | 0 |
 
-Total deduplicated records: 7517.
+Total deduplicated records: 7712.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
 <!-- AUTO:API -->
 | UTC day | Calls by this pipeline | Cost (USD) | ≈ searches | Credits left at last call |
 |---|---|---|---|---|
-| 2026-10-08 | 464 | 0.464 | 464 | 4960 |
+| 2026-10-08 | 700 | 0.692 | 692 | 2677 |
 <!-- /AUTO:API -->
 
 ## Stage 1 (pilot) — approved

@@ -1,0 +1,79 @@
+{
+ "theme": "A8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"metro rail\" OR \"Delhi Metro\" OR \"suburban rail\" OR \"local trains\" OR \"suburban trains\") AND (ethnography OR ethnographic OR everyday OR crowds OR affordability OR subsidies OR subsidy OR repair OR maintenance)) OR ((\"public transport\" OR \"bus fares\" OR \"transit fares\") AND (affordability OR subsidies OR subsidy)) OR ((\"cycle rickshaw\" OR \"cycle-rickshaw\" OR \"cycle rickshaws\" OR cycling) AND (informality OR livelihoods OR \"informal work\" OR \"wageless\") AND (city OR cities OR urban))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"metro rail\" OR \"Delhi Metro\" OR \"suburban rail\" OR \"local trains\" OR \"suburban trains\") AND (ethnography OR ethnographic OR everyday OR crowds OR affordability OR subsidies OR subsidy OR repair OR maintenance)) OR ((\"public transport\" OR \"bus fares\" OR \"transit fares\") AND (affordability OR subsidies OR subsidy)) OR ((\"cycle rickshaw\" OR \"cycle-rickshaw\" OR \"cycle rickshaws\" OR cycling) AND (informality OR livelihoods OR \"informal work\" OR \"wageless\") AND (city OR cities OR urban)),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (((\"Delhi Metro\" OR \"local trains\" OR \"metro rail\" OR \"suburban rail\" OR \"suburban trains\") AND (\"affordability\" OR \"crowds\" OR \"ethnographic\" OR \"ethnography\" OR \"everyday\" OR \"maintenance\" OR \"repair\" OR \"subsidies\" OR \"subsidy\")) OR ((\"bus fares\" OR \"public transport\" OR \"transit fares\") AND (\"affordability\" OR \"subsidies\" OR \"subsidy\")) OR ((\"cycle rickshaw\" OR \"cycle rickshaws\" OR \"cycle-rickshaw\" OR \"cycling\") AND (\"informal work\" OR \"informality\" OR \"livelihoods\" OR \"wageless\") AND (\"cities\" OR \"city\" OR \"urban\")))",
+ "page": 1,
+ "total_results": 865,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A8_recent_q6.json.gz",
+ "results": [
+  [
+   "W4298230468",
+   2022
+  ],
+  [
+   "W4311763853",
+   2022
+  ],
+  [
+   "W4404358116",
+   2024
+  ],
+  [
+   "W4288905739",
+   2022
+  ],
+  [
+   "W4406222678",
+   2025
+  ],
+  [
+   "W7212255526",
+   2026
+  ],
+  [
+   "W4310238075",
+   2022
+  ],
+  [
+   "W4281763971",
+   2022
+  ],
+  [
+   "W4413863190",
+   2025
+  ],
+  [
+   "W4393994789",
+   2024
+  ],
+  [
+   "W7104011784",
+   2025
+  ],
+  [
+   "W4400347203",
+   2024
+  ],
+  [
+   "W4416716075",
+   2025
+  ],
+  [
+   "W7171636939",
+   2026
+  ],
+  [
+   "W4308713039",
+   2022
+  ]
+ ]
+}

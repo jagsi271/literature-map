@@ -3,15 +3,15 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"peri-urban\" OR periurban OR \"peri-urbanisation\" OR \"peri-urbanization\") OR (\"extended urbanization\" OR \"extended urbanisation\" OR \"planetary urbanization\" OR \"planetary urbanisation\") OR (\"urban land\" AND (acquisition OR market OR conversion OR speculation)) OR (\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR \"land grab\" AND urban) OR (\"urban fringe\" OR \"rural-urban fringe\" OR desakota)",
+ "query": "(\"peri-urban\" OR periurban OR \"peri-urbanisation\" OR \"peri-urbanization\") OR (\"extended urbanization\" OR \"extended urbanisation\" OR \"planetary urbanization\" OR \"planetary urbanisation\") OR (\"urban land\" AND (acquisition OR market OR conversion OR speculation)) OR (\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR (\"land grab\" AND urban)) OR (\"urban fringe\" OR \"rural-urban fringe\" OR desakota) OR (\"urban village\" OR \"urban villages\" OR \"private city\" OR \"private cities\" OR \"millennium city\" OR ((\"new town\" OR \"new towns\" OR \"satellite town\" OR \"satellite city\") AND (land OR \"real estate\" OR developers OR planning)))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"peri-urban\" OR periurban OR \"peri-urbanisation\" OR \"peri-urbanization\") OR (\"extended urbanization\" OR \"extended urbanisation\" OR \"planetary urbanization\" OR \"planetary urbanisation\") OR (\"urban land\" AND (acquisition OR market OR conversion OR speculation)) OR (\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR \"land grab\" AND urban) OR (\"urban fringe\" OR \"rural-urban fringe\" OR desakota),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"peri-urban\" OR periurban OR \"peri-urbanisation\" OR \"peri-urbanization\") OR (\"extended urbanization\" OR \"extended urbanisation\" OR \"planetary urbanization\" OR \"planetary urbanisation\") OR (\"urban land\" AND (acquisition OR market OR conversion OR speculation)) OR (\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR (\"land grab\" AND urban)) OR (\"urban fringe\" OR \"rural-urban fringe\" OR desakota) OR (\"urban village\" OR \"urban villages\" OR \"private city\" OR \"private cities\" OR \"millennium city\" OR ((\"new town\" OR \"new towns\" OR \"satellite town\" OR \"satellite city\") AND (land OR \"real estate\" OR developers OR planning))),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
- "oql": "get works where retracted is (false)\n  and title-abstract has (\"extended urbanisation\" OR \"extended urbanization\" OR \"land acquisition\" OR \"land pooling\" OR \"planetary urbanisation\" OR \"planetary urbanization\" OR \"rural-urban fringe\" OR \"special economic zone\" OR \"urban fringe\" OR \"desakota\" OR \"peri-urban\" OR \"peri-urbanisation\" OR \"peri-urbanization\" OR \"periurban\" OR (\"land grab\" AND \"urban\") OR (\"urban land\" AND (\"acquisition\" OR \"conversion\" OR \"market\" OR \"speculation\")))",
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"extended urbanisation\" OR \"extended urbanization\" OR \"land acquisition\" OR \"land pooling\" OR \"millennium city\" OR \"planetary urbanisation\" OR \"planetary urbanization\" OR \"private cities\" OR \"private city\" OR \"rural-urban fringe\" OR \"special economic zone\" OR \"urban fringe\" OR \"urban village\" OR \"urban villages\" OR \"desakota\" OR \"peri-urban\" OR \"peri-urbanisation\" OR \"peri-urbanization\" OR \"periurban\" OR (\"land grab\" AND \"urban\") OR (\"urban land\" AND (\"acquisition\" OR \"conversion\" OR \"market\" OR \"speculation\")) OR ((\"new town\" OR \"new towns\" OR \"satellite city\" OR \"satellite town\") AND (\"real estate\" OR \"developers\" OR \"land\" OR \"planning\")))",
  "page": 1,
- "total_results": 42404,
+ "total_results": 65659,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A5_landmarks.json.gz",
  "results": [
@@ -52,6 +52,10 @@
    2005
   ],
   [
+   "W2075562517",
+   2001
+  ],
+  [
    "W2097833259",
    2008
   ],
@@ -60,12 +64,20 @@
    2012
   ],
   [
+   "W2123697484",
+   2004
+  ],
+  [
    "W1929181818",
    2014
   ],
   [
    "W2107383758",
    2000
+  ],
+  [
+   "W1537901284",
+   2005
   ],
   [
    "W214688785",
@@ -100,8 +112,16 @@
    2013
   ],
   [
+   "W2063880959",
+   1998
+  ],
+  [
    "W1508404391",
    1995
+  ],
+  [
+   "W1965753079",
+   2011
   ],
   [
    "W3082422933",
@@ -164,6 +184,10 @@
    2015
   ],
   [
+   "W2076412632",
+   2012
+  ],
+  [
    "W1980807334",
    1977
   ],
@@ -178,6 +202,10 @@
   [
    "W2137842132",
    2003
+  ],
+  [
+   "W2062850146",
+   1987
   ],
   [
    "W1531456640",
@@ -196,6 +224,10 @@
    2001
   ],
   [
+   "W2078560198",
+   1973
+  ],
+  [
    "W2769829450",
    2017
   ],
@@ -208,6 +240,14 @@
    2014
   ],
   [
+   "W2026589647",
+   1964
+  ],
+  [
+   "W2102356204",
+   2007
+  ],
+  [
    "W2130282650",
    2014
   ],
@@ -216,8 +256,16 @@
    1960
   ],
   [
+   "W2750843263",
+   2017
+  ],
+  [
    "W4220943807",
    2022
+  ],
+  [
+   "W2032306335",
+   2009
   ],
   [
    "W1846353168",
@@ -250,6 +298,10 @@
   [
    "W3124953313",
    1993
+  ],
+  [
+   "W2591249070",
+   1988
   ],
   [
    "W2133393555",
@@ -316,6 +368,10 @@
    2021
   ],
   [
+   "W2013687574",
+   2009
+  ],
+  [
    "W2102429823",
    2008
   ],
@@ -356,64 +412,8 @@
    1999
   ],
   [
-   "W2140083708",
-   2007
-  ],
-  [
-   "W1970443926",
-   2009
-  ],
-  [
-   "W2137383746",
-   2005
-  ],
-  [
-   "W2119474749",
-   2004
-  ],
-  [
-   "W2163084903",
-   1993
-  ],
-  [
-   "W2028791173",
-   2000
-  ],
-  [
-   "W2057988335",
-   2000
-  ],
-  [
-   "W3127156490",
-   2021
-  ],
-  [
-   "W2010732260",
-   2002
-  ],
-  [
-   "W2790855506",
-   2018
-  ],
-  [
-   "W2095466094",
-   2013
-  ],
-  [
-   "W2993562141",
-   2019
-  ],
-  [
-   "W2157787837",
-   2001
-  ],
-  [
-   "W2119791794",
-   2009
-  ],
-  [
-   "W2119316264",
-   2008
+   "W2593952285",
+   2017
   ]
  ]
 }

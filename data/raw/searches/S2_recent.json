@@ -3,25 +3,49 @@
  "slice": "recent",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"politics of waiting\" OR waithood OR ((\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\") AND (station OR railway OR \"public transport\" OR transit OR bus OR bureaucracy OR state OR citizens)))",
+ "query": "(\"politics of waiting\" OR waithood OR ((\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\") AND (station OR railway OR \"public transport\" OR transit OR bus OR bureaucracy OR state OR citizens))) OR (\"waiting for the state\" OR \"waiting for welfare\" OR \"paused citizens\" OR (waiting AND (bureaucracy OR bureaucrats OR citizenship OR welfare OR paperwork)))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"politics of waiting\" OR waithood OR ((\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\") AND (station OR railway OR \"public transport\" OR transit OR bus OR bureaucracy OR state OR citizens))),is_retracted:false,publication_year:2022-2026",
+ "filter": "title_and_abstract.search.exact:(\"politics of waiting\" OR waithood OR ((\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\") AND (station OR railway OR \"public transport\" OR transit OR bus OR bureaucracy OR state OR citizens))) OR (\"waiting for the state\" OR \"waiting for welfare\" OR \"paused citizens\" OR (waiting AND (bureaucracy OR bureaucrats OR citizenship OR welfare OR paperwork))),is_retracted:false,publication_year:2022-2026",
  "sort": "relevance_score:desc",
  "per_page": 40,
- "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"politics of waiting\" OR \"waithood\" OR ((\"public transport\" OR \"bureaucracy\" OR \"bus\" OR \"citizens\" OR \"railway\" OR \"state\" OR \"station\" OR \"transit\") AND (\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\")))",
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"paused citizens\" OR \"politics of waiting\" OR \"waiting for the state\" OR \"waiting for welfare\" OR \"waithood\" OR (\"waiting\" AND (\"bureaucracy\" OR \"bureaucrats\" OR \"citizenship\" OR \"paperwork\" OR \"welfare\")) OR ((\"public transport\" OR \"bureaucracy\" OR \"bus\" OR \"citizens\" OR \"railway\" OR \"state\" OR \"station\" OR \"transit\") AND (\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\")))",
  "page": 1,
- "total_results": 5296,
+ "total_results": 6409,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_S2_recent.json.gz",
  "results": [
+  [
+   "W4296837992",
+   2022
+  ],
+  [
+   "W4401334352",
+   2024
+  ],
   [
    "W4391843073",
    2024
   ],
   [
+   "W4281296865",
+   2022
+  ],
+  [
    "W4311167001",
    2022
+  ],
+  [
+   "W4402302897",
+   2024
+  ],
+  [
+   "W4410628395",
+   2024
+  ],
+  [
+   "W4406135806",
+   2024
   ],
   [
    "W4214589346",
@@ -70,6 +94,10 @@
   [
    "W4390699090",
    2024
+  ],
+  [
+   "W4308151492",
+   2022
   ],
   [
    "W4366779841",
@@ -146,34 +174,6 @@
   [
    "W4392103163",
    2024
-  ],
-  [
-   "W4412018690",
-   2025
-  ],
-  [
-   "W7161559490",
-   2026
-  ],
-  [
-   "W4407899052",
-   2025
-  ],
-  [
-   "W4406584568",
-   2025
-  ],
-  [
-   "W4416213010",
-   2025
-  ],
-  [
-   "W4411067513",
-   2025
-  ],
-  [
-   "W4386041855",
-   2023
   ]
  ]
 }

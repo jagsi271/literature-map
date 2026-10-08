@@ -79,8 +79,8 @@ themes:
     name: Urban governance, decentralisation & municipal finance
     queries:
       - '"urban governance"'
-      - '"municipal finance" OR "municipal fiscal" OR "local government finance" OR "municipal bonds" OR "property tax" AND municipal'
-      - '(decentralization OR decentralisation) AND (municipal OR "urban local bodies" OR "local government" OR city)'
+      - '"municipal finance" OR "municipal fiscal" OR "local government finance" OR "municipal bonds" OR ("property tax" AND municipal)'
+      - '(decentralization OR decentralisation) AND (municipal OR "urban local bodies" OR "local government" OR city OR urban)'
       - '"74th Amendment" OR "urban local bodies" OR "municipal corporation" OR "city government"'
     screen:
       # v3 (Stage 2)
@@ -91,7 +91,7 @@ themes:
     name: Planning, master plans & land-use regulation
     queries:
       - '"master plan" AND (city OR urban)'
-      - '"land use regulation" OR "land-use regulation" OR zoning AND (urban OR city OR housing)'
+      - '"land use regulation" OR "land-use regulation" OR (zoning AND (urban OR city OR housing))'
       # v3: v2 ('"urban planning" AND (policy OR regulation OR state OR politics)') let any
       # abstract that mentions urban planning in passing into the landmark slice
       - '"urban planning" AND (planners OR "planning system" OR "planning systems" OR "planning practice" OR "planning policy" OR "planning politics" OR "politics of planning" OR "planning regime")'
@@ -108,9 +108,11 @@ themes:
       - '"urban informality"'
       - '"affordable housing" OR "housing policy" OR "public housing" OR "social housing"'
       - '"self-help housing" OR "slum upgrading" OR "slum redevelopment" OR "sites and services"'
+      # v3 (recall test): seeds missed by every query (Delhi unauthorised colonies)
+      - '"unauthorised colony" OR "unauthorized colony" OR "unauthorised colonies" OR "unauthorized colonies" OR "resettlement colony" OR "resettlement colonies" OR (informality AND (housing OR land OR suburban OR colony OR colonies))'
     screen:
       # v3 (Stage 2)
-      require: ['slums?\b|informal settlements?|urban informality|squatt\w*|shanty ?towns?|favelas?|affordable housing|housing polic\w*|public housing|social housing|self-help housing|sites and services|bastis?\b|jhuggi\w*|chawls?|housing (informality|tenure|rights|markets?|crisis|affordability|provision|programmes?|programs?|schemes?)|tenure security|rental housing|low-income housing', 'urban|city|cities|municipal|metropol\w*|towns?\b|slums?|settlements?|housing']
+      require: ['unauthori[sz]ed colon\w*|resettlement colon\w*|informality|slums?\b|informal settlements?|urban informality|squatt\w*|shanty ?towns?|favelas?|affordable housing|housing polic\w*|public housing|social housing|self-help housing|sites and services|bastis?\b|jhuggi\w*|chawls?|housing (informality|tenure|rights|markets?|crisis|affordability|provision|programmes?|programs?|schemes?)|tenure security|rental housing|low-income housing', 'urban|city|cities|municipal|metropol\w*|towns?\b|slums?|settlements?|housing']
       flag: []
   A4:
     domain: A
@@ -132,11 +134,13 @@ themes:
       - '"peri-urban" OR periurban OR "peri-urbanisation" OR "peri-urbanization"'
       - '"extended urbanization" OR "extended urbanisation" OR "planetary urbanization" OR "planetary urbanisation"'
       - '"urban land" AND (acquisition OR market OR conversion OR speculation)'
-      - '"land acquisition" OR "land pooling" OR "special economic zone" OR "land grab" AND urban'
+      - '"land acquisition" OR "land pooling" OR "special economic zone" OR ("land grab" AND urban)'
       - '"urban fringe" OR "rural-urban fringe" OR desakota'
+      # v3 (recall test): seeds missed by every query (Gurgaon urban villages / private cities)
+      - '"urban village" OR "urban villages" OR "private city" OR "private cities" OR "millennium city" OR (("new town" OR "new towns" OR "satellite town" OR "satellite city") AND (land OR "real estate" OR developers OR planning))'
     screen:
       # v3 (Stage 2)
-      require: ['peri-?urban\w*|extended urbani[sz]ation|planetary urbani[sz]ation|urban fringes?|rural[- ]urban fringe|desakota|urban land|land acquisition|land pooling|special economic zones?|land grab\w*|urban expansion|urban (frontiers?|edges?)|land speculation|land markets?|land conversion|urbani[sz]ing villages?', 'urban|city|cities|municipal|metropol\w*|towns?\b']
+      require: ['urban villages?|private cit\w*|millennium city|new towns?|satellite (towns?|cit\w*)|peri-?urban\w*|extended urbani[sz]ation|planetary urbani[sz]ation|urban fringes?|rural[- ]urban fringe|desakota|urban land|land acquisition|land pooling|special economic zones?|land grab\w*|urban expansion|urban (frontiers?|edges?)|land speculation|land markets?|land conversion|urbani[sz]ing villages?', 'urban|city|cities|municipal|metropol\w*|towns?\b']
       flag: ['\b(soil|crop yields?|remote sensing|land surface temperature|ndvi|landsat|cellular automata)\b']
   A6:
     domain: A
@@ -146,9 +150,11 @@ themes:
       - '"census towns" OR "census town"'
       - '"secondary cities" OR "secondary city" OR "intermediate cities" OR "medium-sized cities" OR "second-tier cities"'
       - '"subaltern urbanization" OR "subaltern urbanisation" OR "small and medium towns"'
+      # v3 (recall test): seeds missed by every query (undercounting urbanisation)
+      - '"definition of urban" OR "urban definition" OR "urban definitions" OR "hidden urbanization" OR "hidden urbanisation" OR "statutory towns" OR (undercounting AND (urban OR urbanization OR urbanisation))'
     screen:
       # v3 (Stage 2)
-      require: ['small towns?|census towns?|secondary cit\w*|intermediate cit\w*|medium-sized (cit\w*|towns?)|second-tier cit\w*|tier-?(2|ii|3|iii) cit\w*|subaltern urbani[sz]ation|small and medium(-sized)? (towns?|cit\w*)|small cit(y|ies)|small urban (centres?|centers?)']
+      require: ['definitions? of urban|urban definitions?|hidden urbani[sz]ation|statutory towns?|undercount\w*|small towns?|census towns?|secondary cit\w*|intermediate cit\w*|medium-sized (cit\w*|towns?)|second-tier cit\w*|tier-?(2|ii|3|iii) cit\w*|subaltern urbani[sz]ation|small and medium(-sized)? (towns?|cit\w*)|small cit(y|ies)|small urban (centres?|centers?)']
       flag: []
   A7:
     domain: A
@@ -172,9 +178,12 @@ themes:
       - '"public transport" AND (gender OR women OR informal OR everyday OR politics)'
       - 'paratransit OR "informal transport" OR "auto-rickshaw" OR "minibus taxi" OR matatu'
       - '"mobilities" AND (urban OR city) AND (social OR everyday)'
+      # v3 (recall test): seeds missed by every query (metro/suburban rail ethnographies, fares, cycling as work);
+      # v3b: 'cycling AND work' first matched battery 'cycling' papers, so cycling now needs an urban co-term
+      - '(("metro rail" OR "Delhi Metro" OR "suburban rail" OR "local trains" OR "suburban trains") AND (ethnography OR ethnographic OR everyday OR crowds OR affordability OR subsidies OR subsidy OR repair OR maintenance)) OR (("public transport" OR "bus fares" OR "transit fares") AND (affordability OR subsidies OR subsidy)) OR (("cycle rickshaw" OR "cycle-rickshaw" OR "cycle rickshaws" OR cycling) AND (informality OR livelihoods OR "informal work" OR "wageless") AND (city OR cities OR urban))'
     screen:
       # v3 (Stage 2)
-      require: ['urban mobilit\w*|mobility justice|transport(ation)? (equity|justice|disadvantage|poverty|polic\w*|planning|inequalit\w*|exclusion)|public (transport|transit)|mass transit|paratransit|informal transport|auto-?rickshaws?|rickshaws?|minibus\w*|matatus?|commut\w*|buses\b|bus (services?|rapid transit|routes?)|\bbrt\b|metro (rail|systems?|lines?)|walking|cycling|daily mobilit\w*|everyday mobilit\w*|mobilities|accessibility to (jobs|opportunities)', 'urban|city|cities|municipal|metropol\w*|towns?\b|street']
+      require: ['delhi metro|metro\b|suburban (rail|trains?)|local trains?|railways?|cycling|cycle[- ]rickshaws?|fares?|subsid\w*|urban mobilit\w*|mobility justice|transport(ation)? (equity|justice|disadvantage|poverty|polic\w*|planning|inequalit\w*|exclusion)|public (transport|transit)|mass transit|paratransit|informal transport|auto-?rickshaws?|rickshaws?|minibus\w*|matatus?|commut\w*|buses\b|bus (services?|rapid transit|routes?)|\bbrt\b|metro (rail|systems?|lines?)|walking|cycling|daily mobilit\w*|everyday mobilit\w*|mobilities|accessibility to (jobs|opportunities)', 'urban|city|cities|municipal|metropol\w*|towns?\b|street']
       flag: ['\b(traffic flow|vehicle routing|optimi[sz]ation model|signal control|demand forecasting|traffic simulation|emission model\w*|crash|injur\w*)\b']
   A9:
     domain: A
@@ -197,7 +206,7 @@ themes:
       - '"street vending" OR "street vendors" OR "street hawkers" OR hawkers OR "street trading"'
       - '"informal economy" AND (urban OR city OR cities)'
       - '"informal sector" AND urban AND (workers OR livelihoods OR employment)'
-      - '"waste pickers" OR "home-based workers" OR "informal workers" AND city'
+      - '"waste pickers" OR "home-based workers" OR ("informal workers" AND city)'
       - '"urban informal economy" OR "urban livelihoods"'
     screen:
       # v3 (Stage 2)
@@ -207,8 +216,8 @@ themes:
     domain: A
     name: Migration & the city
     queries:
-      - '"rural-urban migration" OR "rural–urban migration" OR "internal migration" AND (city OR urban)'
-      - '"urban migrants" OR "migrant workers" AND (city OR urban)'
+      - '"rural-urban migration" OR "rural–urban migration" OR ("internal migration" AND (city OR urban))'
+      - '"urban migrants" OR ("migrant workers" AND (city OR urban))'
       - '("circular migration" OR "seasonal migration") AND (urban OR city)'
       - '"urban refugees" OR "arrival city" OR "arrival cities" OR "migrant city"'
     screen:
@@ -219,11 +228,11 @@ themes:
     domain: A
     name: Gender, caste, class & the city
     queries:
-      - '"feminist urbanism" OR "gendered city" OR "women and the city" OR "feminist geography" AND city'
+      - '"feminist urbanism" OR "gendered city" OR "women and the city" OR ("feminist geography" AND city)'
       - '("women''s safety" OR "sexual harassment") AND (urban OR city OR "public transport" OR street)'
       - 'caste AND (urban OR city OR cities)'
       - '("residential segregation" OR "spatial segregation") AND (class OR caste OR religion OR Muslim)'
-      - '"urban middle class" OR "new middle class" AND city'
+      - '"urban middle class" OR ("new middle class" AND city)'
     screen:
       # v3 (Stage 2)
       require: ['gender\w*|women|feminis\w*|caste\w*|dalits?|(middle|working)[- ]class\w*|class (relations|formation|identit\w*|divides?|inequalit\w*)|segregat\w*|muslims?|sexual harassment|women.s safety', 'urban|city|cities|municipal|metropol\w*|towns?\b|streets?|neighbou?rhoods?|public spaces?']
@@ -232,13 +241,15 @@ themes:
     domain: A
     name: Heritage, mega-events & "world-class" city making
     queries:
-      - '"mega-events" OR "mega-event" OR "Commonwealth Games" OR "Olympic Games" AND (city OR urban)'
+      - '"mega-events" OR "mega-event" OR "Commonwealth Games" OR ("Olympic Games" AND (city OR urban))'
       - '"world-class city" OR "world class city" OR "worlding cities" OR "global city making"'
-      - '"urban heritage" OR heritagization OR heritagisation OR "heritage conservation" AND city'
-      - '"urban beautification" OR "city branding" OR "urban spectacle" OR "urban renewal" AND spectacle'
+      - '"urban heritage" OR heritagization OR heritagisation OR ("heritage conservation" AND city)'
+      - '"urban beautification" OR "city branding" OR "urban spectacle" OR ("urban renewal" AND spectacle)'
+      # v3 (recall test): seeds missed by every query (old-city heritage)
+      - '("old city" OR "historic city" OR "walled city" OR "historic core" OR "Old Delhi" OR Shahjahanabad) AND (heritage OR nostalgia OR tourism OR conservation OR redevelopment OR consumption)'
     screen:
       # v3 (Stage 2)
-      require: ['mega-?events?|olympic\w*|commonwealth games|world cups?|world[- ]class cit\w*|worlding|urban heritage|heritage (conservation|cit\w*|zones?|management|tourism|sites?|precincts?|walks?)|heritagi[sz]ation|beautif\w*|city branding|place branding|urban spectacle|urban renewal|global city', 'urban|city|cities|municipal|metropol\w*|towns?\b']
+      require: ['old city|historic (city|core)|walled city|old delhi|shahjahanabad|nostalgi\w*|mega-?events?|olympic\w*|commonwealth games|world cups?|world[- ]class cit\w*|worlding|urban heritage|heritage (conservation|cit\w*|zones?|management|tourism|sites?|precincts?|walks?)|heritagi[sz]ation|beautif\w*|city branding|place branding|urban spectacle|urban renewal|global city', 'urban|city|cities|municipal|metropol\w*|towns?\b']
       flag: ['\b(laser scanning|photogrammetry|hbim|point clouds?|seismic retrofit\w*|mortar|masonry)\b']
   A14:
     domain: A
@@ -320,7 +331,7 @@ themes:
     name: Algorithmic governance & AI in the public sector
     queries:
       - '"algorithmic governance" OR "algorithmic governmentality" OR "algorithmic regulation"'
-      - '"automated decision-making" OR "automated decision making" AND (government OR public OR welfare)'
+      - '"automated decision-making" OR ("automated decision making" AND (government OR public OR welfare))'
       - '"artificial intelligence" AND ("public sector" OR "public administration" OR "public services")'
       - '"digital welfare state" OR "algorithmic accountability"'
     screen:
@@ -338,6 +349,8 @@ themes:
       - 'Aadhaar OR "India Stack" OR "digital public infrastructure" OR "digital public goods" OR "Unique Identification Authority" OR "identification for development" OR ID4D'
       - '("digital identity" OR "digital ID" OR "digital identification" OR "national ID" OR "national identity card" OR "national identity cards" OR "foundational ID" OR "identity cards" OR "ID cards" OR "identity documents") AND (citizenship OR welfare OR "social protection" OR surveillance OR "public services" OR "financial inclusion" OR government)'
       - '("biometric identification" OR "biometric registration" OR "biometric ID" OR "biometric authentication" OR biometrics) AND (citizenship OR "social protection" OR "public distribution system" OR welfare OR "cash transfers" OR "state capacity" OR "voter registration" OR NREGA OR MGNREGA OR pensions)'
+      # v3 (recall test): seeds missed by every query (biometric enrolment ethnography)
+      - '(biometric OR biometrics OR "electronic fingerprinting" OR fingerprinting) AND (India OR Aadhaar OR enrolment OR enrollment) AND (state OR welfare OR ethnography OR citizens)'
     screen:
       require: ['aadhaar|\buid\b|unique identi\w+|digital id\w*|digital identit\w*|national id\w*|identity cards?|\bid cards?|identity documents?|identification (systems?|cards?|numbers?|documents?|programmes?|programs?|projects?)|biometric\w*|digital public (infrastructure|goods)|india stack|id4d|identification for development|self-sovereign identit\w*', 'state|citizen\w*|welfare|government|public|polic\w*|social protection|surveillance|governance|inclusion|exclusion|rights?|india|migra\w*|border']
       flag: ['\b(fingerprint recognition|iris recognition|finger-?vein|palmprint|gait recognition|liveness detection|presentation attack|zero-knowledge|blockchain-based|forensic odontology|denture)\b']
@@ -373,9 +386,11 @@ themes:
       - '"digital publics" OR "networked publics" OR "digital public sphere" OR "networked public sphere"'
       - '"political participation" AND (online OR "social media")'
       - '"hashtag activism" OR "connective action" OR "digital activism"'
+      # v3 (recall test): seeds missed by every query (digital politics, Hindutva, WhatsApp)
+      - '("social media" OR WhatsApp OR Facebook OR Twitter) AND (Hindutva OR nationalism OR "digital politics" OR dissent OR "lived democracy")'
     screen:
       # v3 (Stage 2)
-      require: ['social media|twitter|facebook|whatsapp|youtube|instagram|tiktok|weibo|digital public\w*|networked public\w*|public spheres?|hashtag\w*|connective action|digital activism|online (participation|activism|political\w*|campaign\w*)', 'politic\w*|elections?|electoral|campaign\w*|populis\w*|activis\w*|protests?|public spheres?|democra\w*|participation|citizens?|publics']
+      require: ['social media|twitter|facebook|whatsapp|youtube|instagram|tiktok|weibo|digital public\w*|networked public\w*|public spheres?|hashtag\w*|connective action|digital activism|online (participation|activism|political\w*|campaign\w*)', 'hindutva|nationalis\w*|dissent|politic\w*|elections?|electoral|campaign\w*|populis\w*|activis\w*|protests?|public spheres?|democra\w*|participation|citizens?|publics']
       flag: []
   B9:
     domain: B
@@ -417,7 +432,7 @@ themes:
     domain: B
     name: Infrastructure studies & STS of digital systems
     queries:
-      - '"infrastructure studies" OR infrastructuring OR "information infrastructure" AND sociotechnical'
+      - '"infrastructure studies" OR infrastructuring OR ("information infrastructure" AND sociotechnical)'
       - '"digital infrastructure" AND (politics OR power OR sociotechnical OR "science and technology studies")'
       - '"sociotechnical imaginaries" OR "socio-technical imaginaries"'
       - '"science and technology studies" AND digital AND infrastructure'
@@ -432,6 +447,8 @@ themes:
       - '("mobile phone" OR "mobile phones" OR "cell phone" OR smartphone) AND ("everyday life" OR everyday OR gender) NOT (addiction OR "problematic smartphone use")'
       - 'ICT4D OR ICTD OR ("mobile communication" AND development)'
       - '"mobile internet" AND (users OR everyday OR rural OR women)'
+      # v3 (recall test): seeds missed by every query (mobile use in India)
+      - '("mobile phone" OR "mobile phones" OR smartphone OR smartphones OR "mobile media") AND (use OR usage OR adoption OR reticence) AND (India OR rural OR "older adults" OR elderly)'
     screen:
       # v3 (Stage 2)
       require: ['mobile phones?|cell ?phones?|smartphones?|ict4d|\bictd\b|mobile (communication|internet|technolog\w*|telephony)|feature phones?|mobile media']
@@ -467,8 +484,10 @@ themes:
       - '"platform urbanism" OR "platform urbanisation" OR "platform urbanization" OR "platform cities"'
       - '(platformization OR platformisation) AND (city OR cities OR urban)'
       - '"digital platforms" AND (city OR cities OR urban) AND (governance OR space OR labour OR labor OR housing OR regulation)'
+      # v3 (recall test): seeds missed by every query (urban freight of e-commerce / on-demand food)
+      - '("e-commerce" OR "quick commerce" OR "on-demand economy" OR "dark stores" OR "online food delivery") AND (city OR cities OR urban) AND (freight OR logistics OR "spatial planning" OR planning OR establishments)'
     screen:
-      require: ['platform urbanism|platform urbani[sz]ation|platform cit(y|ies)|platformi[sz]\w*|digital platforms?|(urban|city|cities|municipal) platforms?|city[- ]as[- ]a[- ]platform|airbnb|\buber\b|ride-?hail\w*|short-term rentals?|on-demand|food[- ]deliver\w*|gig (economy|work)', 'urban|city|cities|municipal|neighbou?rhood|street|metropol']
+      require: ['e-?commerce|quick commerce|on-demand economy|dark stores?|online food delivery|platform urbanism|platform urbani[sz]ation|platform cit(y|ies)|platformi[sz]\w*|digital platforms?|(urban|city|cities|municipal) platforms?|city[- ]as[- ]a[- ]platform|airbnb|\buber\b|ride-?hail\w*|short-term rentals?|on-demand|food[- ]deliver\w*|gig (economy|work)', 'urban|city|cities|municipal|neighbou?rhood|street|metropol']
       flag: ['\b(urban data platform|iot platform|platform architecture|middleware|interoperab)\w*']
   C3:
     domain: C
@@ -487,7 +506,7 @@ themes:
     name: Urban informatics & urban computing
     queries:
       - '"urban informatics" OR "urban computing"'
-      - '"urban analytics" OR "urban science" AND data'
+      - '"urban analytics" OR ("urban science" AND data)'
       - '"urban big data" OR ("big data" AND (city OR urban) AND (planning OR mobility OR governance))'
       - '"city dashboards" OR "urban dashboards" OR "city dashboard"'
     screen:
@@ -550,8 +569,8 @@ themes:
     domain: C
     name: Digital mobility (ride-hailing, MaaS, digital ticketing, transit apps)
     queries:
-      - '"ride-hailing" OR "ride hailing" OR ridesourcing OR "ride-sourcing" OR ridesharing AND urban'
-      - '"mobility as a service" OR "mobility-as-a-service" OR MaaS AND transport'
+      - '"ride-hailing" OR "ride hailing" OR ridesourcing OR "ride-sourcing" OR (ridesharing AND urban)'
+      - '"mobility as a service" OR "mobility-as-a-service" OR (MaaS AND transport)'
       - '("transit app" OR "journey planner" OR "real-time information" OR "smart card") AND (transit OR "public transport")'
       - '("digital ticketing" OR "mobile ticketing" OR "fare integration" OR "contactless payment") AND transit'
       - '(micromobility OR "e-scooter" OR "bike-sharing" OR dockless) AND (urban OR city) AND (equity OR governance OR regulation)'
@@ -687,9 +706,11 @@ supplementary:
     home_theme: A16
     queries:
       - '"politics of waiting" OR waithood OR (("waiting room" OR "waiting rooms" OR "waiting time" OR "waiting times") AND (station OR railway OR "public transport" OR transit OR bus OR bureaucracy OR state OR citizens))'
+      # v2 (recall test): waiting for the state / welfare
+      - '"waiting for the state" OR "waiting for welfare" OR "paused citizens" OR (waiting AND (bureaucracy OR bureaucrats OR citizenship OR welfare OR paperwork))'
     screen:
       # v2 (Stage 2 review): v1 let physics, engineering and clinical works through
-      require: ['politics of waiting|waithood|waiting rooms?|(passenger|commuter)s?.{0,20}waiting|waiting (time|times)? ?(at|for|in) (the )?(bus|buses|transit|stations?|stops?|terminals?|metro|trains?)|time spent waiting|(bus|transit|metro|railway|train) (stations?|stops?|terminals?)', 'station|railway|transport|transit|bus\w*|bureaucra\w*|state\b|citizens?|queue\w*|youth|everyday']
+      require: ['waiting for (the )?(state|welfare)|paused citizens|waiting.{0,40}(bureaucra\w*|welfare|citizenship|paperwork)|politics of waiting|waithood|waiting rooms?|(passenger|commuter)s?.{0,20}waiting|waiting (time|times)? ?(at|for|in) (the )?(bus|buses|transit|stations?|stops?|terminals?|metro|trains?)|time spent waiting|(bus|transit|metro|railway|train) (stations?|stops?|terminals?)', 'station|railway|transport|transit|bus\w*|bureaucra\w*|state\b|citizens?|queue\w*|youth|everyday']
       flag: ['\b(emergency department|hospital|clinic\w*|patients?|surgery|surgical|outpatients?|queueing model|queuing model|markov|polymer|particles?|random walk|scattering|molecular|scheduling|timetabl\w*|optimi[sz]\w*|battery|charging station|algorithm\w*|simulation model|headway|estimation method)\b']
 
   S3:
@@ -704,7 +725,7 @@ supplementary:
     name: Fare integration and transit cards (incl. NCMC)
     home_theme: C9
     queries:
-      - '"fare integration" OR "integrated ticketing" OR "integrated fare" OR "fare policy" AND transit OR "transit card" OR "transit cards" OR "National Common Mobility Card" OR NCMC OR (("smart card" OR "smart cards" OR "contactless") AND ("public transport" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment))'
+      - '"fare integration" OR "integrated ticketing" OR "integrated fare" OR ("fare policy" AND transit) OR "transit card" OR "transit cards" OR "National Common Mobility Card" OR NCMC OR (("smart card" OR "smart cards" OR "contactless") AND ("public transport" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment))'
     screen:
       require: ['fare\w*|ticket\w*|transit cards?|smart ?cards?|ncmc|common mobility card|contactless', 'transport|transit|metro|bus\w*|rail\w*|passengers?|commut\w*']
       flag: ['\b(smart card data|travel pattern mining|origin-destination estimation|clustering algorithm|trip chaining)\b']

@@ -3,18 +3,22 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"urban informatics\" OR \"urban computing\") OR (\"urban analytics\" OR \"urban science\" AND data) OR (\"urban big data\" OR (\"big data\" AND (city OR urban) AND (planning OR mobility OR governance))) OR (\"city dashboards\" OR \"urban dashboards\" OR \"city dashboard\")",
+ "query": "(\"urban informatics\" OR \"urban computing\") OR (\"urban analytics\" OR (\"urban science\" AND data)) OR (\"urban big data\" OR (\"big data\" AND (city OR urban) AND (planning OR mobility OR governance))) OR (\"city dashboards\" OR \"urban dashboards\" OR \"city dashboard\")",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"urban informatics\" OR \"urban computing\") OR (\"urban analytics\" OR \"urban science\" AND data) OR (\"urban big data\" OR (\"big data\" AND (city OR urban) AND (planning OR mobility OR governance))) OR (\"city dashboards\" OR \"urban dashboards\" OR \"city dashboard\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"urban informatics\" OR \"urban computing\") OR (\"urban analytics\" OR (\"urban science\" AND data)) OR (\"urban big data\" OR (\"big data\" AND (city OR urban) AND (planning OR mobility OR governance))) OR (\"city dashboards\" OR \"urban dashboards\" OR \"city dashboard\"),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
  "oql": "get works where retracted is (false)\n  and title-abstract has (\"city dashboard\" OR \"city dashboards\" OR \"urban analytics\" OR \"urban big data\" OR \"urban computing\" OR \"urban dashboards\" OR \"urban informatics\" OR (\"big data\" AND (\"city\" OR \"urban\") AND (\"governance\" OR \"mobility\" OR \"planning\")) OR (\"urban science\" AND \"data\"))",
  "page": 1,
- "total_results": 7314,
+ "total_results": 7908,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_C4_landmarks.json.gz",
  "results": [
+  [
+   "W2031753087",
+   1968
+  ],
   [
    "W3125866593",
    2013
@@ -58,6 +62,14 @@
   [
    "W646871639",
    2000
+  ],
+  [
+   "W3195494505",
+   2021
+  ],
+  [
+   "W4255790530",
+   2005
   ],
   [
    "W2293066912",
@@ -264,6 +276,10 @@
    2010
   ],
   [
+   "W3047921508",
+   2020
+  ],
+  [
    "W4283590008",
    2022
   ],
@@ -320,6 +336,10 @@
    2002
   ],
   [
+   "W3161486144",
+   2021
+  ],
+  [
    "W3112597358",
    2020
   ],
@@ -334,6 +354,10 @@
   [
    "W4285038156",
    2022
+  ],
+  [
+   "W2983285440",
+   2019
   ],
   [
    "W2122391400",
@@ -389,30 +413,6 @@
   ],
   [
    "W2919383237",
-   2019
-  ],
-  [
-   "W211709846",
-   1985
-  ],
-  [
-   "W2889151250",
-   2018
-  ],
-  [
-   "W2993701489",
-   2019
-  ],
-  [
-   "W2109360361",
-   2010
-  ],
-  [
-   "W3012297079",
-   2020
-  ],
-  [
-   "W2909686411",
    2019
   ]
  ]

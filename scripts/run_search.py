@@ -110,7 +110,7 @@ def run_one(f, theme, slice_name, name, query, p, stage="stage2", extra=None):
         "search_in": FIELD,
         "filter": filt,
         "sort": p["sort"],
-        "per_page": p["per_page"],
+        "per_page": meta.get("per_page", p["per_page"]),
         "oql": (meta.get("x_query") or {}).get("oql"),
         "page": p.get("page", 1),
         "total_results": meta["count"],

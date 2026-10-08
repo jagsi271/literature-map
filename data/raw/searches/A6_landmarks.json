@@ -3,18 +3,22 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "((\"small towns\" OR \"small town\") AND (urban OR urbanisation OR urbanization)) OR (\"census towns\" OR \"census town\") OR (\"secondary cities\" OR \"secondary city\" OR \"intermediate cities\" OR \"medium-sized cities\" OR \"second-tier cities\") OR (\"subaltern urbanization\" OR \"subaltern urbanisation\" OR \"small and medium towns\")",
+ "query": "((\"small towns\" OR \"small town\") AND (urban OR urbanisation OR urbanization)) OR (\"census towns\" OR \"census town\") OR (\"secondary cities\" OR \"secondary city\" OR \"intermediate cities\" OR \"medium-sized cities\" OR \"second-tier cities\") OR (\"subaltern urbanization\" OR \"subaltern urbanisation\" OR \"small and medium towns\") OR (\"definition of urban\" OR \"urban definition\" OR \"urban definitions\" OR \"hidden urbanization\" OR \"hidden urbanisation\" OR \"statutory towns\" OR (undercounting AND (urban OR urbanization OR urbanisation)))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:((\"small towns\" OR \"small town\") AND (urban OR urbanisation OR urbanization)) OR (\"census towns\" OR \"census town\") OR (\"secondary cities\" OR \"secondary city\" OR \"intermediate cities\" OR \"medium-sized cities\" OR \"second-tier cities\") OR (\"subaltern urbanization\" OR \"subaltern urbanisation\" OR \"small and medium towns\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:((\"small towns\" OR \"small town\") AND (urban OR urbanisation OR urbanization)) OR (\"census towns\" OR \"census town\") OR (\"secondary cities\" OR \"secondary city\" OR \"intermediate cities\" OR \"medium-sized cities\" OR \"second-tier cities\") OR (\"subaltern urbanization\" OR \"subaltern urbanisation\" OR \"small and medium towns\") OR (\"definition of urban\" OR \"urban definition\" OR \"urban definitions\" OR \"hidden urbanization\" OR \"hidden urbanisation\" OR \"statutory towns\" OR (undercounting AND (urban OR urbanization OR urbanisation))),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
- "oql": "get works where retracted is (false)\n  and title-abstract has (\"census town\" OR \"census towns\" OR \"intermediate cities\" OR \"medium-sized cities\" OR \"second-tier cities\" OR \"secondary cities\" OR \"secondary city\" OR \"small and medium towns\" OR \"subaltern urbanisation\" OR \"subaltern urbanization\" OR ((\"small town\" OR \"small towns\") AND (\"urban\" OR \"urbanisation\" OR \"urbanization\")))",
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"census town\" OR \"census towns\" OR \"definition of urban\" OR \"hidden urbanisation\" OR \"hidden urbanization\" OR \"intermediate cities\" OR \"medium-sized cities\" OR \"second-tier cities\" OR \"secondary cities\" OR \"secondary city\" OR \"small and medium towns\" OR \"statutory towns\" OR \"subaltern urbanisation\" OR \"subaltern urbanization\" OR \"urban definition\" OR \"urban definitions\" OR (\"undercounting\" AND (\"urban\" OR \"urbanisation\" OR \"urbanization\")) OR ((\"small town\" OR \"small towns\") AND (\"urban\" OR \"urbanisation\" OR \"urbanization\")))",
  "page": 1,
- "total_results": 17644,
+ "total_results": 18845,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A6_landmarks.json.gz",
  "results": [
+  [
+   "W2220987254",
+   2015
+  ],
   [
    "W4213060883",
    1956
@@ -28,8 +32,16 @@
    2009
   ],
   [
+   "W2265414043",
+   2001
+  ],
+  [
    "W2159401107",
    2003
+  ],
+  [
+   "W2591877092",
+   2017
   ],
   [
    "W2151934006",
@@ -88,6 +100,22 @@
    2013
   ],
   [
+   "W2048286556",
+   2015
+  ],
+  [
+   "W1975935356",
+   2003
+  ],
+  [
+   "W2029615838",
+   2011
+  ],
+  [
+   "W2404818588",
+   2016
+  ],
+  [
    "W2270275974",
    1993
   ],
@@ -144,6 +172,10 @@
    2019
   ],
   [
+   "W2121633880",
+   2009
+  ],
+  [
    "W4283067863",
    2022
   ],
@@ -168,8 +200,24 @@
    2006
   ],
   [
+   "W2061486608",
+   2010
+  ],
+  [
+   "W1479811019",
+   2008
+  ],
+  [
+   "W1965301779",
+   2008
+  ],
+  [
    "W1985451578",
    1995
+  ],
+  [
+   "W4256227479",
+   2000
   ],
   [
    "W2900902279",
@@ -194,6 +242,10 @@
   [
    "W2063042708",
    2008
+  ],
+  [
+   "W2005661989",
+   2009
   ],
   [
    "W2128455813",
@@ -224,8 +276,20 @@
    2019
   ],
   [
+   "W3100591401",
+   2016
+  ],
+  [
    "W2134891722",
    2012
+  ],
+  [
+   "W1987344671",
+   2013
+  ],
+  [
+   "W2062315032",
+   2008
   ],
   [
    "W2015345986",
@@ -238,6 +302,10 @@
   [
    "W3036171071",
    2020
+  ],
+  [
+   "W1974409017",
+   2012
   ],
   [
    "W17388224",
@@ -276,6 +344,10 @@
    2016
   ],
   [
+   "W1584403576",
+   2010
+  ],
+  [
    "W1972380895",
    2004
   ],
@@ -308,8 +380,24 @@
    1994
   ],
   [
+   "W3004412980",
+   2020
+  ],
+  [
+   "W2971250894",
+   2019
+  ],
+  [
    "W2011347336",
    2009
+  ],
+  [
+   "W2103822538",
+   2002
+  ],
+  [
+   "W3210663548",
+   2021
   ],
   [
    "W2345769774",
@@ -320,100 +408,12 @@
    2018
   ],
   [
+   "W2147524434",
+   2010
+  ],
+  [
    "W2095080011",
    2015
-  ],
-  [
-   "W2006996984",
-   2009
-  ],
-  [
-   "W1977691762",
-   2011
-  ],
-  [
-   "W2107771666",
-   2014
-  ],
-  [
-   "W3089261054",
-   2020
-  ],
-  [
-   "W2135061090",
-   1994
-  ],
-  [
-   "W1580670247",
-   2011
-  ],
-  [
-   "W2908293457",
-   2018
-  ],
-  [
-   "W1748099399",
-   2006
-  ],
-  [
-   "W2917191364",
-   2019
-  ],
-  [
-   "W2107138976",
-   2007
-  ],
-  [
-   "W4389766687",
-   2023
-  ],
-  [
-   "W3190726203",
-   2021
-  ],
-  [
-   "W2920453046",
-   2019
-  ],
-  [
-   "W4235226770",
-   2016
-  ],
-  [
-   "W2080571163",
-   2014
-  ],
-  [
-   "W2096430759",
-   2006
-  ],
-  [
-   "W2096181237",
-   1998
-  ],
-  [
-   "W2611472057",
-   2017
-  ],
-  [
-   "W625441801",
-   1999
-  ],
-  [
-   "W2167528001",
-   1991
-  ],
-  [
-   "W2096061551",
-   2009
-  ],
-  [
-   "W2129339200",
-   2002
-  ],
-  [
-   "W2801526240",
-   2018
   ]
  ]
 }

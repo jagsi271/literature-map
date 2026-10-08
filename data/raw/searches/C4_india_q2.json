@@ -3,25 +3,53 @@
  "slice": "india",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"urban analytics\" OR \"urban science\" AND data) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "query": "(\"urban analytics\" OR (\"urban science\" AND data)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"urban analytics\" OR \"urban science\" AND data) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"urban analytics\" OR (\"urban science\" AND data)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
  "sort": "relevance_score:desc",
  "per_page": 18,
  "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"urban analytics\" OR (\"urban science\" AND \"data\")))",
  "page": 1,
- "total_results": 17,
+ "total_results": 37,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_C4_india_q2.json.gz",
  "results": [
+  [
+   "W4384028198",
+   2023
+  ],
+  [
+   "W7162461777",
+   2026
+  ],
   [
    "W7154913155",
    2026
   ],
   [
+   "W7128436413",
+   2026
+  ],
+  [
+   "W4415913613",
+   2025
+  ],
+  [
    "W2150131411",
    2009
+  ],
+  [
+   "W7161148129",
+   2026
+  ],
+  [
+   "W4295727643",
+   2022
+  ],
+  [
+   "W7204995297",
+   2026
   ],
   [
    "W178726462",
@@ -36,51 +64,27 @@
    2023
   ],
   [
+   "W7211985912",
+   2026
+  ],
+  [
+   "W7211998386",
+   2026
+  ],
+  [
+   "W4413457729",
+   2025
+  ],
+  [
+   "W4412475303",
+   2024
+  ],
+  [
    "W4368375866",
    2023
   ],
   [
-   "W4413380493",
-   2025
-  ],
-  [
-   "W7154112807",
-   2026
-  ],
-  [
-   "W7170400752",
-   2026
-  ],
-  [
-   "W7127295036",
-   2023
-  ],
-  [
-   "W7127066336",
-   2023
-  ],
-  [
-   "W7127310914",
-   2023
-  ],
-  [
-   "W7127151625",
-   2023
-  ],
-  [
-   "W2572795829",
-   2011
-  ],
-  [
-   "W2795661895",
-   2017
-  ],
-  [
-   "W4251190441",
-   2019
-  ],
-  [
-   "W7168080843",
+   "W7154103271",
    2026
   ]
  ]

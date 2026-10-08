@@ -1,0 +1,91 @@
+{
+ "theme": "B5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(biometric OR biometrics OR \"electronic fingerprinting\" OR fingerprinting) AND (India OR Aadhaar OR enrolment OR enrollment) AND (state OR welfare OR ethnography OR citizens)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(biometric OR biometrics OR \"electronic fingerprinting\" OR fingerprinting) AND (India OR Aadhaar OR enrolment OR enrollment) AND (state OR welfare OR ethnography OR citizens),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"Aadhaar\" OR \"India\" OR \"enrollment\" OR \"enrolment\") AND (\"electronic fingerprinting\" OR \"biometric\" OR \"biometrics\" OR \"fingerprinting\") AND (\"citizens\" OR \"ethnography\" OR \"state\" OR \"welfare\"))",
+ "page": 1,
+ "total_results": 428,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B5_recent_q4.json.gz",
+ "results": [
+  [
+   "W4391540583",
+   2024
+  ],
+  [
+   "W7123511821",
+   2026
+  ],
+  [
+   "W7123412309",
+   2026
+  ],
+  [
+   "W4321505212",
+   2023
+  ],
+  [
+   "W4384663257",
+   2023
+  ],
+  [
+   "W4411259158",
+   2025
+  ],
+  [
+   "W4220814382",
+   2022
+  ],
+  [
+   "W7141834613",
+   2025
+  ],
+  [
+   "W4393566063",
+   2024
+  ],
+  [
+   "W4324138525",
+   2023
+  ],
+  [
+   "W7134961839",
+   2026
+  ],
+  [
+   "W7154405996",
+   2026
+  ],
+  [
+   "W7129387030",
+   2026
+  ],
+  [
+   "W7164191951",
+   2026
+  ],
+  [
+   "W7216350628",
+   2026
+  ],
+  [
+   "W7168138669",
+   2026
+  ],
+  [
+   "W4402029620",
+   2024
+  ],
+  [
+   "W4404433327",
+   2026
+  ]
+ ]
+}

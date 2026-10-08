@@ -1,0 +1,79 @@
+{
+ "theme": "A8",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(((\"metro rail\" OR \"Delhi Metro\" OR \"suburban rail\" OR \"local trains\" OR \"suburban trains\") AND (ethnography OR ethnographic OR everyday OR crowds OR affordability OR subsidies OR subsidy OR repair OR maintenance)) OR ((\"public transport\" OR \"bus fares\" OR \"transit fares\") AND (affordability OR subsidies OR subsidy)) OR ((\"cycle rickshaw\" OR \"cycle-rickshaw\" OR \"cycle rickshaws\" OR cycling) AND (informality OR livelihoods OR \"informal work\" OR \"wageless\") AND (city OR cities OR urban))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(((\"metro rail\" OR \"Delhi Metro\" OR \"suburban rail\" OR \"local trains\" OR \"suburban trains\") AND (ethnography OR ethnographic OR everyday OR crowds OR affordability OR subsidies OR subsidy OR repair OR maintenance)) OR ((\"public transport\" OR \"bus fares\" OR \"transit fares\") AND (affordability OR subsidies OR subsidy)) OR ((\"cycle rickshaw\" OR \"cycle-rickshaw\" OR \"cycle rickshaws\" OR cycling) AND (informality OR livelihoods OR \"informal work\" OR \"wageless\") AND (city OR cities OR urban))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (((\"Delhi Metro\" OR \"local trains\" OR \"metro rail\" OR \"suburban rail\" OR \"suburban trains\") AND (\"affordability\" OR \"crowds\" OR \"ethnographic\" OR \"ethnography\" OR \"everyday\" OR \"maintenance\" OR \"repair\" OR \"subsidies\" OR \"subsidy\")) OR ((\"bus fares\" OR \"public transport\" OR \"transit fares\") AND (\"affordability\" OR \"subsidies\" OR \"subsidy\")) OR ((\"cycle rickshaw\" OR \"cycle rickshaws\" OR \"cycle-rickshaw\" OR \"cycling\") AND (\"informal work\" OR \"informality\" OR \"livelihoods\" OR \"wageless\") AND (\"cities\" OR \"city\" OR \"urban\"))))",
+ "page": 1,
+ "total_results": 260,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A8_india_q6.json.gz",
+ "results": [
+  [
+   "W1980767870",
+   2007
+  ],
+  [
+   "W2296210942",
+   2015
+  ],
+  [
+   "W4205579794",
+   2021
+  ],
+  [
+   "W4383759589",
+   2021
+  ],
+  [
+   "W275961533",
+   2012
+  ],
+  [
+   "W2251701517",
+   2010
+  ],
+  [
+   "W4298230468",
+   2022
+  ],
+  [
+   "W4311763853",
+   2022
+  ],
+  [
+   "W2954726376",
+   2011
+  ],
+  [
+   "W4254175805",
+   2020
+  ],
+  [
+   "W3197043102",
+   2021
+  ],
+  [
+   "W124600097",
+   2013
+  ],
+  [
+   "W1608418283",
+   2005
+  ],
+  [
+   "W3128120062",
+   2021
+  ],
+  [
+   "W3137180752",
+   2020
+  ]
+ ]
+}

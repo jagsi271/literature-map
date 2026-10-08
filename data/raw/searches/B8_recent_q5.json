@@ -1,0 +1,79 @@
+{
+ "theme": "B8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"social media\" OR WhatsApp OR Facebook OR Twitter) AND (Hindutva OR nationalism OR \"digital politics\" OR dissent OR \"lived democracy\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"social media\" OR WhatsApp OR Facebook OR Twitter) AND (Hindutva OR nationalism OR \"digital politics\" OR dissent OR \"lived democracy\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"Facebook\" OR \"Twitter\" OR \"WhatsApp\" OR \"social media\") AND (\"Hindutva\" OR \"digital politics\" OR \"lived democracy\" OR \"dissent\" OR \"nationalism\"))",
+ "page": 1,
+ "total_results": 1875,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B8_recent_q5.json.gz",
+ "results": [
+  [
+   "W4401701768",
+   2024
+  ],
+  [
+   "W4415398003",
+   2025
+  ],
+  [
+   "W2972638927",
+   2022
+  ],
+  [
+   "W4292058681",
+   2022
+  ],
+  [
+   "W4285803817",
+   2022
+  ],
+  [
+   "W4387052518",
+   2023
+  ],
+  [
+   "W4399869163",
+   2024
+  ],
+  [
+   "W7164241815",
+   2026
+  ],
+  [
+   "W4312120122",
+   2022
+  ],
+  [
+   "W4411782115",
+   2025
+  ],
+  [
+   "W4412601685",
+   2025
+  ],
+  [
+   "W7162337851",
+   2026
+  ],
+  [
+   "W7165157242",
+   2026
+  ],
+  [
+   "W7201884128",
+   2026
+  ],
+  [
+   "W7146281544",
+   2023
+  ]
+ ]
+}

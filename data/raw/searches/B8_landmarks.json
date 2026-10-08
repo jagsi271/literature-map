@@ -3,15 +3,15 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"social media\" AND (\"political communication\" OR elections OR \"election campaign\" OR populism)) OR (\"digital publics\" OR \"networked publics\" OR \"digital public sphere\" OR \"networked public sphere\") OR (\"political participation\" AND (online OR \"social media\")) OR (\"hashtag activism\" OR \"connective action\" OR \"digital activism\")",
+ "query": "(\"social media\" AND (\"political communication\" OR elections OR \"election campaign\" OR populism)) OR (\"digital publics\" OR \"networked publics\" OR \"digital public sphere\" OR \"networked public sphere\") OR (\"political participation\" AND (online OR \"social media\")) OR (\"hashtag activism\" OR \"connective action\" OR \"digital activism\") OR ((\"social media\" OR WhatsApp OR Facebook OR Twitter) AND (Hindutva OR nationalism OR \"digital politics\" OR dissent OR \"lived democracy\"))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"social media\" AND (\"political communication\" OR elections OR \"election campaign\" OR populism)) OR (\"digital publics\" OR \"networked publics\" OR \"digital public sphere\" OR \"networked public sphere\") OR (\"political participation\" AND (online OR \"social media\")) OR (\"hashtag activism\" OR \"connective action\" OR \"digital activism\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"social media\" AND (\"political communication\" OR elections OR \"election campaign\" OR populism)) OR (\"digital publics\" OR \"networked publics\" OR \"digital public sphere\" OR \"networked public sphere\") OR (\"political participation\" AND (online OR \"social media\")) OR (\"hashtag activism\" OR \"connective action\" OR \"digital activism\") OR ((\"social media\" OR WhatsApp OR Facebook OR Twitter) AND (Hindutva OR nationalism OR \"digital politics\" OR dissent OR \"lived democracy\")),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
- "oql": "get works where retracted is (false)\n  and title-abstract has (\"connective action\" OR \"digital activism\" OR \"digital public sphere\" OR \"digital publics\" OR \"hashtag activism\" OR \"networked public sphere\" OR \"networked publics\" OR (\"political participation\" AND (\"social media\" OR \"online\")) OR (\"social media\" AND (\"election campaign\" OR \"political communication\" OR \"elections\" OR \"populism\")))",
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"connective action\" OR \"digital activism\" OR \"digital public sphere\" OR \"digital publics\" OR \"hashtag activism\" OR \"networked public sphere\" OR \"networked publics\" OR (\"political participation\" AND (\"social media\" OR \"online\")) OR (\"social media\" AND (\"election campaign\" OR \"political communication\" OR \"elections\" OR \"populism\")) OR ((\"Facebook\" OR \"Twitter\" OR \"WhatsApp\" OR \"social media\") AND (\"Hindutva\" OR \"digital politics\" OR \"lived democracy\" OR \"dissent\" OR \"nationalism\")))",
  "page": 1,
- "total_results": 21815,
+ "total_results": 25203,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_B8_landmarks.json.gz",
  "results": [
@@ -224,6 +224,10 @@
    2018
   ],
   [
+   "W2149231765",
+   2011
+  ],
+  [
    "W1581668075",
    2009
   ],
@@ -238,6 +242,10 @@
   [
    "W1987561338",
    2014
+  ],
+  [
+   "W2088246085",
+   2013
   ],
   [
    "W2514696358",
@@ -292,12 +300,20 @@
    2017
   ],
   [
+   "W3121009968",
+   2021
+  ],
+  [
    "W2290147799",
    2015
   ],
   [
    "W2618089236",
    2017
+  ],
+  [
+   "W2097001057",
+   2015
   ],
   [
    "W4231493085",
@@ -310,6 +326,14 @@
   [
    "W3033678240",
    2020
+  ],
+  [
+   "W1597095499",
+   2016
+  ],
+  [
+   "W218610238",
+   2018
   ],
   [
    "W2005490257",
@@ -326,6 +350,10 @@
   [
    "W2945604148",
    2019
+  ],
+  [
+   "W2731703036",
+   2017
   ],
   [
    "W2154321364",
@@ -386,34 +414,6 @@
   [
    "W2015368323",
    2014
-  ],
-  [
-   "W2003125370",
-   2013
-  ],
-  [
-   "W2147038444",
-   2013
-  ],
-  [
-   "W2462319741",
-   2016
-  ],
-  [
-   "W4385298751",
-   2023
-  ],
-  [
-   "W4213259118",
-   2022
-  ],
-  [
-   "W2099762866",
-   2009
-  ],
-  [
-   "W1549767159",
-   2013
   ]
  ]
 }

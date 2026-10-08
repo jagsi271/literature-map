@@ -3,77 +3,77 @@
  "slice": "india",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR \"land grab\" AND urban) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "query": "(\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR (\"land grab\" AND urban)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR \"land grab\" AND urban) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR (\"land grab\" AND urban)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
  "sort": "relevance_score:desc",
  "per_page": 15,
  "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"land acquisition\" OR \"land pooling\" OR \"special economic zone\" OR (\"land grab\" AND \"urban\")))",
  "page": 1,
- "total_results": 21,
+ "total_results": 1790,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A5_india_q4.json.gz",
  "results": [
   [
-   "W2950276125",
-   2019
+   "W2528266435",
+   2016
   ],
   [
-   "W2498246606",
-   2014
+   "W2119279648",
+   2009
   ],
   [
-   "W2940870762",
-   2019
+   "W3111713114",
+   2020
   ],
   [
-   "W2604935882",
-   2017
+   "W1975626885",
+   2003
   ],
   [
-   "W4225660536",
-   2022
+   "W2600971110",
+   2016
   ],
   [
-   "W652521960",
+   "W2256721252",
    2012
   ],
   [
-   "W4392807126",
-   2024
+   "W2954434280",
+   2020
   ],
   [
-   "W3158873687",
-   2021
+   "W2413138063",
+   2009
   ],
   [
-   "W4408703522",
+   "W4413188675",
    2025
   ],
   [
-   "W4391956229",
+   "W594731458",
+   1995
+  ],
+  [
+   "W4414505876",
    2024
   ],
   [
-   "W2498237984",
-   2010
-  ],
-  [
-   "W7123390409",
-   2026
-  ],
-  [
-   "W4224864733",
+   "W4309535839",
    2022
   ],
   [
-   "W2805004138",
-   2017
+   "W2222130635",
+   2014
   ],
   [
-   "W1846353168",
-   2000
+   "W408256715",
+   2010
+  ],
+  [
+   "W2994340285",
+   2017
   ]
  ]
 }

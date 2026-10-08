@@ -1,0 +1,91 @@
+{
+ "theme": "C2",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"e-commerce\" OR \"quick commerce\" OR \"on-demand economy\" OR \"dark stores\" OR \"online food delivery\") AND (city OR cities OR urban) AND (freight OR logistics OR \"spatial planning\" OR planning OR establishments)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"e-commerce\" OR \"quick commerce\" OR \"on-demand economy\" OR \"dark stores\" OR \"online food delivery\") AND (city OR cities OR urban) AND (freight OR logistics OR \"spatial planning\" OR planning OR establishments),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"dark stores\" OR \"on-demand economy\" OR \"online food delivery\" OR \"quick commerce\" OR \"e-commerce\") AND (\"spatial planning\" OR \"establishments\" OR \"freight\" OR \"logistics\" OR \"planning\") AND (\"cities\" OR \"city\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 1538,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C2_recent_q4.json.gz",
+ "results": [
+  [
+   "W4386597287",
+   2023
+  ],
+  [
+   "W4400654920",
+   2024
+  ],
+  [
+   "W7168368689",
+   2026
+  ],
+  [
+   "W7168373787",
+   2026
+  ],
+  [
+   "W4409214349",
+   2025
+  ],
+  [
+   "W7126264369",
+   2026
+  ],
+  [
+   "W7169554434",
+   2026
+  ],
+  [
+   "W4379744995",
+   2023
+  ],
+  [
+   "W4389661904",
+   2023
+  ],
+  [
+   "W7206292348",
+   2026
+  ],
+  [
+   "W7207254521",
+   2026
+  ],
+  [
+   "W4408695193",
+   2024
+  ],
+  [
+   "W7167498614",
+   2026
+  ],
+  [
+   "W4414405291",
+   2025
+  ],
+  [
+   "W4404414897",
+   2024
+  ],
+  [
+   "W7212059230",
+   2026
+  ],
+  [
+   "W4389827607",
+   2023
+  ],
+  [
+   "W7167493872",
+   2026
+  ]
+ ]
+}

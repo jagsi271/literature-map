@@ -1,0 +1,91 @@
+{
+ "theme": "B13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"mobile phone\" OR \"mobile phones\" OR smartphone OR smartphones OR \"mobile media\") AND (use OR usage OR adoption OR reticence) AND (India OR rural OR \"older adults\" OR elderly)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"mobile phone\" OR \"mobile phones\" OR smartphone OR smartphones OR \"mobile media\") AND (use OR usage OR adoption OR reticence) AND (India OR rural OR \"older adults\" OR elderly),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"India\" OR \"older adults\" OR \"elderly\" OR \"rural\") AND (\"mobile media\" OR \"mobile phone\" OR \"mobile phones\" OR \"smartphone\" OR \"smartphones\") AND (\"adoption\" OR \"reticence\" OR \"usage\" OR \"use\"))",
+ "page": 1,
+ "total_results": 6125,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_B13_recent_q4.json.gz",
+ "results": [
+  [
+   "W4414427302",
+   2025
+  ],
+  [
+   "W4405420758",
+   2024
+  ],
+  [
+   "W4214691545",
+   2022
+  ],
+  [
+   "W4367597352",
+   2023
+  ],
+  [
+   "W4389887283",
+   2023
+  ],
+  [
+   "W4319018767",
+   2023
+  ],
+  [
+   "W4281567897",
+   2022
+  ],
+  [
+   "W4388036825",
+   2023
+  ],
+  [
+   "W4387787838",
+   2023
+  ],
+  [
+   "W7126620738",
+   2026
+  ],
+  [
+   "W7154207895",
+   2026
+  ],
+  [
+   "W4312543575",
+   2022
+  ],
+  [
+   "W4394590361",
+   2024
+  ],
+  [
+   "W4409727795",
+   2024
+  ],
+  [
+   "W4387517387",
+   2023
+  ],
+  [
+   "W4220871732",
+   2022
+  ],
+  [
+   "W4387457462",
+   2023
+  ],
+  [
+   "W4410824345",
+   2025
+  ]
+ ]
+}

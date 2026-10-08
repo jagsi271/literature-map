@@ -3,77 +3,77 @@
  "slice": "recent",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR ridesharing AND urban",
+ "query": "\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR (ridesharing AND urban)",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR ridesharing AND urban,is_retracted:false,publication_year:2022-2026",
+ "filter": "title_and_abstract.search.exact:\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR (ridesharing AND urban),is_retracted:false,publication_year:2022-2026",
  "sort": "relevance_score:desc",
  "per_page": 15,
  "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"ride hailing\" OR \"ride-hailing\" OR \"ride-sourcing\" OR \"ridesourcing\" OR (\"ridesharing\" AND \"urban\"))",
  "page": 1,
- "total_results": 261,
+ "total_results": 4516,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_C9_recent_q1.json.gz",
  "results": [
   [
-   "W4386718320",
-   2023
-  ],
-  [
-   "W4409671179",
-   2025
-  ],
-  [
-   "W7115101442",
-   2025
-  ],
-  [
-   "W4280593352",
+   "W4225709744",
    2022
   ],
   [
-   "W4214761749",
+   "W4293375809",
    2022
   ],
   [
-   "W7171624605",
+   "W4285983662",
+   2022
+  ],
+  [
+   "W4285384024",
+   2022
+  ],
+  [
+   "W4395676629",
+   2024
+  ],
+  [
+   "W4220935623",
+   2022
+  ],
+  [
+   "W4224297774",
+   2022
+  ],
+  [
+   "W4210894120",
+   2022
+  ],
+  [
+   "W7155048839",
    2026
   ],
   [
-   "W7171675574",
-   2026
-  ],
-  [
-   "W7199445645",
-   2022
-  ],
-  [
-   "W7151917878",
-   2026
-  ],
-  [
-   "W7197644711",
+   "W4384076626",
    2023
   ],
   [
-   "W4220909649",
-   2022
-  ],
-  [
-   "W4409656543",
+   "W4413741397",
    2025
   ],
   [
-   "W4387093737",
-   2023
+   "W4406497703",
+   2025
   ],
   [
-   "W4389125015",
-   2023
+   "W7164456815",
+   2024
   ],
   [
-   "W4293777136",
-   2022
+   "W7202373638",
+   2026
+  ],
+  [
+   "W7138007332",
+   2026
   ]
  ]
 }

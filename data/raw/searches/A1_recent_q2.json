@@ -3,15 +3,15 @@
  "slice": "recent",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "\"municipal finance\" OR \"municipal fiscal\" OR \"local government finance\" OR \"municipal bonds\" OR \"property tax\" AND municipal",
+ "query": "\"municipal finance\" OR \"municipal fiscal\" OR \"local government finance\" OR \"municipal bonds\" OR (\"property tax\" AND municipal)",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:\"municipal finance\" OR \"municipal fiscal\" OR \"local government finance\" OR \"municipal bonds\" OR \"property tax\" AND municipal,is_retracted:false,publication_year:2022-2026",
+ "filter": "title_and_abstract.search.exact:\"municipal finance\" OR \"municipal fiscal\" OR \"local government finance\" OR \"municipal bonds\" OR (\"property tax\" AND municipal),is_retracted:false,publication_year:2022-2026",
  "sort": "relevance_score:desc",
- "per_page": 25,
+ "per_page": 18,
  "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"local government finance\" OR \"municipal bonds\" OR \"municipal finance\" OR \"municipal fiscal\" OR (\"property tax\" AND \"municipal\"))",
  "page": 1,
- "total_results": 275,
+ "total_results": 1240,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A1_recent_q2.json.gz",
  "results": [
@@ -24,6 +24,42 @@
    2025
   ],
   [
+   "W4403490626",
+   2024
+  ],
+  [
+   "W4318703913",
+   2023
+  ],
+  [
+   "W4206749264",
+   2022
+  ],
+  [
+   "W4226231556",
+   2022
+  ],
+  [
+   "W4399744271",
+   2024
+  ],
+  [
+   "W4403027075",
+   2024
+  ],
+  [
+   "W4394571663",
+   2024
+  ],
+  [
+   "W4399744233",
+   2024
+  ],
+  [
+   "W4362645196",
+   2022
+  ],
+  [
    "W4404500331",
    2024
   ],
@@ -32,88 +68,24 @@
    2025
   ],
   [
-   "W7163726035",
-   2026
+   "W4376636843",
+   2023
   ],
   [
-   "W7172437458",
-   2026
-  ],
-  [
-   "W7215537461",
-   2026
-  ],
-  [
-   "W7214145578",
-   2026
-  ],
-  [
-   "W7214152027",
-   2026
-  ],
-  [
-   "W7116087499",
-   2025
-  ],
-  [
-   "W4392162012",
+   "W4403030891",
    2024
   ],
   [
-   "W7161360379",
-   2025
-  ],
-  [
-   "W7135792328",
-   2026
-  ],
-  [
-   "W7115586239",
-   2025
-  ],
-  [
-   "W4298198794",
-   2022
-  ],
-  [
-   "W4409323670",
+   "W4318620038",
    2023
   ],
   [
-   "W4414283972",
-   2025
-  ],
-  [
-   "W4210546109",
+   "W4294795862",
    2022
   ],
   [
-   "W4385964804",
-   2023
-  ],
-  [
-   "W7134108915",
+   "W7163726035",
    2026
-  ],
-  [
-   "W4312202932",
-   2022
-  ],
-  [
-   "W7204878294",
-   2026
-  ],
-  [
-   "W4298144129",
-   2022
-  ],
-  [
-   "W7149681620",
-   2026
-  ],
-  [
-   "W4386602405",
-   2023
   ]
  ]
 }

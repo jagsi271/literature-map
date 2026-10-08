@@ -99,7 +99,7 @@ class Fetcher:
         with LEDGER.open("a", newline="") as f:
             w = csv.writer(f)
             if new:
-                w.writerow(["utc", "label", "status", "cost_usd", "credits_used_today",
+                w.writerow(["utc", "label", "status", "cost_usd", "credits_this_call",
                             "credits_remaining", "cache_file"])
             w.writerow([dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
                         self.label, r.status_code, h.get("X-RateLimit-Cost-USD", ""),

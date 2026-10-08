@@ -3,15 +3,15 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"algorithmic governance\" OR \"algorithmic governmentality\" OR \"algorithmic regulation\") OR (\"automated decision-making\" OR \"automated decision making\" AND (government OR public OR welfare)) OR (\"artificial intelligence\" AND (\"public sector\" OR \"public administration\" OR \"public services\")) OR (\"digital welfare state\" OR \"algorithmic accountability\")",
+ "query": "(\"algorithmic governance\" OR \"algorithmic governmentality\" OR \"algorithmic regulation\") OR (\"automated decision-making\" OR (\"automated decision making\" AND (government OR public OR welfare))) OR (\"artificial intelligence\" AND (\"public sector\" OR \"public administration\" OR \"public services\")) OR (\"digital welfare state\" OR \"algorithmic accountability\")",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"algorithmic governance\" OR \"algorithmic governmentality\" OR \"algorithmic regulation\") OR (\"automated decision-making\" OR \"automated decision making\" AND (government OR public OR welfare)) OR (\"artificial intelligence\" AND (\"public sector\" OR \"public administration\" OR \"public services\")) OR (\"digital welfare state\" OR \"algorithmic accountability\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"algorithmic governance\" OR \"algorithmic governmentality\" OR \"algorithmic regulation\") OR (\"automated decision-making\" OR (\"automated decision making\" AND (government OR public OR welfare))) OR (\"artificial intelligence\" AND (\"public sector\" OR \"public administration\" OR \"public services\")) OR (\"digital welfare state\" OR \"algorithmic accountability\"),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
  "oql": "get works where retracted is (false)\n  and title-abstract has (\"algorithmic accountability\" OR \"algorithmic governance\" OR \"algorithmic governmentality\" OR \"algorithmic regulation\" OR \"automated decision-making\" OR \"digital welfare state\" OR (\"artificial intelligence\" AND (\"public administration\" OR \"public sector\" OR \"public services\")) OR (\"automated decision making\" AND (\"government\" OR \"public\" OR \"welfare\")))",
  "page": 1,
- "total_results": 14404,
+ "total_results": 18740,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_B4_landmarks.json.gz",
  "results": [
@@ -26,6 +26,10 @@
   [
    "W1510672157",
    1997
+  ],
+  [
+   "W2167917621",
+   2006
   ],
   [
    "W4386142022",
@@ -54,6 +58,14 @@
   [
    "W2897312458",
    2018
+  ],
+  [
+   "W2114660707",
+   2004
+  ],
+  [
+   "W2396457900",
+   2016
   ],
   [
    "W2619503097",
@@ -88,6 +100,14 @@
    2020
   ],
   [
+   "W4251708881",
+   2012
+  ],
+  [
+   "W3103319283",
+   2020
+  ],
+  [
    "W2896640274",
    2018
   ],
@@ -100,6 +120,10 @@
    2016
   ],
   [
+   "W2914797198",
+   2019
+  ],
+  [
    "W2768879061",
    2017
   ],
@@ -108,12 +132,32 @@
    2019
   ],
   [
+   "W2039856804",
+   2012
+  ],
+  [
+   "W3199397800",
+   2021
+  ],
+  [
+   "W1265560710",
+   2004
+  ],
+  [
    "W4304694200",
    2022
   ],
   [
    "W2899579542",
    2018
+  ],
+  [
+   "W1977027554",
+   2003
+  ],
+  [
+   "W2954197146",
+   2019
   ],
   [
    "W4211002924",
@@ -128,6 +172,10 @@
    2018
   ],
   [
+   "W3093718041",
+   2020
+  ],
+  [
    "W3017205423",
    2020
   ],
@@ -138,6 +186,14 @@
   [
    "W3018262553",
    2020
+  ],
+  [
+   "W2582721310",
+   2016
+  ],
+  [
+   "W4367668513",
+   2023
   ],
   [
    "W4280537010",
@@ -192,12 +248,20 @@
    2021
   ],
   [
+   "W2597425331",
+   2017
+  ],
+  [
    "W2998255389",
    2019
   ],
   [
    "W2808683479",
    2018
+  ],
+  [
+   "W2770363731",
+   2017
   ],
   [
    "W3006864169",
@@ -240,8 +304,16 @@
    2018
   ],
   [
+   "W1972027273",
+   2012
+  ],
+  [
    "W2790702402",
    2018
+  ],
+  [
+   "W3179164182",
+   2021
   ],
   [
    "W2599358581",
@@ -264,8 +336,24 @@
    2018
   ],
   [
+   "W2125234581",
+   2001
+  ],
+  [
    "W2080013315",
    2012
+  ],
+  [
+   "W3156745125",
+   2021
+  ],
+  [
+   "W3156498195",
+   2021
+  ],
+  [
+   "W2965970765",
+   2019
   ],
   [
    "W3044666894",
@@ -280,12 +368,20 @@
    2021
   ],
   [
+   "W3178786669",
+   2021
+  ],
+  [
    "W2942227409",
    2019
   ],
   [
    "W2887752602",
    2018
+  ],
+  [
+   "W2910362756",
+   2019
   ],
   [
    "W4407389811",
@@ -318,102 +414,6 @@
   [
    "W4221062828",
    2022
-  ],
-  [
-   "W3105362007",
-   2020
-  ],
-  [
-   "W2990856437",
-   2019
-  ],
-  [
-   "W4412013201",
-   2025
-  ],
-  [
-   "W2961264687",
-   2019
-  ],
-  [
-   "W4312143562",
-   2022
-  ],
-  [
-   "W2947895697",
-   2019
-  ],
-  [
-   "W4214570817",
-   2022
-  ],
-  [
-   "W1965324468",
-   2010
-  ],
-  [
-   "W2951949378",
-   2019
-  ],
-  [
-   "W2981645564",
-   2019
-  ],
-  [
-   "W4382293074",
-   2023
-  ],
-  [
-   "W3187502111",
-   2021
-  ],
-  [
-   "W3118099700",
-   2020
-  ],
-  [
-   "W4206696791",
-   2022
-  ],
-  [
-   "W4392976364",
-   2024
-  ],
-  [
-   "W4383102774",
-   2023
-  ],
-  [
-   "W2744676351",
-   2017
-  ],
-  [
-   "W4408809998",
-   2025
-  ],
-  [
-   "W2906180434",
-   2021
-  ],
-  [
-   "W4387025480",
-   2023
-  ],
-  [
-   "W3001754608",
-   2020
-  ],
-  [
-   "W1574597499",
-   1980
-  ],
-  [
-   "W4234388913",
-   2019
-  ],
-  [
-   "W4388793542",
-   2023
   ]
  ]
 }

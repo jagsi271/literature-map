@@ -1,0 +1,79 @@
+{
+ "theme": "A3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"unauthorised colony\" OR \"unauthorized colony\" OR \"unauthorised colonies\" OR \"unauthorized colonies\" OR \"resettlement colony\" OR \"resettlement colonies\" OR (informality AND (housing OR land OR suburban OR colony OR colonies))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"unauthorised colony\" OR \"unauthorized colony\" OR \"unauthorised colonies\" OR \"unauthorized colonies\" OR \"resettlement colony\" OR \"resettlement colonies\" OR (informality AND (housing OR land OR suburban OR colony OR colonies)),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"resettlement colonies\" OR \"resettlement colony\" OR \"unauthorised colonies\" OR \"unauthorised colony\" OR \"unauthorized colonies\" OR \"unauthorized colony\" OR (\"informality\" AND (\"colonies\" OR \"colony\" OR \"housing\" OR \"land\" OR \"suburban\")))",
+ "page": 1,
+ "total_results": 1040,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A3_recent_q5.json.gz",
+ "results": [
+  [
+   "W7217457167",
+   2025
+  ],
+  [
+   "W4388552351",
+   2023
+  ],
+  [
+   "W7217881262",
+   2023
+  ],
+  [
+   "W4317435621",
+   2023
+  ],
+  [
+   "W4411499627",
+   2025
+  ],
+  [
+   "W4413131386",
+   2025
+  ],
+  [
+   "W4392158936",
+   2024
+  ],
+  [
+   "W7165652431",
+   2026
+  ],
+  [
+   "W4408595595",
+   2025
+  ],
+  [
+   "W7155502130",
+   2026
+  ],
+  [
+   "W4413032291",
+   2025
+  ],
+  [
+   "W4405463920",
+   2024
+  ],
+  [
+   "W4412854643",
+   2025
+  ],
+  [
+   "W4393992503",
+   2024
+  ],
+  [
+   "W4410974191",
+   2023
+  ]
+ ]
+}

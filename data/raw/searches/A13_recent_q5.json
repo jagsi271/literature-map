@@ -1,0 +1,79 @@
+{
+ "theme": "A13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"old city\" OR \"historic city\" OR \"walled city\" OR \"historic core\" OR \"Old Delhi\" OR Shahjahanabad) AND (heritage OR nostalgia OR tourism OR conservation OR redevelopment OR consumption)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"old city\" OR \"historic city\" OR \"walled city\" OR \"historic core\" OR \"Old Delhi\" OR Shahjahanabad) AND (heritage OR nostalgia OR tourism OR conservation OR redevelopment OR consumption),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"Shahjahanabad\" OR \"Old Delhi\" OR \"historic city\" OR \"historic core\" OR \"old city\" OR \"walled city\") AND (\"conservation\" OR \"consumption\" OR \"heritage\" OR \"nostalgia\" OR \"redevelopment\" OR \"tourism\"))",
+ "page": 1,
+ "total_results": 1476,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A13_recent_q5.json.gz",
+ "results": [
+  [
+   "W7219435879",
+   2022
+  ],
+  [
+   "W4407191035",
+   2024
+  ],
+  [
+   "W4407650553",
+   2025
+  ],
+  [
+   "W4406195119",
+   2024
+  ],
+  [
+   "W4415600856",
+   2025
+  ],
+  [
+   "W4392314458",
+   2023
+  ],
+  [
+   "W4406404239",
+   2024
+  ],
+  [
+   "W7172213454",
+   2026
+  ],
+  [
+   "W4404584550",
+   2024
+  ],
+  [
+   "W4414679685",
+   2025
+  ],
+  [
+   "W7202156542",
+   2026
+  ],
+  [
+   "W7160063141",
+   2026
+  ],
+  [
+   "W7119776597",
+   2025
+  ],
+  [
+   "W7129076548",
+   2026
+  ],
+  [
+   "W7117962101",
+   2025
+  ]
+ ]
+}

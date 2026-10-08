@@ -3,15 +3,15 @@
  "slice": "recent",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "\"urban migrants\" OR \"migrant workers\" AND (city OR urban)",
+ "query": "\"urban migrants\" OR (\"migrant workers\" AND (city OR urban))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:\"urban migrants\" OR \"migrant workers\" AND (city OR urban),is_retracted:false,publication_year:2022-2026",
+ "filter": "title_and_abstract.search.exact:\"urban migrants\" OR (\"migrant workers\" AND (city OR urban)),is_retracted:false,publication_year:2022-2026",
  "sort": "relevance_score:desc",
  "per_page": 18,
  "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban migrants\" OR (\"migrant workers\" AND (\"city\" OR \"urban\")))",
  "page": 1,
- "total_results": 1478,
+ "total_results": 2024,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A11_recent_q2.json.gz",
  "results": [
@@ -28,12 +28,12 @@
    2022
   ],
   [
-   "W4415282766",
-   2025
-  ],
-  [
    "W4365446374",
    2023
+  ],
+  [
+   "W4415282766",
+   2025
   ],
   [
    "W4401393094",

@@ -3,15 +3,15 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"urban governance\") OR (\"municipal finance\" OR \"municipal fiscal\" OR \"local government finance\" OR \"municipal bonds\" OR \"property tax\" AND municipal) OR ((decentralization OR decentralisation) AND (municipal OR \"urban local bodies\" OR \"local government\" OR city)) OR (\"74th Amendment\" OR \"urban local bodies\" OR \"municipal corporation\" OR \"city government\")",
+ "query": "(\"urban governance\") OR (\"municipal finance\" OR \"municipal fiscal\" OR \"local government finance\" OR \"municipal bonds\" OR (\"property tax\" AND municipal)) OR ((decentralization OR decentralisation) AND (municipal OR \"urban local bodies\" OR \"local government\" OR city OR urban)) OR (\"74th Amendment\" OR \"urban local bodies\" OR \"municipal corporation\" OR \"city government\")",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"urban governance\") OR (\"municipal finance\" OR \"municipal fiscal\" OR \"local government finance\" OR \"municipal bonds\" OR \"property tax\" AND municipal) OR ((decentralization OR decentralisation) AND (municipal OR \"urban local bodies\" OR \"local government\" OR city)) OR (\"74th Amendment\" OR \"urban local bodies\" OR \"municipal corporation\" OR \"city government\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"urban governance\") OR (\"municipal finance\" OR \"municipal fiscal\" OR \"local government finance\" OR \"municipal bonds\" OR (\"property tax\" AND municipal)) OR ((decentralization OR decentralisation) AND (municipal OR \"urban local bodies\" OR \"local government\" OR city OR urban)) OR (\"74th Amendment\" OR \"urban local bodies\" OR \"municipal corporation\" OR \"city government\"),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
- "oql": "get works where retracted is (false)\n  and title-abstract has (\"74th Amendment\" OR \"city government\" OR \"local government finance\" OR \"municipal bonds\" OR \"municipal corporation\" OR \"municipal finance\" OR \"municipal fiscal\" OR \"urban governance\" OR \"urban local bodies\" OR (\"property tax\" AND \"municipal\") OR ((\"local government\" OR \"urban local bodies\" OR \"city\" OR \"municipal\") AND (\"decentralisation\" OR \"decentralization\")))",
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"74th Amendment\" OR \"city government\" OR \"local government finance\" OR \"municipal bonds\" OR \"municipal corporation\" OR \"municipal finance\" OR \"municipal fiscal\" OR \"urban governance\" OR \"urban local bodies\" OR (\"property tax\" AND \"municipal\") OR ((\"local government\" OR \"urban local bodies\" OR \"city\" OR \"municipal\" OR \"urban\") AND (\"decentralisation\" OR \"decentralization\")))",
  "page": 1,
- "total_results": 49340,
+ "total_results": 57718,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A1_landmarks.json.gz",
  "results": [
@@ -60,6 +60,14 @@
    1989
   ],
   [
+   "W3023478198",
+   1997
+  ],
+  [
+   "W2046230186",
+   2000
+  ],
+  [
    "W2095842624",
    2002
   ],
@@ -80,6 +88,10 @@
    2012
   ],
   [
+   "W3126104344",
+   2010
+  ],
+  [
    "W2128580910",
    1999
   ],
@@ -90,6 +102,10 @@
   [
    "W245352281",
    2002
+  ],
+  [
+   "W4241750556",
+   1993
   ],
   [
    "W2099436484",
@@ -110,6 +126,14 @@
   [
    "W4211158020",
    2022
+  ],
+  [
+   "W2952070778",
+   2019
+  ],
+  [
+   "W1508404391",
+   1995
   ],
   [
    "W2914374206",
@@ -136,6 +160,10 @@
    2010
   ],
   [
+   "W1871026043",
+   2004
+  ],
+  [
    "W2140493602",
    2013
   ],
@@ -150,6 +178,10 @@
   [
    "W2148226521",
    2010
+  ],
+  [
+   "W1556421752",
+   1995
   ],
   [
    "W1516772677",
@@ -208,6 +240,10 @@
    2016
   ],
   [
+   "W1625772672",
+   2006
+  ],
+  [
    "W2095162523",
    1999
   ],
@@ -244,6 +280,14 @@
    2010
   ],
   [
+   "W2011817478",
+   2003
+  ],
+  [
+   "W2075789206",
+   1990
+  ],
+  [
    "W1501190759",
    2007
   ],
@@ -258,6 +302,10 @@
   [
    "W2135146089",
    2009
+  ],
+  [
+   "W161525005",
+   2013
   ],
   [
    "W2146830943",
@@ -288,6 +336,10 @@
    2009
   ],
   [
+   "W1525923982",
+   1995
+  ],
+  [
    "W129912261",
    2015
   ],
@@ -296,8 +348,16 @@
    2011
   ],
   [
+   "W3022314381",
+   2006
+  ],
+  [
    "W2804780916",
    2018
+  ],
+  [
+   "W4371802396",
+   2004
   ],
   [
    "W1983617101",
@@ -310,6 +370,10 @@
   [
    "W2587562756",
    2017
+  ],
+  [
+   "W2063371681",
+   1975
   ],
   [
    "W2116855395",
@@ -344,76 +408,12 @@
    2003
   ],
   [
+   "W2100794062",
+   2007
+  ],
+  [
    "W2059072403",
    2006
-  ],
-  [
-   "W1970276993",
-   2008
-  ],
-  [
-   "W2013642330",
-   2003
-  ],
-  [
-   "W2041421969",
-   2012
-  ],
-  [
-   "W2513207166",
-   2016
-  ],
-  [
-   "W2011897221",
-   2005
-  ],
-  [
-   "W2123448714",
-   2005
-  ],
-  [
-   "W3040649972",
-   2020
-  ],
-  [
-   "W1054714245",
-   2015
-  ],
-  [
-   "W2066171484",
-   1995
-  ],
-  [
-   "W2011916953",
-   1988
-  ],
-  [
-   "W2076628299",
-   2004
-  ],
-  [
-   "W1511299198",
-   2002
-  ],
-  [
-   "W1971398141",
-   2004
-  ],
-  [
-   "W2512938266",
-   2016
-  ],
-  [
-   "W2098583604",
-   1994
-  ],
-  [
-   "W2169814542",
-   2011
-  ],
-  [
-   "W3108852469",
-   2020
   ]
  ]
 }

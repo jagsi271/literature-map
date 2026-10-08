@@ -3,15 +3,15 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"urban mobility\" AND (social OR equity OR justice OR everyday OR politics)) OR (\"transport equity\" OR \"transport justice\" OR \"transport disadvantage\" OR \"mobility justice\" OR \"transport poverty\") OR (\"public transport\" AND (gender OR women OR informal OR everyday OR politics)) OR (paratransit OR \"informal transport\" OR \"auto-rickshaw\" OR \"minibus taxi\" OR matatu) OR (\"mobilities\" AND (urban OR city) AND (social OR everyday))",
+ "query": "(\"urban mobility\" AND (social OR equity OR justice OR everyday OR politics)) OR (\"transport equity\" OR \"transport justice\" OR \"transport disadvantage\" OR \"mobility justice\" OR \"transport poverty\") OR (\"public transport\" AND (gender OR women OR informal OR everyday OR politics)) OR (paratransit OR \"informal transport\" OR \"auto-rickshaw\" OR \"minibus taxi\" OR matatu) OR (\"mobilities\" AND (urban OR city) AND (social OR everyday)) OR (((\"metro rail\" OR \"Delhi Metro\" OR \"suburban rail\" OR \"local trains\" OR \"suburban trains\") AND (ethnography OR ethnographic OR everyday OR crowds OR affordability OR subsidies OR subsidy OR repair OR maintenance)) OR ((\"public transport\" OR \"bus fares\" OR \"transit fares\") AND (affordability OR subsidies OR subsidy)) OR ((\"cycle rickshaw\" OR \"cycle-rickshaw\" OR \"cycle rickshaws\" OR cycling) AND (informality OR livelihoods OR \"informal work\" OR \"wageless\") AND (city OR cities OR urban)))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"urban mobility\" AND (social OR equity OR justice OR everyday OR politics)) OR (\"transport equity\" OR \"transport justice\" OR \"transport disadvantage\" OR \"mobility justice\" OR \"transport poverty\") OR (\"public transport\" AND (gender OR women OR informal OR everyday OR politics)) OR (paratransit OR \"informal transport\" OR \"auto-rickshaw\" OR \"minibus taxi\" OR matatu) OR (\"mobilities\" AND (urban OR city) AND (social OR everyday)),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"urban mobility\" AND (social OR equity OR justice OR everyday OR politics)) OR (\"transport equity\" OR \"transport justice\" OR \"transport disadvantage\" OR \"mobility justice\" OR \"transport poverty\") OR (\"public transport\" AND (gender OR women OR informal OR everyday OR politics)) OR (paratransit OR \"informal transport\" OR \"auto-rickshaw\" OR \"minibus taxi\" OR matatu) OR (\"mobilities\" AND (urban OR city) AND (social OR everyday)) OR (((\"metro rail\" OR \"Delhi Metro\" OR \"suburban rail\" OR \"local trains\" OR \"suburban trains\") AND (ethnography OR ethnographic OR everyday OR crowds OR affordability OR subsidies OR subsidy OR repair OR maintenance)) OR ((\"public transport\" OR \"bus fares\" OR \"transit fares\") AND (affordability OR subsidies OR subsidy)) OR ((\"cycle rickshaw\" OR \"cycle-rickshaw\" OR \"cycle rickshaws\" OR cycling) AND (informality OR livelihoods OR \"informal work\" OR \"wageless\") AND (city OR cities OR urban))),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
- "oql": "get works where retracted is (false)\n  and title-abstract has (\"informal transport\" OR \"minibus taxi\" OR \"mobility justice\" OR \"transport disadvantage\" OR \"transport equity\" OR \"transport justice\" OR \"transport poverty\" OR \"auto-rickshaw\" OR \"matatu\" OR \"paratransit\" OR (\"public transport\" AND (\"everyday\" OR \"gender\" OR \"informal\" OR \"politics\" OR \"women\")) OR (\"urban mobility\" AND (\"equity\" OR \"everyday\" OR \"justice\" OR \"politics\" OR \"social\")) OR (\"mobilities\" AND (\"city\" OR \"urban\") AND (\"everyday\" OR \"social\")))",
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"informal transport\" OR \"minibus taxi\" OR \"mobility justice\" OR \"transport disadvantage\" OR \"transport equity\" OR \"transport justice\" OR \"transport poverty\" OR \"auto-rickshaw\" OR \"matatu\" OR \"paratransit\" OR (\"public transport\" AND (\"everyday\" OR \"gender\" OR \"informal\" OR \"politics\" OR \"women\")) OR (\"urban mobility\" AND (\"equity\" OR \"everyday\" OR \"justice\" OR \"politics\" OR \"social\")) OR (\"mobilities\" AND (\"city\" OR \"urban\") AND (\"everyday\" OR \"social\")) OR ((\"Delhi Metro\" OR \"local trains\" OR \"metro rail\" OR \"suburban rail\" OR \"suburban trains\") AND (\"affordability\" OR \"crowds\" OR \"ethnographic\" OR \"ethnography\" OR \"everyday\" OR \"maintenance\" OR \"repair\" OR \"subsidies\" OR \"subsidy\")) OR ((\"bus fares\" OR \"public transport\" OR \"transit fares\") AND (\"affordability\" OR \"subsidies\" OR \"subsidy\")) OR ((\"cycle rickshaw\" OR \"cycle rickshaws\" OR \"cycle-rickshaw\" OR \"cycling\") AND (\"informal work\" OR \"informality\" OR \"livelihoods\" OR \"wageless\") AND (\"cities\" OR \"city\" OR \"urban\")))",
  "page": 1,
- "total_results": 15682,
+ "total_results": 17750,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A8_landmarks.json.gz",
  "results": [
@@ -88,8 +88,16 @@
    2011
   ],
   [
+   "W2090363055",
+   2012
+  ],
+  [
    "W1485017848",
    2007
+  ],
+  [
+   "W2909033383",
+   2014
   ],
   [
    "W2272574770",
@@ -200,8 +208,16 @@
    2020
   ],
   [
+   "W2889412060",
+   2018
+  ],
+  [
    "W2516964143",
    2016
+  ],
+  [
+   "W2005365565",
+   2008
   ],
   [
    "W3127169886",
@@ -270,6 +286,10 @@
   [
    "W3113856539",
    2020
+  ],
+  [
+   "W2801130895",
+   2018
   ],
   [
    "W2082934694",
@@ -392,28 +412,8 @@
    2018
   ],
   [
-   "W2564999936",
-   2016
-  ],
-  [
-   "W3093843157",
-   2020
-  ],
-  [
-   "W2975321582",
-   2019
-  ],
-  [
-   "W2949545642",
-   2019
-  ],
-  [
-   "W2597119805",
-   2016
-  ],
-  [
-   "W2209775912",
-   2016
+   "W2140488108",
+   2002
   ]
  ]
 }

@@ -1,0 +1,79 @@
+{
+ "theme": "A5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban village\" OR \"urban villages\" OR \"private city\" OR \"private cities\" OR \"millennium city\" OR ((\"new town\" OR \"new towns\" OR \"satellite town\" OR \"satellite city\") AND (land OR \"real estate\" OR developers OR planning))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban village\" OR \"urban villages\" OR \"private city\" OR \"private cities\" OR \"millennium city\" OR ((\"new town\" OR \"new towns\" OR \"satellite town\" OR \"satellite city\") AND (land OR \"real estate\" OR developers OR planning)),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"millennium city\" OR \"private cities\" OR \"private city\" OR \"urban village\" OR \"urban villages\" OR ((\"new town\" OR \"new towns\" OR \"satellite city\" OR \"satellite town\") AND (\"real estate\" OR \"developers\" OR \"land\" OR \"planning\")))",
+ "page": 1,
+ "total_results": 3328,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A5_recent_q6.json.gz",
+ "results": [
+  [
+   "W4400086648",
+   2024
+  ],
+  [
+   "W4407250916",
+   2025
+  ],
+  [
+   "W4390898425",
+   2024
+  ],
+  [
+   "W4285503699",
+   2022
+  ],
+  [
+   "W4281622400",
+   2022
+  ],
+  [
+   "W4361005233",
+   2023
+  ],
+  [
+   "W4386759332",
+   2023
+  ],
+  [
+   "W7155501609",
+   2026
+  ],
+  [
+   "W7213641623",
+   2026
+  ],
+  [
+   "W4392284366",
+   2024
+  ],
+  [
+   "W4404154014",
+   2024
+  ],
+  [
+   "W4386687954",
+   2023
+  ],
+  [
+   "W4223599181",
+   2022
+  ],
+  [
+   "W4210436467",
+   2022
+  ],
+  [
+   "W4323059210",
+   2023
+  ]
+ ]
+}

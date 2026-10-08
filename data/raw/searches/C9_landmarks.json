@@ -3,15 +3,15 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR ridesharing AND urban) OR (\"mobility as a service\" OR \"mobility-as-a-service\" OR MaaS AND transport) OR ((\"transit app\" OR \"journey planner\" OR \"real-time information\" OR \"smart card\") AND (transit OR \"public transport\")) OR ((\"digital ticketing\" OR \"mobile ticketing\" OR \"fare integration\" OR \"contactless payment\") AND transit) OR ((micromobility OR \"e-scooter\" OR \"bike-sharing\" OR dockless) AND (urban OR city) AND (equity OR governance OR regulation))",
+ "query": "(\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR (ridesharing AND urban)) OR (\"mobility as a service\" OR \"mobility-as-a-service\" OR (MaaS AND transport)) OR ((\"transit app\" OR \"journey planner\" OR \"real-time information\" OR \"smart card\") AND (transit OR \"public transport\")) OR ((\"digital ticketing\" OR \"mobile ticketing\" OR \"fare integration\" OR \"contactless payment\") AND transit) OR ((micromobility OR \"e-scooter\" OR \"bike-sharing\" OR dockless) AND (urban OR city) AND (equity OR governance OR regulation))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR ridesharing AND urban) OR (\"mobility as a service\" OR \"mobility-as-a-service\" OR MaaS AND transport) OR ((\"transit app\" OR \"journey planner\" OR \"real-time information\" OR \"smart card\") AND (transit OR \"public transport\")) OR ((\"digital ticketing\" OR \"mobile ticketing\" OR \"fare integration\" OR \"contactless payment\") AND transit) OR ((micromobility OR \"e-scooter\" OR \"bike-sharing\" OR dockless) AND (urban OR city) AND (equity OR governance OR regulation)),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR (ridesharing AND urban)) OR (\"mobility as a service\" OR \"mobility-as-a-service\" OR (MaaS AND transport)) OR ((\"transit app\" OR \"journey planner\" OR \"real-time information\" OR \"smart card\") AND (transit OR \"public transport\")) OR ((\"digital ticketing\" OR \"mobile ticketing\" OR \"fare integration\" OR \"contactless payment\") AND transit) OR ((micromobility OR \"e-scooter\" OR \"bike-sharing\" OR dockless) AND (urban OR city) AND (equity OR governance OR regulation)),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
  "oql": "get works where retracted is (false)\n  and title-abstract has (\"mobility as a service\" OR \"ride hailing\" OR \"mobility-as-a-service\" OR \"ride-hailing\" OR \"ride-sourcing\" OR \"ridesourcing\" OR (\"MaaS\" AND \"transport\") OR (\"ridesharing\" AND \"urban\") OR (\"transit\" AND (\"contactless payment\" OR \"digital ticketing\" OR \"fare integration\" OR \"mobile ticketing\")) OR ((\"journey planner\" OR \"real-time information\" OR \"smart card\" OR \"transit app\") AND (\"public transport\" OR \"transit\")) OR ((\"bike-sharing\" OR \"dockless\" OR \"e-scooter\" OR \"micromobility\") AND (\"city\" OR \"urban\") AND (\"equity\" OR \"governance\" OR \"regulation\")))",
  "page": 1,
- "total_results": 5133,
+ "total_results": 12752,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_C9_landmarks.json.gz",
  "results": [
@@ -20,8 +20,24 @@
    1969
   ],
   [
+   "W3123909522",
+   2022
+  ],
+  [
+   "W4283077289",
+   2022
+  ],
+  [
+   "W2133731173",
+   2015
+  ],
+  [
    "W2044985623",
    2011
+  ],
+  [
+   "W2904832339",
+   2019
   ],
   [
    "W2732194751",
@@ -32,32 +48,96 @@
    2013
   ],
   [
+   "W3091953043",
+   2020
+  ],
+  [
+   "W2811315250",
+   2018
+  ],
+  [
+   "W2966429551",
+   2017
+  ],
+  [
    "W2461992254",
    2016
+  ],
+  [
+   "W2946789497",
+   2019
+  ],
+  [
+   "W3006773352",
+   2020
+  ],
+  [
+   "W2890500601",
+   2018
   ],
   [
    "W1993676537",
    2015
   ],
   [
+   "W2987370842",
+   2019
+  ],
+  [
    "W3014834477",
    2020
+  ],
+  [
+   "W2609250418",
+   2017
   ],
   [
    "W2019720014",
    2005
   ],
   [
+   "W3138924974",
+   2021
+  ],
+  [
+   "W2808810245",
+   2018
+  ],
+  [
+   "W2059291920",
+   1974
+  ],
+  [
+   "W3003862857",
+   2020
+  ],
+  [
+   "W2872332010",
+   2018
+  ],
+  [
    "W2035971144",
    2007
+  ],
+  [
+   "W2785316371",
+   2018
   ],
   [
    "W572279269",
    2011
   ],
   [
+   "W2509860226",
+   2016
+  ],
+  [
    "W2560603808",
    2016
+  ],
+  [
+   "W2760547950",
+   2018
   ],
   [
    "W2586236042",
@@ -68,11 +148,31 @@
    2018
   ],
   [
+   "W2909452395",
+   2019
+  ],
+  [
+   "W3113300828",
+   2021
+  ],
+  [
    "W2631081867",
    2017
   ],
   [
+   "W2803753421",
+   2018
+  ],
+  [
    "W2889412060",
+   2018
+  ],
+  [
+   "W2516964143",
+   2016
+  ],
+  [
+   "W2903890472",
    2018
   ],
   [
@@ -92,6 +192,18 @@
    2020
   ],
   [
+   "W2951739454",
+   2019
+  ],
+  [
+   "W2992692439",
+   2019
+  ],
+  [
+   "W2789002740",
+   2018
+  ],
+  [
    "W2980176521",
    2019
   ],
@@ -102,6 +214,18 @@
   [
    "W2041371899",
    2014
+  ],
+  [
+   "W2602441310",
+   2017
+  ],
+  [
+   "W2574840814",
+   2017
+  ],
+  [
+   "W2601135536",
+   2017
   ],
   [
    "W3107425836",
@@ -116,6 +240,10 @@
    2018
   ],
   [
+   "W3040784910",
+   2020
+  ],
+  [
    "W2999815819",
    2020
   ],
@@ -124,8 +252,24 @@
    2020
   ],
   [
+   "W2949732208",
+   2019
+  ],
+  [
+   "W2570113925",
+   2017
+  ],
+  [
+   "W2976077326",
+   2019
+  ],
+  [
    "W2027526029",
    2007
+  ],
+  [
+   "W2951336360",
+   2020
   ],
   [
    "W2803025171",
@@ -156,15 +300,35 @@
    2019
   ],
   [
+   "W2963858235",
+   2019
+  ],
+  [
+   "W2886864340",
+   2018
+  ],
+  [
    "W2475458100",
    2003
+  ],
+  [
+   "W2752144688",
+   2017
   ],
   [
    "W3045845471",
    2020
   ],
   [
+   "W2982164246",
+   2019
+  ],
+  [
    "W2909392949",
+   2019
+  ],
+  [
+   "W3109254449",
    2019
   ],
   [
@@ -176,6 +340,14 @@
    2006
   ],
   [
+   "W2917342162",
+   2019
+  ],
+  [
+   "W1971830745",
+   1996
+  ],
+  [
    "W2564999936",
    2016
   ],
@@ -184,12 +356,24 @@
    2021
   ],
   [
+   "W3017338266",
+   2020
+  ],
+  [
+   "W3008696618",
+   2020
+  ],
+  [
    "W2975321582",
    2019
   ],
   [
    "W2588759037",
    2017
+  ],
+  [
+   "W2988986279",
+   2019
   ],
   [
    "W2949545642",
@@ -212,6 +396,10 @@
    2014
   ],
   [
+   "W3026452568",
+   2020
+  ],
+  [
    "W2171837882",
    2004
   ],
@@ -224,195 +412,7 @@
    2019
   ],
   [
-   "W2901429638",
-   2018
-  ],
-  [
-   "W2255825392",
-   2016
-  ],
-  [
-   "W2065846791",
-   2006
-  ],
-  [
-   "W3010332095",
-   2020
-  ],
-  [
-   "W2956045439",
-   2019
-  ],
-  [
-   "W2901215701",
-   2018
-  ],
-  [
-   "W2062785849",
-   2014
-  ],
-  [
-   "W2111336263",
-   2008
-  ],
-  [
-   "W2009527558",
-   2004
-  ],
-  [
-   "W3148738397",
-   2021
-  ],
-  [
-   "W2604537950",
-   2017
-  ],
-  [
-   "W2556647056",
-   2016
-  ],
-  [
-   "W1503894588",
-   2006
-  ],
-  [
-   "W2181368548",
-   2016
-  ],
-  [
-   "W2058586158",
-   2014
-  ],
-  [
-   "W4313435862",
-   2022
-  ],
-  [
-   "W1983025701",
-   2002
-  ],
-  [
-   "W3001137607",
-   2020
-  ],
-  [
-   "W2975747882",
-   2019
-  ],
-  [
-   "W2544770515",
-   2016
-  ],
-  [
-   "W2061934519",
-   2003
-  ],
-  [
-   "W2605048719",
-   2017
-  ],
-  [
-   "W2273232783",
-   2016
-  ],
-  [
-   "W1971513335",
-   2009
-  ],
-  [
-   "W3036024555",
-   2021
-  ],
-  [
-   "W2465297350",
-   2016
-  ],
-  [
-   "W2595537486",
-   2017
-  ],
-  [
-   "W2097422192",
-   2008
-  ],
-  [
-   "W3127573413",
-   2021
-  ],
-  [
-   "W3015258065",
-   2020
-  ],
-  [
-   "W1987598692",
-   2012
-  ],
-  [
-   "W2767613278",
-   2018
-  ],
-  [
-   "W2782547620",
-   2018
-  ],
-  [
-   "W2946964936",
-   2019
-  ],
-  [
-   "W2944507549",
-   2019
-  ],
-  [
-   "W2117989646",
-   2015
-  ],
-  [
-   "W3040051351",
-   2020
-  ],
-  [
-   "W2813197863",
-   2018
-  ],
-  [
-   "W2949407720",
-   2019
-  ],
-  [
-   "W1993418585",
-   2010
-  ],
-  [
-   "W2902882062",
-   2018
-  ],
-  [
-   "W2810648485",
-   2018
-  ],
-  [
-   "W2028536332",
-   2015
-  ],
-  [
-   "W2004131532",
-   2008
-  ],
-  [
-   "W2067942114",
-   2010
-  ],
-  [
-   "W2031318626",
-   2006
-  ],
-  [
-   "W3047711291",
-   2020
-  ],
-  [
-   "W2794935472",
+   "W3125064629",
    2018
   ]
  ]

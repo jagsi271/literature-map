@@ -3,15 +3,15 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "((\"mobile phone\" OR \"mobile phones\" OR \"cell phone\" OR smartphone) AND (\"everyday life\" OR everyday OR gender) NOT (addiction OR \"problematic smartphone use\")) OR (ICT4D OR ICTD OR (\"mobile communication\" AND development)) OR (\"mobile internet\" AND (users OR everyday OR rural OR women))",
+ "query": "((\"mobile phone\" OR \"mobile phones\" OR \"cell phone\" OR smartphone) AND (\"everyday life\" OR everyday OR gender) NOT (addiction OR \"problematic smartphone use\")) OR (ICT4D OR ICTD OR (\"mobile communication\" AND development)) OR (\"mobile internet\" AND (users OR everyday OR rural OR women)) OR ((\"mobile phone\" OR \"mobile phones\" OR smartphone OR smartphones OR \"mobile media\") AND (use OR usage OR adoption OR reticence) AND (India OR rural OR \"older adults\" OR elderly))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:((\"mobile phone\" OR \"mobile phones\" OR \"cell phone\" OR smartphone) AND (\"everyday life\" OR everyday OR gender) NOT (addiction OR \"problematic smartphone use\")) OR (ICT4D OR ICTD OR (\"mobile communication\" AND development)) OR (\"mobile internet\" AND (users OR everyday OR rural OR women)),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:((\"mobile phone\" OR \"mobile phones\" OR \"cell phone\" OR smartphone) AND (\"everyday life\" OR everyday OR gender) NOT (addiction OR \"problematic smartphone use\")) OR (ICT4D OR ICTD OR (\"mobile communication\" AND development)) OR (\"mobile internet\" AND (users OR everyday OR rural OR women)) OR ((\"mobile phone\" OR \"mobile phones\" OR smartphone OR smartphones OR \"mobile media\") AND (use OR usage OR adoption OR reticence) AND (India OR rural OR \"older adults\" OR elderly)),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
- "oql": "get works where retracted is (false)\n  and title-abstract has (\"ICT4D\" OR \"ICTD\" OR ((\"cell phone\" OR \"mobile phone\" OR \"mobile phones\" OR \"smartphone\") AND (\"everyday life\" OR \"everyday\" OR \"gender\") NOT (\"problematic smartphone use\" OR \"addiction\")) OR (\"mobile communication\" AND \"development\") OR (\"mobile internet\" AND (\"everyday\" OR \"rural\" OR \"users\" OR \"women\")))",
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"ICT4D\" OR \"ICTD\" OR ((\"cell phone\" OR \"mobile phone\" OR \"mobile phones\" OR \"smartphone\") AND (\"everyday life\" OR \"everyday\" OR \"gender\") NOT (\"problematic smartphone use\" OR \"addiction\")) OR (\"mobile communication\" AND \"development\") OR (\"mobile internet\" AND (\"everyday\" OR \"rural\" OR \"users\" OR \"women\")) OR ((\"India\" OR \"older adults\" OR \"elderly\" OR \"rural\") AND (\"mobile media\" OR \"mobile phone\" OR \"mobile phones\" OR \"smartphone\" OR \"smartphones\") AND (\"adoption\" OR \"reticence\" OR \"usage\" OR \"use\")))",
  "page": 1,
- "total_results": 28545,
+ "total_results": 39848,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_B13_landmarks.json.gz",
  "results": [
@@ -36,8 +36,16 @@
    2018
   ],
   [
+   "W3122763283",
+   2010
+  ],
+  [
    "W2149967206",
    2005
+  ],
+  [
+   "W1964285328",
+   2007
   ],
   [
    "W3126686235",
@@ -50,6 +58,10 @@
   [
    "W2048799165",
    2009
+  ],
+  [
+   "W2142930729",
+   2012
   ],
   [
    "W2284219800",
@@ -80,6 +92,10 @@
    2019
   ],
   [
+   "W2586873575",
+   2017
+  ],
+  [
    "W178691628",
    2015
   ],
@@ -92,12 +108,28 @@
    2013
   ],
   [
+   "W1857382374",
+   2012
+  ],
+  [
    "W2100025715",
    2006
   ],
   [
+   "W2265482988",
+   2016
+  ],
+  [
+   "W3037505531",
+   2020
+  ],
+  [
    "W1600393059",
    2010
+  ],
+  [
+   "W3015345229",
+   2020
   ],
   [
    "W4235675284",
@@ -144,8 +176,16 @@
    2012
   ],
   [
+   "W2104431608",
+   2009
+  ],
+  [
    "W2915905517",
    2018
+  ],
+  [
+   "W2108760064",
+   2013
   ],
   [
    "W2003255646",
@@ -212,6 +252,10 @@
    2009
   ],
   [
+   "W2517763697",
+   2016
+  ],
+  [
    "W2108685415",
    2007
   ],
@@ -230,6 +274,10 @@
   [
    "W4312940001",
    2022
+  ],
+  [
+   "W2188285942",
+   2015
   ],
   [
    "W2142057670",
@@ -262,6 +310,10 @@
   [
    "W2139724640",
    2006
+  ],
+  [
+   "W2625237324",
+   2017
   ],
   [
    "W425483793",
@@ -300,6 +352,10 @@
    2006
   ],
   [
+   "W2254170564",
+   2016
+  ],
+  [
    "W1481956422",
    2006
   ],
@@ -312,6 +368,18 @@
    2019
   ],
   [
+   "W3139646219",
+   2021
+  ],
+  [
+   "W2943952292",
+   2019
+  ],
+  [
+   "W2013558815",
+   2015
+  ],
+  [
    "W2736552576",
    2017
   ],
@@ -322,6 +390,14 @@
   [
    "W2085858365",
    2004
+  ],
+  [
+   "W1989314007",
+   1952
+  ],
+  [
+   "W2775819279",
+   2017
   ],
   [
    "W3006120578",
@@ -338,82 +414,6 @@
   [
    "W2051681117",
    2006
-  ],
-  [
-   "W1583075929",
-   2009
-  ],
-  [
-   "W2056591916",
-   2011
-  ],
-  [
-   "W2532095825",
-   2016
-  ],
-  [
-   "W3135089279",
-   2021
-  ],
-  [
-   "W2094331245",
-   2008
-  ],
-  [
-   "W2022106248",
-   2011
-  ],
-  [
-   "W2569080466",
-   2017
-  ],
-  [
-   "W2120909070",
-   2008
-  ],
-  [
-   "W2334884533",
-   2016
-  ],
-  [
-   "W2056068852",
-   2011
-  ],
-  [
-   "W1527254971",
-   2010
-  ],
-  [
-   "W2741096981",
-   2006
-  ],
-  [
-   "W2594855606",
-   2017
-  ],
-  [
-   "W1486457878",
-   2015
-  ],
-  [
-   "W2889156017",
-   2018
-  ],
-  [
-   "W2194774191",
-   2015
-  ],
-  [
-   "W1947182982",
-   2020
-  ],
-  [
-   "W2606540748",
-   2017
-  ],
-  [
-   "W2059615651",
-   2014
   ]
  ]
 }

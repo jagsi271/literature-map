@@ -3,15 +3,15 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"master plan\" AND (city OR urban)) OR (\"land use regulation\" OR \"land-use regulation\" OR zoning AND (urban OR city OR housing)) OR (\"urban planning\" AND (planners OR \"planning system\" OR \"planning systems\" OR \"planning practice\" OR \"planning policy\" OR \"planning politics\" OR \"politics of planning\" OR \"planning regime\")) OR (\"development control\" OR \"planning regulation\" OR \"building regulations\" OR \"planning law\")",
+ "query": "(\"master plan\" AND (city OR urban)) OR (\"land use regulation\" OR \"land-use regulation\" OR (zoning AND (urban OR city OR housing))) OR (\"urban planning\" AND (planners OR \"planning system\" OR \"planning systems\" OR \"planning practice\" OR \"planning policy\" OR \"planning politics\" OR \"politics of planning\" OR \"planning regime\")) OR (\"development control\" OR \"planning regulation\" OR \"building regulations\" OR \"planning law\")",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"master plan\" AND (city OR urban)) OR (\"land use regulation\" OR \"land-use regulation\" OR zoning AND (urban OR city OR housing)) OR (\"urban planning\" AND (planners OR \"planning system\" OR \"planning systems\" OR \"planning practice\" OR \"planning policy\" OR \"planning politics\" OR \"politics of planning\" OR \"planning regime\")) OR (\"development control\" OR \"planning regulation\" OR \"building regulations\" OR \"planning law\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"master plan\" AND (city OR urban)) OR (\"land use regulation\" OR \"land-use regulation\" OR (zoning AND (urban OR city OR housing))) OR (\"urban planning\" AND (planners OR \"planning system\" OR \"planning systems\" OR \"planning practice\" OR \"planning policy\" OR \"planning politics\" OR \"politics of planning\" OR \"planning regime\")) OR (\"development control\" OR \"planning regulation\" OR \"building regulations\" OR \"planning law\"),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
  "oql": "get works where retracted is (false)\n  and title-abstract has (\"building regulations\" OR \"development control\" OR \"land use regulation\" OR \"land-use regulation\" OR \"planning law\" OR \"planning regulation\" OR (\"master plan\" AND (\"city\" OR \"urban\")) OR (\"urban planning\" AND (\"planning policy\" OR \"planning politics\" OR \"planning practice\" OR \"planning regime\" OR \"planning system\" OR \"planning systems\" OR \"politics of planning\" OR \"planners\")) OR (\"zoning\" AND (\"city\" OR \"housing\" OR \"urban\")))",
  "page": 1,
- "total_results": 50715,
+ "total_results": 52701,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A2_landmarks.json.gz",
  "results": [
@@ -38,6 +38,10 @@
   [
    "W2131545168",
    2006
+  ],
+  [
+   "W2147406638",
+   1996
   ],
   [
    "W2091435714",
@@ -148,6 +152,10 @@
    2020
   ],
   [
+   "W3125564691",
+   2008
+  ],
+  [
    "W2149283938",
    2015
   ],
@@ -224,6 +232,10 @@
    2016
   ],
   [
+   "W1973822554",
+   2014
+  ],
+  [
    "W1498613917",
    1986
   ],
@@ -276,6 +288,10 @@
    2010
   ],
   [
+   "W2086853082",
+   2000
+  ],
+  [
    "W2120699920",
    2010
   ],
@@ -292,8 +308,16 @@
    2018
   ],
   [
+   "W1536389629",
+   2005
+  ],
+  [
    "W2121605199",
    2012
+  ],
+  [
+   "W2147972815",
+   2006
   ],
   [
    "W2065248888",
@@ -344,6 +368,10 @@
    2003
   ],
   [
+   "W1974994817",
+   1999
+  ],
+  [
    "W2043864789",
    2008
   ],
@@ -386,34 +414,6 @@
   [
    "W2767633750",
    2017
-  ],
-  [
-   "W2098590423",
-   2003
-  ],
-  [
-   "W1984161670",
-   1944
-  ],
-  [
-   "W2055616671",
-   1983
-  ],
-  [
-   "W2591714971",
-   2017
-  ],
-  [
-   "W2170777031",
-   2009
-  ],
-  [
-   "W2086384823",
-   2015
-  ],
-  [
-   "W2022650679",
-   2009
   ]
  ]
 }

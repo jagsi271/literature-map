@@ -1657,3 +1657,136 @@ W2068341557,S2,exclude,"Claude (manual review, Stage 2)",train-scheduling optimi
 W4366779841,S2,exclude,"Claude (manual review, Stage 2)",timetable optimisation
 W4410017134,S2,exclude,"Claude (manual review, Stage 2)",transfer-optimisation models
 W4402532576,S2,exclude,"Claude (manual review, Stage 2)",timetable optimisation
+W3023478198,A1,exclude,"Claude (manual review, Stage 2)",credit risk model
+W3126104344,A1,exclude,"Claude (manual review, Stage 2)",urban spatial structure (spatial decentralisation)
+W1625772672,A1,exclude,"Claude (manual review, Stage 2)",rural migrant workers in China (A11)
+W2075789206,A1,exclude,"Claude (manual review, Stage 2)",bank tax planning
+W4394571663,A1,include,"Claude (manual review, Stage 2)",local government finance (chapter)
+W4403030891,A1,include,"Claude (manual review, Stage 2)",local government finance commentary (chapter)
+W1498393245,A3,include,"Claude (manual review, Stage 2)",unauthorised colonies and the city of Delhi (thesis)
+W2291719123,A3,include,"Claude (manual review, Stage 2)",planning for health in Delhi's resettlement colonies (thesis)
+W171857226,A3,exclude,"Claude (manual review, Stage 2)",leprosy survey
+W2974114840,A3,exclude,"Claude (manual review, Stage 2)",sleep quality survey
+W161443336,A3,exclude,"Claude (manual review, Stage 2)",self-medication survey
+W3011469553,A3,include,"Claude (manual review, Stage 2)",architecture and TB burden in Mumbai resettlement colonies (housing form; flag false positive)
+W2954434280,A5,exclude,"Claude (manual review, Stage 2)",news item on protest
+W4385521547,A5,include,"Claude (manual review, Stage 2)",Gurgaon private city development (World Bank chapter)
+W2123697484,A5,exclude,"Claude (manual review, Stage 2)",disaster recovery and social capital
+W4281622400,A5,exclude,"Claude (manual review, Stage 2)",LST and new town development (remote sensing)
+W4323059210,A5,exclude,"Claude (manual review, Stage 2)",LULC and LST in a satellite town
+W2993429231,A6,include,"Claude (manual review, Stage 2)",undercounting urbanisation in India (flag false positive)
+W3173915584,A6,exclude,"Claude (manual review, Stage 2)",census handbook
+W4405967779,A6,exclude,"Claude (manual review, Stage 2)",Alzheimer's undercounting
+W2898832531,A10,exclude,"Claude (manual review, Stage 2)",book review (waste pickers in Calcutta)
+W2411201101,A10,include,"Claude (manual review, Stage 2)",waste pickers in Dhaka
+W3163705252,A10,exclude,"Claude (manual review, Stage 2)",plastic burning risk review
+W2765164944,A10,include,"Claude (manual review, Stage 2)",informal waste pickers and recycling in South African cities
+W2945901249,A10,exclude,"Claude (manual review, Stage 2)",health protocol for waste pickers
+W7134913847,A10,include,"Claude (manual review, Stage 2)",child waste pickers in Karachi (flag false positive)
+W7134964867,A10,include,"Claude (manual review, Stage 2)","waste pickers' struggle for access to waste, Lusaka"
+W582946626,A11,include,"Claude (manual review, Stage 2)",rural-urban migration and indigeneity in Dhaka
+W1968556901,A11,include,"Claude (manual review, Stage 2)",systems approach to rural-urban migration theory
+W326100515,A11,exclude,"Claude (manual review, Stage 2)",land-use transitions
+W2146830943,A11,exclude,"Claude (manual review, Stage 2)",China urban transformation review
+W1796535361,A11,exclude,"Claude (manual review, Stage 2)",population and water
+W2032622934,A11,exclude,"Claude (manual review, Stage 2)",Latin American informal sector (A10)
+W2170768690,A11,exclude,"Claude (manual review, Stage 2)",obesity and diabetes in migrants
+W2165469867,A11,exclude,"Claude (manual review, Stage 2)",rural poverty in America
+W2000333711,A11,exclude,"Claude (manual review, Stage 2)",waste generation estimates
+W1997336724,A11,exclude,"Claude (manual review, Stage 2)",dengue ecology
+W3114653318,A11,exclude,"Claude (manual review, Stage 2)",LULC Thimphu
+W1622038256,A11,exclude,"Claude (manual review, Stage 2)",labour market reform in China (migration one chapter)
+W1967224182,A12,exclude,"Claude (manual review, Stage 2)",diabetes prevalence
+W2332318874,A12,exclude,"Claude (manual review, Stage 2)",Korean immigrant religion
+W2115484706,A12,exclude,"Claude (manual review, Stage 2)",Chinese press
+W4229810331,A12,include,"Claude (manual review, Stage 2)",urban middle-class parents in China (class and the city)
+W1899507036,A12,include,"Claude (manual review, Stage 2)",uneven development of public space and class (High Line) (also A9)
+W4405541860,A12,exclude,"Claude (manual review, Stage 2)",history of telephones in Russia
+W4404358116,A8,include,"Claude (manual review, Stage 2)",public transport subsidies and affordability in Latin American cities (flag false positive)
+W4416716075,A8,exclude,"Claude (manual review, Stage 2)",predictive maintenance ML
+W2037500150,A13,exclude,"Claude (manual review, Stage 2)",athletes' experiences of the Games (event management)
+W1575684216,A13,include,"Claude (manual review, Stage 2)",mega-events and hydrology for Delhi beyond the Commonwealth Games (thesis)
+W2253217096,A13,include,"Claude (manual review, Stage 2)",Commonwealth Games and a beggar-free Delhi
+W367489777,A13,include,"Claude (manual review, Stage 2)",post-war urban beautification in Colombo
+W1994566213,A13,include,"Claude (manual review, Stage 2)",politics of redevelopment in Old Delhi (Shahjahanabad)
+W2048179989,A13,exclude,"Claude (manual review, Stage 2)",queer space and governance
+W589323080,A13,include,"Claude (manual review, Stage 2)",invention of the historic monument and urban heritage (Choay)
+W2111051663,A13,exclude,"Claude (manual review, Stage 2)",archaeology of the contemporary world
+W2946488308,A13,exclude,"Claude (manual review, Stage 2)",overtourism executive summary
+W2044063987,A13,exclude,"Claude (manual review, Stage 2)",swimmers' lactate threshold
+W3045097095,A13,exclude,"Claude (manual review, Stage 2)",TikTok infrastructuralisation (B1)
+W7134041823,A13,include,"Claude (manual review, Stage 2)",city branding (research field review)
+W4406404239,A13,exclude,"Claude (manual review, Stage 2)",art philosophy and an ancient walled city
+W7202156542,A13,exclude,"Claude (manual review, Stage 2)",HBIM strategy
+W7160063141,A13,exclude,"Claude (manual review, Stage 2)",digital twin renovation simulation
+W4407691210,B4,exclude,"Claude (manual review, Stage 2)",loan-approval ML
+W4367668513,B4,exclude,"Claude (manual review, Stage 2)",automation bias in radiology
+W1543347785,B5,include,"Claude (manual review, Stage 2)",biometric smartcards and state capacity in India (flag false positive)
+W3123324726,B5,include,"Claude (manual review, Stage 2)",biometric smartcards and state capacity (NBER version)
+W4296837992,B5,include,"Claude (manual review, Stage 2)",waiting for state documents and welfare among Delhi street traders
+W4391540583,B5,include,"Claude (manual review, Stage 2)",the ideal biometric child in the Aadhaar welfare state
+W3029438795,B8,include,"Claude (manual review, Stage 2)",Hindutva and the diaspora on social media
+W2803965743,B8,include,"Claude (manual review, Stage 2)","vigilante publics, Hindutva and WhatsApp"
+W7155009995,B8,exclude,"Claude (manual review, Stage 2)",media framing of youth protest (not social media)
+W2149231765,B8,include,"Claude (manual review, Stage 2)",digital media in the Egyptian and Tunisian upheavals
+W4399869163,B8,include,"Claude (manual review, Stage 2)",social media and banal nationalism (flag false positive)
+W3205928582,B12,include,"Claude (manual review, Stage 2)",infrastructuring telehealth (flag false positive)
+W4396833631,B12,include,"Claude (manual review, Stage 2)",commoning and infrastructuring in South Asian HCI
+W7155918791,B12,exclude,"Claude (manual review, Stage 2)",gendered infrastructure in a Hyderabad basti (A7/A12)
+W1995072497,B12,include,"Claude (manual review, Stage 2)",participatory design and infrastructuring
+W2019609945,B12,include,"Claude (manual review, Stage 2)",agonistic participatory design and infrastructuring
+W4255153269,B12,exclude,"Claude (manual review, Stage 2)",infrastructuring environments (not digital)
+W2900728025,B12,include,"Claude (manual review, Stage 2)",data infrastructures and topologies of education policy
+W3093781492,B12,include,"Claude (manual review, Stage 2)",finance/security infrastructures (critical infrastructure studies)
+W3009796604,B12,include,"Claude (manual review, Stage 2)","infrastructuring, institutioning and commoning"
+W2572518329,B12,include,"Claude (manual review, Stage 2)","data centres, waste heat and infrastructural convergence"
+W3021222781,B12,include,"Claude (manual review, Stage 2)",geographies of digital infrastructure (cloud)
+W2811176550,B12,exclude,"Claude (manual review, Stage 2)",infrastructures of liberal life (not digital)
+W4312132909,B12,exclude,"Claude (manual review, Stage 2)",infrastructuring drought (not digital)
+W1986676162,B13,include,"Claude (manual review, Stage 2)",mobile phones for healthcare in rural India (use and access)
+W3207776729,B13,exclude,"Claude (manual review, Stage 2)",mobile phone addiction
+W2104431608,B13,exclude,"Claude (manual review, Stage 2)",mobile microscopy
+W2517763697,B13,include,"Claude (manual review, Stage 2)",social technology use and loneliness among older adults
+W3139646219,B13,exclude,"Claude (manual review, Stage 2)",activity recognition
+W4367597352,B13,include,"Claude (manual review, Stage 2)","negotiating mobile phone use without ownership, rural Malawi"
+W4389887283,B13,exclude,"Claude (manual review, Stage 2)",child screen use (clinical)
+W7154207895,B13,exclude,"Claude (manual review, Stage 2)",dementia smartphone note
+W7197783906,C2,include,"Claude (manual review, Stage 2)",last-mile e-commerce delivery and urban distribution in India
+W7167493872,C2,include,"Claude (manual review, Stage 2)",urban freight micro-regulation and e-commerce logistics in the city
+W4412475303,C4,exclude,"Claude (manual review, Stage 2)",AI in architecture education
+W4253893353,C9,include,"Claude (manual review, Stage 2)",ride-hailing firm consolidation in India (briefing)
+W4400945991,C9,exclude,"Claude (manual review, Stage 2)",electric MaaS cost assessment
+W2904832339,C9,exclude,"Claude (manual review, Stage 2)",ride-hailing demand forecasting
+W2811315250,C9,exclude,"Claude (manual review, Stage 2)",on-demand platform model
+W3138924974,C9,exclude,"Claude (manual review, Stage 2)",smart mobility technologies review
+W2808810245,C9,exclude,"Claude (manual review, Stage 2)",order dispatch algorithm
+W3109254449,C9,exclude,"Claude (manual review, Stage 2)",ride-sourcing demand prediction
+W2889381623,S2,include,"Claude (manual review, Stage 2)","waiting for the state: gender, citizenship and bureaucracy in India (flag false positive)"
+W586247727,S2,include,"Claude (manual review, Stage 2)",waiting for the state: haemophilia and biological citizenship in Nepal
+W4402302897,S2,exclude,"Claude (manual review, Stage 2)",bureaucracy and time in trans healthcare (UK)
+W4410628395,S2,exclude,"Claude (manual review, Stage 2)",same chapter (duplicate)
+W2790640733,S4,exclude,"Claude (manual review, Stage 2)",dengue at NCMC medical college (acronym clash)
+W603828171,S4,include,"Claude (manual review, Stage 2)",business rules for an automatic fare collection system and integrated ticketing
+W4254724188,S4,exclude,"Claude (manual review, Stage 2)",smart card data analytics
+W4300127164,S4,exclude,"Claude (manual review, Stage 2)",digital payment behaviour in metro cities (B6)
+W3160041148,S4,include,"Claude (manual review, Stage 2)",multimodal planning and missing fare integration in Indian cities
+W4413085638,S4,include,"Claude (manual review, Stage 2)","integrated fare systems and MaaS strategies, Kachchh"
+W4411572965,S4,include,"Claude (manual review, Stage 2)",integrated ticketing and urban mobility policy (Bengaluru)
+W7112439041,S4,exclude,"Claude (manual review, Stage 2)",digital currencies in Asia
+W2044985623,S4,exclude,"Claude (manual review, Stage 2)",smart card data review (methods)
+W2062785849,S4,exclude,"Claude (manual review, Stage 2)",passenger segmentation with smart card data
+W2605048719,S4,exclude,"Claude (manual review, Stage 2)",smart card data behaviour change
+W1993418585,S4,include,"Claude (manual review, Stage 2)",Seoul's distance-based integrated smart-card fare scheme: transfers analysis
+W2794935472,S4,exclude,"Claude (manual review, Stage 2)",waiting-time distributions from smart card data
+W2400471308,S4,exclude,"Claude (manual review, Stage 2)",route choice from smart card data
+W2090431844,S4,exclude,"Claude (manual review, Stage 2)",uses of smart card data for planning
+W4410027442,S4,exclude,"Claude (manual review, Stage 2)",NFC fare system engineering
+W7204516586,S4,include,"Claude (manual review, Stage 2)",contactless fare payment in rural transit
+W4405308142,S4,exclude,"Claude (manual review, Stage 2)",smart card data shock effects
+W7202362600,S4,exclude,"Claude (manual review, Stage 2)",destination inference method
+W4281256849,S4,exclude,"Claude (manual review, Stage 2)",demand forecasting
+W7130611888,S4,exclude,"Claude (manual review, Stage 2)",anchoring regions mining
+W4414648899,S4,exclude,"Claude (manual review, Stage 2)",anchoring regions mining (preprint)
+W4389635950,S4,exclude,"Claude (manual review, Stage 2)",route choice modelling
+W4413441213,S4,include,"Claude (manual review, Stage 2)",transit fares and accessibility inequality for São Paulo favela residents
+W4381665699,S4,exclude,"Claude (manual review, Stage 2)",travel-time prediction benchmark

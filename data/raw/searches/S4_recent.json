@@ -3,25 +3,145 @@
  "slice": "recent",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR \"fare policy\" AND transit OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment)))",
+ "query": "(\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR (\"fare policy\" AND transit) OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment)))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR \"fare policy\" AND transit OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment))),is_retracted:false,publication_year:2022-2026",
+ "filter": "title_and_abstract.search.exact:(\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR (\"fare policy\" AND transit) OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment))),is_retracted:false,publication_year:2022-2026",
  "sort": "relevance_score:desc",
  "per_page": 40,
  "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"NCMC\" OR \"National Common Mobility Card\" OR \"fare integration\" OR \"integrated fare\" OR \"integrated ticketing\" OR \"transit card\" OR \"transit cards\" OR (\"fare policy\" AND \"transit\") OR ((\"public transport\" OR \"bus\" OR \"metro\" OR \"transit\") AND (\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"fare\" OR \"fares\" OR \"payment\" OR \"ticketing\")))",
  "page": 1,
- "total_results": 92,
+ "total_results": 400,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_S4_recent.json.gz",
  "results": [
+  [
+   "W7167941268",
+   2026
+  ],
+  [
+   "W4410099645",
+   2025
+  ],
+  [
+   "W4410076692",
+   2025
+  ],
+  [
+   "W4386692370",
+   2023
+  ],
+  [
+   "W7117369667",
+   2025
+  ],
+  [
+   "W7138978933",
+   2026
+  ],
+  [
+   "W4410027442",
+   2025
+  ],
+  [
+   "W4398653678",
+   2022
+  ],
+  [
+   "W4308002662",
+   2022
+  ],
+  [
+   "W4308002765",
+   2022
+  ],
+  [
+   "W4312652388",
+   2022
+  ],
+  [
+   "W7161172117",
+   2026
+  ],
   [
    "W7164902024",
    2026
   ],
   [
+   "W7204516586",
+   2026
+  ],
+  [
+   "W4405308142",
+   2024
+  ],
+  [
+   "W4390353477",
+   2023
+  ],
+  [
+   "W7202362600",
+   2026
+  ],
+  [
    "W4417342358",
    2025
+  ],
+  [
+   "W7212429070",
+   2026
+  ],
+  [
+   "W4281256849",
+   2022
+  ],
+  [
+   "W4399930207",
+   2024
+  ],
+  [
+   "W4395456176",
+   2024
+  ],
+  [
+   "W4394892187",
+   2024
+  ],
+  [
+   "W4323906542",
+   2023
+  ],
+  [
+   "W7130611888",
+   2026
+  ],
+  [
+   "W4414648899",
+   2025
+  ],
+  [
+   "W4417337242",
+   2025
+  ],
+  [
+   "W4296232817",
+   2022
+  ],
+  [
+   "W4389635950",
+   2023
+  ],
+  [
+   "W7160445103",
+   2024
+  ],
+  [
+   "W4413441213",
+   2025
+  ],
+  [
+   "W4407361041",
+   2024
   ],
   [
    "W4414420346",
@@ -32,148 +152,28 @@
    2026
   ],
   [
-   "W7147690127",
-   2026
-  ],
-  [
-   "W4312315298",
+   "W4225565048",
    2022
   ],
   [
-   "W7167591068",
-   2026
-  ],
-  [
-   "W4413044876",
+   "W7214543578",
    2025
   ],
   [
-   "W4376465076",
-   2023
-  ],
-  [
-   "W4404643903",
-   2024
-  ],
-  [
-   "W4390945034",
-   2024
-  ],
-  [
-   "W4415170756",
-   2025
-  ],
-  [
-   "W7128589815",
-   2026
-  ],
-  [
-   "W4400613651",
-   2024
-  ],
-  [
-   "W4411292199",
-   2025
-  ],
-  [
-   "W4312641045",
+   "W4308143707",
    2022
   ],
   [
-   "W7108081431",
-   2025
-  ],
-  [
-   "W7126827500",
-   2026
-  ],
-  [
-   "W4391074600",
-   2024
-  ],
-  [
-   "W4313423389",
-   2022
-  ],
-  [
-   "W7112206060",
-   2025
-  ],
-  [
-   "W4414036410",
+   "W4381665699",
    2023
   ],
   [
-   "W4367018287",
-   2023
-  ],
-  [
-   "W4413890012",
+   "W7218169106",
    2025
   ],
   [
-   "W7119417644",
-   2024
-  ],
-  [
-   "W4389389565",
-   2023
-  ],
-  [
-   "W4400625223",
-   2024
-  ],
-  [
-   "W4392025883",
-   2024
-  ],
-  [
-   "W4399783681",
-   2024
-  ],
-  [
-   "W7164803414",
-   2026
-  ],
-  [
-   "W7117492987",
+   "W7118020754",
    2025
-  ],
-  [
-   "W4416674753",
-   2025
-  ],
-  [
-   "W4407571010",
-   2025
-  ],
-  [
-   "W4411724500",
-   2025
-  ],
-  [
-   "W4293536380",
-   2022
-  ],
-  [
-   "W4387167109",
-   2023
-  ],
-  [
-   "W7154560847",
-   2025
-  ],
-  [
-   "W4280502515",
-   2022
-  ],
-  [
-   "W7167017468",
-   2026
-  ],
-  [
-   "W4396600948",
-   2024
   ]
  ]
 }

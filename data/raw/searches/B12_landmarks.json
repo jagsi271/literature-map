@@ -3,15 +3,15 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"infrastructure studies\" OR infrastructuring OR \"information infrastructure\" AND sociotechnical) OR (\"digital infrastructure\" AND (politics OR power OR sociotechnical OR \"science and technology studies\")) OR (\"sociotechnical imaginaries\" OR \"socio-technical imaginaries\") OR (\"science and technology studies\" AND digital AND infrastructure)",
+ "query": "(\"infrastructure studies\" OR infrastructuring OR (\"information infrastructure\" AND sociotechnical)) OR (\"digital infrastructure\" AND (politics OR power OR sociotechnical OR \"science and technology studies\")) OR (\"sociotechnical imaginaries\" OR \"socio-technical imaginaries\") OR (\"science and technology studies\" AND digital AND infrastructure)",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"infrastructure studies\" OR infrastructuring OR \"information infrastructure\" AND sociotechnical) OR (\"digital infrastructure\" AND (politics OR power OR sociotechnical OR \"science and technology studies\")) OR (\"sociotechnical imaginaries\" OR \"socio-technical imaginaries\") OR (\"science and technology studies\" AND digital AND infrastructure),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"infrastructure studies\" OR infrastructuring OR (\"information infrastructure\" AND sociotechnical)) OR (\"digital infrastructure\" AND (politics OR power OR sociotechnical OR \"science and technology studies\")) OR (\"sociotechnical imaginaries\" OR \"socio-technical imaginaries\") OR (\"science and technology studies\" AND digital AND infrastructure),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
  "oql": "get works where retracted is (false)\n  and title-abstract has (\"infrastructure studies\" OR \"socio-technical imaginaries\" OR \"sociotechnical imaginaries\" OR \"infrastructuring\" OR (\"digital infrastructure\" AND (\"science and technology studies\" OR \"politics\" OR \"power\" OR \"sociotechnical\")) OR (\"information infrastructure\" AND \"sociotechnical\") OR (\"science and technology studies\" AND \"digital\" AND \"infrastructure\"))",
  "page": 1,
- "total_results": 3703,
+ "total_results": 5632,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_B12_landmarks.json.gz",
  "results": [
@@ -20,12 +20,40 @@
    2009
   ],
   [
+   "W2501145764",
+   2016
+  ],
+  [
    "W2116132371",
    2010
   ],
   [
    "W4244528778",
    2016
+  ],
+  [
+   "W1995072497",
+   2010
+  ],
+  [
+   "W2112340721",
+   2009
+  ],
+  [
+   "W2098408698",
+   2009
+  ],
+  [
+   "W2118916162",
+   2013
+  ],
+  [
+   "W2099634487",
+   2013
+  ],
+  [
+   "W586932544",
+   2009
   ],
   [
    "W2696589634",
@@ -40,15 +68,47 @@
    2013
   ],
   [
+   "W2137598357",
+   2009
+  ],
+  [
+   "W2019609945",
+   2012
+  ],
+  [
    "W4246848029",
    2016
+  ],
+  [
+   "W1809720746",
+   2011
+  ],
+  [
+   "W2902258885",
+   2018
+  ],
+  [
+   "W2038428546",
+   2011
+  ],
+  [
+   "W3003970842",
+   2020
   ],
   [
    "W3082258125",
    2020
   ],
   [
+   "W2008509197",
+   2014
+  ],
+  [
    "W2802578972",
+   2018
+  ],
+  [
+   "W2890403633",
    2018
   ],
   [
@@ -92,6 +152,10 @@
    2022
   ],
   [
+   "W2589047672",
+   2017
+  ],
+  [
    "W2620652927",
    2017
   ],
@@ -104,12 +168,24 @@
    2015
   ],
   [
+   "W2002788245",
+   2010
+  ],
+  [
    "W3211388830",
    2021
   ],
   [
+   "W2159533605",
+   2006
+  ],
+  [
    "W2792519630",
    2018
+  ],
+  [
+   "W2741609014",
+   2017
   ],
   [
    "W2731960952",
@@ -136,8 +212,24 @@
    2011
   ],
   [
+   "W2958075928",
+   2019
+  ],
+  [
    "W2465396127",
    2016
+  ],
+  [
+   "W4255153269",
+   2016
+  ],
+  [
+   "W2911766724",
+   2019
+  ],
+  [
+   "W630737205",
+   2001
   ],
   [
    "W3044038462",
@@ -148,12 +240,32 @@
    2019
   ],
   [
+   "W3009846953",
+   2020
+  ],
+  [
+   "W2090091453",
+   2004
+  ],
+  [
+   "W2900728025",
+   2018
+  ],
+  [
+   "W3093781492",
+   2020
+  ],
+  [
    "W3082665892",
    2020
   ],
   [
    "W2993752321",
    2014
+  ],
+  [
+   "W2290328918",
+   2016
   ],
   [
    "W2769465662",
@@ -172,6 +284,14 @@
    2021
   ],
   [
+   "W2299787339",
+   2015
+  ],
+  [
+   "W2155308025",
+   2004
+  ],
+  [
    "W4317936671",
    2023
   ],
@@ -188,6 +308,10 @@
    2021
   ],
   [
+   "W2914363297",
+   2019
+  ],
+  [
    "W1938406685",
    2013
   ],
@@ -198,6 +322,10 @@
   [
    "W2999024564",
    2020
+  ],
+  [
+   "W2089991590",
+   2012
   ],
   [
    "W3198890387",
@@ -220,8 +348,16 @@
    2020
   ],
   [
+   "W3009796604",
+   2020
+  ],
+  [
    "W2901466865",
    2018
+  ],
+  [
+   "W2572518329",
+   2016
   ],
   [
    "W2793011535",
@@ -244,7 +380,23 @@
    2021
   ],
   [
+   "W3021222781",
+   2020
+  ],
+  [
+   "W2005477221",
+   2008
+  ],
+  [
    "W2805572334",
+   2018
+  ],
+  [
+   "W2010811383",
+   2010
+  ],
+  [
+   "W2811176550",
    2018
   ],
   [
@@ -256,163 +408,11 @@
    2018
   ],
   [
+   "W3093173745",
+   2020
+  ],
+  [
    "W2548559800",
-   2016
-  ],
-  [
-   "W2088502221",
-   1998
-  ],
-  [
-   "W4206750941",
-   2022
-  ],
-  [
-   "W4245248492",
-   2013
-  ],
-  [
-   "W3193241110",
-   2021
-  ],
-  [
-   "W2884641831",
-   2018
-  ],
-  [
-   "W3003652207",
-   2020
-  ],
-  [
-   "W2304302387",
-   2016
-  ],
-  [
-   "W4387873859",
-   2023
-  ],
-  [
-   "W3094822488",
-   2020
-  ],
-  [
-   "W2971587640",
-   2019
-  ],
-  [
-   "W2794047060",
-   2018
-  ],
-  [
-   "W2746255713",
-   2017
-  ],
-  [
-   "W2994672541",
-   2019
-  ],
-  [
-   "W2778471180",
-   2017
-  ],
-  [
-   "W2560135308",
-   2016
-  ],
-  [
-   "W3045792942",
-   2020
-  ],
-  [
-   "W3007082803",
-   2020
-  ],
-  [
-   "W4289754691",
-   2022
-  ],
-  [
-   "W3010431451",
-   2020
-  ],
-  [
-   "W3130316293",
-   2021
-  ],
-  [
-   "W4403911801",
-   2024
-  ],
-  [
-   "W4285025028",
-   2022
-  ],
-  [
-   "W2801799858",
-   2018
-  ],
-  [
-   "W4210347062",
-   2022
-  ],
-  [
-   "W1991928248",
-   2011
-  ],
-  [
-   "W2811478928",
-   2018
-  ],
-  [
-   "W2746619590",
-   2017
-  ],
-  [
-   "W2267984311",
-   2015
-  ],
-  [
-   "W2416835341",
-   2011
-  ],
-  [
-   "W2043847830",
-   2012
-  ],
-  [
-   "W3134399740",
-   2021
-  ],
-  [
-   "W4391418350",
-   2024
-  ],
-  [
-   "W4362696837",
-   2023
-  ],
-  [
-   "W2899385257",
-   2018
-  ],
-  [
-   "W2106942866",
-   2014
-  ],
-  [
-   "W1805678138",
-   2012
-  ],
-  [
-   "W2982863408",
-   2019
-  ],
-  [
-   "W2740330763",
-   2017
-  ],
-  [
-   "W2479043778",
    2016
   ]
  ]

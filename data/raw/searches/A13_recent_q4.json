@@ -3,40 +3,76 @@
  "slice": "recent",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "\"urban beautification\" OR \"city branding\" OR \"urban spectacle\" OR \"urban renewal\" AND spectacle",
+ "query": "\"urban beautification\" OR \"city branding\" OR \"urban spectacle\" OR (\"urban renewal\" AND spectacle)",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:\"urban beautification\" OR \"city branding\" OR \"urban spectacle\" OR \"urban renewal\" AND spectacle,is_retracted:false,publication_year:2022-2026",
+ "filter": "title_and_abstract.search.exact:\"urban beautification\" OR \"city branding\" OR \"urban spectacle\" OR (\"urban renewal\" AND spectacle),is_retracted:false,publication_year:2022-2026",
  "sort": "relevance_score:desc",
- "per_page": 18,
+ "per_page": 15,
  "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"city branding\" OR \"urban beautification\" OR \"urban spectacle\" OR (\"urban renewal\" AND \"spectacle\"))",
  "page": 1,
- "total_results": 6,
+ "total_results": 1286,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A13_recent_q4.json.gz",
  "results": [
   [
-   "W7124860224",
-   2026
-  ],
-  [
-   "W7220806683",
-   2026
-  ],
-  [
-   "W7115609016",
+   "W4407577120",
    2025
   ],
   [
-   "W7161709486",
-   2026
+   "W4399747227",
+   2024
   ],
   [
-   "W4224263215",
+   "W4411466426",
+   2025
+  ],
+  [
+   "W4385280131",
    2022
   ],
   [
-   "W7215996353",
+   "W7204643766",
+   2026
+  ],
+  [
+   "W4416857160",
+   2025
+  ],
+  [
+   "W4406535764",
+   2025
+  ],
+  [
+   "W7134041823",
+   2025
+  ],
+  [
+   "W4388875534",
+   2023
+  ],
+  [
+   "W4409526989",
+   2025
+  ],
+  [
+   "W4406535127",
+   2025
+  ],
+  [
+   "W4411641554",
+   2025
+  ],
+  [
+   "W4312922827",
+   2022
+  ],
+  [
+   "W4388881806",
+   2023
+  ],
+  [
+   "W4411641584",
    2025
   ]
  ]

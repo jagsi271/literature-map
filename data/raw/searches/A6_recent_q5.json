@@ -1,0 +1,79 @@
+{
+ "theme": "A6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"definition of urban\" OR \"urban definition\" OR \"urban definitions\" OR \"hidden urbanization\" OR \"hidden urbanisation\" OR \"statutory towns\" OR (undercounting AND (urban OR urbanization OR urbanisation))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"definition of urban\" OR \"urban definition\" OR \"urban definitions\" OR \"hidden urbanization\" OR \"hidden urbanisation\" OR \"statutory towns\" OR (undercounting AND (urban OR urbanization OR urbanisation)),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"definition of urban\" OR \"hidden urbanisation\" OR \"hidden urbanization\" OR \"statutory towns\" OR \"urban definition\" OR \"urban definitions\" OR (\"undercounting\" AND (\"urban\" OR \"urbanisation\" OR \"urbanization\")))",
+ "page": 1,
+ "total_results": 285,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_A6_recent_q5.json.gz",
+ "results": [
+  [
+   "W7164452788",
+   2026
+  ],
+  [
+   "W4407925657",
+   2025
+  ],
+  [
+   "W4405967779",
+   2024
+  ],
+  [
+   "W7154483059",
+   2026
+  ],
+  [
+   "W7150387339",
+   2022
+  ],
+  [
+   "W7168147581",
+   2026
+  ],
+  [
+   "W7161733269",
+   2026
+  ],
+  [
+   "W4396737107",
+   2024
+  ],
+  [
+   "W4387320052",
+   2023
+  ],
+  [
+   "W4403682695",
+   2024
+  ],
+  [
+   "W4410133676",
+   2025
+  ],
+  [
+   "W4296507106",
+   2022
+  ],
+  [
+   "W4388521873",
+   2023
+  ],
+  [
+   "W4400383248",
+   2024
+  ],
+  [
+   "W4399037919",
+   2024
+  ]
+ ]
+}

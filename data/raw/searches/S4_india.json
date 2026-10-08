@@ -3,33 +3,177 @@
  "slice": "india",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "((\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR \"fare policy\" AND transit OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "query": "((\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR (\"fare policy\" AND transit) OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:((\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR \"fare policy\" AND transit OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:((\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR (\"fare policy\" AND transit) OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
  "sort": "relevance_score:desc",
  "per_page": 40,
  "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"NCMC\" OR \"National Common Mobility Card\" OR \"fare integration\" OR \"integrated fare\" OR \"integrated ticketing\" OR \"transit card\" OR \"transit cards\" OR (\"fare policy\" AND \"transit\") OR ((\"public transport\" OR \"bus\" OR \"metro\" OR \"transit\") AND (\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"fare\" OR \"fares\" OR \"payment\" OR \"ticketing\"))))",
  "page": 1,
- "total_results": 4,
+ "total_results": 46,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_S4_india.json.gz",
  "results": [
   [
-   "W4361304787",
+   "W3210964045",
+   2021
+  ],
+  [
+   "W4386692370",
    2023
   ],
   [
-   "W7204140127",
+   "W3147821219",
+   2014
+  ],
+  [
+   "W628869184",
+   2003
+  ],
+  [
+   "W2928611806",
+   2015
+  ],
+  [
+   "W4229589811",
+   2019
+  ],
+  [
+   "W4395456176",
+   2024
+  ],
+  [
+   "W4407872681",
+   2025
+  ],
+  [
+   "W2110581938",
+   2012
+  ],
+  [
+   "W4296232817",
+   2022
+  ],
+  [
+   "W2790640733",
+   2018
+  ],
+  [
+   "W7163359690",
    2026
   ],
   [
-   "W841281651",
-   1989
+   "W603828171",
+   2002
   ],
   [
-   "W7202343205",
+   "W2146725032",
+   2014
+  ],
+  [
+   "W4254724188",
+   2019
+  ],
+  [
+   "W4309640140",
+   2022
+  ],
+  [
+   "W2546512417",
+   2016
+  ],
+  [
+   "W1560868062",
+   2013
+  ],
+  [
+   "W2944158788",
+   2018
+  ],
+  [
+   "W4408738973",
+   2025
+  ],
+  [
+   "W4406270830",
+   2025
+  ],
+  [
+   "W4415033905",
+   2025
+  ],
+  [
+   "W3195817124",
+   2021
+  ],
+  [
+   "W4300127164",
+   2022
+  ],
+  [
+   "W3195574909",
+   2021
+  ],
+  [
+   "W4392026125",
+   2023
+  ],
+  [
+   "W4361218357",
+   2023
+  ],
+  [
+   "W7204626500",
    2026
+  ],
+  [
+   "W4400770024",
+   2017
+  ],
+  [
+   "W4393955295",
+   2024
+  ],
+  [
+   "W3160041148",
+   2021
+  ],
+  [
+   "W3016065034",
+   2020
+  ],
+  [
+   "W4413085638",
+   2024
+  ],
+  [
+   "W4407937692",
+   2025
+  ],
+  [
+   "W4416646676",
+   2021
+  ],
+  [
+   "W4416620703",
+   2020
+  ],
+  [
+   "W4411572965",
+   2025
+  ],
+  [
+   "W103764049",
+   2014
+  ],
+  [
+   "W4413195937",
+   2025
+  ],
+  [
+   "W7112439041",
+   0
   ]
  ]
 }

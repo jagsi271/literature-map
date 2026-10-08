@@ -3,217 +3,217 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR \"fare policy\" AND transit OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment)))",
+ "query": "(\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR (\"fare policy\" AND transit) OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment)))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR \"fare policy\" AND transit OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment))),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR (\"fare policy\" AND transit) OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment))),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 50,
  "oql": "get works where retracted is (false)\n  and title-abstract has (\"NCMC\" OR \"National Common Mobility Card\" OR \"fare integration\" OR \"integrated fare\" OR \"integrated ticketing\" OR \"transit card\" OR \"transit cards\" OR (\"fare policy\" AND \"transit\") OR ((\"public transport\" OR \"bus\" OR \"metro\" OR \"transit\") AND (\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"fare\" OR \"fares\" OR \"payment\" OR \"ticketing\")))",
  "page": 1,
- "total_results": 313,
+ "total_results": 1950,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_S4_landmarks.json.gz",
  "results": [
   [
+   "W643058322",
+   2010
+  ],
+  [
+   "W2044985623",
+   2011
+  ],
+  [
+   "W2035971144",
+   2007
+  ],
+  [
+   "W2162984166",
+   2014
+  ],
+  [
+   "W1968823440",
+   1992
+  ],
+  [
+   "W2015569667",
+   2012
+  ],
+  [
+   "W2007467349",
+   1983
+  ],
+  [
+   "W3015698531",
+   2020
+  ],
+  [
+   "W2050771873",
+   1991
+  ],
+  [
    "W2062558112",
    1990
+  ],
+  [
+   "W2255825392",
+   2016
+  ],
+  [
+   "W2062785849",
+   2014
+  ],
+  [
+   "W2111336263",
+   2008
+  ],
+  [
+   "W2947761598",
+   2019
+  ],
+  [
+   "W1590406013",
+   1999
+  ],
+  [
+   "W2605048719",
+   2017
+  ],
+  [
+   "W1971513335",
+   2009
+  ],
+  [
+   "W2097422192",
+   2008
   ],
   [
    "W1987598692",
    2012
   ],
   [
-   "W2913308867",
-   2019
+   "W1986282712",
+   1998
   ],
   [
-   "W3134156548",
-   2021
+   "W2085001054",
+   1999
   ],
   [
-   "W4229370673",
-   2022
-  ],
-  [
-   "W1983636384",
+   "W1967700816",
    2012
   ],
   [
-   "W825145640",
-   2006
-  ],
-  [
-   "W2100934845",
-   1999
-  ],
-  [
-   "W4391074600",
-   2024
-  ],
-  [
-   "W2838561158",
+   "W2782547620",
    2018
   ],
   [
-   "W2070768934",
-   2006
-  ],
-  [
-   "W4386175231",
-   2023
-  ],
-  [
-   "W2948111571",
-   2019
-  ],
-  [
-   "W119869293",
-   1999
-  ],
-  [
-   "W2605268134",
-   2017
-  ],
-  [
-   "W3120814279",
-   2021
-  ],
-  [
-   "W2523188237",
+   "W2513641134",
    2016
   ],
   [
-   "W2037418765",
-   2012
-  ],
-  [
-   "W4401390027",
-   2024
-  ],
-  [
-   "W3039458628",
-   2020
-  ],
-  [
-   "W2762497932",
-   2017
-  ],
-  [
-   "W2040724133",
+   "W1993418585",
    2010
   ],
   [
-   "W4236436059",
-   2006
+   "W2067942114",
+   2010
   ],
   [
-   "W1586979527",
-   1996
-  ],
-  [
-   "W2956751960",
-   2019
-  ],
-  [
-   "W2608689400",
-   2017
-  ],
-  [
-   "W4292339174",
-   2022
-  ],
-  [
-   "W2100668291",
-   2000
-  ],
-  [
-   "W220367035",
-   1986
-  ],
-  [
-   "W3181462857",
-   2021
-  ],
-  [
-   "W2948674847",
-   2019
-  ],
-  [
-   "W2090384384",
-   1982
-  ],
-  [
-   "W4297963479",
-   2022
-  ],
-  [
-   "W4313824901",
-   2023
-  ],
-  [
-   "W4232207503",
-   2002
-  ],
-  [
-   "W2083573384",
-   1998
-  ],
-  [
-   "W4280502515",
-   2022
-  ],
-  [
-   "W2066050690",
-   2013
-  ],
-  [
-   "W2104285299",
-   2013
-  ],
-  [
-   "W2168122424",
-   2011
-  ],
-  [
-   "W1554380720",
-   2008
-  ],
-  [
-   "W655249533",
-   2000
-  ],
-  [
-   "W4399783681",
-   2024
-  ],
-  [
-   "W2892256801",
+   "W2794935472",
    2018
   ],
   [
-   "W2025782375",
+   "W2606105273",
+   2017
+  ],
+  [
+   "W2287986098",
+   1982
+  ],
+  [
+   "W2584801074",
+   2017
+  ],
+  [
+   "W2405696541",
+   2016
+  ],
+  [
+   "W2038136698",
+   2014
+  ],
+  [
+   "W3084394145",
+   2020
+  ],
+  [
+   "W2400471308",
+   2016
+  ],
+  [
+   "W2090431844",
+   2006
+  ],
+  [
+   "W2043478112",
    2012
   ],
   [
-   "W2042189498",
+   "W2800460440",
+   2018
+  ],
+  [
+   "W2090853323",
+   2013
+  ],
+  [
+   "W1496255841",
+   1984
+  ],
+  [
+   "W2031984580",
+   2011
+  ],
+  [
+   "W3129983003",
+   2021
+  ],
+  [
+   "W2950447929",
+   2018
+  ],
+  [
+   "W2025255050",
+   1997
+  ],
+  [
+   "W2946390104",
+   2019
+  ],
+  [
+   "W2080989643",
+   2008
+  ],
+  [
+   "W35875750",
+   2015
+  ],
+  [
+   "W2123705881",
+   2011
+  ],
+  [
+   "W1996814",
    1999
   ],
   [
-   "W2118351314",
-   1998
+   "W2524770612",
+   2016
   ],
   [
-   "W2059939876",
-   2010
-  ],
-  [
-   "W4293536380",
-   2022
-  ],
-  [
-   "W4292371041",
-   2022
+   "W1914541415",
+   1999
   ]
  ]
 }

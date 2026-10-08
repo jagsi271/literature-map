@@ -3,15 +3,15 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"feminist urbanism\" OR \"gendered city\" OR \"women and the city\" OR \"feminist geography\" AND city) OR ((\"women's safety\" OR \"sexual harassment\") AND (urban OR city OR \"public transport\" OR street)) OR (caste AND (urban OR city OR cities)) OR ((\"residential segregation\" OR \"spatial segregation\") AND (class OR caste OR religion OR Muslim)) OR (\"urban middle class\" OR \"new middle class\" AND city)",
+ "query": "(\"feminist urbanism\" OR \"gendered city\" OR \"women and the city\" OR (\"feminist geography\" AND city)) OR ((\"women's safety\" OR \"sexual harassment\") AND (urban OR city OR \"public transport\" OR street)) OR (caste AND (urban OR city OR cities)) OR ((\"residential segregation\" OR \"spatial segregation\") AND (class OR caste OR religion OR Muslim)) OR (\"urban middle class\" OR (\"new middle class\" AND city))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"feminist urbanism\" OR \"gendered city\" OR \"women and the city\" OR \"feminist geography\" AND city) OR ((\"women's safety\" OR \"sexual harassment\") AND (urban OR city OR \"public transport\" OR street)) OR (caste AND (urban OR city OR cities)) OR ((\"residential segregation\" OR \"spatial segregation\") AND (class OR caste OR religion OR Muslim)) OR (\"urban middle class\" OR \"new middle class\" AND city),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"feminist urbanism\" OR \"gendered city\" OR \"women and the city\" OR (\"feminist geography\" AND city)) OR ((\"women's safety\" OR \"sexual harassment\") AND (urban OR city OR \"public transport\" OR street)) OR (caste AND (urban OR city OR cities)) OR ((\"residential segregation\" OR \"spatial segregation\") AND (class OR caste OR religion OR Muslim)) OR (\"urban middle class\" OR (\"new middle class\" AND city)),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
  "oql": "get works where retracted is (false)\n  and title-abstract has (\"feminist urbanism\" OR \"gendered city\" OR \"urban middle class\" OR \"women and the city\" OR (\"feminist geography\" AND \"city\") OR (\"new middle class\" AND \"city\") OR (\"caste\" AND (\"cities\" OR \"city\" OR \"urban\")) OR ((\"Muslim\" OR \"caste\" OR \"class\" OR \"religion\") AND (\"residential segregation\" OR \"spatial segregation\")) OR ((\"public transport\" OR \"city\" OR \"street\" OR \"urban\") AND (\"sexual harassment\" OR \"women's safety\")))",
  "page": 1,
- "total_results": 9250,
+ "total_results": 11865,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A12_landmarks.json.gz",
  "results": [
@@ -24,8 +24,16 @@
    2001
   ],
   [
+   "W1978046113",
+   1991
+  ],
+  [
    "W4388314589",
    1997
+  ],
+  [
+   "W2032833697",
+   2006
   ],
   [
    "W4294660296",
@@ -52,6 +60,10 @@
    2000
   ],
   [
+   "W2097009770",
+   1987
+  ],
+  [
    "W1495304277",
    1998
   ],
@@ -62,6 +74,10 @@
   [
    "W2053919327",
    2001
+  ],
+  [
+   "W2561822947",
+   2016
   ],
   [
    "W4237078488",
@@ -84,8 +100,20 @@
    2015
   ],
   [
+   "W4388310753",
+   1991
+  ],
+  [
    "W2808869140",
    2018
+  ],
+  [
+   "W2017163659",
+   2005
+  ],
+  [
+   "W627595766",
+   1991
   ],
   [
    "W2106339641",
@@ -156,6 +184,10 @@
    2003
   ],
   [
+   "W2143702283",
+   2004
+  ],
+  [
    "W4248097901",
    2005
   ],
@@ -180,6 +212,10 @@
    2008
   ],
   [
+   "W42979965",
+   2005
+  ],
+  [
    "W1836282985",
    1996
   ],
@@ -200,6 +236,10 @@
    2015
   ],
   [
+   "W2332318874",
+   1990
+  ],
+  [
    "W1984579609",
    2007
   ],
@@ -216,8 +256,16 @@
    1996
   ],
   [
+   "W2164396843",
+   2009
+  ],
+  [
    "W2276780831",
    2010
+  ],
+  [
+   "W72786452",
+   2006
   ],
   [
    "W2615403646",
@@ -244,6 +292,10 @@
    2003
   ],
   [
+   "W2143658538",
+   1994
+  ],
+  [
    "W2033254534",
    1985
   ],
@@ -264,6 +316,14 @@
    2013
   ],
   [
+   "W2169432821",
+   2001
+  ],
+  [
+   "W2202275905",
+   1984
+  ],
+  [
    "W2126082773",
    2001
   ],
@@ -274,6 +334,10 @@
   [
    "W2134956637",
    2001
+  ],
+  [
+   "W2115484706",
+   2000
   ],
   [
    "W2063310717",
@@ -290,6 +354,10 @@
   [
    "W1974001014",
    2011
+  ],
+  [
+   "W2085590061",
+   2000
   ],
   [
    "W1583529191",
@@ -312,6 +380,14 @@
    2012
   ],
   [
+   "W4229810331",
+   2015
+  ],
+  [
+   "W1899507036",
+   2014
+  ],
+  [
    "W1977459440",
    2008
   ],
@@ -320,100 +396,24 @@
    2000
   ],
   [
+   "W1603338440",
+   2011
+  ],
+  [
+   "W2081033135",
+   2003
+  ],
+  [
    "W2089558073",
    1992
   ],
   [
+   "W2155454242",
+   2010
+  ],
+  [
    "W2075989309",
    2014
-  ],
-  [
-   "W2040796081",
-   2001
-  ],
-  [
-   "W619603456",
-   2013
-  ],
-  [
-   "W2137538600",
-   2007
-  ],
-  [
-   "W2035364948",
-   1977
-  ],
-  [
-   "W2037854643",
-   2002
-  ],
-  [
-   "W2492752398",
-   2016
-  ],
-  [
-   "W2145361670",
-   1987
-  ],
-  [
-   "W4301214452",
-   1984
-  ],
-  [
-   "W4231487069",
-   2019
-  ],
-  [
-   "W2072786273",
-   2003
-  ],
-  [
-   "W3195539336",
-   2021
-  ],
-  [
-   "W1976808912",
-   2004
-  ],
-  [
-   "W2085891188",
-   1980
-  ],
-  [
-   "W1547178384",
-   2002
-  ],
-  [
-   "W2024805547",
-   2014
-  ],
-  [
-   "W2073533605",
-   2001
-  ],
-  [
-   "W2903885469",
-   2019
-  ],
-  [
-   "W2009006400",
-   2005
-  ],
-  [
-   "W2145222511",
-   2008
-  ],
-  [
-   "W2152887092",
-   2008
-  ],
-  [
-   "W2949949361",
-   2019
-  ],
-  [
-   "W2082520771",
-   1999
   ]
  ]
 }

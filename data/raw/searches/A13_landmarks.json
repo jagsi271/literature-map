@@ -3,18 +3,26 @@
  "slice": "landmarks",
  "stage": "stage2",
  "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
- "query": "(\"mega-events\" OR \"mega-event\" OR \"Commonwealth Games\" OR \"Olympic Games\" AND (city OR urban)) OR (\"world-class city\" OR \"world class city\" OR \"worlding cities\" OR \"global city making\") OR (\"urban heritage\" OR heritagization OR heritagisation OR \"heritage conservation\" AND city) OR (\"urban beautification\" OR \"city branding\" OR \"urban spectacle\" OR \"urban renewal\" AND spectacle)",
+ "query": "(\"mega-events\" OR \"mega-event\" OR \"Commonwealth Games\" OR (\"Olympic Games\" AND (city OR urban))) OR (\"world-class city\" OR \"world class city\" OR \"worlding cities\" OR \"global city making\") OR (\"urban heritage\" OR heritagization OR heritagisation OR (\"heritage conservation\" AND city)) OR (\"urban beautification\" OR \"city branding\" OR \"urban spectacle\" OR (\"urban renewal\" AND spectacle)) OR ((\"old city\" OR \"historic city\" OR \"walled city\" OR \"historic core\" OR \"Old Delhi\" OR Shahjahanabad) AND (heritage OR nostalgia OR tourism OR conservation OR redevelopment OR consumption))",
  "mode": "exact",
  "search_in": "title_and_abstract",
- "filter": "title_and_abstract.search.exact:(\"mega-events\" OR \"mega-event\" OR \"Commonwealth Games\" OR \"Olympic Games\" AND (city OR urban)) OR (\"world-class city\" OR \"world class city\" OR \"worlding cities\" OR \"global city making\") OR (\"urban heritage\" OR heritagization OR heritagisation OR \"heritage conservation\" AND city) OR (\"urban beautification\" OR \"city branding\" OR \"urban spectacle\" OR \"urban renewal\" AND spectacle),is_retracted:false",
+ "filter": "title_and_abstract.search.exact:(\"mega-events\" OR \"mega-event\" OR \"Commonwealth Games\" OR (\"Olympic Games\" AND (city OR urban))) OR (\"world-class city\" OR \"world class city\" OR \"worlding cities\" OR \"global city making\") OR (\"urban heritage\" OR heritagization OR heritagisation OR (\"heritage conservation\" AND city)) OR (\"urban beautification\" OR \"city branding\" OR \"urban spectacle\" OR (\"urban renewal\" AND spectacle)) OR ((\"old city\" OR \"historic city\" OR \"walled city\" OR \"historic core\" OR \"Old Delhi\" OR Shahjahanabad) AND (heritage OR nostalgia OR tourism OR conservation OR redevelopment OR consumption)),is_retracted:false",
  "sort": "cited_by_count:desc",
  "per_page": 100,
- "oql": "get works where retracted is (false)\n  and title-abstract has (\"Commonwealth Games\" OR \"city branding\" OR \"global city making\" OR \"urban beautification\" OR \"urban heritage\" OR \"urban spectacle\" OR \"world class city\" OR \"world-class city\" OR \"worlding cities\" OR \"heritagisation\" OR \"heritagization\" OR \"mega-event\" OR \"mega-events\" OR (\"Olympic Games\" AND (\"city\" OR \"urban\")) OR (\"heritage conservation\" AND \"city\") OR (\"urban renewal\" AND \"spectacle\"))",
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"Commonwealth Games\" OR \"city branding\" OR \"global city making\" OR \"urban beautification\" OR \"urban heritage\" OR \"urban spectacle\" OR \"world class city\" OR \"world-class city\" OR \"worlding cities\" OR \"heritagisation\" OR \"heritagization\" OR \"mega-event\" OR \"mega-events\" OR (\"Olympic Games\" AND (\"city\" OR \"urban\")) OR (\"heritage conservation\" AND \"city\") OR (\"urban renewal\" AND \"spectacle\") OR ((\"Shahjahanabad\" OR \"Old Delhi\" OR \"historic city\" OR \"historic core\" OR \"old city\" OR \"walled city\") AND (\"conservation\" OR \"consumption\" OR \"heritage\" OR \"nostalgia\" OR \"redevelopment\" OR \"tourism\")))",
  "page": 1,
- "total_results": 5897,
+ "total_results": 24982,
  "retrieved": "2026-10-08",
  "cache": "data/raw/api/search_A13_landmarks.json.gz",
  "results": [
+  [
+   "W2166956125",
+   2004
+  ],
+  [
+   "W2917342912",
+   1932
+  ],
   [
    "W2480957165",
    2016
@@ -28,8 +36,24 @@
    2013
   ],
   [
+   "W4236301267",
+   2007
+  ],
+  [
+   "W1515729775",
+   2001
+  ],
+  [
+   "W2165801872",
+   2005
+  ],
+  [
    "W2132104902",
    2006
+  ],
+  [
+   "W2098475149",
+   2003
   ],
   [
    "W2211205654",
@@ -40,16 +64,92 @@
    2015
   ],
   [
+   "W2046250745",
+   2005
+  ],
+  [
+   "W179370760",
+   2006
+  ],
+  [
+   "W1967395330",
+   2000
+  ],
+  [
+   "W2030718666",
+   2011
+  ],
+  [
    "W2335273735",
    2013
+  ],
+  [
+   "W1432308812",
+   2015
+  ],
+  [
+   "W2061448292",
+   2015
+  ],
+  [
+   "W2051406862",
+   2011
   ],
   [
    "W2765084630",
    2017
   ],
   [
+   "W2064621975",
+   2000
+  ],
+  [
+   "W2097405135",
+   2004
+  ],
+  [
+   "W1878617427",
+   2006
+  ],
+  [
+   "W2016265047",
+   2004
+  ],
+  [
    "W1605911680",
    2011
+  ],
+  [
+   "W4243665095",
+   2004
+  ],
+  [
+   "W2106650297",
+   2003
+  ],
+  [
+   "W2162053735",
+   2006
+  ],
+  [
+   "W2155244142",
+   2002
+  ],
+  [
+   "W2118821421",
+   2001
+  ],
+  [
+   "W2072800432",
+   2009
+  ],
+  [
+   "W2071785962",
+   2007
+  ],
+  [
+   "W2744518081",
+   2017
   ],
   [
    "W1971471966",
@@ -60,6 +160,34 @@
    2010
   ],
   [
+   "W2041592677",
+   2012
+  ],
+  [
+   "W1997734433",
+   1991
+  ],
+  [
+   "W2048179989",
+   2004
+  ],
+  [
+   "W2031909653",
+   1994
+  ],
+  [
+   "W2127419212",
+   2003
+  ],
+  [
+   "W2087439717",
+   2009
+  ],
+  [
+   "W2011733112",
+   1996
+  ],
+  [
    "W2082727009",
    1999
   ],
@@ -68,8 +196,36 @@
    2006
   ],
   [
+   "W2053950078",
+   2003
+  ],
+  [
+   "W2008066120",
+   1999
+  ],
+  [
+   "W2170975075",
+   2006
+  ],
+  [
+   "W2034939309",
+   2008
+  ],
+  [
+   "W2058579203",
+   2010
+  ],
+  [
    "W2292021272",
    2004
+  ],
+  [
+   "W2047541818",
+   1996
+  ],
+  [
+   "W2002489115",
+   2013
   ],
   [
    "W2558831359",
@@ -92,6 +248,10 @@
    2010
   ],
   [
+   "W2126885704",
+   2013
+  ],
+  [
    "W2138239395",
    2011
   ],
@@ -100,8 +260,36 @@
    2008
   ],
   [
+   "W1581297040",
+   2009
+  ],
+  [
+   "W1966636500",
+   2008
+  ],
+  [
+   "W2588294475",
+   2017
+  ],
+  [
+   "W1801655578",
+   2011
+  ],
+  [
+   "W1538049558",
+   1988
+  ],
+  [
+   "W2129918224",
+   2011
+  ],
+  [
    "W2285819763",
    2016
+  ],
+  [
+   "W1811368987",
+   2013
   ],
   [
    "W2208440899",
@@ -112,20 +300,80 @@
    2009
   ],
   [
+   "W2158325658",
+   2013
+  ],
+  [
    "W2155815384",
    2001
+  ],
+  [
+   "W2036748323",
+   2001
+  ],
+  [
+   "W589323080",
+   2001
+  ],
+  [
+   "W2090275932",
+   2009
+  ],
+  [
+   "W2156312676",
+   2010
+  ],
+  [
+   "W2111051663",
+   2013
   ],
   [
    "W2144293475",
    2004
   ],
   [
+   "W2003403106",
+   2009
+  ],
+  [
    "W2092262061",
+   2009
+  ],
+  [
+   "W2946488308",
+   2018
+  ],
+  [
+   "W1982345228",
+   2012
+  ],
+  [
+   "W2044063987",
+   2001
+  ],
+  [
+   "W2043330941",
+   2013
+  ],
+  [
+   "W2033088549",
+   1999
+  ],
+  [
+   "W634456883",
+   2008
+  ],
+  [
+   "W590587198",
    2009
   ],
   [
    "W3156572856",
    2021
+  ],
+  [
+   "W2150201077",
+   2003
   ],
   [
    "W175343377",
@@ -136,12 +384,28 @@
    2009
   ],
   [
+   "W4231931579",
+   2002
+  ],
+  [
+   "W2024551035",
+   1996
+  ],
+  [
    "W2143217476",
    2007
   ],
   [
+   "W3045097095",
+   2020
+  ],
+  [
    "W2146474448",
    1996
+  ],
+  [
+   "W2283102736",
+   2015
   ],
   [
    "W2062587020",
@@ -150,270 +414,6 @@
   [
    "W2133174034",
    2009
-  ],
-  [
-   "W2074788517",
-   2013
-  ],
-  [
-   "W2038009595",
-   2011
-  ],
-  [
-   "W2962920357",
-   2017
-  ],
-  [
-   "W2047751270",
-   2010
-  ],
-  [
-   "W2176568290",
-   2015
-  ],
-  [
-   "W2002788245",
-   2010
-  ],
-  [
-   "W2056792249",
-   2004
-  ],
-  [
-   "W4205936453",
-   1994
-  ],
-  [
-   "W2150185540",
-   2011
-  ],
-  [
-   "W1972129788",
-   2014
-  ],
-  [
-   "W2188970108",
-   2015
-  ],
-  [
-   "W2141843463",
-   2012
-  ],
-  [
-   "W2024803759",
-   2004
-  ],
-  [
-   "W2074881750",
-   2007
-  ],
-  [
-   "W2126656937",
-   2008
-  ],
-  [
-   "W1969788856",
-   2005
-  ],
-  [
-   "W2342427676",
-   2016
-  ],
-  [
-   "W2077003126",
-   2011
-  ],
-  [
-   "W4388327936",
-   2003
-  ],
-  [
-   "W1645990672",
-   2011
-  ],
-  [
-   "W1989091922",
-   2007
-  ],
-  [
-   "W2034799075",
-   2003
-  ],
-  [
-   "W2034102785",
-   2009
-  ],
-  [
-   "W1858921014",
-   2012
-  ],
-  [
-   "W1562845591",
-   2001
-  ],
-  [
-   "W2144161889",
-   2007
-  ],
-  [
-   "W2110929697",
-   2007
-  ],
-  [
-   "W3122874754",
-   2003
-  ],
-  [
-   "W1992544996",
-   2010
-  ],
-  [
-   "W2127465325",
-   2002
-  ],
-  [
-   "W1987269772",
-   2013
-  ],
-  [
-   "W4301515452",
-   2001
-  ],
-  [
-   "W2540620773",
-   2016
-  ],
-  [
-   "W2021226850",
-   2008
-  ],
-  [
-   "W1546789574",
-   2012
-  ],
-  [
-   "W2055505948",
-   2009
-  ],
-  [
-   "W2060253568",
-   2009
-  ],
-  [
-   "W2312294667",
-   1996
-  ],
-  [
-   "W2021215469",
-   2002
-  ],
-  [
-   "W2784835369",
-   2018
-  ],
-  [
-   "W2146849983",
-   2007
-  ],
-  [
-   "W2295516903",
-   2016
-  ],
-  [
-   "W1990746233",
-   2009
-  ],
-  [
-   "W154082284",
-   2000
-  ],
-  [
-   "W2159488128",
-   2007
-  ],
-  [
-   "W2060370626",
-   2013
-  ],
-  [
-   "W3048763697",
-   2020
-  ],
-  [
-   "W2079157627",
-   2008
-  ],
-  [
-   "W2600895752",
-   2017
-  ],
-  [
-   "W2061144654",
-   2005
-  ],
-  [
-   "W2029757369",
-   2009
-  ],
-  [
-   "W2003962760",
-   2002
-  ],
-  [
-   "W2269961183",
-   2016
-  ],
-  [
-   "W2070301460",
-   1998
-  ],
-  [
-   "W4254776357",
-   2011
-  ],
-  [
-   "W2147802288",
-   2012
-  ],
-  [
-   "W1548321183",
-   2011
-  ],
-  [
-   "W2738667766",
-   2017
-  ],
-  [
-   "W2061402540",
-   2003
-  ],
-  [
-   "W2146963518",
-   2003
-  ],
-  [
-   "W2111296405",
-   2013
-  ],
-  [
-   "W1997499652",
-   2008
-  ],
-  [
-   "W2082319015",
-   2003
-  ],
-  [
-   "W2792399716",
-   2018
-  ],
-  [
-   "W2115737340",
-   2013
-  ],
-  [
-   "W2885588438",
-   2010
   ]
  ]
 }
