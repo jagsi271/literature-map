@@ -51,11 +51,11 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 | A13 | Heritage, mega-events & "world-class" city ma | 211 | 146 | 13 (6%) | 7 / 6 | 152 | 149 |
 | A14 | Urban environment, climate & risk | 246 | 195 | 29 (12%) | 10 / 19 | 192 | 189 |
 | A15 | Urban & planning theory, Southern urbanism | 233 | 144 | 39 (17%) | 24 / 15 | 158 | 154 |
-| A16 | Night-time city & urban time | 241 | 122 | 33 (14%) | 0 / 0 (+33 pending) | 116 | 116 |
+| A16 | Night-time city & urban time | 241 | 122 | 33 (14%) | 20 / 13 | 135 | 135 |
 | B5 | Digital identity & digital public infrastruct | 177 | 114 | 28 (16%) | 7 / 21 | 117 | 117 |
 | C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 125 |
 
-Total deduplicated records: 2842.
+Total deduplicated records: 2861.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)

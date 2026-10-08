@@ -1449,14 +1449,14 @@ W7140082429,A15,recent,A15_recent_q4,16,Bridging urban theory and artificial int
 W4214619730,A15,recent,A15_recent_q4,17,Co-designing publics: [re]producing the public realm via informal urbanisms in cities of the global south,2022,article,3,True,borderline,1,core concept mentioned once | manual: co-designing publics viewpoint (A9),exclude
 W4309836410,A15,recent,A15_recent_q4,18,Hybrid gentrification in South Africa,2022,book-chapter,1,True,include,3,rules,include
 W2808939803,A16,india,A16_india_q1,1,"A Study on Consumers’ Attitude towards Night Time Economy in Kochi, Kerala",2017,article,1,True,include,6,rules,include
-W7217796028,A16,india,A16_india_q1,2,"Deciphering and Validation of Urbanization of Metropolitan Region in South Asia using Urban Night Lights (UNL): A Case Study of Kolkata Metropolitan Area (KMA), West Bengal, India",2024,article,0,True,borderline,6,flag: night-?time lights?|night lights?|lumino,pending
-W4206650303,A16,india,A16_india_q1,3,Ishtyle: Accenting Gay Indian Nightlife,2021,article,16,True,borderline,4,stub abstract (possible book review),pending
+W7217796028,A16,india,A16_india_q1,2,"Deciphering and Validation of Urbanization of Metropolitan Region in South Asia using Urban Night Lights (UNL): A Case Study of Kolkata Metropolitan Area (KMA), West Bengal, India",2024,article,0,True,borderline,6,flag: night-?time lights?|night lights?|lumino | manual: night-lights remote sensing of urbanisation,exclude
+W4206650303,A16,india,A16_india_q1,3,Ishtyle: Accenting Gay Indian Nightlife,2021,article,16,True,borderline,4,stub abstract (possible book review) | manual: book review (Ishtyle),exclude
 W4404346437,A16,india,A16_india_q1,4,Mumbai Dark Megacity: Informal Productions of Urban Night Space,2024,article,0,True,include,6,rules,include
 W3195271565,A16,india,A16_india_q1,5,Ishtyle: Accenting gay Indian nightlife,2021,book-review,8,True,exclude,0,type book-review,exclude
-W4205298750,A16,india,A16_india_q1,6,Ishtyle: Accenting Gay Indian Nightlife,2022,article,0,True,borderline,3,stub abstract (possible book review),pending
+W4205298750,A16,india,A16_india_q1,6,Ishtyle: Accenting Gay Indian Nightlife,2022,article,0,True,borderline,3,stub abstract (possible book review) | manual: book review (Ishtyle),exclude
 W3135094506,A16,india,A16_india_q1,7,Ishtyle: accenting gay Indian nightlife,2021,book-review,0,True,exclude,0,type book-review,exclude
 W2971826789,A16,india,A16_india_q1,8,Ishtyle: Accenting Gay Indian Nightlife,2020,book,1,False,include,3,no abstract; core in title; context terms missing,include
-W4306701947,A16,india,A16_india_q1,9,Ishtyle: accenting gay Indian nightlife,2022,article,0,True,borderline,4,stub abstract (possible book review),pending
+W4306701947,A16,india,A16_india_q1,9,Ishtyle: accenting gay Indian nightlife,2022,article,0,True,borderline,4,stub abstract (possible book review) | manual: book review (Ishtyle),exclude
 W7127634216,A16,india,A16_india_q1,10,Ishtyle: Accenting Gay Indian Nightlife (review),2021,article,0,False,include,3,no abstract; core in title; context terms missing,include
 W4200579733,A16,india,A16_india_q1,11,Kareem Khubchandani. Ishtyle: Accenting Gay Indian Nightlife.,2021,article,0,True,include,4,core in title; context terms missing,include
 W3212449623,A16,india,A16_india_q1,12,Ishtyle : Accenting Gay Indian Nightlife by Kareem Khubchandani,2021,article,0,True,include,6,rules,include
@@ -1474,26 +1474,26 @@ W4386735628,A16,india,A16_india_q1,23,"Review of: ""A Study of the Urban Nightli
 W4386736477,A16,india,A16_india_q1,24,"Review of: ""A Study of the Urban Nightlife of Delhi and its Impact on Safety""",2023,peer-review,0,False,exclude,0,type peer-review,exclude
 W2519399075,A16,india,A16_india_q2,1,Rhythmanalysis as a tool for understanding shifting urban life and settings: insights from Brussels and Colombo,2013,article,3,False,include,3,no abstract; core (and context) in title,include
 W136116771,A16,india,A16_india_q2,2,'Between Day and Night: Urban Time Schedules in Bombay and Other Cities',2003,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
-W4405609880,A16,india,A16_india_q2,3,Mumbai Taximen,2022,book,2,True,borderline,1,core concept mentioned once,pending
+W4405609880,A16,india,A16_india_q2,3,Mumbai Taximen,2022,book,2,True,borderline,1,core concept mentioned once | manual: Mumbai taxi ethnography (A8); urban time in passing,exclude
 W3162147968,A16,india,A16_india_q2,4,"Ритмы современной жизни. Рец. на кн.: Dawn Lyon. Rhythmanalysis: Research Methods. London, Oxford, New York, New Delhi, Sydney: Bloomsbury Academic, 2021",2021,article,0,True,include,3,core in title; context terms missing,include
 W3156355072,A16,india,A16_india_q2,5,"Rhythmanalysis of Life during Physical Distancing for Covid-19: Sri Lankans in Brussels, Belgium",2020,article,1,True,include,3,rules,include
-W7163404670,A16,india,A16_india_q2,6,"Holy Birthdays and the Sharing of Streets in Two Neighborhoods of Old Pune, Maharashtra",2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7163404670,A16,india,A16_india_q2,6,"Holy Birthdays and the Sharing of Streets in Two Neighborhoods of Old Pune, Maharashtra",2026,article,0,True,borderline,1,core concept mentioned once | manual: rhythmanalysis of shared streets in Old Pune,include
 W7118006460,A16,india,A16_india_q2,7,"Platform Urbanism and Culinary Logistics: Mobility, Infrastructure, and Micro-Entrepreneurship in Post-Digital Kolkata",2026,conference-paper,0,False,exclude,0,core concept missing,exclude
 W4386379829,A16,india,A16_india_q2,8,An Assessment on the Trend of Urbanization in Nepal,2023,article,3,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W3156487338,A16,india,A16_india_q2,9,THE DISRUPTED RHYTHM OF PUBLIC SPACES UNDER THE COVID-19 LOCKDOWN: A CASE STUDY FROM MUMBAI METROPOLITAN REGION,2021,article,1,True,borderline,1,core concept mentioned once,pending
+W3156487338,A16,india,A16_india_q2,9,THE DISRUPTED RHYTHM OF PUBLIC SPACES UNDER THE COVID-19 LOCKDOWN: A CASE STUDY FROM MUMBAI METROPOLITAN REGION,2021,article,1,True,borderline,1,"core concept mentioned once | manual: disrupted rhythms of public space under lockdown, Mumbai",include
 W2118604977,A16,india,A16_india_q2,10,Factors influencing outcome of head injury patients at a tertiary care teaching hospital in India.,2009,article,8,True,exclude,0,core concept missing,exclude
 W4301622058,A16,india,A16_india_q2,11,Shilpa Gupta: Art Beyond Borders,2017,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4230000187,A16,india,A16_india_q2,12,Border rhythms,2017,book-chapter,2,True,include,2,rules,include
-W4200299234,A16,india,A16_india_q2,13,Reflections on Preliminary Fieldwork: The Militarisation of Public Space in Srinagar and its Impact on Rhythms of Everyday Life,2021,conference-abstract,0,True,borderline,3,context terms missing,pending
-W4404648065,A16,india,A16_india_q2,14,Old Delhi's Parallel Book Bazaar,2024,book,3,True,borderline,1,core concept mentioned once,pending
-W4394933609,A16,india,A16_india_q2,15,Security as infrastructure: controlling the rhythms and spacetimes of the city,2024,book-chapter,3,True,borderline,1,core concept mentioned once,pending
+W4200299234,A16,india,A16_india_q2,13,Reflections on Preliminary Fieldwork: The Militarisation of Public Space in Srinagar and its Impact on Rhythms of Everyday Life,2021,conference-abstract,0,True,borderline,3,"context terms missing | manual: militarised public space and rhythms of everyday life, Srinagar",include
+W4404648065,A16,india,A16_india_q2,14,Old Delhi's Parallel Book Bazaar,2024,book,3,True,borderline,1,core concept mentioned once | manual: rhythmanalysis of Old Delhi's Sunday book bazaar,include
+W4394933609,A16,india,A16_india_q2,15,Security as infrastructure: controlling the rhythms and spacetimes of the city,2024,book-chapter,3,True,borderline,1,core concept mentioned once | manual: security and the rhythms and spacetimes of the city,include
 W1527176554,A16,india,A16_india_q2,16,Bunkers of Sovereignty and Sound,2014,article,1,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W1594800853,A16,india,A16_india_q2,17,Night-time and Sleep in Asia and the West,2004,book,38,True,borderline,6,flag: night-?time lights?|night lights?|lumino,pending
+W1594800853,A16,india,A16_india_q2,17,Night-time and Sleep in Asia and the West,2004,book,38,True,borderline,6,flag: night-?time lights?|night lights?|lumino | manual: night-time and sleep in Asia and the West (night as social time),include
 W2625646730,A16,india,A16_india_q2,18,Las múltiples formas de lo urbano y la experiencia del universalismo,1970,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W4366496073,A16,india,A16_india_q2,19,The Ephemeral as an Instrument of Urban Design and Planning,2023,book-chapter,0,True,borderline,1,core concept mentioned once,pending
+W4366496073,A16,india,A16_india_q2,19,The Ephemeral as an Instrument of Urban Design and Planning,2023,book-chapter,0,True,borderline,1,core concept mentioned once | manual: urban temporalities and the ephemeral in planning,include
 W2267040420,A16,india,A16_india_q2,20,書寫空間，書寫差異：麥可‧翁達傑的小說,2010,article,0,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W7140848082,A16,india,A16_india_q2,21,"Lives, Letters, and Rhythms of Law: Choreopoetry as a Socio-Legal Method",2026,article,0,True,exclude,1,"context terms missing, core mentioned once",exclude
-W7154878807,A16,india,A16_india_q2,22,Militarised Occupation and Everyday Life: A Rhythmanalytical Approach to the Conflict in Kashmir,2026,dissertation,0,True,borderline,1,core concept mentioned once,pending
+W7154878807,A16,india,A16_india_q2,22,Militarised Occupation and Everyday Life: A Rhythmanalytical Approach to the Conflict in Kashmir,2026,dissertation,0,True,borderline,1,"core concept mentioned once | manual: rhythmanalysis of militarised everyday life, Kashmir",include
 W2219326834,A16,india,A16_india_q2,23,Embodied knowledge of landscape: Accommodating ongoing subjective experience in the presentation of heritage landscape,2015,article,0,True,include,3,rules,include
 W2612800950,A16,india,A16_india_q2,24,"Dancing the city of diversity: An exploration of dance, identity, culture, and place.",2014,dissertation,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2769573759,A16,india,A16_india_q3,1,"Politics of presence: women’s safety and respectability at night in Mumbai, India",2017,article,48,True,include,6,rules,include
@@ -1504,10 +1504,10 @@ W4407698595,A16,india,A16_india_q3,5,Cities after dark: Safety of public open sp
 W4408286821,A16,india,A16_india_q3,6,"Addressing women's mobility challenges in the public transportation system of Lahore, Pakistan",2025,article,17,False,exclude,0,core concept missing,exclude
 W3211380558,A16,india,A16_india_q3,7,"Road Traffic Accident Situation in Dhaka City, Bangladesh",2021,article,3,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4407150590,A16,india,A16_india_q3,8,"Untangling the relationship of fear, safety, and accessibility in night-time Kolkata",2025,book-chapter,3,True,include,6,rules,include
-W4223439424,A16,india,A16_india_q3,9,"City of Dreadful Night: Death, Gold and Calcutta in the European Consciousness",2022,article,0,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W4223439424,A16,india,A16_india_q3,9,"City of Dreadful Night: Death, Gold and Calcutta in the European Consciousness",2022,article,0,True,borderline,3,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: colonial imaginary of Calcutta,exclude
 W7162637570,A16,india,A16_india_q3,10,Exploring the factors affecting the movement of female pedestrians at night-time in Dhaka city,2026,article,0,True,include,6,rules,include
 W7163744603,A16,india,A16_india_q3,11,"Nike after dark: nighttime running, emotional well-being and women’s leisure constraints",2026,article,0,True,include,6,rules,include
-W7215935349,A16,india,A16_india_q3,12,Work-Life Balance and Health Outcomes of Women Working in Night Shifts in IT Companies in Chennai city,2024,article,0,True,borderline,6,flag: night-?time lights?|night lights?|lumino,pending
+W7215935349,A16,india,A16_india_q3,12,Work-Life Balance and Health Outcomes of Women Working in Night Shifts in IT Companies in Chennai city,2024,article,0,True,borderline,6,flag: night-?time lights?|night lights?|lumino | manual: night-shift work of women in Chennai IT companies,include
 W2783018180,A16,india,A16_india_q3,13,"Perceived environmental barriers to physical activity in young adults in Dhaka City, Bangladesh—does gender matter?",2017,article,27,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3216878540,A16,india,A16_india_q3,14,"A Study on Transformation of Indian Culture: Women in Night Shift Work, Consequences on Physical and Mental Health-With Special Reference of Private Hospitals in Mumbai City",2022,preprint,0,False,include,3,no abstract; core (and context) in title,include
 W3137545798,A16,india,A16_india_q3,15,Prevalence of Restless Leg Syndrome among Pregnant Women in Lahore City,2020,article,2,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
@@ -1534,7 +1534,7 @@ W4242751927,A16,landmarks,A16_landmarks,11,Urban Nightscapes,2003,book,405,True,
 W2013396734,A16,landmarks,A16_landmarks,12,Fatigue Risk Management in the Workplace,2012,article,398,True,exclude,0,core concept missing,exclude
 W2110015285,A16,landmarks,A16_landmarks,13,"Theorising Urban Playscapes: Producing, Regulating and Consuming Youthful Nightlife City Spaces",2002,article,398,True,include,6,rules,include
 W4286447321,A16,landmarks,A16_landmarks,14,Proceedings of the 2019 International Conference on Management of Data,2019,paratext,392,True,exclude,0,type paratext,exclude
-W607038506,A16,landmarks,A16_landmarks,15,"Geographies of Rhythm: Nature, Place, Mobilities and Bodies",2012,article,392,True,borderline,2,context terms missing,pending
+W607038506,A16,landmarks,A16_landmarks,15,"Geographies of Rhythm: Nature, Place, Mobilities and Bodies",2012,article,392,True,borderline,2,context terms missing | manual: geographies of rhythm,include
 W2745437966,A16,landmarks,A16_landmarks,16,Proceedings of the SIGCHI Conference on Human Factors in Computing Systems,2012,other,391,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W1974994817,A16,landmarks,A16_landmarks,17,Relational concepts of space and place: Issues for planning theory and practice,1999,article,389,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W585835990,A16,landmarks,A16_landmarks,18,"The scene of Harlem cabaret: race, sexuality, performance",2010,book-review,377,True,exclude,0,type book-review,exclude
@@ -1546,11 +1546,11 @@ W1982546989,A16,landmarks,A16_landmarks,23,Detailed source term estimation of th
 W1924304903,A16,landmarks,A16_landmarks,24,Proceedings of the 2010 ACM SIGMOD International Conference on Management of data,2010,paratext,343,True,exclude,0,type paratext,exclude
 W2026214474,A16,landmarks,A16_landmarks,25,Tourist's perceptions of safety and security while visiting Cape Town,2003,article,338,False,exclude,0,core concept missing,exclude
 W2300420884,A16,landmarks,A16_landmarks,26,Bouncers: Violence and Governance in the Night-time Economy,2003,article,329,False,include,3,no abstract; core in title; context terms missing,include
-W2132235613,A16,landmarks,A16_landmarks,27,Opening Up: Youth Sex Culture and Market Reform in Shanghai,2002,book,317,True,borderline,1,core concept mentioned once,pending
+W2132235613,A16,landmarks,A16_landmarks,27,Opening Up: Youth Sex Culture and Market Reform in Shanghai,2002,book,317,True,borderline,1,core concept mentioned once | manual: youth sex culture in Shanghai; nightlife as setting,exclude
 W1899217221,A16,landmarks,A16_landmarks,28,Consensus Statement: Fatigue and accidents in transport operations,2000,article,312,True,exclude,2,"flag, core not in title: night-?time lights?|night lights?|lumino",exclude
 W2027997059,A16,landmarks,A16_landmarks,29,Thinking about smart cities,2015,article,305,True,exclude,0,core concept missing,exclude
 W2068179741,A16,landmarks,A16_landmarks,30,Risk and trust in the cultural industries,2000,article,305,False,exclude,0,core concept missing,exclude
-W1510628762,A16,landmarks,A16_landmarks,31,The Taxi-Dance Hall: A Sociological Study in Commercialized Recreation and City Life,2008,other,304,True,borderline,1,core concept mentioned once,pending
+W1510628762,A16,landmarks,A16_landmarks,31,The Taxi-Dance Hall: A Sociological Study in Commercialized Recreation and City Life,2008,other,304,True,borderline,1,core concept mentioned once | manual: taxi-dance halls and urban nightlife (classic),include
 W2797269089,A16,landmarks,A16_landmarks,32,"Nightwork: Sexuality, Pleasure, and Corporate Masculinity in a Tokyo Hostess Club",1995,article,302,True,include,4,core in title; context terms missing,include
 W1989296517,A16,landmarks,A16_landmarks,33,"Steppin' Out: New York Nightlife and the Transformation of American Culture, 1890-1930",1982,article,299,True,include,4,rules,include
 W1981638968,A16,landmarks,A16_landmarks,34,"Transport and industrial safety, how are they affected by sleepiness and sleep restriction?",2006,article,295,False,exclude,0,core concept missing,exclude
@@ -1558,17 +1558,17 @@ W3176363435,A16,landmarks,A16_landmarks,35,Analysis of Convolutional Neural Netw
 W2169313154,A16,landmarks,A16_landmarks,36,"Adherence to physical activity guidelines in older adults, using objectively measured physical activity in a population-based study",2014,article,284,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W1978393417,A16,landmarks,A16_landmarks,37,Laser in situ keratomileusis: Literature review of a developing technique,1998,article,283,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W4230641285,A16,landmarks,A16_landmarks,38,Rhythmanalysis,2013,book,281,True,include,6,rules,include
-W2112712731,A16,landmarks,A16_landmarks,39,`Every Time I Do It I Absolutely Annihilate Myself': Loss of (Self-)Consciousness and Loss of Memory in Young People's Drinking Narratives,2009,article,278,True,borderline,1,core concept mentioned once,pending
+W2112712731,A16,landmarks,A16_landmarks,39,`Every Time I Do It I Absolutely Annihilate Myself': Loss of (Self-)Consciousness and Loss of Memory in Young People's Drinking Narratives,2009,article,278,True,borderline,1,core concept mentioned once | manual: young people's drinking and the night-time economy,include
 W2076088559,A16,landmarks,A16_landmarks,40,"Alcohol, nightlife and violence: the relative contributions of drinking before and during nights out to negative health and criminal justice outcomes",2007,article,271,True,include,6,rules,include
 W4388357720,A16,landmarks,A16_landmarks,41,Forbidden Friendships,1996,book,261,True,include,2,rules,include
 W2326306674,A16,landmarks,A16_landmarks,42,"Black Placemaking: Celebration, Play, and Poetry",2016,article,249,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2114750027,A16,landmarks,A16_landmarks,43,"Light distribution in dynamic street lighting: Two experimental studies on its effects on perceived safety, prospect, concealment, and escape",2012,article,249,False,exclude,0,core concept missing,exclude
 W2073618340,A16,landmarks,A16_landmarks,44,Severity of injury resulting from pedestrian–vehicle crashes: What can we learn from examining the built environment?,2009,article,249,False,exclude,0,core concept missing,exclude
 W2087554119,A16,landmarks,A16_landmarks,45,Urban Violence and Insecurity: An Introductory Roadmap,2004,article,244,True,include,2,rules,include
-W1969260199,A16,landmarks,A16_landmarks,46,Sexual uses of alcohol and drugs and the associated health risks: A cross sectional study of young people in nine European cities,2008,article,243,True,borderline,1,core concept mentioned once,pending
+W1969260199,A16,landmarks,A16_landmarks,46,Sexual uses of alcohol and drugs and the associated health risks: A cross sectional study of young people in nine European cities,2008,article,243,True,borderline,1,core concept mentioned once | manual: sexual health survey of nightlife users,exclude
 W1565141760,A16,landmarks,A16_landmarks,47,CHI '08 Extended Abstracts on Human Factors in Computing Systems,2008,paratext,243,True,exclude,0,type paratext,exclude
 W2161355446,A16,landmarks,A16_landmarks,48,BouncersViolence and Governance in the Night-Time Economy,2005,book,238,True,include,5,rules,include
-W4251927559,A16,landmarks,A16_landmarks,49,Ecological Consequences of Artificial Night Lighting,2007,article,237,True,borderline,6,flag: night-?time lights?|night lights?|lumino,pending
+W4251927559,A16,landmarks,A16_landmarks,49,Ecological Consequences of Artificial Night Lighting,2007,article,237,True,borderline,6,flag: night-?time lights?|night lights?|lumino | manual: ecology of artificial night lighting,exclude
 W1994263633,A16,landmarks,A16_landmarks,50,The epidemiology and patterns of acute and chronic toxicity associated with recreational ketamine use,2011,article,235,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W4285290430,A16,landmarks,A16_landmarks,51,SFNet-N: An Improved SFNet Algorithm for Semantic Segmentation of Low-Light Autonomous Driving Road Scenes,2022,article,233,True,exclude,3,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W2162224850,A16,landmarks,A16_landmarks,52,The Girl Hunt: Urban Nightlife and the Performance of Masculinity as Collective Activity,2007,article,233,True,include,4,rules,include
@@ -1585,7 +1585,7 @@ W2120265150,A16,landmarks,A16_landmarks,62,Tuberculosis and the Kidney,2001,arti
 W2012095279,A16,landmarks,A16_landmarks,63,Perceptions of safety at night in different lighting conditions,2000,article,211,True,include,5,rules,include
 W2041802497,A16,landmarks,A16_landmarks,64,Road-traffic noise and factors influencing noise annoyance in an urban population,2008,article,209,False,exclude,0,core concept missing,exclude
 W2916610944,A16,landmarks,A16_landmarks,65,Cohort Profile: The 2015 Pelotas (Brazil) Birth Cohort Study,2017,article,206,True,exclude,2,"flag, core not in title: \b(sensor network|wireless|5g|6g|edge co",exclude
-W2116856443,A16,landmarks,A16_landmarks,66,City Centre Regeneration through Residential Development: Contributing to Sustainability,2005,article,205,True,borderline,1,core concept mentioned once,pending
+W2116856443,A16,landmarks,A16_landmarks,66,City Centre Regeneration through Residential Development: Contributing to Sustainability,2005,article,205,True,borderline,1,core concept mentioned once | manual: city-centre residential regeneration,exclude
 W2107871422,A16,landmarks,A16_landmarks,67,Receiving shadows: governance and liminality in the night‐time economy 1,2000,article,204,True,include,4,rules,include
 W2610936685,A16,landmarks,A16_landmarks,68,Effects of Improved Street Lighting on Crime,2008,article,203,True,include,3,rules,include
 W2153986208,A16,landmarks,A16_landmarks,69,Aerosol hygroscopicity derived from size-segregated chemical composition and its parameterization in the North China Plain,2014,article,201,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -1605,22 +1605,22 @@ W2236634380,A16,landmarks,A16_landmarks,82,On the make: the hustle of urban nigh
 W2059387485,A16,landmarks,A16_landmarks,83,The Doctor's Dilemma,1973,article,174,False,exclude,0,core concept missing,exclude
 W3036958340,A16,landmarks,A16_landmarks,84,Urban revival in America,2020,article,172,False,exclude,0,core concept missing,exclude
 W2086091118,A16,landmarks,A16_landmarks,85,The Role of Phloem Loading Reconsidered,2010,article,170,True,include,3,rules,include
-W1980449624,A16,landmarks,A16_landmarks,86,Cities and the Night-time Economy,1995,article,170,True,borderline,4,stub abstract (possible book review),pending
+W1980449624,A16,landmarks,A16_landmarks,86,Cities and the Night-time Economy,1995,article,170,True,borderline,4,stub abstract (possible book review) | manual: cities and the night-time economy,include
 W1973845611,A16,landmarks,A16_landmarks,87,Ambulatory and Home Blood Pressure Normality in the Elderly,1997,article,169,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W3027418623,A16,landmarks,A16_landmarks,88,CHI '12 Extended Abstracts on Human Factors in Computing Systems,2012,paratext,168,True,exclude,0,type paratext,exclude
 W2095068076,A16,landmarks,A16_landmarks,89,Beyond the binge in ‘booze Britain’: market‐led liminalization and the spectacle of binge drinking,2007,article,168,True,include,2,rules,include
-W2127142633,A16,landmarks,A16_landmarks,90,"Drunk and Disorderly: Alcohol, Urban Life and Public Space",2006,article,168,True,borderline,1,core concept mentioned once,pending
+W2127142633,A16,landmarks,A16_landmarks,90,"Drunk and Disorderly: Alcohol, Urban Life and Public Space",2006,article,168,True,borderline,1,"core concept mentioned once | manual: alcohol, urban life and public space (night-time city)",include
 W2965533782,A16,landmarks,A16_landmarks,91,Pedestrian safety perception and urban street settings,2019,article,167,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2094604581,A16,landmarks,A16_landmarks,92,Disabling the public interest: alcohol strategies and policies for England,2004,article,166,True,include,2,rules,include
 W2087109254,A16,landmarks,A16_landmarks,93,Estimating Urban Time of Concentration,1984,article,165,True,include,3,rules,include
-W2885328385,A16,landmarks,A16_landmarks,94,"Exploring online customer engagement with hospitality products and its relationship with involvement, emotional states, experience and brand advocacy",2018,article,164,True,borderline,1,core concept mentioned once,pending
+W2885328385,A16,landmarks,A16_landmarks,94,"Exploring online customer engagement with hospitality products and its relationship with involvement, emotional states, experience and brand advocacy",2018,article,164,True,borderline,1,core concept mentioned once | manual: online reviews marketing,exclude
 W2108874203,A16,landmarks,A16_landmarks,95,Introduction: Geographies of the urban night,2014,article,164,True,include,6,rules,include
 W2115317190,A16,landmarks,A16_landmarks,96,Exercise in children and adolescents with diabetes,2009,article,164,True,exclude,1,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
 W2127218951,A16,landmarks,A16_landmarks,97,Effects of restricting pub closing times on night‐time assaults in an Australian city,2010,article,162,True,include,5,rules,include
-W2241323128,A16,landmarks,A16_landmarks,98,Ecological Consequences of Artificial Night Lighting,2007,article,162,True,borderline,6,flag: night-?time lights?|night lights?|lumino,pending
+W2241323128,A16,landmarks,A16_landmarks,98,Ecological Consequences of Artificial Night Lighting,2007,article,162,True,borderline,6,flag: night-?time lights?|night lights?|lumino | manual: ecology of artificial night lighting (duplicate),exclude
 W1960720644,A16,landmarks,A16_landmarks,99,City-centre Revitalisation: Problems of Fragmentation and Fear in the Evening and Night-time City,2000,article,161,True,include,6,rules,include
-W2941514228,A16,landmarks,A16_landmarks,100,Overtourism and Resident Resistance in Budapest,2019,article,160,True,borderline,1,core concept mentioned once,pending
-W4415645899,A16,recent,A16_recent_q1,1,Impact Study of Night-time Economy on Nightlife Welfare,2025,article,0,True,borderline,6,flag: night-?time lights?|night lights?|lumino,pending
+W2941514228,A16,landmarks,A16_landmarks,100,Overtourism and Resident Resistance in Budapest,2019,article,160,True,borderline,1,core concept mentioned once | manual: overtourism resistance,exclude
+W4415645899,A16,recent,A16_recent_q1,1,Impact Study of Night-time Economy on Nightlife Welfare,2025,article,0,True,borderline,6,flag: night-?time lights?|night lights?|lumino | manual: night-time economy and nightlife welfare,include
 W7138945063,A16,recent,A16_recent_q1,2,Spatio-temporal Differentiation and Identification of Active Zones of Urban Night-time Economy in Tianjin,2025,article,0,True,include,6,rules,include
 W4404183956,A16,recent,A16_recent_q1,3,Night Time Economy,2024,book-chapter,0,True,include,6,rules,include
 W4402923160,A16,recent,A16_recent_q1,4,"“This is what I like, this is why I need to be here”: Young women’s pleasure in the urban night time economy",2024,article,3,True,include,6,rules,include
@@ -1631,10 +1631,10 @@ W4406112219,A16,recent,A16_recent_q1,8,Zagreb Night-Time Economy: Hit or Myth,20
 W4406958215,A16,recent,A16_recent_q1,9,Zagreb Night-Time Economy: Hit or Myth,2025,article,0,True,include,6,rules,include
 W7169630580,A16,recent,A16_recent_q1,10,Measuring the Australian Night-Time Economy 2026,2026,report,0,True,include,4,rules,include
 W4389494231,A16,recent,A16_recent_q1,11,"Night-Time Economy, Alcohol, and Entertainment in a Big City: Revitalization Strategies, Spaces of Conflict, and Night-Time Subjects in the Research on the Urban Night",2023,article,0,True,include,6,rules,include
-W7206812634,A16,recent,A16_recent_q1,12,Measuring the Australian Night Time Economy 2021-22,2023,report,0,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7206812634,A16,recent,A16_recent_q1,12,Measuring the Australian Night Time Economy 2021-22,2023,report,0,True,borderline,5,flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: measuring the Australian night-time economy,include
 W4412729022,A16,recent,A16_recent_q1,13,Factors affecting the night-time economy development in Vietnam today,2025,article,0,True,include,6,core in title; context terms missing,include
-W7165332031,A16,recent,A16_recent_q1,14,The influence of culture + technology on night-time economy,2025,dissertation,0,True,borderline,3,stub abstract (possible book review),pending
-W7199801895,A16,recent,A16_recent_q1,15,Night time economy policymaking and governance in Australian cities,2024,dissertation,0,True,borderline,3,stub abstract (possible book review),pending
+W7165332031,A16,recent,A16_recent_q1,14,The influence of culture + technology on night-time economy,2025,dissertation,0,True,borderline,3,stub abstract (possible book review) | manual: culture and technology in the night-time economy,include
+W7199801895,A16,recent,A16_recent_q1,15,Night time economy policymaking and governance in Australian cities,2024,dissertation,0,True,borderline,3,stub abstract (possible book review) | manual: night-time economy policymaking in Australian cities,include
 W4313124494,A16,recent,A16_recent_q1,16,Study and Planning Strategy of Qingdao “Night-Time Economy”,2022,article,0,False,include,3,no abstract; core in title; context terms missing,include
 W4377027842,A16,recent,A16_recent_q1,17,City after Dark: Cultural Planning and Management of Bhubaneswar's Night-time Economy,2023,article,2,True,include,6,rules,include
 W4307794315,A16,recent,A16_recent_q1,18,Nightlife,2022,book-chapter,0,False,include,3,no abstract; core in title; context terms missing,include
@@ -1644,7 +1644,7 @@ W7160140980,A16,recent,A16_recent_q1,21,Bouncer Culture and the Nighttime Econom
 W4408246918,A16,recent,A16_recent_q1,22,Unwanted Sexual Attention and Spiking in the Night-Time Economy,2025,book-chapter,0,True,include,6,rules,include
 W7154757320,A16,recent,A16_recent_q1,23,"Mixed Martial Arts, Organised Crime and The Night-Time Economy",2026,book-chapter,0,True,include,6,rules,include
 W4409047817,A16,recent,A16_recent_q1,24,Nightlife,2025,reference-entry,1,False,include,3,no abstract; core in title; context terms missing,include
-W4306411770,A16,recent,A16_recent_q2,1,Urban Temporalities,2022,book-chapter,2,True,borderline,4,stub abstract (possible book review),pending
+W4306411770,A16,recent,A16_recent_q2,1,Urban Temporalities,2022,book-chapter,2,True,borderline,4,stub abstract (possible book review) | manual: urban temporalities (introduction),include
 W4386771192,A16,recent,A16_recent_q2,2,Urban Temporalities,2023,article,0,False,include,3,no abstract; core (and context) in title,include
 W4414429849,A16,recent,A16_recent_q2,3,Pace of Life and Urban Rhythms. What Prospects for Urban Time Policies,2025,other,0,False,include,3,no abstract; core (and context) in title,include
 W4319074031,A16,recent,A16_recent_q2,4,URBAN RHYTHMS AND CREATIVITY:,2022,book-chapter,2,False,include,3,no abstract; core (and context) in title,include
@@ -1689,7 +1689,7 @@ W4411152638,A16,recent,A16_recent_q3,18,Navigating the Night: An Agent-Based Mod
 W4403057358,A16,recent,A16_recent_q3,19,When a Stranger Approaches at Night: The Impact of Adaptive Street Lighting on Safety Perception,2024,article,12,True,include,3,rules,include
 W4415652550,A16,recent,A16_recent_q3,20,Reviving Indian Cities After Dark,2025,article,0,True,include,6,rules,include
 W7220515739,A16,recent,A16_recent_q3,21,"GENDER DYNAMICS IN HIGHER EDUCATION: ANALYZING MOBILITY, SAFETY AND INCLUSION FOR WOMEN",2025,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W4416703108,A16,recent,A16_recent_q3,22,Evaluating urban nighttime lighting and perceived safety in residential areas: An empirical investigation in Xi’an City,2025,article,6,False,borderline,3,flag: night-?time lights?|night lights?|lumino,pending
+W4416703108,A16,recent,A16_recent_q3,22,Evaluating urban nighttime lighting and perceived safety in residential areas: An empirical investigation in Xi’an City,2025,article,6,False,borderline,3,flag: night-?time lights?|night lights?|lumino | manual: night-time lighting and perceived safety in residential areas,include
 W4407798572,A16,recent,A16_recent_q3,23,Lyric Essay on Sarona Abuaker’s Why so few women on the street at night,2024,article,0,False,include,3,no abstract; core (and context) in title,include
 W4390456885,A16,recent,A16_recent_q3,24,"Walking After Dark: A Sidewalk Illumination Case Study in Cedar City, UT",2023,article,2,True,include,4,rules,include
 W2625073173,A1,india,A1_india_q1,1,"Comparing urban governance in Delhi, Hyderabad, Kolkata, and Mumbai",2009,book-chapter,1,True,borderline,3,stub abstract (possible book review) | manual: comparative urban governance in four Indian metros,include
