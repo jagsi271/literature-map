@@ -1,0 +1,91 @@
+{
+ "theme": "C15",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"food delivery\" OR \"delivery riders\" OR \"delivery workers\" OR couriers) AND (platform OR app)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"food delivery\" OR \"delivery riders\" OR \"delivery workers\" OR couriers) AND (platform OR app),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"delivery riders\" OR \"delivery workers\" OR \"food delivery\" OR \"couriers\") AND (\"app\" OR \"platform\"))",
+ "page": 1,
+ "total_results": 3126,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C15_recent_q2.json.gz",
+ "results": [
+  [
+   "W7171963885",
+   2026
+  ],
+  [
+   "W4416732912",
+   2025
+  ],
+  [
+   "W7127622751",
+   2026
+  ],
+  [
+   "W7127598080",
+   2026
+  ],
+  [
+   "W7127652292",
+   2026
+  ],
+  [
+   "W4415581153",
+   2025
+  ],
+  [
+   "W4400441642",
+   2024
+  ],
+  [
+   "W7106661698",
+   2025
+  ],
+  [
+   "W7106699764",
+   2025
+  ],
+  [
+   "W4206455671",
+   2022
+  ],
+  [
+   "W4386255390",
+   2023
+  ],
+  [
+   "W7153302427",
+   2026
+  ],
+  [
+   "W4406634719",
+   2025
+  ],
+  [
+   "W4386605655",
+   2023
+  ],
+  [
+   "W7203834947",
+   2026
+  ],
+  [
+   "W4404182297",
+   2024
+  ],
+  [
+   "W7167355321",
+   2026
+  ],
+  [
+   "W7127577880",
+   2025
+  ]
+ ]
+}

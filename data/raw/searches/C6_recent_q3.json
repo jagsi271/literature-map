@@ -1,0 +1,91 @@
+{
+ "theme": "C6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"facial recognition\" AND (police OR policing OR \"public space\" OR city)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"facial recognition\" AND (police OR policing OR \"public space\" OR city),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"facial recognition\" AND (\"public space\" OR \"city\" OR \"police\" OR \"policing\"))",
+ "page": 1,
+ "total_results": 912,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C6_recent_q3.json.gz",
+ "results": [
+  [
+   "W4296295652",
+   2022
+  ],
+  [
+   "W7155202804",
+   2026
+  ],
+  [
+   "W7152044816",
+   2026
+  ],
+  [
+   "W7204190113",
+   2026
+  ],
+  [
+   "W4290722812",
+   2022
+  ],
+  [
+   "W4391682093",
+   2024
+  ],
+  [
+   "W4412699941",
+   2025
+  ],
+  [
+   "W4403709088",
+   2024
+  ],
+  [
+   "W7168276436",
+   2026
+  ],
+  [
+   "W4409327760",
+   2025
+  ],
+  [
+   "W7204346485",
+   2024
+  ],
+  [
+   "W4380320641",
+   2023
+  ],
+  [
+   "W4220744496",
+   2022
+  ],
+  [
+   "W4394835821",
+   2024
+  ],
+  [
+   "W4399437645",
+   2024
+  ],
+  [
+   "W7113233119",
+   2025
+  ],
+  [
+   "W7170093350",
+   2026
+  ],
+  [
+   "W7162211611",
+   2026
+  ]
+ ]
+}

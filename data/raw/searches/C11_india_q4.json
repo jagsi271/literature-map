@@ -1,0 +1,91 @@
+{
+ "theme": "C11",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((demonetisation OR demonetization) AND (traders OR vendors OR urban OR informal)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((demonetisation OR demonetization) AND (traders OR vendors OR urban OR informal)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"demonetisation\" OR \"demonetization\") AND (\"informal\" OR \"traders\" OR \"urban\" OR \"vendors\"))",
+ "page": 1,
+ "total_results": 255,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C11_india_q4.json.gz",
+ "results": [
+  [
+   "W4210620264",
+   2021
+  ],
+  [
+   "W2992815509",
+   2018
+  ],
+  [
+   "W2763434749",
+   2017
+  ],
+  [
+   "W3180460573",
+   2018
+  ],
+  [
+   "W2626703751",
+   2017
+  ],
+  [
+   "W4400790692",
+   2020
+  ],
+  [
+   "W2810837378",
+   2018
+  ],
+  [
+   "W7154335785",
+   2019
+  ],
+  [
+   "W3010888446",
+   2017
+  ],
+  [
+   "W2901331883",
+   2017
+  ],
+  [
+   "W4300679356",
+   2017
+  ],
+  [
+   "W2765804355",
+   2017
+  ],
+  [
+   "W2625357838",
+   2017
+  ],
+  [
+   "W2954143415",
+   2019
+  ],
+  [
+   "W4236501677",
+   2019
+  ],
+  [
+   "W2773002558",
+   2017
+  ],
+  [
+   "W4381835178",
+   2023
+  ],
+  [
+   "W2701472306",
+   2017
+  ]
+ ]
+}

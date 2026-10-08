@@ -1,0 +1,83 @@
+{
+ "theme": "C12",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"participatory budgeting\" AND (online OR digital)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"participatory budgeting\" AND (online OR digital)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"participatory budgeting\" AND (\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"digital\" OR \"online\"))",
+ "page": 1,
+ "total_results": 16,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C12_india_q3.json.gz",
+ "results": [
+  [
+   "W4416602185",
+   2025
+  ],
+  [
+   "W563427504",
+   2014
+  ],
+  [
+   "W4414907640",
+   2025
+  ],
+  [
+   "W7140328865",
+   2025
+  ],
+  [
+   "W7160177846",
+   2026
+  ],
+  [
+   "W4411412544",
+   2025
+  ],
+  [
+   "W7167424199",
+   2026
+  ],
+  [
+   "W4409969828",
+   2025
+  ],
+  [
+   "W4414949649",
+   2025
+  ],
+  [
+   "W4411260095",
+   2025
+  ],
+  [
+   "W7134932180",
+   2026
+  ],
+  [
+   "W4417102036",
+   2025
+  ],
+  [
+   "W7127380211",
+   2026
+  ],
+  [
+   "W7106543685",
+   2025
+  ],
+  [
+   "W4399189960",
+   2024
+  ],
+  [
+   "W4252046757",
+   2018
+  ]
+ ]
+}

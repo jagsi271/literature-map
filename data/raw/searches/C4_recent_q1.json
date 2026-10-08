@@ -1,0 +1,91 @@
+{
+ "theme": "C4",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban informatics\" OR \"urban computing\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban informatics\" OR \"urban computing\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban computing\" OR \"urban informatics\")",
+ "page": 1,
+ "total_results": 496,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C4_recent_q1.json.gz",
+ "results": [
+  [
+   "W4309300343",
+   2022
+  ],
+  [
+   "W4295866777",
+   2022
+  ],
+  [
+   "W7139059301",
+   2026
+  ],
+  [
+   "W4396973240",
+   2024
+  ],
+  [
+   "W7172494278",
+   2026
+  ],
+  [
+   "W4311238919",
+   2022
+  ],
+  [
+   "W4306377233",
+   2022
+  ],
+  [
+   "W4298121259",
+   2022
+  ],
+  [
+   "W4281783549",
+   2022
+  ],
+  [
+   "W7119089122",
+   2024
+  ],
+  [
+   "W7117115112",
+   2025
+  ],
+  [
+   "W4281663674",
+   2022
+  ],
+  [
+   "W4404744285",
+   2024
+  ],
+  [
+   "W4220688436",
+   2022
+  ],
+  [
+   "W4207083438",
+   2022
+  ],
+  [
+   "W4310369832",
+   2022
+  ],
+  [
+   "W7172521853",
+   2026
+  ],
+  [
+   "W4392522782",
+   2024
+  ]
+ ]
+}

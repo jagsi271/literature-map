@@ -1,0 +1,91 @@
+{
+ "theme": "C4",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban analytics\" OR \"urban science\" AND data",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban analytics\" OR \"urban science\" AND data,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban analytics\" OR (\"urban science\" AND \"data\"))",
+ "page": 1,
+ "total_results": 245,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C4_recent_q2.json.gz",
+ "results": [
+  [
+   "W4415798943",
+   2024
+  ],
+  [
+   "W7164138641",
+   2026
+  ],
+  [
+   "W4285260790",
+   2022
+  ],
+  [
+   "W4214934573",
+   2022
+  ],
+  [
+   "W4404252776",
+   2024
+  ],
+  [
+   "W4311879149",
+   2022
+  ],
+  [
+   "W4402818636",
+   2024
+  ],
+  [
+   "W4400890167",
+   2024
+  ],
+  [
+   "W4407717490",
+   2025
+  ],
+  [
+   "W7172518542",
+   2026
+  ],
+  [
+   "W4414283521",
+   2025
+  ],
+  [
+   "W7220756095",
+   2022
+  ],
+  [
+   "W4414801081",
+   2025
+  ],
+  [
+   "W4415688617",
+   2025
+  ],
+  [
+   "W4407891804",
+   2025
+  ],
+  [
+   "W4285170645",
+   2022
+  ],
+  [
+   "W4390760768",
+   2022
+  ],
+  [
+   "W4410325661",
+   2025
+  ]
+ ]
+}

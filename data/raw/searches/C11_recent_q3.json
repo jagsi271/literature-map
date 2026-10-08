@@ -1,0 +1,91 @@
+{
+ "theme": "C11",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital payments\" AND (vendors OR merchants OR \"small businesses\" OR informal OR urban)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital payments\" AND (vendors OR merchants OR \"small businesses\" OR informal OR urban),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital payments\" AND (\"small businesses\" OR \"informal\" OR \"merchants\" OR \"urban\" OR \"vendors\"))",
+ "page": 1,
+ "total_results": 917,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C11_recent_q3.json.gz",
+ "results": [
+  [
+   "W4410111477",
+   2025
+  ],
+  [
+   "W7220153821",
+   2026
+  ],
+  [
+   "W7140217774",
+   2026
+  ],
+  [
+   "W4413135567",
+   2025
+  ],
+  [
+   "W7132855301",
+   2026
+  ],
+  [
+   "W7140836539",
+   2026
+  ],
+  [
+   "W7214050126",
+   2026
+  ],
+  [
+   "W7167737401",
+   2026
+  ],
+  [
+   "W7214221743",
+   2026
+  ],
+  [
+   "W7220807870",
+   2026
+  ],
+  [
+   "W7151524699",
+   2026
+  ],
+  [
+   "W7117869945",
+   2025
+  ],
+  [
+   "W7140014625",
+   2023
+  ],
+  [
+   "W7133340221",
+   2026
+  ],
+  [
+   "W7116913537",
+   2025
+  ],
+  [
+   "W4379469883",
+   2023
+  ],
+  [
+   "W7162750390",
+   2026
+  ],
+  [
+   "W4382631053",
+   2023
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "C11",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "UPI OR \"Unified Payments Interface\" OR (\"QR code\" AND payment)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:UPI OR \"Unified Payments Interface\" OR (\"QR code\" AND payment),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"UPI\" OR \"Unified Payments Interface\" OR (\"QR code\" AND \"payment\"))",
+ "page": 1,
+ "total_results": 6114,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C11_recent_q2.json.gz",
+ "results": [
+  [
+   "W7155071928",
+   2026
+  ],
+  [
+   "W4412346619",
+   2025
+  ],
+  [
+   "W4410866341",
+   2025
+  ],
+  [
+   "W7131648425",
+   2026
+  ],
+  [
+   "W4399497305",
+   2023
+  ],
+  [
+   "W4412042309",
+   2025
+  ],
+  [
+   "W4400099954",
+   2024
+  ],
+  [
+   "W4324098407",
+   2023
+  ],
+  [
+   "W4323927481",
+   2023
+  ],
+  [
+   "W4414372482",
+   2025
+  ],
+  [
+   "W7167804875",
+   2026
+  ],
+  [
+   "W7105695309",
+   2025
+  ],
+  [
+   "W7164168688",
+   2026
+  ],
+  [
+   "W7164334261",
+   2026
+  ],
+  [
+   "W4281686194",
+   2022
+  ],
+  [
+   "W7218088559",
+   2024
+  ],
+  [
+   "W4401957047",
+   2024
+  ],
+  [
+   "W7162204632",
+   2026
+  ]
+ ]
+}

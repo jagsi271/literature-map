@@ -1,0 +1,91 @@
+{
+ "theme": "C6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(CCTV OR \"video surveillance\" OR \"closed-circuit television\") AND (city OR urban OR \"public space\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(CCTV OR \"video surveillance\" OR \"closed-circuit television\") AND (city OR urban OR \"public space\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"CCTV\" OR \"closed-circuit television\" OR \"video surveillance\") AND (\"public space\" OR \"city\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 1867,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C6_recent_q2.json.gz",
+ "results": [
+  [
+   "W4394826148",
+   2024
+  ],
+  [
+   "W4396958571",
+   2024
+  ],
+  [
+   "W7218190999",
+   2024
+  ],
+  [
+   "W7162545117",
+   2026
+  ],
+  [
+   "W4416020789",
+   2025
+  ],
+  [
+   "W4386800969",
+   2023
+  ],
+  [
+   "W4386141924",
+   2023
+  ],
+  [
+   "W4312905492",
+   2022
+  ],
+  [
+   "W4320019421",
+   2022
+  ],
+  [
+   "W4408897281",
+   2025
+  ],
+  [
+   "W4226451107",
+   2022
+  ],
+  [
+   "W4393097734",
+   2024
+  ],
+  [
+   "W7216858007",
+   2026
+  ],
+  [
+   "W4401915204",
+   2024
+  ],
+  [
+   "W4387349366",
+   2023
+  ],
+  [
+   "W7111564569",
+   2025
+  ],
+  [
+   "W4392165466",
+   2024
+  ],
+  [
+   "W4414240571",
+   2025
+  ]
+ ]
+}

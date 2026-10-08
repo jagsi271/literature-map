@@ -1,0 +1,91 @@
+{
+ "theme": "C7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban artificial intelligence\" OR \"urban AI\" OR \"AI urbanism\" OR \"city brain\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban artificial intelligence\" OR \"urban AI\" OR \"AI urbanism\" OR \"city brain\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"AI urbanism\" OR \"city brain\" OR \"urban AI\" OR \"urban artificial intelligence\")",
+ "page": 1,
+ "total_results": 424,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C7_recent_q3.json.gz",
+ "results": [
+  [
+   "W4388670073",
+   2023
+  ],
+  [
+   "W4367173645",
+   2023
+  ],
+  [
+   "W4391817071",
+   2024
+  ],
+  [
+   "W4393221319",
+   2024
+  ],
+  [
+   "W7134849961",
+   2026
+  ],
+  [
+   "W4403938713",
+   2024
+  ],
+  [
+   "W4403940839",
+   2024
+  ],
+  [
+   "W4403940943",
+   2024
+  ],
+  [
+   "W7166169748",
+   2026
+  ],
+  [
+   "W7169487365",
+   2026
+  ],
+  [
+   "W7147037169",
+   2026
+  ],
+  [
+   "W7113222339",
+   2025
+  ],
+  [
+   "W7124318715",
+   2026
+  ],
+  [
+   "W4387460871",
+   2023
+  ],
+  [
+   "W4403941188",
+   2024
+  ],
+  [
+   "W4403938815",
+   2024
+  ],
+  [
+   "W4320038458",
+   2023
+  ],
+  [
+   "W7167846466",
+   2026
+  ]
+ ]
+}

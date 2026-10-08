@@ -1,0 +1,91 @@
+{
+ "theme": "C15",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"gig work\" OR \"gig workers\" OR \"gig economy\") AND (city OR cities OR urban OR spatial OR geography)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"gig work\" OR \"gig workers\" OR \"gig economy\") AND (city OR cities OR urban OR spatial OR geography),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"gig economy\" OR \"gig work\" OR \"gig workers\") AND (\"cities\" OR \"city\" OR \"geography\" OR \"spatial\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 843,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C15_recent_q1.json.gz",
+ "results": [
+  [
+   "W7211994619",
+   2026
+  ],
+  [
+   "W4388163177",
+   2023
+  ],
+  [
+   "W7220464217",
+   2024
+  ],
+  [
+   "W4385217899",
+   2023
+  ],
+  [
+   "W4412692555",
+   2025
+  ],
+  [
+   "W4413194896",
+   2025
+  ],
+  [
+   "W4405829608",
+   2024
+  ],
+  [
+   "W7204157372",
+   2026
+  ],
+  [
+   "W4410549854",
+   2025
+  ],
+  [
+   "W4391921925",
+   2024
+  ],
+  [
+   "W4283831628",
+   2022
+  ],
+  [
+   "W4367178027",
+   2023
+  ],
+  [
+   "W4416995328",
+   2025
+  ],
+  [
+   "W7216680105",
+   2025
+  ],
+  [
+   "W4390017007",
+   2023
+  ],
+  [
+   "W4412568820",
+   2025
+  ],
+  [
+   "W4410107193",
+   2025
+  ],
+  [
+   "W7161976528",
+   2026
+  ]
+ ]
+}

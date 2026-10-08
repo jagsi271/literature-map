@@ -1,0 +1,115 @@
+{
+ "theme": "C1",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"smart city\" AND (policy OR politics OR urbanism)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"smart city\" AND (policy OR politics OR urbanism),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"smart city\" AND (\"policy\" OR \"politics\" OR \"urbanism\"))",
+ "page": 1,
+ "total_results": 3502,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C1_recent_q3.json.gz",
+ "results": [
+  [
+   "W4220722580",
+   2022
+  ],
+  [
+   "W7125922736",
+   2026
+  ],
+  [
+   "W7125904546",
+   2026
+  ],
+  [
+   "W4403834930",
+   2024
+  ],
+  [
+   "W4309757847",
+   2022
+  ],
+  [
+   "W4378901084",
+   2023
+  ],
+  [
+   "W4392313128",
+   2023
+  ],
+  [
+   "W7147183071",
+   2026
+  ],
+  [
+   "W4306790789",
+   2022
+  ],
+  [
+   "W4206294455",
+   2022
+  ],
+  [
+   "W4406421668",
+   2025
+  ],
+  [
+   "W4392386954",
+   2022
+  ],
+  [
+   "W4389458965",
+   2023
+  ],
+  [
+   "W4366178216",
+   2023
+  ],
+  [
+   "W7115581931",
+   2025
+  ],
+  [
+   "W4210549241",
+   2022
+  ],
+  [
+   "W7168165961",
+   2026
+  ],
+  [
+   "W7214048561",
+   2026
+  ],
+  [
+   "W7154114940",
+   2026
+  ],
+  [
+   "W4366710397",
+   2023
+  ],
+  [
+   "W4291316441",
+   2022
+  ],
+  [
+   "W4392784553",
+   2024
+  ],
+  [
+   "W4385582485",
+   2023
+  ],
+  [
+   "W4308419365",
+   2022
+  ]
+ ]
+}

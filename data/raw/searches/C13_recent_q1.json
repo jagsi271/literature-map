@@ -1,0 +1,115 @@
+{
+ "theme": "C13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"digital twin\" OR \"digital twins\") AND (city OR cities OR urban)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"digital twin\" OR \"digital twins\") AND (city OR cities OR urban),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"digital twin\" OR \"digital twins\") AND (\"cities\" OR \"city\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 7476,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C13_recent_q1.json.gz",
+ "results": [
+  [
+   "W4387459697",
+   2023
+  ],
+  [
+   "W4292084222",
+   2022
+  ],
+  [
+   "W4416240259",
+   2025
+  ],
+  [
+   "W4393201808",
+   2024
+  ],
+  [
+   "W4387933173",
+   2023
+  ],
+  [
+   "W4392307307",
+   2024
+  ],
+  [
+   "W4378908889",
+   2023
+  ],
+  [
+   "W4368232273",
+   2023
+  ],
+  [
+   "W4385989283",
+   2023
+  ],
+  [
+   "W4281776391",
+   2022
+  ],
+  [
+   "W4387501102",
+   2023
+  ],
+  [
+   "W7134156255",
+   2025
+  ],
+  [
+   "W4402864351",
+   2024
+  ],
+  [
+   "W4404836392",
+   2024
+  ],
+  [
+   "W4392910463",
+   2024
+  ],
+  [
+   "W4399422044",
+   2024
+  ],
+  [
+   "W4396731195",
+   2024
+  ],
+  [
+   "W4412850332",
+   2025
+  ],
+  [
+   "W4409176147",
+   2025
+  ],
+  [
+   "W4367023273",
+   2023
+  ],
+  [
+   "W4404631533",
+   2024
+  ],
+  [
+   "W4288455776",
+   2022
+  ],
+  [
+   "W4396973240",
+   2024
+  ],
+  [
+   "W4396919942",
+   2024
+  ]
+ ]
+}

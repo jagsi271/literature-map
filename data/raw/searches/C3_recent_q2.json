@@ -1,0 +1,91 @@
+{
+ "theme": "C3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"code/space\" OR \"software-sorted\" OR \"software and space\" OR \"coded space\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"code/space\" OR \"software-sorted\" OR \"software and space\" OR \"coded space\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"coded space\" OR \"software and space\" OR \"code/space\" OR \"software-sorted\")",
+ "page": 1,
+ "total_results": 404,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C3_recent_q2.json.gz",
+ "results": [
+  [
+   "W7126202358",
+   2026
+  ],
+  [
+   "W7111615887",
+   2024
+  ],
+  [
+   "W3203288988",
+   2022
+  ],
+  [
+   "W4415224659",
+   2025
+  ],
+  [
+   "W4410229404",
+   2025
+  ],
+  [
+   "W4317826934",
+   2022
+  ],
+  [
+   "W4285132863",
+   2022
+  ],
+  [
+   "W4406158033",
+   2025
+  ],
+  [
+   "W4404388941",
+   2024
+  ],
+  [
+   "W7165914168",
+   2026
+  ],
+  [
+   "W7139996480",
+   2026
+  ],
+  [
+   "W7133301749",
+   2026
+  ],
+  [
+   "W7139948173",
+   2026
+  ],
+  [
+   "W7204869271",
+   2026
+  ],
+  [
+   "W7168320965",
+   2026
+  ],
+  [
+   "W4414145450",
+   2025
+  ],
+  [
+   "W7162122862",
+   2026
+  ],
+  [
+   "W7135037267",
+   2026
+  ]
+ ]
+}

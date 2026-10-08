@@ -29,7 +29,7 @@ import yaml
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from fetcher import load_work  # noqa: E402
-from gazetteer import places, region_label  # noqa: E402
+from gazetteer import names_city, places, region_label  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
@@ -165,6 +165,9 @@ def screen(title, abstract, kw_text, req, flags, domain, slice_name="", strict_o
         # off-topic, so they are excluded too)
         return "exclude", 0, "core concept missing"
     ctx_ok = all(r.search(full) for r in context)
+    if not ctx_ok and domain == "C" and names_city(full):
+        # C themes: a named city counts as the urban context term
+        ctx_ok = all(r.search(full) for r in context[1:])
     flagged = [f.pattern[:40] for f in flags if f.search(full)]
     if flagged:
         if core_title:
@@ -175,7 +178,7 @@ def screen(title, abstract, kw_text, req, flags, domain, slice_name="", strict_o
             return "include", score, "no abstract; core (and context) in title"
         if domain != "C":
             return "include", score, "no abstract; core in title; context terms missing"
-        return "borderline", score, "no abstract; context terms missing"
+        return "exclude", score, "no abstract; no urban context (C theme)"
     if len(abstract) < 250 or re.search(r"^\W*\"?[^.]{5,200}\"?\s*,?\s*\d+\s*\(\d+\),?\s*pp?\.", abstract):
         if core_title:
             return "borderline", score, "stub abstract (possible book review)"
@@ -183,9 +186,9 @@ def screen(title, abstract, kw_text, req, flags, domain, slice_name="", strict_o
     if not ctx_ok:
         if core_title and domain != "C":
             return "include", score, "core in title; context terms missing"
-        if core_title or core_rest >= 2:
-            return "borderline", score, "context terms missing"
-        return "exclude", score, "context terms missing, core mentioned once"
+        # C themes: a work with no urban term (and no named city) belongs to the digital-only
+        # B themes; in A/B themes a core term only in the abstract is not enough without context
+        return "exclude", score, "context terms missing"
     if not core_title and core_rest < 2:
         if kw_core and strict_once:
             # per-theme tightening (queries.yaml screen.strict_once): the single mention must

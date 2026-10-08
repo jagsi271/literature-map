@@ -1,0 +1,91 @@
+{
+ "theme": "C6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban surveillance\" OR (surveillance AND (city OR cities) AND (policing OR \"public space\"))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban surveillance\" OR (surveillance AND (city OR cities) AND (policing OR \"public space\")),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban surveillance\" OR (\"surveillance\" AND (\"public space\" OR \"policing\") AND (\"cities\" OR \"city\")))",
+ "page": 1,
+ "total_results": 754,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C6_recent_q1.json.gz",
+ "results": [
+  [
+   "W4298395823",
+   2022
+  ],
+  [
+   "W7164992411",
+   2026
+  ],
+  [
+   "W4400815694",
+   2024
+  ],
+  [
+   "W4403485367",
+   2024
+  ],
+  [
+   "W4409990462",
+   2025
+  ],
+  [
+   "W4389938846",
+   2023
+  ],
+  [
+   "W4409307281",
+   2025
+  ],
+  [
+   "W7140118513",
+   2026
+  ],
+  [
+   "W4414093281",
+   2025
+  ],
+  [
+   "W7140138328",
+   2026
+  ],
+  [
+   "W7140079717",
+   2026
+  ],
+  [
+   "W7140603286",
+   2026
+  ],
+  [
+   "W7140077442",
+   2026
+  ],
+  [
+   "W7140091188",
+   2026
+  ],
+  [
+   "W7140116961",
+   2026
+  ],
+  [
+   "W7215106211",
+   2026
+  ],
+  [
+   "W7140133015",
+   2026
+  ],
+  [
+   "W4394860294",
+   2024
+  ]
+ ]
+}

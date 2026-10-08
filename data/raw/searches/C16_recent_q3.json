@@ -1,0 +1,91 @@
+{
+ "theme": "C16",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"Google Street View\" OR OpenStreetMap) AND (city OR urban) AND (representation OR politics OR mapping)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"Google Street View\" OR OpenStreetMap) AND (city OR urban) AND (representation OR politics OR mapping),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"OpenStreetMap\" OR \"Google Street View\") AND (\"city\" OR \"urban\") AND (\"mapping\" OR \"politics\" OR \"representation\"))",
+ "page": 1,
+ "total_results": 600,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C16_recent_q3.json.gz",
+ "results": [
+  [
+   "W4385582973",
+   2023
+  ],
+  [
+   "W4385562633",
+   2023
+  ],
+  [
+   "W4220737618",
+   2022
+  ],
+  [
+   "W7169865556",
+   2026
+  ],
+  [
+   "W4410831375",
+   2025
+  ],
+  [
+   "W4387382261",
+   2023
+  ],
+  [
+   "W7117866325",
+   2026
+  ],
+  [
+   "W4389573196",
+   2023
+  ],
+  [
+   "W7124175028",
+   2026
+  ],
+  [
+   "W4291916152",
+   2022
+  ],
+  [
+   "W7204176385",
+   2026
+  ],
+  [
+   "W4383345515",
+   2023
+  ],
+  [
+   "W4226457949",
+   2022
+  ],
+  [
+   "W4388248393",
+   2023
+  ],
+  [
+   "W7169796459",
+   2026
+  ],
+  [
+   "W4402650075",
+   2024
+  ],
+  [
+   "W7172405599",
+   2026
+  ],
+  [
+   "W7204185316",
+   2026
+  ]
+ ]
+}

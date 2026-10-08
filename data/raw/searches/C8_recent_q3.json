@@ -1,0 +1,91 @@
+{
+ "theme": "C8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital public infrastructure\" AND (city OR urban OR municipal)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital public infrastructure\" AND (city OR urban OR municipal),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital public infrastructure\" AND (\"city\" OR \"municipal\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 94,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C8_recent_q3.json.gz",
+ "results": [
+  [
+   "W4387886190",
+   2023
+  ],
+  [
+   "W7215939105",
+   2026
+  ],
+  [
+   "W7207718299",
+   2026
+  ],
+  [
+   "W7213472068",
+   2026
+  ],
+  [
+   "W7171687566",
+   2026
+  ],
+  [
+   "W7165371021",
+   2026
+  ],
+  [
+   "W7134260371",
+   2026
+  ],
+  [
+   "W7170858433",
+   2026
+  ],
+  [
+   "W7213789236",
+   2026
+  ],
+  [
+   "W7162573878",
+   2026
+  ],
+  [
+   "W7139975953",
+   2026
+  ],
+  [
+   "W7204833810",
+   2026
+  ],
+  [
+   "W7170252359",
+   2026
+  ],
+  [
+   "W7154892982",
+   2026
+  ],
+  [
+   "W7167486748",
+   2026
+  ],
+  [
+   "W7154846820",
+   2025
+  ],
+  [
+   "W4415260750",
+   2025
+  ],
+  [
+   "W4407893837",
+   2025
+  ]
+ ]
+}

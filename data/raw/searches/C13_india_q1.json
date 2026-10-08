@@ -1,0 +1,115 @@
+{
+ "theme": "C13",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"digital twin\" OR \"digital twins\") AND (city OR cities OR urban)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"digital twin\" OR \"digital twins\") AND (city OR cities OR urban)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"digital twin\" OR \"digital twins\") AND (\"cities\" OR \"city\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 170,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C13_india_q1.json.gz",
+ "results": [
+  [
+   "W7133523026",
+   2025
+  ],
+  [
+   "W3215130116",
+   2021
+  ],
+  [
+   "W7147728527",
+   2024
+  ],
+  [
+   "W4414924248",
+   2025
+  ],
+  [
+   "W7171292612",
+   2025
+  ],
+  [
+   "W7164044900",
+   2025
+  ],
+  [
+   "W7203832127",
+   2026
+  ],
+  [
+   "W7128685918",
+   2026
+  ],
+  [
+   "W7124463562",
+   2026
+  ],
+  [
+   "W7203440576",
+   2026
+  ],
+  [
+   "W7160659414",
+   2026
+  ],
+  [
+   "W7133189486",
+   2026
+  ],
+  [
+   "W7210272009",
+   2026
+  ],
+  [
+   "W7163828211",
+   2026
+  ],
+  [
+   "W4401719570",
+   2024
+  ],
+  [
+   "W4411023353",
+   2025
+  ],
+  [
+   "W4409176161",
+   2025
+  ],
+  [
+   "W4413143331",
+   2025
+  ],
+  [
+   "W7168163652",
+   2026
+  ],
+  [
+   "W4396781048",
+   2024
+  ],
+  [
+   "W7160187208",
+   2026
+  ],
+  [
+   "W7151242989",
+   2026
+  ],
+  [
+   "W7124910575",
+   2025
+  ],
+  [
+   "W2992815322",
+   2019
+  ]
+ ]
+}

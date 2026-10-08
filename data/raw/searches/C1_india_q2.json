@@ -1,0 +1,115 @@
+{
+ "theme": "C1",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"smart city\" OR \"smart cities\") AND (critical OR governance OR citizens OR citizenship OR neoliberal OR corporate)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"smart city\" OR \"smart cities\") AND (critical OR governance OR citizens OR citizenship OR neoliberal OR corporate)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"smart cities\" OR \"smart city\") AND (\"citizens\" OR \"citizenship\" OR \"corporate\" OR \"critical\" OR \"governance\" OR \"neoliberal\"))",
+ "page": 1,
+ "total_results": 1388,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C1_india_q2.json.gz",
+ "results": [
+  [
+   "W1562412989",
+   2014
+  ],
+  [
+   "W2269487991",
+   2014
+  ],
+  [
+   "W3137203212",
+   2021
+  ],
+  [
+   "W4401587603",
+   2024
+  ],
+  [
+   "W4406026675",
+   2025
+  ],
+  [
+   "W2907837145",
+   2018
+  ],
+  [
+   "W4392263452",
+   2024
+  ],
+  [
+   "W4384284701",
+   2023
+  ],
+  [
+   "W2762267553",
+   2018
+  ],
+  [
+   "W2800216323",
+   2018
+  ],
+  [
+   "W3116402606",
+   2020
+  ],
+  [
+   "W4292342646",
+   2022
+  ],
+  [
+   "W2970838370",
+   2019
+  ],
+  [
+   "W2958720782",
+   2019
+  ],
+  [
+   "W2729906010",
+   2017
+  ],
+  [
+   "W7213443943",
+   2026
+  ],
+  [
+   "W2735754558",
+   2017
+  ],
+  [
+   "W2885508271",
+   2018
+  ],
+  [
+   "W4400907513",
+   2024
+  ],
+  [
+   "W4398773815",
+   2024
+  ],
+  [
+   "W7213430257",
+   2026
+  ],
+  [
+   "W4391021106",
+   2023
+  ],
+  [
+   "W4385319014",
+   2023
+  ],
+  [
+   "W7151496944",
+   2026
+  ]
+ ]
+}

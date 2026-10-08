@@ -1,0 +1,115 @@
+{
+ "theme": "C2",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(platformization OR platformisation) AND (city OR cities OR urban)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(platformization OR platformisation) AND (city OR cities OR urban),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"cities\" OR \"city\" OR \"urban\") AND (\"platformisation\" OR \"platformization\"))",
+ "page": 1,
+ "total_results": 217,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C2_recent_q2.json.gz",
+ "results": [
+  [
+   "W7155501689",
+   2026
+  ],
+  [
+   "W4297859249",
+   2022
+  ],
+  [
+   "W4296182860",
+   2022
+  ],
+  [
+   "W7211949094",
+   2026
+  ],
+  [
+   "W4296311543",
+   2022
+  ],
+  [
+   "W4401101618",
+   2024
+  ],
+  [
+   "W4288077582",
+   2022
+  ],
+  [
+   "W4405113963",
+   2024
+  ],
+  [
+   "W4407225597",
+   2025
+  ],
+  [
+   "W4386483125",
+   2023
+  ],
+  [
+   "W7155507327",
+   2025
+  ],
+  [
+   "W4210854233",
+   2022
+  ],
+  [
+   "W4392249952",
+   2024
+  ],
+  [
+   "W7217395114",
+   2024
+  ],
+  [
+   "W7119656903",
+   2025
+  ],
+  [
+   "W4328050993",
+   2023
+  ],
+  [
+   "W4379177110",
+   2023
+  ],
+  [
+   "W4407312549",
+   2025
+  ],
+  [
+   "W7118190030",
+   2026
+  ],
+  [
+   "W4415622542",
+   2025
+  ],
+  [
+   "W4213368224",
+   2022
+  ],
+  [
+   "W7172261119",
+   2026
+  ],
+  [
+   "W4402920944",
+   2024
+  ],
+  [
+   "W4413202214",
+   2025
+  ]
+ ]
+}

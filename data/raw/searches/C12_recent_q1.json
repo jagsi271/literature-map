@@ -1,0 +1,91 @@
+{
+ "theme": "C12",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"civic tech\" OR \"civic technology\" OR \"civic hacking\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"civic tech\" OR \"civic technology\" OR \"civic hacking\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"civic hacking\" OR \"civic tech\" OR \"civic technology\")",
+ "page": 1,
+ "total_results": 345,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C12_recent_q1.json.gz",
+ "results": [
+  [
+   "W4402606894",
+   2024
+  ],
+  [
+   "W4407756714",
+   2025
+  ],
+  [
+   "W4319865158",
+   2023
+  ],
+  [
+   "W4285171285",
+   2022
+  ],
+  [
+   "W7155897030",
+   2026
+  ],
+  [
+   "W7156247719",
+   2026
+  ],
+  [
+   "W7163051656",
+   2026
+  ],
+  [
+   "W7163033237",
+   2026
+  ],
+  [
+   "W4391089300",
+   2023
+  ],
+  [
+   "W2888344836",
+   2023
+  ],
+  [
+   "W7207909333",
+   2025
+  ],
+  [
+   "W7108341028",
+   2024
+  ],
+  [
+   "W7167098988",
+   2026
+  ],
+  [
+   "W4226056691",
+   2022
+  ],
+  [
+   "W7155558526",
+   2026
+  ],
+  [
+   "W7160999377",
+   2026
+  ],
+  [
+   "W7163027613",
+   2026
+  ],
+  [
+   "W7209348751",
+   2022
+  ]
+ ]
+}

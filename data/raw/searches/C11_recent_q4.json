@@ -1,0 +1,91 @@
+{
+ "theme": "C11",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(demonetisation OR demonetization) AND (traders OR vendors OR urban OR informal)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(demonetisation OR demonetization) AND (traders OR vendors OR urban OR informal),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"demonetisation\" OR \"demonetization\") AND (\"informal\" OR \"traders\" OR \"urban\" OR \"vendors\"))",
+ "page": 1,
+ "total_results": 113,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C11_recent_q4.json.gz",
+ "results": [
+  [
+   "W4312647181",
+   2022
+  ],
+  [
+   "W7163136624",
+   2026
+  ],
+  [
+   "W7163157348",
+   2026
+  ],
+  [
+   "W7163160986",
+   2026
+  ],
+  [
+   "W4306869557",
+   2022
+  ],
+  [
+   "W4406171939",
+   2025
+  ],
+  [
+   "W4381835178",
+   2023
+  ],
+  [
+   "W4294310842",
+   2022
+  ],
+  [
+   "W4410746485",
+   2025
+  ],
+  [
+   "W7122433386",
+   2025
+  ],
+  [
+   "W7161257129",
+   2026
+  ],
+  [
+   "W4285811318",
+   2022
+  ],
+  [
+   "W4387958979",
+   2023
+  ],
+  [
+   "W7220145644",
+   2026
+  ],
+  [
+   "W4413103218",
+   2025
+  ],
+  [
+   "W4407743767",
+   2025
+  ],
+  [
+   "W4416297736",
+   2025
+  ],
+  [
+   "W7140836539",
+   2026
+  ]
+ ]
+}

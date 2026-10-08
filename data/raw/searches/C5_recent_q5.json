@@ -1,0 +1,79 @@
+{
+ "theme": "C5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"data justice\" AND (city OR urban)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"data justice\" AND (city OR urban),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"data justice\" AND (\"city\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 49,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C5_recent_q5.json.gz",
+ "results": [
+  [
+   "W4312665821",
+   2022
+  ],
+  [
+   "W4312888330",
+   2022
+  ],
+  [
+   "W6980893882",
+   2023
+  ],
+  [
+   "W4410155453",
+   2025
+  ],
+  [
+   "W4378574199",
+   2023
+  ],
+  [
+   "W4285004643",
+   2022
+  ],
+  [
+   "W4296131312",
+   2022
+  ],
+  [
+   "W7127393688",
+   2025
+  ],
+  [
+   "W4408287757",
+   2024
+  ],
+  [
+   "W4311814901",
+   2022
+  ],
+  [
+   "W4313053128",
+   2022
+  ],
+  [
+   "W7164724561",
+   2026
+  ],
+  [
+   "W7202202953",
+   2026
+  ],
+  [
+   "W4412128780",
+   2024
+  ],
+  [
+   "W7128708817",
+   2026
+  ]
+ ]
+}

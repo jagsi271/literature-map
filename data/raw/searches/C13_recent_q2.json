@@ -1,0 +1,115 @@
+{
+ "theme": "C13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban simulation\" OR \"city simulation\" OR \"3D city model\" OR CityGML",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban simulation\" OR \"city simulation\" OR \"3D city model\" OR CityGML,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"CityGML\" OR \"3D city model\" OR \"city simulation\" OR \"urban simulation\")",
+ "page": 1,
+ "total_results": 996,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C13_recent_q2.json.gz",
+ "results": [
+  [
+   "W4414317882",
+   2025
+  ],
+  [
+   "W4306290628",
+   2022
+  ],
+  [
+   "W4399494987",
+   2024
+  ],
+  [
+   "W4381430959",
+   2023
+  ],
+  [
+   "W4394284721",
+   2022
+  ],
+  [
+   "W4410558072",
+   2025
+  ],
+  [
+   "W4396218068",
+   2024
+  ],
+  [
+   "W7112212083",
+   2025
+  ],
+  [
+   "W4286457712",
+   2022
+  ],
+  [
+   "W7199923207",
+   2026
+  ],
+  [
+   "W7148817368",
+   2026
+  ],
+  [
+   "W7148818107",
+   2026
+  ],
+  [
+   "W4405929838",
+   2023
+  ],
+  [
+   "W4405199261",
+   2024
+  ],
+  [
+   "W4404645501",
+   2024
+  ],
+  [
+   "W4393580300",
+   2023
+  ],
+  [
+   "W7162498068",
+   2026
+  ],
+  [
+   "W7162503612",
+   2026
+  ],
+  [
+   "W4413862963",
+   2025
+  ],
+  [
+   "W7106814102",
+   2025
+  ],
+  [
+   "W7106792256",
+   2025
+  ],
+  [
+   "W4361007931",
+   2023
+  ],
+  [
+   "W4393949093",
+   2024
+  ],
+  [
+   "W4324372606",
+   2023
+  ]
+ ]
+}

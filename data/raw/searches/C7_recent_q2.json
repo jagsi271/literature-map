@@ -1,0 +1,91 @@
+{
+ "theme": "C7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"artificial intelligence\" AND (municipal OR \"local government\" OR \"city government\" OR \"urban governance\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"artificial intelligence\" AND (municipal OR \"local government\" OR \"city government\" OR \"urban governance\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"artificial intelligence\" AND (\"city government\" OR \"local government\" OR \"urban governance\" OR \"municipal\"))",
+ "page": 1,
+ "total_results": 2182,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C7_recent_q2.json.gz",
+ "results": [
+  [
+   "W4403940940",
+   2024
+  ],
+  [
+   "W4404053849",
+   2024
+  ],
+  [
+   "W4213168039",
+   2022
+  ],
+  [
+   "W7171669715",
+   2026
+  ],
+  [
+   "W4376135829",
+   2023
+  ],
+  [
+   "W4403940966",
+   2024
+  ],
+  [
+   "W4380052852",
+   2023
+  ],
+  [
+   "W7117365749",
+   2025
+  ],
+  [
+   "W4401206852",
+   2024
+  ],
+  [
+   "W4387908183",
+   2023
+  ],
+  [
+   "W7160281536",
+   2026
+  ],
+  [
+   "W7170667640",
+   2026
+  ],
+  [
+   "W7167340215",
+   2026
+  ],
+  [
+   "W4411248999",
+   2025
+  ],
+  [
+   "W7164802034",
+   2026
+  ],
+  [
+   "W7167576465",
+   2026
+  ],
+  [
+   "W4415785579",
+   2025
+  ],
+  [
+   "W7166640194",
+   2026
+  ]
+ ]
+}

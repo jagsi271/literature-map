@@ -1,0 +1,91 @@
+{
+ "theme": "C18",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"resident welfare association\" OR \"residents' welfare association\" OR \"resident welfare associations\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"resident welfare association\" OR \"residents' welfare association\" OR \"resident welfare associations\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"resident welfare association\" OR \"resident welfare associations\" OR \"residents' welfare association\")",
+ "page": 1,
+ "total_results": 28,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C18_recent_q3.json.gz",
+ "results": [
+  [
+   "W4382061052",
+   2023
+  ],
+  [
+   "W4390622154",
+   2023
+  ],
+  [
+   "W4312814816",
+   2022
+  ],
+  [
+   "W7162123251",
+   2022
+  ],
+  [
+   "W4404928957",
+   2024
+  ],
+  [
+   "W4377012550",
+   2023
+  ],
+  [
+   "W4406246054",
+   2025
+  ],
+  [
+   "W7172394436",
+   2026
+  ],
+  [
+   "W4285592782",
+   2022
+  ],
+  [
+   "W4321093349",
+   2023
+  ],
+  [
+   "W4403425734",
+   2024
+  ],
+  [
+   "W4380590707",
+   2023
+  ],
+  [
+   "W4414306463",
+   2025
+  ],
+  [
+   "W7167208737",
+   2026
+  ],
+  [
+   "W7127590966",
+   2026
+  ],
+  [
+   "W4318827094",
+   2023
+  ],
+  [
+   "W4224218380",
+   2022
+  ],
+  [
+   "W4411497807",
+   2025
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "C8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"smart governance\" AND (municipal OR city)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"smart governance\" AND (municipal OR city),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"smart governance\" AND (\"city\" OR \"municipal\"))",
+ "page": 1,
+ "total_results": 663,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C8_recent_q4.json.gz",
+ "results": [
+  [
+   "W7218325160",
+   2025
+  ],
+  [
+   "W7216834637",
+   2022
+  ],
+  [
+   "W4410754966",
+   2025
+  ],
+  [
+   "W7134177411",
+   2026
+  ],
+  [
+   "W4225296411",
+   2022
+  ],
+  [
+   "W4312775702",
+   2022
+  ],
+  [
+   "W4412928071",
+   2025
+  ],
+  [
+   "W4400907513",
+   2024
+  ],
+  [
+   "W7217280910",
+   2025
+  ],
+  [
+   "W4408197447",
+   2025
+  ],
+  [
+   "W4386594569",
+   2023
+  ],
+  [
+   "W4399996696",
+   2023
+  ],
+  [
+   "W4413684436",
+   2024
+  ],
+  [
+   "W7217229432",
+   2024
+  ],
+  [
+   "W7132705482",
+   2025
+  ],
+  [
+   "W4414880026",
+   2025
+  ],
+  [
+   "W4377012897",
+   2023
+  ],
+  [
+   "W4323846274",
+   2023
+  ]
+ ]
+}

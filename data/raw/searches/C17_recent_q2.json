@@ -1,0 +1,91 @@
+{
+ "theme": "C17",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"critical infrastructure\" AND (cyber OR cyberattack OR \"cyber attack\") AND (city OR urban OR resilience)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"critical infrastructure\" AND (cyber OR cyberattack OR \"cyber attack\") AND (city OR urban OR resilience),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"critical infrastructure\" AND (\"cyber attack\" OR \"cyber\" OR \"cyberattack\") AND (\"city\" OR \"resilience\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 1743,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C17_recent_q2.json.gz",
+ "results": [
+  [
+   "W4386638978",
+   2023
+  ],
+  [
+   "W4386638894",
+   2023
+  ],
+  [
+   "W7153720631",
+   2026
+  ],
+  [
+   "W4406612651",
+   2024
+  ],
+  [
+   "W4406114412",
+   2024
+  ],
+  [
+   "W4402848453",
+   2023
+  ],
+  [
+   "W4400173076",
+   2024
+  ],
+  [
+   "W4297360961",
+   2022
+  ],
+  [
+   "W4396931716",
+   2024
+  ],
+  [
+   "W7128076046",
+   2026
+  ],
+  [
+   "W4412466729",
+   2025
+  ],
+  [
+   "W4412570238",
+   2025
+  ],
+  [
+   "W7125581149",
+   2026
+  ],
+  [
+   "W4377079723",
+   2023
+  ],
+  [
+   "W7213879682",
+   2026
+  ],
+  [
+   "W7213869418",
+   2026
+  ],
+  [
+   "W4399776323",
+   2024
+  ],
+  [
+   "W4407872676",
+   2025
+  ]
+ ]
+}

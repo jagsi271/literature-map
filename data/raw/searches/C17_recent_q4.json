@@ -1,0 +1,91 @@
+{
+ "theme": "C17",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "ransomware AND (municipal OR city OR \"local government\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:ransomware AND (municipal OR city OR \"local government\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"ransomware\" AND (\"local government\" OR \"city\" OR \"municipal\"))",
+ "page": 1,
+ "total_results": 82,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C17_recent_q4.json.gz",
+ "results": [
+  [
+   "W7164911159",
+   2026
+  ],
+  [
+   "W4295951922",
+   2022
+  ],
+  [
+   "W4318538464",
+   2022
+  ],
+  [
+   "W4409059847",
+   2025
+  ],
+  [
+   "W4229018848",
+   2022
+  ],
+  [
+   "W7164853026",
+   2026
+  ],
+  [
+   "W4412147876",
+   2025
+  ],
+  [
+   "W4313326218",
+   2022
+  ],
+  [
+   "W4361802678",
+   2023
+  ],
+  [
+   "W7113294684",
+   2024
+  ],
+  [
+   "W7220680054",
+   2026
+  ],
+  [
+   "W7220811212",
+   2023
+  ],
+  [
+   "W4387999398",
+   2023
+  ],
+  [
+   "W4399087707",
+   2024
+  ],
+  [
+   "W4416022010",
+   2025
+  ],
+  [
+   "W4386916563",
+   2023
+  ],
+  [
+   "W7171615499",
+   2026
+  ],
+  [
+   "W4401338800",
+   2024
+  ]
+ ]
+}

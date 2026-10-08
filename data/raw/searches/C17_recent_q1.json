@@ -1,0 +1,91 @@
+{
+ "theme": "C17",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(cybersecurity OR \"cyber security\") AND (\"smart city\" OR \"smart cities\" OR municipal OR urban)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(cybersecurity OR \"cyber security\") AND (\"smart city\" OR \"smart cities\" OR municipal OR urban),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"cyber security\" OR \"cybersecurity\") AND (\"smart cities\" OR \"smart city\" OR \"municipal\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 3377,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C17_recent_q1.json.gz",
+ "results": [
+  [
+   "W4210311741",
+   2022
+  ],
+  [
+   "W7198187424",
+   2025
+  ],
+  [
+   "W4399917992",
+   2024
+  ],
+  [
+   "W4396882876",
+   2024
+  ],
+  [
+   "W4223454838",
+   2022
+  ],
+  [
+   "W4288019396",
+   2023
+  ],
+  [
+   "W4405754402",
+   2024
+  ],
+  [
+   "W4398208730",
+   2024
+  ],
+  [
+   "W4402062445",
+   2024
+  ],
+  [
+   "W4386966280",
+   2023
+  ],
+  [
+   "W4386141811",
+   2023
+  ],
+  [
+   "W7203952041",
+   2026
+  ],
+  [
+   "W4225294389",
+   2022
+  ],
+  [
+   "W4415917794",
+   2025
+  ],
+  [
+   "W4402065235",
+   2024
+  ],
+  [
+   "W4410584313",
+   2024
+  ],
+  [
+   "W4405106711",
+   2024
+  ],
+  [
+   "W4226056414",
+   2022
+  ]
+ ]
+}

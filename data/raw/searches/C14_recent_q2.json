@@ -1,0 +1,91 @@
+{
+ "theme": "C14",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"informal settlements\" OR slums) AND (digital OR \"mobile phones\" OR smartphone OR platform)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"informal settlements\" OR slums) AND (digital OR \"mobile phones\" OR smartphone OR platform),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"informal settlements\" OR \"slums\") AND (\"mobile phones\" OR \"digital\" OR \"platform\" OR \"smartphone\"))",
+ "page": 1,
+ "total_results": 551,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C14_recent_q2.json.gz",
+ "results": [
+  [
+   "W4366465694",
+   2023
+  ],
+  [
+   "W4404522248",
+   2024
+  ],
+  [
+   "W4388210800",
+   2023
+  ],
+  [
+   "W4386743477",
+   2023
+  ],
+  [
+   "W7172402793",
+   2026
+  ],
+  [
+   "W7143313445",
+   2026
+  ],
+  [
+   "W4315781416",
+   2023
+  ],
+  [
+   "W4393231899",
+   2024
+  ],
+  [
+   "W4396627109",
+   2024
+  ],
+  [
+   "W4405467176",
+   2024
+  ],
+  [
+   "W4399637247",
+   2024
+  ],
+  [
+   "W4400513892",
+   2024
+  ],
+  [
+   "W7212276399",
+   2026
+  ],
+  [
+   "W4403356451",
+   2024
+  ],
+  [
+   "W7162455806",
+   2026
+  ],
+  [
+   "W4388043563",
+   2023
+  ],
+  [
+   "W3121212047",
+   2022
+  ],
+  [
+   "W4295025066",
+   2022
+  ]
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "theme": "C5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban data\" AND (governance OR justice OR ownership OR commons OR sovereignty)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban data\" AND (governance OR justice OR ownership OR commons OR sovereignty),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban data\" AND (\"commons\" OR \"governance\" OR \"justice\" OR \"ownership\" OR \"sovereignty\"))",
+ "page": 1,
+ "total_results": 245,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C5_recent_q1.json.gz",
+ "results": [
+  [
+   "W4389940186",
+   2023
+  ],
+  [
+   "W4390030276",
+   2023
+  ],
+  [
+   "W4415045690",
+   2024
+  ],
+  [
+   "W7131278893",
+   2026
+  ],
+  [
+   "W7131227790",
+   2026
+  ],
+  [
+   "W4385626941",
+   2023
+  ],
+  [
+   "W7117994131",
+   2025
+  ],
+  [
+   "W4399751265",
+   2024
+  ],
+  [
+   "W7125427948",
+   2026
+  ],
+  [
+   "W4403930763",
+   2024
+  ],
+  [
+   "W4407075037",
+   2024
+  ],
+  [
+   "W7164939653",
+   2026
+  ],
+  [
+   "W7204890325",
+   2026
+  ],
+  [
+   "W7214173950",
+   2026
+  ],
+  [
+   "W7214784351",
+   2026
+  ]
+ ]
+}

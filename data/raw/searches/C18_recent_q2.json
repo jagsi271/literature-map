@@ -1,0 +1,91 @@
+{
+ "theme": "C18",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "WhatsApp AND (neighbourhood OR neighborhood OR \"residents\" OR \"housing society\" OR community)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:WhatsApp AND (neighbourhood OR neighborhood OR \"residents\" OR \"housing society\" OR community),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"WhatsApp\" AND (\"housing society\" OR \"community\" OR \"neighborhood\" OR \"neighbourhood\" OR \"residents\"))",
+ "page": 1,
+ "total_results": 4450,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C18_recent_q2.json.gz",
+ "results": [
+  [
+   "W7163081850",
+   2026
+  ],
+  [
+   "W4306154220",
+   2022
+  ],
+  [
+   "W4389132705",
+   2022
+  ],
+  [
+   "W4412404266",
+   2025
+  ],
+  [
+   "W4399983293",
+   2024
+  ],
+  [
+   "W4220743906",
+   2022
+  ],
+  [
+   "W4413584056",
+   2022
+  ],
+  [
+   "W7152013878",
+   2026
+  ],
+  [
+   "W4416784230",
+   2025
+  ],
+  [
+   "W4399488301",
+   2024
+  ],
+  [
+   "W4403737102",
+   2024
+  ],
+  [
+   "W7220310646",
+   2023
+  ],
+  [
+   "W4401647862",
+   2024
+  ],
+  [
+   "W4223580029",
+   2022
+  ],
+  [
+   "W7216657443",
+   2024
+  ],
+  [
+   "W4411909432",
+   2025
+  ],
+  [
+   "W4411951691",
+   2025
+  ],
+  [
+   "W4406242142",
+   2025
+  ]
+ ]
+}

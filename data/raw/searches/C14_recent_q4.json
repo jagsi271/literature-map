@@ -1,0 +1,91 @@
+{
+ "theme": "C14",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"informal economy\" AND (digital OR platform OR \"mobile money\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"informal economy\" AND (digital OR platform OR \"mobile money\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"informal economy\" AND (\"mobile money\" OR \"digital\" OR \"platform\"))",
+ "page": 1,
+ "total_results": 508,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C14_recent_q4.json.gz",
+ "results": [
+  [
+   "W7128954990",
+   2026
+  ],
+  [
+   "W4283321123",
+   2022
+  ],
+  [
+   "W7145946961",
+   2022
+  ],
+  [
+   "W4417450557",
+   2025
+  ],
+  [
+   "W4410915260",
+   2025
+  ],
+  [
+   "W4360615813",
+   2023
+  ],
+  [
+   "W7112776251",
+   2025
+  ],
+  [
+   "W4388840763",
+   2023
+  ],
+  [
+   "W4225144695",
+   2022
+  ],
+  [
+   "W4413786971",
+   2025
+  ],
+  [
+   "W4323343081",
+   2023
+  ],
+  [
+   "W4386576404",
+   2023
+  ],
+  [
+   "W7169656603",
+   2026
+  ],
+  [
+   "W4410154714",
+   2025
+  ],
+  [
+   "W7146281214",
+   2024
+  ],
+  [
+   "W7160862077",
+   2026
+  ],
+  [
+   "W7163359875",
+   2026
+  ],
+  [
+   "W7162524658",
+   2026
+  ]
+ ]
+}

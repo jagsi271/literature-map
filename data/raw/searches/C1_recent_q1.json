@@ -1,0 +1,115 @@
+{
+ "theme": "C1",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"smart urbanism\" OR \"actually existing smart city\" OR \"Smart Cities Mission\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"smart urbanism\" OR \"actually existing smart city\" OR \"Smart Cities Mission\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"Smart Cities Mission\" OR \"actually existing smart city\" OR \"smart urbanism\")",
+ "page": 1,
+ "total_results": 654,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C1_recent_q1.json.gz",
+ "results": [
+  [
+   "W4409048786",
+   2025
+  ],
+  [
+   "W4392986191",
+   2024
+  ],
+  [
+   "W7155220875",
+   2025
+  ],
+  [
+   "W7213484363",
+   2026
+  ],
+  [
+   "W4403944900",
+   2024
+  ],
+  [
+   "W7160907970",
+   2026
+  ],
+  [
+   "W4285134584",
+   2022
+  ],
+  [
+   "W4402478132",
+   2024
+  ],
+  [
+   "W7163820315",
+   2023
+  ],
+  [
+   "W7163813839",
+   2023
+  ],
+  [
+   "W4391021106",
+   2023
+  ],
+  [
+   "W4308544599",
+   2022
+  ],
+  [
+   "W4206581183",
+   2022
+  ],
+  [
+   "W4409622519",
+   2025
+  ],
+  [
+   "W4400346148",
+   2024
+  ],
+  [
+   "W4224296637",
+   2022
+  ],
+  [
+   "W4210925349",
+   2022
+  ],
+  [
+   "W4213010309",
+   2022
+  ],
+  [
+   "W4405308496",
+   2024
+  ],
+  [
+   "W4408051711",
+   2025
+  ],
+  [
+   "W4376641023",
+   2023
+  ],
+  [
+   "W7216882745",
+   2024
+  ],
+  [
+   "W4292723134",
+   2022
+  ],
+  [
+   "W4415674577",
+   2025
+  ]
+ ]
+}

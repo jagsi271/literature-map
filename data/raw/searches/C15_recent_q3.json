@@ -1,0 +1,91 @@
+{
+ "theme": "C15",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"Uber drivers\" OR \"ride-hailing drivers\" OR \"app-based drivers\") AND (work OR labour OR labor)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"Uber drivers\" OR \"ride-hailing drivers\" OR \"app-based drivers\") AND (work OR labour OR labor),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"Uber drivers\" OR \"app-based drivers\" OR \"ride-hailing drivers\") AND (\"labor\" OR \"labour\" OR \"work\"))",
+ "page": 1,
+ "total_results": 284,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C15_recent_q3.json.gz",
+ "results": [
+  [
+   "W4294167526",
+   2022
+  ],
+  [
+   "W7217932235",
+   2026
+  ],
+  [
+   "W7165539482",
+   2026
+  ],
+  [
+   "W7119336718",
+   2024
+  ],
+  [
+   "W4402807011",
+   2024
+  ],
+  [
+   "W7169535707",
+   2026
+  ],
+  [
+   "W7106169739",
+   2024
+  ],
+  [
+   "W4395698695",
+   2024
+  ],
+  [
+   "W4210931188",
+   2022
+  ],
+  [
+   "W4223531856",
+   2022
+  ],
+  [
+   "W4308073677",
+   2022
+  ],
+  [
+   "W4322744756",
+   2023
+  ],
+  [
+   "W4412639790",
+   2025
+  ],
+  [
+   "W7213551886",
+   2026
+  ],
+  [
+   "W4417220634",
+   2025
+  ],
+  [
+   "W4367357920",
+   2023
+  ],
+  [
+   "W4293057840",
+   2022
+  ],
+  [
+   "W4416087479",
+   2025
+  ]
+ ]
+}

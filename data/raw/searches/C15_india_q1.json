@@ -1,0 +1,91 @@
+{
+ "theme": "C15",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"gig work\" OR \"gig workers\" OR \"gig economy\") AND (city OR cities OR urban OR spatial OR geography)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"gig work\" OR \"gig workers\" OR \"gig economy\") AND (city OR cities OR urban OR spatial OR geography)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"gig economy\" OR \"gig work\" OR \"gig workers\") AND (\"cities\" OR \"city\" OR \"geography\" OR \"spatial\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 303,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C15_india_q1.json.gz",
+ "results": [
+  [
+   "W4391921925",
+   2024
+  ],
+  [
+   "W4411194851",
+   2023
+  ],
+  [
+   "W7216680105",
+   2025
+  ],
+  [
+   "W7134130263",
+   2025
+  ],
+  [
+   "W4390017007",
+   2023
+  ],
+  [
+   "W4416459803",
+   2025
+  ],
+  [
+   "W4410107193",
+   2025
+  ],
+  [
+   "W4407853221",
+   2025
+  ],
+  [
+   "W4412692555",
+   2025
+  ],
+  [
+   "W4413194896",
+   2025
+  ],
+  [
+   "W7218329104",
+   2026
+  ],
+  [
+   "W7202029678",
+   2026
+  ],
+  [
+   "W7220464217",
+   2024
+  ],
+  [
+   "W4412020128",
+   2025
+  ],
+  [
+   "W7154062576",
+   2026
+  ],
+  [
+   "W7155639857",
+   2025
+  ],
+  [
+   "W7115583969",
+   2025
+  ],
+  [
+   "W7172280629",
+   2026
+  ]
+ ]
+}

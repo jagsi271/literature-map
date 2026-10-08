@@ -1,0 +1,91 @@
+{
+ "theme": "C18",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "Nextdoor OR \"neighbourhood platforms\" OR \"neighborhood platforms\" OR \"neighbourhood apps\" OR \"neighborhood apps\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:Nextdoor OR \"neighbourhood platforms\" OR \"neighborhood platforms\" OR \"neighbourhood apps\" OR \"neighborhood apps\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"Nextdoor\" OR \"neighborhood apps\" OR \"neighborhood platforms\" OR \"neighbourhood apps\" OR \"neighbourhood platforms\")",
+ "page": 1,
+ "total_results": 69,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C18_recent_q1.json.gz",
+ "results": [
+  [
+   "W7151788053",
+   2026
+  ],
+  [
+   "W7113357457",
+   2023
+  ],
+  [
+   "W4365211498",
+   2023
+  ],
+  [
+   "W4380302058",
+   2023
+  ],
+  [
+   "W4396832587",
+   2024
+  ],
+  [
+   "W4405577101",
+   2024
+  ],
+  [
+   "W4399161516",
+   2024
+  ],
+  [
+   "W4390956961",
+   2023
+  ],
+  [
+   "W4410072477",
+   2025
+  ],
+  [
+   "W4365151744",
+   2023
+  ],
+  [
+   "W4327583373",
+   2023
+  ],
+  [
+   "W4386288648",
+   2023
+  ],
+  [
+   "W4409411071",
+   2025
+  ],
+  [
+   "W4409720085",
+   2025
+  ],
+  [
+   "W4376646602",
+   2023
+  ],
+  [
+   "W4404091085",
+   2024
+  ],
+  [
+   "W4412585381",
+   2025
+  ],
+  [
+   "W4392912220",
+   2024
+  ]
+ ]
+}

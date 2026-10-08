@@ -1,0 +1,91 @@
+{
+ "theme": "C12",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"e-participation\" OR eParticipation OR \"digital participation\") AND (city OR urban OR planning)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"e-participation\" OR eParticipation OR \"digital participation\") AND (city OR urban OR planning),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"digital participation\" OR \"e-participation\" OR \"eParticipation\") AND (\"city\" OR \"planning\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 483,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C12_recent_q2.json.gz",
+ "results": [
+  [
+   "W7126225417",
+   2025
+  ],
+  [
+   "W7203911323",
+   2026
+  ],
+  [
+   "W4394893168",
+   2024
+  ],
+  [
+   "W4229367706",
+   2022
+  ],
+  [
+   "W4313855090",
+   2023
+  ],
+  [
+   "W7162222268",
+   2026
+  ],
+  [
+   "W4293199092",
+   2022
+  ],
+  [
+   "W7203788908",
+   2026
+  ],
+  [
+   "W4416756088",
+   2025
+  ],
+  [
+   "W7162119620",
+   2026
+  ],
+  [
+   "W7151229883",
+   2026
+  ],
+  [
+   "W7151504568",
+   2026
+  ],
+  [
+   "W4404456300",
+   2024
+  ],
+  [
+   "W4293198298",
+   2022
+  ],
+  [
+   "W7128437911",
+   2026
+  ],
+  [
+   "W7172183279",
+   2026
+  ],
+  [
+   "W4295781017",
+   2022
+  ],
+  [
+   "W4407208284",
+   2025
+  ]
+ ]
+}

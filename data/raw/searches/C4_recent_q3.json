@@ -1,0 +1,91 @@
+{
+ "theme": "C4",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"urban big data\" OR (\"big data\" AND (city OR urban) AND (planning OR mobility OR governance))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"urban big data\" OR (\"big data\" AND (city OR urban) AND (planning OR mobility OR governance)),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"urban big data\" OR (\"big data\" AND (\"city\" OR \"urban\") AND (\"governance\" OR \"mobility\" OR \"planning\")))",
+ "page": 1,
+ "total_results": 3163,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C4_recent_q3.json.gz",
+ "results": [
+  [
+   "W4307645200",
+   2022
+  ],
+  [
+   "W4281843469",
+   2022
+  ],
+  [
+   "W4392791195",
+   2024
+  ],
+  [
+   "W7131425114",
+   2025
+  ],
+  [
+   "W4385789924",
+   2023
+  ],
+  [
+   "W4389641379",
+   2023
+  ],
+  [
+   "W4229448531",
+   2022
+  ],
+  [
+   "W4409109719",
+   2025
+  ],
+  [
+   "W4223576052",
+   2022
+  ],
+  [
+   "W4388503390",
+   2023
+  ],
+  [
+   "W4401867042",
+   2024
+  ],
+  [
+   "W4399860916",
+   2024
+  ],
+  [
+   "W4297924435",
+   2022
+  ],
+  [
+   "W4413314087",
+   2025
+  ],
+  [
+   "W4379177120",
+   2023
+  ],
+  [
+   "W4385347734",
+   2023
+  ],
+  [
+   "W4386868847",
+   2023
+  ],
+  [
+   "W4408574696",
+   2025
+  ]
+ ]
+}

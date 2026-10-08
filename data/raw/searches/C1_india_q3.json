@@ -1,0 +1,115 @@
+{
+ "theme": "C1",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"smart city\" AND (policy OR politics OR urbanism)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"smart city\" AND (policy OR politics OR urbanism)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"smart city\" AND (\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"policy\" OR \"politics\" OR \"urbanism\"))",
+ "page": 1,
+ "total_results": 488,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C1_india_q3.json.gz",
+ "results": [
+  [
+   "W4401587603",
+   2024
+  ],
+  [
+   "W4206294455",
+   2022
+  ],
+  [
+   "W3181115463",
+   2021
+  ],
+  [
+   "W2460710978",
+   2016
+  ],
+  [
+   "W4239131505",
+   2014
+  ],
+  [
+   "W7160313297",
+   2026
+  ],
+  [
+   "W4206637411",
+   2019
+  ],
+  [
+   "W7219677309",
+   2024
+  ],
+  [
+   "W7204832639",
+   2026
+  ],
+  [
+   "W3012983718",
+   2020
+  ],
+  [
+   "W2970838370",
+   2019
+  ],
+  [
+   "W2911750776",
+   2019
+  ],
+  [
+   "W4387624385",
+   2023
+  ],
+  [
+   "W2516876800",
+   2016
+  ],
+  [
+   "W7131788208",
+   2026
+  ],
+  [
+   "W7151496944",
+   2026
+  ],
+  [
+   "W7169968518",
+   2019
+  ],
+  [
+   "W4388747261",
+   2023
+  ],
+  [
+   "W3020194907",
+   2020
+  ],
+  [
+   "W4387613704",
+   2023
+  ],
+  [
+   "W7165425715",
+   2026
+  ],
+  [
+   "W2974810518",
+   2019
+  ],
+  [
+   "W7168165961",
+   2026
+  ],
+  [
+   "W4411190615",
+   2025
+  ]
+ ]
+}

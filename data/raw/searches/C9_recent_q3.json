@@ -1,0 +1,79 @@
+{
+ "theme": "C9",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"transit app\" OR \"journey planner\" OR \"real-time information\" OR \"smart card\") AND (transit OR \"public transport\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"transit app\" OR \"journey planner\" OR \"real-time information\" OR \"smart card\") AND (transit OR \"public transport\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"journey planner\" OR \"real-time information\" OR \"smart card\" OR \"transit app\") AND (\"public transport\" OR \"transit\"))",
+ "page": 1,
+ "total_results": 596,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C9_recent_q3.json.gz",
+ "results": [
+  [
+   "W4398653678",
+   2022
+  ],
+  [
+   "W4379375284",
+   2022
+  ],
+  [
+   "W4379380276",
+   2022
+  ],
+  [
+   "W4399520078",
+   2024
+  ],
+  [
+   "W4379379941",
+   2022
+  ],
+  [
+   "W4205862949",
+   2022
+  ],
+  [
+   "W4206245491",
+   2022
+  ],
+  [
+   "W4399520059",
+   2024
+  ],
+  [
+   "W4309961182",
+   2022
+  ],
+  [
+   "W4396751677",
+   2024
+  ],
+  [
+   "W4382806874",
+   2023
+  ],
+  [
+   "W4386845202",
+   2023
+  ],
+  [
+   "W4386913061",
+   2023
+  ],
+  [
+   "W7116061339",
+   2024
+  ],
+  [
+   "W4366306861",
+   2022
+  ]
+ ]
+}

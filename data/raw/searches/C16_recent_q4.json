@@ -1,0 +1,91 @@
+{
+ "theme": "C16",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(Instagram OR \"social media\") AND (\"urban imaginaries\" OR \"representation of the city\" OR \"city image\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(Instagram OR \"social media\") AND (\"urban imaginaries\" OR \"representation of the city\" OR \"city image\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"Instagram\" OR \"social media\") AND (\"city image\" OR \"representation of the city\" OR \"urban imaginaries\"))",
+ "page": 1,
+ "total_results": 92,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C16_recent_q4.json.gz",
+ "results": [
+  [
+   "W4382896117",
+   2023
+  ],
+  [
+   "W7218551744",
+   2026
+  ],
+  [
+   "W4416858682",
+   2025
+  ],
+  [
+   "W4390922162",
+   2023
+  ],
+  [
+   "W4320492873",
+   2023
+  ],
+  [
+   "W4409342175",
+   2025
+  ],
+  [
+   "W4280634691",
+   2022
+  ],
+  [
+   "W4401691950",
+   2024
+  ],
+  [
+   "W4397038440",
+   2023
+  ],
+  [
+   "W7217708757",
+   2025
+  ],
+  [
+   "W7136038481",
+   2026
+  ],
+  [
+   "W4405422321",
+   2024
+  ],
+  [
+   "W4221105826",
+   2022
+  ],
+  [
+   "W4320725950",
+   2023
+  ],
+  [
+   "W4412924222",
+   2025
+  ],
+  [
+   "W4393327714",
+   2024
+  ],
+  [
+   "W4412747860",
+   2025
+  ],
+  [
+   "W4416784691",
+   2025
+  ]
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "theme": "C3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital geographies\" OR \"digital geography\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital geographies\" OR \"digital geography\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital geographies\" OR \"digital geography\")",
+ "page": 1,
+ "total_results": 278,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C3_recent_q1.json.gz",
+ "results": [
+  [
+   "W4321464723",
+   2023
+  ],
+  [
+   "W7131090039",
+   2025
+  ],
+  [
+   "W4406018284",
+   2024
+  ],
+  [
+   "W4205859344",
+   2022
+  ],
+  [
+   "W4377965204",
+   2023
+  ],
+  [
+   "W4401823665",
+   2024
+  ],
+  [
+   "W4376254794",
+   2023
+  ],
+  [
+   "W4391996748",
+   2024
+  ],
+  [
+   "W4404164353",
+   2024
+  ],
+  [
+   "W4376270620",
+   2023
+  ],
+  [
+   "W4297239603",
+   2022
+  ],
+  [
+   "W4206031011",
+   2022
+  ],
+  [
+   "W4205203381",
+   2022
+  ],
+  [
+   "W4403539182",
+   2024
+  ],
+  [
+   "W4388496254",
+   2023
+  ],
+  [
+   "W4406018343",
+   2024
+  ],
+  [
+   "W4405460326",
+   2024
+  ],
+  [
+   "W4399180330",
+   2024
+  ]
+ ]
+}

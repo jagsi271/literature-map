@@ -1,0 +1,115 @@
+{
+ "theme": "C13",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(renderings OR \"computer-generated images\" OR visualisation OR visualization) AND (\"urban development\" OR \"real estate\") AND (imaginaries OR images OR representation)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(renderings OR \"computer-generated images\" OR visualisation OR visualization) AND (\"urban development\" OR \"real estate\") AND (imaginaries OR images OR representation),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"computer-generated images\" OR \"renderings\" OR \"visualisation\" OR \"visualization\") AND (\"real estate\" OR \"urban development\") AND (\"images\" OR \"imaginaries\" OR \"representation\"))",
+ "page": 1,
+ "total_results": 99,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C13_recent_q3.json.gz",
+ "results": [
+  [
+   "W4400725274",
+   2024
+  ],
+  [
+   "W4391976119",
+   2023
+  ],
+  [
+   "W7155299483",
+   2026
+  ],
+  [
+   "W7203992285",
+   2026
+  ],
+  [
+   "W4392653435",
+   2024
+  ],
+  [
+   "W4281676439",
+   2022
+  ],
+  [
+   "W4319995849",
+   2023
+  ],
+  [
+   "W7205114171",
+   2025
+  ],
+  [
+   "W7154897838",
+   2026
+  ],
+  [
+   "W4415612583",
+   2025
+  ],
+  [
+   "W4399083017",
+   2024
+  ],
+  [
+   "W4402120884",
+   2024
+  ],
+  [
+   "W7104178426",
+   2025
+  ],
+  [
+   "W4387860018",
+   2023
+  ],
+  [
+   "W4283730088",
+   2022
+  ],
+  [
+   "W4225832935",
+   2022
+  ],
+  [
+   "W4410253920",
+   2025
+  ],
+  [
+   "W4362650313",
+   2023
+  ],
+  [
+   "W4389650333",
+   2023
+  ],
+  [
+   "W4392776084",
+   2024
+  ],
+  [
+   "W7135187429",
+   2026
+  ],
+  [
+   "W7171846935",
+   2026
+  ],
+  [
+   "W4413967070",
+   2025
+  ],
+  [
+   "W4416247446",
+   2025
+  ]
+ ]
+}

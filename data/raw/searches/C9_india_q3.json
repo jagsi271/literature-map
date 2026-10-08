@@ -1,0 +1,79 @@
+{
+ "theme": "C9",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"transit app\" OR \"journey planner\" OR \"real-time information\" OR \"smart card\") AND (transit OR \"public transport\")) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"transit app\" OR \"journey planner\" OR \"real-time information\" OR \"smart card\") AND (transit OR \"public transport\")) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"journey planner\" OR \"real-time information\" OR \"smart card\" OR \"transit app\") AND (\"public transport\" OR \"transit\"))",
+ "page": 1,
+ "total_results": 40,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C9_india_q3.json.gz",
+ "results": [
+  [
+   "W2941057808",
+   2019
+  ],
+  [
+   "W3095998848",
+   2020
+  ],
+  [
+   "W3147821219",
+   2014
+  ],
+  [
+   "W4254724188",
+   2019
+  ],
+  [
+   "W4386073403",
+   2023
+  ],
+  [
+   "W4309640140",
+   2022
+  ],
+  [
+   "W2944158788",
+   2018
+  ],
+  [
+   "W4292790991",
+   2022
+  ],
+  [
+   "W2810805266",
+   2018
+  ],
+  [
+   "W4229589811",
+   2019
+  ],
+  [
+   "W4296232817",
+   2022
+  ],
+  [
+   "W3097049284",
+   2020
+  ],
+  [
+   "W4386692370",
+   2023
+  ],
+  [
+   "W2990531393",
+   2019
+  ],
+  [
+   "W4415926081",
+   2025
+  ]
+ ]
+}

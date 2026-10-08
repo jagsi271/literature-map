@@ -20,12 +20,13 @@
 # cases stay under 25% per theme):
 #   include    core in title, or core twice in the abstract, with every context term present;
 #              core in title of a record without abstract (confidence low); core in title with
-#              context missing (with or without abstract), for A and B themes only (in C themes
-#              the context term is what makes a work urban x digital)
+#              context missing (with or without abstract), for A and B themes only
 #   borderline core mentioned once in the abstract AND named by an OpenAlex keyword tag;
-#              flag match with core in title; stub abstract with core in title; C-theme record
-#              with core in title (or twice in abstract) but no urban context
-#   exclude    core absent from title and abstract (also when OpenAlex withholds the abstract,
+#              flag match with core in title; stub abstract with core in title
+#   exclude    C-theme record with no urban context term and no named city (in C themes the
+#              urban term is what makes a work urban x digital; such works belong to B themes;
+#              first Stage 2 C run: C6 40% / C15 46% borderline, mostly for this reason);
+#              core absent from title and abstract (also when OpenAlex withholds the abstract,
 #              e.g. Elsevier, and the search matched text we cannot see: in A1/A2 landmarks 35
 #              of 35 such records were off-topic); flag match without core in title; core once in the abstract and
 #              not in keyword tags; stub abstract without core in title

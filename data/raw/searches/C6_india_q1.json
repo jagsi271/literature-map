@@ -1,0 +1,91 @@
+{
+ "theme": "C6",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"urban surveillance\" OR (surveillance AND (city OR cities) AND (policing OR \"public space\"))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"urban surveillance\" OR (surveillance AND (city OR cities) AND (policing OR \"public space\"))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"urban surveillance\" OR (\"surveillance\" AND (\"public space\" OR \"policing\") AND (\"cities\" OR \"city\"))))",
+ "page": 1,
+ "total_results": 104,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C6_india_q1.json.gz",
+ "results": [
+  [
+   "W7164721698",
+   2026
+  ],
+  [
+   "W1676137452",
+   2014
+  ],
+  [
+   "W4281661177",
+   2022
+  ],
+  [
+   "W7204801242",
+   2026
+  ],
+  [
+   "W7117127372",
+   2025
+  ],
+  [
+   "W7168208175",
+   2026
+  ],
+  [
+   "W2416978280",
+   2016
+  ],
+  [
+   "W2896080517",
+   2018
+  ],
+  [
+   "W7203714796",
+   2025
+  ],
+  [
+   "W4414477912",
+   2025
+  ],
+  [
+   "W4412648994",
+   2025
+  ],
+  [
+   "W7147337306",
+   2026
+  ],
+  [
+   "W4396217462",
+   2024
+  ],
+  [
+   "W7165186130",
+   2026
+  ],
+  [
+   "W7172536281",
+   2026
+  ],
+  [
+   "W7134074129",
+   2026
+  ],
+  [
+   "W4392622335",
+   2024
+  ],
+  [
+   "W2498910178",
+   2012
+  ]
+ ]
+}

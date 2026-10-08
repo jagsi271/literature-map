@@ -1,0 +1,91 @@
+{
+ "theme": "C12",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"civic tech\" OR \"civic technology\" OR \"civic hacking\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"civic tech\" OR \"civic technology\" OR \"civic hacking\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"civic hacking\" OR \"civic tech\" OR \"civic technology\"))",
+ "page": 1,
+ "total_results": 24,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C12_india_q1.json.gz",
+ "results": [
+  [
+   "W4398161358",
+   2024
+  ],
+  [
+   "W7162026004",
+   2026
+  ],
+  [
+   "W7213430257",
+   2026
+  ],
+  [
+   "W4415762381",
+   2025
+  ],
+  [
+   "W3102593409",
+   2020
+  ],
+  [
+   "W7169593704",
+   2026
+  ],
+  [
+   "W7119684041",
+   2026
+  ],
+  [
+   "W7211985912",
+   2026
+  ],
+  [
+   "W7211998386",
+   2026
+  ],
+  [
+   "W7134258234",
+   2026
+  ],
+  [
+   "W2765492875",
+   2017
+  ],
+  [
+   "W7160702253",
+   2026
+  ],
+  [
+   "W7217146222",
+   2024
+  ],
+  [
+   "W4415772915",
+   2021
+  ],
+  [
+   "W7134121769",
+   2026
+  ],
+  [
+   "W7160138700",
+   2026
+  ],
+  [
+   "W7131817293",
+   2025
+  ],
+  [
+   "W7125601904",
+   2025
+  ]
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "theme": "C5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"open data\" AND (city OR cities OR municipal) AND (government OR governance OR transparency)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"open data\" AND (city OR cities OR municipal) AND (government OR governance OR transparency),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"open data\" AND (\"cities\" OR \"city\" OR \"municipal\") AND (\"governance\" OR \"government\" OR \"transparency\"))",
+ "page": 1,
+ "total_results": 685,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C5_recent_q3.json.gz",
+ "results": [
+  [
+   "W4224228268",
+   2022
+  ],
+  [
+   "W4393424087",
+   2022
+  ],
+  [
+   "W4393581949",
+   2022
+  ],
+  [
+   "W7135360390",
+   2023
+  ],
+  [
+   "W4404124661",
+   2024
+  ],
+  [
+   "W4315751317",
+   2023
+  ],
+  [
+   "W7217688831",
+   2024
+  ],
+  [
+   "W4391600440",
+   2024
+  ],
+  [
+   "W4415823738",
+   2025
+  ],
+  [
+   "W4412561609",
+   2025
+  ],
+  [
+   "W7204628569",
+   2026
+  ],
+  [
+   "W4410326502",
+   2025
+  ],
+  [
+   "W4415684824",
+   2025
+  ],
+  [
+   "W4408220552",
+   2025
+  ],
+  [
+   "W4226449607",
+   2022
+  ]
+ ]
+}

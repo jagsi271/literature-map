@@ -1,0 +1,115 @@
+{
+ "theme": "C2",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"platform urbanism\" OR \"platform urbanisation\" OR \"platform urbanization\" OR \"platform cities\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"platform urbanism\" OR \"platform urbanisation\" OR \"platform urbanization\" OR \"platform cities\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"platform cities\" OR \"platform urbanisation\" OR \"platform urbanism\" OR \"platform urbanization\")",
+ "page": 1,
+ "total_results": 220,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C2_recent_q1.json.gz",
+ "results": [
+  [
+   "W7115094432",
+   2025
+  ],
+  [
+   "W7120036260",
+   2025
+  ],
+  [
+   "W4321505133",
+   2023
+  ],
+  [
+   "W4383649287",
+   2023
+  ],
+  [
+   "W4220722580",
+   2022
+  ],
+  [
+   "W7119772929",
+   2025
+  ],
+  [
+   "W4321505020",
+   2023
+  ],
+  [
+   "W7120261736",
+   2025
+  ],
+  [
+   "W4386884498",
+   2023
+  ],
+  [
+   "W7213176381",
+   2026
+  ],
+  [
+   "W4386881991",
+   2023
+  ],
+  [
+   "W7138937194",
+   2025
+  ],
+  [
+   "W7203854493",
+   2026
+  ],
+  [
+   "W4296179194",
+   2022
+  ],
+  [
+   "W4297869568",
+   2022
+  ],
+  [
+   "W4321504948",
+   2023
+  ],
+  [
+   "W7119735394",
+   2025
+  ],
+  [
+   "W4392177281",
+   2023
+  ],
+  [
+   "W4409539582",
+   2025
+  ],
+  [
+   "W4317033644",
+   2023
+  ],
+  [
+   "W4375818164",
+   2023
+  ],
+  [
+   "W4386924388",
+   2023
+  ],
+  [
+   "W4225271012",
+   2022
+  ],
+  [
+   "W4408523117",
+   2025
+  ]
+ ]
+}

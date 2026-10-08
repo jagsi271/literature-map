@@ -1043,3 +1043,27 @@ W7212023476,B14,exclude,"Claude (manual review, Stage 2)",diffusion model calibr
 W7128177530,B14,exclude,"Claude (manual review, Stage 2)",foundation-model attestation framework (technical)
 W7128198285,B14,exclude,"Claude (manual review, Stage 2)",foundation-model attestation framework (duplicate)
 W4402586742,B14,exclude,"Claude (manual review, Stage 2)",geo-foundation models
+W2482049572,C1,exclude,"Claude (manual review, Stage 2)",smart tourism destinations
+W3193630181,C1,exclude,"Claude (manual review, Stage 2)",IoT healthcare review
+W4385342336,C1,exclude,"Claude (manual review, Stage 2)",fire detection model
+W3183660758,C1,exclude,"Claude (manual review, Stage 2)",structural health monitoring
+W2583031215,C1,exclude,"Claude (manual review, Stage 2)",blockchain security for smart cities
+W3136881915,C1,exclude,"Claude (manual review, Stage 2)",digital twin city review (C13)
+W3036668925,C1,exclude,"Claude (manual review, Stage 2)",energy policy review
+W2577854396,C1,exclude,"Claude (manual review, Stage 2)",IoT energy management
+W2913830123,C1,include,"Claude (manual review, Stage 2)",standardised indicators for smart sustainable cities
+W3022124280,C1,exclude,"Claude (manual review, Stage 2)",smart-city technology survey
+W2595692298,C1,include,"Claude (manual review, Stage 2)","New Urban Agenda and resistance to ""smart"" (flag false positive)"
+W2141503184,C1,exclude,"Claude (manual review, Stage 2)",EV charging placement
+W2911846900,C1,exclude,"Claude (manual review, Stage 2)",autonomous vehicles review
+W3207740732,C1,exclude,"Claude (manual review, Stage 2)",IoT big data deep learning
+W4392386954,C1,include,"Claude (manual review, Stage 2)",Songdo smart city as urban laboratory
+W7214048561,C1,exclude,"Claude (manual review, Stage 2)",book review (Dracula urbanism and smart city mania)
+W4400875314,C2,exclude,"Claude (manual review, Stage 2)",ICTD and EdTech; platformisation in passing
+W7203725453,C2,exclude,"Claude (manual review, Stage 2)",orange economy review
+W7204183383,C2,exclude,"Claude (manual review, Stage 2)",influencer marketing review
+W4385837492,C2,exclude,"Claude (manual review, Stage 2)",internet policy essay
+W7163517261,C2,exclude,"Claude (manual review, Stage 2)",cafés as third places in Kolkata; platforms in passing
+W7115094432,C2,include,"Claude (manual review, Stage 2)",platform urbanism (lecture record)
+W4225271012,C2,include,"Claude (manual review, Stage 2)","platform urbanism, urban HCI and digital civics"
+W7106297724,C2,exclude,"Claude (manual review, Stage 2)",platform labour regulation (B11)

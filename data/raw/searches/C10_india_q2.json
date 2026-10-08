@@ -1,0 +1,115 @@
+{
+ "theme": "C10",
+ "slice": "india",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(proptech OR \"property technology\" OR \"real estate technology\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(proptech OR \"property technology\" OR \"real estate technology\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"property technology\" OR \"real estate technology\" OR \"proptech\"))",
+ "page": 1,
+ "total_results": 45,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C10_india_q2.json.gz",
+ "results": [
+  [
+   "W7171665048",
+   2026
+  ],
+  [
+   "W4416574331",
+   2025
+  ],
+  [
+   "W2010286031",
+   2010
+  ],
+  [
+   "W2936241243",
+   2019
+  ],
+  [
+   "W7220179631",
+   2024
+  ],
+  [
+   "W4288403868",
+   2019
+  ],
+  [
+   "W4403848098",
+   2024
+  ],
+  [
+   "W2159014514",
+   2014
+  ],
+  [
+   "W2025196642",
+   2012
+  ],
+  [
+   "W7106855507",
+   2025
+  ],
+  [
+   "W4399245045",
+   2024
+  ],
+  [
+   "W7109341945",
+   2025
+  ],
+  [
+   "W7106815636",
+   2025
+  ],
+  [
+   "W2800936047",
+   2018
+  ],
+  [
+   "W7212062809",
+   2026
+  ],
+  [
+   "W2380036960",
+   2016
+  ],
+  [
+   "W4282973398",
+   2022
+  ],
+  [
+   "W7128606255",
+   2026
+  ],
+  [
+   "W3202305995",
+   2021
+  ],
+  [
+   "W1498835019",
+   2007
+  ],
+  [
+   "W4415116139",
+   2025
+  ],
+  [
+   "W7133214716",
+   2026
+  ],
+  [
+   "W7131274571",
+   2026
+  ],
+  [
+   "W4414803946",
+   2025
+  ]
+ ]
+}

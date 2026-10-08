@@ -1,0 +1,115 @@
+{
+ "theme": "C2",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital platforms\" AND (city OR cities OR urban) AND (governance OR space OR labour OR labor OR housing OR regulation)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital platforms\" AND (city OR cities OR urban) AND (governance OR space OR labour OR labor OR housing OR regulation),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital platforms\" AND (\"cities\" OR \"city\" OR \"urban\") AND (\"governance\" OR \"housing\" OR \"labor\" OR \"labour\" OR \"regulation\" OR \"space\"))",
+ "page": 1,
+ "total_results": 1307,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C2_recent_q3.json.gz",
+ "results": [
+  [
+   "W4411749173",
+   2025
+  ],
+  [
+   "W4407904345",
+   2025
+  ],
+  [
+   "W4412455598",
+   2025
+  ],
+  [
+   "W7163361569",
+   2026
+  ],
+  [
+   "W7213949144",
+   2026
+  ],
+  [
+   "W4210402537",
+   2022
+  ],
+  [
+   "W4311232379",
+   2022
+  ],
+  [
+   "W7125409167",
+   2026
+  ],
+  [
+   "W7203769788",
+   2026
+  ],
+  [
+   "W7106297724",
+   2025
+  ],
+  [
+   "W7154630107",
+   2026
+  ],
+  [
+   "W7154576236",
+   2026
+  ],
+  [
+   "W7154603228",
+   2026
+  ],
+  [
+   "W7166565815",
+   2026
+  ],
+  [
+   "W4308087287",
+   2022
+  ],
+  [
+   "W4417305672",
+   2025
+  ],
+  [
+   "W7214406469",
+   2026
+  ],
+  [
+   "W4410305765",
+   2024
+  ],
+  [
+   "W7213981034",
+   2026
+  ],
+  [
+   "W4389504104",
+   2023
+  ],
+  [
+   "W4205608017",
+   2022
+  ],
+  [
+   "W7220139056",
+   2025
+  ],
+  [
+   "W4405256662",
+   2023
+  ],
+  [
+   "W7168355438",
+   2026
+  ]
+ ]
+}

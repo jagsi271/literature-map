@@ -1,0 +1,91 @@
+{
+ "theme": "C18",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(hyperlocal OR \"neighborhood social media\" OR \"neighbourhood Facebook groups\" OR \"digital public space\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(hyperlocal OR \"neighborhood social media\" OR \"neighbourhood Facebook groups\" OR \"digital public space\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital public space\" OR \"neighborhood social media\" OR \"neighbourhood Facebook groups\" OR \"hyperlocal\")",
+ "page": 1,
+ "total_results": 1374,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C18_recent_q4.json.gz",
+ "results": [
+  [
+   "W4410676603",
+   2022
+  ],
+  [
+   "W4226357522",
+   2022
+  ],
+  [
+   "W4410676572",
+   2022
+  ],
+  [
+   "W4317037903",
+   2023
+  ],
+  [
+   "W4412450340",
+   2025
+  ],
+  [
+   "W4415397987",
+   2025
+  ],
+  [
+   "W7127162116",
+   2024
+  ],
+  [
+   "W4385055551",
+   2023
+  ],
+  [
+   "W4416412864",
+   2025
+  ],
+  [
+   "W4301857291",
+   2022
+  ],
+  [
+   "W7159829858",
+   2026
+  ],
+  [
+   "W4295234881",
+   2022
+  ],
+  [
+   "W7116954295",
+   2025
+  ],
+  [
+   "W4405975920",
+   2023
+  ],
+  [
+   "W4295236177",
+   2022
+  ],
+  [
+   "W7140113876",
+   2026
+  ],
+  [
+   "W7112053625",
+   2024
+  ],
+  [
+   "W4393609514",
+   2023
+  ]
+ ]
+}

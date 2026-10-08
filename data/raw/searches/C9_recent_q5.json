@@ -1,0 +1,79 @@
+{
+ "theme": "C9",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(micromobility OR \"e-scooter\" OR \"bike-sharing\" OR dockless) AND (urban OR city) AND (equity OR governance OR regulation)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(micromobility OR \"e-scooter\" OR \"bike-sharing\" OR dockless) AND (urban OR city) AND (equity OR governance OR regulation),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"bike-sharing\" OR \"dockless\" OR \"e-scooter\" OR \"micromobility\") AND (\"city\" OR \"urban\") AND (\"equity\" OR \"governance\" OR \"regulation\"))",
+ "page": 1,
+ "total_results": 316,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C9_recent_q5.json.gz",
+ "results": [
+  [
+   "W4410842181",
+   2025
+  ],
+  [
+   "W4411505069",
+   2025
+  ],
+  [
+   "W7148381812",
+   2026
+  ],
+  [
+   "W4407921266",
+   2025
+  ],
+  [
+   "W4416926326",
+   2022
+  ],
+  [
+   "W4375953021",
+   2023
+  ],
+  [
+   "W4296041676",
+   2022
+  ],
+  [
+   "W4411043242",
+   2025
+  ],
+  [
+   "W4384565122",
+   2023
+  ],
+  [
+   "W7160429566",
+   2026
+  ],
+  [
+   "W4412702006",
+   2025
+  ],
+  [
+   "W7165196387",
+   2026
+  ],
+  [
+   "W4221024737",
+   2022
+  ],
+  [
+   "W4281389211",
+   2022
+  ],
+  [
+   "W4281388498",
+   2022
+  ]
+ ]
+}

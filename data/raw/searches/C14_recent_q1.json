@@ -1,0 +1,39 @@
+{
+ "theme": "C14",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital informality\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital informality\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital informality\")",
+ "page": 1,
+ "total_results": 5,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C14_recent_q1.json.gz",
+ "results": [
+  [
+   "W7131803250",
+   2025
+  ],
+  [
+   "W7160427948",
+   2026
+  ],
+  [
+   "W7160446232",
+   2026
+  ],
+  [
+   "W7134951533",
+   2026
+  ],
+  [
+   "W7107945733",
+   2025
+  ]
+ ]
+}

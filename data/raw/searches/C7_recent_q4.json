@@ -1,0 +1,91 @@
+{
+ "theme": "C7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"generative AI\" AND (city OR urban OR \"urban planning\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"generative AI\" AND (city OR urban OR \"urban planning\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"generative AI\" AND (\"urban planning\" OR \"city\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 1268,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C7_recent_q4.json.gz",
+ "results": [
+  [
+   "W4414033052",
+   2025
+  ],
+  [
+   "W7133239045",
+   2026
+  ],
+  [
+   "W7118760046",
+   2026
+  ],
+  [
+   "W7163038406",
+   2026
+  ],
+  [
+   "W4406356664",
+   2024
+  ],
+  [
+   "W4416677972",
+   2025
+  ],
+  [
+   "W4414937585",
+   2025
+  ],
+  [
+   "W7135193139",
+   2026
+  ],
+  [
+   "W7133975554",
+   2026
+  ],
+  [
+   "W4412473241",
+   2025
+  ],
+  [
+   "W7125574810",
+   2025
+  ],
+  [
+   "W4414727168",
+   2025
+  ],
+  [
+   "W4403873822",
+   2024
+  ],
+  [
+   "W7170190582",
+   2026
+  ],
+  [
+   "W4412942043",
+   2025
+  ],
+  [
+   "W4403371192",
+   2024
+  ],
+  [
+   "W4411169768",
+   2025
+  ],
+  [
+   "W4400890167",
+   2024
+  ]
+ ]
+}

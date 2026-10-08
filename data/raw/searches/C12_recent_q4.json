@@ -1,0 +1,91 @@
+{
+ "theme": "C12",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"smart citizens\" OR \"citizen sensing\" OR \"civic apps\" OR FixMyStreet",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"smart citizens\" OR \"citizen sensing\" OR \"civic apps\" OR FixMyStreet,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"FixMyStreet\" OR \"citizen sensing\" OR \"civic apps\" OR \"smart citizens\")",
+ "page": 1,
+ "total_results": 179,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C12_recent_q4.json.gz",
+ "results": [
+  [
+   "W4383619753",
+   2023
+  ],
+  [
+   "W7137519109",
+   2025
+  ],
+  [
+   "W4416542150",
+   2025
+  ],
+  [
+   "W7205700988",
+   2023
+  ],
+  [
+   "W4414985087",
+   2025
+  ],
+  [
+   "W4312990450",
+   2022
+  ],
+  [
+   "W4407052663",
+   2025
+  ],
+  [
+   "W7113431795",
+   2023
+  ],
+  [
+   "W4408687278",
+   2025
+  ],
+  [
+   "W7146966035",
+   2026
+  ],
+  [
+   "W4296061007",
+   2022
+  ],
+  [
+   "W4392012901",
+   2024
+  ],
+  [
+   "W4383506261",
+   2023
+  ],
+  [
+   "W2993126955",
+   2023
+  ],
+  [
+   "W4382021347",
+   2023
+  ],
+  [
+   "W4416542123",
+   2025
+  ],
+  [
+   "W7205149716",
+   2022
+  ],
+  [
+   "W4284976336",
+   2022
+  ]
+ ]
+}

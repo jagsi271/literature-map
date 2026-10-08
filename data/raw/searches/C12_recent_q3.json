@@ -1,0 +1,91 @@
+{
+ "theme": "C12",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"participatory budgeting\" AND (online OR digital)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"participatory budgeting\" AND (online OR digital),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"participatory budgeting\" AND (\"digital\" OR \"online\"))",
+ "page": 1,
+ "total_results": 328,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C12_recent_q3.json.gz",
+ "results": [
+  [
+   "W4389937491",
+   2023
+  ],
+  [
+   "W4385413576",
+   2023
+  ],
+  [
+   "W4294723759",
+   2022
+  ],
+  [
+   "W4387136672",
+   2023
+  ],
+  [
+   "W4324055511",
+   2023
+  ],
+  [
+   "W4324055509",
+   2023
+  ],
+  [
+   "W4320489171",
+   2023
+  ],
+  [
+   "W4398169406",
+   2024
+  ],
+  [
+   "W4309545390",
+   2022
+  ],
+  [
+   "W4306746470",
+   2022
+  ],
+  [
+   "W4297433732",
+   2022
+  ],
+  [
+   "W7214384420",
+   2026
+  ],
+  [
+   "W4409734231",
+   2025
+  ],
+  [
+   "W4405454481",
+   2024
+  ],
+  [
+   "W7140503641",
+   2026
+  ],
+  [
+   "W4313331000",
+   2022
+  ],
+  [
+   "W4409770408",
+   2025
+  ],
+  [
+   "W4312433249",
+   2022
+  ]
+ ]
+}

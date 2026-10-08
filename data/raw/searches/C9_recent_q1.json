@@ -1,0 +1,79 @@
+{
+ "theme": "C9",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR ridesharing AND urban",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR ridesharing AND urban,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"ride hailing\" OR \"ride-hailing\" OR \"ride-sourcing\" OR \"ridesourcing\" OR (\"ridesharing\" AND \"urban\"))",
+ "page": 1,
+ "total_results": 261,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C9_recent_q1.json.gz",
+ "results": [
+  [
+   "W4386718320",
+   2023
+  ],
+  [
+   "W4409671179",
+   2025
+  ],
+  [
+   "W7115101442",
+   2025
+  ],
+  [
+   "W4280593352",
+   2022
+  ],
+  [
+   "W4214761749",
+   2022
+  ],
+  [
+   "W7171624605",
+   2026
+  ],
+  [
+   "W7171675574",
+   2026
+  ],
+  [
+   "W7199445645",
+   2022
+  ],
+  [
+   "W7151917878",
+   2026
+  ],
+  [
+   "W7197644711",
+   2023
+  ],
+  [
+   "W4220909649",
+   2022
+  ],
+  [
+   "W4409656543",
+   2025
+  ],
+  [
+   "W4387093737",
+   2023
+  ],
+  [
+   "W4389125015",
+   2023
+  ],
+  [
+   "W4293777136",
+   2022
+  ]
+ ]
+}

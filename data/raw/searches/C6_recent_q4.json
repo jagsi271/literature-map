@@ -1,0 +1,91 @@
+{
+ "theme": "C6",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"predictive policing\" OR \"smart policing\" OR \"safe city\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"predictive policing\" OR \"smart policing\" OR \"safe city\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"predictive policing\" OR \"safe city\" OR \"smart policing\")",
+ "page": 1,
+ "total_results": 1674,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C6_recent_q4.json.gz",
+ "results": [
+  [
+   "W4386959967",
+   2023
+  ],
+  [
+   "W7212412914",
+   2026
+  ],
+  [
+   "W4410696520",
+   2025
+  ],
+  [
+   "W7202186051",
+   2026
+  ],
+  [
+   "W7118193048",
+   2025
+  ],
+  [
+   "W4379473793",
+   2023
+  ],
+  [
+   "W7125361769",
+   2025
+  ],
+  [
+   "W4407687877",
+   2025
+  ],
+  [
+   "W7213359673",
+   2026
+  ],
+  [
+   "W4402135335",
+   2024
+  ],
+  [
+   "W4405740409",
+   2024
+  ],
+  [
+   "W7112394297",
+   2023
+  ],
+  [
+   "W7154445625",
+   2026
+  ],
+  [
+   "W4386106971",
+   2023
+  ],
+  [
+   "W4398249971",
+   2024
+  ],
+  [
+   "W4213375459",
+   2022
+  ],
+  [
+   "W4396715350",
+   2022
+  ],
+  [
+   "W4407576654",
+   2025
+  ]
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "theme": "C10",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"housing platforms\" OR \"rental platforms\" OR \"digital housing\" OR \"platform real estate\" OR \"digital landlord\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"housing platforms\" OR \"rental platforms\" OR \"digital housing\" OR \"platform real estate\" OR \"digital landlord\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital housing\" OR \"digital landlord\" OR \"housing platforms\" OR \"platform real estate\" OR \"rental platforms\")",
+ "page": 1,
+ "total_results": 363,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C10_recent_q3.json.gz",
+ "results": [
+  [
+   "W4388424359",
+   2023
+  ],
+  [
+   "W7119528594",
+   2026
+  ],
+  [
+   "W7119527213",
+   2026
+  ],
+  [
+   "W7119497539",
+   2026
+  ],
+  [
+   "W4386966846",
+   2023
+  ],
+  [
+   "W7119466513",
+   2026
+  ],
+  [
+   "W4292649265",
+   2022
+  ],
+  [
+   "W4285088860",
+   2022
+  ],
+  [
+   "W7212479747",
+   2026
+  ],
+  [
+   "W7160863057",
+   2026
+  ],
+  [
+   "W7160870249",
+   2026
+  ],
+  [
+   "W7160838226",
+   2026
+  ],
+  [
+   "W7160866332",
+   2026
+  ],
+  [
+   "W7154194961",
+   2026
+  ],
+  [
+   "W4411005981",
+   2025
+  ],
+  [
+   "W4406726870",
+   2025
+  ],
+  [
+   "W4415479890",
+   2025
+  ],
+  [
+   "W4327651146",
+   2023
+  ],
+  [
+   "W4317581955",
+   2023
+  ],
+  [
+   "W4360613789",
+   2023
+  ],
+  [
+   "W7123708409",
+   2026
+  ],
+  [
+   "W4366535492",
+   2023
+  ],
+  [
+   "W4409754598",
+   2025
+  ],
+  [
+   "W4393317409",
+   2024
+  ]
+ ]
+}

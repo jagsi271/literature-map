@@ -1,0 +1,91 @@
+{
+ "theme": "C16",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"counter-mapping\" OR \"participatory mapping\" OR \"digital mapping\") AND (city OR urban OR informal)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"counter-mapping\" OR \"participatory mapping\" OR \"digital mapping\") AND (city OR urban OR informal),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"digital mapping\" OR \"participatory mapping\" OR \"counter-mapping\") AND (\"city\" OR \"informal\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 823,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C16_recent_q2.json.gz",
+ "results": [
+  [
+   "W4406179193",
+   2024
+  ],
+  [
+   "W4395057048",
+   2023
+  ],
+  [
+   "W4408451231",
+   2024
+  ],
+  [
+   "W4389427250",
+   2023
+  ],
+  [
+   "W4392132674",
+   2024
+  ],
+  [
+   "W4391699659",
+   2023
+  ],
+  [
+   "W4414212926",
+   2025
+  ],
+  [
+   "W4402335560",
+   2024
+  ],
+  [
+   "W7160899901",
+   2026
+  ],
+  [
+   "W7130394460",
+   2026
+  ],
+  [
+   "W7127298071",
+   2026
+  ],
+  [
+   "W7171363382",
+   2026
+  ],
+  [
+   "W7212127121",
+   2026
+  ],
+  [
+   "W4404072714",
+   2024
+  ],
+  [
+   "W4283718096",
+   2022
+  ],
+  [
+   "W4394866301",
+   2024
+  ],
+  [
+   "W4410113595",
+   2025
+  ],
+  [
+   "W4417277727",
+   2025
+  ]
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "theme": "C9",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"digital ticketing\" OR \"mobile ticketing\" OR \"fare integration\" OR \"contactless payment\") AND transit",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"digital ticketing\" OR \"mobile ticketing\" OR \"fare integration\" OR \"contactless payment\") AND transit,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"transit\" AND (\"contactless payment\" OR \"digital ticketing\" OR \"fare integration\" OR \"mobile ticketing\"))",
+ "page": 1,
+ "total_results": 44,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C9_recent_q4.json.gz",
+ "results": [
+  [
+   "W7117877225",
+   2026
+  ],
+  [
+   "W7204516586",
+   2026
+  ],
+  [
+   "W7133299691",
+   2025
+  ],
+  [
+   "W4408738973",
+   2025
+  ],
+  [
+   "W4386742994",
+   2023
+  ],
+  [
+   "W4295555272",
+   2022
+  ],
+  [
+   "W4392623322",
+   2024
+  ],
+  [
+   "W7212377231",
+   2026
+  ],
+  [
+   "W4382059422",
+   2023
+  ],
+  [
+   "W4285247074",
+   2022
+  ],
+  [
+   "W4410027442",
+   2025
+  ],
+  [
+   "W4285110325",
+   2022
+  ],
+  [
+   "W7126619692",
+   2024
+  ],
+  [
+   "W4402320807",
+   2024
+  ],
+  [
+   "W7118022241",
+   2026
+  ]
+ ]
+}

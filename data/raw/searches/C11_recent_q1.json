@@ -1,0 +1,91 @@
+{
+ "theme": "C11",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"mobile money\" AND (urban OR city OR traders OR vendors OR merchants)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"mobile money\" AND (urban OR city OR traders OR vendors OR merchants),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"mobile money\" AND (\"city\" OR \"merchants\" OR \"traders\" OR \"urban\" OR \"vendors\"))",
+ "page": 1,
+ "total_results": 342,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C11_recent_q1.json.gz",
+ "results": [
+  [
+   "W4205816835",
+   2022
+  ],
+  [
+   "W4416933955",
+   2025
+  ],
+  [
+   "W4414923387",
+   2025
+  ],
+  [
+   "W4404627512",
+   2024
+  ],
+  [
+   "W4310344689",
+   2022
+  ],
+  [
+   "W4366004209",
+   2023
+  ],
+  [
+   "W4226124520",
+   2022
+  ],
+  [
+   "W7167558203",
+   2026
+  ],
+  [
+   "W7106166998",
+   2025
+  ],
+  [
+   "W7106154034",
+   2025
+  ],
+  [
+   "W4229334530",
+   2022
+  ],
+  [
+   "W4386692706",
+   2023
+  ],
+  [
+   "W4413340618",
+   2025
+  ],
+  [
+   "W4403306826",
+   2024
+  ],
+  [
+   "W7130423177",
+   2026
+  ],
+  [
+   "W4386556411",
+   2022
+  ],
+  [
+   "W4306699042",
+   2022
+  ],
+  [
+   "W4366782699",
+   2023
+  ]
+ ]
+}

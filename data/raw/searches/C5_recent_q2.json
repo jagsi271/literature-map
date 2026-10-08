@@ -1,0 +1,79 @@
+{
+ "theme": "C5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"data governance\" AND (city OR cities OR municipal OR urban)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"data governance\" AND (city OR cities OR municipal OR urban),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"data governance\" AND (\"cities\" OR \"city\" OR \"municipal\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 1133,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C5_recent_q2.json.gz",
+ "results": [
+  [
+   "W4411125720",
+   2025
+  ],
+  [
+   "W4320522375",
+   2023
+  ],
+  [
+   "W4226229122",
+   2022
+  ],
+  [
+   "W4387600991",
+   2023
+  ],
+  [
+   "W7162440751",
+   2026
+  ],
+  [
+   "W4410900985",
+   2025
+  ],
+  [
+   "W4210888287",
+   2022
+  ],
+  [
+   "W4283713391",
+   2022
+  ],
+  [
+   "W7146234972",
+   2022
+  ],
+  [
+   "W4401251589",
+   2024
+  ],
+  [
+   "W4410153563",
+   2025
+  ],
+  [
+   "W7126158134",
+   2026
+  ],
+  [
+   "W7126174284",
+   2026
+  ],
+  [
+   "W4306409909",
+   2022
+  ],
+  [
+   "W7170187445",
+   2026
+  ]
+ ]
+}

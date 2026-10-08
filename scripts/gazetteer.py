@@ -239,3 +239,13 @@ def region_label(regions: set) -> str:
     if len(regions) == 1:
         return next(iter(regions))
     return "Multi-region"
+
+
+def names_city(text: str) -> bool:
+    """True when the text names a city (gazetteer cities, Delhi-NCR or Haryana places)."""
+    if not text:
+        return False
+    clean = _FALSE.sub(" ", text)
+    if any(m.group(1) in CITIES for m in _PLACE_RX.finditer(clean)):
+        return True
+    return bool(_DELHI_RX.search(text) or _HARYANA_RX.search(text))

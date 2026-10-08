@@ -1,0 +1,91 @@
+{
+ "theme": "C3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"spatial media\" OR geoweb OR \"locative media\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"spatial media\" OR geoweb OR \"locative media\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"locative media\" OR \"spatial media\" OR \"geoweb\")",
+ "page": 1,
+ "total_results": 206,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C3_recent_q3.json.gz",
+ "results": [
+  [
+   "W4284972770",
+   2022
+  ],
+  [
+   "W4410135125",
+   2025
+  ],
+  [
+   "W4388104103",
+   2023
+  ],
+  [
+   "W4407099127",
+   2025
+  ],
+  [
+   "W4388025443",
+   2023
+  ],
+  [
+   "W4388105677",
+   2023
+  ],
+  [
+   "W4412428817",
+   2025
+  ],
+  [
+   "W4392730684",
+   2024
+  ],
+  [
+   "W4210334412",
+   2022
+  ],
+  [
+   "W4390102560",
+   2023
+  ],
+  [
+   "W4390102533",
+   2023
+  ],
+  [
+   "W7165435430",
+   2026
+  ],
+  [
+   "W7160244013",
+   2026
+  ],
+  [
+   "W7118356716",
+   2026
+  ],
+  [
+   "W4412227850",
+   2024
+  ],
+  [
+   "W7128490223",
+   2026
+  ],
+  [
+   "W4403040206",
+   2024
+  ],
+  [
+   "W4376154940",
+   2023
+  ]
+ ]
+}

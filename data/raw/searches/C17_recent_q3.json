@@ -1,0 +1,91 @@
+{
+ "theme": "C17",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"cyber-physical\" AND (city OR urban) AND (security OR resilience)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"cyber-physical\" AND (city OR urban) AND (security OR resilience),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"cyber-physical\" AND (\"city\" OR \"urban\") AND (\"resilience\" OR \"security\"))",
+ "page": 1,
+ "total_results": 474,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C17_recent_q3.json.gz",
+ "results": [
+  [
+   "W7112901066",
+   2023
+  ],
+  [
+   "W4283647202",
+   2022
+  ],
+  [
+   "W7116360528",
+   2025
+  ],
+  [
+   "W4379981122",
+   2023
+  ],
+  [
+   "W7134850061",
+   2026
+  ],
+  [
+   "W4379875207",
+   2023
+  ],
+  [
+   "W4220989191",
+   2022
+  ],
+  [
+   "W4413057546",
+   2025
+  ],
+  [
+   "W7162208198",
+   2026
+  ],
+  [
+   "W7220469312",
+   2026
+  ],
+  [
+   "W4406955414",
+   2025
+  ],
+  [
+   "W7214885799",
+   2026
+  ],
+  [
+   "W4296439338",
+   2022
+  ],
+  [
+   "W7170052545",
+   2025
+  ],
+  [
+   "W4414647192",
+   2025
+  ],
+  [
+   "W4400946975",
+   2024
+  ],
+  [
+   "W7127433203",
+   2025
+  ],
+  [
+   "W7135170632",
+   2026
+  ]
+ ]
+}

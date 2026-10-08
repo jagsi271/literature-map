@@ -36,46 +36,63 @@ preparation; Repository-only flag; DataCite check for non-Crossref DOIs).
 <!-- AUTO:SCREENING -->
 | Theme | Name | Candidates | Rule incl. | Borderline (share) | Hand kept / dropped | Records found | Primary here |
 |---|---|---|---|---|---|---|---|
-| A1 | Urban governance, decentralisation & municipa | 289 | 211 | 39 (14%) | 17 / 22 | 206 | 203 |
-| A2 | Planning, master plans & land-use regulation | 239 | 160 | 12 (5%) | 3 / 9 | 156 | 153 |
+| A1 | Urban governance, decentralisation & municipa | 289 | 211 | 33 (11%) | 16 / 17 | 206 | 202 |
+| A2 | Planning, master plans & land-use regulation | 239 | 160 | 12 (5%) | 3 / 9 | 156 | 151 |
 | A3 | Housing, informality & slums | 238 | 152 | 42 (18%) | 14 / 28 | 149 | 144 |
-| A4 | Eviction, resettlement & displacement | 219 | 170 | 22 (10%) | 9 / 13 | 170 | 165 |
+| A4 | Eviction, resettlement & displacement | 219 | 170 | 20 (9%) | 8 / 12 | 170 | 164 |
 | A5 | Land, peri-urban & extended urbanisation | 241 | 139 | 28 (12%) | 12 / 16 | 147 | 145 |
 | A6 | Small towns, census towns & secondary cities | 336 | 138 | 28 (8%) | 11 / 17 | 142 | 142 |
-| A7 | Urban infrastructure (water, sanitation, ener | 242 | 159 | 23 (10%) | 9 / 14 | 161 | 154 |
-| A8 | Mobility & transport (social science) | 246 | 174 | 27 (11%) | 7 / 20 | 174 | 170 |
+| A7 | Urban infrastructure (water, sanitation, ener | 242 | 159 | 23 (10%) | 9 / 14 | 161 | 153 |
+| A8 | Mobility & transport (social science) | 246 | 174 | 23 (9%) | 6 / 17 | 174 | 169 |
 | A9 | Public space, publicness & the street | 287 | 188 | 36 (12%) | 21 / 15 | 208 | 207 |
 | A10 | Urban economy, informal work & street vending | 221 | 154 | 22 (10%) | 9 / 13 | 162 | 159 |
-| A11 | Migration & the city | 234 | 192 | 22 (9%) | 6 / 16 | 188 | 185 |
-| A12 | Gender, caste, class & the city | 229 | 156 | 23 (10%) | 12 / 11 | 163 | 161 |
+| A11 | Migration & the city | 234 | 192 | 22 (9%) | 6 / 16 | 188 | 184 |
+| A12 | Gender, caste, class & the city | 229 | 156 | 22 (10%) | 11 / 11 | 163 | 161 |
 | A13 | Heritage, mega-events & "world-class" city ma | 211 | 146 | 13 (6%) | 7 / 6 | 152 | 149 |
 | A14 | Urban environment, climate & risk | 246 | 195 | 29 (12%) | 10 / 19 | 192 | 189 |
 | A15 | Urban & planning theory, Southern urbanism | 233 | 144 | 39 (17%) | 24 / 15 | 158 | 154 |
-| A16 | Night-time city & urban time | 241 | 122 | 33 (14%) | 20 / 13 | 135 | 135 |
-| B1 | Platforms & platform capitalism | 239 | 177 | 33 (14%) | 16 / 17 | 183 | 172 |
+| A16 | Night-time city & urban time | 241 | 122 | 31 (13%) | 18 / 13 | 135 | 135 |
+| B1 | Platforms & platform capitalism | 239 | 177 | 33 (14%) | 16 / 17 | 183 | 166 |
 | B2 | Datafication, data justice & data colonialism | 240 | 149 | 38 (16%) | 21 / 17 | 161 | 157 |
-| B3 | Surveillance studies | 229 | 156 | 34 (15%) | 11 / 23 | 158 | 151 |
-| B4 | Algorithmic governance & AI in the public sec | 238 | 205 | 18 (8%) | 6 / 12 | 187 | 187 |
+| B3 | Surveillance studies | 229 | 156 | 34 (15%) | 11 / 23 | 158 | 149 |
+| B4 | Algorithmic governance & AI in the public sec | 238 | 205 | 17 (7%) | 5 / 12 | 187 | 187 |
 | B5 | Digital identity & digital public infrastruct | 272 | 184 | 47 (17%) | 12 / 35 | 182 | 179 |
 | B6 | Digital finance & payments | 217 | 182 | 14 (6%) | 8 / 6 | 180 | 180 |
 | B7 | Digital divides & digital inclusion | 236 | 184 | 28 (12%) | 16 / 12 | 181 | 179 |
 | B8 | Social media, digital publics & political com | 241 | 193 | 17 (7%) | 12 / 5 | 191 | 188 |
-| B9 | Misinformation & extreme speech | 238 | 161 | 44 (18%) | 29 / 15 | 181 | 180 |
+| B9 | Misinformation & extreme speech | 238 | 161 | 44 (18%) | 29 / 15 | 181 | 179 |
 | B10 | Cybercrime, fraud & cybersecurity (social sci | 240 | 173 | 25 (10%) | 10 / 15 | 173 | 173 |
-| B11 | Digital labour | 238 | 203 | 12 (5%) | 8 / 4 | 202 | 197 |
+| B11 | Digital labour | 238 | 203 | 12 (5%) | 8 / 4 | 202 | 194 |
 | B12 | Infrastructure studies & STS of digital syste | 221 | 131 | 39 (18%) | 10 / 29 | 137 | 136 |
 | B13 | Mobile phones & everyday digital life | 239 | 142 | 26 (11%) | 5 / 21 | 140 | 137 |
 | B14 | Generative AI & society | 237 | 161 | 46 (19%) | 18 / 28 | 168 | 168 |
-| C2 | Platform urbanism | 142 | 118 | 15 (11%) | 11 / 4 | 127 | 115 |
+| C1 | Smart cities & smart urbanism | 219 | 187 | 16 (7%) | 3 / 13 | 188 | 183 |
+| C2 | Platform urbanism | 213 | 166 | 19 (9%) | 10 / 9 | 169 | 155 |
+| C3 | Digital geographies & code/space | 199 | 82 | 23 (12%) | 0 / 0 (+23 pending) | 80 | 78 |
+| C4 | Urban informatics & urban computing | 225 | 123 | 22 (10%) | 0 / 0 (+22 pending) | 118 | 113 |
+| C5 | Urban data governance & data justice in citie | 230 | 118 | 45 (20%) | 0 / 0 (+45 pending) | 114 | 108 |
+| C6 | Urban surveillance, policing & biometrics in  | 240 | 110 | 36 (15%) | 0 / 0 (+36 pending) | 109 | 107 |
+| C7 | Algorithmic & automated urban governance, mun | 226 | 147 | 29 (13%) | 0 / 0 (+29 pending) | 142 | 135 |
+| C8 | City-level DPI & urban e-government | 217 | 113 | 32 (15%) | 0 / 0 (+32 pending) | 112 | 105 |
+| C9 | Digital mobility (ride-hailing, MaaS, digital | 228 | 140 | 21 (9%) | 0 / 0 (+21 pending) | 138 | 136 |
+| C10 | Proptech, housing platforms & short-term rent | 226 | 144 | 35 (16%) | 0 / 0 (+35 pending) | 137 | 134 |
+| C11 | Digital payments in urban economies (QR, UPI, | 218 | 111 | 13 (6%) | 0 / 0 (+13 pending) | 107 | 99 |
+| C12 | Civic tech, e-participation & digital urban p | 239 | 87 | 28 (12%) | 0 / 0 (+28 pending) | 83 | 79 |
+| C13 | Digital twins, simulation & visual rendering  | 228 | 153 | 18 (8%) | 0 / 0 (+18 pending) | 151 | 147 |
+| C14 | Digital informality (informal settlements, ve | 191 | 118 | 31 (16%) | 0 / 0 (+31 pending) | 108 | 99 |
+| C15 | Gig work in the city (urban and spatial focus | 222 | 109 | 11 (5%) | 0 / 0 (+11 pending) | 101 | 80 |
+| C16 | Digital heritage, mapping & representation of | 213 | 120 | 51 (24%) | 0 / 0 (+51 pending) | 112 | 111 |
+| C17 | Urban cybersecurity & cyber-physical infrastr | 228 | 110 | 40 (18%) | 0 / 0 (+40 pending) | 109 | 104 |
+| C18 | Neighbourhood platforms & digital public spac | 217 | 98 | 30 (14%) | 0 / 0 (+30 pending) | 97 | 96 |
 
-Total deduplicated records: 5114.
+Total deduplicated records: 7049.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
 <!-- AUTO:API -->
 | UTC day | Calls by this pipeline | Cost (USD) | ≈ searches | Credits left at last call |
 |---|---|---|---|---|
-| 2026-10-08 | 286 | 0.286 | 286 | 6740 |
+| 2026-10-08 | 443 | 0.443 | 443 | 5170 |
 <!-- /AUTO:API -->
 
 ## Stage 1 (pilot) — approved

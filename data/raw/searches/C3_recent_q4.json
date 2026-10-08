@@ -1,0 +1,87 @@
+{
+ "theme": "C3",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"digital turn\" AND geography",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"digital turn\" AND geography,is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"digital turn\" AND \"geography\")",
+ "page": 1,
+ "total_results": 17,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C3_recent_q4.json.gz",
+ "results": [
+  [
+   "W4377824328",
+   2023
+  ],
+  [
+   "W4402826769",
+   2024
+  ],
+  [
+   "W4280548682",
+   2022
+  ],
+  [
+   "W4406592690",
+   2024
+  ],
+  [
+   "W4392105910",
+   2024
+  ],
+  [
+   "W4283016326",
+   2022
+  ],
+  [
+   "W4312544940",
+   2022
+  ],
+  [
+   "W4405501336",
+   2024
+  ],
+  [
+   "W4297239603",
+   2022
+  ],
+  [
+   "W4213050100",
+   2022
+  ],
+  [
+   "W7117379229",
+   2025
+  ],
+  [
+   "W7170189664",
+   2026
+  ],
+  [
+   "W4401168243",
+   2024
+  ],
+  [
+   "W7140961935",
+   2025
+  ],
+  [
+   "W7126179175",
+   2025
+  ],
+  [
+   "W4226375770",
+   2022
+  ],
+  [
+   "W4390399234",
+   2023
+  ]
+ ]
+}

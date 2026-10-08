@@ -1,0 +1,79 @@
+{
+ "theme": "C5",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"data commons\" OR \"data trust\" OR \"technological sovereignty\" OR \"digital sovereignty\") AND (city OR urban)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"data commons\" OR \"data trust\" OR \"technological sovereignty\" OR \"digital sovereignty\") AND (city OR urban),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"data commons\" OR \"data trust\" OR \"digital sovereignty\" OR \"technological sovereignty\") AND (\"city\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 214,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C5_recent_q4.json.gz",
+ "results": [
+  [
+   "W4380153376",
+   2023
+  ],
+  [
+   "W7154582686",
+   2026
+  ],
+  [
+   "W4408165563",
+   2024
+  ],
+  [
+   "W4415045690",
+   2024
+  ],
+  [
+   "W4361802801",
+   2023
+  ],
+  [
+   "W4412672888",
+   2025
+  ],
+  [
+   "W4413142203",
+   2025
+  ],
+  [
+   "W4388080551",
+   2023
+  ],
+  [
+   "W7204234601",
+   2026
+  ],
+  [
+   "W4405900601",
+   2024
+  ],
+  [
+   "W4409983538",
+   2025
+  ],
+  [
+   "W4404449262",
+   2024
+  ],
+  [
+   "W7171470310",
+   2026
+  ],
+  [
+   "W7167907591",
+   2026
+  ],
+  [
+   "W7213750995",
+   2026
+  ]
+ ]
+}

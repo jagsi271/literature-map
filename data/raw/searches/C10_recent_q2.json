@@ -1,0 +1,115 @@
+{
+ "theme": "C10",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "proptech OR \"property technology\" OR \"real estate technology\"",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:proptech OR \"property technology\" OR \"real estate technology\",is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"property technology\" OR \"real estate technology\" OR \"proptech\")",
+ "page": 1,
+ "total_results": 517,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C10_recent_q2.json.gz",
+ "results": [
+  [
+   "W7217178265",
+   2025
+  ],
+  [
+   "W4408488632",
+   2024
+  ],
+  [
+   "W7204163220",
+   2026
+  ],
+  [
+   "W4410130864",
+   2025
+  ],
+  [
+   "W7161840927",
+   2026
+  ],
+  [
+   "W7128167361",
+   2024
+  ],
+  [
+   "W4410308319",
+   2025
+  ],
+  [
+   "W4415690718",
+   2025
+  ],
+  [
+   "W7134336673",
+   2024
+  ],
+  [
+   "W4312323340",
+   2022
+  ],
+  [
+   "W4396958747",
+   2024
+  ],
+  [
+   "W4415690721",
+   2025
+  ],
+  [
+   "W4285276035",
+   2022
+  ],
+  [
+   "W4408087068",
+   2024
+  ],
+  [
+   "W7201864277",
+   2026
+  ],
+  [
+   "W4320154482",
+   2022
+  ],
+  [
+   "W7132491850",
+   2024
+  ],
+  [
+   "W4388230526",
+   2023
+  ],
+  [
+   "W4412920237",
+   2022
+  ],
+  [
+   "W4401366460",
+   2024
+  ],
+  [
+   "W4387385399",
+   2023
+  ],
+  [
+   "W4415690737",
+   2025
+  ],
+  [
+   "W7214404222",
+   2026
+  ],
+  [
+   "W7117638223",
+   2025
+  ]
+ ]
+}

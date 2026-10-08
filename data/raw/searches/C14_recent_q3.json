@@ -1,0 +1,91 @@
+{
+ "theme": "C14",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"street vendors\" OR \"informal traders\" OR \"informal workers\") AND (digital OR app OR platform OR \"digital payment\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"street vendors\" OR \"informal traders\" OR \"informal workers\") AND (digital OR app OR platform OR \"digital payment\"),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"digital payment\" OR \"app\" OR \"digital\" OR \"platform\") AND (\"informal traders\" OR \"informal workers\" OR \"street vendors\"))",
+ "page": 1,
+ "total_results": 634,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C14_recent_q3.json.gz",
+ "results": [
+  [
+   "W7128951933",
+   2026
+  ],
+  [
+   "W7167726119",
+   2026
+  ],
+  [
+   "W4282558551",
+   2022
+  ],
+  [
+   "W7213271561",
+   2026
+  ],
+  [
+   "W7204098881",
+   2026
+  ],
+  [
+   "W7133309813",
+   2026
+  ],
+  [
+   "W4416302306",
+   2025
+  ],
+  [
+   "W4387377272",
+   2023
+  ],
+  [
+   "W4411722746",
+   2025
+  ],
+  [
+   "W7212435384",
+   2026
+  ],
+  [
+   "W7213248406",
+   2026
+  ],
+  [
+   "W7212424098",
+   2026
+  ],
+  [
+   "W7213240277",
+   2026
+  ],
+  [
+   "W7210294387",
+   2026
+  ],
+  [
+   "W4407668804",
+   2025
+  ],
+  [
+   "W4407168395",
+   2025
+  ],
+  [
+   "W7140836539",
+   2026
+  ],
+  [
+   "W7213651881",
+   2026
+  ]
+ ]
+}

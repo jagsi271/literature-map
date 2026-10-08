@@ -1,0 +1,91 @@
+{
+ "theme": "C7",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "\"algorithmic governance\" AND (city OR urban OR municipal)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:\"algorithmic governance\" AND (city OR urban OR municipal),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has (\"algorithmic governance\" AND (\"city\" OR \"municipal\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 168,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C7_recent_q1.json.gz",
+ "results": [
+  [
+   "W4415567414",
+   2025
+  ],
+  [
+   "W7109766184",
+   2025
+  ],
+  [
+   "W4210254103",
+   2022
+  ],
+  [
+   "W4406900752",
+   2024
+  ],
+  [
+   "W7154572672",
+   2026
+  ],
+  [
+   "W7160384255",
+   2026
+  ],
+  [
+   "W7167424436",
+   2026
+  ],
+  [
+   "W7109511228",
+   2025
+  ],
+  [
+   "W7114944003",
+   2025
+  ],
+  [
+   "W7203769788",
+   2026
+  ],
+  [
+   "W7203741369",
+   2026
+  ],
+  [
+   "W7153753363",
+   2026
+  ],
+  [
+   "W7128509920",
+   2026
+  ],
+  [
+   "W4403033261",
+   2024
+  ],
+  [
+   "W7166720149",
+   2025
+  ],
+  [
+   "W7166706470",
+   2026
+  ],
+  [
+   "W4416950077",
+   2025
+  ],
+  [
+   "W7220540374",
+   2025
+  ]
+ ]
+}

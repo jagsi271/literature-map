@@ -1,0 +1,91 @@
+{
+ "theme": "C8",
+ "slice": "recent",
+ "stage": "stage2",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"e-government\" OR \"e-governance\" OR \"electronic government\") AND (municipal OR city OR \"local government\" OR urban)",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"e-government\" OR \"e-governance\" OR \"electronic government\") AND (municipal OR city OR \"local government\" OR urban),is_retracted:false,publication_year:2022-2026",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and year >= (2022)\n  and year <= (2026)\n  and title-abstract has ((\"electronic government\" OR \"e-governance\" OR \"e-government\") AND (\"local government\" OR \"city\" OR \"municipal\" OR \"urban\"))",
+ "page": 1,
+ "total_results": 2205,
+ "retrieved": "2026-10-08",
+ "cache": "data/raw/api/search_C8_recent_q1.json.gz",
+ "results": [
+  [
+   "W4311436847",
+   2022
+  ],
+  [
+   "W4396804810",
+   2024
+  ],
+  [
+   "W4386711323",
+   2023
+  ],
+  [
+   "W7203571176",
+   2026
+  ],
+  [
+   "W4416994107",
+   2025
+  ],
+  [
+   "W4385654176",
+   2023
+  ],
+  [
+   "W4393907524",
+   2023
+  ],
+  [
+   "W7199768912",
+   2024
+  ],
+  [
+   "W7203629618",
+   2026
+  ],
+  [
+   "W4390699774",
+   2024
+  ],
+  [
+   "W4390055983",
+   2023
+  ],
+  [
+   "W4402192994",
+   2024
+  ],
+  [
+   "W7105628881",
+   2025
+  ],
+  [
+   "W4375851483",
+   2023
+  ],
+  [
+   "W4380683726",
+   2023
+  ],
+  [
+   "W4362645308",
+   2022
+  ],
+  [
+   "W4388416837",
+   2023
+  ],
+  [
+   "W4408406681",
+   2025
+  ]
+ ]
+}
