@@ -8135,7 +8135,7 @@ W7140836539,C11,recent,C11_recent_q4,18,Analyzing The Factors That Influencing D
 W4398161358,C12,india,C12_india_q1,1,"Potentialities and affordances of grassroots civic tech platforms as effective anti-corruption tools: Decoding the story of I Paid A Bribe, India",2024,book-chapter,5,True,exclude,6,context terms missing,exclude
 W7162026004,C12,india,C12_india_q1,2,Promise VS Progress: A Civic-Tech Platform for Tracking Government Infrastructure Projects in Karnataka,2026,preprint,0,True,exclude,0,core concept missing,exclude
 W7213430257,C12,india,C12_india_q1,3,Smart Cities and Urban Governance: Analyzing Municipal Autonomy and Citizen Participation in Bengaluru,2026,article,0,True,include,2,rules,include
-W4415762381,C12,india,C12_india_q1,4,Crumbling City Infrastructure in India: The Emerging Role of Gen Z and Gen G in Urban Regeneration,2025,article,0,True,borderline,1,core concept mentioned once,pending
+W4415762381,C12,india,C12_india_q1,4,Crumbling City Infrastructure in India: The Emerging Role of Gen Z and Gen G in Urban Regeneration,2025,article,0,True,borderline,1,core concept mentioned once | manual: youth and urban regeneration overview,exclude
 W3102593409,C12,india,C12_india_q1,5,Humanitarian data justice: A structural data justice lens on civic technologies in post‐earthquake Nepal,2020,article,22,True,exclude,4,context terms missing,exclude
 W7169593704,C12,india,C12_india_q1,6,"IndianConstitution: Programmatic Access, Search, and Analysis of the Constitution of India in Python",2026,software,0,True,exclude,0,type software,exclude
 W7119684041,C12,india,C12_india_q1,7,"IndianConstitution: Programmatic Access, Search, and Analysis of the Constitution of India in Python",2026,software,0,True,exclude,0,type software,exclude
@@ -8164,25 +8164,25 @@ W7133985872,C12,india,C12_india_q2,11,Digital Divide in Rural and Urban India,20
 W7133929878,C12,india,C12_india_q2,12,Digital Divide in Rural and Urban India,2026,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7142440735,C12,india,C12_india_q2,13,Digital Divide in Rural and Urban India,2026,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7141813606,C12,india,C12_india_q2,14,Digital Divide in Rural and Urban India,2026,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W4417248459,C12,india,C12_india_q2,15,Instagram Reels And Youth Identify Formation In Urban India,2025,article,0,True,borderline,1,core concept mentioned once,pending
+W4417248459,C12,india,C12_india_q2,15,Instagram Reels And Youth Identify Formation In Urban India,2025,article,0,True,borderline,1,core concept mentioned once | manual: Instagram reels and youth identity,exclude
 W66114065,C12,india,C12_india_q2,16,Improving Women's Health in Pakistan,1998,book,52,True,exclude,0,core concept missing,exclude
 W7127632150,C12,india,C12_india_q2,17,Digital Inequality in the Bagmati Province: An Integrated Approach to Assessing Digital Participation,2025,article,0,True,include,4,rules,include
 W3035438328,C12,india,C12_india_q2,18,Upgrading the Megacity Piloting a Co-design and Decision Support Environment for Urban Development in India,2020,conference-paper,0,False,exclude,0,core concept missing,exclude
 W4416602185,C12,india,C12_india_q3,1,Citizen Engagement in Governance: A Study of Participatory Budgeting in India,2025,article,0,True,exclude,3,context terms missing,exclude
 W563427504,C12,india,C12_india_q3,2,Participatory Budgeting in Asia and Europe: Key Challenges of Participation,2014,article,25,True,include,6,rules,include
 W4414907640,C12,india,C12_india_q3,3,"Participatory budgeting in rural areas of Kazakhstan: opportunities, limitations and directions of development",2025,article,2,True,include,4,rules,include
-W7140328865,C12,india,C12_india_q3,4,Evaluation Role of Citizens in Strengthening Local Governance in India,2025,article,0,True,borderline,1,core concept mentioned once,pending
-W7160177846,C12,india,C12_india_q3,5,"Poverty in Academic Institutions: An Analysis of Structural Deficits, Sociological Implications and Reform Pathways in The Indian Context",2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7140328865,C12,india,C12_india_q3,4,Evaluation Role of Citizens in Strengthening Local Governance in India,2025,article,0,True,borderline,1,core concept mentioned once | manual: citizen participation in Indian local governance (general),exclude
+W7160177846,C12,india,C12_india_q3,5,"Poverty in Academic Institutions: An Analysis of Structural Deficits, Sociological Implications and Reform Pathways in The Indian Context",2026,article,0,True,borderline,1,core concept mentioned once | manual: poverty in academic institutions,exclude
 W4411412544,C12,india,C12_india_q3,6,"Antifeminism as moral governance in India: caste, religion, and the political erasure of queer and Dalit lifeworlds",2025,article,3,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7167424199,C12,india,C12_india_q3,7,Empowering Citizens and Shaping Public Policy,2026,article,0,True,exclude,3,context terms missing,exclude
 W4409969828,C12,india,C12_india_q3,8,A SYSTEMATIC REVIEW OF PUBLIC BUDGETING STRATEGIES IN DEVELOPING ECONOMIES: TOOLS FOR TRANSPARENT FISCAL GOVERNANCE,2025,review,22,True,include,2,rules,include
-W4414949649,C12,india,C12_india_q3,9,"Enhancing Local Governance Through Technology: Transparency, Accountability, and Participation",2025,article,1,True,borderline,1,core concept mentioned once,pending
+W4414949649,C12,india,C12_india_q3,9,"Enhancing Local Governance Through Technology: Transparency, Accountability, and Participation",2025,article,1,True,borderline,1,"core concept mentioned once | manual: civic tech cases (Open311, I Change My City, participatory budgeting)",include
 W4411260095,C12,india,C12_india_q3,10,A SYSTEMATIC REVIEW OF PUBLIC BUDGETING STRATEGIES IN DEVELOPING ECONOMIES: TOOLS FOR TRANSPARENT FISCAL GOVERNANCE,2025,preprint,2,False,exclude,0,core concept missing,exclude
 W7134932180,C12,india,C12_india_q3,11,Governing Health Equity,2026,book-chapter,1,True,exclude,1,context terms missing,exclude
 W4417102036,C12,india,C12_india_q3,12,Empowered representation: Taking democracy beyond the ballot,2025,article,0,True,exclude,2,context terms missing,exclude
-W7127380211,C12,india,C12_india_q3,13,The Dawn of AI in Public Service,2026,book-chapter,0,True,borderline,1,core concept mentioned once,pending
-W7106543685,C12,india,C12_india_q3,14,Transparency and Accountability in Governance And Welfare Administration,2025,article,0,True,borderline,1,core concept mentioned once,pending
-W4399189960,C12,india,C12_india_q3,15,Chapter 7 — “Scraps from the Bourgeois Kitchen” On the Romanian Frontline of Outsourced Creativity,2024,book-chapter,0,True,borderline,1,core concept mentioned once,pending
+W7127380211,C12,india,C12_india_q3,13,The Dawn of AI in Public Service,2026,book-chapter,0,True,borderline,1,core concept mentioned once | manual: AI in public service (B4),exclude
+W7106543685,C12,india,C12_india_q3,14,Transparency and Accountability in Governance And Welfare Administration,2025,article,0,True,borderline,1,core concept mentioned once | manual: transparency in welfare administration,exclude
+W4399189960,C12,india,C12_india_q3,15,Chapter 7 — “Scraps from the Bourgeois Kitchen” On the Romanian Frontline of Outsourced Creativity,2024,book-chapter,0,True,borderline,1,core concept mentioned once | manual: outsourced creative labour,exclude
 W4252046757,C12,india,C12_india_q3,16,Editorial,2018,editorial,2,True,exclude,0,type editorial,exclude
 W4405923705,C12,india,C12_india_q4,1,The Role of Smart Citizens in Building a Smart Bangladesh: Challenges and the Way Forward,2024,article,3,True,include,3,rules,include
 W2615660955,C12,india,C12_india_q4,2,"Smart City Project Selection, Prioritization, Customization and Implementation—Voice of Smart Citizens Case Study of Bhubaneswar and Surat",2017,book-chapter,1,False,include,3,no abstract; core (and context) in title,include
@@ -8196,7 +8196,7 @@ W4309873981,C12,india,C12_india_q4,9,"Deterministic Seismic Hazard Analysis for 
 W3113496541,C12,india,C12_india_q4,10,Exploring in the Context of Development of Smart Cities in India,2020,book-chapter,3,False,exclude,0,core concept missing,exclude
 W4401459337,C12,india,C12_india_q4,11,"Urban governance, technologically equipped citizens, and their (non) participation in the Indian smart cities of Bhubaneswar and Bhopal",2024,article,6,False,exclude,0,core concept missing,exclude
 W2513263670,C12,india,C12_india_q4,12,"Sugar Smart, Heart Smart: The way Smart cities should be",2016,article,2,True,exclude,3,"flag, core not in title: \b(patients?|clinical|randomi[sz]ed|prev",exclude
-W7168555104,C12,india,C12_india_q4,13,A Citizen Centered Perspective on Smart Mobility: Identifying Key Factors through the Technology Acceptance Model,2026,article,0,True,borderline,1,core concept mentioned once,pending
+W7168555104,C12,india,C12_india_q4,13,A Citizen Centered Perspective on Smart Mobility: Identifying Key Factors through the Technology Acceptance Model,2026,article,0,True,borderline,1,core concept mentioned once | manual: smart mobility technology acceptance,exclude
 W4400907513,C12,india,C12_india_q4,14,Smart governance for smart cities and nations,2024,article,99,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W4318210669,C12,india,C12_india_q4,15,"Building a smart city with dimensions of technology, people and institutions. By using WASPAS",2020,article,0,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W7155499054,C12,india,C12_india_q4,16,The Missing Integration Layer: Connecting Government-Initiated Citizen Engagement and Citizen-Initiated Feedback through Shared Infrastructure,2026,preprint,0,False,exclude,0,core concept missing,exclude
@@ -8218,7 +8218,7 @@ W2982969386,C12,landmarks,C12_landmarks,14,Does citizen coproduction lead to bet
 W2323354180,C12,landmarks,C12_landmarks,15,Civic hacking as data activism and advocacy: A history from publicity to open government data,2016,article,176,True,include,6,rules,include
 W2890545827,C12,landmarks,C12_landmarks,16,(Smart) Citizens from Data Providers to Decision-Makers? The Case Study of Barcelona,2018,article,175,True,exclude,0,core concept missing,exclude
 W1973930969,C12,landmarks,C12_landmarks,17,E-Participation in Planning: An Analysis of Cities Adopting On-Line Citizen Participation Tools,2006,article,165,True,include,3,rules,include
-W2770212046,C12,landmarks,C12_landmarks,18,The citizen in the smart city. How the smart city could transform citizenship,2017,article,160,True,borderline,1,core concept mentioned once,pending
+W2770212046,C12,landmarks,C12_landmarks,18,The citizen in the smart city. How the smart city could transform citizenship,2017,article,160,True,borderline,1,core concept mentioned once | manual: citizenship in the citizen-centred smart city,include
 W2611224171,C12,landmarks,C12_landmarks,19,A City in Common,2017,conference-paper,147,True,include,2,rules,include
 W2781598438,C12,landmarks,C12_landmarks,20,Toward a mobile crowdsensing system for road surface assessment,2018,article,145,False,exclude,0,core concept missing,exclude
 W2777866224,C12,landmarks,C12_landmarks,21,E-participation adoption models research in the last 17 years: A weight and meta-analytical review,2017,article,142,True,include,6,rules,include
@@ -8231,20 +8231,20 @@ W2406178417,C12,landmarks,C12_landmarks,27,"Data, Design and Civics",2016,confer
 W2751927106,C12,landmarks,C12_landmarks,28,Spatial crowdsourcing,2017,article,110,True,exclude,6,context terms missing,exclude
 W2616322203,C12,landmarks,C12_landmarks,29,"Citizen sensing, air pollution and fracking: From ‘caring about your air’ to speculative practices of evidencing harm",2017,article,109,True,exclude,5,context terms missing,exclude
 W2916614616,C12,landmarks,C12_landmarks,30,"Evaluating air quality by combining stationary, smart mobile pollution monitoring and data-driven modelling",2019,article,103,False,exclude,0,core concept missing,exclude
-W3006045412,C12,landmarks,C12_landmarks,31,Rethinking public participation in the smart city,2020,article,100,True,borderline,1,core concept mentioned once,pending
+W3006045412,C12,landmarks,C12_landmarks,31,Rethinking public participation in the smart city,2020,article,100,True,borderline,1,core concept mentioned once | manual: public participation in the smart city (participatory budgeting),include
 W4400907513,C12,landmarks,C12_landmarks,32,Smart governance for smart cities and nations,2024,article,99,True,exclude,1,"core mentioned once, not in keyword tags",exclude
 W2589172381,C12,landmarks,C12_landmarks,33,FixMyStreet Brussels: Socio-Demographic Inequality in Crowdsourced Civic Participation,2017,article,98,True,include,6,rules,include
-W4253840475,C12,landmarks,C12_landmarks,34,Urban Operating Systems,2020,book,97,True,borderline,1,core concept mentioned once,pending
+W4253840475,C12,landmarks,C12_landmarks,34,Urban Operating Systems,2020,book,97,True,borderline,1,core concept mentioned once | manual: urban operating systems (C4),exclude
 W3011459318,C12,landmarks,C12_landmarks,35,Access to ICT in Poland and the Co-Creation of Urban Space in the Process of Modern Social Participation in a Smart City—A Case Study,2020,article,96,True,include,3,rules,include
 W2533997120,C12,landmarks,C12_landmarks,36,From Mental Maps to GeoParticipation,2016,article,95,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W3035146493,C12,landmarks,C12_landmarks,37,Towards more inclusive smart cities: Reconciling the divergent realities of data and discourse at the margins,2020,article,93,True,borderline,1,core concept mentioned once,pending
+W3035146493,C12,landmarks,C12_landmarks,37,Towards more inclusive smart cities: Reconciling the divergent realities of data and discourse at the margins,2020,article,93,True,borderline,1,core concept mentioned once | manual: inclusive smart cities and smart citizens at the margins,include
 W2886978148,C12,landmarks,C12_landmarks,38,"A comparison of selected Western and Chinese smart governance: The application of ICT in governmental management, participation and collaboration",2018,article,92,False,exclude,0,core concept missing,exclude
 W2765773476,C12,landmarks,C12_landmarks,39,Living labs and vacancy in the neoliberal city,2017,article,92,False,exclude,0,core concept missing,exclude
 W3048899434,C12,landmarks,C12_landmarks,40,"Localized social media and civic life: Motivations, trust, and civic participation in local community contexts",2020,article,91,True,exclude,1,context terms missing,exclude
-W2470933167,C12,landmarks,C12_landmarks,41,Doing Public Participation on the Geospatial Web,2016,article,89,True,borderline,1,core concept mentioned once,pending
-W2218826947,C12,landmarks,C12_landmarks,42,Open data and civic apps,2015,article,89,True,borderline,3,stub abstract (possible book review),pending
+W2470933167,C12,landmarks,C12_landmarks,41,Doing Public Participation on the Geospatial Web,2016,article,89,True,borderline,1,core concept mentioned once | manual: public participation on the geospatial web,include
+W2218826947,C12,landmarks,C12_landmarks,42,Open data and civic apps,2015,article,89,True,borderline,3,stub abstract (possible book review) | manual: open data and civic apps,include
 W2313415764,C12,landmarks,C12_landmarks,43,Beyond Theory: e-Participatory Budgeting and its Promises for eParticipation,2009,article,89,True,include,6,rules,include
-W4320719597,C12,landmarks,C12_landmarks,44,Human-centricity in AI governance: A systemic approach,2023,article,88,True,borderline,1,core concept mentioned once,pending
+W4320719597,C12,landmarks,C12_landmarks,44,Human-centricity in AI governance: A systemic approach,2023,article,88,True,borderline,1,core concept mentioned once | manual: human-centric AI governance,exclude
 W4214926328,C12,landmarks,C12_landmarks,45,Digital citizen empowerment: A systematic literature review of theories and development models,2022,review,88,True,exclude,1,context terms missing,exclude
 W2958191092,C12,landmarks,C12_landmarks,46,Knapsack Voting for Participatory Budgeting,2019,article,88,True,include,4,rules,include
 W2089153161,C12,landmarks,C12_landmarks,47,E‐Participation and Environmental Protection: Are Local Governments Really Committed?,2013,article,88,True,exclude,0,core concept missing,exclude
@@ -8256,16 +8256,16 @@ W2290078295,C12,landmarks,C12_landmarks,52,The Scale of VGI in Map Production: A
 W2776456610,C12,landmarks,C12_landmarks,53,Being a ‘citizen’ in the smart city: Up and down the scaffold of smart citizen participation,2017,preprint,80,True,include,6,rules,include
 W2954061405,C12,landmarks,C12_landmarks,54,Planning Smart(er) Cities: The Promise of Civic Technology,2019,article,76,True,include,6,rules,include
 W2532524549,C12,landmarks,C12_landmarks,55,E-participation for environmental sustainability in transitional urban China,2016,article,76,False,include,3,no abstract; core (and context) in title,include
-W1515219588,C12,landmarks,C12_landmarks,56,Australian local governments' practice and prospects with online planning,2006,article,76,True,borderline,1,core concept mentioned once,pending
+W1515219588,C12,landmarks,C12_landmarks,56,Australian local governments' practice and prospects with online planning,2006,article,76,True,borderline,1,core concept mentioned once | manual: online planning and e-participation in Australian local government,include
 W4296982915,C12,landmarks,C12_landmarks,57,OECD Guidelines for Citizen Participation Processes,2022,book,75,True,exclude,1,"core mentioned once, not in keyword tags",exclude
-W2985709021,C12,landmarks,C12_landmarks,58,Collaborative Data Work Towards a Caring Democracy,2019,article,74,True,borderline,1,core concept mentioned once,pending
+W2985709021,C12,landmarks,C12_landmarks,58,Collaborative Data Work Towards a Caring Democracy,2019,article,74,True,borderline,1,core concept mentioned once | manual: caring democracy data work (HCI),exclude
 W3161584956,C12,landmarks,C12_landmarks,59,Managing smart cities through six sigma DMADICV method: A review-based conceptual framework,2021,article,73,False,exclude,0,core concept missing,exclude
 W2984654566,C12,landmarks,C12_landmarks,60,"""The cavalry ain't coming in to save us""",2019,article,73,True,include,3,rules,include
-W2519875287,C12,landmarks,C12_landmarks,61,‘Digital by Default’ and the ‘hard to reach’: Exploring solutions to digital exclusion in remote rural areas,2016,article,73,True,borderline,1,core concept mentioned once,pending
+W2519875287,C12,landmarks,C12_landmarks,61,‘Digital by Default’ and the ‘hard to reach’: Exploring solutions to digital exclusion in remote rural areas,2016,article,73,True,borderline,1,core concept mentioned once | manual: rural digital exclusion (B7),exclude
 W2142641448,C12,landmarks,C12_landmarks,62,Effects of the internet on participation: Study of a public policy referendum in Brazil,2016,article,72,True,exclude,1,context terms missing,exclude
-W2759724800,C12,landmarks,C12_landmarks,63,Cyber–Physical–Social Frameworks for Urban Big Data Systems: A Survey,2017,article,71,True,borderline,1,core concept mentioned once,pending
+W2759724800,C12,landmarks,C12_landmarks,63,Cyber–Physical–Social Frameworks for Urban Big Data Systems: A Survey,2017,article,71,True,borderline,1,core concept mentioned once | manual: cyber-physical-social big-data survey,exclude
 W1509278932,C12,landmarks,C12_landmarks,64,CLINICAL STUDIES ON BILATERAL COMPLETE ADRENALECTOMY IN PATIENTS WITH SEVERE HYPERTENSIVE VASCULAR DISEASE,1952,article,71,True,exclude,0,core concept missing,exclude
-W3197653353,C12,landmarks,C12_landmarks,65,A Post-Corona Perspective for Smart Cities: ‘Should I Stay or Should I Go?’,2021,article,70,True,borderline,1,core concept mentioned once,pending
+W3197653353,C12,landmarks,C12_landmarks,65,A Post-Corona Perspective for Smart Cities: ‘Should I Stay or Should I Go?’,2021,article,70,True,borderline,1,core concept mentioned once | manual: post-COVID smart cities essay,exclude
 W2904615192,C12,landmarks,C12_landmarks,66,Public participation in the Geoweb era: Defining a typology for geo-participation in local governments,2018,article,69,False,exclude,0,core concept missing,exclude
 W2039596224,C12,landmarks,C12_landmarks,67,Gamification of citizen sensing through mobile social reporting,2012,conference-paper,69,True,exclude,4,context terms missing,exclude
 W3036500411,C12,landmarks,C12_landmarks,68,Assessment of Citizens’ Actions against Light Pollution with Guidelines for Future Initiatives,2020,article,68,True,exclude,1,"core mentioned once, not in keyword tags",exclude
@@ -8279,20 +8279,20 @@ W2063375773,C12,landmarks,C12_landmarks,75,Accurate Attribute Mapping from Volun
 W1826743757,C12,landmarks,C12_landmarks,76,e‐Participation Model for Sustainable Cultural Tourism Management: a Bottom‐Up Approach,2011,article,65,True,exclude,0,core concept missing,exclude
 W4206003068,C12,landmarks,C12_landmarks,77,"Participatory Governance of Smart Cities: Insights from e-Participation of Putrajaya and Petaling Jaya, Malaysia",2022,article,63,True,include,6,rules,include
 W3034167626,C12,landmarks,C12_landmarks,78,Actualizing big data analytics for smart cities: A cascading affordance study,2020,article,62,False,exclude,0,core concept missing,exclude
-W2589471604,C12,landmarks,C12_landmarks,79,"The Techno-Politics of Data and Smart Devolution in City-Regions: Comparing Glasgow, Bristol, Barcelona, and Bilbao",2017,article,62,True,borderline,1,core concept mentioned once,pending
+W2589471604,C12,landmarks,C12_landmarks,79,"The Techno-Politics of Data and Smart Devolution in City-Regions: Comparing Glasgow, Bristol, Barcelona, and Bilbao",2017,article,62,True,borderline,1,core concept mentioned once | manual: techno-politics of data and smart devolution in four city-regions,include
 W2164844919,C12,landmarks,C12_landmarks,80,"Worship, Faith, and Evangelism",2015,conference-paper,61,True,exclude,1,context terms missing,exclude
 W2765688460,C12,landmarks,C12_landmarks,81,Youth e-participation as a pillar of sustainable societies,2017,article,60,False,exclude,3,no abstract; no urban context (C theme),exclude
 W2271366536,C12,landmarks,C12_landmarks,82,Big and Open Linked Data (BOLD) to Create Smart Cities and Citizens: Insights from Smart Energy and Mobility Cases,2015,conference-paper,60,False,exclude,0,core concept missing,exclude
-W2751571485,C12,landmarks,C12_landmarks,83,Co-Design and Co-Decision: Decision Making on Collaborative Design Platforms,2017,conference-paper,59,True,borderline,1,core concept mentioned once,pending
+W2751571485,C12,landmarks,C12_landmarks,83,Co-Design and Co-Decision: Decision Making on Collaborative Design Platforms,2017,conference-paper,59,True,borderline,1,core concept mentioned once | manual: decision making on collaborative urban design platforms,include
 W2528280660,C12,landmarks,C12_landmarks,84,A gamification framework for the long-term engagement of smart citizens,2016,conference-paper,59,True,include,3,rules,include
 W2082440543,C12,landmarks,C12_landmarks,85,The challenge of e-participation in the digital city: Exploring generational influences among community telecentre users,2010,article,59,False,include,3,no abstract; core (and context) in title,include
 W2944425760,C12,landmarks,C12_landmarks,86,The digital revolution and governance in Brazil: Evidence from participatory budgeting,2019,article,58,True,include,6,rules,include
 W4283386609,C12,landmarks,C12_landmarks,87,Artificial Intelligence and Democracy,2022,book,57,True,exclude,1,context terms missing,exclude
-W2883417545,C12,landmarks,C12_landmarks,88,Are the Poor Digitally Left Behind? Indications of Urban Divides Based on Remote Sensing and Twitter Data,2018,article,54,True,borderline,1,core concept mentioned once,pending
-W1533637910,C12,landmarks,C12_landmarks,89,Government 2.0,2008,article,54,True,borderline,1,core concept mentioned once,pending
+W2883417545,C12,landmarks,C12_landmarks,88,Are the Poor Digitally Left Behind? Indications of Urban Divides Based on Remote Sensing and Twitter Data,2018,article,54,True,borderline,1,core concept mentioned once | manual: urban digital divides in participation (remote sensing and Twitter),include
+W1533637910,C12,landmarks,C12_landmarks,89,Government 2.0,2008,article,54,True,borderline,1,core concept mentioned once | manual: Government 2.0 internet-based community participation,include
 W3173348482,C12,landmarks,C12_landmarks,90,Zero-Shot Text Classification via Knowledge Graph Embedding for Social Media Data,2021,article,53,True,exclude,1,"flag, core not in title: \b(deep learning|neural network|convolut",exclude
 W3088867239,C12,landmarks,C12_landmarks,91,Increasing citizen participation in e-participatory budgeting processes,2020,article,53,True,include,6,rules,include
-W2768359962,C12,landmarks,C12_landmarks,92,"Digital Tools as a Means to Foster Inclusive, Data-informed Urban Planning",2017,article,52,True,borderline,1,core concept mentioned once,pending
+W2768359962,C12,landmarks,C12_landmarks,92,"Digital Tools as a Means to Foster Inclusive, Data-informed Urban Planning",2017,article,52,True,borderline,1,core concept mentioned once | manual: digital tools for inclusive data-informed urban planning,include
 W2502154934,C12,landmarks,C12_landmarks,93,The Smart Citizen Factor in Trustworthy Smart City Crowdsensing,2016,article,52,True,include,4,rules,include
 W66114065,C12,landmarks,C12_landmarks,94,Improving Women's Health in Pakistan,1998,book,52,True,exclude,0,core concept missing,exclude
 W3026913660,C12,landmarks,C12_landmarks,95,Exploiting Open Data to analyze discussion and controversy in online citizen participation,2020,article,50,False,exclude,0,core concept missing,exclude
@@ -8309,13 +8309,13 @@ W7155897030,C12,recent,C12_recent_q1,5,Awesome Civic Tech,2026,dataset,0,True,ex
 W7156247719,C12,recent,C12_recent_q1,6,Awesome Civic Tech,2026,dataset,0,True,exclude,0,type dataset,exclude
 W7163051656,C12,recent,C12_recent_q1,7,Civic-Tech Corpus 06/2026,2026,dataset,1,True,exclude,0,type dataset,exclude
 W7163033237,C12,recent,C12_recent_q1,8,Civic-Tech Corpus 06/2026,2026,dataset,0,True,exclude,0,type dataset,exclude
-W4391089300,C12,recent,C12_recent_q1,9,Civic tech et cybercitoyenneté,2023,book-chapter,0,True,borderline,3,stub abstract (possible book review),pending
+W4391089300,C12,recent,C12_recent_q1,9,Civic tech et cybercitoyenneté,2023,book-chapter,0,True,borderline,3,stub abstract (possible book review) | manual: civic tech and cyber-citizenship,include
 W2888344836,C12,recent,C12_recent_q1,10,Civic Hacking. Redefining Hackers and Civic Participation,2023,article,6,True,exclude,6,context terms missing,exclude
 W7207909333,C12,recent,C12_recent_q1,11,Initiatives of Kumamoto’s Civic Tech,2025,article,0,False,exclude,3,no abstract; no urban context (C theme),exclude
 W7108341028,C12,recent,C12_recent_q1,12,Civic Hacking als Zugang für einen nachhaltigen Informatikunterricht,2024,book-chapter,0,True,exclude,4,context terms missing,exclude
 W7167098988,C12,recent,C12_recent_q1,13,Civic Technology,2026,reference-entry,0,False,exclude,3,no abstract; no urban context (C theme),exclude
 W4226056691,C12,recent,C12_recent_q1,14,Civic Technology,2022,conference-paper,0,True,exclude,3,context terms missing,exclude
-W7155558526,C12,recent,C12_recent_q1,15,Expert Panel Survey on Civic Tech,2026,report,0,True,borderline,4,flag: \b(patients?|clinical|randomi[sz]ed|prev,pending
+W7155558526,C12,recent,C12_recent_q1,15,Expert Panel Survey on Civic Tech,2026,report,0,True,borderline,4,"flag: \b(patients?|clinical|randomi[sz]ed|prev | manual: civic tech expert survey (Taiwan, not urban)",exclude
 W7160999377,C12,recent,C12_recent_q1,16,Designing for Informativeness: IPAB’s Civic Tech Blueprint,2026,book-chapter,0,False,exclude,3,no abstract; no urban context (C theme),exclude
 W7163027613,C12,recent,C12_recent_q1,17,Japskua/civic-tech-git-crawler: Version 1.0,2026,software,0,True,exclude,0,type software,exclude
 W7209348751,C12,recent,C12_recent_q1,18,Baromètre des civic tech 2021- 2e édition,2022,other,0,False,exclude,3,no abstract; no urban context (C theme),exclude
