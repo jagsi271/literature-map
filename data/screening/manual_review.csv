@@ -1832,3 +1832,376 @@ W4398194538,C7,exclude,"Claude (landmark check, Stage 3)","AI in architectural d
 W4403712981,C11,exclude,"Claude (landmark check, Stage 3)","urban heat/pollution island control, off-topic for payments"
 W627595766,A12,exclude,"Claude (landmark check, Stage 3)","comparative interwar regime politics, off-topic"
 W888273526,A14,exclude,"Claude (landmark check, Stage 3)","organisation entry, not a work"
+W3118514832,A1,include,"Claude (manual review, Stage 3 India page 2)","gender and urban governance, Mumbai and London"
+W566811048,A1,exclude,"Claude (manual review, Stage 3 India page 2)","rural panchayat decentralisation, not urban"
+W4391878791,A2,include,"Claude (manual review, Stage 3 India page 2)",master plan and land-use change in Gurugram
+W1994238697,A2,exclude,"Claude (manual review, Stage 3 India page 2)","remote-sensing land-use mapping, technical"
+W4289294489,A2,exclude,"Claude (manual review, Stage 3 India page 2)",traffic engineering at an intersection
+W1571258065,A2,include,"Claude (manual review, Stage 3 India page 2)","zoning and land-use regulation reform, Lahore"
+W4387499177,A2,include,"Claude (manual review, Stage 3 India page 2)","community engagement in risk-sensitive planning, Sri Lanka"
+W7142841893,A2,exclude,"Claude (manual review, Stage 3 India page 2)","forecasting-model comparison, technical"
+W4309601666,A2,include,"Claude (manual review, Stage 3 India page 2)","development control rules, Mumbai"
+W2339719947,A2,exclude,"Claude (manual review, Stage 3 India page 2)",urban heat island science
+W4404051217,A2,exclude,"Claude (manual review, Stage 3 India page 2)","housing typology study, belongs to housing (A3)"
+W3094442162,A3,include,"Claude (manual review, Stage 3 India page 2)","slum dwellers in the pandemic, Mumbai and Dhaka"
+W3136368807,A3,include,"Claude (manual review, Stage 3 India page 2)","informality and parallel governance, Bangladesh"
+W2040834039,A4,exclude,"Claude (manual review, Stage 3 India page 2)","slum resilience, belongs to housing and informality (A3)"
+W4414525684,A4,exclude,"Claude (manual review, Stage 3 India page 2)","rental affordability, belongs to housing (A3)"
+W2923465038,A4,exclude,"Claude (manual review, Stage 3 India page 2)",repository background-paper version of a Procedia paper
+W2914868982,A4,include,"Claude (manual review, Stage 3 India page 2)",forced evictions in urban Afghanistan
+W1591254600,A4,include,"Claude (manual review, Stage 3 India page 2)","slum resettlement and urban integration, Mumbai"
+W2472030998,A4,exclude,"Claude (manual review, Stage 3 India page 2)","immunisation survey, public health"
+W2974114840,A4,exclude,"Claude (manual review, Stage 3 India page 2)","sleep-quality survey, public health"
+W2024951555,A4,exclude,"Claude (manual review, Stage 3 India page 2)",book review
+W4391326517,A5,exclude,"Claude (manual review, Stage 3 India page 2)","remote-sensing classification model, technical"
+W4411320161,A5,include,"Claude (manual review, Stage 3 India page 2)","sand extraction and extended urbanisation, India"
+W2768805345,A5,include,"Claude (manual review, Stage 3 India page 2)",vocabulary of urbanisation processes
+W4310873772,A5,exclude,"Claude (manual review, Stage 3 India page 2)",architectural education
+W4313155693,A5,include,"Claude (manual review, Stage 3 India page 2)",land reclamation and new urban space
+W3058828825,A5,exclude,"Claude (manual review, Stage 3 India page 2)","regional development chapter, peripheral mention"
+W2800859351,A5,exclude,"Claude (manual review, Stage 3 India page 2)","gender and the city editorial, belongs to (A12)"
+W7146697864,A5,exclude,"Claude (manual review, Stage 3 India page 2)","shanty improvement in Colombo, belongs to (A3)"
+W2583794212,A5,exclude,"Claude (manual review, Stage 3 India page 2)","GIS land degradation, technical"
+W2571388181,A5,include,"Claude (manual review, Stage 3 India page 2)",Kerala as desakota
+W4360981109,A5,exclude,"Claude (manual review, Stage 3 India page 2)",groundwater and soil contamination
+W4401327394,A5,exclude,"Claude (manual review, Stage 3 India page 2)","land surface temperature, environmental science"
+W2622450238,A6,include,"Claude (manual review, Stage 3 India page 2)",governing small towns in India
+W2966826891,A6,exclude,"Claude (manual review, Stage 3 India page 2)","immunisation survey, public health"
+W2478401895,A6,include,"Claude (manual review, Stage 3 India page 2)","waste infrastructure in small and medium towns, India"
+W2055173294,A6,include,"Claude (manual review, Stage 3 India page 2)","town-level urban deprivation, Delhi"
+W4385074631,A6,include,"Claude (manual review, Stage 3 India page 2)","official urban definition and new municipalities, Nepal"
+W1898053645,A7,exclude,"Claude (manual review, Stage 3 India page 2)","public housing thesis, belongs to (A3)"
+W4384930577,A7,include,"Claude (manual review, Stage 3 India page 2)",hydraulic citizenship and water in Indian fiction
+W4412760881,A7,exclude,"Claude (manual review, Stage 3 India page 2)","AI and blockchain carbon system, technical"
+W7220326408,A8,include,"Claude (manual review, Stage 3 India page 2)","harassment of women in public transport, Lahore"
+W2893298996,A8,include,"Claude (manual review, Stage 3 India page 2)","sexual harassment in public transport, Kathmandu"
+W2922705859,A8,exclude,"Claude (manual review, Stage 3 India page 2)","gender budgeting for city infrastructure, belongs to (A1)"
+W2126791670,A8,exclude,"Claude (manual review, Stage 3 India page 2)",vehicle engineering
+W2991632398,A8,exclude,"Claude (manual review, Stage 3 India page 2)","occupational hearing loss, health"
+W2913520562,A8,exclude,"Claude (manual review, Stage 3 India page 2)","Mombasa ethnography, not transport"
+W4412607802,A9,exclude,"Claude (manual review, Stage 3 India page 2)","publicness of hospital PPPs, health governance"
+W610405374,A9,include,"Claude (manual review, Stage 3 India page 2)",street life in Indian cities
+W4210915092,A9,include,"Claude (manual review, Stage 3 India page 2)","divided streets, Belfast"
+W4313439801,A9,exclude,"Claude (manual review, Stage 3 India page 2)","street vendors, belongs to (A10)"
+W7147228074,A9,include,"Claude (manual review, Stage 3 India page 2)","street art, gender and the right to the city"
+W4386402940,A9,include,"Claude (manual review, Stage 3 India page 2)",roadway occupations and the right to the city
+W2900646740,A10,include,"Claude (manual review, Stage 3 India page 2)",extra-legal treatment of street vending
+W3092010722,A10,include,"Claude (manual review, Stage 3 India page 2)","food networks and informality, Mumbai"
+W635010832,A10,include,"Claude (manual review, Stage 3 India page 2)",informal labour in urban India
+W2772209882,A10,exclude,"Claude (manual review, Stage 3 India page 2)","urbanisation processes in Pune, belongs to (A5)"
+W7113026661,A10,include,"Claude (manual review, Stage 3 India page 2)","informal sector, Calcutta"
+W2292164463,A10,exclude,"Claude (manual review, Stage 3 India page 2)",occupational health survey
+W2954760304,A11,include,"Claude (manual review, Stage 3 India page 2)","rural-urban migration, Bangalore"
+W3162518044,A11,include,"Claude (manual review, Stage 3 India page 2)","rural-urban migration, Dhaka slum"
+W2770458388,A11,include,"Claude (manual review, Stage 3 India page 2)","urban migrant households, Sri Lanka"
+W2966508581,A11,include,"Claude (manual review, Stage 3 India page 2)",Rohingya refugees in Delhi
+W3047739383,A11,include,"Claude (manual review, Stage 3 India page 2)","arrival quarters, Leipzig"
+W4375818094,A11,include,"Claude (manual review, Stage 3 India page 2)","migrant leisure and place-making, London"
+W4386924503,A11,exclude,"Claude (manual review, Stage 3 India page 2)",duplicate chapter
+W4386746745,A11,include,"Claude (manual review, Stage 3 India page 2)","urban refugee women, Bangkok"
+W2991975672,A12,include,"Claude (manual review, Stage 3 India page 2)",urban extreme poverty
+W7135055757,A12,include,"Claude (manual review, Stage 3 India page 2)","sexual harassment in public transport, Kathmandu"
+W2917065159,A12,exclude,"Claude (manual review, Stage 3 India page 2)",workplace harassment in a hospital
+W4410841625,A12,include,"Claude (manual review, Stage 3 India page 2)","sexual harassment in public space and police patrols, Hyderabad"
+W4387246973,A12,exclude,"Claude (manual review, Stage 3 India page 2)",working-paper version of a published article
+W2887097431,A12,include,"Claude (manual review, Stage 3 India page 2)","son preference in the urban middle class, Delhi and Haryana"
+W2894603504,A13,include,"Claude (manual review, Stage 3 India page 2)",workers' rights at Commonwealth Games sites
+W1983261086,A13,exclude,"Claude (manual review, Stage 3 India page 2)",mass-gathering medicine
+W2997315074,A13,exclude,"Claude (manual review, Stage 3 India page 2)","congestion technopolitics, belongs to (A8)"
+W2343974249,A13,include,"Claude (manual review, Stage 3 India page 2)","world-class city making, Kolkata"
+W2912876649,A13,include,"Claude (manual review, Stage 3 India page 2)","aspirational world-class urbanism, Delhi"
+W4251304737,A13,exclude,"Claude (manual review, Stage 3 India page 2)",encyclopedia entry
+W2784016979,A13,exclude,"Claude (manual review, Stage 3 India page 2)","displacement and relocation, belongs to (A4)"
+W2998126590,A13,include,"Claude (manual review, Stage 3 India page 2)","golf-centred gated development, Gurgaon"
+W7211886376,A13,include,"Claude (manual review, Stage 3 India page 2)",public art and city branding in India
+W7116411731,A14,exclude,"Claude (manual review, Stage 3 India page 2)",remote-sensing heat hotspots
+W1480672332,A14,include,"Claude (manual review, Stage 3 India page 2)","urban resilience, violence and infrastructure, Karachi"
+W7164684027,A14,include,"Claude (manual review, Stage 3 India page 2)","ecological corridors for adaptation, Kolkata"
+W7167902006,A14,include,"Claude (manual review, Stage 3 India page 2)","urban flooding and groundwater policy, Bengaluru"
+W4414924285,A14,exclude,"Claude (manual review, Stage 3 India page 2)","land-cover change and floods, remote sensing"
+W7128309768,A14,exclude,"Claude (manual review, Stage 3 India page 2)",GIS flood mapping
+W4322006544,A14,exclude,"Claude (manual review, Stage 3 India page 2)",flood-risk modelling abstract
+W7214592075,A14,include,"Claude (manual review, Stage 3 India page 2)","politics of lake restoration, Bengaluru"
+W4311622260,A14,include,"Claude (manual review, Stage 3 India page 2)","urban political ecology of biodiversity, Chennai"
+W7165343483,A14,exclude,"Claude (manual review, Stage 3 India page 2)","walking and everyday urban life, belongs to (A9)"
+W4410557313,A14,exclude,"Claude (manual review, Stage 3 India page 2)","heat-risk index, technical"
+W4413180620,A14,exclude,"Claude (manual review, Stage 3 India page 2)",remote sensing and AI heat mapping
+W4322767894,A14,exclude,"Claude (manual review, Stage 3 India page 2)",land surface temperature
+W7220202275,A14,include,"Claude (manual review, Stage 3 India page 2)","heat vulnerability and social stratification, Faisalabad"
+W7135188167,A14,exclude,"Claude (manual review, Stage 3 India page 2)",peri-urban heat and grasslands
+W4401620502,A14,exclude,"Claude (manual review, Stage 3 India page 2)","heatwave vulnerability index, technical"
+W4328054820,A14,include,"Claude (manual review, Stage 3 India page 2)","sprawl and climate-resilience initiatives, Kolkata"
+W4395005133,A14,exclude,"Claude (manual review, Stage 3 India page 2)","heat vulnerability zoning, technical"
+W4385461526,A15,exclude,"Claude (manual review, Stage 3 India page 2)","vendor movement, belongs to (A10)"
+W7169562412,A15,exclude,"Claude (manual review, Stage 3 India page 2)","migrant-friendly cities, belongs to (A11)"
+W650558185,A15,include,"Claude (manual review, Stage 3 India page 2)",Cities of the Global South reader
+W4414936806,A15,exclude,"Claude (manual review, Stage 3 India page 2)",literary criticism
+W4214625166,A15,exclude,"Claude (manual review, Stage 3 India page 2)","floor-space regulation history, belongs to (A2)"
+W2951026016,A15,exclude,"Claude (manual review, Stage 3 India page 2)","resettlement and necropower, belongs to (A4)"
+W4297675143,A15,include,"Claude (manual review, Stage 3 India page 2)","postcolonial urbanism and local space, Karachi"
+W4406398323,A15,exclude,"Claude (manual review, Stage 3 India page 2)",literary criticism
+W7202198020,A15,exclude,"Claude (manual review, Stage 3 India page 2)","green-space access, belongs to (A9)"
+W4413861614,A15,exclude,"Claude (manual review, Stage 3 India page 2)",literary criticism
+W2902466368,A15,include,"Claude (manual review, Stage 3 India page 2)","insurgent planning in the ladies' compartment, Mumbai"
+W2068697511,A15,include,"Claude (manual review, Stage 3 India page 2)",normative foundations of planning theory
+W2275214547,A15,exclude,"Claude (manual review, Stage 3 India page 2)","return migration and urban development, belongs to (A11)"
+W582060385,A15,include,"Claude (manual review, Stage 3 India page 2)",urban representation and theory
+W2804470354,A15,include,"Claude (manual review, Stage 3 India page 2)",fragment urbanism
+W3070549538,A15,include,"Claude (manual review, Stage 3 India page 2)",displacement and the limits of urban theory
+W4297886112,A16,include,"Claude (manual review, Stage 3 India page 2)",nocturnal platform labour and the night-time economy
+W3194095624,A16,exclude,"Claude (manual review, Stage 3 India page 2)",pedestrian safety engineering
+W3152499738,A16,exclude,"Claude (manual review, Stage 3 India page 2)",light-pollution measurement
+W7158937395,A16,exclude,"Claude (manual review, Stage 3 India page 2)",crash-risk modelling
+W4321602711,B1,include,"Claude (manual review, Stage 3 India page 2)",platform capitalism and cloud computing
+W7151897068,B1,exclude,"Claude (manual review, Stage 3 India page 2)","diasporic poetry on YouTube, peripheral"
+W7165404487,B1,exclude,"Claude (manual review, Stage 3 India page 2)","indigenous cinema, off-topic"
+W4365810567,B1,include,"Claude (manual review, Stage 3 India page 2)","platformisation of artisanal work, Bangladesh"
+W7163995392,B1,exclude,"Claude (manual review, Stage 3 India page 2)","newsroom practice, peripheral"
+W2997610707,B1,include,"Claude (manual review, Stage 3 India page 2)","OTT platforms and media imperialism, India"
+W4311632537,B1,include,"Claude (manual review, Stage 3 India page 2)","platformisation and gendered production cultures, India"
+W4400875314,B1,exclude,"Claude (manual review, Stage 3 India page 2)","EdTech and ICTD, peripheral"
+W7172285839,B1,include,"Claude (manual review, Stage 3 India page 2)",platformisation and capital in the Indian media economy
+W7213515908,B1,include,"Claude (manual review, Stage 3 India page 2)","streaming platforms, Bangladesh"
+W7162692888,B1,exclude,"Claude (manual review, Stage 3 India page 2)",health information systems
+W7220235561,B2,include,"Claude (manual review, Stage 3 India page 2)","datafication and democracy, Pakistan"
+W4403651577,B2,include,"Claude (manual review, Stage 3 India page 2)","datafication imaginaries of an AI therapy app, India"
+W7135015695,B2,include,"Claude (manual review, Stage 3 India page 2)","workplace datafication and surveillance, India"
+W4416063627,B2,include,"Claude (manual review, Stage 3 India page 2)","data justice and digital humanitarianism, Rohingya camps"
+W4389732230,B2,include,"Claude (manual review, Stage 3 India page 2)","data governance and digital trade, India"
+W3166577441,B2,exclude,"Claude (manual review, Stage 3 India page 2)",repository version of the 2023 chapter
+W7154969860,B2,include,"Claude (manual review, Stage 3 India page 2)","Big Tech, data colonialism and digital sovereignty, India and Indonesia"
+W7170078457,B2,exclude,"Claude (manual review, Stage 3 India page 2)","indigenous knowledge and modernity, peripheral"
+W7130852484,B2,exclude,"Claude (manual review, Stage 3 India page 2)","youth and democracy, peripheral"
+W7215880341,B2,exclude,"Claude (manual review, Stage 3 India page 2)","AI in Indian administration, belongs to (B4)"
+W7166292752,B2,exclude,"Claude (manual review, Stage 3 India page 2)","UPI and state-led digital capitalism, belongs to (B6)"
+W7162529925,B2,exclude,"Claude (manual review, Stage 3 India page 2)","Indian state surveillance, belongs to (B3)"
+W4381489235,B3,exclude,"Claude (manual review, Stage 3 India page 2)","art history, off-topic"
+W7133297977,B3,exclude,"Claude (manual review, Stage 3 India page 2)","queer subjectivities, surveillance peripheral"
+W4320919748,B3,exclude,"Claude (manual review, Stage 3 India page 2)",review of a web series
+W7161779417,B3,exclude,"Claude (manual review, Stage 3 India page 2)","peace activism, surveillance peripheral"
+W2097201629,B3,exclude,"Claude (manual review, Stage 3 India page 2)",disease surveillance data
+W7159942200,B3,include,"Claude (manual review, Stage 3 India page 2)","data privacy and state surveillance law, India"
+W7212434110,B3,include,"Claude (manual review, Stage 3 India page 2)",digital privacy and surveillance under Article 21
+W4280648538,B3,exclude,"Claude (manual review, Stage 3 India page 2)","pandemic surveillance in smart cities, belongs to (C6)"
+W7203573176,B4,exclude,"Claude (manual review, Stage 3 India page 2)","platform speech regulation, belongs to (B8)"
+W7217453112,B4,exclude,"Claude (manual review, Stage 3 India page 2)","affective computing, technical"
+W4249567490,B5,exclude,"Claude (manual review, Stage 3 India page 2)",trade news item
+W3014815345,B5,include,"Claude (manual review, Stage 3 India page 2)",ethics of Aadhaar-linked digital health
+W4411962800,B5,exclude,"Claude (manual review, Stage 3 India page 2)","rural fintech adoption, belongs to (B6)"
+W4205425394,B5,include,"Claude (manual review, Stage 3 India page 2)","Aadhaar-enabled public distribution, beneficiary survey"
+W4310741361,B5,include,"Claude (manual review, Stage 3 India page 2)","biometrics, borders and citizenship, India"
+W2328821239,B6,include,"Claude (manual review, Stage 3 India page 2)",mobile money in India
+W2895627965,B6,include,"Claude (manual review, Stage 3 India page 2)",demonetisation evaluation
+W7220087887,B7,include,"Claude (manual review, Stage 3 India page 2)","digital literacy and women's inclusion, review"
+W4403739842,B7,include,"Claude (manual review, Stage 3 India page 2)","rural broadband and the rural-urban gap, India"
+W7167298621,B8,exclude,"Claude (manual review, Stage 3 India page 2)",stub model note
+W4200475456,B8,exclude,"Claude (manual review, Stage 3 India page 2)","screen representation, peripheral"
+W3151484091,B8,include,"Claude (manual review, Stage 3 India page 2)","online networks and youth political participation, Pakistan"
+W4313306060,B8,include,"Claude (manual review, Stage 3 India page 2)","digital activism on sexual violence, India"
+W4405401262,B9,include,"Claude (manual review, Stage 3 India page 2)","fake news among youth, Pakistan"
+W4223569961,B9,include,"Claude (manual review, Stage 3 India page 2)","misinformation risk perception, 142 countries"
+W7163514215,B9,include,"Claude (manual review, Stage 3 India page 2)","infodemic and disinformation, Bhutan"
+W7208775992,B9,exclude,"Claude (manual review, Stage 3 India page 2)","detection dataset, technical"
+W7160413430,B9,exclude,"Claude (manual review, Stage 3 India page 2)","hate-speech classifier, technical"
+W3151399227,B9,include,"Claude (manual review, Stage 3 India page 2)","policy on online harassment and hate speech, South Asia"
+W7217508454,B9,exclude,"Claude (manual review, Stage 3 India page 2)","hate-speech classifier, technical"
+W4385287507,B9,exclude,"Claude (manual review, Stage 3 India page 2)","hate-speech classifier, technical"
+W7162422078,B9,exclude,"Claude (manual review, Stage 3 India page 2)",knowledge leakage in a transit project
+W7220756536,B9,exclude,"Claude (manual review, Stage 3 India page 2)","party politics, peripheral"
+W7128798988,B9,include,"Claude (manual review, Stage 3 India page 2)","social-media styled experts and nostalgia politics, Nepal"
+W2896156473,B9,exclude,"Claude (manual review, Stage 3 India page 2)","South Asian digital cultures book, belongs to (B8)"
+W3151856971,B9,include,"Claude (manual review, Stage 3 India page 2)","COVID-19 messages on WhatsApp, Pakistan"
+W3119319333,B9,include,"Claude (manual review, Stage 3 India page 2)","belief in COVID-19 misinformation, Karachi"
+W4322489965,B9,include,"Claude (manual review, Stage 3 India page 2)","gamified inoculation against misinformation, India"
+W4243762916,B10,include,"Claude (manual review, Stage 3 India page 2)","bank heist and cybercrime risk, Bangladesh"
+W7219922063,B10,include,"Claude (manual review, Stage 3 India page 2)","online fraud prevention and law, India"
+W7119524865,B10,exclude,"Claude (manual review, Stage 3 India page 2)","online trading survey, fraud peripheral"
+W4406485610,B10,exclude,"Claude (manual review, Stage 3 India page 2)","elderly social media users, peripheral"
+W3188914780,B10,exclude,"Claude (manual review, Stage 3 India page 2)",news op-ed
+W3002248194,B10,include,"Claude (manual review, Stage 3 India page 2)","cybersecurity behaviour of smartphone users, India"
+W7162655770,B10,exclude,"Claude (manual review, Stage 3 India page 2)",banking comparison
+W7214903062,B10,include,"Claude (manual review, Stage 3 India page 2)","cyber victimisation among students, Delhi"
+W7214220234,B10,include,"Claude (manual review, Stage 3 India page 2)",social engineering and cybercrime victimisation
+W7220116170,B11,exclude,"Claude (manual review, Stage 3 India page 2)","social comparison on social media, belongs to (B13)"
+W7157861063,B11,include,"Claude (manual review, Stage 3 India page 2)","domestic vlogging and migrant women's labour, UAE"
+W7203945947,B11,include,"Claude (manual review, Stage 3 India page 2)","algorithmic management and gig workers, India"
+W3012450407,B11,exclude,"Claude (manual review, Stage 3 India page 2)","ride-sharing riders in Kathmandu, belongs to (C15)"
+W2517789624,B11,include,"Claude (manual review, Stage 3 India page 2)",global online microwork and wages
+W4220985026,B12,exclude,"Claude (manual review, Stage 3 India page 2)","dams and hydraulic imaginaries, not digital"
+W7152371429,B12,exclude,"Claude (manual review, Stage 3 India page 2)","digitalisation of urban governance, Bhubaneswar, belongs to (C8)"
+W4409994145,B12,exclude,"Claude (manual review, Stage 3 India page 2)","media diplomacy, peripheral"
+W4402449660,B12,exclude,"Claude (manual review, Stage 3 India page 2)","national e-governance, outside the theme list"
+W7217597467,B12,exclude,"Claude (manual review, Stage 3 India page 2)",generic Digital India overview
+W7140292905,B12,exclude,"Claude (manual review, Stage 3 India page 2)",esports industry
+W4313195030,B12,exclude,"Claude (manual review, Stage 3 India page 2)",political history
+W4390698786,B12,exclude,"Claude (manual review, Stage 3 India page 2)",health supply chains
+W4367305278,B12,exclude,"Claude (manual review, Stage 3 India page 2)","energy imaginaries, not digital"
+W7215816649,B12,include,"Claude (manual review, Stage 3 India page 2)",AI imaginaries in Pakistan's press
+W2475531684,B13,include,"Claude (manual review, Stage 3 India page 2)","everyday educational use of mobile phones, India"
+W2414468715,B13,exclude,"Claude (manual review, Stage 3 India page 2)",clinical dependence survey
+W7218114140,B13,exclude,"Claude (manual review, Stage 3 India page 2)","digital literacy of rural women, belongs to (B7)"
+W7196955631,B13,exclude,"Claude (manual review, Stage 3 India page 2)","social media and rural political ideology, belongs to (B8)"
+W2885338429,B13,exclude,"Claude (manual review, Stage 3 India page 2)",clinical addiction scale
+W4406020761,B14,include,"Claude (manual review, Stage 3 India page 2)","AI and GenAI literacy, South Asia"
+W7110894242,B14,exclude,"Claude (manual review, Stage 3 India page 2)",finance text-mining application
+W7203717769,B14,exclude,"Claude (manual review, Stage 3 India page 2)","energy modelling with LLMs, technical"
+W7165611809,B14,include,"Claude (manual review, Stage 3 India page 2)",auditing LLM moral reasoning in Bengali
+W7213556435,B14,exclude,"Claude (manual review, Stage 3 India page 2)",forecasting reference entry
+W7204250883,B14,exclude,"Claude (manual review, Stage 3 India page 2)","signal processing, off-topic"
+W7167685744,B14,exclude,"Claude (manual review, Stage 3 India page 2)","AI and data law in India, belongs to (B4)"
+W7214961035,C1,include,"Claude (manual review, Stage 3 India page 2)","citizens' awareness of the smart city, Ahmedabad"
+W2935410437,C1,include,"Claude (manual review, Stage 3 India page 2)",smart and sustainable urbanism in India
+W7162478671,C2,include,"Claude (manual review, Stage 3 India page 2)",last-mile e-commerce logistics in Sri Lankan cities
+W7154911641,C4,exclude,"Claude (manual review, Stage 3 India page 2)","reference entry on models, technical"
+W7162959932,C4,exclude,"Claude (manual review, Stage 3 India page 2)",lab framework figure
+W4312584162,C4,include,"Claude (manual review, Stage 3 India page 2)",street-level imagery for urban analytics
+W7171503062,C5,include,"Claude (manual review, Stage 3 India page 2)",femtech data extraction and rights in urban India
+W7218045529,C5,exclude,"Claude (manual review, Stage 3 India page 2)",banking digitalisation
+W7154846820,C5,exclude,"Claude (manual review, Stage 3 India page 2)","smart-city governance blueprint, belongs to (C1)"
+W7216621470,C5,exclude,"Claude (manual review, Stage 3 India page 2)","Haryana e-governance model, belongs to (C8)"
+W7167417579,C5,exclude,"Claude (manual review, Stage 3 India page 2)",generic AI governance essay
+W7118095996,C5,exclude,"Claude (manual review, Stage 3 India page 2)",generic AI futures book
+W4415170325,C5,exclude,"Claude (manual review, Stage 3 India page 2)",teachers' AI literacy
+W4410123213,C5,exclude,"Claude (manual review, Stage 3 India page 2)","smart cities overview chapter, belongs to (C1)"
+W4287180662,C5,exclude,"Claude (manual review, Stage 3 India page 2)","journalism and open knowledge, peripheral"
+W3172790892,C5,exclude,"Claude (manual review, Stage 3 India page 2)","media literacy and RTI, peripheral"
+W7219589986,C5,exclude,"Claude (manual review, Stage 3 India page 2)","air-pollution governance, belongs to (A14)"
+W4416108551,C5,exclude,"Claude (manual review, Stage 3 India page 2)",reference entry
+W2945820103,C5,exclude,"Claude (manual review, Stage 3 India page 2)","smart-city project overview, belongs to (C1)"
+W7164052483,C6,exclude,"Claude (manual review, Stage 3 India page 2)","gendered night city, belongs to (A16)"
+W7135186424,C6,exclude,"Claude (manual review, Stage 3 India page 2)","traffic video model, technical"
+W2123131677,C6,exclude,"Claude (manual review, Stage 3 India page 2)","video analytics, technical"
+W3215444452,C6,exclude,"Claude (manual review, Stage 3 India page 2)","object detection, technical"
+W4322712954,C6,exclude,"Claude (manual review, Stage 3 India page 2)",pedestrian safety engineering
+W3034582737,C6,exclude,"Claude (manual review, Stage 3 India page 2)","pedestrian safety engineering, duplicate"
+W7127847835,C6,include,"Claude (manual review, Stage 3 India page 2)","AI-powered CCTV network, Bengaluru"
+W4413842587,C6,include,"Claude (manual review, Stage 3 India page 2)",benefits and concerns of facial recognition
+W4416343020,C6,exclude,"Claude (manual review, Stage 3 India page 2)","predictive-policing model build, technical"
+W3112639587,C6,include,"Claude (manual review, Stage 3 India page 2)",India's predictive policing and discrimination
+W7163551534,C6,exclude,"Claude (manual review, Stage 3 India page 2)","predictive-policing system build, technical"
+W7117456378,C6,exclude,"Claude (manual review, Stage 3 India page 2)","border surveillance technology, technical"
+W7213894453,C7,exclude,"Claude (manual review, Stage 3 India page 2)","AI framework for wastewater, technical"
+W4415667245,C7,exclude,"Claude (manual review, Stage 3 India page 2)","solid-waste review, AI peripheral"
+W4412964288,C7,exclude,"Claude (manual review, Stage 3 India page 2)","AI waste-to-energy framework, technical"
+W4412159034,C7,exclude,"Claude (manual review, Stage 3 India page 2)","AI carbon-sequestration framework, technical"
+W7131388019,C7,exclude,"Claude (manual review, Stage 3 India page 2)","number-plate detection, technical"
+W4412700834,C8,include,"Claude (manual review, Stage 3 India page 2)","local government e-services and engagement, Ratnapura"
+W2807652065,C8,include,"Claude (manual review, Stage 3 India page 2)","e-local government barriers, Pakistan"
+W2484411797,C8,include,"Claude (manual review, Stage 3 India page 2)","e-Seva citizen service centres, Hyderabad"
+W4232451741,C8,exclude,"Claude (manual review, Stage 3 India page 2)",duplicate chapter
+W4415763067,C8,exclude,"Claude (manual review, Stage 3 India page 2)","gendered access to digital infrastructure, belongs to (B7)"
+W7128687910,C8,exclude,"Claude (manual review, Stage 3 India page 2)",rural digital banking review
+W7164130121,C8,exclude,"Claude (manual review, Stage 3 India page 2)",generic growth essay
+W7117739429,C8,exclude,"Claude (manual review, Stage 3 India page 2)","Smart Cities Mission review, belongs to (C1)"
+W4229066153,C8,exclude,"Claude (manual review, Stage 3 India page 2)","smart-city governance chapter, belongs to (C1)"
+W4391054546,C8,exclude,"Claude (manual review, Stage 3 India page 2)",generic smart-city essay
+W2344748083,C8,exclude,"Claude (manual review, Stage 3 India page 2)",generic smart-city essay
+W4386040877,C8,exclude,"Claude (manual review, Stage 3 India page 2)","smart-city quality of life, belongs to (C1)"
+W7154483309,C9,exclude,"Claude (manual review, Stage 3 India page 2)","fare and demand forecasting, technical"
+W4395660548,C9,exclude,"Claude (manual review, Stage 3 India page 2)",generic smart-mobility paper
+W3134267380,C9,exclude,"Claude (manual review, Stage 3 India page 2)",blockchain in the automotive industry
+W4413085638,C9,exclude,"Claude (manual review, Stage 3 India page 2)","regional transport strategy, not urban"
+W4323062092,C9,exclude,"Claude (manual review, Stage 3 India page 2)","urban transport policy, belongs to (A8)"
+W3013614329,C9,exclude,"Claude (manual review, Stage 3 India page 2)",airline business
+W3030857315,C9,exclude,"Claude (manual review, Stage 3 India page 2)",BRT engineering evaluation
+W7129318830,C9,include,"Claude (manual review, Stage 3 India page 2)","multimodal travel information and mode choice, Indian cities"
+W4414080774,C10,exclude,"Claude (manual review, Stage 3 India page 2)",tourism marketing
+W3114915450,C10,exclude,"Claude (manual review, Stage 3 India page 2)",digital-economy taxation
+W7168050355,C10,include,"Claude (manual review, Stage 3 India page 2)","proptech access and the real-estate digital divide, Bangalore"
+W7130504890,C11,exclude,"Claude (manual review, Stage 3 India page 2)","garment-industry leadership, mismatched abstract"
+W2396518444,C11,exclude,"Claude (manual review, Stage 3 India page 2)","mobile penetration, general"
+W7213509175,C11,exclude,"Claude (manual review, Stage 3 India page 2)","mobile money readiness, belongs to (B6)"
+W4414973740,C11,exclude,"Claude (manual review, Stage 3 India page 2)","rural mobile financial services, belongs to (B6)"
+W4294688523,C11,exclude,"Claude (manual review, Stage 3 India page 2)","digital financial infrastructure, belongs to (B6)"
+W7155107020,C11,exclude,"Claude (manual review, Stage 3 India page 2)",rural MSMEs
+W7106124864,C11,exclude,"Claude (manual review, Stage 3 India page 2)","social commerce, peripheral"
+W7165790680,C11,exclude,"Claude (manual review, Stage 3 India page 2)",survey methods
+W7155493830,C11,exclude,"Claude (manual review, Stage 3 India page 2)","rural digital payments, belongs to (B6)"
+W3209309024,C11,exclude,"Claude (manual review, Stage 3 India page 2)","risk attitudes, not digital payments"
+W7110888210,C11,exclude,"Claude (manual review, Stage 3 India page 2)","risk attitudes, not digital payments"
+W7110852177,C11,exclude,"Claude (manual review, Stage 3 India page 2)","risk attitudes, not digital payments"
+W7215983375,C12,include,"Claude (manual review, Stage 3 India page 2)","e-governance and citizen participation, Khulna City Corporation"
+W7172125886,C12,exclude,"Claude (manual review, Stage 3 India page 2)",state-level e-governance status
+W3164140238,C12,exclude,"Claude (manual review, Stage 3 India page 2)","ICT and urbanisation, macro"
+W7125601904,C13,exclude,"Claude (manual review, Stage 3 India page 2)","quantum AI, technical"
+W7164514539,C13,exclude,"Claude (manual review, Stage 3 India page 2)",generic smart-city technology review
+W7217688682,C13,exclude,"Claude (manual review, Stage 3 India page 2)","photogrammetric city model, technical"
+W7169774609,C13,exclude,"Claude (manual review, Stage 3 India page 2)","image segmentation, technical"
+W4413107843,C14,exclude,"Claude (manual review, Stage 3 India page 2)",child health access
+W7214896211,C14,exclude,"Claude (manual review, Stage 3 India page 2)",mental-health prediction model
+W4244794301,C14,include,"Claude (manual review, Stage 3 India page 2)",Digital India and the poor
+W4412020148,C14,exclude,"Claude (manual review, Stage 3 India page 2)","small-business finance, not digital"
+W4396847370,C14,exclude,"Claude (manual review, Stage 3 India page 2)","women entrepreneurs, not digital"
+W7164674669,C14,include,"Claude (manual review, Stage 3 India page 2)","digital platforms and urban micro-entrepreneurs, Bangladesh"
+W7171116643,C14,exclude,"Claude (manual review, Stage 3 India page 2)",microfinance technology
+W7125597051,C14,include,"Claude (manual review, Stage 3 India page 2)","digital payments and the unorganised sector, Chennai"
+W7140141488,C15,include,"Claude (manual review, Stage 3 India page 2)",household-services platform as infrastructure
+W7201859689,C15,exclude,"Claude (manual review, Stage 3 India page 2)","human-automation encounters, peripheral"
+W7161963636,C16,exclude,"Claude (manual review, Stage 3 India page 2)","waste-route optimisation, technical"
+W2030950643,C16,exclude,"Claude (manual review, Stage 3 India page 2)",aerosol chemistry
+W7218272137,C16,exclude,"Claude (manual review, Stage 3 India page 2)",ecosystem services mapping
+W7124907369,C16,include,"Claude (manual review, Stage 3 India page 2)","digital mapping as a state service, Indian cities"
+W4414374477,C16,exclude,"Claude (manual review, Stage 3 India page 2)",child-friendly city programme
+W4386357300,C16,exclude,"Claude (manual review, Stage 3 India page 2)","sidewalk mapping model, technical"
+W4296186954,C16,exclude,"Claude (manual review, Stage 3 India page 2)","building mapping model, technical"
+W7135244918,C16,exclude,"Claude (manual review, Stage 3 India page 2)","land-cover mapping, technical"
+W7170195794,C16,exclude,"Claude (manual review, Stage 3 India page 2)","roof vegetation mapping, technical"
+W7167724713,C17,exclude,"Claude (manual review, Stage 3 India page 2)","reference entry, technical"
+W7136047813,C17,exclude,"Claude (manual review, Stage 3 India page 2)","technology adoption in smart cities, belongs to (C1)"
+W7216495323,C17,exclude,"Claude (manual review, Stage 3 India page 2)","smart-city e-readiness, belongs to (C1)"
+W4413792530,C17,exclude,"Claude (manual review, Stage 3 India page 2)",rural banking ICT
+W4415678571,C17,include,"Claude (manual review, Stage 3 India page 2)","ethics, law and cybersecurity of AI smart cities, India"
+W7204877900,C17,exclude,"Claude (manual review, Stage 3 India page 2)","AI and CPS framework, technical"
+W4404980055,C17,exclude,"Claude (manual review, Stage 3 India page 2)","smart-grid security, technical"
+W7154969926,C18,exclude,"Claude (manual review, Stage 3 India page 2)",health intervention protocol
+W2620553313,C18,exclude,"Claude (manual review, Stage 3 India page 2)",medical education
+W4415222789,C18,exclude,"Claude (manual review, Stage 3 India page 2)","community health workers' messaging, health"
+W3189623627,C18,exclude,"Claude (manual review, Stage 3 India page 2)","hyperlocal food delivery, belongs to (C2)"
+W4392589367,C18,exclude,"Claude (manual review, Stage 3 India page 2)",air-quality sensing
+W4411393675,C18,exclude,"Claude (manual review, Stage 3 India page 2)","quick-commerce supply chains, belongs to (C2)"
+W4410129109,C18,exclude,"Claude (manual review, Stage 3 India page 2)",air-quality exposure
+W4382020351,S1,exclude,"Claude (manual review, Stage 3 India page 2)",metro station construction
+W2076519423,S4,include,"Claude (manual review, Stage 3 India page 2)","fare integration of rickshaws and BRT, Dhaka"
+W4385317954,S5,include,"Claude (manual review, Stage 3 India page 2)","street life in transit-oriented development, Bengaluru"
+W2793282367,S5,exclude,"Claude (manual review, Stage 3 India page 2)","employment sub-centre modelling, peripheral"
+W7117473552,S5,include,"Claude (manual review, Stage 3 India page 2)",evaluating TOD in Indian metros
+W7216159192,S6,exclude,"Claude (manual review, Stage 3 India page 2)",metro viaduct construction
+W1866594295,S2,exclude,Claude (Stage 3 report check),"book review of Jeffrey, Timepass"
+W2128462161,S2,exclude,Claude (Stage 3 report check),"book review of Jeffrey, Timepass"
+W4206024576,S2,exclude,Claude (Stage 3 report check),"book review of Jeffrey, Timepass"
+W7217859692,S2,exclude,Claude (Stage 3 report check),"book review of Jeffrey, Timepass"
+W431617023,S2,exclude,Claude (Stage 3 report check),"book review of Jeffrey, Timepass"
+W7144001010,S2,exclude,Claude (Stage 3 report check),"book review of Jeffrey, Timepass"
+W4409623556,B5,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W4411184242,C15,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W4415329846,B12,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W4417486618,B4,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7125601904,C12,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7125601904,C13,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7125601904,C4,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7129047321,C17,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7129314881,C17,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7134110259,B14,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7140160276,B14,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7147106924,B4,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7155071267,B14,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7161418172,C17,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7162301554,C17,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7163828211,C13,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7163828211,C17,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7168163652,C13,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7168163652,C5,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7172444056,B11,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7203440576,C13,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7203529767,C17,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7205003269,B14,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7205003269,C17,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7210271272,B14,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7210271272,C13,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7210272009,B14,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7210272009,C13,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7212062809,C10,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7213298440,C13,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7213440486,B14,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7213607093,B14,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"
+W7215736804,C2,exclude,Claude (Stage 3 report check),"self-published generic AI monograph series by one author, 2025-26"

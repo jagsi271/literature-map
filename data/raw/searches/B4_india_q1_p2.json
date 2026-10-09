@@ -1,0 +1,91 @@
+{
+ "theme": "B4",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"algorithmic governance\" OR \"algorithmic governmentality\" OR \"algorithmic regulation\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"algorithmic governance\" OR \"algorithmic governmentality\" OR \"algorithmic regulation\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"algorithmic governance\" OR \"algorithmic governmentality\" OR \"algorithmic regulation\"))",
+ "page": 2,
+ "total_results": 231,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_B4_india_q1_p2.json.gz",
+ "results": [
+  [
+   "W7219100434",
+   2026
+  ],
+  [
+   "W7219015746",
+   2026
+  ],
+  [
+   "W7140180605",
+   2026
+  ],
+  [
+   "W7171537008",
+   2026
+  ],
+  [
+   "W4412481543",
+   2025
+  ],
+  [
+   "W7104385912",
+   2025
+  ],
+  [
+   "W7160938031",
+   2026
+  ],
+  [
+   "W7135044149",
+   2026
+  ],
+  [
+   "W7213891654",
+   2026
+  ],
+  [
+   "W7213940080",
+   2026
+  ],
+  [
+   "W7117477283",
+   2025
+  ],
+  [
+   "W7155629536",
+   2026
+  ],
+  [
+   "W7106310171",
+   2025
+  ],
+  [
+   "W7220238437",
+   2026
+  ],
+  [
+   "W4403033261",
+   2024
+  ],
+  [
+   "W7202174809",
+   2026
+  ],
+  [
+   "W7214792770",
+   2026
+  ],
+  [
+   "W7214162167",
+   2026
+  ]
+ ]
+}

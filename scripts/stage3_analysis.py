@@ -223,8 +223,15 @@ def surname(full):
         return ""
     if full.isupper():
         full = full.title()
-    parts = full.split()
+    # drop placeholder tokens ("-", ".") that some metadata uses for a missing surname
+    parts = [x for x in full.split() if re.search(r"[A-Za-z]", x)]
+    if not parts:
+        return ""
+    if len(parts) == 1 or (parts[-1].isupper() and "." in parts[-1]):
+        return parts[-1].strip(".") if len(parts) == 1 else parts[0]
     s = parts[-1]
+    if s[0].islower() and s.lower() not in PARTICLES:
+        s = s[0].upper() + s[1:]
     if len(parts) > 2 and parts[-2].lower() in PARTICLES:
         s = parts[-2] + " " + s
     return s
@@ -273,7 +280,9 @@ for t in THEMES:
                   key=lambda r: -(r["Cited-by count"] or 0))
     out = []
     for r in cand:
-        if any(same_work(r["Title"], o["Title"]) for o in out):
+        fa = ((r["Authors"] or "").split(";")[0], r["Year"])
+        if any(same_work(r["Title"], o["Title"]) or
+               (fa[0] and fa == ((o["Authors"] or "").split(";")[0], o["Year"])) for o in out):
             continue
         out.append(r)
         if len(out) == 3:
@@ -288,6 +297,8 @@ with (PROC / "landmarks_report.csv").open("w", newline="") as fh:
 
 # ------------------------------------------------------------------ candidate gaps
 GAPS = yaml.safe_load((ANA / "candidate_gaps.yaml").read_text())
+SLC = {r["set"]: r for r in csv.DictReader((PROC / "shortlist_counts.csv").open())} \
+    if (PROC / "shortlist_counts.csv").exists() else {}
 SCOPE_FILTER = {
     "any": lambda r: True,
     "sa": lambda r: r["Region"] == "South Asia" or r["India flag"] == "Y",
@@ -345,6 +356,8 @@ def render_values(text):
         return f"the {nth}lowest of {what}"
 
     text = re.sub(r"\{\{rank:([A-C]\d+)\.([\w\-]+):(dom|all)\}\}", rank, text)
+    text = re.sub(r"\{\{sl:(S\d)\.([\w\-]+)\}\}",
+                  lambda mo: fmt(num(SLC.get(mo.group(1), {}).get(mo.group(2)))), text)
     text = re.sub(r"\{\{v:([A-Z]+\d*|SS|ALL|IN|IN_[ABC]|GN_[ABC])\.([\w\-]+)\}\}", v, text)
     text = re.sub(r"\{\{cite:(W\d+)\}\}",
                   lambda mo: cite(by_oa[mo.group(1)]) if mo.group(1) in by_oa
@@ -365,6 +378,7 @@ for g in GAPS:
         "title": g["title"], "evidence": render_values(" ".join(g["evidence"].split())),
         "missing": " ".join(g["missing"].split()), "caveat": " ".join(caveat.split()),
         "examples": "; ".join(cite_long(r) for r in ex),
+        "examples_short": "; ".join(cite(r) for r in ex),
         "example_ids": " ".join(r["ID"] for r in ex),
         "matching_records_in_map": pool_n,
         "status": g.get("status", ""),
@@ -383,8 +397,8 @@ def gaps_md(scope):
         st = f" *({g['status']})*" if g["status"] else ""
         out.append(f"**{g['id']}. {g['title']}**{st} ({g['themes']})  \n"
                    f"*Evidence.* {g['evidence']}  \n"
-                   f"*Examples* ({g['matching_records_in_map']} matching records in the map): "
-                   f"{g['examples'] or 'none'}.  \n"
+                   f"*Examples* ({g['matching_records_in_map']} matching records): "
+                   f"{g['examples_short'] or 'none'}.  \n"
                    f"*Missing.* {g['missing']}  \n"
                    f"*Caveat.* {g['caveat']}\n")
     return "\n".join(out)
@@ -451,6 +465,27 @@ def t_gn():
     for t in ts:
         rows.append(f"| {t} {M[t]['name']} | " + " | ".join(
             fmt(M[t][f"{k}_share_of_region_mentions"], "share") for k in REGION_KEYS) + " |")
+    return "\n".join(rows)
+
+
+def t_india():
+    """Themes with the lowest India share of their 2020-26 works (all venues), with core."""
+    ts = [t for t in THEMES if M[t].get("india_share_all_2020-26") is not None]
+    if not ts:
+        return "*Pending: India counts.*"
+    ts.sort(key=lambda t: M[t]["india_share_all_2020-26"])
+    rows = ["| Theme | Growth (all) | India adj. 2020–26 (all / core) | India share 2020–26 (all / core) "
+            "| India LQ | Delhi/NCR adj. 2010–26 (all / core) | Haryana adj. 2010–26 (all / core) |",
+            "|---|---:|---:|---:|---:|---:|---:|"]
+    for t in ts[:14]:
+        m = M[t]
+        rows.append(
+            f"| {t} {m['name']} | {fmt(m['global_all_growth_label'], 'growth')} | "
+            f"{fmt(m['india_all_2020-26_adj'])} / {fmt(m['india_core_2020-26_adj'])} | "
+            f"{fmt(m['india_share_all_2020-26'], 'share')} / {fmt(m['india_share_core_2020-26'], 'share')} | "
+            f"{fmt(m['lq_india_all_2020-26'], 'lq')} | "
+            f"{fmt(m['delhi_all_2010-26_adj'])} / {fmt(m['delhi_core_2010-26_adj'])} | "
+            f"{fmt(m['haryana_all_2010-26_adj'])} / {fmt(m['haryana_core_2010-26_adj'])} |")
     return "\n".join(rows)
 
 
@@ -526,13 +561,140 @@ def t_methods_compact():
     return "\n".join(rows)
 
 
-TABLES = {"intersections": t_intersections, "methods_compact": t_methods_compact,
+# ------------------------------------------------------------------ shortlist leads (§9)
+SL = {r["set"]: r for r in csv.DictReader((PROC / "shortlist_counts.csv").open())} \
+    if (PROC / "shortlist_counts.csv").exists() else {}
+SUPP = cfg.get("supplementary", {})
+
+
+def lead_records(s):
+    terms = [x.lower() for x in choices["shortlist_leads"][s]]
+    out = []
+    for r in recs_all:
+        sq = {x.split(" ")[0] for x in (r["Supplementary query"] or "").split("; ")}
+        tags = (r["Shortlist tag"] or "").lower()
+        if s in sq or any(t in tags for t in terms):
+            out.append(r)
+    return out
+
+
+def venue_type(r):
+    if r["Repository-only"] == "Y" or r["Document type"] in ("preprint",):
+        return "repository/preprint"
+    if r["Document type"] == "dissertation":
+        return "thesis"
+    if r["Document type"] in ("book", "book-chapter", "reference-entry"):
+        return "book/chapter"
+    if r["Document type"].startswith("conference"):
+        return "conference"
+    if r["Document type"] in ("article", "review", "data-paper"):
+        return "journal (core)" if r["Core venue"] == "Y" else "journal (non-core)"
+    return "other"
+
+
+VT = ["journal (core)", "journal (non-core)", "book/chapter", "conference", "thesis",
+      "repository/preprint", "other"]
+
+
+def lead_stats(s):
+    rs = lead_records(s)
+    ind = [r for r in rs if r["India flag"] == "Y"]
+    har = [r for r in rs if r["Haryana flag"] == "Y"]
+    mc = Counter(r["Method"] for r in ind)
+    vc = Counter(venue_type(r) for r in ind)
+    return rs, ind, har, mc, vc
+
+
+def t_shortlist():
+    rows = ["| Lead | OpenAlex-wide, adj. (all / core) | India-named, adj. (all / core) | "
+            "Haryana-named, adj. (all / core) | Precision p | Map records | India-flagged | "
+            "Haryana-flagged |", "|---|---:|---:|---:|---:|---:|---:|---:|"]
+    for s, sc in SUPP.items():
+        c = SL.get(s, {})
+        g = lambda sc_, v: fmt(num(c.get(f"{sc_}_{v}_adj")))  # noqa: E731
+        rs, ind, har, _, _ = lead_stats(s)
+        india = "(Haryana set)" if s == "S7" else f"{g('india', 'all')} / {g('india', 'core')}"
+        rows.append(f"| {s} {sc['name']} | {g('global', 'all')} / {g('global', 'core')} | {india} | "
+                    f"{g('haryana', 'all')} / {g('haryana', 'core')} | {fmt(num(c.get('p')), 'p')} | "
+                    f"{len(rs)} | {len(ind)} | {len(har)} |")
+    return "\n".join(rows)
+
+
+def t_shortlist_india():
+    rows = ["| Lead | India-flagged records | Known method (n) | Qual. | Quant. | Mixed | Review | "
+            "Concept. | Comput. | " + " | ".join(v.capitalize() for v in VT) + " |",
+            "|---|---:|---:|" + "---:|" * 6 + "---:|" * len(VT)]
+    for s, sc in SUPP.items():
+        rs, ind, har, mc, vc = lead_stats(s)
+        pool = har if s == "S7" else ind
+        mc = Counter(r["Method"] for r in pool)
+        vc = Counter(venue_type(r) for r in pool)
+        kn = sum(mc[x] for x in METHODS)
+        rows.append(f"| {s} {sc['name']}{' (Haryana-flagged)' if s == 'S7' else ''} | {len(pool)} | {kn} | "
+                    + " | ".join(str(mc[x]) for x in METHODS) + " | "
+                    + " | ".join(str(vc[v]) for v in VT) + " |")
+    return "\n".join(rows)
+
+
+def sl_quals(s, n=3):
+    rs, ind, har, _, _ = lead_stats(s)
+    pool = har if s == "S7" else ind
+    q = [r for r in pool if r["Method"] == "qualitative" and r["OpenAlex ID"] not in skip]
+    q.sort(key=lambda r: (-(r["Cited-by count"] or 0)))
+    out = []
+    for r in q:
+        if any(same_work(r["Title"], o["Title"]) for o in out):
+            continue
+        out.append(r)
+        if len(out) == n:
+            break
+    return "; ".join(cite_long(r, 8) for r in out) if out else "none in the map"
+
+
+TABLES = {"india": t_india, "shortlist": t_shortlist, "shortlist_india": t_shortlist_india,
+          "intersections": t_intersections, "methods_compact": t_methods_compact,
           "landmarks": t_landmarks, "fast": t_fast, "saturating": t_saturating,
           "mismatch": t_mismatch, "gn": t_gn, "methods": t_methods, "emerging": t_emerging,
           "coverage": t_coverage}
 
 # ------------------------------------------------------------------ stats
 pk = [M[t]["p"] for t in THEMES]
+
+
+def recall_stats():
+    p = ROOT / "data/screening/recall_seeds_stage2.csv"
+    c = Counter(r["status"] for r in csv.DictReader(p.open())) if p.exists() else Counter()
+    return {"recall_found": str(c["found"]), "recall_below": str(c["below cut-off"]),
+            "recall_gap": str(c["query gap"]), "recall_out": str(c["screened out"])}
+
+
+def core_stats():
+    fast = [t for t in THEMES if M[t]["fast_growth"]]
+    fc = [t for t in fast if M[t]["global_core_growth_label"] == "new"
+          or (isinstance(M[t]["global_core_growth_label"], float)
+              and M[t]["global_core_growth_label"] >= 3)]
+    both = [t for t in THEMES if isinstance(M[t]["global_core_growth_label"], float)
+            and isinstance(M[t]["global_all_growth_label"], float)]
+    lower = [t for t in both if M[t]["global_core_growth_label"] < M[t]["global_all_growth_label"]]
+    names = {"B1": "platforms", "B2": "datafication", "B9": "misinformation",
+             "B14": "generative AI", "C5": "urban data governance", "C9": "digital mobility",
+             "C13": "digital twins"}
+    mm = sorted([t for t in THEMES if M[t]["mismatch_sa"]],
+                key=lambda t: M[t]["sa_share_all_2020-26"])
+    mlist = ", ".join(f"{names.get(t, M[t]['name'])} ({t}, {fmt(M[t]['sa_share_all_2020-26'], 'share')})"
+                      for t in mm)
+    low = []
+    for t in THEMES:
+        a, c = M[t].get("india_share_all_2020-26"), M[t].get("india_share_core_2020-26")
+        if a and c is not None and c / a < 0.65:
+            low.append((c / a, t))
+    low.sort()
+    ilow = ", ".join(f"{re.split(r' & |, | [(]', M[t]['name'])[0].lower()} ({t}, "
+                     f"{fmt(M[t]['india_share_all_2020-26'], 'share')} → "
+                     f"{fmt(M[t]['india_share_core_2020-26'], 'share')})"
+                     for _, t in low[:5])
+    return {"n_fast_core": str(len(fc)), "n_core_lower": str(len(lower)),
+            "n_core_both": str(len(both)), "mismatch_list": mlist, "india_core_low": ilow}
 STATS = {
     "records": f"{len(recs_all):,}",
     "records_themes": f"{len(recs):,}",
@@ -547,6 +709,10 @@ STATS = {
     "p_min": f"{min(pk):.2f}", "p_max": f"{max(pk):.2f}",
     "n_fast": str(sum(M[t]["fast_growth"] for t in THEMES)),
     "n_mismatch": str(sum(M[t]["mismatch_sa"] for t in THEMES)),
+    **recall_stats(),
+    **core_stats(),
+    "recall_outside": str(sum(1 for r in csv.DictReader((ROOT / "data/screening/recall_seeds_stage2.csv").open())
+                              if r["status"] in ("not in OpenAlex", "expansion corpus only"))),
     "india_counts_status": ("available" if M["A1"].get("india_all_2020-26_adj") is not None
                             else "pending"),
     "core_counts_status": ("available" if M["A1"].get("global_core_2020-26_adj") is not None
@@ -558,6 +724,7 @@ tpl = (ROOT / "scripts" / "report_template.md").read_text()
 tpl = re.sub(r"\{\{table:(\w+)\}\}", lambda mo: TABLES[mo.group(1)](), tpl)
 tpl = re.sub(r"\{\{gaps:(\w+)\}\}", lambda mo: gaps_md(mo.group(1)), tpl)
 tpl = re.sub(r"\{\{stat:(\w+)\}\}", lambda mo: STATS[mo.group(1)], tpl)
+tpl = re.sub(r"\{\{slq:(S\d)\}\}", lambda mo: sl_quals(mo.group(1)), tpl)
 tpl = render_values(tpl)
 left = re.findall(r"\{\{[^}]*\}\}", tpl)
 if left:

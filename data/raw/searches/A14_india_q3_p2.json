@@ -1,0 +1,79 @@
+{
+ "theme": "A14",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"urban flooding\" OR \"urban floods\") AND (governance OR vulnerability OR politics)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"urban flooding\" OR \"urban floods\") AND (governance OR vulnerability OR politics)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"urban flooding\" OR \"urban floods\") AND (\"governance\" OR \"politics\" OR \"vulnerability\"))",
+ "page": 2,
+ "total_results": 182,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_A14_india_q3_p2.json.gz",
+ "results": [
+  [
+   "W7167902006",
+   2026
+  ],
+  [
+   "W4414924285",
+   2025
+  ],
+  [
+   "W3091848884",
+   2020
+  ],
+  [
+   "W4292260218",
+   2022
+  ],
+  [
+   "W4297627852",
+   2022
+  ],
+  [
+   "W4398217415",
+   2024
+  ],
+  [
+   "W7109235385",
+   2025
+  ],
+  [
+   "W4223926194",
+   2022
+  ],
+  [
+   "W7128309768",
+   2025
+  ],
+  [
+   "W4322006544",
+   2023
+  ],
+  [
+   "W4410409127",
+   2025
+  ],
+  [
+   "W4407892125",
+   2025
+  ],
+  [
+   "W2185896633",
+   2011
+  ],
+  [
+   "W7154105081",
+   2026
+  ],
+  [
+   "W4390431270",
+   2023
+  ]
+ ]
+}

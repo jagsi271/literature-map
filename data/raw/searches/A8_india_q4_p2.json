@@ -1,0 +1,79 @@
+{
+ "theme": "A8",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(paratransit OR \"informal transport\" OR \"auto-rickshaw\" OR \"minibus taxi\" OR matatu) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(paratransit OR \"informal transport\" OR \"auto-rickshaw\" OR \"minibus taxi\" OR matatu) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"informal transport\" OR \"minibus taxi\" OR \"auto-rickshaw\" OR \"matatu\" OR \"paratransit\"))",
+ "page": 2,
+ "total_results": 559,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_A8_india_q4_p2.json.gz",
+ "results": [
+  [
+   "W2126791670",
+   2010
+  ],
+  [
+   "W7155059541",
+   2026
+  ],
+  [
+   "W2132031912",
+   2007
+  ],
+  [
+   "W7206495717",
+   2018
+  ],
+  [
+   "W2997772170",
+   2019
+  ],
+  [
+   "W2991632398",
+   2018
+  ],
+  [
+   "W3085433229",
+   2020
+  ],
+  [
+   "W2264434613",
+   2015
+  ],
+  [
+   "W619958202",
+   2012
+  ],
+  [
+   "W2070413874",
+   2008
+  ],
+  [
+   "W7153494069",
+   2026
+  ],
+  [
+   "W4385248876",
+   2023
+  ],
+  [
+   "W2968749186",
+   2019
+  ],
+  [
+   "W27514116",
+   2015
+  ],
+  [
+   "W3108591592",
+   2020
+  ]
+ ]
+}

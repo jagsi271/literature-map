@@ -1,0 +1,91 @@
+{
+ "theme": "A11",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"circular migration\" OR \"seasonal migration\") AND (urban OR city)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"circular migration\" OR \"seasonal migration\") AND (urban OR city)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"circular migration\" OR \"seasonal migration\") AND (\"city\" OR \"urban\"))",
+ "page": 2,
+ "total_results": 120,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_A11_india_q3_p2.json.gz",
+ "results": [
+  [
+   "W4391388413",
+   2024
+  ],
+  [
+   "W2999256234",
+   2019
+  ],
+  [
+   "W2005988769",
+   2012
+  ],
+  [
+   "W2948483736",
+   2019
+  ],
+  [
+   "W2313788892",
+   2011
+  ],
+  [
+   "W7159949852",
+   2026
+  ],
+  [
+   "W7164829050",
+   2026
+  ],
+  [
+   "W1811190959",
+   2015
+  ],
+  [
+   "W2922714201",
+   2019
+  ],
+  [
+   "W2914072686",
+   2019
+  ],
+  [
+   "W1994155215",
+   2003
+  ],
+  [
+   "W4388859535",
+   2023
+  ],
+  [
+   "W2800294327",
+   2018
+  ],
+  [
+   "W2343924063",
+   2016
+  ],
+  [
+   "W3206837001",
+   2021
+  ],
+  [
+   "W3045209420",
+   2020
+  ],
+  [
+   "W4407952600",
+   2025
+  ],
+  [
+   "W4396227786",
+   2024
+  ]
+ ]
+}

@@ -1,0 +1,179 @@
+{
+ "theme": "S7",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((Panipat OR Sonipat OR Sonepat OR Rohtak OR Hisar OR Hissar OR Karnal OR Ambala OR Yamunanagar OR Kurukshetra OR Thanesar OR Rewari OR Bahadurgarh OR Bhiwani OR Sirsa OR Jind OR Kaithal OR Palwal OR Panchkula OR Jhajjar OR Narnaul OR Fatehabad OR (Haryana AND (\"small town\" OR \"small towns\" OR \"census town\" OR \"census towns\" OR \"secondary city\" OR \"medium-sized\"))) AND (urban OR city OR town OR municipal OR urbanisation OR urbanization OR \"peri-urban\"))",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((Panipat OR Sonipat OR Sonepat OR Rohtak OR Hisar OR Hissar OR Karnal OR Ambala OR Yamunanagar OR Kurukshetra OR Thanesar OR Rewari OR Bahadurgarh OR Bhiwani OR Sirsa OR Jind OR Kaithal OR Palwal OR Panchkula OR Jhajjar OR Narnaul OR Fatehabad OR (Haryana AND (\"small town\" OR \"small towns\" OR \"census town\" OR \"census towns\" OR \"secondary city\" OR \"medium-sized\"))) AND (urban OR city OR town OR municipal OR urbanisation OR urbanization OR \"peri-urban\")),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Ambala\" OR \"Bahadurgarh\" OR \"Bhiwani\" OR \"Fatehabad\" OR \"Hisar\" OR \"Hissar\" OR \"Jhajjar\" OR \"Jind\" OR \"Kaithal\" OR \"Karnal\" OR \"Kurukshetra\" OR \"Narnaul\" OR \"Palwal\" OR \"Panchkula\" OR \"Panipat\" OR \"Rewari\" OR \"Rohtak\" OR \"Sirsa\" OR \"Sonepat\" OR \"Sonipat\" OR \"Thanesar\" OR \"Yamunanagar\" OR (\"Haryana\" AND (\"census town\" OR \"census towns\" OR \"secondary city\" OR \"small town\" OR \"small towns\" OR \"medium-sized\"))) AND (\"city\" OR \"municipal\" OR \"peri-urban\" OR \"town\" OR \"urban\" OR \"urbanisation\" OR \"urbanization\"))",
+ "page": 2,
+ "total_results": 1726,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_S7_india_p2.json.gz",
+ "results": [
+  [
+   "W4242980065",
+   2015
+  ],
+  [
+   "W7156607649",
+   2026
+  ],
+  [
+   "W7218247250",
+   2018
+  ],
+  [
+   "W7218191815",
+   2023
+  ],
+  [
+   "W4400964564",
+   2024
+  ],
+  [
+   "W2082894020",
+   2012
+  ],
+  [
+   "W1988462842",
+   1991
+  ],
+  [
+   "W4403145733",
+   2024
+  ],
+  [
+   "W2967888392",
+   2019
+  ],
+  [
+   "W2884408681",
+   2018
+  ],
+  [
+   "W317049257",
+   2010
+  ],
+  [
+   "W3210492899",
+   2020
+  ],
+  [
+   "W2591863437",
+   1953
+  ],
+  [
+   "W7163647325",
+   2024
+  ],
+  [
+   "W2184885999",
+   2009
+  ],
+  [
+   "W2291558389",
+   2015
+  ],
+  [
+   "W2228338139",
+   2011
+  ],
+  [
+   "W2537638006",
+   1978
+  ],
+  [
+   "W4391860015",
+   2023
+  ],
+  [
+   "W3010692693",
+   2020
+  ],
+  [
+   "W2903430710",
+   2018
+  ],
+  [
+   "W2416359127",
+   1986
+  ],
+  [
+   "W2310512551",
+   2015
+  ],
+  [
+   "W4386363518",
+   2023
+  ],
+  [
+   "W7215303612",
+   2022
+  ],
+  [
+   "W7216600928",
+   2019
+  ],
+  [
+   "W7160117554",
+   2026
+  ],
+  [
+   "W7220221250",
+   2025
+  ],
+  [
+   "W2187417031",
+   2014
+  ],
+  [
+   "W3210469346",
+   2009
+  ],
+  [
+   "W2560677912",
+   2012
+  ],
+  [
+   "W4293304112",
+   1954
+  ],
+  [
+   "W2515212348",
+   2016
+  ],
+  [
+   "W4401734500",
+   2024
+  ],
+  [
+   "W7155001413",
+   2026
+  ],
+  [
+   "W7130384952",
+   2026
+  ],
+  [
+   "W7220406494",
+   2026
+  ],
+  [
+   "W4409613873",
+   2024
+  ],
+  [
+   "W7215121142",
+   2025
+  ],
+  [
+   "W4405138834",
+   2017
+  ]
+ ]
+}

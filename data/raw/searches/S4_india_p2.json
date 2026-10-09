@@ -1,0 +1,43 @@
+{
+ "theme": "S4",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR (\"fare policy\" AND transit) OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"fare integration\" OR \"integrated ticketing\" OR \"integrated fare\" OR (\"fare policy\" AND transit) OR \"transit card\" OR \"transit cards\" OR \"National Common Mobility Card\" OR NCMC OR ((\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"public transport\" OR transit OR metro OR bus) AND (fare OR fares OR ticketing OR payment)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"NCMC\" OR \"National Common Mobility Card\" OR \"fare integration\" OR \"integrated fare\" OR \"integrated ticketing\" OR \"transit card\" OR \"transit cards\" OR (\"fare policy\" AND \"transit\") OR ((\"public transport\" OR \"bus\" OR \"metro\" OR \"transit\") AND (\"smart card\" OR \"smart cards\" OR \"contactless\") AND (\"fare\" OR \"fares\" OR \"payment\" OR \"ticketing\"))))",
+ "page": 2,
+ "total_results": 46,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_S4_india_p2.json.gz",
+ "results": [
+  [
+   "W7127334739",
+   2026
+  ],
+  [
+   "W2076519423",
+   2012
+  ],
+  [
+   "W4327812228",
+   2023
+  ],
+  [
+   "W7217991548",
+   2024
+  ],
+  [
+   "W4390707756",
+   2024
+  ],
+  [
+   "W4393169875",
+   2024
+  ]
+ ]
+}

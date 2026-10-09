@@ -1,0 +1,71 @@
+{
+ "theme": "A12",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"feminist urbanism\" OR \"gendered city\" OR \"women and the city\" OR (\"feminist geography\" AND city)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"feminist urbanism\" OR \"gendered city\" OR \"women and the city\" OR (\"feminist geography\" AND city)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"feminist urbanism\" OR \"gendered city\" OR \"women and the city\" OR (\"feminist geography\" AND \"city\")))",
+ "page": 2,
+ "total_results": 28,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_A12_india_q1_p2.json.gz",
+ "results": [
+  [
+   "W4413805201",
+   2025
+  ],
+  [
+   "W2320058135",
+   1977
+  ],
+  [
+   "W3088320004",
+   2020
+  ],
+  [
+   "W7213373852",
+   2026
+  ],
+  [
+   "W2611557624",
+   2017
+  ],
+  [
+   "W2991975672",
+   2019
+  ],
+  [
+   "W3199228327",
+   2021
+  ],
+  [
+   "W4386177912",
+   2023
+  ],
+  [
+   "W4394944271",
+   2024
+  ],
+  [
+   "W4406926978",
+   2025
+  ],
+  [
+   "W7220258260",
+   2025
+  ],
+  [
+   "W4251055683",
+   2019
+  ],
+  [
+   "W4415836672",
+   2025
+  ]
+ ]
+}

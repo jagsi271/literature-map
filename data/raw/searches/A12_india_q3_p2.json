@@ -1,0 +1,79 @@
+{
+ "theme": "A12",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(caste AND (urban OR city OR cities)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(caste AND (urban OR city OR cities)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"caste\" AND (\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"cities\" OR \"city\" OR \"urban\"))",
+ "page": 2,
+ "total_results": 4204,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_A12_india_q3_p2.json.gz",
+ "results": [
+  [
+   "W2806675450",
+   2018
+  ],
+  [
+   "W2898574999",
+   2019
+  ],
+  [
+   "W7171272489",
+   2026
+  ],
+  [
+   "W2903885469",
+   2019
+  ],
+  [
+   "W2790707918",
+   2018
+  ],
+  [
+   "W611456895",
+   2015
+  ],
+  [
+   "W2175589565",
+   2015
+  ],
+  [
+   "W7202165026",
+   2026
+  ],
+  [
+   "W4383865011",
+   2023
+  ],
+  [
+   "W2268549366",
+   1980
+  ],
+  [
+   "W4226319540",
+   2022
+  ],
+  [
+   "W4240273290",
+   2012
+  ],
+  [
+   "W3094442162",
+   2020
+  ],
+  [
+   "W4410391629",
+   2025
+  ],
+  [
+   "W2609893596",
+   2015
+  ]
+ ]
+}

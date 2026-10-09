@@ -35,3 +35,14 @@ parents:
   C15: [B11, A10]
   C17: [B10, A7]
   C18: [B8, A9]
+
+# Shortlist leads (REPORT §9): a record belongs to a lead when the lead's supplementary query
+# set (S1-S7) found it or its Shortlist tag contains one of the lead's tag terms.
+shortlist_leads:
+  S1: [railway station, train station, rail station, metro station, bus station, bus depot]
+  S2: [politics of waiting, waithood, waiting room, waiting for the state, waiting for state, waiting at transit]
+  S3: [after dark, nighttime mobility, night-time mobility, night shift, nighttime transport, night-time transport, operating hours, night-time travel, nighttime travel, night travel, late-night, service hours, night buses, nighttime transit]
+  S4: [fare integration, integrated fare, transit smart card, transport smart card, integrated ticketing]
+  S5: [transit-oriented development, metro rail]
+  S6: [flyover, elevated metro, viaduct, elevated expressway, elevated railway, elevated rail]
+  S7: [Haryana secondary city]

@@ -338,7 +338,9 @@ def main(themes_wanted):
         t = m["theme"]
         if themes_wanted and t not in themes_wanted:
             continue
-        stage2 = m.get("stage") == "stage2"
+        # Stage 2 searches and the Stage 2b India page-2 searches take IDs straight from API
+        # responses; only Stage 1 pilot manifests need the separate ID check
+        stage2 = m.get("stage") in ("stage2", "stage2b")
         req, flags = compile_cfg(cfg, t)
         domain = theme_cfg(cfg, t).get("domain", "S")
         for rank, (wid, _) in enumerate(m["results"], 1):

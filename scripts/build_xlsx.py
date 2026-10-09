@@ -1,7 +1,7 @@
 """Build outputs/bibliography.xlsx from data/processed/ (records, population counts, Stage 3 tables).
 
 Tabs: Read me · Records · Sample coverage · Growth · Emerging terms · Candidate gaps · Methods ·
-Coverage limits · Landmarks by theme · India subset · Shortlist. Sample coverage (the brief's
+Shortlist counts · Coverage limits · Landmarks by theme · India subset · Shortlist. Sample coverage (the brief's
 "Gap matrix", renamed in Stage 3) uses COUNTIFS over whole Records columns, so it updates when
 rows are added to Records; it describes the sample, not the literature.
 """
@@ -340,6 +340,23 @@ if ms:
     table_tab(ws_m, 4, list(ms[0].keys()), ms, list(ms[0].keys()))
 widths(ws_m, [10, 10, 14, 16] + [16] * 6)
 
+# ------------------------------------------------------------------ Shortlist counts
+ws_s = wb.create_sheet("Shortlist counts")
+ws_s["A1"] = "Shortlist leads (S1–S7) — OpenAlex-wide counts, 2010–2026"
+ws_s["A1"].font = Font(bold=True, size=12)
+note(ws_s, "A2", (
+    "Source: scripts/shortlist_counts.py → data/processed/shortlist_counts.csv. Same filters as the "
+    "Growth tab; each set's combined query on title + abstract, worldwide, India-named and "
+    "Haryana-named (S7 names Haryana cities itself), split into all venues and core venues. "
+    "Adjusted = raw × p, the precision of a random 40-work sample of the set's India hit set (S7: "
+    "whole hit set) screened with the set's rules; the S3 and S4 samples are small (11 and 23 works) "
+    "and S2's precision is very low, so those counts are uncertain. See REPORT.md §9."),
+    "A2:N2", 75)
+sc = list(csv.DictReader((PROC / "shortlist_counts.csv").open())) if (PROC / "shortlist_counts.csv").exists() else []
+if sc:
+    table_tab(ws_s, 4, list(sc[0].keys()), sc, list(sc[0].keys()))
+widths(ws_s, [6, 44, 10, 8, 9] + [12] * 12)
+
 # ------------------------------------------------------------------ Coverage limits
 ws_v = wb.create_sheet("Coverage limits")
 ws_v["A1"] = "Coverage limits — OpenAlex holdings of selected Indian venues, works per year"
@@ -425,7 +442,8 @@ lines = [
      "Emerging terms — keywords whose share of records rose most from 2018–21 to 2022–26, checked "
      "OpenAlex-wide. Candidate gaps — 25 leads with evidence, examples and caveats. Methods — "
      "method shares among records with a known method. Coverage limits — OpenAlex holdings of "
-     "Indian venues. Landmarks by theme — records from the 'landmarks' slice, repository-only "
+     "Indian venues. Shortlist counts — OpenAlex-wide counts for the shortlist leads S1–S7. "
+     "Landmarks by theme — records from the 'landmarks' slice, repository-only "
      "records excluded. India subset — India-flagged records. Shortlist — records touching "
      "current leads. The full analysis is in outputs/REPORT.md.", ""),
     ("Why the gap tab was renamed", "h"),
@@ -443,7 +461,8 @@ lines = [
      "three slices: landmarks (the theme's queries OR-ed, top 100 by citations; page 2 where "
      "fewer than 25 survived), recent (2022–2026, one search per query string, top 15–25 by "
      "relevance), India/South Asia (each query AND South Asian place names, top 15–25 by "
-     "relevance). A supplementary query set (S1–S7: railway stations, waiting, night-time "
+     "relevance, two pages per query since Stage 2b; supplementary sets top 40, two pages). "
+     "A supplementary query set (S1–S7: railway stations, waiting, night-time "
      "transit, fare integration/NCMC, rail-led urbanism, elevated rail, Haryana secondary "
      "cities) was searched separately; records found only there are tagged Supplementary = Y "
      "and given the query's home theme.", ""),
@@ -474,8 +493,10 @@ lines = [
     ("Known limits", "h"),
     ("Blind check of 6 random records per theme (data/screening/precision_check_stage2.csv): "
      "about 88–91% in scope, 81–83% with a correct primary theme; weakest in technical-leaning C "
-     "themes. In Stage 3 the most-cited landmark records of every theme were checked by hand and "
-     "38 clearly off-topic works were removed. Recall against 176 researcher-chosen seeds "
+     "themes; the check predates the second page of the India slices (Stage 3), whose records were "
+     "screened by the same rules and hand review. In Stage 3 the most-cited landmark records of "
+     "every theme were checked by hand and 38 clearly off-topic works removed, as were book "
+     "reviews and a self-published AI monograph series found while writing the report. Recall against 176 researcher-chosen seeds "
      f"(data/screening/recall_seeds_stage2.csv): {RECALL.get('found', 0)} found; "
      f"{RECALL.get('below cut-off', 0)} match a theme query but rank below the per-query cut-off "
      f"of the recent/India slices; {RECALL.get('query gap', 0)} query gaps; "

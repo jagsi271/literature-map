@@ -147,25 +147,43 @@ for s, w, method in resolved:
         missed[wid] = row
     rows.append(row)
 
-# query test for seeds never retrieved
+# query test for seeds never retrieved: does any theme or supplementary query match the work?
+# Theme queries are OR-ed in groups (each group's filter stays under ~2,400 characters of
+# query text) so the test costs about ten searches; the cache name is a hash of the tested IDs
+# and the group's queries, so a cached answer is never reused for a different seed list (an
+# earlier version keyed caches by batch position, which mismatched seeds once some were found).
+import hashlib  # noqa: E402
+
 themes = list(cfg["themes"]) + list(cfg.get("supplementary") or {})
-match = defaultdict(list)
-ids = sorted(missed)
+tq = {}
 for t in themes:
     tc = cfg["themes"].get(t) or cfg["supplementary"][t]
-    q = " OR ".join(f"({x})" for x in tc["queries"])
+    tq[t] = " OR ".join(f"({x})" for x in tc["queries"])
+groups, cur, n = [], [], 0
+for t in themes:
+    if cur and n + len(tq[t]) + 6 > 2400:
+        groups.append(cur)
+        cur, n = [], 0
+    cur.append(t)
+    n += len(tq[t]) + 6
+groups.append(cur)
+match = defaultdict(list)
+ids = sorted(missed)
+for g in groups:
+    q = " OR ".join(f"({tq[t]})" for t in g)
     for i in range(0, len(ids), 100):
         batch = ids[i:i + 100]
+        key = hashlib.sha1(("|".join(batch) + q).encode()).hexdigest()[:12]
         resp = f.openalex_list({"filter": f"openalex_id:{'|'.join(batch)},"
                                           f"{FIELD}.search.exact:{q}",
                                 "per_page": 100, "select": "id"},
-                               f"recall_query_{label}_{t}_{i // 100}")
+                               f"recall_query_{label}_g{key}")
         for w in resp["results"]:
-            match[w["id"].rsplit("/", 1)[-1]].append(t)
+            match[w["id"].rsplit("/", 1)[-1]] += g
 for wid, row in missed.items():
     if match.get(wid):
         row.update(status="below cut-off",
-                   detail="query matches " + " ".join(match[wid]))
+                   detail="query matches one of " + " ".join(match[wid]))
     else:
         row.update(status="query gap", detail="no theme or supplementary query matches")
 

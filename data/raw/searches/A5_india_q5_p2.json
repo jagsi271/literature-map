@@ -1,0 +1,79 @@
+{
+ "theme": "A5",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"urban fringe\" OR \"rural-urban fringe\" OR desakota) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"urban fringe\" OR \"rural-urban fringe\" OR desakota) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"rural-urban fringe\" OR \"urban fringe\" OR \"desakota\"))",
+ "page": 2,
+ "total_results": 243,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_A5_india_q5_p2.json.gz",
+ "results": [
+  [
+   "W4206372881",
+   2019
+  ],
+  [
+   "W2583794212",
+   1999
+  ],
+  [
+   "W2565132472",
+   1998
+  ],
+  [
+   "W3096990205",
+   2020
+  ],
+  [
+   "W2571388181",
+   2008
+  ],
+  [
+   "W3017015574",
+   2019
+  ],
+  [
+   "W2471886697",
+   2008
+  ],
+  [
+   "W3196241277",
+   2021
+  ],
+  [
+   "W2987704889",
+   2019
+  ],
+  [
+   "W2746036227",
+   2009
+  ],
+  [
+   "W2340331970",
+   1976
+  ],
+  [
+   "W2925800139",
+   2006
+  ],
+  [
+   "W2618816003",
+   2010
+  ],
+  [
+   "W3210906611",
+   2021
+  ],
+  [
+   "W7165744166",
+   2026
+  ]
+ ]
+}

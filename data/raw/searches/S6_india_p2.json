@@ -1,0 +1,179 @@
+{
+ "theme": "S6",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"elevated rail\" OR \"elevated railway\" OR \"elevated railways\" OR \"elevated metro\" OR \"elevated highway\" OR \"elevated expressway\" OR \"infrastructural undersides\" OR \"under the flyover\" OR (flyover AND (urban OR city OR space OR informal)) OR (viaduct AND (urban OR city) AND (space OR social OR public)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"elevated rail\" OR \"elevated railway\" OR \"elevated railways\" OR \"elevated metro\" OR \"elevated highway\" OR \"elevated expressway\" OR \"infrastructural undersides\" OR \"under the flyover\" OR (flyover AND (urban OR city OR space OR informal)) OR (viaduct AND (urban OR city) AND (space OR social OR public)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"elevated expressway\" OR \"elevated highway\" OR \"elevated metro\" OR \"elevated rail\" OR \"elevated railway\" OR \"elevated railways\" OR \"infrastructural undersides\" OR \"under the flyover\" OR (\"flyover\" AND (\"city\" OR \"informal\" OR \"space\" OR \"urban\")) OR (\"viaduct\" AND (\"city\" OR \"urban\") AND (\"public\" OR \"social\" OR \"space\"))))",
+ "page": 2,
+ "total_results": 195,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_S6_india_p2.json.gz",
+ "results": [
+  [
+   "W1709505429",
+   2004
+  ],
+  [
+   "W7204922439",
+   2026
+  ],
+  [
+   "W7203870213",
+   2026
+  ],
+  [
+   "W7117291719",
+   2025
+  ],
+  [
+   "W2037768847",
+   2010
+  ],
+  [
+   "W4280634983",
+   2022
+  ],
+  [
+   "W2948777135",
+   2018
+  ],
+  [
+   "W7140116014",
+   2026
+  ],
+  [
+   "W4415339440",
+   2025
+  ],
+  [
+   "W2473589467",
+   2016
+  ],
+  [
+   "W7159974088",
+   2026
+  ],
+  [
+   "W2808589038",
+   2018
+  ],
+  [
+   "W3157986572",
+   2017
+  ],
+  [
+   "W4224105254",
+   2022
+  ],
+  [
+   "W2184093188",
+   2013
+  ],
+  [
+   "W2767248836",
+   2015
+  ],
+  [
+   "W3126167953",
+   2019
+  ],
+  [
+   "W7155384076",
+   2026
+  ],
+  [
+   "W1719762950",
+   2015
+  ],
+  [
+   "W7135209823",
+   2025
+  ],
+  [
+   "W4290098613",
+   2022
+  ],
+  [
+   "W3205602518",
+   2021
+  ],
+  [
+   "W2252940624",
+   2010
+  ],
+  [
+   "W2598625047",
+   2017
+  ],
+  [
+   "W3006351675",
+   2020
+  ],
+  [
+   "W4200147409",
+   2021
+  ],
+  [
+   "W7165036106",
+   2026
+  ],
+  [
+   "W7124243450",
+   2026
+  ],
+  [
+   "W7139066427",
+   2026
+  ],
+  [
+   "W4385309276",
+   2023
+  ],
+  [
+   "W7202093704",
+   2026
+  ],
+  [
+   "W3030270807",
+   2020
+  ],
+  [
+   "W7216159192",
+   2022
+  ],
+  [
+   "W4416339421",
+   2025
+  ],
+  [
+   "W4404239872",
+   2024
+  ],
+  [
+   "W7219443993",
+   2024
+  ],
+  [
+   "W3212299673",
+   2018
+  ],
+  [
+   "W4388179566",
+   2023
+  ],
+  [
+   "W2770485688",
+   2017
+  ],
+  [
+   "W3035005720",
+   2020
+  ]
+ ]
+}

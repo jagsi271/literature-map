@@ -2,9 +2,8 @@
 # Evidence comes from OpenAlex-wide population counts (data/processed/population_counts.csv:
 # journal articles and book chapters, theme query on title + abstract, precision-adjusted as in
 # the Growth tab); 'all' = all venues, 'core' = core venues only (source is_core). Records from
-# the map are examples only. Placeholders are filled by scripts/stage3_analysis.py; 'pending'
-# marks counts fetched after the OpenAlex budget resets. 'status: provisional' marks gaps whose
-# deciding counts are still pending.
+# the map are examples only. Placeholders are filled by scripts/stage3_analysis.py ({{v:...}}
+# theme metrics, {{sl:S..}} shortlist-lead counts, {{rank:...}} rank among themes).
 # examples: themes (primary/secondary/supplementary home theme), filter (any|sa|india|delhi|
 # haryana|gn), optional regex on title + summary, method, sort (cites|recent), pin (OpenAlex IDs).
 
@@ -118,6 +117,7 @@
     participates, effects on decisions), and of grievance apps in Global South cities.
   caveat: >
     National e-participation studies fall outside this urban theme.
+# ------------------------------------------------------------------ South Asia
 - id: S1
   scope: south_asia
   themes: [B14]
@@ -133,8 +133,10 @@
     Social-science studies of GenAI use and governance in South Asian workplaces, public
     services and languages, beyond adoption surveys in higher education.
   caveat: >
-    GenAI papers rarely name a place, lowering every region's share; the region counts will
-    show whether South Asia is also low relative to other regions.
+    GenAI papers rarely name a place, which lowers every region's share; among B14 works that do
+    name a region, {{v:B14.sa_share_of_region_mentions}} name South Asia, against
+    {{v:B14.ea_share_of_region_mentions}} China and East Asia and
+    {{v:B14.gn_share_of_region_mentions}} the Global North.
 - id: S2
   scope: south_asia
   themes: [C13]
@@ -225,43 +227,52 @@
   caveat: >
     Technical mapping of South Asian cities appears in remote-sensing venues that the screening
     excludes.
+# ------------------------------------------------------------------ India
+# Revised after the India counts (2026-10-09). The provisional India gaps on municipal AI (C7),
+# urban surveillance (C6) and urban cybersecurity (C17) were dropped: India's share of those
+# themes is above its share of all social science works. The India gaps below are the themes
+# with the lowest India location quotients that are not already South Asia gaps.
 - id: I1
   scope: india
-  status: provisional until the India counts are in
-  themes: [C7]
-  title: AI and GenAI in Indian urban local bodies and city police
+  themes: [C4]
+  title: Urban informatics and urban computing on Indian cities
   evidence: >
-    India-named C7 works in 2020–26: {{v:C7.india_all_2020-26_adj}} (core
-    {{v:C7.india_core_2020-26_adj}}; India share {{v:C7.india_share_all_2020-26}}); South Asia
-    {{v:C7.sa_all_2020-26_adj}} ({{v:C7.sa_share_all_2020-26}}).
-  examples: {themes: [C7, B4], filter: india, pin: [W4403479195, W4401037965, W4417106816]}
+    Indian places are named in {{v:C4.india_share_all_2020-26}} of C4 works in 2020–26
+    ({{v:C4.india_all_2020-26_adj}} adjusted works; core venues {{v:C4.india_share_core_2020-26}},
+    {{v:C4.india_core_2020-26_adj}} works), against {{v:SS.india_share_all_2020-26}} of all social
+    science works (location quotient {{v:C4.lq_india_all_2020-26}},
+    {{rank:C4.lq_india_all_2020-26:all}}). C4's region mentions are led by China and East Asia
+    ({{v:C4.ea_share_of_region_mentions}}).
+  examples: {themes: [C4, C13, C16], filter: india}
   missing: >
-    AI and GenAI in Indian municipal corporations, smart-city companies and city police
-    (grievance chatbots, traffic and policing analytics): procurement, use, accountability,
-    effects.
+    Urban-data and urban-computing work on Indian cities, critical as well as technical: what
+    city data exist and who holds them, and analyses built on them.
 - id: I2
   scope: india
-  status: provisional until the India counts are in
-  themes: [C6]
-  title: CCTV, facial recognition and command centres in Indian public space
+  themes: [A2]
+  title: Master plans and land-use regulation in India
   evidence: >
-    India-named C6 works in 2020–26: {{v:C6.india_all_2020-26_adj}} (core
-    {{v:C6.india_core_2020-26_adj}}); South Asia {{v:C6.sa_all_2020-26_adj}}
-    ({{v:C6.sa_share_all_2020-26}} of C6). 'Facial recognition technology' is among the
-    fastest-rising terms in the map's records (see Emerging terms).
-  examples: {themes: [C6, B3], filter: india, pin: [W3002427919, W4281661177, W4412095183]}
+    India share of A2 works in 2020–26: {{v:A2.india_share_all_2020-26}} (core
+    {{v:A2.india_share_core_2020-26}}; {{v:A2.india_all_2020-26_adj}} adjusted works), location
+    quotient {{v:A2.lq_india_all_2020-26}}, {{rank:A2.lq_india_all_2020-26:dom}}; against
+    {{v:A3.india_share_all_2020-26}} for housing and informality (A3) and
+    {{v:A5.india_share_all_2020-26}} for peri-urban land (A5).
+  examples: {themes: [A2], filter: india}
   missing: >
-    CCTV networks, facial recognition and command-and-control centres in Indian cities: how
-    police and municipalities use them, oversight, effects on public space.
+    Studies of how master plans, development control rules and land-use regulation are made,
+    contested and enforced in Indian cities, beyond critiques of individual plans.
+  caveat: >
+    Much Indian planning writing appears in EPW and planning-practice outlets that OpenAlex
+    barely holds.
 - id: I3
   scope: india
-  status: provisional until the India counts are in
   themes: [C5]
   title: Municipal data governance in Indian cities
   evidence: >
-    India-named C5 works in 2020–26: {{v:C5.india_all_2020-26_adj}} (core
-    {{v:C5.india_core_2020-26_adj}}); South Asia {{v:C5.sa_all_2020-26_adj}}
-    ({{v:C5.sa_share_all_2020-26}} of C5).
+    India share of C5 works in 2020–26: {{v:C5.india_share_all_2020-26}} (core
+    {{v:C5.india_share_core_2020-26}}), {{v:C5.india_all_2020-26_adj}} adjusted works (core
+    {{v:C5.india_core_2020-26_adj}}); location quotient {{v:C5.lq_india_all_2020-26}}, against
+    {{v:C1.lq_india_all_2020-26}} for smart cities (C1).
   examples: {themes: [C5, C1], filter: india, regex: "data"}
   missing: >
     How Indian city governments and smart-city companies collect, share and govern data (data
@@ -269,72 +280,80 @@
     claims.
 - id: I4
   scope: india
-  status: provisional until the India counts are in
-  themes: [C17]
-  title: Cybersecurity of Indian city systems
+  themes: [C12]
+  title: Civic tech and e-participation in Indian cities
   evidence: >
-    India-named C17 works in 2020–26: {{v:C17.india_all_2020-26_adj}} (core
-    {{v:C17.india_core_2020-26_adj}}); South Asia {{v:C17.sa_all_2020-26_adj}}
-    ({{v:C17.sa_share_all_2020-26}} of C17).
-  examples: {themes: [C17, B10], filter: india, regex: "city|cities|urban|smart|infrastructure"}
+    India share of C12 works in 2020–26: {{v:C12.india_share_all_2020-26}} (core
+    {{v:C12.india_share_core_2020-26}}), {{v:C12.india_all_2020-26_adj}} adjusted works (core
+    {{v:C12.india_core_2020-26_adj}}); location quotient {{v:C12.lq_india_all_2020-26}}.
+  examples: {themes: [C12, C8], filter: india}
   missing: >
-    Cyber incidents affecting Indian urban services (utilities, transit, municipal systems,
-    command centres) and how cities govern that risk.
+    Grievance apps, participatory-budgeting platforms and ward-level digital participation in
+    Indian cities: who uses them and what changes.
 - id: I5
   scope: india
-  status: provisional until the India counts are in
   themes: [A16]
   title: The night-time city in India
   evidence: >
-    India-named A16 works in 2020–26: {{v:A16.india_all_2020-26_adj}} (core
-    {{v:A16.india_core_2020-26_adj}}); South Asia {{v:A16.sa_all_2020-26_adj}}
-    ({{v:A16.sa_share_all_2020-26}} of A16).
+    India share of A16 works in 2020–26: {{v:A16.india_share_all_2020-26}} (core
+    {{v:A16.india_share_core_2020-26}}), {{v:A16.india_all_2020-26_adj}} adjusted works (core
+    {{v:A16.india_core_2020-26_adj}}); location quotient {{v:A16.lq_india_all_2020-26}},
+    {{rank:A16.lq_india_all_2020-26:dom}}.
   examples: {themes: [A16], filter: india}
   missing: >
     Night-time work, services, mobility and access in Indian cities beyond women's safety:
     operating hours, night shifts, night markets.
+
+# ------------------------------------------------------------------ Delhi/NCR and Haryana
+# Revised after the Delhi and Haryana counts (2026-10-09). The provisional Delhi digital-mobility
+# gap was replaced: Delhi/NCR is named in digital-mobility work more often than its share of
+# social science works would predict. Note that the Delhi/NCR place list includes the Haryana
+# NCR cities (Gurugram, Faridabad, Sonipat ...), and the Haryana list includes them too.
 - id: H1
   scope: delhi_haryana
-  status: provisional until the Haryana counts are in
   themes: [A6]
   title: Haryana's secondary cities beyond Gurugram and Faridabad
   evidence: >
-    Haryana-named A6 works 2010–26: {{v:A6.haryana_all_2010-26_adj}} (core
-    {{v:A6.haryana_core_2010-26_adj}}), against {{v:A6.delhi_all_2010-26_adj}} naming Delhi/NCR.
+    Works naming Haryana's secondary cities with urban content (supplementary set S7),
+    2010–26: {{sl:S7.global_all_adj}} adjusted works, {{sl:S7.global_core_adj}} in core venues;
+    small-town and secondary-city works (A6) naming any Haryana place: {{v:A6.haryana_all_2010-26_adj}}
+    (core {{v:A6.haryana_core_2010-26_adj}}).
   examples: {themes: [A6, A1, S7], filter: haryana, pin: [W4377028253, W7216046805, W659497186]}
   missing: >
-    Governance, economy, infrastructure and digital change in Haryana's secondary cities
-    (Rohtak, Hisar, Panipat, Karnal, Sonipat, Ambala, Yamunanagar, Rewari and others); most
-    records found are remote-sensing studies of urban growth.
+    Governance, economy, infrastructure and digital change in Rohtak, Hisar, Panipat, Karnal,
+    Sonipat, Ambala, Yamunanagar, Rewari and other Haryana cities (what the map holds is
+    described in §9).
 - id: H2
   scope: delhi_haryana
-  status: provisional until the Haryana counts are in
   themes: [B5, C8]
   title: Digital identity and e-government in Haryana
   evidence: >
-    Haryana-named works 2010–26: B5 {{v:B5.haryana_all_2010-26_adj}} (core
+    Haryana-named works 2010–26: B5 {{v:B5.haryana_all_2010-26_adj}} adjusted (core
     {{v:B5.haryana_core_2010-26_adj}}), C8 {{v:C8.haryana_all_2010-26_adj}} (core
-    {{v:C8.haryana_core_2010-26_adj}}).
-  examples: {themes: [B5, C8, B4], filter: haryana}
+    {{v:C8.haryana_core_2010-26_adj}}); Delhi/NCR-named B5 works {{v:B5.delhi_all_2010-26_adj}}.
+  examples: {themes: [B5, C8], filter: haryana}
   missing: >
     Haryana's state family-ID database and city-level e-government: how eligibility data are
     produced and corrected, and how residents and officials work with them.
 - id: H3
   scope: delhi_haryana
-  status: provisional until the Delhi counts are in
-  themes: [C9, A8]
-  title: Digital mobility in Delhi/NCR
+  themes: [C15, C9, C2]
+  title: Gurugram and Haryana in platform, gig-work and digital-mobility research
   evidence: >
-    Delhi/NCR-named works 2010–26: C9 {{v:C9.delhi_all_2010-26_adj}} (core
-    {{v:C9.delhi_core_2010-26_adj}}), against A8 mobility and transport
-    {{v:A8.delhi_all_2010-26_adj}} (core {{v:A8.delhi_core_2010-26_adj}}).
-  examples: {themes: [C9, A8, C15, C2], filter: delhi, pin: [W4386073403, W4307269039, W4415064905]}
+    Works naming any Haryana place (Gurugram included), 2010–26, adjusted: urban gig work (C15)
+    {{v:C15.haryana_all_2010-26_adj}}, digital mobility (C9) {{v:C9.haryana_all_2010-26_adj}},
+    platform urbanism (C2) {{v:C2.haryana_all_2010-26_adj}}, proptech (C10)
+    {{v:C10.haryana_all_2010-26_adj}}; against Delhi/NCR-named C15 {{v:C15.delhi_all_2010-26_adj}}
+    (core {{v:C15.delhi_core_2010-26_adj}}), C9 {{v:C9.delhi_all_2010-26_adj}} and C2
+    {{v:C2.delhi_all_2010-26_adj}}.
+  examples: {themes: [C15, C2, C9, B11, B1], filter: haryana}
   missing: >
-    App-based and digitally ticketed mobility in Delhi/NCR (ride-hailing and app autos, metro
-    and bus digital ticketing) and how fares and apps shape who travels when.
+    Gurugram and the Haryana NCR as sites of platform work, quick-commerce warehousing, app-based
+    mobility and housing platforms, studied by name rather than folded into "Delhi".
   caveat: >
-    Overlaps the shortlist leads; listed because of the counts, and to be dropped if the Delhi
-    counts do not support it.
+    Works about Gurugram that name only "Delhi" or "NCR" are not counted for Haryana.
+
+# ------------------------------------------------------------------ methodological
 - id: M1
   scope: method
   themes: [C13]

@@ -1,0 +1,91 @@
+{
+ "theme": "C7",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"urban artificial intelligence\" OR \"urban AI\" OR \"AI urbanism\" OR \"city brain\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"urban artificial intelligence\" OR \"urban AI\" OR \"AI urbanism\" OR \"city brain\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"AI urbanism\" OR \"city brain\" OR \"urban AI\" OR \"urban artificial intelligence\"))",
+ "page": 2,
+ "total_results": 159,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_C7_india_q3_p2.json.gz",
+ "results": [
+  [
+   "W4406172693",
+   2025
+  ],
+  [
+   "W2007164849",
+   2007
+  ],
+  [
+   "W1977997757",
+   2010
+  ],
+  [
+   "W2159319429",
+   2012
+  ],
+  [
+   "W2518026504",
+   2016
+  ],
+  [
+   "W4362705743",
+   2023
+  ],
+  [
+   "W2402260250",
+   2016
+  ],
+  [
+   "W61439666",
+   2011
+  ],
+  [
+   "W4307898881",
+   2022
+  ],
+  [
+   "W3216846462",
+   2021
+  ],
+  [
+   "W2002985532",
+   2010
+  ],
+  [
+   "W2944180046",
+   2019
+  ],
+  [
+   "W4407988944",
+   2025
+  ],
+  [
+   "W2620919070",
+   2017
+  ],
+  [
+   "W2608432825",
+   2017
+  ],
+  [
+   "W4283067927",
+   2022
+  ],
+  [
+   "W2170072121",
+   2014
+  ],
+  [
+   "W2910588339",
+   2019
+  ]
+ ]
+}

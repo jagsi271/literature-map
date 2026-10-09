@@ -1,0 +1,79 @@
+{
+ "theme": "B8",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"social media\" OR WhatsApp OR Facebook OR Twitter) AND (Hindutva OR nationalism OR \"digital politics\" OR dissent OR \"lived democracy\")) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"social media\" OR WhatsApp OR Facebook OR Twitter) AND (Hindutva OR nationalism OR \"digital politics\" OR dissent OR \"lived democracy\")) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"Facebook\" OR \"Twitter\" OR \"WhatsApp\" OR \"social media\") AND (\"Hindutva\" OR \"digital politics\" OR \"lived democracy\" OR \"dissent\" OR \"nationalism\"))",
+ "page": 2,
+ "total_results": 538,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_B8_india_q5_p2.json.gz",
+ "results": [
+  [
+   "W4400677543",
+   2024
+  ],
+  [
+   "W2312250426",
+   2013
+  ],
+  [
+   "W7160546973",
+   2026
+  ],
+  [
+   "W4392895416",
+   2024
+  ],
+  [
+   "W4353084918",
+   2023
+  ],
+  [
+   "W4378224190",
+   2022
+  ],
+  [
+   "W7220354393",
+   2025
+  ],
+  [
+   "W4387052518",
+   2023
+  ],
+  [
+   "W2045687519",
+   1999
+  ],
+  [
+   "W7216891225",
+   2026
+  ],
+  [
+   "W7220861566",
+   2026
+  ],
+  [
+   "W4312120122",
+   2022
+  ],
+  [
+   "W7164241815",
+   2026
+  ],
+  [
+   "W7162337851",
+   2026
+  ],
+  [
+   "W4241674289",
+   2016
+  ]
+ ]
+}

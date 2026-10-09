@@ -2,7 +2,7 @@
 
 Read BRIEF.md first. This file says what is done, what is next, and what went wrong.
 
-## Current stage: Stage 3 in progress (Stage 2b done; India page 2 and population counts run after the OpenAlex reset)
+## Current stage: Stage 3 done (2026-10-09) — report, spreadsheet and exports complete
 
 ### Stage 3 log (2026-10-08, from cached data; no searches — credits at the 800 reserve)
 - **Rule for claims.** Gap, growth and mismatch claims rest only on OpenAlex-wide population
@@ -43,17 +43,57 @@ Read BRIEF.md first. This file says what is done, what is next, and what went wr
   remaining credits); `OPENALEX_OFFLINE=1` forces cache-only rebuilds.
 - Rebuild everything from cache: `sh scripts/stage3_build.sh "message"`.
 
-### Stage 3, after the OpenAlex reset (scheduled check-in, 2026-10-09 00:15 UTC)
-1. India page 2 for 48 themes + S1–S7: `python3 scripts/run_search.py T india_p2` (207 searches,
-   ≈2,070 credits).
-2. Population counts: `python3 scripts/population_counts.py fetch` (≈6,350 credits; resumable;
-   pauses at the 800 reserve — if it pauses, finish at the next reset).
-3. Review new borderline records (each theme < 25%), re-run the recall test, regenerate all
-   record-dependent tables (`sh scripts/stage3_build.sh`), report all-venue and core-only counts.
-4. Revise the provisional India/Delhi/Haryana gaps against their counts; write §9 (shortlist
-   leads S1–S7: India and Haryana works by method and venue type, strongest qualitative works,
-   what is missing); trim the report to ≈5,000 words.
-5. Merge into `literature-map`, push, final summary.
+### Stage 3 log (2026-10-09, after the OpenAlex reset)
+- **India page 2** for all 48 themes and S1–S7: 207 searches (≈2,030 credits). A bug kept the
+  new results out at first: `build_records.py` treated manifests tagged `stage2b` as Stage 1
+  pilot searches needing a separate ID check; fixed (Stage 2 and 2b manifests take IDs straight
+  from API responses).
+- **Hand review** of the 334 new borderline candidates (reviewer "manual review, Stage 3 India
+  page 2"; 50 moved to the theme they belong to). Every theme stays under 25% borderline (highest
+  C16, 23%). While writing the report, 5 book reviews of *Timepass* and 26 records of a
+  self-published AI monograph series (one author, 2025–26, generic) were excluded. Records
+  7,587 → **9,405** (8,949 in themes, 456 supplementary-only); India 3,336 (1,154 core venue),
+  Delhi/NCR 506, Haryana 127 (37 core venue); shortlist tag 346.
+- **Population counts**: all 637 calls (≈6,370 credits): core-venue versions of the global and
+  South Asia series, India per year (all/core), Delhi/NCR, Haryana and six other regions
+  (2010–26, all/core), the matching Social Sciences baselines, and a 40-work precision sample of
+  each theme's South Asia hit set (now used for South Asia, India, Delhi and Haryana counts).
+  Shortlist leads: `scripts/shortlist_counts.py` (26 calls, ≈260 credits): worldwide, India and
+  Haryana counts for S1–S7 with a precision sample each.
+- **Recall** (re-run): found **66** (was 51), below cut-off **83** (was 100), query gap 12,
+  screened out 4 (rules, not hand decisions), not in OpenAlex 10, expansion corpus 1. A second
+  bug surfaced here: the query-match test cached its answers by batch position, so once some
+  seeds were found the cached batches no longer matched the seed list (it showed 30 query
+  gaps). The test now ORs theme queries in ten groups and keys each cache by a hash of the IDs
+  and queries (10 searches). The 12 query gaps are the same works as in Stage 2, so the Stage 2
+  figures stand.
+- **Report and gaps revised with the new counts.** Dropped provisional gaps not supported by
+  the counts: municipal AI, urban surveillance and urban cybersecurity in India, and digital
+  mobility in Delhi (India's/Delhi's share of those themes is above its share of all social
+  science). New India gaps from the lowest India location quotients: urban informatics (C4),
+  master plans and land-use regulation (A2), civic tech (C12); kept: urban data governance (C5),
+  the night-time city (A16). New Haryana gap: Gurugram/Haryana in platform, gig-work and
+  digital-mobility research (Haryana-named C15 and C9: 1 and 0 raw hits, 2010–26). Global North
+  mismatch, India table (all vs core venues) and §9 on the shortlist leads written.
+- API: ≈8,810 credits used on 2026-10-09 (912 logged calls); 1,186 left (reserve 800 kept).
+
+### Stage 3 report (short)
+**Done.** Population counts (all and core venues; global, South Asia, India, Delhi/NCR, Haryana,
+six regions), growth and saturation, emerging terms (within-period shares, checked
+OpenAlex-wide, 2025–26 out of FWCI signals), mismatch (South Asia, India, Global North),
+landmarks, 25 candidate gaps (7 global, 7 South Asia, 5 India, 3 Delhi/Haryana, 3 method), method
+shares among known-method records with n, shortlist-lead section, `outputs/REPORT.md` (≈5,100
+words outside tables), `outputs/bibliography.xlsx` (tabs Read me · Records · Sample coverage ·
+Growth · Emerging terms · Candidate gaps · Methods · Shortlist counts · Coverage limits ·
+Landmarks by theme · India subset · Shortlist), `outputs/bibliography.bib` and `.ris`.
+**Main findings.** 21 themes grew ≥ ×3 (all digital or urban × digital; growth is slower in
+core venues for 34 of 41 themes); A3, A11, A13 saturating and C3 shrinking. Fast globally but
+≤ 5% South Asia: C13, B14, B2, C5, C9, B9, B1. Global North ≥ ~50% of region mentions: C10, C3,
+A16, C13. India-thin: C10, C4, B14, C13, C3, B2, A16, C9, B9, C5, A2; Indian work on C17, B10,
+C2, B7, C13 sits mostly outside core venues.
+**Limits.** Indian venues and theses are poorly covered by OpenAlex (every India/Delhi/Haryana
+gap says so); precision samples are small (C18, S2, S3, S4 least certain); the blind check
+predates the India page-2 records; places come from titles/abstracts only.
 
 ### Stage 2b log
 - Keep all records (no trimming).
@@ -213,27 +253,27 @@ All: in scope 254/288, correct theme 233/288, region 246/288 (sample drawn befor
 <!-- AUTO:RECALL -->
 | Seed category (seeds.csv) | Map themes | Seeds | found | below cut-off | query gap | screened out | not in OpenAlex | expansion corpus only |
 |---|---|---|---|---|---|---|---|---|
-| Mobility & transport | A8 C9 S1 S2 S3 S4 S5 S6 | 25 | 5 | 15 | 2 | 0 | 3 | 0 |
-| Smart city & digital governance | C1 C5 C7 C8 | 19 | 4 | 11 | 3 | 0 | 1 | 0 |
-| Platforms & gig economy | B1 B11 C2 C15 | 19 | 9 | 10 | 0 | 0 | 0 | 0 |
-| Housing, resettlement & informality | A3 A4 C14 | 15 | 4 | 10 | 0 | 1 | 0 | 0 |
+| Mobility & transport | A8 C9 S1 S2 S3 S4 S5 S6 | 25 | 6 | 13 | 2 | 1 | 3 | 0 |
+| Smart city & digital governance | C1 C5 C7 C8 | 19 | 6 | 9 | 3 | 0 | 1 | 0 |
+| Platforms & gig economy | B1 B11 C2 C15 | 19 | 12 | 7 | 0 | 0 | 0 | 0 |
+| Housing, resettlement & informality | A3 A4 C14 | 15 | 5 | 9 | 0 | 1 | 0 | 0 |
 | Heritage, events & world-class city | A13 C16 | 12 | 4 | 7 | 1 | 0 | 0 | 0 |
-| Land, peri-urban & private cities | A5 A2 | 11 | 3 | 7 | 0 | 1 | 0 | 0 |
-| Small towns & census towns | A6 S7 | 10 | 5 | 3 | 0 | 0 | 2 | 0 |
-| Welfare technology & identity | B5 B4 | 9 | 3 | 5 | 0 | 0 | 1 | 0 |
-| Digital finance & payments | B6 C11 | 8 | 0 | 8 | 0 | 0 | 0 | 0 |
-| Digital divide & access | B7 B13 | 8 | 3 | 5 | 0 | 0 | 0 | 0 |
-| Bureaucracy, waiting & documents | B5 A1 S2 | 7 | 3 | 1 | 2 | 0 | 0 | 1 |
+| Land, peri-urban & private cities | A5 A2 | 11 | 4 | 6 | 0 | 1 | 0 | 0 |
+| Small towns & census towns | A6 S7 | 10 | 6 | 2 | 0 | 0 | 2 | 0 |
+| Welfare technology & identity | B5 B4 | 9 | 3 | 4 | 0 | 1 | 1 | 0 |
+| Digital finance & payments | B6 C11 | 8 | 1 | 7 | 0 | 0 | 0 | 0 |
+| Digital divide & access | B7 B13 | 8 | 4 | 4 | 0 | 0 | 0 | 0 |
+| Bureaucracy, waiting & documents | B5 A1 S2 | 7 | 4 | 0 | 2 | 0 | 0 | 1 |
 | Digital publics & social media | B8 C12 C18 | 6 | 3 | 2 | 1 | 0 | 0 | 0 |
-| Cybercrime & fraud | B10 C17 | 6 | 0 | 6 | 0 | 0 | 0 | 0 |
+| Cybercrime & fraud | B10 C17 | 6 | 1 | 5 | 0 | 0 | 0 | 0 |
 | Gender & public space | A9 A12 | 6 | 2 | 2 | 0 | 0 | 2 | 0 |
 | Knowledge access & libraries | B7 | 6 | 0 | 2 | 3 | 0 | 1 | 0 |
-| Neighbourhoods, RWAs & civil society | C18 A1 | 5 | 3 | 2 | 0 | 0 | 0 | 0 |
-| Surveillance & security | B3 C6 | 2 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Neighbourhoods, RWAs & civil society | C18 A1 | 5 | 4 | 1 | 0 | 0 | 0 | 0 |
+| Surveillance & security | B3 C6 | 2 | 1 | 1 | 0 | 0 | 0 | 0 |
 | Street vending & informal economy | A10 C14 | 2 | 0 | 2 | 0 | 0 | 0 | 0 |
-| **All** | | 176 | 51 | 100 | 12 | 2 | 10 | 1 |
+| **All** | | 176 | 66 | 83 | 12 | 4 | 10 | 1 |
 
-Found seeds by the map's primary theme: A3 2, A4 1, A5 4, A6 5, A8 5, A9 1, A13 4, A16 3, B5 4, B8 2, B11 3, B13 3, C1 3, C2 4, C8 1, C15 2, C18 4.
+Found seeds by the map's primary theme: A1 1, A3 3, A4 1, A5 5, A6 6, A8 7, A9 1, A13 4, A16 3, B5 4, B7 1, B8 2, B10 1, B11 5, B13 3, C1 5, C2 4, C8 2, C11 1, C15 3, C18 4.
 <!-- /AUTO:RECALL -->
 
 ### Stage 2 log
@@ -269,63 +309,63 @@ Found seeds by the map's primary theme: A3 2, A4 1, A5 4, A6 5, A8 5, A9 1, A13 
 <!-- AUTO:SCREENING -->
 | Theme | Name | Candidates | Rule incl. | Borderline (share) | Hand kept / dropped | Records found | Primary here |
 |---|---|---|---|---|---|---|---|
-| A1 | Urban governance, decentralisation & municipa | 264 | 187 | 30 (11%) | 12 / 18 | 176 | 170 |
-| A2 | Planning, master plans & land-use regulation | 239 | 165 | 11 (5%) | 3 / 8 | 161 | 243 |
-| A3 | Housing, informality & slums | 265 | 171 | 43 (16%) | 17 / 26 | 175 | 171 |
-| A4 | Eviction, resettlement & displacement | 219 | 165 | 16 (7%) | 8 / 8 | 165 | 158 |
-| A5 | Land, peri-urban & extended urbanisation | 277 | 162 | 21 (8%) | 10 / 11 | 167 | 164 |
-| A6 | Small towns, census towns & secondary cities | 364 | 150 | 23 (6%) | 11 / 12 | 156 | 204 |
-| A7 | Urban infrastructure (water, sanitation, ener | 242 | 154 | 21 (9%) | 9 / 12 | 158 | 183 |
-| A8 | Mobility & transport (social science) | 274 | 196 | 21 (8%) | 7 / 14 | 199 | 274 |
-| A9 | Public space, publicness & the street | 287 | 188 | 36 (12%) | 21 / 15 | 212 | 211 |
-| A10 | Urban economy, informal work & street vending | 228 | 152 | 24 (10%) | 11 / 13 | 165 | 162 |
-| A11 | Migration & the city | 236 | 173 | 19 (8%) | 8 / 11 | 169 | 165 |
-| A12 | Gender, caste, class & the city | 233 | 160 | 21 (9%) | 11 / 10 | 167 | 162 |
-| A13 | Heritage, mega-events & "world-class" city ma | 246 | 176 | 21 (8%) | 11 / 10 | 184 | 182 |
-| A14 | Urban environment, climate & risk | 246 | 193 | 29 (12%) | 10 / 19 | 190 | 188 |
-| A15 | Urban & planning theory, Southern urbanism | 233 | 144 | 39 (17%) | 24 / 15 | 159 | 155 |
-| A16 | Night-time city & urban time | 241 | 121 | 29 (12%) | 17 / 12 | 131 | 208 |
-| B1 | Platforms & platform capitalism | 239 | 177 | 33 (14%) | 16 / 17 | 186 | 167 |
-| B2 | Datafication, data justice & data colonialism | 240 | 149 | 36 (15%) | 19 / 17 | 162 | 158 |
-| B3 | Surveillance studies | 229 | 152 | 30 (13%) | 11 / 19 | 155 | 146 |
-| B4 | Algorithmic governance & AI in the public sec | 240 | 200 | 13 (5%) | 4 / 9 | 184 | 184 |
-| B5 | Digital identity & digital public infrastruct | 298 | 203 | 50 (17%) | 16 / 34 | 201 | 197 |
-| B6 | Digital finance & payments | 217 | 181 | 13 (6%) | 8 / 5 | 187 | 187 |
-| B7 | Digital divides & digital inclusion | 236 | 183 | 26 (11%) | 15 / 11 | 181 | 177 |
-| B8 | Social media, digital publics & political com | 272 | 217 | 22 (8%) | 16 / 6 | 220 | 217 |
-| B9 | Misinformation & extreme speech | 238 | 159 | 44 (18%) | 29 / 15 | 180 | 179 |
-| B10 | Cybercrime, fraud & cybersecurity (social sci | 240 | 172 | 24 (10%) | 10 / 14 | 170 | 170 |
-| B11 | Digital labour | 238 | 203 | 12 (5%) | 8 / 4 | 204 | 196 |
-| B12 | Infrastructure studies & STS of digital syste | 239 | 138 | 39 (16%) | 16 / 23 | 149 | 146 |
-| B13 | Mobile phones & everyday digital life | 269 | 153 | 28 (10%) | 7 / 21 | 153 | 150 |
-| B14 | Generative AI & society | 237 | 146 | 26 (11%) | 9 / 17 | 153 | 153 |
-| C1 | Smart cities & smart urbanism | 219 | 187 | 15 (7%) | 3 / 12 | 199 | 194 |
-| C2 | Platform urbanism | 246 | 191 | 21 (8%) | 12 / 9 | 195 | 181 |
+| A1 | Urban governance, decentralisation & municipa | 343 | 253 | 34 (10%) | 15 / 19 | 243 | 236 |
+| A2 | Planning, master plans & land-use regulation | 306 | 208 | 20 (6%) | 7 / 13 | 208 | 316 |
+| A3 | Housing, informality & slums | 344 | 241 | 45 (13%) | 19 / 26 | 247 | 243 |
+| A4 | Eviction, resettlement & displacement | 285 | 207 | 24 (8%) | 10 / 14 | 209 | 201 |
+| A5 | Land, peri-urban & extended urbanisation | 366 | 224 | 33 (9%) | 14 / 19 | 232 | 229 |
+| A6 | Small towns, census towns & secondary cities | 433 | 196 | 28 (6%) | 15 / 13 | 203 | 267 |
+| A7 | Urban infrastructure (water, sanitation, ener | 311 | 205 | 24 (8%) | 10 / 14 | 208 | 243 |
+| A8 | Mobility & transport (social science) | 360 | 262 | 27 (8%) | 9 / 18 | 267 | 369 |
+| A9 | Public space, publicness & the street | 334 | 219 | 42 (13%) | 25 / 17 | 247 | 244 |
+| A10 | Urban economy, informal work & street vending | 293 | 209 | 30 (10%) | 15 / 15 | 228 | 220 |
+| A11 | Migration & the city | 302 | 222 | 28 (9%) | 15 / 13 | 226 | 222 |
+| A12 | Gender, caste, class & the city | 301 | 210 | 27 (9%) | 15 / 12 | 218 | 210 |
+| A13 | Heritage, mega-events & "world-class" city ma | 322 | 227 | 30 (9%) | 16 / 14 | 235 | 233 |
+| A14 | Urban environment, climate & risk | 320 | 242 | 47 (15%) | 17 / 30 | 247 | 242 |
+| A15 | Urban & planning theory, Southern urbanism | 303 | 169 | 55 (18%) | 31 / 24 | 188 | 181 |
+| A16 | Night-time city & urban time | 290 | 130 | 33 (11%) | 18 / 15 | 141 | 220 |
+| B1 | Platforms & platform capitalism | 310 | 222 | 44 (14%) | 22 / 22 | 236 | 210 |
+| B2 | Datafication, data justice & data colonialism | 307 | 165 | 48 (16%) | 25 / 23 | 184 | 178 |
+| B3 | Surveillance studies | 293 | 188 | 38 (13%) | 13 / 25 | 191 | 181 |
+| B4 | Algorithmic governance & AI in the public sec | 305 | 257 | 15 (5%) | 4 / 11 | 235 | 234 |
+| B5 | Digital identity & digital public infrastruct | 355 | 243 | 55 (16%) | 19 / 36 | 238 | 231 |
+| B6 | Digital finance & payments | 271 | 231 | 15 (6%) | 10 / 5 | 239 | 236 |
+| B7 | Digital divides & digital inclusion | 300 | 237 | 28 (9%) | 17 / 11 | 238 | 230 |
+| B8 | Social media, digital publics & political com | 353 | 291 | 26 (7%) | 18 / 8 | 297 | 294 |
+| B9 | Misinformation & extreme speech | 308 | 211 | 59 (19%) | 37 / 22 | 240 | 236 |
+| B10 | Cybercrime, fraud & cybersecurity (social sci | 311 | 231 | 33 (11%) | 15 / 18 | 233 | 233 |
+| B11 | Digital labour | 304 | 262 | 17 (6%) | 11 / 6 | 260 | 241 |
+| B12 | Infrastructure studies & STS of digital syste | 291 | 146 | 49 (17%) | 17 / 32 | 157 | 154 |
+| B13 | Mobile phones & everyday digital life | 351 | 210 | 33 (9%) | 8 / 25 | 209 | 205 |
+| B14 | Generative AI & society | 308 | 187 | 33 (11%) | 11 / 22 | 190 | 189 |
+| C1 | Smart cities & smart urbanism | 283 | 230 | 17 (6%) | 5 / 12 | 249 | 243 |
+| C2 | Platform urbanism | 280 | 214 | 22 (8%) | 13 / 9 | 219 | 199 |
 | C3 | Digital geographies & code/space | 199 | 81 | 22 (11%) | 10 / 12 | 91 | 88 |
-| C4 | Urban informatics & urban computing | 227 | 126 | 20 (9%) | 9 / 11 | 130 | 121 |
-| C5 | Urban data governance & data justice in citie | 230 | 117 | 44 (19%) | 11 / 33 | 124 | 114 |
-| C6 | Urban surveillance, policing & biometrics in  | 240 | 104 | 37 (15%) | 12 / 25 | 113 | 110 |
-| C7 | Algorithmic & automated urban governance, mun | 226 | 123 | 33 (15%) | 6 / 27 | 125 | 118 |
-| C8 | City-level DPI & urban e-government | 217 | 114 | 31 (14%) | 13 / 18 | 129 | 121 |
-| C9 | Digital mobility (ride-hailing, MaaS, digital | 227 | 126 | 19 (8%) | 6 / 13 | 115 | 150 |
-| C10 | Proptech, housing platforms & short-term rent | 226 | 144 | 34 (15%) | 7 / 27 | 146 | 144 |
-| C11 | Digital payments in urban economies (QR, UPI, | 218 | 110 | 13 (6%) | 3 / 10 | 106 | 98 |
-| C12 | Civic tech, e-participation & digital urban p | 239 | 87 | 28 (12%) | 13 / 15 | 98 | 92 |
-| C13 | Digital twins, simulation & visual rendering  | 228 | 151 | 18 (8%) | 7 / 11 | 156 | 152 |
-| C14 | Digital informality (informal settlements, ve | 191 | 113 | 29 (15%) | 9 / 20 | 105 | 94 |
-| C15 | Gig work in the city (urban and spatial focus | 222 | 108 | 10 (4%) | 7 / 3 | 107 | 85 |
-| C16 | Digital heritage, mapping & representation of | 213 | 120 | 49 (23%) | 15 / 34 | 128 | 126 |
-| C17 | Urban cybersecurity & cyber-physical infrastr | 228 | 110 | 40 (18%) | 13 / 27 | 119 | 114 |
-| C18 | Neighbourhood platforms & digital public spac | 217 | 56 | 30 (14%) | 6 / 24 | 59 | 58 |
-| S1 | Railway stations | 126 | 75 | 11 (9%) | 4 / 7 | 79 | 0 |
-| S2 | Waiting and waiting rooms | 127 | 30 | 11 (9%) | 5 / 6 | 32 | 0 |
+| C4 | Urban informatics & urban computing | 256 | 138 | 23 (9%) | 10 / 13 | 140 | 131 |
+| C5 | Urban data governance & data justice in citie | 271 | 123 | 57 (21%) | 12 / 45 | 131 | 120 |
+| C6 | Urban surveillance, policing & biometrics in  | 306 | 136 | 49 (16%) | 15 / 34 | 146 | 136 |
+| C7 | Algorithmic & automated urban governance, mun | 281 | 145 | 38 (14%) | 6 / 32 | 147 | 138 |
+| C8 | City-level DPI & urban e-government | 268 | 131 | 43 (16%) | 16 / 27 | 151 | 140 |
+| C9 | Digital mobility (ride-hailing, MaaS, digital | 272 | 142 | 27 (10%) | 7 / 20 | 128 | 162 |
+| C10 | Proptech, housing platforms & short-term rent | 267 | 158 | 37 (14%) | 8 / 29 | 160 | 158 |
+| C11 | Digital payments in urban economies (QR, UPI, | 279 | 143 | 25 (9%) | 3 / 22 | 138 | 128 |
+| C12 | Civic tech, e-participation & digital urban p | 260 | 89 | 31 (12%) | 14 / 17 | 101 | 92 |
+| C13 | Digital twins, simulation & visual rendering  | 266 | 176 | 22 (8%) | 7 / 15 | 173 | 168 |
+| C14 | Digital informality (informal settlements, ve | 238 | 142 | 37 (16%) | 12 / 25 | 135 | 120 |
+| C15 | Gig work in the city (urban and spatial focus | 281 | 150 | 12 (4%) | 8 / 4 | 147 | 115 |
+| C16 | Digital heritage, mapping & representation of | 248 | 133 | 58 (23%) | 16 / 42 | 141 | 139 |
+| C17 | Urban cybersecurity & cyber-physical infrastr | 265 | 127 | 47 (18%) | 14 / 33 | 130 | 125 |
+| C18 | Neighbourhood platforms & digital public spac | 267 | 75 | 36 (14%) | 6 / 30 | 78 | 75 |
+| S1 | Railway stations | 165 | 104 | 12 (7%) | 4 / 8 | 108 | 0 |
+| S2 | Waiting and waiting rooms | 167 | 36 | 12 (7%) | 5 / 7 | 34 | 0 |
 | S3 | Night-time transit and transit operating hour | 105 | 46 | 5 (5%) | 2 / 3 | 47 | 0 |
-| S4 | Fare integration and transit cards (incl. NCM | 127 | 66 | 24 (19%) | 7 / 17 | 46 | 0 |
-| S5 | Rail-led urbanism and transit-oriented develo | 119 | 89 | 10 (8%) | 6 / 4 | 94 | 0 |
-| S6 | Elevated rail and infrastructure undersides | 118 | 32 | 3 (2%) | 3 / 0 | 34 | 0 |
-| S7 | Haryana secondary cities (excluding Gurugram  | 109 | 44 | 2 (2%) | 1 / 1 | 50 | 0 |
+| S4 | Fare integration and transit cards (incl. NCM | 133 | 66 | 25 (19%) | 8 / 17 | 47 | 0 |
+| S5 | Rail-led urbanism and transit-oriented develo | 157 | 120 | 13 (8%) | 8 / 5 | 126 | 0 |
+| S6 | Elevated rail and infrastructure undersides | 153 | 46 | 4 (3%) | 3 / 1 | 48 | 0 |
+| S7 | Haryana secondary cities (excluding Gurugram  | 132 | 62 | 2 (2%) | 1 / 1 | 68 | 0 |
 
-Total deduplicated records: 7587.
+Total deduplicated records: 9405.
 <!-- /AUTO:SCREENING -->
 
 ### OpenAlex API usage (generated from `data/raw/api_ledger.csv`)
@@ -333,6 +373,7 @@ Total deduplicated records: 7587.
 | UTC day | Calls by this pipeline | Cost (USD) | ≈ searches | Credits left at last call |
 |---|---|---|---|---|
 | 2026-10-08 | 982 | 0.878 | 878 | 810 |
+| 2026-10-09 | 912 | 0.881 | 881 | 1186 |
 <!-- /AUTO:API -->
 
 ## Stage 1 (pilot) — approved

@@ -1,0 +1,79 @@
+{
+ "theme": "A13",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"old city\" OR \"historic city\" OR \"walled city\" OR \"historic core\" OR \"Old Delhi\" OR Shahjahanabad) AND (heritage OR nostalgia OR tourism OR conservation OR redevelopment OR consumption)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"old city\" OR \"historic city\" OR \"walled city\" OR \"historic core\" OR \"Old Delhi\" OR Shahjahanabad) AND (heritage OR nostalgia OR tourism OR conservation OR redevelopment OR consumption)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"Shahjahanabad\" OR \"Old Delhi\" OR \"historic city\" OR \"historic core\" OR \"old city\" OR \"walled city\") AND (\"conservation\" OR \"consumption\" OR \"heritage\" OR \"nostalgia\" OR \"redevelopment\" OR \"tourism\"))",
+ "page": 2,
+ "total_results": 398,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_A13_india_q5_p2.json.gz",
+ "results": [
+  [
+   "W3138656978",
+   2018
+  ],
+  [
+   "W2426864216",
+   2016
+  ],
+  [
+   "W4387779892",
+   2023
+  ],
+  [
+   "W2771366009",
+   2017
+  ],
+  [
+   "W4413835973",
+   2025
+  ],
+  [
+   "W2605352821",
+   2016
+  ],
+  [
+   "W4404362981",
+   2024
+  ],
+  [
+   "W3208992641",
+   2017
+  ],
+  [
+   "W2915217477",
+   2007
+  ],
+  [
+   "W4296550734",
+   2015
+  ],
+  [
+   "W2885069912",
+   2018
+  ],
+  [
+   "W2766995913",
+   2017
+  ],
+  [
+   "W2955814083",
+   2019
+  ],
+  [
+   "W4396804025",
+   2024
+  ],
+  [
+   "W4300842020",
+   2018
+  ]
+ ]
+}

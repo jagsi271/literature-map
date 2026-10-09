@@ -1,0 +1,79 @@
+{
+ "theme": "C9",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR (ridesharing AND urban)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"ride-hailing\" OR \"ride hailing\" OR ridesourcing OR \"ride-sourcing\" OR (ridesharing AND urban)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 15,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"ride hailing\" OR \"ride-hailing\" OR \"ride-sourcing\" OR \"ridesourcing\" OR (\"ridesharing\" AND \"urban\")))",
+ "page": 2,
+ "total_results": 304,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_C9_india_q1_p2.json.gz",
+ "results": [
+  [
+   "W4285252615",
+   2022
+  ],
+  [
+   "W4408143956",
+   2025
+  ],
+  [
+   "W7154483309",
+   2026
+  ],
+  [
+   "W4415943792",
+   2025
+  ],
+  [
+   "W4291237239",
+   2022
+  ],
+  [
+   "W4412462788",
+   2025
+  ],
+  [
+   "W4405118217",
+   2024
+  ],
+  [
+   "W4312391714",
+   2020
+  ],
+  [
+   "W4242196536",
+   2020
+  ],
+  [
+   "W4320801469",
+   2022
+  ],
+  [
+   "W4392626274",
+   2024
+  ],
+  [
+   "W4386327759",
+   2023
+  ],
+  [
+   "W3199210739",
+   2021
+  ],
+  [
+   "W7215675600",
+   2024
+  ],
+  [
+   "W4365128815",
+   2023
+  ]
+ ]
+}

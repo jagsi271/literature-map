@@ -1,0 +1,115 @@
+{
+ "theme": "B5",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"digital identity\" OR \"digital ID\" OR \"digital identification\" OR \"national ID\" OR \"national identity card\" OR \"national identity cards\" OR \"foundational ID\" OR \"identity cards\" OR \"ID cards\" OR \"identity documents\") AND (citizenship OR welfare OR \"social protection\" OR surveillance OR \"public services\" OR \"financial inclusion\" OR government)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"digital identity\" OR \"digital ID\" OR \"digital identification\" OR \"national ID\" OR \"national identity card\" OR \"national identity cards\" OR \"foundational ID\" OR \"identity cards\" OR \"ID cards\" OR \"identity documents\") AND (citizenship OR welfare OR \"social protection\" OR surveillance OR \"public services\" OR \"financial inclusion\" OR government)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"ID cards\" OR \"digital ID\" OR \"digital identification\" OR \"digital identity\" OR \"foundational ID\" OR \"identity cards\" OR \"identity documents\" OR \"national ID\" OR \"national identity card\" OR \"national identity cards\") AND (\"financial inclusion\" OR \"public services\" OR \"social protection\" OR \"citizenship\" OR \"government\" OR \"surveillance\" OR \"welfare\"))",
+ "page": 2,
+ "total_results": 472,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_B5_india_q2_p2.json.gz",
+ "results": [
+  [
+   "W3162003355",
+   2020
+  ],
+  [
+   "W7164596685",
+   2026
+  ],
+  [
+   "W7164888938",
+   2026
+  ],
+  [
+   "W4411962800",
+   2025
+  ],
+  [
+   "W7220260751",
+   2026
+  ],
+  [
+   "W7119143115",
+   2026
+  ],
+  [
+   "W4401316654",
+   2024
+  ],
+  [
+   "W7135547745",
+   2024
+  ],
+  [
+   "W7213895390",
+   2026
+  ],
+  [
+   "W2620575477",
+   2017
+  ],
+  [
+   "W7172407764",
+   2026
+  ],
+  [
+   "W7117454912",
+   2025
+  ],
+  [
+   "W4250369510",
+   2011
+  ],
+  [
+   "W7118015759",
+   2025
+  ],
+  [
+   "W4294688523",
+   2022
+  ],
+  [
+   "W4287724194",
+   2020
+  ],
+  [
+   "W1964822937",
+   2014
+  ],
+  [
+   "W2756106581",
+   2017
+  ],
+  [
+   "W7105753273",
+   2025
+  ],
+  [
+   "W3094080533",
+   2020
+  ],
+  [
+   "W4417454670",
+   2025
+  ],
+  [
+   "W1972471304",
+   2012
+  ],
+  [
+   "W4417091595",
+   2025
+  ],
+  [
+   "W568933292",
+   2010
+  ]
+ ]
+}

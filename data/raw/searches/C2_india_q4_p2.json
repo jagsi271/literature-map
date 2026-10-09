@@ -1,0 +1,91 @@
+{
+ "theme": "C2",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"e-commerce\" OR \"quick commerce\" OR \"on-demand economy\" OR \"dark stores\" OR \"online food delivery\") AND (city OR cities OR urban) AND (freight OR logistics OR \"spatial planning\" OR planning OR establishments)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"e-commerce\" OR \"quick commerce\" OR \"on-demand economy\" OR \"dark stores\" OR \"online food delivery\") AND (city OR cities OR urban) AND (freight OR logistics OR \"spatial planning\" OR planning OR establishments)) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"dark stores\" OR \"on-demand economy\" OR \"online food delivery\" OR \"quick commerce\" OR \"e-commerce\") AND (\"spatial planning\" OR \"establishments\" OR \"freight\" OR \"logistics\" OR \"planning\") AND (\"cities\" OR \"city\" OR \"urban\"))",
+ "page": 2,
+ "total_results": 229,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_C2_india_q4_p2.json.gz",
+ "results": [
+  [
+   "W4321161986",
+   2023
+  ],
+  [
+   "W4403464863",
+   2024
+  ],
+  [
+   "W4411270545",
+   2025
+  ],
+  [
+   "W4409337500",
+   2025
+  ],
+  [
+   "W7162478671",
+   2026
+  ],
+  [
+   "W7129756594",
+   2026
+  ],
+  [
+   "W7213497400",
+   2026
+  ],
+  [
+   "W4405894612",
+   2024
+  ],
+  [
+   "W7201996948",
+   2026
+  ],
+  [
+   "W7215736804",
+   2026
+  ],
+  [
+   "W7217503456",
+   2026
+  ],
+  [
+   "W4307627412",
+   2022
+  ],
+  [
+   "W7118644430",
+   2026
+  ],
+  [
+   "W7219743144",
+   2022
+  ],
+  [
+   "W4402068538",
+   2024
+  ],
+  [
+   "W4411060308",
+   2025
+  ],
+  [
+   "W4410372195",
+   2025
+  ],
+  [
+   "W4207066797",
+   2021
+  ]
+ ]
+}

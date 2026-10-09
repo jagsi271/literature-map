@@ -1,0 +1,115 @@
+{
+ "theme": "A16",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"night-time economy\" OR \"nighttime economy\" OR \"night-time city\" OR \"urban night\" OR nightlife) NOT (\"nighttime light\" OR \"night-time light\" OR \"night light\")) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"night-time economy\" OR \"nighttime economy\" OR \"night-time city\" OR \"urban night\" OR nightlife) NOT (\"nighttime light\" OR \"night-time light\" OR \"night light\")) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"night-time city\" OR \"night-time economy\" OR \"nighttime economy\" OR \"urban night\" OR \"nightlife\") NOT (\"night light\" OR \"night-time light\" OR \"nighttime light\"))",
+ "page": 2,
+ "total_results": 136,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_A16_india_q1_p2.json.gz",
+ "results": [
+  [
+   "W4386735628",
+   2023
+  ],
+  [
+   "W4386331127",
+   2023
+  ],
+  [
+   "W4386802421",
+   2023
+  ],
+  [
+   "W4386825804",
+   2023
+  ],
+  [
+   "W4386164494",
+   2023
+  ],
+  [
+   "W4386923511",
+   2023
+  ],
+  [
+   "W4387260719",
+   2023
+  ],
+  [
+   "W4386460962",
+   2023
+  ],
+  [
+   "W4386254901",
+   2023
+  ],
+  [
+   "W4297886112",
+   2022
+  ],
+  [
+   "W4388001699",
+   2023
+  ],
+  [
+   "W4387332655",
+   2023
+  ],
+  [
+   "W4386122181",
+   2023
+  ],
+  [
+   "W4387036266",
+   2023
+  ],
+  [
+   "W4386569862",
+   2023
+  ],
+  [
+   "W4387130344",
+   2023
+  ],
+  [
+   "W4386558186",
+   2023
+  ],
+  [
+   "W4387737660",
+   2023
+  ],
+  [
+   "W4386967366",
+   2023
+  ],
+  [
+   "W4386836467",
+   2023
+  ],
+  [
+   "W4386386866",
+   2023
+  ],
+  [
+   "W7208466909",
+   2026
+  ],
+  [
+   "W3158873135",
+   2021
+  ],
+  [
+   "W7123351808",
+   2026
+  ]
+ ]
+}

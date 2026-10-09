@@ -1,0 +1,91 @@
+{
+ "theme": "A3",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"affordable housing\" OR \"housing policy\" OR \"public housing\" OR \"social housing\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"affordable housing\" OR \"housing policy\" OR \"public housing\" OR \"social housing\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"affordable housing\" OR \"housing policy\" OR \"public housing\" OR \"social housing\"))",
+ "page": 2,
+ "total_results": 1552,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_A3_india_q3_p2.json.gz",
+ "results": [
+  [
+   "W2943175080",
+   2002
+  ],
+  [
+   "W2657831402",
+   2017
+  ],
+  [
+   "W2322239319",
+   2012
+  ],
+  [
+   "W3215898070",
+   2013
+  ],
+  [
+   "W2056326795",
+   2012
+  ],
+  [
+   "W7162508580",
+   2026
+  ],
+  [
+   "W4395464546",
+   2024
+  ],
+  [
+   "W2742159590",
+   2010
+  ],
+  [
+   "W4404051217",
+   2024
+  ],
+  [
+   "W3194512648",
+   1981
+  ],
+  [
+   "W7106021407",
+   2025
+  ],
+  [
+   "W3174313588",
+   2018
+  ],
+  [
+   "W4280630069",
+   2022
+  ],
+  [
+   "W7151413046",
+   2022
+  ],
+  [
+   "W7109122086",
+   2025
+  ],
+  [
+   "W4408850956",
+   2025
+  ],
+  [
+   "W3140788657",
+   2020
+  ],
+  [
+   "W3143448691",
+   2020
+  ]
+ ]
+}

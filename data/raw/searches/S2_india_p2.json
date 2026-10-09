@@ -1,0 +1,179 @@
+{
+ "theme": "S2",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "((\"politics of waiting\" OR waithood OR ((\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\") AND (station OR railway OR \"public transport\" OR transit OR bus OR bureaucracy OR state OR citizens))) OR (\"waiting for the state\" OR \"waiting for welfare\" OR \"paused citizens\" OR (waiting AND (bureaucracy OR bureaucrats OR citizenship OR welfare OR paperwork)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:((\"politics of waiting\" OR waithood OR ((\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\") AND (station OR railway OR \"public transport\" OR transit OR bus OR bureaucracy OR state OR citizens))) OR (\"waiting for the state\" OR \"waiting for welfare\" OR \"paused citizens\" OR (waiting AND (bureaucracy OR bureaucrats OR citizenship OR welfare OR paperwork)))) AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 40,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"paused citizens\" OR \"politics of waiting\" OR \"waiting for the state\" OR \"waiting for welfare\" OR \"waithood\" OR (\"waiting\" AND (\"bureaucracy\" OR \"bureaucrats\" OR \"citizenship\" OR \"paperwork\" OR \"welfare\")) OR ((\"public transport\" OR \"bureaucracy\" OR \"bus\" OR \"citizens\" OR \"railway\" OR \"state\" OR \"station\" OR \"transit\") AND (\"waiting room\" OR \"waiting rooms\" OR \"waiting time\" OR \"waiting times\"))))",
+ "page": 2,
+ "total_results": 743,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_S2_india_p2.json.gz",
+ "results": [
+  [
+   "W4407852323",
+   2025
+  ],
+  [
+   "W1972650793",
+   2012
+  ],
+  [
+   "W4411457196",
+   2025
+  ],
+  [
+   "W2890871721",
+   2018
+  ],
+  [
+   "W4407134076",
+   2025
+  ],
+  [
+   "W4409708970",
+   2025
+  ],
+  [
+   "W4285729999",
+   2022
+  ],
+  [
+   "W4391455465",
+   2023
+  ],
+  [
+   "W4285772821",
+   2022
+  ],
+  [
+   "W2570384179",
+   2016
+  ],
+  [
+   "W2316278301",
+   2002
+  ],
+  [
+   "W163454401",
+   2001
+  ],
+  [
+   "W3017307416",
+   2020
+  ],
+  [
+   "W7169669727",
+   2026
+  ],
+  [
+   "W4206024576",
+   2020
+  ],
+  [
+   "W3092369254",
+   2020
+  ],
+  [
+   "W3117721049",
+   2020
+  ],
+  [
+   "W4414778785",
+   2025
+  ],
+  [
+   "W3084226890",
+   2020
+  ],
+  [
+   "W4281830288",
+   2022
+  ],
+  [
+   "W2980618303",
+   2019
+  ],
+  [
+   "W2315749275",
+   2000
+  ],
+  [
+   "W3171771068",
+   2021
+  ],
+  [
+   "W7217859692",
+   2020
+  ],
+  [
+   "W2187649557",
+   2014
+  ],
+  [
+   "W4283793754",
+   2022
+  ],
+  [
+   "W4405202158",
+   2015
+  ],
+  [
+   "W7220613301",
+   2025
+  ],
+  [
+   "W4395046499",
+   2024
+  ],
+  [
+   "W651877237",
+   1981
+  ],
+  [
+   "W3035745289",
+   2019
+  ],
+  [
+   "W7212293936",
+   2026
+  ],
+  [
+   "W3112033451",
+   2020
+  ],
+  [
+   "W2241809271",
+   1990
+  ],
+  [
+   "W3185040666",
+   2019
+  ],
+  [
+   "W4414114072",
+   2025
+  ],
+  [
+   "W4406169384",
+   2025
+  ],
+  [
+   "W4406285101",
+   2025
+  ],
+  [
+   "W4285213359",
+   2022
+  ],
+  [
+   "W2670533104",
+   2017
+  ]
+ ]
+}

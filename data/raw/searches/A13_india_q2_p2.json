@@ -1,0 +1,91 @@
+{
+ "theme": "A13",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"world-class city\" OR \"world class city\" OR \"worlding cities\" OR \"global city making\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"world-class city\" OR \"world class city\" OR \"worlding cities\" OR \"global city making\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"global city making\" OR \"world class city\" OR \"world-class city\" OR \"worlding cities\"))",
+ "page": 2,
+ "total_results": 148,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_A13_india_q2_p2.json.gz",
+ "results": [
+  [
+   "W2894707734",
+   2018
+  ],
+  [
+   "W2518537965",
+   2016
+  ],
+  [
+   "W3202792262",
+   2021
+  ],
+  [
+   "W3134573279",
+   2011
+  ],
+  [
+   "W7215661672",
+   2020
+  ],
+  [
+   "W2972056375",
+   2015
+  ],
+  [
+   "W2400854199",
+   2016
+  ],
+  [
+   "W1542528250",
+   2014
+  ],
+  [
+   "W2611442836",
+   2016
+  ],
+  [
+   "W4409911160",
+   2025
+  ],
+  [
+   "W4413081212",
+   2025
+  ],
+  [
+   "W2997315074",
+   2019
+  ],
+  [
+   "W2343974249",
+   2016
+  ],
+  [
+   "W2912876649",
+   2013
+  ],
+  [
+   "W3082835838",
+   2020
+  ],
+  [
+   "W2609893596",
+   2015
+  ],
+  [
+   "W4251304737",
+   2020
+  ],
+  [
+   "W2602896483",
+   2017
+  ]
+ ]
+}

@@ -7,6 +7,7 @@ Usage:
 Decisions are appended to data/screening/manual_review.csv (reviewer = Claude, Stage 2).
 """
 import csv
+import os
 import re
 import sys
 from pathlib import Path
@@ -47,7 +48,7 @@ elif cmd == "add":
         wid, d, *note = line.split(" ", 2)
         assert wid in ids, f"{wid} not pending for {theme}"
         rows.append([wid, theme, {"i": "include", "e": "exclude"}[d],
-                     "Claude (manual review, Stage 2)", note[0] if note else ""])
+                     os.environ.get("REVIEWER", "Claude (manual review, Stage 2)"), note[0] if note else ""])
     with MR.open("a", newline="") as f:
         csv.writer(f).writerows(rows)
     print(f"added {len(rows)} decisions; still pending {len(ids) - len(rows)}")

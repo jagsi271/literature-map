@@ -1,0 +1,115 @@
+{
+ "theme": "B14",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"generative AI\" OR \"generative artificial intelligence\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"generative AI\" OR \"generative artificial intelligence\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 24,
+ "oql": "get works where retracted is (false)\n  and title-abstract has ((\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\") AND (\"generative AI\" OR \"generative artificial intelligence\"))",
+ "page": 2,
+ "total_results": 1944,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_B14_india_q1_p2.json.gz",
+ "results": [
+  [
+   "W7162678167",
+   2026
+  ],
+  [
+   "W7117481957",
+   2025
+  ],
+  [
+   "W7117361883",
+   2025
+  ],
+  [
+   "W7215846160",
+   2026
+  ],
+  [
+   "W4410619857",
+   2025
+  ],
+  [
+   "W4404643596",
+   2024
+  ],
+  [
+   "W7204888659",
+   2026
+  ],
+  [
+   "W7153617838",
+   2026
+  ],
+  [
+   "W4415244206",
+   2025
+  ],
+  [
+   "W7125370656",
+   2025
+  ],
+  [
+   "W4412167101",
+   2025
+  ],
+  [
+   "W4404663566",
+   2024
+  ],
+  [
+   "W7217722057",
+   2023
+  ],
+  [
+   "W7162286705",
+   2026
+  ],
+  [
+   "W7168166799",
+   2026
+  ],
+  [
+   "W4411259838",
+   2025
+  ],
+  [
+   "W4406020761",
+   2025
+  ],
+  [
+   "W7218203189",
+   2026
+  ],
+  [
+   "W4416010817",
+   2025
+  ],
+  [
+   "W7140811926",
+   2026
+  ],
+  [
+   "W4385340890",
+   2023
+  ],
+  [
+   "W7124250593",
+   2025
+  ],
+  [
+   "W7220319313",
+   2023
+  ],
+  [
+   "W4402773564",
+   2024
+  ]
+ ]
+}

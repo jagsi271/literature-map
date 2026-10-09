@@ -1,0 +1,8 @@
+set,name,home_theme,p,sample_n,global_all_raw,global_all_adj,global_core_raw,global_core_adj,india_all_raw,india_all_adj,india_core_raw,india_core_adj,haryana_all_raw,haryana_all_adj,haryana_core_raw,haryana_core_adj
+S1,Railway stations,A8,0.314,40,7207,2262,3564,1119,516,162,224,70,7,2,2,1
+S2,Waiting and waiting rooms,A16,0.02,40,9621,195,6404,130,384,8,206,4,8,0,4,0
+S3,Night-time transit and transit operating hours,A16,0.221,11,259,57,149,33,11,2,10,2,0,0,0,0
+S4,Fare integration and transit cards (incl. NCMC),C9,0.458,23,662,303,451,207,23,11,10,5,1,0,0,0
+S5,Rail-led urbanism and transit-oriented development,A2,0.546,40,488,267,304,166,120,66,66,36,5,3,4,2
+S6,Elevated rail and infrastructure undersides,A7,0.162,40,785,127,327,53,93,15,46,7,3,0,2,0
+S7,Haryana secondary cities (excluding Gurugram and Faridabad),A6,0.324,40,1196,387,391,127,,,,,1196,387,391,127

@@ -1,0 +1,91 @@
+{
+ "theme": "A3",
+ "slice": "india",
+ "stage": "stage2b",
+ "source": "OpenAlex API /works (IDs written from the response by scripts/run_search.py)",
+ "query": "(\"urban informality\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\")",
+ "mode": "exact",
+ "search_in": "title_and_abstract",
+ "filter": "title_and_abstract.search.exact:(\"urban informality\") AND (India OR Indian OR Delhi OR Mumbai OR Bombay OR Bangalore OR Bengaluru OR Chennai OR Kolkata OR Calcutta OR Hyderabad OR Pune OR Ahmedabad OR Gurgaon OR Gurugram OR Noida OR Haryana OR Kerala OR Bangladesh OR Dhaka OR Pakistan OR Karachi OR Lahore OR Nepal OR Kathmandu OR \"Sri Lanka\" OR Colombo OR Bhutan OR Maldives OR Afghanistan OR Kabul OR \"South Asia\" OR \"South Asian\"),is_retracted:false",
+ "sort": "relevance_score:desc",
+ "per_page": 18,
+ "oql": "get works where retracted is (false)\n  and title-abstract has (\"urban informality\" AND (\"Afghanistan\" OR \"Ahmedabad\" OR \"Bangalore\" OR \"Bangladesh\" OR \"Bengaluru\" OR \"Bhutan\" OR \"Bombay\" OR \"Calcutta\" OR \"Chennai\" OR \"Colombo\" OR \"Delhi\" OR \"Dhaka\" OR \"Gurgaon\" OR \"Gurugram\" OR \"Haryana\" OR \"Hyderabad\" OR \"India\" OR \"Indian\" OR \"Kabul\" OR \"Karachi\" OR \"Kathmandu\" OR \"Kerala\" OR \"Kolkata\" OR \"Lahore\" OR \"Maldives\" OR \"Mumbai\" OR \"Nepal\" OR \"Noida\" OR \"Pakistan\" OR \"Pune\" OR \"South Asia\" OR \"South Asian\" OR \"Sri Lanka\"))",
+ "page": 2,
+ "total_results": 138,
+ "retrieved": "2026-10-09",
+ "cache": "data/raw/api/search_A3_india_q2_p2.json.gz",
+ "results": [
+  [
+   "W4384397694",
+   2023
+  ],
+  [
+   "W2729661302",
+   2016
+  ],
+  [
+   "W4409444188",
+   2025
+  ],
+  [
+   "W1554540916",
+   2011
+  ],
+  [
+   "W1177857698",
+   2012
+  ],
+  [
+   "W3136368807",
+   2021
+  ],
+  [
+   "W2340005204",
+   2016
+  ],
+  [
+   "W2109432046",
+   2005
+  ],
+  [
+   "W2058318017",
+   2009
+  ],
+  [
+   "W7125515420",
+   2026
+  ],
+  [
+   "W4393952265",
+   2024
+  ],
+  [
+   "W4280599093",
+   2022
+  ],
+  [
+   "W4367360295",
+   2023
+  ],
+  [
+   "W4403768152",
+   2024
+  ],
+  [
+   "W4388552351",
+   2023
+  ],
+  [
+   "W7169656496",
+   2026
+  ],
+  [
+   "W7217881262",
+   2023
+  ],
+  [
+   "W1975778636",
+   2012
+  ]
+ ]
+}
